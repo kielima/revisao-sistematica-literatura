@@ -79,8 +79,7 @@ tags: [moc, indice, rsl]
 
 ## Relatórios de avaliação
 
-- Último: [[_AVALIACOES/AVALIACAO_2026-06-04]]
-- Histórico em `_AVALIACOES/`
+- Nenhum relatório ativo — o de 2026-06-04 foi removido em 2026-08-03 (pendências já resolvidas organicamente). Rodar a skill `avaliacao-vault` para gerar um novo.
 
 <!-- AUTO:END -->
 
@@ -106,6 +105,5 @@ Exemplos:
 
 - `PROMPT_RETOMADA_C6.md` é citado no `CLAUDE.md` mas o ficheiro não existe mais (nem na raiz, nem em `02_ARQUIVOS ANTERORES`) — referência órfã, ver nota na tabela de "Notas operacionais na raiz" do CLAUDE.md.
 - ~13 PNGs soltos na raiz (`tmp_fig_p*.png`, `arredondo_p*.png`, `chen2024d_fig4_*.png`, ~7 MB) — sobras de verificação visual de PDF, ainda não arquivados/removidos.
-- `_AVALIACOES/AVALIACAO_2026-06-04.md` está desatualizado (quase 2 meses) frente ao volume de mudanças da auditoria de dados.
 
 <!-- USER:END -->
