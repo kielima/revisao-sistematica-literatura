@@ -97,8 +97,15 @@ Exemplos:
 
 > Migrada da auto-memória do espaço para dentro do vault em 2026-06-21 (skill `dreaming`). Fonte canônica e portátil da memória de método da RSL. Índice: `claude/memoria/MEMORY.md`. Relatórios de consolidação: `claude/memoria/_dreams/`.
 
-- **Estado da triagem (C1–C8):** [[claude/memoria/rsl-estado-triagem]] — C1–C5 concluídos; **C6 ativo**.
+- **Estado da triagem (C1–C8):** [[claude/memoria/rsl-estado-triagem]] — ✅ **cascata C1–C8 concluída (2026-06-22)**, sem critério ativo. Fase atual é auditoria/correção pontual de dados, não continuação de critério.
+- **Auditoria de dados (2026-08-03):** funil real = 1.333 artigos Aceito em toda a cascata. Ver `PENDENCIAS_AUDITORIA_2026-07-12.md` (10 achados, 9 resolvidos, 1 pendente: linha 2897, PDF sem acesso).
 - Regras de critério: C5 ([[claude/memoria/rsl-c5-criterio]]), C4 ([[claude/memoria/rsl-c4-adendo-residuo-em-concreto]]), C2/C3 ([[claude/memoria/rsl-argamassa-revestimento-e-taipa]]).
 - Método: links CAPES, PDF ilegível, validação de rejeitados, marcação R:/P:, rastreio col 33.
+
+## ⚠️ Notas de organização pendentes (2026-08-03)
+
+- `PROMPT_RETOMADA_C6.md` é citado no `CLAUDE.md` mas o ficheiro não existe mais (nem na raiz, nem em `02_ARQUIVOS ANTERORES`) — referência órfã, ver nota na tabela de "Notas operacionais na raiz" do CLAUDE.md.
+- ~13 PNGs soltos na raiz (`tmp_fig_p*.png`, `arredondo_p*.png`, `chen2024d_fig4_*.png`, ~7 MB) — sobras de verificação visual de PDF, ainda não arquivados/removidos.
+- `_AVALIACOES/AVALIACAO_2026-06-04.md` está desatualizado (quase 2 meses) frente ao volume de mudanças da auditoria de dados.
 
 <!-- USER:END -->
