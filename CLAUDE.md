@@ -191,9 +191,7 @@ Preencher para todos os artigos com `P:Aceito` em C2. Formato descritivo: materi
 
 ## Último relatório de avaliação
 
-- **Arquivo:** [[_AVALIACOES/AVALIACAO_2026-06-04]]
-- **Score geral:** 7,5/10
-- **Propostas geradas:** ver relatório
+Nenhum — o relatório de 2026-06-04 foi removido em 2026-08-03 (todas as suas 5 pendências em aberto já haviam se resolvido organicamente; ver histórico de commits). Rodar a skill `avaliacao-vault` quando quiser um novo diagnóstico.
 
 <!-- AUTO:END -->
 
