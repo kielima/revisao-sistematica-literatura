@@ -10,7 +10,9 @@ Este repositório GitHub (`REVISÃO SISTEMÁTICA DE LITERATURA`) é um espelho d
 
 **Quando a tarefa exigir ler o conteúdo de um PDF específico** (ex.: continuar triagem C1–C8, extrair dados de LCA/CO₂, verificar um artigo citado), use o **conector do Google Drive** (ferramentas `mcp__*` de Drive — `search_files`, `read_file_content`, `download_file_content`) em vez de procurar o arquivo neste repositório. Ele lê o texto completo do PDF (testado e confirmado em 2026-08-03).
 
-**Caminho exato no Google Drive** (pasta ativa — há uma pasta duplicada mais antiga com o mesmo nome que **não** deve ser usada, contém só notas teóricas sem dados):
+**Atenção — existem duas pastas com o nome "REVISÃO SISTEMÁTICA DE LITERATURA" no Google Drive, com propósitos diferentes (não é duplicata acidental):**
+- Uma fica na área de **PESQUISA** e contém a **fundamentação teórica** sobre RSL como método (aula, conceitos, PICO, PRISMA genérico) — não tem os PDFs nem o banco de dados desta dissertação.
+- A pasta abaixo é a de **execução prática** desta RSL específica (dissertação UHPC) — é aqui que estão o banco de dados e os PDFs. **Use sempre esta para acessar os PDFs dos artigos.**
 
 ```
 REVISÃO SISTEMÁTICA DE LITERATURA/          (folder id: 1xwwyHNp9VCX1fc4855Ll8IkOAogm-_w5)
