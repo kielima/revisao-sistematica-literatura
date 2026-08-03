@@ -1,0 +1,10 @@
+- [Downloads na pasta BAIXADOS MANUALMENTE](kie-downloads-baixados-manualmente.md) — Kiê sempre baixa lá; Claude integra de lá (renomeia+move), nunca pede outra pasta
+- [Critérios C1–C8 verbatim](rsl-criterios-verbatim.md) — na triagem da RSL, citar a redação literal dos critérios, nunca parafrasear de memória
+- [Validação de PDF nos rejeitados](rsl-validacao-pdf-rejeitados.md) — todo P:Rejeitado leva nota explícita de validação do PDF (método de extração + se corrompido) nos comments
+- [Marcação R: vs P:](rsl-marcacao-R-vs-P.md) — título/resumo resolveu → corrige o R:; só usa P: quando leu o PDF completo; muda → nota nos comments
+- [PDF ilegível](rsl-pdf-ilegivel.md) — nenhum PDF pode ficar ilegível; resolver por OCR (pdf2image+tesseract) ou re-download antes de classificar
+- [Links CAPES](rsl-links-capes.md) — links de download SEMPRE no formato proxy CAPES (host reescrito + ez128 + página do artigo), nunca link direto do editor
+- [C4 adendo: resíduo em concreto](rsl-c4-adendo-residuo-em-concreto.md) — resíduo de setor off-topic usado p/ melhorar/substituir concreto = C4 Aceito; re-revisar os 228 pré-marcados; dúvida = perguntar
+- [Argamassa revestimento / taipa / cut-stone](rsl-argamassa-revestimento-e-taipa.md) — argamassa de revestimento=C2 Rej; taipa=C3 Aceito+pré-marca C6; cut-stone=C3 Aceito+pré-marca C6
+- [Critério C5 (CO2/GEE)](rsl-c5-criterio.md) — regra FINAL: aceite EXIGE valor numérico de CO2/GEE (menção qualitativa = rejeita); ler PDF inteiro (pdftotext), cuidado com valor em tabela/figura
+- [Coluna rastreio_potencial_futuro](rsl-coluna-rastreio-potencial.md) — col 33: marcar biocimento/fator_clinquer/aglomerante_alternativo/carbonatacao_captura/outra; biocimento standalone = C2 Rej + marca, aditivo em concreto = Aceito + marca
