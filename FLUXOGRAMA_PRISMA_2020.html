@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fluxograma PRISMA 2020 — RSL Emissões CO₂eq</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Calibri, 'Segoe UI', Arial, sans-serif;
+  font-size: 13px;
+  color: #1e1e1e;
+  background: #fff;
+  padding: 28px 32px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* ── Título ─────────────────────────────── */
+.title   { text-align:center; font-size:15px; font-weight:700; margin-bottom:3px; }
+.subtitle{ text-align:center; font-size:11.5px; color:#555; margin-bottom:18px; }
+
+/* ── Cabeçalhos das colunas ─────────────── */
+.headers {
+  display: grid;
+  grid-template-columns: 57% 43%;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.hdr {
+  font-weight:700; font-size:14.5px; text-align:center;
+  padding:8px 14px; border-radius:5px; line-height:1.4; color:#fff;
+}
+.hdr-teal { background:#3C7B75; }
+.hdr-gray { background:#888; }
+
+/* ── Layout principal (2 colunas) ────────── */
+.main-grid {
+  display: grid;
+  grid-template-columns: 57% 43%;
+  column-gap: 10px;
+  row-gap: 0;
+  align-items: start;
+  position: relative;   /* ancora o conector em L */
+}
+
+/* ── Boxes ───────────────────────────────── */
+.box  { border-radius:5px; padding:7px 10px; line-height:1.55; }
+.bt  { background:#EAF5F3; border:1.2px solid #97CECC; }   /* teal main  */
+.bts { background:#fff;    border:1.2px solid #97CECC; }   /* teal side  */
+.bg  { background:#F2F2F2; border:1.2px solid #C4C4C4; }   /* gray main  */
+.bgs { background:#fff;    border:1.2px solid #C4C4C4; }   /* gray side  */
+
+/* ── Seta horizontal (22 px de conector) ── */
+/*  Usada dentro de step-row (coluna central de 22 px)  */
+.arr-h { display:flex; align-items:center; height:100%; }
+.h-stem{ height:2px; flex:1; }
+.h-head{ width:0; height:0;
+         border-top:5px solid transparent;
+         border-bottom:5px solid transparent; }
+.teal .h-stem { background:#3C7B75; }
+.teal .h-head { border-left:8px solid #3C7B75; }
+.gray .h-stem { background:#888; }
+.gray .h-head { border-left:8px solid #888; }
+
+/* ── Seta vertical (usada em linhas de 20 px de altura) */
+.arr-v-inner {
+  display:flex; flex-direction:column; align-items:center;
+  justify-content:flex-start; width:100%; height:100%;
+}
+.v-stem{ width:2px; flex:1; }
+.v-head{ width:0; height:0;
+         border-left:5px solid transparent;
+         border-right:5px solid transparent; }
+.teal .v-stem { background:#3C7B75; }
+.teal .v-head { border-top:8px solid #3C7B75; }
+.gray .v-stem { background:#888; }
+.gray .v-head { border-top:8px solid #888; }
+
+/* ── Linha de passo (coluna esquerda):
+       [main-box | arr-h | side-box]         */
+.step-row {
+  display: grid;
+  grid-template-columns: 1fr 22px 1fr;
+  align-items: stretch;
+}
+
+/* ── Linha de seta-V (coluna esquerda):
+       A seta fica na col-1, cols 2-3 vazias  */
+.arr-v-row {
+  display: grid;
+  grid-template-columns: 1fr 22px 1fr;
+  height: 20px;
+}
+.arr-v-cell {          /* célula col-1: centra a seta horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* ── COLUNA DIREITA: grid explícito
+       Cada elemento recebe grid-column / grid-row nos atributos style.
+       Colunas: [main(1fr)] [arr-h(22px)] [side(1fr)]
+       Linhas:  [D1] [V-arr] [D2] [V-arr] [D3]           */
+.right-grid {
+  display: grid;
+  grid-template-columns: 1fr 22px 1fr;
+  grid-template-rows: auto 20px auto 20px auto;
+  /* As linhas crescem com o conteúdo; as linhas de seta são fixas em 20px */
+}
+/* Célula de seta vertical no right-grid */
+.rv-cell {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* ── Seta de convergência ────────────────── */
+.arr-converge {
+  display: flex;
+  justify-content: center;
+  height: 22px;
+  margin: 4px 0 2px;
+}
+
+/* ── Boxes inferiores (largura total) ─────── */
+.box-bottom {
+  background:#EAF5F3;
+  border:1.5px solid #97CECC;
+  border-radius:6px;
+  padding:9px 18px;
+  text-align:center;
+  line-height:1.65;
+}
+.arr-v-between {               /* seta entre os dois boxes finais */
+  display:flex; justify-content:center;
+  height:20px; margin:0;
+}
+
+/* ── Helpers de texto ────────────────────── */
+b       { font-weight:700; }
+.sm     { font-size:11.5px; color:#555; display:block; margin-top:2px; line-height:1.45; }
+.pending{ color:#C05010; font-style:italic; }
+.fnref  { color:#C05010; font-size:9.5px; vertical-align:super; }
+
+/* ── Notas de rodapé ─────────────────────── */
+.footnotes {
+  margin-top:14px; padding-top:9px;
+  border-top:1px solid #ddd;
+  font-size:11px; color:#555; line-height:1.65;
+}
+.source { text-align:center; font-size:11px; color:#777; margin-top:8px; }
+
+@media print { body { padding:14px 18px; } }
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════════════════
+     TÍTULO
+═════════════════════════════════════ -->
+<p class="title">Figura 8 – Fluxograma PRISMA 2020</p>
+<p class="subtitle">RSL: Emissões de CO₂eq em Materiais Cimentícios Estruturais &nbsp;·&nbsp;
+  Kiê L. Yamamoto &nbsp;·&nbsp; PUC-Campinas, 2026</p>
+
+<!-- ════════════════════════════════════
+     CABEÇALHOS DAS COLUNAS
+═════════════════════════════════════ -->
+<div class="headers">
+  <div class="hdr hdr-teal">Identificação de novos estudos<br>via bases de dados e repositórios</div>
+  <div class="hdr hdr-gray">Identificação de novos estudos por outros métodos</div>
+</div>
+
+<!-- ════════════════════════════════════
+     CORPO PRINCIPAL  (main-grid)
+═════════════════════════════════════ -->
+<div class="main-grid">
+
+  <!-- ══════════════════════════════
+       COLUNA ESQUERDA
+  ══════════════════════════════ -->
+  <div>
+
+    <!-- E1: Registros identificados  +  Removidos antes da triagem -->
+    <div class="step-row">
+      <div class="box bt">
+        <b>Registros identificados de:<sup class="fnref">a</sup></b><br>
+        Bases de dados (n =&nbsp;<b>5.093</b>)<br>
+        <span class="sm">
+          Web of Science: 1.917<br>
+          Scopus: 1.427<br>
+          Engineering Village: 763<br>
+          MDPI: 475<br>
+          Science Direct: 411<br>
+          BDTD: 72<br>
+          SciELO: 28
+        </span>
+        Repositórios de registros (n =&nbsp;<b>0</b>)
+      </div>
+      <div class="arr-h teal"><div class="h-stem"></div><div class="h-head"></div></div>
+      <div class="box bts">
+        <b>Registros removidos antes da triagem:</b><br>
+        Registros duplicados removidos (n =&nbsp;<b>2.551</b>)<br>
+        Registros marcados como não elegíveis por ferramentas
+        de automação (n =&nbsp;<b>0</b>)<br>
+        Registros removidos por outros motivos (n =&nbsp;<b>0</b>)
+      </div>
+    </div>
+
+    <!-- seta V  E1 → E2 -->
+    <div class="arr-v-row teal">
+      <div class="arr-v-cell">
+        <div class="arr-v-inner"><div class="v-stem"></div><div class="v-head"></div></div>
+      </div>
+    </div>
+
+    <!-- E2: Registros triados  +  Excluídos -->
+    <div class="step-row">
+      <div class="box bt">
+        <b>Registros triados</b> (n =&nbsp;<b>2.542</b>)
+      </div>
+      <div class="arr-h teal"><div class="h-stem"></div><div class="h-head"></div></div>
+      <div class="box bts">
+        <b>Registros excluídos<sup class="fnref">¹</sup></b>
+        (n =&nbsp;<b>2.369</b>)<br>
+        <span class="sm">Não atenderam critérios do protocolo na triagem de
+          títulos e resumos (N8N + LLM Gemini 2.0 Flash)</span>
+      </div>
+    </div>
+
+    <!-- seta V  E2 → E3 -->
+    <div class="arr-v-row teal">
+      <div class="arr-v-cell">
+        <div class="arr-v-inner"><div class="v-stem"></div><div class="v-head"></div></div>
+      </div>
+    </div>
+
+    <!-- E3: Publicações recuperadas  +  Não recuperadas -->
+    <div class="step-row">
+      <div class="box bt">
+        <b>Publicações recuperadas</b> (n =&nbsp;<b>173</b>)
+      </div>
+      <div class="arr-h teal"><div class="h-stem"></div><div class="h-head"></div></div>
+      <div class="box bts">
+        <b>Publicações não recuperadas<sup class="fnref">b</sup></b>
+        (n =&nbsp;<b>0</b>)<br>
+        <span class="sm">Filtro de acesso aberto aplicado em todas as bases
+          no momento da coleta</span>
+      </div>
+    </div>
+
+    <!-- seta V  E3 → E4 -->
+    <div class="arr-v-row teal">
+      <div class="arr-v-cell">
+        <div class="arr-v-inner"><div class="v-stem"></div><div class="v-head"></div></div>
+      </div>
+    </div>
+
+    <!-- E4: Avaliadas para elegibilidade  +  Excluídas -->
+    <div class="step-row">
+      <div class="box bt">
+        <b>Publicações avaliadas para elegibilidade</b>
+        (n =&nbsp;<b>173</b>)<sup class="fnref">³</sup>
+      </div>
+      <div class="arr-h teal"><div class="h-stem"></div><div class="h-head"></div></div>
+      <div class="box bts">
+        <b>Publicações excluídas:</b><br>
+        Critérios de elegibilidade E1–E7<sup class="fnref">³</sup>
+        (n =&nbsp;<b>99</b>)<br>
+        <span class="sm">
+          E1 — anterior a 2006: <b>0</b><br>
+          E2 — sem dados de CO₂eq: <b>15</b><br>
+          E3 — sem ACV/metodologia LCA: <b>0</b><br>
+          E4 — material não-cimentício: <b>15</b><br>
+          E5 — sem aplicação estrutural: <b>19</b><br>
+          E6 — sem fck ou resistência à compressão: <b>42</b><br>
+          E7 — contexto estritamente regional: <b>0</b><br>
+          REV — revisão sem dados primários próprios: <b>8</b>
+        </span>
+      </div>
+    </div>
+
+
+  </div><!-- /coluna-esquerda -->
+
+
+  <!-- ══════════════════════════════
+       COLUNA DIREITA
+       Grid explícito: cada elemento
+       ocupa uma célula definida.
+       Col 1 = main  |  Col 2 = arr-h  |  Col 3 = side
+       Linha 1 = D1  |  Linha 2 = V-arr  |  Linha 3 = D2
+       Linha 4 = V-arr  |  Linha 5 = D3
+  ══════════════════════════════ -->
+  <div class="right-grid">
+
+    <!-- D1: Registros identificados em (ocupa toda a largura → col 1 a 3) -->
+    <div class="box bg" style="grid-column:1 / -1; grid-row:1;">
+      <b>Registros identificados em:<sup class="fnref">c</sup></b><br>
+      Sites (n =&nbsp;<b>0</b>)<br>
+      Organizações (n =&nbsp;<b>0</b>)<br>
+      Buscas por citações (n =&nbsp;<b>1</b>) — CELIK et al. (2015), nas referências de COELHO (2016)<br>
+      Comunicação pessoal (n =&nbsp;<b>1</b>) — HABERT et al. (2012), indicado por Belizário Silva
+      <span class="sm">Rastreamento de fontes externas <b>concluído</b> em 2026-05-22:
+        16 revisões avaliadas → 15 RECUSADAS (E1–E7) → 174 candidatos removidos;
+        1 revisão ACEITA (COELHO, 2016) → 1 candidato incorporado (CELIK).
+        Adicionalmente, 1 estudo recomendado por comunicação pessoal (HABERT).</span>
+    </div>
+
+    <!-- seta V D1 → D2  (col 1, linha 2) -->
+    <div class="rv-cell gray" style="grid-column:1; grid-row:2;">
+      <div class="arr-v-inner"><div class="v-stem"></div><div class="v-head"></div></div>
+    </div>
+    <!-- cols 2-3 linha 2 ficam vazias por omissão -->
+
+    <!-- D2 main  (col 1, linha 3) -->
+    <div class="box bg" style="grid-column:1; grid-row:3;">
+      <b>Publicações recuperadas</b><br>(n =&nbsp;<b>2</b>)
+    </div>
+    <!-- arr-h D2  (col 2, linha 3) -->
+    <div class="arr-h gray" style="grid-column:2; grid-row:3;">
+      <div class="h-stem"></div><div class="h-head"></div>
+    </div>
+    <!-- D2 side  (col 3, linha 3) -->
+    <div class="box bgs" style="grid-column:3; grid-row:3;">
+      <b>Publicações não recuperadas</b><br>(n =&nbsp;<b>0</b>)
+    </div>
+
+    <!-- seta V D2 → D3  (col 1, linha 4) -->
+    <div class="rv-cell gray" style="grid-column:1; grid-row:4;">
+      <div class="arr-v-inner"><div class="v-stem"></div><div class="v-head"></div></div>
+    </div>
+
+    <!-- D3 main  (col 1, linha 5) -->
+    <div id="d3-main" class="box bg" style="grid-column:1; grid-row:5;">
+      <b>Publicações avaliadas<br>para elegibilidade</b><br>(n =&nbsp;<b>2</b>)
+    </div>
+    <!-- arr-h D3  (col 2, linha 5) -->
+    <div class="arr-h gray" style="grid-column:2; grid-row:5;">
+      <div class="h-stem"></div><div class="h-head"></div>
+    </div>
+    <!-- D3 side  (col 3, linha 5) -->
+    <div class="box bgs" style="grid-column:3; grid-row:5;">
+      <b>Publicações excluídas:</b><br>
+      (n =&nbsp;<b>0</b>)<br>
+      <span class="sm">CELIK et al. (2015) e HABERT et al. (2012) — aprovados nos critérios E1–E7; encaminhados para a etapa de análise de qualidade no card de convergência.</span>
+    </div>
+
+  </div><!-- /coluna-direita -->
+
+  <!-- ════════════════════════════════════
+       SETA VERTICAL  E4 → "Novos estudos"  (col 1 apenas)
+  ═════════════════════════════════════ -->
+  <div class="arr-v-row teal" style="grid-column:1;">
+    <div class="arr-v-cell">
+      <div class="arr-v-inner"><div class="v-stem"></div><div class="v-head"></div></div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════
+       "NOVOS ESTUDOS"  (col 1 apenas; a seta de convergência ← é desenhada
+        pelo script abaixo usando as posições reais de D3 e desta caixa)
+  ═════════════════════════════════════ -->
+  <div class="step-row" style="grid-column:1;">
+    <div id="novos-box" class="box-bottom">
+      <b>Estudos elegíveis (E1–E7 aprovados)</b> (n =&nbsp;<b>76</b>)<sup class="fnref">³</sup><br>
+      <span class="sm" style="text-align:left; display:block;">
+        Via bases: <b>74</b><br>
+        Via fontes externas: <b>2</b> (CELIK, HABERT)<br>
+        Com checklist de qualidade<sup class="fnref">²</sup>: <b>76</b><br>
+        Aprovados ≥ 4,0 pts: <b>69</b><br>
+        Excluídos por qualidade: <b>7</b>
+      </span>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════
+       SETA VERTICAL  entre boxes finais  (col 1 apenas)
+  ═════════════════════════════════════ -->
+  <div class="arr-v-row teal" style="grid-column:1;">
+    <div class="arr-v-cell">
+      <div class="arr-v-inner"><div class="v-stem"></div><div class="v-head"></div></div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════
+       "TOTAL DE ESTUDOS"  (col 1 apenas, mesma largura dos boxes E1-E4)
+  ═════════════════════════════════════ -->
+  <div class="step-row" style="grid-column:1;">
+    <div class="box-bottom">
+      <b>Total de estudos incluídos na síntese</b> (n =&nbsp;<b>69</b>)<sup class="fnref">³</sup><br>
+      <span class="sm" style="text-align:left; display:block; margin-top:5px;">
+        Síntese quantitativa (com c<sub>i</sub> calculável): <b>69</b>
+      </span>
+    </div>
+  </div>
+
+</div><!-- /main-grid -->
+
+
+<!-- ════════════════════════════════════
+     FONTE + NOTAS
+═════════════════════════════════════ -->
+<p class="source">Fonte: Autoria própria, com base em Page et al. (2021).</p>
+
+<div class="footnotes">
+  <p><sup>a</sup>&nbsp; Buscas executadas em 15 de abril de 2025, com filtros de recorte temporal
+     (≥ 2006, vigência da ISO 14040) e acesso aberto aplicados em todas as sete bases.</p>
+  <p><sup>b</sup>&nbsp; Não há publicações não recuperadas porque o filtro de acesso aberto foi
+     aplicado como critério nativo na coleta — requisito para extração de dados em texto completo.</p>
+  <p><sup>c</sup>&nbsp; <b>Fontes externas (n = 2)</b>: (i) CELIK et al. (2015) — <em>Mechanical
+     properties, durability, and life-cycle assessment of self-consolidating concrete mixtures made
+     with blended portland cements containing fly ash and limestone powder.</em>
+     Cement and Concrete Composites. DOI:&nbsp;10.1016/j.cemconcomp.2014.11.003. Identificado nas
+     referências de COELHO (2016). (ii) HABERT et al. (2012) — <em>Reducing environmental impact by
+     increasing the strength of concrete: quantification of the improvement to concrete bridges.</em>
+     Journal of Cleaner Production. DOI:&nbsp;10.1016/j.jclepro.2012.05.028. Indicado por
+     Belizário Silva (comunicação pessoal). Rastreamento das 16 revisões ACEITAS no protocolo
+     <b>concluído</b> em 2026-05-22: 15 revisões RECUSADAS pelos critérios E1–E7 (seus 174 candidatos
+     removidos); 1 ACEITA (COELHO, 2016) contribuiu com CELIK. Ambas as fontes externas foram
+     aprovadas nos critérios E1–E7 e seguiram para a análise de qualidade no card de convergência:
+     <b>CELIK (2015) foi incorporado</b> ao banco como 13 misturas M1–M13; <b>HABERT (2012) foi
+     excluído na análise de qualidade</b> por UF incompatível (sistema de ponte; resultados em %
+     relativa) — mantido apenas como referência bibliográfica no texto.</p>
+  <p><sup>¹</sup>&nbsp; Valor derivado (2.542 − 173 = 2.369). <b>Atenção:</b> o texto da dissertação
+     (v15, Seção 3.1.7) usa <b>175</b> como número de publicações recuperadas — número que não tem
+     correspondência no banco-origem da triagem (<code>03_ARTIGOS ACEITOS DA RSL/00_BD ARTIGOS
+     ACEITOS.xlsx</code>) nem no acervo de PDFs (173 arquivos). A auditoria de 2026-05-22 estabeleceu
+     que o valor correto é <b>173</b>; o "175" da v15 é provavelmente erro de transcrição e deve ser
+     corrigido na próxima revisão do texto, junto com a frase ambígua "175 registros foram excluídos…
+     os 175 registros restantes foram avaliados em texto completo" que usa o mesmo valor com sentidos
+     opostos.</p>
+  <p><sup>²</sup>&nbsp; Aplicação da análise de qualidade aos <b>76</b> estudos elegíveis (74 via bases
+     + 2 via fontes externas — CELIK e HABERT): <b>69</b> atingiram o limiar do checklist Q1–Q6
+     (escala 0–1 pt, corte ≥ 4,0 pts) e foram incluídos; <b>7</b> foram excluídos por insuficiência
+     metodológica, sendo 6 pelo checklist Q1–Q6 (&lt; 4,0 pts) e 1 por UF incompatível
+     (HABERT — sistema de ponte; resultados em % relativa, mantido apenas como referência
+     bibliográfica no texto).</p>
+  <p><sup>³</sup>&nbsp; <b>Auditoria PRISMA aplicada em 2026-05-22 — unidade: estudos únicos.</b>
+     Os 173 estudos recuperados via bases (confirmados por correspondência 1:1 entre o banco-origem
+     <code>00_BD ARTIGOS ACEITOS.xlsx</code> e os PDFs efetivamente arquivados em
+     <code>03_ARTIGOS ACEITOS DA RSL/</code>) foram avaliados pelos critérios de exclusão explícitos
+     (E1: anterior a 2006; E2: sem dados de CO₂eq; E3: sem ACV; E4: material não-cimentício;
+     E5: sem aplicação estrutural; E6: sem fck ou resistência à compressão; E7: contexto estritamente
+     regional). Resultado: 99 RECUSADOS e 74 ACEITOS via bases. Somados aos 2 estudos via fontes
+     externas (CELIK e HABERT, ambos aprovados em E1–E7), totalizam <b>76 elegíveis</b>. A exclusão
+     de HABERT et al. (2012) por UF incompatível ocorreu na <b>etapa de análise de qualidade</b>
+     (card de convergência): a unidade funcional (sistema de ponte inteiro) é incompatível com m³
+     de concreto e os resultados são expressos em valores relativos (%), inviabilizando o cômputo
+     de c<sub>i</sub>; HABERT é mantido apenas como referência bibliográfica no texto. A aba ARTIGOS
+     ACEITOS do banco contém 187 linhas físicas (75 estudos únicos ACEITO + 99 RECUSADO únicos + 13
+     linhas de CELIK M1–M13 tabuladas individualmente para extração de dados).</p>
+</div>
+
+<script>
+/* ──────────────────────────────────────────────────────────────────
+   Conector em L:  D3 ("Publicações avaliadas…", coluna direita)
+                   → "Novos estudos incluídos na revisão"
+   Caminho: desce da borda inferior-esquerda de D3 até o centro
+            vertical da caixa "Novos estudos", depois vai à esquerda
+            até a borda direita dessa caixa.
+   Usa posicionamento absoluto dentro de .main-grid (position:relative).
+────────────────────────────────────────────────────────────────── */
+window.addEventListener('load', function () {
+  var d3box   = document.getElementById('d3-main');
+  var novos   = document.getElementById('novos-box');
+  var grid    = document.querySelector('.main-grid');
+  if (!d3box || !novos || !grid) return;
+
+  var color = '#3C7B75';
+  var sw    = 2;   /* espessura da linha em px */
+
+  function draw() {
+    /* Remove conectores anteriores (para redimensionamento) */
+    ['conv-vline','conv-hline','conv-head'].forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) el.parentNode.removeChild(el);
+    });
+
+    var gR  = grid.getBoundingClientRect();
+    var d3R = d3box.getBoundingClientRect();
+    var nR  = novos.getBoundingClientRect();
+
+    /* ── Ponto de partida: centro-inferior de D3 ── */
+    var startX = (d3R.left + d3R.right) / 2 - gR.left;
+    var startY = d3R.bottom - gR.top;
+
+    /* ── Ponto de chegada: centro-direito de "Novos estudos"
+          A ponteira fica FORA da caixa (tip = borda direita) ── */
+    var tipX   = nR.right  - gR.left;           /* ponta ◀ encosta na borda direita */
+    var flatX  = tipX + 8;                       /* lado reto da ponteira, à direita */
+    var endY   = nR.top + nR.height / 2 - gR.top;
+
+    /* ── Trecho vertical: desce do centro-inferior de D3 até endY ── */
+    var vLine = document.createElement('div');
+    vLine.id = 'conv-vline';
+    Object.assign(vLine.style, {
+      position  : 'absolute',
+      left      : (startX - sw / 2) + 'px',
+      top       : startY + 'px',
+      width     : sw + 'px',
+      height    : Math.max(0, endY - startY) + 'px',
+      background: color,
+      pointerEvents: 'none'
+    });
+    grid.appendChild(vLine);
+
+    /* ── Trecho horizontal: do lado-reto da ponteira até o trecho vertical ── */
+    var hLine = document.createElement('div');
+    hLine.id = 'conv-hline';
+    Object.assign(hLine.style, {
+      position  : 'absolute',
+      left      : flatX + 'px',
+      top       : (endY - sw / 2) + 'px',
+      width     : Math.max(0, startX - flatX) + 'px',
+      height    : sw + 'px',
+      background: color,
+      pointerEvents: 'none'
+    });
+    grid.appendChild(hLine);
+
+    /* ── Ponteira ◀: tip encosta na borda direita da caixa (fora dela) ── */
+    var head = document.createElement('div');
+    head.id = 'conv-head';
+    Object.assign(head.style, {
+      position    : 'absolute',
+      left        : tipX + 'px',          /* ponta da seta na borda direita */
+      top         : (endY - 5) + 'px',
+      width       : '0',
+      height      : '0',
+      borderTop   : '5px solid transparent',
+      borderBottom: '5px solid transparent',
+      borderRight : '8px solid ' + color, /* ◀ aponta para a esquerda */
+      pointerEvents: 'none'
+    });
+    grid.appendChild(head);
+  }
+
+  draw();
+  window.addEventListener('resize', draw);
+});
+</script>
+
+</body>
+</html>
