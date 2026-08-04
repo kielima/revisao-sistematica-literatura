@@ -6,6 +6,7 @@
 - [Links CAPES](rsl-links-capes.md) — links de download SEMPRE no formato proxy CAPES (host reescrito + ez128 + página do artigo), nunca link direto do editor
 - [C4 adendo: resíduo em concreto](rsl-c4-adendo-residuo-em-concreto.md) — resíduo de setor off-topic usado p/ melhorar/substituir concreto = C4 Aceito; re-revisar os 228 pré-marcados; dúvida = perguntar
 - [Argamassa revestimento / taipa / cut-stone](rsl-argamassa-revestimento-e-taipa.md) — argamassa de revestimento=C2 Rej; taipa=C3 Aceito+pré-marca C6; cut-stone=C3 Aceito+pré-marca C6
+- [C3: bloco/tijolo de material aceito](rsl-c3-bloco-material-aceito.md) — bloco/tijolo de terra/solo-cimento/geopolímero não é rejeitado automaticamente em C3; distinguir prensado sob demanda (Aceito) de produto de catálogo padronizado (Rejeitado)
 - [Critério C5 (CO2/GEE)](rsl-c5-criterio.md) — regra FINAL (Opção A, 2026-06-15): aceite = QUALQUER menção a LCA/CO2/GHG/GWP com qualquer resultado; rejeita só se o PDF inteiro (texto+figuras) não tiver nenhuma menção; ler 100% das páginas antes de rejeitar
 - [Coluna rastreio_potencial_futuro](rsl-coluna-rastreio-potencial.md) — col 33: marcar biocimento/fator_clinquer/aglomerante_alternativo/carbonatacao_captura/outra; biocimento standalone = C2 Rej + marca, aditivo em concreto = Aceito + marca
 - [Estado da triagem por PDF (C1–C8)](rsl-estado-triagem.md) — cascata C1-C8 CONCLUÍDA (2026-06-22, C7 removido); nenhum critério ativo; funil real pós-auditoria (2026-08-03) = 1.333 Aceito; fonte canônica = RSL_PROGRESSO.md + PENDENCIAS_AUDITORIA_2026-07-12.md
