@@ -15,7 +15,9 @@ ultima_atualizacao: 2026-06-21
 
 ## ♻️ REFAZENDO A RSL — Triagem por PDF (iniciado em 2026-06-05)
 
-> A RSL está sendo refeita. A triagem anterior foi feita por resumo (prefixo `R:`). A nova etapa aplica os mesmos critérios C1–C8 usando as **primeiras 2 páginas do PDF** de cada artigo (prefixo `P:`), para Elegíveis e Inconclusivos.
+> A RSL está sendo refeita. A triagem anterior foi feita por resumo (prefixo `R:`). A nova etapa aplica os mesmos critérios C1–C8 usando o **corpo do PDF** de cada artigo (prefixo `P:`), para Elegíveis e Inconclusivos.
+>
+> **⭐ Correção 2026-08-03 (Kiê):** o padrão de leitura passou de "primeiras 2 páginas" para **primeiras 5 páginas do corpo do artigo** (desconsiderando resumo/título); se não bastar, continuar lendo até decidir. Além disso, ficou reconfirmado que **`R:` nunca é uma decisão final** — mesmo quando título/resumo "parecem" resolver um critério, a linha só é considerada triada quando o critério tem `P:`. Uma nota de memória anterior (2026-06-06) permitia o contrário; foi corrigida. Ver `claude/memoria/rsl-marcacao-R-vs-P.md`.
 
 ### Snapshot pré-triagem-PDF (estado da triagem por resumo — 2026-06-05)
 
