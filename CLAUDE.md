@@ -170,9 +170,9 @@ Padrão: `SOBRENOME et al., ANO.pdf` (sem caracteres especiais: ç→c, ã→a, 
 **PAT regex (pdftotext):** lca|life.cycle.assess|carbon.footprint|embodied.carbon|gwp|global.warming.potential|co2.eq|co2eq|kgco2|greenhouse.gas|ghg|carbon.emission|climate.change|co2|embodied.emission|carbon.intensi|low.carbon
 ## Regras operacionais (sempre vigentes)
 
-- **Indicador correto:** progresso medido por presença de `P:` nas células (P:Aceito / P:Rejeitado), NÃO por ter qualquer conteúdo. Células com apenas `R:` são consideradas não triadas.
+- **⭐ Indicador correto (reconfirmado 2026-08-03, corrige nota conflitante de 2026-06-06):** progresso medido por presença de `P:` nas células (P:Aceito / P:Rejeitado), NÃO por ter qualquer conteúdo. **Células com apenas `R:` são consideradas NÃO triadas, mesmo que título/resumo pareçam suficientes para decidir.** Toda linha `R:Aceito` precisa ser confirmada com `P:` antes de ser considerada definitiva — não é permitido aceitar um critério só com base em título/resumo. Uma nota anterior (`claude/memoria/rsl-marcacao-R-vs-P.md`, sessão 2026-06-06) permitia manter `R:` quando "título/resumo resolvia" — **essa permissão foi revogada pela Kiê em 2026-08-03**; a nota de memória foi corrigida.
 - **Verificação PDF × artigo:** para **cada artigo** do lote, conferir título e primeiro autor na primeira página do PDF antes de avaliar. Obrigatório, sem exceção.
-- **Páginas extras:** avaliar pelas primeiras 2 páginas por padrão. Se não for suficiente para decidir o critério, ler páginas adicionais até ter informação suficiente.
+- **⭐ Páginas a ler (reconfirmado 2026-08-03):** desconsiderar resumo/título — ler as **primeiras 5 páginas do corpo do artigo**. Se essas 5 páginas não forem suficientes para decidir `P:Aceito` ou `P:Rejeitado`, continuar lendo até conseguir decidir. (Substitui a orientação anterior de "primeiras 2 páginas".)
 - **Colisões de PDF:** nunca pular. Claude para, reporta DOI/título/autor e aguarda a Kiê baixar o PDF correto antes de continuar essa linha.
 - **Parar entre critérios:** ao concluir um critério, parar e aguardar confirmação da Kiê antes de iniciar o próximo.
 - **Lotes de 50 artigos:** salvar e reportar ao final de cada lote.
