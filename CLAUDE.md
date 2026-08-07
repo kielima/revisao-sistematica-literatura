@@ -42,11 +42,11 @@ O Excel `articles_final.xlsx` (versionado neste repo) também é mantido sincron
 - **PDFs de artigos:** 1.798 (em `00_REFERENCIAS/ARTIGOS ACEITOS APÓS REMOÇÃO DAS DUPLICATAS/`)
 - **Banco principal:** `articles_final.xlsx` — 5.093 entradas, coluna `pdf` com caminhos/hyperlinks
 - **Metodologia:** Zettelkasten + MOCs + frontmatter (aplicado às notas de metodologia estatística; notas operacionais não seguem o padrão)
-- **Última varredura:** 2026-06-04 pela skill `avaliacao-critica-vault`
-- **Downloads:** ✅ CONCLUÍDO (2026-06-05) — 480/480 Elegíveis com PDF; 68 Sem acesso
-- **Triagem PDF:** C1 ✅ C2 ✅ C3 ✅ C4 ✅ C5 ✅ C6 ✅ (concluído 2026-06-21: 1.488 Aceito + 8 Rejeitado) | ~~C7 REMOVIDO (2026-06-22)~~ | C8 ✅ (concluído 2026-06-22: 1.337 Aceito + 2 Rejeitado)
-- **C5 resultado:** P:Aceito = 1.505 | P:Rejeitado = 43
-- **Universo C6 LIMPO (2026-06-21):** 1.488 (na cascata Elegível/Inconclusivo + C5=P:Aceito + sem rejeição anterior por PDF). Pendentes ao iniciar Lote 3 = 1.103. ⚠️ O número "1.505" do C5 incluía falsos-positivos sem PDF/fora-da-cascata — ver seção "Correções de base 2026-06-21".
+- **Última varredura de organização:** 2026-06-04 pela skill `avaliacao-critica-vault` — desatualizada (não cobre a auditoria de dados abaixo); nenhuma rodada nova da skill desde então.
+- **Downloads:** ✅ CONCLUÍDO (2026-06-05) — 480/480 Elegíveis com PDF; 60 Sem acesso (era 68 até 2026-08-03; 7 resolvidos na auditoria, 1 seguiu rejeitado por outro motivo).
+- **Triagem PDF:** C1 ✅ C2 ✅ C3 ✅ C4 ✅ C5 ✅ C6 ✅ | ~~C7 REMOVIDO (2026-06-22)~~ | C8 ✅ — cascata fechada desde 2026-06-22. Os totais "Aceito/Rejeitado" registrados durante a execução original de cada critério (jun/2026) ficaram levemente desatualizados por correções pontuais linha-a-linha feitas em jul–ago/2026; não recalcular a partir deles sem checar a auditoria abaixo.
+- **✅ Estado real pós-auditoria (verificado em 2026-08-03 via script openpyxl):** **1.333 artigos** com C1–C6 e C8 = Aceito em toda a cascata (o funil "definitivo" da RSL hoje). `status_triagem`: Duplicado 2.621 | Inconclusivo 1.066 | Rejeitado 963 | Elegível 383 | Sem acesso 60.
+- **Auditoria de qualidade dos dados (12/07/2026 → 03/08/2026):** ✅ CONCLUÍDA — ver `PENDENCIAS_AUDITORIA_2026-07-12.md`. 10 achados (cascata quebrada, C8 sem prefixo `R:`/`P:`, 596 resíduos de C7, linhas "Sem acesso" com PDF já disponível, status_triagem dessincronizado de decisões já tomadas por PDF etc.) — todos resolvidos, exceto **1 pendência em aberto**: linha 2897 (di Summa et al., 2023, *Structural Concrete*, DOI `10.1002/suco.202300645`) aguardando acesso ao PDF via biblioteca institucional da Kiê.
 
 ## Como navegar economizando tokens
 
@@ -69,7 +69,8 @@ Hierarquia recomendada:
 
 | Nota | Propósito |
 |---|---|
-| `RSL_PROGRESSO.md` | Estado atual: contagens PRISMA, downloads, TODOs |
+| `RSL_PROGRESSO.md` | Estado atual: contagens PRISMA, downloads, TODOs (⚠️ última entrada datada é 2026-06-22 — para o estado real da triagem por PDF, ver bullet "Estado real pós-auditoria" acima) |
+| `PENDENCIAS_AUDITORIA_2026-07-12.md` | Auditoria de qualidade de dados do funil C1-C8 — concluída 2026-08-03, 1 pendência aberta (linha 2897) |
 | `DOWNLOAD_MANUAL.html` | ~~Apagado~~ — download concluído (2026-06-05) |
 | `DOWNLOAD_LESSONS_LEARNED.md` | Documentação de lições aprendidas no processo de download |
 | `RELATORIO_VERIFICACAO_BD_RSL.md` | Relatório de verificação do banco de dados |
@@ -78,7 +79,7 @@ Hierarquia recomendada:
 | `RSL_COL_R_LOG.md` | Log de coleta R (análise estatística) |
 | `PROMPT_RETOMADA_VERIFICACAO_RSL.md` | Prompt de retomada para verificação RSL |
 | `PROMPT_RETOMADA_C5.md` | ~~ARQUIVADO~~ — C5 concluído 2026-06-21 |
-| `PROMPT_RETOMADA_C6.md` | ~~ARQUIVADO~~ — C6 concluído 2026-06-21 (mantido p/ referência das regras C6) |
+| ~~`PROMPT_RETOMADA_C6.md`~~ | ⚠️ **Referenciado aqui mas o ficheiro não existe mais no repo nem em `02_ARQUIVOS ANTERORES`** (constatado 2026-08-03) — as regras C6 sobrevivem em `RSL_PROGRESSO.md` (seção C6) e neste ficheiro (seção "Regra C6 — refinamentos consolidados"), então nada foi perdido, mas a linha da tabela ficou órfã. Remover esta entrada quando alguém confirmar que o ficheiro nunca vai voltar. |
 | `PROMPT_RETOMADA_C7.md` | ~~ARQUIVADO~~ — C7 REMOVIDO da RSL (2026-06-22); ver nota no ficheiro |
 | `como_contornamos_o_akamai.md` | Documentação técnica de contorno anti-bot |
 
@@ -115,7 +116,7 @@ Padrão: `SOBRENOME et al., ANO.pdf` (sem caracteres especiais: ç→c, ã→a, 
 
 - Coluna `pdf`: nome do ficheiro + hyperlink `file:///` para o caminho completo
 - Fundo amarelo na célula `pdf` = PDF pendente de download
-- Coluna `status_triagem`: Elegível | Inconclusivo | Duplicado | Sem acesso | Recusado
+- Coluna `status_triagem`: Elegível | Inconclusivo | Duplicado | Sem acesso | Rejeitado (valor `Recusado` foi migrado para `Rejeitado` em 2026-06-21 — não existe mais)
 - Colunas C1–C6, C8 com prefixo `R:` (triagem por resumo) ou `P:` (triagem por PDF). **C7 REMOVIDO** — coluna existe no xlsx mas ficou vazia (critério eliminado da RSL em 2026-06-22).
 
 ## Atalhos comuns
@@ -128,10 +129,10 @@ Padrão: `SOBRENOME et al., ANO.pdf` (sem caracteres especiais: ç→c, ã→a, 
 - **Downloads pendentes** → `DOWNLOAD_MANUAL.html` (abrir no browser com proxy CAPES)
 - **Fluxograma PRISMA** → [[00_REFERENCIAS/PRISMA/FLUXOGRAMA_PRISMA_2020_DOC]]
 
-## Triagem por PDF (em andamento — 2026-06-15)
+## Triagem por PDF (regras de referência — cascata C1→C8 concluída em 2026-06-22)
 
-> **Estado (2026-06-15):** C1–C4 **concluídos**. C5 🔄 em andamento — 484 de 1.534 C4-Aceito classificados (39 Rej / 445 Aceito); 1.050 pendentes. Regra vigente: **Opção A** (ver RSL_PROGRESSO.md).
-> Fonte canônica de progresso: `RSL_PROGRESSO.md` → seção "Progresso da triagem por PDF".
+> **Estado atual (2026-08-03):** a triagem por PDF terminou (C1–C6 e C8; C7 foi removido). O funil real hoje é **1.333 artigos** com todos os critérios = Aceito — ver bullet "Estado real pós-auditoria" no topo deste ficheiro. As seções abaixo (regra C5, formato das células, regras operacionais) continuam valendo como **referência de método** para qualquer reavaliação pontual (ex.: reabrir uma linha "Sem acesso" quando um PDF novo aparece) — não são mais um critério "em andamento".
+> Histórico de execução original (fase jun/2026): `RSL_PROGRESSO.md` → seção "Progresso da triagem por PDF". Histórico de correções pós-triagem (jul–ago/2026): `PENDENCIAS_AUDITORIA_2026-07-12.md`.
 
 #
 ## ⛔ REGRA INVIOLÁVEL — Leitura de PDF para triagem C5
@@ -169,9 +170,9 @@ Padrão: `SOBRENOME et al., ANO.pdf` (sem caracteres especiais: ç→c, ã→a, 
 **PAT regex (pdftotext):** lca|life.cycle.assess|carbon.footprint|embodied.carbon|gwp|global.warming.potential|co2.eq|co2eq|kgco2|greenhouse.gas|ghg|carbon.emission|climate.change|co2|embodied.emission|carbon.intensi|low.carbon
 ## Regras operacionais (sempre vigentes)
 
-- **Indicador correto:** progresso medido por presença de `P:` nas células (P:Aceito / P:Rejeitado), NÃO por ter qualquer conteúdo. Células com apenas `R:` são consideradas não triadas.
+- **⭐ Indicador correto (reconfirmado 2026-08-03, corrige nota conflitante de 2026-06-06):** progresso medido por presença de `P:` nas células (P:Aceito / P:Rejeitado), NÃO por ter qualquer conteúdo. **Células com apenas `R:` são consideradas NÃO triadas, mesmo que título/resumo pareçam suficientes para decidir.** Toda linha `R:Aceito` precisa ser confirmada com `P:` antes de ser considerada definitiva — não é permitido aceitar um critério só com base em título/resumo. Uma nota anterior (`claude/memoria/rsl-marcacao-R-vs-P.md`, sessão 2026-06-06) permitia manter `R:` quando "título/resumo resolvia" — **essa permissão foi revogada pela Kiê em 2026-08-03**; a nota de memória foi corrigida.
 - **Verificação PDF × artigo:** para **cada artigo** do lote, conferir título e primeiro autor na primeira página do PDF antes de avaliar. Obrigatório, sem exceção.
-- **Páginas extras:** avaliar pelas primeiras 2 páginas por padrão. Se não for suficiente para decidir o critério, ler páginas adicionais até ter informação suficiente.
+- **⭐ Páginas a ler (reconfirmado 2026-08-03):** desconsiderar resumo/título — ler as **primeiras 5 páginas do corpo do artigo**. Se essas 5 páginas não forem suficientes para decidir `P:Aceito` ou `P:Rejeitado`, continuar lendo até conseguir decidir. (Substitui a orientação anterior de "primeiras 2 páginas".)
 - **Colisões de PDF:** nunca pular. Claude para, reporta DOI/título/autor e aguarda a Kiê baixar o PDF correto antes de continuar essa linha.
 - **Parar entre critérios:** ao concluir um critério, parar e aguardar confirmação da Kiê antes de iniciar o próximo.
 - **Lotes de 50 artigos:** salvar e reportar ao final de cada lote.
@@ -190,9 +191,7 @@ Preencher para todos os artigos com `P:Aceito` em C2. Formato descritivo: materi
 
 ## Último relatório de avaliação
 
-- **Arquivo:** [[_AVALIACOES/AVALIACAO_2026-06-04]]
-- **Score geral:** 7,5/10
-- **Propostas geradas:** ver relatório
+Nenhum — o relatório de 2026-06-04 foi removido em 2026-08-03 (todas as suas 5 pendências em aberto já haviam se resolvido organicamente; ver histórico de commits). Rodar a skill `avaliacao-vault` quando quiser um novo diagnóstico.
 
 <!-- AUTO:END -->
 

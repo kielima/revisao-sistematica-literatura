@@ -15,7 +15,9 @@ ultima_atualizacao: 2026-06-21
 
 ## ♻️ REFAZENDO A RSL — Triagem por PDF (iniciado em 2026-06-05)
 
-> A RSL está sendo refeita. A triagem anterior foi feita por resumo (prefixo `R:`). A nova etapa aplica os mesmos critérios C1–C8 usando as **primeiras 2 páginas do PDF** de cada artigo (prefixo `P:`), para Elegíveis e Inconclusivos.
+> A RSL está sendo refeita. A triagem anterior foi feita por resumo (prefixo `R:`). A nova etapa aplica os mesmos critérios C1–C8 usando o **corpo do PDF** de cada artigo (prefixo `P:`), para Elegíveis e Inconclusivos.
+>
+> **⭐ Correção 2026-08-03 (Kiê):** o padrão de leitura passou de "primeiras 2 páginas" para **primeiras 5 páginas do corpo do artigo** (desconsiderando resumo/título); se não bastar, continuar lendo até decidir. Além disso, ficou reconfirmado que **`R:` nunca é uma decisão final** — mesmo quando título/resumo "parecem" resolver um critério, a linha só é considerada triada quando o critério tem `P:`. Uma nota de memória anterior (2026-06-06) permitia o contrário; foi corrigida. Ver `claude/memoria/rsl-marcacao-R-vs-P.md`.
 
 ### Snapshot pré-triagem-PDF (estado da triagem por resumo — 2026-06-05)
 
@@ -128,6 +130,7 @@ Todas as 10 colisões identificadas foram resolvidas: PDFs com sufixo b/c/d est�
 - **Exemplo (literal):** "Blocos e tijolos."
 - **Justificativa (literal):** "Não são aplicáveis a grandes obras de infraestrutura urbana, foco dessa dissertação."
 - **Refinamentos:** NÃO moldáveis = forma padronizada única, sem personalização por projeto (blocos, tijolos, unidades de alvenaria) → REJEITADO. MOLDÁVEIS = conformados sob demanda, geometria por projeto (concreto, UHPC pré-fabricado, painéis/elementos pré-moldados de geometria variável; blocos de concreto customizáveis) → ACEITO. Concreto celular/espumoso (AAC, CLC, Ytong) = A REVISAR. AAC=Alkali-Activated Concrete → ACEITO; AAC=Autoclaved Aerated Concrete → A REVISAR.
+- **⭐ Regra "bloco/tijolo de material aceito" (decisão Kiê 2026-08-03):** quando o bloco/tijolo é feito de um material já aceito em C2 (terra, solo-cimento, geopolímero — não cerâmica/concreto convencional de catálogo), a rejeição automática de "blocos e tijolos" não se aplica cegamente. Distinguir pela origem do processo: **prensado/comprimido sob demanda, sem padronização industrial de catálogo** (bloco de terra comprimida, ICEB, tijolo solo-cimento — tipicamente produção artesanal/local, dimensões ajustáveis ao projeto) → **ACEITO**. **Produto manufaturado padronizado vendido como substituto drop-in de um item de catálogo** (paver/bloco de pavimentação, "bloco emergente" comercializado como substituto de CMU padrão com dimensões fixas de catálogo) → **REJEITADO**. Aplicado em 2026-08-03: 3871, 4133, 4717 (Aceito) vs. 2996, 5078 (Rejeitado).
 
 **C4 — Materiais não relacionados a construção**
 - **Descrição (literal):** "Materiais que não são relacionados a construção civil"
