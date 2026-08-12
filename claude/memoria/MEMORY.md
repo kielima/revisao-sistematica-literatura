@@ -1,4 +1,5 @@
 - [Downloads na pasta BAIXADOS MANUALMENTE](kie-downloads-baixados-manualmente.md) — Kiê sempre baixa lá; Claude integra de lá (renomeia+move), nunca pede outra pasta
+- [⭐ Critérios e nuances da RSL — consolidado](../../CRITERIOS_E_NUANCES_RSL.md) — arquivo único na raiz do vault reunindo texto literal C1-C8 + todos os refinamentos + protocolo de confirmação por PDF/extração de metanálise; ler antes de qualquer triagem. Os arquivos rsl-*.md abaixo continuam sendo a fonte "viva" onde novas decisões devem ser registradas primeiro
 - [Critérios C1–C8 verbatim](rsl-criterios-verbatim.md) — na triagem da RSL, citar a redação literal dos critérios, nunca parafrasear de memória
 - [Validação de PDF nos rejeitados](rsl-validacao-pdf-rejeitados.md) — todo P:Rejeitado leva nota explícita de validação do PDF (método de extração + se corrompido) nos comments
 - [Marcação R: vs P:](rsl-marcacao-R-vs-P.md) — título/resumo resolveu → corrige o R:; só usa P: quando leu o PDF completo; muda → nota nos comments
