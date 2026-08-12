@@ -210,6 +210,18 @@ Escopo: ~1.428 artigos Elegível/Inconclusivo com C1 `P:Aceito` mas ainda sem `P
   - **Efeito na intensidade:** com taxas de armadura altas o aço pode dominar. Em 2674, a 191 kg/m³, o aço contribui ~403 kg CO₂/m³ contra ~228 do concreto — a intensidade quase triplica em relação a contar só o ligante. Preferir sempre a intensidade **por tonelada** quando o volume não for confirmável por soma direta do bill of quantities (elementos medidos em m² com espessura não são somáveis sem reconstruir a geometria).
 - **ACV própria sobre traços compilados de outros artigos** (padrão confirmado nesta sessão, ex. Coelho/Assunção/Cong): quando o estudo não fez experimento mecânico próprio mas **computou seu próprio GWP/impacto ambiental** (SimaPro/Ecoinvent/modelo próprio) sobre traços de fck citados de fontes externas — **não é Regra 2** (não é revisão sem dados próprios), porque a análise ambiental é contribuição original do estudo. Documentar em `observacoes` que o fck vem do artigo-fonte e o CO2 é calculado pelo estudo em avaliação.
 
+**⭐ Valor derivado tem de ser marcado e documentado (regra Kiê, 2026-08-12).** Todo número que **não está publicado na fonte** e resultou de cálculo feito durante a extração recebe **três marcações redundantes**, para que nenhuma via de leitura perca a informação:
+
+1. **Cor da célula** — fundo âmbar `FFE699` (derivado) ou `FFF2CC` (parcialmente derivado) na própria célula do valor.
+2. **Comentário na célula** — memória de cálculo completa: de que números publicados partiu, que operação foi feita, que ressalvas existem.
+3. **Prefixo textual** — `[DERIVADO]` ou `[PARC. DERIVADO]` no início de `co2_unidade`. **É o único marcador que sobrevive à exportação para CSV/pandas/R** — cor e comentário perdem-se; por isso o prefixo não é opcional.
+
+A aba **`LEGENDA`** do `meta_analysis_base.xlsx` documenta o código de cor e mantém o inventário das linhas derivadas.
+
+⚠️ **Não confundir com "calculado pelos autores".** Se a ACV própria do artigo, ou o modelo próprio dos autores, produziu o número, isso é **dado publicado** — transcreve-se sem marca. "Derivado" é só quando a conta foi feita **aqui, na extração**. Verificação de 2026-08-12: das 18 linhas com indício de cálculo, apenas 7 eram derivadas (10, 11 parcial, 1556, 1557, 1562, 1678, 1679); as de `row_id` 2609, 2611 e 3087 são valores publicados pelas fontes.
+
+**Preferir sempre a grandeza que não depende de estimativa.** Quando a derivação exige um intermediário incerto (ex.: volume estimado por massa ÷ densidade), extrair também a forma que só usa valores publicados e assinalar qual é a robusta — caso 2674, onde a intensidade por tonelada é publicada-derivada direta e a intensidade por m³ depende de um volume estimado.
+
 **Verificação obrigatória de DOI antes de confiar num valor numérico já existente na planilha:**
 ```
 curl -s -w '\n__HTTPSTATUS__%{http_code}' https://api.crossref.org/works/<DOI>
