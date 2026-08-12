@@ -69,6 +69,8 @@ Hierarquia recomendada:
 
 | Nota | Propósito |
 |---|---|
+| `CRITERIOS_E_NUANCES_RSL.md` | **⭐ Ler antes de qualquer triagem C1–C8.** Consolida num único arquivo o texto literal dos critérios + todos os refinamentos/decisões acumulados (RSL_PROGRESSO.md + CLAUDE.md + `claude/memoria/rsl-*.md`), o protocolo vigente de confirmação por PDF e o processo de extração para `meta_analysis_base.xlsx` (tarefa #7). Criado 2026-08-14. |
+| `PROMPT_RETOMADA_CONFIRMACAO_PDF_METANALISE.md` | Prompt para retomar a tarefa #7 (confirmação C2–C8 por PDF + extração de metanálise) numa sessão nova — cita o `CRITERIOS_E_NUANCES_RSL.md` e o ponto exato onde parou. Criado 2026-08-14. |
 | `RSL_PROGRESSO.md` | Estado atual: contagens PRISMA, downloads, TODOs (⚠️ última entrada datada é 2026-06-22 — para o estado real da triagem por PDF, ver bullet "Estado real pós-auditoria" acima) |
 | `PENDENCIAS_AUDITORIA_2026-07-12.md` | Auditoria de qualidade de dados do funil C1-C8 — concluída 2026-08-03, 1 pendência aberta (linha 2897) |
 | `DOWNLOAD_MANUAL.html` | ~~Apagado~~ — download concluído (2026-06-05) |
