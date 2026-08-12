@@ -220,6 +220,13 @@ A aba **`LEGENDA`** do `meta_analysis_base.xlsx` documenta o código de cor e ma
 
 ⚠️ **Não confundir com "calculado pelos autores".** Se a ACV própria do artigo, ou o modelo próprio dos autores, produziu o número, isso é **dado publicado** — transcreve-se sem marca. "Derivado" é só quando a conta foi feita **aqui, na extração**. Verificação de 2026-08-12: das 18 linhas com indício de cálculo, apenas 7 eram derivadas (10, 11 parcial, 1556, 1557, 1562, 1678, 1679); as de `row_id` 2609, 2611 e 3087 são valores publicados pelas fontes.
 
+⛔ **Nunca derivar valor a partir de comparação percentual verbal sem antes esgotar a busca pelo valor publicado (lição de 2026-08-12, linha 1562 / row_id 2588).** Frases do tipo *"o sistema X emite 25–40% menos que Y"* **não são bandas de incerteza** — são resumos verbais aproximados, frequentemente imprecisos face aos próprios números do artigo, e podem abranger mais de uma comparação em simultâneo. Antes de inverter uma frase dessas:
+1. Procurar a tabela de valores associada às figuras (muitos PDFs trazem os números da figura como texto, fora da secção de resultados — inclusive depois das referências, na extração).
+2. Cruzar os valores encontrados com as âncoras citadas no corpo do texto para confirmar o mapeamento de rótulos.
+3. Só derivar se o valor realmente não existir em lado nenhum — e, mesmo aí, marcar como derivado e assinalar a linha.
+
+No caso 2588 a derivação produziu `~4.100–4.600` quando o valor publicado era **5.840** — a faixa nem continha o valor real, porque a frase do próprio artigo subestimava a diferença (43,3% e 41,1% reais contra os "25–40%" declarados).
+
 **Preferir sempre a grandeza que não depende de estimativa.** Quando a derivação exige um intermediário incerto (ex.: volume estimado por massa ÷ densidade), extrair também a forma que só usa valores publicados e assinalar qual é a robusta — caso 2674, onde a intensidade por tonelada é publicada-derivada direta e a intensidade por m³ depende de um volume estimado.
 
 **Verificação obrigatória de DOI antes de confiar num valor numérico já existente na planilha:**
