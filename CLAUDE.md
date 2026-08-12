@@ -48,6 +48,11 @@ O Excel `articles_final.xlsx` (versionado neste repo) também é mantido sincron
 - **✅ Estado real pós-auditoria (verificado em 2026-08-03 via script openpyxl):** **1.333 artigos** com C1–C6 e C8 = Aceito em toda a cascata (o funil "definitivo" da RSL hoje). `status_triagem`: Duplicado 2.621 | Inconclusivo 1.066 | Rejeitado 963 | Elegível 383 | Sem acesso 60.
 - **Auditoria de qualidade dos dados (12/07/2026 → 03/08/2026):** ✅ CONCLUÍDA — ver `PENDENCIAS_AUDITORIA_2026-07-12.md`. 10 achados (cascata quebrada, C8 sem prefixo `R:`/`P:`, 596 resíduos de C7, linhas "Sem acesso" com PDF já disponível, status_triagem dessincronizado de decisões já tomadas por PDF etc.) — todos resolvidos, exceto **1 pendência em aberto**: linha 2897 (di Summa et al., 2023, *Structural Concrete*, DOI `10.1002/suco.202300645`) aguardando acesso ao PDF via biblioteca institucional da Kiê.
 
+## Preferências de interação da Kiê
+
+- **⭐ Perguntas: sempre no texto do chat, nunca em componente de escolha múltipla** (pedido explícito, 2026-08-12). Não usar a ferramenta de perguntas com opções — escrever a pergunta diretamente na resposta, em texto corrido, e aguardar. Vale para dúvidas de triagem, decisões de critério e qualquer outra escolha.
+- **Idioma:** português europeu nas respostas; os dados e carimbos nas planilhas ficam sem acentos (ver regra de `clean_str`).
+
 ## Como navegar economizando tokens
 
 Hierarquia recomendada:
