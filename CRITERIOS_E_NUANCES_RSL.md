@@ -235,6 +235,14 @@ No caso 2588 a derivação produziu `~4.100–4.600` quando o valor publicado er
 
 **Preferir sempre a grandeza que não depende de estimativa.** Quando a derivação exige um intermediário incerto (ex.: volume estimado por massa ÷ densidade), extrair também a forma que só usa valores publicados e assinalar qual é a robusta — caso 2674, onde a intensidade por tonelada é publicada-derivada direta e a intensidade por m³ depende de um volume estimado.
 
+**⛔ Verificação obrigatória do PDF por DOI, antes de qualquer leitura (regra reforçada pela Kiê, 2026-08-13).** Conferir título e primeiro autor na primeira página **não basta** — apanha colisões grosseiras, mas não as subtis (mesmo primeiro autor, mesmo ano, artigo diferente). Antes de avaliar qualquer critério ou extrair qualquer dado:
+
+1. Extrair o DOI do texto do PDF (`10\.\d{4,9}/[-._;()/:A-Za-z0-9]+`) e compará-lo com a coluna `doi` do banco.
+2. Divergiu → **é colisão de PDF**. Parar, reportar linha, DOI do banco e DOI do PDF, e aguardar o ficheiro correto. Não decidir, não extrair.
+3. Documento sem DOI (dissertações, teses, relatórios) → conferir título **e** primeiro autor **e** instituição/ano, e registar essa via nos `comments`.
+
+**Causa estrutural, medida em 2026-08-13:** a convenção `SOBRENOME et al., ANO.pdf` **não é única** — dois artigos diferentes do mesmo primeiro autor no mesmo ano colapsam no mesmo ficheiro. Diagnóstico do banco nessa data: 250 nomes de ficheiro servem mais de uma linha (536 linhas); destes, **56 ficheiros têm linhas com DOIs diferentes entre si — 131 linhas, das quais 100 já tinham decisão `P:` tomada**. Caso confirmado: linha 4295, cujo `ALOTAIBI et al., 2022.pdf` tem DOI `10.1038/s41598-022-09723-7` (Scientific Reports, areias biocimentadas por EICP) quando o banco regista `10.3390/buildings12081203` (Buildings, edifício residencial em altura) — a rejeição de 2026-07-12 foi decidida sobre o artigo errado.
+
 **Verificação obrigatória de DOI antes de confiar num valor numérico já existente na planilha:**
 ```
 curl -s -w '\n__HTTPSTATUS__%{http_code}' https://api.crossref.org/works/<DOI>
