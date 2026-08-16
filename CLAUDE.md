@@ -77,6 +77,8 @@ A Kiê decidiu que cada PDF é aberto e conferido em **título, primeiro autor e
 2. **Crossref** (aceite 2026-08-16): quando o ficheiro é versão de autor sem DOI impresso, resolver o DOI do banco em `https://api.crossref.org/works/<doi>` e exigir que **título e lista completa de autores, pela mesma ordem**, batam com o PDF. É prova mais forte do que a nº3 — identifica a obra inteira, não só um sufixo. Verificado por mim no AREHART 2020 e no ARMSTRONG 2023.
 3. **Manuscript ID** (aceite 2026-08-16): versão aceite cujo `Manuscript ID` é o próprio sufixo do DOI (ex.: `cjce-2015-0431.R1` para `10.1139/cjce-2015-0431`), com título, autor e revista a bater. Caso ALSHAMRANI 2016i.
 
+➕ **Reforço por ISBN, para livros** (aceite 2026-08-16): quando a entrada é um **livro** e não um artigo, o DOI raramente vem impresso. Além do Crossref, exigir que o **ISBN do registo Crossref bata com o ISBN impresso na página de copyright do PDF**. Caso JOLLIET 2015i: `10.1201/b19138` devolve `type=book`, *Environmental Life Cycle Assessment*, CRC Press, cinco autores pela ordem da capa, ISBN 9781439887707 — o mesmo impresso no ficheiro. Não é uma quarta via, é um reforço que torna a via 2 praticamente inatacável para livros.
+
 A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via Crossref`, `via Manuscript ID`) para a natureza da prova não se dissolver num «confirmado» indistinto.
 
 ⚠️ **DOI presente no texto não prova autoria** — pode ser citação nas referências, incluindo auto-citação do mesmo grupo. A posição no documento é que decide. E apelido + ano não chega; apelido + ano + revista também não (caso PUSHKAR 2019: mesma autora, revista, ano e tema, e ainda assim outro artigo).
