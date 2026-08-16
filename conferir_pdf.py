@@ -31,11 +31,23 @@ def main():
         return
     print('\n--- inicio (titulo/autores/afiliacao) ---')
     print(limpa(txt[:1400]))
-    # Nao incluir ')' na classe: nos links markdown o DOI vem dentro de
-    # (...) e o parentese de fecho era absorvido, produzindo tokens como
-    # '10.1016/j.eiar.2020.106543)3' que nao batem com o DOI do banco.
-    dois = re.findall(r'10\.\d{4,9}/[-._;/:A-Za-z0-9]+', txt)
-    dois = [d.rstrip('.,;:)>]-').lower() for d in dois]
+    # Ha DOIs com parenteses legitimos (ex.: 10.48077/scihor.25(1).2022.104-119),
+    # por isso '(' e ')' entram na classe. Mas nos links markdown o DOI vem dentro
+    # de (...) e o parentese de fecho era absorvido, dando tokens como
+    # '10.1016/j.eiar.2020.106543)3'. Solucao: aceitar parenteses e depois cortar
+    # a partir do primeiro ')' que nao tenha '(' correspondente no proprio token.
+    def corta_parentese_solto(d):
+        saldo = 0
+        for i, ch in enumerate(d):
+            if ch == '(':
+                saldo += 1
+            elif ch == ')':
+                if saldo == 0:
+                    return d[:i]
+                saldo -= 1
+        return d
+    dois = re.findall(r'10\.\d{4,9}/[-._;()/:A-Za-z0-9]+', txt)
+    dois = [corta_parentese_solto(d).rstrip('.,;:>]-').lower() for d in dois]
     # Descartar tokens truncados: quando o texto quebra a hiperligacao,
     # o regex apanha restos como '10.1016/j', que aparecem na lista como
     # se fossem DOIs distintos. Sao ruido e confundem quem le a saida.
