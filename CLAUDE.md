@@ -67,6 +67,20 @@ O Excel `articles_final.xlsx` (versionado neste repo) também é mantido sincron
   Nota que continua válida: em vários dos casos errados o PDF «errado» é afinal o PDF *certo de outra linha do banco* (2951/4128, 2986/4028, 2912/3499, 2689/4790) — os ficheiros não se perderam, foram mal atribuídos.
 - **Auditoria de qualidade dos dados (12/07/2026 → 03/08/2026):** ✅ CONCLUÍDA — ver `PENDENCIAS_AUDITORIA_2026-07-12.md`. 10 achados (cascata quebrada, C8 sem prefixo `R:`/`P:`, 596 resíduos de C7, linhas "Sem acesso" com PDF já disponível, status_triagem dessincronizado de decisões já tomadas por PDF etc.) — todos resolvidos, exceto **1 pendência em aberto**: linha 2897 (di Summa et al., 2023, *Structural Concrete*, DOI `10.1002/suco.202300645`) aguardando acesso ao PDF via biblioteca institucional da Kiê.
 
+## Conferência PDF x banco por titulo+autor+DOI (em curso desde 2026-08-16)
+
+A Kiê decidiu que cada PDF é aberto e conferido em **título, primeiro autor e DOI**, os três a bater. Registo em `VERIFICACAO_TITULO_AUTOR_DOI.csv` (1.422 ficheiros de nome antigo). Trabalho em lotes de 15 por subagente, um de cada vez, com auditoria minha entre lotes; atribuição e resultado de cada lote em `lotes_verificacao/`.
+
+**Hierarquia de prova aceite para `CONFERE`** (da mais forte para a mais fraca; usar a primeira que se aplique):
+
+1. **DOI do banco impresso na FRENTE do documento** + título e autor a bater. É a regra normal.
+2. **Crossref** (aceite 2026-08-16): quando o ficheiro é versão de autor sem DOI impresso, resolver o DOI do banco em `https://api.crossref.org/works/<doi>` e exigir que **título e lista completa de autores, pela mesma ordem**, batam com o PDF. É prova mais forte do que a nº3 — identifica a obra inteira, não só um sufixo. Verificado por mim no AREHART 2020 e no ARMSTRONG 2023.
+3. **Manuscript ID** (aceite 2026-08-16): versão aceite cujo `Manuscript ID` é o próprio sufixo do DOI (ex.: `cjce-2015-0431.R1` para `10.1139/cjce-2015-0431`), com título, autor e revista a bater. Caso ALSHAMRANI 2016i.
+
+A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via Crossref`, `via Manuscript ID`) para a natureza da prova não se dissolver num «confirmado» indistinto.
+
+⚠️ **DOI presente no texto não prova autoria** — pode ser citação nas referências, incluindo auto-citação do mesmo grupo. A posição no documento é que decide. E apelido + ano não chega; apelido + ano + revista também não (caso PUSHKAR 2019: mesma autora, revista, ano e tema, e ainda assim outro artigo).
+
 ## Preferências de interação da Kiê
 
 - **⭐ Perguntas: sempre no texto do chat, nunca em componente de escolha múltipla** (pedido explícito, 2026-08-12). Não usar a ferramenta de perguntas com opções — escrever a pergunta diretamente na resposta, em texto corrido, e aguardar. Vale para dúvidas de triagem, decisões de critério e qualquer outra escolha.
