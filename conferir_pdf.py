@@ -31,8 +31,11 @@ def main():
         return
     print('\n--- inicio (titulo/autores/afiliacao) ---')
     print(limpa(txt[:1400]))
-    dois = re.findall(r'10\.\d{4,9}/[-._;()/:A-Za-z0-9]+', txt)
-    dois = [d.rstrip('.,;)>]').lower() for d in dois]
+    # Nao incluir ')' na classe: nos links markdown o DOI vem dentro de
+    # (...) e o parentese de fecho era absorvido, produzindo tokens como
+    # '10.1016/j.eiar.2020.106543)3' que nao batem com o DOI do banco.
+    dois = re.findall(r'10\.\d{4,9}/[-._;/:A-Za-z0-9]+', txt)
+    dois = [d.rstrip('.,;:)>]-').lower() for d in dois]
     print(f'\n--- DOIs no ficheiro: {len(dois)} ocorrencias, {len(set(dois))} distintos ---')
     vistos = {}
     for d in dois:
