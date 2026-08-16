@@ -36,6 +36,10 @@ def main():
     # '10.1016/j.eiar.2020.106543)3' que nao batem com o DOI do banco.
     dois = re.findall(r'10\.\d{4,9}/[-._;/:A-Za-z0-9]+', txt)
     dois = [d.rstrip('.,;:)>]-').lower() for d in dois]
+    # Descartar tokens truncados: quando o texto quebra a hiperligacao,
+    # o regex apanha restos como '10.1016/j', que aparecem na lista como
+    # se fossem DOIs distintos. Sao ruido e confundem quem le a saida.
+    dois = [d for d in dois if len(d.split('/', 1)[1]) >= 4]
     print(f'\n--- DOIs no ficheiro: {len(dois)} ocorrencias, {len(set(dois))} distintos ---')
     vistos = {}
     for d in dois:
