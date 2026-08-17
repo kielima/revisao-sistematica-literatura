@@ -87,6 +87,10 @@ A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `v
 
 ⚠️ **DOI presente no texto não prova autoria** — pode ser citação nas referências, incluindo auto-citação do mesmo grupo. A posição no documento é que decide. E apelido + ano não chega; apelido + ano + revista também não (caso PUSHKAR 2019: mesma autora, revista, ano e tema, e ainda assim outro artigo).
 
+⚠️⚠️ **A auto-citação entre artigos do mesmo grupo é sistemática, não excepcional** (constatado ao longo dos lotes 39–48). Apareceu em VEGA (três artigos da mesma autora a citarem-se em cadeia), AL-NAJJAR, ABD RASHID, BISWAS e BURCHART-KOROL. O problema é que **a sonda por DOI e a colisão de nomes de ficheiro falham nos mesmos casos**: são precisamente os artigos do mesmo grupo que partilham apelido e ano no nome *e* se citam uns aos outros no texto. Um método barato erra duas vezes no mesmo sítio; só a posição do DOI na frente os separa.
+
+⚠️ **Armadilha nº4 do extractor — DOI partido pelo markup do hiperlink** (descoberta 2026-08-17, caso BUCIO-SISTOS 2022): quando o DOI impresso está dentro de uma hiperligação, a extracção pode devolvê-lo em dois pedaços (`10.3989/ic` + `.87813`), e uma busca literal pelo DOI completo dá **ausente**. Pior: nesse ficheiro o *href* do link é `10.3989/ic.79082`, resto de um clipboard de InDesign do editor — ou seja, o `conferir_pdf.py` lista um DOI errado como se fosse o da frente. O texto impresso estava certo, confirmado pela caixa «Cómo citar este artículo» e pelo rodapé corrido. **Esperar o mesmo em toda a *Informes de la Construcción*** (prefixo `10.3989/ic`); faltam conferir `MEL, 2015.pdf`, `VIDAL et al., 2019.pdf` e `ARGUELLOMENDEZ et al., 2008.pdf`. Perante um `ausente` inesperado, procurar o DOI aos pedaços antes de concluir seja o que for.
+
 ## Preferências de interação da Kiê
 
 - **⭐ Perguntas: sempre no texto do chat, nunca em componente de escolha múltipla** (pedido explícito, 2026-08-12). Não usar a ferramenta de perguntas com opções — escrever a pergunta diretamente na resposta, em texto corrido, e aguardar. Vale para dúvidas de triagem, decisões de critério e qualquer outra escolha.
