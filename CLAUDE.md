@@ -74,12 +74,16 @@ A Kiê decidiu que cada PDF é aberto e conferido em **título, primeiro autor e
 **Hierarquia de prova aceite para `CONFERE`** (da mais forte para a mais fraca; usar a primeira que se aplique):
 
 1. **DOI do banco impresso na FRENTE do documento** + título e autor a bater. É a regra normal.
+1b. **Bloco de auto-identificação do artigo, onde quer que esteja no documento** (aceite 2026-08-17): alguns periódicos imprimem o DOI **no colofão da última página**, num bloco do tipo `Recebido / Aprovado / DOI: … / Como citar: <autores>, <revista>, <volume>, <páginas>`. Isso **não é uma entrada da lista de referências** — é o próprio artigo a dizer como deve ser citado, o que é a afirmação de autoria mais forte que um documento pode fazer. Vale como via 1, mas registar como `via colofao` para não se confundir com a posição na frente. Caso ARAUJO PRADO 2022 (*Revista Tecnologia e Sociedade*, UTFPR): o cabeçalho da p. 1 traz só o URL do periódico, e o DOI está na p. 166.
+   ⚠️ **Não usar isto como brecha.** A via 1b exige que o bloco seja de auto-citação — com "Como citar" ou equivalente e os dados do próprio artigo. Um DOI solto no fim do ficheiro, dentro de uma lista de referências, continua a não provar nada. Confirmar sempre que a lista de referências é distinta desse bloco.
 2. **Crossref** (aceite 2026-08-16): quando o ficheiro é versão de autor sem DOI impresso, resolver o DOI do banco em `https://api.crossref.org/works/<doi>` e exigir que **título e lista completa de autores, pela mesma ordem**, batam com o PDF. É prova mais forte do que a nº3 — identifica a obra inteira, não só um sufixo. Verificado por mim no AREHART 2020 e no ARMSTRONG 2023.
 3. **Manuscript ID** (aceite 2026-08-16): versão aceite cujo `Manuscript ID` é o próprio sufixo do DOI (ex.: `cjce-2015-0431.R1` para `10.1139/cjce-2015-0431`), com título, autor e revista a bater. Caso ALSHAMRANI 2016i.
 
 ➕ **Reforço por ISBN, para livros** (aceite 2026-08-16): quando a entrada é um **livro** e não um artigo, o DOI raramente vem impresso. Além do Crossref, exigir que o **ISBN do registo Crossref bata com o ISBN impresso na página de copyright do PDF**. Caso JOLLIET 2015i: `10.1201/b19138` devolve `type=book`, *Environmental Life Cycle Assessment*, CRC Press, cinco autores pela ordem da capa, ISBN 9781439887707 — o mesmo impresso no ficheiro. Não é uma quarta via, é um reforço que torna a via 2 praticamente inatacável para livros.
 
-A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via Crossref`, `via Manuscript ID`) para a natureza da prova não se dissolver num «confirmado» indistinto.
+A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `via Crossref`, `via Manuscript ID`) para a natureza da prova não se dissolver num «confirmado» indistinto.
+
+📌 **Divergência de idioma do título não é divergência** (2026-08-17): revistas bilingues registam o título numa língua e imprimem o PDF noutra. O banco pode ter o título em inglês e o ficheiro estar em português, e ser o mesmo artigo — confirmar por DOI, autor, revista, volume e paginação, não pela língua. Caso ARAUJO PRADO 2022. O mesmo vale para variação redaccional entre versão de autor e versão publicada (caso AJAYI 2015, post-print do Leeds Beckett).
 
 ⚠️ **DOI presente no texto não prova autoria** — pode ser citação nas referências, incluindo auto-citação do mesmo grupo. A posição no documento é que decide. E apelido + ano não chega; apelido + ano + revista também não (caso PUSHKAR 2019: mesma autora, revista, ano e tema, e ainda assim outro artigo).
 
