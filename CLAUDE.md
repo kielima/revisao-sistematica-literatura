@@ -95,6 +95,14 @@ A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `v
 
 📌 **Errata apensa ao mesmo ficheiro não é quimera** (2026-08-17): a Elsevier apende ao PDF do artigo, no fim, um bloco «Update» seguido do *corrigendum* do próprio artigo — com DOI próprio (o do corrigendum) e uma linha explícita «DOI of original article: <DOI do artigo>». São dois DOIs no mesmo ficheiro, mas **uma só obra**: não aplicar a regra da quimera. O que decide é essa linha de ligação e o facto de o DOI do banco estar na frente da p.1. Caso SCOPE et al., 2021 (`10.1016/j.spc.2020.12.022`, 21 páginas de artigo + pp. 22–23 de corrigendum `10.1016/j.spc.2021.05.014`), auditado por mim.
 
+🆕 **Classe nova de PDF_ERRADO — a obra derivada pelo mesmo autor** (descoberta 2026-08-18, caso AGUIAR 2021, verificada por mim). O banco pede a **tese** (fonte BDTD, autor único) e o ficheiro é um **artigo de revista de 10 páginas** saído dessa tese, com DOI próprio e **três** autores. Não é colisão de nome, não é duplicado, não é ficheiro de outra pessoa: é outra entidade bibliográfica da mesma investigação. Sinais que a denunciam:
+  - o **resumo impresso é texto diferente** do resumo do banco (comparar sempre, e sempre banco↔PDF);
+  - **não há folha de rosto, ficha catalográfica nem página de banca** — uma tese tem-nas todas;
+  - o corpo arrasta restos da estrutura de origem («o detalhamento da blendagem já foi realizada em capítulo anterior»);
+  - o título impresso pode bater com o do `url` do banco e **não** com o `title` — foi o que aconteceu aqui.
+
+  Esperar mais casos destes no grupo das teses: publicar artigos derivados da dissertação é a norma, e quem descarregou o PDF pode ter apanhado o artigo em vez da tese.
+
 ⚠️ **DOI presente no texto não prova autoria** — pode ser citação nas referências, incluindo auto-citação do mesmo grupo. A posição no documento é que decide. E apelido + ano não chega; apelido + ano + revista também não (caso PUSHKAR 2019: mesma autora, revista, ano e tema, e ainda assim outro artigo).
 
 ⚠️⚠️ **A auto-citação entre artigos do mesmo grupo é sistemática, não excepcional** (constatado ao longo dos lotes 39–48). Apareceu em VEGA (três artigos da mesma autora a citarem-se em cadeia), AL-NAJJAR, ABD RASHID, BISWAS e BURCHART-KOROL. O problema é que **a sonda por DOI e a colisão de nomes de ficheiro falham nos mesmos casos**: são precisamente os artigos do mesmo grupo que partilham apelido e ano no nome *e* se citam uns aos outros no texto. Um método barato erra duas vezes no mesmo sítio; só a posição do DOI na frente os separa.
