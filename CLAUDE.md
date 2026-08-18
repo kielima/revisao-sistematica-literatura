@@ -98,6 +98,8 @@ A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `v
   🔁 **Duas causas distintas, e o *href* tanto mente como salva:**
   - **Markup do hiperlink** — o DOI impresso sai em pedaços (caso BUCIO-SISTOS e outros).
   - **Hifenização na quebra de linha** — `10.1111/j.1530- 9290.2011.00445.x`, com o extractor a listar `10.1111/j.1530` como se fosse um DOI (caso MOHAREB 2012).
+  - **Hífen não-quebrável U+2011 em vez do hífen ASCII** (descoberto 2026-08-18, caso TEH 2018i, *Journal of Economic Structures*/Springer): o DOI da p.1 é `10.1186/s40008‑018‑0115‑1` com **U+2011 NON-BREAKING HYPHEN** nos três hífens, pelo que uma busca literal com hífen ASCII devolve **ausente** num ficheiro que está perfeitamente correcto. Verificado por mim, carácter a carácter. Normalizar os hífens (`‑`, `‐`, `‒`–`―`, U+00AD) antes de qualquer comparação de DOI.
+  - **Injecção de espaços dentro do DOI pela justificação do texto** — no mesmo ficheiro TEH, a lista de referências imprime `https ://doi.org/10.1186/s4000 8-017-0072-0`. Retirar todos os espaços antes de comparar.
   - No **BUCIO-SISTOS** o *href* estava **errado** (resto de clipboard do editor) e o texto impresso certo. No **MÜLLER 2021** dá-se o inverso: o texto impresso vem partido (`https://doi.org/10.3390/` + `su13168715`) e o DOI completo **só sobrevive dentro do *href***. Ou seja, nenhuma das duas fontes é fiável sozinha — é preciso cruzá-las.
 
   📌 **Correcção adicional (2026-08-18):** o `SILGADO et al., 2024.pdf` — *Materiales de Construcción*, prefixo `10.3989` — tem as **37** ocorrências do DOI inteiras, sem quebra por markup nem por hifenização. Terceiro ficheiro do mesmo prefixo a sair limpo. A questão fica praticamente fechada: era defeito do ficheiro do BUCIO-SISTOS.
