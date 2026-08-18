@@ -100,6 +100,12 @@ A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `v
   - **Hifenização na quebra de linha** — `10.1111/j.1530- 9290.2011.00445.x`, com o extractor a listar `10.1111/j.1530` como se fosse um DOI (caso MOHAREB 2012).
   - No **BUCIO-SISTOS** o *href* estava **errado** (resto de clipboard do editor) e o texto impresso certo. No **MÜLLER 2021** dá-se o inverso: o texto impresso vem partido (`https://doi.org/10.3390/` + `su13168715`) e o DOI completo **só sobrevive dentro do *href***. Ou seja, nenhuma das duas fontes é fiável sozinha — é preciso cruzá-las.
 
+  📌 **Correcção adicional (2026-08-18):** o `SILGADO et al., 2024.pdf` — *Materiales de Construcción*, prefixo `10.3989` — tem as **37** ocorrências do DOI inteiras, sem quebra por markup nem por hifenização. Terceiro ficheiro do mesmo prefixo a sair limpo. A questão fica praticamente fechada: era defeito do ficheiro do BUCIO-SISTOS.
+
+⚠️ **Armadilha nº5 — cabeçalho corrido com os autores errados** (descoberta 2026-08-18, caso STOIBER 2022d): a *Acta Polytechnica CTU Proceedings* imprimiu neste artigo, no cabeçalho corrido das páginas **pares**, «J. Anderson, M. Hammerl, B. Kromoser» — quando a assinatura da p.1 é «Nadine Stoiber, Mathias Hammerl, Benjamin Kromoser». As páginas ímpares trazem o título corrido correcto. É erro de paginação do editor.
+
+  ⚠️ **Esta armadilha corre ao contrário de todas as outras.** As anteriores produzem falsos `CONFERE`; esta produz um falso **`PDF_ERRADO`** — quem olhe para o cabeçalho corrido rejeita um ficheiro que está certo. Regra: a **assinatura da p.1** é a autoridade sobre autoria, nunca o cabeçalho corrido. Perante uma divergência entre os dois, é o cabeçalho que se despreza.
+
 ## Preferências de interação da Kiê
 
 - **⭐ Perguntas: sempre no texto do chat, nunca em componente de escolha múltipla** (pedido explícito, 2026-08-12). Não usar a ferramenta de perguntas com opções — escrever a pergunta diretamente na resposta, em texto corrido, e aguardar. Vale para dúvidas de triagem, decisões de critério e qualquer outra escolha.
