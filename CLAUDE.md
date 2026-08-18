@@ -67,6 +67,39 @@ O Excel `articles_final.xlsx` (versionado neste repo) também é mantido sincron
   Nota que continua válida: em vários dos casos errados o PDF «errado» é afinal o PDF *certo de outra linha do banco* (2951/4128, 2986/4028, 2912/3499, 2689/4790) — os ficheiros não se perderam, foram mal atribuídos.
 - **Auditoria de qualidade dos dados (12/07/2026 → 03/08/2026):** ✅ CONCLUÍDA — ver `PENDENCIAS_AUDITORIA_2026-07-12.md`. 10 achados (cascata quebrada, C8 sem prefixo `R:`/`P:`, 596 resíduos de C7, linhas "Sem acesso" com PDF já disponível, status_triagem dessincronizado de decisões já tomadas por PDF etc.) — todos resolvidos, exceto **1 pendência em aberto**: linha 2897 (di Summa et al., 2023, *Structural Concrete*, DOI `10.1002/suco.202300645`) aguardando acesso ao PDF via biblioteca institucional da Kiê.
 
+## Conferência PDF x banco por titulo+autor+DOI (em curso desde 2026-08-16)
+
+A Kiê decidiu que cada PDF é aberto e conferido em **título, primeiro autor e DOI**, os três a bater. Registo em `VERIFICACAO_TITULO_AUTOR_DOI.csv` (1.422 ficheiros de nome antigo). Trabalho em lotes de 15 por subagente, um de cada vez, com auditoria minha entre lotes; atribuição e resultado de cada lote em `lotes_verificacao/`.
+
+**Hierarquia de prova aceite para `CONFERE`** (da mais forte para a mais fraca; usar a primeira que se aplique):
+
+1. **DOI do banco impresso na FRENTE do documento** + título e autor a bater. É a regra normal.
+1b. **Bloco de auto-identificação do artigo, onde quer que esteja no documento** (aceite 2026-08-17): alguns periódicos imprimem o DOI **no colofão da última página**, num bloco do tipo `Recebido / Aprovado / DOI: … / Como citar: <autores>, <revista>, <volume>, <páginas>`. Isso **não é uma entrada da lista de referências** — é o próprio artigo a dizer como deve ser citado, o que é a afirmação de autoria mais forte que um documento pode fazer. Vale como via 1, mas registar como `via colofao` para não se confundir com a posição na frente. Caso ARAUJO PRADO 2022 (*Revista Tecnologia e Sociedade*, UTFPR): o cabeçalho da p. 1 traz só o URL do periódico, e o DOI está na p. 166.
+   ⚠️ **Não usar isto como brecha.** A via 1b exige que o bloco seja de auto-citação — com "Como citar" ou equivalente e os dados do próprio artigo. Um DOI solto no fim do ficheiro, dentro de uma lista de referências, continua a não provar nada. Confirmar sempre que a lista de referências é distinta desse bloco.
+2. **Crossref** (aceite 2026-08-16): quando o ficheiro é versão de autor sem DOI impresso, resolver o DOI do banco em `https://api.crossref.org/works/<doi>` e exigir que **título e lista completa de autores, pela mesma ordem**, batam com o PDF. É prova mais forte do que a nº3 — identifica a obra inteira, não só um sufixo. Verificado por mim no AREHART 2020 e no ARMSTRONG 2023.
+3. **Manuscript ID** (aceite 2026-08-16): versão aceite cujo `Manuscript ID` é o próprio sufixo do DOI (ex.: `cjce-2015-0431.R1` para `10.1139/cjce-2015-0431`), com título, autor e revista a bater. Caso ALSHAMRANI 2016i.
+
+➕ **Reforço por ISBN, para livros** (aceite 2026-08-16): quando a entrada é um **livro** e não um artigo, o DOI raramente vem impresso. Além do Crossref, exigir que o **ISBN do registo Crossref bata com o ISBN impresso na página de copyright do PDF**. Caso JOLLIET 2015i: `10.1201/b19138` devolve `type=book`, *Environmental Life Cycle Assessment*, CRC Press, cinco autores pela ordem da capa, ISBN 9781439887707 — o mesmo impresso no ficheiro. Não é uma quarta via, é um reforço que torna a via 2 praticamente inatacável para livros.
+
+A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `via Crossref`, `via Manuscript ID`) para a natureza da prova não se dissolver num «confirmado» indistinto.
+
+📌 **Divergência de idioma do título não é divergência** (2026-08-17): revistas bilingues registam o título numa língua e imprimem o PDF noutra. O banco pode ter o título em inglês e o ficheiro estar em português, e ser o mesmo artigo — confirmar por DOI, autor, revista, volume e paginação, não pela língua. Caso ARAUJO PRADO 2022. O mesmo vale para variação redaccional entre versão de autor e versão publicada (caso AJAYI 2015, post-print do Leeds Beckett).
+
+📌 **Errata apensa ao mesmo ficheiro não é quimera** (2026-08-17): a Elsevier apende ao PDF do artigo, no fim, um bloco «Update» seguido do *corrigendum* do próprio artigo — com DOI próprio (o do corrigendum) e uma linha explícita «DOI of original article: <DOI do artigo>». São dois DOIs no mesmo ficheiro, mas **uma só obra**: não aplicar a regra da quimera. O que decide é essa linha de ligação e o facto de o DOI do banco estar na frente da p.1. Caso SCOPE et al., 2021 (`10.1016/j.spc.2020.12.022`, 21 páginas de artigo + pp. 22–23 de corrigendum `10.1016/j.spc.2021.05.014`), auditado por mim.
+
+⚠️ **DOI presente no texto não prova autoria** — pode ser citação nas referências, incluindo auto-citação do mesmo grupo. A posição no documento é que decide. E apelido + ano não chega; apelido + ano + revista também não (caso PUSHKAR 2019: mesma autora, revista, ano e tema, e ainda assim outro artigo).
+
+⚠️⚠️ **A auto-citação entre artigos do mesmo grupo é sistemática, não excepcional** (constatado ao longo dos lotes 39–48). Apareceu em VEGA (três artigos da mesma autora a citarem-se em cadeia), AL-NAJJAR, ABD RASHID, BISWAS e BURCHART-KOROL. O problema é que **a sonda por DOI e a colisão de nomes de ficheiro falham nos mesmos casos**: são precisamente os artigos do mesmo grupo que partilham apelido e ano no nome *e* se citam uns aos outros no texto. Um método barato erra duas vezes no mesmo sítio; só a posição do DOI na frente os separa.
+
+⚠️ **Armadilha nº4 do extractor — DOI partido pelo markup do hiperlink** (descoberta 2026-08-17, caso BUCIO-SISTOS 2022): quando o DOI impresso está dentro de uma hiperligação, a extracção pode devolvê-lo em dois pedaços (`10.3989/ic` + `.87813`), e uma busca literal pelo DOI completo dá **ausente**. Pior: nesse ficheiro o *href* do link é `10.3989/ic.79082`, resto de um clipboard de InDesign do editor — ou seja, o `conferir_pdf.py` lista um DOI errado como se fosse o da frente. O texto impresso estava certo, confirmado pela caixa «Cómo citar este artículo» e pelo rodapé corrido. Perante um `ausente` inesperado, procurar o DOI aos pedaços antes de concluir seja o que for.
+
+  📌 **Correcção (2026-08-17):** a armadilha **não** é propriedade da *Informes de la Construcción* nem do prefixo CSIC, como eu tinha escrito. O `MEL, 2015.pdf` (mesma revista) e o `MEJIA-ARCILA, 2020.pdf` (*Materiales de Construcción*, mesmo prefixo `10.3989`) foram conferidos e saíram **limpos** — DOI inteiro em todas as ocorrências e *href* correcto em todos os links. Era defeito do ficheiro do BUCIO-SISTOS em concreto, do InDesign de quem o paginou. Faltam `VIDAL et al., 2019.pdf` e `ARGUELLOMENDEZ et al., 2008.pdf` para fechar a questão.
+
+  🔁 **Duas causas distintas, e o *href* tanto mente como salva:**
+  - **Markup do hiperlink** — o DOI impresso sai em pedaços (caso BUCIO-SISTOS e outros).
+  - **Hifenização na quebra de linha** — `10.1111/j.1530- 9290.2011.00445.x`, com o extractor a listar `10.1111/j.1530` como se fosse um DOI (caso MOHAREB 2012).
+  - No **BUCIO-SISTOS** o *href* estava **errado** (resto de clipboard do editor) e o texto impresso certo. No **MÜLLER 2021** dá-se o inverso: o texto impresso vem partido (`https://doi.org/10.3390/` + `su13168715`) e o DOI completo **só sobrevive dentro do *href***. Ou seja, nenhuma das duas fontes é fiável sozinha — é preciso cruzá-las.
+
 ## Preferências de interação da Kiê
 
 - **⭐ Perguntas: sempre no texto do chat, nunca em componente de escolha múltipla** (pedido explícito, 2026-08-12). Não usar a ferramenta de perguntas com opções — escrever a pergunta diretamente na resposta, em texto corrido, e aguardar. Vale para dúvidas de triagem, decisões de critério e qualquer outra escolha.
