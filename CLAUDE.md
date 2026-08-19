@@ -101,7 +101,15 @@ A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `v
   - o corpo arrasta restos da estrutura de origem («o detalhamento da blendagem já foi realizada em capítulo anterior»);
   - o título impresso pode bater com o do `url` do banco e **não** com o `title` — foi o que aconteceu aqui.
 
-  Esperar mais casos destes no grupo das teses: publicar artigos derivados da dissertação é a norma, e quem descarregou o PDF pode ter apanhado o artigo em vez da tese.
+  Esperar mais casos destes no grupo das teses: publicar artigos derivados da dissertação é a norma, e quem descarregou o PDF pode ter apanhado o artigo em vez da tese. **Previsão confirmada** — o segundo caso (OSORTO 2023, artigo na *Sustainability* da MDPI) apareceu dois lotes depois.
+
+  ✅ **O teste mais barato e mais decisivo** (validado nos lotes 96 e 97): contar as ocorrências de «Dissertação», «Tese», «Ficha catalográfica», «Banca», «Orientador», «Mestre em», «Doutor em» e do **nome da universidade que o banco indica**. Numa tese brasileira genuína aparecem; num artigo derivado dão **zero**. Foi o que desmascarou o OSORTO e o SANTOS et al., 2022.
+
+  ⚠️ **Duas ressalvas ao teste, ambas capazes de produzir um falso «não é tese»:**
+  - **`grep -i` não dobra maiúsculas acentuadas.** Verificado por mim: num ficheiro com «FICHA CATALOGRÁFICA» e «ficha catalográfica», `grep -ic` devolve **1** e o `casefold()` do Python devolve **2**. Usar `casefold()` em Python, ou `grep -i` com as duas grafias.
+  - **O vocabulário varia por universidade.** A USP usa «FOLHA DE APROVAÇÃO» em vez de «Banca» e «Mestrado — Programa de Pós-Graduação em…» em vez de «Mestre em» (caso SILVA 2013i, onde esses dois termos deram zero num ficheiro perfeitamente correcto). Zero em **alguns** termos não é sinal; zero em **todos**, incluindo o nome da universidade, é que é.
+
+  📌 **O apelido do nome do ficheiro pode não existir dentro dele** (caso SCHMIDT 2015): a folha de rosto assina **Raquel Petry Brondani** e «Schmidt» tem **zero** ocorrências no PDF — apelido adquirido depois da defesa, entrado pelo registo do repositório. Título, programa, instituição, ano, orientador e resumo batiam todos. Uma sonda por apelido nunca encontraria este ficheiro.
 
 ⚠️ **DOI presente no texto não prova autoria** — pode ser citação nas referências, incluindo auto-citação do mesmo grupo. A posição no documento é que decide. E apelido + ano não chega; apelido + ano + revista também não (caso PUSHKAR 2019: mesma autora, revista, ano e tema, e ainda assim outro artigo).
 
