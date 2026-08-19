@@ -565,7 +565,8 @@ Durante o C6 detectaram-se inconsistências herdadas + um bug de coluna. Tudo co
 - **Resíduo agrícola/vegetal como SCM/agregado em concreto:** UNIVERSAL = Aceito (bagaço de cana, casca de arroz, aguapé/water hyacinth invasor, lignina kraft, palha de cereais, plantas invasoras); REGIONAL CONCENTRADO = Rejeitado (cinza de açaí amazônico, row 4720). O divisor é a disponibilidade global do resíduo.
 - **Cortiça** como material relevante do estudo = **Rejeitado** (produção concentrada).
 - **Materiais costeiros naturais** (coir/juta/concha de ostra para living shorelines) fora do escopo de concreto urbano = **Rejeitado** + rastreio `outra`.
-- **Decisões registradas:** 3348 hemp-reforço=Aceito; 2790/3254 fibras regionais foco=Rejeitado; 3284 adobe-vs-concreto=Aceito (metade concreto armado).
+- **Decisões registradas:** 3348 hemp-reforço=Aceito; ~~2790~~/3254 fibras regionais foco=Rejeitado; 3284 adobe-vs-concreto=Aceito (metade concreto armado).
+  - 🚨 **A decisão sobre a 2790 está contaminada (descoberto 2026-08-19, lote 96).** Foi tomada a ler o PDF errado. A linha 2790 é a dissertação de Tiago Assunção Santos (UFBA) sobre **clínquer Portland com fino de rocha granítica e resíduo de telha de cimento-amianto** — não tem fibras nenhumas. O ficheiro que lá estava (`SANTOS et al., 2022.pdf`) é o artigo amazónico de fibras vegetais da **linha 3028** (`10.1016/j.clcb.2022.100034`, cinco autores, UFAM/UFRJ/Aveiro), que está sem PDF. Colisão do apelido «Santos». A justificação «fibras regionais» descreve o artigo da 3028, não a obra da 2790. **A 3254 não foi reverificada — a menção acima continua a valer só para ela.** Ver `PENDENTES_DECISAO_KIE_2026-08-17.csv`, linha 2790.
 - **Lotes de 200**; ao fim do lote: salvar + atualizar status dos rejeitados + reportar.
 
 ## Regra C5 — OPÇÃO A (vigente 2026-06-15, SUPERA todas as anteriores)
