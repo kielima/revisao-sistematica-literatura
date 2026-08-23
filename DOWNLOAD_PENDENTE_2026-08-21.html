@@ -1,0 +1,39 @@
+<!doctype html><html lang="pt"><meta charset="utf-8">
+<title>Os 4 que faltam — vias corrigidas</title>
+<style>
+ body{font:15px/1.55 system-ui,sans-serif;max-width:960px;margin:2rem auto;padding:0 1rem;color:#1a1a1a}
+ h1{font-size:1.35rem;margin-bottom:.2rem} .sub{color:#666;margin-bottom:1.4rem}
+ table{border-collapse:collapse;width:100%} td{border-top:1px solid #ddd;padding:.8rem .5rem;vertical-align:top}
+ .ln{font-weight:700;width:4.5rem} .st{font-weight:400;font-size:.78rem;color:#777}
+ .tit a{color:#0645ad;text-decoration:none} .tit a:hover{text-decoration:underline}
+ .meta{color:#555;font-size:.87rem;margin-top:.15rem}
+ .doi{font-family:ui-monospace,monospace;font-size:.8rem;color:#888;margin-top:.2rem}
+ .diag{font-size:.87rem;background:#f7f9fb;border-left:3px solid #9bb;padding:.5rem .7rem;margin-top:.5rem}
+ .diag code{font-size:.8rem;background:#eee;padding:.05rem .25rem;border-radius:3px}
+ .ok{background:#eef7ee;border:1px solid #cbe3cb;padding:.7rem 1rem;border-radius:5px;margin-bottom:1.3rem;font-size:.9rem}
+</style>
+<h1>Os 4 que faltam — vias corrigidas</h1>
+<div class="sub">Diagnóstico de por que cada link falhou, e a via alternativa.</div>
+<div class="ok"><b>Já integrados:</b> linhas 2715, 3508 e 4501 — os três ficheiros que descarregou foram conferidos, renomeados na convenção nova e movidos para a pasta principal.</div>
+<table><tr>
+ <td class="ln">4127<div class="st">Rejeitado</div></td>
+ <td><div class="tit"><a href="http://web.archive.org/web/20240723084356/https://www.revistasg.uff.br/sg/article/view/1712" target="_blank" rel="noopener">Identification of impacts to human health and the environment in the waste blending process for co-processing</a></div>
+     <div class="meta">de Aguiar, David Barreto; Oliveira Mattos, Ubirajara Aluizio; Peçanha Esteves, Victor Paulo (2021) — <i>Sistemas &amp; Gestão 16(2)</i></div>
+     <div class="doi">10.20985/1980-5160.2021.v16n2.1712</div>
+     <div class="diag"><b>O DOI resolve para um domínio morto.</b> O <code>revistasg.uff.br</code> deixou de existir (o DNS já não resolve), por isso o link falhou. O artigo é de acesso aberto e existe no arquivo da web — use o link acima e procure na página o botão do PDF. Não consigo aceder ao web.archive.org a partir daqui, mas do seu lado funciona.</div></td></tr><tr>
+ <td class="ln">2880<div class="st">Inconclusivo</div></td>
+ <td><div class="tit"><a href="https://doi.org/10.1002/ep.14503" target="_blank" rel="noopener">Production and recycling of blast furnace slag: A life cycle assessment approach in India</a></div>
+     <div class="meta">Meshram, Rohit B.; Sahoo, Kanai L.; Yadav, Ganapati D.; Marathe (2024) — <i>Environmental Progress &amp; Sustainable Energy</i></div>
+     <div class="doi">10.1002/ep.14503</div>
+     <div class="diag"><b>Paywall da Wiley — precisa do proxy CAPES.</b> Reescreva o host: <code>https://onlinelibrary-wiley-com.ez<b>NNN</b>.periodicos.capes.gov.br/doi/10.1002/ep.14503</code>, substituindo <b>NNN</b> pelo número da sua sessão CAPES. Abra a <i>página do artigo</i>, não o caminho directo do PDF — é a página que mostra o botão com «Access provided by CAPES».</div></td></tr><tr>
+ <td class="ln">2790<div class="st">Inconclusivo</div></td>
+ <td><div class="tit"><a href="https://repositorio.ufba.br/bitstream/ri/34967/1/Tese_Tiago%20Assunc%CC%A7a%CC%83o_Final_pdf.pdf" target="_blank" rel="noopener">Obtenção de clínquer Portland a partir da utilização do fino de rocha granítica (FRG) e do resíduo de telhas de cimento-amianto (RCA) como matérias-primas alternativas</a></div>
+     <div class="meta">Santos, Tiago Assunção (2022) — <i>UFBA — tese de doutoramento</i></div>
+     
+     <div class="diag"><b>Link directo do PDF encontrado.</b> O <i>handle</i> que eu tinha dado devolveu 503 quando o testei — era falha momentânea do repositório, não do link. Este aponta directamente ao ficheiro e evita a página. Nota: é <b>tese de doutoramento</b>, não dissertação.</div></td></tr><tr>
+ <td class="ln">4999<div class="st">Inconclusivo</div></td>
+ <td><div class="tit"><a href="https://www.bdtd.uerj.br:8443/" target="_blank" rel="noopener">Avaliação do ciclo de vida nas atividades de coprocessamento de resíduos industriais em fornos de clínquer no Estado do Rio de Janeiro</a></div>
+     <div class="meta">Aguiar, David Barreto (2021) — <i>UERJ — tese de doutoramento em Engenharia Ambiental</i></div>
+     
+     <div class="diag"><b>⚠️ O link que estava no banco leva à obra ERRADA.</b> O campo <code>url</code> da linha 4999 é do ResearchGate e aponta para o <i>artigo derivado</i> (DOI 10.6008/CBPC2179-6858.2021.006.0031, três autores, Revista Ibero-Americana), não para a tese. Foi por aí que o ficheiro errado entrou duas vezes. Confirmei que a tese existe: <b>doutoramento em Engenharia Ambiental, UERJ, 2021</b>, orientadores Ubirajara Mattos (UERJ) e Victor Esteves (UFRJ) — recebeu Menção Honrosa da Academia Brasileira de Qualidade. Procure na BDTD/UERJ por <i>autor: Aguiar, David Barreto</i>. Não lhe dou um link directo porque não consegui abrir o repositório daqui e não quero mandá-la a um endereço que não verifiquei.</div></td></tr></table>
+</html>
