@@ -3,10 +3,30 @@ titulo: RSL PROGRESSO
 descricao: Estado atual do banco de dados da RSL — verificado programaticamente
 tags: [academico-e-pesquisa, revisao-sistematica, UHPC]
 status: em-andamento
-ultima_atualizacao: 2026-06-21
+ultima_atualizacao: 2026-08-22
 ---
 
 # Progresso da RSL — Estado atual
+
+> ## ⛔ ATENÇÃO — este ficheiro é HISTÓRICO a partir de 2026-06-22
+>
+> **A última entrada datada do corpo abaixo é de 22/06/2026.** Tudo o que se passou de
+> julho a agosto de 2026 — auditoria de colisões de PDF, as 80 linhas `A_VERIFICAR`, a
+> Terceira Frente dos nomes partilhados, a renomeação para a convenção nova e a
+> **conferência PDF × banco por título+autor+DOI dos 1.422 ficheiros** — **não está aqui**.
+> As contagens deste ficheiro (480 Elegíveis, 1.347 Inconclusivos, 1.827 no escopo)
+> **já não valem**: várias linhas mudaram de `status_triagem` e 83 linhas vivas ficaram
+> sem ficheiro PDF por atribuição errada.
+>
+> **Para o estado real e para saber por onde continuar, ler nesta ordem:**
+> 1. **`PROMPT_RETOMADA_2026-08-22.md`** — o que está fechado, o que foi aplicado ao
+>    banco, o estado medido e a lista ordenada do que falta. ⭐ **Começar por aqui.**
+> 2. `CLAUDE.md` — regras vigentes, armadilhas verificadas e índice dos registos.
+> 3. `CRITERIOS_E_NUANCES_RSL.md` — texto literal dos critérios C1–C8 e refinamentos.
+>
+> O corpo abaixo continua a valer como **referência de método** (formato das células,
+> lógica de cascata, regras C5/C6, histórico de execução de cada critério) — é só a
+> parte numérica que está desactualizada.
 
 > Verificado programaticamente em 22/05/2026 pelo Claude/Cowork via leitura direta do Excel.
 > Atualizado após auditoria PRISMA (2 passagens) + decisão HABERT 2026-05-23 — ver `00_REFERENCIAS/PRISMA/FLUXOGRAMA_PRISMA_2020_DOC.md`.
