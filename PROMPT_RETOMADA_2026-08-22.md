@@ -1,10 +1,30 @@
-# Retomada — estado em 2026-08-22
+# Retomada — estado em 2026-08-22, actualizado a 2026-08-23
 
 > **Ler este ficheiro primeiro.** Substitui `PROMPT_RETOMADA_CONFIRMACAO_PDF_METANALISE.md` e
 > `PROMPT_RETOMADA_AUDITORIA_COLISOES_PDF.md`, ambos anteriores à conferência e com pontos de
 > retoma que já não são válidos.
 > A seguir, ler o `CLAUDE.md` (método, armadilhas, convenções) e o `CRITERIOS_E_NUANCES_RSL.md`
 > (texto literal dos critérios C1–C8 e refinamentos).
+
+> ## 🔄 ACTUALIZAÇÃO DE 2026-08-23 — leia isto antes das secções 3 e 4
+>
+> A 23/08 **os registos foram aplicados ao banco**. As secções 3 e 4 abaixo descrevem o
+> estado de 22/08, quando quase nada estava aplicado — continuam a valer como contexto,
+> mas as tarefas 4.1, 4.2, 4.4 e boa parte da 4.3 **já foram feitas**.
+> **O relato completo está em `APLICACAO_REGISTOS_2026-08-23.md`.** Em resumo:
+>
+> - ✅ 47 DOIs aplicados · 15 metadados corrigidos · 33 hyperlinks alinhados (defeito fechado)
+> - ✅ **Três** pares de troca fechados — ZHANG, LI e **PARK (novo, 4609↔4613)**
+> - ✅ 5 ficheiros devolvidos a linhas vivas que estavam sem PDF · 22 ficheiros soltos
+> - ✅ 5 nomes com diacríticos corrigidos
+>
+> **🔢 O funil não é 1.397 — é 1.248.** O número publicado contava 12 linhas mortas *e*
+> contava `R:` como decisão, contra a regra do projecto. Ver o `CLAUDE.md`, bullet
+> «Estado real», para as três definições lado a lado.
+>
+> **➡️ O que falta é o C2:** das 1.248 linhas do funil, **1.161 têm o C2 só com `R:`**, e
+> **nenhuma delas está sem ficheiro PDF**. É a tarefa #7 (secção 4.6), e agora não há
+> nada a bloqueá-la.
 
 ---
 
