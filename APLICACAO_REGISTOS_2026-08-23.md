@@ -45,9 +45,13 @@ pp. 403–418. Corrigidos os três campos.
 
 **Não aplicadas, de propósito** (três casos, todos por falta de valor certo determinado):
 - **4951** — segundo autor «Pena Compas» vs «Pena Corpa»; o Crossref não desempata.
-- **5016** — o banco diz «Schmidt», o PDF assina «Raquel Petry Brondani». As duas formas
-  são defensáveis (apelido adquirido depois da defesa, entrado pelo registo do
-  repositório). **Precisa da decisão da Kiê:** qual fica no banco?
+- ~~**5016**~~ — **RESOLVIDO em 2026-08-23, nada a corrigir.** A Kiê levantou a questão
+  certa: seria retificação de nome? O campo `author` do banco diz «Schmidt, **Raquel
+  Petry Brondani**» — contém os próprios nomes da folha de rosto, logo é a mesma pessoa
+  com mais um apelido. E o mecanismo (casamento? retificação? correcção de registo?)
+  **não foi verificado e não se deve afirmar** — a versão anterior desta nota afirmava-o
+  indevidamente. Seja qual for, a forma do repositório é a actual e é a que fica; repor
+  a forma impressa seria o erro.
 - **4999** — o `url` aponta para o ResearchGate, que serve a obra errada; o registo certo
   na BDTD/UERJ está por localizar. É a causa raiz de o ficheiro errado ter entrado duas
   vezes nesta linha.
