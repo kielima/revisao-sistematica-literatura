@@ -128,7 +128,13 @@ A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `v
 
   📌 **Alguns repositórios atribuem DOI à tese** — a UnB usa o prefixo `10.26512` (caso SOMBRIO 2015, `10.26512/2015.01.D.18503` no campo `url`) — e esse DOI **não é impresso no documento**. Para teses, a ausência do DOI no ficheiro é normal mesmo quando o banco tem um; não é indício de ficheiro trocado.
 
-  📌 **O apelido do nome do ficheiro pode não existir dentro dele** (caso SCHMIDT 2015): a folha de rosto assina **Raquel Petry Brondani** e «Schmidt» tem **zero** ocorrências no PDF — apelido adquirido depois da defesa, entrado pelo registo do repositório. Título, programa, instituição, ano, orientador e resumo batiam todos. Uma sonda por apelido nunca encontraria este ficheiro.
+  📌 **O apelido do nome do ficheiro pode não existir dentro dele** (caso SCHMIDT 2015): a folha de rosto assina **Raquel Petry Brondani** e «Schmidt» tem **zero** ocorrências no PDF. Título, programa, instituição, ano, orientador e resumo batiam todos. Uma sonda por apelido nunca encontraria este ficheiro.
+
+  **É a mesma pessoa, e a prova está no próprio banco:** o campo `author` da linha 5016 diz **«Schmidt, Raquel Petry Brondani»** — o registo da UFSM traz o nome completo, que contém exactamente os nomes da folha de rosto. É um nome com mais um apelido, não duas pessoas.
+
+  ⚠️ **Não afirmar o mecanismo.** Uma versão anterior desta nota dizia «apelido adquirido depois da defesa», dando a entender casamento. **Isso não foi verificado e não se deve afirmar:** pode ter sido casamento, retificação de nome, ou correcção de registo — não há prova de qual. A distinção não é cosmética: se foi retificação, o nome do repositório é o nome da pessoa e a forma da folha de rosto está superada.
+
+  ✅ **Regra que daqui sai:** quando o registo do repositório e a folha de rosto divergem no nome da mesma pessoa, **o banco segue o registo do repositório**, que é a forma actual. Não repor a forma impressa. A linha 5016 **não tem nada a corrigir** — foi retirada da lista de pendências em 2026-08-23.
 
 ⚠️ **DOI presente no texto não prova autoria** — pode ser citação nas referências, incluindo auto-citação do mesmo grupo. A posição no documento é que decide. E apelido + ano não chega; apelido + ano + revista também não (caso PUSHKAR 2019: mesma autora, revista, ano e tema, e ainda assim outro artigo).
 
