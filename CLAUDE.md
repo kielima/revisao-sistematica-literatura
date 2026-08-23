@@ -45,15 +45,15 @@ O Excel `articles_final.xlsx` (versionado neste repo) também é mantido sincron
 - **Última varredura de organização:** 2026-06-04 pela skill `avaliacao-critica-vault` — desatualizada (não cobre a auditoria de dados abaixo); nenhuma rodada nova da skill desde então.
 - **Downloads:** ✅ CONCLUÍDO (2026-06-05) — 480/480 Elegíveis com PDF; 60 Sem acesso (era 68 até 2026-08-03; 7 resolvidos na auditoria, 1 seguiu rejeitado por outro motivo).
 - **Triagem PDF:** C1 ✅ C2 ✅ C3 ✅ C4 ✅ C5 ✅ C6 ✅ | ~~C7 REMOVIDO (2026-06-22)~~ | C8 ✅ — cascata fechada desde 2026-06-22. Os totais "Aceito/Rejeitado" registrados durante a execução original de cada critério (jun/2026) ficaram levemente desatualizados por correções pontuais linha-a-linha feitas em jul–ago/2026; não recalcular a partir deles sem checar a auditoria abaixo.
-- **✅ Estado real (medido em 2026-08-23, depois de aplicados os registos ao banco):** `status_triagem`: Duplicado 2.622 | Inconclusivo 1.140 | Rejeitado 901 | Elegível 370 | Sem acesso 60 — total 5.093. **1.604 linhas têm alguma decisão `P:`**. **4.297 linhas têm DOI** (eram 4.250). **2.042 células têm ficheiro PDF, todas com hyperlink coerente.** **91 linhas vivas estão sem ficheiro PDF.**
+- **✅ Estado real (medido em 2026-08-23, depois da retriagem por PDF):** `status_triagem`: Duplicado 2.622 | Inconclusivo 1.138 | Rejeitado 903 | Elegível 370 | Sem acesso 60 — total 5.093. **1.618 linhas têm alguma decisão `P:`**. **4.297 linhas têm DOI** (eram 4.250). **2.042 células têm ficheiro PDF, todas com hyperlink coerente.** **91 linhas vivas estão sem ficheiro PDF.**
 
-  🔢 **O funil: 1.248, não 1.397.** O número 1.397 que aqui esteve publicado estava inflacionado por duas vias, ambas medidas e confirmadas a 2026-08-23:
+  🔢 **O funil: 1.259, não 1.397.** *(Era 1.248 antes da retriagem de 16 artigos feita a 23/08; ver `RETRIAGEM_PDF_2026-08-23.md`.)* O número 1.397 que aqui esteve publicado estava inflacionado por duas vias, ambas medidas e confirmadas a 2026-08-23:
   1. **Contava linhas mortas** — a definição não filtrava `status_triagem`, incluindo 12 linhas `Duplicado`/`Rejeitado`/`Sem acesso`. Só linhas vivas: **1.385**.
   2. **Contava `R:` como decisão** — contra a regra do próprio projecto («células com apenas `R:` são consideradas NÃO triadas»). Exigindo `P:Aceito` em C1 e C3–C6: **1.248**.
 
   O backup anterior às alterações de 23/08 dá exactamente 1.385 pela segunda definição, o que prova que a aplicação dos registos **não mexeu no funil** — só se tocou em linhas sem decisões `P:`. *(Medições anteriores, todas pela definição inflacionada: 2026-08-22, 1.397; 2026-08-16, 1.383; 2026-08-13, 1.401; 2026-08-03, 1.333.)*
 
-  ⚠️ **O C2 é o que falta.** Dentro do funil de 1.248, **só 87 têm o C2 confirmado por PDF; faltam 1.161** — é exactamente o trabalho da tarefa #7. Nenhuma dessas 1.248 linhas está sem ficheiro: o material para continuar está todo lá.
+  ⚠️ **O C2 é o que falta.** Dentro do funil de 1.259, **só 98 têm o C2 confirmado por PDF; faltam 1.161** — é exactamente o trabalho da tarefa #7. Nenhuma dessas 1.248 linhas está sem ficheiro: o material para continuar está todo lá.
 
   ⚠️ **Ao contar «linhas sem PDF», não basta ver se a célula `pdf` está vazia.** As 60 linhas `Sem acesso` têm a célula **preenchida com uma nota** («Sem acesso — Taylor & Francis», «sem download disponível via CAPES (2026-06-04)») ou com o próprio URL do DOI. Um filtro por «célula preenchida» conta-as como tendo ficheiro. Exigir que o valor **termine em `.pdf` e não comece por `http`**. Contando assim, são **144** as linhas vivas sem ficheiro: 84 Inconclusivo + 60 Sem acesso.
 - **✅✅ CONFERÊNCIA PDF × BANCO CONCLUÍDA (2026-08-19):** os **1.422** ficheiros foram todos abertos e conferidos em título, primeiro autor e DOI. **1.379 CONFERE · 34 PDF_ERRADO · 4 ILEGIVEL · 4 NAO_ENCONTRADO · 1 INDETERMINADO.** Registo linha a linha em `VERIFICACAO_TITULO_AUTOR_DOI.csv`; atribuição e resultado de cada lote em `lotes_verificacao/` (lotes 1–99).
@@ -76,7 +76,7 @@ O Excel `articles_final.xlsx` (versionado neste repo) também é mantido sincron
 
   ⚠️ **O scratchpad é partilhado entre lotes — não confiar em nada que já lá esteja** (constatado 2026-08-18, lote 86): o subagente encontrou um `rows.json` com as 15 entradas do lote 80 ainda lá. Não contaminou o resultado, mas podia. Duas defesas: dar aos ficheiros de trabalho um nome que inclua o número do lote, e **nunca** reutilizar um ficheiro do scratchpad sem o reescrever primeiro. A verificação que apanha isto na integração é comparar `doi_pdf` com `doi_banco` linha a linha — dados de outro lote quase nunca batem com o DOI do banco deste.
 
-  💡 **MD5 do texto extraído como detector de cópias:** dois dumps com o mesmo md5 são o mesmo documento. Foi assim que se provou que `YU, 2024i.pdf` e `YU et al., 2024.pdf` são duas cópias físicas da mesma obra (e que a linha 3508 ficou, portanto, sem PDF próprio).
+  💡 **MD5 do texto extraído como detector de cópias:** dois dumps com o mesmo md5 são o mesmo documento. Foi assim que se provou que `YU, 2024i.pdf` e `YU et al., 2024.pdf` são duas cópias físicas da mesma obra. ✅ **A linha 3508 já não está sem PDF próprio** — a Kiê descarregou-o e foi integrado a 2026-08-21 como `YU et al., 2024 - j.jobe.2024.110929.pdf`; relido e triado por PDF a 2026-08-23 (C1–C6 = P:Aceito).
 
   📌 **O campo `Title` mentiroso da *Ambiente Construído* é do gabarito da revista, não do ficheiro** (2026-08-18): três ficheiros distintos — `SILVA, 2018e.pdf`, `BORGES, 2014.pdf` e `PASSUELLO et al., 2014.pdf` — trazem no metadado interno, no offset 0, o mesmo título alheio: «VANTAGENS E DESVANTAGENS DA UTILIZAÇÃO DE PELES-VERDES EM EDIFICAÇÕES RESIDENCIAIS EM PORTO ALEGRE SEGUNDO SEUS MORADORES». É o modelo de PDF da revista que arrasta esse título. **Não é quimera em nenhum dos casos** — o teste é sempre o mesmo: se o título do offset 0 não reaparecer no corpo, é lixo de metadado. Contar com que volte a aparecer noutros ficheiros da mesma revista.
 
@@ -128,7 +128,13 @@ A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `v
 
   📌 **Alguns repositórios atribuem DOI à tese** — a UnB usa o prefixo `10.26512` (caso SOMBRIO 2015, `10.26512/2015.01.D.18503` no campo `url`) — e esse DOI **não é impresso no documento**. Para teses, a ausência do DOI no ficheiro é normal mesmo quando o banco tem um; não é indício de ficheiro trocado.
 
-  📌 **O apelido do nome do ficheiro pode não existir dentro dele** (caso SCHMIDT 2015): a folha de rosto assina **Raquel Petry Brondani** e «Schmidt» tem **zero** ocorrências no PDF — apelido adquirido depois da defesa, entrado pelo registo do repositório. Título, programa, instituição, ano, orientador e resumo batiam todos. Uma sonda por apelido nunca encontraria este ficheiro.
+  📌 **O apelido do nome do ficheiro pode não existir dentro dele** (caso SCHMIDT 2015): a folha de rosto assina **Raquel Petry Brondani** e «Schmidt» tem **zero** ocorrências no PDF. Título, programa, instituição, ano, orientador e resumo batiam todos. Uma sonda por apelido nunca encontraria este ficheiro.
+
+  **É a mesma pessoa, e a prova está no próprio banco:** o campo `author` da linha 5016 diz **«Schmidt, Raquel Petry Brondani»** — o registo da UFSM traz o nome completo, que contém exactamente os nomes da folha de rosto. É um nome com mais um apelido, não duas pessoas.
+
+  ⚠️ **Não afirmar o mecanismo.** Uma versão anterior desta nota dizia «apelido adquirido depois da defesa», dando a entender casamento. **Isso não foi verificado e não se deve afirmar:** pode ter sido casamento, retificação de nome, ou correcção de registo — não há prova de qual. A distinção não é cosmética: se foi retificação, o nome do repositório é o nome da pessoa e a forma da folha de rosto está superada.
+
+  ✅ **Regra que daqui sai:** quando o registo do repositório e a folha de rosto divergem no nome da mesma pessoa, **o banco segue o registo do repositório**, que é a forma actual. Não repor a forma impressa. A linha 5016 **não tem nada a corrigir** — foi retirada da lista de pendências em 2026-08-23.
 
 ⚠️ **DOI presente no texto não prova autoria** — pode ser citação nas referências, incluindo auto-citação do mesmo grupo. A posição no documento é que decide. E apelido + ano não chega; apelido + ano + revista também não (caso PUSHKAR 2019: mesma autora, revista, ano e tema, e ainda assim outro artigo).
 
@@ -205,6 +211,7 @@ Hierarquia recomendada:
 | `DOIS_RECUPERADOS_2026-08-18.csv` | 47 DOIs que faltavam ao banco, recuperados na conferência. **✅ APLICADOS ao banco em 2026-08-23** — todas as 47 células `doi` estavam vazias, sem conflito. Ver `APLICACAO_DOIS_2026-08-23.csv`. |
 | `CORRECOES_METADADOS_2026-08-16.csv` | 35 defeitos de metadado do banco (autores truncados, anos errados, nomes mal formados, `url` a apontar para a obra errada). **✅ 15 APLICADOS em 2026-08-23** (`APLICACAO_METADADOS_2026-08-23.csv`); 3 ficaram por decidir (4951, 5016, 4999) e os restantes são renomeações de ficheiro, que exigem mexer no Drive. |
 | `OBRAS_PERDIDAS_E_RECUPERADAS_2026-08-16.csv` | 24 casos de obras que se pensava perdidas e afinal estão na pasta, ou recuperáveis por reatribuição. |
+| **`RETRIAGEM_PDF_2026-08-23.md`** | **⭐ A releitura por PDF dos 16 artigos com ficheiro novo ou decisão anulada** (23/08). Resultado critério a critério, as duas regras novas que daí saíram, os avisos de metanálise por linha e o que ficou à espera da Kiê. |
 | **`APLICACAO_REGISTOS_2026-08-23.md`** | **⭐ O que foi escrito no banco a 23/08/2026**, com a prova de cada operação, o estado medido depois e a lista do que ficou por aplicar. Lê-se a seguir ao prompt de retomada. |
 | `APLICACAO_DOIS_2026-08-23.csv` | Os 47 DOIs aplicados, linha a linha. |
 | `APLICACAO_METADADOS_2026-08-23.csv` | As 15 correcções de metadado aplicadas, com o valor antigo e o novo. |
