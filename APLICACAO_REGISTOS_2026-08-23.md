@@ -104,6 +104,12 @@ zero estão desalinhadas.**
 
 ## Estado medido depois de tudo aplicado
 
+> ⏱️ **Instantâneo do momento desta passagem, já superado.** Ainda no mesmo dia fez-se a
+> **retriagem por PDF de 16 artigos** (ver `RETRIAGEM_PDF_2026-08-23.md`), que moveu estes
+> números: o funil passou de 1.248 para **1.259**, o C2 confirmado por PDF de 87 para **98**,
+> e o `status_triagem` para Inconclusivo 1.138 / Rejeitado 903. Os valores abaixo ficam como
+> registo do que esta passagem produziu; **para o estado actual, ver o `CLAUDE.md`.**
+
 ```
 status_triagem : Duplicado 2622 | Inconclusivo 1140 | Rejeitado 901 | Elegível 370 | Sem acesso 60   (total 5093)
 linhas com DOI : 4297   (eram 4250)
@@ -136,6 +142,7 @@ tinha de ser, já que só se tocou em linhas sem decisões `P:`.
 ### O C2 é o que falta
 
 Dentro do funil de 1.248, **só 87 têm o C2 confirmado por PDF**; faltam **1.161**.
+*(Depois da retriagem do mesmo dia: 1.259 no funil, 98 com C2 confirmado, os mesmos 1.161 por confirmar.)*
 É exactamente o trabalho da tarefa #7, que parou em Agosto. Nenhuma dessas 1.248 linhas
 está sem ficheiro PDF — o material para continuar está todo lá.
 
