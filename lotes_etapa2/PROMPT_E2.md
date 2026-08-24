@@ -161,6 +161,15 @@ meio das frases e o contexto do valor cai sempre na linha seguinte; sem normaliz
 
 Lê o contexto de cada ocorrência antes de decidir.
 
+⚠️ **Designação comercial com sufixo numérico: `DUVIDA`, não decidas.** Um cimento cubano
+«P-35» é, pela norma NC 95, uma classe de 35 MPa — mas se o artigo nunca o disser, aceitá-lo
+exige conhecimento que o documento não dá. E o sufixo é ambíguo dentro do próprio artigo:
+no mesmo par de designações, `LC3-50` quer dizer **teor de clínquer**, não resistência.
+
+⚠️ **Resistência de um componente de reforço não é resistência da mistura.** Tracção de 3.690
+MPa de uma fibra de carbono é força por área, mas o limiar de 20 MPa está calibrado para a
+compressão de uma mistura. Marca `DUVIDA` e explica.
+
 ⚠️ **Um caso que a regra ainda não cobre — marca `DUVIDA` e não decidas.** Quando o material
 que o artigo estuda **não tem resistência nenhuma declarada** e a única resistência do
 documento é a do **betão de referência com que ele se compara** (um OPC de benchmark, com o
@@ -318,7 +327,14 @@ fonte_externa,aviso_metanalise,confianca,nota
   critério passa, mas a metanálise não o pode usar sem cuidado. Casos já vistos:
   `sem dados proprios` · `captacao e nao emissao` (o número é *uptake* por carbonatação) ·
   `balanco liquido negativo` · `escala suspeita` · `normalizado pela resistencia` ·
-  `sem amostras proprias`. Descreve em texto livre se for caso novo, e explica na nota.
+  `sem amostras proprias` · `escala ambigua` (quando o referente do valor é que é dúbio — por
+  exemplo um total de 417 kg CO₂eq que tanto pode ser por viga como pelas três vigas — o que é
+  diferente de `escala suspeita`, em que o número é implausível) · `unidade nao declarada`.
+  Descreve em texto livre se for caso novo, e explica na nota.
+- `unidade_co2`: se o artigo dá os números e **nunca declara a unidade** (acontece), escreve
+  **`nao declarada`** e põe `unidade nao declarada` em `aviso_metanalise`. **Não infiras a
+  unidade pela ordem de grandeza** — regista o que lá está e deixa a inferência para quem
+  extrair, com o aviso à vista.
 - `n_misturas_abaixo_20`: o número quando as misturas são contáveis, `todas` quando nenhuma
   atinge 20, e **vazio** quando o artigo não declara resistência nenhuma. Quando o intervalo
   declarado prova que há pelo menos N mas o texto só transcreve algumas, escreve **`>=N`** e
@@ -331,6 +347,10 @@ fonte_externa,aviso_metanalise,confianca,nota
   `sem amostras proprias` em `aviso_metanalise`. Só se preenche quando o artigo aponta uma obra
   concreta como origem do valor (por exemplo «our previous study [55]»): a citação ou o DOI,
   ou `nao identificada` se o artigo não a identificar. Separa várias com `;`.
+  📌 Quando a origem é uma **base de dados de inventário** (AusLCI, ecoinvent, BEDEC, LCI
+  nacional), escreve **`base de dados de inventario: <nome>`**. Não é um estudo primário, não
+  tem DOI e **não entra no ramo de busca por citação do PRISMA** — mas convém ficar registado,
+  porque diz à metanálise que o valor não é uma medição do artigo.
 - `confianca`: `alta`, `media`, `baixa`.
 - `nota`: onde no documento está cada valor, e o raciocínio nos casos não triviais. É isto que
   permite auditar-te sem reabrir o PDF — escreve-a a pensar em quem vai conferir.
