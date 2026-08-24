@@ -153,6 +153,8 @@ E `kg/cm²` tanto pode ser resistência como **unidade de CO₂** — apareceu u
 🚨🚨 **`re.I` sobre `MPa` destrói a contagem — e a magnitude é muito maior do que parece.**
 Medido no lote 17: em **10 dos 15 artigos** a busca insensível devolveu entre 13 e 122
 acertos que eram **todos** `compa` de *comparison* e *compared*, com **zero** MPa verdadeiros.
+⚠️ E o falso positivo dominante nem é esse: é **`impact`** — a palavra mais comum de um corpus
+de ACV. Num artigo deu **123** acertos num ficheiro com zero MPa reais.
 Dois artigos que davam 122 e 75 acertos não tinham um único MPa. Um lote que confiasse na
 contagem tê-los-ia aceitado.
 
@@ -212,6 +214,16 @@ não publica. Apareceu 2 vezes num lote de 15, logo é comum. Marca `DUVIDA`.
 reforço, que já está prevista. Flexão é força por área, mas o limiar de 20 MPa está calibrado
 para compressão, e as duas grandezas não são intercambiáveis.
 
+⚠️ **Classe de resistência do CIMENTO (`CEM I 42.5`, `Rck 32.5`) não é a do betão: `DUVIDA`.**
+É força por área e é uma designação normalizada da EN 197-1 — mas descreve o **ligante**, não a
+mistura. Apareceu em três artigos de um só lote, e num deles era a única força por área do
+documento. Mesma família da fibra de reforço.
+
+📌 **Um artigo de UHPC pode não ter um único «MPa».** Aconteceu: zero ocorrências de «MPa» e
+zero de «strength» em 77,7 mil caracteres, num artigo de betão de altíssimo desempenho.
+**Não o aceites por «UHPC é por definição >120 MPa»** — é exactamente o que a regra do «P-35»
+proíbe: conhecimento externo que o documento não fornece.
+
 ⚠️ **Resistência de um componente de reforço não é resistência da mistura.** Tracção de 3.690
 MPa de uma fibra de carbono é força por área, mas o limiar de 20 MPa está calibrado para a
 compressão de uma mistura. Marca `DUVIDA` e explica.
@@ -241,6 +253,13 @@ documento é a do **betão de referência com que ele se compara** (um OPC de be
 valor tirado de outro estudo). Comparar com um OPC de referência é praxe na ACV de ligantes
 alternativos, por isso isto vai repetir-se. Regista `DUVIDA`, explica na nota qual é o
 material do estudo e qual é o benchmark, e avalia o CO₂ à mesma.
+
+📌 **Numa revisão, distingue «compila» de «menciona».** A regra de baixo aceita a revisão que
+**compila valores de resistência** dos estudos primários. Não cobre a revisão que **menciona
+resistência de passagem** ao discutir método — «Braga et al. usaram C50/60» dentro de uma
+tabela sobre escolha de unidade funcional é contexto de outro estudo, não compilação. As
+revisões de ACV de betão fazem isto quase sempre, por isso a distinção conta. Em dúvida sobre
+qual dos dois é, marca `DUVIDA`.
 
 ⭐ **Resistência medida por terceiros: ACEITA** (decisão da Kiê, 2026-08-24). Se o artigo
 reporta valores de resistência que não mediu — uma revisão que compila estudos primários, um
