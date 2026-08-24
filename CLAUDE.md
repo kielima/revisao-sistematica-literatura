@@ -185,7 +185,7 @@ A coluna `doi_bate` guarda **qual** das vias foi usada (`sim`, `via colofao`, `v
 
 Hierarquia recomendada:
 
-0. **⭐⭐ `PROMPT_RETOMADA_2026-08-22.md` primeiro, numa sessão nova.** É o único ficheiro com o estado real medido e a lista ordenada do que falta fazer.
+0. **⭐⭐ `PROMPT_RETOMADA_2026-08-24.md` primeiro, numa sessão nova.** É o único ficheiro com o estado real medido e a lista ordenada do que falta fazer. Descreve a **reestruturação da triagem em 4 etapas** (2026-08-24), a Etapa 1 já concluída e as duas decisões que travam a Etapa 2. O `PROMPT_RETOMADA_2026-08-22.md` fica como história da conferência PDF × banco — o seu ponto de retoma já não existe.
 1. **MOC mestre.** Leia `_MOC.md` na raiz para visão geral de todas as áreas.
 2. **MOC da área.** Antes de ler arquivos individuais, consulte `<AREA>/_MOC.md`.
 3. **RSL_PROGRESSO.md.** ⚠️ **Histórico, não estado actual** — a última entrada datada é 2026-06-22 e as contagens já não valem. Serve como referência de método (formato das células, cascata, regras C5/C6) e como registo da execução original de cada critério.
@@ -208,7 +208,14 @@ Hierarquia recomendada:
 | `AUDITORIA_COLISOES_2026-08-13.csv` | Veredito linha a linha das 131 afetadas por colisão: DOI do banco vs DOI realmente no PDF. Lista de trabalho da correção. |
 | `SOLTURA_PDF_OPCAOA_2026-08-16.csv` | **Registo da Opção A (2026-08-16).** As 73 linhas que ficaram sem PDF porque o ficheiro que reclamavam é de outra linha: número da linha, nome do ficheiro retirado, linha a que pertence, status. Cada uma tem também o motivo por extenso no carimbo (`comments`) do `articles_final.xlsx`. |
 | `COLISOES_PDF_2026-08-13.csv` | Inventário bruto das linhas que partilham nome de ficheiro com DOIs diferentes; mantido por rastreabilidade. |
-| **`PROMPT_RETOMADA_2026-08-22.md`** | **⭐⭐ LER PRIMEIRO NUMA SESSÃO NOVA.** Estado completo, o que ficou por decidir e por onde continuar. Substitui os prompts de retomada anteriores. |
+| **`PROMPT_RETOMADA_2026-08-24.md`** | **⭐⭐ LER PRIMEIRO NUMA SESSÃO NOVA.** A triagem em 4 etapas, a Etapa 1 concluída (2.206 sobreviventes), o piloto da Etapa 2 e as duas decisões em falta. |
+| `PROMPT_RETOMADA_2026-08-22.md` | ⚠️ **História, não estado actual** — descreve o desenho antigo em cascata C1–C8. Vale pelo relato da conferência PDF × banco. |
+| `DRIVE_FILEID_MAP.csv` | **⭐ O mapa `nome de ficheiro → fileId` da pasta dos PDFs**, 1.900 entradas. Usar sempre em vez de `search_files` por título. |
+| `lotes_etapa2/UNIVERSO_E2.csv` | Os 1.591 sobreviventes da Etapa 1 que têm ficheiro — a lista de trabalho da Etapa 2. |
+| `lotes_etapa2/PILOTO_RESULTADO.csv` | Os 12 artigos do piloto da Etapa 2, com resistência e CO₂ extraídos. |
+| `OA_ETAPA1_2026-08-24.csv` | Varrimento Unpaywall dos 571 sobreviventes sem ficheiro: 546 em acesso aberto, mas só 404 com ligação directa ao PDF. |
+| `DESCARGA_POR_EDITORA_2026-08-24.txt` | Taxa de sucesso da descarga automática por alojamento. As editoras comerciais bloqueiam; repositórios e revistas pequenas entregam. |
+| `DOWNLOAD_OA_2026-08-24.html` | Lista clicável dos 571, em quatro grupos por esforço de obtenção. |
 | `PROMPT_RETOMADA_CONFIRMACAO_PDF_METANALISE.md` | ~~Prompt da tarefa #7~~ — **desactualizado**, escrito a 2026-08-14 antes da conferência. O ponto de retoma que indica já não é válido. Ver o prompt de 2026-08-22. |
 | `VERIFICACAO_TITULO_AUTOR_DOI.csv` | **Lista mestra da conferência**, 1.422 ficheiros, com veredito, título impresso, via de prova (`doi_bate`), nota e data. |
 | `lotes_verificacao/` | Atribuição e resultado de cada um dos 99 lotes da conferência, por rastreabilidade. |
@@ -282,7 +289,7 @@ Padrão: `SOBRENOME et al., ANO.pdf` (sem caracteres especiais: ç→c, ã→a, 
   - Modelos de efeitos: [[Metanalise_Efeitos_Fixos_vs_Aleatorios]], [[Justificativa_Modelo_Efeitos_Aleatorios]]
   - Estimadores: [[REML_vs_DL_explicacao]]
   - Cálculos: [[CÁLCULO DO P ESTATÍSTICO]]
-- **Estado atual do projeto** → `PROMPT_RETOMADA_2026-08-22.md` (o `RSL_PROGRESSO.md` é histórico até 2026-06-22)
+- **Estado atual do projeto** → `PROMPT_RETOMADA_2026-08-24.md` (o `RSL_PROGRESSO.md` é histórico até 2026-06-22; o prompt de 22/08 descreve o desenho antigo)
 - **Downloads pendentes** → `DOWNLOAD_PENDENTE_2026-08-21.html` + `SEM_PDF_WORKLIST_2026-08-21.csv` (o `DOWNLOAD_MANUAL.html` foi apagado em 2026-06-05)
 - **Fluxograma PRISMA** → [[00_REFERENCIAS/PRISMA/FLUXOGRAMA_PRISMA_2020_DOC]]
 
