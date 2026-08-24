@@ -150,15 +150,25 @@ eram `total link strength`**, a métrica do VOSviewer, com valores plausíveis c
 E `kg/cm²` tanto pode ser resistência como **unidade de CO₂** — apareceu um artigo com
 `13,15 kg/cm²` de emissão.
 
-⚠️⚠️ **Procura `MPa` com as maiúsculas respeitadas.** Nunca uses `re.I` numa sigla de três
-letras: `compa` de *comparison* e *compared* dá falsos positivos, e foi medido — 3 falsos
-numa única página do RO 2024. Procura as variantes explicitamente:
+🚨🚨 **`re.I` sobre `MPa` destrói a contagem — e a magnitude é muito maior do que parece.**
+Medido no lote 17: em **10 dos 15 artigos** a busca insensível devolveu entre 13 e 122
+acertos que eram **todos** `compa` de *comparison* e *compared*, com **zero** MPa verdadeiros.
+Dois artigos que davam 122 e 75 acertos não tinham um único MPa. Um lote que confiasse na
+contagem tê-los-ia aceitado.
+
+Noutros lotes o mesmo erro deu 463, 128 e 25 falsos positivos. **Nunca corras `re.I` sobre uma
+sigla de três letras que é substring de palavras comuns.** Por isso o código abaixo tem dois
+padrões separados — a separação não é estilo, é o que impede o erro:
 
 ```python
-re.findall(r"MPa|Mpa|mPa|megapascal|N/mm2|N/mm²|newtons?\s+per|kgf/cm|"
-           r"\bC\s?\d{2}\s?/\s?\d{2}\b|\bC\s?\d{2}\b|\b\d{2}\s*/\s*\d{2}\b|\bf'?ck?\b|"
-           r"\bpsi\b|\bksi\b|pounds?\s+per\s+square|strength\s+(?:grade|class)|"
-           r"grade\s+C?\d{2}", full, re.I)   # re.I aqui e seguro: nenhum destes
+# 🚨 DOIS padroes, e a separacao NAO e opcional (ver aviso a seguir)
+SIGLA = r"MPa|Mpa|mPa"                       # SEM re.I. Nunca com re.I.
+RESTO = (r"megapascal|N/mm2|N/mm²|newtons?\s+per|kgf/cm|pounds?\s+per\s+square|"
+         r"\bC\s?\d{2}\s?/\s?\d{2}\b|\bC\s?\d{2}\b|\b\d{2}\s*/\s*\d{2}\b|"
+         r"\bf'?ck?\b|\bpsi\b|\bksi\b|strength\s+(?:grade|class)|grade\s+C?\d{2}")
+
+hits  = re.findall(SIGLA, full)                 # maiusculas respeitadas
+hits += re.findall(RESTO, full, re.I)           # aqui re.I e seguro
 ```
 
 ⚠️ **Normaliza `\s+` para espaço antes de procurar.** O texto extraído tem quebras de linha a
@@ -189,6 +199,18 @@ Lê o contexto de cada ocorrência antes de decidir.
 «P-35» é, pela norma NC 95, uma classe de 35 MPa — mas se o artigo nunca o disser, aceitá-lo
 exige conhecimento que o documento não dá. E o sufixo é ambíguo dentro do próprio artigo:
 no mesmo par de designações, `LC3-50` quer dizer **teor de clínquer**, não resistência.
+
+⚠️ **Impacto climático quantificado só em unidade normalizada, sem massa: `DUVIDA`.** Já
+apareceu em quatro sabores — pontos Eco-Indicator (`Pt`), **DALY**, **eco-point** com factor de
+normalização coreano, e **mPEW/10 MN** do ReCiPe Europe. Nestes casos há ACV a sério, com
+unidade funcional e categoria de impacto, e a menção a `kg CO₂-eq` só aparece na tabela
+metodológica que descreve a categoria — nunca num resultado. **Não é percentagem** nem facto
+sectorial: é um valor de impacto real, mas irrecuperável para massa sem factores que o artigo
+não publica. Apareceu 2 vezes num lote de 15, logo é comum. Marca `DUVIDA`.
+
+⚠️ **Resistência à flexão da própria mistura: `DUVIDA`.** Distinta da tracção de uma fibra de
+reforço, que já está prevista. Flexão é força por área, mas o limiar de 20 MPa está calibrado
+para compressão, e as duas grandezas não são intercambiáveis.
 
 ⚠️ **Resistência de um componente de reforço não é resistência da mistura.** Tracção de 3.690
 MPa de uma fibra de carbono é força por área, mas o limiar de 20 MPa está calibrado para a
@@ -402,7 +424,9 @@ fonte_externa_resistencia,fonte_externa_co2,aviso_metanalise,confianca,nota
   contáveis e são poucas, e **vazio** quando o artigo não declara resistência nenhuma. Quando o intervalo
   declarado prova que há pelo menos N mas o texto só transcreve algumas, escreve **`>=N`** e
   explica na nota — não arredondes para o número que conseguiste ver. Quando o artigo não tem misturas de todo — trabalha com
-  classes de projecto de um edifício — escreve **`sem misturas`**, que não é o mesmo que `0`
+  classes de projecto de um edifício — escreve **`sem misturas`**, e se **alguma dessas classes
+  estiver abaixo de 20** (um betão de regularização a 16 MPa, por exemplo) escreve
+  **`sem misturas; N classes abaixo`**, para a informação não se perder, que não é o mesmo que `0`
   (o `0` diz que houve contagem). E quando o que fica abaixo de 20 é uma **idade** e não uma
   composição (7 dias abaixo, 28 e 90 acima), conta **`0`**: a coluna conta misturas, não pares
   mistura×idade — mas di-lo na nota. E quando o artigo
