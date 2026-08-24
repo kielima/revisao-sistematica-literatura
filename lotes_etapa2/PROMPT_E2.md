@@ -110,6 +110,20 @@ meio das frases e o contexto do valor cai sempre na linha seguinte; sem normaliz
 
 Lê o contexto de cada ocorrência antes de decidir.
 
+⭐ **Resistência medida por terceiros: ACEITA** (decisão da Kiê, 2026-08-24). Se o artigo
+reporta valores de resistência que não mediu — uma revisão que compila estudos primários, um
+artigo que assume o inventário de outro, uma classe atribuída por semelhança — **conta como
+declarar resistência**. O artigo entra.
+
+Em contrapartida, **tens de registar de onde vêm os valores**, na coluna `fonte_externa`: a
+citação ou o DOI do estudo de origem, tal como o artigo o identifica. Esses estudos vão entrar
+no fluxograma PRISMA pelo **ramo da busca por citação**, para o mesmo ensaio não ser contado
+duas vezes. Se o artigo não identificar a fonte, escreve `nao identificada` — isso também é
+informação.
+
+📌 E põe na nota que a linha **não tem dados próprios**, para a metanálise saber que não pode
+extrair dali.
+
 ### 5. Se o texto não der a resistência — **renderiza a figura**
 
 ⭐ **Decisão da Kiê, 2026-08-24: valor só em figura extrai-se da figura, não se rejeita.**
@@ -184,7 +198,7 @@ dados (a regra do `clean_str` do projecto), com estas colunas:
 
 ```
 linha,pdf,E2_resistencia,E2_co2,valor_resistencia_max,unidade_resistencia,
-n_misturas_abaixo_20,valor_co2,unidade_co2,fonte_do_valor,confianca,nota
+n_misturas_abaixo_20,valor_co2,unidade_co2,fonte_do_valor,fonte_externa,confianca,nota
 ```
 
 - `fonte_do_valor`: `texto` · `tabela` · `classe declarada` · **`figura (rotulo extraido)`**
@@ -194,6 +208,8 @@ n_misturas_abaixo_20,valor_co2,unidade_co2,fonte_do_valor,confianca,nota
   `figura` sem qualificação parecia contradizer o relatório, que dizia zero renderizações.
 - `n_misturas_abaixo_20`: o número quando as misturas são contáveis, `todas` quando nenhuma
   atinge 20, e **vazio** quando o artigo não declara resistência nenhuma.
+- `fonte_externa`: **vazio** quando os valores são do próprio artigo. Quando não são, a
+  citação ou o DOI do estudo de origem, ou `nao identificada`. Separa várias com `;`.
 - `confianca`: `alta`, `media`, `baixa`.
 - `nota`: onde no documento está cada valor, e o raciocínio nos casos não triviais. É isto que
   permite auditar-te sem reabrir o PDF — escreve-a a pensar em quem vai conferir.
