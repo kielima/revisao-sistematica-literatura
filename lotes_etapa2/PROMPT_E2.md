@@ -150,6 +150,9 @@ meio das frases e o contexto do valor cai sempre na linha seguinte; sem normaliz
   `CED/MPa` — impacto normalizado pela resistência — enche-se de ocorrências de «MPa» sendo um
   artigo para rejeitar. Deu 12 acertos num caso em que nenhuma mistura chegava a 20. Um
   contador ingénuo sugeriria aceitação;
+- ⚠️ **`f.c` no regex acerta no fim de «speci*fic*».** Deu 7 falsos positivos num artigo e 3
+  noutro. Para procurar `f'c` ou `fck` usa `\bf.?ck\b` ou `f'c` com o apóstrofo literal —
+  nunca `f.c` com ponto de regex;
 - **«class» que não é classe de resistência** — num artigo as Classes A–D eram de desempenho
   de sustentabilidade das *empresas*;
 - módulo de elasticidade (GPa), tensão de aderência, pressão de compactação;
@@ -230,7 +233,18 @@ apenas por edifício e não tiver mais nada além disso.» Aceites: kg CO₂/m³
 /m de túnel, por elemento, por viga. Rejeita quando **só** existe o total de um edifício
 inteiro e nenhuma forma normalizada.
 
-📌 **«Edifício» lê-se como «obra inteira».** A razão da exclusão é não haver como normalizar,
+⭐ **O que decide NÃO é o tamanho do objecto — é haver ou não haver forma normalizada.**
+Isto tem sido mal lido, e a formulação da Kiê é clara: rejeitar «somente se o CO₂ só vier por
+edifício **e não tiver mais nada além disso**». A parte operativa é a segunda.
+
+Não percas tempo a decidir se uma fundação, um sistema de laje ou um troço de túnel é «obra
+inteira» ou «subsistema» — essa fronteira não existe na regra e não é preciso traçá-la.
+Pergunta só: **há algum valor por m², por m³, por metro, por tonelada, por elemento?** Se há,
+aceita. Se o único número é um total agregado, seja de que objecto for, rejeita. Um sistema de
+laje com kg CO₂/m² aceita; uma fundação com um total de 52.000 kg CO₂eq e mais nada rejeita —
+e a diferença entre eles não é serem subsistemas, é um estar normalizado e o outro não.
+
+📌 **A mesma leitura para «edifício» vs «obra inteira».** A razão da exclusão é não haver como normalizar,
 não a palavra *edifício*. Um total de uma **ponte**, de um viaduto ou de uma intervenção de
 reforço, sem nenhuma forma por metro, por m² ou por elemento, cai na mesma regra e rejeita.
 Caso medido: 151,3 t CO₂eq para o reforço de uma ponte de 34 m de vão, sem valor normalizado.
