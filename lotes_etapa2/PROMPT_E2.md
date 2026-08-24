@@ -55,6 +55,9 @@ inteiro** (testado a 2026-08-24 num ficheiro de 6,4 MB que o outro caminho recus
 mcp__Toolkit__googledrive_download_file  com  file_id = <o mesmo fileId>
 ```
 
+⚠️ **Um de cada vez.** A chamada em lote, com `file_ids`, rebenta com um **Cloudflare 520**.
+Individualmente funciona sempre — testado até 17,7 MB, muito acima do tecto do outro caminho.
+
 A resposta **não traz o ficheiro**: traz um **URL de descarga directa**, no campo
 `downloaded_file_content.s3url`. Puxa-o com `curl` e ficas com o PDF em disco:
 
@@ -202,6 +205,12 @@ Caso medido: 151,3 t CO₂eq para o reforço de uma ponte de 34 m de vão, sem v
 ⚠️ **Distingue isto de «o total existe mas há também um normalizado»** — nesse caso aceita,
 que é a regra da Kiê. O que rejeita é a ausência de qualquer forma normalizada, não a
 presença do total.
+
+📌 **Balanço líquido negativo aceita, mas com aviso.** Um valor como −567,8 kg CO₂-eq por
+unidade funcional, em que o sequestro excede a emissão, **é** um valor de emissão declarado e
+passa o critério. Mas põe `balanco liquido negativo` em `aviso_metanalise`: uma metanálise de
+emissões não pode somá-lo com os positivos sem tratar o sinal. Já apareceu duas vezes em cinco
+lotes, não é excepção rara.
 
 📌 **Percentagem de redução NÃO é valor de emissão.** Medido: o SUMMA 2023 (linha 2858) faz
 ACV com dez indicadores e a Fig. 5 é um radar de **percentagens**, eixo de 0% a 80%, sem um
