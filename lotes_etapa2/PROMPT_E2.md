@@ -320,7 +320,10 @@ fonte_externa,aviso_metanalise,confianca,nota
   muitas vezes de sítios diferentes — no lote 3 houve um artigo com a resistência em tabela e o
   CO₂ em figura renderizada. Valores: `texto` · `tabela` · `classe declarada` · `classe de
   projecto` · **`figura (rotulo extraido)`** quando o valor vive numa figura mas o extractor
-  apanhou o rótulo · **`figura (renderizada)`** quando tiveste mesmo de olhar para a imagem.
+  apanhou o rótulo · **`figura (renderizada)`** quando tiveste de olhar para a imagem e **ler o
+  valor contra o eixo** · **`figura (rotulo impresso)`** quando renderizaste mas o número
+  estava escrito sobre a barra, sem estimativa nenhuma — esta merece `confianca=alta`, ao
+  contrário da anterior.
   ⚠️ Não confundas as duas últimas: a primeira é barata e de confiança alta, a segunda é uma
   leitura contra o eixo, com confiança média.
 - `aviso_metanalise`: **vazio** na esmagadora maioria. Preenche quando o valor existe e o
@@ -338,7 +341,11 @@ fonte_externa,aviso_metanalise,confianca,nota
 - `n_misturas_abaixo_20`: o número quando as misturas são contáveis, `todas` quando nenhuma
   atinge 20, e **vazio** quando o artigo não declara resistência nenhuma. Quando o intervalo
   declarado prova que há pelo menos N mas o texto só transcreve algumas, escreve **`>=N`** e
-  explica na nota — não arredondes para o número que conseguiste ver. E quando o artigo
+  explica na nota — não arredondes para o número que conseguiste ver. Quando o artigo não tem misturas de todo — trabalha com
+  classes de projecto de um edifício — escreve **`sem misturas`**, que não é o mesmo que `0`
+  (o `0` diz que houve contagem). E quando o que fica abaixo de 20 é uma **idade** e não uma
+  composição (7 dias abaixo, 28 e 90 acima), conta **`0`**: a coluna conta misturas, não pares
+  mistura×idade — mas di-lo na nota. E quando o artigo
   trabalha sobre uma **faixa contínua** ou uma base de dados de traços (por exemplo «~1.000
   traços entre 18 e 80 MPa»), em que há seguramente misturas abaixo de 20 mas o artigo nunca
   diz quantas, escreve **`nao contavel`**.
