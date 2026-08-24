@@ -360,6 +360,48 @@ for possível descarregar, descarrega-se e avalia-se em todos os critérios. Só
 por via nenhuma — incluindo as que a Kiê tenta pessoalmente — é que se marca como sem acesso
 e se rejeita.
 
+### As regras que a triagem por metadados obrigou a escrever (24/08/2026)
+
+Todas saíram de casos concretos que os subagentes levantaram e a Kiê arbitrou.
+
+**⭐ Aplica-se em dois passos, nesta ordem.** *Passo 1:* a peça é um produto de catálogo de
+forma fixa? Se **não** é — geometria por projecto, prensada sob demanda, dimensões
+ajustáveis — **aceita e pára aqui**. *Passo 2:* só se for de catálogo, pergunta-se o que o
+estudo mede. ⚠️ **O passo 2 é uma porta de entrada, não de saída:** só pode transformar
+Rejeitado em Aceito, nunca o contrário.
+
+**⭐ O discriminador do passo 2 — o que é que o estudo mede?** **Aceita** se caracteriza o
+material, o que exige **as duas condições**: (i) varia um constituinte da mistura *e*
+(ii) mede propriedades. **Rejeita** se trata a peça como produto acabado. ⚠️ Ter só (ii) sem
+(i) — uma ACV que compara quatro tipos de tijolo prontos e de passagem tabela a compressão de
+cada um — é comparação de produtos, não caracterização de material.
+
+**⭐ Manda a lógica, não a lista.** O critério não é «está na lista de blocos e tijolos», é
+«é um produto de catálogo de forma fixa». Rejeitam também telha, paver, telha-canal, louça
+sanitária, tubo, painel modular de série e molde.
+
+**⭐ Elemento construtivo (parede, painel, partição, fachada, cobertura).** Tem duas leituras:
+como **conjunto** é feito à medida do projecto, mas as **peças** que o compõem são de
+catálogo. A regra fixa o nível: **aceita por omissão** (olha-se para o conjunto), **excepto**
+quando o próprio artigo desce ao nível da peça, comparando materiais **por unidade de área**
+(1 m² de partição). Aí foi o autor que escolheu o nível, não nós. **O nível de análise do
+artigo manda.**
+
+**⭐ Energia: a estrutura aceita, o dispositivo rejeita.** Torre, fundação e barreira acústica
+aceitam; pá, nacelle, gerador, painel fotovoltaico e casco flutuante rejeitam.
+
+**⭐ Sem material *e* sem obra rejeita** — mas só no `E1_construcao`. A regra «artigo sem
+material aceita» vale para o `E1_moldavel`. Se há obra sem material nomeado, aceita.
+
+**⭐ Combustível em forno de cimento aceita se mostrar redução na emissão da produção do
+cimento.** Resolve o choque entre «resíduo só como combustível rejeita» e «processo que baixa
+a emissão de materiais estruturais aceita». O teste é decidível pelo resumo: há resultado de
+emissão atribuído ao cimento ou ao clínquer?
+
+**⭐ A aplicação decide, não a família do material** — nos dois sentidos. Betão triturado que
+vira substrato de plantas rejeita (2642); betão moldado in loco que *é* a envolvente do
+edifício e por acaso hospeda plantas aceita (4306).
+
 📌 **O `E1_moldavel` corta pouco, e é esperado** (medido no lote 1: 58 em 60 passaram). A
 razão é estrutural: muitos artigos do corpus são bibliometrias, revisões de gestão, estudos
 de BIM — **não têm material nenhum**, e não se pode dizer que um material inexistente não é
