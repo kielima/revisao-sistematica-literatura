@@ -194,6 +194,15 @@ apenas por edifício e não tiver mais nada além disso.» Aceites: kg CO₂/m³
 /m de túnel, por elemento, por viga. Rejeita quando **só** existe o total de um edifício
 inteiro e nenhuma forma normalizada.
 
+📌 **«Edifício» lê-se como «obra inteira».** A razão da exclusão é não haver como normalizar,
+não a palavra *edifício*. Um total de uma **ponte**, de um viaduto ou de uma intervenção de
+reforço, sem nenhuma forma por metro, por m² ou por elemento, cai na mesma regra e rejeita.
+Caso medido: 151,3 t CO₂eq para o reforço de uma ponte de 34 m de vão, sem valor normalizado.
+
+⚠️ **Distingue isto de «o total existe mas há também um normalizado»** — nesse caso aceita,
+que é a regra da Kiê. O que rejeita é a ausência de qualquer forma normalizada, não a
+presença do total.
+
 📌 **Percentagem de redução NÃO é valor de emissão.** Medido: o SUMMA 2023 (linha 2858) faz
 ACV com dez indicadores e a Fig. 5 é um radar de **percentagens**, eixo de 0% a 80%, sem um
 único valor absoluto. Rejeitado. Se o artigo só diz «reduziu 30%», é `Rejeitado`.
@@ -234,7 +243,9 @@ fonte_externa,aviso_metanalise,confianca,nota
   `balanco liquido negativo` · `escala suspeita` · `normalizado pela resistencia` ·
   `sem amostras proprias`. Descreve em texto livre se for caso novo, e explica na nota.
 - `n_misturas_abaixo_20`: o número quando as misturas são contáveis, `todas` quando nenhuma
-  atinge 20, e **vazio** quando o artigo não declara resistência nenhuma.
+  atinge 20, e **vazio** quando o artigo não declara resistência nenhuma. Quando o intervalo
+  declarado prova que há pelo menos N mas o texto só transcreve algumas, escreve **`>=N`** e
+  explica na nota — não arredondes para o número que conseguiste ver.
 - `fonte_externa`: **vazio** quando os valores são do próprio artigo. Quando não são, a
   citação ou o DOI do estudo de origem, ou `nao identificada`. Separa várias com `;`.
 - `confianca`: `alta`, `media`, `baixa`.
