@@ -479,6 +479,45 @@ A cascata cria um estado que não é Aceito, Rejeitado nem DUVIDA: **«não aval
 CO₂ de um artigo já rejeitado na resistência. Fixá-lo por escrito antes de correr a sério —
 o piloto teve de o inventar em 4 das 12 linhas.
 
+#### ✅ DECIDIDO pela Kiê a 2026-08-24 — as duas regras que faltavam
+
+**1. Valor só em figura: extrair da figura, não rejeitar.** A Kiê mandou verificar se era
+sequer possível ler MPa de um gráfico. **É** — testado e demonstrado no caso que levantou a
+questão.
+
+- **RO 2024 (linha 3752)** — o artigo tem **zero** ocorrências de «MPa» em todo o texto e os
+  resultados vivem na Fig. 1a. Renderizada a p. 3 a 200 dpi, o gráfico de barras tem eixo
+  rotulado «Compressive Strength (MPa)» de 0 a 50 com marcas de 10 em 10, e lê-se sem esforço:
+  **≈ 44,5 MPa** para o betão só com cimento Portland e **≈ 37,8 MPa** para o de 15% RHA.
+  Ambos acima de 20 → **E2_resistencia = Aceito**. A precisão da leitura é de cerca de ±1 MPa,
+  mais do que suficiente para um limiar em 20 e utilizável na metanálise com nota de incerteza.
+
+⚠️ **Armadilha nova, apanhada neste mesmo teste — `MPa` procurado sem distinguir maiúsculas
+dá falsos positivos.** Uma primeira contagem com `re.I` deu 3 ocorrências na p. 1 deste
+artigo; eram todas **`compa`** de *comparison* e *compared*. Procurar **sempre com
+maiúsculas respeitadas**. Isto contradiz a nota do piloto sobre o `Mpa` de «m» minúsculo no
+DAI 2024: a solução não é ignorar maiúsculas, é procurar as variantes explicitamente
+(`MPa|Mpa|mPa`), nunca `re.I` sobre uma sigla de três letras que é substring de palavras
+comuns.
+
+**2. CO₂: se tem o total da obra *e* um valor normalizado, aceita.** Palavras da Kiê: «se tem
+os dois pode aceitar, vamos rejeitar somente se o CO₂ só vier por edifício e não tiver mais
+nada além disso». A razão da exclusão era não haver como normalizar; havendo valor
+normalizado, a razão cai. Ficam aceites os três casos de fronteira do piloto — ABDALLA 4664
+(casa inteira mas kg CO₂/m²), WU 3212 (túnel inteiro mas kt/m de túnel) e GALÁN-MARÍN 3276
+(total por modelo e kg eq-CO₂/m²).
+
+📌 **Mas «percentagem de redução» não é valor de emissão, e a figura confirma-o.** O
+**SUMMA 2023 (linha 2858)** estava em dúvida por se suspeitar que a Fig. 5 escondesse um GWP
+absoluto. Renderizada: é um **gráfico radar de percentagens**, com eixo de 0% a 80%, e o
+painel direito são custos em euros. O artigo faz LCA CML com dez indicadores e **não imprime
+um único valor absoluto de CO₂** — «Global warming (GWP100a)» é só um vértice do radar, em
+percentagem. → **E2_co2 = Rejeitado.**
+
+🧾 **Os dois testes correram em sentidos opostos, e é isso que os valida:** renderizar a
+figura salvou o RO e condenou o SUMMA. A leitura de figura não é uma via de aceitação
+automática — é uma medição, e mede nos dois sentidos.
+
 ### Etapa 3 — Análise **qualitativa** do PDF
 
 8. **Regionalização** — o antigo C6, escopo inalterado.
