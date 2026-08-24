@@ -317,6 +317,12 @@ CO₂) e caíam depois, na extracção — uma **exclusão escondida** que o PRI
 
 ### Etapa 1 — Metadados (título, resumo, tipo de documento). Não abre PDF.
 
+⭐⭐ **REGRA DA DÚVIDA: nesta etapa, na dúvida ACEITA-SE.** É a convenção do PRISMA para
+triagem por título e resumo — desenhada para ser **sensível**, não específica. Só se rejeita
+quando os metadados deixam claro que o artigo cai no critério. **O erro não é simétrico:**
+rejeitar por dúvida perde um artigo bom para sempre e ninguém dá conta; aceitar por dúvida
+custa uma leitura de PDF a mais na etapa seguinte.
+
 Ordem de aplicação, que importa porque cada artigo é contado no **primeiro** critério que o
 exclui:
 
@@ -324,8 +330,28 @@ exclui:
 2. **Tipo de documento** — editoriais, erratas, cartas (o antigo C8). Decidido por
    `document_type`. ⚠️ **Revisitável:** se mais tarde o PDF revelar que é artigo de opinião,
    rejeita-se retroactivamente por este critério.
-3. **Moldável** — o antigo C3.
-4. **Relacionado a construção** — o antigo C4.
+3. **Moldável** — o antigo C3. ➕ **Telha entra na família «blocos e tijolos»** (calibrado
+   pela Kiê, 2026-08-24): é produto de catálogo, forma única, sem personalização por
+   projecto — a justificativa do critério aplica-se-lhe palavra por palavra. Vale também
+   para **paver** e **telha-canal**. ⚠️ *Excepção que se mantém:* telha ou tijolo usados como
+   **fonte de matéria-prima** (triturados para dentro de outro material) continuam a
+   **aceitar** — o que conta é o produto final. E quando o objecto do estudo é o **ligante**,
+   com os blocos ou pavers apenas como aplicação pretendida, também aceita.
+4. **Relacionado a construção** — o antigo C4. Duas calibrações da Kiê (2026-08-24):
+   - ⭐ **Processo que torna materiais estruturais menos emissores = ACEITA.** A regra antiga
+     («rejeitar produção isolada de precursores sem ACV do elemento final») estava a apanhar o
+     próprio tema da dissertação — rejeitaria uma tese sobre desenvolvimento de cimento
+     sustentável. **O que decide não é se o objecto é um processo ou um material, é se o
+     processo resulta em menor emissão de CO₂ para materiais estruturais.** Casos: 2597
+     (clinquerização com coprocessamento de resíduos) e 2569 (classificação a ar de areia
+     manufaturada, que é agregado de betão) — **os dois aceitam**.
+   - ⭐ **A aplicação decide, não a família do material.** Material de construção usado num fim
+     off-topic **rejeita**. Caso 2642: betão e tijolo triturados como **substrato de plantas**
+     em paredes vivas. É a mesma regra que já vale para o revestimento de geopolímero no C2
+     antigo, agora aplicada no sentido inverso da seta.
+   - 📌 **O aço entra** (confirmado pela Kiê, 2026-08-24). O critério de resistência da Etapa 2
+     aceita qualquer material com força por área, e o aço passa com folga. Estruturas
+     metálicas com CO₂ declarado entram na metanálise **como família própria**.
 5. **Acesso ao PDF** — em **último**, de propósito: só faz sentido perguntar «conseguimos
    obter?» depois de o artigo ter sobrevivido à triagem temática.
 
@@ -333,6 +359,12 @@ exclui:
 for possível descarregar, descarrega-se e avalia-se em todos os critérios. Só o que não vier
 por via nenhuma — incluindo as que a Kiê tenta pessoalmente — é que se marca como sem acesso
 e se rejeita.
+
+📌 **O `E1_moldavel` corta pouco, e é esperado** (medido no lote 1: 58 em 60 passaram). A
+razão é estrutural: muitos artigos do corpus são bibliometrias, revisões de gestão, estudos
+de BIM — **não têm material nenhum**, e não se pode dizer que um material inexistente não é
+moldável. Eles morrem depois na Etapa 2, por falta de resistência. Consequência a assumir no
+PRISMA: **a Etapa 2 faz o grosso do trabalho de exclusão**, e isso é por desenho.
 
 ### Etapa 2 — Análise **quantitativa** do PDF (desconsiderando título e resumo)
 
