@@ -11,6 +11,14 @@ são para desconsiderar, já foram usados na Etapa 1.
 1. **`E2_resistencia`** — o artigo declara resistência **convertível para MPa** (força por
    área) e **alguma** mistura atinge **20 MPa**? Se não declara, ou se nenhuma atinge 20,
    **Rejeitado**.
+   📌 **Não é restrito à sigla `MPa`.** O critério diz «convertível para MPa», não «impresso em
+   MPa». `N/mm²`, `psi`, `ksi` e **`kgf/cm²`** são força por área e convertem-se — e também
+   não é restrito a betão: bambu, madeira e solo estabilizado servem, o que conta é a
+   grandeza. Caso medido e verificado: um artigo coreano sem uma única ocorrência de «MPa»,
+   cuja designação de betão pronto `25-210-12` é em kgf/cm² — 210 kgf/cm² dá **20,6 MPa**, e o
+   próprio artigo confirma ao listar as mesmas entradas como `25-21-12` noutra tabela, com
+   valores de impacto idênticos. Converte e regista a unidade original em
+   `unidade_resistencia`.
    📌 **«Atinge 20» inclui exactamente 20.** A regra da Kiê é «abaixo de 20 MPa, exclui», e 20
    não está abaixo de 20. Uma classe **C20**/25 declarada **entra**.
    📌 **A classe de projecto conta e não é fonte externa.** Quando a classe (C30/37, f'c 35 MPa)
@@ -93,8 +101,10 @@ d = json.load(open('<caminho que o erro indicou>'))
 open('r<linha>.pdf','wb').write(base64.b64decode(d['content']))
 ```
 
-⚠️ **Dá aos ficheiros de trabalho um nome que inclua o número da linha** (`r3752.pdf`,
-`r3752.txt`). O scratchpad é partilhado entre lotes e já houve contaminação por reutilização.
+⚠️ **Trabalha num subdirectório teu**, `scratchpad/l<NN>/`, e dá aos ficheiros um nome que
+inclua o número da linha (`r3752.pdf`). O scratchpad é partilhado entre lotes e já houve
+contaminação por reutilização; o prefixo da linha sozinho não chega, porque dois lotes podem
+tocar na mesma linha — um lote de recuperação, por exemplo.
 
 ### 2. Confirmar que o ficheiro é do artigo certo
 
@@ -254,9 +264,15 @@ fonte_externa,aviso_metanalise,confianca,nota
 - `n_misturas_abaixo_20`: o número quando as misturas são contáveis, `todas` quando nenhuma
   atinge 20, e **vazio** quando o artigo não declara resistência nenhuma. Quando o intervalo
   declarado prova que há pelo menos N mas o texto só transcreve algumas, escreve **`>=N`** e
-  explica na nota — não arredondes para o número que conseguiste ver.
-- `fonte_externa`: **vazio** quando os valores são do próprio artigo. Quando não são, a
-  citação ou o DOI do estudo de origem, ou `nao identificada`. Separa várias com `;`.
+  explica na nota — não arredondes para o número que conseguiste ver. E quando o artigo
+  trabalha sobre uma **faixa contínua** ou uma base de dados de traços (por exemplo «~1.000
+  traços entre 18 e 80 MPa»), em que há seguramente misturas abaixo de 20 mas o artigo nunca
+  diz quantas, escreve **`nao contavel`**.
+- `fonte_externa`: **vazio** quando os valores são do próprio artigo, **e também** quando são
+  uma classe nominal ou de projecto — não há estudo primário para citar; nesse caso põe
+  `sem amostras proprias` em `aviso_metanalise`. Só se preenche quando o artigo aponta uma obra
+  concreta como origem do valor (por exemplo «our previous study [55]»): a citação ou o DOI,
+  ou `nao identificada` se o artigo não a identificar. Separa várias com `;`.
 - `confianca`: `alta`, `media`, `baixa`.
 - `nota`: onde no documento está cada valor, e o raciocínio nos casos não triviais. É isto que
   permite auditar-te sem reabrir o PDF — escreve-a a pensar em quem vai conferir.
