@@ -287,3 +287,125 @@ Sempre fornecer links de PDF no **formato proxy CAPES**, nunca link direto do ed
 | `claude/memoria/MEMORY.md` | Índice de todos os arquivos de memória do vault (não só RSL) |
 
 **Manutenção deste arquivo:** ao decidir uma nuance nova durante a triagem, registrar em `claude/memoria/` (arquivo novo ou existente) **e** atualizar a seção correspondente aqui. Rodar a skill `dreaming` periodicamente para garantir que os dois fiquem sincronizados.
+
+---
+
+# ⚠️ REESTRUTURAÇÃO EM 4 ETAPAS — em desenho desde 2026-08-24
+
+> **Estado: em definição.** A Kiê decidiu reorganizar a aplicação dos critérios por etapas,
+> ordenadas por custo de evidência, e transformar os dois critérios mais subjectivos
+> (material estrutural e menção a GEE) em **testes quantitativos**. Isto substitui a
+> estrutura C1–C8 descrita acima, que fica como histórico.
+>
+> **Nada disto está aplicado ao banco ainda.** As secções acima continuam a descrever o
+> que está lá dentro. Não misturar.
+
+## Porquê
+
+Praticamente todas as decisões difíceis do projecto foram juízos de C2 — «este laminado é
+estrutural?», «este revestimento é estrutural?», «o concreto é incidental nesta ACV?». Todo
+o aparato do «material incidental», da «obra de infraestrutura urbana» e do «material
+simétrico comparado» existe porque o C2 era um critério de *escopo temático*. Substituí-lo
+por um teste numérico — o artigo declara resistência ≥ 20 MPa? — torna a triagem objectiva
+e reprodutível.
+
+Além disso, alinha a inclusão com o que a metanálise precisa. Na estrutura antiga entravam
+no funil artigos que não contribuíam com nada (só MJ, ou só dados de terceiros, ou `fck` sem
+CO₂) e caíam depois, na extracção — uma **exclusão escondida** que o PRISMA não contava.
+
+## As quatro etapas
+
+### Etapa 1 — Metadados (título, resumo, tipo de documento). Não abre PDF.
+
+Ordem de aplicação, que importa porque cada artigo é contado no **primeiro** critério que o
+exclui:
+
+1. **Ano** — antes de 2006 (o antigo C1, inalterado).
+2. **Tipo de documento** — editoriais, erratas, cartas (o antigo C8). Decidido por
+   `document_type`. ⚠️ **Revisitável:** se mais tarde o PDF revelar que é artigo de opinião,
+   rejeita-se retroactivamente por este critério.
+3. **Moldável** — o antigo C3.
+4. **Relacionado a construção** — o antigo C4.
+5. **Acesso ao PDF** — em **último**, de propósito: só faz sentido perguntar «conseguimos
+   obter?» depois de o artigo ter sobrevivido à triagem temática.
+
+⚠️ **O critério de acesso só se aplica depois de esgotadas as vias de obtenção.** Tudo o que
+for possível descarregar, descarrega-se e avalia-se em todos os critérios. Só o que não vier
+por via nenhuma — incluindo as que a Kiê tenta pessoalmente — é que se marca como sem acesso
+e se rejeita.
+
+### Etapa 2 — Análise **quantitativa** do PDF (desconsiderando título e resumo)
+
+6. **Resistência** — o artigo declara resistência **convertível para MPa** (força por área)?
+   Se não declara, ou se não atinge **20 MPa**, rejeita.
+   - ⚠️ **Não é restrito a concreto.** Qualquer material com força por área serve — bambu,
+     madeira, solo estabilizado. O que conta é a grandeza, não a família do material.
+   - **Classe declarada conta.** Os que só têm valor medido são classificados por classe, e
+     a comparação faz-se por classe em todos.
+   - **Sem limite de cubo ou cilindro** — a conversão entre corpos de prova é feita e
+     justificada cientificamente na metanálise.
+   - **Artigo com várias misturas:** entra se **alguma** atingir 20 MPa. As misturas abaixo
+     de 20 MPa **não entram na metanálise**, mas **são registadas** para se poder documentar
+     quantas saíram por não atingir o mínimo.
+7. **CO₂** — o artigo declara valor de emissão? Se não, rejeita.
+   - **Todas as unidades reportadas são aceites**, com uma excepção: **CO₂ por edifício**,
+     que não há como normalizar.
+
+### Etapa 3 — Análise **qualitativa** do PDF
+
+8. **Regionalização** — o antigo C6, escopo inalterado.
+   ⚠️ Nota: como a Etapa 2 aceita qualquer material com força por área, os materiais
+   regionais (bambu, fibras) **continuam a chegar aqui**. O C6 permanece operante.
+
+### Etapa 4 — Controlo de qualidade
+
+**A refazer.** O checklist antigo (Q1–Q6, escala 0/0,5/1,0, corte ≥ 4,0) já não serve —
+ver a secção seguinte.
+
+## 🚨 Porque o checklist de qualidade tem de ser refeito
+
+O checklist antigo, na aba `ANÁLISE DE QUALIDADE` do `BANCO DE DADOS DA RSL.xlsx`:
+
+| Item | Média nos 75 avaliados |
+|---|---|
+| Q1 — Unidade funcional | 0,85 |
+| Q2 — Método de análise | 0,90 |
+| **Q3 — Unidade de medida CO₂** | 0,81 |
+| Q4 — Fonte dos dados | 0,89 |
+| Q5 — Vida útil | 0,53 |
+| **Q6 — fck** | 0,85 |
+
+**O problema: Q3 e Q6 passam a ser critérios de exclusão na Etapa 2.** Tudo o que chegar à
+Etapa 4 terá obrigatoriamente CO₂ declarado e `fck` — logo pontua 1,0 nos dois
+automaticamente. Isso **infla todos os escores em 2 pontos** e destrói o corte: com 2 pontos
+garantidos, bastariam 2 dos 4 restantes para passar o corte de 4,0.
+
+**Consequência:** ou se removem Q3 e Q6 e se **reescala o corte** (sobram Q1, Q2, Q4, Q5,
+máximo 4,0; o corte proporcional ao antigo 4,0/6,0 = 66,7% seria ≈ 2,7), ou se mantêm seis
+itens **substituindo** Q3 e Q6 por duas dimensões novas de qualidade.
+
+📌 Reparar que **Q5 (vida útil) é o item que mais reprova** — média 0,53, com 28 dos 75 a
+pontuar zero. É coerente com o que se sabe: só cerca de 21 dos 139 registos da metanálise
+declaravam vida útil.
+
+## Convenções de dados
+
+- **Não reutilizar os nomes C1–C8.** Se o antigo C3 passasse a chamar-se C2, o histórico
+  `R:`/`P:` de 1.618 linhas ficaria ambíguo para sempre. Colunas novas, nomes novos; as
+  antigas ficam intactas como histórico.
+- **`status_triagem` é substituída** por dois campos: `etapa_saida` (1, 2, 3, 4 ou
+  «incluído») e `criterio_saida`. O fluxograma PRISMA sai daí por contagem.
+- **Duplicados ficam FORA das etapas.** No PRISMA a remoção de duplicados acontece antes da
+  triagem — não é critério de exclusão. Os 2.622 já marcados mantêm-se fora da contagem.
+- **A metanálise é refeita do zero**, conferindo linha a linha: parte dela foi extraída sobre
+  PDFs que se veio a descobrir estarem trocados. Fica mais barato do que parece, porque a
+  identidade ficheiro↔linha já está provada para os 1.422 PDFs conferidos.
+
+## O que se aproveita da estrutura antiga
+
+| Aproveita | Porquê |
+|---|---|
+| A conferência dos 1.422 PDFs | É sobre identidade de ficheiro, não sobre critérios |
+| Os 47 DOIs, metadados e hyperlinks | Idem |
+| O critério de ano | Não muda; recalcula-se dos metadados |
+| As decisões dos antigos C3 e C4 | ~1.360 linhas decididas **por leitura de PDF** — evidência mais forte do que a Etapa 1 exige. Reaproveitar onde existem. |
