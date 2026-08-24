@@ -287,3 +287,386 @@ Sempre fornecer links de PDF no **formato proxy CAPES**, nunca link direto do ed
 | `claude/memoria/MEMORY.md` | Índice de todos os arquivos de memória do vault (não só RSL) |
 
 **Manutenção deste arquivo:** ao decidir uma nuance nova durante a triagem, registrar em `claude/memoria/` (arquivo novo ou existente) **e** atualizar a seção correspondente aqui. Rodar a skill `dreaming` periodicamente para garantir que os dois fiquem sincronizados.
+
+---
+
+# ⚠️ REESTRUTURAÇÃO EM 4 ETAPAS — em desenho desde 2026-08-24
+
+> **Estado: em definição.** A Kiê decidiu reorganizar a aplicação dos critérios por etapas,
+> ordenadas por custo de evidência, e transformar os dois critérios mais subjectivos
+> (material estrutural e menção a GEE) em **testes quantitativos**. Isto substitui a
+> estrutura C1–C8 descrita acima, que fica como histórico.
+>
+> **Nada disto está aplicado ao banco ainda.** As secções acima continuam a descrever o
+> que está lá dentro. Não misturar.
+
+## Porquê
+
+Praticamente todas as decisões difíceis do projecto foram juízos de C2 — «este laminado é
+estrutural?», «este revestimento é estrutural?», «o concreto é incidental nesta ACV?». Todo
+o aparato do «material incidental», da «obra de infraestrutura urbana» e do «material
+simétrico comparado» existe porque o C2 era um critério de *escopo temático*. Substituí-lo
+por um teste numérico — o artigo declara resistência ≥ 20 MPa? — torna a triagem objectiva
+e reprodutível.
+
+Além disso, alinha a inclusão com o que a metanálise precisa. Na estrutura antiga entravam
+no funil artigos que não contribuíam com nada (só MJ, ou só dados de terceiros, ou `fck` sem
+CO₂) e caíam depois, na extracção — uma **exclusão escondida** que o PRISMA não contava.
+
+## As quatro etapas
+
+### Etapa 1 — Metadados (título, resumo, tipo de documento). Não abre PDF.
+
+⭐⭐ **REGRA DA DÚVIDA: nesta etapa, na dúvida ACEITA-SE.** É a convenção do PRISMA para
+triagem por título e resumo — desenhada para ser **sensível**, não específica. Só se rejeita
+quando os metadados deixam claro que o artigo cai no critério. **O erro não é simétrico:**
+rejeitar por dúvida perde um artigo bom para sempre e ninguém dá conta; aceitar por dúvida
+custa uma leitura de PDF a mais na etapa seguinte.
+
+Ordem de aplicação, que importa porque cada artigo é contado no **primeiro** critério que o
+exclui:
+
+1. **Ano** — antes de 2006 (o antigo C1, inalterado).
+2. **Tipo de documento** — editoriais, erratas, cartas (o antigo C8). Decidido por
+   `document_type`. ⚠️ **Revisitável:** se mais tarde o PDF revelar que é artigo de opinião,
+   rejeita-se retroactivamente por este critério.
+3. **Moldável** — o antigo C3. ➕ **Telha entra na família «blocos e tijolos»** (calibrado
+   pela Kiê, 2026-08-24): é produto de catálogo, forma única, sem personalização por
+   projecto — a justificativa do critério aplica-se-lhe palavra por palavra. Vale também
+   para **paver** e **telha-canal**. ⚠️ *Excepção que se mantém:* telha ou tijolo usados como
+   **fonte de matéria-prima** (triturados para dentro de outro material) continuam a
+   **aceitar** — o que conta é o produto final. E quando o objecto do estudo é o **ligante**,
+   com os blocos ou pavers apenas como aplicação pretendida, também aceita.
+4. **Relacionado a construção** — o antigo C4. Duas calibrações da Kiê (2026-08-24):
+   - ⭐ **Processo que torna materiais estruturais menos emissores = ACEITA.** A regra antiga
+     («rejeitar produção isolada de precursores sem ACV do elemento final») estava a apanhar o
+     próprio tema da dissertação — rejeitaria uma tese sobre desenvolvimento de cimento
+     sustentável. **O que decide não é se o objecto é um processo ou um material, é se o
+     processo resulta em menor emissão de CO₂ para materiais estruturais.** Casos: 2597
+     (clinquerização com coprocessamento de resíduos) e 2569 (classificação a ar de areia
+     manufaturada, que é agregado de betão) — **os dois aceitam**.
+   - ⭐ **A aplicação decide, não a família do material.** Material de construção usado num fim
+     off-topic **rejeita**. Caso 2642: betão e tijolo triturados como **substrato de plantas**
+     em paredes vivas. É a mesma regra que já vale para o revestimento de geopolímero no C2
+     antigo, agora aplicada no sentido inverso da seta.
+   - 📌 **O aço entra** (confirmado pela Kiê, 2026-08-24). O critério de resistência da Etapa 2
+     aceita qualquer material com força por área, e o aço passa com folga. Estruturas
+     metálicas com CO₂ declarado entram na metanálise **como família própria**.
+5. **Acesso ao PDF** — em **último**, de propósito: só faz sentido perguntar «conseguimos
+   obter?» depois de o artigo ter sobrevivido à triagem temática.
+
+⚠️ **O critério de acesso só se aplica depois de esgotadas as vias de obtenção.** Tudo o que
+for possível descarregar, descarrega-se e avalia-se em todos os critérios. Só o que não vier
+por via nenhuma — incluindo as que a Kiê tenta pessoalmente — é que se marca como sem acesso
+e se rejeita.
+
+### As regras que a triagem por metadados obrigou a escrever (24/08/2026)
+
+Todas saíram de casos concretos que os subagentes levantaram e a Kiê arbitrou.
+
+**⭐ Aplica-se em dois passos, nesta ordem.** *Passo 1:* a peça é um produto de catálogo de
+forma fixa? Se **não** é — geometria por projecto, prensada sob demanda, dimensões
+ajustáveis — **aceita e pára aqui**. *Passo 2:* só se for de catálogo, pergunta-se o que o
+estudo mede. ⚠️ **O passo 2 é uma porta de entrada, não de saída:** só pode transformar
+Rejeitado em Aceito, nunca o contrário.
+
+**⭐ O discriminador do passo 2 — o que é que o estudo mede?** **Aceita** se caracteriza o
+material, o que exige **as duas condições**: (i) varia um constituinte da mistura *e*
+(ii) mede propriedades. **Rejeita** se trata a peça como produto acabado. ⚠️ Ter só (ii) sem
+(i) — uma ACV que compara quatro tipos de tijolo prontos e de passagem tabela a compressão de
+cada um — é comparação de produtos, não caracterização de material.
+
+**⭐ Manda a lógica, não a lista.** O critério não é «está na lista de blocos e tijolos», é
+«é um produto de catálogo de forma fixa». Rejeitam também telha, paver, telha-canal, louça
+sanitária, tubo, painel modular de série e molde.
+
+**⭐ Elemento construtivo (parede, painel, partição, fachada, cobertura).** Tem duas leituras:
+como **conjunto** é feito à medida do projecto, mas as **peças** que o compõem são de
+catálogo. A regra fixa o nível: **aceita por omissão** (olha-se para o conjunto), **excepto**
+quando o próprio artigo desce ao nível da peça, comparando materiais **por unidade de área**
+(1 m² de partição). Aí foi o autor que escolheu o nível, não nós. **O nível de análise do
+artigo manda.**
+
+**⭐ Energia: a estrutura aceita, o dispositivo rejeita.** Torre, fundação e barreira acústica
+aceitam; pá, nacelle, gerador, painel fotovoltaico e casco flutuante rejeitam.
+
+**⭐ Sem material *e* sem obra rejeita** — mas só no `E1_construcao`. A regra «artigo sem
+material aceita» vale para o `E1_moldavel`. Se há obra sem material nomeado, aceita.
+
+**⭐ Combustível em forno de cimento aceita se mostrar redução na emissão da produção do
+cimento.** Resolve o choque entre «resíduo só como combustível rejeita» e «processo que baixa
+a emissão de materiais estruturais aceita». O teste é decidível pelo resumo: há resultado de
+emissão atribuído ao cimento ou ao clínquer?
+
+**⭐ A aplicação decide, não a família do material** — nos dois sentidos. Betão triturado que
+vira substrato de plantas rejeita (2642); betão moldado in loco que *é* a envolvente do
+edifício e por acaso hospeda plantas aceita (4306).
+
+📌 **O `E1_moldavel` corta pouco, e é esperado** (medido no lote 1: 58 em 60 passaram). A
+razão é estrutural: muitos artigos do corpus são bibliometrias, revisões de gestão, estudos
+de BIM — **não têm material nenhum**, e não se pode dizer que um material inexistente não é
+moldável. Eles morrem depois na Etapa 2, por falta de resistência. Consequência a assumir no
+PRISMA: **a Etapa 2 faz o grosso do trabalho de exclusão**, e isso é por desenho.
+
+### Etapa 2 — Análise **quantitativa** do PDF (desconsiderando título e resumo)
+
+6. **Resistência** — o artigo declara resistência **convertível para MPa** (força por área)?
+   Se não declara, ou se não atinge **20 MPa**, rejeita.
+   - ⚠️ **Não é restrito a concreto.** Qualquer material com força por área serve — bambu,
+     madeira, solo estabilizado. O que conta é a grandeza, não a família do material.
+   - **Classe declarada conta.** Os que só têm valor medido são classificados por classe, e
+     a comparação faz-se por classe em todos.
+   - **Sem limite de cubo ou cilindro** — a conversão entre corpos de prova é feita e
+     justificada cientificamente na metanálise.
+   - **Artigo com várias misturas:** entra se **alguma** atingir 20 MPa. As misturas abaixo
+     de 20 MPa **não entram na metanálise**, mas **são registadas** para se poder documentar
+     quantas saíram por não atingir o mínimo.
+7. **CO₂** — o artigo declara valor de emissão? Se não, rejeita.
+   - **Todas as unidades reportadas são aceites**, com uma excepção: **CO₂ por edifício**,
+     que não há como normalizar.
+
+#### O que o piloto de 12 artigos mediu (2026-08-24)
+
+Antes de correr os 1.591, leu-se um piloto de 12 artigos escolhidos ao acaso. Resultado:
+**7 aceites e 4 rejeitados na resistência, 1 em dúvida; 6 dos 12 passaram os dois
+critérios.** Taxa de aprovação de 50%, e a cascata poupou a leitura do CO₂ em 4 deles.
+
+**As tabelas sobrevivem à extracção — a hipótese contrária estava errada.** 10 dos 12
+ficheiros entregaram as tabelas achatadas numa linha, mas com valores e cabeçalhos pela
+ordem certa; nos melhores casos o GWP e os MPa aparecem lado a lado. Não é preciso
+renderizar página para ler tabelas.
+
+**⚠️ Mas 2 em 12 (17%) têm o valor decisivo só em figura.** O caso puro é o **RO 2024**
+(linha 3752): os autores ensaiaram compressão aos 28 dias pela ASTM C39, com 5 provetes por
+mistura, e **não imprimem um único valor em MPa no artigo todo** — a string «MPa» tem zero
+ocorrências, e tudo está num gráfico de barras. Do lado do CO₂, o **SUMMA 2023** (2858) faz
+LCA CML com 10 indicadores e só reporta percentagens de redução. Estimativa: **240 a 320
+artigos** dos 1.591 vão exigir renderizar figura. Tratá-los num lote próprio com `pdf2image`,
+não misturados no fluxo normal.
+
+##### 🚨 A consequência que isto tem para o pré-filtro
+
+É tentador contar as ocorrências de `MPa|N/mm2|C\d\d/\d\d` e rejeitar quem der zero — o
+piloto chegou a propor isso, e teria despachado 3 dos 4 rejeitados sem leitura nenhuma.
+**Não se pode fazer assim**, e é o próprio piloto que dá o contra-exemplo: o RO 2024 dá
+**zero** ocorrências de «MPa» e tem ensaios de compressão a sério. Zero ocorrências manda o
+artigo para a fila das figuras, **nunca directamente para Rejeitado**.
+
+E o erro simétrico também está medido: no **ZAJAC 2022** (4393) a única ocorrência de «MPa»
+em 131 mil caracteres é a **pressão de transporte do CO₂ supercrítico (10 MPa)**. Um filtro
+«tem MPa → aceita» classificava-o mal.
+
+📌 É a mesma lição da sonda por DOI na conferência de ficheiros, outra vez: **o regex acha
+candidatos, não decide.** Serve para ordenar a fila, não para carimbar o veredito.
+
+##### Armadilhas de extracção que o piloto apanhou
+
+- **`grep -o` não serve neste corpus.** O texto vem com quebras de linha a meio das frases e
+  o contexto do valor cai sempre na linha seguinte. Normalizar `\s+` para espaço, em Python,
+  antes de procurar. Salva um turno por artigo.
+- **`Mpa` com «m» minúsculo** existe (2 das 3 ocorrências no DAI 2024). Procurar sem
+  distinguir maiúsculas.
+- **O corte da secção de referências quase nunca funciona** — acertou em 1 de 10 ficheiros,
+  porque o cabeçalho «References» raramente aparece isolado numa linha. Consequência real:
+  títulos de referências com «Strength» poluem a contagem.
+- **`title = '<nome exacto>'` falha em nomes acentuados** no conector do Drive
+  (`GALÁN-MARÍN et al., 2015.pdf` não foi encontrado). Resolvido de raiz pelo mapa
+  `nome → fileId` (ver `DRIVE_FILEID_MAP.csv`), que dispensa procurar por título.
+
+##### O quarto estado que a especificação não previa
+
+A cascata cria um estado que não é Aceito, Rejeitado nem DUVIDA: **«não avaliado»**, para o
+CO₂ de um artigo já rejeitado na resistência. Fixá-lo por escrito antes de correr a sério —
+o piloto teve de o inventar em 4 das 12 linhas.
+
+### Etapa 3 — Análise **qualitativa** do PDF
+
+8. **Regionalização** — o antigo C6, escopo inalterado.
+   ⚠️ Nota: como a Etapa 2 aceita qualquer material com força por área, os materiais
+   regionais (bambu, fibras) **continuam a chegar aqui**. O C6 permanece operante.
+
+### Etapa 4 — Controlo de qualidade ✅ REDESENHADA (2026-08-24)
+
+**Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.** Ver a secção «O checklist de qualidade
+redesenhado» mais abaixo para as rubricas de cada item.
+
+⭐⭐ **ESTRATIFICAÇÃO POR TERÇOS.** Decisão da Kiê, 2026-08-24: o resultado principal usa
+os **dois terços de cima**; o terço mais fraco **não é apagado** — fica guardado e entra na
+**análise de sensibilidade**, que repete a conta com todos e reporta a diferença.
+
+## 🚨 Porque o checklist de qualidade tem de ser refeito
+
+O checklist antigo, na aba `ANÁLISE DE QUALIDADE` do `BANCO DE DADOS DA RSL.xlsx`:
+
+| Item | Média nos 75 avaliados |
+|---|---|
+| Q1 — Unidade funcional | 0,85 |
+| Q2 — Método de análise | 0,90 |
+| **Q3 — Unidade de medida CO₂** | 0,81 |
+| Q4 — Fonte dos dados | 0,89 |
+| Q5 — Vida útil | 0,53 |
+| **Q6 — fck** | 0,85 |
+
+**O problema: Q3 e Q6 passam a ser critérios de exclusão na Etapa 2.** Tudo o que chegar à
+Etapa 4 terá obrigatoriamente CO₂ declarado e `fck` — logo pontua 1,0 nos dois
+automaticamente. Isso **infla todos os escores em 2 pontos** e destrói o corte: com 2 pontos
+garantidos, bastariam 2 dos 4 restantes para passar o corte de 4,0.
+
+**✅ RESOLVIDO em 2026-08-24:** removem-se o Q3 e o Q6, e entram dois itens novos que a
+Etapa 2 não captura. Ver a secção seguinte.
+
+📌 O **Q5 (vida útil)** mantém-se e passa a pesar mais (1/6 → um dos quatro herdados de
+quatro itens). Isso é deliberado, não acidente: **a vida útil entra na unidade funcional
+necessária para normalizar o `ci_t`**, portanto declará-la é uma propriedade de qualidade
+que a análise usa directamente.
+
+---
+
+# ✅ O checklist de qualidade redesenhado (2026-08-24)
+
+**Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.**
+
+⚠️ **Identificadores por LETRA, de propósito.** Não reutilizar «Q1–Q6»: o checklist antigo
+usava esses números com significados diferentes, e os 75 estudos já pontuados estão
+registados com eles. Letras tornam impossível confundir os dois.
+
+| Item | Vem de | O que mede |
+|---|---|---|
+| **QA — Unidade funcional** | antigo Q1 | A UF está declarada e é inequívoca |
+| **QB — Método de análise** | antigo Q2 | O método de avaliação de impacto (LCIA) está nomeado |
+| **QC — Fonte dos dados** | antigo Q4 | A base de inventário está nomeada |
+| **QD — Vida útil** | antigo Q5 | A vida útil está declarada (entra na UF do `ci_t`) |
+| **QE — Fronteira do sistema** | **novo** | O que está dentro e fora do sistema |
+| **QF — Emparelhamento CO₂↔resistência** | **novo** | Os dois números do quociente pertencem à mesma mistura |
+
+~~Q3 — Unidade de medida CO₂~~ e ~~Q6 — fck~~ **saem**: passaram a ser critérios de
+exclusão na Etapa 2, e mantê-los pontuaria 1,0 automaticamente em tudo o que chegasse aqui.
+
+## QE — Fronteira do sistema
+
+É o item da ISO 14044 que mais afecta a **magnitude** do valor, e nenhum dos herdados o
+cobre. Comparar 300 kg CO₂/m³ *cradle-to-gate* com 450 *cradle-to-grave* não é comparar
+nada. Casos reais que motivaram o item: linha 4999 (fronteira em «1 t de clínquer»), 4297
+(*cradle-to-gate* com 50 km de transporte incluídos), 4613 (contabiliza só a fracção
+perdida).
+
+| Pontos | Critério |
+|---|---|
+| **1,0** | Fronteira nomeada explicitamente (*cradle-to-gate*, A1–A3, *cradle-to-grave*…) **e** com as etapas incluídas e excluídas discriminadas |
+| **0,5** | Fronteira nomeada mas sem discriminar etapas, ou deduzível do texto sem ser declarada |
+| **0** | Não é possível determinar o que está dentro do sistema |
+
+## QF — Rastreabilidade do par CO₂ ↔ resistência
+
+**É o item que nenhum checklist genérico de ACV apanha e que esta análise precisa
+absolutamente.** O `ci` é um **quociente entre dois números**. Se o artigo dá CO₂ agregado
+e resistências por mistura — ou CO₂ de uma mistura e resistência de outra — o quociente
+passa a ser fabricado por quem extrai, não medido por quem publicou.
+
+Caso puro: **linha 4613**, em que o GWP tabelado é o da *fracção perdida* de resíduo, não o
+do concreto aplicado. Quem não reparar calcula um `ci` que não existe em lado nenhum.
+
+| Pontos | Critério |
+|---|---|
+| **1,0** | Cada valor de CO₂ está inequivocamente associado a **uma** mistura identificada, que tem o seu próprio valor de resistência |
+| **0,5** | A associação existe mas exige inferência (ex.: CO₂ por mistura numa tabela, resistência noutra, ligadas só pelo nome do traço) |
+| **0** | CO₂ agregado, médio, ou de recorte diferente do da resistência — o par tem de ser construído por quem extrai |
+
+## ⭐⭐ Estratificação por terços — o terço fraco sai do resultado principal, mas fica guardado
+
+**Decisão da Kiê, 2026-08-24.** Os estudos são ordenados pelo escore e divididos em
+**terços**.
+
+| | O que entra |
+|---|---|
+| **Resultado principal** | Os **dois terços de cima** |
+| **Análise de sensibilidade** | **Os três terços**, para comparar |
+
+O terço mais fraco **não é apagado**: continua pontuado, extraído e no ficheiro. Só não
+entra no número que vai para o resumo e para a conclusão.
+
+### Porquê assim, e não de outra forma
+
+**Porque não excluir de vez.** Se o terço fraco fosse apagado, **deixaria de ser possível
+fazer a análise de sensibilidade** — a análise *é* a comparação entre estratos, e apagar um
+estrato apaga o termo de comparação.
+
+**Porque não manter tudo no resultado principal.** A Kiê quer que o número principal não
+venha contaminado por estudos fracos, o que é legítimo e é como as revisões sérias fazem.
+
+**O que se ganha com o desenho híbrido:** se as duas contas derem quase o mesmo, isso mostra
+que a exclusão foi rigor e não conveniência, e que o resultado **não depende** dela. Se
+derem diferente, é um achado sobre a literatura — documentado em vez de escondido. Custa uma
+linha numa tabela e um parágrafo no texto, e não custa dados nenhuns.
+
+### ⚠️ Regras que têm de ser fixadas ANTES de pontuar
+
+1. **A regra «terço de baixo fora do principal» é pré-especificada** — está aqui, escrita
+   antes de existir um único escore. Os *pontos de corte* só se calculam depois de pontuar
+   tudo (é a natureza dos terços), mas **a regra não muda**. É isso que a torna honesta.
+2. **Empates na fronteira sobem.** Se o corte calhar num escore repetido — por exemplo, se o
+   percentil 33 der 4,0 e houver seis estudos com 4,0 — **todos os empatados vão para o
+   estrato de cima**. Sem esta regra, dois estudos idênticos podiam ter destinos diferentes
+   só pela ordem em que aparecem na lista, o que seria arbitrário.
+3. **Nunca redefinir os terços depois de ver os resultados.** Se os cortes forem ajustados
+   depois de olhar para os valores de `ci`, a análise de sensibilidade perde todo o valor.
+
+### Consequências que decorrem desta escolha
+
+1. **O fluxograma PRISMA volta a ter uma caixa de exclusão por qualidade** — o terço de
+   baixo sai do resultado principal. Mas com uma diferença face ao desenho antigo: o número
+   não é «os que ficaram abaixo de 4,0», é «o terço mais fraco», e os estudos continuam
+   descritos no texto.
+2. **O escore por estudo tem de ir para a `meta_analysis_base.xlsx`**, numa coluna própria —
+   senão não se consegue nem estratificar nem refazer a conta com todos.
+3. **A análise de sensibilidade tem de ser feita por família de material também**, porque a
+   estratificação por qualidade e a estratificação por material são independentes e podem
+   interagir (ex.: se todos os estudos de bambu caírem no terço fraco, excluí-lo elimina uma
+   família inteira). ⚠️ **Verificar isso explicitamente antes de fechar os números.**
+
+## ✅ Tipo de corpo de prova — NÃO é item de qualidade (decidido 2026-08-24)
+
+**1.171 das 1.694 linhas já extraídas não declaram o tipo de corpo de prova.** Como a
+conversão cubo→cilindro vai ser feita e justificada, isso significa aplicá-la a corpos de
+prova maioritariamente desconhecidos.
+
+**Decisão da Kiê: não entra no checklist.** Fica como **regra de extracção obrigatória** —
+registar sempre o tipo, e marcar «não declarado» **explicitamente** quando o artigo não o
+disser. Nunca deixar a célula vazia, porque vazio confunde-se com «ainda não extraído».
+
+⚠️ Quando o tipo não for declarado, a conversão cubo→cilindro **não se aplica por omissão**;
+o valor entra como está, marcado como corpo de prova indeterminado, e a análise de
+sensibilidade tem de conseguir isolar esse grupo.
+
+## ✅ Estratificação da metanálise por FAMÍLIA DE MATERIAL (decidido 2026-08-24)
+
+O critério de resistência da Etapa 2 aceita qualquer material com força por área — concreto,
+bambu, madeira, solo estabilizado. São todos MPa, mas **não são a mesma grandeza física nem
+o mesmo ensaio**: converter cubo→cilindro é padrão e defensável; converter bambu→concreto
+não é, são materiais diferentes.
+
+**A análise é estratificada por família de material.** O indicador `ci`
+(kg CO₂eq/m³/MPa) já normaliza parte disso, mas a comparação directa entre famílias sem
+estratificar não seria legítima.
+
+## Convenções de dados
+
+- **Não reutilizar os nomes C1–C8.** Se o antigo C3 passasse a chamar-se C2, o histórico
+  `R:`/`P:` de 1.618 linhas ficaria ambíguo para sempre. Colunas novas, nomes novos; as
+  antigas ficam intactas como histórico.
+- **`status_triagem` é substituída** por dois campos: `etapa_saida` (1, 2, 3, 4 ou
+  «incluído») e `criterio_saida`. O fluxograma PRISMA sai daí por contagem.
+- **Duplicados ficam FORA das etapas.** No PRISMA a remoção de duplicados acontece antes da
+  triagem — não é critério de exclusão. Os 2.622 já marcados mantêm-se fora da contagem.
+- **A metanálise é refeita do zero**, conferindo linha a linha: parte dela foi extraída sobre
+  PDFs que se veio a descobrir estarem trocados. Fica mais barato do que parece, porque a
+  identidade ficheiro↔linha já está provada para os 1.422 PDFs conferidos.
+
+## O que se aproveita da estrutura antiga
+
+| Aproveita | Porquê |
+|---|---|
+| A conferência dos 1.422 PDFs | É sobre identidade de ficheiro, não sobre critérios |
+| Os 47 DOIs, metadados e hyperlinks | Idem |
+| O critério de ano | Não muda; recalcula-se dos metadados |
+| As decisões dos antigos C3 e C4 | ~1.360 linhas decididas **por leitura de PDF** — evidência mais forte do que a Etapa 1 exige. Reaproveitar onde existem. |
