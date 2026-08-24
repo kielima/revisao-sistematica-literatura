@@ -362,9 +362,9 @@ e se rejeita.
 **Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.** Ver a secção «O checklist de qualidade
 redesenhado» mais abaixo para as rubricas de cada item.
 
-⭐⭐ **NÃO É CRITÉRIO DE EXCLUSÃO.** Decisão da Kiê, 2026-08-24: nenhum estudo é retirado
-por escore baixo. Todos entram na síntese, cada um com o seu escore reportado, e faz-se
-**análise de sensibilidade por estrato de qualidade**.
+⭐⭐ **ESTRATIFICAÇÃO POR TERÇOS.** Decisão da Kiê, 2026-08-24: o resultado principal usa
+os **dois terços de cima**; o terço mais fraco **não é apagado** — fica guardado e entra na
+**análise de sensibilidade**, que repete a conta com todos e reporta a diferença.
 
 ## 🚨 Porque o checklist de qualidade tem de ser refeito
 
@@ -444,31 +444,57 @@ do concreto aplicado. Quem não reparar calcula um `ci` que não existe em lado 
 | **0,5** | A associação existe mas exige inferência (ex.: CO₂ por mistura numa tabela, resistência noutra, ligadas só pelo nome do traço) |
 | **0** | CO₂ agregado, médio, ou de recorte diferente do da resistência — o par tem de ser construído por quem extrai |
 
-## ⭐⭐ O escore NÃO exclui — estratifica
+## ⭐⭐ Estratificação por terços — o terço fraco sai do resultado principal, mas fica guardado
 
-**Decisão da Kiê, 2026-08-24.** Nenhum estudo sai da síntese por escore baixo. Todos entram,
-cada um com o seu escore, e faz-se **análise de sensibilidade por estrato de qualidade**.
+**Decisão da Kiê, 2026-08-24.** Os estudos são ordenados pelo escore e divididos em
+**terços**.
 
-O raciocínio: se o resultado se mantém quando se olha só para os estudos de escore alto,
-isso é um argumento **mais forte** do que tê-los excluído à partida — porque responde com um
-número à pergunta «e se tivesse incluído os fracos?». E se **não** se mantiver, isso é um
-**achado** sobre a literatura, não um problema escondido por um corte arbitrário.
+| | O que entra |
+|---|---|
+| **Resultado principal** | Os **dois terços de cima** |
+| **Análise de sensibilidade** | **Os três terços**, para comparar |
 
-Há ainda uma razão prática: o corpus final vai ser pequeno (o CO₂ é o estrangulamento — 99
-registos com `co2_valor` contra 544 com `fck_mpa` na extracção parcial), e excluir por
-qualidade custaria poder estatístico que não temos de sobra.
+O terço mais fraco **não é apagado**: continua pontuado, extraído e no ficheiro. Só não
+entra no número que vai para o resumo e para a conclusão.
 
-### ⚠️ Consequências que decorrem desta escolha
+### Porquê assim, e não de outra forma
 
-1. **O fluxograma PRISMA deixa de ter caixa de «excluídos por qualidade».** O antigo tinha
-   («75 − 6 (qualidade <4,0) = 69 incluídos»). No desenho novo, o número de incluídos na
-   síntese é igual ao número que sai da Etapa 3. A qualidade passa a ser **reportada**, não
-   subtraída.
-2. **Não há corte a definir.** A questão «4,0 ou 3,5?» deixa de existir.
-3. **Os estratos têm de ser definidos antes de olhar para os resultados**, senão a análise
-   de sensibilidade perde valor. Sugestão a confirmar: terços, ou cortes fixos em 4,0 e 5,0.
-4. **O escore tem de ir para a `meta_analysis_base.xlsx`**, numa coluna própria por estudo,
-   para a estratificação ser possível na análise.
+**Porque não excluir de vez.** Se o terço fraco fosse apagado, **deixaria de ser possível
+fazer a análise de sensibilidade** — a análise *é* a comparação entre estratos, e apagar um
+estrato apaga o termo de comparação.
+
+**Porque não manter tudo no resultado principal.** A Kiê quer que o número principal não
+venha contaminado por estudos fracos, o que é legítimo e é como as revisões sérias fazem.
+
+**O que se ganha com o desenho híbrido:** se as duas contas derem quase o mesmo, isso mostra
+que a exclusão foi rigor e não conveniência, e que o resultado **não depende** dela. Se
+derem diferente, é um achado sobre a literatura — documentado em vez de escondido. Custa uma
+linha numa tabela e um parágrafo no texto, e não custa dados nenhuns.
+
+### ⚠️ Regras que têm de ser fixadas ANTES de pontuar
+
+1. **A regra «terço de baixo fora do principal» é pré-especificada** — está aqui, escrita
+   antes de existir um único escore. Os *pontos de corte* só se calculam depois de pontuar
+   tudo (é a natureza dos terços), mas **a regra não muda**. É isso que a torna honesta.
+2. **Empates na fronteira sobem.** Se o corte calhar num escore repetido — por exemplo, se o
+   percentil 33 der 4,0 e houver seis estudos com 4,0 — **todos os empatados vão para o
+   estrato de cima**. Sem esta regra, dois estudos idênticos podiam ter destinos diferentes
+   só pela ordem em que aparecem na lista, o que seria arbitrário.
+3. **Nunca redefinir os terços depois de ver os resultados.** Se os cortes forem ajustados
+   depois de olhar para os valores de `ci`, a análise de sensibilidade perde todo o valor.
+
+### Consequências que decorrem desta escolha
+
+1. **O fluxograma PRISMA volta a ter uma caixa de exclusão por qualidade** — o terço de
+   baixo sai do resultado principal. Mas com uma diferença face ao desenho antigo: o número
+   não é «os que ficaram abaixo de 4,0», é «o terço mais fraco», e os estudos continuam
+   descritos no texto.
+2. **O escore por estudo tem de ir para a `meta_analysis_base.xlsx`**, numa coluna própria —
+   senão não se consegue nem estratificar nem refazer a conta com todos.
+3. **A análise de sensibilidade tem de ser feita por família de material também**, porque a
+   estratificação por qualidade e a estratificação por material são independentes e podem
+   interagir (ex.: se todos os estudos de bambu caírem no terço fraco, excluí-lo elimina uma
+   família inteira). ⚠️ **Verificar isso explicitamente antes de fechar os números.**
 
 ## ✅ Tipo de corpo de prova — NÃO é item de qualidade (decidido 2026-08-24)
 
