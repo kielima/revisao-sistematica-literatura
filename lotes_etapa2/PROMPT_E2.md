@@ -129,21 +129,36 @@ d = pymupdf.open('r<linha>.pdf')
 full = re.sub(r'\s+', ' ', ' '.join(d[i].get_text() for i in range(d.page_count)))
 ```
 
+🚨 **Duas formas que o padrão antigo não via, e que teriam rejeitado artigos bons** —
+medidas no lote 15, as duas em artigos com **zero** ocorrências de `MPa`:
+- **a unidade escrita por extenso**: «the compressive strength … exceeds **20 megapascals**».
+  É um aceite, e ainda por cima em cima do limiar;
+- **a classe sem o prefixo `C`**: «Cast in Situ **25/30**», que é como a base HBERT nomeia o
+  C25/30. `\bC\d{2}/\d{2}\b` exige a letra e passa ao lado.
+
+O padrão acima já as inclui. ⚠️ Mas `\d{2}/\d{2}` sozinho apanha datas e intervalos de
+páginas — **confirma sempre o contexto**.
+
 ⚠️ **A classe de número único (`C45`, `C30`) é a notação chinesa e é frequente** — o padrão
 do Eurocódigo `C30/37` não a apanha. Um artigo com «C45 strength grade» quase passou
 despercebido num lote; só apareceu por busca da palavra `grade`, e sem isso teria sido decidido
 pelo glulam, que estava exactamente no limiar. Inclui `\bC\d{2}\b` **e confirma sempre o
 contexto**, porque sozinho dá falsos positivos (`C25` de compostos químicos).
 ⚠️ E cuidado com `grade`: num artigo as três ocorrências eram **«Belgrade»**, na filiação dos
-coautores.
+coautores. Na mesma família, num artigo bibliométrico **17 das 20 ocorrências de `strength`
+eram `total link strength`**, a métrica do VOSviewer, com valores plausíveis como 139 e 456.
+E `kg/cm²` tanto pode ser resistência como **unidade de CO₂** — apareceu um artigo com
+`13,15 kg/cm²` de emissão.
 
 ⚠️⚠️ **Procura `MPa` com as maiúsculas respeitadas.** Nunca uses `re.I` numa sigla de três
 letras: `compa` de *comparison* e *compared* dá falsos positivos, e foi medido — 3 falsos
 numa única página do RO 2024. Procura as variantes explicitamente:
 
 ```python
-re.findall(r"MPa|Mpa|mPa|N/mm2|N/mm²|kgf/cm|\bC\d{2}/\d{2}\b|\bC\d{2}\b|\bf'?ck?\b|"
-           r"\bpsi\b|\bksi\b|strength\s+(?:grade|class)|grade\s+C\d{2}", full)
+re.findall(r"MPa|Mpa|mPa|megapascal|N/mm2|N/mm²|newtons?\s+per|kgf/cm|"
+           r"\bC\d{2}/\d{2}\b|\bC\d{2}\b|\b\d{2}\s*/\s*\d{2}\b|\bf'?ck?\b|"
+           r"\bpsi\b|\bksi\b|pounds?\s+per\s+square|strength\s+(?:grade|class)|"
+           r"grade\s+C?\d{2}", full, re.I)   # re.I aqui e seguro: nenhum destes
 ```
 
 ⚠️ **Normaliza `\s+` para espaço antes de procurar.** O texto extraído tem quebras de linha a
@@ -178,6 +193,13 @@ no mesmo par de designações, `LC3-50` quer dizer **teor de clínquer**, não r
 ⚠️ **Resistência de um componente de reforço não é resistência da mistura.** Tracção de 3.690
 MPa de uma fibra de carbono é força por área, mas o limiar de 20 MPa está calibrado para a
 compressão de uma mistura. Marca `DUVIDA` e explica.
+
+⚠️ **Total da obra com o divisor impresso ao lado: `DUVIDA`, não decidas.** Um artigo dá
+1,44×10⁶ kg CO₂e do edifício e nenhuma forma normalizada — mas imprime o **volume de betão
+(4.177,26 m³) na tabela ao lado**, pelo que normalizar é uma divisão. Isso é materialmente
+diferente da fundação com um total e mais nada. A regra da Kiê diz «não tiver mais nada além
+disso», e o divisor *é* mais alguma coisa — mas ela pensava no que está reportado, não no que é
+recuperável. Marca `DUVIDA` com o aviso `normalizavel mas nao normalizado`.
 
 ⚠️ **Um caso que a regra ainda não cobre — marca `DUVIDA` e não decidas.** Quando o material
 que o artigo estuda **não tem resistência nenhuma declarada** e a única resistência do
