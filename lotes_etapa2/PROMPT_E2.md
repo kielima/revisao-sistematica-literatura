@@ -13,6 +13,11 @@ são para desconsiderar, já foram usados na Etapa 1.
    **Rejeitado**.
    📌 **«Atinge 20» inclui exactamente 20.** A regra da Kiê é «abaixo de 20 MPa, exclui», e 20
    não está abaixo de 20. Uma classe **C20**/25 declarada **entra**.
+   📌 **A classe de projecto conta e não é fonte externa.** Quando a classe (C30/37, f'c 35 MPa)
+   não é medida nem citada de um estudo, mas é a especificação de projecto do edifício ou vem
+   dos desenhos originais, **conta como classe declarada** — a regra da Kiê diz «classe
+   declarada conta», sem exigir ensaio. Não há estudo primário para citar, por isso
+   `fonte_externa` fica **vazia**; regista `classe de projecto` em `fonte_resistencia`.
 2. **`E2_co2`** — o artigo declara **valor de emissão** de CO₂? Se não, **Rejeitado**.
    Só se avalia se o artigo passou no critério 1.
 
@@ -40,28 +45,42 @@ grep -F '"<nome exacto do ficheiro>"' /home/user/revisao-sistematica-literatura/
 
 | Tamanho | O que acontece | O que fazes |
 |---|---|---|
-| **até ~6 MB** | descarrega bem | `download_file_content` → descodificas → PDF local, **com figuras** |
-| **~6 a 10 MB** | falha com **`MCP server "Google_Drive" session expired`** | `read_file_content`, **só texto** |
-| **acima de 10 MB** | falha com `File too large for download, over limit of 10 MB` | `read_file_content`, **só texto** |
+| **até ~5 MB** | descarrega bem | `download_file_content` → descodificas → PDF local, **com figuras** |
+| **acima de ~5 MB** | falha (ver abaixo) | **`mcp__Toolkit__googledrive_download_file`** → PDF local, **também com figuras** |
 
-🚨 **A mensagem «session expired» é falsa e já enganou um lote inteiro.** A sessão está viva —
-verificado com `get_file_metadata` imediatamente a seguir, e com uma descarga de outro
-ficheiro a funcionar. É um limite de tamanho, é determinístico, e **não vale a pena repetir a
-chamada**. Se o ficheiro tem mais de 6 MB, vai directo ao `read_file_content` e poupa as
-tentativas.
+⭐⭐ **Para os ficheiros grandes usa o descarregador do Toolkit — resolve o problema por
+inteiro** (testado a 2026-08-24 num ficheiro de 6,4 MB que o outro caminho recusava):
 
-**Consequência que tens de registar:** para os ficheiros acima de ~6 MB **o passo 5 não está
-disponível** — não há PDF local, logo não há como renderizar figura. Se um desses artigos não
-der o valor no texto, escreve `DUVIDA` com a nota a dizer *«ficheiro de X MB, sem acesso a
-figura por limite do conector»*. Não inventes o veredito. São cerca de 300 dos 1.591, mas só
-uma fracção deles vai precisar mesmo da figura.
+```
+mcp__Toolkit__googledrive_download_file  com  file_id = <o mesmo fileId>
+```
 
-⚠️ O `read_file_content` **não tem tecto de tamanho, mas é imprevisível no contexto**: às
-vezes grava em ficheiro (barato) e às vezes devolve tudo inline. Já houve um retorno de ~40
-mil caracteres (~11k tokens) de um PDF de 9,5 MB, porque o *texto* cabia no limite mesmo o
-ficheiro não cabendo.
+A resposta **não traz o ficheiro**: traz um **URL de descarga directa**, no campo
+`downloaded_file_content.s3url`. Puxa-o com `curl` e ficas com o PDF em disco:
 
-Para os ficheiros até ~6 MB, chama `mcp__Google_Drive__download_file_content` com o `fileId`.
+```bash
+curl -sS -o r<linha>.pdf --max-time 120 "<s3url>"
+head -c 5 r<linha>.pdf     # tem de dizer %PDF-
+```
+
+Isto é **melhor** que o caminho normal: o conteúdo nunca passa pelo teu contexto, nem sequer
+em base64 — só o URL. E como ficas com um PDF verdadeiro, **o passo 5 continua disponível**,
+figuras incluídas. O URL expira ao fim de uma hora; puxa-o logo.
+
+📌 **Não uses `read_file_content` para contornar o tamanho.** Dá só texto, mata o passo 5, e é
+imprevisível no contexto — já devolveu 10 mil tokens inline de um artigo curto. Só o usa se o
+descarregador do Toolkit também falhar.
+
+🚨 **A mensagem de erro do `download_file_content` mente.** Entre ~5 e 10 MB devolve
+**`MCP server "Google_Drive" session expired`** — e a sessão **está viva**: verificado com
+`get_file_metadata` no mesmo instante e com outra descarga a funcionar a seguir. Acima de
+10 MB o erro já é honesto (`File too large`). Em qualquer dos casos **não repitas a chamada**:
+é determinístico e é de tamanho. Vai directo ao descarregador do Toolkit.
+
+São **369 dos 1.591** ficheiros acima de 5,2 MB — 23% do universo. Antes de se descobrir o
+contorno, um lote perdeu 27% dos artigos por isto.
+
+Para os ficheiros até ~5 MB, chama `mcp__Google_Drive__download_file_content` com o `fileId`.
 A resposta excede o limite de tokens e **é gravada num ficheiro** — o erro diz-te o caminho.
 Isso é o que queremos: o base64 nunca entra no teu contexto. Descodifica-o para um PDF local:
 
@@ -198,14 +217,22 @@ dados (a regra do `clean_str` do projecto), com estas colunas:
 
 ```
 linha,pdf,E2_resistencia,E2_co2,valor_resistencia_max,unidade_resistencia,
-n_misturas_abaixo_20,valor_co2,unidade_co2,fonte_do_valor,fonte_externa,confianca,nota
+n_misturas_abaixo_20,valor_co2,unidade_co2,fonte_resistencia,fonte_co2,
+fonte_externa,aviso_metanalise,confianca,nota
 ```
 
-- `fonte_do_valor`: `texto` · `tabela` · `classe declarada` · **`figura (rotulo extraido)`**
-  quando o valor vive numa figura mas o extractor apanhou o rótulo · **`figura (renderizada)`**
-  quando tiveste mesmo de olhar para a imagem. ⚠️ Não os confundas: o primeiro é barato e de
-  confiança alta, o segundo é uma leitura contra o eixo, com confiança média. No lote 1 um
-  `figura` sem qualificação parecia contradizer o relatório, que dizia zero renderizações.
+- `fonte_resistencia` e `fonte_co2`: **duas colunas separadas**, porque os dois valores vêm
+  muitas vezes de sítios diferentes — no lote 3 houve um artigo com a resistência em tabela e o
+  CO₂ em figura renderizada. Valores: `texto` · `tabela` · `classe declarada` · `classe de
+  projecto` · **`figura (rotulo extraido)`** quando o valor vive numa figura mas o extractor
+  apanhou o rótulo · **`figura (renderizada)`** quando tiveste mesmo de olhar para a imagem.
+  ⚠️ Não confundas as duas últimas: a primeira é barata e de confiança alta, a segunda é uma
+  leitura contra o eixo, com confiança média.
+- `aviso_metanalise`: **vazio** na esmagadora maioria. Preenche quando o valor existe e o
+  critério passa, mas a metanálise não o pode usar sem cuidado. Casos já vistos:
+  `sem dados proprios` · `captacao e nao emissao` (o número é *uptake* por carbonatação) ·
+  `balanco liquido negativo` · `escala suspeita` · `normalizado pela resistencia` ·
+  `sem amostras proprias`. Descreve em texto livre se for caso novo, e explica na nota.
 - `n_misturas_abaixo_20`: o número quando as misturas são contáveis, `todas` quando nenhuma
   atinge 20, e **vazio** quando o artigo não declara resistência nenhuma.
 - `fonte_externa`: **vazio** quando os valores são do próprio artigo. Quando não são, a
