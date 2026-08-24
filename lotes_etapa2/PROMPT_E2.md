@@ -51,13 +51,22 @@ grep -F '"<nome exacto do ficheiro>"' /home/user/revisao-sistematica-literatura/
 ⚠️⚠️ **Olha primeiro para o `fileSize` do mapa — a terceira coluna, em bytes.** O
 `download_file_content` tem um tecto de tamanho, medido a 2026-08-24:
 
-| Tamanho | O que acontece | O que fazes |
-|---|---|---|
-| **até ~5 MB** | descarrega bem | `download_file_content` → descodificas → PDF local, **com figuras** |
-| **acima de ~5 MB** | falha (ver abaixo) | **`mcp__Toolkit__googledrive_download_file`** → PDF local, **também com figuras** |
+📌 O `fileSize` do mapa (terceira coluna, em bytes) continua a valer a pena olhar, para
+saberes o que esperar — mas com o caminho do Toolkit o tamanho deixou de ser um problema.
 
-⭐⭐ **Para os ficheiros grandes usa o descarregador do Toolkit — resolve o problema por
-inteiro** (testado a 2026-08-24 num ficheiro de 6,4 MB que o outro caminho recusava):
+⭐⭐⭐ **USA SEMPRE O DESCARREGADOR DO TOOLKIT, seja qual for o tamanho.** Era só para os
+ficheiros grandes, passou a ser o caminho normal a 2026-08-24, por duas razões: não tem tecto
+de tamanho (testado até 17,7 MB) e **não passa por nenhum ficheiro partilhado**.
+
+🚨 **Porque isso importa:** o `download_file_content` grava a resposta num ficheiro comum a
+toda a sessão, em `tool-results/`. Os nomes trazem um carimbo em milissegundos e são
+distintos, portanto **não há sobreposição de um caminho concreto** — mas com vários lotes a
+correr ao mesmo tempo aquela pasta enche-se de descargas de outros lotes, e **basta procurar
+«o ficheiro mais recente» em vez de usar o caminho exacto que a chamada devolveu para se
+apanhar o PDF de outro artigo**. Foi o que quase aconteceu num lote. Se usares este caminho,
+usa **sempre o caminho exacto que a mensagem de erro te deu**, nunca um `ls -t | head -1`.
+
+O caminho do Toolkit não tem este problema: devolve um URL só teu.
 
 ```
 mcp__Toolkit__googledrive_download_file  com  file_id = <o mesmo fileId>
