@@ -144,7 +144,10 @@ medidas no lote 15, as duas em artigos com **zero** ocorrências de `MPa`:
 O padrão acima já as inclui. ⚠️ Mas `\d{2}/\d{2}` sozinho tem um sinal/ruído **péssimo** neste corpus: num lote deu 247
 acertos num artigo e 138 noutro, e **nenhum verdadeiro em 15 artigos** — são intervalos de
 páginas das referências, anos e rácios. Fica no padrão por causa do «Cast in Situ 25/30», mas
-**a contagem bruta de acertos não diz nada**; só o contexto de cada um.
+**a contagem bruta de acertos não diz nada**; só o contexto de cada um. Falsos positivos
+medidos: espessuras de isolamento (`100/60/30 mm`), anos, intervalos de páginas.
+⚠️ E `\bC\s?\d{2}\b` tem o seu: acertou em **`Case C 65.00`**, a altura de um edifício, que
+a olho desatento parece uma classe C65.
 
 ⚠️ **A classe de número único (`C45`, `C30`) é a notação chinesa e é frequente** — o padrão
 do Eurocódigo `C30/37` não a apanha. Um artigo com «C45 strength grade» quase passou
@@ -220,6 +223,12 @@ não publica. Apareceu 2 vezes num lote de 15, logo é comum. Marca `DUVIDA`.
 ⚠️ **Resistência à flexão da própria mistura: `DUVIDA`.** Distinta da tracção de uma fibra de
 reforço, que já está prevista. Flexão é força por área, mas o limiar de 20 MPa está calibrado
 para compressão, e as duas grandezas não são intercambiáveis.
+
+⚠️ **Classe que só existe na tabela de factores de emissão: `DUVIDA`.** Um artigo lista
+C20–C50 como linhas de uma tabela «factores de emissão de 26 materiais de construção» e
+**nunca diz qual delas cada edifício usa**. O máximo é do *inventário*, não do material do
+estudo — é a mesma objecção do benchmark de cimento Portland. Tabelas de factores por classe
+são padrão na literatura chinesa, por isso vai repetir-se.
 
 📌 **Betão estrutural sem classe declarada é `Rejeitado`, e não é caso especial.** Vai
 aparecer muito em ACV de edifícios: dezenas de m³ de betão armado inventariados e nem uma
@@ -424,7 +433,8 @@ chave de junção com o CSV do lote e tem de bater **exactamente**, acentos incl
 ```
 linha,pdf,E2_resistencia,E2_co2,valor_resistencia_max,unidade_resistencia,
 n_misturas_abaixo_20,valor_co2,unidade_co2,fonte_resistencia,fonte_co2,
-fonte_externa_resistencia,fonte_externa_co2,aviso_metanalise,confianca,nota
+fonte_externa_resistencia,fonte_externa_co2,aviso_metanalise,
+confianca_resistencia,confianca_co2,nota
 ```
 
 - `fonte_resistencia` e `fonte_co2`: **duas colunas separadas**, porque os dois valores vêm
@@ -478,7 +488,9 @@ fonte_externa_resistencia,fonte_externa_co2,aviso_metanalise,confianca,nota
   nacional), escreve **`base de dados de inventario: <nome>`**. Não é um estudo primário, não
   tem DOI e **não entra no ramo de busca por citação do PRISMA** — mas convém ficar registado,
   porque diz à metanálise que o valor não é uma medição do artigo.
-- `confianca`: `alta`, `media`, `baixa`.
+- `confianca_resistencia` e `confianca_co2`: **duas colunas**, `alta` · `media` · `baixa`.
+  Pela mesma razão das outras que já se desdobraram — é comum a resistência vir de ensaio
+  próprio no texto (alta) e o CO₂ de uma leitura contra o eixo de um gráfico (média).
 - `nota`: onde no documento está cada valor, e o raciocínio nos casos não triviais. É isto que
   permite auditar-te sem reabrir o PDF — escreve-a a pensar em quem vai conferir.
 
