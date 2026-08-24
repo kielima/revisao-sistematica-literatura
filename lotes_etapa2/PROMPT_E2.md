@@ -156,7 +156,7 @@ numa única página do RO 2024. Procura as variantes explicitamente:
 
 ```python
 re.findall(r"MPa|Mpa|mPa|megapascal|N/mm2|N/mm²|newtons?\s+per|kgf/cm|"
-           r"\bC\d{2}/\d{2}\b|\bC\d{2}\b|\b\d{2}\s*/\s*\d{2}\b|\bf'?ck?\b|"
+           r"\bC\s?\d{2}\s?/\s?\d{2}\b|\bC\s?\d{2}\b|\b\d{2}\s*/\s*\d{2}\b|\bf'?ck?\b|"
            r"\bpsi\b|\bksi\b|pounds?\s+per\s+square|strength\s+(?:grade|class)|"
            r"grade\s+C?\d{2}", full, re.I)   # re.I aqui e seguro: nenhum destes
 ```
@@ -200,6 +200,18 @@ compressão de uma mistura. Marca `DUVIDA` e explica.
 diferente da fundação com um total e mais nada. A regra da Kiê diz «não tiver mais nada além
 disso», e o divisor *é* mais alguma coisa — mas ela pensava no que está reportado, não no que é
 recuperável. Marca `DUVIDA` com o aviso `normalizavel mas nao normalizado`.
+
+⚠️ **Força por área sem mistura nenhuma: `DUVIDA`.** Um artigo de soldadura com 199 MPa de
+tracção de chapa de alumínio é força por área e está muito acima de 20, mas **não há mistura
+de todo** — não é o caso do componente de reforço dentro de uma mistura, é outra coisa.
+
+⚠️ **Limite inferior aberto: `DUVIDA`.** «>10 N/mm²» e mais nada não prova que atinge 20 nem
+que não atinge. A regra só prevê «atinge» e «nenhuma atinge».
+
+⚠️ **Classe que só aparece no título de uma referência: `DUVIDA`.** «Optimum usage of hybrid
+fibers on **M30 grade** of concrete», na bibliografia, sendo M30 = 30 MPa pela norma indiana e
+sendo esse o traço de referência que o artigo importa. Cruza a regra da designação com sufixo
+(→ dúvida) com a da resistência medida por terceiros (→ aceitar). Vai repetir-se.
 
 ⚠️ **Um caso que a regra ainda não cobre — marca `DUVIDA` e não decidas.** Quando o material
 que o artigo estuda **não tem resistência nenhuma declarada** e a única resistência do
@@ -264,6 +276,12 @@ co2.eq|co2eq|kgco2|greenhouse.gas|ghg|carbon.emission|climate.change|co2|
 embodied.emission|carbon.intensi|low.carbon
 ```
 
+🚨 **Cuidado com «life-cycle assessment» que é ESTRUTURAL e não ambiental.** Nos artigos de
+fiabilidade estrutural — as actas *Life-Cycle of Structures and Infrastructure Systems* são um
+poço destes — «ciclo de vida» refere-se à vida da estrutura, não a ACV ambiental. O padrão
+acerta em `lca` e devolve dezenas de acertos **sem um único valor de emissão**. Foram 8 de 15
+artigos num lote. Confirma sempre que existe unidade funcional e categoria de impacto.
+
 Este padrão pode correr sem distinguir maiúsculas — ao contrário do `MPa`, nenhum destes
 termos é substring de palavras comuns.
 
@@ -292,6 +310,13 @@ Caso medido: 151,3 t CO₂eq para o reforço de uma ponte de 34 m de vão, sem v
 ⚠️ **Distingue isto de «o total existe mas há também um normalizado»** — nesse caso aceita,
 que é a regra da Kiê. O que rejeita é a ausência de qualquer forma normalizada, não a
 presença do total.
+
+🚨 **Facto sectorial genérico NÃO é valor de emissão do artigo.** É a regra gémea da que o
+passo 4 já tem para a resistência. «A produção de uma tonelada de clínquer liberta cerca de
+uma tonelada de CO₂», ou «a indústria do vidro emite 86 Mt de CO₂ por ano», são factores e
+contextos de literatura — normalizados, absolutos, e **nada a ver com o material que o artigo
+estuda**. Se é isso que o artigo tem, e não faz ACV nem declara unidade funcional, é
+`Rejeitado`.
 
 📌 **Balanço líquido negativo aceita, mas com aviso.** Um valor como −567,8 kg CO₂-eq por
 unidade funcional, em que o sequestro excede a emissão, **é** um valor de emissão declarado e
@@ -339,12 +364,13 @@ inteira. Nesses casos o valor existe e o critério passa: regista `escala suspei
 ## O que escreves
 
 **Só** o ficheiro `lotes_etapa2/LOTE_<NN>_RESULTADO.csv`, com `QUOTE_ALL`, **sem acentos** nos
-dados (a regra do `clean_str` do projecto), com estas colunas:
+dados (a regra do `clean_str` do projecto) — ⚠️ **com uma excepção: a coluna `pdf`**, que é
+chave de junção com o CSV do lote e tem de bater **exactamente**, acentos incluídos, com estas colunas:
 
 ```
 linha,pdf,E2_resistencia,E2_co2,valor_resistencia_max,unidade_resistencia,
 n_misturas_abaixo_20,valor_co2,unidade_co2,fonte_resistencia,fonte_co2,
-fonte_externa,aviso_metanalise,confianca,nota
+fonte_externa_resistencia,fonte_externa_co2,aviso_metanalise,confianca,nota
 ```
 
 - `fonte_resistencia` e `fonte_co2`: **duas colunas separadas**, porque os dois valores vêm
@@ -357,8 +383,10 @@ fonte_externa,aviso_metanalise,confianca,nota
   contrário da anterior.
   ⚠️ Não confundas as duas últimas: a primeira é barata e de confiança alta, a segunda é uma
   leitura contra o eixo, com confiança média.
-- `aviso_metanalise`: **vazio** na esmagadora maioria. Preenche quando o valor existe e o
-  critério passa, mas a metanálise não o pode usar sem cuidado. Casos já vistos:
+- `aviso_metanalise`: **vazio** na esmagadora maioria. Preenche quando o valor existe mas a
+  metanálise não o pode usar sem cuidado — **e também quando o valor existe e o critério
+  falha**, porque essa informação é útil se a regra vier a ser recalibrada e poupa reabrir o
+  PDF. Casos já vistos:
   `sem dados proprios` · `captacao e nao emissao` (o número é *uptake* por carbonatação) ·
   `balanco liquido negativo` · `escala suspeita` · `normalizado pela resistencia` ·
   `sem amostras proprias` · `escala ambigua` (quando o referente do valor é que é dúbio — por
@@ -370,7 +398,8 @@ fonte_externa,aviso_metanalise,confianca,nota
   unidade pela ordem de grandeza** — regista o que lá está e deixa a inferência para quem
   extrair, com o aviso à vista.
 - `n_misturas_abaixo_20`: o número quando as misturas são contáveis, `todas` quando nenhuma
-  atinge 20, e **vazio** quando o artigo não declara resistência nenhuma. Quando o intervalo
+  atinge 20 — **`todas` tem precedência sobre o número**, mesmo quando as misturas são
+  contáveis e são poucas, e **vazio** quando o artigo não declara resistência nenhuma. Quando o intervalo
   declarado prova que há pelo menos N mas o texto só transcreve algumas, escreve **`>=N`** e
   explica na nota — não arredondes para o número que conseguiste ver. Quando o artigo não tem misturas de todo — trabalha com
   classes de projecto de um edifício — escreve **`sem misturas`**, que não é o mesmo que `0`
@@ -380,7 +409,10 @@ fonte_externa,aviso_metanalise,confianca,nota
   trabalha sobre uma **faixa contínua** ou uma base de dados de traços (por exemplo «~1.000
   traços entre 18 e 80 MPa»), em que há seguramente misturas abaixo de 20 mas o artigo nunca
   diz quantas, escreve **`nao contavel`**.
-- `fonte_externa`: **vazio** quando os valores são do próprio artigo, **e também** quando são
+- `fonte_externa_resistencia` e `fonte_externa_co2`: **duas colunas**, pela mesma razão que
+  `fonte_resistencia` e `fonte_co2` — é comum a resistência ser classe de projecto (campo vazio)
+  e o CO₂ vir de uma base de dados. Cada uma segue a regra abaixo, aplicada ao seu valor.
+  **Vazio** quando os valores são do próprio artigo, **e também** quando são
   uma classe nominal ou de projecto — não há estudo primário para citar; nesse caso põe
   `sem amostras proprias` em `aviso_metanalise`. Só se preenche quando o artigo aponta uma obra
   concreta como origem do valor (por exemplo «our previous study [55]»): a citação ou o DOI,
