@@ -121,6 +121,11 @@ Extrai a p. 1 e confirma que o **DOI do banco** ou o **título** lá estão. Se 
 não avalies: regista `DUVIDA` com a nota a dizer o que o ficheiro é. Não é o teu trabalho
 resolver a atribuição.
 
+⚠️ **Ficheiro truncado é outra coisa, e diz-se.** Acontece o ficheiro ser mesmo da obra certa
+mas estar incompleto — só as páginas pré-textuais de um livro, sem corpo. Regista `DUVIDA` e
+**começa a nota com `FICHEIRO INCOMPLETO:`**, para se distinguir de uma dúvida de critério.
+Uma é falta de material, a outra é falta de regra, e resolvem-se por caminhos diferentes.
+
 ### 3. Procurar a resistência no texto
 
 ```python
@@ -136,8 +141,10 @@ medidas no lote 15, as duas em artigos com **zero** ocorrências de `MPa`:
 - **a classe sem o prefixo `C`**: «Cast in Situ **25/30**», que é como a base HBERT nomeia o
   C25/30. `\bC\d{2}/\d{2}\b` exige a letra e passa ao lado.
 
-O padrão acima já as inclui. ⚠️ Mas `\d{2}/\d{2}` sozinho apanha datas e intervalos de
-páginas — **confirma sempre o contexto**.
+O padrão acima já as inclui. ⚠️ Mas `\d{2}/\d{2}` sozinho tem um sinal/ruído **péssimo** neste corpus: num lote deu 247
+acertos num artigo e 138 noutro, e **nenhum verdadeiro em 15 artigos** — são intervalos de
+páginas das referências, anos e rácios. Fica no padrão por causa do «Cast in Situ 25/30», mas
+**a contagem bruta de acertos não diz nada**; só o contexto de cada um.
 
 ⚠️ **A classe de número único (`C45`, `C30`) é a notação chinesa e é frequente** — o padrão
 do Eurocódigo `C30/37` não a apanha. Um artigo com «C45 strength grade» quase passou
@@ -213,6 +220,12 @@ não publica. Apareceu 2 vezes num lote de 15, logo é comum. Marca `DUVIDA`.
 ⚠️ **Resistência à flexão da própria mistura: `DUVIDA`.** Distinta da tracção de uma fibra de
 reforço, que já está prevista. Flexão é força por área, mas o limiar de 20 MPa está calibrado
 para compressão, e as duas grandezas não são intercambiáveis.
+
+📌 **Betão estrutural sem classe declarada é `Rejeitado`, e não é caso especial.** Vai
+aparecer muito em ACV de edifícios: dezenas de m³ de betão armado inventariados e nem uma
+classe em lado nenhum. É a aplicação directa do critério — «se não declara, Rejeitado». Não
+inventes a classe a partir do uso estrutural. (O CO₂ do mesmo artigo pode perfeitamente
+passar; são critérios independentes.)
 
 ⚠️ **Classe de resistência do CIMENTO (`CEM I 42.5`, `Rck 32.5`) não é a do betão: `DUVIDA`.**
 É força por área e é uma designação normalizada da EN 197-1 — mas descreve o **ligante**, não a
@@ -451,7 +464,8 @@ fonte_externa_resistencia,fonte_externa_co2,aviso_metanalise,confianca,nota
   mistura×idade — mas di-lo na nota. E quando o artigo
   trabalha sobre uma **faixa contínua** ou uma base de dados de traços (por exemplo «~1.000
   traços entre 18 e 80 MPa»), em que há seguramente misturas abaixo de 20 mas o artigo nunca
-  diz quantas, escreve **`nao contavel`**.
+  diz quantas, escreve **`nao contavel`** — que serve também para revisões que transcrevem
+  valores de vários estudos primários sem os totalizar.
 - `fonte_externa_resistencia` e `fonte_externa_co2`: **duas colunas**, pela mesma razão que
   `fonte_resistencia` e `fonte_co2` — é comum a resistência ser classe de projecto (campo vazio)
   e o CO₂ vir de uma base de dados. Cada uma segue a regra abaixo, aplicada ao seu valor.
