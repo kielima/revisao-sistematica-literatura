@@ -425,6 +425,60 @@ PRISMA: **a Etapa 2 faz o grosso do trabalho de exclusão**, e isso é por desen
    - **Todas as unidades reportadas são aceites**, com uma excepção: **CO₂ por edifício**,
      que não há como normalizar.
 
+#### O que o piloto de 12 artigos mediu (2026-08-24)
+
+Antes de correr os 1.591, leu-se um piloto de 12 artigos escolhidos ao acaso. Resultado:
+**7 aceites e 4 rejeitados na resistência, 1 em dúvida; 6 dos 12 passaram os dois
+critérios.** Taxa de aprovação de 50%, e a cascata poupou a leitura do CO₂ em 4 deles.
+
+**As tabelas sobrevivem à extracção — a hipótese contrária estava errada.** 10 dos 12
+ficheiros entregaram as tabelas achatadas numa linha, mas com valores e cabeçalhos pela
+ordem certa; nos melhores casos o GWP e os MPa aparecem lado a lado. Não é preciso
+renderizar página para ler tabelas.
+
+**⚠️ Mas 2 em 12 (17%) têm o valor decisivo só em figura.** O caso puro é o **RO 2024**
+(linha 3752): os autores ensaiaram compressão aos 28 dias pela ASTM C39, com 5 provetes por
+mistura, e **não imprimem um único valor em MPa no artigo todo** — a string «MPa» tem zero
+ocorrências, e tudo está num gráfico de barras. Do lado do CO₂, o **SUMMA 2023** (2858) faz
+LCA CML com 10 indicadores e só reporta percentagens de redução. Estimativa: **240 a 320
+artigos** dos 1.591 vão exigir renderizar figura. Tratá-los num lote próprio com `pdf2image`,
+não misturados no fluxo normal.
+
+##### 🚨 A consequência que isto tem para o pré-filtro
+
+É tentador contar as ocorrências de `MPa|N/mm2|C\d\d/\d\d` e rejeitar quem der zero — o
+piloto chegou a propor isso, e teria despachado 3 dos 4 rejeitados sem leitura nenhuma.
+**Não se pode fazer assim**, e é o próprio piloto que dá o contra-exemplo: o RO 2024 dá
+**zero** ocorrências de «MPa» e tem ensaios de compressão a sério. Zero ocorrências manda o
+artigo para a fila das figuras, **nunca directamente para Rejeitado**.
+
+E o erro simétrico também está medido: no **ZAJAC 2022** (4393) a única ocorrência de «MPa»
+em 131 mil caracteres é a **pressão de transporte do CO₂ supercrítico (10 MPa)**. Um filtro
+«tem MPa → aceita» classificava-o mal.
+
+📌 É a mesma lição da sonda por DOI na conferência de ficheiros, outra vez: **o regex acha
+candidatos, não decide.** Serve para ordenar a fila, não para carimbar o veredito.
+
+##### Armadilhas de extracção que o piloto apanhou
+
+- **`grep -o` não serve neste corpus.** O texto vem com quebras de linha a meio das frases e
+  o contexto do valor cai sempre na linha seguinte. Normalizar `\s+` para espaço, em Python,
+  antes de procurar. Salva um turno por artigo.
+- **`Mpa` com «m» minúsculo** existe (2 das 3 ocorrências no DAI 2024). Procurar sem
+  distinguir maiúsculas.
+- **O corte da secção de referências quase nunca funciona** — acertou em 1 de 10 ficheiros,
+  porque o cabeçalho «References» raramente aparece isolado numa linha. Consequência real:
+  títulos de referências com «Strength» poluem a contagem.
+- **`title = '<nome exacto>'` falha em nomes acentuados** no conector do Drive
+  (`GALÁN-MARÍN et al., 2015.pdf` não foi encontrado). Resolvido de raiz pelo mapa
+  `nome → fileId` (ver `DRIVE_FILEID_MAP.csv`), que dispensa procurar por título.
+
+##### O quarto estado que a especificação não previa
+
+A cascata cria um estado que não é Aceito, Rejeitado nem DUVIDA: **«não avaliado»**, para o
+CO₂ de um artigo já rejeitado na resistência. Fixá-lo por escrito antes de correr a sério —
+o piloto teve de o inventar em 4 das 12 linhas.
+
 ### Etapa 3 — Análise **qualitativa** do PDF
 
 8. **Regionalização** — o antigo C6, escopo inalterado.
