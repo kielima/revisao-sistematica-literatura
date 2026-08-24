@@ -158,6 +158,13 @@ meio das frases e o contexto do valor cai sempre na linha seguinte; sem normaliz
 
 Lê o contexto de cada ocorrência antes de decidir.
 
+⚠️ **Um caso que a regra ainda não cobre — marca `DUVIDA` e não decidas.** Quando o material
+que o artigo estuda **não tem resistência nenhuma declarada** e a única resistência do
+documento é a do **betão de referência com que ele se compara** (um OPC de benchmark, com o
+valor tirado de outro estudo). Comparar com um OPC de referência é praxe na ACV de ligantes
+alternativos, por isso isto vai repetir-se. Regista `DUVIDA`, explica na nota qual é o
+material do estudo e qual é o benchmark, e avalia o CO₂ à mesma.
+
 ⭐ **Resistência medida por terceiros: ACEITA** (decisão da Kiê, 2026-08-24). Se o artigo
 reporta valores de resistência que não mediu — uma revisão que compila estudos primários, um
 artigo que assume o inventário de outro, uma classe atribuída por semelhança — **conta como
@@ -245,6 +252,27 @@ ACV com dez indicadores e a Fig. 5 é um radar de **percentagens**, eixo de 0% a
 Se suspeitares que o valor absoluto está numa figura, **renderiza e olha** — o mesmo
 procedimento do passo 5. O teste corre nos dois sentidos: no RO salvou o artigo, no SUMMA
 condenou-o.
+
+### 6b. ⚠️ Armadilha grave — cabeçalho de tabela repetido sobre as colunas erradas
+
+Medida no lote 8. Um PDF repetia o cabeçalho `CC kg CO2 eq / OD / IR / PO` no topo das
+páginas 19 e 21, **sobre blocos que continuavam outras colunas** (LU/WU/RF/RM e PM/HT/AC).
+Quem lesse o texto achatado tirava dali «Total 273.474» como se fosse CC — **e enganava-se por
+um factor de 5**. Os totais verdadeiros eram 54,5 / 63,6 / 63,8 kg CO₂eq por metro de viga.
+
+**Só se apanha extraindo página a página** (`d[p].get_text()`), nunca do `full` normalizado.
+Quando um valor de uma tabela grande te parecer alto de mais, vai à página de origem e
+confirma que a coluna é mesmo a que o cabeçalho promete.
+
+É prima da armadilha do cabeçalho corrido com os autores errados, já documentada no
+`CLAUDE.md`: o editor arrasta um cabeçalho estagnado de uma página para outra.
+
+📌 **Teste de sanidade que vale sempre a pena, e que apanhou dois casos num só lote:**
+confronta o CO₂ com a dosagem de cimento do próprio artigo. 780 kg/m³ de cimento não podem
+dar 410 kg CO₂eq/m³ — só o cimento daria mais de 600. E uma tabela intitulada «per m²» que dá
+57.215 kg CO₂eq está a dar 57 toneladas por metro quadrado, que é a ordem de grandeza da obra
+inteira. Nesses casos o valor existe e o critério passa: regista `escala suspeita` em
+`aviso_metanalise`.
 
 ### 7. Outras armadilhas já medidas
 
