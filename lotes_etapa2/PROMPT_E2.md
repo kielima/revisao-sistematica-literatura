@@ -129,12 +129,21 @@ d = pymupdf.open('r<linha>.pdf')
 full = re.sub(r'\s+', ' ', ' '.join(d[i].get_text() for i in range(d.page_count)))
 ```
 
+⚠️ **A classe de número único (`C45`, `C30`) é a notação chinesa e é frequente** — o padrão
+do Eurocódigo `C30/37` não a apanha. Um artigo com «C45 strength grade» quase passou
+despercebido num lote; só apareceu por busca da palavra `grade`, e sem isso teria sido decidido
+pelo glulam, que estava exactamente no limiar. Inclui `\bC\d{2}\b` **e confirma sempre o
+contexto**, porque sozinho dá falsos positivos (`C25` de compostos químicos).
+⚠️ E cuidado com `grade`: num artigo as três ocorrências eram **«Belgrade»**, na filiação dos
+coautores.
+
 ⚠️⚠️ **Procura `MPa` com as maiúsculas respeitadas.** Nunca uses `re.I` numa sigla de três
 letras: `compa` de *comparison* e *compared* dá falsos positivos, e foi medido — 3 falsos
 numa única página do RO 2024. Procura as variantes explicitamente:
 
 ```python
-re.findall(r'MPa|Mpa|mPa|N/mm2|N/mm²|\bC\d{2}/\d{2}\b|\bpsi\b|\bksi\b', full)
+re.findall(r"MPa|Mpa|mPa|N/mm2|N/mm²|kgf/cm|\bC\d{2}/\d{2}\b|\bC\d{2}\b|\bf'?ck?\b|"
+           r"\bpsi\b|\bksi\b|strength\s+(?:grade|class)|grade\s+C\d{2}", full)
 ```
 
 ⚠️ **Normaliza `\s+` para espaço antes de procurar.** O texto extraído tem quebras de linha a
