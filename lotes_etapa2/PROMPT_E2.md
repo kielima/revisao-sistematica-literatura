@@ -144,7 +144,14 @@ meio das frases e o contexto do valor cai sempre na linha seguinte; sem normaliz
 
 **Ter «MPa» não chega.** Casos medidos em que a ocorrência não é resistência do material:
 - **pressão** de transporte de CO₂ supercrítico (10 MPa) — foi a única ocorrência em 131 mil
-  caracteres do ZAJAC 2022, que é um artigo sem resistência nenhuma;
+  caracteres do ZAJAC 2022, que é um artigo sem resistência nenhuma; e pressão de gás de
+  carbonatação (1,5 MPa) noutro;
+- ⚠️ **a armadilha inversa: `MPa` no denominador de uma métrica.** Um artigo com `GWI/MPa` e
+  `CED/MPa` — impacto normalizado pela resistência — enche-se de ocorrências de «MPa» sendo um
+  artigo para rejeitar. Deu 12 acertos num caso em que nenhuma mistura chegava a 20. Um
+  contador ingénuo sugeriria aceitação;
+- **«class» que não é classe de resistência** — num artigo as Classes A–D eram de desempenho
+  de sustentabilidade das *empresas*;
 - módulo de elasticidade (GPa), tensão de aderência, pressão de compactação;
 - valores citados da literatura em introdução, que **contam** se o artigo os assume como a
   classe do seu material, mas **não** se são só contexto de outro estudo.
