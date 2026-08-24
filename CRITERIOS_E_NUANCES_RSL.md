@@ -357,10 +357,14 @@ e se rejeita.
    ⚠️ Nota: como a Etapa 2 aceita qualquer material com força por área, os materiais
    regionais (bambu, fibras) **continuam a chegar aqui**. O C6 permanece operante.
 
-### Etapa 4 — Controlo de qualidade
+### Etapa 4 — Controlo de qualidade ✅ REDESENHADA (2026-08-24)
 
-**A refazer.** O checklist antigo (Q1–Q6, escala 0/0,5/1,0, corte ≥ 4,0) já não serve —
-ver a secção seguinte.
+**Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.** Ver a secção «O checklist de qualidade
+redesenhado» mais abaixo para as rubricas de cada item.
+
+⭐⭐ **NÃO É CRITÉRIO DE EXCLUSÃO.** Decisão da Kiê, 2026-08-24: nenhum estudo é retirado
+por escore baixo. Todos entram na síntese, cada um com o seu escore reportado, e faz-se
+**análise de sensibilidade por estrato de qualidade**.
 
 ## 🚨 Porque o checklist de qualidade tem de ser refeito
 
@@ -380,13 +384,101 @@ Etapa 4 terá obrigatoriamente CO₂ declarado e `fck` — logo pontua 1,0 nos d
 automaticamente. Isso **infla todos os escores em 2 pontos** e destrói o corte: com 2 pontos
 garantidos, bastariam 2 dos 4 restantes para passar o corte de 4,0.
 
-**Consequência:** ou se removem Q3 e Q6 e se **reescala o corte** (sobram Q1, Q2, Q4, Q5,
-máximo 4,0; o corte proporcional ao antigo 4,0/6,0 = 66,7% seria ≈ 2,7), ou se mantêm seis
-itens **substituindo** Q3 e Q6 por duas dimensões novas de qualidade.
+**✅ RESOLVIDO em 2026-08-24:** removem-se o Q3 e o Q6, e entram dois itens novos que a
+Etapa 2 não captura. Ver a secção seguinte.
 
-📌 Reparar que **Q5 (vida útil) é o item que mais reprova** — média 0,53, com 28 dos 75 a
-pontuar zero. É coerente com o que se sabe: só cerca de 21 dos 139 registos da metanálise
-declaravam vida útil.
+📌 O **Q5 (vida útil)** mantém-se e passa a pesar mais (1/6 → um dos quatro herdados de
+quatro itens). Isso é deliberado, não acidente: **a vida útil entra na unidade funcional
+necessária para normalizar o `ci_t`**, portanto declará-la é uma propriedade de qualidade
+que a análise usa directamente.
+
+---
+
+# ✅ O checklist de qualidade redesenhado (2026-08-24)
+
+**Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.**
+
+⚠️ **Identificadores por LETRA, de propósito.** Não reutilizar «Q1–Q6»: o checklist antigo
+usava esses números com significados diferentes, e os 75 estudos já pontuados estão
+registados com eles. Letras tornam impossível confundir os dois.
+
+| Item | Vem de | O que mede |
+|---|---|---|
+| **QA — Unidade funcional** | antigo Q1 | A UF está declarada e é inequívoca |
+| **QB — Método de análise** | antigo Q2 | O método de avaliação de impacto (LCIA) está nomeado |
+| **QC — Fonte dos dados** | antigo Q4 | A base de inventário está nomeada |
+| **QD — Vida útil** | antigo Q5 | A vida útil está declarada (entra na UF do `ci_t`) |
+| **QE — Fronteira do sistema** | **novo** | O que está dentro e fora do sistema |
+| **QF — Emparelhamento CO₂↔resistência** | **novo** | Os dois números do quociente pertencem à mesma mistura |
+
+~~Q3 — Unidade de medida CO₂~~ e ~~Q6 — fck~~ **saem**: passaram a ser critérios de
+exclusão na Etapa 2, e mantê-los pontuaria 1,0 automaticamente em tudo o que chegasse aqui.
+
+## QE — Fronteira do sistema
+
+É o item da ISO 14044 que mais afecta a **magnitude** do valor, e nenhum dos herdados o
+cobre. Comparar 300 kg CO₂/m³ *cradle-to-gate* com 450 *cradle-to-grave* não é comparar
+nada. Casos reais que motivaram o item: linha 4999 (fronteira em «1 t de clínquer»), 4297
+(*cradle-to-gate* com 50 km de transporte incluídos), 4613 (contabiliza só a fracção
+perdida).
+
+| Pontos | Critério |
+|---|---|
+| **1,0** | Fronteira nomeada explicitamente (*cradle-to-gate*, A1–A3, *cradle-to-grave*…) **e** com as etapas incluídas e excluídas discriminadas |
+| **0,5** | Fronteira nomeada mas sem discriminar etapas, ou deduzível do texto sem ser declarada |
+| **0** | Não é possível determinar o que está dentro do sistema |
+
+## QF — Rastreabilidade do par CO₂ ↔ resistência
+
+**É o item que nenhum checklist genérico de ACV apanha e que esta análise precisa
+absolutamente.** O `ci` é um **quociente entre dois números**. Se o artigo dá CO₂ agregado
+e resistências por mistura — ou CO₂ de uma mistura e resistência de outra — o quociente
+passa a ser fabricado por quem extrai, não medido por quem publicou.
+
+Caso puro: **linha 4613**, em que o GWP tabelado é o da *fracção perdida* de resíduo, não o
+do concreto aplicado. Quem não reparar calcula um `ci` que não existe em lado nenhum.
+
+| Pontos | Critério |
+|---|---|
+| **1,0** | Cada valor de CO₂ está inequivocamente associado a **uma** mistura identificada, que tem o seu próprio valor de resistência |
+| **0,5** | A associação existe mas exige inferência (ex.: CO₂ por mistura numa tabela, resistência noutra, ligadas só pelo nome do traço) |
+| **0** | CO₂ agregado, médio, ou de recorte diferente do da resistência — o par tem de ser construído por quem extrai |
+
+## ⭐⭐ O escore NÃO exclui — estratifica
+
+**Decisão da Kiê, 2026-08-24.** Nenhum estudo sai da síntese por escore baixo. Todos entram,
+cada um com o seu escore, e faz-se **análise de sensibilidade por estrato de qualidade**.
+
+O raciocínio: se o resultado se mantém quando se olha só para os estudos de escore alto,
+isso é um argumento **mais forte** do que tê-los excluído à partida — porque responde com um
+número à pergunta «e se tivesse incluído os fracos?». E se **não** se mantiver, isso é um
+**achado** sobre a literatura, não um problema escondido por um corte arbitrário.
+
+Há ainda uma razão prática: o corpus final vai ser pequeno (o CO₂ é o estrangulamento — 99
+registos com `co2_valor` contra 544 com `fck_mpa` na extracção parcial), e excluir por
+qualidade custaria poder estatístico que não temos de sobra.
+
+### ⚠️ Consequências que decorrem desta escolha
+
+1. **O fluxograma PRISMA deixa de ter caixa de «excluídos por qualidade».** O antigo tinha
+   («75 − 6 (qualidade <4,0) = 69 incluídos»). No desenho novo, o número de incluídos na
+   síntese é igual ao número que sai da Etapa 3. A qualidade passa a ser **reportada**, não
+   subtraída.
+2. **Não há corte a definir.** A questão «4,0 ou 3,5?» deixa de existir.
+3. **Os estratos têm de ser definidos antes de olhar para os resultados**, senão a análise
+   de sensibilidade perde valor. Sugestão a confirmar: terços, ou cortes fixos em 4,0 e 5,0.
+4. **O escore tem de ir para a `meta_analysis_base.xlsx`**, numa coluna própria por estudo,
+   para a estratificação ser possível na análise.
+
+## 📌 Pendente de decisão — tipo de corpo de prova
+
+**1.171 das 1.694 linhas já extraídas não declaram o tipo de corpo de prova.** Como a
+conversão cubo→cilindro vai ser feita e justificada, isso significa aplicá-la a corpos de
+prova maioritariamente desconhecidos.
+
+A minha recomendação é tratá-lo como **regra de extracção obrigatória** (registar sempre, e
+marcar «não declarado» explicitamente quando não houver) e **não** como item de qualidade —
+mas a decisão está em aberto. Se preferir pontuá-lo, ele substitui bem o QE.
 
 ## Convenções de dados
 
