@@ -432,10 +432,26 @@ chave de junção com o CSV do lote e tem de bater **exactamente**, acentos incl
 
 ```
 linha,pdf,E2_resistencia,E2_co2,valor_resistencia_max,unidade_resistencia,
-n_misturas_abaixo_20,valor_co2,unidade_co2,fonte_resistencia,fonte_co2,
-fonte_externa_resistencia,fonte_externa_co2,aviso_metanalise,
-confianca_resistencia,confianca_co2,nota
+n_misturas_abaixo_20,valor_co2,unidade_co2,pagina_resistencia,pagina_co2,
+fonte_resistencia,fonte_co2,fonte_externa_resistencia,fonte_externa_co2,
+aviso_metanalise,confianca_resistencia,confianca_co2,nota
 ```
+
+- ⭐⭐ `pagina_resistencia` e `pagina_co2`: **OBRIGATÓRIAS sempre que houver valor.** O
+  **número da página impressa do PDF** onde o valor está, mais a localização exacta dentro
+  dela. Exemplos: `p.9, Tab.4` · `p.14, Fig.11 (eixo)` · `p.7, texto, sec.3.2` ·
+  `p.62, Grafico 15 (rotulo)`. Se o valor aparecer em mais do que um sítio, dá o mais
+  autoritativo (tabela antes de texto, texto antes de figura) e menciona o outro na nota.
+
+  🚨 **Isto é para a Kiê poder conferir sem reler o artigo, e é inegociável.** Não escrevas
+  «62% do documento», nem «na secção de resultados», nem «na Tabela 4» sem a página: quem vai
+  verificar abre o PDF numa página, não numa percentagem. Usa a numeração de páginas do
+  ficheiro tal como o `pymupdf` as conta (`d[i]` → página i+1) e, se a paginação impressa do
+  artigo for diferente da do ficheiro, **dá as duas**: `p.9 do ficheiro (p.1043 impressa)`.
+
+  Quando o critério é `Rejeitado` por ausência de valor, deixa a coluna **vazia** — não há
+  página para apontar. Quando é `Rejeitado` porque o valor existe mas é insuficiente (todas as
+  misturas abaixo de 20), **preenche na mesma**: é preciso poder conferir a rejeição.
 
 - `fonte_resistencia` e `fonte_co2`: **duas colunas separadas**, porque os dois valores vêm
   muitas vezes de sítios diferentes — no lote 3 houve um artigo com a resistência em tabela e o
@@ -491,7 +507,9 @@ confianca_resistencia,confianca_co2,nota
 - `confianca_resistencia` e `confianca_co2`: **duas colunas**, `alta` · `media` · `baixa`.
   Pela mesma razão das outras que já se desdobraram — é comum a resistência vir de ensaio
   próprio no texto (alta) e o CO₂ de uma leitura contra o eixo de um gráfico (média).
-- `nota`: onde no documento está cada valor, e o raciocínio nos casos não triviais. É isto que
+- `nota`: o raciocínio nos casos não triviais. A localização vai nas colunas de página; a nota
+  serve para o que elas não cabem — porque escolheste um valor e não outro, o que a figura
+  mostrava, que armadilha evitaste. É isto que
   permite auditar-te sem reabrir o PDF — escreve-a a pensar em quem vai conferir.
 
 ## O que NÃO fazes
