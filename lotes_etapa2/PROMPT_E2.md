@@ -11,11 +11,18 @@ são para desconsiderar, já foram usados na Etapa 1.
 1. **`E2_resistencia`** — o artigo declara resistência **convertível para MPa** (força por
    área) e **alguma** mistura atinge **20 MPa**? Se não declara, ou se nenhuma atinge 20,
    **Rejeitado**.
+   📌 **«Atinge 20» inclui exactamente 20.** A regra da Kiê é «abaixo de 20 MPa, exclui», e 20
+   não está abaixo de 20. Uma classe **C20**/25 declarada **entra**.
 2. **`E2_co2`** — o artigo declara **valor de emissão** de CO₂? Se não, **Rejeitado**.
    Só se avalia se o artigo passou no critério 1.
 
 Estados possíveis: `Aceito` · `Rejeitado` · `DUVIDA` · `nao avaliado`
-(este último **só** para o `E2_co2` de um artigo já rejeitado na resistência).
+(este último **só** para o `E2_co2` de um artigo já **rejeitado** na resistência).
+
+📌 **Com `E2_resistencia = DUVIDA`, avalia o CO₂ na mesma.** A cascata só poupa trabalho
+quando a rejeição é certa. Avaliar o CO₂ de uma dúvida custa pouco e mostra quais das dúvidas
+mudam mesmo o desfecho — no lote 1, duas das três dúvidas eram irrelevantes porque o CO₂ já
+rejeitava de qualquer maneira.
 
 ## Passo a passo, por artigo
 
@@ -28,9 +35,35 @@ O `DRIVE_FILEID_MAP.csv` já tem o `fileId` de cada nome de ficheiro. **Nunca us
 grep -F '"<nome exacto do ficheiro>"' /home/user/revisao-sistematica-literatura/DRIVE_FILEID_MAP.csv
 ```
 
-Depois chama `mcp__Google_Drive__download_file_content` com esse `fileId`. A resposta excede o
-limite de tokens e **é gravada num ficheiro** — o erro diz-te o caminho. Isso é o que queremos:
-o base64 nunca entra no teu contexto. Descodifica-o para um PDF local:
+⚠️⚠️ **Olha primeiro para o `fileSize` do mapa — a terceira coluna, em bytes.** O
+`download_file_content` tem um tecto de tamanho, medido a 2026-08-24:
+
+| Tamanho | O que acontece | O que fazes |
+|---|---|---|
+| **até ~6 MB** | descarrega bem | `download_file_content` → descodificas → PDF local, **com figuras** |
+| **~6 a 10 MB** | falha com **`MCP server "Google_Drive" session expired`** | `read_file_content`, **só texto** |
+| **acima de 10 MB** | falha com `File too large for download, over limit of 10 MB` | `read_file_content`, **só texto** |
+
+🚨 **A mensagem «session expired» é falsa e já enganou um lote inteiro.** A sessão está viva —
+verificado com `get_file_metadata` imediatamente a seguir, e com uma descarga de outro
+ficheiro a funcionar. É um limite de tamanho, é determinístico, e **não vale a pena repetir a
+chamada**. Se o ficheiro tem mais de 6 MB, vai directo ao `read_file_content` e poupa as
+tentativas.
+
+**Consequência que tens de registar:** para os ficheiros acima de ~6 MB **o passo 5 não está
+disponível** — não há PDF local, logo não há como renderizar figura. Se um desses artigos não
+der o valor no texto, escreve `DUVIDA` com a nota a dizer *«ficheiro de X MB, sem acesso a
+figura por limite do conector»*. Não inventes o veredito. São cerca de 300 dos 1.591, mas só
+uma fracção deles vai precisar mesmo da figura.
+
+⚠️ O `read_file_content` **não tem tecto de tamanho, mas é imprevisível no contexto**: às
+vezes grava em ficheiro (barato) e às vezes devolve tudo inline. Já houve um retorno de ~40
+mil caracteres (~11k tokens) de um PDF de 9,5 MB, porque o *texto* cabia no limite mesmo o
+ficheiro não cabendo.
+
+Para os ficheiros até ~6 MB, chama `mcp__Google_Drive__download_file_content` com o `fileId`.
+A resposta excede o limite de tokens e **é gravada num ficheiro** — o erro diz-te o caminho.
+Isso é o que queremos: o base64 nunca entra no teu contexto. Descodifica-o para um PDF local:
 
 ```python
 import json, base64
@@ -82,6 +115,17 @@ Lê o contexto de cada ocorrência antes de decidir.
 ⭐ **Decisão da Kiê, 2026-08-24: valor só em figura extrai-se da figura, não se rejeita.**
 Zero ocorrências de «MPa» **nunca** é motivo para rejeitar sozinho.
 
+**Antes de renderizar seja o que for, lê as legendas.** É muito mais barato e resolve a
+maioria dos casos: se as doze legendas de um artigo são todas fluxogramas, GWP por fase e
+energia incorporada, está provado que não há figura de resistência para ler, e renderizar
+seria deitar contexto fora.
+
+```python
+legendas = re.findall(r'(?:Fig(?:ure|\.)?|Tab(?:le|\.)?|Quadro|Tabela)\s*\d+[a-z]?[.:\s-]{1,3}[^.]{0,160}', full)
+```
+
+Só se alguma legenda prometer resistência é que renderizas essa página:
+
 ```python
 for i in range(d.page_count):
     if d[i].get_images(): print(i+1, len(d[i].get_images()))
@@ -99,7 +143,17 @@ dizer que figura é e porque não se lê.
 
 ### 6. O CO₂
 
-Procura `kg CO2`, `kgCO2`, `CO2-eq`, `CO2 eq`, `GWP`, `tCO2`, `kt CO2`, `global warming`.
+⚠️ **Não uses uma lista curta.** Uma lista de meia dúzia de padrões deu **zero** ocorrências
+num artigo que tinha **52** relevantes. Usa o padrão completo, o mesmo que o projecto já usa:
+
+```
+lca|life.cycle.assess|carbon.footprint|embodied.carbon|gwp|global.warming.potential|
+co2.eq|co2eq|kgco2|greenhouse.gas|ghg|carbon.emission|climate.change|co2|
+embodied.emission|carbon.intensi|low.carbon
+```
+
+Este padrão pode correr sem distinguir maiúsculas — ao contrário do `MPa`, nenhum destes
+termos é substring de palavras comuns.
 
 ⭐ **Regra da Kiê, 2026-08-24 — todas as unidades servem, incluindo o total da obra desde que
 haja também um valor normalizado.** «Se tem os dois pode aceitar; rejeitar só se o CO₂ vier
@@ -133,7 +187,13 @@ linha,pdf,E2_resistencia,E2_co2,valor_resistencia_max,unidade_resistencia,
 n_misturas_abaixo_20,valor_co2,unidade_co2,fonte_do_valor,confianca,nota
 ```
 
-- `fonte_do_valor`: `texto`, `tabela`, `figura` ou `classe declarada`.
+- `fonte_do_valor`: `texto` · `tabela` · `classe declarada` · **`figura (rotulo extraido)`**
+  quando o valor vive numa figura mas o extractor apanhou o rótulo · **`figura (renderizada)`**
+  quando tiveste mesmo de olhar para a imagem. ⚠️ Não os confundas: o primeiro é barato e de
+  confiança alta, o segundo é uma leitura contra o eixo, com confiança média. No lote 1 um
+  `figura` sem qualificação parecia contradizer o relatório, que dizia zero renderizações.
+- `n_misturas_abaixo_20`: o número quando as misturas são contáveis, `todas` quando nenhuma
+  atinge 20, e **vazio** quando o artigo não declara resistência nenhuma.
 - `confianca`: `alta`, `media`, `baixa`.
 - `nota`: onde no documento está cada valor, e o raciocínio nos casos não triviais. É isto que
   permite auditar-te sem reabrir o PDF — escreve-a a pensar em quem vai conferir.
