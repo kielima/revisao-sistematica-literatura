@@ -470,15 +470,30 @@ qualidade custaria poder estatístico que não temos de sobra.
 4. **O escore tem de ir para a `meta_analysis_base.xlsx`**, numa coluna própria por estudo,
    para a estratificação ser possível na análise.
 
-## 📌 Pendente de decisão — tipo de corpo de prova
+## ✅ Tipo de corpo de prova — NÃO é item de qualidade (decidido 2026-08-24)
 
 **1.171 das 1.694 linhas já extraídas não declaram o tipo de corpo de prova.** Como a
 conversão cubo→cilindro vai ser feita e justificada, isso significa aplicá-la a corpos de
 prova maioritariamente desconhecidos.
 
-A minha recomendação é tratá-lo como **regra de extracção obrigatória** (registar sempre, e
-marcar «não declarado» explicitamente quando não houver) e **não** como item de qualidade —
-mas a decisão está em aberto. Se preferir pontuá-lo, ele substitui bem o QE.
+**Decisão da Kiê: não entra no checklist.** Fica como **regra de extracção obrigatória** —
+registar sempre o tipo, e marcar «não declarado» **explicitamente** quando o artigo não o
+disser. Nunca deixar a célula vazia, porque vazio confunde-se com «ainda não extraído».
+
+⚠️ Quando o tipo não for declarado, a conversão cubo→cilindro **não se aplica por omissão**;
+o valor entra como está, marcado como corpo de prova indeterminado, e a análise de
+sensibilidade tem de conseguir isolar esse grupo.
+
+## ✅ Estratificação da metanálise por FAMÍLIA DE MATERIAL (decidido 2026-08-24)
+
+O critério de resistência da Etapa 2 aceita qualquer material com força por área — concreto,
+bambu, madeira, solo estabilizado. São todos MPa, mas **não são a mesma grandeza física nem
+o mesmo ensaio**: converter cubo→cilindro é padrão e defensável; converter bambu→concreto
+não é, são materiais diferentes.
+
+**A análise é estratificada por família de material.** O indicador `ci`
+(kg CO₂eq/m³/MPa) já normaliza parte disso, mas a comparação directa entre famílias sem
+estratificar não seria legítima.
 
 ## Convenções de dados
 
