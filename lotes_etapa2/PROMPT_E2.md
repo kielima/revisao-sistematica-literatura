@@ -78,6 +78,12 @@ O caminho do Toolkit não tem este problema: devolve um URL só teu.
 mcp__Toolkit__googledrive_download_file  com  file_id = <o mesmo fileId>
 ```
 
+🚨 **O descarregador pode devolver o ficheiro ERRADO para o `file_id` pedido.** Medido no
+lote 51: uma chamada por um artigo devolveu com sucesso um PDF de outro autor completamente
+diferente, sem erro nenhum reportado. **Confirma sempre título e primeiro autor na p.1 do PDF
+que abriste contra o que esperavas do CSV do lote — antes de leres uma linha de conteúdo.** Se
+não bater, não uses esse resultado: repete a chamada.
+
 ⚠️ **Um de cada vez, e isso inclui não lançar chamadas em paralelo.** A chamada em lote, com
 `file_ids`, rebenta com um **Cloudflare 520** — mas três chamadas individuais lançadas ao mesmo
 tempo também falham (uma devolveu `session expired` enquanto as outras duas passaram).
