@@ -304,6 +304,15 @@ parecer que 6,6 MPa à flexão rejeita à mesma — mas a flexão é sempre **me
 compressão, pelo que um valor baixo à flexão **não permite inferir nada** sobre a compressão.
 Rejeitar ali seria decidir por uma grandeza que não é a do critério.
 
+✅ **O discriminador entre as duas regras vizinhas — «classe de projecto conta» e «classe na
+tabela de factores é dúvida» — é este: o artigo diz, ou não diz, QUAL classe cada sistema usa.**
+
+- **Diz** → conta, mesmo que o nome venha de um processo de base de dados (`Concrete, 35 MPa`
+  do ecoinvent, `RC 40/50` do ICE Hammond & Jones). Se o artigo escreve «o pavimento usa
+  Concrete 35 MPa» com a quantidade ao lado, a classe é do sistema que ele modela.
+- **Não diz** → dúvida. Uma tabela que lista C20 a C50 entre 26 materiais, sem nunca atribuir
+  nenhuma a nenhum edifício, é catálogo e não declaração.
+
 ⚠️ **Classe que só existe na tabela de factores de emissão: `DUVIDA`.** Um artigo lista
 C20–C50 como linhas de uma tabela «factores de emissão de 26 materiais de construção» e
 **nunca diz qual delas cada edifício usa**. O máximo é do *inventário*, não do material do
@@ -659,6 +668,10 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   traços entre 18 e 80 MPa»), em que há seguramente misturas abaixo de 20 mas o artigo nunca
   diz quantas, escreve **`nao contavel`** — que serve também para revisões que transcrevem
   valores de vários estudos primários sem os totalizar.
+  📌 **Numa tabela em matriz, conta proporções de mistura, não combinações.** Três resistências
+  × três teores de adição dá 9 proporções — que são as colunas da tabela de traços —, e não as
+  ~30 combinações que se obteriam multiplicando também pelos tipos de cimento e de adição. A
+  coluna conta o que o artigo dosou, não o espaço de desenho.
   📌 Com o veredito em `DUVIDA`, escreve **`nao aplicavel (duvida)`** — a pergunta «quantas
   ficam abaixo de 20» pressupõe justamente o que ficou por decidir, e escrever `todas` ali
   lê-se como uma rejeição já tomada.
