@@ -286,8 +286,13 @@ material do estudo e qual é o benchmark, e avalia o CO₂ à mesma.
 **compila valores de resistência** dos estudos primários. Não cobre a revisão que **menciona
 resistência de passagem** ao discutir método — «Braga et al. usaram C50/60» dentro de uma
 tabela sobre escolha de unidade funcional é contexto de outro estudo, não compilação. As
-revisões de ACV de betão fazem isto quase sempre, por isso a distinção conta. Em dúvida sobre
-qual dos dois é, marca `DUVIDA`.
+revisões de ACV de betão fazem isto quase sempre, por isso a distinção conta.
+
+✅ **Teste operável**, e é o melhor que temos: **conta se o valor é de uma mistura do tipo que a
+revisão estuda; não conta se é de um material de contexto.** Uma revisão de agregado reciclado
+que dá 39,28 / 38,46 / 39,74 MPa de misturas de RCA está a compilar o seu próprio objecto; a
+mesma revisão a citar «27,6 MPa» para ilustrar como um estudo escolheu a unidade funcional
+está a dar contexto. Em dúvida genuína, `DUVIDA`.
 
 ⭐ **Resistência medida por terceiros: ACEITA** (decisão da Kiê, 2026-08-24). Se o artigo
 reporta valores de resistência que não mediu — uma revisão que compila estudos primários, um
@@ -505,6 +510,11 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   **`nao declarada`** e põe `unidade nao declarada` em `aviso_metanalise`. **Não infiras a
   unidade pela ordem de grandeza** — regista o que lá está e deixa a inferência para quem
   extrair, com o aviso à vista.
+  📌 **Mas há uma inferência legítima, e distingue-se bem da outra: a que vem da cadeia de
+  unidades.** Se os factores estão em impacto **por kg** e a unidade funcional declarada é
+  **1 m³**, o resultado é kg CO₂eq/m³ por construção, não por parecença de tamanho. Nesse caso
+  escreve a unidade com a marca **`derivada da unidade funcional`** e explica a cadeia na nota.
+  A inferência por ordem de grandeza é adivinhar; esta é aritmética.
 - `n_misturas_abaixo_20`: o número quando as misturas são contáveis, `todas` quando nenhuma
   atinge 20 — **`todas` tem precedência sobre o número**, mesmo quando as misturas são
   contáveis e são poucas, e **vazio** quando o artigo não declara resistência nenhuma. Quando o intervalo
@@ -520,6 +530,11 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   traços entre 18 e 80 MPa»), em que há seguramente misturas abaixo de 20 mas o artigo nunca
   diz quantas, escreve **`nao contavel`** — que serve também para revisões que transcrevem
   valores de vários estudos primários sem os totalizar.
+  ⚠️ **Distingue a queda com a idade da composição fraca.** Uma mistura que vai de 22–36 MPa
+  aos 35 dias para 11–12 MPa aos 90 é um facto substantivo — perda de resistência ao longo do
+  tempo —, não é o mesmo que uma mistura pobre. A contagem continua a ser `0` (a coluna conta
+  misturas e o valor de referência é o dos 28 dias), mas põe **`perda de resistencia com a
+  idade`** em `aviso_metanalise`: é informação que a metanálise precisa de ver.
   📌 **Uma mistura exactamente sobre os 20 MPa não conta como «abaixo»** — 20 não está abaixo
   de 20, pela mesma razão que faz um C20/25 entrar. Se a leitura da figura te deixar em dúvida
   sobre se a barra está em cima ou abaixo da marca, escreve `N (1 no limiar)` e explica.
