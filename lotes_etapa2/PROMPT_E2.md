@@ -335,6 +335,20 @@ C20–C50 como linhas de uma tabela «factores de emissão de 26 materiais de co
 estudo — é a mesma objecção do benchmark de cimento Portland. Tabelas de factores por classe
 são padrão na literatura chinesa, por isso vai repetir-se.
 
+🚨🚨 **O eixo diz «kg CO₂ eq.» e a escala é 0–100%.** Medido no lote 34, em **três** artigos
+do mesmo corpus: são ACV comparativas que normalizam o pior caso a 100 e mantêm o rótulo da
+grandeza no eixo. Quem leia só a legenda ou o título do eixo regista como absoluto um número
+que é percentagem. Num deles o próprio título da tabela diz *«(Percentage relative to the worst
+option)»* — mas nos outros dois não dizia nada, e só a leitura da figura o revelou.
+
+**A defesa é olhar para a escala, não para o rótulo.** Se o máximo do eixo é exactamente 100, ou
+se a melhor opção dá exactamente 100 e as outras são fracções dela, desconfia. E se o conjunto
+dos valores de todas as alternativas parece uma repartição de 100, é percentagem. Confirma
+sempre com o texto: um artigo que só normaliza nunca escreve um kg em lado nenhum.
+
+⚠️ Isto é **sistemático num certo tipo de revista**, não acidental — apareceu três vezes em
+quinze artigos. Conta com ele.
+
 🚨 **Valor declaradamente FICTÍCIO não é valor declarado: `Rejeitado`.** Aconteceu — uma
 tabela com classes (C25/30, C40/50) e CO₂ (110, 100, 85, 65 kg CO₂-eq/m³) e uma nota de rodapé
 a dizer *«Fictitious data is used due to confidentiality constraints prohibiting disclosure of
