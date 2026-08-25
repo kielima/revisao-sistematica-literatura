@@ -229,6 +229,10 @@ não publica. Apareceu 2 vezes num lote de 15, logo é comum. Marca `DUVIDA`.
 ⚠️ **Resistência à flexão da própria mistura: `DUVIDA`.** Distinta da tracção de uma fibra de
 reforço, que já está prevista. Flexão é força por área, mas o limiar de 20 MPa está calibrado
 para compressão, e as duas grandezas não são intercambiáveis.
+📌 **E continua `DUVIDA` mesmo quando o valor de flexão está muito abaixo de 20.** Pode
+parecer que 6,6 MPa à flexão rejeita à mesma — mas a flexão é sempre **menor** que a
+compressão, pelo que um valor baixo à flexão **não permite inferir nada** sobre a compressão.
+Rejeitar ali seria decidir por uma grandeza que não é a do critério.
 
 ⚠️ **Classe que só existe na tabela de factores de emissão: `DUVIDA`.** Um artigo lista
 C20–C50 como linhas de uma tabela «factores de emissão de 26 materiais de construção» e
@@ -269,6 +273,10 @@ de todo** — não é o caso do componente de reforço dentro de uma mistura, é
 
 ⚠️ **Limite inferior aberto: `DUVIDA`.** «>10 N/mm²» e mais nada não prova que atinge 20 nem
 que não atinge. A regra só prevê «atinge» e «nenhuma atinge».
+✅ **Excepto quando o artigo não ensaia resistência de todo — aí a ausência decide,
+`Rejeitado`.** Um `>` numa especificação de projecto não transforma a especificação numa
+declaração de resistência. Caso medido: painel de isolamento cuja secção de ensaios só tem
+condutibilidade térmica, e cujo «more than 1,2 MPa» é um requisito, não uma medição.
 
 ⚠️ **Classe que só aparece no título de uma referência: `DUVIDA`.** «Optimum usage of hybrid
 fibers on **M30 grade** of concrete», na bibliografia, sendo M30 = 30 MPa pela norma indiana e
@@ -510,6 +518,10 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   **`nao declarada`** e põe `unidade nao declarada` em `aviso_metanalise`. **Não infiras a
   unidade pela ordem de grandeza** — regista o que lá está e deixa a inferência para quem
   extrair, com o aviso à vista.
+  📌 **Unidade sem prefixo de massa é outro caso**: um eixo que diz `GWP (CO₂eq/m³)` tem a
+  normalização declarada e falta-lhe só a massa. Escreve a unidade **tal como está impressa** e
+  põe `prefixo de massa nao declarado` em `aviso_metanalise` — é diferente de não haver unidade
+  nenhuma, e a metanálise resolve-o pela ordem de grandeza com o aviso à vista.
   📌 **Mas há uma inferência legítima, e distingue-se bem da outra: a que vem da cadeia de
   unidades.** Se os factores estão em impacto **por kg** e a unidade funcional declarada é
   **1 m³**, o resultado é kg CO₂eq/m³ por construção, não por parecença de tamanho. Nesse caso
@@ -530,6 +542,9 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   traços entre 18 e 80 MPa»), em que há seguramente misturas abaixo de 20 mas o artigo nunca
   diz quantas, escreve **`nao contavel`** — que serve também para revisões que transcrevem
   valores de vários estudos primários sem os totalizar.
+  📌 Com o veredito em `DUVIDA`, escreve **`nao aplicavel (duvida)`** — a pergunta «quantas
+  ficam abaixo de 20» pressupõe justamente o que ficou por decidir, e escrever `todas` ali
+  lê-se como uma rejeição já tomada.
   ⚠️ **Distingue a queda com a idade da composição fraca.** Uma mistura que vai de 22–36 MPa
   aos 35 dias para 11–12 MPa aos 90 é um facto substantivo — perda de resistência ao longo do
   tempo —, não é o mesmo que uma mistura pobre. A contagem continua a ser `0` (a coluna conta
