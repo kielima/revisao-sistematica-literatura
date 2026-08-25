@@ -72,7 +72,10 @@ O caminho do Toolkit não tem este problema: devolve um URL só teu.
 mcp__Toolkit__googledrive_download_file  com  file_id = <o mesmo fileId>
 ```
 
-⚠️ **Um de cada vez.** A chamada em lote, com `file_ids`, rebenta com um **Cloudflare 520**.
+⚠️ **Um de cada vez, e isso inclui não lançar chamadas em paralelo.** A chamada em lote, com
+`file_ids`, rebenta com um **Cloudflare 520** — mas três chamadas individuais lançadas ao mesmo
+tempo também falham (uma devolveu `session expired` enquanto as outras duas passaram).
+Sequencial nunca falhou.
 E mesmo individualmente aparece por vezes um **502** transitório — esse **repete-se**, ao fim
 de um minuto ou dois, e passa. É o oposto do «session expired», que é determinístico e nunca
 vale a pena repetir.
@@ -90,9 +93,25 @@ Isto é **melhor** que o caminho normal: o conteúdo nunca passa pelo teu contex
 em base64 — só o URL. E como ficas com um PDF verdadeiro, **o passo 5 continua disponível**,
 figuras incluídas. O URL expira ao fim de uma hora; puxa-o logo.
 
-📌 **Não uses `read_file_content` para contornar o tamanho.** Dá só texto, mata o passo 5, e é
-imprevisível no contexto — já devolveu 10 mil tokens inline de um artigo curto. Só o usa se o
-descarregador do Toolkit também falhar.
+### Plano C — quando o descarregador do Toolkit perde a autorização
+
+Acontece, e é **determinístico**: passa a devolver `requires re-authorization (token expired)` e
+**não recupera** (medido: oito tentativas ao longo de meia hora). Não insistas. A partir daí:
+
+| Tamanho | O que usar |
+|---|---|
+| até ~5 MB | `mcp__Google_Drive__download_file_content` → descodificas → PDF local, **com figuras** |
+| acima de ~5 MB | `mcp__Google_Drive__read_file_content` → **só texto**, sem passo 5 |
+
+⭐ **E há aqui um achado que vale ouro para as páginas:** o `read_file_content` insere no
+markdown **marcadores de página explícitos, `[**Page N**]()`**. Isso é uma âncora *mais* segura
+do que contar `d[i]` com o `pymupdf`, porque vem do próprio extractor. Quando aparecerem, usa-os
+e di-lo na nota. Quando não aparecerem, o **cabeçalho corrido** do editor (`Journal of CO2
+Utilization 90 (2024) 102986 5`, `Environments 2022, 9, 6 — N of 10`) dá a página impressa de
+graça, e também é âncora directa e não interpolação.
+
+📌 Fora deste plano C, **não uses `read_file_content`**: mata o passo 5 e é imprevisível no
+contexto — já devolveu 10 mil tokens inline de um artigo curto.
 
 🚨 **A mensagem de erro do `download_file_content` mente.** Entre ~5 e 10 MB devolve
 **`MCP server "Google_Drive" session expired`** — e a sessão **está viva**: verificado com
@@ -573,6 +592,11 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   `sem amostras proprias` em `aviso_metanalise`. Só se preenche quando o artigo aponta uma obra
   concreta como origem do valor (por exemplo «our previous study [55]»): a citação ou o DOI,
   ou `nao identificada` se o artigo não a identificar. Separa várias com `;`.
+  📌 Quando a origem é um **factor de emissão citado de um artigo** (Turner & Collins, IPCC,
+  uma referência numerada), escreve **`factores de emissao de literatura: <refs>`**. Foi a
+  origem mais frequente de todas num lote — metade dos artigos. **Estes entram no ramo de busca
+  por citação do PRISMA**: são a fonte original do dado, que é exactamente o que a regra da Kiê
+  manda capturar.
   📌 Quando a origem é uma **base de dados de inventário** (AusLCI, ecoinvent, BEDEC, LCI
   nacional), escreve **`base de dados de inventario: <nome>`**. Não é um estudo primário, não
   tem DOI e **não entra no ramo de busca por citação do PRISMA** — mas convém ficar registado,
