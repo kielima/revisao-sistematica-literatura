@@ -348,6 +348,18 @@ Milhares de `ctrl` com nenhuma palavra comum reconhecível = texto imprestável.
 sãos o `ctrl` é **zero**. Se acontecer, **renderiza as páginas e lê-as como imagem** — nunca
 rejeites por ausência sobre um texto que não se lê, e di-lo na `nota`.
 
+🚨🚨 **Um segundo tipo de texto ilegível, distinto e RECUPERÁVEL: fonte cifrada por
+deslocamento ASCII fixo.** Medido duas vezes em lotes diferentes, mesma família editorial
+(Elsevier/Procedia) — cada carácter da fonte (`TimesNewRomanPSMT` nos dois casos) está
+deslocado em +29 no código, incluindo os dígitos, que saem como caracteres de controlo. Ao
+contrário do caso do `ToUnicode` ausente, este **decodifica-se**: um deslocamento fixo é
+reversível. Antes de decidir por ausência num ficheiro com `ctrl` alto, testa se um
+deslocamento simples (experimenta de +1 a +40) produz texto inglês reconhecível — conta
+palavras comuns antes e depois de cada deslocamento candidato e usa o que maximiza esse
+número. **Auto-testa sempre antes de aplicar**: um ficheiro com nome de fonte estranho mas
+texto já legível não deve ser "decodificado" às cegas — isso corrompe-o. Se a decodificação
+não aumentar a contagem de palavras reconhecíveis, o texto já estava bom.
+
 🚨🚨 **O eixo diz «kg CO₂ eq.» e a escala é 0–100%.** Medido no lote 34, em **três** artigos
 do mesmo corpus: são ACV comparativas que normalizam o pior caso a 100 e mantêm o rótulo da
 grandeza no eixo. Quem leia só a legenda ou o título do eixo regista como absoluto um número
