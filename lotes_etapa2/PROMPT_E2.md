@@ -73,6 +73,9 @@ mcp__Toolkit__googledrive_download_file  com  file_id = <o mesmo fileId>
 ```
 
 ⚠️ **Um de cada vez.** A chamada em lote, com `file_ids`, rebenta com um **Cloudflare 520**.
+E mesmo individualmente aparece por vezes um **502** transitório — esse **repete-se**, ao fim
+de um minuto ou dois, e passa. É o oposto do «session expired», que é determinístico e nunca
+vale a pena repetir.
 Individualmente funciona sempre — testado até 17,7 MB, muito acima do tecto do outro caminho.
 
 A resposta **não traz o ficheiro**: traz um **URL de descarga directa**, no campo
@@ -419,6 +422,19 @@ dar 410 kg CO₂eq/m³ — só o cimento daria mais de 600. E uma tabela intitul
 inteira. Nesses casos o valor existe e o critério passa: regista `escala suspeita` em
 `aviso_metanalise`.
 
+### 6c. Quando o artigo se contradiz a si próprio
+
+📌 **O rótulo do próprio gráfico manda sobre a prosa que o descreve.** Apareceu um artigo cujo
+eixo diz «per m² of wall» e cujo texto, na página seguinte, diz «per linear metre of wall».
+Regista o do eixo, e põe aviso. É a mesma lógica da armadilha do cabeçalho corrido, já
+documentada no `CLAUDE.md`: entre o que a página imprime sobre si mesma e o que outra página
+diz sobre ela, ganha a primeira.
+
+📌 **`MPa` só no denominador, com o numerador nunca impresso, é ausência de valor.** Um artigo
+com `GWI/MPa` e `fc28` em todas as fórmulas mas **sem uma única resistência impressa** não
+declara resistência nenhuma — é `Rejeitado`. Não confundir com o caso em que o artigo usa a
+métrica normalizada **e** declara o valor absoluto, que passa.
+
 ### 7. Outras armadilhas já medidas
 
 - **O corte da secção de referências quase nunca funciona** — o cabeçalho «References»
@@ -470,6 +486,11 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   contrário da anterior.
   ⚠️ Não confundas as duas últimas: a primeira é barata e de confiança alta, a segunda é uma
   leitura contra o eixo, com confiança média.
+- ⭐ `valor_co2`: **preenche-o mesmo quando `E2_co2` é `nao avaliado` pela cascata**, se por
+  acaso já viste o valor ao verificar o ficheiro. O veredito fica `nao avaliado` — a cascata
+  mantém-se —, mas o número fica pesquisável por coluna em vez de enterrado na nota. Num lote,
+  três dos cinco rejeitados na resistência tinham CO₂ que passaria; se a regra for recalibrada,
+  isso poupa reabrir três PDFs.
 - `aviso_metanalise`: **vazio** na esmagadora maioria. Preenche quando o valor existe mas a
   metanálise não o pode usar sem cuidado — **e também quando o valor existe e o critério
   falha**, porque essa informação é útil se a regra vier a ser recalibrada e poupa reabrir o
@@ -499,6 +520,9 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   traços entre 18 e 80 MPa»), em que há seguramente misturas abaixo de 20 mas o artigo nunca
   diz quantas, escreve **`nao contavel`** — que serve também para revisões que transcrevem
   valores de vários estudos primários sem os totalizar.
+  📌 **Uma mistura exactamente sobre os 20 MPa não conta como «abaixo»** — 20 não está abaixo
+  de 20, pela mesma razão que faz um C20/25 entrar. Se a leitura da figura te deixar em dúvida
+  sobre se a barra está em cima ou abaixo da marca, escreve `N (1 no limiar)` e explica.
   ⚠️ **O `0` está a fazer dois trabalhos**, e convém distingui-los: «medi todas as N misturas e
   nenhuma fica abaixo» escreve-se `0`; «o artigo tem N misturas mas só declara resistência de
   uma, e essa está acima» escreve-se **`0 (so 1 de N declarada)`**. A segunda diz à metanálise
