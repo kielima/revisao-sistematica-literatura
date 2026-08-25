@@ -100,8 +100,15 @@ Acontece, e é **determinístico**: passa a devolver `requires re-authorization 
 
 | Tamanho | O que usar |
 |---|---|
-| até ~5 MB | `mcp__Google_Drive__download_file_content` → descodificas → PDF local, **com figuras** |
-| acima de ~5 MB | `mcp__Google_Drive__read_file_content` → **só texto**, sem passo 5 |
+| até ~6 MB | `mcp__Google_Drive__download_file_content` → descodificas → PDF local, **com figuras** |
+| acima de ~6 MB | `mcp__Google_Drive__read_file_content` → **só texto**, sem passo 5 |
+
+📌 **O tecto medido com precisão:** 5,42 MB e 5,85 MB passam; 6,74 MB não. O corte é no tamanho
+da resposta em base64 (~8 milhões de caracteres), não no ficheiro — por isso vale a pena tentar
+qualquer coisa abaixo de ~6 MB em vez de assumir que falha. Num lote, dois artigos só entraram
+por causa disto.
+📌 E o `read_file_content` **também grava em ficheiro** em vez de despejar no contexto, na
+maioria dos casos — é mais barato do que parece.
 
 ⭐ **E há aqui um achado que vale ouro para as páginas:** o `read_file_content` insere no
 markdown **marcadores de página explícitos, `[**Page N**]()`**. Isso é uma âncora *mais* segura
@@ -234,6 +241,9 @@ meio das frases e o contexto do valor cai sempre na linha seguinte; sem normaliz
   nunca `f.c` com ponto de regex;
 - **«class» que não é classe de resistência** — num artigo as Classes A–D eram de desempenho
   de sustentabilidade das *empresas*;
+- 🚨 **`total link strength` do VOSviewer, nas revisões bibliométricas** — merece destaque
+  próprio porque **imita bem um MPa**: os valores vêm na casa das centenas (234, 307, 242) e
+  num artigo **as 39 ocorrências de `strength` eram todas isso**. Um contador ingénuo aceita-o;
 - módulo de elasticidade (GPa), tensão de aderência, pressão de compactação;
 - valores citados da literatura em introdução, que **contam** se o artigo os assume como a
   classe do seu material, mas **não** se são só contexto de outro estudo.
@@ -577,6 +587,10 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   tempo —, não é o mesmo que uma mistura pobre. A contagem continua a ser `0` (a coluna conta
   misturas e o valor de referência é o dos 28 dias), mas põe **`perda de resistencia com a
   idade`** em `aviso_metanalise`: é informação que a metanálise precisa de ver.
+    🚨 **Antes de contar, verifica se a tabela mistura idades.** É o erro mais fácil de cometer e
+  apareceu **três vezes num só lote de 15**: seis valores entre 15,9 e 19,7 MPa que eram todos
+  aos 7 dias, com o mínimo aos 28 dias a ser 24,8. A coluna conta **misturas**, e o valor de
+  referência é o dos 28 dias.
   📌 **Uma mistura exactamente sobre os 20 MPa não conta como «abaixo»** — 20 não está abaixo
   de 20, pela mesma razão que faz um C20/25 entrar. Se a leitura da figura te deixar em dúvida
   sobre se a barra está em cima ou abaixo da marca, escreve `N (1 no limiar)` e explica.
