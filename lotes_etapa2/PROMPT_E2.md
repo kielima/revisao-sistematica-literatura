@@ -54,7 +54,14 @@ grep -F '"<nome exacto do ficheiro>"' /home/user/revisao-sistematica-literatura/
 📌 O `fileSize` do mapa (terceira coluna, em bytes) continua a valer a pena olhar, para
 saberes o que esperar — mas com o caminho do Toolkit o tamanho deixou de ser um problema.
 
-⭐⭐⭐ **USA SEMPRE O DESCARREGADOR DO TOOLKIT, seja qual for o tamanho.** Era só para os
+🚨🚨 **ESTADO ACTUAL (2026-08-25): o descarregador do Toolkit está FORA DE SERVIÇO.** Devolve
+`requires re-authorization (token expired)` em todas as tentativas — é determinístico e só a
+Kiê o pode repor, autorizando o conector. **Enquanto isso, vai directo ao plano C mais abaixo e
+não gastes chamadas a tentar.** Consequência a assumir: para ficheiros acima de ~6 MB (23% do
+universo) o passo 5 está indisponível, e um valor que só exista em figura fica em `DUVIDA` com
+a nota a dizer porquê.
+
+⭐⭐⭐ **Quando estiver reposto: USA SEMPRE O DESCARREGADOR DO TOOLKIT, seja qual for o tamanho.** Era só para os
 ficheiros grandes, passou a ser o caminho normal a 2026-08-24, por duas razões: não tem tecto
 de tamanho (testado até 17,7 MB) e **não passa por nenhum ficheiro partilhado**.
 
@@ -103,12 +110,19 @@ Acontece, e é **determinístico**: passa a devolver `requires re-authorization 
 | até ~6 MB | `mcp__Google_Drive__download_file_content` → descodificas → PDF local, **com figuras** |
 | acima de ~6 MB | `mcp__Google_Drive__read_file_content` → **só texto**, sem passo 5 |
 
-📌 **O tecto medido com precisão:** 5,42 MB e 5,85 MB passam; 6,74 MB não. O corte é no tamanho
+📌 **O tecto medido com precisão, em dois lotes independentes:** 5,42 · 5,73 · 5,85 · 5,91 MB
+passam; 6,74 · 6,78 · 6,83 MB não. O corte é no tamanho
 da resposta em base64 (~8 milhões de caracteres), não no ficheiro — por isso vale a pena tentar
 qualquer coisa abaixo de ~6 MB em vez de assumir que falha. Num lote, dois artigos só entraram
 por causa disto.
 📌 E o `read_file_content` **também grava em ficheiro** em vez de despejar no contexto, na
 maioria dos casos — é mais barato do que parece.
+
+⚠️ **Com o `read_file_content` não há fronteiras de página, e as colunas de página ficam em
+risco.** Recupera-as segmentando pelo **cabeçalho corrido** do editor — e **valida o método**
+sempre que tiveres o PDF verdadeiro de outro artigo do mesmo lote para comparar. Quando o
+cabeçalho falhar, a incerteza é de ±1 página: escreve **`p.N (+/-1)`** e dá **sempre uma âncora
+exacta ao lado** (secção, número de tabela, número de figura), que é o que permite conferir.
 
 ⭐ **E há aqui um achado que vale ouro para as páginas:** o `read_file_content` insere no
 markdown **marcadores de página explícitos, `[**Page N**]()`**. Isso é uma âncora *mais* segura
@@ -288,6 +302,12 @@ classe em lado nenhum. É a aplicação directa do critério — «se não decla
 inventes a classe a partir do uso estrutural. (O CO₂ do mesmo artigo pode perfeitamente
 passar; são critérios independentes.)
 
+✅ **Excepto quando o cimento É o produto que o artigo estuda — aí conta.** Uma ACV de
+clínquer e cimento, com unidade funcional de 1 tonelada de cimento, em que `CEM-I 42.5 N`
+descreve o próprio produto avaliado: a classe é do material do estudo e **aceita**, com 42,5
+MPa. A regra abaixo foi escrita para artigos de *betão*, em que a classe descreve o ligante e
+não a mistura.
+
 ⚠️ **Classe de resistência do CIMENTO (`CEM I 42.5`, `Rck 32.5`) não é a do betão: `DUVIDA`.**
 É força por área e é uma designação normalizada da EN 197-1 — mas descreve o **ligante**, não a
 mistura. Apareceu em três artigos de um só lote, e num deles era a única força por área do
@@ -399,6 +419,11 @@ lca|life.cycle.assess|carbon.footprint|embodied.carbon|gwp|global.warming.potent
 co2.eq|co2eq|kgco2|greenhouse.gas|ghg|carbon.emission|climate.change|co2|
 embodied.emission|carbon.intensi|low.carbon
 ```
+
+🚨 **E cuidado com o título que promete ACV e o corpo que não a faz.** Num artigo, «LCA»
+aparecia cinco vezes — no título, no cabeçalho corrido e numa referência — e o corpo não tinha
+unidade funcional, categoria de impacto nem um único valor de emissão. O padrão acerta no
+**título do próprio artigo**. É prima da armadilha seguinte, com outra causa.
 
 🚨 **Cuidado com «life-cycle assessment» que é ESTRUTURAL e não ambiental.** Nos artigos de
 fiabilidade estrutural — as actas *Life-Cycle of Structures and Infrastructure Systems* são um
