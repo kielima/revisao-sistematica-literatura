@@ -520,6 +520,28 @@ dar 410 kg CO₂eq/m³ — só o cimento daria mais de 600. E uma tabela intitul
 inteira. Nesses casos o valor existe e o critério passa: regista `escala suspeita` em
 `aviso_metanalise`.
 
+### 6b-bis. 🚨 NUNCA CALCULES UM VALOR QUE O ARTIGO NÃO IMPRIME
+
+Esta é das regras mais importantes de todas, e foi escrita porque **já se violou duas vezes**,
+apanhadas pela conferência de páginas:
+
+- Num artigo, o valor registado de CO₂ (`134,6`–`247,8`) **não existe em lado nenhum do PDF**:
+  era a **soma das parcelas de uma coluna de tabela**, feita por quem extraiu. E o artigo
+  publica os seus próprios totais **noutra figura** — 139,4 e 252,0, maiores, porque incluem
+  fases que a soma parcial deixou de fora. Ou seja: o valor reconstruído **contradizia** o valor
+  publicado, e ninguém teria dado por isso.
+- Noutro, os `40,8` MPa vinham de multiplicar `37,8 × 1,08`, a partir de uma frase que dizia
+  «o teor óptimo melhora até 8%».
+
+**A regra:** regista **o que está impresso**, com a página onde está. Se o artigo só publica
+parcelas e não o total, escreve a parcela mais alta que serve para o critério e diz na nota que
+o total não é publicado. Se só há uma percentagem de melhoria sobre um valor base, isso é uma
+percentagem — aplica-se-lhe a regra das percentagens, não a multiplicação.
+
+Somar, multiplicar ou interpolar produz um número que **parece** um dado e não é: ninguém o pode
+conferir contra o artigo, e pode contradizer o que o artigo de facto diz. A única aritmética
+permitida é a **conversão de unidades** (kgf/cm² → MPa, t → kg), que é reversível e verificável.
+
 ### 6c. Quando o artigo se contradiz a si próprio
 
 📌 **O rótulo do próprio gráfico manda sobre a prosa que o descreve.** Apareceu um artigo cujo
