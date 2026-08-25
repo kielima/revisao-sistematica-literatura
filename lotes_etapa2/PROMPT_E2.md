@@ -189,6 +189,14 @@ hits  = re.findall(SIGLA, full)                 # maiusculas respeitadas
 hits += re.findall(RESTO, full, re.I)           # aqui re.I e seguro
 ```
 
+⚠️⚠️ **Notação científica: `0,243` está impresso como `2,43E-01`.** Uma busca literal por um
+valor decimal **falha em silêncio** em qualquer artigo ou tese que use notação científica nas
+tabelas de avaliação de impacto — e são muitos. Procura sempre também a forma `\d[,.]\d+E[+-]?\d+`
+e, quando procurares um valor concreto, tenta as duas formas antes de concluir que não existe.
+
+⚠️ **E o número pode estar separado da unidade por uma quebra de linha** — «12» numa linha e
+«MPa» na seguinte. Mais uma razão para normalizar antes de procurar.
+
 ⚠️ **Normaliza `\s+` para espaço antes de procurar.** O texto extraído tem quebras de linha a
 meio das frases e o contexto do valor cai sempre na linha seguinte; sem normalizar perdes-o.
 
