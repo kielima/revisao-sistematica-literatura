@@ -647,6 +647,91 @@ métrica normalizada **e** declara o valor absoluto, que passa.
 - **Tabelas sobrevivem à extracção** em ~10 de 12 ficheiros — achatadas numa linha, mas com
   valores e cabeçalhos pela ordem certa. Procura-as antes de assumir que precisas da figura.
 
+## Decisões da Kiê (2026-08-25) — regras fixas, aplicar sempre
+
+Estas oito regras fecham dúvidas de critério que se repetiam. Substituem qualquer instrução
+anterior que as contradiga.
+
+**1. Grandeza errada é REJEITADO, sempre.** Flexão (MOR, LOP), tração (do material ou de um
+componente de reforço — fibra, aço, chapa), rigidez elástica (módulo resiliente) — nenhuma
+destas é compressão do material em estudo, e nenhuma conta, seja qual for o valor. Não vai
+para DUVIDA: `Rejeitado` directo. Isto inclui a classe de madeira (`C24` na EN 338 é FLEXÃO,
+não compressão).
+
+**2. Classe do CIMENTO como ligante, ou cimento como produto isolado sem mistura de betão/
+argamassa no estudo — REJEITADO.** Não conta mesmo que o número esteja impresso (32,5 / 42,5 /
+52,5 EN 197-1). O critério pede resistência de um material moldável estrutural; cimento puro,
+mesmo como objecto central de uma ACV própria (ex.: ACV de produção de clínquer, UF = 1
+tonelada de cimento), não é essa coisa. **Distinção que importa:** isto é diferente de uma
+designação que descreve a MISTURA DE BETÃO do próprio estudo (ver regra 3) — a pergunta a
+fazer é sempre "o número descreve o cimento como produto, ou a mistura de betão/argamassa que
+o artigo estuda?". Só no segundo caso passa à regra 3.
+
+**3. Designação normativa com sufixo numérico (M30, P-35, S275, "mesma classe conforme
+ASTM X") que descreve a MISTURA DE BETÃO/ARGAMASSA do próprio estudo (não cimento como
+produto — regra 2) — ACEITO se houver tabela normativa numérica real que converta o código
+num MPa (M30 → IS 456, indiano, 30 MPa; C25/30 → EN 206). REJEITADO se a norma citada não tiver
+tabela de classes numéricas (ex.: ASTM C1856 é norma de ensaio/cura, não define classes — não
+há nada para converter). Regista sempre a via da conversão na nota, e marca `confianca=media`
+com aviso para a Etapa 4.
+
+**4. Limite inferior aberto (">X", "at least X") sem tecto — só conta se X sozinho já for
+≥20.** Um "at least 10 MPa" não prova nada; um "at least 25 MPa" prova. Abaixo de 20 não é
+estrutural — Rejeitado sem hesitar quando o limiar não chega lá sozinho.
+
+**5. Idade de referência são os 28 dias.** Quando há valor aos 28 dias, usa-o sempre — não
+importa se há valores a outras idades também. Quando só há dados a 7 dias, **é permitido
+estimar os 28 dias** — única excepção à regra de nunca calcular o que o artigo não imprime.
+Usa o modelo ACI 209R-92: `f'c(28) ≈ f'c(7) / 0,70` (razão típica de ganho de resistência para
+cimento Portland comum, moist-cured). ⚠️ Esta razão é calibrada para **cimento Portland
+convencional** — em geopolímeros, activados alcalinos ou ligantes sem cimento, a curva de
+ganho de resistência é diferente e pode ser mais lenta, o que faria a estimativa ser
+**conservadora de mais** (subestimar os 28 dias). Aplica-a mesmo assim quando não houver
+alternativa, mas **regista sempre**: o valor aos 7 dias, o cálculo, o resultado estimado, e o
+aviso `[ESTIMADO 7→28d, material nao-OPC: verificar]` quando o material não for cimento
+Portland convencional. `confianca=baixa` sempre que este mecanismo for usado.
+
+**6. Revisão ou ensaio que só reporta variação percentual de resistência — ACEITO só se houver
+um valor ABSOLUTO impresso em algum lugar do artigo** (mesmo que seja para ilustrar a escolha
+de unidade funcional de um estudo citado, ou um limiar/excepção de norma tipo "except for
+C50/60"). Se não houver nenhum valor absoluto em lado nenhum do documento, REJEITADO.
+
+**7. CO₂ em unidade normalizada sem massa (mPt, Eco-indicator, DALY, kg CO₂/MPa, % de
+contribuição) — ACEITO só se for possível converter para kg CO₂eq usando dados **impressos no
+próprio artigo** (nunca um factor externo de outro método LCIA, nunca uma constante que não
+esteja no texto). Duas formas válidas de conversão:
+   - o artigo declara uma equivalência explícita entre a unidade normalizada e kg CO₂ (ex.:
+     "50.000 kg CO₂ ≈ 12.500.000 mPt" para um caso de comparação) — usa essa razão, mas
+     confirma que a base de normalização é a MESMA para o valor que estás a converter; se for
+     um benchmark sectorial citado só para comparação, e não a mesma escala do resultado do
+     estudo, isso é um risco a registar, não uma razão para recusar liminarmente — regista o
+     cálculo e marca `confianca=baixa` com aviso para a Etapa 4;
+   - o artigo dá, para o MESMO ponto/mistura, tanto o valor normalizado quanto a grandeza que
+     o normaliza (ex.: Ci = kg CO₂/MPa E a resistência fc dessa mistura específica) — multiplica
+     os dois, mas só se estiverem emparelhados no mesmo ponto de dados, nunca inferindo um fc
+     genérico da curva para multiplicar por um Ci de outro ponto.
+   Se nenhuma das duas formas se aplicar (não há equivalência impressa, não há par
+   fc-Ci/massa-normalizado para a mesma mistura), REJEITADO — "irrecuperável sem factores que
+   o artigo não publica" é razão suficiente.
+
+**8. Redução expressa em massa (ex.: "41 kg CO₂/ton reduzidos por 5% de substituição") sem o
+valor de base (baseline) impresso — REJEITADO**, pela mesma regra 7: sem o par completo
+(base + reduzido, ou pelo menos a base), o número isolado não é um nível de emissão.
+
+**Regra do material substituído (nova, caso recorrente em ACV de encargo evitado):** quando o
+material do próprio estudo não tem resistência declarada e a única força por área do
+documento pertence ao material que ele SUBSTITUI (ex.: pás de turbina reaproveitadas vs. o
+betão que deixam de precisar), REJEITADO — a resistência do substituto não é a resistência do
+material do estudo, mesmo que a quantidade de CO₂ evitado esteja emparelhada com essa classe
+na mesma tabela.
+
+**Alerta de qualidade obrigatório:** toda a decisão que resulte de estimativa (regra 5),
+conversão indirecta (regras 3 e 7 na sua forma «equivalência impressa») ou qualquer inferência
+que não seja leitura directa de um valor impresso deve levar, no carimbo da célula
+`comments`, a marca `[ALERTA ETAPA4: <motivo curto>]` — é o sinal que a Etapa 4 usa para dar
+nota baixa de qualidade a essa linha no controlo de qualidade. Cada decisão destas tem de vir
+justificada por extenso na nota, nunca só "aceite por conversão" sem mostrar a conta.
+
 ## O que escreves
 
 **Só** o ficheiro `lotes_etapa2/LOTE_<NN>_RESULTADO.csv`, com `QUOTE_ALL`, **sem acentos** nos
