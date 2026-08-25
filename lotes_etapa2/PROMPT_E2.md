@@ -54,14 +54,13 @@ grep -F '"<nome exacto do ficheiro>"' /home/user/revisao-sistematica-literatura/
 📌 O `fileSize` do mapa (terceira coluna, em bytes) continua a valer a pena olhar, para
 saberes o que esperar — mas com o caminho do Toolkit o tamanho deixou de ser um problema.
 
-🚨🚨 **ESTADO ACTUAL (2026-08-25): o descarregador do Toolkit está FORA DE SERVIÇO.** Devolve
-`requires re-authorization (token expired)` em todas as tentativas — é determinístico e só a
-Kiê o pode repor, autorizando o conector. **Enquanto isso, vai directo ao plano C mais abaixo e
-não gastes chamadas a tentar.** Consequência a assumir: para ficheiros acima de ~6 MB (23% do
-universo) o passo 5 está indisponível, e um valor que só exista em figura fica em `DUVIDA` com
-a nota a dizer porquê.
+✅ **ESTADO ACTUAL (2026-08-25, reconfirmado): o descarregador do Toolkit está a FUNCIONAR.**
+Esteve fora durante algumas horas, com `requires re-authorization (token expired)`, e voltou.
+Se voltar a dar esse erro, **é determinístico e não recupera dentro da sessão** — nesse caso vai
+directo ao plano C mais abaixo, sem gastar chamadas a tentar, e marca com `FIGURA INACESSIVEL:`
+o que ficar por ler.
 
-⭐⭐⭐ **Quando estiver reposto: USA SEMPRE O DESCARREGADOR DO TOOLKIT, seja qual for o tamanho.** Era só para os
+⭐⭐⭐ **USA SEMPRE O DESCARREGADOR DO TOOLKIT, seja qual for o tamanho.** Era só para os
 ficheiros grandes, passou a ser o caminho normal a 2026-08-24, por duas razões: não tem tecto
 de tamanho (testado até 17,7 MB) e **não passa por nenhum ficheiro partilhado**.
 
