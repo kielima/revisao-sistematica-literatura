@@ -121,7 +121,16 @@ maioria dos casos — é mais barato do que parece.
 ⚠️ **Com o `read_file_content` não há fronteiras de página, e as colunas de página ficam em
 risco.** Recupera-as segmentando pelo **cabeçalho corrido** do editor — e **valida o método**
 sempre que tiveres o PDF verdadeiro de outro artigo do mesmo lote para comparar. Quando o
-cabeçalho falhar, a incerteza é de ±1 página: escreve **`p.N (+/-1)`** e dá **sempre uma âncora
+cabeçalho falhar, a incerteza é de ±1 página.
+
+⚠️ **E o extractor perde fólios.** Num artigo faltava o «5» do cabeçalho, o que fundia duas
+páginas numa; só se apanhou medindo o deslocamento do valor contra o fólio em falta. **Diz
+sempre na nota que a página foi derivada e não lida** — quem auditar precisa de saber a
+diferença. E quando tiveres, no mesmo lote, um ficheiro com as duas coisas (PDF verdadeiro e
+dump com rodapés), **valida o mapeamento contra ele**: foi assim que se estabeleceu que o
+número de rodapé cai **dentro da sua própria página**.
+
+Escreve **`p.N (+/-1)`** quando houver incerteza, e dá **sempre uma âncora
 exacta ao lado** (secção, número de tabela, número de figura), que é o que permite conferir.
 
 ⭐ **E há aqui um achado que vale ouro para as páginas:** o `read_file_content` insere no
@@ -275,8 +284,10 @@ exige conhecimento que o documento não dá. E o sufixo é ambíguo dentro do pr
 no mesmo par de designações, `LC3-50` quer dizer **teor de clínquer**, não resistência.
 
 ⚠️ **Impacto climático quantificado só em unidade normalizada, sem massa: `DUVIDA`.** Já
-apareceu em quatro sabores — pontos Eco-Indicator (`Pt`), **DALY**, **eco-point** com factor de
-normalização coreano, e **mPEW/10 MN** do ReCiPe Europe. Nestes casos há ACV a sério, com
+apareceu em seis sabores — pontos Eco-Indicator (`Pt`), **DALY**, **eco-point** com factor de
+normalização coreano, **mPEW/10 MN** do ReCiPe Europe, o **Environmental Cost Indicator em
+euros por litro** (EPD segundo a EN 15804, com o `kg CO₂-eq` só na tabela metodológica de
+ponderação) e o **índice normalizado por OPC** de um radar. Nestes casos há ACV a sério, com
 unidade funcional e categoria de impacto, e a menção a `kg CO₂-eq` só aparece na tabela
 metodológica que descreve a categoria — nunca num resultado. **Não é percentagem** nem facto
 sectorial: é um valor de impacto real, mas irrecuperável para massa sem factores que o artigo
@@ -472,6 +483,13 @@ unidade funcional, em que o sequestro excede a emissão, **é** um valor de emis
 passa o critério. Mas põe `balanco liquido negativo` em `aviso_metanalise`: uma metanálise de
 emissões não pode somá-lo com os positivos sem tratar o sinal. Já apareceu duas vezes em cinco
 lotes, não é excepção rara.
+
+⚠️⚠️ **Uma REDUÇÃO expressa em massa (`95 kg CO₂-e/m³ a menos`) não está decidida: `DUVIDA`.**
+Não é o mesmo que uma percentagem — é um valor absoluto, em unidade normalizada — mas também
+não é um **nível** de emissão, e a metanálise precisa de níveis para calcular o indicador.
+🚨 **Isto gerou uma inconsistência entre lotes** (um aceitou um delta de 120 kg/m³, outro
+rejeitou um de 95 kg/m³), por isso passa a ser `DUVIDA` até a Kiê decidir. Regista o valor e a
+página na mesma.
 
 📌 **Percentagem de redução NÃO é valor de emissão.** Medido: o SUMMA 2023 (linha 2858) faz
 ACV com dez indicadores e a Fig. 5 é um radar de **percentagens**, eixo de 0% a 80%, sem um
