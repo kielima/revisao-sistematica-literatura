@@ -335,6 +335,19 @@ C20–C50 como linhas de uma tabela «factores de emissão de 26 materiais de co
 estudo — é a mesma objecção do benchmark de cimento Portland. Tabelas de factores por classe
 são padrão na literatura chinesa, por isso vai repetir-se.
 
+🚨🚨 **Antes de concluir «zero ocorrências», confirma que o texto extraído é texto.** Medido
+na reauditoria: um ficheiro de 15 páginas que extrai inteiramente como cifra — fontes sem
+`ToUnicode` válido, 52.116 caracteres de controlo, zero palavras reconhecíveis. Uma contagem
+feita sobre isso **daria zero fosse qual fosse o conteúdo**. O teste é uma linha:
+
+```python
+ctrl = sum(1 for c in texto if ord(c) < 32 and c not in '\n\r\t')
+```
+
+Milhares de `ctrl` com nenhuma palavra comum reconhecível = texto imprestável. Nos ficheiros
+sãos o `ctrl` é **zero**. Se acontecer, **renderiza as páginas e lê-as como imagem** — nunca
+rejeites por ausência sobre um texto que não se lê, e di-lo na `nota`.
+
 🚨🚨 **O eixo diz «kg CO₂ eq.» e a escala é 0–100%.** Medido no lote 34, em **três** artigos
 do mesmo corpus: são ACV comparativas que normalizam o pior caso a 100 e mantêm o rótulo da
 grandeza no eixo. Quem leia só a legenda ou o título do eixo regista como absoluto um número

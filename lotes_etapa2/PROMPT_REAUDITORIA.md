@@ -67,6 +67,34 @@ de *comparison* e `impact`, e ja mediu-se um ficheiro com 463 falsos positivos.
 5. Se sobrar um acerto genuino, **abre o contexto e confirma**: e uma classe ou
    resistencia **do material estudado neste artigo**? Regista a pagina.
 
+## Antes de tudo: confirma que o texto extraido e texto
+
+Descoberto na parte 2, e e grave. O ficheiro `FELICIONI et al., 2023` extrai
+**inteiramente como cifra** - as 15 paginas saem em fontes sem `ToUnicode` valido, dando
+52.116 caracteres de controlo e zero palavras reconheciveis. O «zero ocorrencias de MPa»
+que a triagem original registou **nao media o artigo, media o ruido**: teria dado zero fosse
+qual fosse o conteudo do PDF.
+
+So atinge as rejeicoes - um artigo aceite encontrou valores, logo o texto lia-se.
+
+**O teste e barato e corre-se sempre, antes do padrao:**
+
+```python
+ctrl = sum(1 for c in texto if ord(c) < 32 and c not in '\n\r\t')
+```
+
+Milhares de `ctrl` com nenhuma palavra comum reconhecivel quer dizer que o texto nao presta.
+Nos 13 ficheiros saos do mesmo lote o `ctrl` era **zero**.
+
+**Se o texto nao presta, nao decidas por texto:** renderiza as paginas e le-as como imagem.
+Foi o que se fez, e a rejeicao manteve-se - mas passou a assentar em prova visual em vez de
+numa contagem vazia. Regista na `nota` que o ficheiro e ilegivel por extracao e que a decisao
+veio da leitura das paginas.
+
+**Outra armadilha do padrao, da mesma parte:** o `\s` casa a **mudanca de linha**. Numa tabela
+de temperatura e pressao, `50 grausC` no fim de uma linha e `30 bar` no inicio da seguinte
+produziram um `C 30` fantasma. Confirma sempre o contexto de um acerto antes de o dar por bom.
+
 ## Saida
 
 Escreve `REAUDITORIA_RESISTENCIA_RESULTADO.csv` com estas colunas:
