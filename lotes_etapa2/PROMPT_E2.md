@@ -293,9 +293,12 @@ metodológica que descreve a categoria — nunca num resultado. **Não é percen
 sectorial: é um valor de impacto real, mas irrecuperável para massa sem factores que o artigo
 não publica. Apareceu 2 vezes num lote de 15, logo é comum. Marca `DUVIDA`.
 
-⚠️ **Resistência à flexão da própria mistura: `DUVIDA`.** Distinta da tracção de uma fibra de
-reforço, que já está prevista. Flexão é força por área, mas o limiar de 20 MPa está calibrado
-para compressão, e as duas grandezas não são intercambiáveis.
+⚠️ **Regra geral: qualquer grandeza que não seja COMPRESSÃO DA MISTURA vai para `DUVIDA`.**
+Isto engloba, e substitui, os casos que se foram somando um a um: **flexão** da própria mistura,
+**tracção por compressão diametral** (*splitting tensile*), tracção de **fibra de reforço**,
+tracção de **chapa metálica**, classe de resistência do **cimento**. Todas são força por área;
+nenhuma é comparável a um limiar de 20 MPa calibrado para compressão. Regista o valor e a
+unidade real, e explica na nota qual é a grandeza.
 📌 **E continua `DUVIDA` mesmo quando o valor de flexão está muito abaixo de 20.** Pode
 parecer que 6,6 MPa à flexão rejeita à mesma — mas a flexão é sempre **menor** que a
 compressão, pelo que um valor baixo à flexão **não permite inferir nada** sobre a compressão.
@@ -306,6 +309,13 @@ C20–C50 como linhas de uma tabela «factores de emissão de 26 materiais de co
 **nunca diz qual delas cada edifício usa**. O máximo é do *inventário*, não do material do
 estudo — é a mesma objecção do benchmark de cimento Portland. Tabelas de factores por classe
 são padrão na literatura chinesa, por isso vai repetir-se.
+
+🚨 **Valor declaradamente FICTÍCIO não é valor declarado: `Rejeitado`.** Aconteceu — uma
+tabela com classes (C25/30, C40/50) e CO₂ (110, 100, 85, 65 kg CO₂-eq/m³) e uma nota de rodapé
+a dizer *«Fictitious data is used due to confidentiality constraints prohibiting disclosure of
+actual numbers»*. O artigo diz ele próprio que os números não são reais. Isto **não é dúvida de
+critério**: é ausência de valor, e rejeita nos dois critérios. O mesmo vale para números
+apresentados como meramente ilustrativos ou de exemplo.
 
 📌 **Betão estrutural sem classe declarada é `Rejeitado`, e não é caso especial.** Vai
 aparecer muito em ACV de edifícios: dezenas de m³ de betão armado inventariados e nem uma
