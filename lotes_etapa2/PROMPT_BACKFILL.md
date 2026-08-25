@@ -28,6 +28,14 @@ for i in range(d.page_count):
         print('pagina', i+1, '->', t[max(0,t.find(alvo)-150):t.find(alvo)+80])
 ```
 
+⚠️⚠️ **Normaliza os sinais tipográficos antes de comparar.** O menos pode ser **U+2212**
+(`−`) e o decimal pode ser **vírgula** — a busca literal falha em silêncio nos dois casos.
+
+📌 **`read_file_content` é um canal diferente do `download_file_content`.** Já aconteceu o
+segundo passar a «session expired» de forma permanente e o primeiro continuar a funcionar.
+Perante um «session expired» no descarregador, **tenta o `read_file_content` antes de
+desistir**.
+
 ⚠️⚠️ **Antes de concluíres que não está lá, tenta a notação científica.** `0,243` costuma
 estar impresso como **`2,43E-01`**, e a busca literal falha em silêncio. Tenta também o número
 sem a unidade — «12» e «MPa» podem estar separados por uma quebra de linha.

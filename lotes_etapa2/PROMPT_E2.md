@@ -220,6 +220,11 @@ valor decimal **falha em silêncio** em qualquer artigo ou tese que use notaçã
 tabelas de avaliação de impacto — e são muitos. Procura sempre também a forma `\d[,.]\d+E[+-]?\d+`
 e, quando procurares um valor concreto, tenta as duas formas antes de concluir que não existe.
 
+⚠️⚠️ **Sinais de menos e vírgulas decimais tipográficos.** O menos pode ser **U+2212**
+(`−`) e não o hífen ASCII, e o decimal pode ser **vírgula**. A busca literal falha em
+silêncio nos dois casos. Normaliza sempre: substitui `−` por `-` e experimenta as duas formas
+do decimal antes de concluir que o valor não existe.
+
 ⚠️ **E o número pode estar separado da unidade por uma quebra de linha** — «12» numa linha e
 «MPa» na seguinte. Mais uma razão para normalizar antes de procurar.
 
