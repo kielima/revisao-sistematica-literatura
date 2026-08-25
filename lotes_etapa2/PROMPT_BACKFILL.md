@@ -28,6 +28,15 @@ for i in range(d.page_count):
         print('pagina', i+1, '->', t[max(0,t.find(alvo)-150):t.find(alvo)+80])
 ```
 
+⚠️⚠️ **Antes de concluíres que não está lá, tenta a notação científica.** `0,243` costuma
+estar impresso como **`2,43E-01`**, e a busca literal falha em silêncio. Tenta também o número
+sem a unidade — «12» e «MPa» podem estar separados por uma quebra de linha.
+
+📌 **Para ficheiros grandes, `read_file_content` resolve sem gastar contexto** — e os
+**cabeçalhos e rodapés correntes** dão-te a página impressa de graça: `Environments 2022, 9, 6
+— N of 10`, `Journal of CO2 Utilization 90 (2024) 102986 5`, ou os marcadores `[**Page N**]`.
+São âncoras directas, não interpolação. Diz na nota que foi por essa via.
+
 Se o valor não aparecer no texto, é porque veio de figura: procura pela legenda, renderiza a
 página (`d[i].get_pixmap(dpi=200)`) e confirma visualmente qual é.
 
