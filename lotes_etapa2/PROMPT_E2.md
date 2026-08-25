@@ -147,7 +147,10 @@ páginas das referências, anos e rácios. Fica no padrão por causa do «Cast i
 **a contagem bruta de acertos não diz nada**; só o contexto de cada um. Falsos positivos
 medidos: espessuras de isolamento (`100/60/30 mm`), anos, intervalos de páginas.
 ⚠️ E `\bC\s?\d{2}\b` tem o seu: acertou em **`Case C 65.00`**, a altura de um edifício, que
-a olho desatento parece uma classe C65.
+a olho desatento parece uma classe C65. ⚠️ E tanto ele como `\bf'?ck?\b` acertam dentro de
+**URLs e DOIs das referências** (`C21.8243`, `10/11/114017`, `17/17-1`) — a mesma família, mas
+vinda de links e não de paginação. Antes de avaliar, vale a pena **cortar a lista de
+referências** ou, pelo menos, verificar em que página cai cada acerto.
 
 ⚠️ **A classe de número único (`C45`, `C30`) é a notação chinesa e é frequente** — o padrão
 do Eurocódigo `C30/37` não a apanha. Um artigo com «C45 strength grade» quase passou
@@ -449,7 +452,11 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   ficheiro tal como o `pymupdf` as conta (`d[i]` → página i+1) e, se a paginação impressa do
   artigo for diferente da do ficheiro, **dá as duas**: `p.9 do ficheiro (p.1043 impressa)`.
 
-  Quando o critério é `Rejeitado` por ausência de valor, deixa a coluna **vazia** — não há
+  Na `confianca_*` de uma rejeição **por ausência de valor**, escreve `alta` se procuraste bem
+  e tens a certeza de que não há nada — é confiança na rejeição, não no valor. Deixa-a **vazia**
+  nos `nao avaliado` da cascata.
+
+  Quando o critério é `Rejeitado` por ausência de valor, deixa a coluna de página **vazia** — não há
   página para apontar. Quando é `Rejeitado` porque o valor existe mas é insuficiente (todas as
   misturas abaixo de 20), **preenche na mesma**: é preciso poder conferir a rejeição.
 
@@ -492,6 +499,10 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
   traços entre 18 e 80 MPa»), em que há seguramente misturas abaixo de 20 mas o artigo nunca
   diz quantas, escreve **`nao contavel`** — que serve também para revisões que transcrevem
   valores de vários estudos primários sem os totalizar.
+  ⚠️ **O `0` está a fazer dois trabalhos**, e convém distingui-los: «medi todas as N misturas e
+  nenhuma fica abaixo» escreve-se `0`; «o artigo tem N misturas mas só declara resistência de
+  uma, e essa está acima» escreve-se **`0 (so 1 de N declarada)`**. A segunda diz à metanálise
+  que faltam dados; a primeira não.
 - `fonte_externa_resistencia` e `fonte_externa_co2`: **duas colunas**, pela mesma razão que
   `fonte_resistencia` e `fonte_co2` — é comum a resistência ser classe de projecto (campo vazio)
   e o CO₂ vir de uma base de dados. Cada uma segue a regra abaixo, aplicada ao seu valor.
