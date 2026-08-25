@@ -561,6 +561,13 @@ apanhadas pela conferência de páginas:
 - Noutro, os `40,8` MPa vinham de multiplicar `37,8 × 1,08`, a partir de uma frase que dizia
   «o teor óptimo melhora até 8%».
 
+🚨 **E não confundas o LIMITE de uma variável de optimização com um RESULTADO.** Apanhado na
+conferência: num artigo o valor registado eram 50 MPa — que é o **tecto do espaço de busca**
+declarado numa tabela de parâmetros, quando **todas as optimizações devolveram 25 MPa**. Noutro,
+40 MPa era o limite e os projectos usavam fck 25. É a mesma família do requisito de projecto:
+o número existe, está impresso, e **não é o desempenho de nada**. Antes de registar um valor
+tirado de uma tabela de parâmetros, verifica se há uma tabela de *resultados* logo a seguir.
+
 **A regra:** regista **o que está impresso**, com a página onde está. Se o artigo só publica
 parcelas e não o total, escreve a parcela mais alta que serve para o critério e diz na nota que
 o total não é publicado. Se só há uma percentagem de melhoria sobre um valor base, isso é uma
