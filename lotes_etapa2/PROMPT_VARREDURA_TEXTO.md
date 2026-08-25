@@ -39,7 +39,20 @@ palavras = sum(texto.lower().count(w) for w in (' the ',' and ',' of ',' de ',' 
                                                 ' concrete ',' cimento ',' betao '))
 ```
 
-4. Classifica:
+4. Classifica. **Le o limiar como RACIO, nao como valor absoluto** - calibracao medida na
+   parte 1, sobre 30 ficheiros:
+
+   - `TEXTO_OK`: `palavras >= 50` **e** `ctrl/n < 0,5%`.
+   - `TEXTO_ILEGIVEL`: `palavras <= 10` **e** (`ctrl >= 1000` **ou** `ctrl/n > 5%`).
+   - Entre os dois, ou duvida: `SUSPEITO`.
+
+   Porque assim: nos 29 ficheiros saos da parte 1 o `ctrl` foi de 0 a 29, em documentos de 17
+   mil a 176 mil caracteres - racio maximo de 0,045%. Um deles tinha 16 caracteres de controlo
+   em 52 mil, que e ruido tipografico normal e nao cifra. O unico ilegivel tinha **72,5%**.
+   A separacao e de quase quatro ordens de grandeza, pelo que na pratica nao ha casos de
+   fronteira - mas mantem a categoria `SUSPEITO` para o caso de aparecer um.
+
+5. Classificacao antiga (mantida por referencia):
    - `ctrl` perto de zero **e** `palavras` numa ordem de grandeza normal → **`TEXTO_OK`**.
    - `ctrl` na ordem dos milhares **e** `palavras` perto de zero → **`TEXTO_ILEGIVEL`**.
    - qualquer coisa entre as duas, ou duvida → **`SUSPEITO`**, e explicas.
