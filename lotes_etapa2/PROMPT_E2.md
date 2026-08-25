@@ -87,6 +87,17 @@ de um minuto ou dois, e passa. É o oposto do «session expired», que é determ
 vale a pena repetir.
 Individualmente funciona sempre — testado até 17,7 MB, muito acima do tecto do outro caminho.
 
+🚨🚨 **Este caminho NÃO TEM TECTO DE TAMANHO, e isso é decisivo.** O que ele devolve é um
+**endereço**, não o ficheiro: o tamanho do PDF é irrelevante para a chamada, porque quem o
+transporta é o `curl`. Um artigo de 23 MB descarrega-se por aqui tão bem como um de 2 MB.
+
+⚠️ **Não transportes o tecto de ~6 MB para este caminho.** Ele pertence **só** ao Plano C, mais
+abaixo. Durante a paragem do descarregador, vários artigos foram fechados com «FIGURA
+INACESSÍVEL — ficheiro acima do tecto»; esse veredito só era válido enquanto o Plano C era o
+único caminho disponível. **Com o descarregador a funcionar, nenhum ficheiro é inacessível por
+ser grande.** Se estiveres a pensar escrever que uma figura não se pôde renderizar por causa do
+tamanho, pára e tenta primeiro este caminho.
+
 A resposta **não traz o ficheiro**: traz um **URL de descarga directa**, no campo
 `downloaded_file_content.s3url`. Puxa-o com `curl` e ficas com o PDF em disco:
 
