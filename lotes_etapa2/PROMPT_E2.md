@@ -293,6 +293,12 @@ metodológica que descreve a categoria — nunca num resultado. **Não é percen
 sectorial: é um valor de impacto real, mas irrecuperável para massa sem factores que o artigo
 não publica. Apareceu 2 vezes num lote de 15, logo é comum. Marca `DUVIDA`.
 
+📌 **«Mistura» não quer dizer «traço dosado» — não deixes que a palavra crie uma brecha.**
+A compressão de um **compósito existente** caracterizado in situ (alvenaria de pedra por macaco
+plano, taipa, solo natural) **é** compressão do material que o artigo estuda, e decide
+normalmente: se der 0,14 MPa, rejeita. O que vai para dúvida é a grandeza errada, não o material
+não-dosado.
+
 ⚠️ **Regra geral: qualquer grandeza que não seja COMPRESSÃO DA MISTURA vai para `DUVIDA`.**
 Isto engloba, e substitui, os casos que se foram somando um a um: **flexão** da própria mistura,
 **tracção por compressão diametral** (*splitting tensile*), tracção de **fibra de reforço**,
@@ -343,8 +349,11 @@ não a mistura.
 mistura. Apareceu em três artigos de um só lote, e num deles era a única força por área do
 documento. Mesma família da fibra de reforço.
 
-📌 **Um artigo de UHPC pode não ter um único «MPa».** Aconteceu: zero ocorrências de «MPa» e
-zero de «strength» em 77,7 mil caracteres, num artigo de betão de altíssimo desempenho.
+🚨 **CONTA COM ISTO: artigos de UHPC sem um único «MPa» são frequentes, não excepção.** Já
+aconteceu várias vezes — num, zero ocorrências de «MPa» e zero de «strength» em 77,7 mil
+caracteres; noutro, um painel sanduíche de UHPC projectado com **zero** MPa reais e **146**
+falsos positivos com `re.I`, todos `compa` de *comparative*, *compared* e *company*. Um
+contador ingénuo aceita-o.
 **Não o aceites por «UHPC é por definição >120 MPa»** — é exactamente o que a regra do «P-35»
 proíbe: conhecimento externo que o documento não fornece.
 
