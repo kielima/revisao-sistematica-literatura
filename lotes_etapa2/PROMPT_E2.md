@@ -416,12 +416,24 @@ proíbe: conhecimento externo que o documento não fornece.
 MPa de uma fibra de carbono é força por área, mas o limiar de 20 MPa está calibrado para a
 compressão de uma mistura. Marca `DUVIDA` e explica.
 
-⚠️ **Total da obra com o divisor impresso ao lado: `DUVIDA`, não decidas.** Um artigo dá
-1,44×10⁶ kg CO₂e do edifício e nenhuma forma normalizada — mas imprime o **volume de betão
-(4.177,26 m³) na tabela ao lado**, pelo que normalizar é uma divisão. Isso é materialmente
-diferente da fundação com um total e mais nada. A regra da Kiê diz «não tiver mais nada além
-disso», e o divisor *é* mais alguma coisa — mas ela pensava no que está reportado, não no que é
-recuperável. Marca `DUVIDA` com o aviso `normalizavel mas nao normalizado`.
+⚠️✅ **Total da obra com o divisor impresso ao lado: CALCULA e ACEITA (decisão da Kiê,
+2026-08-28).** Um artigo dá 1,44×10⁶ kg CO₂e do edifício e nenhuma forma normalizada — mas
+imprime o **volume de betão (4.177,26 m³) na tabela ao lado**. Divide os dois e regista o
+resultado (aqui, 344,6 kg CO₂e/m³) como `Aceito`, com `confianca=media` ou `baixa` e
+`[ALERTA ETAPA4: valor derivado por divisao total/divisor impresso no artigo, nao publicado
+como tal pelo autor]`. Regra geral da Kiê: «sempre que for possível nós mesmos realizarmos os
+cálculos para chegar nos números que precisamos é aceito» — cobre esta família inteira (total +
+divisor impresso, ainda que em tabelas/figuras diferentes do documento, desde que ambos sejam
+do MESMO objecto/material).
+- Se o total agrega MAIS do que o material do estudo (ex.: betão + aço + transporte + aditivos
+  numa ponte, ou obra inteira incluindo movimento de terras) e o divisor é só do material do
+  estudo (ex.: só o volume de betão), o valor dividido não isola limpamente o material — calcula
+  na mesma, mas acrescenta ao alerta `valor pode incluir CO2 de outros materiais/fases, nao
+  isolado ao [material]` para a Etapa 4 saber que a atribuição não é limpa.
+- Se não houver um par claro (total, divisor) do MESMO objecto — ex.: um gráfico com N pontos
+  de um Pareto front e um intervalo de totais/volumes sem correspondência 1-para-1 impressa —
+  não inventes o pareamento. Isso continua `DUVIDA`, mas por falta de dado emparelhado, não por
+  proibição de calcular.
 
 ⚠️ **Força por área sem mistura nenhuma: `DUVIDA`.** Um artigo de soldadura com 199 MPa de
 tracção de chapa de alumínio é força por área e está muito acima de 20, mas **não há mistura
