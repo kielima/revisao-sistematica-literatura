@@ -458,6 +458,21 @@ valor tirado de outro estudo). Comparar com um OPC de referência é praxe na AC
 alternativos, por isso isto vai repetir-se. Regista `DUVIDA`, explica na nota qual é o
 material do estudo e qual é o benchmark, e avalia o CO₂ à mesma.
 
+✅ **Classe/faixa de resistência apresentada como catálogo comparativo, sem atribuição a um
+sistema/mistura específico: ACEITA (decisão da Kiê, 2026-08-28), não `DUVIDA`.** Uma tabela
+que lista C30 a C80 como *linhas* de fatores de emissão de várias fontes da literatura, ou uma
+faixa geral (C20/25 a C35/45) que caracteriza a prática de um país/sector sem dizer qual classe
+o próprio caso de estudo usa, ou uma classe que é só a variável de decisão de um modelo/algoritmo
+sem o resultado final atribuído — tudo isto conta como classe declarada, `Aceito`, mesmo sem
+ligação a um edifício/mistura específico. Substitui a orientação anterior desta secção (que
+mandava `DUVIDA` nestes casos por «catálogo, não declaração»).
+- Se a tabela compila dados de fontes externas citadas (uma revisão, um catálogo normativo como
+  o Código Técnico espanhol, uma base de dados nacional) — regista essas fontes em
+  `fonte_externa_resistencia`, para entrarem no ramo de busca por citação do fluxograma PRISMA.
+- Se é um modelo/cálculo próprio do artigo sem fonte externa citável (variável de decisão de
+  optimização, modelo estatístico interno, LCI de campo) — aceita na mesma, sem preencher
+  `fonte_externa_resistencia` (não há nada externo para citar).
+
 📌 **Numa revisão, distingue «compila» de «menciona».** A regra de baixo aceita a revisão que
 **compila valores de resistência** dos estudos primários. Não cobre a revisão que **menciona
 resistência de passagem** ao discutir método — «Braga et al. usaram C50/60» dentro de uma
