@@ -828,6 +828,20 @@ próprio artigo. Três sinais, todos precisam de estar presentes para rejeitar p
   formalmente a "este é o sistema X"). Aqui não — a figura nem chega a ser a especificação de
   nada do que o artigo estuda, é só pano de fundo motivacional.
 
+**13. Cenário hipotético de "e se trocássemos de material" numa secção de estratégias futuras de
+redução, citando um estudo externo para uma poupança percentual — REJEITADO** (Kiê, 2026-08-30,
+caso CHENG, linha 4741: artigo mede CO₂ real de 15 edifícios residenciais; a única menção de
+classe de betão, C50/C30, está na frase *"According to Shuai's research, using C50 concrete can
+save 18.61%... Therefore, **assuming that** the case study building adopts... C50 concrete,
+carbon emissions **can be reduced** by 50.21 kgCO₂/m²"*, ao lado de outras estratégias
+hipotéticas na mesma secção — aço reciclado, pré-fabricação, construção verde). Extensão directa
+da regra 9 (cenário hipotético/motivacional citando outro estudo, desligado do objecto
+efectivamente estudado) — aqui a mesma lógica aplica-se à **classe de resistência**, não ao CO₂:
+o "e se" não descreve o material que os edifícios/sistemas realmente medidos usam, é uma
+simulação de poupança potencial. Sinal distintivo: a frase tem obrigatoriamente uma condicional
+("assuming that...", "if... were adopted", "therefore, it would reduce...") — sem essa
+condicional, reavalia por outra regra (pode ser regra 3, se for especificação real).
+
 **10. Classe de resistência que só aparece como exemplo de cálculo de um FATOR (de emissão, de
 carbonatação, de conversão etc.) de uma base de dados/norma genérica — nunca como a classe
 efetivamente especificada para o sistema modelado no estudo — REJEITADO** (Kiê, 2026-08-30,
