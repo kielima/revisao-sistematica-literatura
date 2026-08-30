@@ -485,6 +485,18 @@ que dá 39,28 / 38,46 / 39,74 MPa de misturas de RCA está a compilar o seu pró
 mesma revisão a citar «27,6 MPa» para ilustrar como um estudo escolheu a unidade funcional
 está a dar contexto. Em dúvida genuína, `DUVIDA`.
 
+📌 **O mesmo teste aplica-se a estudos de LCA primários que modelam o betão com processos
+genéricos de base de dados, em vez de uma mistura descrita com classe** (Kiê, 2026-08-30, caso
+RAJAGOPALAN 2010, linha 4883: LCA comparativa casa ICF vs madeira). O único psi impresso
+("concrete mix for ICF construction typically has a compressive strength of 2,500-3,000 psi")
+está numa secção genérica de prática de construção do sector, citando outra fonte — nunca entra
+no modelo. A tabela de fontes de dados do LCA confirma isto directamente: o betão modelado usa
+só processos de base de dados sem classe nenhuma ("Concrete not reinforced (ETH-ESU)",
+"Concrete I (IDEMAT 2001)", "Concrete normal at plant (ecoinvent)", distribuição triangular
+min/max/mediana). **Confirma sempre pela tabela/secção de inputs do modelo, não só pela secção
+de texto onde o valor aparece** — é a prova mais forte de que o valor é ou não o que entra no
+modelo.
+
 📌 **Unidade impressa fisicamente implausível para a grandeza nomeada — corrige pelo par
 grandeza+magnitude, não rejeites de imediato** (caso SAMUDRALA, linha 4403, 2026-08-30, revisão
 sobre betão impresso em 3D). O eixo Y de uma figura dizia «Compressive strength (kg/m3)» —
