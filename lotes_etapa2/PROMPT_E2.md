@@ -765,6 +765,26 @@ esteja no texto). Duas formas válidas de conversão:
 valor de base (baseline) impresso — REJEITADO**, pela mesma regra 7: sem o par completo
 (base + reduzido, ou pelo menos a base), o número isolado não é um nível de emissão.
 
+**9. Figura/dado motivacional de introdução, compilando literatura de forma não individualizável
+e sem ligação ao objeto efetivamente estudado — REJEITADO** (caso ZIVKOVIC, linha 4323,
+2026-08-30). Diferente da regra 6 (que aceita valor absoluto citado de outro estudo, DESDE QUE
+seja um valor impresso e identificável): aqui o problema não é só a ausência de número — é a
+figura ser **ilustração de fundo** ("olha como X é mais eficiente que Y segundo a literatura"),
+com dados de várias referências agregadas numa mesma barra/ponto sem que se saiba de qual delas
+vem cada valor, e sem que a figura descreva o material efetivamente ensaiado/medido pelo
+próprio artigo. Três sinais, todos precisam de estar presentes para rejeitar por esta regra
+(não bastam um ou dois — ver a distinção com a regra do "catálogo comparativo aceito" abaixo):
+  - não é dado do próprio artigo (citação de revisões/refs externas);
+  - não é rastreável a uma fonte única dentro dessas refs (agregação opaca);
+  - a figura não é sobre o objeto que o artigo estuda, é comparação genérica de técnicas/
+    materiais para motivar a escolha, na introdução ou discussão, desligada da mistura/sistema
+    que o artigo efetivamente mediu.
+  **Não confundir com a regra do "catálogo comparativo sem atribuição" (Etapa 2, 2026-08-29),
+  que ACEITA:** aquela regra serve para uma tabela/faixa usada como especificação de PROJETO do
+  próprio sistema estudado (a classe é o que o estudo adota, mesmo sem estar amarrada
+  formalmente a "este é o sistema X"). Aqui não — a figura nem chega a ser a especificação de
+  nada do que o artigo estuda, é só pano de fundo motivacional.
+
 **Regra do material substituído (nova, caso recorrente em ACV de encargo evitado):** quando o
 material do próprio estudo não tem resistência declarada e a única força por área do
 documento pertence ao material que ele SUBSTITUI (ex.: pás de turbina reaproveitadas vs. o
