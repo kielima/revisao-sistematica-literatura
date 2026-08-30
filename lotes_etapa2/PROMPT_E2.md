@@ -793,6 +793,21 @@ esteja no texto). Duas formas válidas de conversão:
 valor de base (baseline) impresso — REJEITADO**, pela mesma regra 7: sem o par completo
 (base + reduzido, ou pelo menos a base), o número isolado não é um nível de emissão.
 
+**12. Valor absoluto em kg CO₂-eq impresso, mas sem a quantidade/unidade funcional de
+referência declarada em lado nenhum do artigo — REJEITADO** (Kiê, 2026-08-30, caso RAJAGOPAL,
+linha 4550: tabelas de LCA por categoria de impacto IPCC dão "Fossil GWP100 ≈ 29.000 kg CO₂-Eq
+por mix", software OpenLCA/ecoinvent nomeado, mas nunca 1 m³, massa, ou dosagem de cimento em
+kg/m³ — só a proporção da mistura, sem quantidade absoluta). Diferente das regras 6/7 (essas
+tratam de unidade **normalizada/percentual** sem massa): aqui a unidade já é `kg CO₂-eq`
+(absoluta, correta), o problema é não sabermos **a que quantidade de material** esse número
+corresponde — pode ser 1 m³, um lote inteiro, ou a saída-padrão do software de LCA para "1 unit
+process". Confirma sempre **por leitura completa E renderização visual** (texto, tabelas com as
+suas notas de rodapé, e a secção inteira de metodologia LCA, normalmente repetida em métodos e
+resultados) antes de rejeitar por esta regra — a ordem de grandeza implausível para a escala
+esperada (aqui, ~29 mil kg CO₂ para o que deveria ser ~1 m³ de betão, quando o plausível seria
+algumas centenas) é um sinal forte mas não prova por si só; o que decide é a ausência confirmada
+da unidade funcional, não a magnitude.
+
 **9. Figura/dado motivacional de introdução, compilando literatura de forma não individualizável
 e sem ligação ao objeto efetivamente estudado — REJEITADO** (caso ZIVKOVIC, linha 4323,
 2026-08-30). Diferente da regra 6 (que aceita valor absoluto citado de outro estudo, DESDE QUE
