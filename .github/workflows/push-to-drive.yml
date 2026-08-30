@@ -52,9 +52,15 @@ jobs:
           curl -s https://rclone.org/install.sh | sudo bash
 
       - name: Configurar rclone
+        # O secret vai por env, nao por substituicao ${{ }} direta no script: o
+        # token OAuth dentro do rclone.conf e JSON e contem aspas duplas, que
+        # partem a string do printf se o GitHub Actions colar o valor
+        # literalmente no comando antes de o bash correr.
+        env:
+          RCLONE_CONFIG_CONTENT: ${{ secrets.RCLONE_CONFIG }}
         run: |
           mkdir -p ~/.config/rclone
-          printf '%s\n' "${{ secrets.RCLONE_CONFIG }}" > ~/.config/rclone/rclone.conf
+          printf '%s\n' "$RCLONE_CONFIG_CONTENT" > ~/.config/rclone/rclone.conf
 
       - name: Enviar para o Google Drive
         run: |
