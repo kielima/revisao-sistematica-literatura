@@ -510,6 +510,20 @@ no fluxograma PRISMA pelo **ramo da busca por citação**, para o mesmo ensaio n
 duas vezes. Se o artigo não identificar a fonte, escreve `nao identificada` — isso também é
 informação.
 
+⚠️ **Fonte nomeada não substitui valor impresso — «obtido de [refs]» sem o número é ausência
+de valor, REJEITADO** (caso LATAWIEC, linha 4425, 2026-08-30, artigo metodológico de função de
+desejabilidade combinando resistência, carbonatação, CO₂ e custo). Diferença exacta com a regra
+acima: aceitamos quando o artigo **imprime o número** e diz de onde veio (ex.: «Braga et al.
+reportaram 27,6 MPa»); rejeitamos quando o artigo só diz **que usou dados de um estudo**, sem
+nunca reproduzir o valor em lado nenhum do texto (aqui: *"compressive strengths...were obtained
+from [42,43]...for GGBS addition"*, sem nenhuma tabela, figura ou número concreto — só a
+equação de conversão entre formatos de provete e o limite de exclusão superior ">50 MPa is not
+analyzed", que não é o valor usado, é só o corte). Ir buscar o número às referências [42,43] não
+é opção — seria pesquisa primária nossa, não leitura do artigo em avaliação; a regra geral de
+nunca calcular/inferir o que o artigo não imprime aplica-se também aqui. Não confundir com a
+classe C25/30 do mesmo artigo (exigência **normativa mínima** de durabilidade, PN-EN 206:2014,
+não classe do material ensaiado — regra 10 já cobre isto).
+
 📌 E põe na nota que a linha **não tem dados próprios**, para a metanálise saber que não pode
 extrair dali.
 
