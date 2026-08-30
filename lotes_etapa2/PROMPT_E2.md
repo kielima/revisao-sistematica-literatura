@@ -808,6 +808,20 @@ esperada (aqui, ~29 mil kg CO₂ para o que deveria ser ~1 m³ de betão, quando
 algumas centenas) é um sinal forte mas não prova por si só; o que decide é a ausência confirmada
 da unidade funcional, não a magnitude.
 
+📌 **Contraste directo: unidade funcional DECLARADA mas valor internamente inconsistente com os
+próprios inputs do artigo — ACEITO com alerta forte, não Rejeitado** (Kiê, 2026-08-30, caso
+KOCAK, linha 4855: unidade funcional explícita — "the amount of aggregate generated from the
+CDW... 3411.38 m³ of C25 concrete" —, inventário completo declarado (1.054.116 kg de cimento em
+Tabela 2), mas o GWP20 resultante, 902,72 kg CO₂-eq, contradiz esse mesmo inventário por um
+factor de ~1000×: a Figura 5 do artigo mostra o cimento a dominar quase 100% do GWP20, o que
+implicaria ~0,0009 kg CO₂/kg de cimento — muito abaixo do plausível (~0,8–0,9 kg CO₂/kg). A
+diferença para a regra 12: aqui **não falta** a unidade funcional nem o inventário — o problema
+é um provável erro de escala dos próprios autores no software de LCA, que não é nosso trabalho
+corrigir (nunca calcular o que o artigo não imprime) nem motivo para descartar um dado que tem
+toda a informação de rastreabilidade que pedimos. Regista sempre `confianca=baixa` e
+`[ALERTA ETAPA4: <descreve a inconsistência encontrada>]`, para a Etapa 4 (ou a própria Kiê,
+antes de usar o valor na metanálise) decidir com o artigo à frente.
+
 **9. Figura/dado motivacional de introdução, compilando literatura de forma não individualizável
 e sem ligação ao objeto efetivamente estudado — REJEITADO** (caso ZIVKOVIC, linha 4323,
 2026-08-30). Diferente da regra 6 (que aceita valor absoluto citado de outro estudo, DESDE QUE
