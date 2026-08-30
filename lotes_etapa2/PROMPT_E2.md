@@ -785,6 +785,23 @@ próprio artigo. Três sinais, todos precisam de estar presentes para rejeitar p
   formalmente a "este é o sistema X"). Aqui não — a figura nem chega a ser a especificação de
   nada do que o artigo estuda, é só pano de fundo motivacional.
 
+**10. Classe de resistência que só aparece como exemplo de cálculo de um FATOR (de emissão, de
+carbonatação, de conversão etc.) de uma base de dados/norma genérica — nunca como a classe
+efetivamente especificada para o sistema modelado no estudo — REJEITADO** (Kiê, 2026-08-30,
+caso ILGIN, linha 4327: *"rejeita para a classe, não é classe do sistema estudado"*). Sinal
+distintivo: a classe aparece sempre dentro de uma frase do tipo "para uma classe C30/37, o
+factor D5 da base de dados nacional é X" — é ilustração de como se USA a base de dados, não
+uma afirmação sobre que classe o edifício/sistema do próprio artigo tem. Busca ampla no artigo
+inteiro deve confirmar que não há nenhuma outra menção de classe/MPa ligada aos elementos
+efectivamente modelados (pilares, lajes, fundações etc.) antes de aplicar esta regra — se
+houver, essa outra menção é que decide. Diferente da regra 3 (designação normativa que descreve
+a MISTURA DE BETÃO do próprio estudo, aceite) precisamente porque aqui a classe nunca chega a
+descrever o betão do estudo, só o exemplo abstracto do factor. **Cascata:** rejeitar directo em
+`E2_resistencia`; `E2_co2` fica por avaliar (moot), mesmo que o CO₂ do artigo seja claramente
+bom — a regra "com dúvida na resistência, avalia-se o CO2" (RSL_PROGRESSO.md, sistema C1-C8)
+só se aplica enquanto a resistência está em DUVIDA; uma vez resolvida para Rejeitado, a cascata
+fecha ali como qualquer outro critério rejeitado.
+
 **Regra do material substituído (nova, caso recorrente em ACV de encargo evitado):** quando o
 material do próprio estudo não tem resistência declarada e a única força por área do
 documento pertence ao material que ele SUBSTITUI (ex.: pás de turbina reaproveitadas vs. o
