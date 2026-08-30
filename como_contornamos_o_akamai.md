@@ -139,3 +139,51 @@ Este método **não** contorna:
 Esta abordagem foi usada exclusivamente para **artigos em acesso aberto** (open access), onde o PDF é legalmente gratuito mas o publisher bloqueia automação para forçar o uso do site. O conteúdo foi identificado via **Unpaywall API** (`api.unpaywall.org`), que certifica que cada artigo tem licença OA. Não foram contornados paywalls.
 
 Para registar na seção de métodos da RSL: *"Os PDFs dos artigos classificados como open access via Unpaywall foram recuperados programaticamente através do Chrome DevTools Protocol (CDP), que permite automação do browser real sem simular agentes HTTP, contornando restrições de acesso automatizado mantidas pelos publishers para conteúdo legalmente gratuito."*
+
+---
+
+## Método alternativo (2026-08-30): CDN do MDPI sem browser nenhum
+
+Descoberto numa sessão sem acesso a um Chrome real (ambiente headless de nuvem) — mais simples que o CDP quando funciona, porque **não precisa de nenhum browser**, só `curl`.
+
+### A ideia
+
+O Akamai Bot Manager protege o domínio principal `www.mdpi.com`, mas o **binário do PDF em si** é servido a partir de um domínio de CDN separado, `mdpi-res.com`, atrás do **Cloudflare** — que não tem o mesmo bloqueio. Um pedido `curl` direto ao domínio principal (`www.mdpi.com/.../pdf`) dá `403 Access Denied` (Akamai); o mesmo `curl` ao domínio do CDN dá `200 OK` com o PDF real.
+
+### Como construir o URL
+
+Padrão observado:
+
+```
+https://mdpi-res.com/d_attachment/{revista}/{revista}-{volume}-{numero-artigo-com-padding}/article_deploy/{revista}-{volume}-{numero-artigo-com-padding}.pdf
+```
+
+Exemplo real (Onyelowe et al., 2022, *Buildings* 12, artigo 948, DOI `10.3390/buildings12070948`):
+
+```
+https://mdpi-res.com/d_attachment/buildings/buildings-12-00948/article_deploy/buildings-12-00948.pdf
+```
+
+- `revista` = nome curto da revista em minúsculas (aqui, `buildings`).
+- `volume` = o volume da revista (aqui, `12`).
+- `numero-artigo-com-padding` = o número do artigo, com zeros à esquerda até 5 dígitos (aqui, artigo `948` → `00948`).
+
+Estes valores vêm normalmente do próprio DOI (`10.3390/buildings12070948` → revista `buildings`, volume+artigo `12070948` → separa-se em volume `12` e artigo `070948`, cujos últimos 5 dígitos com padding dão `00948`) ou da página do artigo no MDPI (mesmo que o browser não consiga descarregar o PDF, a página HTML normal costuma abrir sem bloqueio, e mostra `Buildings 2022, 12(7), 948`).
+
+### Procedimento
+
+1. **Confirmar que é OA de verdade**: consultar `https://api.unpaywall.org/v2/{doi}?email={email}` — se `is_oa: true` e a licença for `cc-by` (ou equivalente), é legal descarregar.
+2. **Testar antes de descarregar tudo**: `curl -sI "{url-do-cdn}"` — confirmar `HTTP/2 200`, `content-type: application/pdf`, `server: cloudflare` (não Akamai) e um `content-length` plausível (tipicamente 1-10 MB para um artigo).
+3. **Descarregar**: `curl -s "{url-do-cdn}" -o ficheiro.pdf --max-time 60`.
+4. **Verificar**: `file ficheiro.pdf` deve dizer `PDF document`, e o número de páginas deve bater com o esperado. Ler a p.1 (`pymupdf`) para confirmar título/autores contra o DOI.
+
+### Limitações
+
+- Só funciona para MDPI (o padrão de URL do CDN é específico deste publisher — outros publishers têm as suas próprias arquiteturas, que precisam de ser investigadas caso a caso).
+- Só serve para o **PDF final publicado** (`article_deploy/`) — não foi testado para material suplementar ou versões preprint.
+- Depende do padrão de nomenclatura do ficheiro no CDN continuar estável; o MDPI pode mudá-lo sem aviso.
+- Não substitui o CDP quando o artigo não é MDPI, ou quando o publisher não usa uma CDN separada do domínio protegido.
+
+### Por que isto é mais simples que o CDP quando aplicável
+
+Não precisa de Chrome nenhum a correr, nenhuma sessão remota, nenhuma janela a abrir no ecrã do utilizador — é só duas chamadas `curl` (uma para testar, uma para descarregar) a partir de qualquer ambiente com acesso à rede. A limitação é o entregar o ficheiro depois: sem uma ponte de escrita directa para o computador do utilizador, o ficheiro tem de ser entregue por outro canal (ex.: anexo no chat) para depois ser colocado na pasta `BAIXADOS MANUALMENTE`.
