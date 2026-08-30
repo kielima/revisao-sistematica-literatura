@@ -1,0 +1,70 @@
+name: Push arquivo para o Google Drive
+
+# Descarrega um ficheiro de um URL e envia-o para uma pasta do Google Drive
+# via rclone, num runner descartavel do GitHub Actions.
+#
+# Porque este caminho existe: a ferramenta MCP do Drive disponivel para o
+# Claude exige colar o conteudo inteiro do ficheiro (em base64) dentro da
+# propria chamada da ferramenta, o que e inviavel para ficheiros de poucos
+# MB (um PDF de 5-10MB vira uma string de varios milhoes de caracteres).
+# Um runner do GitHub Actions e um computador normal com disco e rede reais
+# — descarrega o ficheiro para disco, envia com rclone (streaming real, sem
+# limite de tamanho por chamada), e o runner e descartado no fim. Nada fica
+# no repositorio git.
+#
+# Pre-requisito: secret RCLONE_CONFIG no repositorio (Settings > Secrets and
+# variables > Actions), com o conteudo do rclone.conf gerado por
+# `rclone config` apos autorizar o rclone a aceder ao Google Drive (ver
+# como_contornamos_o_akamai.md para o contexto de por que isto foi criado).
+
+on:
+  workflow_dispatch:
+    inputs:
+      download_url:
+        description: "URL de onde descarregar o ficheiro (ex.: link do mdpi-res.com ou outro CDN aberto)"
+        required: true
+        type: string
+      drive_folder_id:
+        description: "ID da pasta do Google Drive de destino (o trecho depois de /folders/ no URL da pasta)"
+        required: true
+        type: string
+      filename:
+        description: "Nome com que o ficheiro deve ficar no Drive (ex.: 'AUTOR et al., ANO - sufixo-doi.pdf')"
+        required: true
+        type: string
+
+jobs:
+  push-to-drive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descarregar o ficheiro
+        run: |
+          set -euo pipefail
+          curl -sL "${{ inputs.download_url }}" -o "/tmp/upload_target" \
+            -A "Mozilla/5.0 (compatible; rclone-drive-push/1.0)" \
+            --max-time 120 --fail
+          echo "Ficheiro descarregado:"
+          file "/tmp/upload_target"
+          ls -la "/tmp/upload_target"
+
+      - name: Instalar rclone
+        run: |
+          curl -s https://rclone.org/install.sh | sudo bash
+
+      - name: Configurar rclone
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "${{ secrets.RCLONE_CONFIG }}" > ~/.config/rclone/rclone.conf
+
+      - name: Enviar para o Google Drive
+        run: |
+          set -euo pipefail
+          rclone copyto "/tmp/upload_target" \
+            "drive:${{ inputs.filename }}" \
+            --drive-root-folder-id "${{ inputs.drive_folder_id }}" \
+            --progress
+
+      - name: Confirmar upload
+        run: |
+          rclone lsl "drive:" --drive-root-folder-id "${{ inputs.drive_folder_id }}" | grep -F "${{ inputs.filename }}" || \
+            (echo "AVISO: nao encontrei o ficheiro na listagem da pasta apos o upload" && exit 1)
