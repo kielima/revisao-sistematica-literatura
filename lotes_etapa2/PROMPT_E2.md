@@ -621,6 +621,17 @@ Caso medido: 151,3 t CO₂eq para o reforço de uma ponte de 34 m de vão, sem v
 que é a regra da Kiê. O que rejeita é a ausência de qualquer forma normalizada, não a
 presença do total.
 
+📊 **Figura sem escala numérica no eixo — REJEITADO, mesmo quando a existência do valor é
+óbvia** (Kiê, 2026-08-30, caso SANZ-CALCEDO, linha 4951, última dúvida da fila desta ronda).
+Diferente de "valor só em figura extrai-se da figura" (secção 5, regra da Kiê 2026-08-24): essa
+regra pressupõe **um eixo com marcas numéricas** contra as quais ler as barras. Aqui o eixo
+tinha só o rótulo da unidade ("kg CO₂/m²"), sem nenhuma marcação — impossível ler um valor,
+só comparar alturas relativas entre as barras. **Confirma sempre comparando com outra figura da
+mesma página/artigo**: se as restantes têm escala normal (foi o caso — a figura ao lado, de
+resíduos, tinha eixo perfeitamente legível), é defeito específico daquela figura, não do
+extractor nem do teu processo de leitura — não tentes adivinhar a escala por proporção com
+outro valor do artigo, isso seria calcular o que o artigo não imprime.
+
 🚨 **Facto sectorial genérico NÃO é valor de emissão do artigo.** É a regra gémea da que o
 passo 4 já tem para a resistência. «A produção de uma tonelada de clínquer liberta cerca de
 uma tonelada de CO₂», ou «a indústria do vidro emite 86 Mt de CO₂ por ano», são factores e
