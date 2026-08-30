@@ -724,6 +724,20 @@ alternativa, mas **regista sempre**: o valor aos 7 dias, o cálculo, o resultado
 aviso `[ESTIMADO 7→28d, material nao-OPC: verificar]` quando o material não for cimento
 Portland convencional. `confianca=baixa` sempre que este mecanismo for usado.
 
+**5b. Segunda excepção autorizada (Kiê, 2026-08-30): massa específica padrão do cimento
+(3,15 t/m³) para reconstituir massa a partir de volume.** Caso medido: um artigo publica uma
+fórmula própria `CO2 = Vcement[m³] × Cclinker × EFclinker[t CO2/t clínquer]` sem nunca converter
+o volume de cimento em massa antes de aplicar o factor massa/massa — o resultado herda m³ em vez
+de toneladas, e não há densidade nenhuma impressa no artigo para desfazer isto. Antes de aplicar
+esta excepção, investiga a fundo (lê o artigo inteiro, procura fórmulas, definições de variável,
+notas de rodapé) — não presumas erro do autor sem procurar primeiro a explicação real. Só depois
+de confirmada a causa exacta é que se aplica a massa específica padrão do cimento em dosagem por
+volumes absolutos, **3,15 t/m³** (valor de engenharia universal, não um dado inventado — mesma
+categoria da conversão psi→MPa), multiplicando pelo volume em m³ para obter a massa real.
+`confianca=baixa` sempre, `[ALERTA ETAPA4: valor reconstituido assumindo massa especifica padrao
+do cimento (3,15 t/m3) nao publicada pelo artigo]`. Não generalizes esta excepção a outras
+densidades por analogia sem confirmar primeiro que o mesmo raciocínio dimensional se aplica.
+
 **6. Revisão ou ensaio que só reporta variação percentual de resistência — ACEITO só se houver
 um valor ABSOLUTO impresso em algum lugar do artigo** (mesmo que seja para ilustrar a escolha
 de unidade funcional de um estudo citado, ou um limiar/excepção de norma tipo "except for
