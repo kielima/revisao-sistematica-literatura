@@ -479,6 +479,81 @@ A cascata cria um estado que não é Aceito, Rejeitado nem DUVIDA: **«não aval
 CO₂ de um artigo já rejeitado na resistência. Fixá-lo por escrito antes de correr a sério —
 o piloto teve de o inventar em 4 das 12 linhas.
 
+#### ✅ DECIDIDO pela Kiê a 2026-08-24 — as duas regras que faltavam
+
+**1. Valor só em figura: extrair da figura, não rejeitar.** A Kiê mandou verificar se era
+sequer possível ler MPa de um gráfico. **É** — testado e demonstrado no caso que levantou a
+questão.
+
+- **RO 2024 (linha 3752)** — o artigo tem **zero** ocorrências de «MPa» em todo o texto e os
+  resultados vivem na Fig. 1a. Renderizada a p. 3 a 200 dpi, o gráfico de barras tem eixo
+  rotulado «Compressive Strength (MPa)» de 0 a 50 com marcas de 10 em 10, e lê-se sem esforço:
+  **≈ 44,5 MPa** para o betão só com cimento Portland e **≈ 37,8 MPa** para o de 15% RHA.
+  Ambos acima de 20 → **E2_resistencia = Aceito**. A precisão da leitura é de cerca de ±1 MPa,
+  mais do que suficiente para um limiar em 20 e utilizável na metanálise com nota de incerteza.
+
+⚠️ **Armadilha nova, apanhada neste mesmo teste — `MPa` procurado sem distinguir maiúsculas
+dá falsos positivos.** Uma primeira contagem com `re.I` deu 3 ocorrências na p. 1 deste
+artigo; eram todas **`compa`** de *comparison* e *compared*. Procurar **sempre com
+maiúsculas respeitadas**. Isto contradiz a nota do piloto sobre o `Mpa` de «m» minúsculo no
+DAI 2024: a solução não é ignorar maiúsculas, é procurar as variantes explicitamente
+(`MPa|Mpa|mPa`), nunca `re.I` sobre uma sigla de três letras que é substring de palavras
+comuns.
+
+**2. CO₂: se tem o total da obra *e* um valor normalizado, aceita.** Palavras da Kiê: «se tem
+os dois pode aceitar, vamos rejeitar somente se o CO₂ só vier por edifício e não tiver mais
+nada além disso». A razão da exclusão era não haver como normalizar; havendo valor
+normalizado, a razão cai. Ficam aceites os três casos de fronteira do piloto — ABDALLA 4664
+(casa inteira mas kg CO₂/m²), WU 3212 (túnel inteiro mas kt/m de túnel) e GALÁN-MARÍN 3276
+(total por modelo e kg eq-CO₂/m²).
+
+📌 **Mas «percentagem de redução» não é valor de emissão, e a figura confirma-o.** O
+**SUMMA 2023 (linha 2858)** estava em dúvida por se suspeitar que a Fig. 5 escondesse um GWP
+absoluto. Renderizada: é um **gráfico radar de percentagens**, com eixo de 0% a 80%, e o
+painel direito são custos em euros. O artigo faz LCA CML com dez indicadores e **não imprime
+um único valor absoluto de CO₂** — «Global warming (GWP100a)» é só um vértice do radar, em
+percentagem. → **E2_co2 = Rejeitado.**
+
+🧾 **Os dois testes correram em sentidos opostos, e é isso que os valida:** renderizar a
+figura salvou o RO e condenou o SUMMA. A leitura de figura não é uma via de aceitação
+automática — é uma medição, e mede nos dois sentidos.
+
+#### ✅ DECIDIDO pela Kiê a 2026-08-24 — resistência medida por terceiros
+
+**O artigo entra, e a fonte primária entra pelo outro ramo do PRISMA.** Palavras da Kiê:
+«pode aceitar esses artigos, vamos incluir as fontes originais dos dados em fontes externas
+pelo fluxograma PRISMA».
+
+O caso levantou-se no lote 1, em três formas da mesma dificuldade:
+- **2561** — revisão de literatura, cujos valores de resistência são todos de estudos primários;
+- **2575** — o artigo tira o inventário de um estudo do próprio grupo, que reporta 54 MPa, mas
+  nunca declara a resistência do produto que avalia;
+- **2564** — diz que as suas misturas «assemelham-se» às classes C12/15 e C20/25, sem declarar
+  qual mistura corresponde a qual classe.
+
+**Porque é que isto resolve o problema em vez de o adiar.** A objecção a aceitar era a **dupla
+contagem**: se o artigo A reporta os MPa do artigo B, e ambos estão no corpus, o mesmo ensaio
+entra duas vezes na metanálise. O desenho do PRISMA 2020 tem exactamente a caixa para isto —
+um **segundo ramo de identificação**, para registos achados por outros métodos que não a busca
+nas bases, incluindo **busca por citação**. A fonte primária entra por aí, é contada **uma só
+vez**, e a proveniência do dado fica explícita no fluxograma em vez de ficar escondida.
+
+📌 **O projecto já fazia isto antes de a regra existir.** O `EXTERNAL_SOURCES_DOIs.md` tem uma
+secção «Encontrados via AKBULUT et al., 2024» com **20 candidatos** colhidos das suas 112
+referências — ou seja, a linha 2561, uma das três dúvidas, já tinha sido tratada assim em Maio.
+A decisão de hoje não inventa um mecanismo: **formaliza o que já era prática** e passa a
+aplicá-lo sistematicamente.
+
+**O que muda na operação:** a Etapa 2 passa a registar, para estes casos, **de onde vêm os
+valores**. Coluna nova no CSV de resultado, `fonte_externa`, com a citação ou o DOI do estudo
+de origem. É o que alimenta o ramo de busca por citação do PRISMA, e é também o aviso à
+metanálise de que aquela linha **não tem dados próprios** para extrair — a mesma marca que já
+se pôs na linha 4501 na retriagem de Agosto.
+
+⚠️ Um artigo assim **passa o critério mas não alimenta a metanálise**. As duas coisas são
+independentes: sobreviver ao funil é uma decisão de elegibilidade, ter dado extraível é uma
+propriedade do artigo. Não confundir uma com a outra.
+
 ### Etapa 3 — Análise **qualitativa** do PDF
 
 8. **Regionalização** — o antigo C6, escopo inalterado.
