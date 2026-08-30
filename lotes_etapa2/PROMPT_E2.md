@@ -830,6 +830,16 @@ bom — a regra "com dúvida na resistência, avalia-se o CO2" (RSL_PROGRESSO.md
 só se aplica enquanto a resistência está em DUVIDA; uma vez resolvida para Rejeitado, a cascata
 fecha ali como qualquer outro critério rejeitado.
 
+**11. Compressão de um componente de reforço não cimentício, mesmo central ao dispositivo do
+estudo — REJEITADO** (Kiê, 2026-08-30, caso MADDALENA, linha 4535: tendão híbrido com tubo de
+PET/memória de forma para fechar fissuras em betão; único valor de compressão medido pelo
+próprio estudo, 90–100 MPa, é a resistência axial do tubo de plástico em si, essencial para o
+dispositivo não se esmagar, mas não é betão nem argamassa). Reforça e fecha a regra 1: a
+excepção para componentes de reforço só cobre **tracção** (fibra, aço, chapa); não existe
+excepção equivalente para **compressão** de um componente que não seja a mistura cimentícia do
+estudo — grandeza certa e objecto central ao estudo não bastam quando o material não é
+cimentício. Só conta compressão da mistura de betão/argamassa em si (regra 3).
+
 **Regra do material substituído (nova, caso recorrente em ACV de encargo evitado):** quando o
 material do próprio estudo não tem resistência declarada e a única força por área do
 documento pertence ao material que ele SUBSTITUI (ex.: pás de turbina reaproveitadas vs. o
