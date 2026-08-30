@@ -1,16 +1,19 @@
 name: Push arquivo para o Google Drive
 
-# Descarrega um ficheiro de um URL e envia-o para uma pasta do Google Drive
-# via rclone, num runner descartavel do GitHub Actions.
+# Envia um ficheiro para uma pasta do Google Drive via rclone, num runner
+# descartavel do GitHub Actions. Duas fontes possiveis para o ficheiro:
+# um URL externo (download_url) ou um caminho dentro deste proprio
+# repositorio (repo_path) - da exactamente um dos dois.
 #
 # Porque este caminho existe: a ferramenta MCP do Drive disponivel para o
 # Claude exige colar o conteudo inteiro do ficheiro (em base64) dentro da
 # propria chamada da ferramenta, o que e inviavel para ficheiros de poucos
-# MB (um PDF de 5-10MB vira uma string de varios milhoes de caracteres).
-# Um runner do GitHub Actions e um computador normal com disco e rede reais
-# — descarrega o ficheiro para disco, envia com rclone (streaming real, sem
-# limite de tamanho por chamada), e o runner e descartado no fim. Nada fica
-# no repositorio git.
+# MB (um PDF de 5-10MB, ou o articles_final.xlsx de ~5,5MB, vira uma string
+# de varios milhoes de caracteres). Um runner do GitHub Actions e um
+# computador normal com disco e rede reais — obtem o ficheiro (por download
+# ou por checkout do repo), envia com rclone (streaming real, sem limite de
+# tamanho por chamada), e o runner e descartado no fim. Nada fica retido no
+# repositorio git alem do que ja la estava.
 #
 # Pre-requisito: secret RCLONE_CONFIG no repositorio (Settings > Secrets and
 # variables > Actions), com o conteudo do rclone.conf gerado por
@@ -21,8 +24,12 @@ on:
   workflow_dispatch:
     inputs:
       download_url:
-        description: "URL de onde descarregar o ficheiro (ex.: link do mdpi-res.com ou outro CDN aberto)"
-        required: true
+        description: "URL externo de onde descarregar o ficheiro (ex.: link do mdpi-res.com). Alternativa ao repo_path - dar so um dos dois."
+        required: false
+        type: string
+      repo_path:
+        description: "Caminho de um ficheiro dentro deste repositorio (ex.: articles_final.xlsx). Alternativa ao download_url - dar so um dos dois."
+        required: false
         type: string
       drive_folder_id:
         description: "ID da pasta do Google Drive de destino (o trecho depois de /folders/ no URL da pasta)"
@@ -37,7 +44,21 @@ jobs:
   push-to-drive:
     runs-on: ubuntu-latest
     steps:
-      - name: Descarregar o ficheiro
+      - name: Checkout do repositorio (necessario so quando repo_path foi dado)
+        if: inputs.repo_path != ''
+        uses: actions/checkout@v4
+
+      - name: Preparar ficheiro a partir do repositorio
+        if: inputs.repo_path != ''
+        run: |
+          set -euo pipefail
+          cp "${{ inputs.repo_path }}" "/tmp/upload_target"
+          echo "Ficheiro copiado do repositorio:"
+          file "/tmp/upload_target"
+          ls -la "/tmp/upload_target"
+
+      - name: Descarregar o ficheiro (necessario so quando download_url foi dado)
+        if: inputs.download_url != ''
         run: |
           set -euo pipefail
           curl -sL "${{ inputs.download_url }}" -o "/tmp/upload_target" \
@@ -46,6 +67,11 @@ jobs:
           echo "Ficheiro descarregado:"
           file "/tmp/upload_target"
           ls -la "/tmp/upload_target"
+
+      - name: Confirmar que ha um ficheiro para enviar
+        run: |
+          test -f "/tmp/upload_target" || \
+            (echo "ERRO: nem repo_path nem download_url produziram um ficheiro - da exactamente um dos dois." && exit 1)
 
       - name: Instalar rclone
         run: |
