@@ -485,6 +485,20 @@ que dá 39,28 / 38,46 / 39,74 MPa de misturas de RCA está a compilar o seu pró
 mesma revisão a citar «27,6 MPa» para ilustrar como um estudo escolheu a unidade funcional
 está a dar contexto. Em dúvida genuína, `DUVIDA`.
 
+📌 **Unidade impressa fisicamente implausível para a grandeza nomeada — corrige pelo par
+grandeza+magnitude, não rejeites de imediato** (caso SAMUDRALA, linha 4403, 2026-08-30, revisão
+sobre betão impresso em 3D). O eixo Y de uma figura dizia «Compressive strength (kg/m3)» —
+kg/m³ é densidade, fisicamente impossível para uma tensão. Mas o eixo X adjacente («Binder
+(kg/m3)») era genuinamente kg/m³, e a magnitude dos valores do eixo Y (32–40 numa figura,
+35–70 noutra) batia exactamente com MPa de betão, não com densidade (~2000–2500 kg/m³) nem com
+nenhuma outra grandeza plausível — sinal muito forte de que o rótulo copiou por engano a
+unidade do eixo vizinho. **Dois testes, ambos têm de bater antes de corrigir:** (1) a unidade
+impressa é fisicamente impossível para a grandeza nomeada (não «estranha», *impossível*); (2)
+existe uma unidade alternativa óbvia (normalmente a que a grandeza pede por definição — MPa
+para resistência) cuja magnitude bate com o valor lido. Sem os dois, é `DUVIDA`, não correcção
+silenciosa. `confianca=baixa` sempre, `[ALERTA ETAPA4: valor reconstituido corrigindo rotulo de
+unidade, nao publicado como tal pelo autor]`.
+
 ⭐ **Resistência medida por terceiros: ACEITA** (decisão da Kiê, 2026-08-24). Se o artigo
 reporta valores de resistência que não mediu — uma revisão que compila estudos primários, um
 artigo que assume o inventário de outro, uma classe atribuída por semelhança — **conta como
