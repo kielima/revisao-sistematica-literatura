@@ -62,7 +62,7 @@ jobs:
         run: |
           set -euo pipefail
           curl -sL "${{ inputs.download_url }}" -o "/tmp/upload_target" \
-            -A "Mozilla/5.0 (compatible; rclone-drive-push/1.0)" \
+            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" \
             --max-time 120 --fail
           echo "Ficheiro descarregado:"
           file "/tmp/upload_target"
