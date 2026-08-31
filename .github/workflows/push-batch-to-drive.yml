@@ -1,0 +1,75 @@
+name: Push lote de ficheiros para o Google Drive
+
+# Versao em lote do push-to-drive.yml: em vez de um ficheiro por dispatch,
+# le um manifesto JSON do proprio repositorio (lista de {filename,
+# download_url}) e envia todos, um a um, num unico runner. Cada ficheiro
+# fica com um nome de staging (ex.: STAGING_ETAPA2_L<linha>.pdf) - a
+# verificacao de conteudo (titulo/autor/DOI) e a renomeacao/ligacao ao
+# banco continuam a ser feitas depois, fora deste workflow.
+#
+# Pre-requisito: o mesmo secret RCLONE_CONFIG usado pelo push-to-drive.yml.
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest_path:
+        description: "Caminho, dentro deste repositorio, do JSON com a lista [{filename, download_url}, ...]"
+        required: true
+        type: string
+      drive_folder_id:
+        description: "ID da pasta do Google Drive de destino"
+        required: true
+        type: string
+
+jobs:
+  push-batch-to-drive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar rclone
+        run: |
+          curl -s https://rclone.org/install.sh | sudo bash
+
+      - name: Configurar rclone
+        env:
+          RCLONE_CONFIG_CONTENT: ${{ secrets.RCLONE_CONFIG }}
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONFIG_CONTENT" > ~/.config/rclone/rclone.conf
+
+      - name: Descarregar e enviar cada ficheiro do manifesto
+        run: |
+          set -euo pipefail
+          MANIFEST="${{ inputs.manifest_path }}"
+          FOLDER="${{ inputs.drive_folder_id }}"
+          COUNT=$(jq 'length' "$MANIFEST")
+          echo "Manifesto tem $COUNT ficheiros."
+          OK=0
+          FAIL=0
+          FAILED_LIST=""
+          for i in $(seq 0 $((COUNT-1))); do
+            FN=$(jq -r ".[$i].filename" "$MANIFEST")
+            URL=$(jq -r ".[$i].download_url" "$MANIFEST")
+            echo "=== [$i] $FN <- $URL ==="
+            rm -f /tmp/item.pdf
+            if curl -sL "$URL" -o /tmp/item.pdf --max-time 60 --fail -A "Mozilla/5.0 (compatible; rclone-drive-push/1.0)" \
+               && file /tmp/item.pdf | grep -q "PDF document"; then
+              if rclone copyto /tmp/item.pdf "drive:${FN}" --drive-root-folder-id "$FOLDER"; then
+                OK=$((OK+1))
+              else
+                FAIL=$((FAIL+1))
+                FAILED_LIST="$FAILED_LIST $FN(upload)"
+              fi
+            else
+              FAIL=$((FAIL+1))
+              FAILED_LIST="$FAILED_LIST $FN(download)"
+            fi
+            sleep 1
+          done
+          echo "OK=$OK FAIL=$FAIL"
+          echo "Falharam: $FAILED_LIST"
+          if [ "$FAIL" -gt 0 ]; then
+            echo "::warning::$FAIL ficheiros falharam: $FAILED_LIST"
+          fi
