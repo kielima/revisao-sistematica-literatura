@@ -9,7 +9,7 @@ import csv, sys, re
 from datetime import date
 
 MASTER = 'VERIFICACAO_TITULO_AUTOR_DOI.csv'
-PENDENTE = 'VERIFICACAO_PENDENTE_2026-08-31.csv'
+PENDENTE_DEFAULT = 'VERIFICACAO_PENDENTE_2026-08-31.csv'
 
 def parse_result_file(path):
     rows = []
@@ -27,7 +27,8 @@ def parse_result_file(path):
                               resumo_bate=resumo_bate, nota=nota))
     return rows
 
-def main(result_path):
+def main(result_path, pendente_path=None):
+    PENDENTE = pendente_path or PENDENTE_DEFAULT
     results = parse_result_file(result_path)
     by_fileid = {r['fileId']: r for r in results}
 
@@ -112,4 +113,5 @@ def main(result_path):
             print(f'  linha(s) {linhas} | {pdf} | veredito={veredito} | nota={nota}')
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    pendente_arg = sys.argv[2] if len(sys.argv) > 2 else None
+    main(sys.argv[1], pendente_arg)
