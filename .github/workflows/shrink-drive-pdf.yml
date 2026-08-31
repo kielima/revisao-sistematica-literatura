@@ -1,0 +1,87 @@
+name: Reduzir PDF do Google Drive (para caber no limite de download do MCP)
+
+# Busca um ficheiro do Drive pelo seu fileId, comprime-o com Ghostscript
+# (reduz a resolucao das imagens incorporadas, preservando todas as
+# paginas e o texto) e envia o resultado de volta para uma pasta do
+# Drive com outro nome. Existe porque a ferramenta MCP
+# mcp__Google_Drive__download_file_content tem um teto de 10 MB, e alguns
+# PDFs digitalizados (ex.: BRUCE, 2022.pdf, 13,5 MB) excedem esse teto —
+# sem conseguir descarregar o ficheiro original, nao ha como fazer OCR
+# nele localmente. A saida comprimida (normalmente poucos MB, /ebook a
+# 150dpi) fica bem abaixo do limite e pode entao ser descarregada e lida.
+#
+# Reutiliza o mesmo secret RCLONE_CONFIG do push-to-drive.yml (ver esse
+# ficheiro para o contexto completo da infraestrutura rclone).
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_file_id:
+        description: "fileId do Drive do PDF original a comprimir (obtido via search_files ou get_file_metadata)"
+        required: true
+        type: string
+      drive_folder_id:
+        description: "ID da pasta do Google Drive de destino para o ficheiro comprimido"
+        required: true
+        type: string
+      filename:
+        description: "Nome com que o ficheiro comprimido deve ficar no Drive (ex.: 'BRUCE, 2022 - reduzido.pdf')"
+        required: true
+        type: string
+      pdfsettings:
+        description: "Perfil de compressao do Ghostscript"
+        required: false
+        type: choice
+        default: /ebook
+        options:
+          - /screen
+          - /ebook
+          - /printer
+
+jobs:
+  shrink-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Instalar rclone e ghostscript
+        run: |
+          curl -s https://rclone.org/install.sh | sudo bash
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ghostscript
+
+      - name: Configurar rclone
+        env:
+          RCLONE_CONFIG_CONTENT: ${{ secrets.RCLONE_CONFIG }}
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONFIG_CONTENT" > ~/.config/rclone/rclone.conf
+
+      - name: Descarregar o ficheiro original do Drive por fileId
+        run: |
+          set -euo pipefail
+          rclone backend copyid drive: "${{ inputs.source_file_id }}" /tmp/original.pdf
+          echo "Original descarregado:"
+          ls -la /tmp/original.pdf
+          file /tmp/original.pdf
+
+      - name: Comprimir com Ghostscript
+        run: |
+          set -euo pipefail
+          gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
+            -dPDFSETTINGS="${{ inputs.pdfsettings }}" \
+            -dNOPAUSE -dQUIET -dBATCH \
+            -o /tmp/shrunk.pdf /tmp/original.pdf
+          echo "Tamanho original vs comprimido:"
+          ls -la /tmp/original.pdf /tmp/shrunk.pdf
+
+      - name: Enviar o ficheiro comprimido para o Google Drive
+        run: |
+          set -euo pipefail
+          rclone copyto "/tmp/shrunk.pdf" \
+            "drive:${{ inputs.filename }}" \
+            --drive-root-folder-id "${{ inputs.drive_folder_id }}" \
+            --progress
+
+      - name: Confirmar upload
+        run: |
+          rclone lsl "drive:" --drive-root-folder-id "${{ inputs.drive_folder_id }}" | grep -F "${{ inputs.filename }}" || \
+            (echo "AVISO: nao encontrei o ficheiro na listagem da pasta apos o upload" && exit 1)
