@@ -435,6 +435,27 @@ do MESMO objecto/material).
   não inventes o pareamento. Isso continua `DUVIDA`, mas por falta de dado emparelhado, não por
   proibição de calcular.
 
+⚠️✅ **A regra "calcula se for possível" exige que os DOIS números do cálculo estejam impressos
+no próprio artigo — não vale usar um factor de conversão padrão externo à obra.** Confirmado
+pela Kiê em 2026-09-01, caso VAN LOON et al. 2019 (linha 2977): um estudo de custo-sombra
+monetário (MPG holandês) tem, impresso no artigo, o factor de ponderação do GWP
+(0,05 €/kg CO₂-eq, Tabela 1) — mas os únicos resultados publicados (Tabela 4, Fig.4/5) são
+custos-sombra TOTAIS por viga, já agregando as 11 categorias de impacto monetizadas juntas, sem
+nenhuma quebra por categoria nem por material que isole a parcela do GWP/CO₂. Ter o factor de
+conversão não basta se o artigo nunca dá o valor a converter — inverter a soma das 11 categorias
+exigiria inventar um número que o artigo não publica. `Rejeitado`, não `DUVIDA`, porque a
+investigação (reler o artigo inteiro) já confirmou que o dado necessário simplesmente não existe
+no texto.
+- O mesmo raciocínio cobre qualquer método endpoint/agregado (Eco-indicator 99, ReCiPe endpoint
+  em Points, DALY, espécies/ano, USD) quando os resultados só saem por categoria-guarda-chuva
+  (saúde humana/ecossistema/recursos) ou por estágio do ciclo de vida, sem uma linha específica
+  de "climate change"/GWP separada das outras categorias — não há o que dividir.
+- Se o artigo, ao contrário, imprimir uma linha específica de "Climate change" (ou GWP) já
+  separada das outras categorias, mesmo que só em unidade normalizada (Points), a separação por
+  categoria existe mas a conversão de Points para kg CO2-eq ainda depende de um factor de
+  caracterização do método (ex.: ReCiPe) que não vem impresso no artigo — continua `DUVIDA`,
+  não calcules com factores de fora do artigo sem confirmar com a Kiê primeiro.
+
 ⚠️ **Força por área sem mistura nenhuma: `DUVIDA`.** Um artigo de soldadura com 199 MPa de
 tracção de chapa de alumínio é força por área e está muito acima de 20, mas **não há mistura
 de todo** — não é o caso do componente de reforço dentro de uma mistura, é outra coisa.
