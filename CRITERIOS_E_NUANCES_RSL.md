@@ -560,6 +560,49 @@ propriedade do artigo. Não confundir uma com a outra.
    ⚠️ Nota: como a Etapa 2 aceita qualquer material com força por área, os materiais
    regionais (bambu, fibras) **continuam a chegar aqui**. O C6 permanece operante.
 
+   **⭐⭐ Critério operacional revisto (Kiê, 2026-09-06), para uso na dissertação.** A pergunta
+   de fundo não é "este material existe em todo o mundo" (nenhum material geológico/agrícola
+   está disponível em qualquer ponto do globo — nem o cimento, cujas matérias-primas também têm
+   distribuição desigual), mas sim duas perguntas em sequência:
+
+   1. **Comércio:** o material pode ser **obtido/comprado em qualquer lugar via comércio
+      internacional**, como qualquer commodity exportada (o teste é logística/mercado, não
+      geologia/agronomia — a madeira estrutural, a pedra ornamental e o bambu cumprem isto
+      mesmo sendo produzidos de forma concentrada, porque há um mercado de exportação
+      estabelecido e substancial).
+   2. **Escala:** o material tem produção suficiente para cobrir, de facto, a fatia de mercado
+      que o próprio estudo propõe substituir — **não o volume total de betão global** (~30 mil
+      milhões t/ano, um padrão que nenhum insumo específico cumpriria, nem a sílica de fumo nem
+      a escória de alto-forno), mas o segmento **específico** visado: se o material substitui o
+      betão inteiro como sistema estrutural, compara-se com o volume de betão; se substitui só
+      o aço de armadura, compara-se com a produção de aço de reforço (~500 milhões t/ano); se
+      substitui um agregado leve, compara-se com o mercado de agregados leves (um nicho, não o
+      agregado total ~40-50 mil milhões t/ano); se substitui revestimento/acabamento, compara-se
+      com o mercado de revestimento equivalente. **Exemplo que reprovou nesta escala:** pedra
+      natural/dimension stone como sistema estrutural substituindo betão — produção global
+      (~1,4 mil milhões t/ano no máximo, provavelmente bem menos) é ~3-5% do volume de betão, e a
+      técnica construtiva (blocos maciços) não é industrializável à mesma escala — mantém-se
+      Rejeitado (casos 4938, 4707). **Exemplo que passou:** a mesma pedra natural, no mesmo
+      critério, quando o estudo a propõe como revestimento de fachada contra pedra artificial
+      (caso 4618) — aí o mercado de referência é o de revestimentos, não o de betão estrutural, e
+      nesse mercado mais estreito a pedra natural é uma commodity de escala perfeitamente
+      relevante.
+
+   **Registo obrigatório a partir de 2026-09-06:** cada linha revista sob este critério passa a
+   preencher duas colunas novas do banco — `E3_material` (coluna 45: o material em causa) e
+   `E3_substitui` (coluna 46: o que esse material se propõe a substituir, no estudo em questão —
+   não uma suposição genérica). É este par que define o mercado de referência da comparação de
+   escala.
+
+   ⚠️ **Nuance importante, não confundir com erro:** uma linha pode ter `E2_resistencia=Aceito`
+   por a Tabela do próprio artigo citar uma resistência intrínseca do material (regra do
+   "catálogo comparativo", ex.: "calcário: 35-60 MPa") **mesmo quando a aplicação que O ESTUDO
+   propõe não é estrutural** (ex.: o mesmo calcário usado como revestimento de fachada, caso
+   4618). A Etapa 2 testa a *capacidade física* do material (uma propriedade do calcário em si);
+   a Etapa 3 testa a *aplicação real proposta pelo estudo* e o mercado que essa aplicação
+   compete. As duas perguntas são independentes e podem ter respostas diferentes para a mesma
+   linha — não há inconsistência entre "passou o fck" e "não é usado estruturalmente aqui".
+
 ### Etapa 4 — Controlo de qualidade ✅ REDESENHADA (2026-08-24)
 
 **Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.** Ver a secção «O checklist de qualidade
