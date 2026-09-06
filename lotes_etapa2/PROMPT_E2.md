@@ -958,6 +958,33 @@ combina com a redução de "1,2 kg CO2-eq/m³" citada de outro estudo sobre subs
 América do Norte). Se a redução e a referência vierem realmente da mesma fonte/estudo, aplica-se
 antes a regra "total+divisor"/"equivalência explícita" normalmente (Aceito).
 
+**Princípio geral do cálculo (Kiê, 2026-09-06): "se é possível converter aceita, mesmo que não
+seja o mesmo cálculo [total+divisor]".** A regra "total+divisor" é um EXEMPLO do princípio, não o
+único formato aceite. Qualquer cálculo válido — factor de emissão por matéria-prima × proporção de
+mistura (caso DONG, linha 3217: Tabela 5 dá os factores kg CO₂/kg por matéria-prima, Tabela 4 dá a
+composição exacta da mistura, ambas do mesmo artigo — média ponderada calculada = Aceito), ou
+qualquer outra combinação aritmética de números impressos — é Aceito desde que (a) todos os números
+usados venham do MESMO artigo (nunca combinar fontes/citações diferentes — ver regra 15), e (b) o
+resultado dependa de um único cálculo sem ambiguidade, sem precisar de nenhuma constante externa
+não impressa no artigo. O que decide não é a forma do cálculo, é a origem dos números.
+
+**16. Índice/endpoint de ACV ponderado (mPEW, mPt, Pt, % normalizada) sem factor de conversão para
+massa impresso — REJEITADO** (Kiê, 2026-09-06, Tarefa Supabase #1383, casos PEYS linha 2989 e DANDU
+linha 4180 — "Padrão B"). Alguns artigos de ACV a sério (ReCiPe, IMPACT2002+) reportam a categoria
+"Climate change"/"Global warming" só em unidade agregada/normalizada — pontos (Pt/mPt), person
+equivalents weighted (PEW/mPEW), ou percentagem normalizada de um eixo 0–100% — sem nunca imprimir
+o valor em kg CO₂-eq. Isto PARECE cair no princípio geral acima (é um cálculo, falta só um factor),
+mas difere do caso DONG num ponto essencial: o factor de conversão (normalização/ponderação
+ReCiPe ou IMPACT2002+) NÃO é impresso no artigo E não existe um valor-padrão único e inequívoco —
+há várias versões publicadas do mesmo método (ex.: ReCiPe 2008 Europa H vs. o conjunto recalculado
+EU27 2010) com valores numéricos diferentes entre si. Isto é diferente da Excepção 5b (densidade
+padrão do cimento, 3,15 t/m³): ali existe UM valor físico universalmente aceite; aqui existem
+VÁRIOS valores metodológicos possíveis, e escolher um seria uma suposição de quem avalia, não um
+dado do artigo nem uma constante única. **Antes de rejeitar, confirmar sempre por leitura completa
+(texto + figuras renderizadas) que não há mesmo nenhum valor em kg CO₂-eq escondido no artigo**
+(ex.: numa tabela de midpoint separada do gráfico normalizado) — só rejeitar quando a ausência for
+confirmada em 100% do documento.
+
 **Regra do material substituído (nova, caso recorrente em ACV de encargo evitado):** quando o
 material do próprio estudo não tem resistência declarada e a única força por área do
 documento pertence ao material que ele SUBSTITUI (ex.: pás de turbina reaproveitadas vs. o
