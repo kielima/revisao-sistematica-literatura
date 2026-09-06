@@ -577,16 +577,27 @@ propriedade do artigo. Não confundir uma com a outra.
       betão inteiro como sistema estrutural, compara-se com o volume de betão; se substitui só
       o aço de armadura, compara-se com a produção de aço de reforço (~500 milhões t/ano); se
       substitui um agregado leve, compara-se com o mercado de agregados leves (um nicho, não o
-      agregado total ~40-50 mil milhões t/ano); se substitui revestimento/acabamento, compara-se
-      com o mercado de revestimento equivalente. **Exemplo que reprovou nesta escala:** pedra
-      natural/dimension stone como sistema estrutural substituindo betão — produção global
-      (~1,4 mil milhões t/ano no máximo, provavelmente bem menos) é ~3-5% do volume de betão, e a
-      técnica construtiva (blocos maciços) não é industrializável à mesma escala — mantém-se
-      Rejeitado (casos 4938, 4707). **Exemplo que passou:** a mesma pedra natural, no mesmo
-      critério, quando o estudo a propõe como revestimento de fachada contra pedra artificial
-      (caso 4618) — aí o mercado de referência é o de revestimentos, não o de betão estrutural, e
-      nesse mercado mais estreito a pedra natural é uma commodity de escala perfeitamente
-      relevante.
+      agregado total ~40-50 mil milhões t/ano).
+
+      ⭐ **Correcção decisiva (Kiê, 2026-09-06): o benchmark estreito só vale quando o papel
+      proposto é um COMPONENTE do próprio sistema de betão estrutural** (cimento, agregado,
+      armadura — todos dentro do sistema que o `fck` de E2_resistencia está a qualificar).
+      Quando o papel que o estudo escolheu testar é um **subsistema construtivo diferente**
+      (revestimento de fachada, isolamento) que não compete com a função estrutural do betão, a
+      comparação tem de ser feita contra a escala **estrutural**, não contra o nicho que o
+      estudo testou — porque foi essa capacidade estrutural que o `fck` já comprovou, e é essa
+      pergunta (é um concorrente viável do betão estrutural, à escala que a RSL investiga?) que
+      importa, não a aplicação que aquele artigo em particular escolheu explorar.
+      **Caso demonstrativo (4618, ALQADI):** pedra natural (calcário) tem `fck` de catálogo
+      (35-60 MPa) suficiente para qualificar como estrutural em E2_resistencia — mas o ESTUDO
+      propõe-na só como revestimento de fachada contra pedra artificial. Primeira tentativa desta
+      sessão comparou contra o mercado de revestimento (passou); a Kiê corrigiu: como o `fck` já
+      confirma capacidade estrutural, o benchmark certo é a produção global de pedra natural
+      (~1,4 mil milhões t/ano no máximo) contra o volume de betão estrutural (~30 mil milhões
+      t/ano) — só ~3-5%, escala claramente insuficiente. **Mantido/revertido para Rejeitado**,
+      alinhado com os casos já documentados (4938 cut-stone, 4707 pedra estrutural). Este é o
+      exemplo de referência para qualquer caso futuro em que o papel testado no artigo (nicho)
+      diverge do papel que o `fck` já qualificou (estrutural).
 
    **Registo obrigatório a partir de 2026-09-06:** cada linha revista sob este critério passa a
    preencher duas colunas novas do banco — `E3_material` (coluna 45: o material em causa) e
