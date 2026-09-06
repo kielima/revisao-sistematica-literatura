@@ -927,6 +927,22 @@ excepção equivalente para **compressão** de um componente que não seja a mis
 estudo — grandeza certa e objecto central ao estudo não bastam quando o material não é
 cimentício. Só conta compressão da mistura de betão/argamassa em si (regra 3).
 
+**14. Resistência usada só como valor de entrada de um cálculo intermédio, sem que o próprio
+estudo produza, teste ou modele esse material — REJEITADO** (Kiê, 2026-09-06, caso WASKOW,
+linha 2708: tese sobre reciclagem de RCD via jigue a ar usa 40 MPa como resistência-alvo
+apenas para calcular, através de uma equação empírica de outro autor, a percentagem de
+substituição de agregado natural por reciclado; o próprio texto diz explicitamente que a ACV
+não considera o processo de produção desse concreto hipotético). Diferente da regra do
+"catálogo comparativo aceito" (que aceita uma classe/faixa usada como especificação de PROJETO
+do sistema efetivamente estudado) e da "resistência medida por terceiros" (que aceita um valor
+citado de outro estudo QUANDO descreve o mesmo objeto/material que a revisão trata): aqui o
+valor não descreve nenhum material que o estudo produz, testa, modela ou sequer declara como
+seu — existe só para alimentar uma fórmula de outro propósito. Sinal distintivo: perguntar "este
+valor é uma propriedade de um material que este estudo estuda?" — se a resposta for não (é só
+um input matemático emprestado), rejeita. **Cascata:** rejeitar direto em `E2_resistencia`;
+`E2_co2` fica por avaliar (moot), mesmo que já tivesse sido avaliado Aceito antes de a dúvida
+de resistência ter sido levantada.
+
 **Regra do material substituído (nova, caso recorrente em ACV de encargo evitado):** quando o
 material do próprio estudo não tem resistência declarada e a única força por área do
 documento pertence ao material que ele SUBSTITUI (ex.: pás de turbina reaproveitadas vs. o
