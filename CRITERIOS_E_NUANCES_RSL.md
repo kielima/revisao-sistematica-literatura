@@ -614,6 +614,28 @@ propriedade do artigo. Não confundir uma com a outra.
    compete. As duas perguntas são independentes e podem ter respostas diferentes para a mesma
    linha — não há inconsistência entre "passou o fck" e "não é usado estruturalmente aqui".
 
+   📊 **Números de referência para a comparação de escala (verificados 2026-09-06), quando o
+   papel proposto é substituto de cimento/ligante (SCM) — usar sempre a produção real do
+   subproduto UTILIZÁVEL, não da matéria-prima bruta (ex.: casca de arroz ≠ cinza de casca de
+   arroz; só 20-25% da casca vira cinza):**
+
+   | Material | Produção global/ano | Nota |
+   |---|---|---|
+   | Cinza volante (fly ash) | ~600 milhões t | referência universal |
+   | Escória de alto-forno (GGBS) | ~530 milhões t | referência universal |
+   | Resíduo de óleo de palma (EFB+casca+fibra) | ~200-300+ milhões t (33-57% da referência) | **Aceito** — concentrado (Indonésia+Malásia ~85%) mas com comércio internacional estabelecido |
+   | Cinza de casca de arroz (a cinza, não a casca bruta) | ~20-34 milhões t (3-6%) | **Rejeitado** — 2026-09-06 |
+   | Cinza de bagaço de cana | ~13-20 milhões t (2-4%) | **Rejeitado** — 2026-09-06 |
+   | Concha marinha (resíduo bruto) | ~10 milhões t (1,7-1,9%) | **Rejeitado** — 2026-09-06 |
+   | Cinza de casca de coco | provavelmente <2,5 milhões t (<1%) | **Rejeitado** — 2026-09-06, a menor de todas |
+
+   **Regra de bolso:** abaixo de ~10% da escala dos SCMs universais (fly ash/escória), rejeitar
+   por escala insuficiente — mesmo sendo um resíduo real e uma commodity genuína a nível local.
+   **Excepções que não entram nesta tabela:** biochar (não é matéria-prima regional, é uma
+   tecnologia de produção a partir de qualquer biomassa local disponível — sempre Aceito) e lã
+   mineral/de pedra ("stone wool", feita de basalto/escória fundidos — é produto industrial, não
+   material natural regional, mesma lógica da cinza volante/escória).
+
 ### Etapa 4 — Controlo de qualidade ✅ REDESENHADA (2026-08-24)
 
 **Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.** Ver a secção «O checklist de qualidade
