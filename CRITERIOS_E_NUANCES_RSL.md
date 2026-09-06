@@ -723,6 +723,39 @@ do concreto aplicado. Quem não reparar calcula um `ci` que não existe em lado 
 | **0,5** | A associação existe mas exige inferência (ex.: CO₂ por mistura numa tabela, resistência noutra, ligadas só pelo nome do traço) |
 | **0** | CO₂ agregado, médio, ou de recorte diferente do da resistência — o par tem de ser construído por quem extrai |
 
+## ⭐⭐ Novo status_triagem "Revisão" para revisões sem ACV própria (Kiê, 2026-09-06)
+
+**Toda linha que chega à Etapa 4 passa pelos 6 itens normalmente** — não se pula a
+pontuação por ser uma revisão. Mas se, ao ler o PDF completo, se confirmar que o artigo é
+uma **revisão narrativa sem ACV própria** (não conduz a sua própria avaliação de ciclo de
+vida — só cita/compila resultados de outros estudos, tipicamente reflectido em QB=0, QC=0
+ou próximo disso, e QF=0 porque não há par CO₂↔resistência de dados próprios), o
+`status_triagem` dessa linha muda de Elegível/Inconclusivo para **"Revisão"** — uma
+categoria nova, só para isto, distinta das cinco existentes (Duplicado/Rejeitado/
+Inconclusivo/Elegível/Sem acesso).
+
+⚠️ **Distinguir de uma "mini-ACV dentro de uma revisão".** Se o artigo é maioritariamente
+uma revisão mas tem uma secção com uma ACV conduzida pelos próprios autores (dados de
+inventário próprios, mistura própria testada), **não** é "Revisão" — continua no funil
+normal. Caso de referência: linha 2605 (CHEN et al., 2024b) tem tom de revisão no resto do
+artigo mas a secção 7 é uma ACV própria com traços nomeados e dados de inventário citados —
+ficou como Inconclusivo/Elegível normal. Já as linhas 2593 (BARBHUIYA, biochar) e 2603
+(CHEN et al., 2024c, impressão 3D geopolímero) não têm nenhuma ACV própria (zero MPa, zero
+base de dados, zero método LCIA no artigo inteiro) — mudaram para Revisão.
+
+**Porquê:** estas linhas não têm dado quantitativo próprio (não alimentam o `ci`,
+consistente com a regra já vigente "passa o critério mas não alimenta a metanálise"), mas
+não são para descartar — servem para o **ramo de citação do PRISMA**: os estudos primários
+que a revisão cita para os seus números de resistência/CO₂ são candidatos a entrar na RSL
+como fontes externas descobertas por citação, o mesmo mecanismo já usado para o SCOPE et
+al. 2021 (linha 3671, ver `lotes_etapa2/SCOPE_2021_ESTUDOS_LCA_TAB_A1.csv`).
+
+**Registo obrigatório ao identificar uma linha como Revisão:** o comentário da linha tem
+de listar as referências específicas (número/autor da referência dentro do artigo) que
+forneceram os dados de resistência/CO₂ usados na Etapa 2, para que possam ser localizadas
+depois e avaliadas como fontes externas. Não é preciso extrair essas fontes já — só
+registar quais são, para um passo posterior dedicado a isso.
+
 ## ⭐⭐ Estratificação por terços — o terço fraco sai do resultado principal, mas fica guardado
 
 **Decisão da Kiê, 2026-08-24.** Os estudos são ordenados pelo escore e divididos em
