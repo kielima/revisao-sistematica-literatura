@@ -943,6 +943,21 @@ um input matemático emprestado), rejeita. **Cascata:** rejeitar direto em `E2_r
 `E2_co2` fica por avaliar (moot), mesmo que já tivesse sido avaliado Aceito antes de a dúvida
 de resistência ter sido levantada.
 
+**15. Redução/delta de CO₂ citado de estudo(s) externo(s), sem o nível de referência (baseline)
+impresso na MESMA fonte — REJEITADO** (Kiê, 2026-09-06, Tarefa Supabase #1383, casos AHMED linha
+3224 e XIAO linha 3186). Um artigo pode imprimir só a diferença ("reduz as emissões em X kg
+CO₂-eq/unidade") sem nunca dar o nível absoluto de referência — isto continua a não ser um valor
+aceitável, mesmo sendo massa real e não percentagem, porque falta a base para reconstituir o
+nível absoluto do material em si. **Antes de rejeitar, verificar sempre se o artigo imprime esse
+nível de referência noutro sítio** (mesma lógica da regra "total+divisor") — mas só conta se vier
+da **mesma fonte/citação** que a redução. Se o valor de referência encontrado no artigo vier de
+uma citação **diferente** da citação da redução (mesmo que ambos descrevam "concreto" em termos
+gerais), as duas fontes não são combináveis — calcular a partir delas seria inventar um número
+que nenhum dos dois estudos publica (caso XIAO: um "600 kg CO2-eq/m³" genérico da ref. [2] não se
+combina com a redução de "1,2 kg CO2-eq/m³" citada de outro estudo sobre substituição NAC→RAC na
+América do Norte). Se a redução e a referência vierem realmente da mesma fonte/estudo, aplica-se
+antes a regra "total+divisor"/"equivalência explícita" normalmente (Aceito).
+
 **Regra do material substituído (nova, caso recorrente em ACV de encargo evitado):** quando o
 material do próprio estudo não tem resistência declarada e a única força por área do
 documento pertence ao material que ele SUBSTITUI (ex.: pás de turbina reaproveitadas vs. o
