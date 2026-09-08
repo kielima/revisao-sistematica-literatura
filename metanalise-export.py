@@ -4,8 +4,10 @@ kielima.com/metanalise (public/assets/metanalise.js no repositório kielima-site
 Uso:
     python3 metanalise-export.py > metanalise_compact.json
 
-Cada ponto exportado é [fck_MPa, co2_kg_m3, categoria_1_letra, estrato_1_letra].
-Filtra a pares comparáveis por m3 (exclui totais de estrutura inteira, que nao
+Saida: {"pairs": [...], "unit_stats": [...]}.
+
+`pairs`: cada ponto e [fck_MPa, co2_kg_m3, categoria_1_letra, estrato_1_letra].
+Filtra a pares comparaveis por m3 (exclui totais de estrutura inteira, que nao
 tem a mesma unidade de analise) e classifica o material por palavras-chave no
 campo `material`+`titulo`, com um dicionario OVERRIDE por row_id para os casos
 que nao seguem um padrao regex generico (julgamento caso a caso feito sobre a
@@ -14,13 +16,37 @@ CLAUDE.md / conversa da sessao 2026-09-08: a Kie pediu para zerar "outros",
 classificando cada um na familia certa e confirmando que agregado de pneu
 triturado entra em "reciclado").
 
+⚠️ SO entram em `pairs` linhas cujo co2_unidade (dados_fck col 15) ja foi
+confirmado como kg CO2-eq/m3 -- nativo (publicado assim pelo artigo, tag
+[RELABEL] inclusive) ou derivado (convertido por nos, tag [DERIVADO]). Linhas
+cuja unidade ainda esta na forma original do estudo (por m2, por tonelada,
+por kg, por elemento inteiro, por metro linear, indice ja normalizado por
+MPa, ou nao classificada) ficam de fora de `pairs` -- entravam antes sem
+filtro nenhum e contaminavam o grafico (achado de 2026-09-08: a linha
+argamassa row_id 2582 tinha co2_valor=0.176, que e o indice kg/(m3.MPa)
+publicado pelo autor, nao um valor em kg/m3 -- estava plotado tal e qual como
+se fosse 0.18 kg CO2/m3, um numero fisicamente impossivel para concreto).
+Essas linhas continuam contadas em `unit_stats`, para o grafico de
+transparencia de unidades no site nao perder o panorama completo -- ver
+CO2_UNIDADE_PENDENTE_2026-09-08.csv para o worklist de conversao.
+
+`unit_stats`: [{"kind": "nativo"|"derivado"|"pendente", "cat": <slug>, "n": N}, ...]
+-- kind distingue "unidade normalizada em kg/m3, como o artigo publicou" de
+"convertida por nos para a analise" de "ainda na unidade original do estudo,
+por converter". cat so importa dentro de "pendente" (a familia de unidade:
+m2/tonelada/kg/elemento/metro_linear/ja_mpa/outro); nativo e derivado tem
+cat="m3" sempre. Recalculado a cada corrida deste script -- nao precisa de
+manutencao manual conforme novos lotes forem confirmando mais linhas.
+
 Depois de gerar o JSON, injectar manualmente em public/assets/metanalise.js
-(substituir o array `var DATA = [...]`) e reconferir os textos que citam
-contagens (KPI de pares, tier-n-p/tier-n-s) no mesmo ficheiro.
+(substituir os arrays `var DATA = [...]` e `var UNIT_STATS = [...]`) e
+reconferir os textos que citam contagens (KPI de pares, tier-n-p/tier-n-s) no
+mesmo ficheiro.
 """
 import json
 import re
 import sys
+import unicodedata
 
 import openpyxl
 
@@ -273,22 +299,76 @@ def tofloat(v):
     return float(m.group()) if m else None
 
 
+# --------------------------------------------------------------------------
+# Classificacao de co2_unidade -- nativo (kg/m3 como publicado) vs derivado
+# (convertido por nos) vs pendente (ainda na unidade original do estudo).
+# Mesma logica da investigacao de 2026-09-08 (ver CO2_UNIDADE_PENDENTE.csv),
+# agora vivendo aqui para nao precisar de manutencao manual a cada onda.
+
+_M3_OK_PAT = re.compile(r'(kg\s*co2[\-\s]?e?q?\.?\s*/\s*m\s*3\b)|(/\s*m\^?3\b)|(por\s*metro\s*cubico)|(por\s*m3\b)')
+_JA_MPA_PAT = re.compile(r'/\s*\(?\s*m3\s*[\.\*]\s*mpa|/\s*mpa\b|\.\s*mpa\)|\bkg\s*co2[\-\s]?e?q?\.?\s*/\s*\(m3\s*mpa\)')
+_TONELADA_PAT = re.compile(r'\btonelada|/\s*t\b|\btco2')
+_KG_PAT = re.compile(r'/\s*kg\b')
+_M2_PAT = re.compile(r'\bm2\b|metro quadrado')
+_METRO_LINEAR_PAT = re.compile(r'metro linear|\bml\b|/\s*m\b(?!2|3)|\bkm\b')
+_ELEMENTO_PAT = re.compile(
+    r'\btotal\b|por peca|por unidade|por painel|por bloco|por viga|por pilar|por laje|'
+    r'elemento estrutural|demonstrador|por edificio|por construcao|por segmento|por coluna|'
+    r'whole element|per unit|per element|per piece'
+)
+_ESPECIME_PAT = re.compile(r'por corpo de prova|por especime|per specimen|por amostra')
+_DERIVADO_TAG_PAT = re.compile(r'\[derivado\b', re.I)
+
+
+def _norm(s):
+    s = (s or '').strip().lower()
+    s = unicodedata.normalize('NFKD', s)
+    return ''.join(c for c in s if not unicodedata.combining(c))
+
+
+def classify_unidade(u_raw):
+    """Devolve (kind, cat). kind em {'nativo','derivado','pendente'}; cat so
+    e informativo dentro de 'pendente' (a familia de unidade original)."""
+    u = _norm(u_raw)
+    if not u:
+        return 'nativo', 'm3'  # legado: linhas antigas sem co2_unidade preenchido, kg/m3 implicito
+    if _DERIVADO_TAG_PAT.search(u):
+        return 'derivado', 'm3'
+    if _M3_OK_PAT.search(u) and not _JA_MPA_PAT.search(u):
+        return 'nativo', 'm3'  # inclui as [RELABEL ...] -- valor nao tocado, so a etiqueta
+    if _JA_MPA_PAT.search(u):
+        return 'pendente', 'ja_mpa'
+    if _TONELADA_PAT.search(u):
+        return 'pendente', 'tonelada'
+    if _KG_PAT.search(u):
+        return 'pendente', 'kg'
+    if _M2_PAT.search(u):
+        return 'pendente', 'm2'
+    if _METRO_LINEAR_PAT.search(u):
+        return 'pendente', 'metro_linear'
+    if _ELEMENTO_PAT.search(u):
+        return 'pendente', 'elemento'
+    if _ESPECIME_PAT.search(u):
+        return 'pendente', 'especime'
+    return 'pendente', 'outro'
+
+
 def main():
     wb = openpyxl.load_workbook(BASE)
     ws = wb['dados_fck']
 
     compact = []
+    unit_counts = {}  # (kind, cat) -> n
     for r in range(2, ws.max_row + 1):
         row_id = ws.cell(r, 1).value
         titulo = ws.cell(r, 3).value
         material = ws.cell(r, 7).value
         fck = tofloat(ws.cell(r, 8).value)
         co2 = tofloat(ws.cell(r, 14).value)
+        unidade = ws.cell(r, 15).value
         estrato = ws.cell(r, 22).value  # e4_estrato: "principal" | "sensibilidade"
 
         if fck in (None, 0) or co2 is None:
-            continue
-        if not (FCK_MIN <= fck <= FCK_MAX and CO2_MIN <= co2 <= CO2_MAX):
             continue
         if estrato not in TIERCODE:
             # dados_fck só deve conter linhas Elegível (ver LEGENDA); um
@@ -297,12 +377,28 @@ def main():
             print(f'AVISO: linha {r} (row_id={row_id}) sem e4_estrato, ignorada', file=sys.stderr)
             continue
 
+        kind, ucat = classify_unidade(unidade)
+        unit_counts[(kind, ucat)] = unit_counts.get((kind, ucat), 0) + 1
+
+        if kind == 'pendente':
+            # unidade ainda na forma original do estudo, nao convertida para
+            # kg/m3 -- fora de `pairs` (ver nota no topo do ficheiro), mas ja
+            # contado em unit_counts acima.
+            continue
+        if not (FCK_MIN <= fck <= FCK_MAX and CO2_MIN <= co2 <= CO2_MAX):
+            continue
+
         cat = classify(row_id, material, titulo)
         if cat == 'outros':
             print(f'AVISO: linha {r} (row_id={row_id}) caiu em outros -- material={material!r}', file=sys.stderr)
         compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato]])
 
-    json.dump(compact, sys.stdout, separators=(',', ':'))
+    unit_stats = [
+        {'kind': kind, 'cat': ucat, 'n': n}
+        for (kind, ucat), n in sorted(unit_counts.items())
+    ]
+
+    json.dump({'pairs': compact, 'unit_stats': unit_stats}, sys.stdout, separators=(',', ':'))
 
 
 if __name__ == '__main__':
