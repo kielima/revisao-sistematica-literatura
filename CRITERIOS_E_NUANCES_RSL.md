@@ -809,7 +809,12 @@ linha numa tabela e um parágrafo no texto, e não custa dados nenhuns.
    não é «os que ficaram abaixo de 4,0», é «o terço mais fraco», e os estudos continuam
    descritos no texto.
 2. **O escore por estudo tem de ir para a `meta_analysis_base.xlsx`**, numa coluna própria —
-   senão não se consegue nem estratificar nem refazer a conta com todos.
+   senão não se consegue nem estratificar nem refazer a conta com todos. **✅ Feito em
+   2026-09-08:** `dados_fck` ganhou `e4_qualidade_total` e `e4_estrato` (col 21-22), copiados de
+   `E4_estrato` (col 54) em `articles_final.xlsx`, que é a fonte de verdade. Corte calculado
+   sobre os 600 artigos Elegível: score ≥ 4,0/6,0 → `principal` (466); < 4,0 → `sensibilidade`
+   (134). Script `apply_e4_estrato.py` recalcula tudo do zero — nunca editar `E4_estrato` à mão.
+   O site kielima.com/metanalise já expõe um filtro para mostrar/ocultar cada estrato.
 3. **A análise de sensibilidade tem de ser feita por família de material também**, porque a
    estratificação por qualidade e a estratificação por material são independentes e podem
    interagir (ex.: se todos os estudos de bambu caírem no terço fraco, excluí-lo elimina uma
