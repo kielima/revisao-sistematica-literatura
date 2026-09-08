@@ -22,6 +22,15 @@ permissions:
   pull-requests: write   # ler e mergear o PR
   actions: write         # NECESSARIO para createWorkflowDispatch no ultimo step.
                          # Sem isto a chamada de dispatch falha com HTTP 403.
+  checks: read           # NECESSARIO para checks.listForRef no step "Verificar
+                         # que todos os checks passaram". Sem isto, GET
+                         # .../commits/{sha}/check-runs falha com HTTP 403
+                         # "Resource not accessible by integration" sempre que
+                         # ha um PR aberto de facto para resolver (descoberto
+                         # 2026-09-08, PR #158 — o unico teste real deste
+                         # step ate agora, porque todo run anterior disparado
+                         # por CI-em-main resolvia para "sem PR aberto" e
+                         # pulava o step antes de o exercitar).
 
 concurrency:
   group: auto-merge-${{ github.event.workflow_run.head_sha }}
