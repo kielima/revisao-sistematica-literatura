@@ -38,51 +38,180 @@ TIERCODE = {'principal': 'p', 'sensibilidade': 's'}
 FCK_MIN, FCK_MAX = 1, 300
 CO2_MIN, CO2_MAX = -1000, 5000
 
-# Overrides explicitos pela linha da folha dados_fck (NAO o row_id da coluna
-# 1, que referencia articles_final.xlsx -- este dict foi construido sobre o
-# indice de iteracao da folha, ver classify_v2.py da sessao 2026-09-08), para
-# os casos que nao seguem um padrao regex generico (julgamento caso a caso
-# sobre a amostra completa dos 381 materiais que caiam em "outros" ate
-# 2026-09-08).
-OVERRIDE = {}
+# Overrides explicitos por (row_id, material) -- NAO pela linha da folha
+# dados_fck, que desloca sempre que uma linha e inserida/apagada (armadilha
+# descoberta 2026-09-08: a purga de linhas fck<20 e da familia
+# tijolo/bloco/paver/telha deslocou os indices e fez varios overrides
+# apontarem para a linha errada, caindo em "outros" ou pior, classificando
+# o material errado). (row_id, material) e estavel porque row_id referencia
+# articles_final.xlsx (nao muda) e o texto do material nao muda com a
+# posicao da linha. Julgamento caso a caso feito sobre a amostra completa
+# dos 381 materiais que caiam em "outros" ate 2026-09-08 -- ver
+# classify_v2.py da sessao. Entradas cujo (row_id, material) ja nao existe
+# em dados_fck (por a linha ter sido removida por outro motivo, ex. tijolo
+# rejeitado por E1_moldavel) ficam mortas no dict, sem efeito -- inofensivo.
+OVERRIDE = {
+    (2609, 'Classe 1A (20-35 MPa) - traco max. impacto: (Artigo 01) 550C-50CR-MK'): 'opc',
+    (2609, 'Classe 1A (20-35 MPa) - traco min. impacto: (Artigo 07) CFL 25-50-25 (CV+po de calcario substituindo cimento)'): 'opc',
+    (2609, 'Classe 1B (35-50 MPa) - traco max. impacto: (Artigo 01) 550C-30CR-MK'): 'opc',
+    (2609, 'Classe 2 (50-80 MPa) - traco max. impacto: (Artigo 11) M6'): 'opc',
+    (2628, 'Argila solidificada com cal virgem (grupo L20-OC, cura mista)'): 'ligantes',
+    (2628, 'Argila solidificada com magnesia reativa (grupo M20-OC, cura mista)'): 'ligantes',
+    (2688, 'Carbon-reinforced concrete (CRC) — painel de fachada, 4000x3600x40mm (~0.576 m3)'): 'opc',
+    (2693, 'Viga BFRP pre-tensionada, 1200x200x200mm (Beams 1.1/1.2)'): 'opc',
+    (2693, 'Viga BFRP pre-tensionada, 2000x200x200mm (Beams 2.1/2.2/2.3)'): 'opc',
+    (2693, 'Viga BFRP pre-tensionada, 2700x200x200mm (Beams 3.1/3.2)'): 'opc',
+    (2693, 'Viga BFRP pre-tensionada, 3860x200x200mm (Beams 4.1/4.2)'): 'opc',
+    (2698, 'Pasta/argamassa de cimento de oxicloreto de magnesio (MOC-9, razao molar 9) - via humida (sintetizado a partir de agua do mar)'): 'ligantes',
+    (2698, 'Pasta/argamassa de cimento de oxicloreto de magnesio (MOC-9, razao molar 9) - via seca (calcinacao de magnesita)'): 'ligantes',
+    (2710, 'Pasta de cimento com 20% de HCP calcinada carbonatada (M20)'): 'ligantes',
+    (2724, 'Argamassa composita de rejeitados de molibdenio calcinados (MTCM-3, calcinacao 1350C)'): 'reciclado',
+    (2739, 'Tabuleiro de ponte PCBG (vigas pre-esforcadas, HP-40)'): 'opc',
+    (2739, 'Tabuleiro de ponte PCLS (pre-esforcado, laje aligeirada, HP-40)'): 'opc',
+    (2739, 'Tabuleiro de ponte PCSS (pre-esforcado, laje maciça, HP-40)'): 'opc',
+    (2741, 'Tabuleiros de ponte (S-LCA), fatores de emissao genericos citados do estudo companheiro (Martinez-Munoz et al. 2021)'): 'opc',
+    (3115, 'LWCM LT5S0 (argamassa leve com FAC + 0.05% MWCNTs, sem nanosilica) - melhor desempenho mecanico entre as LWCM'): 'scm',
+    (3132, 'concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)'): 'scm',
+    (3133, 'Biowall - composito 3D-impresso de particulas de madeira + amido + lignosulfonato de sodio (BW1, sem reciclagem)'): 'biobase',
+    (3146, 'concreto com mucilagem de Opuntia ficus-indica (Ofim) como bio-aditivo — comparativo nivelado (APCR) Ofim-15/10 (15% Ofim + 10% reducao de cimento)'): 'biobase',
+    (3152, 'argamassa com borracha de pneu triturado (CR) — mistura M_10 (10% CR)'): 'reciclado',
+    (3152, 'argamassa com borracha de pneu triturado (CR) — mistura M_15 (15% CR)'): 'reciclado',
+    (3152, 'argamassa com borracha de pneu triturado (CR) — mistura M_20 (20% CR)'): 'reciclado',
+    (3152, 'argamassa com borracha de pneu triturado (CR) — mistura M_25 (25% CR)'): 'reciclado',
+    (3152, 'argamassa com borracha de pneu triturado (CR) — mistura M_30 (30% CR)'): 'reciclado',
+    (3152, 'argamassa com borracha de pneu triturado (CR) — mistura M_35 (35% CR)'): 'reciclado',
+    (3152, 'argamassa com borracha de pneu triturado (CR) — mistura M_40 (40% CR)'): 'reciclado',
+    (3152, 'argamassa com borracha de pneu triturado (CR) — mistura M_REF (0% CR, controlo)'): 'reciclado',
+    (3182, 'concreto com agregado graudo de plastico de e-waste (e-plastic), cenario E2 (20% agregado graudo substituido por e-plastic)'): 'reciclado',
+    (3201, 'SCC com 30% residuo de mina de magnesita como agregado grosso (30MWCA)'): 'reciclado',
+    (3201, 'SCC de controlo (CC) - sem residuo de mina'): 'reciclado',
+    (3221, 'concreto pronto com SCMs, base de dados de 440 tracos chineses (10.1016/j.cscm.2025.e04287)'): 'scm',
+    (3280, 'argamassa cal hidraulica natural NHL2 (carbonatada)'): 'ligantes',
+    (3280, 'argamassa cal hidraulica natural NHL3.5 (carbonatada)'): 'ligantes',
+    (3280, 'argamassa cal hidraulica natural NHL3.5 (nao-carbonatada)'): 'ligantes',
+    (3280, 'argamassa cal hidraulica natural NHL5 (carbonatada)'): 'ligantes',
+    (3280, 'argamassa cal hidraulica natural NHL5 (nao-carbonatada)'): 'ligantes',
+    (3311, 'Bloco de pavimento (paving block) com sedimento marinho estabilizado/solidificado com cimento - cenario Sc10'): 'reciclado',
+    (3311, 'Bloco de pavimento (paving block) com sedimento marinho estabilizado/solidificado com cimento - cenario Sc11'): 'reciclado',
+    (3311, 'Bloco de pavimento (paving block) com sedimento marinho estabilizado/solidificado com cimento - cenario Sc8'): 'reciclado',
+    (3311, 'Bloco de pavimento (paving block) com sedimento marinho estabilizado/solidificado com cimento - cenario Sc9'): 'reciclado',
+    (3346, 'concreto existente reutilizado (blocos de parede cast-in-place)'): 'reciclado',
+    (3353, 'cimento CEM I/CEM III B 42.5, portfolio medio da fabrica Cluster West (CEMEX) em 1997'): 'scm',
+    (3353, 'cimento CEM I/CEM III B 42.5, portfolio medio da fabrica Cluster West (CEMEX) em 2009'): 'scm',
+    (3367, 'cimento P-35 (Cuban Standard NC-95:2011, 5% zeolito) -- Cementos Cienfuegos S.A., Cuba'): 'scm',
+    (3367, 'cimento PC (ASTM, sem zeolito) -- Cementos Cienfuegos S.A., Cuba'): 'scm',
+    (3367, 'cimento PP-25 (Cuban Standard NC-96:2011, 19% zeolito) -- Cementos Cienfuegos S.A., Cuba'): 'scm',
+    (3377, 'ligante alcali-activado FA 100% (ativador NaOH 6M)'): 'ligantes',
+    (3377, 'ligante alcali-activado GGBS25:FA75 (ativador NaOH 6M)'): 'ligantes',
+    (3377, 'ligante alcali-activado GGBS50:FA50 (ativador NaOH 6M)'): 'ligantes',
+    (3377, 'ligante alcali-activado GGBS75:FA25 (ativador NaOH 6M)'): 'ligantes',
+    (3479, 'FRC (fiber-reinforced concrete) com residuo bruto triturado de pa de turbina eolica (RCWTB) ate 10% vol. - Espanha, mix W2 (2% RCWTB)'): 'reciclado',
+    (3497, 'concreto de meio-fio (kerb) com agregado natural (NA) e agregado de pneu triturado (TDA) 0-20%, mistura CC-25 (controlo, 100% NA, 0% TDA)'): 'reciclado',
+    (3497, 'concreto de meio-fio, NA + 10% TDA (CTr-c10-25)'): 'reciclado',
+    (3497, 'concreto de meio-fio, NA + 15% TDA (CTr-c15-25)'): 'reciclado',
+    (3497, 'concreto de meio-fio, NA + 20% TDA (CTr-c20-25)'): 'reciclado',
+    (3497, 'concreto de meio-fio, NA + 5% TDA (CTr-c05-25)'): 'reciclado',
+    (3512, 'SHCC imprimivel 3D com diatomite (DE) — mistura DE-10 (10% substituicao)'): 'scm',
+    (3512, 'SHCC imprimivel 3D com diatomite (DE) — mistura DE-20 (20% substituicao)'): 'scm',
+    (3512, 'SHCC imprimivel 3D com diatomite (DE) — mistura DE-30 (30% substituicao, pior mecanicamente)'): 'scm',
+    (3529, 'argamassa de alta resistencia com 10% po de basalto residual (10BT)'): 'reciclado',
+    (3529, 'argamassa de alta resistencia com 15% po de basalto residual (15BT) - mistura otima'): 'reciclado',
+    (3529, 'argamassa de alta resistencia com 20% po de basalto residual (20BT)'): 'reciclado',
+    (3529, 'argamassa de alta resistencia com 25% po de basalto residual (25BT)'): 'reciclado',
+    (3529, 'argamassa de alta resistencia com 5% po de basalto residual (5BT)'): 'reciclado',
+    (3787, 'Concreto com ligante MgO reativo (RMC), cura R90T60C10 (90% UR, 60C, 10% CO2 - melhor desempenho)'): 'ligantes',
+    (3787, 'Concreto com ligante dolomita calcinada a 800C (D800), cura R90T30C10 (90% UR, 30C, 10% CO2 - melhor desempenho)'): 'ligantes',
+    (3818, 'CR-ECC (Engineered Cementitious Composite, chromium resin, 40% subst. areia, impressao 3D)'): 'reciclado',
+    (3818, 'IBA-ECC (Engineered Cementitious Composite, incineration bottom ash, 40% subst. areia, impressao 3D)'): 'reciclado',
+    (3818, 'LP-ECC (Engineered Cementitious Composite, lignina/50% vol. fibra PE, impressao 3D)'): 'biobase',
+    (3828, 'HPC com 50% borracha de pneu (substituindo areia de silica)'): 'reciclado',
+    (3864, 'TR1: concreto autoadensavel (SCC) com 0% de agregado fino substituido por cinza de lagoa (pond ash)'): 'reciclado',
+    (3864, 'TR2: concreto autoadensavel (SCC) com 10% de agregado fino substituido por cinza de lagoa (pond ash)'): 'reciclado',
+    (3864, 'TR3: concreto autoadensavel (SCC) com 15% de agregado fino substituido por cinza de lagoa (pond ash)'): 'reciclado',
+    (3864, 'TR4: concreto autoadensavel (SCC) com 20% de agregado fino substituido por cinza de lagoa (pond ash)'): 'reciclado',
+    (3864, 'TR5: concreto autoadensavel (SCC) com 25% de agregado fino substituido por cinza de lagoa (pond ash)'): 'reciclado',
+    (3864, 'TR6: concreto autoadensavel (SCC) com 30% de agregado fino substituido por cinza de lagoa (pond ash)'): 'reciclado',
+    (4086, 'Argamassa traco 10R (traco rico, 10% de po de agata em substituicao ao cimento, em massa)'): 'scm',
+    (4090, 'Concreto com residuo de borracha de pneu para laje trelicada (capa CPII-Z32 + sapatas CPV-ARI) - Ilha Solteira, Brasil'): 'reciclado',
+    (4160, 'Argamassa de alta resistencia (HSM) com 30% CWP (residuo de po de ceramica) moido 15 min -- GT15CWP30, melhor desempenho mecanico do estudo'): 'reciclado',
+    (4160, 'Argamassa de alta resistencia (HSM), mistura controlo 0% CWP (residuo de po de ceramica)'): 'reciclado',
+    (4244, 'Concreto com 20% de substituicao de cimento por po de vidro moido (GP2-20)'): 'reciclado',
+    (4251, 'Concreto com cinza de casca de arroz (rice husk ash, RHA) 10% substituicao de agregado fino'): 'reciclado',
+    (4292, 'Concreto estrutural (portais e fundacoes de portico industrial), classe de projeto C30/37 (EN 206)'): 'reciclado',
+    (4328, 'Concreto reforcado com Fibra de sisal'): 'biobase',
+    (4408, 'concreto autoadensavel (SCC) M1 - 0% substituicao de cimento por po de residuo de tijolo ceramico (CBWP)'): 'reciclado',
+    (4408, 'concreto autoadensavel (SCC) M2 - 12.5% substituicao de cimento por po de residuo de tijolo ceramico (CBWP)'): 'reciclado',
+    (4408, 'concreto autoadensavel (SCC) M3 - 25% substituicao de cimento por po de residuo de tijolo ceramico (CBWP)'): 'reciclado',
+    (4408, 'concreto autoadensavel (SCC) M4 - 37.5% substituicao de cimento por po de residuo de tijolo ceramico (CBWP)'): 'reciclado',
+    (4408, 'concreto autoadensavel (SCC) M5 - 50% substituicao de cimento por po de residuo de tijolo ceramico (CBWP)'): 'reciclado',
+    (4500, 'Argamassa CEM I + GP (po de vidro, 50% substituicao de cimento em massa)'): 'scm',
+    (4500, 'Argamassa CEM III + GP (po de vidro, 50% substituicao de cimento em massa)'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Alpha-10'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Alpha-20'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Alpha-30'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Beta-10'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Beta-20'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Beta-30'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Control'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Gamma-10'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Gamma-20'): 'scm',
+    (4557, 'Concreto com po de calcario como substituto parcial de cimento - mistura Gamma-30'): 'scm',
+    (4580, 'Concreto CON-fix-SLUMP-0-10, FBA0 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-SLUMP-0-10, FBA100 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-SLUMP-0-10, FBA30 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-SLUMP-0-10, FBA50 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-SLUMP-0-10, FBA70 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-SLUMP-30-60, FBA0 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-SLUMP-30-60, FBA100 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-SLUMP-30-60, FBA30 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-SLUMP-30-60, FBA50 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-SLUMP-30-60, FBA70 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.45, FBA0 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.45, FBA100 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.45, FBA30 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.45, FBA50 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.45, FBA70 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.55, FBA0 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.55, FBA100 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.55, FBA30 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.55, FBA50 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4580, 'Concreto CON-fix-W/C-0.55, FBA70 (substituicao de areia por cinza de fundo de forno FBA)'): 'reciclado',
+    (4584, 'Laje maciça ordinária (ORC) - Caso 1 (pavimento acima do solo)'): 'opc',
+    (4584, 'Laje maciça ordinária (ORC) - Caso 2 (estacionamento subterrâneo)'): 'opc',
+    (4584, 'Laje vazada (VDS) - Caso 1 (pavimento acima do solo)'): 'opc',
+    (4584, 'Laje vazada (VDS) - Caso 2 (estacionamento subterrâneo)'): 'opc',
+    (4605, 'Muro de contenção RC com contrafortes - Analyses 2 e 3 (fator Paya et al.)'): 'opc',
+    (4605, 'Muro de contenção RC com contrafortes - Analysis 1 (fator Yeo & Potra)'): 'opc',
+    (4671, '3DPSCC com 100% de particulas de borracha (RP-100)'): 'reciclado',
+    (4671, '3DPSCC com 20% de particulas de borracha (RP-20)'): 'reciclado',
+    (4671, '3DPSCC com 40% de particulas de borracha (RP-40)'): 'reciclado',
+    (4671, '3DPSCC com 60% de particulas de borracha (RP-60)'): 'reciclado',
+    (4671, '3DPSCC com 80% de particulas de borracha (RP-80)'): 'reciclado',
+    (4671, 'Controlo (0% substituicao de areia por particulas de borracha, RP-0)'): 'reciclado',
+    (4689, 'Concreto CTr-c20-25 (agregado natural + 20% TDA - agregado derivado de pneu, 5-10mm)'): 'reciclado',
+    (4724, 'Concreto REF com agregado natural (NAC1, w/c=0.50, Caso 1)'): 'reciclado',
+    (4724, 'Concreto com 100% RFA (RAC1-5, w/c=0.50, Caso 1)'): 'reciclado',
+    (4750, 'Concreto W2 (111.11 kg/m3 de vidro de carro triturado)'): 'reciclado',
+    (4753, 'Painel de fachada CRC (reforcado com grelha de fibra de carbono), variante F2C1 (melhor caso), cenario 50% reciclagem'): 'opc',
+    (4753, 'Painel de fachada CRC, variante F1C3 (pior caso), cenario 50% reciclagem'): 'opc',
+    (4753, 'Painel de fachada SRC (reforcado com aco), variante SRC 2.2 (aco de alto-forno primario)'): 'opc',
+    (4768, 'Pavement Quality Concrete (PQC), mix design indiano M20, camada de rolamento do pavimento rigido (MDR)'): 'opc',
+    (4800, 'Ligante BG - gesso (Knauf BAUGIPS hemihydrate)'): 'ligantes',
+    (4800, 'Ligante CSA - cimento sulfoaluminato de calcio (calcium sulphoaluminate)'): 'ligantes',
+    (4800, 'Ligante MOC - cimento oxicloreto de magnesio (magnesium oxychloride cement)'): 'ligantes',
+    (4800, 'Ligante MPC - cimento fosfato de magnesio (magnesium phosphate cement)'): 'ligantes',
+    (4820, 'Edificio alto hibrido madeira/GLT (projeto original, caso de estudo Mjostarnet), classe GL30h (fc,0,k)'): 'biobase',
+    (4855, 'concreto C25 com agregado natural (NAC) - comparativo do mesmo estudo'): 'reciclado',
+    (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 28 dias'): 'ligantes',
+    (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 360 dias'): 'ligantes',
+    (4927, 'concreto de cimento — modelo estatístico global de carbonatação/captação de CO2 (1930-2019), classes C15/C16-C23/C24-C35/>C35 usadas como bins'): 'scm',
+}
 
-# --- ligantes alternativos (nao-OPC, nao-geopolimero: quimica de ligante distinta)
-for r in [143, 144, 167, 620, 622, 624, 626, 647, 648, 649, 650, 713, 714, 1022, 1023, 1024, 1025, 1026,
-          1047, 1048, 1049, 1050, 1173, 1174, 1945, 1946]:
-    OVERRIDE[r] = 'ligantes'
 
-# --- bio-base (materiais organicos/agricolas como componente principal do estudo)
-for r in [338, 521, 522, 523, 524, 607, 919, 651, 1184]:
-    OVERRIDE[r] = 'biobase'
-
-# --- alvenaria (unidades de alvenaria: tijolo, bloco, painel -- nao concreto moldado)
-for r in [322, 323, 347, 348, 350, 360, 1424, 1425, 1426, 1427, 1428]:
-    OVERRIDE[r] = 'alvenaria'
-
-# --- reciclado (residuo/agregado reciclado -- inclui agregado de pneu
-# triturado, confirmado pela Kie 2026-09-08; e-waste, vidro moido como
-# agregado, residuo de mina, residuo de pa de turbina eolica)
-for r in [174, 370, 371, 372, 373, 451, 452, 453, 454, 455, 483, 484, 485, 486, 487, 570, 571, 572, 573, 574, 575,
-          630, 631, 632, 633, 634, 635, 638, 926, 927, 928, 929, 930, 931, 932, 933, 960, 980, 981, 1043, 1093,
-          1188, 1267, 1292, 1293, 1316, 1320, 1351, 1430, 1431, 1432, 1433, 1434, 1677, 1678, 1679, 1680, 1681,
-          1682, 1683, 1684, 1685, 1686, 1687, 1688, 1689, 1690, 1691, 1692, 1693, 1694, 1695, 1696, 1824, 1825,
-          1851, 1943, 1182, 1183]:
-    OVERRIDE[r] = 'reciclado'
-
-# --- scm (pozolana/cimento composto -- substitui CIMENTO, nao agregado)
-for r in [331, 389, 390, 423, 424, 425, 906, 907, 908, 1000, 1263, 1572, 1573, 1613, 1614, 1615, 1616, 1617,
-          1618, 1619, 1620, 1621, 1622, 1953, 1106, 1107, 1108]:
-    OVERRIDE[r] = 'scm'
-
-# --- ronda final (residuo classificado por leitura directa, sem padrao regex generico)
-for r in [82, 83, 85, 87, 180, 181, 182, 184, 646, 699, 700, 701, 702, 703, 1707, 1708, 1709, 1710, 1730, 1731,
-          1853, 1855, 1854]:
-    OVERRIDE[r] = 'opc'
-
-
-def classify(sheet_row, material, titulo):
-    if sheet_row in OVERRIDE:
-        return OVERRIDE[sheet_row]
+def classify(row_id, material, titulo):
+    key = (row_id, material)
+    if key in OVERRIDE:
+        return OVERRIDE[key]
     t = ((material or '') + ' ' + (titulo or '')).lower()
     if re.search(r'geopolim|geopolym|alcali[- ]ativad|alkali[- ]activ|\bAAM\b|\bAAC\b', t):
         return 'geopolimero'
@@ -104,8 +233,17 @@ def classify(sheet_row, material, titulo):
         t,
     ):
         return 'scm'
-    if re.search(r'\balvenaria\b|masonry|\btijolo', t):
-        return 'alvenaria'
+    # NAO ha mais fallback generico "alvenaria|masonry|tijolo" aqui -- revogado
+    # 2026-09-08 (Kie: nenhum tijolo/bloco/paver/telha e moldavel conforme
+    # projeto, falha o passo 1 do E1_moldavel; ver PROTOCOLO_CI_MPA e
+    # CRITERIOS_E_NUANCES_RSL.md). Todo o material cujo produto final e
+    # tijolo/bloco de alvenaria/paver/telha foi removido de dados_fck. As
+    # unicas linhas que ainda mencionam "alvenaria"/"tijolo"/"masonry" no
+    # texto sao concreto/grout legitimos que so citam alvenaria como
+    # contexto/comparador (ex. "grout de alvenaria pre-fabricada", "edificio
+    # com tijolo de barro") -- devem cair nos testes de OPC abaixo, nao
+    # aqui. Se um caso genuino de alvenaria REAPARECER no futuro (nao
+    # deveria, dada a regra), tratar por OVERRIDE explicito, nao por regex.
     # Referencia/OPC: nome explicito OU classe normativa de concreto convencional
     # (europeia C##/##, espanhola HA-##) OU descricao generica "concreto armado/estrutural"/
     # "betao"/"concreto"/"argamassa" -- a maioria dos concretos convencionais no banco
@@ -159,7 +297,7 @@ def main():
             print(f'AVISO: linha {r} (row_id={row_id}) sem e4_estrato, ignorada', file=sys.stderr)
             continue
 
-        cat = classify(r, material, titulo)
+        cat = classify(row_id, material, titulo)
         if cat == 'outros':
             print(f'AVISO: linha {r} (row_id={row_id}) caiu em outros -- material={material!r}', file=sys.stderr)
         compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato]])
