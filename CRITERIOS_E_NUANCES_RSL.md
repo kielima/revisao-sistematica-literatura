@@ -383,6 +383,23 @@ material, o que exige **as duas condições**: (i) varia um constituinte da mist
 (i) — uma ACV que compara quatro tipos de tijolo prontos e de passagem tabela a compressão de
 cada um — é comparação de produtos, não caracterização de material.
 
+**⭐⭐ REVOGADO (Kiê, 2026-09-08) — tijolo/bloco de alvenaria/paver/telha NUNCA chegam ao
+passo 2; falham logo no passo 1.** *"Nenhum tijolo é feito conforme necessidade de projeto...
+tijolo tem padrão normatizado de dimensões e requisitos, não é moldável conforme projeto."*
+Confirmado que a mesma lógica vale para bloco de alvenaria/CMU, paver e telha — toda a família
+tem dimensões e requisitos fixados por norma (ex. ASTM C90, EN 771 para blocos de alvenaria),
+o que por definição falha o teste do passo 1 ("geometria por projecto, prensada sob demanda,
+dimensões ajustáveis"). **A excepção do passo 2 (caracterizar o material variando um
+constituinte + medindo propriedades) deixa de se aplicar a esta família — REJEITA sempre**,
+mesmo quando o estudo varia a composição e mede resistência. Duas linhas que tinham sido
+Aceitas por essa via em 2026-08-24 (`row_id` 3101 — tijolo de argamassa variando a água de
+amassadura; `row_id` 4260 — bloco de alvenaria variando a proporção de agregado reciclado)
+foram decididas **de boa fé, corretamente pela regra então vigente** — mas a regra em si foi
+revogada, não a leitura dos subagentes; ambas passam a Rejeitado. A excepção de "fonte de
+matéria-prima" (tijolo/bloco triturado e usado como agregado DENTRO de outro material
+moldável, produto final é o outro material) **continua de pé, intocada** — o que muda é só o
+caso em que o tijolo/bloco/paver/telha É o produto final do estudo.
+
 **⭐ Manda a lógica, não a lista.** O critério não é «está na lista de blocos e tijolos», é
 «é um produto de catálogo de forma fixa». Rejeitam também telha, paver, telha-canal, louça
 sanitária, tubo, painel modular de série e molde.
