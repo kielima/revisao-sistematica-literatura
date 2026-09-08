@@ -328,14 +328,24 @@ def _norm(s):
 
 def classify_unidade(u_raw):
     """Devolve (kind, cat). kind em {'nativo','derivado','pendente'}; cat so
-    e informativo dentro de 'pendente' (a familia de unidade original)."""
+    e informativo dentro de 'pendente' (a familia de unidade original).
+
+    ARMADILHA (encontrada 2026-09-08, apos a 1a versao desta funcao): a tag
+    '[DERIVADO]' e usada em dados_fck desde sessoes anteriores para marcar
+    QUALQUER numero computado/derivado -- nao so os ja convertidos para
+    kg/m3 (ex. '[DERIVADO] kg CO2-eq/t' continua sendo por TONELADA, so que
+    calculado). Verificar primeiro se o texto confirma /m3 -- so DEPOIS
+    perguntar se tambem carrega a tag, para decidir nativo vs derivado
+    dentro do bucket m3. Checar a tag antes do padrao /m3 (como a v1 fazia)
+    classificava esses ~44 casos como 'derivado:m3' por engano -- nao
+    contaminava o grafico principal (a maioria tem co2_valor fora da faixa
+    plausivel, filtrado por FCK_MIN/MAX+CO2_MIN/MAX), mas inflava o balde
+    errado no grafico de transparencia de unidades."""
     u = _norm(u_raw)
     if not u:
         return 'nativo', 'm3'  # legado: linhas antigas sem co2_unidade preenchido, kg/m3 implicito
-    if _DERIVADO_TAG_PAT.search(u):
-        return 'derivado', 'm3'
     if _M3_OK_PAT.search(u) and not _JA_MPA_PAT.search(u):
-        return 'nativo', 'm3'  # inclui as [RELABEL ...] -- valor nao tocado, so a etiqueta
+        return ('derivado', 'm3') if _DERIVADO_TAG_PAT.search(u) else ('nativo', 'm3')
     if _JA_MPA_PAT.search(u):
         return 'pendente', 'ja_mpa'
     if _TONELADA_PAT.search(u):
