@@ -54,7 +54,7 @@ BASE = 'meta_analysis_base.xlsx'
 
 CATCODE = {
     'geopolimero': 'g', 'uhpc': 'u', 'scm': 's', 'reciclado': 'r', 'opc': 'o',
-    'ligantes': 'l', 'alvenaria': 'a', 'biobase': 'b',
+    'ligantes': 'l', 'alvenaria': 'a', 'biobase': 'b', 'concreto_armado': 'c',
 }
 TIERCODE = {'principal': 'p', 'sensibilidade': 's'}
 
@@ -76,6 +76,23 @@ CO2_MIN, CO2_MAX = -1000, 5000
 # classify_v2.py da sessao. Entradas cujo (row_id, material) ja nao existe
 # em dados_fck (por a linha ter sido removida por outro motivo, ex. tijolo
 # rejeitado por E1_moldavel) ficam mortas no dict, sem efeito -- inofensivo.
+#
+# Familia 'concreto_armado' (adicionada 2026-09-10, decisao da Kie): reforco
+# estrutural de aco e uma dimensao ORTOGONAL a quimica do material (um
+# concreto geopolimerico ou um SHCC podem estar armados ou nao -- ver
+# discussao completa na tarefa Supabase #1487, criada 2026-09-08 durante a
+# separacao concreto/vergalhao da linha 3416). A Kie resolveu a tensao de
+# desenho ali registada optando pela família nova, mutuamente exclusiva com
+# as outras (nao um campo booleano ortogonal) -- mais simples de mostrar no
+# grafico atual. Usar esta familia SO quando o co2_valor da linha inclui
+# necessariamente o CO2 do aco de armadura junto com o do concreto, sem
+# como separar os dois a partir dos dados do proprio artigo (ex.: ALMIRALL
+# et al. 2019, onde o CO2 e funcao de Vs=Vsteel/Vconcrete). Quando o artigo
+# permite separar (ex.: linha 3416, LI et al. 2022), a linha fica na familia
+# quimica normal (o concreto/SHCC sozinho), nao aqui. A varredura sistematica
+# do resto de dados_fck para achar outros casos disfarcados de "opc" continua
+# em aberto -- tarefa Supabase #1487, parte 1 (a parte 2, a decisao de
+# schema, esta resolvida por este commit).
 OVERRIDE = {
     (2609, 'Classe 1A (20-35 MPa) - traco max. impacto: (Artigo 01) 550C-50CR-MK'): 'opc',
     (2609, 'Classe 1A (20-35 MPa) - traco min. impacto: (Artigo 07) CFL 25-50-25 (CV+po de calcario substituindo cimento)'): 'opc',
@@ -231,6 +248,9 @@ OVERRIDE = {
     (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 28 dias'): 'ligantes',
     (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 360 dias'): 'ligantes',
     (4927, 'concreto de cimento — modelo estatístico global de carbonatação/captação de CO2 (1930-2019), classes C15/C16-C23/C24-C35/>C35 usadas como bins'): 'scm',
+    (3301, 'Viga de concreto armado, MC-2010, L=12.0m/h=1.0m/fck=50MPa, carga leve (LL1=3 kN/m, DL=6 kN/m medio, LL2=7.5 kN medio, xi_d=0.417)'): 'concreto_armado',
+    (3301, 'Viga de concreto armado, MC-2010, L=12.0m/h=1.0m/fck=50MPa, carga media (LL1=9 kN/m, DL=6 kN/m medio, LL2=7.5 kN medio, xi_d=0.694)'): 'concreto_armado',
+    (3301, 'Viga de concreto armado, MC-2010, L=12.0m/h=1.0m/fck=50MPa, carga pesada (LL1=15 kN/m, DL=6 kN/m medio, LL2=7.5 kN medio, xi_d=0.971)'): 'concreto_armado',
 }
 
 
