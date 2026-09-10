@@ -92,13 +92,26 @@ CO2_MIN, CO2_MAX = -1000, 5000
 # observacoes da linha), nao por causa da familia, mas porque a Eq.(2) do
 # artigo tem um erro tipografico/exportacao confirmado por duas vias
 # independentes (nao bate com a fisica nem com o eixo do proprio grafico).
-# A familia fica pronta no schema para o proximo caso genuino que aparecer.
-# Quando o artigo permite separar concreto de aco (ex.: linha 3416, LI et
-# al. 2022), a linha fica na familia quimica normal (o concreto/SHCC
-# sozinho), nao aqui. A varredura sistematica do resto de dados_fck para
-# achar outros casos disfarcados de "opc" continua
-# em aberto -- tarefa Supabase #1487, parte 1 (a parte 2, a decisao de
-# schema, esta resolvida por este commit).
+# Primeiro caso REAL confirmado (varredura 2026-09-10, tarefa #1487 parte 1):
+# linha 3818 (YE et al. 2024, "RC", Tabela 5) -- co2_unidade diz
+# explicitamente "inclui armadura de aco 1,01%", e o proprio artigo tem a
+# comparacao interna RC (885.13, com aco) vs RC-0 (318.13, sem aco, familia
+# quimica normal) que confirma a diferenca. Quando o artigo permite separar
+# concreto de aco (ex.: linha 3416, LI et al. 2022; linha 3818's RC-0), a
+# linha fica na familia quimica normal (o concreto/SHCC sozinho), nao aqui.
+# A varredura completa (regex por sinais de armadura em material+titulo, 207
+# candidatos, cruzados com os 1069 pares entao visiveis no grafico -> 96
+# candidatos prioritarios, triados por plausibilidade fisica do valor ->
+# 8 suspeitos, verificados um a um contra as observacoes ja existentes na
+# linha, sem precisar reabrir PDF) fechou com 1 caso confirmado (3818), 2
+# achados colaterais fora do escopo desta familia mas corrigidos na mesma
+# sessao (bug de negacao em classify_unidade, ver _NEGACAO_M3_PAT acima; a
+# linha 3102/row_id 843 tinha unidade "por laje", nao m3, mal classificada) e
+# 1 outlier extremo nao resolvido (linha 1839, row_id 4930, 3532 kg CO2/m3 --
+# parece erro de escala na fonte EPD citada pelo artigo, nao relacionado a
+# armadura, fica para a Kie decidir). A varredura dos restantes ~111
+# candidatos fora de `pairs` (nao afetam o grafico hoje) fica de fora desta
+# rodada por prioridade -- retomar quando a Kie pedir.
 OVERRIDE = {
     (2609, 'Classe 1A (20-35 MPa) - traco max. impacto: (Artigo 01) 550C-50CR-MK'): 'opc',
     (2609, 'Classe 1A (20-35 MPa) - traco min. impacto: (Artigo 07) CFL 25-50-25 (CV+po de calcario substituindo cimento)'): 'opc',
@@ -254,6 +267,7 @@ OVERRIDE = {
     (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 28 dias'): 'ligantes',
     (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 360 dias'): 'ligantes',
     (4927, 'concreto de cimento — modelo estatístico global de carbonatação/captação de CO2 (1930-2019), classes C15/C16-C23/C24-C35/>C35 usadas como bins'): 'scm',
+    (3818, 'RC (concreto armado convencional, referencia com armadura, impressao 3D vs. betonagem)'): 'concreto_armado',
 }
 
 
@@ -329,6 +343,24 @@ def tofloat(v):
 # agora vivendo aqui para nao precisar de manutencao manual a cada onda.
 
 _M3_OK_PAT = re.compile(r'(kg\s*co2[\-\s]?e?q?\.?\s*/\s*m\s*3\b)|(/\s*m\^?3\b)|(por\s*metro\s*cubico)|(por\s*m3\b)')
+# ARMADILHA (encontrada 2026-09-10, varredura "concreto armado disfarcado"):
+# _M3_OK_PAT casa "por m3" mesmo dentro de uma NEGACAO explicita do autor da
+# nota, tipo "NAO por m3" ou "NAO e CO2 por m3" -- 9 linhas (row_id 2683,
+# 2684, 3328, 3102) estavam classificadas 'nativo'/m3 e CONTAMINANDO pairs
+# apesar de o proprio texto dizer que nao e por m3. Checar negacao ANTES de
+# confirmar m3.
+#
+# ARMADILHA Nº2 (mesma varredura): a negacao dispara falso-positivo quando o
+# "nao e kg CO2/m3" esta ENTRE ASPAS -- convencao do vault para citar o texto
+# ORIGINAL do artigo (ou do rotulo problematico ja corrigido), nao para
+# descrever o estado atual da propria linha (ex. row_id 3178: "kg CO2-eq/m3
+# [DERIVADO: multiplicacao do indice CII (...), explicitamente marcado no
+# texto original como \"nao e kg CO2/m3 absoluto\") pelo fck...]" -- a unidade
+# JA FOI corrigida para m3 genuino, a citacao entre aspas so explica o que
+# tinha de errado ANTES da correcao). Retirar o conteudo entre aspas antes de
+# procurar a negacao.
+_ASPAS_PAT = re.compile(r'["“”].*?["“”]')
+_NEGACAO_M3_PAT = re.compile(r'\bnao\b.{0,40}?\bm[\^]?3\b|\bnot\b.{0,40}?\bm[\^]?3\b')
 _JA_MPA_PAT = re.compile(r'/\s*\(?\s*m3\s*[\.\*]\s*mpa|/\s*mpa\b|\.\s*mpa\)|\bkg\s*co2[\-\s]?e?q?\.?\s*/\s*\(m3\s*mpa\)')
 _TONELADA_PAT = re.compile(r'\btonelada|/\s*t\b|\btco2')
 _KG_PAT = re.compile(r'/\s*kg\b')
@@ -367,7 +399,8 @@ def classify_unidade(u_raw):
     u = _norm(u_raw)
     if not u:
         return 'nativo', 'm3'  # legado: linhas antigas sem co2_unidade preenchido, kg/m3 implicito
-    if _M3_OK_PAT.search(u) and not _JA_MPA_PAT.search(u):
+    u_sem_aspas = _ASPAS_PAT.sub(' ', u)
+    if _M3_OK_PAT.search(u) and not _JA_MPA_PAT.search(u) and not _NEGACAO_M3_PAT.search(u_sem_aspas):
         return ('derivado', 'm3') if _DERIVADO_TAG_PAT.search(u) else ('nativo', 'm3')
     if _JA_MPA_PAT.search(u):
         return 'pendente', 'ja_mpa'
