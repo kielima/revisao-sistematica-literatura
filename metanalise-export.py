@@ -86,11 +86,17 @@ CO2_MIN, CO2_MAX = -1000, 5000
 # as outras (nao um campo booleano ortogonal) -- mais simples de mostrar no
 # grafico atual. Usar esta familia SO quando o co2_valor da linha inclui
 # necessariamente o CO2 do aco de armadura junto com o do concreto, sem
-# como separar os dois a partir dos dados do proprio artigo (ex.: ALMIRALL
-# et al. 2019, onde o CO2 e funcao de Vs=Vsteel/Vconcrete). Quando o artigo
-# permite separar (ex.: linha 3416, LI et al. 2022), a linha fica na familia
-# quimica normal (o concreto/SHCC sozinho), nao aqui. A varredura sistematica
-# do resto de dados_fck para achar outros casos disfarcados de "opc" continua
+# como separar os dois a partir dos dados do proprio artigo. Primeiro caso
+# candidato foi ALMIRALL et al. 2019 (linha 3301, onde o CO2 e funcao de
+# Vs=Vsteel/Vconcrete) -- mas essa linha acabou REJEITADA (2026-09-10, ver
+# observacoes da linha), nao por causa da familia, mas porque a Eq.(2) do
+# artigo tem um erro tipografico/exportacao confirmado por duas vias
+# independentes (nao bate com a fisica nem com o eixo do proprio grafico).
+# A familia fica pronta no schema para o proximo caso genuino que aparecer.
+# Quando o artigo permite separar concreto de aco (ex.: linha 3416, LI et
+# al. 2022), a linha fica na familia quimica normal (o concreto/SHCC
+# sozinho), nao aqui. A varredura sistematica do resto de dados_fck para
+# achar outros casos disfarcados de "opc" continua
 # em aberto -- tarefa Supabase #1487, parte 1 (a parte 2, a decisao de
 # schema, esta resolvida por este commit).
 OVERRIDE = {
@@ -248,9 +254,6 @@ OVERRIDE = {
     (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 28 dias'): 'ligantes',
     (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 360 dias'): 'ligantes',
     (4927, 'concreto de cimento — modelo estatístico global de carbonatação/captação de CO2 (1930-2019), classes C15/C16-C23/C24-C35/>C35 usadas como bins'): 'scm',
-    (3301, 'Viga de concreto armado, MC-2010, L=12.0m/h=1.0m/fck=50MPa, carga leve (LL1=3 kN/m, DL=6 kN/m medio, LL2=7.5 kN medio, xi_d=0.417)'): 'concreto_armado',
-    (3301, 'Viga de concreto armado, MC-2010, L=12.0m/h=1.0m/fck=50MPa, carga media (LL1=9 kN/m, DL=6 kN/m medio, LL2=7.5 kN medio, xi_d=0.694)'): 'concreto_armado',
-    (3301, 'Viga de concreto armado, MC-2010, L=12.0m/h=1.0m/fck=50MPa, carga pesada (LL1=15 kN/m, DL=6 kN/m medio, LL2=7.5 kN medio, xi_d=0.971)'): 'concreto_armado',
 }
 
 
