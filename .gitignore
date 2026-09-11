@@ -8,6 +8,10 @@
 Thumbs.db
 desktop.ini
 
+# Cache de bytecode Python (gerado ao correr metanalise-export.py etc.)
+__pycache__/
+*.pyc
+
 # Ficheiros de trabalho temporarios dos subagentes da Etapa 2 (PDFs baixados,
 # figuras renderizadas para leitura) — nao sao entregaveis, regeneram-se por lote.
 lotes_etapa2/scratchpad/
