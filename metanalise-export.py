@@ -361,6 +361,18 @@ _M3_OK_PAT = re.compile(r'(kg\s*co2[\-\s]?e?q?\.?\s*/\s*m\s*3\b)|(/\s*m\^?3\b)|(
 # procurar a negacao.
 _ASPAS_PAT = re.compile(r'["“”].*?["“”]')
 _NEGACAO_M3_PAT = re.compile(r'\bnao\b.{0,40}?\bm[\^]?3\b|\bnot\b.{0,40}?\bm[\^]?3\b')
+# ARMADILHA Nº3 (encontrada 2026-09-11, lote 5): _JA_MPA_PAT tambem dispara
+# falso-positivo quando o padrao "/(m3.MPa)" aparece dentro da nota
+# [DERIVADO ...] entre colchetes que EXPLICA a conversao ja feita -- ex.
+# row_id 3178: "kg CO2-eq/m3 [DERIVADO 2026-09-08: multiplicacao do indice
+# CII (kg CO2-eq/(m3.MPa), explicitamente marcado no texto original como
+# ...) pelo fck=21.94 MPa da propria linha]" -- a unidade REAL e a que vem
+# ANTES do colchete ("kg CO2-eq/m3"), o "(m3.MPa)" dentro do colchete e so a
+# descricao do indice ORIGINAL que foi multiplicado para chegar la. Retirar
+# o conteudo entre colchetes antes de procurar _JA_MPA_PAT (mesmo tratamento
+# que _ASPAS_PAT ja da a aspas para _NEGACAO_M3_PAT). Bug pre-existente
+# desde a introducao do proprio padrao [DERIVADO], so agora corrigido.
+_COLCHETES_PAT = re.compile(r'\[.*?\]')
 _JA_MPA_PAT = re.compile(r'/\s*\(?\s*m3\s*[\.\*]\s*mpa|/\s*mpa\b|\.\s*mpa\)|\bkg\s*co2[\-\s]?e?q?\.?\s*/\s*\(m3\s*mpa\)')
 _TONELADA_PAT = re.compile(r'\btonelada|/\s*t\b|\btco2')
 _KG_PAT = re.compile(r'/\s*kg\b')
@@ -400,9 +412,10 @@ def classify_unidade(u_raw):
     if not u:
         return 'nativo', 'm3'  # legado: linhas antigas sem co2_unidade preenchido, kg/m3 implicito
     u_sem_aspas = _ASPAS_PAT.sub(' ', u)
-    if _M3_OK_PAT.search(u) and not _JA_MPA_PAT.search(u) and not _NEGACAO_M3_PAT.search(u_sem_aspas):
+    u_sem_colchetes = _COLCHETES_PAT.sub(' ', u)
+    if _M3_OK_PAT.search(u) and not _JA_MPA_PAT.search(u_sem_colchetes) and not _NEGACAO_M3_PAT.search(u_sem_aspas):
         return ('derivado', 'm3') if _DERIVADO_TAG_PAT.search(u) else ('nativo', 'm3')
-    if _JA_MPA_PAT.search(u):
+    if _JA_MPA_PAT.search(u_sem_colchetes):
         return 'pendente', 'ja_mpa'
     if _TONELADA_PAT.search(u):
         return 'pendente', 'tonelada'
