@@ -373,6 +373,23 @@ _NEGACAO_M3_PAT = re.compile(r'\bnao\b.{0,40}?\bm[\^]?3\b|\bnot\b.{0,40}?\bm[\^]
 # que _ASPAS_PAT ja da a aspas para _NEGACAO_M3_PAT). Bug pre-existente
 # desde a introducao do proprio padrao [DERIVADO], so agora corrigido.
 _COLCHETES_PAT = re.compile(r'\[.*?\]')
+# ARMADILHA Nº4 (encontrada 2026-09-11, lote 6): a mesma logica da nº3 vale
+# tambem para _M3_OK_PAT (nao so para _JA_MPA_PAT) -- uma nota [ALERTA ...]
+# ou [leitura visual ...] entre colchetes pode conter, incidentalmente, a
+# palavra "nao" perto de "m3" (ex. row_id 3207: "[ALERTA - especie de gas
+# nao declarada] kg/m3 ...") ou o texto "por m3" dentro de uma negacao de
+# OUTRA unidade (ex. row_id 3406: "g CO2-eq/(MPa.ano) [indice normalizado
+# ..., NAO e CO2 absoluto por m3]" -- aqui a unidade real, fora do
+# colchete, nem e m3, e o "por m3" dentro do colchete so aparece porque a
+# nota EXPLICA que a unidade nao e essa). Sem retirar o colchete antes de
+# checar _M3_OK_PAT, a nota do 3207 acionava um falso-negativo por via da
+# negacao (colchete continha "nao"+"m3" sem relacao gramatical nenhuma
+# entre os dois), e simetricamente uma nota que citasse "/m3" dentro do
+# colchete por outro motivo poderia acionar um falso-positivo. Verificado
+# por diff completo do dataset: aplicar a mesma extracao do colchete tambem
+# a _M3_OK_PAT corrige exactamente 4 linhas (921-923, 930) sem alterar mais
+# nenhuma (em particular preserva 413-418, que continuam corretamente
+# pendentes -- a unidade real deles, fora do colchete, nunca foi m3).
 _JA_MPA_PAT = re.compile(r'/\s*\(?\s*m3\s*[\.\*]\s*mpa|/\s*mpa\b|\.\s*mpa\)|\bkg\s*co2[\-\s]?e?q?\.?\s*/\s*\(m3\s*mpa\)')
 _TONELADA_PAT = re.compile(r'\btonelada|/\s*t\b|\btco2')
 _KG_PAT = re.compile(r'/\s*kg\b')
@@ -411,9 +428,9 @@ def classify_unidade(u_raw):
     u = _norm(u_raw)
     if not u:
         return 'nativo', 'm3'  # legado: linhas antigas sem co2_unidade preenchido, kg/m3 implicito
-    u_sem_aspas = _ASPAS_PAT.sub(' ', u)
     u_sem_colchetes = _COLCHETES_PAT.sub(' ', u)
-    if _M3_OK_PAT.search(u) and not _JA_MPA_PAT.search(u_sem_colchetes) and not _NEGACAO_M3_PAT.search(u_sem_aspas):
+    u_sem_aspas_colchetes = _ASPAS_PAT.sub(' ', u_sem_colchetes)
+    if _M3_OK_PAT.search(u_sem_colchetes) and not _JA_MPA_PAT.search(u_sem_colchetes) and not _NEGACAO_M3_PAT.search(u_sem_aspas_colchetes):
         return ('derivado', 'm3') if _DERIVADO_TAG_PAT.search(u) else ('nativo', 'm3')
     if _JA_MPA_PAT.search(u_sem_colchetes):
         return 'pendente', 'ja_mpa'
