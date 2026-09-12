@@ -311,6 +311,8 @@ Hierarquia recomendada:
 | **`lotes_etapa2/DUVIDAS_DE_CRITERIO.csv`** | **Fila de dúvidas de critério da Etapa 2 por resolver com a Kiê, uma a uma.** ✅ **Zerada em 2026-08-30** — as 11 dúvidas genuínas que aqui estavam foram todas resolvidas nesta sessão (ver bullet "Fila de dúvidas de critério zerada" acima). Continua a ser o ficheiro para onde os próximos lotes despejam dúvidas novas; cada uma resolvida é removida do CSV e, se generalizável, vira regra no `PROMPT_E2.md`. |
 | `lotes_etapa2/REVISAO_CO2_PERCENTAGEM_2026-08-30.csv` | Lista de trabalho da tarefa Supabase #1383 — os 69 artigos rejeitados em `E2_co2` pelo padrão "percentagem/índice sem dados para converter", por rever um a um com leitura completa do PDF. Ainda não iniciada. |
 | `lotes_etapa2/SCOPE_2021_ESTUDOS_LCA_TAB_A1.csv` | Subconjunto de 52 estudos-ACV (de 70 catalogados) extraído da Tabela A1 do SCOPE et al. 2021 (linha 3671) — ramo de citação do PRISMA para essa revisão. |
+| **`EXTRACAO_IC_QG_2026-09-12.md`** | **⭐ Infraestrutura do intervalo de confiança por estudo** — pedido da Kiê (2026-09-12) depois de reparar que o forest plot do site não tem barra de erro. Colunas novas em `dados_fck` (`ic_fck_*`/`ic_co2_*`, col 26-33) e em `articles_final.xlsx` (`QG_intervalo_confianca`, col 55), rubrica proposta para QG em `CRITERIOS_E_NUANCES_RSL.md`, e o aviso de não recalcular `E4_qualidade_total`/`E4_estrato` até QG estar pontuado nas 651 linhas. Extração em si ainda não começou. |
+| `IC_QG_WORKLIST_2026-09-12.csv` | As 651 linhas já avaliadas na Etapa 4, para preencher `QG_intervalo_confianca` lote a lote, quando a rubrica proposta for confirmada. |
 
 ## Convenções deste vault
 

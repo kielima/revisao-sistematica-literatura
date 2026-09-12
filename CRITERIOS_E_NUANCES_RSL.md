@@ -699,7 +699,9 @@ que a análise usa directamente.
 
 # ✅ O checklist de qualidade redesenhado (2026-08-24)
 
-**Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.**
+**Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.** *(Continua seis em vigor — ver QG mais abaixo,
+proposto em 2026-09-12 mas ainda não pontuado em nenhuma linha; o máximo só passa a 7,0 no dia
+em que QG for extraído nas 651 linhas já avaliadas.)*
 
 ⚠️ **Identificadores por LETRA, de propósito.** Não reutilizar «Q1–Q6»: o checklist antigo
 usava esses números com significados diferentes, e os 75 estudos já pontuados estão
@@ -713,9 +715,47 @@ registados com eles. Letras tornam impossível confundir os dois.
 | **QD — Vida útil** | antigo Q5 | A vida útil está declarada (entra na UF do `ci_t`) |
 | **QE — Fronteira do sistema** | **novo** | O que está dentro e fora do sistema |
 | **QF — Emparelhamento CO₂↔resistência** | **novo** | Os dois números do quociente pertencem à mesma mistura |
+| **QG — Dispersão/intervalo de confiança declarado** | **proposto 2026-09-12, ver abaixo** | O artigo dá meio de calcular um intervalo de confiança para o `ci` daquela mistura |
 
 ~~Q3 — Unidade de medida CO₂~~ e ~~Q6 — fck~~ **saem**: passaram a ser critérios de
 exclusão na Etapa 2, e mantê-los pontuaria 1,0 automaticamente em tudo o que chegasse aqui.
+
+## ⚠️ QG — Dispersão/intervalo de confiança declarado (PROPOSTO 2026-09-12, pendente de pontuação real)
+
+**Pedido da Kiê, 2026-09-12**, depois de constatar que o forest plot do site (kielima.com/metanalise)
+mostra um ponto por mistura sem barra de erro nenhuma — porque `dados_fck` nunca teve onde guardar
+uma medida de dispersão por linha. Este item mede se o **próprio artigo** dá material para calcular
+um IC do `ci` daquela mistura (desvio-padrão + n, coeficiente de variação, ou um IC já pronto do
+autor) — não se calcula o IC aqui, só se confirma que o dado-fonte existe.
+
+| Pontos | Critério |
+|---|---|
+| **1,0** | O artigo declara dispersão (SD+n, CoV, ou IC) para **resistência e CO₂** da mesma mistura |
+| **0,5** | O artigo declara dispersão para **apenas uma** das duas grandezas (o caso mais comum esperado: resistência com SD de corpos de prova replicados, CO₂ sem nenhuma, por ser valor calculado de ACV determinístico, não medido) |
+| **0** | Nenhuma das duas grandezas tem dispersão declarada — só o valor pontual/médio |
+
+⚠️ **Isto é uma proposta de rubrica, não uma pontuação em vigor.** Segue o texto literal da própria
+regra de pré-especificação deste ficheiro («Regras que têm de ser fixadas ANTES de pontuar» — ver
+secção da estratificação por terços): antes de pontuar QG em qualquer linha, a Kiê tem de confirmar
+ou ajustar este texto. **Nenhuma das 651 linhas já avaliadas na Etapa 4 tem QG pontuado ainda** —
+a coluna `QG_intervalo_confianca` (col 55 de `articles_final.xlsx`, adicionada 2026-09-12) está
+vazia em todo o banco.
+
+🚨 **NÃO recalcular `E4_qualidade_total`/`E4_estrato` (nem correr `apply_e4_estrato.py`) até
+QG estar pontuado nas 651 linhas que já têm as outras seis.** Adicionar QG=0 por omissão a todas
+as linhas mudaria a escala de 0–6 para 0–7 e derrubaria a nota de toda a gente por igual sem
+nenhuma informação nova — não é uma correção, é ruído injectado. As duas colunas continuam,
+propositadamente, coerentes com o checklist de seis itens até o dia em que QG for extraído
+artigo a artigo. Ver `EXTRACAO_IC_QG_2026-09-12.md` para o plano e o worklist.
+
+Os valores brutos por trás de QG (o desvio-padrão/CoV/IC em si, não só o sim/não do checklist)
+vivem em `dados_fck`, colunas 26–33 (adicionadas na mesma sessão): `ic_fck_valor`/`ic_fck_tipo`/
+`ic_fck_n`/`ic_fck_citacao` e o mesmo quarteto para `ic_co2_*`. `ic_*_tipo` é categórico
+(`desvio_padrao`|`cv_percentual`|`intervalo_min_max`|`ic_declarado`|vazio); `ic_*_n` é o nº de
+corpos de prova replicados, só relevante quando `tipo=desvio_padrao` (precisa de n para converter
+SD em IC via distribuição t). Espera-se que os quatro campos `ic_co2_*` fiquem vazios na grande
+maioria das linhas — ACV é tipicamente um cálculo determinístico do inventário, sem réplica
+natural, ao contrário do ensaio de resistência à compressão.
 
 ## QE — Fronteira do sistema
 

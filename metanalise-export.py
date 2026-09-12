@@ -6,7 +6,19 @@ Uso:
 
 Saida: {"pairs": [...], "unit_stats": [...]}.
 
-`pairs`: cada ponto e [fck_MPa, co2_kg_m3, categoria_1_letra, estrato_1_letra].
+`pairs`: cada ponto e [fck_MPa, co2_kg_m3, categoria_1_letra, estrato_1_letra,
+citacao_curta_ou_null]. `citacao_curta` (2026-09-12, pedido da Kie: forest
+plot por familia com os estudos individuais, no expand de cada barra do
+grafico "ci por familia de material") e uma citacao curta tipo "Sobrenome et
+al., Ano" derivada de dados_fck.autores+ano -- ver short_label() abaixo para
+a heuristica (o campo autores nao tem um formato unico: mistura
+"Sobrenome, N.; Sobrenome, N." (';'), "Sobrenome, Nome and Sobrenome, Nome"
+(bibtex 'and'), listas soltas de sobrenomes sem nome proprio separadas so por
+virgula, e ate valores legados ja no proprio formato "Sobrenome et al., Ano").
+null quando autores esta vazio -- o site mostra um rotulo generico nesse caso.
+Puramente informativo (rotulo de UI), nao um identificador -- nunca usar para
+casar com outra linha.
+
 Filtra a pares comparaveis por m3 (exclui totais de estrutura inteira, que nao
 tem a mesma unidade de analise) e classifica o material por palavras-chave no
 campo `material`+`titulo`, com um dicionario OVERRIDE por row_id para os casos
@@ -449,6 +461,86 @@ def classify_unidade(u_raw):
     return 'pendente', 'outro'
 
 
+# --------------------------------------------------------------------------
+# Citacao curta (autores+ano -> "Sobrenome et al., Ano") para o forest plot
+# por estudo dentro de cada familia (pedido da Kie, 2026-09-12). O campo
+# dados_fck.autores nao segue um formato unico -- amostrado sobre as 585
+# variantes distintas em uso ate 2026-09-12, aparecem pelo menos 4 padroes:
+# "Sobrenome, N.; Sobrenome, N." (';'), "Sobrenome, Nome and Sobrenome, Nome"
+# (separador bibtex ' and '), listas soltas de sobrenomes sem nome proprio
+# separadas so por virgula (ex. "Yoris-Nobile, Lizasoain-Arteaga, ..."), e
+# valores legados que ja guardam a citacao pronta (ex. "Taherkhani et al.,
+# 2023"). A heuristica abaixo cobre os quatro casos sem tentar ser perfeita
+# -- e um rotulo de UI (hover/expand), nao um identificador citavel.
+#
+# ARMADILHA (encontrada 2026-09-12, checagem visual do forest plot recem-
+# criado): o formato bibtex " and " tambem carrega, ocasionalmente, um
+# sobrenome composto protegido entre chavetas -- convencao do bibtex para
+# impedir que o normalizador de citacoes quebre um sobrenome de mais de uma
+# palavra (ex. "Samuvel {Raj R}", "Nele {De Belie}", "Natalia {Pires
+# Martins}"). Sem tratar isso, surname_of() pegava so a ULTIMA palavra do
+# nome completo (ex. "R}", com a chaveta a mais) em vez do sobrenome real.
+# O conteudo entre chavetas, quando existe, E o sobrenome -- usar
+# directamente, nunca dividir por espaco dentro dele.
+_BRACE_SURNAME_PAT = re.compile(r'\{([^{}]+)\}')
+
+
+def surname_of(tok):
+    tok = tok.strip()
+    brace = _BRACE_SURNAME_PAT.findall(tok)
+    if brace:
+        surname = brace[-1].strip()
+    elif ',' in tok:
+        surname = tok.split(',', 1)[0].strip()
+    else:
+        parts = tok.split()
+        surname = parts[-1] if parts else tok
+    # defesa contra erro de capitalizacao na propria planilha (ex. "Jing
+    # zhang" em vez de "Jing Zhang") -- nao mexe em nomes ja bem formados.
+    return surname[:1].upper() + surname[1:] if surname else surname
+
+
+def _finish_label(first_surname, n_authors, has_et_al, ano, second_surname=None):
+    if n_authors == 1:
+        label = first_surname + (' et al.' if has_et_al else '')
+    elif n_authors == 2 and not has_et_al and second_surname:
+        label = first_surname + ' & ' + second_surname
+    else:
+        label = first_surname + ' et al.'
+    ano_f = tofloat(ano)
+    ano_s = str(int(ano_f)) if ano_f is not None else ''
+    return (label + ', ' + ano_s) if ano_s else label
+
+
+def short_label(autores, ano):
+    if not autores:
+        return None
+    s = str(autores).strip()
+    if not s:
+        return None
+    has_et_al = bool(re.search(r'et\s*al\.?\s*$', s, re.I))
+    s = re.sub(r'\s*et\s*al\.?\s*$', '', s, flags=re.I).strip().rstrip(';,').strip()
+    if not s:
+        return None
+    if re.search(r'\s+and\s+', s, re.I):
+        tokens = re.split(r'\s+and\s+', s, flags=re.I)
+    elif ';' in s:
+        tokens = s.split(';')
+    elif s.count(',') > 1:
+        # lista solta de sobrenomes sem nome proprio -- cada token JA e um
+        # sobrenome isolado, nao um par "Sobrenome, Nome" para desmembrar.
+        tokens = [t.strip() for t in s.split(',') if t.strip()]
+        return _finish_label(surname_of(tokens[0]), len(tokens), has_et_al, ano) if tokens else None
+    else:
+        tokens = [s]
+    tokens = [t.strip() for t in tokens if t.strip()]
+    if not tokens:
+        return None
+    n_authors = len(tokens)
+    second_surname = surname_of(tokens[1]) if n_authors == 2 else None
+    return _finish_label(surname_of(tokens[0]), n_authors, has_et_al, ano, second_surname)
+
+
 def main():
     wb = openpyxl.load_workbook(BASE)
     ws = wb['dados_fck']
@@ -458,6 +550,8 @@ def main():
     for r in range(2, ws.max_row + 1):
         row_id = ws.cell(r, 1).value
         titulo = ws.cell(r, 3).value
+        autores = ws.cell(r, 4).value
+        ano = ws.cell(r, 5).value
         material = ws.cell(r, 7).value
         fck = tofloat(ws.cell(r, 8).value)
         co2 = tofloat(ws.cell(r, 14).value)
@@ -487,7 +581,7 @@ def main():
         cat = classify(row_id, material, titulo)
         if cat == 'outros':
             print(f'AVISO: linha {r} (row_id={row_id}) caiu em outros -- material={material!r}', file=sys.stderr)
-        compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato]])
+        compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato], short_label(autores, ano)])
 
     unit_stats = [
         {'kind': kind, 'cat': ucat, 'n': n}
