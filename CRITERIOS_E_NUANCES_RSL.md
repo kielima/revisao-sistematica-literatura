@@ -699,9 +699,8 @@ que a análise usa directamente.
 
 # ✅ O checklist de qualidade redesenhado (2026-08-24)
 
-**Seis itens, escala 0 / 0,5 / 1,0, máximo 6,0.** *(Continua seis em vigor — ver QG mais abaixo,
-proposto em 2026-09-12 mas ainda não pontuado em nenhuma linha; o máximo só passa a 7,0 no dia
-em que QG for extraído nas 651 linhas já avaliadas.)*
+**✅ Sete itens, escala 0 / 0,5 / 1,0, máximo 7,0** (QA-QG; QG passou de proposta a critério em
+vigor em 2026-09-12, extraído nas 651 linhas e recalculado no mesmo dia — ver secção QG abaixo).
 
 ⚠️ **Identificadores por LETRA, de propósito.** Não reutilizar «Q1–Q6»: o checklist antigo
 usava esses números com significados diferentes, e os 75 estudos já pontuados estão
@@ -720,7 +719,7 @@ registados com eles. Letras tornam impossível confundir os dois.
 ~~Q3 — Unidade de medida CO₂~~ e ~~Q6 — fck~~ **saem**: passaram a ser critérios de
 exclusão na Etapa 2, e mantê-los pontuaria 1,0 automaticamente em tudo o que chegasse aqui.
 
-## ⚠️ QG — Dispersão/intervalo de confiança declarado (PROPOSTO 2026-09-12, pendente de pontuação real)
+## ✅ QG — Dispersão/intervalo de confiança declarado (EM VIGOR desde 2026-09-12, extraído nas 651 linhas)
 
 **Pedido da Kiê, 2026-09-12**, depois de constatar que o forest plot do site (kielima.com/metanalise)
 mostra um ponto por mistura sem barra de erro nenhuma — porque `dados_fck` nunca teve onde guardar
@@ -756,11 +755,8 @@ de cada uma. Nunca usar essa linha para pontuar QG=1,0/0,5 de nenhuma mistura in
 tabela. Linha 4476: QG=0 (n=3 declarado, mas sem SD/CoV por mistura — n sozinho, sem uma
 medida de dispersão que o acompanhe, não é suficiente para montar um IC).
 
-⚠️ **Isto é uma proposta de rubrica, não uma pontuação em vigor.** Segue o texto literal da própria
-regra de pré-especificação deste ficheiro («Regras que têm de ser fixadas ANTES de pontuar» — ver
-secção da estratificação por terços): antes de pontuar QG em qualquer linha, a Kiê tem de confirmar
-ou ajustar este texto. A coluna `QG_intervalo_confianca` (col 55 de `articles_final.xlsx`,
-adicionada 2026-09-12) está vazia em 642 das 651 linhas já avaliadas na Etapa 4.
+✅ **Rubrica confirmada e aplicada às 651 linhas (2026-09-12).** A coluna `QG_intervalo_confianca`
+(col 55 de `articles_final.xlsx`) está preenchida em todo o banco avaliado na Etapa 4.
 
 ⚠️ **Dispersão às vezes só existe visualmente, nunca em texto — confirma-se o mesmo padrão da
 regra C5 (renderizar figuras, não só regex no texto extraído).** Achado do piloto (HAIGH 2024b,
@@ -773,40 +769,28 @@ barras de erro fica por transcrever (precisa leitura de pixel, não feita nesta 
 `ic_fck_tipo='intervalo_min_max'` registado em `dados_fck` com nota a apontar para a Fig. 3, sem
 `ic_fck_valor` ainda.
 
-### ✅ Piloto concluído (2026-09-12) — 9 artigos, resultado e recomendação
+### ✅ Extração completa (2026-09-12) — 651 artigos, todas as 65 lotes + 1 lacuna fechada
 
-| Linha | Autor | Formato | QG |
-|---|---|---|---|
-| 4476 | FARIDMEHR 2021 | 42 misturas numa tabela | 0 (STDEV agregada, n=3 sem SD por mistura) |
-| 2582 | ASSUNÇÃO 2020 | Dissertação (tese) | 0 (dispersão citada de Fazzan 2017) |
-| 4573 | CEN et al. 2019 | Surrogate model, 52 misturas | 0 (nenhuma dispersão no texto) |
-| 2836 | ALMEIDA 2024 | Dissertação, 25 misturas | 0 (nenhuma dispersão nos ~125k caract. lidos) |
-| 4580 | PUSHKAR 2019 | 20 misturas | 0 (nenhuma dispersão no texto) |
-| 2593 | BARBHUIYA 2024d | Revisão (status Revisao) | 0 (sem dado primário) |
-| 3363 | MARINKOVIC 2017 | Artigo experimental | 0 (± só de slump/temperatura de cura) |
-| 2950 | GILLANI 2023d | Artigo experimental | 0 (nenhuma dispersão no texto) |
-| 3477 | HAIGH 2024b | 3 misturas | **0,5** (resistência: barras de erro na Fig. 3) |
+Piloto de 9 artigos (rubrica validada contra 3 armadilhas reais) seguido da extração das
+~642 linhas restantes, em 65 lotes de subagentes com auditoria de mapeamento `dados_fck`
+entre cada lote — mais 1 lote (`lote_005`, 10 linhas) que tinha ficado por aplicar de uma
+onda muito anterior e só foi descoberto ao fechar a cobertura total do worklist.
 
-**Resultado: 0 de 9 chegou a QG=1,0; 1 de 9 (11%) chegou a QG=0,5; os restantes 8 (89%) ficaram
-em QG=0.** Amostra deliberadamente diversa (artigos experimentais, dissertações, revisão,
-modelo estatístico, várias editoras) — não é uma amostra aleatória representativa dos 651, mas
-sugere que **a taxa de acerto real na extração completa deve ser baixa**, e que mesmo os casos
-de acerto exigem **abrir e renderizar o PDF, nunca confiar só na busca de texto** — o único
-QG=0,5 encontrado só apareceu por renderização visual, não por keyword.
+**Resultado final sobre as 651 linhas: 557 QG=0 (86%) · 93 QG=0,5 (14%) · 1 QG=1,0 (0,2%, linha
+2684, HAFEZ 2024b).** Confirma a previsão do piloto — taxa de acerto baixa, e todo achado
+positivo exigiu abrir e renderizar o PDF (nenhum QG=0,5/1,0 apareceu só por busca de texto).
+Ver os PRs #186-198 do repositório para o detalhe lote a lote.
 
-**Recomendação para a Kiê:** com a rubrica agora validada contra 3 armadilhas reais e o
-rendimento esperado conhecido (baixo), a decisão que falta é de priorização, não de método —
-vale investir o tempo de reabrir os ~640 artigos restantes agora (mesmo sabendo que a maioria
-vai dar QG=0), ou isto fica para depois de outras pendências já na fila (tarefa #7, Supabase
-#1383)? Qualquer uma das duas é uma escolha legítima; só não deveria ser feita sem esta
-informação de rendimento esperado.
-
-🚨 **NÃO recalcular `E4_qualidade_total`/`E4_estrato` (nem correr `apply_e4_estrato.py`) até
-QG estar pontuado nas 651 linhas que já têm as outras seis.** Adicionar QG=0 por omissão a todas
-as linhas mudaria a escala de 0–6 para 0–7 e derrubaria a nota de toda a gente por igual sem
-nenhuma informação nova — não é uma correção, é ruído injectado. As duas colunas continuam,
-propositadamente, coerentes com o checklist de seis itens até o dia em que QG for extraído
-artigo a artigo. Ver `EXTRACAO_IC_QG_2026-09-12.md` para o plano e o worklist.
+✅ **`E4_qualidade_total`/`E4_estrato` recalculados com os sete itens em 2026-09-12** (autorização
+explícita da Kiê), substituindo o checklist de seis itens. Sobre os 594 artigos Elegível: cutoff
+de terços = **4,0/7,0**; **466 principal, 128 sensibilidade**. Face à estratificação anterior
+(6 itens, cutoff 4,0/6,0: 462 principal, 132 sensibilidade), só **4 linhas mudaram de estrato**
+(2628, 3155, 3852, 4813 — todas com QA-QF=3,5 que, somadas ao QG=0,5 recém-pontuado, atingiram
+exatamente o novo corte de 4,0 e subiram de sensibilidade para principal). A estabilidade quase
+total do corte confirma que QG, apesar de baixo rendimento, não distorceu a estratificação — só
+afinou a fronteira nos casos limítrofes, exatamente o que se espera de um sétimo critério que
+raramente pontua acima de 0. Os 57 artigos `status_triagem=Revisao` continuam sem `E4_estrato`
+(não entram na estratificação, mesma regra de sempre).
 
 Os valores brutos por trás de QG (o desvio-padrão/CoV/IC em si, não só o sim/não do checklist)
 vivem em `dados_fck`, colunas 26–33 (adicionadas na mesma sessão): `ic_fck_valor`/`ic_fck_tipo`/

@@ -49,26 +49,41 @@ metodológicos confirmados (STDEV agregada ≠ dispersão por linha; dispersão 
 estudo não conta; dispersão pode existir só em figura, nunca em texto — precisa sempre
 renderizar, nunca só regex).
 
-**Decisão pendente da Kiê:** com a rubrica validada e o rendimento esperado conhecido (baixo),
-falta decidir se vale a pena reabrir os ~640 artigos restantes agora, sabendo que a maioria
-provavelmente vai dar QG=0, ou se isto fica para depois de outras pendências (tarefa #7,
-Supabase #1383). Ver a recomendação completa em `CRITERIOS_E_NUANCES_RSL.md`.
+**Decisão da Kiê:** "Pode continuar" — extração completa autorizada na mesma sessão, seguida de
+"Pode recalcular" para o passo de `E4_qualidade_total`/`E4_estrato`. Ambos concluídos em
+2026-09-12.
 
-## O que falta (trabalho de releitura, não de infraestrutura)
+## ✅ CONCLUÍDO (2026-09-12) — extração completa + recálculo de qualidade
 
-- **Decidir a priorização acima** antes de continuar a extração das ~640 linhas restantes.
-- **Extrair, artigo a artigo, o resto do worklist**: reabrir o PDF (texto **e** figuras
-  renderizadas — o piloto confirmou que a dispersão pode existir só visualmente), procurar
-  desvio-padrão/CoV/IC nas tabelas e gráficos de resultados (resistência e, mais raramente,
-  CO₂), preencher as colunas `ic_fck_*`/`ic_co2_*` em `dados_fck` para cada mistura, e o
-  `QG_intervalo_confianca` em `articles_final.xlsx` para o artigo.
-- **Transcrever com precisão o valor visual pendente de HAIGH 2024b** (linhas 420-422) — leitura
-  de pixel da Fig. 3, não feita no piloto (só confirmada a existência).
-- **Só depois de QG estar pontuado nas 651 linhas**, recalcular `E4_qualidade_total`/`E4_estrato`
-  com sete itens (correr uma versão actualizada de `apply_e4_estrato.py`) e reavaliar se a
-  estratificação por terços muda.
+- **As 651 linhas do worklist têm `QG_intervalo_confianca` preenchido.** Processadas em 65 lotes
+  de subagentes (~10 artigos cada, 8 lotes por onda), com verificação obrigatória do mapeamento
+  `dados_fck_linha↔row_id` antes de cada escrita (apanhou 1 erro real de subagente — linha 4560,
+  citação de `dados_fck_linha` errada, corrigida por cross-check antes de aplicar) — mais 1 lote
+  (`lote_005`, 10 linhas) que tinha sido processado numa onda muito anterior mas nunca chegou a
+  ser aplicado ao banco, descoberto e fechado ao verificar a cobertura total do CSV.
+- **Resultado: 557 QG=0 (86%) · 93 QG=0,5 (14%) · 1 QG=1,0 (0,2%, linha 2684, HAFEZ 2024b).**
+  Confirma a previsão do piloto: rendimento baixo, e nenhum achado positivo surgiu só por busca
+  de texto — todos exigiram renderizar o PDF (barra de erro visual) ou ler o texto corrido com
+  atenção às armadilhas (dispersão agregada entre misturas, dispersão de estudo citado, Monte
+  Carlo sobre input assumido vs. sobre o próprio output).
+- **`E4_qualidade_total`/`E4_estrato` recalculados com os sete itens** (autorização explícita da
+  Kiê). Sobre os 594 artigos Elegível: cutoff de terços = 4,0/7,0 → **466 principal, 128
+  sensibilidade**. Só 4 linhas mudaram de estrato face à estratificação de seis itens (2628,
+  3155, 3852, 4813) — todas no limite exato do corte anterior (QA-QF=3,5), que o QG=0,5 recém-
+  pontuado empurrou para 4,0. Ver `CRITERIOS_E_NUANCES_RSL.md`, secção "Extração completa", para
+  o detalhe.
+- Ver PRs #186-198 no repositório para o histórico lote a lote (waves 1-7 + gap-fill).
+
+## O que ainda falta (não bloqueado, trabalho à parte)
+
+- **Transcrever com precisão os valores visuais aproximados** — dezenas de achados QG=0,5 desta
+  extração registaram só a existência de dispersão (barra de erro confirmada visualmente ou por
+  texto) sem o valor numérico exato, porque a leitura de pixel/OCR fina não fazia parte do
+  escopo desta tarefa. `ic_fck_citacao`/`ic_co2_citacao` em `dados_fck` documentam onde cada
+  valor pendente está (figura, página) para quem quiser fazer essa transcrição depois.
 - **Implementar o cálculo do IC real** no site — bootstrap ao nível agregado por família (não
-  precisa de QG); IC por linha/estudo só é possível para as linhas cujo QG ≥ 0,5.
+  precisa de QG); IC por linha/estudo só é possível para as linhas cujo QG ≥ 0,5 e com valor
+  numérico transcrito (não aproximado).
 
 ## Ficheiros desta sessão
 
