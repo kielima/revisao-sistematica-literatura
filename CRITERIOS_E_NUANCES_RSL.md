@@ -759,11 +759,47 @@ medida de dispersão que o acompanhe, não é suficiente para montar um IC).
 ⚠️ **Isto é uma proposta de rubrica, não uma pontuação em vigor.** Segue o texto literal da própria
 regra de pré-especificação deste ficheiro («Regras que têm de ser fixadas ANTES de pontuar» — ver
 secção da estratificação por terços): antes de pontuar QG em qualquer linha, a Kiê tem de confirmar
-ou ajustar este texto. **Nenhuma das 651 linhas já avaliadas na Etapa 4 tem QG pontuado ainda** —
-a coluna `QG_intervalo_confianca` (col 55 de `articles_final.xlsx`, adicionada 2026-09-12) está
-vazia em todo o banco. **Piloto em curso (2026-09-12):** 2 de ~13 artigos lidos até agora
-(FARIDMEHR e ASSUNÇÃO, ambos QG=0 pelos motivos acima); as duas regras acima já confirmadas
-pela Kiê, resto do piloto a continuar.
+ou ajustar este texto. A coluna `QG_intervalo_confianca` (col 55 de `articles_final.xlsx`,
+adicionada 2026-09-12) está vazia em 642 das 651 linhas já avaliadas na Etapa 4.
+
+⚠️ **Dispersão às vezes só existe visualmente, nunca em texto — confirma-se o mesmo padrão da
+regra C5 (renderizar figuras, não só regex no texto extraído).** Achado do piloto (HAIGH 2024b,
+linha 3477, linhas 420-422 de `dados_fck`): o texto diz *"The standard deviation is shown via
+error bars in Fig. 3"*, mas nenhum valor numérico aparece no texto extraído — só a renderização
+da página revela as barras de erro no gráfico. **QG=0,5** (resistência tem dispersão visível;
+CO₂/impactos ambientais na Tabela 7 são determinísticos, apesar de o artigo correr uma simulação
+de Monte Carlo nos *inputs* — o *output* é publicado sem intervalo). O valor numérico exato das
+barras de erro fica por transcrever (precisa leitura de pixel, não feita nesta sessão) —
+`ic_fck_tipo='intervalo_min_max'` registado em `dados_fck` com nota a apontar para a Fig. 3, sem
+`ic_fck_valor` ainda.
+
+### ✅ Piloto concluído (2026-09-12) — 9 artigos, resultado e recomendação
+
+| Linha | Autor | Formato | QG |
+|---|---|---|---|
+| 4476 | FARIDMEHR 2021 | 42 misturas numa tabela | 0 (STDEV agregada, n=3 sem SD por mistura) |
+| 2582 | ASSUNÇÃO 2020 | Dissertação (tese) | 0 (dispersão citada de Fazzan 2017) |
+| 4573 | CEN et al. 2019 | Surrogate model, 52 misturas | 0 (nenhuma dispersão no texto) |
+| 2836 | ALMEIDA 2024 | Dissertação, 25 misturas | 0 (nenhuma dispersão nos ~125k caract. lidos) |
+| 4580 | PUSHKAR 2019 | 20 misturas | 0 (nenhuma dispersão no texto) |
+| 2593 | BARBHUIYA 2024d | Revisão (status Revisao) | 0 (sem dado primário) |
+| 3363 | MARINKOVIC 2017 | Artigo experimental | 0 (± só de slump/temperatura de cura) |
+| 2950 | GILLANI 2023d | Artigo experimental | 0 (nenhuma dispersão no texto) |
+| 3477 | HAIGH 2024b | 3 misturas | **0,5** (resistência: barras de erro na Fig. 3) |
+
+**Resultado: 0 de 9 chegou a QG=1,0; 1 de 9 (11%) chegou a QG=0,5; os restantes 8 (89%) ficaram
+em QG=0.** Amostra deliberadamente diversa (artigos experimentais, dissertações, revisão,
+modelo estatístico, várias editoras) — não é uma amostra aleatória representativa dos 651, mas
+sugere que **a taxa de acerto real na extração completa deve ser baixa**, e que mesmo os casos
+de acerto exigem **abrir e renderizar o PDF, nunca confiar só na busca de texto** — o único
+QG=0,5 encontrado só apareceu por renderização visual, não por keyword.
+
+**Recomendação para a Kiê:** com a rubrica agora validada contra 3 armadilhas reais e o
+rendimento esperado conhecido (baixo), a decisão que falta é de priorização, não de método —
+vale investir o tempo de reabrir os ~640 artigos restantes agora (mesmo sabendo que a maioria
+vai dar QG=0), ou isto fica para depois de outras pendências já na fila (tarefa #7, Supabase
+#1383)? Qualquer uma das duas é uma escolha legítima; só não deveria ser feita sem esta
+informação de rendimento esperado.
 
 🚨 **NÃO recalcular `E4_qualidade_total`/`E4_estrato` (nem correr `apply_e4_estrato.py`) até
 QG estar pontuado nas 651 linhas que já têm as outras seis.** Adicionar QG=0 por omissão a todas
