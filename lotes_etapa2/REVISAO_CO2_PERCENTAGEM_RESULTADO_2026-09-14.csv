@@ -50,9 +50,9 @@ linha,decisao,motivo
 4591,CONFIRMA_REJEICAO,Autores usaram energia (MJ) em vez de CO2 por falta de inventario; GWP so como trabalho futuro
 4685,CONFIRMA_REJEICAO,"Regra 6/7: unica figura de climate change usa eixo percentual normalizado, sem valor absoluto"
 4730,CONFIRMA_REJEICAO,"Ausencia total de LCA/CO2; CO2 so em TGA (decarbonatacao quimico-analitica, excecao C5)"
-4881,PENDENTE_KIE,SILGADO nao e revisao (document_type=Article) - citacao de Hu et al. nao se encaixa na regra da revisao da Kie; resultados proprios sao 100% percentuais. Aguardando decisao especifica.
+4881,CONFIRMA_REJEICAO,"Regra 6/7: percentual nao conversivel (sem valor absoluto proprio, citacao Hu et al. com unidade funcional diferente e nao pareada) - confirmado pela Kie 2026-09-14"
 4901,CONFIRMA_REJEICAO,"Regras 6 e 7: Fig.2 e percentual puro, Fig.3 e score ILCD normalizado sem fator de reconversao impresso"
-4931,PENDENTE_KIE,"KONTRA nao e revisao (document_type=Conference paper) e o valor e proprio do artigo, nao citado de outro estudo - nao se encaixa na regra da Kie. Valor absoluto existe (Fig.5, 5.0E+04 kg CO2eq) mas e total do sistema estrutural inteiro (parede+fundacao+armadura), nao isolavel ao concreto. Aguardando decisao especifica."
+4931,REVERTE_PARA_ACEITO,"Valor absoluto proprio (Fig.5, Athena IE4B) para parede RC; total do sistema (betao+aco) sem decomposicao, mas aceito pela Kie 2026-09-14 como familia concreto armado"
 4933,CONFIRMA_REJEICAO,LCA prometida no abstract nunca e cumprida nos resultados
 4935,CONFIRMA_REJEICAO,LCA prometida no abstract/metodologia nunca e cumprida nos resultados
 4948,CONFIRMA_REJEICAO,"Regra 6: 4 figuras de LCA todas em '% of NAC', confirmado por renderizacao visual"
