@@ -1,0 +1,58 @@
+linha,decisao,motivo
+2561,CONFIRMA_REJEICAO,"Regra 6/9: percentuais motivacionais genericos, sem tabela amarrada a mistura estudada"
+2575,CONFIRMA_REJEICAO,"Regra 6: todos os resultados sao contribuicao percentual entre materias-primas, nunca kg CO2-eq absoluto"
+2675,CONFIRMA_REJEICAO,"Regra 7: unico indicador e ECI (EUR/m3) agregado, sem isolar a parcela GWP"
+2687,REVERTE_PARA_ACEITO,"Fig.6: '100% stands for 151.3 t CO2eq' - equivalencia explicita, valor proprio do estudo (Regra 7 forma 1). Confirmado pela Kie 2026-09-14."
+2730,CONFIRMA_REJEICAO,Regra 6/9: 7 figuras de LCA todas percentuais; citacao 0.9 kg CO2/kg cimento e motivacional generica
+2737,CONFIRMA_REJEICAO,Regra 6/7: LCA propria so como contribuicao percentual entre ingredientes
+2857,CONFIRMA_REJEICAO,Ausencia total de conteudo de CO2/LCA/GWP em todo o documento
+2858,CONFIRMA_REJEICAO,Regra 6: metodo CML IA reportado so como percentual de reducao
+2889,CONFIRMA_REJEICAO,"Regra 6/9: CO2 so na introducao motivacional, sem LCA propria"
+2989,CONFIRMA_REJEICAO,"Regra 7: resultado em mPEW (person equivalents), fator de normalizacao nao impresso"
+3001,REVERTE_PARA_ACEITO,Revisao (document_type=Review) com valor de OPC citado (Africa/Asia/America) - aceito pela regra da Kie 2026-09-14 (valor de outro estudo em revisao alinhada ao proposito da metanalise). Fontes secundarias pendentes de extracao externa PRISMA.
+3060,CONFIRMA_REJEICAO,"Regra 6/8: unica cifra e reducao percentual (40%), sem baseline absoluto"
+3089,CONFIRMA_REJEICAO,Regra 6/7: resultados so percentuais/normalizados adimensionais (escala 0-5000)
+3123,CONFIRMA_REJEICAO,"Regra 6/9: LCA declarada explicitamente como trabalho futuro, nao realizada"
+3163,REVERTE_PARA_ACEITO,Revisao (document_type=Review) com valor de OPC/NaOH citado - aceito pela regra da Kie 2026-09-14 (mesma logica da 3001). Fontes secundarias pendentes de extracao externa PRISMA.
+3186,CONFIRMA_REJEICAO,"Regra 8: dois valores citados de estudos/referencias distintas, nao comparaveis"
+3194,CONFIRMA_REJEICAO,Zero ocorrencias de CO2/GWP/LCA no corpo apesar do titulo mencionar LCA
+3224,CONFIRMA_REJEICAO,Regra 8: valor de reducao (95 kg CO2-e/m3) sem baseline impresso
+3229,CONFIRMA_REJEICAO,Regra 6: unidade kg CO2-Eq definida em tabela mas nunca usada; resultados so percentuais/radar 0-100%
+3390,CONFIRMA_REJEICAO,"Regra 6: todas as figuras explicitamente 'Relative GW emissions', sem valor absoluto"
+3392,CONFIRMA_REJEICAO,Regra 7: fator de normalizacao esta em material suplementar fora do PDF
+3397,CONFIRMA_REJEICAO,Regra 7: resultados so em score PEFCR normalizado e percentagem de contribuicao
+3407,CONFIRMA_REJEICAO,Ausencia total de CO2/GWP/LCA - ensaio mecanico puro
+3437,CONFIRMA_REJEICAO,"Regra 7: fator externo citado na introducao, nao usado no inventario proprio (SimaPro)"
+3530,CONFIRMA_REJEICAO,"Regra 7: secao LCA e figura descritas so qualitativamente, sem numero nenhum"
+3540,CONFIRMA_REJEICAO,Regra 6/7: comparacoes relativas (100%=controlo); aproximacao generica citada de outro estudo
+3574,CONFIRMA_REJEICAO,Regra 7: alegacao de 40% de reducao sem calculo no corpo; fator citado externo
+3646,CONFIRMA_REJEICAO,Regra 7: valores absolutos de GWP estao em material suplementar fora do PDF
+3671,CONFIRMA_REJEICAO,"Decisao ja formalizada com a Kie em 2026-08-29 (revisao bibliometrica de metodos, sem valor de CO2 do material)"
+3706,CONFIRMA_REJEICAO,Regra 6/7: resultados por categoria de impacto estao em material suplementar fora do PDF
+3749,CONFIRMA_REJEICAO,"Regra 7: LCA endpoint ReCiPe (DALY/species.yr/USD), confirmado por renderizacao visual"
+3789,CONFIRMA_REJEICAO,Regra 9: nao ha LCA nem valor quantificado de CO2 no artigo
+3822,CONFIRMA_REJEICAO,"Regra 6/8: unica cifra e reducao percentual (41.5%), sem valor absoluto nem baseline"
+3840,CONFIRMA_REJEICAO,"Regra 7: LCA ReCiPe2016 endpoint (DALY/species.yr/USD/Pt), confirmado por renderizacao visual"
+3867,CONFIRMA_REJEICAO,Regra 9: nenhum valor quantitativo de CO2; LCA recomendada como trabalho futuro
+3916,CONFIRMA_REJEICAO,Valor absoluto existe (Fig.8) mas unidade funcional e o edificio inteiro sem normalizacao impressa
+3923,CONFIRMA_REJEICAO,Decisao da Kie 2026-08-30 reconfirmada: resultado final so em pegada ecologica (hectares)
+4029,CONFIRMA_REJEICAO,"Regra 6/8: unica cifra e reducao percentual (46%) citada, sem valor absoluto"
+4123,CONFIRMA_REJEICAO,Regra 9: zero ocorrencias de valor numerico de CO2/GHG em todo o documento
+4180,CONFIRMA_REJEICAO,"Regra 7: midpoint em percentagem, endpoint em Pt (IMPACT2002+), reconfirmado"
+4190,CONFIRMA_REJEICAO,Regra 8: unico valor absoluto e total de portfolio (0.67 Mt) desconectado da mistura estudada
+4233,CONFIRMA_REJEICAO,"Regra 9: figuras reproduzem comparacoes qualitativas de estudos externos, sem valor atribuivel ao material"
+4459,CONFIRMA_REJEICAO,"Ficheiro correto (jmse11020433) confirmado sem nenhuma ocorrencia de CO2 - e estudo de custo (LCCA), nao ambiental"
+4468,CONFIRMA_REJEICAO,"Regra 6/7: graficos normalizados a 100%, sem valor absoluto de kg CO2eq"
+4484,CONFIRMA_REJEICAO,Nenhum estudo de LCA/GWP conduzido; mencoes so motivacionais
+4487,CONFIRMA_REJEICAO,"Regra 7: LCA so em ReCiPe Endpoint (DALY/species.yr/USD), sem midpoint GWP calculado"
+4551,CONFIRMA_REJEICAO,Regra 6/7: resultados resumidos como score percentual; PDF grande demais para renderizar mas texto e inequivoco
+4555,CONFIRMA_REJEICAO,Regra 6/9: unicos valores absolutos sao estatisticas globais desconectadas do material RCA estudado
+4591,CONFIRMA_REJEICAO,Autores usaram energia (MJ) em vez de CO2 por falta de inventario; GWP so como trabalho futuro
+4685,CONFIRMA_REJEICAO,"Regra 6/7: unica figura de climate change usa eixo percentual normalizado, sem valor absoluto"
+4730,CONFIRMA_REJEICAO,"Ausencia total de LCA/CO2; CO2 so em TGA (decarbonatacao quimico-analitica, excecao C5)"
+4881,PENDENTE_KIE,SILGADO nao e revisao (document_type=Article) - citacao de Hu et al. nao se encaixa na regra da revisao da Kie; resultados proprios sao 100% percentuais. Aguardando decisao especifica.
+4901,CONFIRMA_REJEICAO,"Regras 6 e 7: Fig.2 e percentual puro, Fig.3 e score ILCD normalizado sem fator de reconversao impresso"
+4931,PENDENTE_KIE,"KONTRA nao e revisao (document_type=Conference paper) e o valor e proprio do artigo, nao citado de outro estudo - nao se encaixa na regra da Kie. Valor absoluto existe (Fig.5, 5.0E+04 kg CO2eq) mas e total do sistema estrutural inteiro (parede+fundacao+armadura), nao isolavel ao concreto. Aguardando decisao especifica."
+4933,CONFIRMA_REJEICAO,LCA prometida no abstract nunca e cumprida nos resultados
+4935,CONFIRMA_REJEICAO,LCA prometida no abstract/metodologia nunca e cumprida nos resultados
+4948,CONFIRMA_REJEICAO,"Regra 6: 4 figuras de LCA todas em '% of NAC', confirmado por renderizacao visual"
