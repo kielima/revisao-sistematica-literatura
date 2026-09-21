@@ -479,14 +479,29 @@ valor tirado de outro estudo). Comparar com um OPC de referência é praxe na AC
 alternativos, por isso isto vai repetir-se. Regista `DUVIDA`, explica na nota qual é o
 material do estudo e qual é o benchmark, e avalia o CO₂ à mesma.
 
-✅ **Classe/faixa de resistência apresentada como catálogo comparativo, sem atribuição a um
-sistema/mistura específico: ACEITA (decisão da Kiê, 2026-08-28), não `DUVIDA`.** Uma tabela
+🚫🚫 **REVOGADA em 2026-09-21 (decisão da Kiê) — a regra abaixo NÃO aceita mais sozinha.**
+A auditoria retroativa de 21/09/2026 (58 artigos, ver `CLAUDE.md`) mostrou que aceitar por
+"catálogo/citação" sem exigir um par fck+CO2 extraível estava a deixar entrar no funil
+artigos revisão/modelo/nível-de-edifício sem nenhum dado próprio pareável a uma mistura —
+~10% de todo o funil Elegível. **Regra nova, vigente desde 2026-09-21: E2_resistencia e
+E2_co2 só podem ser `Aceito` se o artigo tiver, em algum lugar do seu próprio texto/tabela
+(não citação, não catálogo compilado sozinho), um valor de resistência E um valor de CO2 que
+possam ser extraídos e pareados a uma mistura/sistema específico para `dados_fck` — mesmo que
+não seja extraído nesta sessão.** O texto abaixo (regra "catálogo comparativo", 2026-08-28)
+fica preservado por rastreabilidade histórica, mas **não basta mais sozinho** para `Aceito`:
+uma classe citada/compilada de terceiros continua a contar como "classe declarada" apenas
+quando o artigo TAMBÉM tem um valor de CO2 próprio pareável a essa classe (não a outro nível:
+edifício inteiro, fator de material isolado, fenómeno diferente como logística/vergalhão/fibra
+sozinha). Sem essa condição, `Rejeitado` em E2_resistencia, `criterio_saida=E2_resistencia`.
+
+✅ **Texto histórico da regra revogada (2026-08-28, mantido só para contexto — ver revogação
+acima):** Classe/faixa de resistência apresentada como catálogo comparativo, sem atribuição a um
+sistema/mistura específico: ACEITA, não `DUVIDA`. Uma tabela
 que lista C30 a C80 como *linhas* de fatores de emissão de várias fontes da literatura, ou uma
 faixa geral (C20/25 a C35/45) que caracteriza a prática de um país/sector sem dizer qual classe
 o próprio caso de estudo usa, ou uma classe que é só a variável de decisão de um modelo/algoritmo
-sem o resultado final atribuído — tudo isto conta como classe declarada, `Aceito`, mesmo sem
-ligação a um edifício/mistura específico. Substitui a orientação anterior desta secção (que
-mandava `DUVIDA` nestes casos por «catálogo, não declaração»).
+sem o resultado final atribuído — tudo isto contava como classe declarada, `Aceito`, mesmo sem
+ligação a um edifício/mistura específico.
 - Se a tabela compila dados de fontes externas citadas (uma revisão, um catálogo normativo como
   o Código Técnico espanhol, uma base de dados nacional) — regista essas fontes em
   `fonte_externa_resistencia`, para entrarem no ramo de busca por citação do fluxograma PRISMA.
