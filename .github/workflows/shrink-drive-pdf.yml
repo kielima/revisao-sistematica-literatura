@@ -12,6 +12,15 @@ name: Reduzir PDF do Google Drive (para caber no limite de download do MCP)
 #
 # Reutiliza o mesmo secret RCLONE_CONFIG do push-to-drive.yml (ver esse
 # ficheiro para o contexto completo da infraestrutura rclone).
+#
+# first_page/last_page (adicionado 2026-09-22, caso ISAIA 2021): opcionais.
+# Quando preenchidos, o Ghostscript extrai so esse intervalo de paginas do
+# PDF ORIGINAL (-dFirstPage/-dLastPage) ANTES de comprimir — util para um
+# PDF grande (>10MB) cujo read_file_content trunca antes de chegar a
+# tabela/secao que interessa (armadilha n.7 do CLAUDE.md): isolar so as
+# paginas da tabela alvo produz um ficheiro minusculo que cabe folgado no
+# teto de 10MB do download_file_content e nao sofre truncamento de texto.
+# Deixar ambos vazios preserva o comportamento antigo (ficheiro inteiro).
 
 on:
   workflow_dispatch:
@@ -37,6 +46,14 @@ on:
           - /screen
           - /ebook
           - /printer
+      first_page:
+        description: "Opcional: primeira pagina do PDF ORIGINAL a manter (1-based). Vazio = ficheiro inteiro."
+        required: false
+        type: string
+      last_page:
+        description: "Opcional: ultima pagina do PDF ORIGINAL a manter (1-based). Vazio = ficheiro inteiro."
+        required: false
+        type: string
 
 jobs:
   shrink-pdf:
@@ -66,9 +83,17 @@ jobs:
       - name: Comprimir com Ghostscript
         run: |
           set -euo pipefail
+          PAGE_ARGS=()
+          if [ -n "${{ inputs.first_page }}" ]; then
+            PAGE_ARGS+=("-dFirstPage=${{ inputs.first_page }}")
+          fi
+          if [ -n "${{ inputs.last_page }}" ]; then
+            PAGE_ARGS+=("-dLastPage=${{ inputs.last_page }}")
+          fi
           gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
             -dPDFSETTINGS="${{ inputs.pdfsettings }}" \
             -dNOPAUSE -dQUIET -dBATCH \
+            "${PAGE_ARGS[@]}" \
             -o /tmp/shrunk.pdf /tmp/original.pdf
           echo "Tamanho original vs comprimido:"
           ls -la /tmp/original.pdf /tmp/shrunk.pdf
