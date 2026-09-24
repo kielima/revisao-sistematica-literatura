@@ -182,3 +182,32 @@ ainda pendente de resposta da Kiê nesta conversa.
 3. **No final, integrar esta extração às ondas anteriores da reauditoria
    da metanálise** que ficaram por completar (a série de "ondas" já
    documentada em `meta_analysis_base.xlsx` → aba `LEGENDA`).
+
+## 🆕 ONDA 1 — Lotes 01-05, 75 dos 437 artigos pendentes (2026-09-24)
+
+**Decisão da Kiê (2026-09-24): "vamos misturar, na ordem do banco. Mas vamos abrir e reabrir todos os pdfs, pra confirmar tudo."** Sem pré-ordenar por dificuldade (balde) — os 437 artigos com par `fck_mpa`+`co2_valor` completo mas sem `vol_corpo_prova_m3` são processados na ordem do banco, em lotes de 15 artigos por subagente, cada um a reabrir o PDF por completo (não confiar no `fonte_no_pdf`/`observacoes` já escritos) e a reconferir também o par `fck_mpa`/`co2_valor` já registado, não só extrair o volume. Worklist completa em `lotes_ci_mpa/CI_MPA_WORKLIST_2026-09-24.csv` (437 artigos, 1.366 linhas de `dados_fck`); resultado de cada lote em `lotes_ci_mpa/LOTE0N_CI_MPA_2026-09-24.csv`.
+
+**Resultado dos lotes 01-05 (75 artigos, 250 linhas de `dados_fck`):**
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 87 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 147 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 8 | LYRA (row_id 2847) — ver achado abaixo |
+| ACHADO_DIVERGENCIA | 8 | 5 corrigidos directamente (evidência textual inequívoca), 3 ficam para a Kiê decidir |
+
+**✅ 5 correcções aplicadas directamente** (evidência textual clara, mesmo padrão já usado nas rondas anteriores de conferência):
+- **Linha 654 (row_id 2694, JANG ma15145047):** `co2_valor` 420→429 — o próprio artigo (Sec.5.1) diz que 420 (4.20×10²) é só a parcela de CO₂ puro antes de somar CFC-11/114/12; o GWP/CO₂-eq final por m³ é 429 (4.29×10²), também impresso na Tabela 4.
+- **Linhas 152/153 (row_id 2703, KIM et al. 2016e):** `co2_valor` estava trocado entre os dois tipos — Type2 (OPC+BFS-geral 30%) devia ter 259,14 (Case5 da Tabela 11), não 263,24 (Case4, que é do W-BFS); Type3/"4" (OPC+W-BFS 30%) devia ter 263,24, não 259,14. Trocados.
+- **Linhas 144/145 (row_id 2672, SPOSITO 2024i):** campo `material` corrigido de "Painéis" para "Pastas" (Secção 4.1.3 do artigo, "AAMs pastes" — os painéis de fachada são um estudo diferente, Cap.5); `co2_valor` da linha 145 (NH-SS1.5) corrigido de 112 para 108 — o 112 pertencia à mistura NH-SS2.0, não à NH-SS1.5.
+
+**⚠️ 3 achados que ficam para a Kiê decidir, não corrigidos:**
+- **Linhas 116-118 (row_id 2653, DI MARIA et al. 2020):** o próprio artigo é internamente inconsistente sobre o volume da unidade funcional — imprime "0,008 m³" duas vezes, mas também imprime peso=92kg e densidade=2300kg/m³ para a mesma FU, o que dá 0,04 m³ (5× maior). Há ainda um possível descasamento de escala entre `fck` (1 bloco, 0,0008 m³) e o `co2_valor` (FU inteira, 50 blocos). Nenhum volume atribuído.
+- **Linha 773 (row_id 2864, GALANO 2023i):** `fck`=30 é do concreto M30 da laje (referência externa) mas `co2_valor`=134,43 é do *mortar filler* usado para selar fissuras — dois materiais distintos dentro do mesmo "sistema de reparo". Par fisicamente incoerente; fica para a Kiê decidir se a linha deve ser revista ou removida de `dados_fck`.
+- **Linhas 790-791 (row_id 2902, JONES 2024d):** a linha 791 (fck=35, co2=405) vem de uma frase hipotética/contrafactual do artigo, não de material realmente usado. A linha 790 (fck=78, co2=983, material real) tem dois volumes candidatos igualmente válidos na Tabela 2 (161 m³ ou 203 m³, dois designs distintos) — sem forma de saber qual corresponde a este par.
+
+**🔴 BLOQUEADO — LYRA 2023i (row_id 2847, 8 linhas):** mesma combinação de armadilhas nº7+nº8 já documentada noutros casos — `read_file_content` parou aos ~176 mil caracteres (numa lista de notas de rodapé, sem alcançar o corpo), `download_file_content` falhou "session expired" 3× seguidas. Este mesmo artigo já foi lido com sucesso antes (para `vida_util_anos`) via `shrink-drive-pdf.yml` com `first_page`/`last_page` — é o caminho recomendado para desbloquear.
+
+**Nota sobre unidade incompatível com m³:** confirmando o achado colateral já documentado acima (25,5% dos pares com unidade não claramente "por m³"), duas linhas desta ronda (REGÚLEZ 779/780 — kg CO₂/kg; ALONSO-CANON 792 — kg CO₂/tonelada) tinham volume real encontrado no artigo, mas foram mantidas `indisponivel` por prudência — registar `vol_corpo_prova_m3` ao lado de um `co2_valor` que não é kg/m³ habilitaria um `ci_mpa` fisicamente inválido se um script futuro não verificar `co2_unidade` primeiro. Mesmo padrão já aplicado a MA 2021, MARTINEZ-MUNOZ e SIKORA nos lotes 02-04.
+
+**Progresso:** `vol_corpo_prova_m3` em `dados_fck` foi de 79 para 136 células preenchidas. Faltam **362 dos 437 artigos** (lotes 06-30, aprox.).
