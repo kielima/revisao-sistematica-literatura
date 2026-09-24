@@ -73,26 +73,39 @@ por uma constante, sem trazer informação nova.
   Como `co2_valor` já é sempre por 1 m³ (é a própria unidade funcional
   padrão de ACV de concreto), aceitar "1m³" como se fosse o volume do
   corpo de prova ensaiado devolveria `ci_mpa` numericamente igual ao `ci`
-  actual — nenhuma informação nova, e um erro conceptual silencioso. Duas
-  linhas caíram nesta armadilha na primeira passada (dados_fck linhas 368/369
-  region — TODO: linha exacta a confirmar no piloto) e ficam **de fora até
-  confirmação por leitura completa do PDF** (Kiê, 2026-09-08, resposta 1).
+  actual — nenhuma informação nova, e um erro conceptual silencioso.
   Volumes "não-1m³" vindos do texto (ex.: "0,008 m³, demonstrador
   industrial") não têm este problema — só o valor exacto "1m³" é suspeito.
 
-- **Achado de contaminação de dados — vergalhão não tem `fck`.** `fck` é a
-  notação de resistência característica **à compressão do concreto**;
-  vergalhão (aço de reforço) é caracterizado por resistência **à tração**
-  (fy/fu), ensaio e propriedade física diferentes. Duas linhas de
-  `dados_fck` (linhas 543/544, `row_id` 3821 — Al Omar & Abdelhadi 2024,
-  *"Comparative Life-Cycle Assessment of Steel and GFRP Rebars"*) têm
-  `fck_mpa` = 690 e 1207, tirados de uma tabela do artigo rotulada
-  explicitamente "**Tensile strength**: Steel Rebars 483-690 MPa" / "GFRP
-  Rebars 517-1207 MPa" — não é resistência à compressão de concreto
-  nenhuma. **Recomendação: remover estas 2 linhas de `dados_fck`
-  inteiramente** (não é só uma questão de `ci_mpa` — já contaminam `ci_m3`
-  e `ci` actuais, e provavelmente aparecem como outliers extremos no
-  gráfico de dispersão). Ainda não removido — aguarda confirmação da Kiê.
+  ✅ **As 2 linhas confirmadas por leitura completa (2026-09-24), a armadilha aplica-se às duas.**
+  `dados_fck` linha 842 (`row_id` 3099, GARCES et al. 2021, geopolymer self-healing): o
+  próprio texto diz "*The functional unit was taken to be 1 m3 of concrete blocks with
+  50 MPa compressive strength*" — é a FU da ACV, não um bloco físico ensaiado (o `fck`
+  desta linha já vinha marcado "FU de projecto, sem ensaio próprio"). `dados_fck` linha
+  1201 (`row_id` 4110, ARCE et al. 2023, argamassa alcali-ativada): "*The functional
+  unit applied in this analysis is 1 m3 of mortar*" — mesmo padrão. Ambas com
+  `vol_corpo_prova_fonte=indisponivel`; ficam com `ci_m3` normal, sem `ci_mpa`/`ci_t`.
+
+- **✅ Achado de contaminação de dados — vergalhão não tem `fck` — RESOLVIDO (2026-09-24).**
+  `fck` é a notação de resistência característica **à compressão do concreto**; vergalhão
+  (aço de reforço) é caracterizado por resistência **à tração** (fy/fu), ensaio e
+  propriedade física diferentes. As 2 linhas de `dados_fck` (`row_id` 3821 — Al Omar &
+  Abdelhadi 2024, *"Comparative Life-Cycle Assessment of Steel and GFRP Rebars"*) com
+  `fck_mpa` = 690 e 1207 foram **removidas de `dados_fck`**, confirmado por PDF reaberto
+  integralmente: a Tabela 1 do artigo rotula-os explicitamente "**Tensile strength**:
+  Steel Rebars 483-690 MPa" / "GFRP Rebars 517-1207 MPa" — e nem sequer é dado primário do
+  próprio estudo (nota 1 da tabela: "*Data from [17] Barker, C. (2016)... McGill
+  University*"). O artigo inteiro é uma ACV comparativa pura de vergalhão (aço vs GFRP)
+  para um "screed pre-cast hollow core topping" — não há nenhum `fck` nem CO2 de concreto
+  em lado nenhum do texto, só do vergalhão. **Achado adicional, mais grave que a limpeza
+  de `dados_fck`:** sem par fck+CO2 de concreto pareável, este artigo (`row_id` 3821)
+  falha o critério E2 mais restritivo (Kiê, 2026-09-21) — foi rejeitado retroactivamente
+  em `articles_final.xlsx` (`status_triagem`/`E2_resistencia`/`E2_co2`→Rejeitado), o mesmo
+  tratamento dos 58 artigos já purgados nessa ronda; a nota "o aço entra" de
+  `CRITERIOS_E_NUANCES_RSL.md` autoriza estruturas metálicas como família própria quando o
+  estudo é sobre a estrutura em si, não autoriza tratar resistência de vergalhão de reforço
+  como `fck` de concreto (mesma leitura já aplicada ao caso STOIBER/LOTE_36 e à regra 11
+  MADDALENA da Etapa 2).
 
 ## Fora de escopo (confirmado com a Kiê, 2026-09-08)
 
