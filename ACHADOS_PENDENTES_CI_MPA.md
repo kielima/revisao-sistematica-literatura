@@ -28,6 +28,38 @@
    designs distintos). Pergunta: descartar a 791? Como decidir entre os dois
    volumes da 790?
 
+## Da Onda 2 (lotes 06-10)
+
+4. **SANDANAYAKE et al. 2022 (dados_fck linha 814, row_id 3035).** O
+   `co2_valor`=109,95 registado no banco não é o CO2 absoluto do geopolímero —
+   o texto diz explicitamente "the alkali activated soil filter cake achieved
+   a total GHG emission reduction of 109.95 kgCO2-eq/m³ compared with CEM-I,
+   which equates to approximately 31%" (Secção 5.1): 109,95 é uma
+   redução/delta frente ao CEM-I, não o valor absoluto próprio do
+   geopolímero. O valor absoluto não está impresso em texto (só na Fig.3,
+   gráfico não renderizado). Pergunta: manter o delta, ou tentar reconstituir
+   o absoluto (precisaria também do valor absoluto do CEM-I, que também não
+   está impresso directamente)?
+
+5. **ZHANG et al. 2025, UHPC com resíduos de molibdénio (dados_fck linha 933,
+   row_id 3222).** O campo `fck_mpa` é composto (5 misturas na mesma célula:
+   "MT0(controlo):104.98; MT25:105.27; MT50:107.15; MT75:108.27;
+   MT100:109.32"). O texto diz explicitamente que o controlo MT0 atingiu
+   107,15 MPa — mas esse valor já está na célula, só que atribuído a MT50,
+   não a MT0. As percentagens de aumento que o artigo lista para as outras 4
+   misturas não reconciliam de forma monótona com os valores impressos
+   (parece haver uma troca de rótulos ou erro do próprio artigo). Pergunta:
+   como reatribuir os 5 valores às 5 misturas correctas — ou fica assim?
+
+6. **MENG et al. 2023, ponte (dados_fck linha 939, row_id 3241).** A linha é
+   composta e mistura dois elementos estruturais reais distintos, cada um
+   com o seu próprio volume: laje do tabuleiro C30 (secção única 5×3×0,5m =
+   7,5 m³/secção, 24 secções) e encontro/abutment C40 (63,47 m³ totais, sem
+   dimensão de elemento único). `fck_mpa` já é um texto composto
+   ("C30:30; C40:40; ..."). Pergunta: dividir esta linha em duas (uma por
+   classe/elemento, cada uma com o seu volume), ou manter `indisponivel`
+   para a linha toda?
+
 ## BLOQUEADOS (precisam de reabrir por outra via, não é dúvida de critério)
 
 - **LYRA 2023i (dados_fck linhas 763-770, row_id 2847).** Armadilhas nº7+nº8
