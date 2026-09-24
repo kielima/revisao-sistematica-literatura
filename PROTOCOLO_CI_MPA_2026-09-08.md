@@ -211,3 +211,18 @@ ainda pendente de resposta da Kiê nesta conversa.
 **Nota sobre unidade incompatível com m³:** confirmando o achado colateral já documentado acima (25,5% dos pares com unidade não claramente "por m³"), duas linhas desta ronda (REGÚLEZ 779/780 — kg CO₂/kg; ALONSO-CANON 792 — kg CO₂/tonelada) tinham volume real encontrado no artigo, mas foram mantidas `indisponivel` por prudência — registar `vol_corpo_prova_m3` ao lado de um `co2_valor` que não é kg/m³ habilitaria um `ci_mpa` fisicamente inválido se um script futuro não verificar `co2_unidade` primeiro. Mesmo padrão já aplicado a MA 2021, MARTINEZ-MUNOZ e SIKORA nos lotes 02-04.
 
 **Progresso:** `vol_corpo_prova_m3` em `dados_fck` foi de 79 para 136 células preenchidas. Faltam **362 dos 437 artigos** (lotes 06-30, aprox.).
+
+## 🆕 ONDA 2 — Lotes 06-10, mais 75 dos 437 artigos (2026-09-24)
+
+A Kiê pediu para continuar todos os lotes sem pausa, acumulando achados em `ACHADOS_PENDENTES_CI_MPA.md` para resolver depois. Resultado dos lotes 06-10 (75 artigos, 197 linhas de `dados_fck`):
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 100 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 94 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 0 | — |
+| ACHADO_DIVERGENCIA | 3 | todos ficam para a Kiê decidir (ver `ACHADOS_PENDENTES_CI_MPA.md`) — SANDANAYAKE (delta vs absoluto), ZHANG (troca de rótulo numa célula composta), MENG (linha mistura dois elementos com volumes diferentes) |
+
+**Confirmação de um caso-limite do protocolo:** quando o artigo reporta `co2_valor` "por 1 m³" (prática padrão de ACV) mas **também** tem um corpo de prova físico real menor (ex.: cubo 100mm) do mesmo traço, usar o volume real do corpo de prova é **válido** — não é a armadilha "FU=1m³". A armadilha só se aplica quando "1 m³" é o **único** volume mencionado no artigo inteiro, sem nenhum corpo físico menor testado. Já era o padrão seguido desde a Onda 1 (ex.: KUL, LI 2024 seawater), reconfirmado explicitamente nos lotes 06-10 (MEKKY, DACIC, SUN, MANAN, KANAGARAJ, JIANG, KANG).
+
+**Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 79 para **237** células preenchidas. Faltam **287 dos 437 artigos** (lotes 11-30, aprox.).
