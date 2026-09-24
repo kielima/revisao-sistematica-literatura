@@ -281,3 +281,23 @@ Resultado dos lotes 21-25 (75 artigos, 373 linhas de `dados_fck`):
 Um achado de rótulo (não é `ACHADO_DIVERGENCIA` de fck/co2): linha 1381→row_id 4463 (SAMEER, lote 22) tinha `tipo_corpo_prova` registado como "cubo 150mm" mas o artigo atribui o `fck` ao corpo **cilíndrico** (150×300mm) da classe C50/60, não ao cubo — sinalizado para a Kiê corrigir esse campo separadamente, não bloqueante para `ci_mpa`.
 
 **Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 344 para **474** células preenchidas. Faltam **62 dos 437 artigos** (lotes 26-30, aprox.).
+
+## 🆕🏁 ONDA 6 — Lotes 26-30, últimos 62 dos 437 artigos (2026-09-24)
+
+**Última onda — cobre a totalidade dos 437 artigos do worklist `CI_MPA_WORKLIST_2026-09-24.csv`.** Resultado dos lotes 26-30 (62 artigos, 187 linhas de `dados_fck`):
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 52 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 135 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 0 | — |
+| ACHADO_DIVERGENCIA | 1 | JI et al. 2022 — ver `ACHADOS_PENDENTES_CI_MPA.md`, achado 12 |
+
+**Três achados novos** registados em `ACHADOS_PENDENTES_CI_MPA.md` (achados 12-14): um volume já preenchido por sessão anterior que parece errado (JI et al., 0,75 vs 0,714 m³), uma linha cujo `fck_mpa` é na verdade resistência de madeira laminada, não de concreto (ASCIONE et al., mesma família do caso AL OMAR/vergalhão), e um padrão metodológico novo (MEDEIROS 2016) em que `co2_valor` já é total absoluto e bate exatamente com um volume real do próprio artigo, mas a regra de incompatibilidade de unidade impede aplicar — candidato a uma via de cálculo alternativa do `ci_mpa`.
+
+**Padrões novos confirmados nesta onda:**
+- **Soma de elementos reais com a mesma taxa** (MAURY-RAMIREZ, lote 26): uma linha de `dados_fck` que agrega dois elementos estruturais reais distintos (vigas aéreas + vigas de fundação) com a mesma taxa de CO2/m³ — resolvido somando os volumes reais dos dois, reproduzindo exatamente o total publicado.
+- **Ambiguidade "duas configurações do mesmo edifício"** (BAEK et al., lote 28): fator de emissão idêntico usado em dois cenários estruturais comparados (Referência vs Alternativo) do mesmo edifício, mas a linha do banco não distingue a qual cenário pertence e as quantidades reais diferem entre os dois — mantido `indisponível` por ambiguidade de pareamento, não catalogado antes.
+- **Truncamento (armadilha nº7) atingiu 5 dos 15 artigos do lote 29** (teses/dissertações longas: SCHMIDT, FARIAS, REZENDE, SANTOS, ISAIA) — em todos esses casos a conclusão final já era `indisponível` por incompatibilidade de unidade (independente de fck/co2), então o truncamento não mudou nenhum resultado desta vez, mas fica registado para auditoria futura se necessário.
+
+**Progresso final:** `vol_corpo_prova_m3` em `dados_fck` foi de 474 para **526** células preenchidas. **Os 437 artigos do worklist estão cobertos — não há mais lotes pendentes desta extração.** Restam só os achados acumulados nas Ondas 1-6 (14 no total) para a Kiê resolver, um a um, conforme pedido.

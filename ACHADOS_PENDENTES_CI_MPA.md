@@ -138,6 +138,45 @@ em maior escala. Não é uma dúvida bloqueante, só um ponto para a Kiê
 confirmar se quer manter esta leitura mais ampla da categoria daqui em
 diante (parece que sim, dado o uso já repetido).
 
+## Da Onda 6 (lotes 26-30, última onda — todos os 437 artigos cobertos)
+
+12. **JI et al. 2022 (dados_fck linha 1695, row_id 4705).** O `vol_corpo_prova_m3`
+    desta linha já estava preenchido (0,75) por trabalho de uma sessão
+    anterior a esta extração — mas ao reconferir contra a Tabela 1 do
+    artigo, o par `fck`=35,3 corresponde à linha "On-site TC, 60°C"
+    (Width=487,8mm, 28-Day Strength=35,3MPa, Concrete Volume=**0,714**
+    m³), não 0,75 (esse é o volume de outra linha da tabela, "20°C",
+    fck=33,6MPa). Não foi corrigido por estar fora do escopo desta
+    extração (só se preenchem células vazias). Pergunta: corrigir
+    0,75→0,714?
+
+13. **ASCIONE et al. 2024 (dados_fck linha 598, row_id 4820).** O
+    `fck_mpa`=30 registado nesta linha corresponde, pela leitura do
+    artigo, à resistência à compressão paralela às fibras (fc,0,k) da
+    classe de madeira lamelada colada GL30h (Tabela 2), não à
+    resistência de concreto — já visível no próprio campo
+    `material`/`classe_resistencia` da linha ("classe GL30h (fc,0,k)").
+    Não é erro de leitura (o valor bate com o texto), parece inclusão
+    deliberada de uma sessão anterior comparando sistemas estruturais
+    aço/concreto/madeira híbrida (edifício Mjøstårnet). Mesma família do
+    caso AL OMAR/vergalhão já tratado retroativamente no protocolo.
+    Pergunta: aplicar o mesmo tratamento (retirar do funil de `ci_mpa`,
+    já que não é concreto)?
+
+14. **MEDEIROS 2016 (dados_fck linha 50, row_id 5040, tese UFMT).** O
+    `co2_valor` já é um total absoluto (soma Fundação+Superestrutura =
+    812.132,42 kg CO2eq), não uma taxa kg/m³. O artigo tem, nas mesmas
+    duas etapas, as quantidades reais de concreto 25MPa (Fundação=630,00
+    + Superestrutura=989,21 = 1.619,21 m³) que batem exatamente com essa
+    agregação — mas como o `co2_valor` já não é kg/m³, multiplicar por
+    esse volume duplicaria a escala (daria um `ci_mpa` inválido). Só faria
+    sentido calcular `ci_mpa = co2_valor / fck` diretamente, sem volume —
+    fora do escopo desta extração (que só preenche `vol_corpo_prova_m3`).
+    Pergunta: este padrão ("CO2 já agregado em total absoluto + volume
+    real do próprio artigo") merece uma via de cálculo própria no
+    protocolo (`ci_mpa` sem passar por `vol_corpo_prova_m3`), para não
+    perder estes casos?
+
 ## BLOQUEADOS (precisam de reabrir por outra via, não é dúvida de critério)
 
 - **LYRA 2023i (dados_fck linhas 763-770, row_id 2847).** Armadilhas nº7+nº8
