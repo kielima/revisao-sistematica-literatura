@@ -260,3 +260,24 @@ Resultado dos lotes 16-20 (75 artigos, 187 linhas de `dados_fck`):
 **Extensão confirmada da categoria `medido_elemento_real` para quantitativos de edifícios inteiros** (ver nota em `ACHADOS_PENDENTES_CI_MPA.md`, após achado 11) — usada em mais 3 artigos nesta onda (GAO 4255, mais os já vistos em ondas anteriores), sempre com volume e CO2 vindos de tabelas de quantitativo reais do próprio artigo.
 
 **Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 305 para **344** células preenchidas. Faltam **137 dos 437 artigos** (lotes 21-30, aprox.).
+
+## 🆕 ONDA 5 — Lotes 21-25, mais 75 dos 437 artigos (2026-09-24)
+
+Resultado dos lotes 21-25 (75 artigos, 373 linhas de `dados_fck`):
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 130 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 243 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 0 | — |
+| ACHADO_DIVERGENCIA | 0 | nenhuma divergência de fck/co2 encontrada nesta onda |
+
+**Onda com o maior rendimento até agora** — 130 RESOLVIDO em 373 linhas (35%), acima da média das ondas anteriores. Três padrões novos/reforçados:
+
+- **Segunda tabela de quantitativos** (lote 21): dois artigos (MOSTAFAEI 4304, ALMULHIM 4321) tinham uma tabela de fatores GWP/m³ E uma segunda tabela de quantitativos reais de material («bill of quantities») por classe — só a segunda dá o volume real. Regra a levar para lotes futuros: nunca concluir `indisponivel` num artigo com quantitativos de edifício real sem procurar por essa segunda tabela.
+- **Regra do FU normalizado por resistência** (lote 24, artigo 4580, 20 linhas): quando o próprio artigo declara que o `co2_valor` já vem "normalizado pela resistência aos 28 dias" (kg CO2/MPa, não kg CO2/m³ bruto), multiplicar por um volume duplicaria a normalização — mantido `indisponivel` mesmo com unidade nominalmente "kg CO2-eq/m³" na coluna do banco. Nova variante da regra de incompatibilidade de unidade, mais sutil que as anteriores (a etiqueta da unidade não denuncia o problema, só a leitura do texto).
+- **Norma de ensaio com mais de um tamanho válido** (lotes 23-24): quando a norma citada (ex.: ASTM C39, que permite cilindro 4×8in OU 6×12in) não fixa uma dimensão única e o artigo não diz qual usou, a via `norma_referencia` não se aplica — mantido `indisponivel`. Confirma e formaliza a exceção já usada informalmente antes.
+
+Um achado de rótulo (não é `ACHADO_DIVERGENCIA` de fck/co2): linha 1381→row_id 4463 (SAMEER, lote 22) tinha `tipo_corpo_prova` registado como "cubo 150mm" mas o artigo atribui o `fck` ao corpo **cilíndrico** (150×300mm) da classe C50/60, não ao cubo — sinalizado para a Kiê corrigir esse campo separadamente, não bloqueante para `ci_mpa`.
+
+**Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 344 para **474** células preenchidas. Faltam **62 dos 437 artigos** (lotes 26-30, aprox.).
