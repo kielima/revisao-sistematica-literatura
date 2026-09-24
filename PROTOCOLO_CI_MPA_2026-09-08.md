@@ -226,3 +226,78 @@ A Kiê pediu para continuar todos os lotes sem pausa, acumulando achados em `ACH
 **Confirmação de um caso-limite do protocolo:** quando o artigo reporta `co2_valor` "por 1 m³" (prática padrão de ACV) mas **também** tem um corpo de prova físico real menor (ex.: cubo 100mm) do mesmo traço, usar o volume real do corpo de prova é **válido** — não é a armadilha "FU=1m³". A armadilha só se aplica quando "1 m³" é o **único** volume mencionado no artigo inteiro, sem nenhum corpo físico menor testado. Já era o padrão seguido desde a Onda 1 (ex.: KUL, LI 2024 seawater), reconfirmado explicitamente nos lotes 06-10 (MEKKY, DACIC, SUN, MANAN, KANAGARAJ, JIANG, KANG).
 
 **Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 79 para **237** células preenchidas. Faltam **287 dos 437 artigos** (lotes 11-30, aprox.).
+
+## 🆕 ONDA 3 — Lotes 11-15, mais 75 dos 437 artigos (2026-09-24)
+
+Resultado dos lotes 11-15 (75 artigos, 211 linhas de `dados_fck`):
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 62 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 146 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 0 | — |
+| ACHADO_DIVERGENCIA | 3 | todos ficam para a Kiê decidir (ver `ACHADOS_PENDENTES_CI_MPA.md`, achados 7-9) — DI SARNO (forma do corpo de prova inconsistente no artigo), BAYAT (unidade da Fig.12 ambígua: por m³ ou total da FU-viga), AYGUN (4 valores de CO2 inconsistentes entre secções do próprio artigo) |
+
+**⚠️ Armadilha de processo descoberta e corrigida nesta onda — numeração de linhas do worklist original ficou desatualizada para o Lote 11.** O subagente do Lote 11 já tinha avisado que os números de `dados_fck_row` do worklist (`CI_MPA_WORKLIST_2026-09-24.csv`) não correspondiam mais à posição real das linhas na planilha (provavelmente por inserções de linhas feitas por tarefas anteriores à criação do worklist) e afirmou ter corrigido isso reconsultando `row_id` diretamente — mas o CSV que devolveu continuava, na prática, com todos os 44 números de linha desviados em exactamente **+1** em relação à posição real (confirmado por comparação de `co2_valor`/`fck_mpa` idênticos, em ordem, nas posições corrigidas). Antes de aplicar, todo o CSV do Lote 11 foi corrigido (`dados_fck_row += 1` em todas as 44 linhas) e revalidado por `row_id` linha a linha — sem esse ajuste, o script de aplicação (que aborta com `assert` antes de qualquer escrita se algum `row_id` não bater) teria simplesmente recusado gravar, sem risco de corromper dados, mas ficaria bloqueado. Os lotes 12-15 não tiveram este problema (`row_id` bateu de primeira em 100% das 167 linhas restantes).
+
+**Achado colateral de processo:** os subagentes dos Lotes 11 e 15 escreveram o seu relatório directamente como ficheiro dentro do repositório (`lotes_ci_mpa/LOTE11_CI_MPA_2026-09-24.csv` e `LOTE15_...csv`), apesar da instrução de só reportar em texto no chat. O conteúdo desses ficheiros foi conferido contra o relatório em chat (idêntico) antes de reaproveitado; os ficheiros soltos foram removidos do working tree (o CSV definitivo de cada lote só entra no repositório através do commit desta onda, em `lotes_ci_mpa/`).
+
+**Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 237 para **305** células preenchidas. Faltam **212 dos 437 artigos** (lotes 16-30, aprox.).
+
+## 🆕 ONDA 4 — Lotes 16-20, mais 75 dos 437 artigos (2026-09-24)
+
+Resultado dos lotes 16-20 (75 artigos, 187 linhas de `dados_fck`):
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 39 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 146 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 0 | — |
+| ACHADO_DIVERGENCIA | 2 | ambos ficam para a Kiê decidir (ver `ACHADOS_PENDENTES_CI_MPA.md`, achados 10-11) — CUNNINGHAM (fórmula hiperbólica do artigo só vale para misturas com cinza, aplicada por engano ao controle), LI/ZHU monorail (co2_valor registado é total do ciclo de vida por km, quando o próprio artigo tem um fator por classe/m³ mais adequado) |
+
+**Achado de processo (não bloqueante) — auto-correção de um falso `INDISPONIVEL` de onda anterior.** O lote 19 encontrou que a linha 1199 (row_id 4110, ARCE et al. 2023) tinha sido marcada `indisponivel` por concluir (erradamente) que só existia o FU=1m³; a releitura completa achou o corpo de prova físico real (prisma de argamassa 40×40×160mm, EN 1015-11) do mesmo traço — corrigido para RESOLVIDO nesta mesma onda. Fica como lembrete de que "FU=1m³" só deve ser confirmado depois de varrer o artigo inteiro por termos de molde/prisma/cubo/cilindro, não só pela frase da unidade funcional.
+
+**Extensão confirmada da categoria `medido_elemento_real` para quantitativos de edifícios inteiros** (ver nota em `ACHADOS_PENDENTES_CI_MPA.md`, após achado 11) — usada em mais 3 artigos nesta onda (GAO 4255, mais os já vistos em ondas anteriores), sempre com volume e CO2 vindos de tabelas de quantitativo reais do próprio artigo.
+
+**Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 305 para **344** células preenchidas. Faltam **137 dos 437 artigos** (lotes 21-30, aprox.).
+
+## 🆕 ONDA 5 — Lotes 21-25, mais 75 dos 437 artigos (2026-09-24)
+
+Resultado dos lotes 21-25 (75 artigos, 373 linhas de `dados_fck`):
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 130 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 243 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 0 | — |
+| ACHADO_DIVERGENCIA | 0 | nenhuma divergência de fck/co2 encontrada nesta onda |
+
+**Onda com o maior rendimento até agora** — 130 RESOLVIDO em 373 linhas (35%), acima da média das ondas anteriores. Três padrões novos/reforçados:
+
+- **Segunda tabela de quantitativos** (lote 21): dois artigos (MOSTAFAEI 4304, ALMULHIM 4321) tinham uma tabela de fatores GWP/m³ E uma segunda tabela de quantitativos reais de material («bill of quantities») por classe — só a segunda dá o volume real. Regra a levar para lotes futuros: nunca concluir `indisponivel` num artigo com quantitativos de edifício real sem procurar por essa segunda tabela.
+- **Regra do FU normalizado por resistência** (lote 24, artigo 4580, 20 linhas): quando o próprio artigo declara que o `co2_valor` já vem "normalizado pela resistência aos 28 dias" (kg CO2/MPa, não kg CO2/m³ bruto), multiplicar por um volume duplicaria a normalização — mantido `indisponivel` mesmo com unidade nominalmente "kg CO2-eq/m³" na coluna do banco. Nova variante da regra de incompatibilidade de unidade, mais sutil que as anteriores (a etiqueta da unidade não denuncia o problema, só a leitura do texto).
+- **Norma de ensaio com mais de um tamanho válido** (lotes 23-24): quando a norma citada (ex.: ASTM C39, que permite cilindro 4×8in OU 6×12in) não fixa uma dimensão única e o artigo não diz qual usou, a via `norma_referencia` não se aplica — mantido `indisponivel`. Confirma e formaliza a exceção já usada informalmente antes.
+
+Um achado de rótulo (não é `ACHADO_DIVERGENCIA` de fck/co2): linha 1381→row_id 4463 (SAMEER, lote 22) tinha `tipo_corpo_prova` registado como "cubo 150mm" mas o artigo atribui o `fck` ao corpo **cilíndrico** (150×300mm) da classe C50/60, não ao cubo — sinalizado para a Kiê corrigir esse campo separadamente, não bloqueante para `ci_mpa`.
+
+**Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 344 para **474** células preenchidas. Faltam **62 dos 437 artigos** (lotes 26-30, aprox.).
+
+## 🆕🏁 ONDA 6 — Lotes 26-30, últimos 62 dos 437 artigos (2026-09-24)
+
+**Última onda — cobre a totalidade dos 437 artigos do worklist `CI_MPA_WORKLIST_2026-09-24.csv`.** Resultado dos lotes 26-30 (62 artigos, 187 linhas de `dados_fck`):
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 52 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 135 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 0 | — |
+| ACHADO_DIVERGENCIA | 1 | JI et al. 2022 — ver `ACHADOS_PENDENTES_CI_MPA.md`, achado 12 |
+
+**Três achados novos** registados em `ACHADOS_PENDENTES_CI_MPA.md` (achados 12-14): um volume já preenchido por sessão anterior que parece errado (JI et al., 0,75 vs 0,714 m³), uma linha cujo `fck_mpa` é na verdade resistência de madeira laminada, não de concreto (ASCIONE et al., mesma família do caso AL OMAR/vergalhão), e um padrão metodológico novo (MEDEIROS 2016) em que `co2_valor` já é total absoluto e bate exatamente com um volume real do próprio artigo, mas a regra de incompatibilidade de unidade impede aplicar — candidato a uma via de cálculo alternativa do `ci_mpa`.
+
+**Padrões novos confirmados nesta onda:**
+- **Soma de elementos reais com a mesma taxa** (MAURY-RAMIREZ, lote 26): uma linha de `dados_fck` que agrega dois elementos estruturais reais distintos (vigas aéreas + vigas de fundação) com a mesma taxa de CO2/m³ — resolvido somando os volumes reais dos dois, reproduzindo exatamente o total publicado.
+- **Ambiguidade "duas configurações do mesmo edifício"** (BAEK et al., lote 28): fator de emissão idêntico usado em dois cenários estruturais comparados (Referência vs Alternativo) do mesmo edifício, mas a linha do banco não distingue a qual cenário pertence e as quantidades reais diferem entre os dois — mantido `indisponível` por ambiguidade de pareamento, não catalogado antes.
+- **Truncamento (armadilha nº7) atingiu 5 dos 15 artigos do lote 29** (teses/dissertações longas: SCHMIDT, FARIAS, REZENDE, SANTOS, ISAIA) — em todos esses casos a conclusão final já era `indisponível` por incompatibilidade de unidade (independente de fck/co2), então o truncamento não mudou nenhum resultado desta vez, mas fica registado para auditoria futura se necessário.
+
+**Progresso final:** `vol_corpo_prova_m3` em `dados_fck` foi de 474 para **526** células preenchidas. **Os 437 artigos do worklist estão cobertos — não há mais lotes pendentes desta extração.** Restam só os achados acumulados nas Ondas 1-6 (14 no total) para a Kiê resolver, um a um, conforme pedido.

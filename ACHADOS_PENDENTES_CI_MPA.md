@@ -60,6 +60,123 @@
    classe/elemento, cada uma com o seu volume), ou manter `indisponivel`
    para a linha toda?
 
+## Da Onda 3 (lotes 11-15)
+
+7. **DI SARNO et al. 2024 (dados_fck linhas 364-365, row_id 3348).** O artigo é
+   internamente inconsistente sobre a forma do corpo de prova: descreve os
+   ensaios de resistência à compressão como feitos em "cubes
+   (100×100×500mm)" — a mesma dimensão impressa para os PRISMAS de flexão
+   ("prisms (100×100×500mm)"), fisicamente impossível para um cubo (lados
+   desiguais). fck/co2 continuam corretos e confirmados; só o volume do
+   corpo de prova ficou por resolver (mantido `indisponivel`, sem assumir
+   qual dimensão está certa). Pergunta: a Kiê tem acesso a outra versão do
+   artigo (errata, versão publicada final) que possa esclarecer a dimensão
+   real do cubo?
+
+8. **BAYAT et al. 2024 (dados_fck linhas 441/443, row_id 3504).** A unidade
+   funcional (FU) do artigo não é 1 m³ fixo — varia entre 1,4554 e 1,4799 m³
+   por mistura, conforme a durabilidade/cobrimento de armadura de uma viga
+   de 6 m (Tabela 4). Os valores de CO2 (352/356 kg CO2-eq, confirmados
+   exatos no texto) aparecem só na Fig.12, rotulados apenas "kg of CO2eq"
+   — sem dizer se é por m³ de material ou total da FU-viga inteira. Sem
+   saber a unidade real, aplicar a fórmula `CO2_total = co2_valor × volume`
+   pode ficar fisicamente inválida. Corpo de prova físico real está
+   confirmado e disponível (cubo 100mm, ASTM C39) para o dia em que a Kiê
+   decidir a unidade. Pergunta: o valor da Fig.12 é por m³ ou é o total da
+   viga-FU?
+
+9. **AYGUN 2025 (dados_fck linha 450, row_id 3525).** O artigo reporta o
+   CO2 do geopolímero de forma internamente inconsistente entre secções:
+   ~100 kg/m³ (Secção LCIA), ~200 kg/m³ (Secção TOPSIS), ~400 kg/m³
+   (Conclusões, igual ao valor isolado do estágio "matéria-prima"), e 475
+   kg/m³ (soma dos 4 estágios do ciclo de vida, já registado em
+   `dados_fck` como `[DERIVADO]`). Não há evidência textual de qual dos
+   quatro é "o" valor correto do artigo. Sem dimensão de corpo de prova
+   declarada em lado nenhum do texto de qualquer forma (então mesmo que a
+   unidade se resolvesse, o volume continuaria `indisponivel`). Pergunta:
+   manter o valor `[DERIVADO]` de 475 que já está na célula, ou é melhor
+   marcar como incerto?
+
+## Da Onda 4 (lotes 16-20)
+
+10. **CUNNINGHAM 2021 (dados_fck linha 1084, row_id 3732).** `co2_valor`=469,8
+    kg CO2-eq/m³ vem de uma equação hiperbólica (y=469,8/x) que o próprio
+    artigo diz explicitamente só ser válida para "bioash-cement mortars"
+    (misturas com cinza) — mas esta linha representa o CONTROLE 100% PC
+    (fck=42,1 MPa, Tabela 3), não uma mistura com cinza. O mesmo parágrafo
+    do artigo trata "the control PC mortar" como referência separada. O
+    valor real do controle só aparece na Fig.2c/d (gráfico, não extraível
+    por texto) — não verificado. `fck` está confirmado correto; só o
+    `co2_valor` pode estar a usar a fórmula errada. Corpo de prova físico
+    real existe e tem dimensão declarada (cilindro 50mm×100mm) — o volume
+    seria 0,0001963 m³ se o par ficar confirmado. Pergunta: o
+    `co2_valor`=469,8 é mesmo do controle, ou pertence a outra mistura?
+
+11. **LI/ZHU, monorail (dados_fck linha 1162, row_id 4012).** O `co2_valor`
+    registado (54.255,77 t CO2/km) é o CO2 total do ciclo de vida de 50
+    anos da linha inteira, normalizado por km — uma métrica de
+    escopo/unidade completamente diferente do formato habitual "kg
+    CO2/m³". O mesmo artigo tem, na Tabela 2, um fator de produção
+    específico por classe que bate exatamente com `fck`=50 (a maior
+    classe fisicamente usada, 13,59 m³): 510,94 kg CO2/m³ — na unidade
+    certa e específico da classe já registada. Há também C20=201,38,
+    C25=250,54, C30=306,78, C40=391,03 kg/m³, cada um com quantidade real
+    do projeto. Pergunta: trocar o `co2_valor` desta linha pelo 510,94
+    kg/m³ da Tabela 2 (aí sim calculável com o volume 13,59 m³), ou manter
+    o valor actual (que fica fora do escopo do `ci_mpa`)?
+
+**Nota metodológica sobre 5 linhas RESOLVIDO da Onda 4 (row_ids 3930, 3944,
+4255 — GAO, edifícios inteiros):** nestas linhas, o "elemento real" usado
+como `medido_elemento_real` é a quantidade agregada de uma classe de
+concreto usada num edifício real inteiro (soma de tabela de quantitativos
+do próprio artigo), não um único membro estrutural isolado (viga/pilar)
+como o exemplo literal do protocolo sugere. Os números vêm de tabelas de
+quantitativo (BOQ/takeoff) reais do artigo e o `ci_mpa` resultante é
+coerente, mas é uma extensão da categoria 2 do protocolo — mesmo padrão já
+usado antes (STOIBER, MONCASTER nas ondas 1-3) e agora confirmado de novo
+em maior escala. Não é uma dúvida bloqueante, só um ponto para a Kiê
+confirmar se quer manter esta leitura mais ampla da categoria daqui em
+diante (parece que sim, dado o uso já repetido).
+
+## Da Onda 6 (lotes 26-30, última onda — todos os 437 artigos cobertos)
+
+12. **JI et al. 2022 (dados_fck linha 1695, row_id 4705).** O `vol_corpo_prova_m3`
+    desta linha já estava preenchido (0,75) por trabalho de uma sessão
+    anterior a esta extração — mas ao reconferir contra a Tabela 1 do
+    artigo, o par `fck`=35,3 corresponde à linha "On-site TC, 60°C"
+    (Width=487,8mm, 28-Day Strength=35,3MPa, Concrete Volume=**0,714**
+    m³), não 0,75 (esse é o volume de outra linha da tabela, "20°C",
+    fck=33,6MPa). Não foi corrigido por estar fora do escopo desta
+    extração (só se preenchem células vazias). Pergunta: corrigir
+    0,75→0,714?
+
+13. **ASCIONE et al. 2024 (dados_fck linha 598, row_id 4820).** O
+    `fck_mpa`=30 registado nesta linha corresponde, pela leitura do
+    artigo, à resistência à compressão paralela às fibras (fc,0,k) da
+    classe de madeira lamelada colada GL30h (Tabela 2), não à
+    resistência de concreto — já visível no próprio campo
+    `material`/`classe_resistencia` da linha ("classe GL30h (fc,0,k)").
+    Não é erro de leitura (o valor bate com o texto), parece inclusão
+    deliberada de uma sessão anterior comparando sistemas estruturais
+    aço/concreto/madeira híbrida (edifício Mjøstårnet). Mesma família do
+    caso AL OMAR/vergalhão já tratado retroativamente no protocolo.
+    Pergunta: aplicar o mesmo tratamento (retirar do funil de `ci_mpa`,
+    já que não é concreto)?
+
+14. **MEDEIROS 2016 (dados_fck linha 50, row_id 5040, tese UFMT).** O
+    `co2_valor` já é um total absoluto (soma Fundação+Superestrutura =
+    812.132,42 kg CO2eq), não uma taxa kg/m³. O artigo tem, nas mesmas
+    duas etapas, as quantidades reais de concreto 25MPa (Fundação=630,00
+    + Superestrutura=989,21 = 1.619,21 m³) que batem exatamente com essa
+    agregação — mas como o `co2_valor` já não é kg/m³, multiplicar por
+    esse volume duplicaria a escala (daria um `ci_mpa` inválido). Só faria
+    sentido calcular `ci_mpa = co2_valor / fck` diretamente, sem volume —
+    fora do escopo desta extração (que só preenche `vol_corpo_prova_m3`).
+    Pergunta: este padrão ("CO2 já agregado em total absoluto + volume
+    real do próprio artigo") merece uma via de cálculo própria no
+    protocolo (`ci_mpa` sem passar por `vol_corpo_prova_m3`), para não
+    perder estes casos?
+
 ## BLOQUEADOS (precisam de reabrir por outra via, não é dúvida de critério)
 
 - **LYRA 2023i (dados_fck linhas 763-770, row_id 2847).** Armadilhas nº7+nº8
