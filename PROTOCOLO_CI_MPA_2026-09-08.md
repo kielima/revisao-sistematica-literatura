@@ -243,3 +243,20 @@ Resultado dos lotes 11-15 (75 artigos, 211 linhas de `dados_fck`):
 **Achado colateral de processo:** os subagentes dos Lotes 11 e 15 escreveram o seu relatório directamente como ficheiro dentro do repositório (`lotes_ci_mpa/LOTE11_CI_MPA_2026-09-24.csv` e `LOTE15_...csv`), apesar da instrução de só reportar em texto no chat. O conteúdo desses ficheiros foi conferido contra o relatório em chat (idêntico) antes de reaproveitado; os ficheiros soltos foram removidos do working tree (o CSV definitivo de cada lote só entra no repositório através do commit desta onda, em `lotes_ci_mpa/`).
 
 **Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 237 para **305** células preenchidas. Faltam **212 dos 437 artigos** (lotes 16-30, aprox.).
+
+## 🆕 ONDA 4 — Lotes 16-20, mais 75 dos 437 artigos (2026-09-24)
+
+Resultado dos lotes 16-20 (75 artigos, 187 linhas de `dados_fck`):
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 39 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 146 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 0 | — |
+| ACHADO_DIVERGENCIA | 2 | ambos ficam para a Kiê decidir (ver `ACHADOS_PENDENTES_CI_MPA.md`, achados 10-11) — CUNNINGHAM (fórmula hiperbólica do artigo só vale para misturas com cinza, aplicada por engano ao controle), LI/ZHU monorail (co2_valor registado é total do ciclo de vida por km, quando o próprio artigo tem um fator por classe/m³ mais adequado) |
+
+**Achado de processo (não bloqueante) — auto-correção de um falso `INDISPONIVEL` de onda anterior.** O lote 19 encontrou que a linha 1199 (row_id 4110, ARCE et al. 2023) tinha sido marcada `indisponivel` por concluir (erradamente) que só existia o FU=1m³; a releitura completa achou o corpo de prova físico real (prisma de argamassa 40×40×160mm, EN 1015-11) do mesmo traço — corrigido para RESOLVIDO nesta mesma onda. Fica como lembrete de que "FU=1m³" só deve ser confirmado depois de varrer o artigo inteiro por termos de molde/prisma/cubo/cilindro, não só pela frase da unidade funcional.
+
+**Extensão confirmada da categoria `medido_elemento_real` para quantitativos de edifícios inteiros** (ver nota em `ACHADOS_PENDENTES_CI_MPA.md`, após achado 11) — usada em mais 3 artigos nesta onda (GAO 4255, mais os já vistos em ondas anteriores), sempre com volume e CO2 vindos de tabelas de quantitativo reais do próprio artigo.
+
+**Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 305 para **344** células preenchidas. Faltam **137 dos 437 artigos** (lotes 21-30, aprox.).

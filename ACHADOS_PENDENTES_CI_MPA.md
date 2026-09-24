@@ -97,6 +97,47 @@
    manter o valor `[DERIVADO]` de 475 que já está na célula, ou é melhor
    marcar como incerto?
 
+## Da Onda 4 (lotes 16-20)
+
+10. **CUNNINGHAM 2021 (dados_fck linha 1084, row_id 3732).** `co2_valor`=469,8
+    kg CO2-eq/m³ vem de uma equação hiperbólica (y=469,8/x) que o próprio
+    artigo diz explicitamente só ser válida para "bioash-cement mortars"
+    (misturas com cinza) — mas esta linha representa o CONTROLE 100% PC
+    (fck=42,1 MPa, Tabela 3), não uma mistura com cinza. O mesmo parágrafo
+    do artigo trata "the control PC mortar" como referência separada. O
+    valor real do controle só aparece na Fig.2c/d (gráfico, não extraível
+    por texto) — não verificado. `fck` está confirmado correto; só o
+    `co2_valor` pode estar a usar a fórmula errada. Corpo de prova físico
+    real existe e tem dimensão declarada (cilindro 50mm×100mm) — o volume
+    seria 0,0001963 m³ se o par ficar confirmado. Pergunta: o
+    `co2_valor`=469,8 é mesmo do controle, ou pertence a outra mistura?
+
+11. **LI/ZHU, monorail (dados_fck linha 1162, row_id 4012).** O `co2_valor`
+    registado (54.255,77 t CO2/km) é o CO2 total do ciclo de vida de 50
+    anos da linha inteira, normalizado por km — uma métrica de
+    escopo/unidade completamente diferente do formato habitual "kg
+    CO2/m³". O mesmo artigo tem, na Tabela 2, um fator de produção
+    específico por classe que bate exatamente com `fck`=50 (a maior
+    classe fisicamente usada, 13,59 m³): 510,94 kg CO2/m³ — na unidade
+    certa e específico da classe já registada. Há também C20=201,38,
+    C25=250,54, C30=306,78, C40=391,03 kg/m³, cada um com quantidade real
+    do projeto. Pergunta: trocar o `co2_valor` desta linha pelo 510,94
+    kg/m³ da Tabela 2 (aí sim calculável com o volume 13,59 m³), ou manter
+    o valor actual (que fica fora do escopo do `ci_mpa`)?
+
+**Nota metodológica sobre 5 linhas RESOLVIDO da Onda 4 (row_ids 3930, 3944,
+4255 — GAO, edifícios inteiros):** nestas linhas, o "elemento real" usado
+como `medido_elemento_real` é a quantidade agregada de uma classe de
+concreto usada num edifício real inteiro (soma de tabela de quantitativos
+do próprio artigo), não um único membro estrutural isolado (viga/pilar)
+como o exemplo literal do protocolo sugere. Os números vêm de tabelas de
+quantitativo (BOQ/takeoff) reais do artigo e o `ci_mpa` resultante é
+coerente, mas é uma extensão da categoria 2 do protocolo — mesmo padrão já
+usado antes (STOIBER, MONCASTER nas ondas 1-3) e agora confirmado de novo
+em maior escala. Não é uma dúvida bloqueante, só um ponto para a Kiê
+confirmar se quer manter esta leitura mais ampla da categoria daqui em
+diante (parece que sim, dado o uso já repetido).
+
 ## BLOQUEADOS (precisam de reabrir por outra via, não é dúvida de critério)
 
 - **LYRA 2023i (dados_fck linhas 763-770, row_id 2847).** Armadilhas nº7+nº8
