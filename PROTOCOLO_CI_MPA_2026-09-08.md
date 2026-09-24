@@ -226,3 +226,20 @@ A Kiê pediu para continuar todos os lotes sem pausa, acumulando achados em `ACH
 **Confirmação de um caso-limite do protocolo:** quando o artigo reporta `co2_valor` "por 1 m³" (prática padrão de ACV) mas **também** tem um corpo de prova físico real menor (ex.: cubo 100mm) do mesmo traço, usar o volume real do corpo de prova é **válido** — não é a armadilha "FU=1m³". A armadilha só se aplica quando "1 m³" é o **único** volume mencionado no artigo inteiro, sem nenhum corpo físico menor testado. Já era o padrão seguido desde a Onda 1 (ex.: KUL, LI 2024 seawater), reconfirmado explicitamente nos lotes 06-10 (MEKKY, DACIC, SUN, MANAN, KANAGARAJ, JIANG, KANG).
 
 **Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 79 para **237** células preenchidas. Faltam **287 dos 437 artigos** (lotes 11-30, aprox.).
+
+## 🆕 ONDA 3 — Lotes 11-15, mais 75 dos 437 artigos (2026-09-24)
+
+Resultado dos lotes 11-15 (75 artigos, 211 linhas de `dados_fck`):
+
+| Status | N | |
+|---|---:|---|
+| RESOLVIDO | 62 | `vol_corpo_prova_m3` preenchido |
+| INDISPONIVEL | 146 | sem corpo físico/elemento com dimensão, ou co2_valor em unidade incompatível com m³ |
+| BLOQUEADO | 0 | — |
+| ACHADO_DIVERGENCIA | 3 | todos ficam para a Kiê decidir (ver `ACHADOS_PENDENTES_CI_MPA.md`, achados 7-9) — DI SARNO (forma do corpo de prova inconsistente no artigo), BAYAT (unidade da Fig.12 ambígua: por m³ ou total da FU-viga), AYGUN (4 valores de CO2 inconsistentes entre secções do próprio artigo) |
+
+**⚠️ Armadilha de processo descoberta e corrigida nesta onda — numeração de linhas do worklist original ficou desatualizada para o Lote 11.** O subagente do Lote 11 já tinha avisado que os números de `dados_fck_row` do worklist (`CI_MPA_WORKLIST_2026-09-24.csv`) não correspondiam mais à posição real das linhas na planilha (provavelmente por inserções de linhas feitas por tarefas anteriores à criação do worklist) e afirmou ter corrigido isso reconsultando `row_id` diretamente — mas o CSV que devolveu continuava, na prática, com todos os 44 números de linha desviados em exactamente **+1** em relação à posição real (confirmado por comparação de `co2_valor`/`fck_mpa` idênticos, em ordem, nas posições corrigidas). Antes de aplicar, todo o CSV do Lote 11 foi corrigido (`dados_fck_row += 1` em todas as 44 linhas) e revalidado por `row_id` linha a linha — sem esse ajuste, o script de aplicação (que aborta com `assert` antes de qualquer escrita se algum `row_id` não bater) teria simplesmente recusado gravar, sem risco de corromper dados, mas ficaria bloqueado. Os lotes 12-15 não tiveram este problema (`row_id` bateu de primeira em 100% das 167 linhas restantes).
+
+**Achado colateral de processo:** os subagentes dos Lotes 11 e 15 escreveram o seu relatório directamente como ficheiro dentro do repositório (`lotes_ci_mpa/LOTE11_CI_MPA_2026-09-24.csv` e `LOTE15_...csv`), apesar da instrução de só reportar em texto no chat. O conteúdo desses ficheiros foi conferido contra o relatório em chat (idêntico) antes de reaproveitado; os ficheiros soltos foram removidos do working tree (o CSV definitivo de cada lote só entra no repositório através do commit desta onda, em `lotes_ci_mpa/`).
+
+**Progresso acumulado:** `vol_corpo_prova_m3` em `dados_fck` foi de 237 para **305** células preenchidas. Faltam **212 dos 437 artigos** (lotes 16-30, aprox.).

@@ -60,6 +60,43 @@
    classe/elemento, cada uma com o seu volume), ou manter `indisponivel`
    para a linha toda?
 
+## Da Onda 3 (lotes 11-15)
+
+7. **DI SARNO et al. 2024 (dados_fck linhas 364-365, row_id 3348).** O artigo é
+   internamente inconsistente sobre a forma do corpo de prova: descreve os
+   ensaios de resistência à compressão como feitos em "cubes
+   (100×100×500mm)" — a mesma dimensão impressa para os PRISMAS de flexão
+   ("prisms (100×100×500mm)"), fisicamente impossível para um cubo (lados
+   desiguais). fck/co2 continuam corretos e confirmados; só o volume do
+   corpo de prova ficou por resolver (mantido `indisponivel`, sem assumir
+   qual dimensão está certa). Pergunta: a Kiê tem acesso a outra versão do
+   artigo (errata, versão publicada final) que possa esclarecer a dimensão
+   real do cubo?
+
+8. **BAYAT et al. 2024 (dados_fck linhas 441/443, row_id 3504).** A unidade
+   funcional (FU) do artigo não é 1 m³ fixo — varia entre 1,4554 e 1,4799 m³
+   por mistura, conforme a durabilidade/cobrimento de armadura de uma viga
+   de 6 m (Tabela 4). Os valores de CO2 (352/356 kg CO2-eq, confirmados
+   exatos no texto) aparecem só na Fig.12, rotulados apenas "kg of CO2eq"
+   — sem dizer se é por m³ de material ou total da FU-viga inteira. Sem
+   saber a unidade real, aplicar a fórmula `CO2_total = co2_valor × volume`
+   pode ficar fisicamente inválida. Corpo de prova físico real está
+   confirmado e disponível (cubo 100mm, ASTM C39) para o dia em que a Kiê
+   decidir a unidade. Pergunta: o valor da Fig.12 é por m³ ou é o total da
+   viga-FU?
+
+9. **AYGUN 2025 (dados_fck linha 450, row_id 3525).** O artigo reporta o
+   CO2 do geopolímero de forma internamente inconsistente entre secções:
+   ~100 kg/m³ (Secção LCIA), ~200 kg/m³ (Secção TOPSIS), ~400 kg/m³
+   (Conclusões, igual ao valor isolado do estágio "matéria-prima"), e 475
+   kg/m³ (soma dos 4 estágios do ciclo de vida, já registado em
+   `dados_fck` como `[DERIVADO]`). Não há evidência textual de qual dos
+   quatro é "o" valor correto do artigo. Sem dimensão de corpo de prova
+   declarada em lado nenhum do texto de qualquer forma (então mesmo que a
+   unidade se resolvesse, o volume continuaria `indisponivel`). Pergunta:
+   manter o valor `[DERIVADO]` de 475 que já está na célula, ou é melhor
+   marcar como incerto?
+
 ## BLOQUEADOS (precisam de reabrir por outra via, não é dúvida de critério)
 
 - **LYRA 2023i (dados_fck linhas 763-770, row_id 2847).** Armadilhas nº7+nº8
