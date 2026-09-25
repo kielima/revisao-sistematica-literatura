@@ -15,6 +15,14 @@
    `co2_valor` (FU inteira, 50 blocos). Pergunta: qual volume usar, ou deixar
    `indisponivel`?
 
+   ✅ **RESOLVIDO 2026-09-25 (decisão da Kiê, após leitura completa do PDF por mim).**
+   O artigo imprime três volumes diferentes para a FU (0,008 m³ no texto, 0,08 m³ na
+   Tabela 3), mas duas vias independentes convergem em **0,04 m³**: 92 kg ÷ 2300 kg/m³,
+   e 50 blocos × 20×10×4 cm (a frase "800 cm³" é o volume de *um* bloco). O
+   `co2_valor` já registado tinha sido derivado com o divisor errado (0,008) numa
+   sessão anterior — corrigido para divisor 0,04: S1 −136,25→−27,25; S2 −245→−49;
+   S3 −170→−34 kg CO2-eq/m³. `vol_corpo_prova_m3` = 0,04 (medido_ensaio).
+
 2. **GALANO 2023i (dados_fck linha 773, row_id 2864).** `fck`=30 é do concreto
    M30 da laje (referência externa) mas `co2_valor`=134,43 é do *mortar
    filler* usado para selar fissuras — dois materiais distintos. Par
