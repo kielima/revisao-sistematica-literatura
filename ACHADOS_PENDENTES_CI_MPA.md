@@ -85,6 +85,14 @@
    (parece haver uma troca de rótulos ou erro do próprio artigo). Pergunta:
    como reatribuir os 5 valores às 5 misturas correctas — ou fica assim?
 
+   ✅ **RESOLVIDO 2026-09-26** (leitura completa do PDF + renderização Fig.10/18,
+   decisão Kiê). Os parênteses da sec.5.3 são gralha do artigo; a Fig.10a
+   (altura das barras pela geometria vetorial) dá 107,16/108,27/108,93/109,33/109,53,
+   igual a 107,15×(1+%) do texto. `fck_mpa` corrigido para MT0 107,15 → MT100 109,53.
+   CO2 trocado da leitura do radar pelo cálculo exacto Tab.5×Tab.7
+   (443,61/443,33/443,05/442,78/442,50; MT0−MT100 = 1,11 kg, como no texto).
+   QF mantém 1, artigo continua 3,5 (sensibilidade).
+
 6. **MENG et al. 2023, ponte (dados_fck linha 939, row_id 3241).** A linha é
    composta e mistura dois elementos estruturais reais distintos, cada um
    com o seu próprio volume: laje do tabuleiro C30 (secção única 5×3×0,5m =
