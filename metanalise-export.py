@@ -286,6 +286,8 @@ OVERRIDE = {
     # 'outros' e partiam o export -- mesma familia da mistura de 50% borracha ja em OVERRIDE (pneu = reciclado)
     (3828, 'HPC com 0% fio de arame residual (base 10% borracha)'): 'reciclado',
     (3828, 'HPC com 3% fio de arame residual (base 10% borracha, maximo do artigo)'): 'reciclado',
+    # LYRA 2023i (2026-09-26): argamassa de referencia sem substituicao -- o titulo (cinzas/pozolanas) arrastava-a para scm
+    (2847, 'Argamassa de referencia (cimento Portland + areia)'): 'opc',
     # KONTRA (2026-09-26, decisao Kie): total do sistema RC normalizado por m3 de concreto, inclui aco
     (4931, 'Parede de contraventamento (shear wall) de betao armado (RC), sistema lateral de edificio de ensaio a escala real de 6 pisos (NHERI TallWood, Seattle); ACI 318-19/ASCE 7-16, elementos de fronteira reforcados nos 2 primeiros pisos'): 'concreto_armado',
     # achado CI_MPA 14 (2026-09-26): total do sistema estrutural inclui aco CA-50 (precedente KONTRA)
