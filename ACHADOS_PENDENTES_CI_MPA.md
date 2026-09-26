@@ -240,6 +240,12 @@ diante (parece que sim, dado o uso já repetido).
     extração (só se preenchem células vazias). Pergunta: corrigir
     0,75→0,714?
 
+    ✅ **RESOLVIDO 2026-09-26** (leitura completa do PDF; decisão Kiê). Volume
+    0,75 → 0,714 m³ (Tabela 1, TC 60 °C; 0,75 era a coluna de referência da
+    FU). O erro contaminava também o CO2/m³: 295,5 kg/coluna ÷ 0,714 = 413,9
+    kg/m³ (antes 394, dividido por 0,75). Linha 1694 (UHPC 50 °C) conferida,
+    sem alteração.
+
 13. **ASCIONE et al. 2024 (dados_fck linha 598, row_id 4820).** O
     `fck_mpa`=30 registado nesta linha corresponde, pela leitura do
     artigo, à resistência à compressão paralela às fibras (fc,0,k) da
