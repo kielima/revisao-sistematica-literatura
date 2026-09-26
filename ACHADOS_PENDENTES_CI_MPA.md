@@ -286,6 +286,18 @@ diante (parece que sim, dado o uso já repetido).
     protocolo (`ci_mpa` sem passar por `vol_corpo_prova_m3`), para não
     perder estes casos?
 
+    **✅ RESOLVIDO 2026-09-26 (decisão Kiê, opção A).** Não é precisa via
+    nova: gravar a linha como taxa por m³ de betão (812.132,42 ÷ 1.619,21
+    = **501,56 kg CO2eq/m³**) com `vol_corpo_prova_m3`=1.619,21
+    (`medido_elemento_real`, Tab.3/4) faz `co2 × vol` devolver exactamente
+    o total publicado, e o `ci_mpa` sai pela fórmula normal (≈32.485 kg
+    CO2eq/MPa). Achado extra: o total inclui 92.722,77 kg de aço CA-50,
+    181,96 m³ de formas e transporte (Tab.3/4), e a Fig.23 só decompõe por
+    processo — impossível isolar o betão. Linha na **família betão
+    armado** (precedente KONTRA 4931), `[ALERTA ETAPA4: valor derivado;
+    inclui aço, formas e transporte]`, confiança média. QF já era 0;
+    total E4 inalterado (5, principal).
+
 ## BLOQUEADOS (precisam de reabrir por outra via, não é dúvida de critério)
 
 - **LYRA 2023i (dados_fck linhas 763-770, row_id 2847).** Armadilhas nº7+nº8
