@@ -1161,3 +1161,11 @@ aviso_metanalise,confianca_resistencia,confianca_co2,nota
 Além do CSV: quantos aceites e rejeitados, quantos precisaram de figura, quanto tempo/chamadas
 custou, e **qualquer coisa que te tenha feito hesitar**. Se uma regra te pareceu ambígua ou
 contradita pelos dados, diz — é assim que os critérios se afinam.
+
+## Nota 2026-09-26 (Kiê, caso MULLER 2023, linha 4037) — resistência de outro estudo
+
+Quando o artigo não tem resistência própria mas mostra a de outro estudo sobre o **mesmo material/mistura que propõe** (ex.: figura com resultados de um trabalho anterior do mesmo grupo), `E2_resistencia` = **Aceito**, desde que fique registado: carimbo `[FONTE EXTERNA DE RESISTENCIA: <autores ano>]` no comentário da linha e no `dados_fck`, com `[ALERTA ETAPA4: fck de fonte externa]`. Palavras da Kiê: "se tem fck mesmo que de outro estudo é aceito, mas deixa isso registrado".
+
+## Nota 2026-09-26 (Kiê, caso ZHANG 2025, linha 3222) — Etapa 3 e comércio a partir da China
+
+Um rejeito de um país com a escala comercial da China (maior economia comercial do planeta, iniciativa Belt and Road) **passa o teste do comércio** da Etapa 3, desde que o estudo enquadre o material como categoria (ex.: "a China gera ~36 Mt/ano de rejeito de molibdénio") e não o prenda à região de origem. O teste da escala continua a aplicar-se à parte.

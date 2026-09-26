@@ -556,6 +556,15 @@ def short_label(autores, ano):
 def main():
     wb = openpyxl.load_workbook(BASE)
     ws = wb['dados_fck']
+    # 2026-09-26: so entram artigos com status_triagem=Elegivel em
+    # articles_final.xlsx (linha = row_id). Sem este filtro, 39 pares de
+    # artigos ja rejeitados (6 da regra E2 de 2026-09-21 e 4 da Etapa 3 de
+    # 2026-09-26) continuavam no grafico, porque as linhas de dados_fck sao
+    # mantidas por rastreabilidade quando um artigo sai do funil.
+    status = {}
+    af = openpyxl.load_workbook('articles_final.xlsx', read_only=True)['Articles']
+    for i, row in enumerate(af.iter_rows(min_row=2, max_col=20, values_only=True), start=2):
+        status[i] = row[19]
 
     compact = []
     unit_counts = {}  # (kind, cat) -> n
@@ -577,6 +586,8 @@ def main():
         estrato = ws.cell(r, 22).value  # e4_estrato: "principal" | "sensibilidade"
 
         if fck in (None, 0) or co2 is None:
+            continue
+        if status.get(row_id) != 'Elegível':
             continue
         if estrato not in TIERCODE:
             # dados_fck só deve conter linhas Elegível (ver LEGENDA); um
