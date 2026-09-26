@@ -124,6 +124,12 @@
    artigo (errata, versão publicada final) que possa esclarecer a dimensão
    real do cubo?
 
+   ✅ **RESOLVIDO 2026-09-26** (leitura completa do PDF + renderização
+   pp.9-13; decisão Kiê). "×500" é erro tipográfico copiado da linha dos
+   prismas; forma cúbica confirmada pelo texto ("cubes" em 6.2 e 6.2.3) e
+   pelas fotos (Fig.14/16). Linhas 364-365: `vol_corpo_prova_m3` = 0,001
+   (cubo 100 mm), `medido_ensaio`. fck (Fig.10) e CO2 (Tab.5) reconfirmados.
+
 8. **BAYAT et al. 2024 (dados_fck linhas 441/443, row_id 3504).** A unidade
    funcional (FU) do artigo não é 1 m³ fixo — varia entre 1,4554 e 1,4799 m³
    por mistura, conforme a durabilidade/cobrimento de armadura de uma viga
