@@ -568,6 +568,12 @@ def main():
         fck = tofloat(ws.cell(r, 8).value)
         co2 = tofloat(ws.cell(r, 14).value)
         unidade = ws.cell(r, 15).value
+        # 2026-09-26 (Kie): a base de TODOS os graficos de emissoes passa a ser
+        # a coluna co2_kg_m3 (col 37) -- resultado ja convertido, com o dado
+        # original, o local e o metodo de conversao em colunas proprias (34-36).
+        # co2 (col 14) continua a decidir se a linha tem CO2 extraido.
+        co2_kg_m3 = tofloat(ws.cell(r, 37).value)
+        conversao = str(ws.cell(r, 36).value or '')
         estrato = ws.cell(r, 22).value  # e4_estrato: "principal" | "sensibilidade"
 
         if fck in (None, 0) or co2 is None:
@@ -579,8 +585,14 @@ def main():
             print(f'AVISO: linha {r} (row_id={row_id}) sem e4_estrato, ignorada', file=sys.stderr)
             continue
 
-        kind, ucat = classify_unidade(unidade)
+        if co2_kg_m3 is None:
+            kind, ucat = 'pendente', classify_unidade(unidade)[1]
+        elif conversao.startswith('nenhuma'):
+            kind, ucat = 'nativo', 'm3'
+        else:
+            kind, ucat = 'derivado', 'm3'
         unit_counts[(kind, ucat)] = unit_counts.get((kind, ucat), 0) + 1
+        co2 = co2_kg_m3
 
         if kind == 'pendente':
             # unidade ainda na forma original do estudo, nao convertida para
