@@ -164,6 +164,14 @@
    manter o valor `[DERIVADO]` de 475 que já está na célula, ou é melhor
    marcar como incerto?
 
+   ✅ **RESOLVIDO 2026-09-26** (leitura completa do PDF + figuras; decisão
+   Kiê). CO2 **rejeitado**: são cinco valores contraditórios (~100, 200, 400,
+   475 derivado e ~295 pela Fig.8, onde a matéria-prima está a ~0 contra 400
+   no texto) para um geopolímero genérico, nunca atribuído a nenhuma das 5
+   misturas ensaiadas. O fck de 50 MPa era da série PEF após 270 d em Mg₂SO₄
+   (a Fig.5 mostra ~55). `co2_valor` da linha 450 removido; row_id 3525 →
+   E2_co2 Rejeitado, status Rejeitado, etapa 2 (mesmo tratamento do GALANO).
+
 ## Da Onda 4 (lotes 16-20)
 
 10. **CUNNINGHAM 2021 (dados_fck linha 1084, row_id 3732).** `co2_valor`=469,8
