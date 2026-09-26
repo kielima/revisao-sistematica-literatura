@@ -259,6 +259,19 @@ diante (parece que sim, dado o uso já repetido).
     Pergunta: aplicar o mesmo tratamento (retirar do funil de `ci_mpa`,
     já que não é concreto)?
 
+    **✅ RESOLVIDO 2026-09-26 (decisão Kiê, opção A).** A premissa não se
+    aplica: fc,0,k é compressão paralela às fibras e glulam é material
+    aceite — a linha fica, como **família madeira**, não sai do funil (ao
+    contrário do AL OMAR, cuja grandeza era tração). O problema real era o
+    CO2: 132 "tCO2e/m²" (Tab.11) é o edifício inteiro por m² de área, com
+    lajes de betão (68%, Fig.28b), CLT e LVL — não pareável ao GL30h, e com
+    a unidade errada no próprio artigo (1193 t / 132 ⇒ ~9000 m², logo
+    kg/m²). Substituído por **138,24 kgCO2e/m³** = fator A1–A5 do timber
+    frame (Tab.8: 0,28+0,005+0,003 kg/kg) × densidade GL30h (Tab.3: 480
+    kg/m³), com `[ALERTA ETAPA4: valor derivado]`, confiança baixa. QF já
+    era 0; total E4 inalterado (3, sensibilidade). Volume continua
+    `indisponivel` (valor característico normativo, sem provete).
+
 14. **MEDEIROS 2016 (dados_fck linha 50, row_id 5040, tese UFMT).** O
     `co2_valor` já é um total absoluto (soma Fundação+Superestrutura =
     812.132,42 kg CO2eq), não uma taxa kg/m³. O artigo tem, nas mesmas
