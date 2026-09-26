@@ -305,3 +305,12 @@ diante (parece que sim, dado o uso já repetido).
   expired" 3×). Já resolvido antes para `vida_util_anos` via
   `shrink-drive-pdf.yml` com `first_page`/`last_page` — repetir a mesma
   técnica para o volume.
+
+  **✅ RESOLVIDO 2026-09-26 (decisão Kiê, opção A).** PDF inteiro comprimido
+  (`/screen`, 2,4 MB) e lido. CP cilíndrico 5×10 cm (p.77-78 impressas) →
+  `vol_corpo_prova_m3`=1,9635e-4 (`medido_ensaio`). Achado: os fluxos de
+  referência da Tab.7 (UF "1 MPa") são o material de UM cilindro dividido
+  pelo fck — Tab.7 × fck / volume dá massa específica 2.270–2.272 kg/m³
+  constante nas 8 argamassas. CO2 convertido de kg/MPa para kg/m³
+  (co2 × fck / vol): 556,6 / 554,6 / 528,3 / 482,9 / 423,5 / 518,8 /
+  469,6 / 395,5, `[DERIVADO]`, confiança média.
