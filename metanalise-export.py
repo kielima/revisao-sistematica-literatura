@@ -275,11 +275,19 @@ OVERRIDE = {
     (4800, 'Ligante MOC - cimento oxicloreto de magnesio (magnesium oxychloride cement)'): 'ligantes',
     (4800, 'Ligante MPC - cimento fosfato de magnesio (magnesium phosphate cement)'): 'ligantes',
     (4820, 'Edificio alto hibrido madeira/GLT (projeto original, caso de estudo Mjostarnet), classe GL30h (fc,0,k)'): 'biobase',
+    # achado CI_MPA 13 (2026-09-26): material reescrito, mesma familia (madeira glulam = bio-base)
+    (4820, 'Madeira lamelada-colada (glulam) GL30h, estrutura do edificio alto Mjostarnet (projeto original, caso de estudo) - familia madeira'): 'biobase',
     (4855, 'concreto C25 com agregado natural (NAC) - comparativo do mesmo estudo'): 'reciclado',
     (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 28 dias'): 'ligantes',
     (4879, 'pasta ativada alcalinamente FA/GBFS-RN (70/30, ativador cinza de casca de arroz + NaOH) - 360 dias'): 'ligantes',
     (4927, 'concreto de cimento — modelo estatístico global de carbonatação/captação de CO2 (1930-2019), classes C15/C16-C23/C24-C35/>C35 usadas como bins'): 'scm',
     (3818, 'RC (concreto armado convencional, referencia com armadura, impressao 3D vs. betonagem)'): 'concreto_armado',
+    # 2026-09-26: duas misturas do mesmo estudo (10% borracha de pneu + fio de arame residual) caiam em
+    # 'outros' e partiam o export -- mesma familia da mistura de 50% borracha ja em OVERRIDE (pneu = reciclado)
+    (3828, 'HPC com 0% fio de arame residual (base 10% borracha)'): 'reciclado',
+    (3828, 'HPC com 3% fio de arame residual (base 10% borracha, maximo do artigo)'): 'reciclado',
+    # achado CI_MPA 14 (2026-09-26): total do sistema estrutural inclui aco CA-50 (precedente KONTRA)
+    (5040, 'Concreto armado 25MPa - sistemas Fundacao+Superestrutura de edificio real (UFMT, 4.347,57 m2) - familia concreto armado'): 'concreto_armado',
 }
 
 
