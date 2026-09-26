@@ -187,6 +187,14 @@
     seria 0,0001963 m³ se o par ficar confirmado. Pergunta: o
     `co2_valor`=469,8 é mesmo do controle, ou pertence a outra mistura?
 
+    ✅ **RESOLVIDO 2026-09-26** (leitura completa do PDF + medição vetorial das
+    Figs.2c/3; decisão Kiê). O 469,8 é das argamassas **com cinza**. Controlo
+    (linha 1084): CO2 → 543 kg/m³ (Fig.3: 14,20 × 38,2; Fig.2c ≈540) e fck
+    42,1 → 38,2 (42,1 era aos 56 dias, a linha dizia 28). Acrescentadas as 16
+    misturas com cinza (linhas 1865-1880, fck 28 d da Tab.3, CO2 469,8).
+    Volume cilindro 50×100 mm (0,0001963 m³, `medido_ensaio`) em todas. QF
+    1→0,5, total 4,5, continua principal.
+
 11. **LI/ZHU, monorail (dados_fck linha 1162, row_id 4012).** O `co2_valor`
     registado (54.255,77 t CO2/km) é o CO2 total do ciclo de vida de 50
     anos da linha inteira, normalizado por km — uma métrica de
