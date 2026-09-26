@@ -142,6 +142,16 @@
    decidir a unidade. Pergunta: o valor da Fig.12 é por m³ ou é o total da
    viga-FU?
 
+   ✅ **RESOLVIDO 2026-09-26** (leitura completa do PDF + medição da Fig.12
+   por pixel; decisão Kiê). A Fig.12 está em m³-equivalentes da viga de
+   referência (segmento PC = cimento × 906,23 kg/t × volume relativo da FU,
+   Tab.4) — ou seja, por m³, não o total da viga. Descoberta extra: os valores
+   do texto (ZS30 352, S40 356) contradizem a figura e as percentagens nela
+   impressas (−30%/−29% face a R≈475). CO2 das 10 misturas (linhas 435-444)
+   passa a vir da figura ÷ volume relativo (R 475 … ZS40 300 kg/m³); volume do
+   corpo de prova = cubo 100 mm (0,001 m³, `medido_ensaio`). QF 1→0, total
+   6→5, continua principal.
+
 9. **AYGUN 2025 (dados_fck linha 450, row_id 3525).** O artigo reporta o
    CO2 do geopolímero de forma internamente inconsistente entre secções:
    ~100 kg/m³ (Secção LCIA), ~200 kg/m³ (Secção TOPSIS), ~400 kg/m³
