@@ -29,6 +29,16 @@
    fisicamente incoerente. Pergunta: rever ou remover esta linha de
    `dados_fck`?
 
+   ✅ **RESOLVIDO 2026-09-25 (decisão da Kiê, após leitura completa do PDF + figuras).**
+   A premissa do achado estava errada: a Fig. 2 mostra que o Caso 1 é o sistema
+   inteiro (19,1 m³ de concreto = 99,1% + argamassa 0,86%), não só a argamassa. O
+   problema real era outro: a Sec. 3.2 diz que a Tabela 2 contém só CO2 de
+   "land transformation and biogenic sources" — não o GWP total (~7 kg/m³, sem o CO2
+   fóssil do cimento). `co2_valor` removido das 3 linhas (773-775); sem CO2 válido
+   no artigo, row_id 2864 → `E2_co2`=Rejeitado, `status_triagem`=Rejeitado (regra
+   E2 de 2026-09-21). `fck`=30 (classe M30 citada) estava correto — classe de
+   projeto/citada vale na metanálise.
+
 3. **JONES 2024d (dados_fck linhas 790-791, row_id 2902).** Linha 791
    (fck=35, co2=405) vem de uma frase hipotética/contrafactual do artigo, não
    de material real. Linha 790 (fck=78, co2=983, material real) tem dois
