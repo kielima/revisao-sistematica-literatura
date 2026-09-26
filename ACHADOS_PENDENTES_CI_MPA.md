@@ -208,6 +208,13 @@
     kg/m³ da Tabela 2 (aí sim calculável com o volume 13,59 m³), ou manter
     o valor actual (que fica fora do escopo do `ci_mpa`)?
 
+    ✅ **RESOLVIDO 2026-09-26** (leitura completa do PDF; decisão Kiê). O
+    valor antigo era pior do que parecia: 54.255,77 t/km é a emissão da
+    **eletricidade de operação** dos comboios da linha inteira em 50 anos,
+    não CO2 de betão. Linha 1162 → C50, 510,94 kg/m³, 13,59 m³; acrescentadas
+    C20/C25/C30/C40 (linhas 1881-1884) com fator e quantidade da Tabela 2.
+    Volumes `medido_elemento_real` (quantitativo do projeto). E4 inalterado.
+
 **Nota metodológica sobre 5 linhas RESOLVIDO da Onda 4 (row_ids 3930, 3944,
 4255 — GAO, edifícios inteiros):** nestas linhas, o "elemento real" usado
 como `medido_elemento_real` é a quantidade agregada de uma classe de
