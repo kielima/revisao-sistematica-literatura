@@ -292,6 +292,9 @@ OVERRIDE = {
     (4931, 'Parede de contraventamento (shear wall) de betao armado (RC), sistema lateral de edificio de ensaio a escala real de 6 pisos (NHERI TallWood, Seattle); ACI 318-19/ASCE 7-16, elementos de fronteira reforcados nos 2 primeiros pisos'): 'concreto_armado',
     # achado CI_MPA 14 (2026-09-26): total do sistema estrutural inclui aco CA-50 (precedente KONTRA)
     (5040, 'Concreto armado 25MPa - sistemas Fundacao+Superestrutura de edificio real (UFMT, 4.347,57 m2) - familia concreto armado'): 'concreto_armado',
+    # LARSEN 3911 (2026-09-26, revisao suspeitos CO2, decisao Kie): totais das pontes incluem aco/fibra/transporte
+    (3911, 'Concreto de resistência normal NSC — C30/37 (ponte pedonal, Noruega)'): 'concreto_armado',
+    (3911, 'Concreto UHPC (Ultra High Performance Concrete, ponte pedonal, Noruega)'): 'concreto_armado',
 }
 
 
