@@ -59,6 +59,13 @@
    o absoluto (precisaria também do valor absoluto do CEM-I, que também não
    está impresso directamente)?
 
+   ✅ **RESOLVIDO 2026-09-25 (decisão da Kiê, após leitura completa + Figs. 3-6 a 300dpi).**
+   A Fig. 4 dá o CEM-I em 465 kg/m³ (eixo com grelha de 20); 465 − 109,95 = **355**,
+   confirmado pela barra da Fig. 3 (~351-355) e pelos 31% (109,95/355 — os autores
+   calcularam sobre o geopolímero). `co2_valor` 109,95 → 355, confiança média. Por
+   ser reconstrução nossa, **QF 0,5 → 0**, total 4,0 → 3,5, estrato principal →
+   sensibilidade. Volume continua `indisponivel`.
+
 5. **ZHANG et al. 2025, UHPC com resíduos de molibdénio (dados_fck linha 933,
    row_id 3222).** O campo `fck_mpa` é composto (5 misturas na mesma célula:
    "MT0(controlo):104.98; MT25:105.27; MT50:107.15; MT75:108.27;
