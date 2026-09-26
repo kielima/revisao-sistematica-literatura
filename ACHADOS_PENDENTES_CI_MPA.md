@@ -102,6 +102,15 @@
    classe/elemento, cada uma com o seu volume), ou manter `indisponivel`
    para a linha toda?
 
+   ✅ **RESOLVIDO 2026-09-26** (leitura completa do PDF, Tab.1-9; decisão Kiê).
+   Linha dividida: 939 = C30 (fck 30, 295 kgCO2e/m³, 178,51 m³, laje do
+   tabuleiro, Tab.3-5); nova linha 1864 = C40 (fck 40, 340 kgCO2e/m³,
+   257,61 m³, Tab.4 — encontro 63,47 + estrutura especial inferior 194,14;
+   o subagente só tinha visto os 63,47). Volumes = quantitativo total do
+   projecto, `medido_elemento_real`. CO2 do betão impresso 3D e do de cinza
+   volante saíram de `co2_valor` (sem classe → sem par), ficam só na nota.
+   E4 inalterado (3,0, sensibilidade).
+
 ## Da Onda 3 (lotes 11-15)
 
 7. **DI SARNO et al. 2024 (dados_fck linhas 364-365, row_id 3348).** O artigo é
