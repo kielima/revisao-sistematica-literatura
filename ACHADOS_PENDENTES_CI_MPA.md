@@ -46,6 +46,15 @@
    designs distintos). Pergunta: descartar a 791? Como decidir entre os dois
    volumes da 790?
 
+   ✅ **RESOLVIDO 2026-09-25 (decisão da Kiê, após leitura completa + Figs. 7-10 e
+   Tabela A4 via recorte `shrink-drive-pdf.yml`).** A 791 **não** é hipotética: o
+   texto cita a mistura real de 35 MPa impressa do estudo companheiro [23] — mantida,
+   volume `indisponivel`. A 790 fica com **161 m³** (Short Flat Ribbed Beam, projeto
+   final). **Achado novo:** o concreto convencional de 35 MPa (material principal das
+   4 fundações) faltava no banco — adicionado como linha 1863 (fck 35, CO2 364 =
+   983/2,7 pela razão impressa, confiança média, volume 1015 m³ da fundação Tapered).
+   QF 1,0 → 0,5, total 5,0 → 4,5, continua `principal`.
+
 ## Da Onda 2 (lotes 06-10)
 
 4. **SANDANAYAKE et al. 2022 (dados_fck linha 814, row_id 3035).** O
