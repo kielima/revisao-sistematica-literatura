@@ -15,11 +15,29 @@
    `co2_valor` (FU inteira, 50 blocos). Pergunta: qual volume usar, ou deixar
    `indisponivel`?
 
+   ✅ **RESOLVIDO 2026-09-25 (decisão da Kiê, após leitura completa do PDF por mim).**
+   O artigo imprime três volumes diferentes para a FU (0,008 m³ no texto, 0,08 m³ na
+   Tabela 3), mas duas vias independentes convergem em **0,04 m³**: 92 kg ÷ 2300 kg/m³,
+   e 50 blocos × 20×10×4 cm (a frase "800 cm³" é o volume de *um* bloco). O
+   `co2_valor` já registado tinha sido derivado com o divisor errado (0,008) numa
+   sessão anterior — corrigido para divisor 0,04: S1 −136,25→−27,25; S2 −245→−49;
+   S3 −170→−34 kg CO2-eq/m³. `vol_corpo_prova_m3` = 0,04 (medido_ensaio).
+
 2. **GALANO 2023i (dados_fck linha 773, row_id 2864).** `fck`=30 é do concreto
    M30 da laje (referência externa) mas `co2_valor`=134,43 é do *mortar
    filler* usado para selar fissuras — dois materiais distintos. Par
    fisicamente incoerente. Pergunta: rever ou remover esta linha de
    `dados_fck`?
+
+   ✅ **RESOLVIDO 2026-09-25 (decisão da Kiê, após leitura completa do PDF + figuras).**
+   A premissa do achado estava errada: a Fig. 2 mostra que o Caso 1 é o sistema
+   inteiro (19,1 m³ de concreto = 99,1% + argamassa 0,86%), não só a argamassa. O
+   problema real era outro: a Sec. 3.2 diz que a Tabela 2 contém só CO2 de
+   "land transformation and biogenic sources" — não o GWP total (~7 kg/m³, sem o CO2
+   fóssil do cimento). `co2_valor` removido das 3 linhas (773-775); sem CO2 válido
+   no artigo, row_id 2864 → `E2_co2`=Rejeitado, `status_triagem`=Rejeitado (regra
+   E2 de 2026-09-21). `fck`=30 (classe M30 citada) estava correto — classe de
+   projeto/citada vale na metanálise.
 
 3. **JONES 2024d (dados_fck linhas 790-791, row_id 2902).** Linha 791
    (fck=35, co2=405) vem de uma frase hipotética/contrafactual do artigo, não
@@ -27,6 +45,15 @@
    volumes candidatos igualmente válidos na Tabela 2 (161 m³ ou 203 m³, dois
    designs distintos). Pergunta: descartar a 791? Como decidir entre os dois
    volumes da 790?
+
+   ✅ **RESOLVIDO 2026-09-25 (decisão da Kiê, após leitura completa + Figs. 7-10 e
+   Tabela A4 via recorte `shrink-drive-pdf.yml`).** A 791 **não** é hipotética: o
+   texto cita a mistura real de 35 MPa impressa do estudo companheiro [23] — mantida,
+   volume `indisponivel`. A 790 fica com **161 m³** (Short Flat Ribbed Beam, projeto
+   final). **Achado novo:** o concreto convencional de 35 MPa (material principal das
+   4 fundações) faltava no banco — adicionado como linha 1863 (fck 35, CO2 364 =
+   983/2,7 pela razão impressa, confiança média, volume 1015 m³ da fundação Tapered).
+   QF 1,0 → 0,5, total 5,0 → 4,5, continua `principal`.
 
 ## Da Onda 2 (lotes 06-10)
 
@@ -40,6 +67,13 @@
    gráfico não renderizado). Pergunta: manter o delta, ou tentar reconstituir
    o absoluto (precisaria também do valor absoluto do CEM-I, que também não
    está impresso directamente)?
+
+   ✅ **RESOLVIDO 2026-09-25 (decisão da Kiê, após leitura completa + Figs. 3-6 a 300dpi).**
+   A Fig. 4 dá o CEM-I em 465 kg/m³ (eixo com grelha de 20); 465 − 109,95 = **355**,
+   confirmado pela barra da Fig. 3 (~351-355) e pelos 31% (109,95/355 — os autores
+   calcularam sobre o geopolímero). `co2_valor` 109,95 → 355, confiança média. Por
+   ser reconstrução nossa, **QF 0,5 → 0**, total 4,0 → 3,5, estrato principal →
+   sensibilidade. Volume continua `indisponivel`.
 
 5. **ZHANG et al. 2025, UHPC com resíduos de molibdénio (dados_fck linha 933,
    row_id 3222).** O campo `fck_mpa` é composto (5 misturas na mesma célula:
