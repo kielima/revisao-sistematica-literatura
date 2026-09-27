@@ -96,3 +96,5 @@ Dois subagentes (lotes 1 e 5, lançados antes da regra) enviaram o email da util
 - **4387 DE FILIPPIS** — OCR de todas as páginas do PDF reduzido: o GWP (Fig.12a) é só dos activadores para activar 1 kg de escória (escória e água fora da fronteira, sec.2.2), sem massa volumica — confirmado NAO CONVERTIDO.
 
 Painel: 1.485 → 1.497 pares; artigos Elegíveis com par 402 → 406.
+
+- **Decisão da Kiê (2026-09-27), SAHMENKO 4455:** usar o fck aos 28 d em ensaio **seco** (PC 41,4; GCP1 43,4; GCP2 38,2; GCP3 26,6; GCP4 38,6; GCP5 37,0 MPa). A GCP3 volta ao banco (saiu do `RETIRADAS_FCK_MENOR_20_2026-09-27.csv`). Painel 1.497 → 1.498 pares.
