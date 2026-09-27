@@ -1,0 +1,400 @@
+[
+ {
+  "row_id": 3106,
+  "pdf_confere": "sim - titulo, 1a autora (Moa, J.P.S.) e revista Cleaner Engineering and Technology 24 (2025) 100872 impressos; DOI 10.1016/j.clet.2024.100872 coerente com o numero do artigo",
+  "texto_completo": "sim, 21 paginas via read_file_content (98.562 car., termina nas referencias da p.21); download recusado (>10 MB)",
+  "figuras_vistas": "nao - ficheiro >10 MB, download_file_content recusado; tabelas lidas em texto (Tab.2 traco, Tab.15-17 LCIA em mPt)",
+  "veredicto": "SEM_CO2",
+  "motivo": "O betao e um unico traco de substrato (Tab.2: alvo 28 MPa, cimento 451,88 kg/m3), sem ACV propria. A ACV (SimaPro, ReCiPe Endpoint H) e so do REVESTIMENTO de Mg(OH)2, com UF = revestimento de 0,01 m2 de face de cubo, em pontuacao unica mPt/Pt - nao ha GWP em kg CO2-eq de nada. A unica equivalencia kg CO2 <-> mPt (50.000 kg CO2 = 12.500.000 mPt) e um benchmark externo (casa de 250 m2, UN 2023) usado para contextualizar, nao um resultado do estudo; e o objecto seria o revestimento, nao o betao. Nenhuma via para kg CO2-eq/m3 de betao.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 313,
+    "material": "betao convencional de tubo sanitario (substrato do revestimento Mg(OH)2)",
+    "fck_mpa": 28,
+    "fck_tipo": "nao_dito (resistencia-alvo de projecto; ensaio em cubos 100 mm)",
+    "fck_local": "Tab.2 'Target 28-day Compressive Strength 28.00 MPa'",
+    "co2_original": null,
+    "co2_original_local": "Tab.15-17 so em mPt do revestimento (ex.: total 2,33 mPt comercial vs 0,0881 mPt agua do mar por 0,01 m2)",
+    "co2_conversao": "NAO CONVERTIVEL - nao existe GWP (kg CO2-eq) do betao nem do revestimento; single score mPt nao e CO2",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": null,
+    "confianca": "n/a"
+   }
+  ],
+  "citacoes_literais": [
+   "The functional unit was defined as the amount of coating required to cover a 0.01 m2 surface area of a concrete cube.",
+   "expresses impact assessments in single units, such as millipoints (mPt) or points (Pt)",
+   "the construction of a 250-square-meter residential house has an estimated carbon footprint of 50,000 kg of CO2, equivalent to 12,500,000 mPt (United Nations, 2023)"
+  ]
+ },
+ {
+  "row_id": 3111,
+  "pdf_confere": "sim - titulo, 1a autora (de Lara, B.L.E.) e Cleaner Waste Systems 8 (2024) 100145 impressos na p.1",
+  "texto_completo": "sim, 8 paginas (download + PyMuPDF)",
+  "figuras_vistas": "sim - p.7 (Fig.7, resultados normalizados por material, person*year); Figs 4-6 so normalizadas por etapa",
+  "veredicto": "SEM_CO2",
+  "motivo": "O unico GWP absoluto e o da CASA INTEIRA por m2 de area construida (PS2, paredes de betao moldado: 242 kg CO2-eq/m2; alvenaria: 234), dado so na Discussao; inclui aco (81,79 kg/m2), tinta, ceramica, telha, etc. Nao ha GWP do betao isolado (Fig.7 so em person*year normalizado, sem escala em CO2) e nao ha volume de betao: Tab.2 da 854,23 kg de betao por m2 (PS2) mas o artigo nao imprime a massa volumica do betao. O fck 25 MPa e a classe do dataset/traço do produtor, nao ensaio proprio. Os perfis ambientais absolutos por cenario estao em material suplementar (Tab. S3/S6), fora do PDF.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 314,
+    "material": "habitacao social com paredes de betao moldado in situ (PS2) - edificio inteiro",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito (classe do dataset 'Concrete, 25 MPa')",
+    "fck_local": "p.4 sec.2.2.2 'for concrete with a compressive strength of 25 MPa at 28 days of curing'",
+    "co2_original": "242 kg CO2 eq./m2 (area construida, casa PS2)",
+    "co2_original_local": "p.6-7, sec.4 Discussao",
+    "co2_conversao": "NAO CONVERTIVEL - GWP do edificio inteiro por m2 de area (inclui aco, tinta, ceramica, telhado); nao ha GWP so do betao nem massa volumica/volume do betao impressos (so 854,23 kg/m2, Tab.2)",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "concreto_armado",
+    "confianca": "n/a"
+   }
+  ],
+  "citacoes_literais": [
+   "the house units based on concrete wall (PS2) resulted in an emission of 242 kg of CO2 eq./m2, and the house units built from masonry had emissions of 234 kg of CO2 eq./m2",
+   "The functional unit was defined as 1 m2 of construction",
+   "Table 2 Reference flow for the scenarios considered in the LCA study (kg/m2). ... Concrete 640.97 640.97 854.23"
+  ]
+ },
+ {
+  "row_id": 3117,
+  "pdf_confere": "sim - titulo, 1a autora (Villalba, P.) e J. Cleaner Production 455 (2024) 142290 impressos na p.1. Nota: fileId vazio no dossie; encontrado por search_files: 1uCI-LOctK9B7PndFHfCQh1k8VyLvLnzQ",
+  "texto_completo": "sim, 16 paginas (download + PyMuPDF)",
+  "figuras_vistas": "sim - p.8 (Fig.2d, CO2 por alternativa com rotulos 578/679/747 para RC, concordantes com Tab.A.1); Tab.2 e Tab.A.1 em texto",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "UF = um pilar reforcado (vida util 50 anos, cradle-to-grave). Tab.2 imprime o volume de betao do encamisamento RC por UF (0,75/0,85/0,94 m3 para 4/7/10 pisos) e Tab.A.1 o GWP total do RC (578,16/678,73/747,46 kg CO2-eq). Total / volume impresso => kg CO2-eq/m3. O total inclui armadura (101,8-132,6 kg), adesivo epoxi, tinta anti-carbonatacao, diesel de obra e fim de vida (britagem) => familia concreto_armado. fck 32 MPa (classe do betao do encamisamento; dataset Ecoinvent 'Concrete, 30-32 MPa').",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 317,
+    "material": "encamisamento de betao armado (RC) de pilar - edificio 4 pisos",
+    "fck_mpa": 32,
+    "fck_tipo": "nao_dito (NEC Equador - provavelmente cilindro)",
+    "fck_local": "p.3 '75 mm thick concrete jacket, compressive strength of 32 MPa'",
+    "co2_original": "578.16 kg CO2 eq (por pilar reforcado, TRACI 2.1)",
+    "co2_original_local": "Tab.A.1 (p.13); Fig.2d (p.8)",
+    "co2_conversao": "578.16 / 0.75 m3 (Tab.2) = 770.9",
+    "co2_kg_m3": 770.9,
+    "vol_m3": 0.75,
+    "vol_fonte": "Tab.2 'Concrete 0.75 m3' (4 stories)",
+    "vida_util_anos": 50,
+    "vida_util_local": "p.3 'A 50-year service life is considered'; UF p.3",
+    "familia_sugerida": "concreto_armado",
+    "confianca": "alta"
+   },
+   {
+    "sheet_row_existente_ou_null": 318,
+    "material": "encamisamento de betao armado (RC) de pilar - edificio 7 pisos",
+    "fck_mpa": 32,
+    "fck_tipo": "nao_dito (NEC Equador - provavelmente cilindro)",
+    "fck_local": "p.3",
+    "co2_original": "678.73 kg CO2 eq (por pilar reforcado)",
+    "co2_original_local": "Tab.A.1 (p.13); Fig.2d",
+    "co2_conversao": "678.73 / 0.85 m3 = 798.5",
+    "co2_kg_m3": 798.5,
+    "vol_m3": 0.85,
+    "vol_fonte": "Tab.2 (7 stories)",
+    "vida_util_anos": 50,
+    "vida_util_local": "p.3",
+    "familia_sugerida": "concreto_armado",
+    "confianca": "alta"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "encamisamento de betao armado (RC) de pilar - edificio 10 pisos (3a linha do dossie, sheet_row provavelmente 319 - nao vista no lote)",
+    "fck_mpa": 32,
+    "fck_tipo": "nao_dito",
+    "fck_local": "p.3",
+    "co2_original": "747.46 kg CO2 eq (por pilar reforcado)",
+    "co2_original_local": "Tab.A.1 (p.13); Fig.2d",
+    "co2_conversao": "747.46 / 0.94 m3 = 795.2",
+    "co2_kg_m3": 795.2,
+    "vol_m3": 0.94,
+    "vol_fonte": "Tab.2 (10 stories)",
+    "vida_util_anos": 50,
+    "vida_util_local": "p.3",
+    "familia_sugerida": "concreto_armado",
+    "confianca": "alta"
+   }
+  ],
+  "citacoes_literais": [
+   "Concrete Jacketing (RC), reinforced with a 75 mm thick concrete jacket, compressive strength of 32 MPa",
+   "the chosen functional unit was a reinforced concrete column retrofitted to ensure the structural safety of buildings over a service life of 50 years",
+   "Table 2 Amount of materials per functional unit. ... Concrete 0.75 0.85 0.94 m3 Concrete, 30-32 MPa ... Reinforcement steel 101.80 124.80 132.58 kg",
+   "Global warming kg CO2 eq 578.16 678.73 747.46"
+  ]
+ },
+ {
+  "row_id": 3120,
+  "pdf_confere": "sim - versao aceite do repositorio da Univ. Bath; folha de rosto com titulo, 1o autor Narayanaswamy e DOI 10.1016/j.conbuildmat.2020.118096",
+  "texto_completo": "sim para o texto (read_file_content, 66.619 car., 49 paginas do manuscrito ate as tabelas/figuras finais); download_file_content falhou 3x com 'session expired' (armadilha n.8)",
+  "figuras_vistas": "nao - download bloqueado; valores da Fig.10 tomados da leitura renderizada registada em LOTE_23_RESULTADO (cimento-bloco 39,5; AA-bloco 42,5; taipa-cimento 40,7; taipa-AA 44,7; tijolo 55,5 kg CO2-eq/m2) - NAO reconfirmados por mim",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "O CO2 (Fig.10, so materiais + cura) e por m2 de parede e o artigo imprime as espessuras assumidas: 230 mm para paredes de bloco/tijolo (juntas de 10 mm) e 300 mm para taipa (sec.5, p.29). Regra 'por m2 + espessura impressa' => dividir pela espessura. Como o GWP e igual para os 3 agregados (texto: 'assumed identical GWP between the different aggregates'), um valor por ligante x tecnica. ATENCAO 1: a linha 320 do dossie emparelha fck 27,9 (BLOCO AA) com 44,7, mas 44,7 e o valor da TAIPA AA segundo a leitura de LOTE_23; o bloco AA e 42,5. ATENCAO 2: o texto (p.30) fala em 'GWP per linear metre of wall' enquanto o eixo diz 'per m2' (Fig.11 usa 'for 1m wall'); a conversao assume m2. ATENCAO 3: o CO2 da parede de blocos inclui argamassa 1:1:6; o fck do bloco (Tab.6) e da unidade, o do prisma de alvenaria (Tab.7) e o da parede - dou ambos. Leitura grafica => confianca baixa ate se renderizar a Fig.10 (p.29 do manuscrito).",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 320,
+    "material": "parede de blocos de terra comprimida alcali-activados (12M NaOH + 15% FA), agregado PGBS, 230 mm",
+    "fck_mpa": 27.9,
+    "fck_tipo": "nao_dito (bloco, resistencia humida; prisma de alvenaria equivalente: 11,5 MPa, Tab.7)",
+    "fck_local": "Tab.6, Serie II (200-215 dias), PGBS",
+    "co2_original": "42.5 kg CO2-eq/m2 de parede (leitura da Fig.10 em LOTE_23; nao 44,7)",
+    "co2_original_local": "Fig.10 (p.29 do manuscrito)",
+    "co2_conversao": "42.5 / 0.230 m (espessura impressa, sec.5) = 184.8",
+    "co2_kg_m3": 184.8,
+    "vol_m3": null,
+    "vol_fonte": "espessura 230 mm impressa (sec.5)",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "terra_estabilizada",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "parede de blocos de terra comprimida cimento 7% + cal 2%, agregado PGBS, 230 mm",
+    "fck_mpa": 11.6,
+    "fck_tipo": "nao_dito (bloco; prisma 6,92 MPa, Tab.7)",
+    "fck_local": "Tab.6, Serie II (228 dias), PGBS",
+    "co2_original": "39.5 kg CO2-eq/m2 de parede (leitura LOTE_23)",
+    "co2_original_local": "Fig.10",
+    "co2_conversao": "39.5 / 0.230 = 171.7",
+    "co2_kg_m3": 171.7,
+    "vol_m3": null,
+    "vol_fonte": "espessura 230 mm impressa",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "terra_estabilizada",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "parede de taipa alcali-activada (12M NaOH + 15% FA), 300 mm",
+    "fck_mpa": 11.9,
+    "fck_tipo": "cilindro (UCS de cilindros de taipa; valor maximo das series, Tab.5)",
+    "fck_local": "Tab.5 (valor maximo 11,9 N/mm2 segundo o dossie; confirmar agregado)",
+    "co2_original": "44.7 kg CO2-eq/m2 de parede (leitura LOTE_23)",
+    "co2_original_local": "Fig.10",
+    "co2_conversao": "44.7 / 0.300 m = 149.0",
+    "co2_kg_m3": 149.0,
+    "vol_m3": null,
+    "vol_fonte": "espessura 300 mm impressa (sec.5)",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "terra_estabilizada",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "parede de taipa cimento + cal, 300 mm",
+    "fck_mpa": 4.1,
+    "fck_tipo": "cilindro (UCS)",
+    "fck_local": "Tab.5 (maximo 4,1 N/mm2 segundo o dossie)",
+    "co2_original": "40.7 kg CO2-eq/m2 de parede (leitura LOTE_23)",
+    "co2_original_local": "Fig.10",
+    "co2_conversao": "40.7 / 0.300 = 135.7",
+    "co2_kg_m3": 135.7,
+    "vol_m3": null,
+    "vol_fonte": "espessura 300 mm impressa",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "terra_estabilizada",
+    "confianca": "baixa"
+   }
+  ],
+  "citacoes_literais": [
+   "The compressed earth blocks and fired bricks have an assumed 230 mm thickness with 10 mm mortar joints, while the rammed earth walls were assumed to be 300 mm thick",
+   "the overall result was a slightly lower GWP per linear metre of wall than the corresponding rammed earth wall",
+   "because of the higher strength of these mixes but assumed identical GWP between the different aggregates",
+   "12M NaOH + 15% FA (200-215 days old) CDW MS PGBS ... 19.1 24.0 27.9"
+  ]
+ },
+ {
+  "row_id": 3133,
+  "pdf_confere": "sim - titulo, 1o autor (Kromoser, B.) e Construction and Building Materials 344 (2022) 128219 impressos",
+  "texto_completo": "sim, via read_file_content (75.944 car., inclui referencias); download recusado (>10 MB)",
+  "figuras_vistas": "nao - ficheiro >10 MB; Fig.7b (resistencia) e Fig.10 (GWP por m2) so conhecidas pela leitura de LOTE_113 (92 N/mm2; BW1 ~97 kg CO2-eq/m2)",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "Material nao cimenticio (composito de particulas de madeira + amido + lignossulfonato, 3D-impresso). fck so em boxplot (Fig.7b, cubos 40 mm), sem numero no texto. CO2 so em figuras: Fig.8 por kg de composito (sem massa volumica impressa em lado nenhum) e Fig.10 por m2 de parede COMPLETA (inclui isolamento de fibra de canhamo, reboco, etc.; os ~97 kg/m2 do dossie sao o total BW1). O artigo imprime a espessura da parte Biowall (200 mm) e a Fig.10 separa 'load-bearing structure' do resto: so seria convertivel lendo na Fig.10 o segmento estrutural de BW1 e dividindo por 0,200 m - dividir o total de 97 por 0,2 seria errado (inclui isolamento). Nao pude ver a figura. Para desbloquear: isolar a p.10 (Fig.10) e a p.8 (Fig.7b) com shrink-drive-pdf.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1862,
+    "material": "Biowall - composito 3D-impresso madeira + amido + lignossulfonato (BW1, sem reciclagem)",
+    "fck_mpa": 92,
+    "fck_tipo": "cubo (40 mm, metades de prismas EN 196-1); leitura de boxplot nao reconfirmada",
+    "fck_local": "Fig.7b (p.8)",
+    "co2_original": "~97 kg CO2-eq/m2 de parede completa (BW1) - leitura de figura LOTE_113",
+    "co2_original_local": "Fig.10 (p.10)",
+    "co2_conversao": "NAO CONVERTIVEL por ora - falta ler na Fig.10 o segmento 'load-bearing' de BW1 (depois /0,200 m, espessura impressa p.9); massa volumica do composito nao impressa (impede via Fig.8 por kg)",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": "espessura 200 mm impressa ('construction thickness of 200 mm')",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "biobase",
+    "confianca": "n/a"
+   }
+  ],
+  "citacoes_literais": [
+   "one m2 wall was defined as the functional unit (FU)",
+   "For the 3DP Biowall wall system the composites were chosen according to the defined mixture with a construction thickness of 200 mm in combination with a hemp fibre insulation",
+   "A distinction is made between the load-bearing structure of the wall elements and the remaining components (i.e. insulation material, cladding, non-bearing elements)",
+   "The halved prisms from the flexural tests were cut to size (40 mm cubes) and subesquently tested for their compressive strength"
+  ]
+ },
+ {
+  "row_id": 3135,
+  "pdf_confere": "sim - titulo, 1a autora (Komkova, A.) e Construction and Building Materials 363 (2023) 129032 impressos na p.1",
+  "texto_completo": "sim, 11 paginas (download + PyMuPDF)",
+  "figuras_vistas": "sim - p.6 (Fig.2 e Fig.3) e p.8 (Fig.6): todas em % relativa (100% = CEM I ou = AAM com dados antigos); p.7 (Figs 4-5, COV)",
+  "veredicto": "SEM_CO2",
+  "motivo": "fck proprio impresso (Tab.1: GBFS-AAM 52, FA-AAM 52, MK-AAM 58 MPa; UF = 1 m3 de betao com resistencia equivalente). Mas o GWP so aparece em percentagem do CEM I (-57/-42/-39 %) e as Figs 2/3/6 tem eixo em % sem ancora absoluta. Os valores absolutos estao so no material suplementar (S2 Tab.1, S3 Fig.6), fora do PDF. Tab.3 (504-973 kg CO2-eq) e por TONELADA de silicato de sodio (um input), nao do betao. Nao ha factores de emissao impressos para GBFS/FA/MK/cimento/agregados que permitam somar traco x factor.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 850,
+    "material": "betao alcali-activado GBFS/FA/MK vs CEM I equivalente (round-robin RILEM TC 247-DTA)",
+    "fck_mpa": "GBFS-AAM 52; FA-AAM 52; MK-AAM 58",
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tab.1 (p.2) 'Compressive strength -28d (MPa)'",
+    "co2_original": "so % vs CEM I: GBFS -57 %, FA -42 %, MK -39 %",
+    "co2_original_local": "sec.3 (p.5); Fig.2 (p.6)",
+    "co2_conversao": "NAO CONVERTIVEL - percentagem sem ancora absoluta impressa (GWP do CEM I nao impresso; absolutos so em suplementar S3)",
+    "co2_kg_m3": null,
+    "vol_m3": 1.0,
+    "vol_fonte": "UF = 1 m3",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "alcali_ativado",
+    "confianca": "n/a"
+   }
+  ],
+  "citacoes_literais": [
+   "the functional unit is defined as 1 m3 of concrete with equivalent compressive strength",
+   "On average, GBFS-based AA concrete has 57 % lower CO2 eq. emissions, FA-based AA concrete has 42 % lower and MK-based concrete has 39 % lower, compared to CEM I concrete.",
+   "The total environmental impacts for selected impact categories are presented in supplementary materials (S3: Figure 6).",
+   "Table 3 Environmental impact of sodium silicate solutions without water, per tonne."
+  ]
+ },
+ {
+  "row_id": 3138,
+  "pdf_confere": "sim - titulo, 1o autor (Ramon-Alvarez, I.) e Construction and Building Materials 365 (2023) 130082 impressos na p.1",
+  "texto_completo": "sim, 11 paginas (download + PyMuPDF)",
+  "figuras_vistas": "nao renderizadas - Tab.3, 4, 7 e 8 legiveis em texto com todos os numeros; Fig.4/5 sao % e contribuicoes ja numeradas na Tab.8",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "Par proprio existe: fck (Tab.4, sem tratamento: PC 100 S 41,0; SLAG 100 S 67,5; SLAG 75 S-25 GW 41,4; HSLAG 5% 100 S 35,4 MPa; argamassa, prismas EN 196-1) e GWP por UF = massa de argamassa que armazena 1 MJ (Tab.8). Com a Tab.7 (massa por MJ: 5,85/6,24/5,36/5,37 kg) obtem-se kg CO2-eq por kg de argamassa, mas o artigo NAO imprime massa volumica das argamassas => nao se chega a m3. Os totais das AAM sao liquidos com credito de produto evitado (escoria modelada como cimento Portland evitado, -0,88 kg CO2/kg; vidro como areia evitada) - dou liquido e bruto.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 851,
+    "material": "argamassa PC 100 S (referencia, cimento Portland) para armazenamento termico",
+    "fck_mpa": 41.0,
+    "fck_tipo": "nao_dito (prismas 40x40x160, EN 196-1 - meios prismas)",
+    "fck_local": "Tab.4 'Without treatment'",
+    "co2_original": "1.18 kg CO2 eq por 5,85 kg de argamassa (1 MJ armazenado) = 0,2017 kg CO2-eq/kg",
+    "co2_original_local": "Tab.8 'Total'; Tab.7",
+    "co2_conversao": "NAO CONVERTIVEL - falta massa volumica da argamassa (kg/m3), nao impressa",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "argamassa",
+    "confianca": "n/a"
+   },
+   {
+    "sheet_row_existente_ou_null": 852,
+    "material": "argamassa SLAG 100 S (escoria alcali-activada)",
+    "fck_mpa": 67.5,
+    "fck_tipo": "nao_dito (EN 196-1)",
+    "fck_local": "Tab.4",
+    "co2_original": "-0.95 kg CO2 eq liquido por 6,24 kg (1 MJ); bruto sem credito da escoria = 0,05+0,06+0,15 = 0,26 kg (0,0417 kg/kg)",
+    "co2_original_local": "Tab.8",
+    "co2_conversao": "NAO CONVERTIVEL - falta massa volumica",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "alcali_ativado",
+    "confianca": "n/a"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "argamassa SLAG 75 S - 25 GW (escoria AA, 25 % areia -> vidro residual) (provavelmente sheet_row 853 do dossie)",
+    "fck_mpa": 41.4,
+    "fck_tipo": "nao_dito (EN 196-1)",
+    "fck_local": "Tab.4",
+    "co2_original": "liquido 0,03+0,05+0,13-1,04-0,01 = -0,84 kg CO2 eq por 5,36 kg; bruto 0,21 kg (0,0392 kg/kg)",
+    "co2_original_local": "Tab.8",
+    "co2_conversao": "NAO CONVERTIVEL - falta massa volumica",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "alcali_ativado",
+    "confianca": "n/a"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "argamassa hibrida HSLAG 5% 100 S (20 % PC + escoria + Na2SO4)",
+    "fck_mpa": 35.4,
+    "fck_tipo": "nao_dito (EN 196-1)",
+    "fck_local": "Tab.4",
+    "co2_original": "liquido 0,19+0,04+0,04-0,82 = -0,55 kg CO2 eq por 5,37 kg; bruto 0,27 kg (0,0503 kg/kg)",
+    "co2_original_local": "Tab.8",
+    "co2_conversao": "NAO CONVERTIVEL - falta massa volumica",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "alcali_ativado",
+    "confianca": "n/a"
+   }
+  ],
+  "citacoes_literais": [
+   "1 MJ of stored energy was considered as the functional unit",
+   "The use of common waste (such as glass) and industrial by-products (blast furnace slag) were modelled as avoided products, thereby following a consequential approach.",
+   "Table 7 Necessary mass to store 1 MJ. PC 100 S 5.85 SLAG 100 S 6.24 SLAG 75 S - 25 GW 5.36 HSLAG 5% 100 S 5.37",
+   "1.14 kg CO2 eq of the total 1.18 kg CO2 eq are due to this component"
+  ]
+ },
+ {
+  "row_id": 3153,
+  "pdf_confere": "sim - titulo, 1o autor (Kanagaraj, B.) e Construction and Building Materials 401 (2023) 132866 impressos",
+  "texto_completo": "sim, via read_file_content (113.481 car., ate as referencias); download recusado (>10 MB)",
+  "figuras_vistas": "nao - ficheiro >10 MB; a Fig.25 (p.17) tem eixo numerico extraido em texto (100 a 500) e barras empilhadas por fase (Production/Transportation/Construction/End-life) para 'CGSH' e 'CPO', mas titulo/unidade do eixo e alturas das barras nao sao legiveis sem imagem",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "fck proprio (Tab.4: FA 36,12; FG 57,06; FM 52,8 MPa, 28 d; Tab.7: HSGC 57,06 vs OPC 58,70 MPa). O CO2 (cradle-to-grave, sec.3.5) so existe na Fig.25, sem valor no texto (apenas 'HSGC 6.15% lower'); a comparacao usa a composicao da Tab.7, que e a mistura FG (250 FA + 250 GGBFS) - nao ha CO2 de FA nem FM. Os factores de emissao por constituinte (Turner & Collins) NAO estao impressos, por isso nao da para somar traco x factor. Seria convertivel por leitura grafica da Fig.25 SE o eixo estiver em kg CO2/m3 (a extraccao anterior leu ~410/435 com rotulo 't-CO2/m3', fisicamente implausivel - provavel erro de rotulo). Para desbloquear: isolar p.16-17 com shrink-drive-pdf e ler a Fig.25.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 869,
+    "material": "betao geopolimerico auto-compactavel de alta resistencia (HSGC) mistura FG (FA 250 + GGBFS 250) vs OPC (Tab.7)",
+    "fck_mpa": 57.06,
+    "fck_tipo": "cubo (IS 516; ensaio em cubos e cilindros - Tab.4 nao especifica)",
+    "fck_local": "Tab.4 e Tab.7 (28 days CS 57.06; OPC 58.70)",
+    "co2_original": "so em grafico (Fig.25); texto: CO2(Total) HSGC 6.15 % menor que o OPC",
+    "co2_original_local": "Fig.25 (p.17); sec.3.5.3",
+    "co2_conversao": "NAO CONVERTIVEL sem ver a Fig.25 (unidade do eixo por confirmar; leitura previa ~410 HSGC / ~435 OPC com rotulo suspeito 't-CO2/m3')",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": 50,
+    "vida_util_local": "sec.3.5.4 'the life period was assumed to be 50 years' (usado no custo)",
+    "familia_sugerida": "alcali_ativado",
+    "confianca": "n/a"
+   }
+  ],
+  "citacoes_literais": [
+   "The overall end-life CO2-e of the HSGC column and its counterpart conventional cement based concrete column are compared in Fig. 25. In comparison with cement concrete columns, the CO2(Total) of the HSGC column is 6.15% lower than its counterpart.",
+   "Turner and Collins [81], provided data for carbon emissions of concrete constituents.",
+   "FA 500 - - 950 1050 73.6 110.4 700 36.12 FG 250 250 - 950 1050 73.6 110.4 690 57.06 FM 250 - 250 950 1050 73.6 110.4 695 52.8",
+   "11 28 days CS (MPa) 58.70 57.06"
+  ]
+ }
+]

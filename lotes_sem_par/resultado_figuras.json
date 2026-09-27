@@ -1,0 +1,901 @@
+[
+ {
+  "row_id": 3105,
+  "figuras_vistas": "Fig.15a/b (p.14, vectorial - alturas das barras extraidas das coordenadas do PDF, calibradas com as marcas 0 e 120 MPa do eixo) e Fig.21 (p.18, raster embebido de so 247x400 px - leitura por pixel, calibrada com as marcas maiores 0/200/.../1000 (painel QP) e 0/200/.../1200 (painel LP))",
+  "leituras": [
+   {
+    "mistura": "Reference CEM I (pasta)",
+    "fck_mpa": null,
+    "co2_kg_m3": 1031,
+    "unidade_eixo": "CO2eq (kg/m3)",
+    "local": "Fig.21 painel QP (1020 no painel LP)",
+    "incerteza": "+-15 kg/m3 (1 px = 6,25-6,7 kg/m3; os dois paineis diferem 1%)"
+   },
+   {
+    "mistura": "ASS/N3 (100% AS, 3% Na2O) - rede",
+    "fck_mpa": {
+     "d35": 73.2,
+     "d90": 104.5
+    },
+    "co2_kg_m3": 1080,
+    "unidade_eixo": "MPa / kg CO2eq/m3",
+    "local": "Fig.15a/b; Fig.21 painel LP",
+    "incerteza": "fck +-0,2 MPa (vectorial); CO2 +-15. Validado: texto diz +6% vs referencia (1080/1020 = +5,9%)"
+   },
+   {
+    "mistura": "ASS/N3 - renovavel",
+    "fck_mpa": {
+     "d35": 73.2,
+     "d90": 104.5
+    },
+    "co2_kg_m3": 633,
+    "unidade_eixo": "idem",
+    "local": "Fig.21 LP",
+    "incerteza": "+-15"
+   },
+   {
+    "mistura": "ASS-Q50/N3 grid / renew",
+    "fck_mpa": {
+     "d35": 65.2,
+     "d90": 70.3
+    },
+    "co2_kg_m3": {
+     "grid": 625,
+     "renew": 375
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15a; Fig.21 QP",
+    "incerteza": "+-15"
+   },
+   {
+    "mistura": "ASS-Q50/N1 grid / renew",
+    "fck_mpa": {
+     "d35": 30.3,
+     "d90": 27.0
+    },
+    "co2_kg_m3": {
+     "grid": 606,
+     "renew": 350
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15a; Fig.21 QP",
+    "incerteza": "+-15"
+   },
+   {
+    "mistura": "ASS-Q25/N3 grid / renew",
+    "fck_mpa": {
+     "d35": 72.3,
+     "d90": 86.9
+    },
+    "co2_kg_m3": {
+     "grid": 888,
+     "renew": 563
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15a; Fig.21 QP",
+    "incerteza": "+-15"
+   },
+   {
+    "mistura": "ASS-Q50/N2 grid / renew",
+    "fck_mpa": {
+     "d35": 68.6,
+     "d90": 67.8
+    },
+    "co2_kg_m3": {
+     "grid": 613,
+     "renew": 363
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15a; Fig.21 QP",
+    "incerteza": "+-15"
+   },
+   {
+    "mistura": "ASS-Q75/N3 grid / renew",
+    "fck_mpa": {
+     "d35": 22.1,
+     "d90": 11.6
+    },
+    "co2_kg_m3": {
+     "grid": 331,
+     "renew": 213
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15a; Fig.21 QP",
+    "incerteza": "+-15. Texto: reducao ate -67% rede / -79% renovavel -> 331/1031=-68%, 213/1031=-79% (bate)"
+   },
+   {
+    "mistura": "ASS-L50/N1 grid / renew",
+    "fck_mpa": {
+     "d35": 34.8,
+     "d90": 27.9
+    },
+    "co2_kg_m3": {
+     "grid": 580,
+     "renew": 340
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15b; Fig.21 LP",
+    "incerteza": "+-15; renew +-25 (linha preta sobreposta ao fim da barra, 327-353)"
+   },
+   {
+    "mistura": "ASS-L50/N2 grid / renew",
+    "fck_mpa": {
+     "d35": 67.7,
+     "d90": 74.7
+    },
+    "co2_kg_m3": {
+     "grid": 613,
+     "renew": 367
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15b; Fig.21 LP",
+    "incerteza": "+-15"
+   },
+   {
+    "mistura": "ASS-L25/N3 grid / renew",
+    "fck_mpa": {
+     "d35": 85.0,
+     "d90": 105.8
+    },
+    "co2_kg_m3": {
+     "grid": 867,
+     "renew": 513
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15b; Fig.21 LP",
+    "incerteza": "+-15"
+   },
+   {
+    "mistura": "ASS-L50/N3 grid / renew",
+    "fck_mpa": {
+     "d35": 61.8,
+     "d90": 75.1
+    },
+    "co2_kg_m3": {
+     "grid": 620,
+     "renew": 380
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15b; Fig.21 LP",
+    "incerteza": "+-15"
+   },
+   {
+    "mistura": "ASS-L75/N3 grid / renew",
+    "fck_mpa": {
+     "d35": 35.9,
+     "d90": 12.3
+    },
+    "co2_kg_m3": {
+     "grid": 360,
+     "renew": 233
+    },
+    "unidade_eixo": "idem",
+    "local": "Fig.15b; Fig.21 LP",
+    "incerteza": "+-15"
+   }
+  ],
+  "veredicto_final": "PAR_CONVERTIVEL",
+  "notas": "CO2 nativo em kg CO2eq/m3 de pasta (eixo 'CO2eq (kg / m3)'; traco da Tab.2 em kg/m3). fck em cubos (3 replicas), pasta alcali-activada, idades 2/7/35/90 d - NAO ha 28 d; dei 35 d (mais proxima de 28) e 90 d. Fck extraido das coordenadas vectoriais (muito fiavel); CO2 lido de raster de baixa resolucao (confianca media). Ha dois cenarios energeticos (rede alema / renovavel) com o mesmo fck. Fck de 2 e 7 d disponivel se necessario (ex.: ASS/N3 49,7/69,5). Pasta, nao betao."
+ },
+ {
+  "row_id": 2895,
+  "figuras_vistas": "Fig.10 (p.12 do ficheiro, p.2979 impressa) renderizada a 300 dpi; barras raster, rotulos do eixo em texto (0 a 80 MPa) - calibracao pelas coordenadas dos rotulos 0 e 80 (8,06 px/MPa) e medicao do topo de cada barra por pixel",
+  "leituras": [
+   {
+    "mistura": "V0 (100% CEM, sheet_row 786)",
+    "fck_mpa": 42.2,
+    "co2_kg_m3": 367,
+    "unidade_eixo": "Rc (MPa); CO2 de Tab.7/8 (kg CO2eq/m3)",
+    "local": "Fig.10, 28 d, cubos 150 mm",
+    "incerteza": "+-0,5 MPa (borda da barra ~2 px; barra de erro visivel ~+-2,5 MPa)"
+   },
+   {
+    "mistura": "V10 (sheet_row 787)",
+    "fck_mpa": 44.9,
+    "co2_kg_m3": "360 (nao-perigoso) / 273 (perigoso)",
+    "unidade_eixo": "idem",
+    "local": "Fig.10, 28 d",
+    "incerteza": "+-0,5 MPa"
+   },
+   {
+    "mistura": "V15 (sheet_row 788)",
+    "fck_mpa": 41.1,
+    "co2_kg_m3": "357 / 226",
+    "unidade_eixo": "idem",
+    "local": "Fig.10, 28 d",
+    "incerteza": "+-0,5 MPa"
+   },
+   {
+    "mistura": "V20 (sheet_row 789)",
+    "fck_mpa": 39.1,
+    "co2_kg_m3": "353 / 180",
+    "unidade_eixo": "idem",
+    "local": "Fig.10, 28 d",
+    "incerteza": "+-0,5 MPa"
+   }
+  ],
+  "veredicto_final": "PAR_CONVERTIVEL",
+  "notas": "Validacao cruzada com os relativos do texto: 365 d V10 ~62,5 vs V0 ~50,5 = +24% (texto +23,9%); 7 d V10 39,3 vs V0 38,2 = +2,9% (texto +1,7%, dentro da incerteza). Outras idades lidas (MPa): 4 d 34,1/31,5/25,2/26,8; 7 d 38,2/39,3/33,0/31,5; 60 d 46,0/51,3/46,0/43,4 (V0/V10/V15/V20). CO2 de V10-V20 inclui credito de eliminacao evitada das cinzas (bruto nao reconstruivel, ver resultado_lote_04)."
+ },
+ {
+  "row_id": 3120,
+  "figuras_vistas": "Fig.10 (p.29, raster 469x306) e Fig.11 (p.31, raster 450x294); medicao por pixel calibrada com as linhas de grelha 0 e 60 (4,12 px por kg)",
+  "leituras": [
+   {
+    "mistura": "Parede de blocos de terra comprimida cimento 7% + cal 2% (230 mm)",
+    "fck_mpa": null,
+    "co2_kg_m3": 172.2,
+    "co2_original": "39,6 kg CO2-eq/m2 de parede",
+    "unidade_eixo": "Embodied CO2 per m2 of wall (kg CO2-eq) - titulo: 'Components leading to embodied CO2 per m2 of wall (materials only)'",
+    "local": "Fig.10",
+    "incerteza": "+-0,3 kg/m2 (+-1,3 kg/m3); conversao 39,6/0,230"
+   },
+   {
+    "mistura": "Parede de blocos alcali-activados 12M NaOH + 15% FA (230 mm) - sheet_row 320",
+    "fck_mpa": null,
+    "co2_kg_m3": 184.8,
+    "co2_original": "42,5 kg CO2-eq/m2",
+    "unidade_eixo": "idem",
+    "local": "Fig.10",
+    "incerteza": "+-0,3 kg/m2; 42,5/0,230"
+   },
+   {
+    "mistura": "Parede de taipa cimento + cal (300 mm)",
+    "fck_mpa": null,
+    "co2_kg_m3": 136.0,
+    "co2_original": "40,8 kg CO2-eq/m2",
+    "unidade_eixo": "idem",
+    "local": "Fig.10",
+    "incerteza": "+-0,3; 40,8/0,300"
+   },
+   {
+    "mistura": "Parede de taipa alcali-activada (300 mm)",
+    "fck_mpa": null,
+    "co2_kg_m3": 149.0,
+    "co2_original": "44,7 kg CO2-eq/m2",
+    "unidade_eixo": "idem",
+    "local": "Fig.10",
+    "incerteza": "+-0,3; 44,7/0,300"
+   },
+   {
+    "mistura": "Tijolo cozido (230 mm) - comparacao, fck de Gumaste et al. (terceiros)",
+    "fck_mpa": null,
+    "co2_kg_m3": 241.7,
+    "co2_original": "55,6 kg CO2-eq/m2",
+    "unidade_eixo": "idem",
+    "local": "Fig.10",
+    "incerteza": "+-0,3"
+   }
+  ],
+  "veredicto_final": "PAR_CONVERTIVEL",
+  "notas": "Unidade CONFIRMADA: o eixo e o titulo da Fig.10 dizem explicitamente 'per m2 of wall'; a frase 'GWP per linear metre of wall' (p.30) e imprecisao do texto. Espessuras impressas p.29 (230 mm blocos/tijolo com juntas de 10 mm; 300 mm taipa). Valores da leitura anterior (LOTE_23) confirmados: 39,6 / 42,5 / 40,8 / 44,7 / 55,6. CORRIGIR sheet_row 320: bloco AA = 42,5 kg/m2 (-> 184,8 kg/m3), NAO 44,7 (esse e a taipa AA). fck continua o do resultado_lote_06 (Tab.6/7; bloco AA PGBS 27,9, prisma 11,5; cimento 11,6, prisma 6,92; taipa AA 11,9, taipa cimento 4,1). O CO2 da parede de blocos inclui argamassa 1:1:6 (media parede). O CO2 e o mesmo para os 3 agregados. Fig.11 (kg CO2-eq/MN de carga para 1 m de parede) NAO e reproduzivel com 39,6 kg/m2 / (fm x espessura) - ex.: 39,6/(6,92x0,23)=24,9, figura mostra ~1,3-1,9 - incoerencia interna dos autores; nao usar a Fig.11."
+ },
+ {
+  "row_id": 3153,
+  "figuras_vistas": "Fig.25 (p.18) renderizada a 300 dpi; barras raster (235x160 px) com eixo e rotulos em texto vectorial (0-500, passo 50) - calibracao pelas coordenadas dos rotulos 0 e 500",
+  "leituras": [
+   {
+    "mistura": "HSGC (mistura FG: 250 FA + 250 GGBFS, Tab.7) - sheet_row 869",
+    "fck_mpa": 57.06,
+    "co2_kg_m3": 412,
+    "unidade_eixo": "CO2-e (t-CO2/m3) [sic]",
+    "local": "Fig.25 (total empilhado: Production+Transportation+Construction+End-life)",
+    "incerteza": "+-3 (1 px = 1 unidade do eixo)"
+   },
+   {
+    "mistura": "OPC (referencia, Tab.7)",
+    "fck_mpa": 58.7,
+    "co2_kg_m3": 438,
+    "unidade_eixo": "idem",
+    "local": "Fig.25",
+    "incerteza": "+-3"
+   }
+  ],
+  "veredicto_final": "PAR_CONVERTIVEL",
+  "notas": "Condicional: o eixo diz literalmente 't-CO2/m3', o que daria 412 t/m3 - fisicamente impossivel; a magnitude (412/438) e a de kg CO2-eq/m3 de betao com ~500 kg de ligante, e o texto confirma a razao (HSGC 6,15% menor; lido 412/438 = -5,9%). Recomendacao: gravar como kg/m3 com nota 'rotulo do eixo t-CO2/m3 tratado como gralha de kg', confianca baixa. Segmentos por fase nao sao separaveis com confianca (a producao domina; End-life ~5-8 unidades). So ha CO2 para FG vs OPC; FA e FM sem CO2. Ambito cradle-to-grave (sec.3.5)."
+ },
+ {
+  "row_id": 3238,
+  "figuras_vistas": "Fig.9 (p.6, raster 341x174 px) renderizada a 300 dpi e medida por pixel no raster original; calibracao: eixo x (0) na linha 148 e moldura superior (40 MPa) na linha 5 -> 3,575 px/MPa",
+  "leituras": [
+   {
+    "mistura": "AcLM50 (sheet_row 938), 28 d",
+    "fck_mpa": 36.4,
+    "co2_kg_m3": null,
+    "unidade_eixo": "Compressive strength (MPa)",
+    "local": "Fig.9",
+    "incerteza": "+-0,4 MPa (1 px = 0,28 MPa; borda antialiased)"
+   },
+   {
+    "mistura": "AcLM30 / AcLM40, 28 d",
+    "fck_mpa": "34,4 / 31,6",
+    "co2_kg_m3": null,
+    "unidade_eixo": "idem",
+    "local": "Fig.9",
+    "incerteza": "+-0,4"
+   },
+   {
+    "mistura": "LM30 / LM40 / LM50, 28 d",
+    "fck_mpa": "20,1 / 15,7 / 8,7",
+    "co2_kg_m3": null,
+    "unidade_eixo": "idem",
+    "local": "Fig.9",
+    "incerteza": "+-0,4"
+   }
+  ],
+  "veredicto_final": "PAR_NAO_CONVERTIVEL",
+  "notas": "fck AcLM50 confirmado ~36,4 MPa (dossie 36,7; diferenca dentro da incerteza). Rotulos do eixo sao raster de baixa resolucao mas legiveis (0,10,20,30,40). O CO2 continua 49,9 kg CO2/ton de ligante (Tab.2), sem massa volumica da pasta impressa -> nao convertivel para kg/m3 (ver resultado_lote_08). A figura nao muda o veredicto."
+ },
+ {
+  "row_id": 3133,
+  "figuras_vistas": "Fig.7b (p.8), Fig.8 (p.9), Fig.9 (p.9, cortes das paredes) e Fig.10 (p.10) - todas raster de baixa resolucao (~500 px de largura para a figura inteira); leitura por pixel calibrada nas linhas de grelha",
+  "leituras": [
+   {
+    "mistura": "Biowall BW1 (sem reciclagem) - sheet_row 1862",
+    "fck_mpa": 91,
+    "co2_kg_m3": 285,
+    "co2_original": "segmento verde 'load bearing structure' de BW1 ~57 kg CO2-eq/m2 (total da parede ~98)",
+    "unidade_eixo": "Fig.10 'GWP [kgCO2eq]' por UF 1 m2 de parede (legenda); Fig.7b 'max. strength [N/mm2]'",
+    "local": "Fig.10 painel GWP; Fig.7b; espessura 200 mm 'Biowall composite' na Fig.9",
+    "incerteza": "CO2 +-3 kg/m2 (1 px = 1,9 kg/m2) -> +-15 kg/m3; fck +-2 MPa (marcador ~1 px acima da grelha de 90). Conversao 57/0,200"
+   },
+   {
+    "mistura": "Biowall BW2 (1 reciclagem, regra 50:50)",
+    "fck_mpa": 91,
+    "co2_kg_m3": 135,
+    "co2_original": "~27 kg/m2 estrutural (total ~70)",
+    "unidade_eixo": "idem",
+    "local": "Fig.10",
+    "incerteza": "+-15 kg/m3"
+   },
+   {
+    "mistura": "Biowall BW3 (2 reciclagens)",
+    "fck_mpa": 91,
+    "co2_kg_m3": 97,
+    "co2_original": "~19 kg/m2 estrutural (total ~58)",
+    "unidade_eixo": "idem",
+    "local": "Fig.10",
+    "incerteza": "+-15 kg/m3"
+   },
+   {
+    "mistura": "Parede A - betao 180 mm (AWm 01a, referencia de catalogo [89])",
+    "fck_mpa": null,
+    "co2_kg_m3": 275,
+    "co2_original": "~49,6 kg/m2 estrutural (total ~79)",
+    "unidade_eixo": "idem",
+    "local": "Fig.10 e Fig.9",
+    "incerteza": "+-15; sem fck - nao pareavel"
+   }
+  ],
+  "veredicto_final": "PAR_CONVERTIVEL",
+  "notas": "Confianca BAIXA. Material nao cimenticio (particulas de madeira + amido + lignossulfonato) -> familia biobase. A Fig.10 separa a parte estrutural (verde) do resto (amarelo: isolamento de canhamo, gesso, reboco) e a Fig.9 imprime 200 mm de 'Biowall composite' -> regra 'por m2 + espessura impressa'. O CO2 da Fig.10 considera carbono armazenado ([90]) - e liquido. fck ~91 N/mm2 (cubos 40 mm de metades de prismas EN 196-1, Fig.7b), valor surpreendentemente alto mas e o que a figura mostra (a madeira de referencia ~94). Via alternativa NAO coerente: Fig.8 da BW1 ~0,36 kg CO2-eq/kg (eixo 0E+00...2E+00, rotulos quase ilegiveis) x massa volumica '1.2 g/mm3' [sic, g/cm3] impressa no rotulo da Fig.7b = ~430 kg/m3, contra ~285 pela Fig.10 - as duas vias divergem ~50% (fronteiras diferentes/carbono biogenico), por isso preferir a Fig.10 e assinalar a divergencia."
+ },
+ {
+  "row_id": 3420,
+  "figuras_vistas": "Fig.7 (p.7), Fig.8 (p.8), Fig.11 (p.10) e Fig.12a (p.10) extraidas como raster (340-440 px de largura) e ampliadas",
+  "leituras": [
+   {
+    "mistura": "Porticos 1-4 reutilizaveis vs portico nao reutilizavel C60/75 (UF 0,44 m3)",
+    "fck_mpa": 60,
+    "co2_kg_m3": null,
+    "unidade_eixo": "Fig.7/8/11: indice adimensional normalizado ao portico nao reutilizavel = 1 (Fig.7 eixo ~0,90-1,15; Fig.8 0-1,0; Fig.11 0-1)",
+    "local": "Fig.7, 8, 11",
+    "incerteza": "n/a - so relativos"
+   },
+   {
+    "mistura": "Porticos reutilizavel vs novo, 6 ciclos",
+    "fck_mpa": 60,
+    "co2_kg_m3": null,
+    "unidade_eixo": "Fig.12a: eixo absoluto de 'Climate change (kg CO2 eq?)' em notacao cientifica, rotulos ILEGIVEIS (raster 340x133 px, ~6 px de altura por rotulo)",
+    "local": "Fig.12a p.10",
+    "incerteza": "nao legivel"
+   }
+  ],
+  "veredicto_final": "PAR_NAO_CONVERTIVEL",
+  "notas": "As Fig.7, 8 e 11 sao normalizadas (portico/edificio nao reutilizavel = 1), sem ancora absoluta impressa -> nao convertiveis. A Fig.12 e a unica com escala absoluta (por portico, UF 0,44 m3 de betao C60/75, familia concreto_armado), mas o ficheiro reduzido com /screen tem os rotulos do eixo ilegiveis (so se distingue o formato 'x.00E+0x'); nao arrisco leitura. Para desbloquear: isolar a p.10 do PDF original SEM compressao /screen (shrink-drive-pdf com first_page=10 last_page=10 e perfil /printer ou /prepress) e ler o degrau do ciclo 1 da Fig.12a (portico novo) -> total/0,44 m3."
+ },
+ {
+  "row_id": 4033,
+  "figuras_vistas": "Fig.16a/b (p.15, raster 481x179) e Fig.4a/b (p.6, raster 481x193); medicao por pixel calibrada nas marcas do eixo (Fig.16a: 0 e 500 -> 0,30 px por kg; eixo direito 0-20 -> 7,5 px por kg/MPa)",
+  "leituras": [
+   {
+    "mistura": "Ref (OPC 100%) - sheet_row 553",
+    "fck_mpa": 61.1,
+    "co2_kg_m3": 432,
+    "unidade_eixo": "GWP (kg CO2 eq./m3); Specific GWP (kg CO2 eq./MPa)",
+    "local": "Fig.16a; fck do texto p.6",
+    "incerteza": "+-4 kg/m3 (1 px = 3,3); specific 7,0 -> 432/7,0 = 61,7 MPa (bate com 61,1)"
+   },
+   {
+    "mistura": "D5-P5 - sheet_row 554",
+    "fck_mpa": 65.4,
+    "co2_kg_m3": 392,
+    "unidade_eixo": "idem",
+    "local": "Fig.16a; texto",
+    "incerteza": "+-4; specific ~6,1 -> 64,6 MPa (bate)"
+   },
+   {
+    "mistura": "D10-P5",
+    "fck_mpa": 48.9,
+    "co2_kg_m3": 375,
+    "unidade_eixo": "idem",
+    "local": "Fig.16a; texto",
+    "incerteza": "+-4; specific 7,7 -> 48,9 (bate)"
+   },
+   {
+    "mistura": "D15-P5",
+    "fck_mpa": 31.5,
+    "co2_kg_m3": 352,
+    "unidade_eixo": "idem",
+    "local": "Fig.16a; fck da Fig.4a 28 d (~31,8) e de GWP/specific (31,2)",
+    "incerteza": "GWP +-4; fck +-1"
+   },
+   {
+    "mistura": "D10-P10",
+    "fck_mpa": 36.5,
+    "co2_kg_m3": 352,
+    "unidade_eixo": "idem",
+    "local": "Fig.16a; texto",
+    "incerteza": "+-4; specific 9,6 -> 36,7 (bate)"
+   },
+   {
+    "mistura": "D20-P10",
+    "fck_mpa": 25.0,
+    "co2_kg_m3": 308,
+    "unidade_eixo": "idem",
+    "local": "Fig.16a; fck Fig.4a (~25,3) e GWP/specific (24,3)",
+    "incerteza": "GWP +-4; fck +-1"
+   },
+   {
+    "mistura": "D30-P10",
+    "fck_mpa": 16.7,
+    "co2_kg_m3": 282,
+    "unidade_eixo": "idem",
+    "local": "Fig.16a; fck Fig.4a (~16,7) e GWP/specific (16,7)",
+    "incerteza": "GWP +-4; fck +-1"
+   },
+   {
+    "mistura": "D10-P15",
+    "fck_mpa": 29.5,
+    "co2_kg_m3": 332,
+    "unidade_eixo": "idem",
+    "local": "Fig.16a; texto",
+    "incerteza": "+-4; specific 11,3 -> 29,5 (bate)"
+   }
+  ],
+  "veredicto_final": "PAR_CONVERTIVEL",
+  "notas": "A unidade esta impressa no eixo da Fig.16a: 'GWP (kg CO2 eq./m3)' -> CO2 nativo por m3 de argamassa (s/b 2,0, w/b 0,35). O eixo direito 'Specific GWP (kg CO2 eq./MPa)' = GWP/fck28: a divisao reproduz os fck impressos no texto em 5 misturas (erro <1%), o que valida a leitura e fixa o fck das 3 misturas sem valor no texto. E argamassa, nao betao. Fig.16b da energia (MJ/m3), nao usada."
+ },
+ {
+  "row_id": 3439,
+  "figuras_vistas": "Fig.7 (p.10, raster 340x174) medida por pixel, calibrada nas linhas de grelha 0/400/600/800/1000 (0,22 px por kg); Fig.6 (p.9) extraida mas nao necessaria",
+  "leituras": [
+   {
+    "mistura": "Betao pronto convencional 35 MPa (ready-mix)",
+    "fck_mpa": 35,
+    "co2_kg_m3": 361,
+    "unidade_eixo": "GWP in kg CO2 eq. per m3 of material",
+    "local": "Fig.7",
+    "incerteza": "+-5 kg/m3 (1 px = 4,5)"
+   },
+   {
+    "mistura": "Betao impresso 3D 35 MPa - sheet_row 1006",
+    "fck_mpa": 35,
+    "co2_kg_m3": 400,
+    "unidade_eixo": "idem",
+    "local": "Fig.7",
+    "incerteza": "+-5 (fim da barra coincide com a grelha de 400)"
+   },
+   {
+    "mistura": "Betao impresso 3D 78 MPa - sheet_row 1007",
+    "fck_mpa": 78,
+    "co2_kg_m3": 979,
+    "unidade_eixo": "idem",
+    "local": "Fig.7",
+    "incerteza": "+-5"
+   }
+  ],
+  "veredicto_final": "PAR_CONVERTIVEL",
+  "notas": "CO2 NATIVO por m3 so de material (fase de material) - preferivel a via total da torre / volume do resultado_lote_11 (que inclui armadura, pre-esforco e todo o ciclo de vida, familia concreto_armado). Coerente com o texto: 78 MPa ~3x o GWP por volume do 35 MPa (979/400 = 2,4x vs impresso; 979/361 = 2,7x vs pronto). fck = resistencia aos 28 d declarada (Table 3/sec.2), tipo de provete nao dito. A torre 3D Cast (sheet_row 1008) nao tem fck unico - sem linha nova."
+ },
+ {
+  "row_id": 3203,
+  "figuras_vistas": "Fig.7 (p.11, raster 401x564), Fig.8 (p.12, raster 403x564) e Fig.10 (p.15, raster 432x471); rotulos de dados das barras lidos a 5-8x; alturas das barras medidas por pixel e calibradas contra os fck de 180 d derivados (Tab.4/Fig.10)",
+  "leituras": [
+   {
+    "mistura": "C-1-100 (referencia, sem escoria)",
+    "fck_mpa": 53.9,
+    "fck_180d_derivado": 66.0,
+    "co2_kg_m3": 417.9,
+    "co2_original": "106.97 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-1-90+10 escoria grossa (Fig.7)",
+    "fck_mpa": 49.4,
+    "fck_180d_derivado": 57.0,
+    "co2_kg_m3": 376.5,
+    "co2_original": "96.39 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-1-80+20 escoria grossa (Fig.7)",
+    "fck_mpa": 38.0,
+    "fck_180d_derivado": 52.3,
+    "co2_kg_m3": 335.2,
+    "co2_original": "85.81 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-1-70+30 escoria grossa (Fig.7)",
+    "fck_mpa": 29.8,
+    "fck_180d_derivado": 47.0,
+    "co2_kg_m3": 293.9,
+    "co2_original": "75.23 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-2-100 (referencia, sem escoria)",
+    "fck_mpa": 56.2,
+    "fck_180d_derivado": 60.4,
+    "co2_kg_m3": 342.3,
+    "co2_original": "87.63 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-2-90+10 escoria grossa (Fig.7)",
+    "fck_mpa": 47.0,
+    "fck_180d_derivado": 53.4,
+    "co2_kg_m3": 308.5,
+    "co2_original": "78.98 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-2-80+20 escoria grossa (Fig.7)",
+    "fck_mpa": 43.1,
+    "fck_180d_derivado": 45.7,
+    "co2_kg_m3": 274.7,
+    "co2_original": "70.33 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-2-70+30 escoria grossa (Fig.7)",
+    "fck_mpa": 34.8,
+    "fck_180d_derivado": 37.4,
+    "co2_kg_m3": 241.0,
+    "co2_original": "61.69 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-3-100 (referencia, sem escoria)",
+    "fck_mpa": 51.5,
+    "fck_180d_derivado": 69.9,
+    "co2_kg_m3": 273.0,
+    "co2_original": "69.89 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 c (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-3-90+10 escoria grossa (Fig.7)",
+    "fck_mpa": 49.2,
+    "fck_180d_derivado": 62.4,
+    "co2_kg_m3": 246.2,
+    "co2_original": "63.02 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 c (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-3-80+20 escoria grossa (Fig.7)",
+    "fck_mpa": 36.0,
+    "fck_180d_derivado": 62.4,
+    "co2_kg_m3": 219.3,
+    "co2_original": "56.15 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 c (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-3-70+30 escoria grossa (Fig.7)",
+    "fck_mpa": 26.5,
+    "fck_180d_derivado": 49.3,
+    "co2_kg_m3": 192.5,
+    "co2_original": "49.27 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 c (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-4-100 (referencia, sem escoria)",
+    "fck_mpa": 52.4,
+    "fck_180d_derivado": 76.3,
+    "co2_kg_m3": 307.2,
+    "co2_original": "78.64 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 d (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-4-90+10 escoria grossa (Fig.7)",
+    "fck_mpa": 48.5,
+    "fck_180d_derivado": 66.3,
+    "co2_kg_m3": 276.9,
+    "co2_original": "70.89 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 d (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-4-80+20 escoria grossa (Fig.7)",
+    "fck_mpa": 40.3,
+    "fck_180d_derivado": 60.1,
+    "co2_kg_m3": 246.6,
+    "co2_original": "63.14 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 d (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-4-70+30 escoria grossa (Fig.7)",
+    "fck_mpa": 32.4,
+    "fck_180d_derivado": 49.9,
+    "co2_kg_m3": 216.4,
+    "co2_original": "55.4 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.7 d (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-1-90+10 escoria fina (Fig.8)",
+    "fck_mpa": 56.6,
+    "fck_180d_derivado": 61.9,
+    "co2_kg_m3": 377.2,
+    "co2_original": "96.57 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-1-80+20 escoria fina (Fig.8)",
+    "fck_mpa": 48.0,
+    "fck_180d_derivado": 56.3,
+    "co2_kg_m3": 336.6,
+    "co2_original": "86.16 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-1-70+30 escoria fina (Fig.8)",
+    "fck_mpa": 44.0,
+    "fck_180d_derivado": 50.2,
+    "co2_kg_m3": 295.9,
+    "co2_original": "75.76 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-2-90+10 escoria fina (Fig.8)",
+    "fck_mpa": 53.5,
+    "fck_180d_derivado": 58.2,
+    "co2_kg_m3": 309.2,
+    "co2_original": "79.15 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-2-80+20 escoria fina (Fig.8)",
+    "fck_mpa": 45.1,
+    "fck_180d_derivado": 49.8,
+    "co2_kg_m3": 276.1,
+    "co2_original": "70.68 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-2-70+30 escoria fina (Fig.8)",
+    "fck_mpa": 37.8,
+    "fck_180d_derivado": 44.1,
+    "co2_kg_m3": 243.0,
+    "co2_original": "62.21 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-3-90+10 escoria fina (Fig.8)",
+    "fck_mpa": 47.9,
+    "fck_180d_derivado": 67.2,
+    "co2_kg_m3": 246.9,
+    "co2_original": "63.2 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 d-esq (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-3-80+20 escoria fina (Fig.8)",
+    "fck_mpa": 40.9,
+    "fck_180d_derivado": 66.5,
+    "co2_kg_m3": 220.7,
+    "co2_original": "56.5 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 d-esq (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-3-70+30 escoria fina (Fig.8)",
+    "fck_mpa": 33.5,
+    "fck_180d_derivado": 60.7,
+    "co2_kg_m3": 194.5,
+    "co2_original": "49.8 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 d-esq (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-4-90+10 escoria fina (Fig.8)",
+    "fck_mpa": 51.3,
+    "fck_180d_derivado": 74.0,
+    "co2_kg_m3": 277.6,
+    "co2_original": "71.07 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 d-dir (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-4-80+20 escoria fina (Fig.8)",
+    "fck_mpa": 42.0,
+    "fck_180d_derivado": 63.5,
+    "co2_kg_m3": 248.0,
+    "co2_original": "63.49 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 d-dir (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   },
+   {
+    "mistura": "C-4-70+30 escoria fina (Fig.8)",
+    "fck_mpa": 35.2,
+    "fck_180d_derivado": 59.5,
+    "co2_kg_m3": 218.4,
+    "co2_original": "55.92 g CO2 eq por provete 4x4x16 cm (Tab.4)",
+    "unidade_eixo": "Fig.7/8 Compressive strength [MPa]; Fig.10 CCC (g CO2 eq/MPa, rotulo diz kg)",
+    "local": "fck 28 d: rotulo de dados da Fig.8 d-dir (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b",
+    "incerteza": "fck 28 d +-1 MPa (rotulos raster desfocados; altura da barra calibrada com os valores de 180 d); fck 180 d +-0,5 (arredondamento do CCC a 2 casas); CO2 exacto (Tab.4)"
+   }
+  ],
+  "veredicto_final": "PAR_CONVERTIVEL",
+  "notas": "fck 28 d por mistura esta impresso como rotulo de dados em cada barra das Fig.7 (escoria grossa) e Fig.8 (escoria fina); a resolucao do ficheiro /screen deixa os decimais incertos, por isso cada rotulo foi conferido pela altura da barra (calibrada, por painel, com os fck de 180 d). A Fig.10 tem rotulos numericos legiveis de CCC: nos paineis de 180 d (b, d) GWP(Tab.4)/CCC reproduz exactamente os rotulos de 180 d das Fig.7/8 (ex.: C-1-100 106,97/1,62 = 66,0; C-1-90+10C 96,39/1,69 = 57,0); nos paineis de 28 d (a, c) NAO reproduz os 28 d das Fig.7/8 (C-1-100: 106,97/2,75 = 38,9 vs 53,9) - incoerencia dos autores, nao usar os CCC de 28 d. O CCC esta em g CO2/MPa (nao kg). Na Fig.8 os paineis c) e d) estao trocados pelos autores (c = duas flexoes, d = duas compressoes C-3 e C-4). Referencias (C-x-100) sao comuns as duas escorias: 4 referencias + 24 misturas com escoria = 28 pares. CO2 = g/provete / 0,000256 m3 (UF declarada 4x4x16 cm). Argamassa, nao betao. C-1-100: rotulo le-se 53,5 na Fig.7a e 51,9/53,9 na Fig.8a; pixel 53,4-54,1 -> 53,9 (+-0,6)."
+ },
+ {
+  "row_id": 3176,
+  "figuras_vistas": "Fig.16a (p.15): barras em raster 146x368 px colocado exactamente sobre o eixo vectorial (rotulos 165...195 em texto; 4,86 pt por kg); fim de cada barra medido por pixel na banda da barra",
+  "leituras": [
+   {
+    "mistura": "GPM-control (sheet_row 886)",
+    "fck_mpa": 44.79,
+    "co2_kg_m3": 184.0,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-5%A (adicao)",
+    "fck_mpa": 46.89,
+    "co2_kg_m3": 185.0,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-5%S (= 5R, substituicao)",
+    "fck_mpa": 42.45,
+    "co2_kg_m3": 183.2,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-10%A",
+    "fck_mpa": 39.72,
+    "co2_kg_m3": 186.1,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-10%S (=10R)",
+    "fck_mpa": 34.73,
+    "co2_kg_m3": 182.2,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-15%A",
+    "fck_mpa": 41.41,
+    "co2_kg_m3": 187.1,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-15%S (=15R)",
+    "fck_mpa": 35.23,
+    "co2_kg_m3": 181.1,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-20%A",
+    "fck_mpa": 45.9,
+    "co2_kg_m3": 188.1,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-20%S (=20R)",
+    "fck_mpa": 27.92,
+    "co2_kg_m3": 180.1,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-30%A",
+    "fck_mpa": 43.28,
+    "co2_kg_m3": 190.2,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-30%S (=30R)",
+    "fck_mpa": 26.58,
+    "co2_kg_m3": 178.0,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-40%A",
+    "fck_mpa": 41.63,
+    "co2_kg_m3": 192.1,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   },
+   {
+    "mistura": "GPM-40%S (=40R)",
+    "fck_mpa": 25.27,
+    "co2_kg_m3": 176.2,
+    "unidade_eixo": "Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5)",
+    "local": "Fig.16a; fck Tabela 4",
+    "incerteza": "+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)"
+   }
+  ],
+  "veredicto_final": "PAR_CONVERTIVEL",
+  "notas": "CO2 nativo por m3 ('The results of the LCA for the production of 1.0 m3 of geopolymer mortar'), GaBi/CML 2016, cradle-to-gate. Na figura S = substituicao da cinza volante (= 'R' da Tabela 4), A = adicao. Validacao: GPM-40%S 176,2 vs controlo 184,0 = -4,2% (texto: reducao ate 5%). A escala do eixo comeca em 165 (nao em zero) - leitura feita com os rotulos vectoriais, sem ambiguidade. Argamassa geopolimerica, nao betao. Provete do fck nao dito no texto lido."
+ }
+]
