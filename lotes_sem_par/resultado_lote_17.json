@@ -1,0 +1,446 @@
+[
+ {
+  "row_id": 4095,
+  "pdf_confere": "sim - titulo, autores (Silva, Gomes, Saade), Ambiente Construido v.18 n.2 p.413-429 (2018) e DOI 10.1590/s1678-86212018000200262 impressos na p.1",
+  "texto_completo": "sim, 17 paginas (PyMuPDF, 54.091 caracteres)",
+  "figuras_vistas": "sim - p.10 (Fig.4/5 radar), p.11 (Fig.6 REFmix, Fig.7), p.13 (Fig.9 D3/D4/D5), p.14 (Fig.10 sensibilidade), 150 dpi",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "fck existe (Tabela 3: D4 48,4 MPa, D5 49,7 MPa aos 28 d, cilindros 100x200 mm; REFmix 52 MPa estimado por curvas de dosagem, p.418). O GWP so existe em graficos por unidade funcional '1 MPa' (kg CO2e/MPa): Fig.6 (REFmix) e Fig.9 (D4/D5) tem eixo numerico, mas o artigo nunca diz a que quantidade de betao corresponde a UF de 1 MPa (m3? amassadura de 40 kg de ligante da Tab.2?). Multiplicar por fck da 'kg CO2e por quantidade de referencia nao declarada' - nao e por m3. Alem disso os resultados sao liquidos com a abordagem NAB (creditos de clinquer/agregados evitados), com o 'gerado' do REFmix praticamente nulo (~0,01 kg/MPa) porque o cimento CP III entra como avoided - nao ha GWP bruto reconstruivel. Unica massa volumica impressa (2300 kg/m3) e o peso especifico adoptado para o bloco na equacao de Hudson, nao serve para converter uma UF que nao esta definida em massa nem em volume. Nota: o '161% GWP lower' citado no dossie NAO aparece neste PDF (provavelmente do artigo irmao SILVA 2018f); e a Fig.6 esta na p.423 impressa, nao p.425.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1186,
+    "material": "REFmix quebra-mar, CP III-32 RS + agregados naturais (1:2,25:2,25:0,45)",
+    "fck_mpa": 52,
+    "fck_tipo": "nao_dito",
+    "fck_local": "p.418 (6 do PDF): 'The estimated compressive strength at 28 days (52 MPa)' - estimado por curvas de dosagem, nao ensaiado",
+    "co2_original": "GWP liquido ~ -0,23 kg CO2e/MPa (gerado ~+0,01; evitado ~-0,24), leitura de grafico",
+    "co2_original_local": "Fig.6, p.423 impressa (eixo numerico 'Impact categories' values (per MPa)')",
+    "co2_conversao": "NAO CONVERTIVEL - UF '1 MPa' sem quantidade de betao declarada; valor liquido NAB com creditos",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "alcali_ativado (referencia CP III)",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": 1187,
+    "material": "Mix D4 - escoria de alto-forno activada com silicato de sodio (4% Na2O), agregados de escoria",
+    "fck_mpa": 48.4,
+    "fck_tipo": "cilindro",
+    "fck_local": "Tabela 3, p.417 impressa (28 d, n=5, dp 3,35); provetes 100x200 mm (p.415)",
+    "co2_original": "GWP gerado ~+0,12, evitado ~-0,52 kg CO2e/MPa (liquido ~-0,4), leitura de grafico",
+    "co2_original_local": "Fig.9 (painel Mix D4), p.425 impressa",
+    "co2_conversao": "NAO CONVERTIVEL - mesma razao (UF por MPa sem quantidade de betao; NAB)",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "alcali_ativado",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Mix D5 - escoria activada com silicato de sodio (5% Na2O)",
+    "fck_mpa": 49.7,
+    "fck_tipo": "cilindro",
+    "fck_local": "Tabela 3, p.417 impressa",
+    "co2_original": "GWP gerado ~+0,15, evitado ~-0,47 kg CO2e/MPa (leitura de grafico)",
+    "co2_original_local": "Fig.9 (painel Mix D5), p.425 impressa",
+    "co2_conversao": "NAO CONVERTIVEL - idem",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "alcali_ativado",
+    "confianca": "baixa"
+   }
+  ],
+  "citacoes_literais": [
+   "'adopted one unit of characteristic compressive strength (1MPa) as the functional unit' (p.419)",
+   "'Global warming potential (GWP), expressed as the mass of carbon dioxide equivalent per functional unit (CO2e/MPa)' (p.421)",
+   "'The estimated compressive strength at 28 days (52 MPa) complies with the established criterion' (p.418)",
+   "Tabela 3: 'D4 Sodium silicate (4% Na2O) 48.4 ... D5 ... 49.7'"
+  ]
+ },
+ {
+  "row_id": 4102,
+  "pdf_confere": "sim - titulo, 7 autores (Briseghella ... Nuti), Rev. IBRACON Estrut. Mater. v.15 n.6 e15601 (2022), DOI 10.1590/S1983-41952022000600001 na p.1",
+  "texto_completo": "sim, 21 paginas (PyMuPDF, 75.833 caracteres)",
+  "figuras_vistas": "sim - p.6 (Fig.2/3 modelos BIM), p.11 (Fig.7 'Schedule of structural columns'), 200 dpi; Tabela 8 (p.14) lida em texto",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "Achado novo na Fig.7 (p.11): tabela BIM exemplo 'Schedule of structural columns' com, por pilar (diametro 1,200 m, altura 3,850 m = o pilar NSC do caso de estudo, fc nominal 30 MPa, p.4), Volume 4,31 m3 e 'Emission CO2' 1084,72 (total 2 pilares: 8,61 m3 / 2169,44). 1084,72/4,31 = 251,7 kg CO2/m3. Confianca BAIXA: (i) a coluna 'Emission CO2' nao imprime unidade (assume-se kgCO2e, a unidade usada na Tab.8 e no factor de cimento de 862 kgCO2e); (ii) e 'schedule example', com formulas internas nao mostradas; pela descricao (p.11) as emissoes vem do cimento (EPD Buzzi, 862 kgCO2e/t) - 1084,72/0,862 = 1258 kg de cimento, ~292 kg/m3, plausivel, o que sugere que o valor e so do cimento (sem armadura, apesar de a linha ter 'Reinforcement volume'); (iii) o 30 MPa e resistencia nominal do betao original. A linha existente 1195 (argamassa de reparo 37 MPa, alternativa A3/CFRP) NAO tem CO2 proprio: a Tab.8 da CO2 por alternativa inteira (A1 12110,81; A2 589,36; A3 521,70; A4 1029,91 kgCO2eq), incluindo aco, CFRP e transporte, sem volume de betao por alternativa (so residuos em m3) - nao convertivel. A1 nao se pode dividir pelo volume do pilar: consumo de cimento de A1 (10.584 kg) implica bem mais que 4,31 m3 (inclui outros elementos/fundacao).",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Betao NSC do pilar da Ponte Brabau (pilar circular D=1,2 m, h=3,85 m) - substituicao do pilar (alternativa A1), valor do schedule BIM",
+    "fck_mpa": 30,
+    "fck_tipo": "nao_dito",
+    "fck_local": "p.4, sec.2.1: 'normal strength concrete (NSC), whose nominal compressive strength ... equivalent to 30 MPa'",
+    "co2_original": "1084,72 (unidade nao impressa na coluna; kgCO2e por coerencia com Tab.8) por pilar de 4,31 m3",
+    "co2_original_local": "Fig.7, p.11 (Schedule of structural columns, linha 'Pile')",
+    "co2_conversao": "1084,72 / 4,31 m3 = 251,7 kg CO2e/m3 (verificacao: total 2169,44 / 8,61 = 252,0)",
+    "co2_kg_m3": 251.7,
+    "vol_m3": 4.31,
+    "vol_fonte": "Fig.7 coluna 'Volume' (coerente com pi x 0,6^2 x 3,85 = 4,35 m3)",
+    "vida_util_anos": 50,
+    "vida_util_local": "p.12, item 7: perdas de seccao de armadura 'after 50 years' (horizonte da simulacao de corrosao, nao vida util declarada)",
+    "familia_sugerida": "convencional (provavel so cimento; se incluir armadura, concreto_armado)",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": 1195,
+    "material": "Argamassa/betao de reparo 37 MPa (alternativa A3, encamisamento CFRP)",
+    "fck_mpa": 37,
+    "fck_tipo": "nao_dito",
+    "fck_local": "p.5: 'The repair mortar is a normal strength concrete with a compressive strength of 37 MPa'",
+    "co2_original": "A3 = 521,70 kgCO2eq (alternativa inteira, inclui CFRP/aco/transporte)",
+    "co2_original_local": "Tabela 8, p.14",
+    "co2_conversao": "NAO CONVERTIVEL - volume de argamassa de A3 nao impresso e total inclui CFRP (21,11 m2), aco e transporte",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "concreto_armado",
+    "confianca": "baixa"
+   }
+  ],
+  "citacoes_literais": [
+   "Fig.7: 'Pile | 4.31 m3 | 1.200 | 3.850 | 111029.29 cm3 | 4.19 m3 | EUR716.50 | 1084.72' ; 'Total 2 8.61 m3 ... 2169.44'",
+   "'The emissions are taken equal to 862 [kgCO2e] (Siniscola factory average)' (p.11)",
+   "'Data referring to the volume of the concrete are extracted from the BIM model (Figure 7). Knowing the data related to the mix design and the specific weight, it was possible to obtain the kg of cement needed.' (p.11)",
+   "Tabela 8: 'I1. CO2 emissions [kgCO2eq] 12110.81 589.36 521.70 1029.91'"
+  ]
+ },
+ {
+  "row_id": 4152,
+  "pdf_confere": "sim - titulo, autora (Irem Sanal), Politeknik Dergisi 21(2):369-378 (2018), DOI 10.2339/politeknik.389590 na capa",
+  "texto_completo": "sim, 11 paginas (PyMuPDF, 50.988 caracteres)",
+  "figuras_vistas": "sim - p.9 (Fig.3) e p.10 (Tabela 5 completa, afinal impressa e legivel), 170 dpi",
+  "veredicto": "SEM_FCK",
+  "motivo": "CO2 por m3 existe e e nativo: Tabela 5 (p.377) da traco e tCO2/m3 por componente para os 6 sites; somas: Site1 0,405; Site2 0,294; Site3 0,273; Site4 0,271; Site5 0,443; Site6 0,436 t/m3 (texto: 0,271 a 0,443). Correccao ao dossie: a Tabela 5 ESTA impressa e legivel (p.10 do PDF), mas NAO tem classe de resistencia. A unica mencao a resistencia e 'C35 and C45' para o par Site5/Site6 sem dizer qual e qual; Sites 1-4 sem classe nenhuma. Nao ha resistencia a compressao atribuivel a nenhuma mistura (inferir pelo teor de cimento, 390 vs 310 kg/m3, seria suposicao).",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1209,
+    "material": "Betao tradicional Site 5 (CEM I 42,5R 390 kg/m3) - classe C35 ou C45",
+    "fck_mpa": null,
+    "fck_tipo": "cubo",
+    "fck_local": "p.376: 'for traditional concrete mistures (Site 5 and Site 6), change in concrete type (C35 and C45)...' - sem mapeamento site->classe",
+    "co2_original": "0,443 t CO2/m3",
+    "co2_original_local": "Texto p.376 + Tabela 5 p.377 (soma 0,356+0,045+0,015+0,026+0,000+0,001)",
+    "co2_conversao": "nenhuma - publicado em t CO2/m3 (x1000)",
+    "co2_kg_m3": 443,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "convencional",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Betao tradicional Site 6 (CEM I 42,5R 310 kg/m3) - classe C35 ou C45",
+    "fck_mpa": null,
+    "fck_tipo": "cubo",
+    "fck_local": "idem - sem mapeamento",
+    "co2_original": "soma Tabela 5 = 0,436 t CO2/m3 (Fig.3 ~0,43)",
+    "co2_original_local": "Tabela 5, p.377 (0,283+0,102+0,024+0,025+0,000+0,002)",
+    "co2_conversao": "soma dos componentes impressos, t->kg",
+    "co2_kg_m3": 436,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "convencional",
+    "confianca": "media"
+   }
+  ],
+  "citacoes_literais": [
+   "'the range of total CO2 emissions (including Scope 1, 2 &3) were calculated between 0,271 (Site 4) and 0,443 (Site 5) t CO2/m3' (p.376)",
+   "'for traditional concrete mistures (Site 5 and Site 6), change in concrete type (C35 and C45) does not have a significant effect on the resulting carbon emissions' (p.376)",
+   "Nota: a classe C35/C45 e notacao EN 206 (fck cilindro/cubo); nenhuma classe para Sites 1-4 (Durabet)."
+  ]
+ },
+ {
+  "row_id": 4161,
+  "pdf_confere": "sim - titulo, autores (Li, Hasholt, Jensen), Nordic Concrete Research NCR 63 (2020) pp.43-62, DOI 10.2478/ncr-2020-0011 na p.1",
+  "texto_completo": "sim, 20 paginas (PyMuPDF, 54.238 caracteres)",
+  "figuras_vistas": "sim - p.10 (Fig.3, com recorte a 400 dpi do painel GWP), p.12 (Fig.5 colunas), p.14 (Fig.7 lajes), 200 dpi",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "Fig.3 (p.52) tem eixo numerico (0-12 kg CO2 eq) e da o GWP por UF 'm3 frost-resistant concrete per MPa', cujo valor em m3 esta impresso na Tabela 2 (AEA 0,025 m3 = 1/40; SAP 0,022 m3 = 1/45). GWP da UF / volume da UF = kg CO2e/m3. Leitura por pixeis (400 dpi, 49,5 px por unidade): AEA ~10,34, SAP ~9,56 kg CO2 eq. AEA: 10,34/0,025 = 414 kg/m3; SAP: 9,56/0,022 = 435 kg/m3 (430 se usar 1/45 exacto). Coerente com traco (445/452 kg/m3 de CEM I) e com a parte 'betao' das colunas (Fig.5: ~222 kg/0,54 m3 = 411; ~207/0,486 = 426). O dossie tinha o CO2 como 'sem rotulo numerico' - o eixo tem escala numerica, portanto leitura de grafico e permitida (confianca media/baixa). fck: 41,5 e 47,7 MPa sao valores CALCULADOS (Bolomey), nao ensaiados; classe de projecto C40/50 e C45/55. Linhas extra opcionais: pilares (Tab.4 + Fig.5) = familia concreto_armado.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1212,
+    "material": "Betao resistente ao gelo com AEA, CEM I 52,5N 445 kg/m3, w/c 0,38, 6% ar",
+    "fck_mpa": 41.5,
+    "fck_tipo": "cilindro",
+    "fck_local": "p.46: 'the characteristic compressive strength fck of frost-resistant concrete with AEA is 41.5 MPa' (estimado pela formula de Bolomey, fcm 49,5; classe C40/50; UF usa 40)",
+    "co2_original": "~10,34 kg CO2 eq por UF (0,025 m3)",
+    "co2_original_local": "Fig.3, painel Global warming (GWP100a), p.52 - leitura de grafico com eixo numerico",
+    "co2_conversao": "10,34 / 0,025 m3 (Tabela 2) = 414 kg CO2e/m3",
+    "co2_kg_m3": 414,
+    "vol_m3": 0.025,
+    "vol_fonte": "Tabela 2 (UF de 0,025 m3 por MPa)",
+    "vida_util_anos": 100,
+    "vida_util_local": "p.48, UF dos casos 2 e 3: 'serves under the exposure class XF4 for 100 years'",
+    "familia_sugerida": "convencional",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": 1213,
+    "material": "Betao resistente ao gelo com SAP, CEM I 52,5N 451,8 kg/m3, w/c 0,38",
+    "fck_mpa": 47.7,
+    "fck_tipo": "cilindro",
+    "fck_local": "p.47: 'the characteristic compressive strength is 47.7 MPa' (estimado; classe C45/55; UF usa 45)",
+    "co2_original": "~9,56 kg CO2 eq por UF (0,022 m3)",
+    "co2_original_local": "Fig.3, painel GWP100a, p.52 (leitura de grafico)",
+    "co2_conversao": "9,56 / 0,022 m3 (Tabela 2) = 435 kg CO2e/m3 (430 com 1/45 m3 exacto)",
+    "co2_kg_m3": 435,
+    "vol_m3": 0.022,
+    "vol_fonte": "Tabela 2",
+    "vida_util_anos": 100,
+    "vida_util_local": "p.48",
+    "familia_sugerida": "convencional",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Pilar de betao armado AEA C40, 4 m x 450 x 300 mm (0,54 m3), 30,8 kg aco",
+    "fck_mpa": 41.5,
+    "fck_tipo": "cilindro",
+    "fck_local": "Tabela 4 (C40) + p.46",
+    "co2_original": "~295 kg CO2 eq por pilar (inclui armadura)",
+    "co2_original_local": "Fig.5, painel GWP100a, p.54 (leitura de grafico)",
+    "co2_conversao": "295 / (4 x 0,45 x 0,30 = 0,54 m3, dimensoes da Tab.4) = 546 kg CO2e/m3",
+    "co2_kg_m3": 546,
+    "vol_m3": 0.54,
+    "vol_fonte": "Tabela 4 (dimensoes impressas)",
+    "vida_util_anos": 100,
+    "vida_util_local": "p.48 (UF caso 2)",
+    "familia_sugerida": "concreto_armado",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Pilar de betao armado SAP C45, 4 m x 450 x 270 mm (0,486 m3), 31,0 kg aco",
+    "fck_mpa": 47.7,
+    "fck_tipo": "cilindro",
+    "fck_local": "Tabela 4 (C45) + p.47",
+    "co2_original": "~280 kg CO2 eq por pilar (inclui armadura)",
+    "co2_original_local": "Fig.5, painel GWP100a, p.54 (leitura de grafico)",
+    "co2_conversao": "280 / 0,486 m3 = 576 kg CO2e/m3",
+    "co2_kg_m3": 576,
+    "vol_m3": 0.486,
+    "vol_fonte": "Tabela 4",
+    "vida_util_anos": 100,
+    "vida_util_local": "p.48",
+    "familia_sugerida": "concreto_armado",
+    "confianca": "baixa"
+   }
+  ],
+  "citacoes_literais": [
+   "'the functional unit is defined as \"m3 frost-resistant concrete per MPa of compressive strength\"' (p.48)",
+   "Tabela 2: 'Concrete with AEA 40 0.025 / Concrete with SAP 45 0.022'",
+   "'By using SAP instead of AEA, the environmental impact of frost-resistant concrete is reduced 6-8% for impact categories abiotic depletion, global warming...' (p.50)"
+  ]
+ },
+ {
+  "row_id": 4172,
+  "pdf_confere": "sim - titulo 'CirCrete...', Nwonu ... Hafez, Renewable and Sustainable Energy Reviews 211 (2025) 115232 (fileId encontrado por search: 1yGJUseoNKxCmqzf_J9LPx8-BP3nTJdx6)",
+  "texto_completo": "sim, texto integral via read_file_content (115.914 caracteres, termina nas referencias - sem truncamento); download do PDF (8,6 MB) falhou 'session expired'",
+  "figuras_vistas": "nao - download falhou (8,6 MB). Seria preciso ver a Fig.6a (carbon emission por cenario, kgCO2/m2) na p.9 impressa e a Fig.3/descricao do edificio (p.8)",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "fck 30 MPa declarado para os elementos do edificio hipotetico (sec.4.1.1). CO2 so em kgCO2/m2 de area de pavimento (UF = 'internal floor area'), cenarios S1-S5 so na Fig.6a; o texto so da diferencas relativas (S2 31% menos que S1; 'recycling emission > by 7 kgCO2/m2'). Quantidades de material (volume de betao) estao APENAS no ficheiro suplementar Excel ('New build case_for_reuse'), nao no artigo -> nenhuma divisao por volume possivel; e os totais incluem aco (familia concreto_armado). Caso 2 (1 Triton Square): 6400 tCO2e = 136 kgCO2e/m2, sem fck e sem volume de betao (so '35000t of concrete' poupados). Mesmo que a Fig.6a tenha escala, a conversao para kg/m3 exige o volume de betao, nao impresso.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 563,
+    "material": "Betao estrutural (lajes, vigas, pilares) de edificio de escritorios hipotetico UK, 5 pisos, cenarios S1 (CEM I) / S2 (CEM II C-M)",
+    "fck_mpa": 30,
+    "fck_tipo": "nao_dito",
+    "fck_local": "sec.4.1.1: 'The designated concrete compressive strength for the structural elements (slabs, beams and columns) is 30 MPa'",
+    "co2_original": "kgCO2/m2 de area interna (so em grafico Fig.6a, nao visto)",
+    "co2_original_local": "Fig.6a (p.9 impressa)",
+    "co2_conversao": "NAO CONVERTIVEL - volume de betao so no suplementar; UF por m2 de pavimento; inclui armadura",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": 50,
+    "vida_util_local": "sec.4.1.2: recobrimentos calculados 'for a 50-year concrete service life in accordance with BS 8500'",
+    "familia_sugerida": "concreto_armado",
+    "confianca": "baixa"
+   }
+  ],
+  "citacoes_literais": [
+   "'The designated concrete compressive strength for the structural elements (slabs, beams and columns) is 30 MPa. Further details about the structural layout and design, as well as material quantities are described in the \"New build case_for_reuse\" tab of the supplementary file.'",
+   "'the CirCrete indicators are computed for a functional unit of internal floor area'",
+   "'the refurbishment incurred 6400 tCO2e, which amounts to 136 kgCO2e/m2'"
+  ]
+ },
+ {
+  "row_id": 4173,
+  "pdf_confere": "sim - titulo, 10 autores (Onyelowe ... Jahangir), Civil Engineering Journal v.8 n.11 (2022) p.2391; DOI CEJ-2022-08-11-03 no nome/dossie (ficheiro certo, nao o irmao 08-12-018)",
+  "texto_completo": "sim, 20 paginas (PyMuPDF, 61.417 caracteres)",
+  "figuras_vistas": "sim - p.7 (Tabela 3/Fig.4) e p.15 renderizadas; restantes figuras sao de modelos ANN/Taylor/sensibilidade",
+  "veredicto": "SEM_FCK",
+  "motivo": "Confirma o dossie. CO2 nativo por m3 existe para 46 misturas (Tabela 3, p.2397; C-300 = 289,85 kg CO2 eq, sistema de fronteira 'production of 1 m3', Fig.3), mas NAO ha Fc por mistura: a base de 192 registos (Iftikhar et al.) so aparece em estatisticas agregadas (Tab.1: Fc 16-104 MPa, media 48,21) e em graficos preditos-vs-medidos sem identificacao de mistura. As composicoes das misturas (alem do teor de cimento no codigo) nao sao impressas, pelo que nem os modelos GP/EPR permitem calcular Fc de C-300 sem dados em falta. O '>150 MPa' e citacao de terceiros (ref. [53]).",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1214,
+    "material": "UHPLC com RHA, mistura C-300 (300 kg/m3 cimento, 75 kg/m3 RHA)",
+    "fck_mpa": null,
+    "fck_tipo": "cilindro",
+    "fck_local": "nenhum - so estatistica agregada da base (Tab.1) ",
+    "co2_original": "289,85 kg CO2 eq (1 m3)",
+    "co2_original_local": "Tabela 3, p.2397; resumo",
+    "co2_conversao": "nenhuma - publicado por m3",
+    "co2_kg_m3": 289.85,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "uhpc",
+    "confianca": "alta (CO2) / fck inexistente"
+   }
+  ],
+  "citacoes_literais": [
+   "'C-300 (75 kg/m3 RHA) with life cycle indices of 289.85 kg CO2eq. Global warming potential ... was selected to be the optimal choice due to its good profile in the LCA and the Fc associated with the mix' (resumo) - o Fc associado nunca e impresso",
+   "Tabela 1: 'Fc 16.00 104.00 88.00 48.21 17.50'"
+  ]
+ },
+ {
+  "row_id": 4196,
+  "pdf_confere": "sim - titulo, autores (He, Shen, Shi, Chang, Revilla-Cuesta, Gencel), JRM 2023 vol.11 no.4 (DOI 10.32604/jrm.2023.024887 no dossie)",
+  "texto_completo": "sim, 18 paginas (PyMuPDF, 49.538 caracteres)",
+  "figuras_vistas": "sim - p.8 (Fig.6 flexao, Fig.7 compressao, eixo numerico) e p.16 (Tabela 6), 150 dpi",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "CORRECCAO ao dossie: o fck=45 MPa da linha 1215 NAO e da pasta B-0 - e a resistencia normalizada do CIMENTO OPC 42,5 aos 28 d (Tabela 1 'Main physical property indexes of OPC', ensaio de argamassa normal). As pastas so tem compressao a 1/3/7 dias na Fig.7 (prismas 40x40x160, eixo numerico legivel): aos 7 d B-0 ~60, RGP10 ~57,5, RGP20 ~51, RGP30 ~40 MPa; nao ha 28 d. O GWP da Tabela 6 e 'per metric tonne of material' e e na pratica por tonelada de LIGANTE (OPC 1041, RGP 58,5; RGP10/20/30 sao a media ponderada 90/10, 80/20, 70/30), sem agua nem SP e sem massa volumica da pasta impressa -> impossivel passar a kg/m3. Artigo de pasta de cimento, nao betao.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1215,
+    "material": "Pasta OPC B-0 (w/b 0,30, SP 0,1%)",
+    "fck_mpa": 60,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Fig.7a, 7 dias, leitura de grafico (prismas 40x40x160 mm, ASTM C349); o 45,0 MPa da Tab.1 e do cimento, nao da pasta",
+    "co2_original": "1041 kg CO2-eq por tonelada de ligante",
+    "co2_original_local": "Tabela 6, p.1850",
+    "co2_conversao": "NAO CONVERTIVEL - falta massa volumica da pasta (e a base e so o ligante)",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "pasta_cimenticia",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": 1216,
+    "material": "Pasta B-RGP-10 (10% po de vidro)",
+    "fck_mpa": 57.5,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Fig.7a, 7 d (leitura de grafico)",
+    "co2_original": "941,87 kg CO2-eq/t ligante",
+    "co2_original_local": "Tabela 6",
+    "co2_conversao": "NAO CONVERTIVEL - idem",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "pasta_cimenticia",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": 1217,
+    "material": "Pasta B-RGP-20",
+    "fck_mpa": 51,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Fig.7a, 7 d (leitura de grafico)",
+    "co2_original": "843,74 kg CO2-eq/t ligante",
+    "co2_original_local": "Tabela 6",
+    "co2_conversao": "NAO CONVERTIVEL - idem",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "pasta_cimenticia",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": 1218,
+    "material": "Pasta B-RGP-30",
+    "fck_mpa": 40,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Fig.7a, 7 d (leitura de grafico)",
+    "co2_original": "745,61 kg CO2-eq/t ligante",
+    "co2_original_local": "Tabela 6",
+    "co2_conversao": "NAO CONVERTIVEL - idem",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "pasta_cimenticia",
+    "confianca": "baixa"
+   }
+  ],
+  "citacoes_literais": [
+   "Tabela 1 (propriedades do OPC): 'Compressive strength (MPa) 3 days 21.6 / 28 days 45.0'",
+   "Tabela 6: 'Per metric tonne of material ... Global warming potential (100 years, kg CO2-eq.) 1041 58.5 941.87 843.74 745.61'",
+   "'The compressive and flexural strength tests are carried out using the specimens (40 mm x 40 mm x 160 mm) ... at 1, 3 and 7 days'"
+  ]
+ },
+ {
+  "row_id": 4247,
+  "pdf_confere": "sim - titulo, autores (Surra ... Delerue-Matos), Appl. Sci. 2023, 13, 4513, DOI 10.3390/app13074513 na p.1",
+  "texto_completo": "sim, 19 paginas (PyMuPDF, 63.500 caracteres)",
+  "figuras_vistas": "sim - p.5 (Fig.1 fronteiras dos 3 cenarios), 110 dpi; Tabela 6 lida em texto",
+  "veredicto": "SEM_CO2",
+  "motivo": "A ACV e do processo de serragem de granito, com UF '1 m2 of granite slab produced'; o betao NAO esta dentro da fronteira (Fig.1c: a lama seca sai como 'inert filler substitute' com credito 'Avoided Inert Filler'). O -0,52 kg CO2-eq/m2 do Cenario 3 e o impacto liquido da gestao do residuo por m2 de placa de granito, nao do betao - nao ha CO2 proprio de nenhuma das misturas de betao, nem conversao possivel. fck existe (Tabela 5: 45,1 ref / 40,8 MPa com 5% GS aos 28 d; o texto diz 45 e 40,1, discrepancia do proprio artigo).",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1235,
+    "material": "Betao de referencia C30/37.S4.D22.Cl0,40 (270 kg cimento + 320 ligante, Tab.1)",
+    "fck_mpa": 45.1,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 5, p.9 (28 d; texto p.8 diz 45)",
+    "co2_original": null,
+    "co2_original_local": null,
+    "co2_conversao": "sem CO2 do betao - ACV so do sistema granito",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "convencional",
+    "confianca": "n/a"
+   },
+   {
+    "sheet_row_existente_ou_null": 1236,
+    "material": "Betao com 5% de lama de granito (GS) em substituicao de finos",
+    "fck_mpa": 40.8,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 5, p.9 (28 d; texto p.8 diz 40,1)",
+    "co2_original": "-0,52 kg CO2-eq por m2 de placa de granito (Cenario 3) - NAO e do betao",
+    "co2_original_local": "Tabela 6, p.9",
+    "co2_conversao": "NAO CONVERTIVEL / nao pareavel - UF e 1 m2 de placa de granito; producao de betao fora da fronteira",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "residuo_mineral",
+    "confianca": "n/a"
+   }
+  ],
+  "citacoes_literais": [
+   "'All the input and output data used in the three scenarios were referred to the same functional unit - 1 m2 of granite slab produced.' (p.4)",
+   "Tabela 6: 'Climate change kg CO2-eq 8.05x10-1 | -1.01 | -5.20x10-1'",
+   "Tabela 5: 'Concrete 5% GS 0.56 2383 13.8 35.8 40.8 -10% ... Concrete C30/37 0.52 2408 13.7 39.1 45.1'"
+  ]
+ }
+]

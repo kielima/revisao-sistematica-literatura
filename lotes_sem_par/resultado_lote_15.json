@@ -1,0 +1,412 @@
+[
+ {
+  "row_id": 3835,
+  "pdf_confere": "sim - titulo, autores (Asare, Barnett, Awinda, Martinson), Cogent Engineering 11:1 2374942 e DOI 10.1080/23311916.2024.2374942 impressos na capa T&F e na p.1",
+  "texto_completo": "sim, download_file_content + PyMuPDF, 23 paginas (inclui referencias)",
+  "figuras_vistas": "sim - Fig.13/14 (p.16 impressa, embodied carbon kgCO2e/kN.m/m vs momento); tabelas 1-11 lidas no texto extraido",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "Os resultados das vigas (Tabela 11) estao em kgCO2e/kN.m/m (ciclo A-D com modulo D) e nao ha forma limpa de os levar a m3 (a Tabela 11 usa vaos 4/6/8 m mas as Tabelas 1-2 so tem geometria para 4/5/6 m; a coluna Mres diz kN.m/m). MAS o artigo imprime o traco base por m3 de cada classe (Tabela 9: 30/40/50 MPa) e os factores de emissao por kg de cada constituinte (Tabela 8), pelo que a soma traco x factores da o A1-A3 do betao simples (sem armadura) por m3: C30 = 289,5; C40 = 348,8; C50 = 391,2 kgCO2e/m3. Isto so vale para o betao base das vigas RC; para o SFRC o artigo diz explicitamente que NAO usou o mesmo traco base ('The same base mix was not used for the SFRC elements') e nao imprime o traco do SFRC (so a dosagem de fibras 20-40 kg/m3 em intervalo) -> SFRC nao convertivel. As 6 linhas actuais (1116-1121) continuam nao convertiveis na unidade kN.m/m; proponho reaproveitar 1116/1118/1120 (ou criar linhas novas) com o valor por m3 do betao base e manter 1117/1119/1121 sem co2_kg_m3.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1116,
+    "material": "Betao base C30/37 das vigas RC (traco BRE, CEM 42,5N, sem armadura, sem fibras)",
+    "fck_mpa": 30,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 9 (p.13 impressa) e Tabela 1; classe C30/37 (Tabela 3)",
+    "co2_original": "traco 330 cimento/140 agua/750 areia/1245 brita/3,3 SP kg/m3 x factores kgCO2e/kg",
+    "co2_original_local": "Tabela 9 (p.13 impressa, p.14 do ficheiro) x Tabela 8 (p.12 impressa): cimento 0,832; agua 0,000149; agregados 0,00438; superplastificante 1,88 kgCO2e/kg",
+    "co2_conversao": "soma traco x factores impressos: 330x0,832 + 140x0,000149 + (750+1245)x0,00438 + 3,3x1,88 = 274,56+0,02+8,74+6,20 = 289,5 kgCO2e/m3 (A1-A3 dos materiais apenas; sem transporte A2 especifico, sem A4-A5, C, D)",
+    "co2_kg_m3": 289.5,
+    "vol_m3": null,
+    "vol_fonte": "nao aplicavel (valor ja por m3)",
+    "vida_util_anos": 100,
+    "vida_util_local": "p.9 impressa, 2.1.1.2: 'A design life greater than 100 years was chosen'",
+    "familia_sugerida": "convencional",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": 1118,
+    "material": "Betao base C40/50 das vigas RC (traco BRE, sem armadura)",
+    "fck_mpa": 40,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 9 (p.13 impressa); C40/50 Tabela 3",
+    "co2_original": "traco 400/140/700/1230/4,0 kg/m3 x factores",
+    "co2_original_local": "Tabela 9 (p.13 impressa, p.14 do ficheiro) x Tabela 8 (p.12 impressa): cimento 0,832; agua 0,000149; agregados 0,00438; superplastificante 1,88 kgCO2e/kg",
+    "co2_conversao": "400x0,832 + 140x0,000149 + 1930x0,00438 + 4,0x1,88 = 332,80+0,02+8,45+7,52 = 348,8 kgCO2e/m3 (A1-A3 materiais)",
+    "co2_kg_m3": 348.8,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": 100,
+    "vida_util_local": "p.9 impressa, 2.1.1.2",
+    "familia_sugerida": "convencional",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": 1120,
+    "material": "Betao base C50/60 das vigas RC (traco BRE, sem armadura)",
+    "fck_mpa": 50,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 9 (p.13 impressa); C50/60 Tabela 3",
+    "co2_original": "traco 450/140/660/1230/4,5 kg/m3 x factores",
+    "co2_original_local": "Tabela 9 (p.13 impressa, p.14 do ficheiro) x Tabela 8 (p.12 impressa): cimento 0,832; agua 0,000149; agregados 0,00438; superplastificante 1,88 kgCO2e/kg",
+    "co2_conversao": "450x0,832 + 140x0,000149 + 1890x0,00438 + 4,5x1,88 = 374,40+0,02+8,28+8,46 = 391,2 kgCO2e/m3 (A1-A3 materiais)",
+    "co2_kg_m3": 391.2,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": 100,
+    "vida_util_local": "p.9 impressa, 2.1.1.2",
+    "familia_sugerida": "convencional",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": 1117,
+    "material": "SFRC C30/37-5D65/60BG (vigas SFRC)",
+    "fck_mpa": 30,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 2/4",
+    "co2_original": "0,321 kgCO2e/kN.m/m (Mres 50, vao 4 m)",
+    "co2_original_local": "Tabela 11, p.15 impressa",
+    "co2_conversao": "NAO CONVERTIDO - traco do SFRC nao impresso (artigo diz que nao usou o traco base) e dosagem de fibra so em intervalo 20-40 kg/m3; unidade kN.m/m sem volume por viga coerente com a Tabela 11",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": 100,
+    "vida_util_local": "p.9 impressa",
+    "familia_sugerida": "fibras",
+    "confianca": null
+   },
+   {
+    "sheet_row_existente_ou_null": 1119,
+    "material": "SFRC C40/50-5D65/60BG",
+    "fck_mpa": 40,
+    "fck_tipo": "nao_dito",
+    "fck_local": null,
+    "co2_original": "0,334 kgCO2e/kN.m/m",
+    "co2_original_local": "Tabela 11",
+    "co2_conversao": "NAO CONVERTIDO - idem 1117",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "fibras",
+    "confianca": null
+   },
+   {
+    "sheet_row_existente_ou_null": 1121,
+    "material": "SFRC C50/60-5D65/60BG",
+    "fck_mpa": 50,
+    "fck_tipo": "nao_dito",
+    "fck_local": null,
+    "co2_original": "0,350 kgCO2e/kN.m/m",
+    "co2_original_local": "Tabela 11",
+    "co2_conversao": "NAO CONVERTIDO - idem 1117",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "fibras",
+    "confianca": null
+   }
+  ],
+  "citacoes_literais": [
+   "Table 9. Base mix proportion for 30 MPa, 40 MPa and 50 MPa grade concrete. Cement, kg/m3 330 400 450; Water 140 140 140; Fine aggregates 750 700 660; Coarse aggregates 1245 1230 1230; Superplasticiser 3.3 4.0 4.5",
+   "Table 8. Embodied carbon of construction materials (kgCO2e/kg): Cement 0.832; Water 0.000149; Aggregates 0.00438; Superplasticizer 1.88; Steel rebar 1.18; Steel fibres 1.59",
+   "The same base mix was not used for the SFRC elements as the addition of steel fibres in concrete also potentially enhances the compressive strength of concrete",
+   "Table 11 presents the WLEC of the various beams expressed in kgCO2e/kN.m/m ... On average, the embodied carbon of the RC beams was estimated to be about 0.439 kgCO2e/kN.m/m, and that of the SFRC was about 0.273"
+  ]
+ },
+ {
+  "row_id": 3837,
+  "pdf_confere": "sim - titulo, autores (Ayob, Razali, Hassan, Abdul Rahim, Mohd Zahid) e DOI 10.1088/1742-6596/1793/1/012035 impressos na p.1",
+  "texto_completo": "sim, download + PyMuPDF, 11 paginas (capa IOP + 8 de artigo + referencias)",
+  "figuras_vistas": "sim - Tabela 2 renderizada (p.6 impressa); Fig.1 (fronteira) sem dados",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "Ha fck (shotcrete 25 MPa, declarado no texto) e um factor de emissao 0,74 kgCO2eq/kg para a 'Shotcrete mixture' (Tabela 2), mas para passar a /m3 falta uma massa volumica credivel: a coluna 'Density (kg per m3)' da Tabela 2 imprime '3' para o shotcrete (e 150/90/80/30 para os outros materiais - valores que acompanham a quantidade em toneladas, obviamente nao sao massas volumicas). 0,74 x 3 = 2,2 kg/m3 seria absurdo. Alem disso a Tabela 2 da 3,14 t de shotcrete e o texto 388,46 t, e 369,04 tCO2eq (texto) vs 360,04 (resumo): dados internamente incoerentes. Nao ha volume de shotcrete impresso. O 0,74 kg/kg tem ordem de grandeza de cimento, nao de argamassa. Nao convertivel sem assumir densidade.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1122,
+    "material": "Shotcrete de cimento (25 MPa) para fixar/rebocar paineis IBS pre-fabricados",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "p.8 impressa: 'The shotcrete cement blend with 25 MPa strength'",
+    "co2_original": "0,74 kgCO2eq/kg (EE factor); 369,04 tCO2eq para 388,46 t",
+    "co2_original_local": "Tabela 2 (p.6 impressa) e texto p.8",
+    "co2_conversao": "NAO CONVERTIDO - massa volumica impressa para o shotcrete e '3 kg/m3' (coluna Density da Tabela 2 incoerente/absurda) e nao ha volume de shotcrete; quantidade 3,14 t (Tabela 2) vs 388,46 t (texto)",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "convencional",
+    "confianca": null
+   }
+  ],
+  "citacoes_literais": [
+   "The shotcrete cement blend with 25 MPa strength used to attach and plaster the Prefab-SP released the highest CF of approximately 73.11% (369.04 tCO2eq) due to its high cement consumption of 388.46 tons and its high EE of 0.74 kg-CO2eq/kg.",
+   "Table 2: Materials quantity and EE factor - Shotcrete mixture | Quantity (tons) 3.14 | Density (kg per m3) 3 | EE factor 0.74"
+  ]
+ },
+ {
+  "row_id": 3852,
+  "pdf_confere": "sim - titulo, autora unica Sabbie A Miller, Environ. Res. Lett. 16 054053 e DOI 10.1088/1748-9326/abe677 impressos na p.1",
+  "texto_completo": "sim, download + PyMuPDF, 14 paginas",
+  "figuras_vistas": "sim - Fig.2 (histograma, eixo 'Greenhouse Gas Emissions (kg CO2-eq / m3)'), Fig.3, Fig.4 (heatmap de % de reducao)",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "O unico valor absoluto de GHG impresso e o intervalo interquartil (25%-75%) da mistura CA-HC: 240-466 kg CO2-eq por m3. O texto imprime 'm-1' mas a Fig.2 (eixo 'kg CO2-eq / m3'), o metodo ('production of one cubic meter of concrete') e as legendas confirmam que e por m3 - gralha tipografica. fck = 25 MPa aos 28 dias (alvo de projecto Caltrans, comum as 4 misturas). A media/mediana NAO e impressa; para um ponto unico so resta o ponto medio do IQR (353 kg/m3), que e uma aproximacao (distribuicao assimetrica - a moda na Fig.2 fica ~250-300). As outras misturas (CA-LC, 300C-15FA, 300C-30FA) so tem % de reducao da media (Fig.4: 14%, 33%, 42%) sem a media absoluta impressa -> nao convertiveis (a unica ancora e o IQR, nao a media). O IQR pode servir de IC.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1124,
+    "material": "Betao CA-HC (Caltrans, 475 kg/m3 ligante: 403 CP + 71 cinza volante; A1-A3 California 2018)",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "p.3 impressa, 2.1: 'a concrete mixture that reaches 25 MPa at 28 days'",
+    "co2_original": "IQR 240-466 kg CO2-eq m-1 (sic; = por m3)",
+    "co2_original_local": "p.8 impressa, sec. 3.1; unidade confirmada pelo eixo da Fig.2 (p.9 impressa)",
+    "co2_conversao": "nativo em kg/m3 (gralha 'm-1'); ponto unico = ponto medio do IQR (240+466)/2 = 353; guardar 240-466 como intervalo (ic_co2)",
+    "co2_kg_m3": 353,
+    "vol_m3": null,
+    "vol_fonte": "nao aplicavel",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "convencional (com 15% cinza volante)",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "300C-15FA / CA-LC / 300C-30FA (mesmo alvo 25 MPa)",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": null,
+    "co2_original": "reducao da media vs CA-HC: CA-LC 14%, 300C-15FA 33%, 300C-30FA 42% (Fig.4); 300C-15FA IQR = 2/3 do de CA-HC",
+    "co2_original_local": "Fig.4 (p.10 impressa); texto p.8",
+    "co2_conversao": "NAO CONVERTIDO - a media absoluta de CA-HC nao e impressa, so o IQR; % sem ancora absoluta",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "convencional/cinza volante",
+    "confianca": null
+   }
+  ],
+  "citacoes_literais": [
+   "the range between the 25% and the 75% quantiles of GHG emissions for the CA-HC mixture is 240-466 kg CO2-eq m-1, but for the 300C-FA15 mixture, the range is 2/3rds that amount.",
+   "Figure 2. Histograms of greenhouse gas emissions for the production of one cubic meter of concrete ... [eixo: Greenhouse Gas Emissions (kg CO2-eq / m3)]",
+   "based on the 2018 California Department of Transportation (Caltrans) structural concrete specifications at the high-boundary of cementitious content for a concrete mixture that reaches 25 MPa at 28 days (referred to herein as CA-HC)"
+  ]
+ },
+ {
+  "row_id": 3863,
+  "pdf_confere": "sim - titulo, autores (Soroosh Ataee, A Stephan) e DOI 10.1088/1755-1315/1122/1/012029 impressos na p.1",
+  "texto_completo": "sim, download + PyMuPDF, 10 paginas",
+  "figuras_vistas": "sim - Fig.2 (seccao do boulevard, so larguras), Fig.3 e Fig.4 (treemaps SEM valores), Fig.5 (barras com valores em t)",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "fck = 'Concrete 25 MPa' (designacao do material EPiC, Tabela 2) e CO2 da categoria Concrete = 325 t IEGHG + 146 t REGHG = 471 tCO2e por km de boulevard em 60 anos (Fig.5). Para dividir por volume falta o volume/massa de betao: a Fig.3 (massa por material) e um treemap sem numeros, a Tabela 4 so da % de massa (7%) sem massa total, e as espessuras das camadas nunca sao impressas (so larguras: passeio 4 m, ciclovia 1,5 m). Alem disso a categoria 'Concrete' mistura ladrilhos, blocos, fundacoes e argamassa. Nao convertivel.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1125,
+    "material": "Betao 25 MPa (EPiC) - ladrilhos de passeio/ciclovia, fundacoes de postes/via de electrico, caixas; 1 km de boulevard, 60 anos",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 2 (p.5 impressa), classe de material do EPiC",
+    "co2_original": "IEGHG 325 tCO2e + REGHG 146 tCO2e = 471 tCO2e/km/60 anos",
+    "co2_original_local": "Fig.5 (p.7 impressa), valores impressos sobre as barras",
+    "co2_conversao": "NAO CONVERTIDO - falta volume ou massa de betao (Fig.3 treemap sem numeros; Tabela 4 so %; espessuras nao impressas)",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": 40,
+    "vida_util_local": "Tabela 1 (p.4 impressa): Concrete average service life 40 (de Trigaux et al.); periodo de analise 60 anos",
+    "familia_sugerida": "convencional",
+    "confianca": null
+   }
+  ],
+  "citacoes_literais": [
+   "The functional unit considered is 1km of road and it is defined based on the literature review.",
+   "Concrete represents less than 7% of both LCEGHG and total mass.",
+   "Figure 5 ... Concrete: 325 (IEGHG), 146 (REGHG) [IN TONNE]"
+  ]
+ },
+ {
+  "row_id": 3881,
+  "pdf_confere": "sim - titulo, autores (A L Han, H Setiawan, P Hajek) e DOI 10.1088/1755-1315/290/1/012015 impressos na p.1",
+  "texto_completo": "sim, download + PyMuPDF, 8 paginas",
+  "figuras_vistas": "sim - Fig.3 e Fig.4 (p.4 impressa) renderizadas",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "fck 35 MPa = media das resistencias registadas em 7 anos (usada para estimar o teor de cimento pelo ACI). O CO2 so existe em 'm3' (Eq.1 aplica factor massa/massa a um VOLUME de cimento; Fig.4 eixo 'CO2 emission (m3)'). Conversao para kg exige a massa volumica do cimento, que o artigo nao imprime. Pela excepcao 5b ja autorizada pela Kie para esta linha (3,15 t/m3), a intensidade por m3 sai directamente das constantes impressas, sem leitura de grafico: 0,204 m3 cimento/m3 betao x 3,15 t/m3 x 0,95 (clinquer) x 0,5 tCO2/t = 0,305 tCO2/m3 = ~305 kg CO2/m3 (so CO2 de calcinacao/clinquer; ~311 com a correccao CKD +2% que o texto menciona sem dizer se aplica). ATENCAO: a serie CO2 da Fig.4 NAO segue a Eq.1 - em 2017 o cimento ~20 m3 e o CO2 ~19 'm3' (razao ~0,95-0,97, nao 0,475), portanto o grafico contradiz a propria equacao; o valor de 63.000 kg/ano da linha actual herda esse erro. Por regra estrita (nao assumir densidades) nao e convertivel; se a Kie mantiver a 5b, o valor defensavel e ~305 kg/m3 (confianca baixa), nao o total anual.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1129,
+    "material": "Betao de provetes de laboratorio (media 7 anos, Java Central, Indonesia)",
+    "fck_mpa": 35,
+    "fck_tipo": "nao_dito",
+    "fck_local": "p.3 impressa: 'From the recorded strength data, an average of 35 MPa was set'",
+    "co2_original": "Eq.1 CO2 = Vcement x Cclinker x EFclinker; 0,204 m3 cimento por m3 de betao (impresso 'm2', gralha); Cclinker 0,95; EF 0,5 tCO2/t clinquer",
+    "co2_original_local": "p.3 impressa, Eq.1 e paragrafo seguinte; Fig.4 p.4",
+    "co2_conversao": "NAO CONVERTIDO (regra estrita) - falta massa volumica do cimento. Alternativa excepcao 5b (Kie 2026-08-30, 3,15 t/m3): 0,204 x 3,15 x 0,95 x 0,5 = 0,305 t = 305 kg CO2/m3 (clinquer apenas); +2% CKD = 311",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "convencional",
+    "confianca": "baixa (so se aplicada a 5b)"
+   }
+  ],
+  "citacoes_literais": [
+   "It was calculated that for every 1 m3 of concrete, 0.204 m2 cement was consumed.",
+   "Where: Vcement stands for the volume of cement produced, in m3; Cclinker is the clinker faction within the cement and EFclinker is the clinker emission factor ... Per default, this factor is set to 0.5 tons of CO2 for every ton of clinker ... The guidelines also recommended a value of 0.95 for the clinker factor",
+   "Figure 4. Estimated concrete waste and corresponding CO2 [eixos: Concrete waste and cement consuption (m3); CO2 emission (m3)]"
+  ]
+ },
+ {
+  "row_id": 3886,
+  "pdf_confere": "sim - titulo, autores (Eberhardt, Birgisdottir, Birkved), IOP EES 323 012027 e DOI 10.1088/1755-1315/323/1/012027 (versao do repositorio SDU com capa)",
+  "texto_completo": "sim, download + PyMuPDF, 11 paginas",
+  "figuras_vistas": "sim - Fig.1 (p.7 impressa: acumulado kg CO2 eq, sT 488, sD 326, dT 297, dD 257)",
+  "veredicto": "PAR_NAO_CONVERTIVEL",
+  "motivo": "Coluna de betao armado 35 MPa: 1489 kg de betao + 76 kg de armadura (Tabelas 1-2); CO2 total por coluna ao longo de 2 ciclos de 80 anos: sT 488, sD 326, dT 297, dD 257 kg CO2 eq (texto + Fig.1). Nao ha volume nem dimensoes da coluna nem massa volumica do betao impressas -> nao e possivel dividir por m3 (seria preciso assumir ~2400 kg/m3). O total inclui armadura (familia concreto_armado), dois ciclos de vida e creditos de reciclagem (modulo N/D, barras negativas na Fig.1); o valor de producao do ano 1 isolado so e legivel no grafico (~240 kg, T).",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1130,
+    "material": "Coluna de betao armado 35 MPa, cenario sT (tradicional), 2 ciclos x 80 anos",
+    "fck_mpa": 35,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabelas 1 e 2 (p.5 impressa): 'Concrete 35MPa 1489 kg'",
+    "co2_original": "488 kg CO2 eq por coluna (sT); sD 326; dT 297; dD 257",
+    "co2_original_local": "p.6 impressa (texto) e Fig.1 p.7",
+    "co2_conversao": "NAO CONVERTIDO - falta volume/dimensoes da coluna ou massa volumica do betao (so massa 1489 kg impressa); total inclui armadura 76 kg e creditos de fim de vida",
+    "co2_kg_m3": null,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": 80,
+    "vida_util_local": "p.4 impressa: 'recycling the reinforcement steel ... after a service life of 80 years'",
+    "familia_sugerida": "concreto_armado",
+    "confianca": null
+   }
+  ],
+  "citacoes_literais": [
+   "the scenario exhibiting the highest embodied GHG is sT with 488 kg CO2 eq. and the scenario with the lowest embodied GHG is dD with 257 kg CO2 eq.",
+   "Table 1. Traditional column scenario ... Reinforcement steel 76 kg ... Concrete 35MPa 1489 kg",
+   "the functional unit was set to provide the function/service of the column across two component life cycles (i.e. 2 times 80 years)"
+  ]
+ },
+ {
+  "row_id": 3896,
+  "pdf_confere": "sim - titulo, autores (Meek, Elchalakani) e DOI 10.1088/1755-1315/323/1/012143 impressos na p.1",
+  "texto_completo": "sim, download + PyMuPDF, 9 paginas",
+  "figuras_vistas": "sim - Fig.1 (seccoes das paredes, espessura RE 300 mm), Fig.3 (GWP % de CB + UCS), Fig.4 (GWP kg CO2 eq absoluto, RBC_AA); leitura por pixel a 300 dpi",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "A FU e 1 m2 de parede de taipa e a Fig.1(c) imprime a espessura da parede de taipa: 300 mm (por 1000 mm). Logo kg/m2 / 0,30 m = kg/m3 de material. RBC_AA (UCS 24,1 MPa): texto '3,6 kg CO2eq ou 10%' -> base 36 kg/m2 -> 120 kg/m3; a Fig.4 (eixo numerico 0-70 kg CO2 eq) da materiais A1-A3 ~37,7 kg/m2 (125,7 kg/m3) e com entrega 50 km em Perth ~39,0 kg/m2. CL_AA (19,8 MPa) e CL_C (11,1 MPa) so aparecem em % de CB (Fig.3; texto: CL_AA 60% abaixo de CB = 40%, CL_C 37% abaixo = 63%); ancorando CB pela barra RBC_AA (42,4% de CB na Fig.3 = 37,7 kg) -> CB ~88,9 kg/m2 -> CL_AA ~35,6 kg/m2 = ~119 kg/m3; CL_C ~56,0 kg/m2 = ~187 kg/m3 (leitura encadeada de 2 graficos, confianca baixa). Nao ha creditos. Modulos A1-A3 (inclui frete ate Perth).",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1135,
+    "material": "Taipa alcali-activada RBC_AA (tijolo/betao reciclado + cinza volante, GGBFS, silica fume, caulino, NaOH 12M), Perth",
+    "fck_mpa": 24.1,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 1 (p.2 impressa) UCS 28 dias; Fig.3",
+    "co2_original": "3,6 kg CO2eq = 10% (-> 36 kg CO2eq/m2); Fig.4 materiais ~37,7 kg CO2eq/m2",
+    "co2_original_local": "p.6 impressa (texto) e Fig.4 (p.6); espessura 300 mm na Fig.1(c) p.3",
+    "co2_conversao": "por m2 + espessura impressa: 36 / 0,30 = 120 kg CO2eq/m3 (texto); leitura Fig.4 37,7/0,30 = 125,7 (confirma). Proposto 120 (valor derivado do texto)",
+    "co2_kg_m3": 120,
+    "vol_m3": 0.3,
+    "vol_fonte": "Fig.1(c): parede de taipa 300 mm x 1000 mm por m2 de FU",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "terra/geopolimero (taipa alcali-activada)",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Taipa alcali-activada CL_AA (calcario britado + mesmos estabilizadores)",
+    "fck_mpa": 19.8,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 1 (p.2 impressa)",
+    "co2_original": "40% do GWP de CB (texto: '60% lower than cavity brick'); Fig.3 barra ~40,6%",
+    "co2_original_local": "p.5 impressa e Fig.3",
+    "co2_conversao": "ancora CB = 37,7 kg (RBC_AA Fig.4) / 0,424 (RBC_AA na Fig.3) = 88,9 kg/m2; CL_AA = 0,40 x 88,9 = 35,6 kg/m2; / 0,30 = 118,5 kg/m3",
+    "co2_kg_m3": 118.5,
+    "vol_m3": 0.3,
+    "vol_fonte": "Fig.1(c) 300 mm",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "terra/geopolimero",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Taipa estabilizada com cimento CL_C (controlo, 8,2% cimento)",
+    "fck_mpa": 11.1,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 1 (p.2 impressa)",
+    "co2_original": "63% do GWP de CB (texto: '37% lower than cavity brick'); Fig.3 ~62,5%",
+    "co2_original_local": "p.5 impressa e Fig.3",
+    "co2_conversao": "0,63 x 88,9 = 56,0 kg/m2; / 0,30 = 186,7 kg/m3 (mesma ancora encadeada)",
+    "co2_kg_m3": 186.7,
+    "vol_m3": 0.3,
+    "vol_fonte": "Fig.1(c) 300 mm",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "terra estabilizada com cimento",
+    "confianca": "baixa"
+   }
+  ],
+  "citacoes_literais": [
+   "When stabiliser materials (NaOH and aluminosilicates) are transported from Perth to the site in Kalgoorlie, this adds 3.6 kg CO2eq or 10% in the case of this mix for the FU of 1 m2 vertical wall.",
+   "The functional unit (FU) considered is one vertical square meter of an external load-bearing wall.",
+   "Figure 1: Cross-section of building envelope construction types; ... (c) rammed earth [cotas: 300 mm, 1000 mm]",
+   "Based on the current mix, CL_AA ... GWP is 60% lower than cavity brick and 40% lower than brick veneer. For the control RE mix, CL_C, GWP is 37% lower than cavity brick"
+  ]
+ },
+ {
+  "row_id": 3904,
+  "pdf_confere": "sim - titulo, autores (Mostert, Sameer, Glanz, Bringezu) e DOI 10.1088/1755-1315/588/5/052021 impressos na p.1",
+  "texto_completo": "sim, download + PyMuPDF, 11 paginas",
+  "figuras_vistas": "sim - Fig.6 (p.7 impressa) renderizada a 300 dpi e medida por pixel (grelha de 50 em 50 kg CO2 eq/m3)",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "FU = 1 m3 de betao C25/30 (sec. 2.2). O valor absoluto so existe na Fig.6, mas o eixo tem escala numerica (0-300 kg CO2 eq./m3 concrete, linhas de grelha a cada 50), o que a regra actual permite (confianca media). Leitura por pixel: BAU total ~260 (A1 ~249, A2 ~8, A3 ~3), RC total ~250 (A1 ~237 + A2/A3 + C1-C3). Coerente com o texto: -4% (250/260 = 0,962) e A1 = 96% BAU / ~95% RC (texto 94%). Sem creditos de carga evitada. A decisao anterior (nao ler a regua) seguia a regra antiga; com a regra actual o par e convertivel.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 1136,
+    "material": "Betao C25/30 BAU (agregados primarios; CEM II 290 + cinza volante 60 kg/m3)",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "sec. 2.2 (p.3 impressa): FU 1 m3 C25/30; Tabela 1",
+    "co2_original": "~260 kg CO2 eq/m3 (leitura Fig.6, total A1-A3)",
+    "co2_original_local": "Fig.6, p.7 impressa",
+    "co2_conversao": "nativo em kg/m3, leitura de grafico por pixel (grelha 50 kg = 117,2 px a 300 dpi): topo da barra 260,1",
+    "co2_kg_m3": 260,
+    "vol_m3": null,
+    "vol_fonte": "nao aplicavel",
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "convencional",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Betao C25/30 RC (40% dos agregados reciclados do antigo edificio, 625 kg/m3; mesmo cimento)",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "sec. 2.2 e Tabela 1",
+    "co2_original": "~250 kg CO2 eq/m3 (leitura Fig.6, A1-A3 + C1-C3)",
+    "co2_original_local": "Fig.6, p.7 impressa; texto '-4%'",
+    "co2_conversao": "leitura de grafico por pixel: topo 250,3 (confere com 260 x 0,96 = 249,6)",
+    "co2_kg_m3": 250,
+    "vol_m3": null,
+    "vol_fonte": null,
+    "vida_util_anos": null,
+    "vida_util_local": null,
+    "familia_sugerida": "agregado reciclado",
+    "confianca": "media"
+   }
+  ],
+  "citacoes_literais": [
+   "Thus, 1 m3 of concrete (C25/30) is considered as FU.",
+   "The product climate is just decreased by 4 % in the RC-scenario compared to the BAU-scenario. The production of concrete constituents, mainly cement, has the biggest contribution in both scenarios: about 94 % in the RC-scenario and about 96 % in the BAU-scenario.",
+   "Figure 6. Product climate footprint measured in Global Warming Impact (GWI) per 1 m3 of concrete (C25/30) [eixo: kg CO2 eq. / m3 concrete, 0-300]"
+  ]
+ }
+]
