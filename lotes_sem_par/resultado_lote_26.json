@@ -1,0 +1,122 @@
+[
+ {
+  "row_id": 5046,
+  "pdf_confere": "sim - dissertacao UFRGS/PPGCI 2022, Juliano Libraga da Silva, orient. Ana Carolina Badalotti Passuello; titulo bate (sem DOI, tese)",
+  "texto_completo": "sim, 173 paginas (download + PyMuPDF, todas as paginas)",
+  "figuras_vistas": "sim - p.91 (Fig.17, contribuicao por sistema A1-A3, so %), p.167 (Tabela 16); inventario Tabela 11 (pp.144-145) lido em texto",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "Nao ha CO2 do concreto isolado (so % por sistema na Fig.17). Ha porem GWP absoluto por SISTEMA na Tabela 16 (Fundacoes 1,31E+04 e Estruturas 5,76E+04 kg CO2 eq, ciclo de vida do cenario base) e o volume de concreto usinado FCK 25 MPa de cada sistema impresso no inventario (Tabela 11: 42,00 m3 fundacoes; 274,60 m3 estrutura). Conversao total/volume possivel, mas o total do sistema inclui aco (16.144 kg na estrutura), formas de madeira/compensado, lajotas ceramicas de laje pre-moldada (15.024 kg) e concreto/argamassa feito em obra (cimento 750 kg, areia 3.675 kg, brita 7.840 kg na estrutura) cujo volume NAO e impresso em m3 -> divisor incompleto, valor so indicativo. Familia concreto_armado (misto). Se a Kie exigir divisor completo, reclassificar como PAR_NAO_CONVERTIVEL. Observacao de plausibilidade: 209,8 kg/m3 incluindo 16 t de aco parece baixo para concreto 25 MPa ecoinvent; nao ha factor unitario impresso para verificar.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 60,
+    "material": "Sistema 'Estruturas' de concreto armado (concreto usinado bombeavel FCK 25 MPa + aco + formas + lajotas ceramicas + concreto de obra), edificio publico UFRGS 830,85 m2",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 1 (p.~69) e Tabela 11 (p.144): 'CONCRETO USINADO BOMBEAVEL COM BRITA 0 E 1 ... FCK = 25 MPA'; dataset 'concrete production 25MPa, ready-mix ... Cutoff U - BR'",
+    "co2_original": "5,76E+04 kg CO2 eq. (GWP, linha Estruturas)",
+    "co2_original_local": "Tabela 16, Apendice E, p.166 do documento (p.167 do PDF)",
+    "co2_conversao": "57.600 kg CO2 eq / 274,60 m3 de concreto usinado (Tabela 11) = 209,8 kg CO2-eq/m3; total inclui aco, formas, lajotas ceramicas e concreto de obra sem volume impresso",
+    "co2_kg_m3": 209.8,
+    "vol_m3": 274.6,
+    "vol_fonte": "Tabela 11 (inventario, p.144), item 1527 na secao 2. ESTRUTURA, 274,60 m3",
+    "vida_util_anos": 50,
+    "vida_util_local": "Resumo ('vida util de 50 anos') e coluna VUP=50 da Tabela 11 para itens da estrutura",
+    "familia_sugerida": "concreto_armado",
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Sistema 'Fundacoes' de concreto armado (concreto usinado FCK 25 MPa + aco 1.778 kg + formas + concreto de obra: cimento 900 kg, areia 4.410 kg, brita 9.408 kg)",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 11 (p.144), secao 1. FUNDACOES, item 1527 FCK = 25 MPA",
+    "co2_original": "1,31E+04 kg CO2 eq. (GWP, linha Fundacoes)",
+    "co2_original_local": "Tabela 16, p.166 do documento",
+    "co2_conversao": "13.100 / 42,00 m3 = 311,9 kg CO2-eq/m3; divisor exclui o concreto feito em obra (volume nao impresso)",
+    "co2_kg_m3": 311.9,
+    "vol_m3": 42.0,
+    "vol_fonte": "Tabela 11, secao 1. FUNDACOES, 42,00 m3",
+    "vida_util_anos": 50,
+    "vida_util_local": "VUP 50 anos, Tabela 11",
+    "familia_sugerida": "concreto_armado",
+    "confianca": "baixa"
+   }
+  ],
+  "citacoes_literais": [
+   "Tabela 16: 'Fundacoes 6,47E+01 1,31E+04 ...'; 'Estruturas 4,75E+02 5,76E+04 ...' (coluna GWP kg CO2 eq.); 'Totais 3,15E+06'; 'Totais por m2 3,80E+03'",
+   "Tabela 11: 'CONCRETO USINADO BOMBEAVEL COM BRITA 0 E 1, SLUMP = 100 MM +/- 20 MM, FCK = 25 MPA ... m3 274,60 ... 659,03b'",
+   "nota b: 'Considerado o peso especifico de 2.400 kg/m3 para conversao dos itens referentes ao concreto'",
+   "p.91: 'as estruturas de concreto armado da edificacao se destacaram para a deplecao da camada de ozonio, com 25% do total'",
+   "Fronteira: A1-A3, A4-A5, B4, B6-B7, C1, C2, C4; sem modulo D (p.~66). Na Tabela 16 A5, B6, B7, C1 e C4 aparecem em linhas proprias, fora dos sistemas."
+  ]
+ },
+ {
+  "row_id": 5052,
+  "pdf_confere": "sim - tese de doutorado UNICAMP/FT 2024, Beatriz Leao Evangelista de Lara, orient. Carmenlucia Santos Giordano Penteado; titulo bate",
+  "texto_completo": "sim, 151 paginas (download + PyMuPDF)",
+  "figuras_vistas": "sim - p.96 (Tabela 18 e Fig.20), p.99 (Fig.22 fundacao CP2), p.100 (Fig.23 superestrutura CP2), p.147 (inventario A3 superestrutura)",
+  "veredicto": "PAR_CONVERTIVEL",
+  "motivo": "UF = 1 m2 de area construida (berco a entrega). O inventario do CP2 (Apendice A3) imprime o volume de concreto C25 por m2 (fundacao 5,52 m3 = 0,13 m3/m2; superestrutura 14,9 m3 = 0,35 m3/m2; area 42,12 m2), o que permite passar kg CO2/m2 a kg CO2/m3. Duas vias: (a) total da etapa / volume -> concreto_armado (inclui tela de aco, estrutura metalica 2.717 kg, formas PVC, espacadores, transporte, RCC); (b) quota do concreto lida na Fig.23/Fig.22 (eixo com escala numerica 0-100%) -> concreto isolado. As duas etapas dao ~292-293 kg/m3 pela via (b), o que reforca a leitura. A linha existente (126 kg/m2 'nao convertido') passa a ser convertivel.",
+  "linhas": [
+   {
+    "sheet_row_existente_ou_null": 64,
+    "material": "Concreto C25 (25 MPa, traco Cohab: cimento 306, areia 887, brita 903, agua 199, aditivo 4,6 kg/m3) - quota do concreto na etapa Superestrutura CP2 (parede monolitica moldada in loco)",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 10, p.80: 'Traco para producao de concreto de 25 MPa aos 28 dias'",
+    "co2_original": "1,26E+02 kg CO2 eq./m2 (Superestrutura); concreto ~82% do GWP da etapa (Fig.23)",
+    "co2_original_local": "Tabela 18, p.96; Figura 23, p.100 (barra 'Aquecimento global': aco ~0-14,5%, formas ~15%, concreto ~15,5%-98%, transporte ~98-100%)",
+    "co2_conversao": "126 x 0,82 (leitura grafica) = ~103,3 kg/m2 area; / (14,9 m3 / 42,12 m2 = 0,3538 m3/m2) = ~292 kg CO2-eq/m3",
+    "co2_kg_m3": 292,
+    "vol_m3": 14.9,
+    "vol_fonte": "Apendice A3, p.147: 'Concreto C25 14,9 m3 0,35 (m3/m2)'; area construida 42,12 m2 (p.146)",
+    "vida_util_anos": null,
+    "vida_util_local": "nao aplicavel - fronteira berco a entrega, uso e fim de vida excluidos (p.~72)",
+    "familia_sugerida": "concreto_convencional (Portland, C25)",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Etapa Superestrutura CP2 completa (concreto C25 + tela de aco 8,10 kg/m2 + estrutura metalica 64,5 kg/m2 + formas PVC + espacadores + transporte + RCC)",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Tabela 10, p.80",
+    "co2_original": "1,26E+02 kg CO2 eq./m2 de area construida",
+    "co2_original_local": "Tabela 18, p.96",
+    "co2_conversao": "126 x 42,12 m2 = 5.307 kg CO2 eq / 14,9 m3 = 356,2 kg CO2-eq/m3 (total da etapa, inclui aco)",
+    "co2_kg_m3": 356.2,
+    "vol_m3": 14.9,
+    "vol_fonte": "Apendice A3, p.147",
+    "vida_util_anos": null,
+    "vida_util_local": "berco a entrega",
+    "familia_sugerida": "concreto_armado",
+    "confianca": "media"
+   },
+   {
+    "sheet_row_existente_ou_null": null,
+    "material": "Concreto C25 - quota do concreto na etapa Fundacao CP2 (radier)",
+    "fck_mpa": 25,
+    "fck_tipo": "nao_dito",
+    "fck_local": "Apendice A3, p.146: 'Concreto C25 ... Concrete, 25MPa {RoW}' (nota: a descricao do projecto base na p.~57 fala em radier de 20 MPa; o inventario CP2 usa C25)",
+    "co2_original": "4,99E+01 kg CO2 eq./m2 (Fundacao); concreto ~77% do GWP da etapa (Fig.22)",
+    "co2_original_local": "Tabela 18, p.96; Figura 22, p.99 (barra GWP: brita ~0-1,5%, aco ~1,5-21%, concreto ~21-98,5%)",
+    "co2_conversao": "49,9 x 0,775 = ~38,7 kg/m2 / (5,52/42,12 = 0,1311 m3/m2) = ~295 kg CO2-eq/m3 (leitura grafica)",
+    "co2_kg_m3": 295,
+    "vol_m3": 5.52,
+    "vol_fonte": "Apendice A3, p.146: 'Concreto C25 5,52 m3 0,13 (m3/m2)'",
+    "vida_util_anos": null,
+    "vida_util_local": "berco a entrega",
+    "familia_sugerida": "concreto_convencional (Portland, C25)",
+    "confianca": "baixa"
+   }
+  ],
+  "citacoes_literais": [
+   "Tabela 18: 'Aquecimento global (GWP100a) kg CO2 eq. 2,42E+02 | 4,99E+01 | 1,26E+02 | 2,93E+01 | 5,26E+00 | 3,11E+01' (Total, Fundacao, Superestrutura, Cobertura, Revestimento, Pintura)",
+   "p.99: 'Na etapa de superestrutura (Figura 23), concreto e o material que mais contribui na geracao de impactos, representando 72% dos impactos totais gerados' (72% = media de todas as categorias, nao o GWP)",
+   "p.99: 'Na etapa de fundacao (Figura 22), 65% dos impactos totais sao provenientes do consumo de concreto, seguido do aco que representa 31%'",
+   "p.147: 'Concreto C25 14,9 m3 0,35 (m3/m2) ... Densidade: 1762 kg/m3'; 'Estrutura metalica 2717 kg 64,50'",
+   "p.~71: 'Neste estudo, a unidade funcional foi definida como 1m2 de area construida'; 'A fronteira do sistema deste estudo e do berco a entrega'",
+   "p.108: 'no CP2, a construcao da HIS emite 242 kg de CO2 eq./m2'"
+  ]
+ }
+]
