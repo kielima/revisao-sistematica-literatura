@@ -295,6 +295,13 @@ OVERRIDE = {
     # LARSEN 3911 (2026-09-26, revisao suspeitos CO2, decisao Kie): totais das pontes incluem aco/fibra/transporte
     (3911, 'Concreto de resistência normal NSC — C30/37 (ponte pedonal, Noruega)'): 'concreto_armado',
     (3911, 'Concreto UHPC (Ultra High Performance Concrete, ponte pedonal, Noruega)'): 'concreto_armado',
+    # revisao suspeitos CO2 (2026-09-27): totais de sistema com armadura -> concreto_armado
+    (2891, 'Concreto convencional REF (C30/37, moldado in-situ)'): 'concreto_armado',
+    (2891, 'Concreto TRS (laje/elemento pre-fabricado, C35/45)'): 'concreto_armado',
+    (3882, 'Variante 1: laje de parking house, betao C35/45 (Praga, Republica Checa)'): 'concreto_armado',
+    (3882, 'Variante 2A: laje de parking house, betao C90/105 (laje mais fina) (Praga, Republica Checa)'): 'concreto_armado',
+    (3882, 'Variante 2B: laje de parking house, betao C90/105 (menos armadura) (Praga, Republica Checa)'): 'concreto_armado',
+    (4007, 'Concreto 35 MPa (assumido) em sistema misto madeira-concreto (TCC), CLT-315 + laje de concreto 100mm'): 'concreto_armado',
 }
 
 
