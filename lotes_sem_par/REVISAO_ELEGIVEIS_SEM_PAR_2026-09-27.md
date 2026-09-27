@@ -4,8 +4,8 @@ Pedido da Kiê: ler por inteiro, em lotes, os 202 artigos `Elegível` que não t
 
 ## Resultado
 - 202 artigos lidos: 88 com par convertível (+9 depois da ronda de figuras), 84 com par não convertível, 18 sem CO2 próprio, 10 sem fck, 1 ilegível.
-- Gravados em `dados_fck`: **336 pares** (116 linhas existentes actualizadas, 220 linhas novas); **283 linhas** marcadas `NAO CONVERTIDO - revisao 2026-09-27` com o motivo.
-- Artigos Elegíveis com par: **331 → 402**; painel **1.164 → 1.499 pares**.
+- Gravados em `dados_fck`: **317 pares** (116 linhas existentes actualizadas, 201 linhas novas; 19 linhas novas com fck < 20 MPa retiradas depois pela regra da purga de 2026-09-08 — ver `RETIRADAS_FCK_MENOR_20_2026-09-27.csv`); **283 linhas** marcadas `NAO CONVERTIDO - revisao 2026-09-27` com o motivo.
+- Artigos Elegíveis com par: **331 → 401**; painel **1.164 → 1.481 pares**. A 2666 (blocos monolíticos de alvenaria, 1,5 MPa) ficou sem par: todas as misturas com CO2 estão abaixo de 20 MPa e a de 35 MPa não tem CO2.
 - Regra de consolidação: por mistura só uma variante (preferência pelo CO2 só do betão A1-A3 quando existe; senão o total do sistema com armadura → família `concreto_armado`); valores líquidos de créditos de carga evitada substituídos pelo bruto quando reconstruível (precedente MOMOTAZ).
 
 ## Pendentes (não aplicados)
