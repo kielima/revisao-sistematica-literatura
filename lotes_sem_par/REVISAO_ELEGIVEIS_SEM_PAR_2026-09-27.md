@@ -80,3 +80,9 @@ Dois subagentes (lotes 1 e 5, lançados antes da regra) enviaram o email da util
 - 3439 JONES: Fig.7 da CO2 nativo por m3 de material (35 MPa pronto 361, 3D 35 MPa 400, 3D 78 MPa 979) -> substitui a via total da torre / volume.
 - 3203 VACLAVIK (28 pares), 3176 IRSHIDAT (13), 4033 TIAN (8): aplicar leituras de figura com eixo numerico.
 - 3238 PYO e 3420 BERTIN: NAO_CONVERTIVEL.
+
+
+## Decisões da Kiê (2026-09-27, depois do merge)
+
+- **4792 STUDZINSKI:** aceite a via só-fundação. Gravadas 4 linhas novas (F2 283,5; F1 278,7; PL1 322,1; PL2 311,7 kg/m3; C35/45 + armadura, família `concreto_armado`); as 3 linhas antigas (factores da Tab.4) ficam NAO CONVERTIDO. Painel 1.481 → 1.485 pares; artigos com par 401 → 402.
+- **3543 MAHAPATRA:** marcada `Duplicado` da 3542 (canónica). Elegível 533 → 532; E3 588 → 587; E4 531 → 530 (421 principal + 109 sensibilidade).

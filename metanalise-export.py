@@ -371,6 +371,11 @@ OVERRIDE = {
     (5041, 'Concreto armado classe C40 (melhor desempenho)'): 'concreto_armado',
     (5041, 'estrutura de betao armado do edificio (9 pav.), classe C45, cimento CP III'): 'concreto_armado',
     (5041, 'Concreto armado classe C50'): 'concreto_armado',
+    # STUDZINSKI 4792 (decisao da Kie 2026-09-27): via so-fundacao, betao C35/45 + armadura
+    (4792, 'Fundacao em 4 sapatas isoladas F2 (2,0x2,0x0,6 m), betao C35/45 + armadura, materiais de emissao media (A1-A3)'): 'concreto_armado',
+    (4792, 'Fundacao em 4 sapatas isoladas F1 (1,5x1,5x0,6 m), C35/45 + armadura (sistema J)'): 'concreto_armado',
+    (4792, 'Fundacao em placa PL1 (7,0x7,0x0,5 m), C35/45 + armadura (sistema M)'): 'concreto_armado',
+    (4792, 'Fundacao em placa PL2 (7,0x7,0x0,7 m), C35/45 + armadura (sistema N)'): 'concreto_armado',
     # leitura integral dos Elegiveis sem par (2026-09-27): materiais que o regex nao apanha
     (4033, 'D5-P5: argamassa de cimento ternaria com 5% lama de tingimento calcinada (DS) + 5% lama de fabrico de papel (PS)'): 'scm',
     (4033, 'D10-P5'): 'scm',
