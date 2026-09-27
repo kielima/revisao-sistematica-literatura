@@ -375,6 +375,7 @@ OVERRIDE = {
     (4455, 'argamassa de referência PC mortar (cimento Portland + areia + fíler calcário) para impressão 3D'): 'opc',
     (4455, 'composto GCP1 (gesso-cimento-pozolana, 100% gesso de construção BG) para 3DCP'): 'ligantes',
     (4455, 'composto GCP2 (gesso-cimento-pozolana, 50% BG + 50% gesso reciclado RG) para 3DCP'): 'ligantes',
+    (4455, 'composto GCP3 (gesso-cimento-pozolana, 100% gesso reciclado RG) para 3DCP'): 'ligantes',
     (4455, 'composto GCP4 (gesso-cimento-pozolana, 100% fosfogesso PG) para 3DCP'): 'ligantes',
     (4455, 'composto GCP5 (gesso-cimento-pozolana, 50% RG + 50% PG) para 3DCP'): 'ligantes',
     (4500, 'Argamassa CEM I 52.5N (referencia, sem substituicao)'): 'opc',
