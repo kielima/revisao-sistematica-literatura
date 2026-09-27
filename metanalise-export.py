@@ -269,7 +269,7 @@ OVERRIDE = {
     (4753, 'Painel de fachada CRC (reforcado com grelha de fibra de carbono), variante F2C1 (melhor caso), cenario 50% reciclagem'): 'opc',
     (4753, 'Painel de fachada CRC, variante F1C3 (pior caso), cenario 50% reciclagem'): 'opc',
     (4753, 'Painel de fachada SRC (reforcado com aco), variante SRC 2.2 (aco de alto-forno primario)'): 'opc',
-    (4768, 'Pavement Quality Concrete (PQC), mix design indiano M20, camada de rolamento do pavimento rigido (MDR)'): 'opc',
+    (4768, 'Pavement Quality Concrete (PQC), mix design indiano M20, camada de rolamento do pavimento rigido (MDR)'): 'concreto_armado',  # 2026-09-27: total do sistema com aco (Tab.11)
     (4800, 'Ligante BG - gesso (Knauf BAUGIPS hemihydrate)'): 'ligantes',
     (4800, 'Ligante CSA - cimento sulfoaluminato de calcio (calcium sulphoaluminate)'): 'ligantes',
     (4800, 'Ligante MOC - cimento oxicloreto de magnesio (magnesium oxychloride cement)'): 'ligantes',
@@ -371,6 +371,16 @@ OVERRIDE = {
     (5041, 'Concreto armado classe C40 (melhor desempenho)'): 'concreto_armado',
     (5041, 'estrutura de betao armado do edificio (9 pav.), classe C45, cimento CP III'): 'concreto_armado',
     (5041, 'Concreto armado classe C50'): 'concreto_armado',
+    # figuras vistas em PDF reduzido (2026-09-27): SAHMENKO GCP = ligante gesso-cimento-pozolana; LV pasta com 30% SSA
+    (4455, 'argamassa de referência PC mortar (cimento Portland + areia + fíler calcário) para impressão 3D'): 'opc',
+    (4455, 'composto GCP1 (gesso-cimento-pozolana, 100% gesso de construção BG) para 3DCP'): 'ligantes',
+    (4455, 'composto GCP2 (gesso-cimento-pozolana, 50% BG + 50% gesso reciclado RG) para 3DCP'): 'ligantes',
+    (4455, 'composto GCP4 (gesso-cimento-pozolana, 100% fosfogesso PG) para 3DCP'): 'ligantes',
+    (4455, 'composto GCP5 (gesso-cimento-pozolana, 50% RG + 50% PG) para 3DCP'): 'ligantes',
+    (4500, 'Argamassa CEM I 52.5N (referencia, sem substituicao)'): 'opc',
+    (4516, 'Pasta cimento com 30% SSA calcinada a 800C/2h moida 1min (P-800/2/1) - otimo'): 'scm',
+    (4516, 'Pasta SSC 30% SSA 800C/2h, moagem 10 min (P-800/2/10) - optimo TOPSIS/radar'): 'scm',
+    (4516, 'Pasta de referencia P-20/0/1 (lama seca ao ar, 30%)'): 'scm',
     # STUDZINSKI 4792 (decisao da Kie 2026-09-27): via so-fundacao, betao C35/45 + armadura
     (4792, 'Fundacao em 4 sapatas isoladas F2 (2,0x2,0x0,6 m), betao C35/45 + armadura, materiais de emissao media (A1-A3)'): 'concreto_armado',
     (4792, 'Fundacao em 4 sapatas isoladas F1 (1,5x1,5x0,6 m), C35/45 + armadura (sistema J)'): 'concreto_armado',

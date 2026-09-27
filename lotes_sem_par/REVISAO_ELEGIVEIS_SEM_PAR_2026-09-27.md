@@ -86,3 +86,13 @@ Dois subagentes (lotes 1 e 5, lançados antes da regra) enviaram o email da util
 
 - **4792 STUDZINSKI:** aceite a via só-fundação. Gravadas 4 linhas novas (F2 283,5; F1 278,7; PL1 322,1; PL2 311,7 kg/m3; C35/45 + armadura, família `concreto_armado`); as 3 linhas antigas (factores da Tab.4) ficam NAO CONVERTIDO. Painel 1.481 → 1.485 pares; artigos com par 401 → 402.
 - **3543 MAHAPATRA:** marcada `Duplicado` da 3542 (canónica). Elegível 533 → 532; E3 588 → 587; E4 531 → 530 (421 principal + 109 sensibilidade).
+
+## Figuras pendentes vistas (2026-09-27, PDFs reduzidos pelo `shrink-drive-pdf.yml`)
+
+- **4455 SAHMENKO** — Fig.5 p.10: fck 28 d em ensaio húmido lido nos rótulos (PC 37,8; GCP1 34,5; GCP2 29,3; GCP3 19,5; GCP4 29,8; GCP5 26,3 MPa), confirmado pelo coeficiente de amolecimento da Fig.7 (= húmido/seco em todas as 6). CO2 nativo por m3 já gravado. GCP3 (19,5 MPa) retirada pela regra fck < 20 (acrescentada a `RETIRADAS_FCK_MENOR_20_2026-09-27.csv`). 5 pares; GCP = família `ligantes`.
+- **4500 BOUKHELF** — Fig.8 p.14 é vectorial: barras de CO2 medidas nas coordenadas do PDF (CEM I 0,674; CEM III 0,142; CEM I+GP 0,337; CEM III+GP 0,071 kg/kg de ligante) × 500 kg de ligante/m3 (Tab.3) = 337,1 / 71,0 / 168,3 kg/m3 (só o ligante). CEM III+GP (10,6 MPa) fica de fora pela regra fck < 20. 3 pares.
+- **4516 LV** — Fig.8a p.11 (recorte da p.11 em `/printer`, imagem 993×465): GWP por m3 de pasta lido ao pixel — P-800/2/1 e P-800/2/10 ≈ 1.304, P-20/0/1 ≈ 1.247 kg CO2 eq/m3; coerente com o texto (SSA = 8,1% do GWP; medido 8,4%). 3 pares, família `scm`.
+- **4768 ARYAN** — Fig.4 p.6 vista: faixa de rodagem de 7,0 m (bermas pavimentadas de 2,0 m fora da UF, que o próprio artigo fixa em 1 km × 7,0 m e usa como 7.000 m2 no cálculo de carbonatação). 383,4 kg/m3 aplicado, família `concreto_armado` (total do sistema com aço).
+- **4387 DE FILIPPIS** — OCR de todas as páginas do PDF reduzido: o GWP (Fig.12a) é só dos activadores para activar 1 kg de escória (escória e água fora da fronteira, sec.2.2), sem massa volumica — confirmado NAO CONVERTIDO.
+
+Painel: 1.485 → 1.497 pares; artigos Elegíveis com par 402 → 406.
