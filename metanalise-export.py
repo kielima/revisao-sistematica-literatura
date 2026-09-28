@@ -7,7 +7,10 @@ Uso:
 Saida: {"pairs": [...], "unit_stats": [...]}.
 
 `pairs`: cada ponto e [fck_MPa, co2_kg_m3, categoria_1_letra, estrato_1_letra,
-citacao_curta_ou_null]. `citacao_curta` (2026-09-12, pedido da Kie: forest
+citacao_curta_ou_null, base_portland]. `base_portland` (2026-09-28, pedido da Kie:
+filtro 'so cimento Portland' vs 'tudo' no painel) e 'P' (ligante principal cimento
+Portland), 'N' (sem clinquer Portland: geopolimero/alcali-ativado, CSA, magnesio,
+gesso, madeira...) ou 'M' (linha mista) -- ver classificar_base_portland.py. `citacao_curta` (2026-09-12, pedido da Kie: forest
 plot por familia com os estudos individuais, no expand de cada barra do
 grafico "ci por familia de material") e uma citacao curta tipo "Sobrenome et
 al., Ano" derivada de dados_fck.autores+ano -- ver short_label() abaixo para
@@ -69,6 +72,8 @@ CATCODE = {
     'ligantes': 'l', 'alvenaria': 'a', 'biobase': 'b', 'concreto_armado': 'c',
 }
 TIERCODE = {'principal': 'p', 'sensibilidade': 's'}
+# base do ligante (dados_fck col 40, escrita por classificar_base_portland.py, 2026-09-28)
+PORTLANDCODE = {'sim': 'P', 'nao': 'N', 'misto': 'M'}
 
 # Domínio "plausível" por m³ de material -- exclui totais de estrutura inteira
 # (edifício, ponte), que aparecem em kg absolutos muito acima da escala por m³
@@ -159,7 +164,32 @@ OVERRIDE = {
     (3182, 'concreto com agregado graudo de plastico de e-waste (e-plastic), cenario E2 (20% agregado graudo substituido por e-plastic)'): 'reciclado',
     (3201, 'SCC com 30% residuo de mina de magnesita como agregado grosso (30MWCA)'): 'reciclado',
     (3201, 'SCC de controlo (CC) - sem residuo de mina'): 'reciclado',
-    (3221, 'concreto pronto com SCMs, base de dados de 440 tracos chineses (10.1016/j.cscm.2025.e04287)'): 'scm',
+    (3221, 'concreto pronto com SCMs, classe C30 (media dos tracos C30 da base de 440 tracos chineses)'): 'scm',
+    (3221, 'concreto pronto com SCMs, classe C80 (media dos tracos C80 da base de 440 tracos chineses)'): 'scm',
+    (3118, 'argamassa de referencia REF (sem cinza volante de biomassa)'): 'opc',
+    (4471, 'SCUHPC - concreto ultra-alto-desempenho autoadensavel convencional (base OPC, comparador)'): 'uhpc',
+    (3151, 'LC3 (Limestone Calcined Clay Cement) concreto — classe M40 (normal strength)'): 'scm',
+    (3151, 'LC3 (Limestone Calcined Clay Cement) concreto — classe M70 (high strength, HSC)'): 'scm',
+    (3615, 'concreto com po de vidro 20% (glass powder)'): 'scm',
+    (2653, 'Bloco carbonatado (escoria de aco inoxidavel, SSS) - Cenario S1 (recuperacao CO2)'): 'ligantes',
+    (2653, 'Bloco carbonatado (escoria de aco inoxidavel, SSS) - Cenario S2 (recuperacao CO2 por membrana, menor impacto)'): 'ligantes',
+    (2653, 'Bloco carbonatado (escoria de aco inoxidavel, SSS) - Cenario S3 (recuperacao CO2)'): 'ligantes',
+    (3105, 'ASS/N3 (100% AS, 3% Na2O) - rede'): 'geopolimero',
+    (3105, 'ASS-Q50/N3 grid / renew'): 'geopolimero',
+    (3105, 'ASS-Q50/N1 grid / renew'): 'geopolimero',
+    (3105, 'ASS-Q25/N3 grid / renew'): 'geopolimero',
+    (3105, 'ASS-Q50/N2 grid / renew'): 'geopolimero',
+    (3105, 'ASS-Q75/N3 grid / renew'): 'geopolimero',
+    (3105, 'ASS-L50/N1 grid / renew'): 'geopolimero',
+    (3105, 'ASS-L50/N2 grid / renew'): 'geopolimero',
+    (3105, 'ASS-L25/N3 grid / renew'): 'geopolimero',
+    (3105, 'ASS-L50/N3 grid / renew'): 'geopolimero',
+    (3105, 'ASS-L75/N3 grid / renew'): 'geopolimero',
+    (3162, "Aduela CSA/GFRP - so a coluna 'Concrete' (betao A-CSA-CEM II, sem armadura)"): 'ligantes',
+    (5012, 'Concreto base cimento Portland vs concreto AAM (material ativado alcalinamente)'): 'opc',
+    (3099, 'geopolymer concrete auto-reparavel (SHGPC) vs GPC vs OPCC de referencia, com microcapsulas de self-healing'): 'opc',
+    (3225, 'argamassa de baixo carbono (PC, CSA, LC3, CSA-C, AAS) selecionadas para igual classe de resistencia'): 'opc',
+    (4027, 'Concreto OPC 50 MPa vs geopolimero (90% FA/10% GGBFS) 50 MPa -- decomposicao de inventarios hibridos (mesmo caso de estudo do artigo companheiro, linha 4026)'): 'opc',
     (3280, 'argamassa cal hidraulica natural NHL2 (carbonatada)'): 'ligantes',
     (3280, 'argamassa cal hidraulica natural NHL3.5 (carbonatada)'): 'ligantes',
     (3280, 'argamassa cal hidraulica natural NHL3.5 (nao-carbonatada)'): 'ligantes',
@@ -402,13 +432,39 @@ OVERRIDE = {
 }
 
 
+ALKALI = (r'geopolim|geopolym|alcali[- ]?a[ct]{1,2}iv|alcalino-?a[ct]{1,2}iv|alcalinamente|alkali[- ]?a[ct]{1,2}iv|ativad[oa]s? por alcali|'
+          r'\baam\b|\baas\b|\baac\b|\baab\b|\baacm\b|aafa|\bgpc\b')
+PORTLAND_EXPLICITO = r'\bopcc?\b|portland|\bcem [iv]|\bcp ?i|convencional|conventional'
+
+
+def _fold(s):
+    s = unicodedata.normalize('NFKD', s or '')
+    return ''.join(c for c in s if not unicodedata.combining(c)).lower()
+
+
 def classify(row_id, material, titulo):
     key = (row_id, material)
     if key in OVERRIDE:
         return OVERRIDE[key]
+    # 2026-09-28: o traco Portland de referencia de um artigo sobre
+    # geopolimero caia na familia 'geopolimero' so por causa do TITULO
+    # (ex.: 2611 OPC-A, 2836 CC-CPI). Quando o proprio material se declara
+    # Portland/OPC/convencional e nao tem marcador alcalino, classifica-se so
+    # pelo material.
+    m = _fold(material)
+    if (titulo and not re.search(ALKALI, m) and re.search(PORTLAND_EXPLICITO, m)
+            and re.search(ALKALI, _fold(titulo))):
+        return classify(row_id, material, '')
     t = ((material or '') + ' ' + (titulo or '')).lower()
-    if re.search(r'geopolim|geopolym|alcali[- ]ativad|alkali[- ]activ|\bAAM\b|\bAAC\b', t):
+    # 2026-09-28: regex alcalino alargado (ALKALI, texto sem acentos) -- o
+    # antigo falhava em 'alcali-activado', 'ativado por alcalis',
+    # 'alcalinamente', 'geopolímero' com acento e siglas (tinha \bAAM\b em
+    # maiusculas contra texto em minusculas, nunca casava).
+    if re.search(ALKALI, _fold(t)):
         return 'geopolimero'
+    # ligantes sem clinquer Portland que nao sao alcali-ativados
+    if re.search(r'sulfoaluminat|\bkcsc\b|magnesi|\bm-s-h\b|belite-ye|\bbyc\b', m):
+        return 'ligantes'
     if re.search(r'\buhpc\b|\buhpfrc\b|ultra[- ]high[- ]performance|ultra[- ]alta[- ]resist', t):
         return 'uhpc'
     if re.search(
@@ -723,7 +779,11 @@ def main():
         cat = classify(row_id, material, titulo)
         if cat == 'outros':
             print(f'AVISO: linha {r} (row_id={row_id}) caiu em outros -- material={material!r}', file=sys.stderr)
-        compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato], short_label(autores, ano)])
+        base = PORTLANDCODE.get(ws.cell(r, 40).value)
+        if base is None:
+            print(f'AVISO: linha {r} (row_id={row_id}) sem base_portland -- correr classificar_base_portland.py', file=sys.stderr)
+            base = 'M'
+        compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato], short_label(autores, ano), base])
 
     unit_stats = [
         {'kind': kind, 'cat': ucat, 'n': n}
