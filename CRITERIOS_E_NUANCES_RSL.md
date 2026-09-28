@@ -638,22 +638,24 @@ propriedade do artigo. Não confundir uma com a outra.
    compete. As duas perguntas são independentes e podem ter respostas diferentes para a mesma
    linha — não há inconsistência entre "passou o fck" e "não é usado estruturalmente aqui".
 
-   📊 **Números de referência para a comparação de escala (verificados 2026-09-06), quando o
+   📊 **Números de referência para a comparação de escala (verificados 2026-09-06; referência corrigida com fontes a 2026-09-28), quando o
    papel proposto é substituto de cimento/ligante (SCM) — usar sempre a produção real do
    subproduto UTILIZÁVEL, não da matéria-prima bruta (ex.: casca de arroz ≠ cinza de casca de
    arroz; só 20-25% da casca vira cinza):**
 
-   | Material | Produção global/ano | Nota |
-   |---|---|---|
-   | Cinza volante (fly ash) | ~600 milhões t | referência universal |
-   | Escória de alto-forno (GGBS) | ~530 milhões t | referência universal |
-   | Resíduo de óleo de palma (EFB+casca+fibra) | ~200-300+ milhões t (33-57% da referência) | **Aceito** — concentrado (Indonésia+Malásia ~85%) mas com comércio internacional estabelecido |
-   | Cinza de casca de arroz (a cinza, não a casca bruta) | ~20-34 milhões t (3-6%) | **Rejeitado** — 2026-09-06 |
-   | Cinza de bagaço de cana | ~13-20 milhões t (2-4%) | **Rejeitado** — 2026-09-06 |
-   | Concha marinha (resíduo bruto) | ~10 milhões t (1,7-1,9%) | **Rejeitado** — 2026-09-06 |
-   | Cinza de casca de coco | provavelmente <2,5 milhões t (<1%) | **Rejeitado** — 2026-09-06, a menor de todas |
+   | Material | Produção global/ano | % da escória de alto-forno (330–390 Mt) | Nota |
+   |---|---|---|---|
+   | Escória de alto-forno (toda, granulada + arrefecida ao ar) | **330–390 milhões t** (2024) | 100% | **referência universal, VERIFICADA 2026-09-28**: USGS *Mineral Commodity Summaries 2025*, Iron and Steel Slag — *"In 2024, world iron slag production was estimated to be between 330 million and 390 million tons"* (estimada como 25–30% do ferro-gusa; gusa de alto-forno 1.265 Mt em 2024, worldsteel). ⚠️ O valor anterior desta tabela (~530 Mt) estava inflacionado. |
+   | Cinza volante (fly ash) | ~400–1.000 milhões t — **NÃO VERIFICADO** | — | ⚠️ Só há estimativas de relatórios de mercado (400 Mt a 1 Gt); a revisão de referência (Heidrich et al. 2013, *Coal combustion products: a global perspective*) não foi acedida. Até haver fonte primária, **usar a escória de alto-forno como referência de escala**. O valor anterior (~600 Mt) não tinha fonte. |
+   | Resíduo de óleo de palma (EFB+casca+fibra) | ~200-300+ milhões t | 51–91% | **Aceito** — concentrado (Indonésia+Malásia ~85%) mas com comércio internacional estabelecido |
+   | Escória de cobre (primária) | **40–48 milhões t** | 10–15% | **Aceito na escala** — 2026-09-28 (decisão da Kiê). Fontes: revisão PMC13258396 (*"the production of primary copper slags accounts for between 40 and 45 Mt per year"*, 2,2 t de escória por t de cobre); 48 Mt em 2022 (revisão MDPI Minerals 16/2/206); USGS MCS 2025 Copper: 27 Mt de cobre refinado em 2024 (China 12 Mt). O valor de 24,6 Mt (Gorai et al. 2003) está desactualizado; os 68,8 Mt citados pela ARREDONDO 4813 não têm confirmação. A USGS nota que o abastecimento é *"generally much more restricted than ferrous slags"*. Casos: 4301 DE PEDRO Aceito; 4813 ARREDONDO Rejeitado pelo enquadramento (Codelco/Chile), não pela escala; 4495 ZHANG Rejeitado (MGCS de laboratório, sem mercado). |
+   | Fosfogesso | ~200–300 milhões t | — (substitui gesso/anidrite, não SCM) | **Aceito** — 2026-09-28 (3217 DONG, 4552 BUMANIS; números dos próprios artigos) |
+   | Cinza de casca de arroz (a cinza, não a casca bruta) | ~20-34 milhões t | 5–10% | **Rejeitado** — 2026-09-06. ⚠️ Com a referência corrigida, o limite superior fica na linha dos 10%; a decisão mantém-se (a maior parte do intervalo está abaixo), mas é caso de fronteira. |
+   | Cinza de bagaço de cana | ~13-20 milhões t | 3–6% | **Rejeitado** — 2026-09-06 |
+   | Concha marinha (resíduo bruto) | ~10 milhões t | ~3% | **Rejeitado** — 2026-09-06 |
+   | Cinza de casca de coco | provavelmente <2,5 milhões t | <1% | **Rejeitado** — 2026-09-06, a menor de todas |
 
-   **Regra de bolso:** abaixo de ~10% da escala dos SCMs universais (fly ash/escória), rejeitar
+   **Regra de bolso:** abaixo de ~10% da escala da escória de alto-forno (330–390 Mt, USGS — a referência verificada; a cinza volante fica como referência só quando houver fonte primária), rejeitar
    por escala insuficiente — mesmo sendo um resíduo real e uma commodity genuína a nível local.
    **Excepções que não entram nesta tabela:** biochar (não é matéria-prima regional, é uma
    tecnologia de produção a partir de qualquer biomassa local disponível — sempre Aceito) e lã
