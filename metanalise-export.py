@@ -196,6 +196,8 @@ OVERRIDE = {
     (3787, 'Concreto com ligante MgO reativo (RMC), cura R90T60C10 (90% UR, 60C, 10% CO2 - melhor desempenho)'): 'ligantes',
     (3787, 'Concreto com ligante dolomita calcinada a 800C (D800), cura R90T30C10 (90% UR, 30C, 10% CO2 - melhor desempenho)'): 'ligantes',
     (3818, 'CR-ECC (Engineered Cementitious Composite, chromium resin, 40% subst. areia, impressao 3D)'): 'reciclado',
+    (2720, 'Betao convencional, referencia (w/b=0,4, 0% cinza MSWI)'): 'opc',
+    (2720, 'Betao com cinza MSWI (w/b=0,4, 20%)'): 'scm',
     (3818, 'IBA-ECC (Engineered Cementitious Composite, incineration bottom ash, 40% subst. areia, impressao 3D)'): 'reciclado',
     (3818, 'LP-ECC (Engineered Cementitious Composite, lignina/50% vol. fibra PE, impressao 3D)'): 'biobase',
     (3828, 'HPC com 50% borracha de pneu (substituindo areia de silica)'): 'reciclado',
