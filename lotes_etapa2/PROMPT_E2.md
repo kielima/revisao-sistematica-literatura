@@ -1169,3 +1169,7 @@ Quando o artigo não tem resistência própria mas mostra a de outro estudo sobr
 ## Nota 2026-09-26 (Kiê, caso ZHANG 2025, linha 3222) — Etapa 3 e comércio a partir da China
 
 Um rejeito de um país com a escala comercial da China (maior economia comercial do planeta, iniciativa Belt and Road) **passa o teste do comércio** da Etapa 3, desde que o estudo enquadre o material como categoria (ex.: "a China gera ~36 Mt/ano de rejeito de molibdénio") e não o prenda à região de origem. O teste da escala continua a aplicar-se à parte.
+
+## Regra (Kiê, 2026-09-29) — factor de biblioteca de software que os próprios autores não usam = Rejeitado
+
+Caso 3917 UNGUREANU 2019 (reabilitação de painéis pré-fabricados, EcoDesigner). O único CO2 do betão era uma linha de uma tabela de factores de carbono incorporado da biblioteca do programa ("Pre-cast concrete C20/25", 120,5 g/kg, sem fonte), e os autores declaram que o betão armado **não** entrou na contabilização de CO2 do estudo. Um factor genérico que o próprio estudo exclui do seu cálculo não é um par fck+CO2 do estudo → `E2_co2` = Rejeitado. Diferente da 4698 (factores por classe tirados do próprio artigo **e usados** no cálculo do edifício estudado), que fica Aceito.
