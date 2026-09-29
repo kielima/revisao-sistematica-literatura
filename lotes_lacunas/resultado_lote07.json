@@ -1,0 +1,57 @@
+[
+ {"row_id": 3786, "lido": "integral (texto completo, 73,8 mil caracteres, incl. Tabela 3 e referencias)",
+  "notas": "Resistencia a compressao ensaiada em cilindros 50,8 x 101,6 mm (2x4 in), 3 provetes por ensaio, protocolo adaptado da ASTM C39 (p.4). Os cilindros maiores 76,2 x 152,4 mm foram so para densidade/absorcao. Volume = pi*0,0254^2*0,1016 = 0,000205926 m3. Os fck gravados coincidem com a Tabela 3 (28 dias; Condicao 1 = 25C, Condicao 2 = 35C 3 dias + 25C). De passagem: a Tabela 3 da desvio padrao por mistura (24,18 (1,93); 30,69 (1,39); 23,41 (0,98); 20,56 (0,79); 26,81 (3,46); 26,41 (3,24); 21,54 (0,98)), n=3 -- nao pedido neste lote (QG ja 0,5).",
+  "pares": [
+   {"sheet_row": 1090, "vol_corpo_prova_m3": 0.000205926, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "p.4 Specimen Preparation: '50.8 x 101.6 mm (2 x 4 in.) cylinders ... The smaller cylinders were used to determine compressive strength'", "tipo_corpo_prova": "cilindro 50,8x101,6 mm", "idade_dias": 28},
+   {"sheet_row": 1091, "vol_corpo_prova_m3": 0.000205926, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "p.4 Specimen Preparation: cilindros 50,8 x 101,6 mm para compressao", "tipo_corpo_prova": "cilindro 50,8x101,6 mm", "idade_dias": 28},
+   {"sheet_row": 1092, "vol_corpo_prova_m3": 0.000205926, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "p.4 Specimen Preparation: cilindros 50,8 x 101,6 mm para compressao", "tipo_corpo_prova": "cilindro 50,8x101,6 mm", "idade_dias": 28},
+   {"sheet_row": 1093, "vol_corpo_prova_m3": 0.000205926, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "p.4 Specimen Preparation: cilindros 50,8 x 101,6 mm para compressao", "tipo_corpo_prova": "cilindro 50,8x101,6 mm", "idade_dias": 28},
+   {"sheet_row": 2013, "vol_corpo_prova_m3": 0.000205926, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "p.4 Specimen Preparation: cilindros 50,8 x 101,6 mm para compressao; Tabela 3 (28 d, Condicao 2) 26,81 MPa", "tipo_corpo_prova": "cilindro 50,8x101,6 mm", "idade_dias": 28},
+   {"sheet_row": 2014, "vol_corpo_prova_m3": 0.000205926, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "p.4 Specimen Preparation: cilindros 50,8 x 101,6 mm para compressao; Tabela 3 (28 d, Condicao 2) 26,41 MPa", "tipo_corpo_prova": "cilindro 50,8x101,6 mm", "idade_dias": 28},
+   {"sheet_row": 2015, "vol_corpo_prova_m3": 0.000205926, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "p.4 Specimen Preparation: cilindros 50,8 x 101,6 mm para compressao; Tabela 3 (28 d, Condicao 2) 21,54 MPa", "tipo_corpo_prova": "cilindro 50,8x101,6 mm", "idade_dias": 28}
+  ]},
+ {"row_id": 3894, "lido": "integral (texto completo 8 pp. + Figura 1 renderizada a 200 dpi)",
+  "notas": "fck sao classes de resistencia especificadas (25/30/35/40 MPa), sem ensaio -> sem dispersao de fck. O CO2 tem dispersao medida pelo proprio estudo ENTRE AS 34 CENTRAIS da mesma classe (dados primarios, nao entre misturas diferentes do artigo): min-max. ic_co2_valor dado como [min, max] em kg CO2-eq/m3 (variacao entre centrais, barras tracejadas da Fig.1, sem variabilidade a montante). 25 e 40 MPa impressos no texto (p.5); 30 e 35 MPa so na Fig.1 (relativo a media=1,0), lidos na figura renderizada: 30 MPa ~0,82-1,38 x 220; 35 MPa ~0,76-1,41 x 248 (precisao ~ +/-0,02 no eixo, i.e. ~ +/-5 kg) -- menor confianca. As barras cinzentas (com variabilidade a montante de cimento/areia) sao mais largas; o texto da tambem 158-263 'considering upstream variability' sem indicar a classe (inconsistente com a Fig.1a) -- nao usado. n por classe nao declarado (34 centrais no total).",
+  "pares": [
+   {"sheet_row": 1131, "ic_fck_valor": null, "ic_fck_tipo": null, "ic_fck_n": null, "ic_fck_citacao": "nao aplicavel: fck e classe especificada (resistencia caracteristica declarada), sem ensaio no artigo",
+    "ic_co2_valor": [157, 267], "ic_co2_tipo": "intervalo_min_max", "ic_co2_n": null, "ic_co2_citacao": "p.5: 'impact range between 157 and 267 kg CO2 eq./m3 for the 25 MPa strength class' (variacao entre centrais; Fig.1a barras tracejadas ~0,80-1,36)"},
+   {"sheet_row": 1132, "ic_fck_valor": null, "ic_fck_tipo": null, "ic_fck_n": null, "ic_fck_citacao": "nao aplicavel: classe especificada, sem ensaio",
+    "ic_co2_valor": [180, 304], "ic_co2_tipo": "intervalo_min_max", "ic_co2_n": null, "ic_co2_citacao": "Fig.1b (p.4), GWP barra tracejada lida na figura renderizada ~0,82-1,38 da media 220 kg/m3; valor nao impresso, leitura grafica +/-5 kg"},
+   {"sheet_row": 1133, "ic_fck_valor": null, "ic_fck_tipo": null, "ic_fck_n": null, "ic_fck_citacao": "nao aplicavel: classe especificada, sem ensaio",
+    "ic_co2_valor": [188, 350], "ic_co2_tipo": "intervalo_min_max", "ic_co2_n": null, "ic_co2_citacao": "Fig.1c (p.4), GWP barra tracejada lida na figura renderizada ~0,76-1,41 da media 248 kg/m3; valor nao impresso, leitura grafica +/-5 kg"},
+   {"sheet_row": 1134, "ic_fck_valor": null, "ic_fck_tipo": null, "ic_fck_n": null, "ic_fck_citacao": "nao aplicavel: classe especificada, sem ensaio",
+    "ic_co2_valor": [213, 405], "ic_co2_tipo": "intervalo_min_max", "ic_co2_n": null, "ic_co2_citacao": "p.5: 'reaching 192 kg CO2 eq./m3 for 40 MPa (between 213 and 405 kg CO2 eq./m3)' (variacao entre centrais)"}
+  ]},
+ {"row_id": 3896, "lido": "integral (texto completo 9 pp.)",
+  "notas": "ACV berco-ao-portao (A1-3); fim de vida e fase de uso excluidos. Nenhuma vida util declarada: so 'uncertainty associated with long lifespan of a residential house' (p.3). GWP100 e horizonte da metrica, nao vida util. De passagem: UCS aos 28 dias (p.4).",
+  "pares": [
+   {"sheet_row": 1135, "vida_util_anos": null, "vida_util_citacao": "nao declarada no artigo inteiro; p.3 menciona apenas 'long lifespan of a residential house' sem valor", "idade_dias": 28}
+  ]},
+ {"row_id": 3904, "lido": "integral (texto completo 10 pp.)",
+  "notas": "C25/30 e classe de projecto definida pela UF (1 m3 de betao C25/30) e pela EPD [27]; nenhum ensaio de resistencia nem norma de ensaio citada.",
+  "pares": [
+   {"sheet_row": 1136, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "p.3: '1 m3 of concrete (C25/30) is considered as FU' -- classe de projecto, sem ensaio nem norma de ensaio citada"},
+   {"sheet_row": 2016, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "p.3: classe C25/30 da UF; sem ensaio do betao RC nem norma de ensaio citada"}
+  ]},
+ {"row_id": 3915, "lido": "integral (texto completo; a lista de referencias termina truncada na ref.[14], sem impacto)",
+  "notas": "O artigo diz que as quantidades sao 'calculated for the whole lifetime defined by the problem designer' (p.3) mas nunca da o valor. Tabela 2 preve reparacoes aos 20, 40 e 60 anos, o que sugere vida util >= 60 anos, mas isso nao e declaracao explicita -- nao preenchido.",
+  "pares": [
+   {"sheet_row": 1140, "vida_util_anos": null, "vida_util_citacao": "nao declarada: p.3 'whole lifetime defined by the problem designer' sem valor; Tabela 2 (p.5) so lista reparacoes aos 20/40/60 anos"}
+  ]},
+ {"row_id": 3917, "lido": "integral (texto completo 9 pp.)",
+  "notas": "So afirmacao generica no resumo: 'buildings are designed to have a long lifetime, usually more than 50 years' e que os edificios LRPCC 'have not yet even reached half of their intended lifespan' -- nao e premissa de calculo do estudo; nenhum periodo de analise declarado. Nota: p.7 diz que os elementos de betao armado NAO foram considerados no calculo de CO2; o valor 120,5 g/kg (Tab.6) e factor de material.",
+  "pares": [
+   {"sheet_row": 1141, "vida_util_anos": null, "vida_util_citacao": "nao declarada como premissa; resumo p.1 so diz genericamente 'usually more than 50 years'"}
+  ]},
+ {"row_id": 3932, "lido": "integral (texto completo percorrido; seccoes de metodo/ACV lidas por inteiro, tabelas de LCC percorridas por busca)",
+  "notas": "Betao de 30 MPa e o valor de 303 kg CO2-eq/m3 vem de Lee et al. 2009 (p.9-10); nao ha ensaio de resistencia, dimensao de provete nem norma de ensaio. Vida util 50 anos ja gravada (p.10: 'assuming a service life of 50 years for the railway tracks').",
+  "pares": [
+   {"sheet_row": 1146, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "p.10: '30 Mpa cement concrete' citado de Lee et al. 2009; sem ensaio nem norma de ensaio no artigo"}
+  ]},
+ {"row_id": 4027, "lido": "integral (texto completo 15 pp.)",
+  "notas": "Nota tecnica metodologica (hLCA); '100% OPC 50 MPa concrete' e '90% FA/10% GGBFS Geopolymer 50 MPa concrete' sao designacoes de sectores/tipos de betao herdadas de Teh et al. 2017 (p.10). Sem ensaio nem norma de ensaio.",
+  "pares": [
+   {"sheet_row": 1164, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "p.10: '100% OPC 50 MPa concrete' e tipo de betao do modelo, sem ensaio nem norma de ensaio"},
+   {"sheet_row": 2017, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "p.10: '90% FA/10% GGBFS Geopolymer 50 MPa concrete' e tipo de betao do modelo, sem ensaio nem norma de ensaio"}
+  ]}
+]
