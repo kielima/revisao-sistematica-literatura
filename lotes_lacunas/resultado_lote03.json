@@ -1,0 +1,320 @@
+[
+ {
+  "row_id": 3112,
+  "lido": "integral (texto completo ate as referencias)",
+  "notas": "Vida util sem valor numerico adoptado; ACV cradle-to-gate por 1 m3. Ensaio fck em cilindros 100x200 mm (ASTM C39), fck M3=40,6 e M4=42,2 MPa aos 28 d (Sec. 4.2). O betao Portland de 35 MPa e so o comparador da ACV (nao foi ensaiado no artigo).",
+  "pares": [
+   {
+    "sheet_row": 843,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado como numero: sec. 2.5.1 (p.3) diz so que 'the lifespan of all geopolymer concretes used in the study are assumed equal to conventional concrete (McLellan et al., 2011)' sem dar anos; a Introducao (p.1) cita genericamente 'Concrete pavements built with cement have a service life of 30-50 years' como contexto, nao adoptado como premissa da ACV (cradle-to-gate, UF 1 m3)",
+    "tipo_corpo_prova": null,
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 2097,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado como numero: sec. 2.5.1 (p.3) diz so que 'the lifespan of all geopolymer concretes used in the study are assumed equal to conventional concrete (McLellan et al., 2011)' sem dar anos; a Introducao (p.1) cita genericamente 'Concrete pavements built with cement have a service life of 30-50 years' como contexto, nao adoptado como premissa da ACV (cradle-to-gate, UF 1 m3)",
+    "tipo_corpo_prova": "cilindro 100x200 mm (ASTM C39)",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2098,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado como numero: sec. 2.5.1 (p.3) diz so que 'the lifespan of all geopolymer concretes used in the study are assumed equal to conventional concrete (McLellan et al., 2011)' sem dar anos; a Introducao (p.1) cita genericamente 'Concrete pavements built with cement have a service life of 30-50 years' como contexto, nao adoptado como premissa da ACV (cradle-to-gate, UF 1 m3)",
+    "tipo_corpo_prova": "cilindro 100x200 mm (ASTM C39)",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 3118,
+  "lido": "integral (texto + Fig. 3 renderizada a 600 dpi)",
+  "notas": "fcm = media de 3 prismas 40x40x160 mm (Sec. 3.2.2, p.198). Dispersao so em barras de erro na Fig. 3 (p.200), sem legenda sobre o tipo (DP presumido). Leitura grafica: barra REF 180 d ~44,8 MPa, topo da barra de erro ~48,9 MPa -> semiamplitude ~4,1 MPa (a barra e cinzenta clara, leitura com confianca media).",
+  "pares": [
+   {
+    "sheet_row": 845,
+    "ic_fck_valor": 4.1,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 3 p.200 (barra de erro REF aos 180 d, lida graficamente ~+/-4,1 MPa; tipo de barra nao declarado, assumido DP); n=3: 'average value of three samples for each mixture and curing period' (Sec. 3.2.2)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (Table 9, SimaPro/CML); sem dispersao",
+    "tipo_corpo_prova": "prisma 40x40x160 mm",
+    "idade_dias": 180
+   }
+  ]
+ },
+ {
+  "row_id": 3132,
+  "lido": "integral (texto + Fig. 5 renderizada a 800 dpi)",
+  "notas": "Dispersao so em barras de erro na Fig. 5 (p.7), tipo nao declarado (DP presumido); valores lidos graficamente (escala 0-60 MPa). As tres linhas sao a mistura de controlo V0 das classes C25, C30 e C40 (materiais iguais no banco; casadas pelo CO2 353/398/511 = C25/C30/C40). ATENCAO: o fck gravado (25/30/40) e a classe de projecto; a media medida de V0 na Fig. 5 e ~29,2 / ~34,6 / ~45,9 MPa.",
+  "pares": [
+   {
+    "sheet_row": 847,
+    "ic_fck_valor": 1.4,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 5 p.7, V0 classe C25: media ~29,2, barra ~+/-1,4 MPa (leitura grafica; tipo de barra nao declarado). n=3: 'An average of three tests was used' (Sec. 2.2, p.3); cubos 150 mm, BS EN 12390-3, 28 d",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ICE deterministico (Eq. 9, Fig. 8); sem dispersao",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 848,
+    "ic_fck_valor": 1.7,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 5 p.7, V0 classe C30: media ~34,6, barra ~+/-1,7 MPa (leitura grafica; tipo de barra nao declarado). n=3: 'An average of three tests was used' (Sec. 2.2, p.3); cubos 150 mm, BS EN 12390-3, 28 d",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ICE deterministico; sem dispersao",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 849,
+    "ic_fck_valor": 2.3,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 5 p.7, V0 classe C40: media ~45,9, barra ~+/-2,3 MPa (leitura grafica; tipo de barra nao declarado). n=3: 'An average of three tests was used' (Sec. 2.2, p.3); cubos 150 mm, BS EN 12390-3, 28 d",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ICE deterministico; sem dispersao",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 3139,
+  "lido": "integral (texto + Fig. 4 renderizada a 900 dpi)",
+  "notas": "Dispersao so em barras de erro na Fig. 4, sem legenda de tipo nem n; leitura grafica (escala 20 MPa por divisao) com confianca media. Na ACV a mistura GM20 aparece como 'GB50' (mesmo traco).",
+  "pares": [
+   {
+    "sheet_row": 855,
+    "ic_fck_valor": 2.8,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": null,
+    "ic_fck_citacao": "Fig. 4 p.5 (barras de erro, 28 d); tipo de barra e n de replicas nao declarados no artigo (Sec. 3.4 so diz cubos 51 mm, ASTM C109); Control 28 d 134,2 MPa, barra ~+/-2,8 MPa",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Eq. 3 + Table 5, deterministico; sem dispersao"
+   },
+   {
+    "sheet_row": 856,
+    "ic_fck_valor": 3.1,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": null,
+    "ic_fck_citacao": "Fig. 4 p.5 (barras de erro, 28 d); tipo de barra e n de replicas nao declarados no artigo (Sec. 3.4 so diz cubos 51 mm, ASTM C109); GM20 28 d 127,6 MPa, barra ~+/-3,1 MPa",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "deterministico; sem dispersao"
+   },
+   {
+    "sheet_row": 857,
+    "ic_fck_valor": 2.5,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": null,
+    "ic_fck_citacao": "Fig. 4 p.5 (barras de erro, 28 d); tipo de barra e n de replicas nao declarados no artigo (Sec. 3.4 so diz cubos 51 mm, ASTM C109); L0 28 d 118,3 MPa, barra ~+/-2,5 MPa",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "deterministico; sem dispersao"
+   }
+  ]
+ },
+ {
+  "row_id": 3152,
+  "lido": "integral",
+  "notas": "Sem vida util. Os fck (Table 1, 7 e 28 d) nao foram ensaiados pelos autores: vem de Sodupe et al. [20] ('The samples analyzed in this study were obtained from results developed previously by Sodupe et al.'); sem dimensao de provete no artigo. CO2 gravado 270/292 = cenario E1 (Table 12).",
+  "pares": [
+   {
+    "sheet_row": 867,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro: ACV cradle-to-gate (A1-A3) por 1 m3; Sec. 3.3 so diz 'it is assumed that the evaluated mortars behavior will remain adequate throughout their lifetime', sem anos"
+   },
+   {
+    "sheet_row": 868,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro: ACV cradle-to-gate (A1-A3) por 1 m3; Sec. 3.3 so diz 'it is assumed that the evaluated mortars behavior will remain adequate throughout their lifetime', sem anos"
+   }
+  ]
+ },
+ {
+  "row_id": 3153,
+  "lido": "integral (texto completo ate as referencias)",
+  "notas": "FG (FA+GGBFS) 57,06 MPa = CS aos 28 d em cubos 150 mm (IS 516:2004), Table 4. O OPC 58,70 MPa (Table 7) e um traco de referencia retirado de outro estudo [87]; o artigo nao da o corpo de prova desse ensaio. Colunas 150x150x800 mm sao os elementos do ensaio axial, nao a fonte do fck.",
+  "pares": [
+   {
+    "sheet_row": 869,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cubical specimens of size 150 x 150 mm following IS 516:2004 are made to investigate the compressive strength'; Table 4 (28-d strength FG 57,06 MPa)",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1934,
+    "vol_corpo_prova_m3": null,
+    "vol_corpo_prova_fonte": "indisponivel",
+    "vol_corpo_prova_citacao": "Table 7 p.17: coluna 'OPC [87]', 28 days CS 58,70 MPa, dado de estudo externo; corpo de prova nao declarado no artigo",
+    "tipo_corpo_prova": null,
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 3162,
+  "lido": "integral (texto completo ate as referencias)",
+  "notas": "Table 1 (p.3) da fcm,cube do betao CSA com DP entre parenteses, 3 cubos de 150 mm por idade (UNI EN 12390-3): 15 d = 57 (1,99). O betao OPC/CEM IV de 48 MPa (Table 3/5, 28 d) nao tem DP nem n declarados. Nota: o vol_atual 1,33 m3 gravado e o volume da aduela (Table 8 nota c), nao do corpo de prova do fck (cubo 150 mm = 0,003375).",
+  "pares": [
+   {
+    "sheet_row": 1935,
+    "ic_fck_valor": 1.99,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Table 1 p.3: 'Compressive strength (fcm,cube) 15 days 57 (1.99)'; 'on three 150 mm side cubic samples for each fixed time... standard deviation, in brackets'",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV SimaPro EN 15804+A2 deterministica (Table 9); sem dispersao",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 15
+   },
+   {
+    "sheet_row": 1936,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao declarado: Table 3/5 so dao fcm,cube = 48 MPa para OPC/Steel aos 28 d, sem DP nem n",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica; sem dispersao",
+    "tipo_corpo_prova": "cubo",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 3176,
+  "lido": "integral (texto completo ate as referencias)",
+  "notas": "Cubos 50 mm para compressao em todas as misturas da fase 2. Idade de ensaio nao declarada (cura 24 h a 80 C). Extra (nao pedido): Table 4 traz DP por mistura (control 0,77; 5A 0,56; 5R 0,39; 10A 0,91; 10R 1,16; 15A 1,19; 15R 0,96; 20A 1,57; 20R 0,91; 30A 3,95; 30R 0,60; 40A 1,03; 40R 0,66 MPa), n=3.",
+  "pares": [
+   {
+    "sheet_row": 886,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1937,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1938,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1939,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1940,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1941,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1942,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1943,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1944,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1945,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1946,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1947,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1948,
+    "vol_corpo_prova_m3": 0.000125,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec. 2.2 p.3: 'cast specimens with dimensions of 50 mm x 50 mm x 50 mm and 40 mm x 40 mm x 160 mm in order to perform the compressive and flexural strength tests'; ASTM C109; media de 3 provetes",
+    "tipo_corpo_prova": "cubo 50 mm",
+    "idade_dias": null
+   }
+  ]
+ }
+]
