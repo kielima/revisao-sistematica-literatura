@@ -1,0 +1,616 @@
+[
+ {
+  "row_id": 2801,
+  "lido": "integral (dissertacao 138 p.; texto termina no anexo/questionario da p.138, sem sinal de truncamento)",
+  "notas": "A unidade funcional (p.69) e '1,312 m2 de painel que cumpre a funcao de vedacao vertical pelo tempo minimo estabelecido pela ABNT NBR 15575/13', mas o numero de anos NUNCA e impresso; a autora diz explicitamente que o estudo (berco ao portao) 'nao engloba a avaliacao do tempo de vida util'. Nao se inferiu o valor da norma (VUP minima de vedacao vertical externa na NBR 15575 = 40 anos; estrutura = 50) por nao estar declarado.",
+  "pares": [
+   {
+    "sheet_row": 234,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado em anos: p.69 'Unidade funcional: 1,312m2 de painel que cumpre a funcao de vedacao vertical pelo tempo minimo estabelecido pela ABNT: NBR 15575/13' + 'este estudo nao engloba a avaliacao do tempo de vida util' (valor da norma nao impresso)"
+   }
+  ]
+ },
+ {
+  "row_id": 2895,
+  "lido": "integral (texto); figura 10 NAO renderizada - download_file_content falhou 'session expired' duas vezes (armadilha n.8)",
+  "notas": "fck (42,2/44,9/41,1/39,1) nao esta impresso no texto: vem da Fig.10 (media aos 28 d, 3 cubos por idade). A Fig.10 tem barras de desvio padrao, mas nao foi possivel renderiza-la; valor numerico nao impresso em lado nenhum. Volume: cubo 150 mm (EN 12390-3).",
+  "pares": [
+   {
+    "sheet_row": 786,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.10 p.12 'Average compressive strength (and corresponding standard deviation)'; sec.2.5.4 p.4 '18 cubes of 150 mm side ... (3 for each curing time)'. Valor so em barra de erro da figura; PDF nao descarregavel (session expired) para leitura grafica",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro/Ecoinvent), sem dispersao",
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.5.4 p.4: '18 cubes of 150 mm side were cast for each batch ... EN 12390-3'",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 787,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.10 p.12 'Average compressive strength (and corresponding standard deviation)'; sec.2.5.4 p.4 '18 cubes of 150 mm side ... (3 for each curing time)'. Valor so em barra de erro da figura; PDF nao descarregavel (session expired) para leitura grafica",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro/Ecoinvent), sem dispersao",
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.5.4 p.4: '18 cubes of 150 mm side were cast for each batch ... EN 12390-3'",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 788,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.10 p.12 'Average compressive strength (and corresponding standard deviation)'; sec.2.5.4 p.4 '18 cubes of 150 mm side ... (3 for each curing time)'. Valor so em barra de erro da figura; PDF nao descarregavel (session expired) para leitura grafica",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro/Ecoinvent), sem dispersao",
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.5.4 p.4: '18 cubes of 150 mm side were cast for each batch ... EN 12390-3'",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 789,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.10 p.12 'Average compressive strength (and corresponding standard deviation)'; sec.2.5.4 p.4 '18 cubes of 150 mm side ... (3 for each curing time)'. Valor so em barra de erro da figura; PDF nao descarregavel (session expired) para leitura grafica",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro/Ecoinvent), sem dispersao",
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.5.4 p.4: '18 cubes of 150 mm side were cast for each batch ... EN 12390-3'",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 2951,
+  "lido": "integral (texto) + Fig.9 renderizada (600 dpi)",
+  "notas": "ATENCAO: o fck gravado (65 MPa) e a resistencia-ALVO de projecto do CM ('designed ... to attain compressive strength of 65 MPa at 28 days', p.6), nao a medida: na Fig.9a o CM (NWF0/MS0) mede ~71 MPa aos 28 d. O DP lido refere-se a essa barra medida. Corpo de prova: cubo 100 mm (o texto cita ASTM C39 mas diz '100 mm cubical samples').",
+  "pares": [
+   {
+    "sheet_row": 801,
+    "ic_fck_valor": 2.1,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.9a p.8 (28 d), barra NWF0/MS0 (CM): media ~71,3 MPa, barra de erro ~69,2-73,4 MPa => DP ~2,1 MPa (leitura grafica a 600 dpi, incerteza ~+-0,3 MPa); p.6 'three replicate samples ... average value with standard deviation (in error bars)'",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (Eq.2), sem dispersao",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 2999,
+  "lido": "integral (texto) + Fig.2 renderizada (200 e 500 dpi)",
+  "notas": "Os fck gravados (1903-1921) batem com a leitura da Fig.2 aos 28 d (ex.: CC-FW ~42,5; CS20F10-FW ~65) -> idade 28 d. Todos os traços: cubo 100 mm, 3 replicas. A linha 249 e legada/agregada (fck 56, idade 7 registada) e nao casa com um traco: so o volume (comum a todos os tracos) e aplicavel.",
+  "pares": [
+   {
+    "sheet_row": 249,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "linha legada agregada ('varias composicoes'), fck 56 nao casavel a um traco/idade especifico; Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": null
+   },
+   {
+    "sheet_row": 1903,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1904,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1905,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1906,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1907,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1908,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1909,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1910,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1911,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1912,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1913,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1914,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1915,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1916,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1917,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1918,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1919,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1920,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1921,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.2 p.5 barras de erro (sec.3.2.1 'Three replicates ... The mean and the standard deviation values are reported'); DP nao impresso; barras pequenas (~0,5-2 MPa) e sobrepostas entre curvas FW/SW aos 28 d - nao legiveis com seguranca por traco",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro, EF 3.1), sem dispersao",
+    "vol_corpo_prova_m3": 0.001,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.3.2.1 p.4: 'Concrete cubes of size 100 mm ... load rate complied with EN 12390-3'",
+    "tipo_corpo_prova": "cubo 100 mm",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 3017,
+  "lido": "integral (texto); Fig.3 NAO renderizada - download_file_content falhou 'session expired' (armadilha n.8)",
+  "notas": "O par gravado (fck 55, CO2 480) e uma linha agregada 'WSA, RHA' que nao identifica o traco (CTRL, 5%/15% M- ou C-WSA/RHA); os valores de fck nao estao impressos no texto (Fig.3 e SI). Nao e possivel casar um DP com seguranca. O artigo mede DP: Fig.3 'Error bars show one standard deviation. (n = 5)', cubos 51 mm ASTM C109.",
+  "pares": [
+   {
+    "sheet_row": 259,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 5,
+    "ic_fck_citacao": "Fig.3 p.8 'Error bars show one standard deviation. (n = 5)'; sec.3.4 'mean of five specimens'. Valor nao impresso (tabulado so no SI) e par agregado nao casavel a um traco; PDF nao descarregavel para leitura grafica",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica, sem dispersao por traco",
+    "tipo_corpo_prova": "cubo 51 mm (ASTM C109)",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 3034,
+  "lido": "integral (texto)",
+  "notas": "fck = classe de projecto '4000 psi' dos submittals LEED; CO2 com traco medio NRMCA. Nao ha ensaio nem norma de ensaio citada (a unica ASTM citada e a classificacao de elementos). A massa de betao do edificio so aparece no fluxo de massa da Fig.2/Fig.10, sem separar NW e LW nem dar volume - nao convertivel com seguranca.",
+  "pares": [
+   {
+    "sheet_row": 812,
+    "vol_corpo_prova_m3": null,
+    "vol_corpo_prova_fonte": "indisponivel",
+    "vol_corpo_prova_citacao": "sec.2.4.1 p.4-5: 'majority of NW and LW concrete used in the library has a strength of 4000 psi' (classe de projecto; sem ensaio, sem dimensao de provete, sem norma de ensaio citada)"
+   }
+  ]
+ },
+ {
+  "row_id": 3068,
+  "lido": "integral (texto)",
+  "notas": "Nenhuma vida util de projecto em anos. O artigo usa indices de durabilidade (coeficientes de carbonatacao e cloretos, indices A de Gettu et al.) como proxy de vida util, sem fixar anos; carbonatacao natural medida apos 36 meses (idade de exposicao, nao vida util).",
+  "pares": [
+   {
+    "sheet_row": 285,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 286,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 287,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 288,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 289,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 290,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 291,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 292,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 293,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 294,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 295,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   },
+   {
+    "sheet_row": 296,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so indices de durabilidade (kc, Dnssm, Eq.6-7) 'correlated to service life' sem valor em anos"
+   }
+  ]
+ },
+ {
+  "row_id": 3105,
+  "lido": "integral (texto)",
+  "notas": "Pastas alcali-activadas; compressao medida em cubos 20x20x20 mm (3 replicas). fck gravados nao estao impressos no texto (Fig.15/21); idade do par nao determinavel com seguranca (ensaios a 2, 7, 35 e 90 d).",
+  "pares": [
+   {
+    "sheet_row": 1922,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1923,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1924,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1925,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1926,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1927,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1928,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1929,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1930,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1931,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   },
+   {
+    "sheet_row": 1932,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "sec.2.2 p.3: 'stainless steel moulds with 20.20.20 mm3 (for compressive strength testing)'; 'measured on 3 replicate cubes'",
+    "tipo_corpo_prova": "cubo 20 mm (pasta)"
+   }
+  ]
+ }
+]
