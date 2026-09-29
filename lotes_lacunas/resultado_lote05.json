@@ -1,0 +1,68 @@
+[
+ {"row_id": 3348, "lido": "integral quanto ao programa experimental proprio (sec. 6, pp. 9-12, texto + Fig. 10 conferida); sec. 1-5 sao revisao de literatura, percorridas por pesquisa de termos (sem dispersao propria)",
+  "notas": "Fig. 10 imprime por idade 'MPa ; CoV' para cada traco. 28 d: Control 32,9 MPa; 7,2 % | Control + Loose Hemp 31,8 MPa; 5,8 %. Numero de replicas por ensaio de compressao nao declarado (so '54 specimens for each of the control and hemp-based concrete mixes' no total de flexao+compressao+modulo). Nota lateral: o texto escreve cubos '100x100x500mm' (gralha do artigo; o volume gravado de cubo 100 mm continua coerente).",
+  "pares": [
+   {"sheet_row": 364, "ic_fck_valor": 7.2, "ic_fck_tipo": "cv_percentual", "ic_fck_n": null, "ic_fck_citacao": "Fig. 10, p.11: '32.9 MPa ; 7.2 %' (legenda: Compressive strength at 7, 14 and 28 days of curing (MPa, CoV)); n por idade nao declarado",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "CO2 deterministico (Table 5, ICE); sem dispersao propria",
+    "tipo_corpo_prova": "cubo 100 mm", "idade_dias": 28},
+   {"sheet_row": 365, "ic_fck_valor": 5.8, "ic_fck_tipo": "cv_percentual", "ic_fck_n": null, "ic_fck_citacao": "Fig. 10, p.11: '31.8 MPa ; 5.8 %' (Control Mix + Loose Hemp Fibers, 28 d, MPa; CoV)",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "CO2 deterministico; o intervalo -1 a -2,9 kg CO2eq/kg de canhamo e cenario de factor citado, nao dispersao medida",
+    "tipo_corpo_prova": "cubo 100 mm", "idade_dias": 28}
+  ]},
+ {"row_id": 3359, "lido": "integral (texto completo, incl. Tab. 1-7)",
+  "notas": "Betao 25 MPa e classe de projecto assumida (sec. 2.4), sem ensaio: nao ha dispersao de fck. A unica dispersao de CO2 do artigo e a Table 1 (Monte Carlo com variancias Ecoinvent): GWP de 1 m linear de muro de 7 m, ex. muro de contrafortes 1390 kg CO2eq, CV 7,14 %, P5-P95 1233-1558. Refere-se ao muro inteiro (betao+aco+transporte+maquinaria...), NAO ao factor de 248 kg CO2eq/m3 do betao (Table 6, sem incerteza). Nao preenchido por nao casar com o par.",
+  "pares": [
+   {"sheet_row": 1998, "ic_fck_valor": null, "ic_fck_tipo": null, "ic_fck_n": null, "ic_fck_citacao": "nao existe: 25 MPa e grau de projecto assumido (sec. 2.4, p.3), sem ensaio",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "Table 6 (factor 2,48E+02 kg CO2-Eq/m3) sem incerteza. Table 1 (p.3) da CV 7,14 % e P5-P95 so para o GWP do muro de 7 m por metro linear (sistema completo) - nao aplicavel ao factor por m3 de betao"}
+  ]},
+ {"row_id": 3399, "lido": "integral (texto completo) + Figs. 4 e 5 renderizadas (p.8, 400 dpi)",
+  "notas": "fck = resistencias-alvo de misturas NRMCA (Table 3), sem ensaio nem dispersao. O CO2 e probabilistico (Monte Carlo, n = 10.000 iteracoes), mas a dispersao so aparece em boxplots (Fig. 4 e 5: caixa = IQR 25-75 %, bigodes = 1,5 x IQR) sem numeros impressos; so as medias 174,8 e 144,8 estao no texto. Leitura aproximada da Fig. 4 (Mix 1, 21 MPa, erro de leitura ~+-5 kg): sem cinza (azul) mediana ~172, IQR ~152-194; 20 % cinza (cinzento) mediana ~142, IQR ~125-160 kg CO2e/m3. Nao dei valor por ser IQR (tipo fora da lista) lido so no grafico. Atencao: as legendas das Figs. 4 e 5 trocam as cores (Fig.4 cinzento=20% FA; Fig.5 cinzento=No FA); a atribuicao acima segue a Fig. 4, coerente com as medias.",
+  "pares": [
+   {"sheet_row": 407, "ic_fck_valor": null, "ic_fck_tipo": null, "ic_fck_n": null, "ic_fck_citacao": "nao existe: 21 MPa e resistencia-alvo da mistura NRMCA (Table 3, p.8), sem ensaio",
+    "ic_co2_valor": null, "ic_co2_tipo": "ic_declarado", "ic_co2_n": null, "ic_co2_citacao": "Fig. 4 e Fig. 5 (p.8): boxplot Monte Carlo (n=10.000 iteracoes, sec. 2.1.5), IQR + bigodes 1,5xIQR, sem numeros impressos; leitura aproximada Mix 1a (No FA): IQR ~152-194 kg CO2e/m3, mediana ~172 (media 174,8 no texto p.9). Valor nao preenchido: so grafico e tipo IQR"},
+   {"sheet_row": 408, "ic_fck_valor": null, "ic_fck_tipo": null, "ic_fck_n": null, "ic_fck_citacao": "nao existe: 21 MPa e resistencia-alvo da mistura NRMCA (Table 3, p.8), sem ensaio",
+    "ic_co2_valor": null, "ic_co2_tipo": "ic_declarado", "ic_co2_n": null, "ic_co2_citacao": "Fig. 4 e Fig. 5 (p.8): boxplot Monte Carlo (n=10.000 iteracoes), sem numeros impressos; leitura aproximada Mix 1b (20% FA): IQR ~125-160 kg CO2e/m3, mediana ~142 (media 144,8 no texto p.9). Valor nao preenchido: so grafico e tipo IQR"}
+  ]},
+ {"row_id": 3404, "lido": "integral (texto completo)",
+  "notas": "UF = 1 m3 de argamassa 52-60 MPa aos 28 d; sec. 2.2.1 diz apenas 'It is assumed that the scenarios will have similar applications with similar service life' e exclui uso e fim de vida. Nenhum numero de anos em lado nenhum. Resistencias vem da literatura (Yang 2010, Tong 2018, Vinai & Soutsos 2019); o artigo nao da tipo de corpo de prova.",
+  "pares": [
+   {"sheet_row": 987, "vida_util_anos": null, "vida_util_citacao": "nao declarado no artigo inteiro; sec. 2.2.1 (p.3) so assume 'similar service life' entre cenarios, sem valor; fases de uso/fim de vida excluidas"},
+   {"sheet_row": 988, "vida_util_anos": null, "vida_util_citacao": "idem: nao declarado (sec. 2.2.1, p.3)"},
+   {"sheet_row": 989, "vida_util_anos": null, "vida_util_citacao": "idem: nao declarado (sec. 2.2.1, p.3)"},
+   {"sheet_row": 990, "vida_util_anos": null, "vida_util_citacao": "idem: nao declarado (sec. 2.2.1, p.3)"}
+  ]},
+ {"row_id": 3413, "lido": "integral (texto completo) + Fig. 1 renderizada (p.5, 500 dpi)",
+  "notas": "Prismas 4x4x16 cm (UNE EN 196-1), 28 d. A dispersao so existe como barras de erro na Fig. 1, sem numeros, sem tipo declarado (DP presumido) e sem n. Leituras por escala de pixeis (incerteza de leitura ~+-0,5 MPa): OPC barra ~43,4, barra de erro ~+-1,7; AAS barra ~101, +-~3,8; Hybrid-slag ~41,9, +-~0,7; Hybrid-fly ash ~30,2, +-~2,7 MPa. ALERTA: o fck gravado da AAM-slag (110 MPa) vem do texto ('reaching a resistance value up to 110 MPa'), mas a barra da Fig. 1 marca ~101 MPa (topo da barra de erro ~105): o 110 parece ser um maximo/valor arredondado do texto, nao a media do grafico - rever o par 994.",
+  "pares": [
+   {"sheet_row": 993, "ic_fck_valor": 1.7, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig. 1 (p.5), barra de erro lida na figura renderizada (~+-1,7 MPa sobre barra ~43,4); tipo da barra nao declarado no artigo (DP presumido), n nao declarado; leitura aproximada +-0,5",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "CO2 deterministico (Table 4, SimaPro/Ecoinvent); sem dispersao",
+    "tipo_corpo_prova": "prisma 40x40x160 mm", "idade_dias": 28},
+   {"sheet_row": 994, "ic_fck_valor": 3.8, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig. 1 (p.5), barra de erro lida (~+-3,8 MPa sobre barra ~101 MPa, nao 110); tipo nao declarado (DP presumido), n nao declarado; leitura aproximada +-0,5",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "CO2 deterministico; sem dispersao",
+    "tipo_corpo_prova": "prisma 40x40x160 mm", "idade_dias": 28},
+   {"sheet_row": 996, "ic_fck_valor": 2.7, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig. 1 (p.5), barra de erro lida (~+-2,7 MPa sobre barra ~30,2); tipo nao declarado (DP presumido), n nao declarado; leitura aproximada +-0,5",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "CO2 deterministico; sem dispersao",
+    "tipo_corpo_prova": "prisma 40x40x160 mm", "idade_dias": 28}
+  ]},
+ {"row_id": 3439, "lido": "integral (texto completo)",
+  "notas": "35 e 78 MPa sao resistencias aos 28 d dos tracos de impressao 3D tiradas da literatura (Fig. 3; Al-Chaar 2018, Wang 2022, Chen 2021, Liu 2022) e o 35 MPa ready-mix vem da EPD CalPortland 2020; o artigo nao ensaia nada nem cita norma de ensaio - nenhum corpo de prova. Volumes de betao dos elementos reais (Table 3, p.4) existem mas o fck nao foi medido neles: torre 78-MPa impressa 1.928 m3; torre 35-MPa impressa 2.301 m3; torre 3D Cast 1.025 m3 impresso (78 MPa) + 1.574 m3 ready-mix (35 MPa). Deixo como indisponivel; fica a informacao caso se queira a regra 'total / volume do elemento'.",
+  "pares": [
+   {"sheet_row": 1006, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "sem ensaio nem norma citada; fck 35 MPa da literatura (Fig. 3, p.6). Volume da torre: 2.301 m3 de betao impresso (Table 3, p.4)", "idade_dias": 28},
+   {"sheet_row": 1007, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "sem ensaio nem norma citada; fck 78 MPa da literatura (Fig. 3, p.6). Volume da torre: 1.928 m3 de betao impresso (Table 3, p.4)", "idade_dias": 28},
+   {"sheet_row": 1999, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "ready-mix 35 MPa da EPD CalPortland 2020 (p.6), sem ensaio; volume na torre 3D Cast: 1.574 m3 (Table 3, p.4)"}
+  ]},
+ {"row_id": 3443, "lido": "integral (texto completo)",
+  "notas": "Nao ha vida util de projecto declarada como premissa. A vida util (SL) e uma VARIAVEL DE SAIDA da optimizacao (Eq. 3, recobrimento/carbonatacao, 'the most critical among all the elements'), por solucao de edificio e nao por classe de betao: projecto tradicional 215 anos; solucoes optimizadas 1.420-1.640 anos (Tables 3-4). O proprio texto diz 'the structure is not designed for that period'. Nao atribuivel aos pares 30/35/40/45 MPa.",
+  "pares": [
+   {"sheet_row": 1009, "vida_util_anos": null, "vida_util_citacao": "nao declarada como premissa; SL calculada por solucao (Eq. 3, p.3; Table 4, p.9: 215 anos tradicional, 1420-1640 optimizadas), nao por classe de betao"},
+   {"sheet_row": 1010, "vida_util_anos": null, "vida_util_citacao": "idem (SL e saida da optimizacao, Table 4)"},
+   {"sheet_row": 1011, "vida_util_anos": null, "vida_util_citacao": "idem (SL e saida da optimizacao, Table 4)"},
+   {"sheet_row": 1012, "vida_util_anos": null, "vida_util_citacao": "idem (SL e saida da optimizacao, Table 4)"}
+  ]},
+ {"row_id": 3449, "lido": "integral (texto completo)",
+  "notas": "ACV exclui uso e fim de vida do sistema novo (modulos B1-7, C1-4; sec. 2, p.5). So se diz que 'the new systems are designed for the same expected service duration as new RC slabs' (sec. 4, p.10), sem numero. Nota: o comparador parametrico usa C25/30 com 18/20/22 cm por vao; o caso de estudo usa C30/37, 18 cm (vao 3 m) e 20 cm (vao 6 m) - coerente com os pares gravados.",
+  "pares": [
+   {"sheet_row": 1013, "vida_util_anos": null, "vida_util_citacao": "nao declarada em anos; fase de uso excluida (sec. 2, p.5); so 'same expected service duration as new RC slabs' (p.10)"},
+   {"sheet_row": 2000, "vida_util_anos": null, "vida_util_citacao": "idem: nao declarada em anos (p.5 e p.10)"}
+  ]}
+]
