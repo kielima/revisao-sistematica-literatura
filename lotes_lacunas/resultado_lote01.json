@@ -1,0 +1,72 @@
+[
+ {"row_id": 2586, "lido": "integral (texto completo, 18 p., incl. tabelas e figuras 2-4 em texto)",
+  "notas": "ACV de fim de vida (C1-C3) de betao armado com carbono; UF = 1 kg de material reutilizavel. O par C30/37 (30,6 kg CO2e/m3 do agregado) e um calculo lateral (sec. 4.4) sem vida util propria. Os unicos anos no artigo sao citacoes na introducao: CRC 'estimated 100 years [15]', betao armado '40-80 years [8,12,14]', 'most studies ... 50 years [16,17]' — nenhum adoptado como premissa da analise.",
+  "pares": [{"sheet_row": 4, "vida_util_anos": null,
+   "vida_util_citacao": "nao declarada como premissa propria; p.2 so cita literatura (CRC ~100 anos [15]; betao armado 40-80 anos [8,12,14]); a ACV e de fim de vida por kg, sem periodo de analise"}]},
+
+ {"row_id": 2599, "lido": "integral (10 p.)",
+  "notas": "fck do par (80 MPa) vem de frase generica p.4: 'compressive strength for all mortars, after 28 days of curing were above 50 MPa at dry state curing and 80 MPa at moist condition curing'. Nao ha dimensao de provete nem norma de ensaio citada no artigo inteiro (os ensaios estao num estudo anterior, ref. [25]). Idade 28 d explicita.",
+  "pares": [{"sheet_row": 613, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel",
+   "vol_corpo_prova_citacao": "p.4 so diz 'after 28 days of curing ... above 50 MPa ... 80 MPa'; nenhuma dimensao nem norma de ensaio no artigo inteiro",
+   "tipo_corpo_prova": null, "idade_dias": 28}]},
+
+ {"row_id": 2624, "lido": "integral (19 p.)",
+  "notas": "Unica vida util declarada: p.7 'the expected service life of CLT panels is taken as equal to 50 years, according to the reference EPD [31]' — e para os paineis de CLT, nao para o betao C30/37 do par. Nada sobre a vida util da laje/estrutura ou do betao. Deixado null por prudencia; se a Kie aceitar a vida util do componente de madeira como a do elemento composto, o valor seria 50.",
+  "pares": [{"sheet_row": 115, "vida_util_anos": null,
+   "vida_util_citacao": "p.7: 'expected service life of CLT panels is taken as equal to 50 years' (so CLT, via EPD); nenhuma vida util declarada para o betao nem para a laje TCC"}]},
+
+ {"row_id": 2687, "lido": "integral (13 p.)",
+  "notas": "A unica dispersao impressa e a Tab.2 'average (standard deviation)' do PE-UHPFRC (fc 120 (2.6) MPa, 3 cilindros) — nao pertence ao par P-RC (classe de projecto C30/37, sem ensaio). CO2 deterministico (SimaPro/Ecoinvent).",
+  "pares": [{"sheet_row": 1855, "ic_fck_valor": null, "ic_fck_tipo": null, "ic_fck_n": null,
+   "ic_fck_citacao": "nao existe para o P-RC: e classe de projecto C30/37 (Tab.5), sem ensaio; o DP 2.6 MPa da Tab.2 e do PE-UHPFRC, outra mistura",
+   "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "ACV deterministica, sem dispersao"}]},
+
+ {"row_id": 2696, "lido": "integral (27 p. versao aceite, ate referencias)",
+  "notas": "p.12: 'All the designs are assumed to have similar design life, considering similar durability aspects' — sem valor numerico. ACV cradle-to-gate A1-A3.",
+  "pares": [
+   {"sheet_row": 656, "vida_util_anos": null, "vida_util_citacao": "p.12 so diz 'similar design life' sem numero; analise A1-A3 sem periodo"},
+   {"sheet_row": 657, "vida_util_anos": null, "vida_util_citacao": "idem (C32/40 pos-tensionado)"}]},
+
+ {"row_id": 2714, "lido": "integral em texto (19 p.); figuras NAO renderizadas — PDF acima de 10 MB, download_file_content recusou",
+  "notas": "Sec.3.1: 'average of six cubic specimens ... Strength results ranged between 23.1 and 66.2 MPa with a maximum deviation of ±6 MPa' — so um maximo global para as 81 misturas, nao por mistura. A Fig.6 pode ter barras de erro por mistura mas nao foi possivel ver (PDF >10 MB). CASO INCOMUM: o par tem idade_dias=28, mas os provetes foram curados 72 h a 105-125 C e ensaiados apos essa cura ('66.2 MPa after 72-h heat curing', Conclusoes); nao ha ensaio aos 28 d para as argamassas geopolimericas (os 28 d do artigo sao so da argamassa PCF de controlo). Idade real provavel = 3 d; convem corrigir. Volume 0,000125 (cubo 50 mm, sec.2.3) confirmado.",
+  "pares": [
+   {"sheet_row": 670, "ic_fck_valor": null, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": 6,
+    "ic_fck_citacao": "sec.3.1/Fig.6: media de 6 cubos; so 'maximum deviation of ±6 MPa' global para todas as misturas; valor por mistura so possivelmente em barras da Fig.6, nao vistas (PDF >10 MB)",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "ACV deterministica (SimaPro/TRACI), sem dispersao"},
+   {"sheet_row": 671, "ic_fck_valor": null, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": 6,
+    "ic_fck_citacao": "idem; RT-C-15-0.45 = 66,2 MPa (sec.3.1.3)",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "ACV deterministica"},
+   {"sheet_row": 672, "ic_fck_valor": null, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": 6,
+    "ic_fck_citacao": "idem; RT-C-19-0.45 = 61,9 MPa (sec.3.1.3)",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "ACV deterministica"}]},
+
+ {"row_id": 2721, "lido": "integral (17 p.) + Fig.4 renderizada a 500 dpi e medida por pixel",
+  "notas": "Nenhum ± no texto nem nas tabelas (Tab.8 so medias). A Fig.4a-c (cubos 100 mm, 7 d e 28 d) tem barras de erro simetricas sobre as barras dos 28 d. O tipo de barra NAO e declarado (sem legenda nem texto); registado como desvio_padrao por ser o uso habitual, mas pode ser outro tipo. Os valores sao meias-amplitudes medidas: escala calibrada pelas marcas do eixo (13,7 / 13,6 / 12,2 px por MPa nos paineis a/b/c a 500 dpi); o centro medido de cada barra bate com o fck da Tab.8 com erro <=0,13 MPa, o que valida a calibracao; precisao estimada ±0,2 MPa. n: 'Nine cube specimens ... for each group' ensaiados aos 7 e 28 d — nao se diz quantos por idade, portanto n=null.",
+  "pares": [
+   {"sheet_row": 675, "ic_fck_valor": 1.9, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4a, barra de erro 28 d da mistura 1-1 (meia-amplitude medida ~1,9 MPa; tipo de barra nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "calculo deterministico por fatores (Tab.10)"},
+   {"sheet_row": 676, "ic_fck_valor": 2.7, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4a, 1-2, 28 d (~2,7 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 677, "ic_fck_valor": 2.3, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4a, 1-3, 28 d (~2,3 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 678, "ic_fck_valor": 1.3, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4a, 1-4, 28 d (~1,3 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 679, "ic_fck_valor": 1.0, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4a, 1-5, 28 d (~1,0 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 680, "ic_fck_valor": 1.7, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4b, 2-1, 28 d (~1,7 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 681, "ic_fck_valor": 2.5, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4b, 2-2, 28 d (~2,5 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 682, "ic_fck_valor": 2.4, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4b, 2-3, 28 d (~2,4 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 683, "ic_fck_valor": 1.1, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4b, 2-4, 28 d (~1,1 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 684, "ic_fck_valor": 1.3, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4b, 2-5, 28 d (~1,3 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 685, "ic_fck_valor": 1.6, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4c, 3-1, 28 d (~1,6 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 686, "ic_fck_valor": 2.4, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4c, 3-2, 28 d (~2,4 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 687, "ic_fck_valor": 3.1, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4c, 3-3, 28 d (~3,1 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 688, "ic_fck_valor": 1.9, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4c, 3-4, 28 d (~1,9 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"},
+   {"sheet_row": 689, "ic_fck_valor": 2.3, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig.4c, 3-5, 28 d (~2,3 MPa; tipo nao declarado)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministico"}]},
+
+ {"row_id": 2755, "lido": "integral em texto (22 p.); figuras NAO renderizadas — PDF acima de 10 MB, download_file_content recusou",
+  "notas": "Sec.3: 'three identical specimens were prepared and tested for each mix ... The results' standard deviation (SD) was also calculated and reported for each type of specimen' — mas nenhum DP aparece no texto nem nas tabelas; so pode estar em barras de erro da Fig.5 (resistencia a compressao), que nao pude ver. Vida util: a ACV (Tab.4) inclui 'Usage Phase' e fala em 'extended lifespan', mas nunca da um numero de anos. CASO INCOMUM (volume, fora do pedido): a sec.4.2.2 diz 'Cylindrical samples with a diameter of Ø20 mm and a height of 100 mm' para a compressao (provavel gralha; os outros ensaios usam 100x200 mm e o ASTM C39); o volume gravado (0,0015708 = 100x200) nao corresponde ao texto literal da compressao — convem rever.",
+  "pares": [
+   {"sheet_row": 187, "vida_util_anos": null, "vida_util_citacao": "nao declarada em anos; so 'longer lifespan' qualitativo (sec.6, Tab.4 'Usage Phase')",
+    "ic_fck_valor": null, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": 3, "ic_fck_citacao": "sec.3: 3 provetes por mistura e DP 'reported'; nao impresso no texto/tabelas; provavelmente barras da Fig.5, nao vistas (PDF >10 MB)",
+    "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "ACV deterministica (Tab.4)", "tipo_corpo_prova": "cilindro (texto: 'Ø20 mm x 100 mm' — provavel gralha; ver notas)"},
+   {"sheet_row": 188, "vida_util_anos": null, "vida_util_citacao": "idem", "ic_fck_valor": null, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": 3, "ic_fck_citacao": "idem (M1-URCF-5)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministica", "tipo_corpo_prova": "cilindro (ver notas)"},
+   {"sheet_row": 189, "vida_util_anos": null, "vida_util_citacao": "idem", "ic_fck_valor": null, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": 3, "ic_fck_citacao": "idem (M5-URCF-25)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministica", "tipo_corpo_prova": "cilindro (ver notas)"},
+   {"sheet_row": 190, "vida_util_anos": null, "vida_util_citacao": "idem", "ic_fck_valor": null, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": 3, "ic_fck_citacao": "idem (M6-CRCF-5)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministica", "tipo_corpo_prova": "cilindro (ver notas)"},
+   {"sheet_row": 191, "vida_util_anos": null, "vida_util_citacao": "idem", "ic_fck_valor": null, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": 3, "ic_fck_citacao": "idem (M9-CRCF-20)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "deterministica", "tipo_corpo_prova": "cilindro (ver notas)"}]}
+]

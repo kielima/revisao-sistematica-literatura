@@ -1,0 +1,554 @@
+[
+ {
+  "row_id": 4033,
+  "lido": "integral (texto completo das 18 pp.; referencias percorridas)",
+  "notas": "Cubo 40 mm = 0,000064 m3 (nao esta na lista de referencia do PROMPT; 0,04^3). Os fck 28 d de D10-P5 (48,9), D10-P10 (36,5), D10-P15 (29,5) estao no texto p.6; D15-P5, D20-P10 so em figura (Fig.4) - nao reverificados aqui, fora do ambito. O texto diz 'paste' para o molde mas o ensaio de compressao e de argamassa (Tab.2, s/b 2,0); mesmo molde.",
+  "pares": [
+   {
+    "sheet_row": 553,
+    "vol_corpo_prova_m3": 6.4e-05,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "p.4 'The paste was poured into cubic molds with dimensions of 40 mm x 40 mm x 40 mm ... cured ... until 3, 7, and 28 days'; resistencia aos 28 d (p.6, Fig.4); unico molde de ensaio mecanico declarado (o cilindro phi100x50 e so do ensaio de cloretos)",
+    "tipo_corpo_prova": "cubo 40x40x40 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 554,
+    "vol_corpo_prova_m3": 6.4e-05,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "p.4 'The paste was poured into cubic molds with dimensions of 40 mm x 40 mm x 40 mm ... cured ... until 3, 7, and 28 days'; resistencia aos 28 d (p.6, Fig.4); unico molde de ensaio mecanico declarado (o cilindro phi100x50 e so do ensaio de cloretos)",
+    "tipo_corpo_prova": "cubo 40x40x40 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2018,
+    "vol_corpo_prova_m3": 6.4e-05,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "p.4 'The paste was poured into cubic molds with dimensions of 40 mm x 40 mm x 40 mm ... cured ... until 3, 7, and 28 days'; resistencia aos 28 d (p.6, Fig.4); unico molde de ensaio mecanico declarado (o cilindro phi100x50 e so do ensaio de cloretos)",
+    "tipo_corpo_prova": "cubo 40x40x40 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2019,
+    "vol_corpo_prova_m3": 6.4e-05,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "p.4 'The paste was poured into cubic molds with dimensions of 40 mm x 40 mm x 40 mm ... cured ... until 3, 7, and 28 days'; resistencia aos 28 d (p.6, Fig.4); unico molde de ensaio mecanico declarado (o cilindro phi100x50 e so do ensaio de cloretos)",
+    "tipo_corpo_prova": "cubo 40x40x40 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2020,
+    "vol_corpo_prova_m3": 6.4e-05,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "p.4 'The paste was poured into cubic molds with dimensions of 40 mm x 40 mm x 40 mm ... cured ... until 3, 7, and 28 days'; resistencia aos 28 d (p.6, Fig.4); unico molde de ensaio mecanico declarado (o cilindro phi100x50 e so do ensaio de cloretos)",
+    "tipo_corpo_prova": "cubo 40x40x40 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2021,
+    "vol_corpo_prova_m3": 6.4e-05,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "p.4 'The paste was poured into cubic molds with dimensions of 40 mm x 40 mm x 40 mm ... cured ... until 3, 7, and 28 days'; resistencia aos 28 d (p.6, Fig.4); unico molde de ensaio mecanico declarado (o cilindro phi100x50 e so do ensaio de cloretos)",
+    "tipo_corpo_prova": "cubo 40x40x40 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2022,
+    "vol_corpo_prova_m3": 6.4e-05,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "p.4 'The paste was poured into cubic molds with dimensions of 40 mm x 40 mm x 40 mm ... cured ... until 3, 7, and 28 days'; resistencia aos 28 d (p.6, Fig.4); unico molde de ensaio mecanico declarado (o cilindro phi100x50 e so do ensaio de cloretos)",
+    "tipo_corpo_prova": "cubo 40x40x40 mm",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 4092,
+  "lido": "integral (fileId null no lote; localizado na pasta: 1AEum-W3FlY5-0SGYiqtbocP1oGbFYsfE, 'RADOVIC et al., 2022 - j.jobe.2022.104928.pdf', titulo/DOI confirmados na p.1)",
+  "notas": "Todas as 26 misturas sao expressas como fcm,150 (cubo 150 mm, 28 d) na Tab.2. So as 4 RS (Radovic 2021) foram ensaiadas pelos autores (3 cubos 150 mm por mistura); as 22 restantes vem de 6 estudos da literatura e o artigo apresenta-as na mesma base cubo 150 mm, sem dizer se houve conversao - marcadas medido_ensaio pela dimensao declarada na Tab.2, com essa ressalva na citacao. A linha 555 (fck 64,7) corresponde a DE-0%-320 da Tab.2. Nota lateral: a linha 2027 esta rotulada DE-35%-244 mas a Tab.2 da DE-35%-208 com fcm 50,1 (ja anotado no material).",
+  "pares": [
+   {
+    "sheet_row": 555,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2023,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.2.2 p.4: 'For the compressive strength testing, 150 mm cube samples were prepared ... three cubic samples of each mixture were tested' aos 28 d; Tab.2 p.7 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength'",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2024,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.2.2 p.4: 'For the compressive strength testing, 150 mm cube samples were prepared ... three cubic samples of each mixture were tested' aos 28 d; Tab.2 p.7 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength'",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2025,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.2.2 p.4: 'For the compressive strength testing, 150 mm cube samples were prepared ... three cubic samples of each mixture were tested' aos 28 d; Tab.2 p.7 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength'",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2026,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.2.2 p.4: 'For the compressive strength testing, 150 mm cube samples were prepared ... three cubic samples of each mixture were tested' aos 28 d; Tab.2 p.7 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength'",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2027,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2028,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2029,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2030,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2031,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2032,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2033,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2034,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2035,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2036,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2037,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2038,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2039,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2040,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2041,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2042,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2043,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2044,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2045,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2046,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2047,
+    "vol_corpo_prova_m3": 0.003375,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Tab.2 p.7 (rodape): 'fcm,150 is the mean value of concrete cube (150 mm) compressive strength' - aplicado a todas as misturas, incluindo as compiladas da literatura (Sec.2.1: 'mean compressive (cube) strength at 28 days'); ensaio feito nos estudos de origem, nao pelos autores",
+    "tipo_corpo_prova": "cubo 150 mm",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 4138,
+  "lido": "integral (11 pp.; lista de referencias truncada pelo conector na ref.[37], sem impacto)",
+  "notas": "Nenhuma vida util em anos. O artigo usa o factor Fchlor = exp(10^-6/Dcl) como 'indicador de vida util limitada por cloretos' (Tab.3, p.4) mas nunca fixa um periodo de servico/analise; LCA cradle-to-gate.",
+  "pares": [
+   {
+    "sheet_row": 1200,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado no artigo inteiro; so o indice Fchlor (p.4) como proxy adimensional de vida util, sem anos",
+    "tipo_corpo_prova": "cubo 100 mm (IS 516)",
+    "idade_dias": 90
+   }
+  ]
+ },
+ {
+  "row_id": 4267,
+  "lido": "integral (14 pp.)",
+  "notas": "LCA cradle-to-gate sem fase de uso. A unica mencao a anos e contextual e citada: 'the concrete structure could serve as the foundation and load-bearing elements from 50 to 300 years, and the skin ... from 20 to 50 years [18]; thus, this stage is typically excluded' (p.3) - nao adoptada como premissa.",
+  "pares": [
+   {
+    "sheet_row": 1251,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado como premissa propria; p.3 cita [18] 50-300 anos apenas para justificar excluir a fase de uso",
+    "tipo_corpo_prova": "cubo 100x100x100 mm",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 4290,
+  "lido": "integral (18 pp.)",
+  "notas": "Armadilha: '50 years' existe no texto mas e vida util das instalacoes industriais (infraestrutura no inventario), nao do produto. Nao usar.",
+  "pares": [
+   {
+    "sheet_row": 1253,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   },
+   {
+    "sheet_row": 1254,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   },
+   {
+    "sheet_row": 1255,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   },
+   {
+    "sheet_row": 1256,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   },
+   {
+    "sheet_row": 1257,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   },
+   {
+    "sheet_row": 1258,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   },
+   {
+    "sheet_row": 1259,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   },
+   {
+    "sheet_row": 1260,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   },
+   {
+    "sheet_row": 1261,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   },
+   {
+    "sheet_row": 1262,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado para o betao; o unico 'life span of 50 years' (Sec.2.3.1, p.4) refere-se a amortizacao da construcao das fabricas de producao, nao a vida util do betao/estrutura. LCA cradle-to-gate, FU 1 m3."
+   }
+  ]
+ },
+ {
+  "row_id": 4416,
+  "lido": "integral (28 pp.; read_file_content devolveu texto vazio, lido pelo PDF descarregado com pymupdf - camada de texto ok, 84 mil caracteres; Fig.5 renderizada a 200 dpi)",
+  "notas": "Unica dispersao do artigo para betao e o box plot da Fig.5 (IQR e bigodes por classe), sem valores numericos. Os co2_kg_m3 gravados parecem ser as medianas lidas nessa figura. Inconsistencia no proprio artigo: Tab.3 soma 123 valores de GWP vs '79 data points' no texto (p.6).",
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 20 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 9, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   },
+   {
+    "sheet_row": 1337,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 25 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 13, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   },
+   {
+    "sheet_row": 1338,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 30 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 32, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   },
+   {
+    "sheet_row": 1339,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 37 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 29, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   },
+   {
+    "sheet_row": 1340,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 40 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 6, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   },
+   {
+    "sheet_row": 1341,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 45 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 8, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   },
+   {
+    "sheet_row": 1342,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 50 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 9, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   },
+   {
+    "sheet_row": 1343,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 55 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 3, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   },
+   {
+    "sheet_row": 1344,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 60 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 8, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   },
+   {
+    "sheet_row": 1345,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "nao aplicavel: fck e a classe de resistencia cubica declarada nas EPDs (Tab.3 p.6, Fig.5 p.16), sem ensaio nem dispersao",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": null,
+    "ic_co2_citacao": "Fig.5 p.16: box plot do GWP fossil por classe (mediana, quartis 25/75, bigodes 1,5xIQR, media) calculado pelos autores sobre as EPDs da classe 75 MPa; nenhum numero impresso (nem no texto, nem em tabela) - so leitura grafica aproximada, nao segura; valor deixado null. Dispersao ENTRE produtos/EPDs diferentes da mesma classe (heterogeneidade), nao incerteza de medicao. N por classe pela Tab.3 = 3, mas a Tab.3 soma 123 valores e o texto diz 79 data points - n nao fiavel, deixado null."
+   }
+  ]
+ },
+ {
+  "row_id": 4455,
+  "lido": "integral (texto completo; referencias excluidas)",
+  "notas": "Cubo 20 mm = 8e-6 m3 (0,02^3), muito abaixo das referencias do PROMPT - corpo de prova invulgarmente pequeno (EN 196-1 citada so para a taxa de carga).",
+  "pares": [
+   {
+    "sheet_row": 1366,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.3 p.6: 'To test the physical and mechanical properties, cube samples with a side of 20 mm were produced, 15 for each series'; ensaio aos 7 e 28 d, 28 d seco (fdry) e saturado",
+    "tipo_corpo_prova": "cubo 20 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1367,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.3 p.6: 'To test the physical and mechanical properties, cube samples with a side of 20 mm were produced, 15 for each series'; ensaio aos 7 e 28 d, 28 d seco (fdry) e saturado",
+    "tipo_corpo_prova": "cubo 20 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1368,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.3 p.6: 'To test the physical and mechanical properties, cube samples with a side of 20 mm were produced, 15 for each series'; ensaio aos 7 e 28 d, 28 d seco (fdry) e saturado",
+    "tipo_corpo_prova": "cubo 20 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1369,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.3 p.6: 'To test the physical and mechanical properties, cube samples with a side of 20 mm were produced, 15 for each series'; ensaio aos 7 e 28 d, 28 d seco (fdry) e saturado",
+    "tipo_corpo_prova": "cubo 20 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1370,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.3 p.6: 'To test the physical and mechanical properties, cube samples with a side of 20 mm were produced, 15 for each series'; ensaio aos 7 e 28 d, 28 d seco (fdry) e saturado",
+    "tipo_corpo_prova": "cubo 20 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 2091,
+    "vol_corpo_prova_m3": 8e-06,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Sec.2.3 p.6: 'To test the physical and mechanical properties, cube samples with a side of 20 mm were produced, 15 for each series'; ensaio aos 7 e 28 d, 28 d seco (fdry) e saturado",
+    "tipo_corpo_prova": "cubo 20 mm",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 4483,
+  "lido": "integral (texto completo; referencias excluidas)",
+  "notas": "Caso limite: o artigo 'supoe' vida de projecto 50-70 anos (CWS) / 50-100 (SIC) citando [25], mas como intervalo e sem uso quantitativo. Deixado null; decisao da Kie se aceita 50 (limite inferior) ou 60 (ponto medio).",
+  "pares": [
+   {
+    "sheet_row": 573,
+    "vida_util_anos": null,
+    "vida_util_citacao": "Sec.2.5.1 p.9: 'The usage stage of both retrofitted alternatives was supposed to have similar lifetimes: CWS has a design lifetime of 50-70 years and SIC has a design lifetime of 50-100 years [25]' - intervalo citado de [25], assumido so para justificar excluir a fase de uso (LCA cradle-to-gate); nao ha valor unico adoptado. Os pares sao do CWS (288,2 m3): se se quiser usar, seria 50-70 anos."
+   },
+   {
+    "sheet_row": 2067,
+    "vida_util_anos": null,
+    "vida_util_citacao": "Sec.2.5.1 p.9: 'The usage stage of both retrofitted alternatives was supposed to have similar lifetimes: CWS has a design lifetime of 50-70 years and SIC has a design lifetime of 50-100 years [25]' - intervalo citado de [25], assumido so para justificar excluir a fase de uso (LCA cradle-to-gate); nao ha valor unico adoptado. Os pares sao do CWS (288,2 m3): se se quiser usar, seria 50-70 anos."
+   }
+  ]
+ }
+]

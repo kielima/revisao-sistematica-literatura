@@ -1,0 +1,60 @@
+[
+ {"row_id": 4505, "lido": "integral (texto completo via read_file_content, 21 pp.)",
+  "notas": "Compressao em cubos 150x150x150 mm segundo UNE-EN 12390-3, 4 ensaios por tipo de fibra, 28 dias de cura em agua. Todos os pares medidos na mesma geometria. Nao pedido mas registado: Tabela 8 da desvio padrao por mistura (CR 0,81; CFS MIN 1,08; CFLW MIN 0,31; CFG_12 MIN 0,96; CFG_36 MIN 1,79; CFP MIN 0,44 MPa).",
+  "pares": [
+   {"sheet_row": 1473, "vol_corpo_prova_m3": 0.003375, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.2, p.7-8: 'specimens of 150 x 150 x 150 mm for the compression test' (UNE-EN 12390-3; four tests for each type of fibre)", "tipo_corpo_prova": "cubo 150 mm", "idade_dias": 28},
+   {"sheet_row": 1474, "vol_corpo_prova_m3": 0.003375, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.2, p.7-8: cubos 150 mm, UNE-EN 12390-3", "tipo_corpo_prova": "cubo 150 mm", "idade_dias": 28},
+   {"sheet_row": 1475, "vol_corpo_prova_m3": 0.003375, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.2, p.7-8: cubos 150 mm, UNE-EN 12390-3", "tipo_corpo_prova": "cubo 150 mm", "idade_dias": 28},
+   {"sheet_row": 2068, "vol_corpo_prova_m3": 0.003375, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.2, p.7-8: cubos 150 mm, UNE-EN 12390-3", "tipo_corpo_prova": "cubo 150 mm", "idade_dias": 28},
+   {"sheet_row": 2069, "vol_corpo_prova_m3": 0.003375, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.2, p.7-8: cubos 150 mm, UNE-EN 12390-3", "tipo_corpo_prova": "cubo 150 mm", "idade_dias": 28},
+   {"sheet_row": 2070, "vol_corpo_prova_m3": 0.003375, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.2, p.7-8: cubos 150 mm, UNE-EN 12390-3", "tipo_corpo_prova": "cubo 150 mm", "idade_dias": 28}
+  ]},
+ {"row_id": 4512, "lido": "integral quanto ao texto (24 pp.); Figura 11 NAO renderizada: PDF > 10 MB, download_file_content recusou ('File too large')",
+  "notas": "fck medido em prismas 40x40x160 mm moldados (EN 1015-11) aos 2 e 28 d. O artigo so da o CoV por mistura na Figura 11b (texto: 'mean values ... and their respective CoV'; CoV da compressao entre 3,58% e 17,41%), sem valores impressos no texto. Sem numero de replicas declarado para a compressao. CO2 deterministico (Tabela 6), sem dispersao.",
+  "pares": [
+   {"sheet_row": 1480, "ic_fck_valor": null, "ic_fck_tipo": "cv_percentual", "ic_fck_n": null, "ic_fck_citacao": "Sec. 3.4, p.13 + Fig. 11b: CoV por mistura so na figura (intervalo global 3,58-17,41%); figura nao legivel porque o PDF excede 10 MB e nao pode ser descarregado", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "nao declarado (ACV deterministica, Tabela 6)", "tipo_corpo_prova": "prisma 40x40x160 mm (EN 1015-11)", "idade_dias": 28},
+   {"sheet_row": 1482, "ic_fck_valor": null, "ic_fck_tipo": "cv_percentual", "ic_fck_n": null, "ic_fck_citacao": "Sec. 3.4, p.13 + Fig. 11b: CoV por mistura so na figura; nao renderizada (PDF > 10 MB)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "nao declarado (ACV deterministica, Tabela 6)", "tipo_corpo_prova": "prisma 40x40x160 mm (EN 1015-11)", "idade_dias": 28},
+   {"sheet_row": 1485, "ic_fck_valor": null, "ic_fck_tipo": "cv_percentual", "ic_fck_n": null, "ic_fck_citacao": "Sec. 3.4, p.13 + Fig. 11b: CoV por mistura so na figura; nao renderizada (PDF > 10 MB)", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "nao declarado (ACV deterministica, Tabela 6)", "tipo_corpo_prova": "prisma 40x40x160 mm (EN 1015-11)", "idade_dias": 28}
+  ]},
+ {"row_id": 4516, "lido": "integral (texto completo, 20 pp.)",
+  "notas": "Pasta moldada em moldes triplos 40x40x160 mm; compressao feita nas metades do prisma apos a flexao, num dispositivo de compressao (area carregada nao declarada; seria 40x40 mm se seguisse a pratica de argamassa, mas nenhuma norma de ensaio e citada). Adoptado o volume do prisma moldado (0,000256), como nos restantes artigos de prismas 40x40x160; o volume efectivamente comprimido (meio prisma) seria menor. Media de 3 ensaios. Valores de 28 d: P-800/2/1 57,92 (Fig. 2b), P-800/2/10 60,15 e P-20/0/1 42,15 (Fig. 3).",
+  "pares": [
+   {"sheet_row": 1486, "vol_corpo_prova_m3": 0.000256, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.4-2.5, p.4-5: 'triple mold with a size of 40 x 40 x 160 mm'; compressao nas metades apos flexao, media de 3", "tipo_corpo_prova": "prisma 40x40x160 mm (compressao nas metades)", "idade_dias": 28},
+   {"sheet_row": 2089, "vol_corpo_prova_m3": 0.000256, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.4-2.5, p.4-5: prismas 40x40x160 mm; 60,15 MPa aos 28 d na Fig. 3", "tipo_corpo_prova": "prisma 40x40x160 mm (compressao nas metades)", "idade_dias": 28},
+   {"sheet_row": 2090, "vol_corpo_prova_m3": 0.000256, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.4-2.5, p.4-5: prismas 40x40x160 mm; 42,15 MPa aos 28 d na Fig. 2/3", "tipo_corpo_prova": "prisma 40x40x160 mm (compressao nas metades)", "idade_dias": 28}
+  ]},
+ {"row_id": 4560, "lido": "integral (texto completo, 17 pp.)",
+  "notas": "fck 40 MPa e classe de projecto da laje (sem ensaio) -> sem dispersao de fck. A Tabela 3 da media e coeficiente de variacao de cada categoria por fase, vindos da incerteza aplicada aos dados Ecoinvent (tipo de processo + matriz pedigree), portanto dispersao calculada pelo proprio artigo e nao medida em laboratorio. GWP fabrico = 1838,55 kg CO2 eq por m de ponte, cv 16,86%; o par gravado (525,8 kg/m3) e exactamente 1838,55/3,497, pelo que o cv aplica-se ao mesmo valor (equivale a +-88,6 kg/m3). Numero de iteracoes nao declarado.",
+  "pares": [
+   {"sheet_row": 2071, "ic_fck_valor": null, "ic_fck_tipo": null, "ic_fck_n": null, "ic_fck_citacao": "nao aplicavel: fck = classe de projecto (Tabela 2, 'Strength (MPa) 40' da laje), sem ensaio nem dispersao no artigo inteiro", "ic_co2_valor": 16.86, "ic_co2_tipo": "cv_percentual", "ic_co2_n": null, "ic_co2_citacao": "Tabela 3, p.10: 'GWP kg CO2 eq Manufacturing m 1838.55 cv (%) 16.86%' - incerteza Ecoinvent/matriz pedigree (Sec. 4.3.2 e 4.3.4); n de simulacoes nao declarado"}
+  ]},
+ {"row_id": 4623, "lido": "integral (texto completo, 16 pp.) + Figura 3 renderizada a 200 e 500 dpi",
+  "notas": "Barras de erro na Figura 3 (compressao, 28 d, EN 1015-11). Tipo de barra nao declarado na legenda nem no texto; tratado como desvio padrao por defeito. BFA40: barra ~40,4 MPa, whisker superior ~43,1 e inferior ~37,8 -> semi-amplitude ~2,7 MPa (leitura grafica, precisao ~+-0,3). Nota: o texto declara tambem 'uncertainty of measurement for compressive strength was 2.4%', que e incerteza do metodo/equipamento, nao dispersao por mistura, e nao foi usada. n: flexao em 3 prismas, compressao nos restos partidos (provavelmente 6 metades, nao declarado); tres ciclos de amassadura independentes por mistura. CO2 deterministico (FU 1 t), sem dispersao.",
+  "pares": [
+   {"sheet_row": 1658, "ic_fck_valor": 2.7, "ic_fck_tipo": "desvio_padrao", "ic_fck_n": null, "ic_fck_citacao": "Fig. 3, p.10: barra de erro da compressao BFA40 lida na figura renderizada (~37,8-43,1 MPa em torno de 40,5); tipo de barra nao declarado, assumido desvio padrao; replicas nao declaradas para a compressao", "ic_co2_valor": null, "ic_co2_tipo": null, "ic_co2_n": null, "ic_co2_citacao": "nao declarado (ACV deterministica, Tabela 7/8)"}
+  ]},
+ {"row_id": 4696, "lido": "integral (texto completo, 17 pp.)",
+  "notas": "Cubos de 5 cm, ensaio ASTM C109, 3 provetes por mistura. ATENCAO: o fck gravado (55 MPa) e o valor da M25 cura a calor aos 28 DIAS (Tabela 5 'M25 (Heat-28 days) 55.00'; texto Sec. 3.1.3 'At 28 days ... reached 55 MPa'), nao a 1 dia como esta na linha (idade_dias=1). Corrigir idade para 28.",
+  "pares": [
+   {"sheet_row": 1691, "vol_corpo_prova_m3": 0.000125, "vol_corpo_prova_fonte": "medido_ensaio", "vol_corpo_prova_citacao": "Sec. 2.2-2.3.1, p.5: 'poured into 5 cm mortar cubes'; compressao segundo ASTM C109, 3 provetes por mistura", "tipo_corpo_prova": "cubo 50 mm (ASTM C109)", "idade_dias": 28}
+  ]},
+ {"row_id": 4698, "lido": "integral (texto completo, 25 pp.)",
+  "notas": "Estudo de pegada de carbono de 16 edificios com factores de emissao por classe (Tabela 2, tracos da quota orcamental de Fujian). Nao ha ensaio de resistencia, nem dimensao de provete, nem norma de ensaio citada (nenhuma GB/cubo 150 mm no texto). O campo tipo_corpo_prova='cubo' das linhas actuais nao tem suporte no artigo. De passagem: o artigo divide o CO2 do Caso 1 por uma vida de projecto (407,42 / 8,15 = 50 anos), mas o valor de 50 anos nao e declarado explicitamente.",
+  "pares": [
+   {"sheet_row": 1692, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "classe de projecto C30 (Tabela 2, p.5; Sec. 5, p.21-22), sem ensaio nem dimensao de provete no artigo inteiro", "tipo_corpo_prova": null, "idade_dias": null},
+   {"sheet_row": 2072, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "classe C20 da Tabela 2 (quota orcamental de Fujian), sem ensaio", "tipo_corpo_prova": null, "idade_dias": null},
+   {"sheet_row": 2073, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "classe C25 da Tabela 2, sem ensaio", "tipo_corpo_prova": null, "idade_dias": null},
+   {"sheet_row": 2074, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "classe C35 da Tabela 2, sem ensaio", "tipo_corpo_prova": null, "idade_dias": null},
+   {"sheet_row": 2075, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "classe C40 da Tabela 2, sem ensaio", "tipo_corpo_prova": null, "idade_dias": null},
+   {"sheet_row": 2076, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "classe C45 da Tabela 2, sem ensaio", "tipo_corpo_prova": null, "idade_dias": null}
+  ]},
+ {"row_id": 4709, "lido": "integral (texto completo, 28 pp.)",
+  "notas": "Base de dados compilada da literatura (Pei, Mondal, Schreiberova [34-36]); o artigo so diz '28 days cylinder compressive strength', sem dimensao do cilindro nem norma de ensaio. Volume indisponivel. O CO2 da Tabela 4 e por teor de cimento, nao por registo da Tabela 3.",
+  "pares": [
+   {"sheet_row": 1697, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "Sec. 2.2, p.6: '28 days cylinder compressive strength of concrete (Fc)'; dimensoes e norma nao declaradas (dados compilados de [34-36])", "tipo_corpo_prova": "cilindro (dimensoes nao declaradas)", "idade_dias": 28},
+   {"sheet_row": 1698, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "Sec. 2.2, p.6: cilindro, 28 d, dimensoes/norma nao declaradas", "tipo_corpo_prova": "cilindro (dimensoes nao declaradas)", "idade_dias": 28},
+   {"sheet_row": 1699, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "Sec. 2.2, p.6: cilindro, 28 d, dimensoes/norma nao declaradas", "tipo_corpo_prova": "cilindro (dimensoes nao declaradas)", "idade_dias": 28},
+   {"sheet_row": 1701, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "Sec. 2.2, p.6: cilindro, 28 d, dimensoes/norma nao declaradas", "tipo_corpo_prova": "cilindro (dimensoes nao declaradas)", "idade_dias": 28},
+   {"sheet_row": 1703, "vol_corpo_prova_m3": null, "vol_corpo_prova_fonte": "indisponivel", "vol_corpo_prova_citacao": "Sec. 2.2, p.6: cilindro, 28 d, dimensoes/norma nao declaradas", "tipo_corpo_prova": "cilindro (dimensoes nao declaradas)", "idade_dias": 28}
+  ]}
+]

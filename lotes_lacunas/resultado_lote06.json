@@ -1,0 +1,356 @@
+[
+ {
+  "row_id": 3456,
+  "lido": "integral (texto completo, 87 mil caracteres)",
+  "notas": "Artigo nao fixa vida util numerica; a vida util e assumida igual entre cenarios e o horizonte temporal e explicitamente deixado por especificar.",
+  "pares": [
+   {
+    "sheet_row": 1015,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado em anos: sec. 2.2 (p.3) 'It was assumed that the lifetime and the use phase are the same for the concrete in all three scenarios' e 'With a service life of many decades... The exact time frame is not specified, because this is not required for comparison between the scenarios' - nenhum valor numerico no artigo inteiro"
+   },
+   {
+    "sheet_row": 2001,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado em anos: sec. 2.2 (p.3) 'It was assumed that the lifetime and the use phase are the same for the concrete in all three scenarios' e 'With a service life of many decades... The exact time frame is not specified, because this is not required for comparison between the scenarios' - nenhum valor numerico no artigo inteiro"
+   },
+   {
+    "sheet_row": 2002,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado em anos: sec. 2.2 (p.3) 'It was assumed that the lifetime and the use phase are the same for the concrete in all three scenarios' e 'With a service life of many decades... The exact time frame is not specified, because this is not required for comparison between the scenarios' - nenhum valor numerico no artigo inteiro"
+   }
+  ]
+ },
+ {
+  "row_id": 3477,
+  "lido": "integral (texto + Fig. 3 e Fig. 9 renderizadas)",
+  "notas": "Os CO2 gravados (572/1023/997) sao as medias MC da Fig. 9 (material+transporte+energia de fabrico); a Tabela 7 (ACV deterministica) da 370/360/343 kgCO2-eq/m3 - so para registo. Corpo de prova de compressao nao dimensionado no texto (so cita AS/NZS 1012.8.2, que e de provetes de flexao).",
+  "pares": [
+   {
+    "sheet_row": 420,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado: sec. 3.2.1 'The maintenance, usage life cycle and final disposal ... are assumed to be the same and therefore are excluded from the system boundary' (cradle-to-gate); limitacoes (sec. 3): 'The study assumed the lifespan of the bespoke mix designs equalled that of the control' - sem valor em anos",
+    "ic_fck_valor": 1.5,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": null,
+    "ic_fck_citacao": "Fig. 3 (p.6), barras de erro = desvio padrao ('The standard deviation is shown via error bars in Fig. 3', sec. 4.1); lido na figura renderizada a 400 dpi: Control barra de ~23.5 a ~26.5 MPa -> DP ~1,5 MPa (leitura grafica, precisao ~0,2 MPa). N de corpos de prova nao declarado.",
+    "ic_co2_valor": 97.0,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": 10000,
+    "ic_co2_min": 478,
+    "ic_co2_max": 672,
+    "ic_co2_citacao": "Fig. 9 (p.9) 'Total GHG emissions for 1 m3 concrete', box plot de simulacao Monte-Carlo (10.000 iteracoes, distribuicoes triangulares de transporte e energia, sec. 4.3); bigodes min/max lidos na figura: Control ~478 a ~672 kgCO2-eq/m3 (media impressa no texto = valor gravado). ic_co2_valor = semi-amplitude (max-min)/2. ATENCAO: e dispersao de incerteza modelada (MC sobre pressupostos de transporte/tempo de maquina), nao dispersao medida em replicas."
+   },
+   {
+    "sheet_row": 421,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado: sec. 3.2.1 'The maintenance, usage life cycle and final disposal ... are assumed to be the same and therefore are excluded from the system boundary' (cradle-to-gate); limitacoes (sec. 3): 'The study assumed the lifespan of the bespoke mix designs equalled that of the control' - sem valor em anos",
+    "ic_fck_valor": 1.5,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": null,
+    "ic_fck_citacao": "Fig. 3 (p.6), barras de erro = desvio padrao ('The standard deviation is shown via error bars in Fig. 3', sec. 4.1); lido na figura renderizada a 400 dpi: SFKF5 barra de ~18.5 a ~21.5 MPa -> DP ~1,5 MPa (leitura grafica, precisao ~0,2 MPa). N de corpos de prova nao declarado.",
+    "ic_co2_valor": 301.5,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": 10000,
+    "ic_co2_min": 727,
+    "ic_co2_max": 1330,
+    "ic_co2_citacao": "Fig. 9 (p.9) 'Total GHG emissions for 1 m3 concrete', box plot de simulacao Monte-Carlo (10.000 iteracoes, distribuicoes triangulares de transporte e energia, sec. 4.3); bigodes min/max lidos na figura: SFKF5 ~727 a ~1330 kgCO2-eq/m3 (media impressa no texto = valor gravado). ic_co2_valor = semi-amplitude (max-min)/2. ATENCAO: e dispersao de incerteza modelada (MC sobre pressupostos de transporte/tempo de maquina), nao dispersao medida em replicas."
+   },
+   {
+    "sheet_row": 422,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao declarado: sec. 3.2.1 'The maintenance, usage life cycle and final disposal ... are assumed to be the same and therefore are excluded from the system boundary' (cradle-to-gate); limitacoes (sec. 3): 'The study assumed the lifespan of the bespoke mix designs equalled that of the control' - sem valor em anos",
+    "ic_fck_valor": 1.5,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": null,
+    "ic_fck_citacao": "Fig. 3 (p.6), barras de erro = desvio padrao ('The standard deviation is shown via error bars in Fig. 3', sec. 4.1); lido na figura renderizada a 400 dpi: SFKF105 barra de ~19.5 a ~22.5 MPa -> DP ~1,5 MPa (leitura grafica, precisao ~0,2 MPa). N de corpos de prova nao declarado.",
+    "ic_co2_valor": 301.5,
+    "ic_co2_tipo": "intervalo_min_max",
+    "ic_co2_n": 10000,
+    "ic_co2_min": 702,
+    "ic_co2_max": 1305,
+    "ic_co2_citacao": "Fig. 9 (p.9) 'Total GHG emissions for 1 m3 concrete', box plot de simulacao Monte-Carlo (10.000 iteracoes, distribuicoes triangulares de transporte e energia, sec. 4.3); bigodes min/max lidos na figura: SFKF105 ~702 a ~1305 kgCO2-eq/m3 (media impressa no texto = valor gravado). ic_co2_valor = semi-amplitude (max-min)/2. ATENCAO: e dispersao de incerteza modelada (MC sobre pressupostos de transporte/tempo de maquina), nao dispersao medida em replicas."
+   }
+  ]
+ },
+ {
+  "row_id": 3519,
+  "lido": "integral (texto + Figs. 12-14 renderizadas)",
+  "notas": "Os fck gravados (37,5 para os tres pares) sao o ponto medio generico do texto '35-40 MPa'; a Fig. 13b da medias proprias: 60/24 ~38,9; 100/2 ~33,3 (DP ~2,7); 100/3 ~38,3 (DP ~2,0); 120/2 ~35,6 (DP ~3,9); 120/3 ~37,0 (DP ~1,9) MPa. Os pares hot-pressed 2h e 3h nao dizem a temperatura (o CO2 nao varia entre 100 e 120 C, 'no difference between the temperatures could be made'), logo nao da para casar o DP com seguranca nesses dois pares.",
+  "pares": [
+   {
+    "sheet_row": 1036,
+    "ic_fck_valor": 0.7,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 4,
+    "ic_fck_citacao": "Fig. 13b (p.11), 'error bars show standard deviation'; n=4 ('Four compression tests were done for each material', sec. 3). Leitura na figura renderizada a 450 dpi (escala 21,3 px/MPa). PVA-60/24 (oven-cured): media ~38,9, barra ~38,2-39,6 -> DP ~0,7 MPa.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (SimaPro/IMPACT 2002+), sem dispersao"
+   },
+   {
+    "sheet_row": 1037,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 4,
+    "ic_fck_citacao": "Fig. 13b (p.11), 'error bars show standard deviation'; n=4 ('Four compression tests were done for each material', sec. 3). Leitura na figura renderizada a 450 dpi (escala 21,3 px/MPa). Par sem temperatura definida: 100/2 DP ~2,7 MPa (media ~33,3) ou 120/2 DP ~3,9 MPa (media ~35,6) - nao casado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica, sem dispersao"
+   },
+   {
+    "sheet_row": 1038,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 4,
+    "ic_fck_citacao": "Fig. 13b (p.11), 'error bars show standard deviation'; n=4 ('Four compression tests were done for each material', sec. 3). Leitura na figura renderizada a 450 dpi (escala 21,3 px/MPa). Par sem temperatura definida: 100/3 DP ~2,0 MPa (media ~38,3) ou 120/3 DP ~1,9 MPa (media ~37,0) - nao casado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica, sem dispersao"
+   }
+  ]
+ },
+ {
+  "row_id": 3539,
+  "lido": "integral (texto completo, fileId 1UODLQDqzmrrYaVcbDb-UdSXhNAH-6pxj encontrado por search_files; titulo/DOI confirmados)",
+  "notas": "A Tabela 6 imprime tambem 'st dev' do GWP por classe (11,6/24,7/19,8/36,4/19,1/34,1/26,3), mas e dispersao entre as misturas otimizadas com ECO2>0,75, nao replicas - e 'ic' nao estava pedido.",
+  "pares": [
+   {
+    "sheet_row": 457,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao aplicavel a estes pares: os valores gravados vem da Tabela 6 (Scenario 1, betao simples, N=1, 'durability functional parameters are of no impact'), sem vida util declarada. A vida util de 50 anos ('required service life of 50 years', sec. 4 / 5.2) aplica-se so ao Scenario 2 (betao armado), cujos CO2 por classe nao sao tabelados."
+   },
+   {
+    "sheet_row": 458,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao aplicavel a estes pares: os valores gravados vem da Tabela 6 (Scenario 1, betao simples, N=1, 'durability functional parameters are of no impact'), sem vida util declarada. A vida util de 50 anos ('required service life of 50 years', sec. 4 / 5.2) aplica-se so ao Scenario 2 (betao armado), cujos CO2 por classe nao sao tabelados."
+   },
+   {
+    "sheet_row": 459,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao aplicavel a estes pares: os valores gravados vem da Tabela 6 (Scenario 1, betao simples, N=1, 'durability functional parameters are of no impact'), sem vida util declarada. A vida util de 50 anos ('required service life of 50 years', sec. 4 / 5.2) aplica-se so ao Scenario 2 (betao armado), cujos CO2 por classe nao sao tabelados."
+   },
+   {
+    "sheet_row": 460,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao aplicavel a estes pares: os valores gravados vem da Tabela 6 (Scenario 1, betao simples, N=1, 'durability functional parameters are of no impact'), sem vida util declarada. A vida util de 50 anos ('required service life of 50 years', sec. 4 / 5.2) aplica-se so ao Scenario 2 (betao armado), cujos CO2 por classe nao sao tabelados."
+   },
+   {
+    "sheet_row": 461,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao aplicavel a estes pares: os valores gravados vem da Tabela 6 (Scenario 1, betao simples, N=1, 'durability functional parameters are of no impact'), sem vida util declarada. A vida util de 50 anos ('required service life of 50 years', sec. 4 / 5.2) aplica-se so ao Scenario 2 (betao armado), cujos CO2 por classe nao sao tabelados."
+   },
+   {
+    "sheet_row": 462,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao aplicavel a estes pares: os valores gravados vem da Tabela 6 (Scenario 1, betao simples, N=1, 'durability functional parameters are of no impact'), sem vida util declarada. A vida util de 50 anos ('required service life of 50 years', sec. 4 / 5.2) aplica-se so ao Scenario 2 (betao armado), cujos CO2 por classe nao sao tabelados."
+   },
+   {
+    "sheet_row": 463,
+    "vida_util_anos": null,
+    "vida_util_citacao": "nao aplicavel a estes pares: os valores gravados vem da Tabela 6 (Scenario 1, betao simples, N=1, 'durability functional parameters are of no impact'), sem vida util declarada. A vida util de 50 anos ('required service life of 50 years', sec. 4 / 5.2) aplica-se so ao Scenario 2 (betao armado), cujos CO2 por classe nao sao tabelados."
+   }
+  ]
+ },
+ {
+  "row_id": 3685,
+  "lido": "integral (texto completo)",
+  "notas": "Estudo numerico/probabilistico sem ensaios. fck = classe de projecto 40 MPa (Tab. 5). A COV 0,15 lognormal de fc (Tab. 3) e pressuposto de modelo copiado da ref. [62] - nao conta. A Tab. 10 da DP do CO2 total por pilar em 100 anos (absorcao+reparacoes, MC 10^6), mas o 'Initial ECO2' e deterministico e os pares gravados sao so os constituintes A1-A3 por m3 (Tab. 4 x Tab. 7), sem dispersao.",
+  "pares": [
+   {
+    "sheet_row": 2010,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "sem ensaios; fck e classe de projecto; COV 0,15 da Tab. 3 e distribuicao assumida de [62] (nao conta)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 dos constituintes deterministico (Tab. 4 x Tab. 7); DPs da Tab. 10 referem-se ao total por pilar em 100 anos incl. reparacoes, nao ao valor gravado"
+   },
+   {
+    "sheet_row": 2011,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "sem ensaios; fck e classe de projecto; COV 0,15 da Tab. 3 e distribuicao assumida de [62] (nao conta)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 dos constituintes deterministico (Tab. 4 x Tab. 7); DPs da Tab. 10 referem-se ao total por pilar em 100 anos incl. reparacoes, nao ao valor gravado"
+   },
+   {
+    "sheet_row": 2012,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": "sem ensaios; fck e classe de projecto; COV 0,15 da Tab. 3 e distribuicao assumida de [62] (nao conta)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 dos constituintes deterministico (Tab. 4 x Tab. 7); DPs da Tab. 10 referem-se ao total por pilar em 100 anos incl. reparacoes, nao ao valor gravado"
+   }
+  ]
+ },
+ {
+  "row_id": 3731,
+  "lido": "integral (texto + Fig. 2 renderizada)",
+  "notas": "ATENCAO: o fck gravado 42 MPa coincide com a resistencia aos 28 d da ficha tecnica do cimento HE (Tabela 1, dado do fabricante); a media medida pelo proprio artigo para C0 aos 28 d na Fig. 2 e ~40 MPa (texto: 'maintain a compressive strength of approximately 40 MPa after 14 days'). Norma citada ASTM C109 (cubo 50 mm).",
+  "pares": [
+   {
+    "sheet_row": 1083,
+    "ic_fck_valor": 0.5,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 2,
+    "ic_fck_citacao": "Fig. 2 (p.3), barras de erro; o texto (p.4) fala em 'narrow standard deviation of the mechanical strength' mas a legenda nao define as barras; n=2 ('Two specimens per sample or dosage were tested', sec. 2). C0 28 d: media ~40,1, barra ~39,6-40,6 -> ~0,5 MPa (leitura grafica). Nota: a barra refere-se a media medida (~40 MPa), nao ao 42 MPa gravado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (OpenLCA/ReCiPe), sem dispersao",
+    "tipo_corpo_prova": "cubo 50 mm (inferido da ASTM C109 citada, ref. 22)",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 3752,
+  "lido": "integral (texto + Fig. 1 renderizada)",
+  "notas": "",
+  "pares": [
+   {
+    "sheet_row": 1087,
+    "ic_fck_valor": 3.0,
+    "ic_fck_tipo": "intervalo_min_max",
+    "ic_fck_n": 5,
+    "ic_fck_min": 40.8,
+    "ic_fck_max": 46.8,
+    "ic_fck_citacao": "Fig. 1a (p.3): 'Average compressive strength (n = 5) ... bars indicate range of measurements'; leitura na figura renderizada a 400 dpi (14,8 px/MPa). ic_fck_valor = semi-amplitude (max-min)/2. 100% PC: ~40,8 a ~46,8 MPa.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica (GaBi/Ecoinvent 3.5, CML 2001), sem dispersao",
+    "vol_corpo_prova_m3": 0.0015708,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Methods (p.7): 'For compressive strength and chloride ingress tests, 100 mm x 200 mm cylinders were prepared'; ensaio ASTM C39",
+    "tipo_corpo_prova": "cilindro 100x200 mm",
+    "idade_dias": 28
+   },
+   {
+    "sheet_row": 1088,
+    "ic_fck_valor": 1.45,
+    "ic_fck_tipo": "intervalo_min_max",
+    "ic_fck_n": 5,
+    "ic_fck_min": 36.0,
+    "ic_fck_max": 38.9,
+    "ic_fck_citacao": "Fig. 1a (p.3): 'Average compressive strength (n = 5) ... bars indicate range of measurements'; leitura na figura renderizada a 400 dpi (14,8 px/MPa). ic_fck_valor = semi-amplitude (max-min)/2. 15% RHA: ~36,0 a ~38,9 MPa.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "ACV deterministica, sem dispersao",
+    "vol_corpo_prova_m3": 0.0015708,
+    "vol_corpo_prova_fonte": "medido_ensaio",
+    "vol_corpo_prova_citacao": "Methods (p.7): 'For compressive strength and chloride ingress tests, 100 mm x 200 mm cylinders were prepared'; ensaio ASTM C39",
+    "tipo_corpo_prova": "cilindro 100x200 mm",
+    "idade_dias": 28
+   }
+  ]
+ },
+ {
+  "row_id": 3758,
+  "lido": "integral (texto + Fig. 7 renderizada na resolucao nativa)",
+  "notas": "Cubo nao dimensionado no texto (so 'cube', IS 516); volume nao pedido.",
+  "pares": [
+   {
+    "sheet_row": 493,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 7a (p.9): barras de erro visiveis em todas as misturas, mas (i) a legenda nao diz o que representam e o texto nao fala em desvio padrao; (ii) a imagem embutida e raster de baixa resolucao (1654x1568 px para as 3 subfiguras) e as barras aos 28 d medem ~0,3-1,3 MPa, abaixo da precisao de leitura segura. n=3 ('average results of three tests', sec. Mechanical properties). Valor nao transcrito. Tipo presumido (desvio padrao), nao declarado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 por soma de fatores x quantidades (Tab. 5), deterministico"
+   },
+   {
+    "sheet_row": 494,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 7a (p.9): barras de erro visiveis em todas as misturas, mas (i) a legenda nao diz o que representam e o texto nao fala em desvio padrao; (ii) a imagem embutida e raster de baixa resolucao (1654x1568 px para as 3 subfiguras) e as barras aos 28 d medem ~0,3-1,3 MPa, abaixo da precisao de leitura segura. n=3 ('average results of three tests', sec. Mechanical properties). Valor nao transcrito. Tipo presumido (desvio padrao), nao declarado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 por soma de fatores x quantidades (Tab. 5), deterministico"
+   },
+   {
+    "sheet_row": 495,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 7a (p.9): barras de erro visiveis em todas as misturas, mas (i) a legenda nao diz o que representam e o texto nao fala em desvio padrao; (ii) a imagem embutida e raster de baixa resolucao (1654x1568 px para as 3 subfiguras) e as barras aos 28 d medem ~0,3-1,3 MPa, abaixo da precisao de leitura segura. n=3 ('average results of three tests', sec. Mechanical properties). Valor nao transcrito. Tipo presumido (desvio padrao), nao declarado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 por soma de fatores x quantidades (Tab. 5), deterministico"
+   },
+   {
+    "sheet_row": 496,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 7a (p.9): barras de erro visiveis em todas as misturas, mas (i) a legenda nao diz o que representam e o texto nao fala em desvio padrao; (ii) a imagem embutida e raster de baixa resolucao (1654x1568 px para as 3 subfiguras) e as barras aos 28 d medem ~0,3-1,3 MPa, abaixo da precisao de leitura segura. n=3 ('average results of three tests', sec. Mechanical properties). Valor nao transcrito. Tipo presumido (desvio padrao), nao declarado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 por soma de fatores x quantidades (Tab. 5), deterministico"
+   },
+   {
+    "sheet_row": 497,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 7a (p.9): barras de erro visiveis em todas as misturas, mas (i) a legenda nao diz o que representam e o texto nao fala em desvio padrao; (ii) a imagem embutida e raster de baixa resolucao (1654x1568 px para as 3 subfiguras) e as barras aos 28 d medem ~0,3-1,3 MPa, abaixo da precisao de leitura segura. n=3 ('average results of three tests', sec. Mechanical properties). Valor nao transcrito. Tipo presumido (desvio padrao), nao declarado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 por soma de fatores x quantidades (Tab. 5), deterministico"
+   },
+   {
+    "sheet_row": 498,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 7a (p.9): barras de erro visiveis em todas as misturas, mas (i) a legenda nao diz o que representam e o texto nao fala em desvio padrao; (ii) a imagem embutida e raster de baixa resolucao (1654x1568 px para as 3 subfiguras) e as barras aos 28 d medem ~0,3-1,3 MPa, abaixo da precisao de leitura segura. n=3 ('average results of three tests', sec. Mechanical properties). Valor nao transcrito. Tipo presumido (desvio padrao), nao declarado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 por soma de fatores x quantidades (Tab. 5), deterministico"
+   },
+   {
+    "sheet_row": 499,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 7a (p.9): barras de erro visiveis em todas as misturas, mas (i) a legenda nao diz o que representam e o texto nao fala em desvio padrao; (ii) a imagem embutida e raster de baixa resolucao (1654x1568 px para as 3 subfiguras) e as barras aos 28 d medem ~0,3-1,3 MPa, abaixo da precisao de leitura segura. n=3 ('average results of three tests', sec. Mechanical properties). Valor nao transcrito. Tipo presumido (desvio padrao), nao declarado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 por soma de fatores x quantidades (Tab. 5), deterministico"
+   },
+   {
+    "sheet_row": 500,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": "desvio_padrao",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig. 7a (p.9): barras de erro visiveis em todas as misturas, mas (i) a legenda nao diz o que representam e o texto nao fala em desvio padrao; (ii) a imagem embutida e raster de baixa resolucao (1654x1568 px para as 3 subfiguras) e as barras aos 28 d medem ~0,3-1,3 MPa, abaixo da precisao de leitura segura. n=3 ('average results of three tests', sec. Mechanical properties). Valor nao transcrito. Tipo presumido (desvio padrao), nao declarado.",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": "CO2 por soma de fatores x quantidades (Tab. 5), deterministico"
+   }
+  ]
+ }
+]

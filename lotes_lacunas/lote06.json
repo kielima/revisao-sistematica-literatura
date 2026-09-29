@@ -1,0 +1,462 @@
+[
+ {
+  "row_id": 3456,
+  "autor": "Driessen, Emiel and Gronlund, Erik",
+  "ano": "2024",
+  "titulo": "Circular concrete scenarios and their environmental impacts: A life cycle assessment modelled after a Swedish city",
+  "doi": "10.1016/j.jclepro.2024.144348",
+  "pdf": "DRIESSEN, 2024_24144348 - j.jclepro.2024.144348.pdf",
+  "fileId": "1qu7EhmbbaMeXPgKnpSypbJuMmWBv-QGR",
+  "extrair": [
+   "vida_util"
+  ],
+  "QD": 0.5,
+  "QG": 0,
+  "pares": [
+   {
+    "sheet_row": 1015,
+    "material": "Concreto circular, cenario BAU (business-as-usual, 30 MPa)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 322,
+    "tipo_corpo_prova": "nao_dito",
+    "idade_dias": null,
+    "vol_atual": 1,
+    "vol_fonte_atual": "UF 1 m3 impressa",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 2001,
+    "material": "Betao cenario BP (70% CEM I + 25% SCMs + 5% calcario, 30% RCA) - Ostersund",
+    "fck_mpa": 30,
+    "co2_kg_m3": 248,
+    "tipo_corpo_prova": "nao_dito",
+    "idade_dias": null,
+    "vol_atual": 1,
+    "vol_fonte_atual": "UF 1 m3 impressa",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 2002,
+    "material": "Betao cenario CIRC (LC3-50, 100% RCA grosso) - Ostersund",
+    "fck_mpa": 30,
+    "co2_kg_m3": 211,
+    "tipo_corpo_prova": "nao_dito",
+    "idade_dias": null,
+    "vol_atual": 1,
+    "vol_fonte_atual": "UF 1 m3 impressa",
+    "vida_util_atual": null
+   }
+  ]
+ },
+ {
+  "row_id": 3477,
+  "autor": "Haigh, Robert and Sandanayake, Malindu and Bouras, Yanni and",
+  "ano": "2024",
+  "titulo": "A life cycle assessment of cardboard waste in low stress grade concrete applications",
+  "doi": "10.1016/j.jenvman.2024.120428",
+  "pdf": "HAIGH, 2024b.pdf",
+  "fileId": "10p-f6-XC04eSqj7HjH58B2zQacLpti-o",
+  "extrair": [
+   "ic",
+   "vida_util"
+  ],
+  "QD": 0.5,
+  "QG": 0.5,
+  "pares": [
+   {
+    "sheet_row": 420,
+    "material": "betao de controlo (sem fibra kraft, alvo 25 MPa de projecto para betao de baixa tensao)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 572,
+    "tipo_corpo_prova": null,
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 421,
+    "material": "betao SFKF5 (5% fibra kraft de cartao reciclado, modificada com silica de fumo)",
+    "fck_mpa": 20,
+    "co2_kg_m3": 1023,
+    "tipo_corpo_prova": null,
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 422,
+    "material": "betao SFKF105 (10% fibra kraft de cartao reciclado + 5% metacaulino, modificada com silica de fumo)",
+    "fck_mpa": 21,
+    "co2_kg_m3": 997,
+    "tipo_corpo_prova": null,
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   }
+  ]
+ },
+ {
+  "row_id": 3519,
+  "autor": "Hoang Nguyen and Kaas, Alexandra and Kinnunen, Paivo and Car",
+  "ano": "2020",
+  "titulo": "Fiber reinforced alkali-activated stone wool composites fabricated by hot-pressing technique",
+  "doi": "10.1016/j.matdes.2019.108315",
+  "pdf": "NGUYEN et al., 2020b - j.matdes.2019.108315.pdf",
+  "fileId": "1AXIdEAogqFbXDPPbQlHJq0l4V9yyPRmr",
+  "extrair": [
+   "ic"
+  ],
+  "QD": 0,
+  "QG": 0.5,
+  "pares": [
+   {
+    "sheet_row": 1036,
+    "material": "Compositos alcali-ativados de la mineral (stone wool) reforcados com fibra PVA — curado em forno (oven-cured, 24h)",
+    "fck_mpa": 37.5,
+    "co2_kg_m3": 353.8,
+    "tipo_corpo_prova": "prismas (metades apos flexao em 4 pontos), 60 dias de hidratacao",
+    "idade_dias": 60,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 1037,
+    "material": "Compositos alcali-ativados de la mineral (stone wool) reforcados com fibra PVA — prensado a quente (hot-pressed, 2h)",
+    "fck_mpa": 37.5,
+    "co2_kg_m3": 284.4,
+    "tipo_corpo_prova": "prismas (metades apos flexao em 4 pontos), 60 dias de hidratacao",
+    "idade_dias": 60,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 1038,
+    "material": "Compositos alcali-ativados de la mineral (stone wool) reforcados com fibra PVA — prensado a quente (hot-pressed, 3h)",
+    "fck_mpa": 37.5,
+    "co2_kg_m3": 288.5,
+    "tipo_corpo_prova": "prismas (metades apos flexao em 4 pontos), 60 dias de hidratacao",
+    "idade_dias": 60,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   }
+  ]
+ },
+ {
+  "row_id": 3539,
+  "autor": "Hafez, Hisham and Teirelbar, Ahmed and Tosic, Nikola and Iku",
+  "ano": "2023",
+  "titulo": "Data-driven optimization tool for the functional, economic, and environmental properties of blended cement concrete using supplementary cementitious materials",
+  "doi": "10.1016/j.jobe.2023.106022",
+  "pdf": "HAFEZ et al., 2023 - j.jobe.2023.106022.pdf",
+  "fileId": null,
+  "extrair": [
+   "vida_util"
+  ],
+  "QD": 1,
+  "QG": 0,
+  "pares": [
+   {
+    "sheet_row": 457,
+    "material": "betao de cimento misto (SCMs: cinza volante, GGBS, silica fume, argila calcinada, calcario) otimizado pela ferramenta Opt-bcc, classe de resistencia 20 MPa",
+    "fck_mpa": 20,
+    "co2_kg_m3": 113.3,
+    "tipo_corpo_prova": null,
+    "idade_dias": null,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 458,
+    "material": "betao de cimento misto otimizado, classe de resistencia 30 MPa",
+    "fck_mpa": 30,
+    "co2_kg_m3": 132.6,
+    "tipo_corpo_prova": null,
+    "idade_dias": null,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 459,
+    "material": "betao de cimento misto otimizado, classe de resistencia 40 MPa",
+    "fck_mpa": 40,
+    "co2_kg_m3": 137.3,
+    "tipo_corpo_prova": null,
+    "idade_dias": null,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 460,
+    "material": "betao de cimento misto otimizado, classe de resistencia 50 MPa",
+    "fck_mpa": 50,
+    "co2_kg_m3": 155.2,
+    "tipo_corpo_prova": null,
+    "idade_dias": null,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 461,
+    "material": "betao de cimento misto otimizado, classe de resistencia 60 MPa",
+    "fck_mpa": 60,
+    "co2_kg_m3": 163,
+    "tipo_corpo_prova": null,
+    "idade_dias": null,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 462,
+    "material": "betao de cimento misto otimizado, classe de resistencia 70 MPa",
+    "fck_mpa": 70,
+    "co2_kg_m3": 173.6,
+    "tipo_corpo_prova": null,
+    "idade_dias": null,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 463,
+    "material": "betao de cimento misto otimizado, classe de resistencia 80 MPa",
+    "fck_mpa": 80,
+    "co2_kg_m3": 201.4,
+    "tipo_corpo_prova": null,
+    "idade_dias": null,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   }
+  ]
+ },
+ {
+  "row_id": 3685,
+  "autor": "Malami, Salim Idris and Val, Dimitri V. and Suryanto, Benny ",
+  "ano": "2024",
+  "titulo": "Probabilistic approach to the sustainability assessment of reinforced concrete structures in conditions of climate change",
+  "doi": "10.1016/j.strusafe.2023.102428",
+  "pdf": "MALAMI et al., 2024.pdf",
+  "fileId": "1DcO975MrfazHrYAQDWZx4Xkfd7-4_irK",
+  "extrair": [
+   "ic"
+  ],
+  "QD": 1,
+  "QG": 0.5,
+  "pares": [
+   {
+    "sheet_row": 2010,
+    "material": "betao PC (so constituintes, A1-A3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 316,
+    "tipo_corpo_prova": "nao_dito",
+    "idade_dias": null,
+    "vol_atual": 1,
+    "vol_fonte_atual": "traco por m3",
+    "vida_util_atual": 100
+   },
+   {
+    "sheet_row": 2011,
+    "material": "betao FA/35 (so constituintes, A1-A3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 249.8,
+    "tipo_corpo_prova": "nao_dito",
+    "idade_dias": null,
+    "vol_atual": 1,
+    "vol_fonte_atual": "traco por m3",
+    "vida_util_atual": 100
+   },
+   {
+    "sheet_row": 2012,
+    "material": "betao GGBS/65 (so constituintes, A1-A3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 132.61,
+    "tipo_corpo_prova": "nao_dito",
+    "idade_dias": null,
+    "vol_atual": 1,
+    "vol_fonte_atual": "traco por m3",
+    "vida_util_atual": 100
+   }
+  ]
+ },
+ {
+  "row_id": 3731,
+  "autor": "Baykara, Haci and Riofrio, Ariel and Garcia-Troncoso, Nativi",
+  "ano": "2024",
+  "titulo": "Chitosan-Cement Composite Mortars: Exploring Interactions, Structural Evolution, Environmental Footprint and Mechanical Performance",
+  "doi": "10.1021/acsomega.4c02040",
+  "pdf": "BAYKARA, 2024.pdf",
+  "fileId": "1XK6bhAM_GwuEhzSc248mL-qmAs2a3xQQ",
+  "extrair": [
+   "ic"
+  ],
+  "QD": 0,
+  "QG": 0.5,
+  "pares": [
+   {
+    "sheet_row": 1083,
+    "material": "Argamassa de cimento com chitosan (cimento HE + areia Ottawa) - mistura controle C0/G0",
+    "fck_mpa": 42,
+    "co2_kg_m3": 609,
+    "tipo_corpo_prova": "nao informado",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   }
+  ]
+ },
+ {
+  "row_id": 3752,
+  "autor": "Ro, Jin Wook and Cunningham, Patrick R. and Miller, Sabbie A",
+  "ano": "2024",
+  "titulo": "Technical, economic, and environmental feasibility of rice hull ash from electricity generation as a mineral additive to concrete",
+  "doi": "10.1038/s41598-024-59615-1",
+  "pdf": "RO et al., 2024.pdf",
+  "fileId": "1HYL7oPToyih5QBUf7jIYAoE4C7pMDOSJ",
+  "extrair": [
+   "ic",
+   "volume"
+  ],
+  "QD": 0,
+  "QG": 0.5,
+  "pares": [
+   {
+    "sheet_row": 1087,
+    "material": "Concreto com 100% cimento Portland (controle)",
+    "fck_mpa": 44,
+    "co2_kg_m3": 367.85,
+    "tipo_corpo_prova": "cilindro 100x200mm",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": null,
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 1088,
+    "material": "Concreto com 15% cinza de casca de arroz (RHA) substituindo cimento",
+    "fck_mpa": 37.5,
+    "co2_kg_m3": 312.88,
+    "tipo_corpo_prova": "cilindro 100x200mm",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": null,
+    "vida_util_atual": null
+   }
+  ]
+ },
+ {
+  "row_id": 3758,
+  "autor": "Raveendran, Namitha and Krishnan, Vasugi",
+  "ano": "2025",
+  "titulo": "Engineering performance and environmental assessment of sustainable concrete incorporating nano silica and metakaolin as cementitious materials",
+  "doi": "10.1038/s41598-025-85358-8",
+  "pdf": "RAVEENDRAN, 2025.pdf",
+  "fileId": "1qMysv_otqbkwWJWMOPNiuNBkDSQZmx92",
+  "extrair": [
+   "ic"
+  ],
+  "QD": 0,
+  "QG": 0.5,
+  "pares": [
+   {
+    "sheet_row": 493,
+    "material": "concreto controlo (CC, 100% OPC)",
+    "fck_mpa": 36.08,
+    "co2_kg_m3": 365.87,
+    "tipo_corpo_prova": "cubo",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 494,
+    "material": "concreto com 1% nano silica, aditivo (M1)",
+    "fck_mpa": 41,
+    "co2_kg_m3": 366.14,
+    "tipo_corpo_prova": "cubo",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 495,
+    "material": "concreto com 2% nano silica, aditivo (M2) - optimo NS",
+    "fck_mpa": 43.28,
+    "co2_kg_m3": 366.4,
+    "tipo_corpo_prova": "cubo",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 496,
+    "material": "concreto com 3% nano silica, aditivo (M3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 366.67,
+    "tipo_corpo_prova": "cubo",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 497,
+    "material": "concreto com 5% metacaulim, substituicao (M4)",
+    "fck_mpa": 38.5,
+    "co2_kg_m3": 356.35,
+    "tipo_corpo_prova": "cubo",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 498,
+    "material": "concreto com 12.5% metacaulim, substituicao (M5) - optimo MK",
+    "fck_mpa": 41.02,
+    "co2_kg_m3": 340.41,
+    "tipo_corpo_prova": "cubo",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 499,
+    "material": "concreto com 20% metacaulim, substituicao (M6)",
+    "fck_mpa": 33.64,
+    "co2_kg_m3": 330,
+    "tipo_corpo_prova": "cubo",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   },
+   {
+    "sheet_row": 500,
+    "material": "concreto hibrido 12.5% metacaulim + 2% nano silica (M7) - mistura otima geral",
+    "fck_mpa": 49.02,
+    "co2_kg_m3": 341.11,
+    "tipo_corpo_prova": "cubo",
+    "idade_dias": 28,
+    "vol_atual": null,
+    "vol_fonte_atual": "indisponivel",
+    "vida_util_atual": null
+   }
+  ]
+ }
+]
