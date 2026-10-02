@@ -1173,3 +1173,7 @@ Um rejeito de um país com a escala comercial da China (maior economia comercial
 ## Regra (Kiê, 2026-09-29) — factor de biblioteca de software que os próprios autores não usam = Rejeitado
 
 Caso 3917 UNGUREANU 2019 (reabilitação de painéis pré-fabricados, EcoDesigner). O único CO2 do betão era uma linha de uma tabela de factores de carbono incorporado da biblioteca do programa ("Pre-cast concrete C20/25", 120,5 g/kg, sem fonte), e os autores declaram que o betão armado **não** entrou na contabilização de CO2 do estudo. Um factor genérico que o próprio estudo exclui do seu cálculo não é um par fck+CO2 do estudo → `E2_co2` = Rejeitado. Diferente da 4698 (factores por classe tirados do próprio artigo **e usados** no cálculo do edifício estudado), que fica Aceito.
+
+## Regra nova (Kie, 2026-10-02) — classes de resistencia citadas sem atribuicao a cada mistura = Rejeitado (caso 4152 SANAL)
+
+Quando o artigo nomeia classes de resistencia (ex.: "C35 and C45") para um conjunto de misturas mas **nunca diz qual classe pertence a qual mistura**, `E2_resistencia` = **Rejeitado** por falta de resistencia atribuivel a cada mistura. Nao deduzir a atribuicao pela dosagem (teor de cimento, a/c), mesmo quando a deducao e muito plausivel — seria um valor nosso, nao impresso no artigo. Mesma familia: 4817 NOUHOUN (C20/25 a C35/45 sem atribuicao a LC/NC/SC) e 4173 ONYELOWE (so estatisticas globais de Fc).
