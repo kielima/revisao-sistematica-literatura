@@ -1177,3 +1177,5 @@ Caso 3917 UNGUREANU 2019 (reabilitação de painéis pré-fabricados, EcoDesigne
 ## Regra nova (Kie, 2026-10-02) — classes de resistencia citadas sem atribuicao a cada mistura = Rejeitado (caso 4152 SANAL)
 
 Quando o artigo nomeia classes de resistencia (ex.: "C35 and C45") para um conjunto de misturas mas **nunca diz qual classe pertence a qual mistura**, `E2_resistencia` = **Rejeitado** por falta de resistencia atribuivel a cada mistura. Nao deduzir a atribuicao pela dosagem (teor de cimento, a/c), mesmo quando a deducao e muito plausivel — seria um valor nosso, nao impresso no artigo. Mesma familia: 4817 NOUHOUN (C20/25 a C35/45 sem atribuicao a LC/NC/SC) e 4173 ONYELOWE (so estatisticas globais de Fc).
+
+Extensao (Kie, 2026-10-02, caso 4583 PUSHKAR): o mesmo vale quando as misturas sao "based on" estudos anteriores e o artigo so cita as **faixas** de resistencia dessas fontes. A regra MULLER (fck externo) so se aplica se a mistura for comprovadamente a **mesma** da fonte; se o proprio artigo mostrar que as misturas foram adaptadas (ex.: niveis de substituicao diferentes dos descritos para a fonte), Rejeitado.
