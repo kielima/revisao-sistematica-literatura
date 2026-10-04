@@ -65,6 +65,12 @@ CO2 = {
     978: (3384, 167.2, 185.7, '~185,7 kg CO2-eq/m3 (S_1)', 'Fig.3', 'nenhuma - lido por pixel na Fig.3', 'pessoal', 'idem 976'),
     979: (3384, 167.2, 166.9, '~166,9 kg CO2-eq/m3 (GF_5)', 'Fig.3', 'nenhuma - lido por pixel na Fig.3', 'pessoal', 'idem 976'),
     980: (3384, 167.2, 179.7, '~179,7 kg CO2-eq/m3 (PP_4)', 'Fig.3', 'nenhuma - lido por pixel na Fig.3', 'pessoal', 'idem 976'),
+    1826: (4869, 337.67, 302.39, '337,67 - 35,28 (aco: producao, preparacao e transportes) kg CO2/m3', 'Tabla 2', '337,67 - 35,28 = 302,39', 'subagente',
+           'D1: o 337,67 (Med) e de betao armado HA-25 com 50 kg de aco/m3'),
+    1748: (4758, 493.89, 358.03, 'calculado com as Tabelas 1 e 3 (silica ativa 3,4E-3 kg CO2/kg)', 'Tabelas 1 e 3', 'soma traco x factores', 'subagente',
+           'o calculo antigo usou 3,4 kg CO2/kg para a silica ativa; a Tabela 3 da 3,4E-3 (+135,86 kg/m3)'),
+    1752: (4758, 470.53, 334.67, 'calculado com as Tabelas 1 e 3 (silica ativa 3,4E-3 kg CO2/kg)', 'Tabelas 1 e 3', 'soma traco x factores', 'subagente', 'idem 1748'),
+    1756: (4758, 447.18, 311.31, 'calculado com as Tabelas 1 e 3 (silica ativa 3,4E-3 kg CO2/kg)', 'Tabelas 1 e 3', 'soma traco x factores', 'subagente', 'idem 1748'),
 }
 
 # linha: (row_id, fck_velho, fck_novo, nota)
@@ -92,6 +98,9 @@ NAO_CONV = {
     153: (2703, 'E2: duplica a linha 157 (mesmo traco OPC+W-BFS 30%, mesmo fck e CO2)'),
     1418: (4476, 'E2: o proprio artigo repete a Mix 6 como Mix 28 (mesma composicao, fck e CO2) - fica a linha 1396'),
     1423: (4476, 'E2: o proprio artigo repete a Mix 15 como Mix 33 (mesma composicao, fck e CO2) - fica a linha 1405'),
+    1743: (4754, 'E1: 15,8 kg CO2/m3 impossivel para 182,6 kg de cimento/m3; o eixo da Fig.4 nao tem unidade'),
+    1744: (4754, 'E1: 20,1 kg CO2/m3 impossivel para 182,6 kg de cimento/m3; o eixo da Fig.4 nao tem unidade'),
+    1761: (4766, 'E2: mesma classe 5500 psi e mesmo factor da linha 1758 (dois elementos do mesmo edificio)'),
 }
 
 # fck sem apoio no PDF -> par retirado (fck apagado)
