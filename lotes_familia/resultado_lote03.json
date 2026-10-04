@@ -1,0 +1,576 @@
+[
+ {
+  "row_id": 2696,
+  "pares": [
+   {
+    "sheet_row": 656,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Sec.3 p.12-13: 'Embodied Carbon: Only considered ... consumption of concrete, hollow-core panels and reinforcing steel and tendons'; Table 1 da coeficientes separados: Concrete C30/37 230 kgCO2e/m3, C32/40 240 kgCO2e/m3, Reinforcing steel (rebar) 650 kgCO2e/t, Tendons 1000 kgCO2e/t",
+    "co2_so_betao": 230.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1 (p.13): Concrete C30/37 145 GBP/m3, 230 kgCO2e/m3 (The Concrete Centre, UK, 2020)",
+    "nota": "O gravado (230) ja e o coeficiente so do betao; o aco entra no total dos pavimentos mas com coeficiente proprio. Composicao do ligante nao declarada (coeficiente medio UK); familia opc aceitavel."
+   },
+   {
+    "sheet_row": 657,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Sec.3 p.12-13: 'Embodied Carbon: Only considered ... consumption of concrete, hollow-core panels and reinforcing steel and tendons'; Table 1 da coeficientes separados: Concrete C30/37 230 kgCO2e/m3, C32/40 240 kgCO2e/m3, Reinforcing steel (rebar) 650 kgCO2e/t, Tendons 1000 kgCO2e/t",
+    "co2_so_betao": 240.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1 (p.13): Concrete C32/40 145 GBP/m3, 240 kgCO2e/m3",
+    "nota": "Idem; C32/40 usado nas lajes pos-tensionadas. Gravado ja e so betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de otimizacao de pavimentos (RC/PT flat slabs, hollow-core etc.). Os pares sao coeficientes de entrada da Table 1, nao resultados por sistema."
+ },
+ {
+  "row_id": 2699,
+  "pares": [
+   {
+    "sheet_row": 150,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.2.1: '1 m3 concrete was set as the functional unit'; fronteira = product stage (cradle to gate) do betao: materias-primas, transporte, producao; nenhum aco no inventario (Table 2/5)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5: mix design 24 MPa OPC 297, W 160, G 931, S 896, GGBS 33, AE 2.6 kg/m3; GWP 309 kg-CO2eq/m3 (resumo e Sec.5)",
+    "nota": "O traco do caso de estudo (central de Gyeonggi-do) ja contem 33 kg/m3 de GGBS (~10% do ligante): Portland com SCM minoritario. E o caso de referencia do CLAS, nao uma mistura sem material novo. Familia opc defensavel, mas tecnicamente e cimento + 10% escoria (podia ser scm)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Concreto apenas, sem armadura."
+ },
+ {
+  "row_id": 2700,
+  "pares": [
+   {
+    "sheet_row": 660,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: '1 m3 concrete was set as the functional unit ... product stage of concrete was selected' (Fig.2); inventario so de materiais do betao; 'rebar' so aparece na discussao de durabilidade",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4: C 297, W 160, G 931, S 896, GGBS 33, AE 2.6 kg/m3; Fig.4 GWP total 299 kgCO2-eq/m3 (OPC 277, GGBS 0.17...)",
+    "nota": "O 'Plain' (traco real do fabricante A) ja tem 33 kg/m3 de GGBS (~10%). Familia opc aceitavel mas contem SCM."
+   },
+   {
+    "sheet_row": 661,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: '1 m3 concrete was set as the functional unit ... product stage of concrete was selected' (Fig.2); inventario so de materiais do betao; 'rebar' so aparece na discussao de durabilidade",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.8: Plain/0% GGBS 331 kgCO2-eq/m3",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: GGBS 0% = 100% OPC, e a referencia da analise de sensibilidade; deveria ser opc, nao scm. Nota: na Fig.8 o rotulo 'Plain' corresponde a 331 (0% GGBS), enquanto o 299 da Fig.4 e o traco real com 33 kg GGBS - os dois 'Plain' nao sao a mesma mistura."
+   },
+   {
+    "sheet_row": 662,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: '1 m3 concrete was set as the functional unit ... product stage of concrete was selected' (Fig.2); inventario so de materiais do betao; 'rebar' so aparece na discussao de durabilidade",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.8: GGBS 10% -> 300 kgCO2-eq/m3 (9% reduction)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 663,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: '1 m3 concrete was set as the functional unit ... product stage of concrete was selected' (Fig.2); inventario so de materiais do betao; 'rebar' so aparece na discussao de durabilidade",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.8: GGBS 20% -> 269 kgCO2-eq/m3 (18% reduction)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 664,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: '1 m3 concrete was set as the functional unit ... product stage of concrete was selected' (Fig.2); inventario so de materiais do betao; 'rebar' so aparece na discussao de durabilidade",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.8: GGBS 30% -> 239 kgCO2-eq/m3 (28% reduction)",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Betao 24 MPa por m3, cradle-to-gate, sem armadura."
+ },
+ {
+  "row_id": 2703,
+  "pares": [
+   {
+    "sheet_row": 151,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate do betao (Fig.4/Sec.3); resultados por m3 na Table 'Environmental impact assessment of Concrete using A-BFS or BFS' (Case 1-5); 'reinforcing rod' so na discussao de carbonatacao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Type 1 = 100% OPC (plain); Case 1 GWP 342.28 kg-CO2eq/m3",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: 100% OPC deveria ser opc, nao scm. Mesmo par CO2 que a linha 154 (Case 1) - possivel duplicado."
+   },
+   {
+    "sheet_row": 152,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate do betao (Fig.4/Sec.3); resultados por m3 na Table 'Environmental impact assessment of Concrete using A-BFS or BFS' (Case 1-5); 'reinforcing rod' so na discussao de carbonatacao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Type 2 OPC + BFS 30% (238+102); Case 5 GWP 259.14",
+    "nota": "Duplica a linha 158 (Case 5, mesmo CO2 e fck)."
+   },
+   {
+    "sheet_row": 153,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate do betao (Fig.4/Sec.3); resultados por m3 na Table 'Environmental impact assessment of Concrete using A-BFS or BFS' (Case 1-5); 'reinforcing rod' so na discussao de carbonatacao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Type 3 OPC + W-BFS 30% (BFS com aditivo de residuos: gesso de titanio, lamas, calcario); Case 4 GWP 263.24",
+    "nota": "Duplica a linha 157 (Case 4)."
+   },
+   {
+    "sheet_row": 154,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate do betao (Fig.4/Sec.3); resultados por m3 na Table 'Environmental impact assessment of Concrete using A-BFS or BFS' (Case 1-5); 'reinforcing rod' so na discussao de carbonatacao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Case 1 (100% OPC) GWP 342.28",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: deveria ser opc. Duplica a linha 151."
+   },
+   {
+    "sheet_row": 155,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate do betao (Fig.4/Sec.3); resultados por m3 na Table 'Environmental impact assessment of Concrete using A-BFS or BFS' (Case 1-5); 'reinforcing rod' so na discussao de carbonatacao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Case 2 (90% OPC + 10% W-BFS) GWP 315.94",
+    "nota": ""
+   },
+   {
+    "sheet_row": 156,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate do betao (Fig.4/Sec.3); resultados por m3 na Table 'Environmental impact assessment of Concrete using A-BFS or BFS' (Case 1-5); 'reinforcing rod' so na discussao de carbonatacao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Case 3 (90% OPC + 10% BFS) GWP 314.57",
+    "nota": ""
+   },
+   {
+    "sheet_row": 157,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate do betao (Fig.4/Sec.3); resultados por m3 na Table 'Environmental impact assessment of Concrete using A-BFS or BFS' (Case 1-5); 'reinforcing rod' so na discussao de carbonatacao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Case 4 (70% OPC + 30% W-BFS) GWP 263.24",
+    "nota": "Duplica a linha 153."
+   },
+   {
+    "sheet_row": 158,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate do betao (Fig.4/Sec.3); resultados por m3 na Table 'Environmental impact assessment of Concrete using A-BFS or BFS' (Case 1-5); 'reinforcing rod' so na discussao de carbonatacao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Case 5 (70% OPC + 30% BFS) GWP 259.14",
+    "nota": "Duplica a linha 152."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "As linhas 151-153 (Types medidos) e 154/157/158 (Cases) repetem os mesmos pares fck x CO2: 3 pares contados duas vezes no painel. Verificar se e intencional."
+ },
+ {
+  "row_id": 2704,
+  "pares": [
+   {
+    "sheet_row": 666,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1 'System Boundary for Concrete LCA': product stage (cradle to gate) - raw material, transportation, manufacturing do betao; Table 8 por m3; sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 9: metodo convencional C 314, F/A 45, G 917, S 902, W 173, AE 2 kg/m3; Table 8: 340.9 kg-CO2/m3",
+    "nota": "Traco real da central com ~12,5% de cinza volante; referencia do artigo."
+   },
+   {
+    "sheet_row": 667,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1 'System Boundary for Concrete LCA': product stage (cradle to gate) - raw material, transportation, manufacturing do betao; Table 8 por m3; sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 9: otimizado CO2 C 330, F/A 34, G 924, S 833, W 172, AE 2.6; Table 8: 225.8 (texto: 225.7) kg-CO2/m3",
+    "nota": "Distingue-se por otimizacao de fornecedores/traco (mais cimento, menos cinza; reducao vem sobretudo da escolha de fornecedores com cimento de menor fator e transporte). Nao e material novo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Concreto sem armadura."
+ },
+ {
+  "row_id": 2705,
+  "pares": [
+   {
+    "sheet_row": 668,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3 (Table 4/5): CO2 por 1 m3 de RMC cradle-to-gate (materias-primas, transporte, fabrico); aco (rebar/steel frame) so aparece no caso de estudo dos pilares (Table 9), separado e nao usado no par",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 5 C-B-58: Ordinary cement 'Not included'; blast-furnace slag powder 308 (62.83), fly ash 102 (63.21), W 160, G 929, S 831, admixture 4.92; total 134.59 kg-CO2/m3",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: sem cimento Portland comum no traco - 'all cement was substituted with blast-furnace slag cement and blast-furnace fine particles' (betao de massa de fundacao). Deveria ser scm, nao opc. Tipo de ligante: o texto fala em cimento de escoria (contem clinquer) mas a tabela so lista escoria em po + cinza; marcado portland com reserva (sem ativador alcalino declarado)."
+   },
+   {
+    "sheet_row": 669,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3 (Table 4/5): CO2 por 1 m3 de RMC cradle-to-gate (materias-primas, transporte, fabrico); aco (rebar/steel frame) so aparece no caso de estudo dos pilares (Table 9), separado e nao usado no par",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 5 C-I-49: OPC 211 (196.44), slag powder 211 (43.04), W 160, G 953, S 806; total 247.83",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: 50% de GGBS no ligante -> scm, nao opc."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O caso de estudo dos pilares (SRC vs RC, Table 9) soma aco, mas nao e a fonte destes pares."
+ },
+ {
+  "row_id": 2714,
+  "pares": [
+   {
+    "sheet_row": 670,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4 / Fig.11: fronteira = producao de 1 m3 de argamassa geopolimerica CDW (transporte, processamento, mistura, cura); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 8: RT-C-10-0.45 GWP 178.7 kg CO2 eq; precursor telha (RT) de RCD ativado com NaOH 10 M, agregado de betao reciclado; PCF-Control 501.1",
+    "nota": "Argamassa; residuo sim (telha e agregado de RCD). Cura 115 C."
+   },
+   {
+    "sheet_row": 671,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4 / Fig.11: fronteira = producao de 1 m3 de argamassa geopolimerica CDW (transporte, processamento, mistura, cura); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 8: RT-C-15-0.45 251.4 kg CO2 eq (NaOH 15 M)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 672,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4 / Fig.11: fronteira = producao de 1 m3 de argamassa geopolimerica CDW (transporte, processamento, mistura, cura); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 8: RT-C-19-0.45 302.8 kg CO2 eq (NaOH 19 M)",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Ha referencia PCF-Control (Portland) 501.1 kg CO2 eq/m3 nao gravada como par (talvez sem fck)."
+ },
+ {
+  "row_id": 2719,
+  "pares": [
+   {
+    "sheet_row": 673,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.5.1/Fig.1: 'functional unit ... 1 m3 AAM or OPC mortar, in which the solid binder, water and sand are included'; fronteira constituintes + producao da argamassa (Structure Production fora)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.3.3: 'equivalent CO2 emissions of seawater mixed with one part AAM are 258.9 kg/m3' (FA+GGBS, NaOH, silicato e carbonato de sodio solidos, agua do mar)",
+    "nota": "Precursores FA e GGBS = subprodutos industriais (o artigo diz 'by-products rather than wastes'); marcado residuo sim no sentido de subproduto."
+   },
+   {
+    "sheet_row": 674,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.5.1/Fig.1: 'functional unit ... 1 m3 AAM or OPC mortar, in which the solid binder, water and sand are included'; fronteira constituintes + producao da argamassa (Structure Production fora)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.3.3: 'equivalent CO2 emissions of reference for OPC mortar are 469.3 kg/m3' (CEM I 42.5 N)",
+    "nota": "Referencia OPC; fck assumido igual (mesma classe)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Argamassas, sem armadura."
+ },
+ {
+  "row_id": 2720,
+  "pares": [
+   {
+    "sheet_row": 162,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: 'system boundaries for concrete preparation include the production of various concrete mixing materials, transportation, and mixing in the laboratory'; sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table (LCA results): Global warming Ordinary concrete 449.06 kg CO2 eq",
+    "nota": ""
+   },
+   {
+    "sheet_row": 163,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: 'system boundaries for concrete preparation include the production of various concrete mixing materials, transportation, and mixing in the laboratory'; sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table (LCA results): MSWI ash micro-powder concrete 325.07 kg CO2 eq (20% de micro-po de cinza de incineracao de RSU)",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "UF '1 L' ja tratada como 1 m3 por decisao anterior."
+ },
+ {
+  "row_id": 2721,
+  "pares": [
+   {
+    "sheet_row": 675,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 1-1 (controlo, PPF 0%, BA 0%) 362.0201 kg/m3",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: controlo sem tijolo reciclado nem fibra -> opc, nao reciclado."
+   },
+   {
+    "sheet_row": 676,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 1-2 (PPF 0%, BA 25% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 677,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 1-3 (PPF 0%, BA 50% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 678,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 1-4 (PPF 0%, BA 75% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 679,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 1-5 (PPF 0%, BA 100% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 680,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 2-1 (PPF 0.1%, BA 0%)",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: so fibra de polipropileno, sem agregado reciclado -> fibra, nao reciclado."
+   },
+   {
+    "sheet_row": 681,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 2-2 (PPF 0.1%, BA 25% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": "Combina agregado reciclado com fibra PP 0.1%."
+   },
+   {
+    "sheet_row": 682,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 2-3 (PPF 0.1%, BA 50% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": "Combina agregado reciclado com fibra PP 0.1%."
+   },
+   {
+    "sheet_row": 683,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 2-4 (PPF 0.1%, BA 75% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": "Combina agregado reciclado com fibra PP 0.1%."
+   },
+   {
+    "sheet_row": 684,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 2-5 (PPF 0.1%, BA 100% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": "Combina agregado reciclado com fibra PP 0.1%."
+   },
+   {
+    "sheet_row": 685,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 3-1 (PPF 0.15%, BA 0%)",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: so fibra de polipropileno, sem agregado reciclado -> fibra, nao reciclado."
+   },
+   {
+    "sheet_row": 686,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 3-2 (PPF 0.15%, BA 25% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": "Combina agregado reciclado com fibra PP 0.15%."
+   },
+   {
+    "sheet_row": 687,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 3-3 (PPF 0.15%, BA 50% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": "Combina agregado reciclado com fibra PP 0.15%."
+   },
+   {
+    "sheet_row": 688,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 3-4 (PPF 0.15%, BA 75% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": "Combina agregado reciclado com fibra PP 0.15%."
+   },
+   {
+    "sheet_row": 689,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. ACV (Table 10): CO2 por m3 = soma de NA, BA, areia, PPF, agua, PC x fatores; nenhum aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 10: mistura 3-5 (PPF 0.15%, BA 100% de tijolo vermelho de RCD como agregado graudo)",
+    "nota": "Combina agregado reciclado com fibra PP 0.15%."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Cimento PC 487 kg/m3 constante (357.945 kg CO2); CO2 quase igual em todas as misturas."
+ }
+]

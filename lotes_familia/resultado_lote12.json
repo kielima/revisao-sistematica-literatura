@@ -1,0 +1,372 @@
+[
+ {
+  "row_id": 3115,
+  "pares": [
+   {
+    "sheet_row": 315,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ACV cradle-to-gate de 1 m3 de argamassa (Sec.2.5.1, Fig.2); inventario sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "NACM NT0S0: fc28 38,72 MPa; 'NACM possessed greater total GWP, with approximately 1200 kg CO2 eq' (Sec. resultados GWP)",
+    "nota": "Valor 'approximately 1200' (lido de figura/texto, aproximado). Cimento 1171,88 kg/m3 (Tab.2)."
+   },
+   {
+    "sheet_row": 316,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem; MWCNT em dose 0,05% sao aditivo nano, nao armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "LT5S0: fc28 21,10 MPa; 'mix LT5S0 ... 603.44 kg CO2 eq'",
+    "nota": "O que distingue a LWCM e o agregado leve de cenosferas de cinza volante (FAC, subproduto) + 0,05% MWCNT; cimento cai de 1171,88 para 527,34 kg/m3 (Tab.2), e e isso que reduz o CO2. Familia actual 'scm' parece errada: o FAC entra como agregado fino (substitui areia), nao como ligante -> familia de agregado leve/residuo (reciclado), nao scm."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (90 mil car.) lido por script; artigo de 23 pp."
+ },
+ {
+  "row_id": 3117,
+  "pares": [
+   {
+    "sheet_row": 317,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.2 'Amount of materials per functional unit': RC jacketing = concrete 0.75 m3 + reinforcing steel 101.80 kg + epoxy 9.45 kg + diesel de demolicao/encamisamento + rock crushing; UF = pilar retrofitado, 50 anos, 4 fases (fabrico, construcao, uso, fim de vida)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Global warming kg CO2 eq 578.16 (tabela do Apendice, 4/7/10 pisos) / 0.75 m3 (Tab.2)",
+    "nota": "O artigo nao decompoe o GWP por material (Fig.2 e tabelas do apendice so dao o total por alternativa); impossivel isolar o betao. O total inclui tambem epoxi, anticarbonatacao, diesel e britagem de fim de vida - nao e so betao+aco. O valor 578,16/678,73/747,46 aparece na tabela do Apendice (provavelmente TRACI 2.1); EF 3.1 da 583,19/684,75/754,05. Familia concreto_armado correcta."
+   },
+   {
+    "sheet_row": 318,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.2 'Amount of materials per functional unit': RC jacketing = concrete 0.85 m3 + reinforcing steel 124.80 kg + epoxy 11.34 kg + diesel de demolicao/encamisamento + rock crushing; UF = pilar retrofitado, 50 anos, 4 fases (fabrico, construcao, uso, fim de vida)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Global warming kg CO2 eq 678.73 (tabela do Apendice, 4/7/10 pisos) / 0.85 m3 (Tab.2)",
+    "nota": "O artigo nao decompoe o GWP por material (Fig.2 e tabelas do apendice so dao o total por alternativa); impossivel isolar o betao. O total inclui tambem epoxi, anticarbonatacao, diesel e britagem de fim de vida - nao e so betao+aco. O valor 578,16/678,73/747,46 aparece na tabela do Apendice (provavelmente TRACI 2.1); EF 3.1 da 583,19/684,75/754,05. Familia concreto_armado correcta."
+   },
+   {
+    "sheet_row": 1933,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.2 'Amount of materials per functional unit': RC jacketing = concrete 0.94 m3 + reinforcing steel 132.58 kg + epoxy 13.23 kg + diesel de demolicao/encamisamento + rock crushing; UF = pilar retrofitado, 50 anos, 4 fases (fabrico, construcao, uso, fim de vida)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Global warming kg CO2 eq 747.46 (tabela do Apendice, 4/7/10 pisos) / 0.94 m3 (Tab.2)",
+    "nota": "O artigo nao decompoe o GWP por material (Fig.2 e tabelas do apendice so dao o total por alternativa); impossivel isolar o betao. O total inclui tambem epoxi, anticarbonatacao, diesel e britagem de fim de vida - nao e so betao+aco. O valor 578,16/678,73/747,46 aparece na tabela do Apendice (provavelmente TRACI 2.1); EF 3.1 da 583,19/684,75/754,05. Familia concreto_armado correcta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fileId ausente na lista; encontrado no Drive: 1uCI-LOctK9B7PndFHfCQh1k8VyLvLnzQ."
+ },
+ {
+  "row_id": 3118,
+  "pares": [
+   {
+    "sheet_row": 845,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF 1 m3 de argamassa pronta, cradle-to-gate (Sec.3.3.2); inventario Tab.5 sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.9: REF GWP100 5,66E+02 kg CO2 eq; Tab.4 REF = 300 kg cimento, w/c 0,5",
+    "nota": "fck 44 vem da Fig.3 (nao verificado por pixel nesta ronda). Ressalva: 566 kg CO2/m3 para 300 kg/m3 de cimento parece alto (as densidades frescas da Tab.7, 2232-3453 kg/m3, tambem sao estranhas); nao e assunto desta revarredura, so registo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3120,
+  "pares": [
+   {
+    "sheet_row": 320,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.5 / Fig.10: GWP da parede = solo + estabilizacao + argamassa de juntas; sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6: bloco CEB 12M NaOH + 15% FA com PGBS, Series II (200-215 d), resistencia humida 27,9 MPa; Fig.10 GWP por metro linear de parede (bloco 230 mm + juntas de argamassa 10 mm)",
+    "nota": "Bloco de terra comprimida (solo + agregado PGBS de escoria de aco) estabilizado por ativacao alcalina de cinza volante. O CO2 de 42,5 inclui a argamassa de juntas cimento-cal (segunda maior parcela, diz o texto), por isso 184,8 kg/m3 e da parede de alvenaria, nao do bloco. fck e de bloco aos ~200 d, nao de provete normalizado. Familia 'geopolimero' aceitavel pelo ligante, mas o material e terra estabilizada; considerar familia de terra se existir."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3132,
+  "pares": [
+   {
+    "sheet_row": 847,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF 1 m3 de betao C25/C30/C40, cradle-to-site (Sec.3.2); so materiais e transporte",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'PLC ... generated about 353, 398, and 511 kgCO2-eq per cubic metre of concrete for C 25, C 30, and C 40'; Tab.3 V0 = 100% PLC (312 kg)",
+    "nota": "E a mistura de controlo V0 (100% PLC, sem cinza de Vitellaria Paradoxa). Familia actual 'scm' esta ERRADA para estas tres linhas -> deve ser opc (controlo)."
+   },
+   {
+    "sheet_row": 848,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF 1 m3 de betao C25/C30/C40, cradle-to-site (Sec.3.2); so materiais e transporte",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'PLC ... generated about 353, 398, and 511 kgCO2-eq per cubic metre of concrete for C 25, C 30, and C 40'; Tab.3 V0 = 100% PLC (352 kg)",
+    "nota": "E a mistura de controlo V0 (100% PLC, sem cinza de Vitellaria Paradoxa). Familia actual 'scm' esta ERRADA para estas tres linhas -> deve ser opc (controlo)."
+   },
+   {
+    "sheet_row": 849,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF 1 m3 de betao C25/C30/C40, cradle-to-site (Sec.3.2); so materiais e transporte",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'PLC ... generated about 353, 398, and 511 kgCO2-eq per cubic metre of concrete for C 25, C 30, and C 40'; Tab.3 V0 = 100% PLC (452 kg)",
+    "nota": "E a mistura de controlo V0 (100% PLC, sem cinza de Vitellaria Paradoxa). Familia actual 'scm' esta ERRADA para estas tres linhas -> deve ser opc (controlo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "As tres linhas tem o mesmo texto de material; distinguem-se pela classe (C25/C30/C40)."
+ },
+ {
+  "row_id": 3139,
+  "pares": [
+   {
+    "sheet_row": 855,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Eq.(3) CO2 = soma ci*ri das materias-primas por m3 (Tab.6); fibras de aco dispersas 117 kg/m3 nao sao armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "Control: fc28 134,2 MPa; '1,046 kg/m3' (Sec.5)",
+    "nota": "UHPC cimento+escoria com 1,5% fibra de aco dispersa."
+   },
+   {
+    "sheet_row": 856,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "sim",
+    "citacao": "GM20: '20 % slag was replaced by glass microsphere'; fc28 127,6 MPa; 771 kg/m3",
+    "nota": "Microsfera de vidro oca comercial (3M iM16K), nao residuo. O texto chama 'GB50' a esta mistura numa frase (gralha do artigo)."
+   },
+   {
+    "sheet_row": 857,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem; L0 troca a fibra de aco por PE",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "sim",
+    "citacao": "L0: 'steel fibers were replaced by PE fibers ... 771 kg/m3 to 656 kg/m3'; fc28 118,3 MPa",
+    "nota": "L0 mantem as 20% de microsfera de GM20; o distintivo face a GM20 e a fibra PE."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O vidro expandido (L25-L100) e de vidro residual, mas nenhum dos pares gravados o contem."
+ },
+ {
+  "row_id": 3146,
+  "pares": [
+   {
+    "sheet_row": 859,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "cradle-to-gate, producao de betao (Fig.15, Sec.4.5); inventario Tab.10 sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.11 Control GWP100 331,3603615 kg CO2 eq; Tab.10 FU 1 m3, '56-day Compressive Strength = 28 MPa'",
+    "nota": "fck e aos 56 dias, nao 28."
+   },
+   {
+    "sheet_row": 860,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.11 Ofim-15 298,844006; Tab.9 Ofim-15/10 (90% do cimento) 56-d 29,1 MPa; Tab.10 cimento 360 -> 324 kg",
+    "nota": "Mucilagem de cacto (bio-aditivo na agua de amassadura) + 10% menos cimento. Os autores tratam o cacto como 'waste product without a service provider' na modelacao, mas os cladodios sao colhidos de proposito -> residuo 'nao' (discutivel). Familia 'biobase' discutivel: e betao Portland com bio-aditivo, nao material de base biologica; a reducao de CO2 vem do corte de cimento. fck aos 56 d."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3151,
+  "pares": [
+   {
+    "sheet_row": 861,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "CO2 por m3 de betao a partir das quantidades de materiais (Tab.1) e factores de emissao; sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 OPC M40 fc28 46,50 MPa; texto Sec.CO2: OPC normal 356 kg-CO2-e/m3",
+    "nota": ""
+   },
+   {
+    "sheet_row": 862,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 OPC M70 fc28 79,90 (412->428 OPC + 80 FA + 27 SF); OPC HSC 373 kg-CO2-e/m3",
+    "nota": "A mistura M70 'OPC' tem 80 kg FA + 27 kg SF (Tab.1), nao e OPC puro."
+   },
+   {
+    "sheet_row": 863,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 GPC M40: FA 300 + GGBS 200, SS 147, SH 58,8; fc28 47,20; GPC normal 313 kg-CO2-e/m3",
+    "nota": ""
+   },
+   {
+    "sheet_row": 864,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 GPC M70: GGBS 500; fc28 76,82; GPC HSC 346 kg-CO2-e/m3",
+    "nota": ""
+   },
+   {
+    "sheet_row": 865,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 LC3 M40: OPC 206 + LS 123,6 + CC 61,8 + gesso 20,6; fc28 48,25; LC3 normal 183 kg-CO2-e/m3",
+    "nota": "Argila calcinada + calcario nao sao residuos."
+   },
+   {
+    "sheet_row": 866,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 LC3 M70: OPC 255 + LS 153 + CC 77; fc28 79,90; LC3 HSC 268 kg-CO2-e/m3",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O paragrafo dos valores de CO2 esta embaralhado no texto extraido (duas colunas sobrepostas); a atribuicao 356/373 OPC, 313/346 GPC, 183/268 LC3 e a unica leitura coerente com a frase 'LC3 possesses 183 ... high strength LC3 268'. As percentagens do proprio artigo (47,5%/39,2% e 31,2%/33,81%) nao batem com estes valores - incoerencia do artigo. As resistencias e traços sao compilados da literatura (revisao); o CO2 e calculo proprio. Download do PDF para render falhou (ficheiro grande demais para o conector)."
+ },
+ {
+  "row_id": 3152,
+  "pares": [
+   {
+    "sheet_row": 867,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "cradle-to-gate de 1 m3 de argamassa (Fig.1); aco so aparece no processo de reciclagem de pneus (laminas, fibras metalicas recuperadas)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 M_REF fc28 24,20 MPa; Tab.11/12 M_REF 270 kg CO2 eq",
+    "nota": "Familia actual 'reciclado' esta ERRADA para o controlo -> opc."
+   },
+   {
+    "sheet_row": 868,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 M_10 (10% CR, 144,9 kg) fc28 20,04; Tab.12 (cenario E1) M10 292 kg CO2 eq",
+    "nota": "Gravado o cenario E1 (CR como co-produto, sem creditos). E2 = 286 (alocacao por peso), E3 = 240 (creditos da reciclagem das fibras metalicas e texteis). Escolha de E1 coerente com 'sem creditos de carga evitada'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3153,
+  "pares": [
+   {
+    "sheet_row": 869,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.3: CO2(Production)=soma ri*Eri sobre as proporcoes da Tab.1 (so ingredientes do betao); a armadura dos pilares (8 mm long., estribos 6 mm) nao entra no inventario, so e citada como reciclavel no fim de vida",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 FG (FA 250 + GGBFS 250): fc28 57,06 MPa; Fig.25 total cradle-to-grave; 'HSGC column is 6.15% lower'",
+    "nota": "O par e da mistura FG (57,06), nao FA/FG/FM em conjunto como diz o rotulo. Fronteira cradle-to-grave (producao+transporte+construcao+fim de vida), nao so materiais. Leitura de figura ja sinalizada (eixo 't-CO2/m3')."
+   },
+   {
+    "sheet_row": 1934,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.7 OPC [87]: OPC 353 + FA 73 + SF 73 kg/m3, 28 d CS 58,70 MPa",
+    "nota": "fck e traco da referencia OPC vem de fonte externa [87] (nao ensaiada no artigo); deveria ter fonte_externa registada. Nao e OPC puro (FA+SF)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ }
+]

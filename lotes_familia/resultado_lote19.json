@@ -1,0 +1,384 @@
+[
+ {
+  "row_id": 3413,
+  "pares": [
+   {
+    "sheet_row": 993,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU = 1 m3 mortar, cradle-to-gate (sec. 2.3); LCI Tab.3 só ligante, agregado, água e activadores",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.4 Total OPC 535.80 kg CO2 eq/m3; Tab.2 450 g CEM I 42.5R",
+    "nota": ""
+   },
+   {
+    "sheet_row": 994,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU = 1 m3 mortar, cradle-to-gate (sec. 2.3); LCI Tab.3 só ligante, agregado, água e activadores",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 Total AAM -406.02; Tab.2 450 g escória + Na2SiO3",
+    "nota": "ALERTA: o CO2 negativo resulta de creditar a escória/cinza volante como 'avoided cement production' (Tab.4: Slag -515.65 / -391.90; Fly ash -391.90 kg CO2 eq/m3). O valor é o publicado, mas não é comparável com pegadas sem crédito de carga evitada."
+   },
+   {
+    "sheet_row": 995,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU = 1 m3 mortar, cradle-to-gate (sec. 2.3); LCI Tab.3 só ligante, agregado, água e activadores",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 Total Hybrid-slag -253.26; Tab.2 342 g escória + 85.5 g OPC + 22.5 g Na2SO4 (OPC minoritário, ~20%)",
+    "nota": "ALERTA: o CO2 negativo resulta de creditar a escória/cinza volante como 'avoided cement production' (Tab.4: Slag -515.65 / -391.90; Fly ash -391.90 kg CO2 eq/m3). O valor é o publicado, mas não é comparável com pegadas sem crédito de carga evitada. Híbrido com OPC minoritário -> alcali_ativado pela regra."
+   },
+   {
+    "sheet_row": 996,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU = 1 m3 mortar, cradle-to-gate (sec. 2.3); LCI Tab.3 só ligante, agregado, água e activadores",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 Total Hybrid-fly ash -253.27; Tab.2 342 g FA + 85.5 g OPC + 22.5 g Na2SO4",
+    "nota": "ALERTA: o CO2 negativo resulta de creditar a escória/cinza volante como 'avoided cement production' (Tab.4: Slag -515.65 / -391.90; Fly ash -391.90 kg CO2 eq/m3). O valor é o publicado, mas não é comparável com pegadas sem crédito de carga evitada. Família actual 'geopolimero' coerente (híbrido OPC minoritário)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Argamassas de laboratório (cubos 1 cm). Sem reforço. Família dos 4 pares coerente."
+ },
+ {
+  "row_id": 3416,
+  "pares": [
+   {
+    "sheet_row": 997,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Sec.5.2.1: 'carbon footprint of the SHCC were ... 70 kg'; aço da viga SHCC 66 kg (3.03 kg CO2/kg) somado à parte",
+    "co2_so_betao": 469.8,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.5.2.1: SHCC 70 kg / 0.149 m3; Tab.5/6 mistura óptima RCP 45% (substitui cimento), PVA 1.7% + basalto 0.2%, fc28 30.2 MPa",
+    "nota": "O valor gravado JÁ é só o SHCC (sem aço). Tem também fibras PVA/basalto dispersas (não são armadura). Família 'reciclado' discutível: o RCP entra como substituto de cimento (pó de betão reciclado); aceitável como reciclado."
+   },
+   {
+    "sheet_row": 998,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Sec.5.2.1: 'conventional concrete were 27 USD and 60 kg'; aço da viga convencional 72 kg somado à parte",
+    "co2_so_betao": 370.4,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.5.2.1: 60 kg / 0.162 m3; Sec.5.1 'same compressive strength'",
+    "nota": "O valor gravado JÁ é só o betão (sem aço). Inventário do betão convencional não detalhado (Tab.8 só factores)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Vigas de betão armado; o artigo separa explicitamente CO2 do material e do aço."
+ },
+ {
+  "row_id": 3419,
+  "pares": [
+   {
+    "sheet_row": 1001,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU 'Concrete – 1 m3 of concrete', cradle-to-gate (sec. 3.1.1)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GWP Control 4.46E+02 kg CO2-eq; traço 355.9/733.6/1100.5/210 (25 MPa)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1002,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GWP 3.98E+02; 10% vol. de areia substituída por plástico de copos de café (Tab.2)",
+    "nota": "As conclusões falam de '30% of partial sand replacement' — gralha do artigo; a metodologia e a Tab.2 dizem 10%."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O traço de controlo é idêntico ao da 3477 HAIGH (mesmo grupo), mas CO2 e fck diferentes (446 vs 370) — não é par duplicado."
+ },
+ {
+  "row_id": 3424,
+  "pares": [
+   {
+    "sheet_row": 1004,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Fig.8 (GWP100a, barras empilhadas): Reinforcement / Cement / SAPs / restantes (preto). Wall_Ref_M1_50: total ~1.64E4, armadura ~0.50E4 kg CO2 eq (leitura por píxel, grelha 225 px por 1E4)",
+    "co2_so_betao": 369,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.8 Wall_Ref_M1_50 total ≈16.4E3 kg CO2 eq; parede 14x2.75x0.80 m (30.8 m3; tabelas de custo dão 30.08 m3 de betão)",
+    "nota": "O valor gravado (532.5) AINDA inclui o aço (~162 kg/m3) e a reparação da fase de uso (cenário M1_50). Só betão ≈ (16380-5000)/30.8 ≈ 369 kg/m3 (leitura gráfica, confiança baixa; o 'restante' preto inclui agregados, transporte e reparações). Família concreto_armado coerente com o valor gravado."
+   },
+   {
+    "sheet_row": 1005,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Fig.8 Wall_SAP_M1_50: total ~1.61E4, armadura ~0.46E4 kg CO2 eq (leitura por píxel)",
+    "co2_so_betao": 374,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Fig.8 Wall_SAP_M1_50 total ≈16.1-16.2E3; C30/37 com 40.9 kg de SAP (Tab.9)",
+    "nota": "Idem: gravado 526 inclui aço (~149 kg/m3) e reparação; só betão ≈ (16110-4580)/30.8 ≈ 374 kg/m3. Total lido por mim ≈16.1E3 (gravado 16.2E3), diferença dentro do erro de leitura."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fig.8 renderizada e medida por píxel (fa19_ds_gwp.png). As duas alternativas de cálculo (com e sem aço) estão ambas disponíveis por leitura gráfica."
+ },
+ {
+  "row_id": 3439,
+  "pares": [
+   {
+    "sheet_row": 1006,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.7: 'Global warming potential of 1 m3 of ... concrete' (só o betão; aço e tendões contados à parte no inventário da torre)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Fig.7, 35-MPa printed concrete; Fig.3 traço com cinza volante e agregado grosso",
+    "nota": "Distingue-se pela impressão 3D (não por resíduo); a cinza volante é parte do traço. Valor de figura (leitura anterior, não remedido)."
+   },
+   {
+    "sheet_row": 1007,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.7 (1 m3 de betão)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Fig.7, 78-MPa printed concrete (47.73% cimento em massa; sílica de fumo excluída do inventário por ser subproduto)",
+    "nota": "Betão de alta resistência impresso; o artigo não lhe chama UHPC."
+   },
+   {
+    "sheet_row": 1999,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.7 (1 m3 de betão)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.7, conventional 35-MPa ready-mix (EPD CalPortland Mix 45EF6Z)",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "As torres têm aço de pré-esforço (138 t) e varões (227 t), mas os pares gravados são da Fig.7 por m3 de betão — sem aço."
+ },
+ {
+  "row_id": 3443,
+  "pares": [
+   {
+    "sheet_row": 1009,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: factores unitários separados — 'Steel (G-60) kg 3.01' e 'Concrete xx MPa m3 ...'",
+    "co2_so_betao": 279.21,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 Concrete 30 MPa m3 279.21 (ITEC BEDEC 2016)",
+    "nota": "O valor gravado JÁ é só o betão (factor unitário por m3, aço em linha própria)."
+   },
+   {
+    "sheet_row": 1010,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: factores unitários separados — 'Steel (G-60) kg 3.01' e 'Concrete xx MPa m3 ...'",
+    "co2_so_betao": 305.96,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 Concrete 35 MPa m3 305.96 (ITEC BEDEC 2016)",
+    "nota": "O valor gravado JÁ é só o betão (factor unitário por m3, aço em linha própria)."
+   },
+   {
+    "sheet_row": 1011,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: factores unitários separados — 'Steel (G-60) kg 3.01' e 'Concrete xx MPa m3 ...'",
+    "co2_so_betao": 307.06,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 Concrete 40 MPa m3 307.06 (ITEC BEDEC 2016)",
+    "nota": "O valor gravado JÁ é só o betão (factor unitário por m3, aço em linha própria)."
+   },
+   {
+    "sheet_row": 1012,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: factores unitários separados — 'Steel (G-60) kg 3.01' e 'Concrete xx MPa m3 ...'",
+    "co2_so_betao": 307.06,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 Concrete 45 MPa m3 307.06 (ITEC BEDEC 2016)",
+    "nota": "O valor gravado JÁ é só o betão (factor unitário por m3, aço em linha própria)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Factores de base de dados (BEDEC) para pórtico de betão armado; 40 e 45 MPa têm o mesmo CO2 (307.06) — é o que a Tab.1 imprime, não erro de gravação. Família opc coerente."
+ },
+ {
+  "row_id": 3449,
+  "pares": [
+   {
+    "sheet_row": 1013,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Sec.3.3.2: laje de 3 m, 18 cm, taxa de armadura 1.42% (B500B); Tab.2 'Conventional RC flat slab 67 kgCO2e/m2' inclui betão, armadura, cofragem, transporte e fim de vida da estrutura dadora (A1-5 + C1-4 dadora)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: 3 m, conventional RC flat slab 67 kgCO2e/m2; C30/37",
+    "nota": "Separação não possível só com dados do artigo: o Apêndice dá 'Concrete production 0.089 kgCO2e/kg' e 'Steel reinforcement production 1.125 kgCO2e/kg', mas nem a massa volúmica do betão nem a massa de armadura/cofragem por m2 são impressas. Estimativa com densidades assumidas (2400 / 7850): betão ≈214 kg/m3, aço ≈125 kg/m3 — só indicativa."
+   },
+   {
+    "sheet_row": 2000,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Sec.3.3.2: laje de 6 m, 20 cm, taxa 1.4%; Tab.2 'Conventional RC flat slab 74 kgCO2e/m2'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: 6 m, conventional RC flat slab 74 kgCO2e/m2",
+    "nota": "Idem. Família concreto_armado coerente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Os dois pares (372.2 e 370.0, ambos C30/37) são duas lajes distintas (3 m/18 cm e 6 m/20 cm) — quase coincidentes mas não duplicados. A UF por m2 inclui também a demolição convencional da estrutura dadora (C1-4) e cofragem."
+ },
+ {
+  "row_id": 3451,
+  "pares": [
+   {
+    "sheet_row": 1014,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU 'one cubic meter of pervious concrete with 20% porosity'; 'functional unit here is pervious concrete mix not pervious concrete pavement'",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.5 MPC NCA GWP 297 kg CO2 eq/m3; traço MK 167 + GBFS 19 + activador 225 kg/m3; fc ~21 MPa",
+    "nota": "Metacaulino (não resíduo) com pouca escória. Família geopolimero coerente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3456,
+  "pares": [
+   {
+    "sheet_row": 1015,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU 1 m3 de betão 30 MPa; inventário 'Waste concrete, not reinforced'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.8 BAU (traço PC30 de Limbachiya 2011, 0% RCA)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 2001,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.8 BP: -23% vs BAU; 70% CEM I + 25% SCM comuns + 5% calcário, 30% RCA",
+    "nota": "Combina SCM (principal fonte da redução de CO2) e 30% RCA. Família actual 'reciclado' discutível — pode ir para scm."
+   },
+   {
+    "sheet_row": 2002,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.8 CIRC: -35% vs BAU; LC3-50 (argila calcinada + cinza volante de biomassa + gesso) e 100% RCA grosso",
+    "nota": "LC3 com cinza de biomassa + 100% RCA. Família 'reciclado' discutível (LC3 é a principal fonte da redução, sec.4 Fig.10)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Cradle-to-grave por m3 de betão não armado."
+ },
+ {
+  "row_id": 3477,
+  "pares": [
+   {
+    "sheet_row": 420,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU 1 m3; uso e fim de vida excluídos (sec.3.2.1); Tab.4 traço sem aço",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.7/texto: control média material+transporte 375.28 (Tab.7 GWP100 370); traço 355.9 cimento",
+    "nota": "fck 25 = alvo de projecto (não medido)."
+   },
+   {
+    "sheet_row": 421,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "SFKF5: 5% fibra kraft de cartão (modificada com sílica de fumo); 20 MPa aos 28 d; GWP 360",
+    "nota": "Fibras dispersas de cartão reciclado substituem 5% do cimento em massa (338.1 cimento + 17.79 KF)."
+   },
+   {
+    "sheet_row": 422,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "SFKF105: 10% KF + 5% MK; 21 MPa; GWP 343",
+    "nota": "Também substitui cimento (302.52 cimento + 35.58 KF + 17.79 MK)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Mesmo traço de controlo da 3419 SANDANAYAKE, com CO2/fck diferentes — não duplicado."
+ }
+]

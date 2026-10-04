@@ -1,0 +1,336 @@
+[
+ {
+  "row_id": 3206,
+  "texto_completo_lido": true,
+  "notas": "Betao de pavimento de laboratorio; Tab.7 p.13 da CO2 por m3 (materia-prima+producao+transporte), sem armadura. Fibras de aco/carbono dispersas entram no CO2 (fibra, nao armadura). fck do controlo inconsistente no proprio artigo: 30.1/(1-0.055)=31.85 mas 36.4/1.1097=32.80.",
+  "pares": [
+   {
+    "sheet_row": 916,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.7 p.13: Raw materials/Production/Transportation; sem armadura (so fibras de aco dispersas 1,5%)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.7: G50S1.5 ... 266.59; texto p.7: 'mixture including 1.5% steel fibers and 50% GGBS ... 30.1 MPa'",
+    "nota": "GGBS 50% + fibra de aco 1,5% (fibra dispersa incluida no CO2). Familia scm correcta."
+   },
+   {
+    "sheet_row": 917,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.7 p.13; fibra de carbono dispersa, sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.7: G40C0.5 ... 334.72; texto p.8: 'G40C0.5 ... 36.4 MPa and a 10.97% increase compared to the control'",
+    "nota": "GGBS 40% + fibra de carbono 0,5%."
+   },
+   {
+    "sheet_row": 918,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.7 p.13 (CPC sem fibras)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.7: CPC 389.71 19.21 30.33 439.26",
+    "nota": "Controlo Portland (CPC) sem GGBS nem fibras: familia actual 'scm' parece errada (deveria ser opc/controlo). fck 31.85 e derivado e incoerente com o 36.4/+10.97% (dava 32.80)."
+   }
+  ]
+ },
+ {
+  "row_id": 3207,
+  "texto_completo_lido": true,
+  "notas": "UHSFRC de laboratorio; CE por 1 m3 = soma massa x factor (Eq.9, Tab.11 p.19), inclui fibra de aco dispersa (2,75 kg/kg), sem armadura. CO2 so na Fig.19a (leitura visual). Verificacao pela Tab.11: controlo ~1330 (cimento 1200x0,83 + fibra ~118x2,75 + areia), coerente com 1318; FA46.21SF15 ~726, coerente com 715 (o texto diz reducao maxima 42,97%, que daria ~751 - pequena incoerencia do artigo).",
+  "pares": [
+   {
+    "sheet_row": 919,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.11: Cement, FA, SF, Sand, Steel Fiber, Water - sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "Tab.7: FA0SF0 ... 92.36 ± 3.89; Fig.19a 'carbon emission value of UHSFRC with 1 m3'",
+    "nota": "Artigo chama-lhe 'ultra-high steel fiber reinforced concrete'/'ultra-high strength UHSFRC' (nao usa 'UHPC'). Controlo Portland sem FA/SF: familia 'scm' parece errada (deveria ser opc/UHPC controlo)."
+   },
+   {
+    "sheet_row": 920,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.11; fibra de aco dispersa incluida",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "Tab.7: FA10SF10 ... 107.14 ± 2.91",
+    "nota": "FA (residuo) + silica fume (subproduto)."
+   },
+   {
+    "sheet_row": 921,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.11; fibra de aco dispersa incluida",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "Tab.7: FA46.21SF15 ... 98.29 ± 2.98; texto p.21 'carbon emission of FA46.21FA15 is the smallest'",
+    "nota": "715 compativel com recalculo pela Tab.11 (~726)."
+   }
+  ]
+ },
+ {
+  "row_id": 3212,
+  "texto_completo_lido": true,
+  "notas": "Tunel imerso real (betao armado). O inventario lista o aco separadamente (Tab.1) e o texto da o CO2 do betao por classe separado do aco (185,1 kt). Os valores gravados (total da classe / volume) sao so betao. Familia opc adequada.",
+  "pares": [
+   {
+    "sheet_row": 924,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1 p.7: Steel (HRB400) 603,477,234 kg ... Concrete (C50) 143,783.6 m3; p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 ... 0.35 ... 32.7 ... 10.8 ... 1.3 and 1.7 kilotons CO2eq'; aco separado: 'steel is the largest contributor (185.1 kilotons CO2eq)'",
+    "co2_so_betao": 403.38,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "p.10: CO2 da classe C50; Tab.1 volume",
+    "nota": "Gravado ja e so betao (403.38 kg/m3); aco contabilizado a parte."
+   },
+   {
+    "sheet_row": 1986,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1 p.7: Steel (HRB400) 603,477,234 kg ... Concrete (C50) 143,783.6 m3; p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 ... 0.35 ... 32.7 ... 10.8 ... 1.3 and 1.7 kilotons CO2eq'; aco separado: 'steel is the largest contributor (185.1 kilotons CO2eq)'",
+    "co2_so_betao": 322.14,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "p.10: CO2 da classe C40; Tab.1 volume",
+    "nota": "Gravado ja e so betao (322.14 kg/m3); aco contabilizado a parte. Confianca baixa: C40 com 0,35 kt (arredondado)."
+   },
+   {
+    "sheet_row": 1987,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1 p.7: Steel (HRB400) 603,477,234 kg ... Concrete (C50) 143,783.6 m3; p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 ... 0.35 ... 32.7 ... 10.8 ... 1.3 and 1.7 kilotons CO2eq'; aco separado: 'steel is the largest contributor (185.1 kilotons CO2eq)'",
+    "co2_so_betao": 292.45,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "p.10: CO2 da classe C35; Tab.1 volume",
+    "nota": "Gravado ja e so betao (292.45 kg/m3); aco contabilizado a parte."
+   },
+   {
+    "sheet_row": 1988,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1 p.7: Steel (HRB400) 603,477,234 kg ... Concrete (C50) 143,783.6 m3; p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 ... 0.35 ... 32.7 ... 10.8 ... 1.3 and 1.7 kilotons CO2eq'; aco separado: 'steel is the largest contributor (185.1 kilotons CO2eq)'",
+    "co2_so_betao": 273.29,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "p.10: CO2 da classe C30; Tab.1 volume",
+    "nota": "Gravado ja e so betao (273.29 kg/m3); aco contabilizado a parte."
+   },
+   {
+    "sheet_row": 1989,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1 p.7: Steel (HRB400) 603,477,234 kg ... Concrete (C50) 143,783.6 m3; p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 ... 0.35 ... 32.7 ... 10.8 ... 1.3 and 1.7 kilotons CO2eq'; aco separado: 'steel is the largest contributor (185.1 kilotons CO2eq)'",
+    "co2_so_betao": 243.04,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "p.10: CO2 da classe C25; Tab.1 volume",
+    "nota": "Gravado ja e so betao (243.04 kg/m3); aco contabilizado a parte."
+   },
+   {
+    "sheet_row": 1990,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1 p.7: Steel (HRB400) 603,477,234 kg ... Concrete (C50) 143,783.6 m3; p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 ... 0.35 ... 32.7 ... 10.8 ... 1.3 and 1.7 kilotons CO2eq'; aco separado: 'steel is the largest contributor (185.1 kilotons CO2eq)'",
+    "co2_so_betao": 211.45,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "p.10: CO2 da classe C20; Tab.1 volume",
+    "nota": "Gravado ja e so betao (211.45 kg/m3); aco contabilizado a parte."
+   }
+  ]
+ },
+ {
+  "row_id": 3216,
+  "texto_completo_lido": true,
+  "notas": "Betao de laboratorio, cradle-to-gate, UF 1 m3, sem armadura. ERRO DE ROTULO: a mistura C40F10-0 (Tab.1) NAO tem RCP nem WPP (OPC 416, so agregados reciclados CRA 388 + FRA 58); a descricao gravada ('+ po de betao reciclado + po de perlite') corresponde a C40F10-2. Na Fig.4a (cenario A-5, renderizada p.10) C40F10-0 ~331 kg CO2eq/m3 e C40F10-2 ~295 (ambas C50/60). O 294 gravado e o minimo das C50/60 = C40F10-2, nao C40F10-0.",
+  "pares": [
+   {
+    "sheet_row": 928,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "p.4 2.2.1: 'system boundary ... cradle-to-gate and the functional unit ... 1 m3 of concrete'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 C40F10-0: OPC 416 WPP 0 RCP 0 ... CRA 388 FRA 58; C40F10-2: OPC 363 WPP 41 RCP 8; Tab.2 ambas C50/60; Fig.4a",
+    "nota": "Corrigir rotulo para C40F10-2 (papel: agregado reciclado + RCP/WPP como substituicao de ligante; CO2 ~295 pela Fig.4a) OU, se se quiser C40F10-0, CO2 ~331. Familia reciclado correcta."
+   }
+  ]
+ },
+ {
+  "row_id": 3218,
+  "texto_completo_lido": true,
+  "notas": "LCA propria (Tab.10 p.18) de 1 m3 de betao de laboratorio, sem armadura. fck de Fig.7/texto (dados citados da ref.[46]).",
+  "pares": [
+   {
+    "sheet_row": 930,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.9/10: cimento, RCP, areia, agua - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.10: Climate change (GWP) 410.01 ... kg CO2-Eq; texto: 'rises from 27.8 MPa with 0% RCP'",
+    "nota": "Familia opc correcta."
+   },
+   {
+    "sheet_row": 2095,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.9/10 sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10: Mix4 359.8; texto: '33.1 MPa with a 15% substitution ratio'",
+    "nota": "RCP 15% substitui cimento; familia reciclado aceitavel (tambem caberia em scm)."
+   }
+  ]
+ },
+ {
+  "row_id": 3219,
+  "texto_completo_lido": true,
+  "notas": "LCA do pavimento (UF 1 km x 20 m x 0,2 m) inclui varao HPB300 (Tab.6), mas o par gravado vem da Fig.18a (1 m3 de betao, fase de producao), cujas parcelas sao so cimento, agregados, agua, redutor, transporte e mistura - sem aco. Recalculo: BYC 415 kg x 0,369 = 153 (+~42 restantes) ~195; PCC 415 x 0,866 = 359 = 90% de ~400 - coerente. Fig.18 nao renderizada (download do PDF falhou por tamanho); conferido pelo texto e Tab.4/Tab.6. A celula fck_mpa e texto com dois valores ('BYCC:67...; PCC:53') e co2_original idem; co2_original diz 'LCA for UHPC of 1 m3' mas o artigo nao fala de UHPC (legenda: 'CO2 emission and energy consumption of 1 cubic meter concrete').",
+  "pares": [
+   {
+    "sheet_row": 931,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.6: 'HPB300 Steel bar 377 t ... 2310 kg CO2/t' entra so no pavimento (Fig.19); Fig.18 = 1 m3 de betao sem aco",
+    "co2_so_betao": 195.0,
+    "tipo_ligante": "csa",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "p.14: 'substituting PC with BYC in concrete production, reducing carbon emissions by approximately 51%'; Tab.4: BYCC BYC 415 ... PCC PC42.5 415",
+    "nota": "Gravado ja e so betao. Ligante belite-ye'elimite (BYC) de residuos (escoria de carbureto, gesso FGD, ganga de carvao) - familia CSA/'ligantes' correcta. Celula fck com dois valores: separar PCC (53 / 400) noutra linha se se quiser o controlo."
+   }
+  ]
+ },
+ {
+  "row_id": 3221,
+  "texto_completo_lido": true,
+  "notas": "Base de dados de 440 tracos de betao pronto chines (C30-C80), cradle-to-gate por m3, sem armadura. Abstract diz 262.21 mas texto (p.8) e conclusoes dizem 262.61 - gralha do resumo.",
+  "pares": [
+   {
+    "sheet_row": 932,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "2.1 System boundary: 'cradle to gate' do betao pronto (Fig.1)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "p.8: 'average carbon emissions for C30-C80 ready-mixed concrete range from 262.61 kgCO2e/m3 to 401.78'",
+    "nota": "Media por classe de uma base de dados (com e sem SCM), nao uma mistura distintiva; familia scm discutivel (e media de betao pronto que inclui SCM)."
+   },
+   {
+    "sheet_row": 2096,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "idem (C80 = 401.78)",
+    "nota": "Idem."
+   }
+  ]
+ },
+ {
+  "row_id": 3225,
+  "texto_completo_lido": true,
+  "notas": "Argamassas de laboratorio, fronteira = materias-primas, transporte, mistura e transporte da argamassa; sem armadura (a armadura so aparece no modelo de tempo de reparacao).",
+  "pares": [
+   {
+    "sheet_row": 935,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "sec.3 LCA: 'scope ... starts at the extraction and manufacturing of these raw materials and ends with the final preparation of the mortar'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.8: PC ... 611.7; AAS 176.7; CSA 513.4; selecao 'meeting the strength grade of 65 MPa'",
+    "nota": "O par gravado (611,7) e a argamassa PC de referencia; o rotulo 'material' lista os 5 ligantes e e enganador. fck 65 = classe-alvo de seleccao, nao valor medido. CSA (513,4), CSA-C (338,3), LC3 (385,2) e AAS (176,7) teriam pares proprios com a mesma classe se se quisesse. Familia opc correcta para o PC."
+   }
+  ]
+ },
+ {
+  "row_id": 3237,
+  "texto_completo_lido": true,
+  "notas": "Geopolimero FA+GGBS com agregado de argila expandida (ECA); CO2 por factores ICE (0,2312 t/m3 'for the production of 1 m3 of GPC'), sem transporte, sem armadura. A mistura exacta a que corresponde o 231,2 nao e identificada no texto (GPC generico) e o fck 47 vem de leitura da Fig.7 sem mistura identificada - emparelhamento fraco.",
+  "pares": [
+   {
+    "sheet_row": 937,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "sec.6.3.3: CO2-e dos ingredientes do betao (Fig.20); sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "p.16: 'the CO2-e for the production of 1 m3 of GPC was estimated as 0.2312 t-CO2/m3'",
+    "nota": "Ligante FA classe F + GGBS (residuos); ECA e agregado fabricado (nao residuo). Familia geopolimero correcta."
+   }
+  ]
+ },
+ {
+  "row_id": 3241,
+  "texto_completo_lido": true,
+  "notas": "Ponte pedonal de betao armado; Tab.3-5 listam 'Steel products' (12.753 kg x 2138,5 kgCO2e/t) separadamente dos factores do betao por m3. Os pares gravados sao os factores do betao (so betao).",
+  "pares": [
+   {
+    "sheet_row": 939,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.4: 'C30 concrete 178.51 m3 295 kgCO2e/m3 ... Steel products 12753.05 kg 2138.5 kgCO2e/t'",
+    "co2_so_betao": 295.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3-5: C30 concrete 295 kgCO2e/m3",
+    "nota": "Gravado ja e so betao (factor). Familia opc correcta."
+   },
+   {
+    "sheet_row": 1863,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.4: 'C40 concrete 257.61 m3 340 kgCO2e/m3 ... Steel products' em linha propria",
+    "co2_so_betao": 340.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.4: C40 concrete 340 kgCO2e/m3",
+    "nota": "Gravado ja e so betao (factor), apesar de o elemento ser 'C40 reinforced concrete'."
+   }
+  ]
+ }
+]

@@ -1,0 +1,336 @@
+[
+ {
+  "row_id": 4942,
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (19 pp.). LCA cradle-to-gate 1 m3 de argamassa (OPC tipo I, 1:2,75, a/c 0,485), openLCA/ecoinvent 3.7.1, CML-IA. Tabela 4: GWP R100 366, F100 455, C100 437, R25C75 419 kg CO2-eq. A reducao da R100 vem sobretudo do transporte (o RFA evita o trajecto ate ao aterro), nao de credito explicito.",
+  "pares": [
+   {
+    "sheet_row": 599,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de argamassa; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 4: Global warming C100 4.37 (x10^2) kg CO2 eq; fc28 C100 = 42.25 MPa",
+    "nota": "C100 (100% areia grossa) e a referencia natural; o artigo usa R100 como referencia do Fig.11 mas a mistura sem residuo e C100."
+   },
+   {
+    "sheet_row": 600,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 4: R100 3.66 (x10^2); fc28 R100 = 33.80 MPa",
+    "nota": "RFA de RCD (demolicao em Dhaka). Menor GWP explicado pelo transporte evitado ao aterro (Fig.16), nao por credito de carga evitada declarado."
+   },
+   {
+    "sheet_row": 601,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 4: R25C75 4.19 (x10^2); fc28 = 48.25 MPa",
+    "nota": "FAMILIA: tem 25% de RFA (residuo de RCD); familia actual 'opc' parece errada, devia ser 'reciclado' como a R100."
+   }
+  ]
+ },
+ {
+  "row_id": 4989,
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (18 pp.). Fig.3 = 1 m3 de betao a porta da obra (producao + transporte 50 km), sem FU e sem fim de vida; o FU (m3/MPa/ano) e os creditos de fim de vida (CRC reciclado no forno, 'avoidance of raw materials') so entram na Fig.5. Valores gravados nao foram confirmados por leitura de pixel da Fig.3, mas as razoes batem com o texto (CRC2 30-34% abaixo das referencias: 212/306 = -31%, 212/322 = -34%).",
+  "pares": [
+   {
+    "sheet_row": 23,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Section 4.2/Fig.3: 'results of the life cycle impact assessment of the different concrete mixtures for 1 m3 at a construction site'; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 CRC1: CEM I 300 + fly ash 100 + limestone filler 53 + copper slag 44; fc 65.1 MPa (Table 2)",
+    "nota": "Material distintivo: cinza volante + escoria de cobre + agregados calcarios (desenho para reciclagem no forno). Se o valor gravado fosse da Fig.5 incluiria credito de fim de vida; a Fig.3 (por m3) nao inclui."
+   },
+   {
+    "sheet_row": 24,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 CRC2: CEM III/A 325 (escoria) + fly ash 85 + filler 177 + copper slag 33; fc 84.2 MPa",
+    "nota": "Cimento de escoria + cinza volante."
+   },
+   {
+    "sheet_row": 25,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1 T(0.50): CEM I 320; fc 57.8 MPa",
+    "nota": ""
+   },
+   {
+    "sheet_row": 26,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1 T(0.45): CEM I 340; fc 69.3 MPa",
+    "nota": ""
+   }
+  ]
+ },
+ {
+  "row_id": 4993,
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (9 pp.) + renderizacao da p.5 (Fig.7). GaBi, GWPfossil, 1 m3 UHPC modelado 'without reinforcing steel fibers' (base Oberndorfer + Sameer et al.). Fig.7: UHPC 560 vs betao C25/30 215 kg CO2-eq/m3 (o texto diz 'nearly 60% higher', mas 560/215 = 2,6x). A parede de betao armado (4% de armadura) e um sistema por m2, nao foi gravada. O par C25/30 = 215 (betao de referencia do proprio artigo) nao esta gravado.",
+  "pares": [
+   {
+    "sheet_row": 27,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "4.2.1: 'calculation of the environmental impacts of 1 m3 UHPC was based on a composition without reinforcing steel fibers'; Fig.7 por m3 de UHPC.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "nao",
+    "uhpc": "sim",
+    "citacao": "Fig.7: GWPfossil UHPC 560 kg CO2 eq/m3; Table 1 UHPC compressive strength 132,5 MN/m2",
+    "nota": "E o proprio UHPC (lamela da parede hibrida), comparado com C25/30; GWPfossil (nao GWPtotal). fck 132,5 e valor de calculo da Table 1. Sem creditos/carbonatacao (excluida explicitamente)."
+   }
+  ]
+ },
+ {
+  "row_id": 4997,
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (16 pp.). Umberto 5.5, cradle-to-gate, 1 m3; Fig.7 271,9 (CPII-E) e Fig.8 75,1 kg CO2/m3 (geopolimero). Sem armadura.",
+  "pares": [
+   {
+    "sheet_row": 28,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira: producao de cimento, agregados e mistura de 1 m3 de betao; sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'concreto de cimento Portland do tipo CPII ... 271,9 kg de CO2/m3'; traco de concreteira para 40 MPa a 28 dias (Tabela 1)",
+    "nota": "CPII-E com 34% de escoria (cimento composto) - e a referencia do artigo."
+   },
+   {
+    "sheet_row": 29,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "'concreto geopolimerico um total de 75,1 kg de CO2/m3'; Tabela 2 'resistencia mecanica de 40 MPa'",
+    "nota": "Metacaulim (nao residuo) + NaOH/Na2SiO3. O fck 40 do geopolimero e assumido por equivalencia de desempenho (mesma relacao seca do traco OPC), nao ensaio reportado no artigo."
+   }
+  ]
+ },
+ {
+  "row_id": 5011,
+  "texto_completo_lido": true,
+  "notas": "Dissertacao de Robson Zulcao MELLO (UFES 2018), 161 pp. read_file_content truncou em 138 mil caracteres (~45%); lida por inteiro no PDF descarregado (310 mil caracteres). 127 tracos extraidos de 20 estudos da literatura; ACV propria (SimaPro), UF 1 m3, berco ao canteiro; fc28 dos estudos de origem. Fronteira inclui impacto evitado de ocupacao de aterro (categoria uso do solo, nao GWP). Apendice (p.157): argamassa de alta resistencia, estudo 2 (Corinaldesi et al. 2010): REF 464 kg CO2eq / 39 MPa; 10% CEM 421 / 36; 10% SAND 463 / 32; REF+A 467/54; 10% CEM+A 424/48; 10% SAND+A 467/52.",
+  "pares": [
+   {
+    "sheet_row": 31,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF 1 m3 de argamassa; fronteira extraccao-producao-transporte-mistura; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Apendice, p.157 (pag. PDF 158): '10% SAND 446 ... 463 ... 32,00' (Total materiais 446; Total materiais+producao+transporte 463 kg CO2eq; fck28 32 MPa)",
+    "nota": "Valor gravado (463, total com producao+transporte) confere. Par de mistura vinda de Corinaldesi et al. (2010) com ACV do proprio Mello. O controlo REF (464 / 39 MPa) e as restantes 5 misturas do mesmo estudo e os ~120 tracos dos outros 19 estudos nao estao gravados - possivel subaproveitamento."
+   }
+  ]
+ },
+ {
+  "row_id": 5012,
+  "texto_completo_lido": true,
+  "notas": "Dissertacao FIGUEIREDO 2017 (UFPB), lida via read_file_content (PDF >10 MB, sem descarga); 246 mil caracteres ate ao fim das referencias do artigo anexo - parece completa. Tabela 3 (p.37): betao tradicional 286,37 e betao de MAA 217,11 kg CO2-eq/m3; fck 25 MPa (artigo anexo p.97). Armadura explicitamente excluida.",
+  "pares": [
+   {
+    "sheet_row": 32,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "p.38: 'nao foram incluidos na pesquisa o impacto da armacao da estrutura em funcao do mantimento do fck entre os concretos'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 3: Total de kg CO2-eq por m3 - Concreto Tradicional 286,37 (CPII-Z, traco 1:1,74:2,87, a/c 0,47, 25 MPa aos 28 dias)",
+    "nota": "O rotulo do material ('Portland vs AAM') e ambiguo mas o valor gravado e o do betao Portland (controlo). O par do betao de MAA (metacaulim + silicato/NaOH; 217,11 kg CO2-eq/m3; fck ~25 por equivalencia) nao esta gravado."
+   }
+  ]
+ },
+ {
+  "row_id": 5018,
+  "texto_completo_lido": true,
+  "notas": "Dissertacao REZENDE 2019 (175 pp.), lida por inteiro no PDF descarregado. Estrutura de concreto armado (ECA): inventario Tabela 4 com concreto usinado 25 MPa (8+31+4,5+29,5+4,5+20,5 = 98,0 m3), barras de aco (8.917 kg), madeira de formas e transportes; Tabela 5 GWP total 48.485,13 kg CO2 eq (CML 2001, ecoinvent 3.5 cut-off). p.96: 'a producao de concreto usinado 25 MPa contribui com 40,1% dos impactos' (GWP).",
+  "pares": [
+   {
+    "sheet_row": 43,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Fronteira (p.89): concreto usinado 25 MPa, barras de aco, madeira de formas, transporte; Tabela 5 total 48.485,13 kg CO2 eq inclui tudo. p.96 (Fig.17): concreto 25 MPa = 40,1% do GWP.",
+    "co2_so_betao": 198.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 5 TOTAL 48.485,13 kg CO2 equiv.; Tabela 4 concreto 98,0 m3; p.96 '40,1% dos impactos'",
+    "nota": "O valor gravado (494,7) AINDA inclui aco, formas e transporte. So betao: 0,401 x 48.485,13 / 98,0 = 198,4 kg CO2-eq/m3 (derivado da percentagem impressa no texto; aproximado). Familia concreto_armado coerente com o valor actual; se se trocar para o valor so-betao, passa a 'opc'."
+   }
+  ]
+ },
+ {
+  "row_id": 5029,
+  "texto_completo_lido": true,
+  "notas": "Dissertacao HORA 2021 (UnB), 140 pp., lida por inteiro no PDF descarregado + renderizacao das pp.82 e 88 (Tabelas 23 e 27). UF = toda a ciclovia (2,94 km, 588 m3 de betao 20 MPa sem armacao, 8 cm). ERRO GRAVE: os valores gravados (190,7 / 112,3 / 200,1 / 175,0 / 158,2 / 79,81) vem das Tabelas 27-29, que sao para a ciclovia inteira (nao por m3) e cujas linhas estao desalinhadas: o '1,907E+02' rotulado GWP na Tabela 27 e o mesmo numero que a Tabela 25 da para Eutrofizacao (kg PO4-eq) da producao; o GWP da producao na Tabela 25 e 2,757E+05 kg CO2-eq (e esse numero aparece na linha 'AP' da Tabela 27). Mesmo padrao na Tabela 26 (cimento: 'AP' 2,050E+05, 'GWP' 2,703E+05, 'EP' 155,5). As percentagens de variacao tambem nao batem exactamente com os valores. Conclusao: nao ha kg CO2-eq/m3 fiavel; os seis pares deviam ficar NAO CONVERTIDO (ou, no maximo, 2,757E+05/588 = 469 kg/m3 para a referencia, mas o rotulo das linhas e inconsistente e da 1,49 kg CO2/kg de cimento, implausivel). Decisao para a Kie.",
+  "pares": [
+   {
+    "sheet_row": 1836,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "p.76: 'Pavimento de concreto: concreto com resistencia de 20 MPa, sem armacao'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 27, linha rotulada GWP: CP II F 1,907E+02 kg CO2-Eq (ciclovia inteira, etapa de producao); Tabela 25: EP producao = 1,907E+02 kg PO4-Eq; GWP producao = 2,757E+05 kg CO2-Eq",
+    "nota": "ERRO GRAVE: 190,7 nao e kg CO2-eq/m3 - e um total da ciclovia (588 m3) e muito provavelmente o valor de eutrofizacao por desalinhamento das linhas. fck: o pavimento real tem 18 MPa; 20 MPa e o processo ecoinvent usado."
+   },
+   {
+    "sheet_row": 1837,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tabela 27 CP IV 1,123E+02 (linha GWP)",
+    "nota": "ERRO GRAVE igual ao par 1836. CP IV = cimento pozolanico (adicao; nao identificado como residuo). fck 20 nao ensaiado para este cimento."
+   },
+   {
+    "sheet_row": 1838,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tabela 27 CP V 2,001E+02 (linha GWP)",
+    "nota": "ERRO GRAVE igual ao par 1836. CP V ARI = mais clinquer (variante de cimento)."
+   },
+   {
+    "sheet_row": 1839,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 28 ARC-50% 1,750E+02 (linha GWP; producao+transporte; AG base 1,935E+02)",
+    "nota": "ERRO GRAVE: mesma tabela desalinhada, total da ciclovia. Substituicao hipotetica sem ensaio de resistencia (o autor diz que precisa ser testada)."
+   },
+   {
+    "sheet_row": 1840,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 28 ARC-100% 1,582E+02 (linha GWP)",
+    "nota": "ERRO GRAVE igual. Agregado reciclado sem ensaio; fck 20 assumido."
+   },
+   {
+    "sheet_row": 1841,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 29 Concreto Ideal 7,981E+01 (linha GWP)",
+    "nota": "ERRO GRAVE igual. CP IV + 100% ARC combinados; fck nao ensaiado."
+   }
+  ]
+ },
+ {
+  "row_id": 5038,
+  "texto_completo_lido": true,
+  "notas": "Dissertacao MEDEIROS 2012 (UPF, 124 pp.), lida por inteiro no PDF descarregado. Otimizacao de pilares de concreto armado; os custos ambientais por material sao factores da literatura: GWP do concreto de Ochsendorf (2011) (impacto de pre-uso e fim de vida), aco 1,241 kg CO2e/kg separado, formas separadas. Nao ha ACV propria.",
+  "pares": [
+   {
+    "sheet_row": 48,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tabela 40: Concreto 35 MPa (m3) GWP 352,29; Aco (kg) 1,241; Formas (m2) 2,153 - factores separados por material",
+    "co2_so_betao": 352.29,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 40 (Exemplo IX): 'Concreto 35 MPa (m3) ... GWP (kg CO2e) 352,29'",
+    "nota": "O valor gravado ja e so o betao (factor unitario). E factor externo (Ochsendorf 2011), nao ACV do autor; inclui 'pre-uso e final de vida'."
+   },
+   {
+    "sheet_row": 49,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tabela 43: Concreto 20 MPa (m3) GWP 256,88; aco separado",
+    "co2_so_betao": 256.88,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 43 (Exemplo X): 'Concreto 20 MPa (m3) ... 256,88'",
+    "nota": "ATENCAO: o mesmo 256,88 e usado na Tabela 37 (Exemplo VIII) para 'Concreto 25 MPa' - o autor reaproveita o factor para 20 MPa; a atribuicao a fck 20 e do autor, nao da fonte. Factor externo (Ochsendorf 2011)."
+   }
+  ]
+ },
+ {
+  "row_id": 5040,
+  "texto_completo_lido": true,
+  "notas": "Dissertacao MEDEIROS 2016 (UFMT, 122 pp.), lida por inteiro no PDF descarregado + renderizacao da p.87 (Tab.11/Fig.23). Cradle-to-gate, SimaPro/Ecoinvent 2.0, ReCiPe; Tabela 10: Fundacao 265.770,17 + Superestrutura 546.362,25 = 812.132,42 kg CO2 eq; inventario (Tab.3/4) inclui concreto 25 MPa 630,00 + 989,21 m3, aco CA-50 9.848 + 82.874,77 kg, formas de madeira e transporte. Fig.23 so separa por processo (clinquer, ferro-gusa, diesel...), nao por material. Cenarios C2/C3 (residuos como coproduto/tijolo RCD) existem mas a Tabela 10 e a contabilizacao base.",
+  "pares": [
+   {
+    "sheet_row": 50,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.3/4: 'Armadura Aco CA 50' 9.848 kg (fundacao) e 82.874,77 kg (superestrutura) no mesmo sistema; Tabela 10 da so totais por sistema; Fig.23 por processo ('Pig iron' ~10 kg CO2eq/m2), sem CO2 do betao isolado.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 10: FUNDACAO 265.770,17; SUPERESTRUTURA 546.362,25 kg CO2 eq; Tabela 11: 61,13 e 125,67 kg CO2 eq/m2 x 4.347,57 m2",
+    "nota": "Valor gravado 501,56 = total/volume de betao, inclui aco, formas e transporte; nao separavel com dados do artigo. Familia concreto_armado correcta. Conta conferida (61,13 x 4.347,57 = 265.766; 125,67 x 4.347,57 = 546.359)."
+   }
+  ]
+ }
+]

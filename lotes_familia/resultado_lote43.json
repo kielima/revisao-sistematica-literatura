@@ -1,0 +1,380 @@
+[
+ {
+  "row_id": 5041,
+  "pares": [
+   {
+    "sheet_row": 51,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "p.105-107 (5.5.9): fronteira = 'estrutura de concreto armado (materiais e mistura na usina)', alimentada por cimento, aco (vergalhoes ArcelorMittal), brita, areia e madeira para formas; Quadro 8 p.122 da GWP so por m2 da estrutura completa; Fig.29 p.136 (C25, kg CO2-eq/m2): brita 3,13; areia 2,32; cimento 45,5; formas madeira 37,1; aco 26,9",
+    "co2_so_betao": 224.6,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Quadro 8 (p.122): GWP 100 anos [kg CO2-Equiv] por m2: C25 117; C30 120; C35 114; C40 111; C45 112; C50 114. Quadros 2-7 (p.114-117): volume de concreto 471,4/471,4/401,0/355,6/348,9/348,9 m3. Cimento CP III 40 RS (36% clinquer, 55% escoria).",
+    "nota": "So para a C25: betao = brita+areia+cimento = 50,95 kg/m2 x 2078/471,4 = 224,6 kg CO2-eq/m3 (231,9 se se somar a distribuicao do concreto 1,65 kg/m2, Fig.28). O valor GRAVADO (515,8) AINDA inclui aco, formas de madeira, distribuicao, deposicao e o credito de absorcao de CO2. Familia concreto_armado coerente com o gravado."
+   },
+   {
+    "sheet_row": 52,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "p.105-107 (5.5.9): fronteira = 'estrutura de concreto armado (materiais e mistura na usina)', alimentada por cimento, aco (vergalhoes ArcelorMittal), brita, areia e madeira para formas; Quadro 8 p.122 da GWP so por m2 da estrutura completa",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Quadro 8 (p.122): GWP 100 anos [kg CO2-Equiv] por m2: C25 117; C30 120; C35 114; C40 111; C45 112; C50 114. Quadros 2-7 (p.114-117): volume de concreto 471,4/471,4/401,0/355,6/348,9/348,9 m3. Cimento CP III 40 RS (36% clinquer, 55% escoria).",
+    "nota": "Decomposicao por material (Fig.29 p.136) so existe para a C25. Valor gravado inclui aco (~23%), formas de madeira (~32%), distribuicao, deposicao e absorcao de CO2 por carbonatacao (5% do emitido, p.104/135) - credito. Nao separavel para esta classe."
+   },
+   {
+    "sheet_row": 53,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "p.105-107 (5.5.9): fronteira = 'estrutura de concreto armado (materiais e mistura na usina)', alimentada por cimento, aco (vergalhoes ArcelorMittal), brita, areia e madeira para formas; Quadro 8 p.122 da GWP so por m2 da estrutura completa",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Quadro 8 (p.122): GWP 100 anos [kg CO2-Equiv] por m2: C25 117; C30 120; C35 114; C40 111; C45 112; C50 114. Quadros 2-7 (p.114-117): volume de concreto 471,4/471,4/401,0/355,6/348,9/348,9 m3. Cimento CP III 40 RS (36% clinquer, 55% escoria).",
+    "nota": "Decomposicao por material (Fig.29 p.136) so existe para a C25. Valor gravado inclui aco (~23%), formas de madeira (~32%), distribuicao, deposicao e absorcao de CO2 por carbonatacao (5% do emitido, p.104/135) - credito. Nao separavel para esta classe."
+   },
+   {
+    "sheet_row": 2081,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "p.105-107 (5.5.9): fronteira = 'estrutura de concreto armado (materiais e mistura na usina)', alimentada por cimento, aco (vergalhoes ArcelorMittal), brita, areia e madeira para formas; Quadro 8 p.122 da GWP so por m2 da estrutura completa",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Quadro 8 (p.122): GWP 100 anos [kg CO2-Equiv] por m2: C25 117; C30 120; C35 114; C40 111; C45 112; C50 114. Quadros 2-7 (p.114-117): volume de concreto 471,4/471,4/401,0/355,6/348,9/348,9 m3. Cimento CP III 40 RS (36% clinquer, 55% escoria).",
+    "nota": "Decomposicao por material (Fig.29 p.136) so existe para a C25. Valor gravado inclui aco (~23%), formas de madeira (~32%), distribuicao, deposicao e absorcao de CO2 por carbonatacao (5% do emitido, p.104/135) - credito. Nao separavel para esta classe."
+   },
+   {
+    "sheet_row": 2082,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "p.105-107 (5.5.9): fronteira = 'estrutura de concreto armado (materiais e mistura na usina)', alimentada por cimento, aco (vergalhoes ArcelorMittal), brita, areia e madeira para formas; Quadro 8 p.122 da GWP so por m2 da estrutura completa",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Quadro 8 (p.122): GWP 100 anos [kg CO2-Equiv] por m2: C25 117; C30 120; C35 114; C40 111; C45 112; C50 114. Quadros 2-7 (p.114-117): volume de concreto 471,4/471,4/401,0/355,6/348,9/348,9 m3. Cimento CP III 40 RS (36% clinquer, 55% escoria).",
+    "nota": "Decomposicao por material (Fig.29 p.136) so existe para a C25. Valor gravado inclui aco (~23%), formas de madeira (~32%), distribuicao, deposicao e absorcao de CO2 por carbonatacao (5% do emitido, p.104/135) - credito. Nao separavel para esta classe."
+   },
+   {
+    "sheet_row": 2083,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "p.105-107 (5.5.9): fronteira = 'estrutura de concreto armado (materiais e mistura na usina)', alimentada por cimento, aco (vergalhoes ArcelorMittal), brita, areia e madeira para formas; Quadro 8 p.122 da GWP so por m2 da estrutura completa",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Quadro 8 (p.122): GWP 100 anos [kg CO2-Equiv] por m2: C25 117; C30 120; C35 114; C40 111; C45 112; C50 114. Quadros 2-7 (p.114-117): volume de concreto 471,4/471,4/401,0/355,6/348,9/348,9 m3. Cimento CP III 40 RS (36% clinquer, 55% escoria).",
+    "nota": "Decomposicao por material (Fig.29 p.136) so existe para a C25. Valor gravado inclui aco (~23%), formas de madeira (~32%), distribuicao, deposicao e absorcao de CO2 por carbonatacao (5% do emitido, p.104/135) - credito. Nao separavel para esta classe."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF (217 p.) descarregado e lido por pymupdf. Contas de volume conferidas com Quadros 2-7. 6 classes coerentes (C25 e C30 com mesmo volume 471,4 por o projeto C30 nao reduzir seccoes; C45 e C50 idem 348,9). Ligante CP III (escoria) - material de linhas 51-53 nao o refere."
+ },
+ {
+  "row_id": 5050,
+  "pares": [
+   {
+    "sheet_row": 62,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tabela 16-18: tela soldada Q61 (1,897 kg/m2, 1,466 kgCO2-eq) e espacadores contabilizados separadamente do concreto; o 267 e so o fator do m3 de concreto",
+    "co2_so_betao": 267.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabelas 16-19 (p.88-90): 'Concreto 25MPa ... 267 kgCO2-eq/m3 EPD'; Apendice A (p.116): concreto, DAP Votorantim Cimentos, fator GWP 267 kgCO2-eq/m3 (generico, sem classe declarada no DAP); tela soldada contabilizada a parte (0,773 kgCO2-eq/kg, Alfa Acciai)",
+    "nota": "Parede de concreto moldada in loco com fibras de polipropileno 300 g/m3 (p.~33), fibra dispersa nao e armadura; o fator 267 e da DAP de concreto generico. Mesmo fck x CO2 que a linha 63."
+   },
+   {
+    "sheet_row": 63,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tabela 19: aco (1,92 kg/m2) contabilizado separadamente; o 267 e so o fator do concreto 25 MPa dos pilares/vigas",
+    "co2_so_betao": 267.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabelas 16-19 (p.88-90): 'Concreto 25MPa ... 267 kgCO2-eq/m3 EPD'; Apendice A (p.116): concreto, DAP Votorantim Cimentos, fator GWP 267 kgCO2-eq/m3 (generico, sem classe declarada no DAP); tela soldada contabilizada a parte (0,773 kgCO2-eq/kg, Alfa Acciai)",
+    "nota": "DUPLICADO da linha 62: mesmo fator unico 267 kg/m3 (DAP Votorantim) aplicado ao concreto 25 MPa dos dois sistemas; o rotulo 'concreto armado' engana - o valor e so do concreto. Familia opc correcta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF (137 p.) descarregado e lido. Os dois pares sao o mesmo fator de DAP generico, nao duas misturas; recomenda-se manter so um."
+ },
+ {
+  "row_id": 5052,
+  "pares": [
+   {
+    "sheet_row": 2084,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tabela 18 (p.96): GWP fundacao CP2 = 49,9 kg CO2-eq/m2; Fig.22 (p.99): aco ~21% e concreto ~77% do GWP da fundacao; Apendice (inventario fundacao): Concreto C25 5,52 m3 (ecoinvent 'Concrete, 25MPa... RNA only', inventario modificado pelo traco Tab.10), Tela de aco 58,8 m2 separada",
+    "co2_so_betao": 295.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 18 p.96; Figura 22 p.99 (renderizada); inventario fundacao (Apendice): Concreto C25 5,52 m3, 0,13 m3/m2",
+    "nota": "O valor gravado (~295) JA e so a quota do concreto (0,775 lida no grafico) - nao inclui o aco. Confianca baixa (leitura grafica). Familia opc coerente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF (151 p.) descarregado e lido; Figura 22 renderizada e conferida (barra GWP: brita ~1%, aco ~20%, concreto ~77%)."
+ },
+ {
+  "row_id": 5055,
+  "pares": [
+   {
+    "sheet_row": 65,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "REF 28 d (fc28 118,1, Tab.6.2). Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 66,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "REF 91 d: mesmo CO2 da linha 65 com fck aos 91 d (127,2) - dois pares do mesmo traco em idades diferentes. Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 67,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "Filer calcario 50% (nao e residuo). Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 68,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "FC50 aos 91 d - mesmo CO2 da linha 67. Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 69,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "FC60 28 d. Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 70,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "FC60 91 d - mesmo CO2 da linha 69. Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 71,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "CH = CAL HIDRATADA (nao 'cinza hidratada' como diz o rotulo da linha). Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 72,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "FC60CH10 91 d - mesmo CO2 da linha 71; rotulo 'cinza hidratada' errado (cal hidratada). Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 73,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "70% FC + 10% cinza volante (residuo). Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 74,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "FC70CV10 91 d - mesmo CO2 da linha 73. Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 75,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "70% FC + 10% CV + 10% cal hidratada; rotulo 'CH' ok mas e cal. Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   },
+   {
+    "sheet_row": 76,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF MCC = 1 m3 de concreto do berco ao portao; inventario (4.7.2.2) so agregados, CPV-ARI, aditivo, agua, CH, combustivel, energia - sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Cap.6 (recorte pp.277-323), Tabela 6.5: '8 - Emissao de CO2eq kgCO2eq 597,24 377,41 325,09 361,27 212,83 250,3' (REF, FC50, FC60, FC60CH10, FC70CV10, FC70CV10CH10); unidade funcional MCC = 1 m3 de concreto, berco ao portao (sec.4.7.2)",
+    "nota": "FC70CV10CH10 91 d - mesmo CO2 da linha 75; rotulo errado. Familia 'uhpc' parece ERRADA: a tese (titulo real 'Concretos com altos teores de filer calcario em misturas binarias e ternarias com cinza volante') nunca chama UHPC a estes betoes; UHPC so aparece na lista de siglas e na revisao (150-250 MPa). REF 118 MPa aos 28 d cabe no 'alto desempenho (80-120 MPa)' do autor."
+   }
+  ],
+  "texto_completo_lido": false,
+  "notas": "PDF 10,6 MB: download falha (>10MB); read_file_content truncou na p.167 (texto lido ate ai); capitulo 6 lido no recorte pp.277-323 ja existente no scratchpad (isaia_cap6.pdf). Metodologia ACV (pp.180-192) nao lida directamente, mas o resumo e o cap.6 confirmam UF 1 m3 berco ao portao. Valores de CO2 conferidos com Tab.6.5. Cada traco tem 2 pares (28 e 91 d) com o mesmo CO2 - nao sao duplicados fck x CO2, mas ponderam a dobrar o mesmo traco."
+ },
+ {
+  "row_id": 5067,
+  "pares": [
+   {
+    "sheet_row": 605,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "O artigo rotula o material 'Reinforced concrete' mas nao diz se o CE1 (de Gong 2004) inclui o aco; aco de armadura tem factor proprio na mesma tabela (Large/Medium-small reinforced steel, t). Os valores (230-350 kg/m3 para C20-C50) sao de ordem de betao simples.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (p.8): 'Reinforced concrete C20 m3 230.000 8.847 8.847 247.695' ... 'C50 m3 350.000 ... 367.695' (CM = CE1+CE2+CE4); CE1 adoptado de Gong (2004) [26]",
+    "nota": "Factor tabelado (nao estudo proprio de mistura); inclui transporte (CE2) e disposicao (CE4). Se a Kie entender que 'reinforced concrete' inclui armadura, a familia passa de opc para concreto_armado; o rotulo gravado ja diz 'Concreto armado' mas a familia actual e opc - inconsistencia a decidir."
+   },
+   {
+    "sheet_row": 606,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "O artigo rotula o material 'Reinforced concrete' mas nao diz se o CE1 (de Gong 2004) inclui o aco; aco de armadura tem factor proprio na mesma tabela (Large/Medium-small reinforced steel, t). Os valores (230-350 kg/m3 para C20-C50) sao de ordem de betao simples.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (p.8): 'Reinforced concrete C20 m3 230.000 8.847 8.847 247.695' ... 'C50 m3 350.000 ... 367.695' (CM = CE1+CE2+CE4); CE1 adoptado de Gong (2004) [26]",
+    "nota": "Factor tabelado (nao estudo proprio de mistura); inclui transporte (CE2) e disposicao (CE4). Se a Kie entender que 'reinforced concrete' inclui armadura, a familia passa de opc para concreto_armado; o rotulo gravado ja diz 'Concreto armado' mas a familia actual e opc - inconsistencia a decidir."
+   },
+   {
+    "sheet_row": 607,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "O artigo rotula o material 'Reinforced concrete' mas nao diz se o CE1 (de Gong 2004) inclui o aco; aco de armadura tem factor proprio na mesma tabela (Large/Medium-small reinforced steel, t). Os valores (230-350 kg/m3 para C20-C50) sao de ordem de betao simples.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (p.8): 'Reinforced concrete C20 m3 230.000 8.847 8.847 247.695' ... 'C50 m3 350.000 ... 367.695' (CM = CE1+CE2+CE4); CE1 adoptado de Gong (2004) [26]",
+    "nota": "Factor tabelado (nao estudo proprio de mistura); inclui transporte (CE2) e disposicao (CE4). Se a Kie entender que 'reinforced concrete' inclui armadura, a familia passa de opc para concreto_armado; o rotulo gravado ja diz 'Concreto armado' mas a familia actual e opc - inconsistencia a decidir."
+   },
+   {
+    "sheet_row": 608,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "O artigo rotula o material 'Reinforced concrete' mas nao diz se o CE1 (de Gong 2004) inclui o aco; aco de armadura tem factor proprio na mesma tabela (Large/Medium-small reinforced steel, t). Os valores (230-350 kg/m3 para C20-C50) sao de ordem de betao simples.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (p.8): 'Reinforced concrete C20 m3 230.000 8.847 8.847 247.695' ... 'C50 m3 350.000 ... 367.695' (CM = CE1+CE2+CE4); CE1 adoptado de Gong (2004) [26]",
+    "nota": "Factor tabelado (nao estudo proprio de mistura); inclui transporte (CE2) e disposicao (CE4). Se a Kie entender que 'reinforced concrete' inclui armadura, a familia passa de opc para concreto_armado; o rotulo gravado ja diz 'Concreto armado' mas a familia actual e opc - inconsistencia a decidir."
+   },
+   {
+    "sheet_row": 609,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "O artigo rotula o material 'Reinforced concrete' mas nao diz se o CE1 (de Gong 2004) inclui o aco; aco de armadura tem factor proprio na mesma tabela (Large/Medium-small reinforced steel, t). Os valores (230-350 kg/m3 para C20-C50) sao de ordem de betao simples.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (p.8): 'Reinforced concrete C20 m3 230.000 8.847 8.847 247.695' ... 'C50 m3 350.000 ... 367.695' (CM = CE1+CE2+CE4); CE1 adoptado de Gong (2004) [26]",
+    "nota": "Factor tabelado (nao estudo proprio de mistura); inclui transporte (CE2) e disposicao (CE4). Se a Kie entender que 'reinforced concrete' inclui armadura, a familia passa de opc para concreto_armado; o rotulo gravado ja diz 'Concreto armado' mas a familia actual e opc - inconsistencia a decidir."
+   },
+   {
+    "sheet_row": 610,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "O artigo rotula o material 'Reinforced concrete' mas nao diz se o CE1 (de Gong 2004) inclui o aco; aco de armadura tem factor proprio na mesma tabela (Large/Medium-small reinforced steel, t). Os valores (230-350 kg/m3 para C20-C50) sao de ordem de betao simples.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (p.8): 'Reinforced concrete C20 m3 230.000 8.847 8.847 247.695' ... 'C50 m3 350.000 ... 367.695' (CM = CE1+CE2+CE4); CE1 adoptado de Gong (2004) [26]",
+    "nota": "Factor tabelado (nao estudo proprio de mistura); inclui transporte (CE2) e disposicao (CE4). Se a Kie entender que 'reinforced concrete' inclui armadura, a familia passa de opc para concreto_armado; o rotulo gravado ja diz 'Concreto armado' mas a familia actual e opc - inconsistencia a decidir."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 13 p. lido por inteiro (read_file_content). Factores sao uma tabela-base para pavimentos na China; caso de estudo nao usa classes de betao."
+ },
+ {
+  "row_id": 5086,
+  "pares": [
+   {
+    "sheet_row": 77,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Inventario (Tabela ecoinvent): 'Concrete in beams 504 concrete, normal, at plant m3 265.2200'; aco ('Steel in beams/column/slabs 1141 reinforcing steel, at plant kg 1.3442') em linhas separadas",
+    "co2_so_betao": 265.22,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela do inventario: concrete, normal, at plant 265,22 kg CO2-eq/m3 (CML 2001 GWP100); Table 1: Concrete C25/30, Fck 25 MPa",
+    "nota": "Valor = factor ecoinvent generico 'concrete, normal' (nao especifico de C25/30); gravado ja e so o betao. Ligacao seca pre-fabricada com aco/pos-tensao, mas o par e so o betao. Familia opc coerente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (99 mil caracteres) lido por script; artigo de revista, sem truncagem."
+ }
+]

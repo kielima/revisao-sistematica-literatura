@@ -1,0 +1,480 @@
+[
+ {
+  "row_id": 2658,
+  "pares": [
+   {
+    "sheet_row": 631,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "System boundary 'cradle to gate' A1-A5 (Sec.3.2.3, Fig.1); declared unit 1 L de argamassa; inventario Tab.3 so com agua, CEM II/A-LL 42,5 R, areia, po compósito, SP — sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: REF1 32 MPa (M30), CEM II/A-LL 0,450 kg + areia 0/2 1,350 kg por L",
+    "nota": "Argamassa de referencia (areia natural). Fronteira inclui A4-A5 (transporte a obra), nao so A1-A3."
+   },
+   {
+    "sheet_row": 632,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "System boundary 'cradle to gate' A1-A5 (Sec.3.2.3, Fig.1); declared unit 1 L de argamassa; inventario Tab.3 so com agua, CEM II/A-LL 42,5 R, areia, po compósito, SP — sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'DELTA mortar incorporates composite dust scraps produced by a sanitary industry during the process of sinks cutting' (25,5% resina acrilica + areia de quartzo); substitui 100% da areia (0,900 kg/L)",
+    "nota": "Agregado fino reciclado de residuo industrial (po de corte de lavatorios compositos)."
+   },
+   {
+    "sheet_row": 633,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "System boundary 'cradle to gate' A1-A5 (Sec.3.2.3, Fig.1); declared unit 1 L de argamassa; inventario Tab.3 so com agua, CEM II/A-LL 42,5 R, areia, po compósito, SP — sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: REF2 25 MPa (M20), mesma dosagem de cimento 0,450 kg/L, areia 1,350 kg/L",
+    "nota": "Referencia do HP. Gravado 420 = igual ao REF1 (lido do grafico); plausivel porque as dosagens sao quase iguais."
+   },
+   {
+    "sheet_row": 634,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "System boundary 'cradle to gate' A1-A5 (Sec.3.2.3, Fig.1); declared unit 1 L de argamassa; inventario Tab.3 so com agua, CEM II/A-LL 42,5 R, areia, po compósito, SP — sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'In HP mortar, sand is partially replaced with a composite material dust, consisting of epoxy resin and carbon ... derived from industrial scraps of carbon fiber composite fragments' (0,300 kg/L, 50% da areia)",
+    "nota": "Po de CFRP reciclado como filer/agregado fino, nao e fibra nem armadura."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Argamassas (EN 998-2), nao betao. Familia 'reciclado' correcta para DELTA/HP; para REF1/REF2 (controlos) a familia mais coerente seria 'opc' (CEM II/A-LL, sem material reciclado)."
+ },
+ {
+  "row_id": 2672,
+  "pares": [
+   {
+    "sheet_row": 144,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate das pastas (Figs.20-22, Sec.4.1.2); Table 12 'AAMs paste environmental performance (F.U 1m3)' — pastas de BFS + activador, sem armadura (as fibras de PVA so entram nos paineis da 3.a etapa, nao nestes pares).",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 12 NH: CC+biogenic 9.62E+01; Table 13 NH 46.44 MPa; 'NH reference design'",
+    "nota": "Desenho de referencia (so NaOH)."
+   },
+   {
+    "sheet_row": 145,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate das pastas (Figs.20-22, Sec.4.1.2); Table 12 'AAMs paste environmental performance (F.U 1m3)' — pastas de BFS + activador, sem armadura (as fibras de PVA so entram nos paineis da 3.a etapa, nao nestes pares).",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "outro",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 12 NH-SS1.5: 1.08E+02; Table 13 NH-SS1.5: 97.21 MPa",
+    "nota": "ATENCAO: o rotulo gravado diz 'com cinza de folha de bambu', mas os valores (97,21 MPa / 108) sao do NH-SS1.5 — activador de silicato de sodio COMERCIAL, sem BLA. Corrigir o rotulo. Papel: activador alternativo (silicato comercial), nao residuo."
+   },
+   {
+    "sheet_row": 2101,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate das pastas (Figs.20-22, Sec.4.1.2); Table 12 'AAMs paste environmental performance (F.U 1m3)' — pastas de BFS + activador, sem armadura (as fibras de PVA so entram nos paineis da 3.a etapa, nao nestes pares).",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "outro",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 12 NH-SS1.0: 1.04E+02; Table 13: 75.87 MPa",
+    "nota": "Activador NaOH + silicato de sodio comercial."
+   },
+   {
+    "sheet_row": 2102,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate das pastas (Figs.20-22, Sec.4.1.2); Table 12 'AAMs paste environmental performance (F.U 1m3)' — pastas de BFS + activador, sem armadura (as fibras de PVA so entram nos paineis da 3.a etapa, nao nestes pares).",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "outro",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 12 NH-SS2.0: 1.12E+02; Table 13: 90.38 MPa",
+    "nota": "Activador NaOH + silicato de sodio comercial."
+   },
+   {
+    "sheet_row": 2103,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate das pastas (Figs.20-22, Sec.4.1.2); Table 12 'AAMs paste environmental performance (F.U 1m3)' — pastas de BFS + activador, sem armadura (as fibras de PVA so entram nos paineis da 3.a etapa, nao nestes pares).",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 12 NH-BLA1.0: 9.35E+01; Table 13: 77.45 MPa",
+    "nota": "Activador NaOH + suspensao de cinza de folha de bambu (BLA, residuo agricola) como fonte de silica em vez do silicato comercial."
+   },
+   {
+    "sheet_row": 2104,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate das pastas (Figs.20-22, Sec.4.1.2); Table 12 'AAMs paste environmental performance (F.U 1m3)' — pastas de BFS + activador, sem armadura (as fibras de PVA so entram nos paineis da 3.a etapa, nao nestes pares).",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 12 NH-BLA1.5: 9.39E+01; Table 13: 86.35 MPa",
+    "nota": "Idem, BLA como fonte de silica do activador."
+   },
+   {
+    "sheet_row": 2105,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate das pastas (Figs.20-22, Sec.4.1.2); Table 12 'AAMs paste environmental performance (F.U 1m3)' — pastas de BFS + activador, sem armadura (as fibras de PVA so entram nos paineis da 3.a etapa, nao nestes pares).",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 12 NH-BLA2.0: 9.39E+01; Table 13: 61.00 MPa",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "read_file_content truncou em ~p.78 (153k car.); confirmado com o PDF descarregado (135 p., 261k car.) as Tables 12 e 13 (pp.85-88). Todas sao pastas (nao betao). Precursor = escoria de alto-forno (subproduto) em todas, incluindo o controlo; o que distingue os pares e o activador. Familia 'geopolimero' correcta."
+ },
+ {
+  "row_id": 2680,
+  "pares": [
+   {
+    "sheet_row": 146,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1 'Inventory by functional unit' (1 m2): Concrete 28 MPa + Reinforcing steel (33,85/63,61/45,79/12,5 kg) + hot-rolled steel; Sec.3.1.1: 'In the climate change category, concrete production contributes 47 % for CB, 37 % for CM1, 34 % for CM2, and 27 % for MSC. Meanwhile, reinforcing steel production contributes 32 %, 41 %, 38 %, and 17 %'",
+    "co2_so_betao": 296.2,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "196 kg CO2/m2 (Fig.4) x 47% / 0,311 m3/m2",
+    "nota": "Gravado ja e so o betao (fraccao impressa no texto); o total do sistema (630) inclui aco."
+   },
+   {
+    "sheet_row": 147,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1 'Inventory by functional unit' (1 m2): Concrete 28 MPa + Reinforcing steel (33,85/63,61/45,79/12,5 kg) + hot-rolled steel; Sec.3.1.1: 'In the climate change category, concrete production contributes 47 % for CB, 37 % for CM1, 34 % for CM2, and 27 % for MSC. Meanwhile, reinforcing steel production contributes 32 %, 41 %, 38 %, and 17 %'",
+    "co2_so_betao": 298.1,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "282 x 37% / 0,35",
+    "nota": "Idem, gravado ja so betao."
+   },
+   {
+    "sheet_row": 148,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1 'Inventory by functional unit' (1 m2): Concrete 28 MPa + Reinforcing steel (33,85/63,61/45,79/12,5 kg) + hot-rolled steel; Sec.3.1.1: 'In the climate change category, concrete production contributes 47 % for CB, 37 % for CM1, 34 % for CM2, and 27 % for MSC. Meanwhile, reinforcing steel production contributes 32 %, 41 %, 38 %, and 17 %'",
+    "co2_so_betao": 299.7,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "223 x 34% / 0,253",
+    "nota": "Idem."
+   },
+   {
+    "sheet_row": 149,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1 'Inventory by functional unit' (1 m2): Concrete 28 MPa + Reinforcing steel (33,85/63,61/45,79/12,5 kg) + hot-rolled steel; Sec.3.1.1: 'In the climate change category, concrete production contributes 47 % for CB, 37 % for CM1, 34 % for CM2, and 27 % for MSC. Meanwhile, reinforcing steel production contributes 32 %, 41 %, 38 %, and 17 %'",
+    "co2_so_betao": 294.8,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "131 x 27% / 0,12",
+    "nota": "Idem; sistema de modulos de aco estrutural, mas o gravado e so a parcela do betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Os totais por m2 (196/282/223/131) estao so na Fig.4 (imagem); nao consegui descarregar o PDF (o conector caiu com o ficheiro) para confirmar se sao totais berco-ao-tumulo; as percentagens do texto aplicam-se a 'climate change category' global, portanto o gravado e coerente. Familia 'opc' aceitavel porque o valor gravado ja exclui o aco; os quatro pares tem o mesmo betao generico 28 MPa (Ecoinvent), sem material distintivo."
+ },
+ {
+  "row_id": 2681,
+  "pares": [
+   {
+    "sheet_row": 11,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Mixes de betao por 1 m3 (Table 2); sem armadura em lado nenhum",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: Circular (38-Y SL) GWP 249 kg CO2 eq per 1 m3",
+    "nota": "DUPLICADO/BASE DIFERENTE: 249 e o circular normalizado a 38 anos de vida util, fronteira end-of-life (354 x 38/53,7), nao o cradle-to-gate da linha 131 (297). Parece linha legada a remover ou a reetiquetar; nao misturar no grafico com a 131."
+   },
+   {
+    "sheet_row": 130,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 2 mix design por m3; fronteiras cradle-to-gate e end-of-life de betao simples",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'GWP values for the cradle-to-gate system boundary are 380 and 297'; Table 2 Conventional: cimento 350, areia 1031, brita 844",
+    "nota": "fck 33,9 obtido por modelo de regressao (Eq.2), nao ensaio."
+   },
+   {
+    "sheet_row": 131,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 2 Circular: cimento 245 + SF 35 + GGBFS 70, 100% brita reciclada 814; GWP cradle-to-gate 297",
+    "nota": "Mistura combina RCA (agregado) + SF/GGBFS (substituicao de ligante); o 100% de agregado reciclado e a alteracao principal. fck 33,4 por modelo (Eq.2)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de revisao/metodo com caso de estudo; fck por equacao empirica, nao ensaiado. Familias: 130 opc correcta; 131 reciclado aceitavel (tambem tem SCM)."
+ },
+ {
+  "row_id": 2684,
+  "pares": [
+   {
+    "sheet_row": 135,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 5 'environmental impact per m2 of reinforced concrete slab' inclui 'Steel reinforcement kg 3.85 2.10 3.45 1.93'; Table 2 nota: 'The GWP for steel rebars is considered similar to that of the steel fibres' (1,11 kg CO2/kg A1-A2). Fig.5 'environmental impact assessment of OPC and LC3 concrete mixes per unit volume' (kgCO2eq/m3 of concrete).",
+    "co2_so_betao": 311.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.5 OPC ~311 kg/m3 (leitura por pixel, +/-5); pela Tab.5 descontando o varao: (58,56-3,85x1,11)/0,2 = 271,4",
+    "nota": "Gravado 292,8 inclui armadura longitudinal. Valor so do betao: Fig.5 ~311 (directo do artigo). Nota: Fig.5 e Tab.5 nao sao coerentes entre si (a deducao pela Tab.5 da ~271). FAMILIA ACTUAL 'scm' PARECE ERRADA: e CEM I 52,5 N puro (referencia) -> opc."
+   },
+   {
+    "sheet_row": 136,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 5 'environmental impact per m2 of reinforced concrete slab' inclui 'Steel reinforcement kg 3.85 2.10 3.45 1.93'; Table 2 nota: 'The GWP for steel rebars is considered similar to that of the steel fibres' (1,11 kg CO2/kg A1-A2). Fig.5 'environmental impact assessment of OPC and LC3 concrete mixes per unit volume' (kgCO2eq/m3 of concrete).",
+    "co2_so_betao": 378.0,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Fig.5 OPC-SF ~378 kg/m3 (pixel); Tab.5: (71,44-2,10x1,11)/0,2 = 345,5",
+    "nota": "Fibras de aco dispersas 60 kg/m3 (fazem parte do betao); armadura longitudinal reduzida e incluida no gravado 357,2. FAMILIA 'scm' PARECE ERRADA: OPC + fibras de aco -> opc/fibras."
+   },
+   {
+    "sheet_row": 137,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 5 'environmental impact per m2 of reinforced concrete slab' inclui 'Steel reinforcement kg 3.85 2.10 3.45 1.93'; Table 2 nota: 'The GWP for steel rebars is considered similar to that of the steel fibres' (1,11 kg CO2/kg A1-A2). Fig.5 'environmental impact assessment of OPC and LC3 concrete mixes per unit volume' (kgCO2eq/m3 of concrete).",
+    "co2_so_betao": 214.0,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Fig.5 LC3 ~214 kg/m3 (pixel); Tab.5: (40,97-3,45x1,11)/0,22 = 168,8",
+    "nota": "LC3 (argila calcinada + calcario); nao e residuo. Familia scm correcta."
+   },
+   {
+    "sheet_row": 138,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 5 'environmental impact per m2 of reinforced concrete slab' inclui 'Steel reinforcement kg 3.85 2.10 3.45 1.93'; Table 2 nota: 'The GWP for steel rebars is considered similar to that of the steel fibres' (1,11 kg CO2/kg A1-A2). Fig.5 'environmental impact assessment of OPC and LC3 concrete mixes per unit volume' (kgCO2eq/m3 of concrete).",
+    "co2_so_betao": 281.0,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Fig.5 LC3-SF ~281 kg/m3 (pixel); Tab.5: (54,96-1,93x1,11)/0,22 = 240,1",
+    "nota": "LC3 + fibras de aco 60 kg/m3. Familia scm aceitavel."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fig.5 (p.6) renderizada e medida por pixel (0 a y=1680, 450 a y=1350). Texto: 'LC3 mixes exhibit a 35% lower carbon footprint per unit volume'; 'steel fibres increases the carbon footprint per m3 by around 30%' — coerente com a Fig.5. Recomendo substituir co2_kg_m3 pelos valores da Fig.5 (so betao) e tirar a armadura; ou manter na familia concreto_armado."
+ },
+ {
+  "row_id": 2687,
+  "pares": [
+   {
+    "sheet_row": 1855,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Sec.4: '100% stands for 151.3 t CO2eq' (so materiais, Fig.6); 'The reinforcement (steel rebars and tendons), steel fibers, and cement accounted for the highest impact'; Table 3: reinforcing steel 34,5 t, post-tensioning cables 7,8 t, formworks 8,2 t, membrana, asfalto",
+    "co2_so_betao": 298.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.6 GWP P-RC (leitura por pixel): Cement ~46,8%, Reinforcement ~49,5%, Other ~3,2%. 0,468 x 151.300 / 237,6 m3 = 298 kg/m3",
+    "nota": "O gravado 636,8 inclui varao + cabos de pre-esforco (~50%) + outros. So o cimento da ~298 kg/m3 (os agregados estao em 'Other', <=3%, pelo que o betao fica entre ~298 e ~318). Separavel so por leitura de grafico — confianca baixa. Familia concreto_armado correcta para o gravado; se se trocar para ~298, passaria a opc."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O par e o metodo 1 (betao armado pos-tensionado C30/37 + C20/25), nao o UHPFRC; uhpc=nao para este par (os UHPFRC do artigo sao S-/PE-UHPFRC, nao gravados aqui)."
+ },
+ {
+  "row_id": 2688,
+  "pares": [
+   {
+    "sheet_row": 645,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 3 Reference flow: Concrete C50/60 1370 kg, Carbon fibers 8.5 kg, Steel 9.5 kg; Table 9 Climate change total 4.56E+02 (ciclo de vida completo, inclui EoL e creditos); Table 12: 'Concrete production 34 %, Carbon fiber production 42 %, Credit for steel recycling 7 %, Steel production 6 %...'",
+    "co2_so_betao": 269.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "0,34 x 456 / 0,576 m3 = 269 kg/m3 (producao do betao, dataset 'DE: Concrete C50/60 (A1-A3)' VDZ)",
+    "nota": "Gravado 791,67 inclui armadura de fibra de carbono impregnada em epoxi (42% do CC) + ancoragens de aco inox + fim de vida. FAMILIA ACTUAL 'opc' PARECE ERRADA para o gravado (e betao armado com carbono -> concreto_armado), ou trocar o valor para ~269 (so betao) e manter opc. As % da Tab.12 parecem ser de contribuicoes absolutas (incluem o credito), por isso 269 e aproximado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fck 58 = 'Average compressive strength 58 N/mm2' da classe C50/60 (Table 1). Armadura de carbono e textil/varao (armadura), nao fibra dispersa."
+ },
+ {
+  "row_id": 2693,
+  "pares": [
+   {
+    "sheet_row": 646,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1 'Material inventory for reinforced concrete beams' (volume de betao + quantity of reinforcement); FU 'per reinforced concrete beam'; 'In the BFRP reinforced concrete beams, the largest contributor to emissions was concrete (93.7%) ... In the steel reinforced concrete beams ... concrete (56.2%), followed by steel (43.8%)'",
+    "co2_so_betao": 285.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3 BFRP RC 1200: 14,6 kg CO2 eq x 93,7% / 0,048 m3",
+    "nota": "Gravado 304,2 inclui varao BFRP+resina. So betao ~285."
+   },
+   {
+    "sheet_row": 647,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1 'Material inventory for reinforced concrete beams' (volume de betao + quantity of reinforcement); FU 'per reinforced concrete beam'; 'In the BFRP reinforced concrete beams, the largest contributor to emissions was concrete (93.7%) ... In the steel reinforced concrete beams ... concrete (56.2%), followed by steel (43.8%)'",
+    "co2_so_betao": 284.6,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3 BFRP RC 2000: 24,3 x 93,7% / 0,08",
+    "nota": "Idem."
+   },
+   {
+    "sheet_row": 648,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1 'Material inventory for reinforced concrete beams' (volume de betao + quantity of reinforcement); FU 'per reinforced concrete beam'; 'In the BFRP reinforced concrete beams, the largest contributor to emissions was concrete (93.7%) ... In the steel reinforced concrete beams ... concrete (56.2%), followed by steel (43.8%)'",
+    "co2_so_betao": 284.6,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3 BFRP RC 2700: 32,8 x 93,7% / 0,108",
+    "nota": "Idem."
+   },
+   {
+    "sheet_row": 649,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1 'Material inventory for reinforced concrete beams' (volume de betao + quantity of reinforcement); FU 'per reinforced concrete beam'; 'In the BFRP reinforced concrete beams, the largest contributor to emissions was concrete (93.7%) ... In the steel reinforced concrete beams ... concrete (56.2%), followed by steel (43.8%)'",
+    "co2_so_betao": 284.6,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3 BFRP RC 3860: 46,9 x 93,7% / 0,1544",
+    "nota": "Idem (os 93,7% sao dados para as vigas BFRP em geral; confere com 1,28 kg x 2,6 kg CO2/kg)."
+   },
+   {
+    "sheet_row": 650,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1 'Material inventory for reinforced concrete beams' (volume de betao + quantity of reinforcement); FU 'per reinforced concrete beam'; 'In the BFRP reinforced concrete beams, the largest contributor to emissions was concrete (93.7%) ... In the steel reinforced concrete beams ... concrete (56.2%), followed by steel (43.8%)'",
+    "co2_so_betao": 281.9,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3 Steel RC: 23,7 x 56,2% / 0,04725 (ou 23,7 - 4,44 kg x 2,34 = 13,31)",
+    "nota": "Gravado 501,6 inclui 4,44 kg de varao de aco (43,8%). So betao ~282."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O betao e um processo Ecoinvent suico generico igual para todas as vigas ('the same quantity of concrete was used for both'; 'A Swiss process has been used for all concrete'), pelo que o CO2 do betao (~282-285 kg/m3) nao responde ao fck ensaiado (31,4 a 67,4 MPa). Familia concreto_armado correcta para o gravado."
+ },
+ {
+  "row_id": 2694,
+  "pares": [
+   {
+    "sheet_row": 651,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 4 'Environmental impact coefficients of construction materials' — betao pronto por m3 (Korea LCI DB); varao e item separado ('electric steel deformed bars', por kg)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "ready-mixed concrete 25-21-12 GWP 4.09x10^2",
+    "nota": "Factor de base de dados (Korea LCI DB), nao mistura ensaiada. Codigo 25-21/24-12/15 = agregado 25 mm, 21/24 MPa, abatimento 120/150 mm."
+   },
+   {
+    "sheet_row": 652,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 4 'Environmental impact coefficients of construction materials' — betao pronto por m3 (Korea LCI DB); varao e item separado ('electric steel deformed bars', por kg)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "25-21-15 GWP 4.19x10^2",
+    "nota": "Factor de base de dados (Korea LCI DB), nao mistura ensaiada. Codigo 25-21/24-12/15 = agregado 25 mm, 21/24 MPa, abatimento 120/150 mm."
+   },
+   {
+    "sheet_row": 653,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 4 'Environmental impact coefficients of construction materials' — betao pronto por m3 (Korea LCI DB); varao e item separado ('electric steel deformed bars', por kg)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "25-24-12 GWP 4.14x10^2",
+    "nota": "Factor de base de dados (Korea LCI DB), nao mistura ensaiada. Codigo 25-21/24-12/15 = agregado 25 mm, 21/24 MPa, abatimento 120/150 mm."
+   },
+   {
+    "sheet_row": 654,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 4 'Environmental impact coefficients of construction materials' — betao pronto por m3 (Korea LCI DB); varao e item separado ('electric steel deformed bars', por kg)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "25-24-15 GWP 4.29x10^2",
+    "nota": "Factor de base de dados (Korea LCI DB), nao mistura ensaiada. Codigo 25-21/24-12/15 = agregado 25 mm, 21/24 MPa, abatimento 120/150 mm."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem material distintivo; familia opc correcta. Papel 'controlo' = betao convencional (podia ser 'sistema')."
+ },
+ {
+  "row_id": 2695,
+  "pares": [
+   {
+    "sheet_row": 655,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 3 'Embodied carbon emission factors': RMC 24 MPa kg-CO2/m3 414; Rebar 0.438 kg-CO2/kg em linha separada",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3: RMC 24 MPa 414 kg-CO2/m3",
+    "nota": "Mesmo factor do Korea LCI DB que a linha 653 (JANG 2022, ma15145047, 25-24-12 = 414): e o mesmo dado de base de dados em dois artigos — risco de dupla contagem no painel."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O artigo avalia edificio modular vs RC, mas o par gravado e so o factor do betao pronto. Familia opc correcta."
+ }
+]

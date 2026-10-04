@@ -1,0 +1,425 @@
+[
+ {
+  "row_id": 2950,
+  "rotulo": "Gillani et al., 2023",
+  "titulo": "Life cycle impact of concrete incorporating nylon waste and demolition waste",
+  "pdf": "GILLANI et al., 2023d - s11356-023-25905-w.pdf",
+  "fileId": "1J2WC8D_vlfCVO4lvATeL1HcUtJHvUmpC",
+  "pares": [
+   {
+    "sheet_row": 798,
+    "material": "HPC com 100% agregado reciclado (RCA), sem fibra NWF (mistura '100RA')",
+    "fck": 61.0,
+    "co2_kg_m3": 484.6,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 799,
+    "material": "HPC com 100% RCA + 0.1% fibra de nylon residual (mistura '0.1NWF/100RA')",
+    "fck": 65.0,
+    "co2_kg_m3": 484.6,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 800,
+    "material": "HPC controle/referencia, 0% RCA, 0% NWF (mistura '0RA')",
+    "fck": 60.0,
+    "co2_kg_m3": 565.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 2951,
+  "rotulo": "Ali et al., 2023",
+  "titulo": "A multi-criteria evaluation and optimization of sustainable fiber-reinforced concrete developed with nylon waste fibers and micro-silica",
+  "pdf": "ALI, 2023i - s11356-023-26492-6.pdf",
+  "fileId": "1nqZ3ZxDA7CWFH684wP168sSJLZoutXj3",
+  "pares": [
+   {
+    "sheet_row": 801,
+    "material": "HSC controle/referencia (CM), sem fibra NWF, sem microssilica (MS)",
+    "fck": 71.3,
+    "co2_kg_m3": 628.5,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 2952,
+  "rotulo": "Kina, 2024",
+  "titulo": "Sustainable binary/ternary blended mortars with recycled water treatment sludge using fly ash or blast slag: Characterization and environmental-economical impacts",
+  "pdf": "KINA, 2024b - s11356-024-32175-7.pdf",
+  "fileId": "1-qxE_QMdUIZ9bzU_ulkNanRZlFtcyV--",
+  "pares": [
+   {
+    "sheet_row": 802,
+    "material": "Argamassa ternaria MWTS10-FA (10% lama de ETA calcinada [MWTS] + 30% cinza volante [FA], substituindo cimento)",
+    "fck": 51.5,
+    "co2_kg_m3": 358.4,
+    "co2_conversao": "PC 390x0,83 + MWTS 65x0,091 + FA 195x0,008 + areia 1070x0,01 + SP 23x0,72 = 323,7+5,915+1,56+10,7+16,56 = 358,4 (formula validada no Control: 565,0)",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 803,
+    "material": "Argamassa ternaria MWTS10-BFS (10% MWTS + 30% escoria de alto-forno granulada [BFS])",
+    "fck": 52.6,
+    "co2_kg_m3": 361.8,
+    "co2_conversao": "PC 390x0,83 + MWTS 65x0,091 + BFS 195x0,02 (EF_BFS impresso na Tab.6, Du et al. 2022) + areia 1105x0,01 + SP 24x0,72 = 323,7+5,915+3,9+11,05+17,28 = 361,8 [REVISTO 2026-09-27: EF_BFS confirmado no PDF]",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 2966,
+  "rotulo": "Colangelo et al., 2020",
+  "titulo": "Comparative LCA of concrete with recycled aggregates: a circular economy mindset in Europe",
+  "pdf": "COLANGELO, 2020d - s11367-020-01798-6.pdf",
+  "fileId": "1UBMpGNcn7BDb0Os2thxqjuwB-c2Yd_dv",
+  "pares": [
+   {
+    "sheet_row": 804,
+    "material": "Betao Portland Tipo I (C0-C100) e geopolimero (G0-G100), ambos com agregado reciclado, todos dimensionados para 30 MPa",
+    "fck": 30.0,
+    "co2_kg_m3": 345.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 2999,
+  "rotulo": "Rathnarajan et al., 2025",
+  "titulo": "Seawater-mixed concretes containing supplementary cementitious materials: compressive strength, e-modulus, electrical resistivity, and life cycle assessment",
+  "pdf": "RATHNARAJAN et al., 2025.pdf",
+  "fileId": "18YkfIw3XqN3bJoW8VpjMbrnn9xCYMgn_",
+  "pares": [
+   {
+    "sheet_row": 249,
+    "material": "Betao amassado com agua do mar (SW) e SCM (cinza volante, escoria, metacaulino), varias composicoes binarias/ternarias",
+    "fck": 56.0,
+    "co2_kg_m3": 302.8,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1903,
+    "material": "CC-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 42.5,
+    "co2_kg_m3": 347.2,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1904,
+    "material": "CC-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck": 44.5,
+    "co2_kg_m3": 348.8,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1905,
+    "material": "CF30-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 44.8,
+    "co2_kg_m3": 256.9,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1906,
+    "material": "CF30-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck": 42.0,
+    "co2_kg_m3": 257.9,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1907,
+    "material": "CS50-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 50.0,
+    "co2_kg_m3": 256.3,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1908,
+    "material": "CS50-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck": 46.0,
+    "co2_kg_m3": 258.2,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1909,
+    "material": "CM30-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 55.0,
+    "co2_kg_m3": 301.2,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1910,
+    "material": "CS20F10-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 65.0,
+    "co2_kg_m3": 280.5,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1911,
+    "material": "CS20F10-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck": 60.0,
+    "co2_kg_m3": 281.3,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1912,
+    "material": "CS30F15-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 45.7,
+    "co2_kg_m3": 249.1,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1913,
+    "material": "CS30F15-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck": 43.6,
+    "co2_kg_m3": 249.8,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1914,
+    "material": "CF20M10-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 54.0,
+    "co2_kg_m3": 273.4,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1915,
+    "material": "CF20M10-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck": 52.0,
+    "co2_kg_m3": 274.1,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1916,
+    "material": "CF30M15-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 53.5,
+    "co2_kg_m3": 235.8,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1917,
+    "material": "CF30M15-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck": 55.0,
+    "co2_kg_m3": 236.3,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1918,
+    "material": "CS20M10-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 50.5,
+    "co2_kg_m3": 296.8,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1919,
+    "material": "CS20M10-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck": 52.0,
+    "co2_kg_m3": 297.6,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1920,
+    "material": "CS30M15-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck": 44.0,
+    "co2_kg_m3": 270.9,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1921,
+    "material": "CS30M15-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck": 50.8,
+    "co2_kg_m3": 271.4,
+    "co2_conversao": "soma traco x factores impressos: cimento 834,7 / cinza 4,0 / escoria 324,6 / metacaulino 344,6 / SP 2817,1 / agregado grosso 14,7 / areia 20,8 / agua doce 1,1 / agua do mar 0,5 kg CO2eq/t; UF = 1 m3 de betao; A1-A2 (A3 omitido pelos autores). Resultado confere com Fig.7 [REVISAO 2026-09-27, leitura ",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3003,
+  "rotulo": "Zhang et al., 2018",
+  "titulo": "An ontology-based approach supporting holistic structural design with the consideration of safety, environmental impact and cost",
+  "pdf": "ZHANG et al., 2018.pdf",
+  "fileId": "1VHfZDU4b2FzHrPJcPbW55QuxTRmiaAJc",
+  "pares": [
+   {
+    "sheet_row": 250,
+    "material": "Betao NSC classe C25 (mix design de literatura, base de dados ICE, sem SCM)",
+    "fck": 25.0,
+    "co2_kg_m3": 269.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 251,
+    "material": "Betao NSC classe C35 (mix design de literatura, base de dados ICE, sem SCM)",
+    "fck": 35.0,
+    "co2_kg_m3": 306.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 252,
+    "material": "Betao NSC classe C45 (mix design de literatura, base de dados ICE, sem SCM)",
+    "fck": 45.0,
+    "co2_kg_m3": 344.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 253,
+    "material": "Betao HPC classe C80 (mix design de literatura, base de dados ICE, sem SCM)",
+    "fck": 80.0,
+    "co2_kg_m3": 284.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 254,
+    "material": "Betao HPC classe C90 (mix design de literatura, base de dados ICE, sem SCM)",
+    "fck": 90.0,
+    "co2_kg_m3": 317.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 255,
+    "material": "Betao HPC classe C100 (mix design de literatura, base de dados ICE, sem SCM)",
+    "fck": 100.0,
+    "co2_kg_m3": 350.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 256,
+    "material": "Betao UHPC classe C160 (mix design de literatura, base de dados ICE, sem SCM)",
+    "fck": 160.0,
+    "co2_kg_m3": 482.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "uhpc"
+   },
+   {
+    "sheet_row": 257,
+    "material": "Betao UHPC classe C170 (mix design de literatura, base de dados ICE, sem SCM)",
+    "fck": 170.0,
+    "co2_kg_m3": 511.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "uhpc"
+   },
+   {
+    "sheet_row": 258,
+    "material": "Betao UHPC classe C180 (mix design de literatura, base de dados ICE, sem SCM)",
+    "fck": 180.0,
+    "co2_kg_m3": 539.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "uhpc"
+   }
+  ]
+ },
+ {
+  "row_id": 3017,
+  "rotulo": "Cunningham et al., 2025",
+  "titulo": "Lifecycle implications and mechanical properties of carbonated biomass ashes as carbon-storing supplementary cementitious materials",
+  "pdf": "CUNNINGHAM et al., 2025.pdf",
+  "fileId": "104LJMLiOKGZrsuWgAElVUzSZJe4LyePQ",
+  "pares": [
+   {
+    "sheet_row": 259,
+    "material": "Argamassa 5%M-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck": 54.82,
+    "co2_kg_m3": 459.5,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido por pixel)",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2110,
+    "material": "Argamassa CTRL (100% cimento Portland, referencia)",
+    "fck": 48.89,
+    "co2_kg_m3": 482.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido por pixel)",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2111,
+    "material": "Argamassa 5%M-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck": 50.49,
+    "co2_kg_m3": 457.1,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido por pixel)",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2112,
+    "material": "Argamassa 5%C-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck": 45.55,
+    "co2_kg_m3": 456.3,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido por pixel)",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2113,
+    "material": "Argamassa 15%M-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck": 43.95,
+    "co2_kg_m3": 408.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido por pixel)",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2114,
+    "material": "Argamassa 15%C-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck": 26.54,
+    "co2_kg_m3": 405.3,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido por pixel)",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2115,
+    "material": "Argamassa 5%C-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck": 52.35,
+    "co2_kg_m3": 459.5,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido por pixel)",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2116,
+    "material": "Argamassa 15%M-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck": 53.95,
+    "co2_kg_m3": 414.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido por pixel)",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2117,
+    "material": "Argamassa 15%C-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck": 49.5,
+    "co2_kg_m3": 414.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido por pixel)",
+    "familia_atual": "opc"
+   }
+  ]
+ }
+]

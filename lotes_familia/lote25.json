@@ -1,0 +1,220 @@
+[
+ {
+  "row_id": 3894,
+  "rotulo": "Silva et al., 2019",
+  "titulo": "Variability of environmental impact of ready-mix concrete: a case study for Brazil",
+  "pdf": "SILVA, 2019.pdf",
+  "fileId": "1Tq-y-SFtCKzn_fveNyaB74L-bFnFy-sK",
+  "pares": [
+   {
+    "sheet_row": 1131,
+    "material": "Concreto pronto (ready-mix) CP-II-E/CP-II-F, classe 25 MPa (Brasil, media de 34 centrais)",
+    "fck": 25.0,
+    "co2_kg_m3": 196.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1132,
+    "material": "Concreto pronto (ready-mix) CP-II-E/CP-II-F, classe 30 MPa (Brasil, media de 34 centrais)",
+    "fck": 30.0,
+    "co2_kg_m3": 220.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1133,
+    "material": "Concreto pronto (ready-mix) CP-II-E/CP-II-F, classe 35 MPa (Brasil, media de 34 centrais)",
+    "fck": 35.0,
+    "co2_kg_m3": 248.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1134,
+    "material": "Concreto pronto (ready-mix) CP-II-E/CP-II-F, classe 40 MPa (Brasil, media de 34 centrais)",
+    "fck": 40.0,
+    "co2_kg_m3": 295.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3896,
+  "rotulo": "Meek & Elchalakani, 2019",
+  "titulo": "Life cycle assessment of rammed earth made using alkaline activated industrial by-products",
+  "pdf": "MEEK, 2019.pdf",
+  "fileId": "1sUHheDCJNQIISxKbFdvhTVrSH_7MtmBz",
+  "pares": [
+   {
+    "sheet_row": 1135,
+    "material": "Rammed earth alcalino-ativado com agregado reciclado de tijolo/concreto (RBC_AA) — fly ash+GGBFS+silica fume+NaOH, Australia Ocidental",
+    "fck": 24.1,
+    "co2_kg_m3": 120.0,
+    "co2_conversao": "por m2 + espessura impressa: 36 / 0,30 = 120 kg CO2eq/m3 (texto); leitura Fig.4 37,7/0,30 = 125,7 (confirma). Proposto 120 (valor derivado do texto) [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 3904,
+  "rotulo": "Mostert et al., 2020",
+  "titulo": "Urban Mining for Sustainable Cities: Environmental Assessment of Recycled Concrete",
+  "pdf": "MOSTERT, 2020.pdf",
+  "fileId": "1jSceVMzpyiK2qzI4GucvWA6YVg1SlPJK",
+  "pares": [
+   {
+    "sheet_row": 1136,
+    "material": "Concreto convencional C25/30 (BAU-scenario) com agregados primários",
+    "fck": 25.0,
+    "co2_kg_m3": 260.0,
+    "co2_conversao": "nativo em kg/m3, leitura de grafico por pixel (grelha 50 kg = 117,2 px a 300 dpi): topo da barra 260,1 [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2016,
+    "material": "Betao C25/30 RC (40% dos agregados reciclados do antigo edificio, 625 kg/m3; mesmo cimento)",
+    "fck": 25.0,
+    "co2_kg_m3": 250.0,
+    "co2_conversao": "leitura de grafico por pixel: topo 250,3 (confere com 260 x 0,96 = 249,6) [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 3911,
+  "rotulo": "Larsen et al., 2017",
+  "titulo": "Determining the Environmental Benefits of Ultra High Performance Concrete as a Bridge Construction Material",
+  "pdf": "LARSEN, 2017.pdf",
+  "fileId": "1o7cdO3GC6iwgtavLUnFDW36l7MQwPuSe",
+  "pares": [
+   {
+    "sheet_row": 1138,
+    "material": "Concreto de resistência normal NSC — C30/37 (ponte pedonal, Noruega)",
+    "fck": 30.0,
+    "co2_kg_m3": 801.0,
+    "co2_conversao": "81.700 kg / 102,00 m3 (2 pontes x 51,00 m3, Tab.2) = 801,0 [CORRIGIDO 2026-09-26, decisao Kie: antes 81.700/51 = 1.602 dividia o total de 2 pontes pelo volume de 1. vol_corpo_prova mantido em 51 m3 (1 ponte) e vida util 100 anos (1 ponte) - opcao a. Total inclui aco (9,81 t/ponte), transporte e manu",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 1139,
+    "material": "Concreto UHPC (Ultra High Performance Concrete, ponte pedonal, Noruega)",
+    "fck": 150.0,
+    "co2_kg_m3": 2123.8,
+    "co2_conversao": "68.600 kg / 32,30 m3 (Tab.2) = 2.123,8 [REVISTO 2026-09-26, decisao Kie: mantido; total do sistema (armadura 9,72 t, fibra 5,04 t, transporte, Other) -> familia concreto_armado]",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ },
+ {
+  "row_id": 3915,
+  "rotulo": "Stepanek et al., 2018",
+  "titulo": "Life Cycle Assessment Optimization of a Shotcrete Tunnel Lining",
+  "pdf": "STEPANEK, 2018.pdf",
+  "fileId": "15JEVN-bFzKv_ydCv5n6l6LznPFKkBf0D",
+  "pares": [
+   {
+    "sheet_row": 1140,
+    "material": "Concreto projetado (shotcrete) — C25/30, revestimento de túnel utilitário",
+    "fck": 25.0,
+    "co2_kg_m3": 362.29,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3924,
+  "rotulo": "Pavlik et al., 2019",
+  "titulo": "Life cycle assessment of the use of sewage sludge as Portland cement replacement",
+  "pdf": "PAVLIK, 2019.pdf",
+  "fileId": "1Ljpe16m1ZWBF7JjFXxXOGczmZ2N3m9VL",
+  "pares": [
+   {
+    "sheet_row": 1142,
+    "material": "Argamassa de referência CEM (CEM I 42.5 R + areia silicosa, w/b=0.5, s/b=3, sem SSA)",
+    "fck": 52.4,
+    "co2_kg_m3": 253.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3928,
+  "rotulo": "Tran & Tran, 2020",
+  "titulo": "Efficiency of ultra-high-performance concrete applications on bridge construction",
+  "pdf": "TRAN, 2020.pdf",
+  "fileId": "1qyNonFbBgrfekX0AbpP2rjVVBxNyYyx-",
+  "pares": [
+   {
+    "sheet_row": 1144,
+    "material": "Concreto tradicional M300 (NC) - vigas Ponte An Thuong, Vietname (comparador simetrico do UHPC)",
+    "fck": 29.4,
+    "co2_kg_m3": 980.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "uhpc"
+   }
+  ]
+ },
+ {
+  "row_id": 3930,
+  "rotulo": "Morsi et al., 2020",
+  "titulo": "Life cycle assessment of a residential building in Egypt: A case study",
+  "pdf": "MORSI, 2020.pdf",
+  "fileId": "133Gm4nsqoKu7dN2CkccmfkxAZnFcPYAH",
+  "pares": [
+   {
+    "sheet_row": 1145,
+    "material": "Concreto estrutural armado (laje solida, fundacoes, vigas, pilares) - edificio residencial, Cairo Novo, Egito",
+    "fck": 25.0,
+    "co2_kg_m3": 461.3,
+    "co2_conversao": "1.510.000 kg / 3.272,92 m3 (Tab.2: 770,98+75,34+305,53+541,43+1456,22+73,98+49,44) = 461,4",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3932,
+  "rotulo": "Jeong & Park, 2024",
+  "titulo": "Economic and environmental assessment of the Korea urban railway and its greenhouse gas mitigation potential",
+  "pdf": "JEONG, 2024.pdf",
+  "fileId": "17uGiGCZZKwwvS2g4pBCUOjiT_fnRLfJI",
+  "pares": [
+   {
+    "sheet_row": 1146,
+    "material": "Concreto de cimento (cement concrete trackbed) - lastro de via ferroviaria urbana, Coreia do Sul",
+    "fck": 30.0,
+    "co2_kg_m3": 303.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3944,
+  "rotulo": "Lu et al., 2019",
+  "titulo": "Development of a Carbon Emissions Analysis Framework Using Building Information Modeling and Life Cycle Assessment for the Construction of Hospital Projects",
+  "pdf": "LU et al., 2019 - su11226274.pdf",
+  "fileId": "1qX4Kakh3fFDLPUB1wRaDUumHaYMrfFsG",
+  "pares": [
+   {
+    "sheet_row": 547,
+    "material": "Betao C20 usado na estrutura do edificio hospitalar-caso (Chuzhou, China)",
+    "fck": 20.0,
+    "co2_kg_m3": 239.19,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 548,
+    "material": "Betao C30 usado na estrutura do edificio hospitalar-caso (Chuzhou, China)",
+    "fck": 30.0,
+    "co2_kg_m3": 346.95,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ }
+]

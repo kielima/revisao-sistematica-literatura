@@ -1,0 +1,720 @@
+[
+ {
+  "row_id": 3025,
+  "pares": [
+   {
+    "sheet_row": 805,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.A1: 'Reinforcing steel ... t ... 1628.60' e 'Post tensioning steel' em linhas proprias; Tab.A2 item 98 'Reinforcing steel (kg) 1.6286'",
+    "co2_so_betao": 320.52,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.A2 (p.12): 'Concrete 20 MPa (m3) 320.52 ...' (GEI de processo AusLCI; 2.a coluna = GEI hibrida)",
+    "nota": "Valor gravado JA e so o betao (factor por m3 de betao pronto AusLCI); aco contado a parte no BoQ. Factores de base de dados, nao ensaio proprio. Coluna hibrida (maior) existe como alternativa."
+   },
+   {
+    "sheet_row": 806,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.A1: 'Reinforcing steel ... t ... 1628.60' e 'Post tensioning steel' em linhas proprias; Tab.A2 item 98 'Reinforcing steel (kg) 1.6286'",
+    "co2_so_betao": 358.56,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.A2 (p.12): 'Concrete 25 MPa (m3) 358.56 ...' (GEI de processo AusLCI; 2.a coluna = GEI hibrida)",
+    "nota": "Valor gravado JA e so o betao (factor por m3 de betao pronto AusLCI); aco contado a parte no BoQ. Factores de base de dados, nao ensaio proprio. Coluna hibrida (maior) existe como alternativa."
+   },
+   {
+    "sheet_row": 807,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.A1: 'Reinforcing steel ... t ... 1628.60' e 'Post tensioning steel' em linhas proprias; Tab.A2 item 98 'Reinforcing steel (kg) 1.6286'",
+    "co2_so_betao": 412.06,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.A2 (p.12): 'Concrete 32 MPa (m3) 412.06 ...' (GEI de processo AusLCI; 2.a coluna = GEI hibrida)",
+    "nota": "Valor gravado JA e so o betao (factor por m3 de betao pronto AusLCI); aco contado a parte no BoQ. Factores de base de dados, nao ensaio proprio. Coluna hibrida (maior) existe como alternativa."
+   },
+   {
+    "sheet_row": 808,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.A1: 'Reinforcing steel ... t ... 1628.60' e 'Post tensioning steel' em linhas proprias; Tab.A2 item 98 'Reinforcing steel (kg) 1.6286'",
+    "co2_so_betao": 496.12,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.A2 (p.12): 'Concrete 40 MPa (m3) 496.12 ...' (GEI de processo AusLCI; 2.a coluna = GEI hibrida)",
+    "nota": "Valor gravado JA e so o betao (factor por m3 de betao pronto AusLCI); aco contado a parte no BoQ. Factores de base de dados, nao ensaio proprio. Coluna hibrida (maior) existe como alternativa."
+   },
+   {
+    "sheet_row": 809,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.A1: 'Reinforcing steel ... t ... 1628.60' e 'Post tensioning steel' em linhas proprias; Tab.A2 item 98 'Reinforcing steel (kg) 1.6286'",
+    "co2_so_betao": 628.04,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.A2 (p.12): 'Concrete 50 MPa (m3) 628.04 ...' (GEI de processo AusLCI; 2.a coluna = GEI hibrida)",
+    "nota": "Valor gravado JA e so o betao (factor por m3 de betao pronto AusLCI); aco contado a parte no BoQ. Factores de base de dados, nao ensaio proprio. Coluna hibrida (maior) existe como alternativa."
+   },
+   {
+    "sheet_row": 810,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.A1: 'Reinforcing steel ... t ... 1628.60' e 'Post tensioning steel' em linhas proprias; Tab.A2 item 98 'Reinforcing steel (kg) 1.6286'",
+    "co2_so_betao": 797.69,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.A2 (p.12): 'Concrete 65 MPa (m3) 797.69 ...' (GEI de processo AusLCI; 2.a coluna = GEI hibrida)",
+    "nota": "Valor gravado JA e so o betao (factor por m3 de betao pronto AusLCI); aco contado a parte no BoQ. Factores de base de dados, nao ensaio proprio. Coluna hibrida (maior) existe como alternativa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Edificio em betao armado/pre-esforcado em Sydney; CO2 por m3 do betao isolado do aco nas tabelas A1/A2."
+ },
+ {
+  "row_id": 3026,
+  "pares": [
+   {
+    "sheet_row": 811,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Parede de blocos de betao OPC + argamassa + la de vidro + gesso (Tab.2); sem armadura no inventario",
+    "co2_so_betao": 314.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: 'OPC Concrete (m3) 314.0' (Ecoinvent 3.2); p.6: 'selecting the 25-MPa-concrete process instead of the 35-MPa-concrete'",
+    "nota": "Comparador convencional da parede bio-based (madeira+palha). Factor Ecoinvent do processo de betao 35 MPa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3034,
+  "pares": [
+   {
+    "sheet_row": 812,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "p.6: 'concrete (0.17 kg CO2e/kg) and steel (1.76 kg CO2e/kg)' - aco (rebar, malha, perfis) contabilizado a parte (sec.2.4.2)",
+    "co2_so_betao": 393.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: traco NRMCA 4000 psi NW (282 cimento + 49 cinza volante + 14 escoria); p.6 0,17 kg CO2e/kg betao",
+    "nota": "Valor gravado JA e so o betao (0,17 x 2312). Ressalva mantida: 0,17 e media do betao do edificio (NW+LW). Ligante Portland com ~18% de SCM (traco medio da industria), nao e mistura distintiva."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3035,
+  "pares": [
+   {
+    "sheet_row": 814,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de argamassa (sec.3.4); sem reforco",
+    "co2_so_betao": 355.0,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.5.1: 'achieved a total GHG emission reduction of 109.95 kgCO2-eq/m3 compared with CEM-I'; legenda Fig.3: 'geopolymer paste can vary between 306 and 385'",
+    "nota": "Residuo de solo lavado (filter cake, Scott Bros) activado alcalinamente. Familia geopolimero correcta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3038,
+  "pares": [
+   {
+    "sheet_row": 815,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: 'Steel bar, steel wire t 2670.00' em linha propria; placas PCC calculadas somando betao e armadura em separado",
+    "co2_so_betao": 250,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (p.5): 'C20 concrete m3 250'",
+    "nota": "Valor gravado JA e so o betao (factor de emissao por m3 de catalogo chines). Nao e ensaio proprio."
+   },
+   {
+    "sheet_row": 816,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: 'Steel bar, steel wire t 2670.00' em linha propria; placas PCC calculadas somando betao e armadura em separado",
+    "co2_so_betao": 267.7,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (p.5): 'C25 concrete m3 267.7'",
+    "nota": "Valor gravado JA e so o betao (factor de emissao por m3 de catalogo chines). Nao e ensaio proprio."
+   },
+   {
+    "sheet_row": 817,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: 'Steel bar, steel wire t 2670.00' em linha propria; placas PCC calculadas somando betao e armadura em separado",
+    "co2_so_betao": 287.7,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (p.5): 'C30 concrete m3 287.7'",
+    "nota": "Valor gravado JA e so o betao (factor de emissao por m3 de catalogo chines). Nao e ensaio proprio."
+   },
+   {
+    "sheet_row": 818,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: 'Steel bar, steel wire t 2670.00' em linha propria; placas PCC calculadas somando betao e armadura em separado",
+    "co2_so_betao": 307.7,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (p.5): 'C35 concrete m3 307.7'",
+    "nota": "Valor gravado JA e so o betao (factor de emissao por m3 de catalogo chines). Nao e ensaio proprio."
+   },
+   {
+    "sheet_row": 819,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: 'Steel bar, steel wire t 2670.00' em linha propria; placas PCC calculadas somando betao e armadura em separado",
+    "co2_so_betao": 327.7,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (p.5): 'C40 concrete m3 327.7'",
+    "nota": "Valor gravado JA e so o betao (factor de emissao por m3 de catalogo chines). Nao e ensaio proprio."
+   },
+   {
+    "sheet_row": 820,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: 'Steel bar, steel wire t 2670.00' em linha propria; placas PCC calculadas somando betao e armadura em separado",
+    "co2_so_betao": 367.7,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (p.5): 'C50 concrete m3 367.7'",
+    "nota": "Valor gravado JA e so o betao (factor de emissao por m3 de catalogo chines). Nao e ensaio proprio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Factores de catalogo (GB/T 51366); classes C20-C50 sem traco."
+ },
+ {
+  "row_id": 3053,
+  "pares": [
+   {
+    "sheet_row": 821,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.1b: 'Delivery and mounting of reinforcement steel ... 4240 kg' para 53 m3 de C30/37; Fig.5b (renderizada): barra 'Concrete/WPM system' ~450 = cimento ~325 + 'Steel' ~125",
+    "co2_so_betao": 334.9,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "p.7: '3000kg and 2500 kg compared to 450 kg CO2 eq.'; Tab.4: Cement 17.222, Sand 88, Gravel 241, Water 2, Plasticizer 195, Steel rebars 6.700 kg CO2 (53 m3)",
+    "nota": "CORRIGIR: o valor gravado 450 INCLUI a malha de armadura (6700/53 = 126 kg/m3). Na verdade e 'separavel': so o betao (producao dos constituintes, Tab.4) = (17222+88+241+2+195)/53 = 334,9 kg CO2-eq/m3; com transporte dos constituintes do betao (134+250+285+438+1)/53 = 20,9 -> ~355,8. Classifico 'sim' para o valor gravado tal como esta; co2_so_betao = 334,9 (producao) e reconstruivel com dados do artigo. Familia actual 'uhpc' esta ERRADA para este par: e o betao convencional C30/37 comparador (ou opc, ou concreto_armado se se mantiver os 450)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fig.5 renderizada a 150 dpi (p.7) para confirmar a composicao da barra de 450."
+ },
+ {
+  "row_id": 3055,
+  "pares": [
+   {
+    "sheet_row": 260,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 100-0-0 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Controlo 100% OPC (familia actual scm; seria opc se os controlos forem separados)."
+   },
+   {
+    "sheet_row": 261,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 85-0-15 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "So filer calcario (nao residuo)."
+   },
+   {
+    "sheet_row": 262,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 75-0-25 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "So filer calcario (nao residuo)."
+   },
+   {
+    "sheet_row": 263,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 70-30-0 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   },
+   {
+    "sheet_row": 264,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 50-50-0 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   },
+   {
+    "sheet_row": 265,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 55-30-15 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   },
+   {
+    "sheet_row": 266,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 45-40-15 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   },
+   {
+    "sheet_row": 267,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 35-50-15 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   },
+   {
+    "sheet_row": 268,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 25-60-15 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   },
+   {
+    "sheet_row": 269,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 55-20-25 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   },
+   {
+    "sheet_row": 270,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 45-30-25 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   },
+   {
+    "sheet_row": 271,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 35-40-25 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   },
+   {
+    "sheet_row": 272,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira GreenConcrete: 'ends at the gate of the concrete plant'; UF = 1 m3 de betao pronto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.11 linha 25-50-25 (CO2-eq kg/m3); Tab.9 28 d",
+    "nota": "Cinza volante classe F (subproduto) +/- filer calcario."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Valores gravados = Tab.11 (a Fig.9 mostra valores 3-6 kg mais baixos em varias misturas, ex. 409 vs 412; Tab.11 e a fonte tabular, manter)."
+ },
+ {
+  "row_id": 3061,
+  "pares": [
+   {
+    "sheet_row": 273,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 274,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 275,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 276,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 277,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 278,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 279,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 280,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 281,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 282,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 283,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   },
+   {
+    "sheet_row": 284,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 'production of 1 m3 of 3D printing material', cradle-to-gate",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.9: colunas ClCh (kg CO2-eq) e mR (MPa)",
+    "nota": "LC3: cimento GUbSF + argila calcinada (80% metacaulino, pozolana natural) + filer calcario; todas as misturas sao variantes optimizadas do LC3 de referencia (Tab.2), nenhuma com residuo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3066,
+  "pares": [
+   {
+    "sheet_row": 304,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassa (prismas 40x40x160), sem reforco",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.3.1.3: 'high 28-day fc ... between 73 MPa and 94 MPa'; Sec.3.3: 'on average 52 % lower than the value for the reference high performance CEM I mortar'",
+    "nota": "ERRO GRAVE PROVAVEL: segundo co2_original_local da propria linha, 553 e a reconstrucao do GWP da argamassa CEM I de REFERENCIA (Fig.9), enquanto o fck 94 MPa e o maximo das AAM (o artigo da GWP das AAM sem oleo ~147-327 e com oleo ainda menor). O par mistura o fck de uma AAM com o CO2 do CEM I. Nem Fig.5 nem Fig.9 tem rotulos; a Tab.A3 (apendice) nao esta no PDF extraido. Nao consegui renderizar a Fig.9 (PDF 6,5 MB; download_file_content falhou - armadilha n.8). Recomenda-se recorte pp.9-11 via shrink-drive-pdf.yml para ler Fig.5/Fig.9 por mistura. Para este par: tipo_ligante/papel descrevem a AAM; se o 553 for o CEM I, o par correcto seria portland/controlo com o fck da referencia (nao impresso)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (77 mil caracteres); figuras nao renderizadas."
+ },
+ {
+  "row_id": 3068,
+  "pares": [
+   {
+    "sheet_row": 285,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M1",
+    "nota": "100% OPC"
+   },
+   {
+    "sheet_row": 286,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M2",
+    "nota": "25% argila caulinitica calcinada de baixo grau (LKC) - NAO e cinza volante"
+   },
+   {
+    "sheet_row": 287,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M3",
+    "nota": "25% argila ilitica vermelha calcinada (RIC) - NAO e cinza de casca de arroz"
+   },
+   {
+    "sheet_row": 288,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M4",
+    "nota": "20% LF + 7,5% argila ilitica calcinada OIC"
+   },
+   {
+    "sheet_row": 289,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M5",
+    "nota": "idem M4"
+   },
+   {
+    "sheet_row": 290,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M6",
+    "nota": "idem M4"
+   },
+   {
+    "sheet_row": 291,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M7",
+    "nota": "12,4% LF + 12,6% pozolana natural"
+   },
+   {
+    "sheet_row": 292,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M8",
+    "nota": "idem M7"
+   },
+   {
+    "sheet_row": 293,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M9",
+    "nota": "idem M7"
+   },
+   {
+    "sheet_row": 294,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M10",
+    "nota": "6% LF + 22% GGBS"
+   },
+   {
+    "sheet_row": 295,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M11",
+    "nota": "11% LF + 11% GGBS"
+   },
+   {
+    "sheet_row": 296,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ECO2eq por m3 de betao (Tab.3), so materiais e transporte dos SCM; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 (fc 28 d) e Tab.3 (ECO2eq kg/m3) linha M12",
+    "nota": "20% GGBS"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Valores fck/CO2 conferem com Tab.1/Tab.3. ERRO na descricao do material das linhas 286 (M2) e 287 (M3): LKC = calcined low-grade kaolinitic clay, RIC = calcined red illitic clay (Sec. materiais); o artigo nao tem cinza volante nem casca de arroz."
+ }
+]

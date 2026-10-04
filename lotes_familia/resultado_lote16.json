@@ -1,0 +1,288 @@
+[
+ {
+  "row_id": 3242,
+  "pares": [
+   {
+    "sheet_row": 940,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU 1: \"1 m3 of concrete with an equivalent 28-day compressive strength in the range of 35-40 MPa ... 1 m3 of BBSHC and 1 m3 of conventional concrete\" (Sec.4.1); o aco so entra na 2.a UF (1 m3 de estrutura de betao armado, BBSHC-structure vs CC-structure)",
+    "co2_so_betao": 453.3,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "\"BBSHC has a 36.3% higher embodied carbon footprint, equivalent to an additional emission of 120 kg of CO2 eq\" (Sec.4.4.3); cimento CEM II/A-L",
+    "nota": "Agente de autorreparacao (esporos de B. cohnii em PCSGs revestidos de PVA + nitrato de calcio + extracto de levedura) adicionado a mistura; nao e residuo. Reconstrucao algebrica usa 36%; com os 36,3% do corpo do texto daria 120/0,363=330,6 -> BBSHC 450,6 (diferenca <1%). Fig.5(b) nao foi renderizada (o download do PDF falhou); o par da UF estrutural (-51,4 kg/m3) NAO e o gravado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (read_file_content, 100.910 car.). Fronteira cradle-to-gate; a UF com armadura e separada e nao e o par gravado."
+ },
+ {
+  "row_id": 3245,
+  "pares": [
+   {
+    "sheet_row": 941,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira: \"a comparison of the carbon emissions associated with fine aggregates (silica sand and REOS), including aggregates production process\" (Sec.3.1); sem armadura; 2% vol de fibras de aco dispersas em todas as series (Table 4)",
+    "co2_so_betao": 824.0,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "\"UHPC with REOS exhibited lower CO2 emissions, measuring 824 kg/m3 ... reference UHPC 862 kg/m3\" (Sec.4.1); fc 206,9 MPa (Conclusoes)",
+    "nota": "Escoria de aciaria electrica atomizada (REOS) substitui areia de silica. Fibras de aco dispersas (2% vol) nao sao armadura. Familia uhpc correcta. O controlo S_UHPC (862 kg/m3) nao esta neste lote."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (74.041 car.)."
+ },
+ {
+  "row_id": 3251,
+  "pares": [
+   {
+    "sheet_row": 945,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF \"1 cubic meter of recycled concrete at grade C35 for pavement\"; fronteira cradle-to-gate de materias-primas, transporte e producao do betao (Fig.2); nenhuma armadura/aco no inventario",
+    "co2_so_betao": 313.4,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3 \"Net GHG emission (kg)\": VC 313.4",
+    "nota": "Valor LIQUIDO: inclui o desconto da captura de CO2 por carbonatacao na mistura/cura e do RCA (25-30% e 5-20% das emissoes). Pavimento sem armadura. fck 35 = classe C35 (JGJ/T 443), igual para todos. VC e o betao virgem de referencia (familia \"reciclado\" so por ser o controlo do artigo)."
+   },
+   {
+    "sheet_row": 946,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF \"1 cubic meter of recycled concrete at grade C35 for pavement\"; fronteira cradle-to-gate de materias-primas, transporte e producao do betao (Fig.2); nenhuma armadura/aco no inventario",
+    "co2_so_betao": 295.6,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3 \"Net GHG emission (kg)\": RC25 295.6",
+    "nota": "Valor LIQUIDO: inclui o desconto da captura de CO2 por carbonatacao na mistura/cura e do RCA (25-30% e 5-20% das emissoes). Pavimento sem armadura. fck 35 = classe C35 (JGJ/T 443), igual para todos."
+   },
+   {
+    "sheet_row": 947,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF \"1 cubic meter of recycled concrete at grade C35 for pavement\"; fronteira cradle-to-gate de materias-primas, transporte e producao do betao (Fig.2); nenhuma armadura/aco no inventario",
+    "co2_so_betao": 279.4,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3 \"Net GHG emission (kg)\": RC50 279.4",
+    "nota": "Valor LIQUIDO: inclui o desconto da captura de CO2 por carbonatacao na mistura/cura e do RCA (25-30% e 5-20% das emissoes). Pavimento sem armadura. fck 35 = classe C35 (JGJ/T 443), igual para todos."
+   },
+   {
+    "sheet_row": 948,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF \"1 cubic meter of recycled concrete at grade C35 for pavement\"; fronteira cradle-to-gate de materias-primas, transporte e producao do betao (Fig.2); nenhuma armadura/aco no inventario",
+    "co2_so_betao": 263.5,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3 \"Net GHG emission (kg)\": RC75 263.5",
+    "nota": "Valor LIQUIDO: inclui o desconto da captura de CO2 por carbonatacao na mistura/cura e do RCA (25-30% e 5-20% das emissoes). Pavimento sem armadura. fck 35 = classe C35 (JGJ/T 443), igual para todos."
+   },
+   {
+    "sheet_row": 949,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF \"1 cubic meter of recycled concrete at grade C35 for pavement\"; fronteira cradle-to-gate de materias-primas, transporte e producao do betao (Fig.2); nenhuma armadura/aco no inventario",
+    "co2_so_betao": 245.5,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3 \"Net GHG emission (kg)\": RC100 245.5",
+    "nota": "Valor LIQUIDO: inclui o desconto da captura de CO2 por carbonatacao na mistura/cura e do RCA (25-30% e 5-20% das emissoes). Pavimento sem armadura. fck 35 = classe C35 (JGJ/T 443), igual para todos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (58.065 car.). Nota de comparabilidade: o CO2 publicado e liquido de carbonatacao (bruto nao isolado no texto; so via Figs.4-6)."
+ },
+ {
+  "row_id": 3255,
+  "pares": [
+   {
+    "sheet_row": 328,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF \"production of 1 m3 of concrete\"; CC = \"average LCI related to the production of 1 m3 of CC with a resistance class equal to 20 MPa\" do Ecoinvent (ready-mixed concrete); Table 9 sem aco",
+    "co2_so_betao": 328.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 9: CC = Portland cement 300, sand 744, gravel 1116, water 195; GWP 328 kg CO2 eq",
+    "nota": "FAMILIA ERRADA: o par e o betao convencional Portland (Ecoinvent) usado como comparador do betao geopolimerico -> deveria ser opc/portland, nao \"geopolimero\". fck 20 = classe do dataset Ecoinvent, nao ensaiada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (59.120 car.)."
+ },
+ {
+  "row_id": 3263,
+  "pares": [
+   {
+    "sheet_row": 950,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 5 da factores separados: \"Concrete C25/30 (kg CO2-eq/m3) A1-A3 291\" e \"Rebar steel (kg CO2-eq/kg) 0.89\"; Table 2 da quantidades separadas de betao (m3) e aco (t)",
+    "co2_so_betao": 291.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5, Approach 1, cenario PA (5% cinza volante): C25/30 A1-A3 = 291 kg CO2-eq/m3",
+    "nota": "O valor gravado JA e so do betao (factor de material). Estrutura de referencia em betao armado vs madeira. fck 30: texto diz \"concrete strength of approximately 30 MPa\" (classe C25/30 -> 30 e o valor de cubo)."
+   },
+   {
+    "sheet_row": 951,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 5: \"Concrete C35/45 (kg CO2-eq/m3) A1-A3 326\"; aco em linha propria (kg CO2-eq/kg)",
+    "co2_so_betao": 326.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5, Approach 1, PA: C35/45 A1-A3 = 326 kg CO2-eq/m3",
+    "nota": "Valor gravado JA e so do betao. fck 45 = \"average concrete strength ... estimated to be 45 MPa by the supplier\" (= valor de cubo de C35/45)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (52.759 car.). Familia opc aceitavel (factor so do betao), embora o sistema estudado seja betao armado."
+ },
+ {
+  "row_id": 3276,
+  "pares": [
+   {
+    "sheet_row": 331,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 3/4: RC inclui \"concrete, reinforced steel in bars; steel, saw timber and solvents in formwork\" + diesel/electricidade de construcao-demolicao, transporte e deposicao final; o betao sozinho tem factor proprio na Table 3: \"Concrete, normal, at plant m3 265.22\" kg CO2-Eq",
+    "co2_so_betao": 265.22,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5: RC GWP Total 9230.64 / GWP/m2 153.84 (1 nivel), media 153.24 kg eq-CO2/m2; Table 1: area de piso L1 = 60 m2",
+    "nota": "ERRO GRAVE: o 153,24 kg/m2 e por m2 de AREA DE PISO do edificio (9230,64/60 = 153,84; Table 1 \"Floor area\"), nao por m2 de parede -> dividir pela espessura 0,25 m (613,0) nao tem sentido. O valor gravado inclui aco, cofragem metalica, construcao/demolicao, transporte e fim de vida. So betao: 265,22 kg CO2-eq/m3 (Ecoinvent, Table 3). Alternativa por m3 de betao com tudo incluido: 9230,64/18,54 m3 (Table 4, 1 piso) = 497,9. FAMILIA ERRADA: \"uhpc\" -> e betao armado corrente de 25 MPa (opc/concreto_armado); o artigo nunca fala de UHPC."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (63.024 car.)."
+ },
+ {
+  "row_id": 3281,
+  "pares": [
+   {
+    "sheet_row": 332,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Inventario Table 2: cimento, cinza volante, agregados, areia, superplastificante, agua, electricidade e transporte; sem aco (UF \"1 m3 of concrete used over its service life\")",
+    "co2_so_betao": 345.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5 Global warming mean: FA0 345 kg CO2 e-; fc28 69/73/66 MPa (Table 3)",
+    "nota": "Armadura so aparece no modelo de vida util (recobrimento), nao no inventario."
+   },
+   {
+    "sheet_row": 333,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Inventario Table 2: cimento, cinza volante, agregados, areia, superplastificante, agua, electricidade e transporte; sem aco (UF \"1 m3 of concrete used over its service life\")",
+    "co2_so_betao": 269.0,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 5 Global warming mean: FA30 269.0 kg CO2 e-; fc28 69/73/66 MPa (Table 3)",
+    "nota": "Armadura so aparece no modelo de vida util (recobrimento), nao no inventario. FA30 e FA40 tem o mesmo CO2 (269) mas fck diferentes: nao e duplicado."
+   },
+   {
+    "sheet_row": 334,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Inventario Table 2: cimento, cinza volante, agregados, areia, superplastificante, agua, electricidade e transporte; sem aco (UF \"1 m3 of concrete used over its service life\")",
+    "co2_so_betao": 269.0,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 5 Global warming mean: FA40 269 kg CO2 e-; fc28 69/73/66 MPa (Table 3)",
+    "nota": "Armadura so aparece no modelo de vida util (recobrimento), nao no inventario. FA30 e FA40 tem o mesmo CO2 (269) mas fck diferentes: nao e duplicado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (65.265 car.). Incoerencia menor do artigo: Sec.3.2.x fala em \"413 kg CO2 e\" como total de FA40, contra 269 da Table 5; o gravado segue a Table 5."
+ },
+ {
+  "row_id": 3282,
+  "pares": [
+   {
+    "sheet_row": 335,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "\"... such as type and amount of reinforcement, were excluded from the LCA\" (Sec.2.2, pressupostos); declared unit 1 m3",
+    "co2_so_betao": 694.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "\"Maximum initial embodied carbon observed for 1 m3 of concrete was 694 kg CO2e for a high compressive strength (45 MPa) White cement concrete mixture with no SCM replacement\" (Sec.3.1.1)",
+    "nota": "Cimento branco, 0% SCM = referencia dentro da serie de cimento branco. fck 45 = classe de projecto (resistencias nao ensaiadas; artigo assume fc igual para todos)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (64.628 car.)."
+ },
+ {
+  "row_id": 3283,
+  "pares": [
+   {
+    "sheet_row": 336,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Table nota a: \"In situ reinforced concrete spec: RC25/30 + 110 kg/m3 reinforcement (p.41, Hammond and Jones [33])\" -> coeficiente 0,198 kgCO2e/kg aplicado a 2400 kg/m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela de calculo: \"RC columns and RC flat slab 600 m3 concrete 2400 ... 0.198 ... 285t (concrete)\"",
+    "nota": "Coeficiente ICE do betao armado com 110 kg/m3 de aco; o artigo nao da o factor do betao sem aco -> nao separavel com dados do proprio artigo. FAMILIA: devia ser concreto_armado (gravada opc)."
+   },
+   {
+    "sheet_row": 337,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "Nota c: \"Precast concrete spec: RC 40/50 (p.41, Hammond and Jones)\" - nao diz se inclui armadura; nota d: \"Hybrid precast + in situ figure taken as average of 1 and 3\" -> o 0,189 hibrido mistura o in situ COM 110 kg/m3 de aco e o pre-fabricado",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "\"400 m3 concrete 2400 960 0.189 181t (concrete)\"; 0,180 = 2x0,189-0,198 (reconstruido por nos)",
+    "nota": "O coeficiente do pre-fabricado (0,180) nao e impresso; foi reconstruido da media. Se a nota c for betao simples, o 432 e so betao; o artigo nao o diz. Como o hibrido real (0,189) inclui o in situ armado, o par deriva de um valor com aco."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (70.446 car.)."
+ },
+ {
+  "row_id": 3288,
+  "pares": [
+   {
+    "sheet_row": 342,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 2: \"Concrete 258.58 kg CO2-eq/m3\" e \"Rebar 3,562.60\" em linhas separadas; Table 3 da kg de varao e m3 de betao por m2 de laje",
+    "co2_so_betao": 258.58,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 2 CO2 emission factor: Concrete 258.58 kg CO2-eq/m3 [13] (EPD coreano); Table 1 fck 27 MPa",
+    "nota": "O valor gravado JA e so do betao (factor EPD). Laje RC vs CLT/TCC. Nota: factor generico de EPD nacional, nao calculado pelo estudo; o mesmo 258,58 serve o betao da TCC."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (curto, devolvido inline)."
+ }
+]

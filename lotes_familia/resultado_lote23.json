@@ -1,0 +1,622 @@
+[
+ {
+  "row_id": 3732,
+  "pares": [
+   {
+    "sheet_row": 1084,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3: control mortars 28 d = 38.2 (3.4) MPa; CO2 da Fig.3 (razao GHG/fck), ~543 kg/m3",
+    "nota": "CO2 do controlo lido de figura (14,20 x 38,2); coerente com 469,8 ~13,5% abaixo (15% de cimento substituido)"
+   },
+   {
+    "sheet_row": 1864,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: S-U-600 28 d = 37.1 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": "familia_atual 'opc' parece errada: cinza de palha de arroz a substituir 15% do cimento = scm (as linhas da cinza de casca, 1872-1879, ja estao em scm)"
+   },
+   {
+    "sheet_row": 1865,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: S-U-850 28 d = 29.6 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": "familia_atual 'opc' parece errada: cinza de palha de arroz a substituir 15% do cimento = scm (as linhas da cinza de casca, 1872-1879, ja estao em scm)"
+   },
+   {
+    "sheet_row": 1866,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: S-U-1100 28 d = 31.6 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": "familia_atual 'opc' parece errada: cinza de palha de arroz a substituir 15% do cimento = scm (as linhas da cinza de casca, 1872-1879, ja estao em scm)"
+   },
+   {
+    "sheet_row": 1867,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: S-W-600 28 d = 28.3 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": "familia_atual 'opc' parece errada: cinza de palha de arroz a substituir 15% do cimento = scm (as linhas da cinza de casca, 1872-1879, ja estao em scm)"
+   },
+   {
+    "sheet_row": 1868,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: S-W-850 28 d = 27.0 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": "familia_atual 'opc' parece errada: cinza de palha de arroz a substituir 15% do cimento = scm (as linhas da cinza de casca, 1872-1879, ja estao em scm)"
+   },
+   {
+    "sheet_row": 1869,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: S-W-1100 28 d = 25.9 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": "familia_atual 'opc' parece errada: cinza de palha de arroz a substituir 15% do cimento = scm (as linhas da cinza de casca, 1872-1879, ja estao em scm)"
+   },
+   {
+    "sheet_row": 1870,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: S-A-600 28 d = 22.2 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": "familia_atual 'opc' parece errada: cinza de palha de arroz a substituir 15% do cimento = scm (as linhas da cinza de casca, 1872-1879, ja estao em scm)"
+   },
+   {
+    "sheet_row": 1871,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: S-A-850 28 d = 31.4 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": "familia_atual 'opc' parece errada: cinza de palha de arroz a substituir 15% do cimento = scm (as linhas da cinza de casca, 1872-1879, ja estao em scm)"
+   },
+   {
+    "sheet_row": 1872,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: H-U-600 28 d = 34.2 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1873,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: H-U-850 28 d = 27.2 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1874,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: H-U-1100 28 d = 29.2 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1875,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: H-W-600 28 d = 31.4 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1876,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: H-W-850 28 d = 27.7 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1877,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: H-W-1100 28 d = 23.5 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1878,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: H-A-600 28 d = 34.5 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1879,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Table 1: fronteira = biomassa, cinza, transporte e producao da argamassa por m3; nenhum aco ou armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: H-A-850 28 d = 27.7 MPa; texto: 'bioash-cement mortars ... hyperbolic in the compressive strength (y = 469.8/x)'",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Argamassas de laboratorio, ACV cradle-to-gate por m3 de argamassa (impactos antes da queima alocados a electricidade; cinza so com transporte). Todos os fck conferem com a Table 3. Todas as argamassas com cinza tem o mesmo CO2 (469,8) por construcao do artigo, nao e duplicacao."
+ },
+ {
+  "row_id": 3752,
+  "pares": [
+   {
+    "sheet_row": 1087,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Table 4/Table 7: LCA por 1 kg de material (PC, RHA, PC+15%RHA); concreto sem armadura; nenhum aco no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 GWP PC = 895 kg CO2 eq/t; Table 7 100% PC = 411 kg/m3; Fig.1a fck medio n=5",
+    "nota": "CO2 so do ligante (agregados e agua fora); fck lido de grafico"
+   },
+   {
+    "sheet_row": 1088,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Table 4/Table 7: LCA por 1 kg de material (PC, RHA, PC+15%RHA); concreto sem armadura; nenhum aco no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 GWP PC+15%RHA = 762 kg CO2 eq/t; Table 7 349 PC + 61,6 RHA kg/m3",
+    "nota": "RHA = cinza de casca de arroz de central de biomassa (subproduto). CO2 so do ligante"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo curto lido na integra. Valores de CO2 gravados sao so do ligante (cimento/RHA), sem agregados."
+ },
+ {
+  "row_id": 3758,
+  "pares": [
+   {
+    "sheet_row": 493,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 5: CO2 por 1 m3 de betao = OPC+MK+NS+FA+CA+agua+SP; sem aco; 'steel' so aparece em discussao de corrosao e referencias",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5: Total CC 365.87",
+    "nota": "familia_atual 'scm' parece errada para o controlo 100% OPC (deveria ser opc)"
+   },
+   {
+    "sheet_row": 494,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 5: CO2 por 1 m3 de betao = OPC+MK+NS+FA+CA+agua+SP; sem aco; 'steel' so aparece em discussao de corrosao e referencias",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 5: Total M1 366.14 (NS 1% em adicao)",
+    "nota": "nano-silica em adicao (nao substitui cimento)"
+   },
+   {
+    "sheet_row": 495,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 5: CO2 por 1 m3 de betao = OPC+MK+NS+FA+CA+agua+SP; sem aco; 'steel' so aparece em discussao de corrosao e referencias",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 5: Total M2 366.40",
+    "nota": "nano-silica em adicao"
+   },
+   {
+    "sheet_row": 496,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 5: CO2 por 1 m3 de betao = OPC+MK+NS+FA+CA+agua+SP; sem aco; 'steel' so aparece em discussao de corrosao e referencias",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 5: Total M3 366.67",
+    "nota": "nano-silica em adicao"
+   },
+   {
+    "sheet_row": 497,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 5: CO2 por 1 m3 de betao = OPC+MK+NS+FA+CA+agua+SP; sem aco; 'steel' so aparece em discussao de corrosao e referencias",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 5: Total M4 356.35",
+    "nota": "metacaulino (argila calcinada), nao e residuo"
+   },
+   {
+    "sheet_row": 498,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 5: CO2 por 1 m3 de betao = OPC+MK+NS+FA+CA+agua+SP; sem aco; 'steel' so aparece em discussao de corrosao e referencias",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 5: Total M5 340.41; texto: 36.08 -> 41.02 MPa aos 28 d com 12,5% MK",
+    "nota": ""
+   },
+   {
+    "sheet_row": 499,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 5: CO2 por 1 m3 de betao = OPC+MK+NS+FA+CA+agua+SP; sem aco; 'steel' so aparece em discussao de corrosao e referencias",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 5: Total M6 330; 33.64 MPa",
+    "nota": ""
+   },
+   {
+    "sheet_row": 500,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 5: CO2 por 1 m3 de betao = OPC+MK+NS+FA+CA+agua+SP; sem aco; 'steel' so aparece em discussao de corrosao e referencias",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 5: Total M7 341.11; 36.08 -> 49.02 MPa",
+    "nota": "MK 12,5% + NS 2%"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Totais da Table 5 conferem com os gravados. A linha NS da Table 5 parece desalinhada (M1=0, M4=9,3e-3), irrelevante para o total (factor 8,4e-4). Nano-silica tratada como material sintetico (nao residuo)."
+ },
+ {
+  "row_id": 3777,
+  "pares": [
+   {
+    "sheet_row": 501,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1: inventario da ponte lista separadamente betoes C20-C50 (factor por m3) e aco (HRB400, HPB300, malha, chapas...) a 2050 kg CO2/t; o gravado e o factor do betao sozinho",
+    "co2_so_betao": 228.76,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: C20 Cement Concrete 228.7602",
+    "nota": "Gravado JA e so o betao (factor por m3); o aco da ponte esta noutras linhas do inventario. fck = classe nominal. Table 1 imprime 'kg CO2/kg' para C20-C40 por gralha (valores sao por m3)."
+   },
+   {
+    "sheet_row": 502,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1: inventario da ponte lista separadamente betoes C20-C50 (factor por m3) e aco (HRB400, HPB300, malha, chapas...) a 2050 kg CO2/t; o gravado e o factor do betao sozinho",
+    "co2_so_betao": 250.76,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: C25 Cement-based Concrete 250.7553",
+    "nota": "Gravado JA e so o betao (factor por m3); o aco da ponte esta noutras linhas do inventario. fck = classe nominal. Table 1 imprime 'kg CO2/kg' para C20-C40 por gralha (valores sao por m3)."
+   },
+   {
+    "sheet_row": 503,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1: inventario da ponte lista separadamente betoes C20-C50 (factor por m3) e aco (HRB400, HPB300, malha, chapas...) a 2050 kg CO2/t; o gravado e o factor do betao sozinho",
+    "co2_so_betao": 280.03,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: C30 Concrete 280.0253",
+    "nota": "Gravado JA e so o betao (factor por m3); o aco da ponte esta noutras linhas do inventario. fck = classe nominal. Table 1 imprime 'kg CO2/kg' para C20-C40 por gralha (valores sao por m3)."
+   },
+   {
+    "sheet_row": 504,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1: inventario da ponte lista separadamente betoes C20-C50 (factor por m3) e aco (HRB400, HPB300, malha, chapas...) a 2050 kg CO2/t; o gravado e o factor do betao sozinho",
+    "co2_so_betao": 280.07,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: C40 Concrete 280.0742",
+    "nota": "Gravado JA e so o betao (factor por m3); o aco da ponte esta noutras linhas do inventario. fck = classe nominal. Table 1 imprime 'kg CO2/kg' para C20-C40 por gralha (valores sao por m3). C40 (280,07) quase igual a C30 (280,03): valor impresso, suspeito mas nao corrigivel."
+   },
+   {
+    "sheet_row": 505,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1: inventario da ponte lista separadamente betoes C20-C50 (factor por m3) e aco (HRB400, HPB300, malha, chapas...) a 2050 kg CO2/t; o gravado e o factor do betao sozinho",
+    "co2_so_betao": 371.66,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: C50 Concrete 371.6600 kg CO2/m3 (C50 PP fibre 371.6612)",
+    "nota": "Gravado JA e so o betao (factor por m3); o aco da ponte esta noutras linhas do inventario. fck = classe nominal. Table 1 imprime 'kg CO2/kg' para C20-C40 por gralha (valores sao por m3)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Ponte mista aco-betao; o CO2 por m3 de betao vem de factores de emissao (sem fonte de dosagem); familia opc adequada (nao concreto_armado, porque o valor gravado nao tem aco)."
+ },
+ {
+  "row_id": 3786,
+  "pares": [
+   {
+    "sheet_row": 1090,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1/Fig.2: GHG por 1 m3 de argamassa (cimento, GBS, NP, areia, activadores, batching, cura); sem armadura; 'steel' so na origem da GBS",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3: Mix 1 cond.1 24.18 MPa",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1091,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1/Fig.2: GHG por 1 m3 de argamassa (cimento, GBS, NP, areia, activadores, batching, cura); sem armadura; 'steel' so na origem da GBS",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: Mix 2 cond.1 30.69 MPa (33% GBS)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1092,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1/Fig.2: GHG por 1 m3 de argamassa (cimento, GBS, NP, areia, activadores, batching, cura); sem armadura; 'steel' so na origem da GBS",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 3: Mix 3 cond.1 23.41 MPa (33% pozolana natural)",
+    "nota": "pozolana natural (Nevada Cement Co.), nao residuo"
+   },
+   {
+    "sheet_row": 1093,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1/Fig.2: GHG por 1 m3 de argamassa (cimento, GBS, NP, areia, activadores, batching, cura); sem armadura; 'steel' so na origem da GBS",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: Mix 5 cond.1 20.56 MPa; GBS+NP 1:1, Na2CO3 (texto: 'low emissions from the production of Na2CO3 ... Mixture 5')",
+    "nota": "GBS = subproduto; NP natural"
+   },
+   {
+    "sheet_row": 2013,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1/Fig.2: GHG por 1 m3 de argamassa (cimento, GBS, NP, areia, activadores, batching, cura); sem armadura; 'steel' so na origem da GBS",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3: Mix 1 cond.2 26.81 MPa",
+    "nota": "familia_atual 'geopolimero' ERRADA: argamassa 100% PC (deveria ser opc)"
+   },
+   {
+    "sheet_row": 2014,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1/Fig.2: GHG por 1 m3 de argamassa (cimento, GBS, NP, areia, activadores, batching, cura); sem armadura; 'steel' so na origem da GBS",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3: Mix 2 cond.2 26.41 MPa",
+    "nota": "familia_atual 'geopolimero' ERRADA: PC+33% GBS (deveria ser scm)"
+   },
+   {
+    "sheet_row": 2015,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1/Fig.2: GHG por 1 m3 de argamassa (cimento, GBS, NP, areia, activadores, batching, cura); sem armadura; 'steel' so na origem da GBS",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 3: Mix 3 cond.2 21.54 MPa",
+    "nota": "familia_atual 'geopolimero' ERRADA: PC+33% pozolana natural (deveria ser scm)"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fck conferem com a Table 3. CO2 lido da Fig.2 (sem rotulos) - nao verificado por pixel nesta ronda."
+ },
+ {
+  "row_id": 3802,
+  "pares": [
+   {
+    "sheet_row": 1096,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.10/11 e tabelas LCIA: fronteira cradle-to-gate de 1 m2 de pavimento de blocos (25 blocos, 60 mm); materias-primas, transporte, fabrico, aterro da CWP; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "LCIA cenario 1 W22-R: Climate change 28.2969 kg CO2 eq (por m2)",
+    "nota": "familia_atual 'scm' parece errada para o controlo 0% CWP (deveria ser opc). Total inclui +0,0329 do aterro da CWP"
+   },
+   {
+    "sheet_row": 1097,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.10/11 e tabelas LCIA: fronteira cradle-to-gate de 1 m2 de pavimento de blocos (25 blocos, 60 mm); materias-primas, transporte, fabrico, aterro da CWP; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "LCIA cenario 2 W22-T20: 22.8042 kg CO2 eq (por m2)",
+    "nota": "CWP = residuo ceramico; total inclui credito -0,0329 do aterro evitado"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Conversao m2 -> m3 por espessura 0,06 m confere (bloco 200x200x60)."
+ },
+ {
+  "row_id": 3817,
+  "pares": [
+   {
+    "sheet_row": 1102,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 4: EPD A1-A3 separadas - Concrete 388 kg CO2/m3 (Svensk Betong); Steel rebar 0.37/0.839/1.23 kg CO2/kg; steel fibre 0.703 kg CO2/kg; vigas de bordo RC tradicional e hibridas (SFRC)",
+    "co2_so_betao": 388.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: C40 fck 40 MPa; Table 4: Concrete 388 kg CO2/m3",
+    "nota": "Gravado JA e so o betao (EPD generica do betao); armadura e fibras de aco ficam fora do valor. fck = classe de projecto. Familia opc adequada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O par e o factor EPD do betao C40, comum a todas as alternativas (PL1/PL2/FRC1-4)."
+ },
+ {
+  "row_id": 3818,
+  "pares": [
+   {
+    "sheet_row": 1103,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 2: ECC sem armadura (self-reinforced, so fibra PE dispersa); Fig.2 fronteira = extracao de materias-primas por 1 m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 5 GWP IBA-ECC 660.40; fck 48.28 MPa citado de estudos anteriores [19]",
+    "nota": "IBA (cinza de fundo de incineracao) substitui 40% vol. da areia; binder OPC+FA+SF+GGBFS; fibra PE 17 kg. Familia 'reciclado' coerente"
+   },
+   {
+    "sheet_row": 1104,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 2: ECC sem armadura (self-reinforced, so fibra PE dispersa); Fig.2 fronteira = extracao de materias-primas por 1 m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 5 GWP CR-ECC 669.90; fck 42.27 MPa [21]",
+    "nota": "ERRO na descricao gravada: CR = crumb rubber (borracha de pneu granulada, 57 kg/m3), NAO 'chromium resin'. Substitui 40% vol. da areia. Familia 'reciclado' coerente"
+   },
+   {
+    "sheet_row": 1105,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 2: ECC sem armadura (self-reinforced, so fibra PE dispersa); Fig.2 fronteira = extracao de materias-primas por 1 m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 5 GWP LP-ECC 466.83; fck 131.0 MPa [43]",
+    "nota": "ERRO na descricao e na familia: LP = limestone powder (filer calcario, 360 kg/m3) a substituir 50% vol. do cimento, NAO lignina; familia 'biobase' errada -> scm. Fibra PE 20 kg. O artigo nao chama UHPC (131 MPa citado de [43])"
+   },
+   {
+    "sheet_row": 1106,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 2: RC com Steel rebar 710 kg/m3 (taxa 1,01%); texto: 'GWP of steel rebar in RC is 567.01 kg CO2 eq'; RC-0 = RC sem a parcela do aco = 318.13",
+    "co2_so_betao": 318.13,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5 GWP RC 885.13 kg CO2-eq/m3; fck RC 40.00 MPa",
+    "nota": "Gravado (885,13) AINDA INCLUI o aco; so betao = 318,13 (= 885,13 - 567,01), que ja esta gravado na linha 1107. Familia concreto_armado coerente com o valor gravado"
+   },
+   {
+    "sheet_row": 1107,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Texto: 'The contribution of steel rebars ... was removed ... denoted as RC-0'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5 GWP RC-0 318.13; fck 40 MPa",
+    "nota": "Mesmo betao que a 1106 (fck 40) sem o aco: o mesmo traco entra duas vezes no painel (1106 com aco, 1107 sem aco)"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fck dos ECC sao citados de estudos anteriores do mesmo grupo; o RC tem 40 MPa de referencia. Linhas 1106/1107 = mesmo traco RC; decidir se a 1106 sai (ou fica so na familia concreto_armado)."
+ }
+]

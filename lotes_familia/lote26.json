@@ -1,0 +1,284 @@
+[
+ {
+  "row_id": 3947,
+  "rotulo": "Amitani & Miller, 2024",
+  "titulo": "Varying aggregate sizes, plasticizers, and supplementary cementitious materials to efficiently use Portland clinker in concrete",
+  "pdf": "AMITANI, 2024.pdf",
+  "fileId": "10vX1xo8X533-6mKxCNADxBnmfeHhqheD",
+  "pares": [
+   {
+    "sheet_row": 1147,
+    "material": "Concreto 0% SCM (referencia so-PC), mistura de menor teor de cimento para 40 MPa (agregado de diametro maximo, ferramenta OpenConcrete)",
+    "fck": 40.0,
+    "co2_kg_m3": 242.0,
+    "co2_conversao": "255 kg/m3 x 0,949 = 242,0 (so fracao do cimento)",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1148,
+    "material": "Concreto 0% SCM (referencia so-PC), mistura de maior teor de cimento para 40 MPa (agregado de diametro minimo, ferramenta OpenConcrete)",
+    "fck": 40.0,
+    "co2_kg_m3": 391.0,
+    "co2_conversao": "412 kg/m3 x 0,949 = 391,0 (so fracao do cimento)",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 3958,
+  "rotulo": "Neimark et al., 2024",
+  "titulo": "Concrete Impacts: Blast Walls, Wartime Emissions, and the US Occupation of Iraq",
+  "pdf": "NEIMARK et al., 2024.pdf",
+  "fileId": "1wP7FGsJpQ7LU1fNE7exK3czxFrx-Di87",
+  "pares": [
+   {
+    "sheet_row": 1150,
+    "material": "Concreto M20 (muros de protecao balistica / T-walls / blast walls) - especificacao militar dos EUA, Bagda, Iraque (2003-2008)",
+    "fck": 20.0,
+    "co2_kg_m3": 408.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3992,
+  "rotulo": "Coral et al., 2025",
+  "titulo": "Cellular concrete: A viable low-carbon alternative for developing countries in seismic regions?",
+  "pdf": "CORAL et al., 2025 - suco.202400892.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 550,
+    "material": "Concreto celular leve reforcado (RCLC), edificio-arquetipo residencial de 7 pisos (Quito, Equador, regiao sismica)",
+    "fck": 20.3,
+    "co2_kg_m3": 221.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3993,
+  "rotulo": "Jiménez et al., 2018",
+  "titulo": "Carbon Footprint of Recycled Aggregate Concrete",
+  "pdf": "JIMENEZ, 2018.pdf",
+  "fileId": "10EX83dDcFvYlozWwQYlu70A87W_BBvUP",
+  "pares": [
+   {
+    "sheet_row": 1151,
+    "material": "Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,5, %R=0 (mistura de referência, sem RCA)",
+    "fck": 32.5,
+    "co2_kg_m3": 350.7,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1152,
+    "material": "Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,5, %R=25",
+    "fck": 31.6,
+    "co2_kg_m3": 349.9,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1153,
+    "material": "Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,5, %R=50",
+    "fck": 30.8,
+    "co2_kg_m3": 349.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1154,
+    "material": "Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,5, %R=75",
+    "fck": 29.8,
+    "co2_kg_m3": 348.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1155,
+    "material": "Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,5, %R=100 (substituição total do agregado graúdo por RCA)",
+    "fck": 29.8,
+    "co2_kg_m3": 347.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1156,
+    "material": "Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,7, %R=0 (mistura de referência, sem RCA)",
+    "fck": 23.7,
+    "co2_kg_m3": 264.7,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1157,
+    "material": "Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,7, %R=25",
+    "fck": 23.1,
+    "co2_kg_m3": 263.9,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1158,
+    "material": "Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,7, %R=50",
+    "fck": 22.5,
+    "co2_kg_m3": 263.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1159,
+    "material": "Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,7, %R=75",
+    "fck": 21.0,
+    "co2_kg_m3": 262.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 3995,
+  "rotulo": "Gursel & Ostertag, 2019",
+  "titulo": "Life-Cycle Assessment of High-Strength Concrete Mixtures with Copper Slag as Sand Replacement",
+  "pdf": "GURSEL, 2019.pdf",
+  "fileId": "1e1ORqqtGvG5R3BF2aaSFbxnUYb_JrGuN",
+  "pares": [
+   {
+    "sheet_row": 1160,
+    "material": "Concreto de alta resistência (Singapura) com substituição de areia natural por escória de cobre (CS), mistura Mix6 (0% areia natural / 100% CS), traços de Wu et al. 2010",
+    "fck": 104.0,
+    "co2_kg_m3": 774.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 4007,
+  "rotulo": "Mirdad et al., 2021",
+  "titulo": "Sustainability Design Considerations for Timber-Concrete Composite Floor Systems",
+  "pdf": "MIRDAD, 2021.pdf",
+  "fileId": "13LvGYTb3fLo4t6AcKYnNyY1QMLQo3Sch",
+  "pares": [
+   {
+    "sheet_row": 1161,
+    "material": "Concreto 35 MPa (assumido) em sistema misto madeira-concreto (TCC), CLT-315 + laje de concreto 100mm",
+    "fck": 35.0,
+    "co2_kg_m3": 472.0,
+    "co2_conversao": "47,2 kg/m2 / 0,10 m = 472 [REVISTO 2026-09-27: confirmado; 23,6/0,05 = 472 e 35,9/0,075 = 479 coerentes; inclui armadura minima -> familia concreto_armado]",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ },
+ {
+  "row_id": 4012,
+  "rotulo": "Li & Zhu, 2022",
+  "titulo": "Quantifying Carbon Emissions Generated by Monorail Transits: A Life Cycle Assessment Approach",
+  "pdf": "LI et al., 2022 - 2022_3872069.pdf",
+  "fileId": "1bezQAUdOdcL1HA6C4N1cSI7OAyQRaEoG",
+  "pares": [
+   {
+    "sheet_row": 1162,
+    "material": "betao C50 do troco Niujiaotuo-Daping (2,4 km) do monocarril 2 de Chongqing -- quantitativo real do projeto",
+    "fck": 50.0,
+    "co2_kg_m3": 510.94,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1880,
+    "material": "betao C20 do troco Niujiaotuo-Daping (2,4 km) do monocarril 2 de Chongqing -- quantitativo real do projeto",
+    "fck": 20.0,
+    "co2_kg_m3": 201.38,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1881,
+    "material": "betao C25 do troco Niujiaotuo-Daping (2,4 km) do monocarril 2 de Chongqing -- quantitativo real do projeto",
+    "fck": 25.0,
+    "co2_kg_m3": 250.54,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1882,
+    "material": "betao C30 do troco Niujiaotuo-Daping (2,4 km) do monocarril 2 de Chongqing -- quantitativo real do projeto",
+    "fck": 30.0,
+    "co2_kg_m3": 306.78,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1883,
+    "material": "betao C40 do troco Niujiaotuo-Daping (2,4 km) do monocarril 2 de Chongqing -- quantitativo real do projeto",
+    "fck": 40.0,
+    "co2_kg_m3": 391.03,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4026,
+  "rotulo": "Teh et al., 2018",
+  "titulo": "Mixed-unit hybrid life cycle assessment applied to the recycling of construction materials",
+  "pdf": "TEH et al., 2018 - s40008-018-0112-4.pdf",
+  "fileId": "113T6bMrKieUcatH-RPQF_1T0OucoBkWl",
+  "pares": [
+   {
+    "sheet_row": 1163,
+    "material": "Concreto OPC 50 MPa vs geopolimero (90% FA/10% GGBFS) 50 MPa -- caso de aplicacao do metodo MU-hLCA (mix design de Teh et al. 2017)",
+    "fck": 50.0,
+    "co2_kg_m3": 364.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 4027,
+  "rotulo": "Teh & Wiedmann, 2018",
+  "titulo": "Decomposition of integrated hybrid life cycle inventories by origin and final-stage inputs",
+  "pdf": "TEH, 2018i.pdf",
+  "fileId": "1zXOwY2nNj0WDw3QZrZR-gMCsslpZAEh9",
+  "pares": [
+   {
+    "sheet_row": 1164,
+    "material": "Concreto OPC 50 MPa vs geopolimero (90% FA/10% GGBFS) 50 MPa -- decomposicao de inventarios hibridos (mesmo caso de estudo do artigo companheiro, linha 4026)",
+    "fck": 50.0,
+    "co2_kg_m3": 517.0,
+    "co2_conversao": "nativo em kg CO2-eq/m3 (UF 1 m3, p.11); valor por leitura grafica do topo da barra (pixel: 600 a y=235, 0 a y=1016 a 170 dpi) - nao impresso em numero [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 2017,
+    "material": "Geopolimero 90% cinza volante/10% GGBFS 50 MPa com RCA, ativado com NaOH + Na2SiO3, hybrid LCA (Australia)",
+    "fck": 50.0,
+    "co2_kg_m3": 363.0,
+    "co2_conversao": "nativo em kg CO2-eq/m3; leitura grafica do topo da barra [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 4028,
+  "rotulo": "Lee et al., 2019",
+  "titulo": "Optimal Mixture Design of Low-CO2 High-Volume Slag Concrete Considering Climate Change and CO2 Uptake",
+  "pdf": "LEE et al., 2019 - s40069-019-0359-7.pdf",
+  "fileId": "1UnJs8JfSMHZlL0AWqY-GBitFmheWR1GJ",
+  "pares": [
+   {
+    "sheet_row": 1165,
+    "material": "Concreto HVS (alto teor de escoria) -- 8 misturas otimizadas por algoritmo genetico, Mix4",
+    "fck": 55.0,
+    "co2_kg_m3": 168.3,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ }
+]

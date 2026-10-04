@@ -1,0 +1,576 @@
+[
+ {
+  "row_id": 4689,
+  "pares": [
+   {
+    "sheet_row": 584,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Lancil (kerb) de betao simples: 'In the majority of cases, reinforcements are not used in the concrete kerb' (p.5); inventario da Fig.6 sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6 (tracos kg/m3, 25% cinza volante em todos) + Fig.6 (factores) + Fig.7 (11,57/3,25/11,28/5,49 kgCO2-e/m de lancil de 0,05 m3)",
+    "nota": "CC-25, agregado natural; 225 cimento + 75 CV. Valor gravado 231,4 = publicado (Fig.7, sem creditos para esta mistura). Nem o publicado nem a reconstrucao incluem E6 (betonagem/transporte 0,021 kg/kg), coerente entre misturas. Familia 'opc' aceitavel (CV 25% como em todas as misturas do artigo)."
+   },
+   {
+    "sheet_row": 585,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Lancil (kerb) de betao simples: 'In the majority of cases, reinforcements are not used in the concrete kerb' (p.5); inventario da Fig.6 sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 (tracos kg/m3, 25% cinza volante em todos) + Fig.6 (factores) + Fig.7 (11,57/3,25/11,28/5,49 kgCO2-e/m de lancil de 0,05 m3)",
+    "nota": "R100C-25, 100% RCA grosso. Gravado 222,4 = bruto reconstruido SEM os creditos ER1/ER2 (aterro evitado e material/energia recuperados); o publicado (3,25 kg/m -> 65,0 kg/m3) e liquido com creditos de carga evitada."
+   },
+   {
+    "sheet_row": 586,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Lancil (kerb) de betao simples: 'In the majority of cases, reinforcements are not used in the concrete kerb' (p.5); inventario da Fig.6 sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 (tracos kg/m3, 25% cinza volante em todos) + Fig.6 (factores) + Fig.7 (11,57/3,25/11,28/5,49 kgCO2-e/m de lancil de 0,05 m3)",
+    "nota": "CTr-c20-25, 20% TDA (agregado de pneu). Gravado 377,5 = bruto sem creditos (confere: 345x0,82+115x0,027+680x0,0408+900x0,0139+79x0,648 = 377,4); publicado 225,6 liquido com creditos ER2/ER3."
+   },
+   {
+    "sheet_row": 587,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Lancil (kerb) de betao simples: 'In the majority of cases, reinforcements are not used in the concrete kerb' (p.5); inventario da Fig.6 sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 (tracos kg/m3, 25% cinza volante em todos) + Fig.6 (factores) + Fig.7 (11,57/3,25/11,28/5,49 kgCO2-e/m de lancil de 0,05 m3)",
+    "nota": "RTr-c20-25, RCA + 20% TDA. Gravado 385,8 = bruto sem creditos; publicado 109,8 liquido com creditos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Revisao com seccao de ACV propria (Sec.5). Todas as misturas tem 25% de cinza volante no ligante (75/300). Creditos de carga evitada existem no artigo (ER1-ER3) mas os valores gravados sao os brutos reconstruidos - correcto. Lancil sem armadura."
+ },
+ {
+  "row_id": 4691,
+  "pares": [
+   {
+    "sheet_row": 1688,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sem armadura no sistema: UD = 1 m3 de mistura de betao (Sec.2.5.1). O aco so aparece como sucata recuperada no agregado reciclado (credito).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.7, Climate Change-total: NAC-II 3,54E2, RMAC-II 2,95E2, RCAC-II 2,59E2 kg CO2 eq/m3; Tab.1 cimento 300 kg/m3 nas tres",
+    "nota": "NAC-II, agregado natural (referencia). Familia actual 'reciclado' - e o controlo de agregado natural; noutros artigos o controlo fica 'opc' (ex.: 4689 CC-25). Fronteira inclui fim de vida (desconstrucao, transporte e deposicao em aterro), nao so A1-A3. Carbonatacao (EN 16757) e cenario alternativo, NAO descontado dos 354."
+   },
+   {
+    "sheet_row": 1689,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sem armadura no sistema: UD = 1 m3 de mistura de betao (Sec.2.5.1). O aco so aparece como sucata recuperada no agregado reciclado (credito).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.7, Climate Change-total: NAC-II 3,54E2, RMAC-II 2,95E2, RCAC-II 2,59E2 kg CO2 eq/m3; Tab.1 cimento 300 kg/m3 nas tres",
+    "nota": "RMAC-II, agregado reciclado de alvenaria 0/4. CO2 com CREDITOS: com o mesmo cimento (300 kg) desce 354->295; o texto atribui a diferenca ao 'beneficial impact of recycled aggregates' e a 'environmental credits ... connected to the recycling of iron scrap from construction and demolition waste' (Sec.3.6 e 4.7). Valor bruto sem credito nao e dado no artigo. Fronteira inclui EoL."
+   },
+   {
+    "sheet_row": 1690,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sem armadura no sistema: UD = 1 m3 de mistura de betao (Sec.2.5.1). O aco so aparece como sucata recuperada no agregado reciclado (credito).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.7, Climate Change-total: NAC-II 3,54E2, RMAC-II 2,95E2, RCAC-II 2,59E2 kg CO2 eq/m3; Tab.1 cimento 300 kg/m3 nas tres",
+    "nota": "RCAC-II, agregado reciclado de betao 0/4. CO2 com CREDITOS de sucata de aco recuperada ('higher amount of iron scrap ... from concrete structures with steel reinforcement'), 354->259 com o mesmo cimento; bruto nao recuperavel. Fronteira inclui EoL."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Os 3 pares sao classe C25/30 (fck de classe, nao medido). As diferencas de CO2 entre misturas com o mesmo cimento resultam sobretudo de creditos de reciclagem de sucata de ferro (carga evitada) atribuidos ao agregado reciclado - nao comparavel com A1-A3 sem creditos. Captura por carbonatacao (3,53 kg/cubo) apresentada a parte e nao descontada."
+ },
+ {
+  "row_id": 4696,
+  "pares": [
+   {
+    "sheet_row": 1691,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassa de laboratorio; fronteira cradle-to-gate de 1 m3 de GPM (Tab.4: cinza volante, areia, NaOH, silicato, agua, electricidade, transporte, diesel). Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.5: 'M25 (Heat-28 days) 55.00'; Fig.8 GWP; texto: GPM 72% menos GWP que CM",
+    "nota": "Geopolimero de cinza volante classe F, cura 80 C/24 h; fck 55 = M25 aos 28 d com cura a calor (Tab.5). Energia de cura no forno incluida. Familia 'geopolimero' correcta. Sem creditos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "So o par GPM esta no painel; a argamassa de cimento (CM) de referencia nao tem fck proprio impresso."
+ },
+ {
+  "row_id": 4698,
+  "pares": [
+   {
+    "sheet_row": 1692,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2 da o factor do betao corrente por classe so com cimento (0,87) + brita/areia (4,297 kgCO2/m3) + agua; o aco (varao) tem factor proprio e separado (Tab.4-6, 2,2-3,9 kgCO2/kg).",
+    "co2_so_betao": 280.66,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 'Carbon-emission coefficient of ordinary concrete': C20 234,637; C25 245,981; C30 280,661; C35 326,621; C40 363,032; C45 399,447 kgCO2/m3",
+    "nota": "Edificios de betao armado, mas o valor gravado JA e so o betao (factor C30 da Tab.2). Rotulo 'em edificio real' engana: e o mesmo factor de classe (traco de quota orcamental), nao uma mistura medida."
+   },
+   {
+    "sheet_row": 2072,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2 da o factor do betao corrente por classe so com cimento (0,87) + brita/areia (4,297 kgCO2/m3) + agua; o aco (varao) tem factor proprio e separado (Tab.4-6, 2,2-3,9 kgCO2/kg).",
+    "co2_so_betao": 234.64,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 'Carbon-emission coefficient of ordinary concrete': C20 234,637; C25 245,981; C30 280,661; C35 326,621; C40 363,032; C45 399,447 kgCO2/m3",
+    "nota": "Gravado ja so betao (C20)."
+   },
+   {
+    "sheet_row": 2073,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2 da o factor do betao corrente por classe so com cimento (0,87) + brita/areia (4,297 kgCO2/m3) + agua; o aco (varao) tem factor proprio e separado (Tab.4-6, 2,2-3,9 kgCO2/kg).",
+    "co2_so_betao": 245.98,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 'Carbon-emission coefficient of ordinary concrete': C20 234,637; C25 245,981; C30 280,661; C35 326,621; C40 363,032; C45 399,447 kgCO2/m3",
+    "nota": "Gravado ja so betao (C25)."
+   },
+   {
+    "sheet_row": 2074,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2 da o factor do betao corrente por classe so com cimento (0,87) + brita/areia (4,297 kgCO2/m3) + agua; o aco (varao) tem factor proprio e separado (Tab.4-6, 2,2-3,9 kgCO2/kg).",
+    "co2_so_betao": 326.62,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 'Carbon-emission coefficient of ordinary concrete': C20 234,637; C25 245,981; C30 280,661; C35 326,621; C40 363,032; C45 399,447 kgCO2/m3",
+    "nota": "Gravado ja so betao (C35)."
+   },
+   {
+    "sheet_row": 2075,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2 da o factor do betao corrente por classe so com cimento (0,87) + brita/areia (4,297 kgCO2/m3) + agua; o aco (varao) tem factor proprio e separado (Tab.4-6, 2,2-3,9 kgCO2/kg).",
+    "co2_so_betao": 363.03,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 'Carbon-emission coefficient of ordinary concrete': C20 234,637; C25 245,981; C30 280,661; C35 326,621; C40 363,032; C45 399,447 kgCO2/m3",
+    "nota": "Gravado ja so betao (C40)."
+   },
+   {
+    "sheet_row": 2076,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2 da o factor do betao corrente por classe so com cimento (0,87) + brita/areia (4,297 kgCO2/m3) + agua; o aco (varao) tem factor proprio e separado (Tab.4-6, 2,2-3,9 kgCO2/kg).",
+    "co2_so_betao": 399.45,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 'Carbon-emission coefficient of ordinary concrete': C20 234,637; C25 245,981; C30 280,661; C35 326,621; C40 363,032; C45 399,447 kgCO2/m3",
+    "nota": "Gravado ja so betao (C45)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Factores de classe do proprio artigo; o aco de armadura e contabilizado a parte no edificio (com taxas de recuperacao). fck = classe chinesa (cubo). Nenhum credito no factor do betao."
+ },
+ {
+  "row_id": 4705,
+  "pares": [
+   {
+    "sheet_row": 1694,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pilar 500x500 dimensionado so pela resistencia do betao (8400 kN = C30 x area); inventario (Fig.2/3) sem aco: cimento CEM II, agregados, agua, contraplacado de cofragem, electricidade de mistura e de cura, transporte. Aco so citado na discussao.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1: 60 C TC 28-day 35,3 MPa, 0,714 m3; texto: 'climate change ... can reach 0.0297 point/person/year in 60 C HC TC'; Tab.2 normalizacao 9950 kg CO2/pers/yr",
+    "nota": "FAMILIA ERRADA: actual 'uhpc', mas o par e o betao TRADICIONAL (TC, CEM II 42,5 N com filer calcario) curado a 60 C em banho - nao e UHPC (o UHPC do artigo tem 96-146 MPa). Deve ir para opc/portland. CO2 = 295,5 kg por pilar (IMPACT 2002+ endpoint x 9950) / 0,714 m3; inclui energia de cura, cofragem de contraplacado e transporte (cradle-to-site), nao so A1-A3. fck/mistura de fonte externa (Topcu & Toprak)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Unidade funcional = pilar com 8400 kN; pilar modelado so em betao, sem armadura."
+ },
+ {
+  "row_id": 4709,
+  "pares": [
+   {
+    "sheet_row": 1697,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira 'System boundary for 1 m3 self-healing concrete production' (Fig.5): cimento, agregados, agua, bacteria/caldo nutritivo, autoclave e incubadora. Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GWP (kg CO2 eq/m3): SHC456 439,56; SHC383 372,62; SHC403 390,88; SHC350 342,2; SHC450 433,9",
+    "nota": "Betao com Bacillus subtilis (bio-aditivo); familia 'opc' aceitavel."
+   },
+   {
+    "sheet_row": 1698,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira 'System boundary for 1 m3 self-healing concrete production' (Fig.5): cimento, agregados, agua, bacteria/caldo nutritivo, autoclave e incubadora. Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GWP (kg CO2 eq/m3): SHC456 439,56; SHC383 372,62; SHC403 390,88; SHC350 342,2; SHC450 433,9",
+    "nota": "idem"
+   },
+   {
+    "sheet_row": 1699,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira 'System boundary for 1 m3 self-healing concrete production' (Fig.5): cimento, agregados, agua, bacteria/caldo nutritivo, autoclave e incubadora. Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GWP (kg CO2 eq/m3): SHC456 439,56; SHC383 372,62; SHC403 390,88; SHC350 342,2; SHC450 433,9",
+    "nota": "idem"
+   },
+   {
+    "sheet_row": 1701,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira 'System boundary for 1 m3 self-healing concrete production' (Fig.5): cimento, agregados, agua, bacteria/caldo nutritivo, autoclave e incubadora. Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GWP (kg CO2 eq/m3): SHC456 439,56; SHC383 372,62; SHC403 390,88; SHC350 342,2; SHC450 433,9",
+    "nota": "idem"
+   },
+   {
+    "sheet_row": 1703,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira 'System boundary for 1 m3 self-healing concrete production' (Fig.5): cimento, agregados, agua, bacteria/caldo nutritivo, autoclave e incubadora. Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GWP (kg CO2 eq/m3): SHC456 439,56; SHC383 372,62; SHC403 390,88; SHC350 342,2; SHC450 433,9",
+    "nota": "idem"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Base compilada de Pei, Mondal e Schreiberova (fck externo); todos os pares sao SHC, nao ha controlo sem bacteria no painel. Ligante so cimento (sem SCM). Sem creditos."
+ },
+ {
+  "row_id": 4716,
+  "pares": [
+   {
+    "sheet_row": 1704,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pavimento de betao simples (PCC slab 190-205 mm sobre base granular); sem armadura nem passadores mencionados; factores da Tab.7 so materiais do betao.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (tracos), Tab.4 (fck 28 d cubo), Tab.7 (CO2 g/ton: agregados 21 884, cimento 362 695, mistura 37 099); po de rocha sem carga (p.11-12)",
+    "nota": "Estrategia A, betao convencional."
+   },
+   {
+    "sheet_row": 1705,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pavimento de betao simples (PCC slab 190-205 mm sobre base granular); sem armadura nem passadores mencionados; factores da Tab.7 so materiais do betao.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (tracos), Tab.4 (fck 28 d cubo), Tab.7 (CO2 g/ton: agregados 21 884, cimento 362 695, mistura 37 099); po de rocha sem carga (p.11-12)",
+    "nota": "B: 10% po de rocha (subproduto da britagem) na areia; po com carga zero (alocacao de corte, nao credito)."
+   },
+   {
+    "sheet_row": 1706,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pavimento de betao simples (PCC slab 190-205 mm sobre base granular); sem armadura nem passadores mencionados; factores da Tab.7 so materiais do betao.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (tracos), Tab.4 (fck 28 d cubo), Tab.7 (CO2 g/ton: agregados 21 884, cimento 362 695, mistura 37 099); po de rocha sem carga (p.11-12)",
+    "nota": "C: 20% po de rocha na areia."
+   },
+   {
+    "sheet_row": 1707,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pavimento de betao simples (PCC slab 190-205 mm sobre base granular); sem armadura nem passadores mencionados; factores da Tab.7 so materiais do betao.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (tracos), Tab.4 (fck 28 d cubo), Tab.7 (CO2 g/ton: agregados 21 884, cimento 362 695, mistura 37 099); po de rocha sem carga (p.11-12)",
+    "nota": "D: 10% na areia + 5% do cimento por po de rocha (filer)."
+   },
+   {
+    "sheet_row": 1708,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pavimento de betao simples (PCC slab 190-205 mm sobre base granular); sem armadura nem passadores mencionados; factores da Tab.7 so materiais do betao.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (tracos), Tab.4 (fck 28 d cubo), Tab.7 (CO2 g/ton: agregados 21 884, cimento 362 695, mistura 37 099); po de rocha sem carga (p.11-12)",
+    "nota": "E: 10% areia + 10% cimento."
+   },
+   {
+    "sheet_row": 1709,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pavimento de betao simples (PCC slab 190-205 mm sobre base granular); sem armadura nem passadores mencionados; factores da Tab.7 so materiais do betao.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (tracos), Tab.4 (fck 28 d cubo), Tab.7 (CO2 g/ton: agregados 21 884, cimento 362 695, mistura 37 099); po de rocha sem carga (p.11-12)",
+    "nota": "F: 20% areia + 5% cimento."
+   },
+   {
+    "sheet_row": 1710,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pavimento de betao simples (PCC slab 190-205 mm sobre base granular); sem armadura nem passadores mencionados; factores da Tab.7 so materiais do betao.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3 (tracos), Tab.4 (fck 28 d cubo), Tab.7 (CO2 g/ton: agregados 21 884, cimento 362 695, mistura 37 099); po de rocha sem carga (p.11-12)",
+    "nota": "G: 20% areia + 10% cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos. Agua so impressa para A (155); a massa 2438 kg usada para o factor de mistura confere para D (332,5+70,8+479,7+1400+155). Familia 'opc' aceitavel; o po de rocha e filer, nao SCM reactivo."
+ },
+ {
+  "row_id": 4724,
+  "pares": [
+   {
+    "sheet_row": 1711,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de betao com RFA; fronteira: materias-primas, transporte, fabrico, transporte a obra, construcao, demolicao (Fig.1). Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.3 / texto: 'total carbon emission ... 417.36 kg-CO2eq and 4.15 kg-CO2eq (sequestration) at 0% RFA ... 394.06 and 6.22 at 100%'",
+    "nota": "NAC1. Gravado 417,36 = emissao total SEM descontar a carbonatacao (4,15) - correcto. Fronteira cradle-to-grave (inclui construcao e demolicao), nao so A1-A3. Familia actual 'reciclado' para o controlo de agregado natural (inconsistente com 4689/4716 onde o controlo fica 'opc')."
+   },
+   {
+    "sheet_row": 1712,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de betao com RFA; fronteira: materias-primas, transporte, fabrico, transporte a obra, construcao, demolicao (Fig.1). Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3 / texto: 'total carbon emission ... 417.36 kg-CO2eq and 4.15 kg-CO2eq (sequestration) at 0% RFA ... 394.06 and 6.22 at 100%'",
+    "nota": "RAC1-5, 100% RFA; 394,06 sem carbonatacao (6,22). Alocacao economica do agregado reciclado; sem creditos de aterro evitado (os autores dizem que fica para trabalho futuro)."
+   },
+   {
+    "sheet_row": 2077,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de betao com RFA; fronteira: materias-primas, transporte, fabrico, transporte a obra, construcao, demolicao (Fig.1). Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3 / texto: 'total carbon emission ... 417.36 kg-CO2eq and 4.15 kg-CO2eq (sequestration) at 0% RFA ... 394.06 and 6.22 at 100%'",
+    "nota": "RAC1-1, 20% RFA."
+   },
+   {
+    "sheet_row": 2078,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de betao com RFA; fronteira: materias-primas, transporte, fabrico, transporte a obra, construcao, demolicao (Fig.1). Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3 / texto: 'total carbon emission ... 417.36 kg-CO2eq and 4.15 kg-CO2eq (sequestration) at 0% RFA ... 394.06 and 6.22 at 100%'",
+    "nota": "RAC1-2, 40% RFA."
+   },
+   {
+    "sheet_row": 2079,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de betao com RFA; fronteira: materias-primas, transporte, fabrico, transporte a obra, construcao, demolicao (Fig.1). Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3 / texto: 'total carbon emission ... 417.36 kg-CO2eq and 4.15 kg-CO2eq (sequestration) at 0% RFA ... 394.06 and 6.22 at 100%'",
+    "nota": "RAC1-3, 60% RFA."
+   },
+   {
+    "sheet_row": 2080,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de betao com RFA; fronteira: materias-primas, transporte, fabrico, transporte a obra, construcao, demolicao (Fig.1). Sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3 / texto: 'total carbon emission ... 417.36 kg-CO2eq and 4.15 kg-CO2eq (sequestration) at 0% RFA ... 394.06 and 6.22 at 100%'",
+    "nota": "RAC1-4, 80% RFA."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fck = resistencia cubica aos 28 d da ref.[37]. Carbonatacao calculada mas NAO subtraida nos valores gravados. Nenhum credito de carga evitada."
+ },
+ {
+  "row_id": 4731,
+  "pares": [
+   {
+    "sheet_row": 1715,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Betao em massa, UF 1 m3 cradle-to-gate; sem armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6 SIclimate change (kg CO2/(m3.MPa)) x fc 28 d (Fig.4); Tab.1 tracos; Sec.2.2.1 creditos por expansao do sistema",
+    "nota": "MB-1, CEM II/B-M (LL-V) 320 kg + agregado natural. CO2 reconstruido de SI arredondado a 1 decimal (erro ate ~+/-1 kg/(m3.MPa) x 0,05 -> +/-2%). Familia actual 'scm' (CEM II com CV/calcario) - aceitavel mas e o controlo."
+   },
+   {
+    "sheet_row": 1716,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Betao em massa, UF 1 m3 cradle-to-gate; sem armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 SIclimate change (kg CO2/(m3.MPa)) x fc 28 d (Fig.4); Tab.1 tracos; Sec.2.2.1 creditos por expansao do sistema",
+    "nota": "MB-2, CEM III/B (66-80% escoria de alto-forno) 320 kg + agregado natural. CO2 reconstruido de SI arredondado a 1 decimal (erro ate ~+/-1 kg/(m3.MPa) x 0,05 -> +/-2%). Sem creditos."
+   },
+   {
+    "sheet_row": 1717,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Betao em massa, UF 1 m3 cradle-to-gate; sem armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6 SIclimate change (kg CO2/(m3.MPa)) x fc 28 d (Fig.4); Tab.1 tracos; Sec.2.2.1 creditos por expansao do sistema",
+    "nota": "MB-3, CEM II 350 kg + agregado natural. CO2 reconstruido de SI arredondado a 1 decimal (erro ate ~+/-1 kg/(m3.MPa) x 0,05 -> +/-2%)."
+   },
+   {
+    "sheet_row": 1718,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Betao em massa, UF 1 m3 cradle-to-gate; sem armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 SIclimate change (kg CO2/(m3.MPa)) x fc 28 d (Fig.4); Tab.1 tracos; Sec.2.2.1 creditos por expansao do sistema",
+    "nota": "MB-4, CEM III 350 kg + agregado natural. CO2 reconstruido de SI arredondado a 1 decimal (erro ate ~+/-1 kg/(m3.MPa) x 0,05 -> +/-2%)."
+   },
+   {
+    "sheet_row": 1719,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Betao em massa, UF 1 m3 cradle-to-gate; sem armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 SIclimate change (kg CO2/(m3.MPa)) x fc 28 d (Fig.4); Tab.1 tracos; Sec.2.2.1 creditos por expansao do sistema",
+    "nota": "MB-5, CEM II 320 + 55% agregado de escoria EAF. CO2 COM CREDITOS de carga evitada (producao de gusa evitada pela recuperacao de metal da escoria + aterro evitado), descontados no total ('the avoided impact being subtracted from the total', Sec.2.2.1); a reducao vs MB-1..4 deve-se 'mainly' a estes creditos (Sec.3.3.4). Valor bruto nao e impresso (Fig.6 so em % empilhadas). CO2 reconstruido de SI arredondado a 1 decimal (erro ate ~+/-1 kg/(m3.MPa) x 0,05 -> +/-2%). Familia actual 'scm' parece errada: o material distintivo e agregado (escoria de aciaria), nao SCM."
+   },
+   {
+    "sheet_row": 1720,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Betao em massa, UF 1 m3 cradle-to-gate; sem armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 SIclimate change (kg CO2/(m3.MPa)) x fc 28 d (Fig.4); Tab.1 tracos; Sec.2.2.1 creditos por expansao do sistema",
+    "nota": "MB-6, CEM III 320 + escoria EAF. CO2 COM CREDITOS de carga evitada (producao de gusa evitada pela recuperacao de metal da escoria + aterro evitado), descontados no total ('the avoided impact being subtracted from the total', Sec.2.2.1); a reducao vs MB-1..4 deve-se 'mainly' a estes creditos (Sec.3.3.4). Valor bruto nao e impresso (Fig.6 so em % empilhadas). CO2 reconstruido de SI arredondado a 1 decimal (erro ate ~+/-1 kg/(m3.MPa) x 0,05 -> +/-2%)."
+   },
+   {
+    "sheet_row": 1721,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Betao em massa, UF 1 m3 cradle-to-gate; sem armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 SIclimate change (kg CO2/(m3.MPa)) x fc 28 d (Fig.4); Tab.1 tracos; Sec.2.2.1 creditos por expansao do sistema",
+    "nota": "MB-7, CEM II 350 + escoria EAF. CO2 COM CREDITOS de carga evitada (producao de gusa evitada pela recuperacao de metal da escoria + aterro evitado), descontados no total ('the avoided impact being subtracted from the total', Sec.2.2.1); a reducao vs MB-1..4 deve-se 'mainly' a estes creditos (Sec.3.3.4). Valor bruto nao e impresso (Fig.6 so em % empilhadas). CO2 reconstruido de SI arredondado a 1 decimal (erro ate ~+/-1 kg/(m3.MPa) x 0,05 -> +/-2%). Familia 'scm' parece errada (agregado)."
+   },
+   {
+    "sheet_row": 1722,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Betao em massa, UF 1 m3 cradle-to-gate; sem armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 SIclimate change (kg CO2/(m3.MPa)) x fc 28 d (Fig.4); Tab.1 tracos; Sec.2.2.1 creditos por expansao do sistema",
+    "nota": "MB-8, CEM III 350 + escoria EAF. CO2 COM CREDITOS de carga evitada (producao de gusa evitada pela recuperacao de metal da escoria + aterro evitado), descontados no total ('the avoided impact being subtracted from the total', Sec.2.2.1); a reducao vs MB-1..4 deve-se 'mainly' a estes creditos (Sec.3.3.4). Valor bruto nao e impresso (Fig.6 so em % empilhadas). CO2 reconstruido de SI arredondado a 1 decimal (erro ate ~+/-1 kg/(m3.MPa) x 0,05 -> +/-2%)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fig.6 renderizada (pp.11-12): so contribuicoes percentuais, sem escala absoluta - o bruto de MB-5..8 nao e recuperavel. LCI completo no material suplementar (nao consultado)."
+ },
+ {
+  "row_id": 4749,
+  "pares": [
+   {
+    "sheet_row": 1735,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Aduela de betao armado: 'The amount of concrete used in each ring ... is 52 m3 per ring, the amount of reinforcement is 8907.87 kg ... The CO2 emissions factors of C60 and steel reinforcement are 447.4 kg CO2/m3 and 2.3 t CO2/t' (Sec.3.2.2)",
+    "co2_so_betao": 447.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.3.2.2, p.8",
+    "nota": "Valor gravado 447,4 JA e so o betao C60 (factor separado do aco). Factor sem traco nem fonte declarada no artigo; ligante assumido Portland (nao especificado). Familia 'opc' aceitavel; o elemento e betao armado mas o CO2 gravado nao inclui armadura, por isso nao deve ir para 'concreto_armado'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de emissoes do tunel; so o factor do betao C60 e usado."
+ }
+]

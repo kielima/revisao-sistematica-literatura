@@ -1,0 +1,276 @@
+[
+ {
+  "row_id": 2580,
+  "pares": [
+   {
+    "sheet_row": 78,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira gate-to-gate de 1 m3 de betao (Fig.14, Tab.6: materiais, transporte, energia); sem armadura no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'1 m3 of concrete was considered as the functional unit... Fig. 14 represents the system boundaries adopted for performing Gate to Gate LCA of optimized CBA concrete and control mix'",
+    "nota": "Controlo 100% OPC (395 kg cimento/m3), sem CBA. A familia 'reciclado' nao se aplica a este par: e o controlo Portland puro -> familia esperada 'opc'."
+   },
+   {
+    "sheet_row": 79,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Mesmo inventario da Tab.6 (1 m3 de betao); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'The 21.51% GCBA as PC replacement curtailed the cement content to 310 Kg per m3 from 395 Kg per m3'",
+    "nota": "Cinza de fundo de carvao (CBA) com papel duplo: moida (GCBA, 21,51%) a substituir cimento e bruta (CBA, 29,82%) a substituir areia natural. O papel dominante para o CO2 e a substituicao do ligante; familia 'reciclado' discutivel (subproduto como SCM -> 'scm' seria mais coerente; o agregado secundario e tambem CBA)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (77.831 car.). Armadura so referida no contexto de corrosao por carbonatacao."
+ },
+ {
+  "row_id": 2586,
+  "pares": [
+   {
+    "sheet_row": 4,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "O valor e so o GWP da brita (2/8 + 8/16) de 1 m3 de C30/37; nao inclui cimento nem a armadura de carbono do CRC",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'Offsetting the mass of gravel required per m3 of common used concrete C30/37 with the GWP of 1 kg of gravel results in a gravel-derived GWP of 30.6 kg CO2e per m3' ; com 45% de agregado reciclado: 23.7 kg CO2e",
+    "nota": "ALERTA: o co2_kg_m3=30,6 NAO e o CO2 do betao, e apenas o GWP derivado da brita natural (1.092 kg x 0,028 kg CO2e/kg) do betao C30/37 da TBS. O artigo nao da o CO2 total do betao por m3 em lado nenhum; a ACV principal (CRC, fim de vida) usa FU = 1 kg de material reutilizavel. 30,6 e a versao SEM agregado reciclado (referencia); a versao com 45% de agregado reciclado e 23,7. Par incomparavel com os restantes pares de kg CO2/m3 de betao -> recomenda-se rever/excluir. Familia 'reciclado' tambem nao bate com o par gravado (referencia de brita natural)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (83.106 car.). O sistema estudado e betao armado com carbono (CRC) mas o par gravado e so do agregado."
+ },
+ {
+  "row_id": 2599,
+  "pares": [
+   {
+    "sheet_row": 613,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU = 1 m3 de argamassa, inventario so de materiais (Tab.1) + transporte + mistura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'A total of 684.6 kg of CO2 was released to produce 1 m3 of mortar with 100% CEM' (Tab.2)",
+    "nota": "Argamassa de referencia 100% CEM I (670 kg/m3, ligante:areia 1:2). Familia 'opc' correcta. E argamassa, nao betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (10 pp.)."
+ },
+ {
+  "row_id": 2606,
+  "pares": [
+   {
+    "sheet_row": 5,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "0,162 kg CO2e/kg = GWP da Fase B (mistura do betao CFA: 75,6 kg / 465 kg), Tab.5/Tab.11; o varao de 8 mm (9 kg) esta na Fase D (18,6 kg CO2e), separado",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'GWP of the individual CFA-based concrete and LW mix were evaluated and resulted to be 75.6 kgCO2 eq. and 565 kgCO2 eq.... per unit weight... 0.162 kgCO2e/kg'; 'Various characterization tests have proved its applicability as fine aggregate and was partially replaced'",
+    "nota": "A cinza co-queimada (CFA) entra como AGREGADO FINO (Tab.1/Tab.5: areia 108,48 + CFA 27,12 kg), nao como ligante: o betao CFA so tem cimento como ligante (sem cinza volante; a cinza volante e do LW mix). Familia actual 'scm' parece errada -> 'reciclado'/agregado. O 0,162 inclui energia de mistura e transporte dos materiais da Fase B. Elemento final e pilar/viga armado, mas a armadura foi contabilizada na Fase D, fora do valor gravado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (16 pp.)."
+ },
+ {
+  "row_id": 2608,
+  "pares": [
+   {
+    "sheet_row": 139,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "ACV compara RS-U-20 vs NS-U-20 (UHPC sem fibras); LCI da Tab.13 so tem OPC, silica fume, po de quartzo, agua, areia",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "'first set—comparison between RS-U-20 vs. NS-U-20'; Table 13 LCI: OPC, silica fume, quartz powder, water, natural sand, recycled sand",
+    "nota": "Areia reciclada de betao (RS) a 100% em substituicao da areia natural britada. As misturas da ACV sao UHPC sem fibras (as UHPFRC com fibras de aco nao entram na ACV). Valor de CO2 lido em figura (Fig.16, radar). Familia 'uhpc' correcta."
+   },
+   {
+    "sheet_row": 140,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem: NS-U-20 sem fibras, sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "'two reference concretes which used natural crushed sand, NS'",
+    "nota": "Referencia UHPC com areia natural. Familia 'uhpc' correcta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (63.309 car.). Nao encontrei 1100/1170 no texto: os valores vem da figura 16 (radar), nao verificados por render nesta ronda."
+ },
+ {
+  "row_id": 2611,
+  "pares": [
+   {
+    "sheet_row": 88,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "FU = 1 m3 de betao C30/C40/C50 (Sec.3.1, Fig.3/4); Eq.(5) so tem cimento, agregados, carbonatacao, transporte",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 14: OPC A 364.185; Table 2 OPC-A cement 350 kg/m3",
+    "nota": "Traco OPC compilado de Farhan et al. (2019). Familia 'opc' correcta. Valor gravado vem da Tab.14 (ambiente acido sulfurico, 1 ciclo para OPC)."
+   },
+   {
+    "sheet_row": 90,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem, Eq.(4) para GPC: precursor, NaOH, Na2SiO3, cura, transporte; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 14 'Average life cycle CO2-E in the sulfuric acid environment': GGBS-A 1 19.944; 'geopolymer concrete can serve 18 cycles if 50 years are taken as a period in a sulfuric acid environment... Its average CO2-E in a cycle is shown in Table 14'",
+    "nota": "ALERTA GRAVE (fora das 4 perguntas): o 19,944 da Tab.14 e o CO2 de GPC dividido por 18 ciclos de 50 anos (durabilidade em acido sulfurico, Gourley 2005), enquanto o OPC conta 1 ciclo. Nao e o CO2 de produzir 1 m3 de GGBS-A1 (que seria ~19,944 x 18 = ~359 kg/m3; o texto diz que o GGBS so fica 20-39% abaixo do OPC nos grupos B2 e C, 'little difference or up to 37% increase' nos restantes; valor real na Fig.8, so em figura). O par gravado subestima ~18x o CO2. Familia 'geopolimero' correcta."
+   },
+   {
+    "sheet_row": 91,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem OPC",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 14: OPC B 351.496",
+    "nota": "Traco OPC-B de Turner & Collins (2013). Familia 'opc' correcta."
+   },
+   {
+    "sheet_row": 94,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem OPC",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 14: OPC C 375.088",
+    "nota": "Traco OPC-C de Li et al. (2021). Familia 'opc' correcta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (106.747 car.). Artigo compila tracos da literatura (Tab.2/4). O par GGBS-A (linha 90) usa um valor amortizado por 18 ciclos de vida - rever."
+ },
+ {
+  "row_id": 2624,
+  "pares": [
+   {
+    "sheet_row": 115,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "'just concrete and CLT materials are considered, and steel for connectors is disregarded'; a malha electrossoldada B450C so entra no CUSTO (Tab.4), nao no GWP (Tab.3)",
+    "co2_so_betao": 478.3,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3: GWP (kg CO2 eq.) Concrete C30/37 478.3 (reference volume 1 m3); 'In the final cost of concrete C30/37, the cost of electro-welded steel mesh... is included'",
+    "nota": "Camada de betao C30/37 de laje mista madeira-betao (TCC), Athena IE4B. O GWP de 478,3 e por m3 de betao; o artigo nao diz que inclui a malha (so o custo a inclui). Valor alto para C30/37 (Athena, ciclo de vida do software), mas o artigo declara so betao. Familia 'opc' correcta. Papel: nao ha mistura distintiva (o objecto do estudo e o sistema TCC)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (63.047 car.). Ligeira incerteza: Athena IE4B pode modelar o betao com armadura por defeito, mas o artigo declara que so betao e CLT sao considerados."
+ },
+ {
+  "row_id": 2641,
+  "pares": [
+   {
+    "sheet_row": 629,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.2: 'Selected typical values from Boverket's climate database for products, inclusive of reinforcement'; nao ha valor so do betao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'Table 2... Selected typical values from Boverket's climate database for products, inclusive of reinforcement'; Table 5 Totals A1-5 = 132825 kg CO2e; 'The total concrete volume is 253 m3'",
+    "nota": "Paineis/lajes pre-fabricados de betao armado (1967, Helsingborg); factores Boverket 0,156-0,198 kg CO2e/kg incluem armadura e nao sao decompostos. Familia actual 'opc' parece errada -> 'concreto_armado'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (10 pp.)."
+ },
+ {
+  "row_id": 2650,
+  "pares": [
+   {
+    "sheet_row": 630,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Mesmos datasets Boverket (External wall panels 0,183; Solid interior wall panel 0,156; Solid floor structure 0,183; 'Precast reinforced concrete, other' 0,198 kg CO2e/kg) que o artigo-irmao 2641 declara 'inclusive of reinforcement'; aqui os paineis sao de betao armado (Sec.3.4.1/4.1 rebar assessment) e o artigo nao separa a armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 2 (datasets Boverket, 734,06 m3); Table 5 Totals 385957,9 kg CO2e; '4.1. Rebar assessment. The precast walls featured reinforcement on their edges'",
+    "nota": "Neste artigo nao ha a frase explicita 'inclusive of reinforcement', mas os factores sao os mesmos datasets Boverket de elementos pre-fabricados armados que o 2641 (mesmos autores) declara incluir armadura. Familia actual 'opc' parece errada -> 'concreto_armado'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (117.905 car.)."
+ },
+ {
+  "row_id": 2653,
+  "pares": [
+   {
+    "sheet_row": 116,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Inventario Tab.3: SSS, areia, agua, energia, CO2 de cura; bloco sem ligante nem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "outro",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'Carbstone... treating slags with CO2 at elevated pressure and temperature, without the addition of binders'; '50% dried fine-grained stainless steel slags and 50% fine sand'; 'compressive strength of 43 MPa'",
+    "nota": "Ligante = escoria de aco inoxidavel carbonatada (CaCO3 formado por carbonatacao mineral), sem clinquer Portland nem activador alcalino -> tipo_ligante 'outro' (escoria carbonatada). Familia 'ligantes' coerente. Bloco de alvenaria (FU 50 blocos = 0,04 m3, 92 kg)."
+   },
+   {
+    "sheet_row": 117,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Inventario Tab.3: SSS, areia, agua, energia, CO2 de cura; bloco sem ligante nem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "outro",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'Carbstone... treating slags with CO2 at elevated pressure and temperature, without the addition of binders'; '50% dried fine-grained stainless steel slags and 50% fine sand'; 'compressive strength of 43 MPa'",
+    "nota": "Ligante = escoria de aco inoxidavel carbonatada (CaCO3 formado por carbonatacao mineral), sem clinquer Portland nem activador alcalino -> tipo_ligante 'outro' (escoria carbonatada). Familia 'ligantes' coerente. Bloco de alvenaria (FU 50 blocos = 0,04 m3, 92 kg)."
+   },
+   {
+    "sheet_row": 118,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Inventario Tab.3: SSS, areia, agua, energia, CO2 de cura; bloco sem ligante nem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "outro",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'Carbstone... treating slags with CO2 at elevated pressure and temperature, without the addition of binders'; '50% dried fine-grained stainless steel slags and 50% fine sand'; 'compressive strength of 43 MPa'",
+    "nota": "Ligante = escoria de aco inoxidavel carbonatada (CaCO3 formado por carbonatacao mineral), sem clinquer Portland nem activador alcalino -> tipo_ligante 'outro' (escoria carbonatada). Familia 'ligantes' coerente. Bloco de alvenaria (FU 50 blocos = 0,04 m3, 92 kg)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (66.341 car.). Os tres pares sao cenarios S1/S2/S3 de recuperacao de CO2 do mesmo bloco. Nota: o texto escreve 'FU 0.008m3' mas 50 blocos de 20x10x4 cm = 0,04 m3 e 92 kg/2300 = 0,04 m3 (o divisor 0,04 usado esta certo)."
+ }
+]

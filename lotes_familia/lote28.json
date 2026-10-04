@@ -1,0 +1,244 @@
+[
+ {
+  "row_id": 4098,
+  "rotulo": "Angelin et al., 2023",
+  "titulo": "Life cycle assessment application in the optimum design of reinforced concrete structures",
+  "pdf": "ANGELIN et al., 2023.pdf",
+  "fileId": "1NxPZKWVP6rRwQtWrMGVW0Os63NfGYE_U",
+  "pares": [
+   {
+    "sheet_row": 1188,
+    "material": "Concreto C25 (edificio residencial padrao 8 pavimentos, 2.078 m2, Pocos de Caldas-MG, Brasil)",
+    "fck": 25.0,
+    "co2_kg_m3": 224.6,
+    "co2_conversao": "105.874 kg / 471,4 m3 de concreto C25 = 224,6",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4099,
+  "rotulo": "Souza et al., 2024",
+  "titulo": "Ecoeficiencia de concretos autoadensaveis com residuo de louca sanitaria",
+  "pdf": "SOUZA et al., 2024.pdf",
+  "fileId": "1houainHr6A2_jnSr-rJXeEm0bxUkUVdY",
+  "pares": [
+   {
+    "sheet_row": 1194,
+    "material": "CAA de referencia (CAA_REF, 0% RLS) - 436 kg CP-V ARI/m3, w/c=239.36/436=0.55, cil. 100x200mm - Brasil",
+    "fck": 32.4,
+    "co2_kg_m3": 416.13,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4106,
+  "rotulo": "Bacelar et al., 2022",
+  "titulo": "Reduction of the environmental impacts of reinforced concrete columns by increasing the compressive strength: a life cycle approach",
+  "pdf": "BACELAR, 2022.pdf",
+  "fileId": "1t1Nfyw5pzCARXDTBr3cPeqIJsPz8kzlc",
+  "pares": [
+   {
+    "sheet_row": 1196,
+    "material": "Concreto armado C30 - pilar RC (edificio 15 andares, Belo Horizonte MG) - classe de projeto, cimento Portland (Ecoinvent RoW)",
+    "fck": 30.0,
+    "co2_kg_m3": 347.4,
+    "co2_conversao": "11,58 kg CO2eq/MPa x fck 30 MPa = 347,4",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1197,
+    "material": "Concreto armado C40 - pilar RC (edificio 15 andares, Belo Horizonte MG) - classe de projeto, cimento Portland (Ecoinvent RoW)",
+    "fck": 40.0,
+    "co2_kg_m3": 388.4,
+    "co2_conversao": "9,71 kg CO2eq/MPa x fck 40 MPa = 388,4",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1198,
+    "material": "Concreto armado C50 - pilar RC (edificio 15 andares, Belo Horizonte MG) - classe de projeto, cimento Portland (Ecoinvent RoW)",
+    "fck": 50.0,
+    "co2_kg_m3": 424.0,
+    "co2_conversao": "8,48 kg CO2eq/MPa x fck 50 MPa = 424,0 [REVISTO 2026-09-27: o 60 impresso na Tab.8 e gralha - a eficiencia do cimento na mesma linha (9,30 = 465/50) e a Fig.3/4 (C50 ~122% de C30 = 424/347,4) confirmam divisor 50; descartar o 508,8 da E2]",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4110,
+  "rotulo": "Arce et al., 2023",
+  "titulo": "Optimal design of ferronickel slag alkali-activated mortar for repair exposed to high thermal load",
+  "pdf": "ARCE et al., 2023.pdf",
+  "fileId": "131MBCZ0UAWYMADVaWMfPMabPg8fqqVAj",
+  "pares": [
+   {
+    "sheet_row": 1199,
+    "material": "Argamassa alkali-ativada de escoria de ferronickel (GFNS) optimizada - mortar de reparo",
+    "fck": 69.5,
+    "co2_kg_m3": 146.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 4138,
+  "rotulo": "Basavaraj et al., 2023",
+  "titulo": "Limestone-Calcined Clay (LC2) as a supplementary cementitious material for concrete",
+  "pdf": "BASAVARAJ et al., 2023.pdf",
+  "fileId": "1tsz2C4qw2eYq3krM0VagystztjCFiIdR",
+  "pares": [
+   {
+    "sheet_row": 1200,
+    "material": "Concreto com LC2 (limestone calcined clay, 45% substituicao de clinquer) -- mix de maior binder content (450 kg/m3, w/b<=0.45), IIT Madras, India",
+    "fck": 40.0,
+    "co2_kg_m3": 370.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 4142,
+  "rotulo": "Sinoh et al., 2021",
+  "titulo": "LIFE CYCLE ASSESSMENT OF PALM OIL CLINKER AS A BINDER AND AGGREGATE REPLACEMENT IN CONCRETE",
+  "pdf": "SINOH et al., 2021.pdf",
+  "fileId": "1BDcyTvKbU18wzuMOpJPk97nDf7H3Ri7X",
+  "pares": [
+   {
+    "sheet_row": 1201,
+    "material": "Argamassa controlo (M-0, 0% POC) -- Malasia",
+    "fck": 70.0,
+    "co2_kg_m3": 569.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1202,
+    "material": "Argamassa com POC (palm oil clinker) substituindo 100% do ligante (M-40) -- Malasia",
+    "fck": 70.0,
+    "co2_kg_m3": 536.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1203,
+    "material": "Concreto controlo (C-0, 0% POC) -- Malasia",
+    "fck": 45.0,
+    "co2_kg_m3": 436.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1204,
+    "material": "Concreto com POC substituindo 100% do agregado grosso (C-100C) -- Malasia",
+    "fck": 45.0,
+    "co2_kg_m3": 432.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1205,
+    "material": "Concreto com POC substituindo 100% do agregado fino/areia (C-100F) -- Malasia",
+    "fck": 45.0,
+    "co2_kg_m3": 434.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 4144,
+  "rotulo": "Mercader Moyano et al., 2019",
+  "titulo": "ENVIRONMENTAL IMPACT ASSESMENT APPLYING INDICATORS EMBEDDED INTO A SOCIAL HOUSING BIM MODEL",
+  "pdf": "MERCADER MOYANO et al., 2019.pdf",
+  "fileId": "16FJryx8maX-Nup01s7u-DjiiOidgNpxR",
+  "pares": [
+   {
+    "sheet_row": 1206,
+    "material": "Betao em habitacao social (Andalucia, Espanha) -- indicadores ambientais (EE, CE/CO2, USW, CDW) integrados em modelo BIM",
+    "fck": 25.0,
+    "co2_kg_m3": 159.46,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4145,
+  "rotulo": "Restrepo-Ramirez et al., 2024",
+  "titulo": "OPTIMIZATION IN THE DESIGN OF CONCRETE MIXES FOR THE SUSTAINABILITY OF A SOUTH AMERICAN METROPOLITAN AREA BY IMPLEMENTING MATERIAL LIFE CYCLE ANALYSIS",
+  "pdf": "RESTREPO-RAMÍREZ et al., 2024.pdf",
+  "fileId": "17VYsyn9wnkjARXvC9N_S4U_62sUyXzxG",
+  "pares": [
+   {
+    "sheet_row": 1207,
+    "material": "Concreto convencional 21 MPa (nao aireado, assentamento 50mm) -- caso menos otimizado (referencia) do estudo ACI 211, Medellin, Colombia",
+    "fck": 21.0,
+    "co2_kg_m3": 288.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1208,
+    "material": "Concreto convencional 21 MPa otimizado (agregado graudo de maior dimensao, menor consumo de cimento) -- melhor caso do estudo ACI 211, Medellin, Colombia",
+    "fck": 21.0,
+    "co2_kg_m3": 243.7,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4160,
+  "rotulo": "Nasr et al., 2023",
+  "titulo": "Influence of mechanical activation on the behavior of green high-strength mortar including ceramic waste",
+  "pdf": "NASR et al., 2023 - msp-2023-0046.pdf",
+  "fileId": "1cFBgzxEmyoDIRJuk3HUa_FYjVSiCwq3t",
+  "pares": [
+   {
+    "sheet_row": 1210,
+    "material": "Argamassa de alta resistencia (HSM), mistura controlo 0% CWP (residuo de po de ceramica)",
+    "fck": 70.2,
+    "co2_kg_m3": 776.5,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1211,
+    "material": "Argamassa de alta resistencia (HSM) com 30% CWP (residuo de po de ceramica) moido 15 min -- GT15CWP30, melhor desempenho mecanico do estudo",
+    "fck": 71.7,
+    "co2_kg_m3": 637.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 4161,
+  "rotulo": "Li et al., 2020",
+  "titulo": "Environmental Assessment of Frost-resistant Concrete with Superabsorbent Polymers",
+  "pdf": "LI, 2020i - ncr-2020-0011.pdf",
+  "fileId": "1eN69sQdq6MBM6p3IUd0Z2ZffMU_UvmMD",
+  "pares": [
+   {
+    "sheet_row": 1212,
+    "material": "Concreto resistente a gelo com AEA (ar incorporado), w/c=0.38",
+    "fck": 41.5,
+    "co2_kg_m3": 414.0,
+    "co2_conversao": "10,34 / 0,025 m3 (Tabela 2) = 414 kg CO2e/m3 [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: fck calculado pela formula de Bolomey, nao ensaiado]",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1213,
+    "material": "Concreto resistente a gelo com SAP (polimero superabsorvente), w/c=0.38",
+    "fck": 47.7,
+    "co2_kg_m3": 435.0,
+    "co2_conversao": "9,56 / 0,022 m3 (Tabela 2) = 435 kg CO2e/m3 (430 com 1/45 m3 exacto) [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: fck calculado pela formula de Bolomey, nao ensaiado]",
+    "familia_atual": "opc"
+   }
+  ]
+ }
+]

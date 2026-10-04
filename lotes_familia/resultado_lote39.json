@@ -1,0 +1,468 @@
+[
+ {
+  "row_id": 4750,
+  "pares": [
+   {
+    "sheet_row": 1738,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Laje de pavimento industrial 20 cm, 500 m2: 'you need 100 m3 of concrete mix and approximately 2000 kg of steel fibers (Table 4)'; Table 4 (inventario 100 m3) lista so cimento, areia, basalto, agua e vidro - sem aco de armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 5: 'Global warming potential—CO2—eqv 33,509 kg' para a estrutura ao longo do ciclo de vida; W2 = 111,11 kg/m3 de vidro temperado; fc = 70,13 MPa (Table 11, cubos 100 mm).",
+    "nota": "Fibras de aco (~2000 kg) sao dispersas (nao armadura) e nem constam do inventario Table 4. O total 33.509 kg e do ciclo de vida completo (A1-C4, incl. reparacoes a cada 5 anos, transporte 100 km, demolicao), nao cradle-to-gate; dividir por 100 m3 da 335,09. O vidro e ADICAO (nao substitui agregado nem cimento: 'Glass in the form of an additive ... does not reduce the amount of cement or aggregate'); classifiquei 'agregado' por ser casco de vidro granular. Familia 'reciclado' plausivel."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF lido na integra (35 pp, texto completo)."
+ },
+ {
+  "row_id": 4753,
+  "pares": [
+   {
+    "sheet_row": 1740,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "GWP do painel inclui a grelha CFRP (8,5 kg) e 9,5 kg de fixacoes de aco inox; Fig.6: F2C1 'Reinforcement production 41%', 'Concrete production 42%', 'Stainless steel 8%', 'Transport total 6%', EoL concrete 2%.",
+    "co2_so_betao": 300.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 7: F2C1* (Best) total 411 kg CO2e (cradle-to-gate 382, uso 29, EoL 0,2), cenario 50% aterro/50% reciclagem; FU painel 4,0x3,6x0,04 m; C50/60 'average compressive strength of 58 N/mm2'.",
+    "nota": "Valor gravado (713,5) AINDA inclui a armadura CFRP, inox, transporte e EoL com credito de gravilha. So betao ~0,42x411=172,6 kg / 0,576 m3 = ~300 kg/m3 (leitura das percentagens da Fig.6, aproximado). CFRP e armadura (grelha), nao fibra dispersa -> nao deve ficar na familia 'opc' de betao simples; candidato a 'concreto_armado' (ou retirar). F2C1 usa a mistura C1 (CEM I 42.5, 300 kg/m3) da RWTH; o fck 58 e a media da classe C50/60 atribuida a todos os paineis CRC."
+   },
+   {
+    "sheet_row": 1741,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Fig.6: F1C3 'Reinforcement production 47%', 'Concrete production 39%', 'Stainless steel 7%', 'Transport total 5%', EoL concrete 2%.",
+    "co2_so_betao": 336.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 7: F1C3* (Worst) total 496 kg CO2e (cradle-to-gate 467, uso 29, EoL 0,2).",
+    "nota": "Valor gravado (861,1) inclui CFRP + inox + transporte + EoL. So betao ~0,39x496=193,4/0,576 = ~336 kg/m3 (aprox., Fig.6). C3 = processo GaBi 'DE: Concrete C50/60 (A1-A3)' (caixa negra). Mesma questao de familia que 1740."
+   },
+   {
+    "sheet_row": 1742,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "SRC: 'conventional (uncoated) steel reinforcement grade B500 ... mass of 150 kg' + inox 12,7 kg; Table 7 SRC 2.2: cradle-to-gate 733, uso 59, EoL -299,9 (credito de reciclagem do aco); Fig.6 SRC 2.2: 'Reinforcement prodution 68%', 'Concrete production 67%', 'EoL reinforcement -64%'.",
+    "co2_so_betao": 286.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 7: SRC 2.2* total 492 kg CO2e; painel 4,0x3,6x0,08 m, C35/45 (GaBi 'EU-28: Concrete C35/45 (Ready-mix)').",
+    "nota": "Valor gravado (427,1) INCLUI o aco B500 (2,2 kg CO2e/kg), inox, transporte e um CREDITO de carga evitada de -299,9 kg pela reciclagem do aco (modulo D). So betao ~0,67x492=329,6/1,152 = ~286 kg/m3 (aprox., Fig.6; as percentagens da Fig.6 somam ~90%). Familia deveria ser 'concreto_armado', nao 'opc'. fck 35 e caracteristico (C35/45) enquanto os CRC usam a media 58 - criterios diferentes no mesmo artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF lido na integra (20 pp). Os tres pares sao paineis de fachada (sistema) com armadura; nenhum e 'so betao'. Creditos: EoL com credito de gravilha (CRC) e credito de reciclagem do aco (SRC, -299,9 kg)."
+ },
+ {
+  "row_id": 4754,
+  "pares": [
+   {
+    "sheet_row": 1743,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "'the system boundaries include all concrete mix components (fly ash, blast furnace slag, Portland cement, coarse and fine aggregates, admixtures), steel reinforcing and plywood forms.'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 6: 'Beams 50% slag concrete (aerial) 12 kg CO2/yd3 15.8 kg CO2/m3'; FU '1 yd3 or 0.76 m3 for beams and columns'; cradle-to-grave, 60 anos, BEES 2.1.",
+    "nota": "ERRO GRAVE PROVAVEL: 15,8 kg CO2/m3 e fisicamente implausivel para betao com 182,6 kg/m3 de cimento Portland + 182,6 kg de escoria (so o clinquer daria ~150 kg/m3). A Fig.4 (vista) nao tem unidade no eixo (0-17,5), e o artigo converte essa escala diretamente para 'kg CO2/yd3'. Alem disso o valor inclui armadura e cofragem (BEES 'Beam 4K psi'). Recomendo marcar NAO CONVERTIDO/suspeito. Familia scm correta quanto ao ligante, mas o par e de elemento de betao armado."
+   },
+   {
+    "sheet_row": 1744,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Mesma fronteira: 'steel reinforcing and plywood forms' incluidos.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 6: 'Columns 50% slag concrete 15.3 [kg CO2/yd3] 20.1 [kg CO2/m3]'.",
+    "nota": "Mesmo problema de 1743 (valor implausivelmente baixo, unidade da Fig.5 nao verificavel). Mesmo traco (50% escoria) que 1743 com CO2 diferente -> a diferenca vem do elemento (armadura de pilar vs viga), o que confirma que o aco esta dentro do valor."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF lido na integra (14 pp) + pagina 8 renderizada (Fig.4 sem unidade no eixo y)."
+ },
+ {
+  "row_id": 4756,
+  "pares": [
+   {
+    "sheet_row": 590,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 da GWP por material separado: 'Steel B550 ... GWP 2.3 kg CO2-eq./kg' e 'Concrete C25/30 ... 0.0833 a (200 kg/m3)'.",
+    "co2_so_betao": 199.92,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Concrete C25/30 ... fck 25 ... ρ 2400 ... GWP 0.0833 a (200 kg/m3)' (valores de Kromoser 2021).",
+    "nota": "Fator do betao isolado (de Kromoser et al. 2021, nao calculado pelos autores). O rotulo do par ('subestrutura/fundacao, variante aco') nao tem apoio no artigo: a Table 1 so lista as duas classes usadas no dimensionamento. O proprio artigo imprime 200 kg/m3 (conversao gravada 199,92 coerente)."
+   },
+   {
+    "sheet_row": 591,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem; armaduras (aco, CFRP, GFRP, BFRP) com GWP proprio na Table 1.",
+    "co2_so_betao": 219.12,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Concrete C30/37 ... GWP 0.0913 a (220 kg/m3)'.",
+    "nota": "A Table 8 (LCCO2 tool) da para C30/37 B3 A1-A3 = 203,9 kg CO2-eq/m3, diferente dos 220 da Table 1 - inconsistencia interna do artigo. Rotulo 'superestrutura, variantes FRP' sem apoio explicito."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF lido na integra (texto completo, incl. apendices). Ambos os pares sao fatores genericos de literatura (Kromoser 2021), nao ACV propria da mistura."
+ },
+ {
+  "row_id": 4757,
+  "pares": [
+   {
+    "sheet_row": 592,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 lista 'C30 concrete kg/m3 321.30' como fator de material isolado; nao ha armadura no inventario.",
+    "co2_so_betao": 321.3,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1 'Emission factors of materials involved in Scenarios 2 and 3 [43]': 'C30 concrete kg/m3 321.30'.",
+    "nota": "Fator de emissao generico atribuido a IPCC 2006 [43] (que nao publica fatores de betao C30) - nao e ACV propria nem mistura especifica. Mesmo padrao da regra 3917 UNGUREANU (fator de biblioteca sem fonte primaria): candidato a rever em E2. papel 'outro' = fator generico de referencia."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF lido na integra (14 pp)."
+ },
+ {
+  "row_id": 4758,
+  "pares": [
+   {
+    "sheet_row": 1745,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 393.09,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C0-R) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Familia 'reciclado' errada para C0 (sem RCA): C0-R -> opc; C0-F/G/S -> scm."
+   },
+   {
+    "sheet_row": 1746,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 324.93,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C0-F) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Familia 'reciclado' errada para C0 (sem RCA): C0-R -> opc; C0-F/G/S -> scm."
+   },
+   {
+    "sheet_row": 1747,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 299.49,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C0-G) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Familia 'reciclado' errada para C0 (sem RCA): C0-R -> opc; C0-F/G/S -> scm."
+   },
+   {
+    "sheet_row": 1748,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 358.03,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C0-S) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. ERRO GRAVE: o valor gravado 493.89 usa a silica ativa com 3,4 kg CO2/kg; a Table 3 da 3,4x10^-3. Recalculado com os fatores da Table 3: 358.03 kg/m3 (diferenca -135,86). Familia 'reciclado' errada para C0 (sem RCA): C0-R -> opc; C0-F/G/S -> scm."
+   },
+   {
+    "sheet_row": 1749,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 369.73,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C50-R) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Inclui CREDITO de carbonatacao do RCA (-6,5e-3 kg CO2/kg FRCA/CRCA, 'CO2 uptake ... 10.8 kg per ton ... subtracted')."
+   },
+   {
+    "sheet_row": 1750,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 301.57,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C50-F) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Inclui CREDITO de carbonatacao do RCA (-6,5e-3 kg CO2/kg FRCA/CRCA, 'CO2 uptake ... 10.8 kg per ton ... subtracted'). Distingue-se da referencia por RCA E por SCM em simultaneo."
+   },
+   {
+    "sheet_row": 1751,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 276.13,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C50-G) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Inclui CREDITO de carbonatacao do RCA (-6,5e-3 kg CO2/kg FRCA/CRCA, 'CO2 uptake ... 10.8 kg per ton ... subtracted'). Distingue-se da referencia por RCA E por SCM em simultaneo."
+   },
+   {
+    "sheet_row": 1752,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 334.67,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C50-S) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Inclui CREDITO de carbonatacao do RCA (-6,5e-3 kg CO2/kg FRCA/CRCA, 'CO2 uptake ... 10.8 kg per ton ... subtracted'). ERRO GRAVE: o valor gravado 470.53 usa a silica ativa com 3,4 kg CO2/kg; a Table 3 da 3,4x10^-3. Recalculado com os fatores da Table 3: 334.67 kg/m3 (diferenca -135,86). Distingue-se da referencia por RCA E por SCM em simultaneo."
+   },
+   {
+    "sheet_row": 1753,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 346.38,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C100-R) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Inclui CREDITO de carbonatacao do RCA (-6,5e-3 kg CO2/kg FRCA/CRCA, 'CO2 uptake ... 10.8 kg per ton ... subtracted')."
+   },
+   {
+    "sheet_row": 1754,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 278.22,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C100-F) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Inclui CREDITO de carbonatacao do RCA (-6,5e-3 kg CO2/kg FRCA/CRCA, 'CO2 uptake ... 10.8 kg per ton ... subtracted'). Distingue-se da referencia por RCA E por SCM em simultaneo."
+   },
+   {
+    "sheet_row": 1755,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 252.78,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C100-G) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Inclui CREDITO de carbonatacao do RCA (-6,5e-3 kg CO2/kg FRCA/CRCA, 'CO2 uptake ... 10.8 kg per ton ... subtracted'). Distingue-se da referencia por RCA E por SCM em simultaneo."
+   },
+   {
+    "sheet_row": 1756,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (mistura de laboratorio teorica), sem armadura.",
+    "co2_so_betao": 311.31,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 1 (traco C100-S) + Table 3 (GWP por kg: OPC 0,88; FA 0,028; GGBFS 0,1; SF 3,4x10^-3; FNA 0,035; CNA 0,01; FRCA/CRCA -6,5x10^-3; producao 4,7/m3).",
+    "nota": "CO2 nao e publicado por mistura: e derivado por nos = soma(massas Table 1 x fatores Table 3) + 4,7 (producao), sem transporte; o rotulo 'nenhuma - publicado em kg CO2-eq/m3' esta errado. fck = valor estimado de revisao de literatura (Table 2, refs 19,48-62), nao ensaio proprio. Inclui CREDITO de carbonatacao do RCA (-6,5e-3 kg CO2/kg FRCA/CRCA, 'CO2 uptake ... 10.8 kg per ton ... subtracted'). ERRO GRAVE: o valor gravado 447.18 usa a silica ativa com 3,4 kg CO2/kg; a Table 3 da 3,4x10^-3. Recalculado com os fatores da Table 3: 311.31 kg/m3 (diferenca -135,86). Distingue-se da referencia por RCA E por SCM em simultaneo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF lido na integra (26 pp). Estudo de misturas hipoteticas com propriedades estimadas por revisao; CO2 por m3 nao impresso (so TRACI normalizado), reconstruido pelos fatores da Table 3. Verificado por calculo: FA, GGBFS e as misturas R batem com os gravados; as tres -S estao inflacionadas em +135,86."
+ },
+ {
+  "row_id": 4763,
+  "pares": [
+   {
+    "sheet_row": 1757,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3: 'components like BFS, chemical solutions, and mine waste, along with energy and water inputs'; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'geopolymer concrete generates between 205 and 240 kg CO2-e/m3 (Figure 12a)'; 'ZS20–60 °C exhibited ... an average value of 43 MPa after the same period'.",
+    "nota": "A atribuicao de 238 kg/m3 a ZS20-60 vem da Fig.12a, que nao consegui ver (PDF > 10 MB, download recusado); o texto so da a faixa 205-240. Ensaios em pasta (cilindros 50x100, sem agregados) enquanto a ACV fala de 'geopolymer concrete' por m3 - possivel discrepancia de escala. Residuo: zeolite de mina + escoria. Familia geopolimero correta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (23 pp). Figura 12a nao inspecionada visualmente (ficheiro > 10 MB; usar shrink-drive-pdf.yml se necessario)."
+ },
+ {
+  "row_id": 4766,
+  "pares": [
+   {
+    "sheet_row": 1758,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 da 'CO2 Emission (KgCO2/m3)' por tipo de betao; aco em Table 2 separado.",
+    "co2_so_betao": 305.81,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Slabs on Grade 5500 ... 305.81'.",
+    "nota": "Fator por m3 de betao (EPD NRMCA via Tally) - so betao; o aco (Table 2: rebar 1450+600 t, perfis 5400+2550 t) e contabilizado a parte. fck = resistencia nominal especificada (psi). DUPLICADO: 1758 e 1761 tem o mesmo par 37,9 MPa x 305,81 (mesma classe 5500 psi em elementos diferentes)."
+   },
+   {
+    "sheet_row": 1759,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 da 'CO2 Emission (KgCO2/m3)' por tipo de betao; aco em Table 2 separado.",
+    "co2_so_betao": 288.23,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Walls and Footings 5000 ... 288.23'.",
+    "nota": "Fator por m3 de betao (EPD NRMCA via Tally) - so betao; o aco (Table 2: rebar 1450+600 t, perfis 5400+2550 t) e contabilizado a parte. fck = resistencia nominal especificada (psi)."
+   },
+   {
+    "sheet_row": 1760,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 da 'CO2 Emission (KgCO2/m3)' por tipo de betao; aco em Table 2 separado.",
+    "co2_so_betao": 353.21,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Slabs on Steel Deck 5000 ... 353.21'.",
+    "nota": "Fator por m3 de betao (EPD NRMCA via Tally) - so betao; o aco (Table 2: rebar 1450+600 t, perfis 5400+2550 t) e contabilizado a parte. fck = resistencia nominal especificada (psi). O texto diz que as paredes estruturais tem betao leve 3000/4000 psi; nao e claro se o 'slab on steel deck' (353,21, mais alto que 288,23 da mesma classe 5000 psi) difere por betao leve ou por outra mistura."
+   },
+   {
+    "sheet_row": 1761,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 da 'CO2 Emission (KgCO2/m3)' por tipo de betao; aco em Table 2 separado.",
+    "co2_so_betao": 305.81,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Mild Reinforced Beams and Slabs 5500 ... 305.81'.",
+    "nota": "Fator por m3 de betao (EPD NRMCA via Tally) - so betao; o aco (Table 2: rebar 1450+600 t, perfis 5400+2550 t) e contabilizado a parte. fck = resistencia nominal especificada (psi). DUPLICADO: 1758 e 1761 tem o mesmo par 37,9 MPa x 305,81 (mesma classe 5500 psi em elementos diferentes)."
+   },
+   {
+    "sheet_row": 1762,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 da 'CO2 Emission (KgCO2/m3)' por tipo de betao; aco em Table 2 separado.",
+    "co2_so_betao": 344.04,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Columns 10000 ... 344.04'.",
+    "nota": "Fator por m3 de betao (EPD NRMCA via Tally) - so betao; o aco (Table 2: rebar 1450+600 t, perfis 5400+2550 t) e contabilizado a parte. fck = resistencia nominal especificada (psi)."
+   },
+   {
+    "sheet_row": 1763,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 da 'CO2 Emission (KgCO2/m3)' por tipo de betao; aco em Table 2 separado.",
+    "co2_so_betao": 412.84,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Shear Walls 12000 ... 412.84'.",
+    "nota": "Fator por m3 de betao (EPD NRMCA via Tally) - so betao; o aco (Table 2: rebar 1450+600 t, perfis 5400+2550 t) e contabilizado a parte. fck = resistencia nominal especificada (psi)."
+   },
+   {
+    "sheet_row": 1764,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 da 'CO2 Emission (KgCO2/m3)' por tipo de betao; aco em Table 2 separado.",
+    "co2_so_betao": 318.81,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Grade Beams 8000 ... 318.81'.",
+    "nota": "Fator por m3 de betao (EPD NRMCA via Tally) - so betao; o aco (Table 2: rebar 1450+600 t, perfis 5400+2550 t) e contabilizado a parte. fck = resistencia nominal especificada (psi)."
+   },
+   {
+    "sheet_row": 1765,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 da 'CO2 Emission (KgCO2/m3)' por tipo de betao; aco em Table 2 separado.",
+    "co2_so_betao": 270.64,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 1: 'Pier Caps 6000 ... 270.64'.",
+    "nota": "Fator por m3 de betao (EPD NRMCA via Tally) - so betao; o aco (Table 2: rebar 1450+600 t, perfis 5400+2550 t) e contabilizado a parte. fck = resistencia nominal especificada (psi)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF lido na integra (13 pp). Familia 'opc' adequada para os valores gravados (so betao), embora o edificio seja misto aco-betao."
+ },
+ {
+  "row_id": 4768,
+  "pares": [
+   {
+    "sheet_row": 594,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Table 2 (pavimento rigido, por km): 'Steel reinforcement 20.44 tonnes Asia: Steel rebar worldsteel'; conclusoes: 'the steel bars used in rigid pavement had a significantly lesser environmental footprint (7 %)'; Table 14: aco -10% -> GWP -0,46%.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'The construction of rigid pavement had a higher impact on GWP impact category (46,963 kg CO2 eq./km/year or 4,69,625 kg CO2 eq./km/lane)'; PQC M20 250 mm + DLC M15 100 mm, largura 7,0 m.",
+    "nota": "Valor gravado (383,4) inclui aco (barras/dowels 20,44 t/km), tintas, esferas de vidro, diesel/maquinas e a camada DLC (M15) - o fck 20 e so do PQC. Separacao so aproximada pela sensibilidade (aco ~4,6% do GWP -> ~366 kg/m3 sem aco), nao publicada como tal. Os creditos de albedo (-69,6 t) e carbonatacao (-18,97 t) NAO estao incluidos no valor gravado (sao calculados a parte). Familia concreto_armado coerente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF lido na integra (texto completo)."
+ },
+ {
+  "row_id": 4774,
+  "pares": [
+   {
+    "sheet_row": 1771,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table A1 da fatores separados: 'C40 concrete kg/m3 288.9', 'Steel kg/kg 2.364'.",
+    "co2_so_betao": 288.9,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table A1: 'C40 concrete [23] kg/m3 288.9'.",
+    "nota": "Fator generico de literatura [23], nao ACV propria. Nao encontrei uso do C40 nos calculos (Table A6: as aduelas usam 222,3/m3 x 58,6 m3 + aco = 37.865). Rotulo 'aduelas C40' sem apoio."
+   },
+   {
+    "sheet_row": 1772,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Idem; aco das aduelas (10.507 kg/anel) contabilizado a parte.",
+    "co2_so_betao": 222.3,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table A1: 'C60 concrete [23,26] kg/m3 222.3'; Table 3: aduela tipo I 58,6 m3, 37.865 kg CO2 (inclui aco).",
+    "nota": "Fator generico de literatura. SUSPEITO: C60 (222,3) abaixo de C40 (288,9) e incoerente (mais cimento, menos CO2) - provavelmente fontes diferentes; o so-betao 222,3 e confirmado por 37.865 - 10.507x2,364 = 13.026 / 58,6 = 222,3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF lido na integra (25 pp). Ambos sao fatores de literatura (Table A1), padrao 'fator generico' a rever em E2."
+ }
+]
