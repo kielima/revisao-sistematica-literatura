@@ -1,0 +1,292 @@
+[
+ {
+  "row_id": 3115,
+  "rotulo": "Du et al., 2024",
+  "titulo": "Lifecycle Assessment and Multi-Parameter Optimization of Lightweight Cement Mortar with Nano Additives",
+  "pdf": "DU et al., 2024.pdf",
+  "fileId": "16Dxlw0ijFl9AJqvyWGDeNKSeu1pa8E6i",
+  "pares": [
+   {
+    "sheet_row": 315,
+    "material": "NACM - argamassa de cimento com agregado natural (referencia, sem aditivos nano)",
+    "fck": 38.72,
+    "co2_kg_m3": 1200.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 316,
+    "material": "LWCM LT5S0 (argamassa leve com FAC + 0.05% MWCNTs, sem nanosilica) - melhor desempenho mecanico entre as LWCM",
+    "fck": 21.1,
+    "co2_kg_m3": 603.44,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 3117,
+  "rotulo": "Villalba et al., 2024",
+  "titulo": "Life cycle evaluation of seismic retrofit alternatives for reinforced concrete columns.",
+  "pdf": "VILLALBA et al., 2024 - j.jclepro.2024.142290.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 317,
+    "material": "Concreto de encamisamento (RC jacketing) para reforco sismico de pilares - edificio de 4 pisos",
+    "fck": 32.0,
+    "co2_kg_m3": 770.9,
+    "co2_conversao": "578.16 / 0.75 m3 (Tab.2) = 770.9 [REVISAO 2026-09-27, leitura integral; confianca alta]",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 318,
+    "material": "Concreto de encamisamento (RC jacketing) para reforco sismico de pilares - edificio de 7 pisos",
+    "fck": 32.0,
+    "co2_kg_m3": 798.5,
+    "co2_conversao": "678.73 / 0.85 m3 = 798.5 [REVISAO 2026-09-27, leitura integral; confianca alta]",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 1933,
+    "material": "encamisamento de betao armado (RC) de pilar - edificio 10 pisos (3a linha do dossie, sheet_row provavelmente 319 - nao vista no lote)",
+    "fck": 32.0,
+    "co2_kg_m3": 795.2,
+    "co2_conversao": "747.46 / 0.94 m3 = 795.2 [REVISAO 2026-09-27, leitura integral; confianca alta]",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ },
+ {
+  "row_id": 3118,
+  "rotulo": "Teixeira et al., 2019",
+  "titulo": "Quality and durability properties and life-cycle assessment of high volume biomass fly ash mortar",
+  "pdf": "TEIXEIRA et al., 2019 - j.conbuildmat.2018.11.173.pdf",
+  "fileId": "1JR8NAEo48Z1j2M66vXvveBJNXac8HnMs",
+  "pares": [
+   {
+    "sheet_row": 845,
+    "material": "argamassa de referencia REF (sem cinza volante de biomassa)",
+    "fck": 44.0,
+    "co2_kg_m3": 566.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3120,
+  "rotulo": "Narayanaswamy et al., 2020",
+  "titulo": "Mechanical and thermal properties, and comparative life-cycle impacts, of stabilised earth building products",
+  "pdf": "NARAYANASWAMY et al., 2020.pdf",
+  "fileId": "1al1oKkrerU9rB04GahZJyL_yd9oP_Xxb",
+  "pares": [
+   {
+    "sheet_row": 320,
+    "material": "[MODERADOR UCS] Bloco de terra comprimida alcali-ativado (12M NaOH + 15% cinza volante), agregado PGBS, ~200 dias",
+    "fck": 27.9,
+    "co2_kg_m3": 184.8,
+    "co2_conversao": "42.5 / 0.230 m (espessura impressa, sec.5) = 184.8 [REVISAO 2026-09-27, leitura integral; confianca baixa] [ALERTA ETAPA4: eixo diz \"per m2\" mas o texto fala em metro linear]",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 3132,
+  "rotulo": "Oyebisi & Alomayri, 2022",
+  "titulo": "Cement-based concrete modified with Vitellaria Paradoxa ash: A lifecycle assessment",
+  "pdf": "OYEBISI et al., 2022.pdf",
+  "fileId": "1aSawF_Z66z3F1ZIIFiXKQxjG6cWoGxmm",
+  "pares": [
+   {
+    "sheet_row": 847,
+    "material": "concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)",
+    "fck": 29.1,
+    "co2_kg_m3": 353.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 848,
+    "material": "concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)",
+    "fck": 34.5,
+    "co2_kg_m3": 398.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 849,
+    "material": "concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)",
+    "fck": 45.9,
+    "co2_kg_m3": 511.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 3139,
+  "rotulo": "Guo et al., 2023",
+  "titulo": "Lightweight ultra-high-performance concrete (UHPC) with expanded glass aggregate: Development, characterization, and life-cycle assessment",
+  "pdf": "GUO et al., 2023 - j.conbuildmat.2023.130441.pdf",
+  "fileId": "1LQSmYS-M0cqp_P0mqBfrNMfNIwX5yjiQ",
+  "pares": [
+   {
+    "sheet_row": 855,
+    "material": "UHPC leve com agregado de vidro expandido — mistura Control (UHPC base, sem vidro expandido)",
+    "fck": 134.2,
+    "co2_kg_m3": 1046.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "uhpc"
+   },
+   {
+    "sheet_row": 856,
+    "material": "UHPC leve com agregado de vidro expandido — mistura GM20/GB50 (20% do binder substituido por microesfera de vidro)",
+    "fck": 127.6,
+    "co2_kg_m3": 771.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "uhpc"
+   },
+   {
+    "sheet_row": 857,
+    "material": "UHPC leve com agregado de vidro expandido — mistura L0 (fibra de aco totalmente substituida por fibra PE)",
+    "fck": 118.3,
+    "co2_kg_m3": 656.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "uhpc"
+   }
+  ]
+ },
+ {
+  "row_id": 3146,
+  "rotulo": "Lorika et al., 2023",
+  "titulo": "Evaluating the use of mucilage from opuntia ficus-indica as a bio-additive in production of sustainable concrete",
+  "pdf": "LORIKA et al., 2023 - j.conbuildmat.2023.132132.pdf",
+  "fileId": "10jT_J1sFkUt3iW69v1w3wgwdx5nCX9kK",
+  "pares": [
+   {
+    "sheet_row": 859,
+    "material": "concreto com mucilagem de Opuntia ficus-indica (Ofim) como bio-aditivo — comparativo nivelado (APCR) Control (referencia, sem Ofim)",
+    "fck": 28.0,
+    "co2_kg_m3": 331.36,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 860,
+    "material": "concreto com mucilagem de Opuntia ficus-indica (Ofim) como bio-aditivo — comparativo nivelado (APCR) Ofim-15/10 (15% Ofim + 10% reducao de cimento)",
+    "fck": 29.1,
+    "co2_kg_m3": 298.844006,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "biobase"
+   }
+  ]
+ },
+ {
+  "row_id": 3151,
+  "rotulo": "Kanagaraj et al., 2023",
+  "titulo": "Techno-socio-economic aspects of Portland cement, Geopolymer, and Limestone Calcined Clay Cement (LC3) composite systems: A-State-of-Art-Review",
+  "pdf": "KANAGARAJ et al., 2023 - j.conbuildmat.2023.132484.pdf",
+  "fileId": "1wBXtuvhDm2vtbTPKW2lU1ozFFkghJJR_",
+  "pares": [
+   {
+    "sheet_row": 861,
+    "material": "OPC (Portland cement) concreto — classe M40 (normal strength)",
+    "fck": 46.5,
+    "co2_kg_m3": 356.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 862,
+    "material": "OPC (Portland cement) concreto — classe M70 (high strength, HSC)",
+    "fck": 79.9,
+    "co2_kg_m3": 373.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 863,
+    "material": "GPC (geopolymer) concreto — classe M40 (normal strength)",
+    "fck": 47.2,
+    "co2_kg_m3": 313.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 864,
+    "material": "GPC (geopolymer) concreto — classe M70 (high strength, HSC)",
+    "fck": 76.82,
+    "co2_kg_m3": 346.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 865,
+    "material": "LC3 (Limestone Calcined Clay Cement) concreto — classe M40 (normal strength)",
+    "fck": 48.25,
+    "co2_kg_m3": 183.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 866,
+    "material": "LC3 (Limestone Calcined Clay Cement) concreto — classe M70 (high strength, HSC)",
+    "fck": 79.9,
+    "co2_kg_m3": 268.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 3152,
+  "rotulo": "Los Santos-Ortega et al., 2023",
+  "titulo": "Methodology for the environmental analysis of mortar doped with crumb rubber from end-of-life tires",
+  "pdf": "LOSSANTOS-ORTEGA et al., 2023 - j.conbuildmat.2023.132519.pdf",
+  "fileId": "12BoDd9fJNY_PJy5USY4PFrJ5tn0nyasB",
+  "pares": [
+   {
+    "sheet_row": 867,
+    "material": "argamassa com borracha de pneu triturado (CR) — mistura M_REF (0% CR, controlo)",
+    "fck": 24.2,
+    "co2_kg_m3": 270.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 868,
+    "material": "argamassa com borracha de pneu triturado (CR) — mistura M_10 (10% CR)",
+    "fck": 20.04,
+    "co2_kg_m3": 292.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 3153,
+  "rotulo": "Kanagaraj et al., 2023",
+  "titulo": "Axial compressive behaviour and physical characteristics of high strength self-compacting geopolymer concrete (HSGC) columns exposed to elevated temperature",
+  "pdf": "KANAGARAJ, 2023 - j.conbuildmat.2023.132866.pdf",
+  "fileId": "1ljWHDSKpf8JluRlRSvUrdchAjMgcNTl2",
+  "pares": [
+   {
+    "sheet_row": 869,
+    "material": "betao geopolimerico auto-compactavel de alta resistencia (HSGC), colunas — FA/FG/FM",
+    "fck": 57.06,
+    "co2_kg_m3": 412.0,
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-3 (1 px = 1 unidade do eixo)) [REVISAO 2026-09-27, leitura integral; confianca baixa] [ALERTA ETAPA4: eixo da Fig.25 impresso \"t-CO2/m3\" (impossivel); lido como kg/m3, coerente com a reducao de 6,15% do texto]",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 1934,
+    "material": "OPC (referencia, Tab.7)",
+    "fck": 58.7,
+    "co2_kg_m3": 438.0,
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-3) [REVISAO 2026-09-27, leitura integral; confianca baixa] [ALERTA ETAPA4: eixo da Fig.25 impresso \"t-CO2/m3\" (impossivel); lido como kg/m3, coerente com a reducao de 6,15% do texto]",
+    "familia_atual": "opc"
+   }
+  ]
+ }
+]

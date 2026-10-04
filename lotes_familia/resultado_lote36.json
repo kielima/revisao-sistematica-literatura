@@ -1,0 +1,670 @@
+[
+ {
+  "row_id": 4578,
+  "pares": [
+   {
+    "sheet_row": 574,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.7.3: CO2-e calculado so com FA, GGBFS, agregados, SH e SS (factores de Hammond & Jones, Alsalman et al.); sem armadura; provetes cilindricos 150x300",
+    "co2_so_betao": 350.0,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.7.3: '12SSW100 was 0.35 t-CO2-e/m3' (8SSW100 0.24; 16SSW100 0.46); Sec.5.3.3: 'With the same concentration of 12 M, the mix with SSW (12SSW100) attained a CS of 39.11 MPa'",
+    "nota": "Geopolimero FA/GGBFS 200/200 kg/m3; SSW (residuo de fabrico de silicato de sodio) substitui 100% da areia por volume. CO2 do SSW e transporte nao contabilizados (declarado). Factores de literatura, nao ACV propria. Valor e fck conferem."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (fa36_kana.txt). Familia geopolimero correcta."
+ },
+ {
+  "row_id": 4580,
+  "pares": [
+   {
+    "sheet_row": 1570,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 86.3,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.78 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 86.3 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL0-10 FBA0. Linha de controlo (0% FBA) esta na familia 'reciclado' - deveria ser opc/controlo."
+   },
+   {
+    "sheet_row": 1571,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 90.0,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 2.0 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 90.0 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL0-10 FBA30."
+   },
+   {
+    "sheet_row": 1572,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.5,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.79 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.5 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL0-10 FBA50."
+   },
+   {
+    "sheet_row": 1573,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.6,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.6 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.6 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL0-10 FBA70."
+   },
+   {
+    "sheet_row": 1574,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 90.3,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.72 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 90.3 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL0-10 FBA100."
+   },
+   {
+    "sheet_row": 1575,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 88.9,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 2.18 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 88.9 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL30-60 FBA0. Linha de controlo (0% FBA) esta na familia 'reciclado' - deveria ser opc/controlo."
+   },
+   {
+    "sheet_row": 1576,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.6,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 2.24 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.6 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL30-60 FBA30."
+   },
+   {
+    "sheet_row": 1577,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.9,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 2.03 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.9 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL30-60 FBA50."
+   },
+   {
+    "sheet_row": 1578,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.6,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 2.06 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.6 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL30-60 FBA70."
+   },
+   {
+    "sheet_row": 1579,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.7,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.93 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.7 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). SL30-60 FBA100."
+   },
+   {
+    "sheet_row": 1580,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 90.2,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.67 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 90.2 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.45 FBA0. Linha de controlo (0% FBA) esta na familia 'reciclado' - deveria ser opc/controlo."
+   },
+   {
+    "sheet_row": 1581,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.5,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.51 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.5 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.45 FBA30."
+   },
+   {
+    "sheet_row": 1582,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.3,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.58 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.3 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.45 FBA50."
+   },
+   {
+    "sheet_row": 1583,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.4,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.72 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.4 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.45 FBA70."
+   },
+   {
+    "sheet_row": 1584,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 88.8,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.93 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 88.8 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.45 FBA100."
+   },
+   {
+    "sheet_row": 1585,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 89.4,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.85 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 89.4 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.55 FBA0. Linha de controlo (0% FBA) esta na familia 'reciclado' - deveria ser opc/controlo."
+   },
+   {
+    "sheet_row": 1586,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 88.8,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 1.93 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 88.8 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.55 FBA30."
+   },
+   {
+    "sheet_row": 1587,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 88.8,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 2.22 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 88.8 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.55 FBA50."
+   },
+   {
+    "sheet_row": 1588,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 88.6,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 2.46 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 88.6 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.55 FBA70."
+   },
+   {
+    "sheet_row": 1589,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2.1: fronteira = producao dos componentes (cimento, agregados, agua) + transporte ate a central; sem armadura",
+    "co2_so_betao": 88.2,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.2.1: 'The FU ... was 1 m3 of a concrete mixture. The environmental assessment of this FU was normalized to the 28-day concrete compressive strength'; Figs.2,3,6,7: GWP (kg CO2-eq) da FU normalizada; Tab.8: cimento 0.192 kg CO2/kg",
+    "nota": "ERRO GRAVE: o valor gravado 3.15 e kg CO2-eq/(m3*MPa) (Figs.2/3/6/7, FU normalizada a fc28), nao kg/m3. Reconstrucao pelo inventario (Tab.1-4, Tab.8, distancias 50/100 km) da ~88-90 kg CO2-eq/m3 para todas as misturas (cimento 382 kg x 0,192); gravado x fck = 88.2 kg/m3. Leitura da figura confirmada pela conta (erro <=0,05). Traços de Bai et al. [19] (fck tambem de fonte externa). W/C0.55 FBA100."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. Todos os 20 co2_kg_m3 estao em kg CO2-eq/m3/MPa (ACV normalizada a fc28) e co2_conversao diz erradamente 'publicado em kg CO2-eq/m3'. Valor por m3 ~86-90 kg (factor 'Cement mortar, at plant' 0,192 kg/kg, anormalmente baixo). Corrigir: co2_kg_m3 = valor gravado x fck (co2_so_betao). Os 4 controlos FBA0 (1570,1575,1580,1585) estao na familia reciclado."
+ },
+ {
+  "row_id": 4584,
+  "pares": [
+   {
+    "sheet_row": 1600,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: Ready-mixed concrete 4.29x10^2 kg CO2eq/m3; Rebars 3.48x10^1 kg CO2eq/kg (factores separados); Tab.7/8 separam Concrete, Rebars and steel materials, Forms",
+    "co2_so_betao": 429.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 'Ready-mixed concrete m3 4.29 x 10^2 National LCI DB'; Tab.4 'fck = 24 MPa'",
+    "nota": "O valor gravado (429) ja e so o betao: e o factor generico do KLCI DB para betao pronto, igual para ORC e VDS e para os 2 casos. Sistema avaliado (laje RC) inclui varoes, cofragem, steel decking, mas o par gravado nao. Factor nacional generico, nao traço proprio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. Familia opc aceitavel (o valor e so betao)."
+ },
+ {
+  "row_id": 4599,
+  "pares": [
+   {
+    "sheet_row": 1605,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: aco B400 3.02 e B500 2.82 kg CO2-eq/kg separados dos m3 de betao",
+    "co2_so_betao": 224.34,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 'm3 of concrete in stem C25/30 ... 224.34' (mesmo valor para fundacao)",
+    "nota": "Valor gravado ja e so o betao: factor unitario por m3 da Tab.1 (fonte [10]/[13], biblioteca dos autores), nao traço ensaiado. Muro de contrafortes RC; aco contabilizado a parte."
+   },
+   {
+    "sheet_row": 1606,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: aco B400 3.02 e B500 2.82 kg CO2-eq/kg separados dos m3 de betao",
+    "co2_so_betao": 224.94,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 'm3 of concrete in stem C30/37 ... 224.94' (mesmo valor para fundacao)",
+    "nota": "Valor gravado ja e so o betao: factor unitario por m3 da Tab.1 (fonte [10]/[13], biblioteca dos autores), nao traço ensaiado. Muro de contrafortes RC; aco contabilizado a parte."
+   },
+   {
+    "sheet_row": 1607,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: aco B400 3.02 e B500 2.82 kg CO2-eq/kg separados dos m3 de betao",
+    "co2_so_betao": 265.28,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 'm3 of concrete in stem C35/45 ... 265.28' (mesmo valor para fundacao)",
+    "nota": "Valor gravado ja e so o betao: factor unitario por m3 da Tab.1 (fonte [10]/[13], biblioteca dos autores), nao traço ensaiado. Muro de contrafortes RC; aco contabilizado a parte. C35/45 e C40/50 tem o mesmo factor 265,28 (como impresso)."
+   },
+   {
+    "sheet_row": 1608,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: aco B400 3.02 e B500 2.82 kg CO2-eq/kg separados dos m3 de betao",
+    "co2_so_betao": 265.28,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 'm3 of concrete in stem C40/50 ... 265.28' (mesmo valor para fundacao)",
+    "nota": "Valor gravado ja e so o betao: factor unitario por m3 da Tab.1 (fonte [10]/[13], biblioteca dos autores), nao traço ensaiado. Muro de contrafortes RC; aco contabilizado a parte. C35/45 e C40/50 tem o mesmo factor 265,28 (como impresso)."
+   },
+   {
+    "sheet_row": 1609,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: aco B400 3.02 e B500 2.82 kg CO2-eq/kg separados dos m3 de betao",
+    "co2_so_betao": 265.91,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 'm3 of concrete in stem C45/55 ... 265.91' (mesmo valor para fundacao)",
+    "nota": "Valor gravado ja e so o betao: factor unitario por m3 da Tab.1 (fonte [10]/[13], biblioteca dos autores), nao traço ensaiado. Muro de contrafortes RC; aco contabilizado a parte."
+   },
+   {
+    "sheet_row": 1610,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: aco B400 3.02 e B500 2.82 kg CO2-eq/kg separados dos m3 de betao",
+    "co2_so_betao": 265.95,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 'm3 of concrete in stem C50/60 ... 265.95' (mesmo valor para fundacao)",
+    "nota": "Valor gravado ja e so o betao: factor unitario por m3 da Tab.1 (fonte [10]/[13], biblioteca dos autores), nao traço ensaiado. Muro de contrafortes RC; aco contabilizado a parte."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. Os 6 pares sao factores de catalogo por classe; o proprio estudo conclui que o optimo e sempre C25/30. 1607/1608 mesmo CO2 com fck diferente (como no artigo)."
+ },
+ {
+  "row_id": 4600,
+  "pares": [
+   {
+    "sheet_row": 1612,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.4: Ready-mix concrete 287,434 kgCO2e; Steel 70,517 kgCO2e (linha propria); Tab.3: Reinforcement steel 37,912 kg",
+    "co2_so_betao": 357.3,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: ready-mix 25-30 MPa CEM I 31.57 m3 (blinding) e 28-35 MPa CEM I 772.79 m3; Tab.4: Ready-mix concrete 287,434",
+    "nota": "Valor gravado ja e so betao (aco separado). Mas 287.434 junta as duas classes (betao de limpeza 25-30 e estrutural 28-35); 357,3 e media ponderada dos dois. Reconstrucao ICE v2 ~0,148 kg/kg x 2.420 kg/m3 = ~358 kg/m3 para o 28/35 (quase igual). fck 28 = limite inferior de '28-35 MPa'. A Tab.6 traz ainda variantes 15/30% PFA e 25/50% GGBS (totais) nao gravadas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido; base ICE v2.0 cradle-to-gate."
+ },
+ {
+  "row_id": 4604,
+  "pares": [
+   {
+    "sheet_row": 1620,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.5: 1864 m3 betao + 76,003 kg aco; Tab.6/7 total 8.03x10^5 kg CO2eq (A1-A5) inclui varoes (Fig.7 bolha 'Rebar')",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.7 'Steel CEM I SR GWP 8.03 x 10^5'; 8.03e5/1864 = 430,8",
+    "nota": "Total do caixao inteiro (betao + armadura de aco + transporte A4 + A5) dividido pelo volume de betao. Nao ha valor numerico so do betao (Fig.7 bolhas sem numeros; Fig.11 so normalizada a 100). Familia deveria ser concreto_armado."
+   },
+   {
+    "sheet_row": 1621,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.5: 44,361 kg GFRP como armadura; Tab.7 total 7.60x10^5 inclui GFRP",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.7 'GFRP CEM I SR 7.60 x 10^5'; 7.60e5/1864 = 407,7",
+    "nota": "Inclui armadura GFRP (reforco estrutural, conta como armadura pelo PROMPT) + A4/A5. Nao separavel. Familia deveria ser concreto_armado."
+   },
+   {
+    "sheet_row": 1622,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.7/8: total 2.05x10^5 inclui GFRP 44,361 kg + A4 + A5",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.7 'GFRP CEM III SR 2.05 x 10^5'; 2.05e5/1864 = 110,0; Sec.6: optimizacao inclui GFRP, CEM III SR e agua do mar na amassadura/cura",
+    "nota": "Cimento CEM III SR (escoria de alto-forno) em vez de CEM I SR + armadura GFRP. Inclui GFRP; nao separavel. Valor muito baixo (-75%) vem do EPD alemao de CEM III SR do OneClick. Familia actual opc: devia ser concreto_armado (ou escoria/scm, se se quiser destacar o ligante)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido + paginas 11 e 14 renderizadas (Fig.7 e Fig.11 sem valores absolutos). HA-35 = classe de projecto. Os 3 pares sao totais de elemento com armadura (aco ou GFRP), A1-A5. O caso Escombreras (Tab.4: 1.12e6/2988, 1.06e6/3108, 1.10e6/2960 m3) nao esta gravado."
+ },
+ {
+  "row_id": 4605,
+  "pares": [
+   {
+    "sheet_row": 1623,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.4: Concrete C30 376 / Steel S420 352 (factores separados; aco somado a parte na funcao objectivo)",
+    "co2_so_betao": 376.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.3: 'Yeo and Potra [16] suggested to use CO2 emission amount 376 kg for concrete which has 30 MPa strength'",
+    "nota": "Valor gravado ja e so betao. Factor de literatura (Yeo & Potra) citado, nao ACV propria (fonte externa)."
+   },
+   {
+    "sheet_row": 1624,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.4: Concrete 143.48 / Steel 3010 (A2) ou 352 (A3)",
+    "co2_so_betao": 143.48,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.3: 'Paya et al. [56] suggested ... 143.48 kg for the concrete (HA-30) that has 30 MPa strength'",
+    "nota": "Valor gravado ja e so betao. Factor de literatura (Paya et al.). Mesmo betao C30 que 1623 com factor diferente: dois pares do mesmo material com fck igual."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto lido (corpo e seccoes-chave). Os dois pares sao factores citados para o mesmo C30; nao sao misturas distintas."
+ },
+ {
+  "row_id": 4608,
+  "pares": [
+   {
+    "sheet_row": 1625,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 373.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD1 AgillaTM (BASF/Aggregate Industries UK), resistencia 40 sem classe, GWP 373 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo). Resistencia unica sem classe na Tab.3 (40/50/85): nao se sabe se cubo ou cilindro."
+   },
+   {
+    "sheet_row": 1626,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 220.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD2 BRMCA generico C30/37, GWP 220 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1627,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 244.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD3 IZB C35/45, GWP 244 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1628,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 219.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD4 IZB C30/37, GWP 219 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1629,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 301.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD5 General Beton RO C20/25, GWP 301 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1630,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 310.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD6 RO C25/30, GWP 310 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1631,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 341.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD6 RO C30/37, GWP 341 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1632,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 385.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD6 RO C35/45, GWP 385 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1633,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 410.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD6 RO C40/50, GWP 410 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1634,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 371.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD7 Hanson C32/40 CEM I, GWP 371 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1635,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 213.0,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD8 Hanson C28/35 CEM IIIA, GWP 213 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. CEM IIIA = cimento de escoria (GGBS); papel por inferencia da designacao CIIIA na Tab.3, sem composicao no artigo."
+   },
+   {
+    "sheet_row": 1636,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 197.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD9 IZB C25/30, GWP 197 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1637,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 178.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD10 IZB C20/25, GWP 178 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1638,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 286.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD11 IZB C45/55, GWP 286 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1639,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 254.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD12 WatertightTM BASF, resistencia 50 sem classe, GWP 254 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo). Resistencia unica sem classe na Tab.3 (40/50/85): nao se sabe se cubo ou cilindro."
+   },
+   {
+    "sheet_row": 1640,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 300.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD13 IZB C50/60, GWP 300 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo)."
+   },
+   {
+    "sheet_row": 1641,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.4: 'Results of LCA of 1 m3 of concrete, based on the collected EPDs from cradle to gate (stages A1-A3)'; varoes do edificio (Fig.4) nao entram nestes valores",
+    "co2_so_betao": 466.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3/Tab.4: EPD14 DiamondconcreteTM BASF, resistencia 85 sem classe, GWP 466 kg CO2 eq/m3",
+    "nota": "EPD comercial de betao pronto, A1-A3 por m3. Composicao do ligante nao dada; tratado como Portland de referencia ('controlo' = betao convencional sem material novo). Resistencia unica sem classe na Tab.3 (40/50/85): nao se sabe se cubo ou cilindro."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. Valores conferem com a Tab.4. Sem duplicados (1626=220 e 1628=219 sao EPD diferentes; a Tab.7 repete os mesmos EPD IBU, gravados uma so vez). EPD14 85 MPa nao e chamado UHPC."
+ }
+]

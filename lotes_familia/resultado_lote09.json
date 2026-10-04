@@ -1,0 +1,591 @@
+[
+ {
+  "row_id": 2950,
+  "pares": [
+   {
+    "sheet_row": 798,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. LCA methodology/Boundaries: cradle-to-gate dos constituintes (cimento, areia, RCA, NCA, SP, NWF) + mistura 4,65 kg/m3; UF 1 m3 de HPC; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.5 linha 100RA Total EI 484,6 kg-CO2/m3; CS 61 MPa (texto p.6)",
+    "nota": "Familia 'reciclado' correcta."
+   },
+   {
+    "sheet_row": 799,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. LCA methodology/Boundaries: cradle-to-gate dos constituintes (cimento, areia, RCA, NCA, SP, NWF) + mistura 4,65 kg/m3; UF 1 m3 de HPC; sem armadura; NWF sao fibras dispersas de nylon (0,1% vol.)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.5 linha 0.1NWF/100RA = 484,6; CS 65 MPa (texto p.6)",
+    "nota": "Distingue-se do controlo por 100% RCA (agregado) + 0,1% fibra NWF (residuo). Mesmo CO2 que a linha 798 (484,6) mas mistura diferente e fck diferente (61 vs 65): NAO e duplicado — a Tab.5 da 484,6 para as duas (NWF quase sem EI)."
+   },
+   {
+    "sheet_row": 800,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. LCA methodology/Boundaries: cradle-to-gate dos constituintes (cimento, areia, RCA, NCA, SP, NWF) + mistura 4,65 kg/m3; UF 1 m3 de HPC; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.5 linha 0RA = 565,0; 'designed for 60 MPa ... control or reference mix'",
+    "nota": "FAMILIA PARECE ERRADA: e o controlo 0% RCA / 0% NWF, actual 'reciclado' -> deveria ser opc. fck 60 = alvo de dosagem (o medido so na Fig.4a)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (11 pp.). HPC Portland ASTM tipo I, a/c 0,3; LCA so do betao."
+ },
+ {
+  "row_id": 2951,
+  "pares": [
+   {
+    "sheet_row": 801,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Boundaries B1-B3 cradle-to-gate dos constituintes do betao (Eq.2), UF 1 m3; sem armadura; NWF = fibras dispersas",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.5 'NWF0 (CM)' Total GWP 628,5 kg-CO2/m3; fck medido 71,3 (Fig.9a, ja revisto)",
+    "nota": "HSC de referencia (sem NWF nem microssilica). Familia opc correcta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (~81 mil caracteres). Inventario de Kurda et al. 2018b e Hajek 2011 (MS)."
+ },
+ {
+  "row_id": 2952,
+  "pares": [
+   {
+    "sheet_row": 802,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassas; CO2 = soma ci x ri (Eq.5) dos constituintes por m3 (Tab.4 x Tab.6); sem armadura nem fibras",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "fck 51,5 MPa aos 90 d (texto); CO2 recalculado Tab.4xTab.6 = 358,4",
+    "nota": "Lama de ETA calcinada (residuo) + cinza volante substituindo cimento. ATENCAO: fck aos 90 dias, nao 28 d. Familia scm correcta."
+   },
+   {
+    "sheet_row": 803,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassas; CO2 = soma ci x ri (Eq.5) dos constituintes por m3 (Tab.4 x Tab.6); sem armadura nem fibras",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "fck 52,6 MPa aos 90 d (texto); CO2 recalculado = 361,8",
+    "nota": "Idem com escoria de alto-forno. fck aos 90 d. Familia scm correcta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (125 mil caracteres). 'steel' so aparece como origem da BFS e nas referencias."
+ },
+ {
+  "row_id": 2966,
+  "pares": [
+   {
+    "sheet_row": 804,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Sec.3.1.1: 'the functional unit (FU) is represented by 1 cubic meter of reinforced concrete with a compressive strength of 30 MPa'; Sec.3.1.2: 'The amount of steel constituting the reinforcement in both sets of mixtures was assumed to be 120 kg/m3 of concrete'; Sec.3.4.1: 'Steel accounts for about 13% of the total'; Fig.5 tem segmento proprio 'Steel net recycling' (topo de cada barra). Cradle-to-grave com reciclagem do aco.",
+    "co2_so_betao": 299.0,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.5 p.1799 (kg CO2eq, barras empilhadas por processo); 345 = barra G25 (a mais baixa).",
+    "nota": "CO2 GRAVADO INCLUI O ACO (120 kg/m3, ~45-50 kg CO2/m3 lidos por pixel no segmento 'Steel net recycling' da Fig.5, coerente com os ~13% do texto). So-betao do G25 ~ 345 - 46 = ~299 (leitura por pixel, aproximada, nao impresso em numero). Alem disso a linha e um AGREGADO das 8 misturas (C0-C100 Portland e G0-G100 alcali-activadas) mas o valor 345 e so o da G25 (geopolimero GGBFS+NaOH/Na2SiO3, 25% agregado reciclado); a familia 'geopolimero' so serve se a linha for assumida como G25. Recomenda-se desdobrar em 8 linhas (todas fck 30 de projecto): leitura por pixel dos totais ~C0 390, G50 352, C50 404, G25 345, C25 388, G100 350, C100 405, G0 348 e retirar o segmento do aco (~45-50 cada) ou passar a familia concreto_armado. Fronteira tambem inclui demolicao/reciclagem (cradle-to-grave), diferente da maioria das linhas A1-A3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido + Fig.5 renderizada a 300 dpi (PDF descarregado). Unico caso do lote com aco na ACV."
+ },
+ {
+  "row_id": 2999,
+  "pares": [
+   {
+    "sheet_row": 249,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Fig.7; CO2 302,8 reproduz exactamente CM30-SW (252 cimento + 108 metacaulino + 162 agua do mar + SP 8,2 + areia 722 + CA 1158 x factores Tab.5 = 302,78)",
+    "nota": "A descricao da linha e generica ('varias composicoes') mas o CO2 gravado e o da CM30-SW (o CM30-FW da 301,2 = linha 1909). Nao ha linha propria CM30-SW no lote, por isso nao e duplicado; recomenda-se relabel para 'CM30-SW' e confirmar que o fck 56 (leitura grafica Fig.2) e o da CM30-SW aos 28 d. Metacaulino = material processado, nao residuo. Familia scm correcta."
+   },
+   {
+    "sheet_row": 1903,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CC-FW; Fig.7 / Tab.5",
+    "nota": "Controlo 100% CEM I; familia opc correcta."
+   },
+   {
+    "sheet_row": 1904,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CC-SW; Fig.7 / Tab.5",
+    "nota": "Controlo 100% CEM I (agua do mar); familia opc correcta."
+   },
+   {
+    "sheet_row": 1905,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CF30-FW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo)."
+   },
+   {
+    "sheet_row": 1906,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CF30-SW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo). Agua do mar como agua de amassadura (variavel secundaria)."
+   },
+   {
+    "sheet_row": 1907,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS50-FW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo)."
+   },
+   {
+    "sheet_row": 1908,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS50-SW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo). Agua do mar como agua de amassadura (variavel secundaria)."
+   },
+   {
+    "sheet_row": 1909,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CM30-FW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo). Metacaulino nao e residuo."
+   },
+   {
+    "sheet_row": 1910,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS20F10-FW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo)."
+   },
+   {
+    "sheet_row": 1911,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS20F10-SW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo). Agua do mar como agua de amassadura (variavel secundaria)."
+   },
+   {
+    "sheet_row": 1912,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS30F15-FW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo)."
+   },
+   {
+    "sheet_row": 1913,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS30F15-SW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo). Agua do mar como agua de amassadura (variavel secundaria)."
+   },
+   {
+    "sheet_row": 1914,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CF20M10-FW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo)."
+   },
+   {
+    "sheet_row": 1915,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CF20M10-SW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo). Agua do mar como agua de amassadura (variavel secundaria)."
+   },
+   {
+    "sheet_row": 1916,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CF30M15-FW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo)."
+   },
+   {
+    "sheet_row": 1917,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CF30M15-SW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo). Agua do mar como agua de amassadura (variavel secundaria)."
+   },
+   {
+    "sheet_row": 1918,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS20M10-FW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo)."
+   },
+   {
+    "sheet_row": 1919,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS20M10-SW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo). Agua do mar como agua de amassadura (variavel secundaria)."
+   },
+   {
+    "sheet_row": 1920,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS30M15-FW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo)."
+   },
+   {
+    "sheet_row": 1921,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: 'The functional unit chosen was 1 m3 of concrete'; cradle-to-gate A1-A2 (A3 omitido); inventario Tab.2 x Tab.5 so constituintes; 'reinforcement' so aparece como motivacao (corrosao)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2 traco CS30M15-SW; Fig.7 / Tab.5",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas a mistura substitui 30-50% do cimento por SCM (cinza/escoria/metacaulino) -> deveria ser scm (como a linha 249 do mesmo artigo). Agua do mar como agua de amassadura (variavel secundaria)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (14 pp.). Inventario so do betao. 18 das 19 linhas 19xx estao com familia 'opc' apesar de 16 delas serem misturas com SCM; so a 249 esta 'scm'."
+ },
+ {
+  "row_id": 3003,
+  "pares": [
+   {
+    "sheet_row": 250,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1 (p.30): CO2 por m3 = CO2-M (cimento, agregado, agua, SF, SP) + CO2-T (20); a linha 'Steel 1,86 kgCO2/kg' tem Wi vazio em todas as classes — o aco so entra depois, no exemplo do portico (peso de armadura x factor), nao no valor por m3. Verificado: C25 = 260x0,93+1955x0,004 = 249,6 ~ 249.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 p.30, coluna C25, linha CO2 (kg CO2/m3)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'scm', mas e o traco base SEM SCM (Tab.1); deveria ser opc (as variantes com FA/GGBS/LP estao na Tab.2 e nao foram extraidas)."
+   },
+   {
+    "sheet_row": 251,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1 (p.30): CO2 por m3 = CO2-M (cimento, agregado, agua, SF, SP) + CO2-T (20); a linha 'Steel 1,86 kgCO2/kg' tem Wi vazio em todas as classes — o aco so entra depois, no exemplo do portico (peso de armadura x factor), nao no valor por m3. Verificado: C25 = 260x0,93+1955x0,004 = 249,6 ~ 249.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 p.30, coluna C35, linha CO2 (kg CO2/m3)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'scm', mas e o traco base SEM SCM (Tab.1); deveria ser opc (as variantes com FA/GGBS/LP estao na Tab.2 e nao foram extraidas)."
+   },
+   {
+    "sheet_row": 252,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1 (p.30): CO2 por m3 = CO2-M (cimento, agregado, agua, SF, SP) + CO2-T (20); a linha 'Steel 1,86 kgCO2/kg' tem Wi vazio em todas as classes — o aco so entra depois, no exemplo do portico (peso de armadura x factor), nao no valor por m3. Verificado: C25 = 260x0,93+1955x0,004 = 249,6 ~ 249.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 p.30, coluna C45, linha CO2 (kg CO2/m3)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'scm', mas e o traco base SEM SCM (Tab.1); deveria ser opc (as variantes com FA/GGBS/LP estao na Tab.2 e nao foram extraidas)."
+   },
+   {
+    "sheet_row": 253,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1 (p.30): CO2 por m3 = CO2-M (cimento, agregado, agua, SF, SP) + CO2-T (20); a linha 'Steel 1,86 kgCO2/kg' tem Wi vazio em todas as classes — o aco so entra depois, no exemplo do portico (peso de armadura x factor), nao no valor por m3. Verificado: C25 = 260x0,93+1955x0,004 = 249,6 ~ 249.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 p.30, coluna C80, linha CO2 (kg CO2/m3)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'scm', mas e o traco base SEM SCM (Tab.1); deveria ser opc (as variantes com FA/GGBS/LP estao na Tab.2 e nao foram extraidas). HPC com silica de fumo como parte do traco base, nao como variavel."
+   },
+   {
+    "sheet_row": 254,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1 (p.30): CO2 por m3 = CO2-M (cimento, agregado, agua, SF, SP) + CO2-T (20); a linha 'Steel 1,86 kgCO2/kg' tem Wi vazio em todas as classes — o aco so entra depois, no exemplo do portico (peso de armadura x factor), nao no valor por m3. Verificado: C25 = 260x0,93+1955x0,004 = 249,6 ~ 249.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 p.30, coluna C90, linha CO2 (kg CO2/m3)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'scm', mas e o traco base SEM SCM (Tab.1); deveria ser opc (as variantes com FA/GGBS/LP estao na Tab.2 e nao foram extraidas). HPC com silica de fumo como parte do traco base, nao como variavel."
+   },
+   {
+    "sheet_row": 255,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1 (p.30): CO2 por m3 = CO2-M (cimento, agregado, agua, SF, SP) + CO2-T (20); a linha 'Steel 1,86 kgCO2/kg' tem Wi vazio em todas as classes — o aco so entra depois, no exemplo do portico (peso de armadura x factor), nao no valor por m3. Verificado: C25 = 260x0,93+1955x0,004 = 249,6 ~ 249.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 p.30, coluna C100, linha CO2 (kg CO2/m3)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'scm', mas e o traco base SEM SCM (Tab.1); deveria ser opc (as variantes com FA/GGBS/LP estao na Tab.2 e nao foram extraidas). HPC com silica de fumo como parte do traco base, nao como variavel."
+   },
+   {
+    "sheet_row": 256,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1 (p.30): CO2 por m3 = CO2-M (cimento, agregado, agua, SF, SP) + CO2-T (20); a linha 'Steel 1,86 kgCO2/kg' tem Wi vazio em todas as classes — o aco so entra depois, no exemplo do portico (peso de armadura x factor), nao no valor por m3. Verificado: C25 = 260x0,93+1955x0,004 = 249,6 ~ 249.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "Tab.1 p.30, coluna C160, linha CO2 (kg CO2/m3)",
+    "nota": "UHPC (o artigo chama-lhe UHPC). Familia uhpc correcta. ATENCAO: o CO2-M impresso (462/491/519) NAO se reproduz com o traco da propria Tab.1 (790x0,476+1016x0,004+195x0,014+28,2x0,944 = 409,5 para C160; 435,8 C170; 462,2 C180) — diferenca de ~53-57 kg/m3 sem explicacao no artigo. O custo da mesma coluna reproduz-se sem aco (C160: 464,5 vs 465), pelo que a diferenca nao parece ser fibra de aco nao declarada; provavel erro de calculo dos autores. Valor gravado = o impresso; sinalizar."
+   },
+   {
+    "sheet_row": 257,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1 (p.30): CO2 por m3 = CO2-M (cimento, agregado, agua, SF, SP) + CO2-T (20); a linha 'Steel 1,86 kgCO2/kg' tem Wi vazio em todas as classes — o aco so entra depois, no exemplo do portico (peso de armadura x factor), nao no valor por m3. Verificado: C25 = 260x0,93+1955x0,004 = 249,6 ~ 249.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "Tab.1 p.30, coluna C170, linha CO2 (kg CO2/m3)",
+    "nota": "UHPC (o artigo chama-lhe UHPC). Familia uhpc correcta. ATENCAO: o CO2-M impresso (462/491/519) NAO se reproduz com o traco da propria Tab.1 (790x0,476+1016x0,004+195x0,014+28,2x0,944 = 409,5 para C160; 435,8 C170; 462,2 C180) — diferenca de ~53-57 kg/m3 sem explicacao no artigo. O custo da mesma coluna reproduz-se sem aco (C160: 464,5 vs 465), pelo que a diferenca nao parece ser fibra de aco nao declarada; provavel erro de calculo dos autores. Valor gravado = o impresso; sinalizar."
+   },
+   {
+    "sheet_row": 258,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1 (p.30): CO2 por m3 = CO2-M (cimento, agregado, agua, SF, SP) + CO2-T (20); a linha 'Steel 1,86 kgCO2/kg' tem Wi vazio em todas as classes — o aco so entra depois, no exemplo do portico (peso de armadura x factor), nao no valor por m3. Verificado: C25 = 260x0,93+1955x0,004 = 249,6 ~ 249.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "Tab.1 p.30, coluna C180, linha CO2 (kg CO2/m3)",
+    "nota": "UHPC (o artigo chama-lhe UHPC). Familia uhpc correcta. ATENCAO: o CO2-M impresso (462/491/519) NAO se reproduz com o traco da propria Tab.1 (790x0,476+1016x0,004+195x0,014+28,2x0,944 = 409,5 para C160; 435,8 C170; 462,2 C180) — diferenca de ~53-57 kg/m3 sem explicacao no artigo. O custo da mesma coluna reproduz-se sem aco (C160: 464,5 vs 465), pelo que a diferenca nao parece ser fibra de aco nao declarada; provavel erro de calculo dos autores. Valor gravado = o impresso; sinalizar."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido + Tab.1 renderizada (PDF descarregado). Valores de mix design de literatura/ICE, sem ensaio. papel 'controlo' = traco base de cada classe (nao ha material novo)."
+ },
+ {
+  "row_id": 3017,
+  "pares": [
+   {
+    "sheet_row": 259,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.1: 'the cradle-to-gate system for mortar production ... the functional unit was 1 m3 mortar'; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3b (fck 28 d) e Fig.9 barra 'Measured' (pixel)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas e cinza de biomassa (residuo agricola) a substituir 5-15% do cimento -> deveria ser scm. Mesmo CO2 (459,5) que a linha 2115 mas mistura e fck diferentes (moida vs carbonatada; a captura na RHA e pequena, ~18 g CO2/kg modelado): NAO e duplicado."
+   },
+   {
+    "sheet_row": 2110,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.1: 'the cradle-to-gate system for mortar production ... the functional unit was 1 m3 mortar'; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.3b (fck 28 d) e Fig.9 barra 'Measured' (pixel)",
+    "nota": "Controlo PC; familia opc correcta."
+   },
+   {
+    "sheet_row": 2111,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.1: 'the cradle-to-gate system for mortar production ... the functional unit was 1 m3 mortar'; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3b (fck 28 d) e Fig.9 barra 'Measured' (pixel)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas e cinza de biomassa (residuo agricola) a substituir 5-15% do cimento -> deveria ser scm."
+   },
+   {
+    "sheet_row": 2112,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.1: 'the cradle-to-gate system for mortar production ... the functional unit was 1 m3 mortar'; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3b (fck 28 d) e Fig.9 barra 'Measured' (pixel)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas e cinza de biomassa (residuo agricola) a substituir 5-15% do cimento -> deveria ser scm."
+   },
+   {
+    "sheet_row": 2113,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.1: 'the cradle-to-gate system for mortar production ... the functional unit was 1 m3 mortar'; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3b (fck 28 d) e Fig.9 barra 'Measured' (pixel)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas e cinza de biomassa (residuo agricola) a substituir 5-15% do cimento -> deveria ser scm."
+   },
+   {
+    "sheet_row": 2114,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.1: 'the cradle-to-gate system for mortar production ... the functional unit was 1 m3 mortar'; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3b (fck 28 d) e Fig.9 barra 'Measured' (pixel)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas e cinza de biomassa (residuo agricola) a substituir 5-15% do cimento -> deveria ser scm."
+   },
+   {
+    "sheet_row": 2115,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.1: 'the cradle-to-gate system for mortar production ... the functional unit was 1 m3 mortar'; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3b (fck 28 d) e Fig.9 barra 'Measured' (pixel)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas e cinza de biomassa (residuo agricola) a substituir 5-15% do cimento -> deveria ser scm. Mesmo CO2 (459,5) que a linha 259 mas mistura e fck diferentes (moida vs carbonatada; a captura na RHA e pequena, ~18 g CO2/kg modelado): NAO e duplicado."
+   },
+   {
+    "sheet_row": 2116,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.1: 'the cradle-to-gate system for mortar production ... the functional unit was 1 m3 mortar'; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3b (fck 28 d) e Fig.9 barra 'Measured' (pixel)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas e cinza de biomassa (residuo agricola) a substituir 5-15% do cimento -> deveria ser scm. Mesmo CO2 (414,4) que a linha 2117 (M vs C da RHA); fck diferentes: NAO e duplicado."
+   },
+   {
+    "sheet_row": 2117,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.5.1: 'the cradle-to-gate system for mortar production ... the functional unit was 1 m3 mortar'; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.3b (fck 28 d) e Fig.9 barra 'Measured' (pixel)",
+    "nota": "FAMILIA PARECE ERRADA: actual 'opc', mas e cinza de biomassa (residuo agricola) a substituir 5-15% do cimento -> deveria ser scm. Mesmo CO2 (414,4) que a linha 2116 (M vs C da RHA); fck diferentes: NAO e duplicado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (~74 mil caracteres). Todas as 8 misturas com cinza estao com familia 'opc'."
+ }
+]

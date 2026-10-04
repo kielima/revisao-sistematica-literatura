@@ -1,0 +1,641 @@
+[
+ {
+  "row_id": 3155,
+  "pares": [
+   {
+    "sheet_row": 870,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.3.1: 'cradle-to-gate' de betao pronto (GreenConcrete), FU 10 m3 de betao; inventario Tab.4 so cimento, GGBFS, superplastificante, agregados, cartao, fibras PP; nenhuma armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 W00 (Control): 200 cimento + 100 GGBFS, 5 kg/m3 PP; fc28 52,9 MPa (Sec.3.2.1)",
+    "nota": "A propria referencia ja leva 5 kg/m3 de macrofibra PP reciclada e 1/3 de GGBFS. CO2 vem da Fig.16 (sem valores em texto); nao re-verificado por imagem nesta ronda (PDF >10 MB, download falhou)."
+   },
+   {
+    "sheet_row": 871,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.3.1: 'cradle-to-gate' de betao pronto (GreenConcrete), FU 10 m3 de betao; inventario Tab.4 so cimento, GGBFS, superplastificante, agregados, cartao, fibras PP; nenhuma armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3 W06: cartao moido 6 kg/m3 substitui areia; fc28 29,8 MPa",
+    "nota": "Cartao reciclado como agregado fino; PP fibra fixa em todas. CO2 da Fig.16, nao re-verificado."
+   },
+   {
+    "sheet_row": 872,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.3.1: 'cradle-to-gate' de betao pronto (GreenConcrete), FU 10 m3 de betao; inventario Tab.4 so cimento, GGBFS, superplastificante, agregados, cartao, fibras PP; nenhuma armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3 W12: cartao 12 kg/m3 substitui areia",
+    "nota": "CO2 da Fig.16, nao re-verificado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fibras PP dispersas (nao armadura). Familia 'reciclado' coerente para W06/W12; W00 e controlo (com fibra PP reciclada)."
+ },
+ {
+  "row_id": 3162,
+  "pares": [
+   {
+    "sheet_row": 1935,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.9: por aduela 'Concrete 385 | Reinf. 103 (GFRP) | Transport 9,71 | Total 498 kg CO2eq'; volume aduela 1,33 m3 (Tab.8 nota c)",
+    "co2_so_betao": 289.5,
+    "tipo_ligante": "csa",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.1 binder A-CSA-CEM II 380 kg/m3 (10% anidrite, 35% CSA, 55% CEM II/A-LL); fcm,cube 57 MPa aos 15 dias",
+    "nota": "Valor gravado JA e so o betao (385/1,33). Ligante ternario com 55% de CEM II (Portland maioritario) -> 'csa' e discutivel; se a regra for 'ligante principal', poderia ser portland/misto. fck = fcm,cube aos 15 d (cubo 150), nao 28 d."
+   },
+   {
+    "sheet_row": 1936,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.9: OPC/Steel 'Concrete 396 | Reinf. 305 (aco) | Steam-curing 20,5 | Transport 37,7 | Total 760 kg CO2eq' por aduela de 1,33 m3",
+    "co2_so_betao": 297.7,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: OPC/Steel, CEM IV/A(PV) 42.5N SR, fcm,cube 48 MPa aos 28 d",
+    "nota": "Valor gravado JA e so o betao (396/1,33); exclui aco (305) e cura a vapor (20,5). E a referencia do artigo. Familia 'scm' (cimento pozolanico CEM IV) aceitavel; poderia ser 'opc'/controlo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Aduelas de tunel pre-fabricadas armadas (aco vs GFRP); a coluna 'Concrete' da Tab.9 isola o betao. Mix design igual (Tab.1) para os dois betoes segundo o artigo."
+ },
+ {
+  "row_id": 3167,
+  "pares": [
+   {
+    "sheet_row": 874,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4 LCA: '1 m3 mortar by cradle-to-gate', seis misturas SEM fibras; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.11 FA100NS 813,06 kg CO2 eq; fc28 28,6 MPa (Tab.5, Day/28=1)",
+    "nota": "Referencia do artigo (Sec.4: 'reference mixture of FA100NS')."
+   },
+   {
+    "sheet_row": 875,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4 LCA: '1 m3 mortar by cradle-to-gate', seis misturas SEM fibras; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "FA80G20NS 848,53; fc28 44,1",
+    "nota": "20% GGBFS substitui cinza volante."
+   },
+   {
+    "sheet_row": 876,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4 LCA: '1 m3 mortar by cradle-to-gate', seis misturas SEM fibras; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "FA50G50NS 914,00; fc28 62,9",
+    "nota": ""
+   },
+   {
+    "sheet_row": 877,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4 LCA: '1 m3 mortar by cradle-to-gate', seis misturas SEM fibras; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "FA100LS 923,63; fc28 30,6",
+    "nota": "Escoria de chumbo substitui 100% da areia."
+   },
+   {
+    "sheet_row": 878,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4 LCA: '1 m3 mortar by cradle-to-gate', seis misturas SEM fibras; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "FA80G20LS 959,11; fc28 47,5",
+    "nota": "LS como areia + 20% GGBFS."
+   },
+   {
+    "sheet_row": 879,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4 LCA: '1 m3 mortar by cradle-to-gate', seis misturas SEM fibras; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "FA50G50LS 1024,57; fc28 65,6",
+    "nota": "LS como areia + 50% GGBFS."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Valores CML Tab.11 conferem. IPCC Tab.13 da ~1% mais (824...1040)."
+ },
+ {
+  "row_id": 3170,
+  "pares": [
+   {
+    "sheet_row": 880,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4.6: GHG-e de 1 m3 de AANC a partir dos factores da Tab.4 (FA, GGBFS, nGS, fillers, SS, SH); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4.6.2: 'GHG-e for AANC with nGS ... 3.2628 t-CO2/m3' (noutro paragrafo 't-CO2/t'); fc28 60,37 MPa (nGS12)",
+    "nota": "ERRO GRAVE: 3,2628 e exactamente a SOMA dos factores unitarios da Tab.4 (0,004+0,052+0,065+0,0048+1,222+1,915 = 3,2628), nao o CO2 da mistura. O gravado (3,2628 kg/m3, 'publicado em kg CO2-eq/m3') nao corresponde a nada: o artigo diz t, e o numero e um somatorio de factores. Reconstrucao nossa (Tab.2 nGS12 x Tab.4): FA 232x0,004 + GGBFS 120x0,052 + nGS 48x0,065 + filler (625+958)x0,0048 + SS 168x1,222 + SH 67,2x1,915 = ~352 kg/m3 (nao publicada). Recomenda-se NAO CONVERTIDO ou reconstruir com alerta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "nGS (nano-escoria) substitui parte da cinza volante (12% do FA). Par fora de escala (3,26 kg/m3)."
+ },
+ {
+  "row_id": 3173,
+  "pares": [
+   {
+    "sheet_row": 881,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.2: 'cradle-to-gate', FU 1 m3 de betao; inventario Tab.1 (OPC, escoria, FA, cinza vulcanica, agregados, agua, SP); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 M1 OPC only 445 kg; 511 kg CO2 eq/m3; 59,23 MPa",
+    "nota": ""
+   },
+   {
+    "sheet_row": 882,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.2: 'cradle-to-gate', FU 1 m3 de betao; inventario Tab.1 (OPC, escoria, FA, cinza vulcanica, agregados, agua, SP); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "M2 30% slag; 446; 63,0",
+    "nota": ""
+   },
+   {
+    "sheet_row": 883,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.2: 'cradle-to-gate', FU 1 m3 de betao; inventario Tab.1 (OPC, escoria, FA, cinza vulcanica, agregados, agua, SP); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "M3 50% slag; 366; 64,37",
+    "nota": ""
+   },
+   {
+    "sheet_row": 884,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.2: 'cradle-to-gate', FU 1 m3 de betao; inventario Tab.1 (OPC, escoria, FA, cinza vulcanica, agregados, agua, SP); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "M5 20% volcanic ash; 429; 70,70",
+    "nota": "Cinza vulcanica = pozolana natural, nao residuo."
+   },
+   {
+    "sheet_row": 885,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.2: 'cradle-to-gate', FU 1 m3 de betao; inventario Tab.1 (OPC, escoria, FA, cinza vulcanica, agregados, agua, SP); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "M6 30% volcanic ash; 385; 64,80",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Tab.1 tem 'Mixtures ... [46]': tracos e fc28 vem de ref. externa [46]. Falta no painel a M4 (25% fly ash, 68,5 MPa, 479 kg CO2 eq/m3 no Apendice A) - par recuperavel."
+ },
+ {
+  "row_id": 3176,
+  "pares": [
+   {
+    "sheet_row": 886,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.4 control 44,79 MPa; GWP Fig.15a",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1937,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-5%A; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) adicionado a mistura (adicao, % da massa de FA)"
+   },
+   {
+    "sheet_row": 1938,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-5%S; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) a substituir cinza volante"
+   },
+   {
+    "sheet_row": 1939,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-10%A; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) adicionado a mistura (adicao, % da massa de FA)"
+   },
+   {
+    "sheet_row": 1940,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-10%S; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) a substituir cinza volante"
+   },
+   {
+    "sheet_row": 1941,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-15%A; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) adicionado a mistura (adicao, % da massa de FA)"
+   },
+   {
+    "sheet_row": 1942,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-15%S; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) a substituir cinza volante"
+   },
+   {
+    "sheet_row": 1943,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-20%A; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) adicionado a mistura (adicao, % da massa de FA)"
+   },
+   {
+    "sheet_row": 1944,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-20%S; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) a substituir cinza volante"
+   },
+   {
+    "sheet_row": 1945,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-30%A; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) adicionado a mistura (adicao, % da massa de FA)"
+   },
+   {
+    "sheet_row": 1946,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-30%S; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) a substituir cinza volante"
+   },
+   {
+    "sheet_row": 1947,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-40%A; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) adicionado a mistura (adicao, % da massa de FA)"
+   },
+   {
+    "sheet_row": 1948,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: 'cradle-to-gate', GaBi; inventario FA, NaOH, Na2SiO3, carbon black, areia, agua, electricidade; sem armadura. FU nao declarada explicitamente (Tab.2 em kg/m3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4 GPM-40%S; GWP Fig.15a",
+    "nota": "WCB (negro de fumo residual da industria do aluminio) a substituir cinza volante"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "FU nao declarada por escrito; valores ~180 kg compativeis com 1 m3 da Tab.2. Leituras de figura nao re-verificadas nesta ronda."
+ },
+ {
+  "row_id": 3178,
+  "pares": [
+   {
+    "sheet_row": 887,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4.1: cradle-to-gate de blocos de betao prensados (200x100x60 mm), FU 1 m3; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.5 CII OPCCB (C30) 25,51 kg CO2-eq m-3 MPa-1; fc28 21,94 MPa",
+    "nota": "CO2 derivado (CII x fck = 559,7); coerente com o texto: OPC 201,62 kg = 97,3% da fase I, fabrico 59,39% do total, e AASCB 13,7% abaixo (559,7x0,863 = 483,0). DES (solo de escavacao) substitui areia. Referencia do artigo e o tijolo cozido (FCB)."
+   },
+   {
+    "sheet_row": 888,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4.1: cradle-to-gate de blocos de betao prensados (200x100x60 mm), FU 1 m3; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.5 CII AASCB (A20) 9,64; fc28 50,13 MPa",
+    "nota": "AAS + 20% DES como agregado; tambem residuo no agregado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Blocos de alvenaria prensados, nao betao moldado; familias opc/geopolimero coerentes."
+ },
+ {
+  "row_id": 3179,
+  "pares": [
+   {
+    "sheet_row": 889,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-0RCA; Tab.5 f'c",
+    "nota": "Serie AA sem RCA: diferenca face a referencia NC e o ligante (HFA residuo)."
+   },
+   {
+    "sheet_row": 890,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-SF-0RCA; Tab.5 f'c",
+    "nota": "Serie AA sem RCA: diferenca face a referencia NC e o ligante (HFA residuo). Com 10% silica de fumo."
+   },
+   {
+    "sheet_row": 1842,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-20RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA."
+   },
+   {
+    "sheet_row": 1843,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-SF-20RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA. Com 10% silica de fumo."
+   },
+   {
+    "sheet_row": 1844,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-40RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA."
+   },
+   {
+    "sheet_row": 1845,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-SF-40RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA. Com 10% silica de fumo."
+   },
+   {
+    "sheet_row": 1846,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-60RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA."
+   },
+   {
+    "sheet_row": 1847,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-SF-60RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA. Com 10% silica de fumo."
+   },
+   {
+    "sheet_row": 1848,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-80RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA."
+   },
+   {
+    "sheet_row": 1849,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-SF-80RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA. Com 10% silica de fumo."
+   },
+   {
+    "sheet_row": 1850,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-100RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA."
+   },
+   {
+    "sheet_row": 1851,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.6: LCA em t CO2-e por traco da Tab.3 (kg/m3) x factores Tab.8 - so materiais do betao; os varoes nervurados sao so do ensaio de aderencia, fora da LCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.9 AAHFAC-SF-100RCA; Tab.5 f'c",
+    "nota": "RCA substitui NCA. Com 10% silica de fumo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "ALERTA de fonte: Tab.8 usa 0,43 t CO2-e/t para agregado grosso natural (valor ~100x acima do usual) e a NCA domina o total (0,501 de 0,613 na 0RCA); a reducao com RCA vem quase toda daqui. Valores gravados conferem com a Tab.9. 1842/1843 e outras duplas AAHFAC/AAHFAC-SF tem o mesmo CO2 com fck diferentes - nao sao duplicados (misturas distintas). Inconsistencia do artigo: Tab.9 da HFA 470 + SF 47 na SF-0RCA, Tab.3 da 423+47 nas restantes. Os 6 pares NC (Tab.10, Portland) nao estao no painel."
+ },
+ {
+  "row_id": 3182,
+  "pares": [
+   {
+    "sheet_row": 892,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Sec.3: cradle-to-gate, FU por m3 + resistencia; inventario Tab.4 so materiais do betao; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.5 E1 365,71; Tab.3 31,0 MPa",
+    "nota": ""
+   },
+   {
+    "sheet_row": 893,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Sec.3: cradle-to-gate, FU por m3 + resistencia; inventario Tab.4 so materiais do betao; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "E2 361,10; 37,5 MPa",
+    "nota": "20% agregado grosso por e-plastic."
+   },
+   {
+    "sheet_row": 894,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Sec.3: cradle-to-gate, FU por m3 + resistencia; inventario Tab.4 so materiais do betao; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "E3 278,68; 52,0 MPa",
+    "nota": "E2 + 30% GGBS; distingue-se tambem pelo e-plastic (agregado)."
+   },
+   {
+    "sheet_row": 895,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Sec.3: cradle-to-gate, FU por m3 + resistencia; inventario Tab.4 so materiais do betao; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "E4 287,32; 35,0 MPa",
+    "nota": "Geopolimero FA+GGBS com 20% e-plastic."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Tracos e fc28 dos 4 cenarios vem da literatura (Tab.2: refs [26],[15],[16]), nao de ensaio proprio. Familia 'reciclado' em E3 discutivel (scm+reciclado)."
+ }
+]

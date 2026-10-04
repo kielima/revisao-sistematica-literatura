@@ -1,0 +1,356 @@
+[
+ {
+  "row_id": 3359,
+  "rotulo": "Zastrow et al., 2017",
+  "titulo": "Life cycle assessment of cost-optimized buttress earth-retaining walls: A parametric study",
+  "pdf": "ZASTROW et al., 2017.pdf",
+  "fileId": "1T1cniYsZ1B6F3Rx2cY4ODYSqyWBiPxBl",
+  "pares": [
+   {
+    "sheet_row": 1998,
+    "material": "betao 25 MPa (unico betao do estudo; 250 kg/m3 cimento, 165 agua, 940 brita, 1050 areia) - factor de impacto por m3",
+    "fck": 25.0,
+    "co2_kg_m3": 248.0,
+    "co2_conversao": "nenhuma - publicado por m3 [REVISAO 2026-09-27, leitura integral; confianca alta]",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3360,
+  "rotulo": "Teh et al., 2017",
+  "titulo": "Hybrid life cycle assessment of greenhouse gas emissions from cement, concrete and geopolymer concrete in Australia",
+  "pdf": "TEH et al., 2017b.pdf",
+  "fileId": "1QiIIv2NkBJye7cnHy6z7AEvqRIa_WPt6",
+  "pares": [
+   {
+    "sheet_row": 394,
+    "material": "betao geopolimerico 90% cinza volante/10% GGBFS (Geopolymer 90% FA), hLCA",
+    "fck": 50.0,
+    "co2_kg_m3": 345.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 395,
+    "material": "betao geopolimerico 90% GGBFS/10% cinza volante (Geopolymer 90% GGBFS), hLCA",
+    "fck": 50.0,
+    "co2_kg_m3": 291.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 396,
+    "material": "betao OPC 100% (100% OPC 50 MPa), hLCA -- valor de referencia dos GPC",
+    "fck": 50.0,
+    "co2_kg_m3": 508.9,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 3363,
+  "rotulo": "Marinkovic et al., 2017",
+  "titulo": "Environmental assessment of green concretes for structural use",
+  "pdf": "MARINKOVIC, 2017.pdf",
+  "fileId": "1zi-TiIJI4ZJXirPma6lh70sQfL-tmScW",
+  "pares": [
+   {
+    "sheet_row": 376,
+    "material": "NAC (betao de agregado natural, mistura de referencia)",
+    "fck": 40.5,
+    "co2_kg_m3": 260.4,
+    "co2_conversao": "260,4 kg / FU 1,0 m3 = 260.4 (identidade)",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 377,
+    "material": "NAC_FA (betao de agregado natural, 35% cinza volante)",
+    "fck": 42.0,
+    "co2_kg_m3": 197.1,
+    "co2_conversao": "216,8 kg / FU 1,1 m3 = 197.1",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 378,
+    "material": "NAC_AAFA (betao de agregado natural, cinza volante alcali-activada, cura elevada)",
+    "fck": 40.7,
+    "co2_kg_m3": 134.2,
+    "co2_conversao": "134,2 kg / FU 1,0 m3 = 134.2 (identidade)",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 379,
+    "material": "RAC (betao de agregado reciclado)",
+    "fck": 42.1,
+    "co2_kg_m3": 266.3,
+    "co2_conversao": "292,9 kg / FU 1,1 m3 = 266.3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 380,
+    "material": "RAC_FA (betao de agregado reciclado, 35% cinza volante)",
+    "fck": 40.5,
+    "co2_kg_m3": 196.5,
+    "co2_conversao": "216,1 kg / FU 1,1 m3 = 196.5",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 3367,
+  "rotulo": "Gutierreza et al., 2017",
+  "titulo": "Improved selection of the functional unit in environmental impact assessment of cement",
+  "pdf": "GUTIERREZA, 2017.pdf",
+  "fileId": "1f3Sn2IehNlJ-D1J9rKZw4Q5Txsm0vJvG",
+  "pares": [
+   {
+    "sheet_row": 397,
+    "material": "cimento PC (ASTM, sem zeolito) -- Cementos Cienfuegos S.A., Cuba",
+    "fck": 35.0,
+    "co2_kg_m3": 432.0,
+    "co2_conversao": "400 kg/m3 (Tab.6; confirmado por bi=11,4 kg/(m3.MPa) Tab.7 x 35 MPa) x 1,08 = 432 kg CO2-eq/m3 (so cimento) [REVISAO 2026-09-27, leitura integral; confianca media (fronteira so cimento; fck de projecto)]",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 398,
+    "material": "cimento P-35 (Cuban Standard NC-95:2011, 5% zeolito) -- Cementos Cienfuegos S.A., Cuba",
+    "fck": 35.0,
+    "co2_kg_m3": 408.0,
+    "co2_conversao": "400 x 1,02 = 408 kg CO2-eq/m3 (so cimento) [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 399,
+    "material": "cimento PP-25 (Cuban Standard NC-96:2011, 19% zeolito) -- Cementos Cienfuegos S.A., Cuba",
+    "fck": 25.0,
+    "co2_kg_m3": 301.0,
+    "co2_conversao": "350 (Tab.6; bi=14,0 x 25) x 0,86 = 301 kg CO2-eq/m3 (so cimento) [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 3377,
+  "rotulo": "Espuelas et al., 2018",
+  "titulo": "Technical and environmental characterization of hydraulic and alkaline binders",
+  "pdf": "ESPUELAS, 2018 - j.jclepro.2018.06.090.pdf",
+  "fileId": "1klAU1n8ogyKBcdWaTcuNUZJQTB3bBAem",
+  "pares": [
+   {
+    "sheet_row": 970,
+    "material": "ligante alcali-activado GGBS 100% (ativador NaOH 6M)",
+    "fck": 66.8,
+    "co2_kg_m3": 121.77,
+    "co2_conversao": "56,9 kg/t x densidade 2,14 t/m3 (Tab.5) = 121.77",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 971,
+    "material": "ligante alcali-activado GGBS 100% (ativador NaOH 8M)",
+    "fck": 61.0,
+    "co2_kg_m3": 132.25,
+    "co2_conversao": "61,8 kg/t x densidade 2,14 t/m3 (Tab.5) = 132.25",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 972,
+    "material": "ligante alcali-activado GGBS 100% (ativador NaOH 10M)",
+    "fck": 62.1,
+    "co2_kg_m3": 143.41,
+    "co2_conversao": "66,7 kg/t x densidade 2,15 t/m3 (Tab.5) = 143.41",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 973,
+    "material": "ligante alcali-activado GGBS25:FA75 (ativador NaOH 6M)",
+    "fck": 52.7,
+    "co2_kg_m3": 86.32,
+    "co2_conversao": "41,3 kg/t x densidade 2,09 t/m3 (Tab.5) = 86.32",
+    "familia_atual": "ligantes"
+   },
+   {
+    "sheet_row": 974,
+    "material": "ligante alcali-activado GGBS50:FA50 (ativador NaOH 6M)",
+    "fck": 54.2,
+    "co2_kg_m3": 97.65,
+    "co2_conversao": "46,5 kg/t x densidade 2,1 t/m3 (Tab.5) = 97.65",
+    "familia_atual": "ligantes"
+   },
+   {
+    "sheet_row": 975,
+    "material": "ligante alcali-activado GGBS75:FA25 (ativador NaOH 6M)",
+    "fck": 56.8,
+    "co2_kg_m3": 109.09,
+    "co2_conversao": "51,7 kg/t x densidade 2,11 t/m3 (Tab.5) = 109.09",
+    "familia_atual": "ligantes"
+   }
+  ]
+ },
+ {
+  "row_id": 3384,
+  "rotulo": "Abdulkareem et al., 2019",
+  "titulo": "How environmentally sustainable are fibre reinforced alkali-activated concretes?",
+  "pdf": "ABDULKAREEM et al., 2019 - j.jclepro.2019.07.076.pdf",
+  "fileId": "1dRfiq0auGS6vRhrvUZdoT84ggINgk8-e",
+  "pares": [
+   {
+    "sheet_row": 976,
+    "material": "concreto convencional (CC) — referencia",
+    "fck": 38.0,
+    "co2_kg_m3": 334.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 977,
+    "material": "concreto convencional reforcado com fibra de aco (SFRCC)",
+    "fck": 38.0,
+    "co2_kg_m3": 418.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 978,
+    "material": "concreto alcali-ativado reforcado com fibra de aco (S_1)",
+    "fck": 38.0,
+    "co2_kg_m3": 167.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 979,
+    "material": "concreto alcali-ativado reforcado com fibra de vidro (GF_5)",
+    "fck": 38.0,
+    "co2_kg_m3": 167.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 980,
+    "material": "concreto alcali-ativado reforcado com fibra de polipropileno (PP_4)",
+    "fck": 38.0,
+    "co2_kg_m3": 167.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 3399,
+  "rotulo": "DeRousseau et al., 2020",
+  "titulo": "Statistical variation in the embodied carbon of concrete mixtures",
+  "pdf": "DEROUSSEAU et al., 2020.pdf",
+  "fileId": "1Kx-LzS9HZspLpdb1tAXh9PvuSMhHhD-Y",
+  "pares": [
+   {
+    "sheet_row": 407,
+    "material": "betao Mistura 1a (21 MPa-alvo, sem cinza volante)",
+    "fck": 21.0,
+    "co2_kg_m3": 174.8,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 408,
+    "material": "betao Mistura 1b (21 MPa-alvo, 20% cinza volante)",
+    "fck": 21.0,
+    "co2_kg_m3": 144.8,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 3403,
+  "rotulo": "Stoiber et al., 2021",
+  "titulo": "Cradle-to-gate life cycle assessment of CFRP reinforcement for concrete structures: Calculation basis and exemplary application",
+  "pdf": "STOIBER et al., 2021 - j.jclepro.2020.124300.pdf",
+  "fileId": "1bzZiOGS7Lco3y7qLQf6EONI85vO3wAET",
+  "pares": [
+   {
+    "sheet_row": 984,
+    "material": "concreto estrutural classe C30/37 (paredes, ponte exemplar)",
+    "fck": 30.0,
+    "co2_kg_m3": 232.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 985,
+    "material": "concreto estrutural classe C50/60 (tabuleiro, ponte exemplar)",
+    "fck": 50.0,
+    "co2_kg_m3": 335.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 986,
+    "material": "concreto estrutural classe C70/85 (tabuleiro e paredes, ponte exemplar com reforco CFRP)",
+    "fck": 70.0,
+    "co2_kg_m3": 431.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 3404,
+  "rotulo": "Abdulkareem et al., 2021",
+  "titulo": "Environmental and economic perspective of waste-derived activators on alkali-activated mortars",
+  "pdf": "ABDULKAREEM et al., 2021 - j.jclepro.2020.124651.pdf",
+  "fileId": "183CCUoAPgbV7u2PbNijs5E9xd5Wbq5WD",
+  "pares": [
+   {
+    "sheet_row": 987,
+    "material": "argamassa alcali-ativada S1 (one-part, ativador em po convencional)",
+    "fck": 52.0,
+    "co2_kg_m3": 190.6,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (UF = 1 m3 de argamassa, sec.2.2.1); valor lido no grafico por medicao de pixeis contra as linhas de grelha (S1 190,6; S2 174,2 = 92% de S1; S3 72,4 = 38%; S4 = 38% de S1 = 72,4); coerente com o texto p.5 ('S3 and S4 both had 62% lower emissions when compared to S",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 988,
+    "material": "argamassa alcali-ativada S2 (two-part, ativador aquoso convencional)",
+    "fck": 58.0,
+    "co2_kg_m3": 174.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (UF = 1 m3 de argamassa, sec.2.2.1); valor lido no grafico por medicao de pixeis contra as linhas de grelha (S1 190,6; S2 174,2 = 92% de S1; S3 72,4 = 38%; S4 = 38% de S1 = 72,4); coerente com o texto p.5 ('S3 and S4 both had 62% lower emissions when compared to S",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 989,
+    "material": "argamassa alcali-ativada S3 (one-part, ativador derivado de vidro/WG-NaOH)",
+    "fck": 58.0,
+    "co2_kg_m3": 72.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (UF = 1 m3 de argamassa, sec.2.2.1); valor lido no grafico por medicao de pixeis contra as linhas de grelha (S1 190,6; S2 174,2 = 92% de S1; S3 72,4 = 38%; S4 = 38% de S1 = 72,4); coerente com o texto p.5 ('S3 and S4 both had 62% lower emissions when compared to S",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 990,
+    "material": "argamassa alcali-ativada S4 (two-part, ativador derivado de RHA-NaOH)",
+    "fck": 60.0,
+    "co2_kg_m3": 72.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (UF = 1 m3 de argamassa, sec.2.2.1); valor lido no grafico por medicao de pixeis contra as linhas de grelha (S1 190,6; S2 174,2 = 92% de S1; S3 72,4 = 38%; S4 = 38% de S1 = 72,4); coerente com o texto p.5 ('S3 and S4 both had 62% lower emissions when compared to S",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 3409,
+  "rotulo": "Pedneault et al., 2021",
+  "titulo": "Economic and environmental life cycle assessment of a short-span aluminium composite bridge deck in Canada",
+  "pdf": "PEDNEAULT et al., 2021 - j.jclepro.2021.127405.pdf",
+  "fileId": "194eiL3s5-L2u5Gx_tvb24DTRZ8YY8kHv",
+  "pares": [
+   {
+    "sheet_row": 991,
+    "material": "concreto (tabuleiro de ponte, CD — comparacao com tabuleiro de aluminio AD)",
+    "fck": 35.0,
+    "co2_kg_m3": 626.2,
+    "co2_conversao": "Tab.4 \"Decking\" CD 3,20 x 10^4 kg (expoente impresso 10^5 corrigido: com 10^5 os factores implicitos de TODOS os materiais sao absurdos - aco 14 kg/kg, Al 57 kg/kg, betao 6.262 kg/m3; com 10^4 ficam plausiveis) / 51,1 m3 de betao 35 MPa (Tab.3) = 626,2 [ALERTA ETAPA4: expoente corrigido por nos] [RE",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ }
+]

@@ -1,0 +1,348 @@
+[
+ {
+  "row_id": 4836,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1805,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1/Tab.2: unidade funcional = producao de 1 m3 de betao pronto; valores por produto de betao, sem armadura no inventario do produto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2: A HVMA Concrete 92.0 vs baseline 375.0 kg CO2 eq/unit (FU 1 m3, 50 MPa)",
+    "nota": "HVMA = High Volume Mineral Admixture (Tab.1: 'Resource recycling (use of industrial waste)'); composicao do ligante nao detalhada; valores de factor CFF (fabricante), sem inventario proprio."
+   },
+   {
+    "sheet_row": 1806,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1/Tab.2: unidade funcional = producao de 1 m3 de betao pronto; valores por produto de betao, sem armadura no inventario do produto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2: B HVMA SCC Concrete 145.0 vs baseline 417.0",
+    "nota": "Betao autocompactavel com alto teor de adicoes minerais (residuos industriais)."
+   },
+   {
+    "sheet_row": 1807,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1/Tab.2: unidade funcional = producao de 1 m3 de betao pronto; valores por produto de betao, sem armadura no inventario do produto",
+    "co2_so_betao": null,
+    "tipo_ligante": "outro",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2: C Non-cement Concrete 149.0 vs baseline 539.0; Tab.1 'Non-cement / Use of industrial waste materials'",
+    "nota": "Betao sem cimento a base de residuos industriais (provavel ligante de escoria activada, mas o artigo nao diz o activador nem a composicao) -> NAO e Portland; familia actual 'opc' parece errada (alcalino/ligantes alternativos)."
+   },
+   {
+    "sheet_row": 1808,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.1/Tab.2: unidade funcional = producao de 1 m3 de betao pronto; valores por produto de betao, sem armadura no inventario do produto",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.2: E Amorphous Steel Fiber Concrete 253.6 vs baseline 320.0; Tab.1 E: 24 MPa, FU 24 MPa ready-mixed 1 m3",
+    "nota": "Fibras de aco amorfo dispersas (nao sao armadura). Tab.1 lista para E/G tambem 'Use of industrial waste materials', sem detalhe; residuo marcado 'nao' porque o que distingue e a fibra."
+   }
+  ],
+  "notas": "Valores por m3 de produto (Tab.2), retirados de factores de emissao CFF (Korea) declarados pelos fabricantes; o artigo nao da tracos nem fronteira por produto. O edificio-caso e de betao armado, mas os pares sao factores de produto por m3, sem aco. Nenhum par usa creditos."
+ },
+ {
+  "row_id": 4837,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1809,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: Concrete por classe em kg-CO2/m3 e Rebar em linha propria (3.84 kg-CO2/kg; 318.17 kg-CO2/m2 no caso de referencia)",
+    "co2_so_betao": 329.37,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: Concrete 24 MPa, m3, 329.37 kg-CO2/unit",
+    "nota": "Factor unitario do betao por classe (SUSB-LCA, Coreia), sem material novo; o aco esta separado na linha Rebar, portanto o valor gravado JA e so o betao. Familia 'opc' correcta."
+   },
+   {
+    "sheet_row": 1810,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: Concrete por classe em kg-CO2/m3 e Rebar em linha propria (3.84 kg-CO2/kg; 318.17 kg-CO2/m2 no caso de referencia)",
+    "co2_so_betao": 353.02,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: Concrete 27 MPa, m3, 353.02 kg-CO2/unit",
+    "nota": "Factor unitario do betao por classe (SUSB-LCA, Coreia), sem material novo; o aco esta separado na linha Rebar, portanto o valor gravado JA e so o betao. Familia 'opc' correcta."
+   },
+   {
+    "sheet_row": 1811,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: Concrete por classe em kg-CO2/m3 e Rebar em linha propria (3.84 kg-CO2/kg; 318.17 kg-CO2/m2 no caso de referencia)",
+    "co2_so_betao": 383.77,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: Concrete 30 MPa, m3, 383.77 kg-CO2/unit",
+    "nota": "Factor unitario do betao por classe (SUSB-LCA, Coreia), sem material novo; o aco esta separado na linha Rebar, portanto o valor gravado JA e so o betao. Familia 'opc' correcta."
+   },
+   {
+    "sheet_row": 1812,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: Concrete por classe em kg-CO2/m3 e Rebar em linha propria (3.84 kg-CO2/kg; 318.17 kg-CO2/m2 no caso de referencia)",
+    "co2_so_betao": 406.71,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: Concrete 35 MPa, m3, 406.71 kg-CO2/unit",
+    "nota": "Factor unitario do betao por classe (SUSB-LCA, Coreia), sem material novo; o aco esta separado na linha Rebar, portanto o valor gravado JA e so o betao. Familia 'opc' correcta."
+   },
+   {
+    "sheet_row": 1813,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: Concrete por classe em kg-CO2/m3 e Rebar em linha propria (3.84 kg-CO2/kg; 318.17 kg-CO2/m2 no caso de referencia)",
+    "co2_so_betao": 429.65,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: Concrete 40 MPa, m3, 429.65 kg-CO2/unit",
+    "nota": "Factor unitario do betao por classe (SUSB-LCA, Coreia), sem material novo; o aco esta separado na linha Rebar, portanto o valor gravado JA e so o betao. Familia 'opc' correcta."
+   },
+   {
+    "sheet_row": 1814,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3: Concrete por classe em kg-CO2/m3 e Rebar em linha propria (3.84 kg-CO2/kg; 318.17 kg-CO2/m2 no caso de referencia)",
+    "co2_so_betao": 508.39,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: Concrete 50 MPa, m3, 508.39 kg-CO2/unit",
+    "nota": "Factor unitario do betao por classe (SUSB-LCA, Coreia), sem material novo; o aco esta separado na linha Rebar, portanto o valor gravado JA e so o betao. Familia 'opc' correcta."
+   }
+  ],
+  "notas": "Os rotulos do material dizem 'concreto armado' mas o CO2 gravado e o factor do betao sozinho (Tab.3). O caso 4 (20% de escoria) nao tem factor por m3 proprio no artigo. Sem creditos (a carbonatacao serve so para a vida util)."
+ },
+ {
+  "row_id": 4841,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1815,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.6 (subestrutura): Concrete 3.40e2 kg CO2 eq vs Steel Reinforcement 7.28 kg CO2 eq (por m2 GFA) - aco em coluna separada",
+    "co2_so_betao": 432.8,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6: GWP100 Concrete 3.40 x 10^2 kg CO2 eq (por m2 GFA); Tab.7: cement 2.82e2, transporte 3.40e1; Tab.1: concrete grade 25 184.03 m3 + blinding grade 7 21.74 m3",
+    "nota": "O valor gravado (432.8) JA e so o betao (340 da coluna Concrete). Ressalva: o 'Concrete' da subestrutura pode incluir o betao de limpeza grade 7 (21.74 m3); se incluir, o divisor seria (184.03+21.74)x1.05/246 = 0.878 m3/m2 e o valor ~387 kg/m3. A conta gravada usa so o grade 25; a verificacao 282/359 e coerente com essa escolha mas nao a prova. Confianca media mantem-se."
+   }
+  ],
+  "notas": "Edificio de betao armado; a contribuicao de processo da subestrutura separa betao e armadura. Aco modelado com sucata (reciclado) mas isso so afecta a linha do aco. Sem creditos no valor do betao."
+ },
+ {
+  "row_id": 4846,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1817,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.1: passive steel 66.89 kg/m2 + active steel 21.98 kg/m2; Fig.10: manufacturing GWP = cement + passive reinforcement + active reinforcement + transport + other",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: GWP Manufacturing 3589.85 kg CO2 eq (FU 1 m de ponte); Tab.1: concrete 0.674 m3/m2, 35 MPa",
+    "nota": "O valor gravado (451.4 kg/m3) inclui armadura passiva e activa (pre-esforco). A Fig.10 (tarte sem percentagens impressas) sugere ~45% do GWP de fabrico no aco (passivo ~1/3, activo ~1/8) -> so betao seria da ordem de 250 kg/m3, mas nao ha numero impresso para separar. Familia actual 'opc' parece errada -> concreto_armado. Valor so da etapa de fabrico (sem construcao, manutencao nem fixacao de CO2/EoL)."
+   },
+   {
+    "sheet_row": 1818,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.1: passive steel 74.67 kg/m2 + active steel 19.8 kg/m2; Fig.10",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: GWP Manufacturing 4413.77 kg CO2 eq (FU 1 m); Tab.1: concrete 0.67 m3/m2, 50 MPa",
+    "nota": "Idem: inclui aco passivo e activo, nao separavel com numeros impressos (Fig.10 sem rotulos). Familia -> concreto_armado."
+   }
+  ],
+  "notas": "Divisao feita por (m3/m2 x 11.8 m de largura) esta correcta. O EoL tem credito de carbonatacao (-807.73 / -1099.20 kg) mas nao entrou no valor gravado (so Manufacturing)."
+ },
+ {
+  "row_id": 4847,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1819,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (Tab.1, Fig.1); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.5.3/Tab.6: 24 MPa total 364.99 (364.9) kg-CO2 eq/m3; Tab.5: OPC 336, FA 0, R/S 443",
+    "nota": "Producao real de uma central (Seongnam), sem mistura de referencia; o traco de 24 MPa tem areia reciclada (R/S 443 kg) e sem cinza volante. Nao e 'material novo' face a controlo -> 'outro'."
+   },
+   {
+    "sheet_row": 1820,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6: 30 MPa total 365.36 kg-CO2 eq/m3; Tab.5: OPC 334, FA 59, R/S 394, R/W 68",
+    "nota": "Traco com cinza volante (59 kg) e areia/agua recicladas; sem referencia comparativa no artigo."
+   }
+  ],
+  "notas": "Familia 'opc' correcta. Sem creditos."
+ },
+ {
+  "row_id": 4849,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1821,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate de 1 m3 de betao (Sec.2.2.1, Fig.3); sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6: GWP100 Control 3.45 x 10^2 kg CO2-Eq; Tab.2: cimento 355",
+    "nota": "E o controlo: familia actual 'reciclado' parece errada -> opc."
+   },
+   {
+    "sheet_row": 1822,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6: SFPMB 3.15 x 10^2; Fig.5/texto: 29 MPa aos 28 d; Tab.2: cimento 319.5, HDPE 35.5, SF 0.71",
+    "nota": "Granulos de HDPE de garrafas de leite substituem 10% do cimento em massa (material inerte, nao cimenticio) com 2% de silica de fumo sobre o residuo. Classificado como substituicao do ligante porque o artigo o trata assim."
+   },
+   {
+    "sheet_row": 1823,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6: SFMKPMB 3.04 x 10^2; texto: 32 MPa; Tab.2: cimento 301.7, HDPE 35.5, SF 0.71, MK 17.8",
+    "nota": "HDPE (10%) + metacaulino (5%) a substituir cimento."
+   }
+  ],
+  "notas": "Valores gravados = Tab.6 (materiais, ReCiPe/Ecoinvent). Os totais Monte Carlo (568/1202/1191) incluem energia de maquinas de laboratorio e nao foram usados (correcto). PMB (15 MPa) tem o mesmo CO2 que SFPMB (315) mas nao esta gravado -> sem duplicado. Sem creditos."
+ },
+ {
+  "row_id": 4855,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1824,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.1: 'the steel in the reinforced concrete is separated by magnetic separation, but this process is not included'; Tab.2 sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.3: Climate change (GWP20) RAC 902.7170594 'kg' CO2-Eq para 3411.38 m3 C25",
+    "nota": "Agregado reciclado de RCD pos-sismo. Atencao: o indicador e GWP20, nao GWP100 (ja anotado na decisao de 29/09)."
+   },
+   {
+    "sheet_row": 1825,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3: GWP20 NAC 931.9143",
+    "nota": "E o controlo (agregado natural): familia actual 'reciclado' parece errada -> opc."
+   }
+  ],
+  "notas": "Sem armadura nem creditos. Conversao t->kg/3411.38 m3 segue decisao da Kie de 29/09."
+ },
+ {
+  "row_id": 4869,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1826,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2 (Caso 1, HA-25 B com 50 kg acero/m3): Produccion de acero 31.15, Preparacion de la ferralla 0.95, Transporte de acero 2.66, Transporte de ferralla 0.52 kg CO2/m3 (valores medios)",
+    "co2_so_betao": 302.39,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: TOTAL 229.88 / 337.67 / 462.70 kg CO2/m3 (min/med/max)",
+    "nota": "O valor gravado (337.67) AINDA INCLUI o aco (35.28 kg/m3 entre producao, preparacao e transportes). So betao = 337.67 - 31.15 - 0.95 - 2.66 - 0.52 = 302.39 kg/m3 (inclui cimento, aridos, aditivos, preparacao, colocacao em obra e transportes de cimento/arido/aditivos/betao). Se ficar o valor total, a familia deveria ser concreto_armado (actual 'opc')."
+   }
+  ],
+  "notas": "A Tab.3 (Caso 2) tem mais 5 variantes HA-25 (T3.1-T3.5, 280.77-498.28 kg CO2/m3, todas com 50 kg de aco/m3) nao gravadas. Sem creditos."
+ },
+ {
+  "row_id": 4930,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1835,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "Tab.2: factores Concrete 3,532 e Rebar 259 em linhas separadas (unidade impressa kgCO2-eq/m3 para toda a tabela)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: GLT 87.64, Steel 11,241, Concrete 3,532, Rebar 259 (kgCO2-eq/m3); Fig.9(a) volume-based: Timber 0.78%, RC 2.3%, Steel 100%",
+    "nota": "ERRO GRAVE PROVAVEL: 3532 kg CO2/m3 e implausivel para betao C30 (~10x o normal). A Fig.9(a) normaliza por volume: Timber 0.78% (=87.64/11241, confere) e RC 2.3% -> 0.023 x 11241 = ~259 kg/m3, que coincide com a linha 'Rebar 259'. Ou seja, as linhas Concrete/Rebar da Tab.2 parecem trocadas ou mal rotuladas, e o factor volumico do RC/betao usado pelos autores e ~259. O valor gravado 3532 nao deve ficar; recomenda-se marcar NAO CONVERTIDO (ou 259 com alerta forte, decisao da Kie). Se 259 for o betao, nao inclui aco."
+   }
+  ],
+  "notas": "Artigo de conferencia WCTE 2023 (6 pp.), lido por inteiro, Tab.2 e Fig.9 vistas como imagem. A unidade funcional do estudo e 1 m de viga; o gravado e o factor de material, nao o resultado da viga."
+ },
+ {
+  "row_id": 4931,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1858,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.4 (RC shear wall): Shear Wall Reinforcement 5454 kg, Shear Trans. 2560 kg, Wall Foundation steel 228 kg, Fasteners 86.2 kg (~8.3 t de aco); Fig.7 so separa por etapa do ciclo de vida, nao por material",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.5: RC Wall GWP 5.0E+04 kg CO2 eq sem creditos BBL; Fig.7: RC Production 4.5E+04, Construction 3.5E+03, End-of-Life 2.2E+03, BBL +2.2E+03 (total 5.25E+04)",
+    "nota": "Inclui aco e nao e separavel (o artigo nao desagrega o RC por material). O 5.0E+04 e cradle-to-grave SEM BBL (sem creditos de reciclagem do aco) e inclui construcao e fim de vida, nao so producao (so producao seria 4.5E+04 -> 578 kg/m3). Familia concreto_armado correcta."
+   }
+  ],
+  "notas": "Valores lidos nas Figs.5-7 renderizadas. Divisor 72.6+5.2 m3 confere com a Tab.4."
+ }
+]

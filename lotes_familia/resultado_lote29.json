@@ -1,0 +1,312 @@
+[
+ {
+  "row_id": 4185,
+  "pares": [
+   {
+    "sheet_row": 564,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.11 (Sankey, p.14): o processo '315 kg 3D concrete' = 59,6% do total (75 kg cimento, 67,7 kg clinquer); nao ha aco/armadura no inventario. 'cracking armor is placed at 50 cm intervals' (p.4-5) nao entra no inventario.",
+    "co2_so_betao": 463.1,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 7: Climate change 116.56 kg CO2 eq por m2 de fachada impressa; Fig.11: 3D concrete 59,6%; Table 3: micro-concrete 0,15 m.",
+    "nota": "Valor so do microbetao (inclui o subarvore cimento/clinquer/electricidade). Microbetao com fibras (tipo nao dito) e 500 kg cimento/m3; fck '>25 MPa' (Table 2) e minimo de especificacao. Fronteira A1-A5 (cradle-to-gate). Massa 315 kg/m2 vs 0,15 m3 -> 2100 kg/m3 (densidade fresca), coerente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido o texto integral e renderizada a Fig.11 (p.14)."
+ },
+ {
+  "row_id": 4201,
+  "pares": [
+   {
+    "sheet_row": 1221,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 / Fig.1: so materiais da mistura (cimento, SP, quartzo, silica de fumo); sem armadura nem fibras.",
+    "co2_so_betao": 761.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "'The climate footprint of the PC-ref. material production amounts to 761 kg CO2-eq./m3' (sec.3.2.1); Fig.3A total A1-A3 ~790.",
+    "nota": "761 e so o modulo A1 (producao de materiais); A1-A3 (com transporte e mistura) ~790 kg/m3 lido na Fig.3A. FU do PC-ref = 1,00 m3-eq, logo 761 e por m3 real."
+   },
+   {
+    "sheet_row": 1222,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sem armadura nem fibras (Table 1).",
+    "co2_so_betao": 546.0,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "'Material production for AAM concretes amounts to 383 CO2-eq./m3-eq (M3) up to 496 CO2-eq./m3-eq (M2)'; Table 2: FU M2 = 1,10 m3-eq.",
+    "nota": "ERRO GRAVE: 496 esta em kg CO2-eq por m3-EQUIVALENTE (FU ajustada pela resistencia: FU = fc_AAM/fc_PC; resultado/FU, Eq.1-2), nao por m3. Por m3 real: 496 x 1,10 = 545,6 (so A1); A1-A3 da Fig.3A ~535 por m3-eq -> ~589 por m3. Escoria GGBFS (subproduto) + silica de fumo + waterglass K57."
+   },
+   {
+    "sheet_row": 1223,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sem armadura nem fibras (Table 1).",
+    "co2_so_betao": 459.6,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "'383 CO2-eq./m3-eq (M3)'; Table 2: FU M3 = 1,20 m3-eq.",
+    "nota": "ERRO GRAVE: 383 e por m3-eq (normalizado pela resistencia). Por m3 real: 383 x 1,20 = 459,6 (so A1); A1-A3 da Fig.3A ~418 por m3-eq -> ~502 por m3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido o texto integral; Fig.3 renderizada. Os pares AAM foram gravados com o valor por m3-eq (FU ajustada), nao por m3; e todos os tres sao so A1."
+ },
+ {
+  "row_id": 4207,
+  "pares": [
+   {
+    "sheet_row": 1225,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 1/2/3: '20 MPa Concrete 23 m3 ... 5,629' e 'Steel 1,425 kg ... 2080' em linhas separadas; Table 2 'Steel 1.46 kg CO2e/kg'.",
+    "co2_so_betao": 244.75,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 2: '20 MPa Concrete 244.75 kg CO2e/m3' (A1-A4); sec.4.1.1: 'The A1-A3 emissions for 1 m3 of this concrete are 238 kg CO2 e/m3'.",
+    "nota": "Valor gravado JA e so o betao (A1-A4; inclui transporte A4, 149 kg/23 m3). A1-A3 = 238. Mistura de referencia NRMCA Great Lakes-Midwest 3000 psi (227 kg OPC + 26 FA + 16 escoria). O artigo tem tambem misturas 50% SCM, CSC e agregado mineralizado (este com CO2 negativo, -960 kg/23 m3) que nao estao no painel."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (ficheiro de 122k caracteres extraido por inteiro)."
+ },
+ {
+  "row_id": 4232,
+  "pares": [
+   {
+    "sheet_row": 1229,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sem armadura; LCA de mistura por m3 (Eq.1 com Table 2/4/6).",
+    "co2_so_betao": 358.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 7: 'Std. ... GWP 3.58 x 10^2 kg-CO2eq/m3'.",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: o valor 358 e da mistura padrao (Std., so agregado natural, 370 kg OPC), nao de uma mistura com agregado reciclado; familia actual 'reciclado' devia ser a do controlo (opc). As 6 misturas com 30% de agregado reciclado/subproduto (F-R30 315, F-S30 347, F-B30 386, F-W30 324, C-R30 298, C-B30 334 kg/m3) nao estao no painel. fck 24 MPa = resistencia de projecto comum (misturas compiladas de estudos externos [35-41]). Escoria/cinza de fundo com impacto zero (subprodutos)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 4244,
+  "pares": [
+   {
+    "sheet_row": 1230,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Table 1 (1 m3 de laje alveolar pre-esforcada): 'Steel strand, 26 PC-190 RB 12.7 (kg) 51.48' + 'Steel strand 8 PC-190 RB 6.5 (kg) 3.44'; sec.2.6.6: 'The Life Cycle Inventory of the prestressed concrete slab included: (a) quantity of raw materials (active reinforcement steel)'.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.3.2: 'Considering the analysis of environmental impact for 1 m3 of a manufactured hollow-core slab ... the conventional concrete uses 302.85 kg/m3 of cement, totaling 475 kg CO2 eq (Figure 14A)'.",
+    "nota": "475 e por 1 m3 de LAJE pre-esforcada fabricada: inclui ~54,9 kg de cordoalha de aco, electricidade de pre-tensao/grua e transporte interno; o artigo nao separa o CO2 so do betao. Devia ir para a familia concreto_armado. FAMILIA actual 'scm' parece errada para o controlo (CPV-ARI sem adicoes)."
+   },
+   {
+    "sheet_row": 1234,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Idem: mesma cordoalha (54,92 kg/m3) no inventario de todas as misturas (Table 1).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'with the replacement of 20% of the total cement by glass powder (49.57 kg/m3), the total is 414 kg CO2 eq'.",
+    "nota": "Po de vidro (lama de polimento de vidro plano, residuo) moido (GP2) a 20% do cimento. Mesmo problema: 414 inclui a cordoalha de pre-esforco. A diferenca 475-414 = 61 kg e atribuivel so ao cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. O valor CO2 das duas linhas e do elemento laje pre-esforcada, nao do betao sozinho."
+ },
+ {
+  "row_id": 4251,
+  "pares": [
+   {
+    "sheet_row": 1238,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira (Fig.3): cimento, agregados, residuos organicos, agua, transporte; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.6 'LCA results ... for the climate change impact category' (por m3, DU); Sec.2.4.1: 'we decided to include this part [biogenic carbon uptake] in the computation'.",
+    "nota": "CO2 COM CREDITO: o valor inclui a absorcao de carbono biogenico do residuo (RHA 5,5% C), contra a EN 15804, por opcao dos autores. Sem o credito: ~320 + 70x0,055x3,67 = ~334 kg/m3 (estimativa nossa). Valor 320 lido da Fig.6 (nao foi possivel renderizar a figura: download do PDF falhou; nao verificado visualmente). fck 20,7 MPa aos 14 dias (nao 28), cubo 100 mm. RHA substitui 10% da areia (agregado), nao cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido; figura 6 nao renderizada (o download_file_content falhou duas vezes, ligacao fechada)."
+ },
+ {
+  "row_id": 4255,
+  "pares": [
+   {
+    "sheet_row": 1239,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 2/A1: 'Steel bar t 1289.6233 3017.719' e betoes por classe em linhas separadas; factores 'Steel bar 2340.00 kgCO2e/t' vs 'C25 concrete ... kgCO2e/m3'.",
+    "co2_so_betao": 285.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table A1 (factores GB/T51366-2019): C25 285.00, C30 295.00, C40 321.40, C50 385.00, C60 416.76 kgCO2e/m3.",
+    "nota": "Valor gravado JA e so o betao (factor por m3 do betao, producao). Nao e mistura propria: factores genericos da norma GB/T51366-2019 aplicados ao edificio (nucleo de betao armado + porticos de aco). Classe chinesa = resistencia caracteristica em cubo. Gravado 285,02 (79,763 t / 279,871 m3); Table A1 imprime 285,00."
+   },
+   {
+    "sheet_row": 1240,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 2/A1: 'Steel bar t 1289.6233 3017.719' e betoes por classe em linhas separadas; factores 'Steel bar 2340.00 kgCO2e/t' vs 'C30 concrete ... kgCO2e/m3'.",
+    "co2_so_betao": 295.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table A1 (factores GB/T51366-2019): C25 285.00, C30 295.00, C40 321.40, C50 385.00, C60 416.76 kgCO2e/m3.",
+    "nota": "Valor gravado JA e so o betao (factor por m3 do betao, producao). Nao e mistura propria: factores genericos da norma GB/T51366-2019 aplicados ao edificio (nucleo de betao armado + porticos de aco). Classe chinesa = resistencia caracteristica em cubo. Table 8 da tambem fly ash 208,20 e mistura mineral 118,14 (nao no painel)."
+   },
+   {
+    "sheet_row": 1241,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 2/A1: 'Steel bar t 1289.6233 3017.719' e betoes por classe em linhas separadas; factores 'Steel bar 2340.00 kgCO2e/t' vs 'C40 concrete ... kgCO2e/m3'.",
+    "co2_so_betao": 321.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table A1 (factores GB/T51366-2019): C25 285.00, C30 295.00, C40 321.40, C50 385.00, C60 416.76 kgCO2e/m3.",
+    "nota": "Valor gravado JA e so o betao (factor por m3 do betao, producao). Nao e mistura propria: factores genericos da norma GB/T51366-2019 aplicados ao edificio (nucleo de betao armado + porticos de aco). Classe chinesa = resistencia caracteristica em cubo. "
+   },
+   {
+    "sheet_row": 1242,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 2/A1: 'Steel bar t 1289.6233 3017.719' e betoes por classe em linhas separadas; factores 'Steel bar 2340.00 kgCO2e/t' vs 'C50 concrete ... kgCO2e/m3'.",
+    "co2_so_betao": 385.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table A1 (factores GB/T51366-2019): C25 285.00, C30 295.00, C40 321.40, C50 385.00, C60 416.76 kgCO2e/m3.",
+    "nota": "Valor gravado JA e so o betao (factor por m3 do betao, producao). Nao e mistura propria: factores genericos da norma GB/T51366-2019 aplicados ao edificio (nucleo de betao armado + porticos de aco). Classe chinesa = resistencia caracteristica em cubo. "
+   },
+   {
+    "sheet_row": 1243,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 2/A1: 'Steel bar t 1289.6233 3017.719' e betoes por classe em linhas separadas; factores 'Steel bar 2340.00 kgCO2e/t' vs 'C60 concrete ... kgCO2e/m3'.",
+    "co2_so_betao": 416.76,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table A1 (factores GB/T51366-2019): C25 285.00, C30 295.00, C40 321.40, C50 385.00, C60 416.76 kgCO2e/m3.",
+    "nota": "Valor gravado JA e so o betao (factor por m3 do betao, producao). Nao e mistura propria: factores genericos da norma GB/T51366-2019 aplicados ao edificio (nucleo de betao armado + porticos de aco). Classe chinesa = resistencia caracteristica em cubo. "
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. Todos os pares sao factores de biblioteca da norma chinesa, nao inventario proprio."
+ },
+ {
+  "row_id": 4263,
+  "pares": [
+   {
+    "sheet_row": 1244,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "Table 1: 'Steel and rebar 0.35' t por 1 m de largura (inventario da construcao); Fig.4/5: componentes 'concrete, transportation, diesel fuel, wood, blasting materials, and steel and rebar'.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.4.4/Fig.11: carbon footprint per 1 m width of the dam: 303/348/422/497 t CO2eq para 20/30/40/50 MPa; volumes 994.3/895.4/890.5/887.2 m3.",
+    "nota": "Nao e claro se a Fig.11 e so o betao ou toda a construcao (betao 305 t + combustivel 33 t + madeira, explosivos, aco = 355 t no caso-base). O aco (0,35 t) e desprezavel (<0,3 por cento), mas se a Fig.11 for o total da construcao o valor por m3 fica ~15 por cento inflacionado por combustivel/explosivos/madeira. Caso-base: Fig.3 da ~341 kg CO2/m3 so do betao. Barragem de gravidade (betao em massa). 303/994,3 = 304,7."
+   },
+   {
+    "sheet_row": 1245,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "Table 1: 'Steel and rebar 0.35' t por 1 m de largura (inventario da construcao); Fig.4/5: componentes 'concrete, transportation, diesel fuel, wood, blasting materials, and steel and rebar'.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.4.4/Fig.11: carbon footprint per 1 m width of the dam: 303/348/422/497 t CO2eq para 20/30/40/50 MPa; volumes 994.3/895.4/890.5/887.2 m3.",
+    "nota": "Nao e claro se a Fig.11 e so o betao ou toda a construcao (betao 305 t + combustivel 33 t + madeira, explosivos, aco = 355 t no caso-base). O aco (0,35 t) e desprezavel (<0,3 por cento), mas se a Fig.11 for o total da construcao o valor por m3 fica ~15 por cento inflacionado por combustivel/explosivos/madeira. Caso-base: Fig.3 da ~341 kg CO2/m3 so do betao. Barragem de gravidade (betao em massa). 348/895,4 = 388,7 (aproxima o total da construcao do caso-base, 355 t)."
+   },
+   {
+    "sheet_row": 1246,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "Table 1: 'Steel and rebar 0.35' t por 1 m de largura (inventario da construcao); Fig.4/5: componentes 'concrete, transportation, diesel fuel, wood, blasting materials, and steel and rebar'.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.4.4/Fig.11: carbon footprint per 1 m width of the dam: 303/348/422/497 t CO2eq para 20/30/40/50 MPa; volumes 994.3/895.4/890.5/887.2 m3.",
+    "nota": "Nao e claro se a Fig.11 e so o betao ou toda a construcao (betao 305 t + combustivel 33 t + madeira, explosivos, aco = 355 t no caso-base). O aco (0,35 t) e desprezavel (<0,3 por cento), mas se a Fig.11 for o total da construcao o valor por m3 fica ~15 por cento inflacionado por combustivel/explosivos/madeira. Caso-base: Fig.3 da ~341 kg CO2/m3 so do betao. Barragem de gravidade (betao em massa). 422/890,5 = 473,9."
+   },
+   {
+    "sheet_row": 1247,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "Table 1: 'Steel and rebar 0.35' t por 1 m de largura (inventario da construcao); Fig.4/5: componentes 'concrete, transportation, diesel fuel, wood, blasting materials, and steel and rebar'.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.4.4/Fig.11: carbon footprint per 1 m width of the dam: 303/348/422/497 t CO2eq para 20/30/40/50 MPa; volumes 994.3/895.4/890.5/887.2 m3.",
+    "nota": "Nao e claro se a Fig.11 e so o betao ou toda a construcao (betao 305 t + combustivel 33 t + madeira, explosivos, aco = 355 t no caso-base). O aco (0,35 t) e desprezavel (<0,3 por cento), mas se a Fig.11 for o total da construcao o valor por m3 fica ~15 por cento inflacionado por combustivel/explosivos/madeira. Caso-base: Fig.3 da ~341 kg CO2/m3 so do betao. Barragem de gravidade (betao em massa). 497/887,2 = 560,2."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido; Figs.3 e 11 renderizadas."
+ },
+ {
+  "row_id": 4267,
+  "pares": [
+   {
+    "sheet_row": 1251,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira (Fig.1, Table 3): cimento, agua, brita, areia, transporte; betao simples sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.3 (GWP, MIX-fixed-SLUMP, A=CBA0) ~1,58 kg CO2-eq; legenda: 'The FU was normalized by dividing the environmental assessment of 1 m3 of concrete according to the 28-day concrete compressive strength'. Table 1: CBA0 386 kg cimento, fc28 56 MPa.",
+    "nota": "ERRO GRAVE PROVAVEL: o co2_conversao diz 'nenhuma - publicado em kg CO2-eq/m3', mas o artigo so publica por m3/MPa (lido de figura); 88,7 = ~1,584 x 56. E 88,7 kg/m3 e implausivel para 386 kg de CEM I: o inventario usa o processo ecoinvent 'cement mortar, at plant/CH' como proxy do CEM I 42.5 (Table 3), o que subestima muito o cimento. Recomenda-se marcar NAO CONVERTIDO ou alerta forte."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido; Fig.3 renderizada (p.7)."
+ },
+ {
+  "row_id": 4284,
+  "pares": [
+   {
+    "sheet_row": 1252,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Table 4: 'Grout (25 MPa) ... m3 ... 361' e 'Steel ... kg ... 2.9' em linhas separadas.",
+    "co2_so_betao": 361.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4: 'Grout (25 MPa) 2400 m3 2581 361' (kg CO2-e/unit), fonte EPiC/[88].",
+    "nota": "Valor gravado JA e so o grout (factor por m3 da base EPiC, nao inventario proprio de mistura). ATENCAO ao rotulo: o texto diz 'Grouting was only considered for the RM wall system (Type 3), while the PT masonry system (Type 4) was designed for unbonded tendons without any grout' - o rotulo 'Tipo 4, PT com grout' esta errado. E grout, nao betao estrutural."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ }
+]

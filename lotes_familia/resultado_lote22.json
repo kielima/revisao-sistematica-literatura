@@ -1,0 +1,396 @@
+[
+ {
+  "row_id": 3615,
+  "pares": [
+   {
+    "sheet_row": 1063,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2 (pressupostos da fronteira, item 4): 'steel and electricity production emissions are irrelevant in the context of the manufacture of concrete and are excluded from this system boundary'; UF 1 m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: OPC concrete, OPC 465 kg/m3, Total emissions 347 kg/m3; fck unificado ~40 MPa",
+    "nota": "Misturas compiladas de literatura [55-57]; fck ~40 MPa declarado para todas ('unified at approximately 40 MPa')."
+   },
+   {
+    "sheet_row": 1064,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2 (pressupostos da fronteira, item 4): 'steel and electricity production emissions are irrelevant in the context of the manufacture of concrete and are excluded from this system boundary'; UF 1 m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2: alkali-activated slag concrete, GGBS 450, NaOH 18, Na silicate 27; Total 169",
+    "nota": "Escoria GGBS = subproduto siderurgico."
+   },
+   {
+    "sheet_row": 1065,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2 (pressupostos da fronteira, item 4): 'steel and electricity production emissions are irrelevant in the context of the manufacture of concrete and are excluded from this system boundary'; UF 1 m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2: alkali-activated fly ash concrete, fly ash 408, NaOH 41, Na silicate 103; Total 234",
+    "nota": "Cinza volante = subproduto."
+   },
+   {
+    "sheet_row": 1066,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2 (pressupostos da fronteira, item 4): 'steel and electricity production emissions are irrelevant in the context of the manufacture of concrete and are excluded from this system boundary'; UF 1 m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.2: Glass powder concrete (20 %), OPC 242 + glass powder 50; Total 245",
+    "nota": "Po de vidro 'originates from the byproduct of a water reuse system that cleans the water used to polish soda-lime flat glass' = residuo. Nota: 50/(242+50)=17%, o artigo chama 20%."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fronteira cradle-to-placement por 1 m3, aco explicitamente excluido. Familias actuais coerentes."
+ },
+ {
+  "row_id": 3620,
+  "pares": [
+   {
+    "sheet_row": 1067,
+    "co2_inclui_aco": "indeterminado",
+    "aco_citacao": "Nenhuma mencao a aco/armadura no inventario; a Tab.1 da so 'Cement' 16,8 kgCO2/m2 (ECOINVENT adaptado) para parede e para pavimento; espessuras p.5: 'concrete and mosaic slabs and floors, 0.1 m'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1: Cement (WALL e FLOOR) Global warming 16.8 kgCO2/m2; Mechanical strength 250 kg/cm2 (=24,52 MPa)",
+    "nota": "O artigo nao declara se o factor ECOINVENT inclui armadura (provavelmente nao: e 'firm cement floor', laje de pavimento); como nao diz, fica indeterminado com tendencia para 'nao'. Alerta: o mesmo 16,8 kgCO2/m2 aparece para a parede de cimento (paredes de bloco de betao com 20 cm) e para o pavimento (0,1 m); a divisao por 0,1 m e uma escolha nossa e o resultado (168 kg/m3) e baixo para betao corrente de 25 MPa - confianca baixa justificada. Familia opc aceitavel."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Comparativo multi-material por m2 de habitacao rural; CO2 do 'cimento' e factor de base de dados, nao inventario proprio."
+ },
+ {
+  "row_id": 3653,
+  "pares": [
+   {
+    "sheet_row": 1068,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.10 'Environmental impact scores of continuously reinforced concrete pavements'; Sec.3.7: 'Raw material extraction (quarry sand, gravel, and reinforcing steel)... RS manufacturing is the second-largest factor in the total CO2 emissions of concrete pavements'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.10: No recycled materials, 100 mm: 122,280 kg CO2 eq",
+    "nota": "ERRO DE ROTULO: o material gravado diz 'concreto com vidro reciclado' mas 122.280 e a coluna 'No recycled materials 100 mm' (o RCG 20% 100 mm e a linha 2004). Corrigir rotulo para 'pavimento de betao continuamente armado, sem reciclados, 100 mm'. Total por 1 km x 3,5 m inclui aco de armadura (RS) e MTP (mistura, transporte, colocacao). O texto so da percentagens agregadas (materias-primas incl. aco 18-20,1%; MTP 18,1-18,6%; cimento 61,8-63,4%); o CO2 so do aco nao e impresso no texto (a Fig.12 tem as barras por componente mas nao foi possivel renderizar: download do PDF falhou por tamanho). Nao separavel com o texto. fck 20 = classe N20 minima assumida (AS), nao ensaiada."
+   },
+   {
+    "sheet_row": 2003,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.10 'Environmental impact scores of continuously reinforced concrete pavements'; Sec.3.7: 'Raw material extraction (quarry sand, gravel, and reinforcing steel)... RS manufacturing is the second-largest factor in the total CO2 emissions of concrete pavements'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.10: No recycled materials, 150 mm: 178,621",
+    "nota": "Total por 1 km x 3,5 m inclui aco de armadura (RS) e MTP (mistura, transporte, colocacao). O texto so da percentagens agregadas (materias-primas incl. aco 18-20,1%; MTP 18,1-18,6%; cimento 61,8-63,4%); o CO2 so do aco nao e impresso no texto (a Fig.12 tem as barras por componente mas nao foi possivel renderizar: download do PDF falhou por tamanho). Nao separavel com o texto. fck 20 = classe N20 minima assumida (AS), nao ensaiada."
+   },
+   {
+    "sheet_row": 2004,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.10 'Environmental impact scores of continuously reinforced concrete pavements'; Sec.3.7: 'Raw material extraction (quarry sand, gravel, and reinforcing steel)... RS manufacturing is the second-largest factor in the total CO2 emissions of concrete pavements'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10: 20 % RCG, 100 mm: 121,655",
+    "nota": "RCG = vidro reciclado triturado em substituicao de 20% da areia. Total por 1 km x 3,5 m inclui aco de armadura (RS) e MTP (mistura, transporte, colocacao). O texto so da percentagens agregadas (materias-primas incl. aco 18-20,1%; MTP 18,1-18,6%; cimento 61,8-63,4%); o CO2 so do aco nao e impresso no texto (a Fig.12 tem as barras por componente mas nao foi possivel renderizar: download do PDF falhou por tamanho). Nao separavel com o texto. fck 20 = classe N20 minima assumida (AS), nao ensaiada."
+   },
+   {
+    "sheet_row": 2005,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.10 'Environmental impact scores of continuously reinforced concrete pavements'; Sec.3.7: 'Raw material extraction (quarry sand, gravel, and reinforcing steel)... RS manufacturing is the second-largest factor in the total CO2 emissions of concrete pavements'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10: 20 % RCG, 150 mm: 177,684",
+    "nota": "Total por 1 km x 3,5 m inclui aco de armadura (RS) e MTP (mistura, transporte, colocacao). O texto so da percentagens agregadas (materias-primas incl. aco 18-20,1%; MTP 18,1-18,6%; cimento 61,8-63,4%); o CO2 so do aco nao e impresso no texto (a Fig.12 tem as barras por componente mas nao foi possivel renderizar: download do PDF falhou por tamanho). Nao separavel com o texto. fck 20 = classe N20 minima assumida (AS), nao ensaiada."
+   },
+   {
+    "sheet_row": 2006,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.10 'Environmental impact scores of continuously reinforced concrete pavements'; Sec.3.7: 'Raw material extraction (quarry sand, gravel, and reinforcing steel)... RS manufacturing is the second-largest factor in the total CO2 emissions of concrete pavements'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10: 100 % RCS, 100 mm: 96,347",
+    "nota": "O que distingue o par e o aco de armadura 100% reciclado (RCS), nao o betao: a diferenca de CO2 face ao controlo vem toda da armadura. Par pouco informativo para fck x CO2 do betao. Total por 1 km x 3,5 m inclui aco de armadura (RS) e MTP (mistura, transporte, colocacao). O texto so da percentagens agregadas (materias-primas incl. aco 18-20,1%; MTP 18,1-18,6%; cimento 61,8-63,4%); o CO2 so do aco nao e impresso no texto (a Fig.12 tem as barras por componente mas nao foi possivel renderizar: download do PDF falhou por tamanho). Nao separavel com o texto. fck 20 = classe N20 minima assumida (AS), nao ensaiada."
+   },
+   {
+    "sheet_row": 2007,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.10 'Environmental impact scores of continuously reinforced concrete pavements'; Sec.3.7: 'Raw material extraction (quarry sand, gravel, and reinforcing steel)... RS manufacturing is the second-largest factor in the total CO2 emissions of concrete pavements'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10: 100 % RCS, 150 mm: 147,885",
+    "nota": "Idem 2006. Total por 1 km x 3,5 m inclui aco de armadura (RS) e MTP (mistura, transporte, colocacao). O texto so da percentagens agregadas (materias-primas incl. aco 18-20,1%; MTP 18,1-18,6%; cimento 61,8-63,4%); o CO2 so do aco nao e impresso no texto (a Fig.12 tem as barras por componente mas nao foi possivel renderizar: download do PDF falhou por tamanho). Nao separavel com o texto. fck 20 = classe N20 minima assumida (AS), nao ensaiada."
+   },
+   {
+    "sheet_row": 2008,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.10 'Environmental impact scores of continuously reinforced concrete pavements'; Sec.3.7: 'Raw material extraction (quarry sand, gravel, and reinforcing steel)... RS manufacturing is the second-largest factor in the total CO2 emissions of concrete pavements'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10: 20 % RCG and 100 % RCS, 100 mm: 95,431",
+    "nota": "Combina RCG (agregado) com aco reciclado (RCS). Total por 1 km x 3,5 m inclui aco de armadura (RS) e MTP (mistura, transporte, colocacao). O texto so da percentagens agregadas (materias-primas incl. aco 18-20,1%; MTP 18,1-18,6%; cimento 61,8-63,4%); o CO2 so do aco nao e impresso no texto (a Fig.12 tem as barras por componente mas nao foi possivel renderizar: download do PDF falhou por tamanho). Nao separavel com o texto. fck 20 = classe N20 minima assumida (AS), nao ensaiada."
+   },
+   {
+    "sheet_row": 2009,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.10 'Environmental impact scores of continuously reinforced concrete pavements'; Sec.3.7: 'Raw material extraction (quarry sand, gravel, and reinforcing steel)... RS manufacturing is the second-largest factor in the total CO2 emissions of concrete pavements'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10: 20 % RCG and 100 % RCS, 150 mm: 146,948",
+    "nota": "Idem 2008. Total por 1 km x 3,5 m inclui aco de armadura (RS) e MTP (mistura, transporte, colocacao). O texto so da percentagens agregadas (materias-primas incl. aco 18-20,1%; MTP 18,1-18,6%; cimento 61,8-63,4%); o CO2 so do aco nao e impresso no texto (a Fig.12 tem as barras por componente mas nao foi possivel renderizar: download do PDF falhou por tamanho). Nao separavel com o texto. fck 20 = classe N20 minima assumida (AS), nao ensaiada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia concreto_armado correcta para os 8 pares (totais incluem aco). Os pares 2006-2009 variam pelo aco reciclado, nao pela mistura de betao."
+ },
+ {
+  "row_id": 3657,
+  "pares": [
+   {
+    "sheet_row": 1069,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Sec.2.3: fronteira 'cradle-to-cradle' de NAC e Multi-RAC por m3 (producao, transporte, demolicao/reciclagem); nenhum aco no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.10 GWP NAC 502.1; Tab.3 NAC cimento 527, fcu28 50.3 (cubo)",
+    "nota": "Controlo de agregado natural; esta na familia 'reciclado' - se a familia se refere ao material distintivo, o controlo deveria ir para 'opc'."
+   },
+   {
+    "sheet_row": 1070,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Sec.2.3: fronteira 'cradle-to-cradle' de NAC e Multi-RAC por m3 (producao, transporte, demolicao/reciclagem); nenhum aco no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10 RACI 459.6; Tab.3 fcu 48.5",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1071,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Sec.2.3: fronteira 'cradle-to-cradle' de NAC e Multi-RAC por m3 (producao, transporte, demolicao/reciclagem); nenhum aco no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10 RACII 441.2; Tab.3 fcu 47.2",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1072,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.2/Sec.2.3: fronteira 'cradle-to-cradle' de NAC e Multi-RAC por m3 (producao, transporte, demolicao/reciclagem); nenhum aco no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10 RACIII 422.8; Tab.3 fcu 45.3",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fck = resistencia cubica aos 28 d. CO2 cradle-to-cradle (inclui fim de vida)."
+ },
+ {
+  "row_id": 3661,
+  "pares": [
+   {
+    "sheet_row": 1073,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.6 'emission intensity of concrete' e Eq.(5): E = (E_cem*Q_cem + E_agg*Q_agg + E_wtr*Q_wtr)*(1+W) + D*C_con - so cimento, agregado e agua; a armadura entra separadamente no calculo do edificio",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6: 25 MPa, 0.170 kg CO2-e/kg, densidade 2566.60",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1074,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.6 'emission intensity of concrete' e Eq.(5): E = (E_cem*Q_cem + E_agg*Q_agg + E_wtr*Q_wtr)*(1+W) + D*C_con - so cimento, agregado e agua; a armadura entra separadamente no calculo do edificio",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6: 30 MPa, 0.198 kg CO2-e/kg, densidade 2536.00",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1075,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.6 'emission intensity of concrete' e Eq.(5): E = (E_cem*Q_cem + E_agg*Q_agg + E_wtr*Q_wtr)*(1+W) + D*C_con - so cimento, agregado e agua; a armadura entra separadamente no calculo do edificio",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6: 40 MPa, 0.220 kg CO2-e/kg, densidade 2390.40",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Classes de betao convencional (HLCA, Malasia), sem material distintivo; 'controlo' no sentido de betao Portland corrente. Inclui 5% de desperdicio (1+W). As densidades da Tab.6 sao invulgares (2566 kg/m3 para C25) mas foram usadas tal como impressas. O rotulo 'painel pre-fabricado' e impreciso: a Tab.6 e do betao por classe, nao do painel."
+ },
+ {
+  "row_id": 3681,
+  "pares": [
+   {
+    "sheet_row": 1078,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Unidade de referencia: '1 solid concrete block 400x200x200 mm, volume 0.016 m3' (Sec.3.1) - bloco macico sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4.1: 'baseline production impacts contribute 4.26 kg CO2-eq per reference unit (0.016 m3 solid concrete block)'; baseline 25 MPa com 20% SCM (fly ash class F)",
+    "nota": "Valor estatico de producao (antes da carbonatacao, que reduz para 4,02). Nao ha mistura sem SCM no artigo; o baseline ja tem cinza volante."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia scm coerente."
+ },
+ {
+  "row_id": 3685,
+  "pares": [
+   {
+    "sheet_row": 2010,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.4 'Embodied CO2 for the main constituents of reinforced concrete' inclui 'Reinforcement 412' kg CO2/t; Tab.6: pilares RC com 1,5% de armadura",
+    "co2_so_betao": 316.0,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.7 PC: CEM I 362, agregado 1800; Tab.4 CEM I 860, agregado 2.6 kg/t",
+    "nota": "O valor gravado (316,0) JA e so o betao (constituintes A1-A3, calculado por nos, sem armadura nem transporte). Classe 40 MPa da Tab.6."
+   },
+   {
+    "sheet_row": 2011,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.4 'Embodied CO2 for the main constituents of reinforced concrete' inclui 'Reinforcement 412' kg CO2/t; Tab.6: pilares RC com 1,5% de armadura",
+    "co2_so_betao": 249.8,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.7 FA/35: CEM I 285, FA 154; Tab.4 FA 0.1 kg/t",
+    "nota": "Gravado JA e so o betao. FAMILIA: esta como 'opc' mas e mistura com 35% de cinza volante - deveria ser 'scm' (como o GGBS/65 da linha 2012)."
+   },
+   {
+    "sheet_row": 2012,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.4 'Embodied CO2 for the main constituents of reinforced concrete' inclui 'Reinforcement 412' kg CO2/t; Tab.6: pilares RC com 1,5% de armadura",
+    "co2_so_betao": 132.61,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.7 GGBS/65: CEM I 127, GGBS 235; Tab.4 GGBS 79.6 kg/t",
+    "nota": "Gravado JA e so o betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O artigo avalia pilares de betao armado (com aco 412 kg CO2/t), mas os valores gravados foram reconstruidos so com os constituintes do betao (Tab.4 x Tab.7) - nao incluem o aco. Nota: o artigo indica ainda transporte (11 kg/t cimento, 7 kg/t SCM, 8,4 kg/t betao) e agregado com transporte 9,3 kg/t, nao incluidos no gravado (A1-A3 so de producao) - coerente com o rotulo."
+ },
+ {
+  "row_id": 3687,
+  "pares": [
+   {
+    "sheet_row": 1080,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1/Sec.2: fronteira da argamassa impressa (cimento GUbSF, argila calcinada, calcario, areia, SP); sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Sec.4.1: 'The 251 kg CO2-eq/m3 mark for a 31 MPa concrete studied in this paper' (contexto CA-QC); Tab.2 reference mortar 31 MPa (LC3): GUbSF 165, CC 132, limestone 362",
+    "nota": "E uma argamassa LC3 para impressao 3D (sem agregado grosso) apesar de o artigo lhe chamar 'concrete'. Argila calcinada e calcario nao sao residuos. Valor do contexto Quebec (o artigo tambem modela Franca)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia scm aceitavel para LC3."
+ },
+ {
+  "row_id": 3727,
+  "pares": [
+   {
+    "sheet_row": 1082,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3: 'A functional unit of 1 m3 of material'; baseline 'Portland cement concrete mixture... no supplementary cementitious materials', inventario do betao (Table S1) sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.3: 'the cumulative life-cycle GHG emissions are 334 kg CO2e/m3' (GWP100, baseline, 25 MPa aos 28 d)",
+    "nota": "Valor de ciclo de vida completo (berco-ao-tumulo, inclui construcao, carbonatacao e fim de vida), nao so A1-A3. Coincidencia: o CLT da -334 kg CO2e/m3 com TAWP - nao confundir."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia opc coerente."
+ },
+ {
+  "row_id": 3731,
+  "pares": [
+   {
+    "sheet_row": 1083,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2: 'cradle-to-gate... functional unit 3130 kg of cement composite, equivalent to 1 m3 of cement composite mortar'; quitosano chamado 'reinforcement' mas e aditivo particulado, nao armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: C0 control, HE cement 740 g, sand 2035 g, water 355 g, chitosan 0%; texto: valores ~610-670 kg CO2 eq",
+    "nota": "Argamassa de controlo sem quitosano. fck 40,0 lido na Fig.2 (decisao anterior, 2026-09-29)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia opc coerente."
+ }
+]

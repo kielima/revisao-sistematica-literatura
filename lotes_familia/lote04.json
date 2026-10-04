@@ -1,0 +1,292 @@
+[
+ {
+  "row_id": 2726,
+  "rotulo": "Li et al., 2024",
+  "titulo": "Carbon footprint accounting of prefabricated buildings: A circular economy perspective",
+  "pdf": "LI et al., 2024e - j.buildenv.2024.111602.pdf",
+  "fileId": "1dt2VTJwPDVQR3d01GBeuNZRai2Z1bb8p",
+  "pares": [
+   {
+    "sheet_row": 690,
+    "material": "Concreto (fator de emissao CLCD, China) - classe C20",
+    "fck": 20.0,
+    "co2_kg_m3": 208.98,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 691,
+    "material": "Concreto (fator de emissao CLCD, China) - classe C25",
+    "fck": 25.0,
+    "co2_kg_m3": 247.46,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 692,
+    "material": "Concreto (fator de emissao CLCD, China) - classe C30",
+    "fck": 30.0,
+    "co2_kg_m3": 277.82,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 693,
+    "material": "Concreto (fator de emissao CLCD, China) - classe C35",
+    "fck": 35.0,
+    "co2_kg_m3": 314.77,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 694,
+    "material": "Concreto (fator de emissao CLCD, China) - classe C40",
+    "fck": 40.0,
+    "co2_kg_m3": 348.04,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 695,
+    "material": "Concreto (fator de emissao CLCD, China) - classe C45",
+    "fck": 45.0,
+    "co2_kg_m3": 390.16,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 2736,
+  "rotulo": "Manan et al., 2025",
+  "titulo": "Environmental and human health impact of recycle concrete powder: an emergy-based LCA approach",
+  "pdf": "MANAN et al., 2025.pdf",
+  "fileId": "1aQ3OdzByv4ilGbl3_cO3t87r8Y8WCF6Y",
+  "pares": [
+   {
+    "sheet_row": 170,
+    "material": "Betao com po de betao reciclado (RCP), traco RCP-15% (Mix 4)",
+    "fck": 33.0,
+    "co2_kg_m3": 359.99,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 2738,
+  "rotulo": "Archila et al., 2018",
+  "titulo": "Bamboo reinforced concrete: a critical review",
+  "pdf": "ARCHILA et al., 2018 - s11527-018-1228-6.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 171,
+    "material": "Portico de concreto armado com bambu (substituto do aco de armadura)",
+    "fck": 21.0,
+    "co2_kg_m3": 367.0,
+    "co2_conversao": "1211 / 3.3 m3 (Tabela 1) = 367.0 [REVISAO 2026-09-27, leitura integral; confianca alta]",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 172,
+    "material": "Portico de concreto armado com aco (referencia/comparador simetrico)",
+    "fck": 21.0,
+    "co2_kg_m3": 345.0,
+    "co2_conversao": "414 / 1.2 m3 (Tabela 1) = 345.0 [REVISAO 2026-09-27, leitura integral; confianca alta]",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 2739,
+  "rotulo": "Martinez-Munoz et al., 2021",
+  "titulo": "Comparative Life Cycle Analysis of Concrete and Composite Bridges Varying Steel Recycling Ratio",
+  "pdf": "MARTINEZ-MUNOZ et al., 2021.pdf",
+  "fileId": "1P9E5XOLOhly3fst781LW4gHeBS8zfQtd",
+  "pares": [
+   {
+    "sheet_row": 173,
+    "material": "Tabuleiro de ponte PCSS (pre-esforcado, laje maciça, HP-40)",
+    "fck": 40.0,
+    "co2_kg_m3": 770.9,
+    "co2_conversao": "total por m2 de tabuleiro / volume de betao por m2 de tabuleiro impresso (0.826 m3/m2, Tabela 1 (p.8), 'Amount of materials per square meter of deck', coluna 35 m) = 636.76/0.826 = 770.9 [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 174,
+    "material": "Tabuleiro de ponte PCLS (pre-esforcado, laje aligeirada, HP-40)",
+    "fck": 40.0,
+    "co2_kg_m3": 792.3,
+    "co2_conversao": "total por m2 de tabuleiro / volume de betao por m2 de tabuleiro impresso (0.702 m3/m2, Tabela 1 (p.8), 'Amount of materials per square meter of deck', coluna 35 m) = 556.19/0.702 = 792.3 [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 175,
+    "material": "Tabuleiro de ponte PCBG (vigas pre-esforcadas, HP-40)",
+    "fck": 40.0,
+    "co2_kg_m3": 749.8,
+    "co2_conversao": "total por m2 de tabuleiro / volume de betao por m2 de tabuleiro impresso (0.523 m3/m2, Tabela 1 (p.8), 'Amount of materials per square meter of deck', coluna 35 m) = 392.14/0.523 = 749.8 [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ },
+ {
+  "row_id": 2741,
+  "rotulo": "Martinez-Munoz et al., 2022",
+  "titulo": "Social Impact Assessment Comparison of Composite and Concrete Bridge Alternatives",
+  "pdf": "MARTINEZ-MUNOZ et al., 2022.pdf",
+  "fileId": "1vckmRfnuDGWSWITPQ3isfInVt2SMz1sr",
+  "pares": [
+   {
+    "sheet_row": 177,
+    "material": "Tabuleiros de ponte (S-LCA), fatores de emissao genericos citados do estudo companheiro (Martinez-Munoz et al. 2021)",
+    "fck": 40.0,
+    "co2_kg_m3": 32.24,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 2744,
+  "rotulo": "Matias de Paula Filho et al., 2024",
+  "titulo": "Life-Cycle Assessment of an Office Building: Influence of the Structural Design on the Embodied Carbon Emissions",
+  "pdf": "MATIAS DE PAULA FILHO et al., 2024 - modelling5010004.pdf",
+  "fileId": "1iey7QXsBBICPalIZh-bPV-4AY094Rl46",
+  "pares": [
+   {
+    "sheet_row": 697,
+    "material": "Concreto pronto pre-fabricado (estrutura de escritorio, aco/betao/madeira) - classe Eurocodigo C30/37",
+    "fck": 30.0,
+    "co2_kg_m3": 270.88,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 698,
+    "material": "Concreto pronto pre-fabricado (estrutura de escritorio, aco/betao/madeira) - classe Eurocodigo C40/50",
+    "fck": 40.0,
+    "co2_kg_m3": 355.83,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 699,
+    "material": "Concreto pronto pre-fabricado (estrutura de escritorio, aco/betao/madeira) - classe Eurocodigo C50/60",
+    "fck": 50.0,
+    "co2_kg_m3": 429.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 2745,
+  "rotulo": "Menegatti et al., 2022",
+  "titulo": "Environmental Performance of Deconstructable Concrete Beams Made with Recycled Aggregates",
+  "pdf": "MENEGATTI et al., 2022.pdf",
+  "fileId": "1cnYd4BUBsXQ4nCcxFEYVyoBiyxudessa",
+  "pares": [
+   {
+    "sheet_row": 178,
+    "material": "Viga de betao com agregado reciclado, desconstruivel (ORB, 'ordinary reinforced beam')",
+    "fck": 60.0,
+    "co2_kg_m3": 351.76,
+    "co2_conversao": "29,548 kg/m (soma das linhas de betao, sem aco e transporte) / 0,084 m3/m (0,14x0,60x1) = 351,76",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 179,
+    "material": "Viga de betao com agregado reciclado, desconstruivel (DRB, 'deconstructable reinforced beam', ecoinvent+EPD do aco)",
+    "fck": 60.0,
+    "co2_kg_m3": 352.43,
+    "co2_conversao": "29,604 kg/m (so linhas de betao, sem aco/pretensao e transporte) / 0,084 m3/m = 352,43",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 2747,
+  "rotulo": "Mir et al., 2022",
+  "titulo": "Life cycle assessment of construction and demolition waste-based geopolymers suited for use in 3-dimensional additive manufacturing",
+  "pdf": "MIR et al., 2022b.pdf",
+  "fileId": "1INjmTygB-2QXJCwvgd_ihwId53wwVX6k",
+  "pares": [
+   {
+    "sheet_row": 180,
+    "material": "Cimento Portland OPC 32.5, referencia",
+    "fck": 26.1,
+    "co2_kg_m3": 807.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 2749,
+  "rotulo": "Mir et al., 2022",
+  "titulo": "Life cycle assessment of binary recycled ceramic tile and recycled brick waste-based geopolymers",
+  "pdf": "MIR et al., 2022.pdf",
+  "fileId": "1HZ8fKkIT-IYCofYeoaq0w0OIdeP7BRSq",
+  "pares": [
+   {
+    "sheet_row": 182,
+    "material": "geopolimero binario RBW+RCT (residuo de tijolo + ceramica reciclados), Fase I, cura ambiente",
+    "fck": 30.0,
+    "co2_kg_m3": 1800.98,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 183,
+    "material": "geopolimero ternario RBW+RCT+45% cinza volante classe C (SCM), Fase II, cura ambiente",
+    "fck": 56.5,
+    "co2_kg_m3": 1631.9,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 184,
+    "material": "geopolimero binario RBW+RCT (mesma composicao da Fase I), cura a 100 C por 24h, Fase III",
+    "fck": 52.3,
+    "co2_kg_m3": 1811.14,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 2751,
+  "rotulo": "Mitterpach et al., 2023",
+  "titulo": "Life Cycle Assessment of a Road Transverse Prestressed Wooden-Concrete Bridge",
+  "pdf": "MITTERPACH et al., 2023.pdf",
+  "fileId": "1acIfwJXnyGXF-RBBVDeyIC-49DZ1oO28",
+  "pares": [
+   {
+    "sheet_row": 1884,
+    "material": "Encontros e pilares (abutments and piers) em betao armado C30/37 da ponte madeira-betao WCB (elemento so de betao armado: 65,160 m3 betao + 7,2 t de armadura B500B)",
+    "fck": 30.0,
+    "co2_kg_m3": 702.9,
+    "co2_conversao": "45800 / 65.160 m3 de betao do mesmo elemento (Tabela 1) = 702.9 [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 1885,
+    "material": "Vigas de coroamento (capping beam) em betao armado C30/37, ponte WCB (3,507 m3 betao + 0,172 t armadura)",
+    "fck": 30.0,
+    "co2_kg_m3": 493.3,
+    "co2_conversao": "1730 / 3.507 = 493.3 [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 1886,
+    "material": "Muros de testa (abutment wall) em betao armado C30/37, ponte WCB (3,163 m3 betao + 0,047 t armadura)",
+    "fck": 30.0,
+    "co2_kg_m3": 379.4,
+    "co2_conversao": "1200 / 3.163 = 379.4 [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ }
+]

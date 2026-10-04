@@ -1,0 +1,492 @@
+[
+ {
+  "row_id": 3301,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1991,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Sec.2.3/Fig.2: fronteira inclui producao de betao E de aco de armadura, transporte 30 km e aterro 10 km; Eq.(1) y=(20,4*Vs+...) kgCO2eq por viga em funcao da taxa de armadura Vs; A.2: aco = ate 57% do CC para L=8 m",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Viga BA pre-fabricada L=8 m, h=0,6 m, fck=35 (Fig.3a/Eq.1)",
+    "nota": "O artigo nunca da o CO2 so do betao por viga nem por m3 (so a Eq.1 agregada e as % maximas da A.2). Familia concreto_armado correcta. Valor gravado inclui aco+transporte+fim de vida."
+   },
+   {
+    "sheet_row": 1992,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "idem; viga com Vs~20e-3 (MC-2010, LL1=15 kN/m); aco ate 50-90% do impacto total para L=8 m (Sec.3)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "idem, desenho de maior armadura",
+    "nota": "Mesmo betao (ecoinvent Concrete 35 MPa) que 1991: o mesmo fck com CO2 diferente reflecte so a armadura. Familia concreto_armado correcta."
+   }
+  ],
+  "notas": "Unico artigo do lote com CO2 que inclui aco e nao separavel."
+ },
+ {
+  "row_id": 3305,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 344,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3 CFST: Cement 244 kg x0,951=232,04 + gravel 0,78 + sand 0,45 (betao) separados de Steel tube 541,29 e Reinforcing steel bars 196,09",
+    "co2_so_betao": 382.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1/Tab.3: CFST (tubo de aco + betao armado), f'co 35 MPa",
+    "nota": "O valor gravado 382,4 (=233,27/0,61) JA e so o betao (A1, sem transporte/construcao/manutencao). Fronteira do artigo e cradle-to-grave da coluna com tubo e varoes. Traco do betao de ref.[66] (400 cement/700/1200 por m3). Familia opc aceitavel (o par e o nucleo de betao)."
+   },
+   {
+    "sheet_row": 345,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.3 CFFT: cement 122 kg x0,951=117,17 + agregados + agua; FRP tube 31 kg = 293,74 kg CO2 separado",
+    "co2_so_betao": 334.9,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1: CFFT, tubo GFRP + nucleo de betao f'co 40 MPa; traco C40 por m3 na p.3",
+    "nota": "Valor gravado 334,9 JA e so o betao (A1 recalculado por m3 a partir do traco). O tubo GFRP (confinamento estrutural) fica fora. Familia opc aceitavel."
+   }
+  ],
+  "notas": ""
+ },
+ {
+  "row_id": 3309,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 346,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.5: Steel reinforcing bar 1,670 kg CO2-eq/kg separado dos constituintes do betao; vigas armadas com 2 varoes 10/12 mm",
+    "co2_so_betao": 359.1,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1 VA (cimento 450,78) e Tab.2 VAC fc-28 47,61 MPa",
+    "nota": "Valor gravado 359,1 JA e so o betao (reconstrucao do traco VA com factores da Tab.5 + transporte, sem varao). ERRO DE FAMILIA: este par e o VAC (agregado virgem, controlo) e esta em familia \"reciclado\" - devia ser opc. O rotulo do material tambem mistura VAC e RACI/II/III."
+   },
+   {
+    "sheet_row": 1993,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "idem Tab.5",
+    "co2_so_betao": 372.5,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 RAI / Tab.2 RAII fc 55,50",
+    "nota": "Gravado ja so betao. Familia reciclado correcta."
+   },
+   {
+    "sheet_row": 1994,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "idem Tab.5",
+    "co2_so_betao": 335.0,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 RAII / Tab.2 fc 47,91",
+    "nota": "Gravado ja so betao. Familia reciclado correcta."
+   },
+   {
+    "sheet_row": 1995,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "idem Tab.5",
+    "co2_so_betao": 350.4,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.1 RAIII / Tab.2 fc 48,26",
+    "nota": "Gravado ja so betao. Familia reciclado correcta."
+   }
+  ],
+  "notas": ""
+ },
+ {
+  "row_id": 3321,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 958,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2: cradle-to-gate A1-A3 da producao do betao; FU = 1 m3 de betao; recuperacao de aco do RCA nao considerada",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "C100-S0-RA0-H-F36 (Aiello & Leuzzi 2010), 323 kgCO2e sem transporte (Sec.3)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 959,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "C75-S25-RA0-H-F36 (Jau et al. 2004) 296 kgCO2e sem transporte; 25% cinza volante",
+    "nota": "Familia scm correcta."
+   },
+   {
+    "sheet_row": 960,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "C75-S25-R50-H-F36* (Dimitriou 2018, interpolado) 306 kgCO2e sem transporte",
+    "nota": "Tambem tem 25% SCM, mas o que o distingue da ref. C75-S25-R0 e o RCA 50%. fck 36,5 e de mistura interpolada (*). Familia reciclado correcta."
+   }
+  ],
+  "notas": ""
+ },
+ {
+  "row_id": 3327,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 961,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2: A1-A3 EN 15804, FU = 1 m3 de betao pronto; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela de resultados GWP100 por m3, coluna Control",
+    "nota": "Familia opc correcta."
+   },
+   {
+    "sheet_row": 962,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2: A1-A3 EN 15804, FU = 1 m3 de betao pronto; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela de resultados GWP100 por m3, coluna FA10",
+    "nota": "FA e SF tratados como subprodutos inevitaveis sem alocacao."
+   },
+   {
+    "sheet_row": 963,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2: A1-A3 EN 15804, FU = 1 m3 de betao pronto; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela de resultados GWP100 por m3, coluna FA20",
+    "nota": "FA e SF tratados como subprodutos inevitaveis sem alocacao."
+   },
+   {
+    "sheet_row": 964,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2: A1-A3 EN 15804, FU = 1 m3 de betao pronto; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela de resultados GWP100 por m3, coluna FA30",
+    "nota": "FA e SF tratados como subprodutos inevitaveis sem alocacao."
+   },
+   {
+    "sheet_row": 965,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2: A1-A3 EN 15804, FU = 1 m3 de betao pronto; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela de resultados GWP100 por m3, coluna SF05",
+    "nota": "FA e SF tratados como subprodutos inevitaveis sem alocacao."
+   },
+   {
+    "sheet_row": 966,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2: A1-A3 EN 15804, FU = 1 m3 de betao pronto; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela de resultados GWP100 por m3, coluna SF10",
+    "nota": "FA e SF tratados como subprodutos inevitaveis sem alocacao."
+   },
+   {
+    "sheet_row": 967,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2: A1-A3 EN 15804, FU = 1 m3 de betao pronto; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela de resultados GWP100 por m3, coluna SF15",
+    "nota": "FA e SF tratados como subprodutos inevitaveis sem alocacao."
+   }
+  ],
+  "notas": ""
+ },
+ {
+  "row_id": 3331,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 968,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.5/6: ECC A1-A3 Concrete 254,4 kgCO2e/m3 e Steel 977 kgCO2e/t em linhas separadas (aco 69,15 t contabilizado a parte)",
+    "co2_so_betao": 254.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.2.6 e Tab.5: ECC do betao A1-A3 = 254,4 kgCO2e/m3; fc = 30 MPa (Tab. de parametros de projecto das colunas)",
+    "nota": "Valor gravado JA e so o betao. E um coeficiente generico de betao (nao de mistura propria) usado no inventario do hotel. Familia opc correcta (nao concreto_armado, porque o valor exclui o aco)."
+   }
+  ],
+  "notas": ""
+ },
+ {
+  "row_id": 3335,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 353,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: fronteira termina na chegada das materias-primas a central de betao pronto; so materiais Class 1 concrete do pavimento e bermas (137.542 m3); nenhuma armadura/passadores no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "in-situ GDOT (ja com 20% FA classe F), 43.196 MT (=9935/0,23)",
+    "nota": "O controlo ja tem 20% FA: familia scm aceitavel."
+   },
+   {
+    "sheet_row": 354,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: fronteira termina na chegada das materias-primas a central de betao pronto; so materiais Class 1 concrete do pavimento e bermas (137.542 m3); nenhuma armadura/passadores no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "25% FA: -2473 MT (Tab.9)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 355,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: fronteira termina na chegada das materias-primas a central de betao pronto; so materiais Class 1 concrete do pavimento e bermas (137.542 m3); nenhuma armadura/passadores no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "30% FA: -4961 MT (Tab.9)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 356,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1: fronteira termina na chegada das materias-primas a central de betao pronto; so materiais Class 1 concrete do pavimento e bermas (137.542 m3); nenhuma armadura/passadores no inventario",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "40% FA: -9935 MT (Tab.9)",
+    "nota": ""
+   }
+  ],
+  "notas": ""
+ },
+ {
+  "row_id": 3348,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 364,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.5: inventario so cimento, agua, agregados, (fibra), transporte, mistura, pre-fabrico, transporte a obra; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.5 Control mix 413,83 kg CO2e/m3",
+    "nota": ""
+   },
+   {
+    "sheet_row": 365,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem Tab.5",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.5 Control + Loose Hemp Fiber 348,09 (inclui -65,74 kg de credito biogenico do canhamo, -1,73 kgCO2e/kg)",
+    "nota": "Fibra de canhamo virgem (cultura, comprada a fornecedor), nao residuo. ATENCAO: a reducao vem toda do sequestro biogenico atribuido a fibra (38 kg x -1,73); sem esse credito seria 413,83. Familia opc; se houver familia de fibras/biobase, ponderar."
+   }
+  ],
+  "notas": ""
+ },
+ {
+  "row_id": 3354,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 368,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2/Tab.2/Tab.4: EC por m3 so dos constituintes (CEMI, NHL5, GGBS, SF, agua, agregado, SP); vigas armadas so mencionadas como demonstracao, fora da ACV",
+    "co2_so_betao": null,
+    "tipo_ligante": "outro: cal hidraulica natural NHL5 + GGBS + silica de fumo (sem clinquer Portland)",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.12, mistura I (53% NHL5/35% GGBS/12% SF): 175 kgCO2/m3 (sem alocacao)",
+    "nota": "Ligante = cal hidraulica natural NHL5 + GGBS + SF, SEM cimento Portland (Tab.4: CEMI = 0). FAMILIA PARECE ERRADA: esta \"scm\", devia ser nao-Portland (ligantes; base_portland = nao). fcm,28 e resistencia em CUBO; I-III assumidas iguais a 33,0 MPa (media dos tres)."
+   },
+   {
+    "sheet_row": 369,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2/Tab.2/Tab.4: EC por m3 so dos constituintes (CEMI, NHL5, GGBS, SF, agua, agregado, SP); vigas armadas so mencionadas como demonstracao, fora da ACV",
+    "co2_so_betao": null,
+    "tipo_ligante": "outro: cal hidraulica natural NHL5 + GGBS + silica de fumo (sem clinquer Portland)",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.12, mistura II: 135 kgCO2/m3 (sem alocacao)",
+    "nota": "Ligante = cal hidraulica natural NHL5 + GGBS + SF, SEM cimento Portland (Tab.4: CEMI = 0). FAMILIA PARECE ERRADA: esta \"scm\", devia ser nao-Portland (ligantes; base_portland = nao). fcm,28 e resistencia em CUBO; I-III assumidas iguais a 33,0 MPa (media dos tres)."
+   },
+   {
+    "sheet_row": 370,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2/Tab.2/Tab.4: EC por m3 so dos constituintes (CEMI, NHL5, GGBS, SF, agua, agregado, SP); vigas armadas so mencionadas como demonstracao, fora da ACV",
+    "co2_so_betao": null,
+    "tipo_ligante": "outro: cal hidraulica natural NHL5 + GGBS + silica de fumo (sem clinquer Portland)",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.12, mistura III: 95 kgCO2/m3 (sem alocacao)",
+    "nota": "Ligante = cal hidraulica natural NHL5 + GGBS + SF, SEM cimento Portland (Tab.4: CEMI = 0). FAMILIA PARECE ERRADA: esta \"scm\", devia ser nao-Portland (ligantes; base_portland = nao). fcm,28 e resistencia em CUBO; I-III assumidas iguais a 33,0 MPa (media dos tres)."
+   },
+   {
+    "sheet_row": 371,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2/Tab.2/Tab.4: EC por m3 so dos constituintes (CEMI, NHL5, GGBS, SF, agua, agregado, SP); vigas armadas so mencionadas como demonstracao, fora da ACV",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.12, mistura CEMI 33 MPa: 265 kgCO2/m3 (sem alocacao)",
+    "nota": "Referencia CEMI extrapolada (nao ensaiada), mesmo fcm,28 em cubo. Familia \"scm\" errada: devia ser opc."
+   },
+   {
+    "sheet_row": 372,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2/Tab.2/Tab.4: EC por m3 so dos constituintes (CEMI, NHL5, GGBS, SF, agua, agregado, SP); vigas armadas so mencionadas como demonstracao, fora da ACV",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.12, mistura CEMIII/A 33 MPa: 160 kgCO2/m3 (sem alocacao)",
+    "nota": "CEMIII/A extrapolado (50% CEMI/50% GGBS); familia scm correcta."
+   },
+   {
+    "sheet_row": 373,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2/Tab.2/Tab.4: EC por m3 so dos constituintes (CEMI, NHL5, GGBS, SF, agua, agregado, SP); vigas armadas so mencionadas como demonstracao, fora da ACV",
+    "co2_so_betao": null,
+    "tipo_ligante": "outro: cal hidraulica natural NHL5 + GGBS + silica de fumo (sem clinquer Portland)",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.12, mistura IV (50/40/10, 546 kg ligante): 195 kgCO2/m3 (sem alocacao)",
+    "nota": "Ligante = cal hidraulica natural NHL5 + GGBS + SF, SEM cimento Portland (Tab.4: CEMI = 0). FAMILIA PARECE ERRADA: esta \"scm\", devia ser nao-Portland (ligantes; base_portland = nao). fcm,28 e resistencia em CUBO; I-III assumidas iguais a 33,0 MPa (media dos tres)."
+   },
+   {
+    "sheet_row": 374,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2/Tab.2/Tab.4: EC por m3 so dos constituintes (CEMI, NHL5, GGBS, SF, agua, agregado, SP); vigas armadas so mencionadas como demonstracao, fora da ACV",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.12, mistura CEMI 49 MPa: 345 kgCO2/m3 (sem alocacao)",
+    "nota": "Referencia CEMI extrapolada (nao ensaiada), mesmo fcm,28 em cubo. Familia \"scm\" errada: devia ser opc."
+   },
+   {
+    "sheet_row": 375,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2/Tab.2/Tab.4: EC por m3 so dos constituintes (CEMI, NHL5, GGBS, SF, agua, agregado, SP); vigas armadas so mencionadas como demonstracao, fora da ACV",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.12, mistura CEMIII/A 49 MPa: 235 kgCO2/m3 (sem alocacao)",
+    "nota": "CEMIII/A extrapolado (50% CEMI/50% GGBS); familia scm correcta."
+   }
+  ],
+  "notas": "Ligante NHL5 nao e Portland: familia scm errada para 368-370 e 373; CEMI 371/374 deviam ser opc."
+ },
+ {
+  "row_id": 3356,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1996,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1.1: objecto = betao, UF 1 m3; inventario Tab.4/9 so materiais, transporte e producao",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.10 B300 GWP100 6,93E+02 kg; Tab.9 300 kg CEM 42.5 + SP 7,8",
+    "nota": "Controlo Portland simples: familia \"scm\" errada, devia ser opc. CO2 alto porque o artigo usa 1,79 kg CO2eq/kg de cimento (Tab.5)."
+   },
+   {
+    "sheet_row": 1997,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.10 FA GWP100 5,20E+02; Tab.9 200 cimento + 300 cinza volante de carvao",
+    "nota": "Familia scm correcta. Nota: 520 coincide com B219.8 (5,20E+02) na Tab.10 mas e outra mistura (sem par gravado)."
+   }
+  ],
+  "notas": ""
+ }
+]

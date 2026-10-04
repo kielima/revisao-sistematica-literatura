@@ -1,0 +1,356 @@
+[
+ {
+  "row_id": 4750,
+  "rotulo": "Starczyk-Kolbyk & Malek, 2023",
+  "titulo": "Analysis of the Life Cycle and Properties of Concrete with the Addition of Waste Car Glass",
+  "pdf": "STARCZYK-KOLBYK, 2023.pdf",
+  "fileId": "1Ua5CkLb7KSaOoEw7nY3XKpI5yBZqo81_",
+  "pares": [
+   {
+    "sheet_row": 1738,
+    "material": "Concreto W2 (111.11 kg/m3 de vidro de carro triturado)",
+    "fck": 70.13,
+    "co2_kg_m3": 335.09,
+    "co2_conversao": "33.509 kg / 100 m3 = 335,09",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 4753,
+  "rotulo": "Backes et al., 2023",
+  "titulo": "Comparative Cradle-to-Grave Carbon Footprint of a CFRP-Grid Reinforced Concrete Facade Panel",
+  "pdf": "BACKES et al., 2023 - su151511548.pdf",
+  "fileId": "1KvZsj2SFHaLUKC2igYfxMGo7AnE2-I9I",
+  "pares": [
+   {
+    "sheet_row": 1740,
+    "material": "Painel de fachada CRC (reforcado com grelha de fibra de carbono), variante F2C1 (melhor caso), cenario 50% reciclagem",
+    "fck": 58.0,
+    "co2_kg_m3": 713.5,
+    "co2_conversao": "411 kg / 0,576 m3 (4,0x3,6x0,04) = 713,5",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1741,
+    "material": "Painel de fachada CRC, variante F1C3 (pior caso), cenario 50% reciclagem",
+    "fck": 58.0,
+    "co2_kg_m3": 861.1,
+    "co2_conversao": "496 kg / 0,576 m3 = 861,1",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1742,
+    "material": "Painel de fachada SRC (reforcado com aco), variante SRC 2.2 (aco de alto-forno primario)",
+    "fck": 35.0,
+    "co2_kg_m3": 427.1,
+    "co2_conversao": "492 kg / 1,152 m3 (4,0x3,6x0,08) = 427,1",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4754,
+  "rotulo": "Maury-Ramirez & De Belie, 2023",
+  "titulo": "Environmental and Economic Assessment of Eco-Concrete for Residential Buildings: A Case Study of Santiago de Cali (Colombia)",
+  "pdf": "MAURY-RAMIREZ et al., 2023.pdf",
+  "fileId": "1I0xkD3RBj7aYJnd1Wf_OprfSp-l3Gtbw",
+  "pares": [
+   {
+    "sheet_row": 1743,
+    "material": "Eco-concreto com 50% escoria de alto-forno (BFS) — vigas aereas e de fundacao, casa sustentavel, Santiago de Cali",
+    "fck": 28.0,
+    "co2_kg_m3": 15.8,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1744,
+    "material": "Eco-concreto com 50% escoria de alto-forno (BFS) — colunas, casa sustentavel, Santiago de Cali",
+    "fck": 28.0,
+    "co2_kg_m3": 20.1,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 4756,
+  "rotulo": "Huber et al., 2024",
+  "titulo": "Holistic life cycle cost analysis of road bridges with non-metallic reinforcement",
+  "pdf": "HUBER et al., 2024 - j.dibe.2024.100533.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 590,
+    "material": "Concreto C25/30 (usado na subestrutura/fundacao da ponte, variante aco)",
+    "fck": 25.0,
+    "co2_kg_m3": 199.92,
+    "co2_conversao": "0,0833 kg/kg x 2400 kg/m3 (densidade Tab.1) = 199,92",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 591,
+    "material": "Concreto C30/37 (usado na superestrutura da ponte, variantes GFRP/BFRP/CFRP)",
+    "fck": 30.0,
+    "co2_kg_m3": 219.12,
+    "co2_conversao": "0,0913 kg/kg x 2400 kg/m3 = 219,12",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4757,
+  "rotulo": "Zheng et al., 2023",
+  "titulo": "Carbon Emission Evaluation of Roadway Construction at Contaminated Sites Based on Life Cycle Assessment Method",
+  "pdf": "ZHENG et al., 2023.pdf",
+  "fileId": "1M36C13SFZdhOFkYVYLQl7ZBlfMBLMmoW",
+  "pares": [
+   {
+    "sheet_row": 592,
+    "material": "Concreto C30 (fator de emissao normativo, usado nos cenarios 2 e 3 de remediacao de solo contaminado)",
+    "fck": 30.0,
+    "co2_kg_m3": 321.3,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4758,
+  "rotulo": "Moro, 2023",
+  "titulo": "Comparative Analysis of Multi-Criteria Decision Making and Life Cycle Assessment Methods for Sustainable Evaluation of Concrete Mixtures",
+  "pdf": "MORO, 2023.pdf",
+  "fileId": "1P3s6E5ETmVpLFxyryQJrb6_h4mQoVOQy",
+  "pares": [
+   {
+    "sheet_row": 1745,
+    "material": "⚠️ Concreto 0% RCA + OPC (referencia) (C0-R)",
+    "fck": 47.6,
+    "co2_kg_m3": 393.09,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1746,
+    "material": "⚠️ Concreto 0% RCA + 20% cinza volante (FA) (C0-F)",
+    "fck": 54.9,
+    "co2_kg_m3": 324.93,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1747,
+    "material": "⚠️ Concreto 0% RCA + 30% escoria granulada de alto-forno (GGBFS) (C0-G)",
+    "fck": 42.7,
+    "co2_kg_m3": 299.49,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1748,
+    "material": "⚠️ Concreto 0% RCA + 10% silica ativa (SF) (C0-S)",
+    "fck": 56.0,
+    "co2_kg_m3": 493.89,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1749,
+    "material": "⚠️ Concreto 50% RCA + OPC (C50-R)",
+    "fck": 44.4,
+    "co2_kg_m3": 369.73,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1750,
+    "material": "⚠️ Concreto 50% RCA + 20% cinza volante (FA) (C50-F)",
+    "fck": 53.2,
+    "co2_kg_m3": 301.57,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1751,
+    "material": "⚠️ Concreto 50% RCA + 30% escoria granulada de alto-forno (GGBFS) (C50-G)",
+    "fck": 40.1,
+    "co2_kg_m3": 276.13,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1752,
+    "material": "⚠️ Concreto 50% RCA + 10% silica ativa (SF) (C50-S)",
+    "fck": 49.3,
+    "co2_kg_m3": 470.53,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1753,
+    "material": "⚠️ Concreto 100% RCA + OPC (C100-R)",
+    "fck": 44.3,
+    "co2_kg_m3": 346.38,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1754,
+    "material": "⚠️ Concreto 100% RCA + 20% cinza volante (FA) (C100-F)",
+    "fck": 50.7,
+    "co2_kg_m3": 278.22,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1755,
+    "material": "⚠️ Concreto 100% RCA + 30% escoria granulada de alto-forno (GGBFS) (C100-G)",
+    "fck": 41.6,
+    "co2_kg_m3": 252.78,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1756,
+    "material": "⚠️ Concreto 100% RCA + 10% silica ativa (SF) (C100-S)",
+    "fck": 53.2,
+    "co2_kg_m3": 447.18,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 4763,
+  "rotulo": "Amari et al., 2024",
+  "titulo": "Engineering and Life Cycle Assessment (LCA) of Sustainable Zeolite-Based Geopolymer Incorporating Blast Furnace Slag",
+  "pdf": "AMARI, 2024.pdf",
+  "fileId": "1n5V6VjeYgXtc6Ad4MqZqAZ3cuRpXBIv0",
+  "pares": [
+   {
+    "sheet_row": 1757,
+    "material": "Geopolimero de zeolita de mina com escoria de alto forno (BFS 20%), cura 60C",
+    "fck": 43.3,
+    "co2_kg_m3": 238.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 4766,
+  "rotulo": "Ma et al., 2024",
+  "titulo": "A Building Information Modeling-Based Life Cycle Assessment of the Embodied Carbon and Environmental Impacts of High-Rise Building Structures: A Case Study",
+  "pdf": "MA, 2024.pdf",
+  "fileId": "1FPwjZXcJig4LFeZc6rrNo1JhN9mw7Hm2",
+  "pares": [
+   {
+    "sheet_row": 1758,
+    "material": "Concreto estrutural — Slabs on Grade (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 37.9,
+    "co2_kg_m3": 305.81,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1759,
+    "material": "Concreto estrutural — Walls and Footings (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 34.5,
+    "co2_kg_m3": 288.23,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1760,
+    "material": "Concreto estrutural — Slabs on Steel Deck (mesh reinforced) (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 34.5,
+    "co2_kg_m3": 353.21,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1761,
+    "material": "Concreto estrutural — Mild Reinforced Beams and Slabs (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 37.9,
+    "co2_kg_m3": 305.81,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1762,
+    "material": "Concreto estrutural — Columns (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 68.9,
+    "co2_kg_m3": 344.04,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1763,
+    "material": "Concreto estrutural — Shear Walls (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 82.7,
+    "co2_kg_m3": 412.84,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1764,
+    "material": "Concreto estrutural — Grade Beams (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 55.2,
+    "co2_kg_m3": 318.81,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1765,
+    "material": "Concreto estrutural — Pier Caps (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 41.4,
+    "co2_kg_m3": 270.64,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4768,
+  "rotulo": "Aryan et al., 2024",
+  "titulo": "Assessment of environmental impacts and reduction opportunities for road infrastructures in India",
+  "pdf": "ARYAN et al., 2024 - j.trd.2024.104106.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 594,
+    "material": "Pavement Quality Concrete (PQC), mix design indiano M20, camada de rolamento do pavimento rigido (MDR)",
+    "fck": 20.0,
+    "co2_kg_m3": 383.4,
+    "co2_conversao": "469.625 x 2 faixas = 939.250 kg/km (= 46.962,5 x 20 anos); volume de betao por km = 1000 m x 7,0 m x (0,25 PQC + 0,10 DLC) = 2450 m3; 939.250 / 2450 = 383,4 kg CO2 eq/m3 [REVISAO 2026-09-27; confianca baixa; Fig.4 vista: largura 7,0 m confirmada pela UF e pelo calculo de carbonatacao do proprio arti",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ },
+ {
+  "row_id": 4774,
+  "rotulo": "Shi et al., 2024",
+  "titulo": "Evaluating Carbon Emissions during Slurry Shield Tunneling for Sustainable Management Utilizing a Hybrid Life-Cycle Assessment Approach",
+  "pdf": "SHI et al., 2024.pdf",
+  "fileId": "1jQaMGoCaxaUQ8CZUxqQEy5O19vFOABxq",
+  "pares": [
+   {
+    "sheet_row": 1771,
+    "material": "Concreto pre-moldado C40 (aduelas de revestimento de tunel, slurry shield)",
+    "fck": 40.0,
+    "co2_kg_m3": 288.9,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 1772,
+    "material": "Concreto pre-moldado C60 (aduelas de revestimento de tunel, slurry shield)",
+    "fck": 60.0,
+    "co2_kg_m3": 222.3,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ }
+]
