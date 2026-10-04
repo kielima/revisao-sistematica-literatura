@@ -82,6 +82,8 @@ Cada entrada diz se foi verificada por mim no PDF (`pessoal`) ou é leitura do s
 |---|---|---|---|
 | B7 | 2026-10-04 | **[IMPLEMENTAÇÃO — por confirmar]** Leave-one-study-out em paralelo (`mclapply`), com os `vi` do modelo completo e os σ² do modelo completo como valores iniciais; desliga-se com `LOO=0`. | A corrida sequencial passava dos 30 min. |
 
+**Leave-one-study-out (2026-10-04, 1.492 pares, estrato principal 308 estudos):** retirando qualquer estudo, a média de `ci` fica entre 10,00 (sem 2849) e 10,32 (sem 3413), contra 10,27 do modelo completo; 0 falhas de convergência. Nenhum estudo isolado determina o resultado. `metanalise/resultados/leave_one_study_out.csv`.
+
 ## C. Pendências que não bloqueiam a análise
 
 **Perguntas abertas à Kiê (2026-10-04, revarredura):**
