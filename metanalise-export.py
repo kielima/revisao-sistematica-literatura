@@ -59,6 +59,7 @@ reconferir os textos que citam contagens (KPI de pares, tier-n-p/tier-n-s) no
 mesmo ficheiro.
 """
 import json
+import os
 import re
 import sys
 import unicodedata
@@ -442,7 +443,24 @@ def _fold(s):
     return ''.join(c for c in s if not unicodedata.combining(c)).lower()
 
 
+def _carregar_revarredura():
+    try:
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lotes_familia', 'familias_revarredura.json'),
+                  encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+
+# 2026-10-04: revarredura das familias e do betao armado (43 lotes, leitura integral dos PDFs, regras D1-D8
+# de metanalise/DECISOES_METANALISE.md). Tem precedencia sobre o OVERRIDE antigo e as regex.
+FAMILIA_REVARREDURA = _carregar_revarredura()
+
+
 def classify(row_id, material, titulo):
+    rev = FAMILIA_REVARREDURA.get(f'{row_id}|{material}')
+    if rev:
+        return rev
     key = (row_id, material)
     if key in OVERRIDE:
         return OVERRIDE[key]

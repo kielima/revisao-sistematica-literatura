@@ -155,13 +155,21 @@ png(file.path(out_dir, "figuras", "funil_principal.png"), width = 1600, height =
 funnel(m_princ, xlab = "ci (kg CO2-eq / m3 / MPa)")
 dev.off()
 
-# Leave-one-study-out (influencia de cada estudo na media principal)
-loo <- lapply(levels(droplevels(princ$estudo)), function(s) {
-  dd <- subset(princ, estudo != s)
-  mm <- ajusta(dd)
-  data.frame(estudo_omitido = s, mu = as.numeric(mm$b), ic95_inf = mm$ci.lb, ic95_sup = mm$ci.ub)
-})
-write.csv(do.call(rbind, loo), file.path(out_dir, "leave_one_study_out.csv"), row.names = FALSE)
-
 writeLines(capture.output(print(m_princ), sessionInfo()), file.path(out_dir, "modelo_principal.txt"))
 print(res, digits = 4)
+
+# Leave-one-study-out (influencia de cada estudo na media principal).
+# B7: em paralelo (mclapply) e com os sigma2 do modelo completo como valores iniciais —
+# a corrida sequencial passava dos 30 min. Desligar com LOO=0.
+if (Sys.getenv("LOO", "1") != "0") {
+  ini <- m_princ$sigma2
+  princ$vi <- monta_vi(princ)          # vi do modelo completo (as classes de A3 nao mudam ao tirar um estudo)
+  loo <- parallel::mclapply(levels(droplevels(princ$estudo)), function(s) {
+    dd <- droplevels(subset(princ, estudo != s))
+    mm <- tryCatch(rma.mv(yi, vi, random = ~ 1 | estudo / obs_id, data = dd, method = "REML",
+                          control = list(sigma2.init = ini)), error = function(e) NULL)
+    if (is.null(mm)) return(data.frame(estudo_omitido = s, mu = NA, ic95_inf = NA, ic95_sup = NA))
+    data.frame(estudo_omitido = s, mu = as.numeric(mm$b), ic95_inf = mm$ci.lb, ic95_sup = mm$ci.ub)
+  }, mc.cores = max(1, parallel::detectCores()))
+  write.csv(do.call(rbind, loo), file.path(out_dir, "leave_one_study_out.csv"), row.names = FALSE)
+}

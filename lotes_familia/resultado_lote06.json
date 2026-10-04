@@ -1,0 +1,420 @@
+[
+ {
+  "row_id": 2785,
+  "pares": [
+   {
+    "sheet_row": 226,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.1: cradle-to-gate A1-A3 de betao pronto; \"All concrete components are considered: cement, water, aggregates, and admixtures\". O unico aco no inventario e \"Steel, low-alloyed\" 0,0238 kg (equipamento da central), nao armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 8 (max/min GWP por tipo de cimento, por m3): PBPC.2 betao estrutural ambiente nao agressivo CEM I, maximo 4,94e2 kg CO2 eq/m3.",
+    "nota": "Base parametrizada de 1.505 combinacoes; o par e o maximo do CEM I (sem SCM adicionado ao betao; o CEM I e cimento de referencia). Classificado como controlo/referencia Portland; familia opc correcta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Pos-print; tabelas com texto embaralhado mas o valor 4,94e2 para PBPC.2 CEM I esta legivel."
+ },
+ {
+  "row_id": 2786,
+  "pares": [
+   {
+    "sheet_row": 227,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Sec.2.2/Fig.2: fronteira inclui \"reinforced concrete, steel formwork, and reinforcement cage\"; FU = 1 m3 de painel pre-fabricado. Sec.3: a gaiola de armadura e 32% do global warming (Fig.6). Tabela 1: 248,95 kg CO2 eq e o total do painel (convencional).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 1: Global warming 248,95 (convencional) / 231,39 (MR) kg CO2 eq por 1 m3 de painel; betao modelado como AusLCI \"Concrete 40 MPa, 30% fly ash, at the batching plant\" (Sec.2.4.2).",
+    "nota": "O 248,95 NAO e o CO2 do betao: e o painel inteiro (armadura ~32%, cofragem de aco cromado, betao, mao-de-obra hibrida IO). A parcela do betao so aparece em percentagem na Fig.6 (figura nao renderizada: o download do PDF falhou nesta sessao), pelo que nao e separavel pelo texto. Familia actual \"scm\" parece errada: devia ser concreto_armado (ou NAO CONVERTIDO se se exigir so betao). A cinza volante (30%) e do processo generico AusLCI, nao uma variavel do estudo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fig.6 (contribuicao por processo) nao renderizada - download_file_content rebentou a ligacao MCP."
+ },
+ {
+  "row_id": 2794,
+  "pares": [
+   {
+    "sheet_row": 228,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tabela 4 (viga de aco com agua dessalinizada, FU = viga 5x0,5x0,3 m): agua 3,98 + cimento 286 + brita 2,51 + areia 0,983 + aco 124 = 417 kg CO2 eq.",
+    "co2_so_betao": 391.3,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 4; Sec.2: 416 kg cimento, 448 areia, 780 brita, 187 L agua para a viga (0,75 m3; soma 1.831 kg ~ 2.440 kg/m3).",
+    "nota": "O gravado (293,47/0,75 = 391,3) JA exclui o aco (124 kg) - e a soma agua+cimento+brita+areia da Tabela 4; com aco seria 417/0,75 = 556. Fronteira cradle-to-gate sem transporte. As vigas GFRP/CFRP (Tab.5/6, agua do mar) tem o mesmo betao (cimento 286). Familia opc correcta; o sistema e betao armado mas o CO2 gravado e so do betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2800,
+  "pares": [
+   {
+    "sheet_row": 230,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: fronteira cradle-to-gate de 1 m3 de FRSCC (cimento, ISF, RSF, cinza volante, filer calcario, areia, SP, agregados, transporte, mistura). So fibras dispersas, sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 7: FRSCCR0_I90 (90 kg/m3 ISF) 518 kg CO2 eq/m3; Fig. GWP: cimento 75%, ISF 13,4%.",
+    "nota": "Referencia com fibras de aco industriais (fibra dispersa, nao armadura). Todas as misturas tem CEM I 52,5R + cinza volante de biomassa (residuo, so transporte) + filer calcario; a referencia ja leva cinza volante - opc e defensavel por ser a referencia, mas tecnicamente e Portland+SCM. Tabela 7 tem o rotulo da 1.a linha impresso como \"FRSCCR45_I45\" (gralha; o texto confirma que 518 e a R0_I90)."
+   },
+   {
+    "sheet_row": 231,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: fronteira cradle-to-gate de 1 m3 de FRSCC (cimento, ISF, RSF, cinza volante, filer calcario, areia, SP, agregados, transporte, mistura). So fibras dispersas, sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 7: FRSCCR45_I45 491 kg CO2 eq/m3.",
+    "nota": "Fibras de aco recicladas de pneus (RSF) em substituicao de metade das ISF."
+   },
+   {
+    "sheet_row": 232,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: fronteira cradle-to-gate de 1 m3 de FRSCC (cimento, ISF, RSF, cinza volante, filer calcario, areia, SP, agregados, transporte, mistura). So fibras dispersas, sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 7: FRSCCR60_I30 482 kg CO2 eq/m3.",
+    "nota": "Idem, 60 kg RSF + 30 kg ISF."
+   },
+   {
+    "sheet_row": 233,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: fronteira cradle-to-gate de 1 m3 de FRSCC (cimento, ISF, RSF, cinza volante, filer calcario, areia, SP, agregados, transporte, mistura). So fibras dispersas, sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 7: FRSCCR90_I0 466 kg CO2 eq/m3.",
+    "nota": "Idem, 90 kg RSF."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Tabela 7 com colunas desalinhadas no texto extraido; valores 518/491/482/466 confirmados pela ordem e pelo texto (reducao com o aumento de RSF)."
+ },
+ {
+  "row_id": 2801,
+  "pares": [
+   {
+    "sheet_row": 234,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tabela 11 (UF = 1/5 de painel, 0,144 m3): blocos ceramicos + 0,094 m3 de concreto C20 + barras CA50/CA60. Tabela 15: total 31,9 kg CO2 eq = concreto 22,5 + bloco ceramico 6,26 + vergalhao de aco 2,81 + transportes.",
+    "co2_so_betao": 239.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 15 (p.88): Concreto 22,5 kg CO2 eq (70,09%) para 0,094 m3 -> 22,5/0,094 = 239,4 kg CO2 eq/m3; processo GaBi (Alemanha) \"concreto C20/C25\".",
+    "nota": "ATENCAO: o gravado 261,7 vem de 0,771 x 31,9 = 24,595 kg / 0,094 m3, mas o factor 0,771 nao aparece no PDF (nem 77,1%); a parcela do concreto na Tabela 15 e 22,5 kg (70,09%). 24,6 kg fica entre o concreto sozinho (22,5) e concreto+vergalhao (25,31), pelo que o gravado pode conter parte do aco. Proposta: co2_kg_m3 = 239,4 (so concreto, Tabela 15). Familia opc correcta se se usar o valor so do concreto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Dissertacao UnB 138 p.; texto extraido chegou ao Anexo 02 p.138 (fim do documento), sem truncagem."
+ },
+ {
+  "row_id": 2803,
+  "pares": [
+   {
+    "sheet_row": 235,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3: A1-A4 de 1 m3 de betao de piso (cimento Portland, areia+basalto, agua, fibras PP de fitas de cintar). Fibras PP = reforco disperso; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.2.3: \"emissivity of 1 m3 of the designed concrete at the level of 452 kg CO2e\"; Tabela 4: fcm 71,07 MPa para fibras 2,2 kg/m3 (referencia 70,30).",
+    "nota": "Um unico valor de CO2 para o betao projectado (fibra considerada \"emission-free\", reciclada); o fck escolhido e o da mistura com 2,2 kg/m3. Familia reciclado coerente com o papel fibra reciclada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "CO2 nao varia entre referencia e misturas com fibras (fibras sem carga atribuida)."
+ },
+ {
+  "row_id": 2804,
+  "pares": [
+   {
+    "sheet_row": 703,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4/Fig.2: fronteira = extraccao/processamento de materias-primas ate a mistura de 1 m3; sem aco. \"RC32/40\" e a designacao BS 8500, nao implica armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 2: GWP100 CEM I concrete 339 kg CO2 eq.",
+    "nota": "No texto (Sec.3) e conclusoes aparece 334 para o Mix 1 (Tabela de inventario 334.148 g); a Tabela 2 diz 339. Divergencia interna do artigo."
+   },
+   {
+    "sheet_row": 704,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4/Fig.2: fronteira = extraccao/processamento de materias-primas ate a mistura de 1 m3; sem aco. \"RC32/40\" e a designacao BS 8500, nao implica armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 2: CEM II/B-V concrete 227 kg CO2 eq.",
+    "nota": "35% cinza volante (subproduto; so processamento e transporte alocados)."
+   },
+   {
+    "sheet_row": 705,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4/Fig.2: fronteira = extraccao/processamento de materias-primas ate a mistura de 1 m3; sem aco. \"RC32/40\" e a designacao BS 8500, nao implica armadura no inventario.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 2: CEM III/B concrete 127 kg CO2 eq.",
+    "nota": "70% GGBS (subproduto)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Assumption iv: GGBS e FA sem alocacao de emissoes da siderurgia/electricidade."
+ },
+ {
+  "row_id": 2806,
+  "pares": [
+   {
+    "sheet_row": 236,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tabela 2 (carbon imprint por m3): so cimento, escoria/cinza volante e agregados. Exemplo ilustrativo de mistura; sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 2: Concrete A total 318 kg CO2/m3; Tabela 4: cube 60-day strength 71,9 MPa.",
+    "nota": "FAMILIA PROVAVELMENTE ERRADA: o Concreto A e a referencia so com CEM I 42,5R (389 kg/m3), sem SCM -> deveria ser opc, nao scm. Nota: a resistencia e de cubo aos 60 dias."
+   },
+   {
+    "sheet_row": 237,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tabela 2 (carbon imprint por m3): so cimento, escoria/cinza volante e agregados. Exemplo ilustrativo de mistura; sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 2: Concrete B 312 kg CO2/m3 (cinza volante Detmarovice 194 kg, factor 388 kg CO2/t).",
+    "nota": "Cinza volante com carga alocada (388 kg/t)."
+   },
+   {
+    "sheet_row": 238,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tabela 2 (carbon imprint por m3): so cimento, escoria/cinza volante e agregados. Exemplo ilustrativo de mistura; sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 2: Concrete C 344 kg CO2/m3 (escoria moida 194 kg, 445 kg CO2/t).",
+    "nota": "Escoria com carga alocada; por isso C > A."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo curto (MATEC); lido integralmente."
+ },
+ {
+  "row_id": 2822,
+  "pares": [
+   {
+    "sheet_row": 706,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Sec.4.2: \"The pure concrete structure consisted of a shear wall, concrete slabs, concrete columns and beams, and all related rebar\"; Tabela 5 inclui ainda 200 t de \"Hot rolled sheet\". Tabela 6/8: GWP 1,79e6 kg CO2 eq = edificio inteiro, modulos A-C + D (Athena IE4B, inclui envolvente).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 8: concreto A-C 2.020 t, D -229 t, A-D 1.790 t CO2 eq; Tabela 7: A1-A3 1.770 t. Tabela 5: 3.823 m3 de C45.",
+    "nota": "O total inclui armadura, chapa laminada, envolvente (\"structure, envelope\"), A4-A5, C1-C4 e o credito do modulo D; o artigo nao separa o betao. Dividir por 3.823 m3 da 468 mas nao e CO2 do betao. Familia actual opc parece errada -> concreto_armado. Alem disso o texto escreve \"kg CO2 eq/m2\" para o 1,79e6 (gralha; a Tabela 6 diz kg CO2 eq)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2827,
+  "pares": [
+   {
+    "sheet_row": 707,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: \"Controlled\" cimento 401 kg, decom. 0 kg; Fig.13 M1C.",
+    "nota": "FAMILIA ERRADA: e a mistura de controlo (sem componentes reciclados) -> opc, nao reciclado. Inconsistencia: o texto da gama 348,90-515,86 kg CO2 e-/m3 para os 13 tracos, mas as leituras graficas gravadas vao de 391,0 a 524,7 - rever leitura da Fig.13."
+   },
+   {
+    "sheet_row": 1891,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M1T1 cimento 398 kg, componentes desmantelados 14 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1892,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M1T2 cimento 393 kg, componentes desmantelados 41 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1893,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M2F1 cimento 373 kg, componentes desmantelados 155 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1894,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M2F2 cimento 364 kg, componentes desmantelados 202 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1895,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M2F3 cimento 348 kg, componentes desmantelados 291 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1896,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M2F4 cimento 311 kg, componentes desmantelados 498 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1897,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M2F5 cimento 296 kg, componentes desmantelados 580 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1898,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M3U1 cimento 397 kg, componentes desmantelados 20 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1899,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M3U2 cimento 393 kg, componentes desmantelados 40 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1900,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M3U3 cimento 397 kg, componentes desmantelados 21 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1901,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M3U4 cimento 395 kg, componentes desmantelados 31 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   },
+   {
+    "sheet_row": 1902,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.13 / Sec.2.7: GWP por m3 decomposto em OPC, areia, agregados, transporte e energia de fabrico (inclui corte dos componentes); os componentes desmantelados (tubos de aco/flowlines/umbilicais, Tabela 5 col. \"Decom.\") entram como reforco reciclado SEM carga de producao - so transporte e energia de corte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela 5: M3U5 cimento 373 kg, componentes desmantelados 151 kg por m3; Fig.13.",
+    "nota": "Componente petrolifero reciclado embebido como reforco (substitui volume de betao; o CO2 baixa so por menos cimento). O aco dos componentes nao tem carga de producao (fim de vida, reciclado). Familia actual opc: discutivel - o que distingue o par e o residuo reciclado embebido, coerente com \"reciclado\" (ao contrario do 707, que e o controlo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Pares com o mesmo fck x CO2 em linhas diferentes (tracos distintos com o mesmo cimento, nao duplicados de extraccao): 1892=1899 (514,7; cimento 393), 1893=1902 (489,1; cimento 373), 1898=1900 (519,6; cimento 397). Texto: gama 348,90-515,86 kg CO2 e-/m3 incoerente com as leituras graficas 391,0-524,7."
+ }
+]

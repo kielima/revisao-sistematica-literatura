@@ -1,0 +1,713 @@
+[
+ {
+  "row_id": 3187,
+  "pares": [
+   {
+    "sheet_row": 896,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4.1/4.2: 'A cradle-to-gate system boundary is adopted'; Table 3 'total amount of CO2-eq ... for producing 1 m3 concrete' (mistura SCC, sem armadura).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3 Phase I M1 N0.3-0-0.3-20-C: fc 53.5+-3.6, CO2-eq 440.5",
+    "nota": "Mistura com 100% agregado natural (N) e 30% fly ash no ligante; e a referencia de agregado do artigo. Familia 'reciclado' discutivel para este par (nao tem RCA) - por confirmar."
+   },
+   {
+    "sheet_row": 897,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4.1/4.2: 'A cradle-to-gate system boundary is adopted'; Table 3 'total amount of CO2-eq ... for producing 1 m3 concrete' (mistura SCC, sem armadura).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3 Phase I/II M2 N0.4-0-0.3-20-C: fc 44.3+-2.9, CO2-eq 411.6",
+    "nota": "Idem M1 (100% NCA, 30% FA). Familia 'reciclado' discutivel."
+   },
+   {
+    "sheet_row": 898,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4.1/4.2: 'A cradle-to-gate system boundary is adopted'; Table 3 'total amount of CO2-eq ... for producing 1 m3 concrete' (mistura SCC, sem armadura).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3 Phase III M19 P0.4-0.5-0-20-C: fc 48.3+-3.2, CO2-eq 543.6",
+    "nota": "50% do agregado graudo = PRA (rejeitados de pre-fabricados), sem fly ash; e a referencia da fase III (variacao de FA)."
+   },
+   {
+    "sheet_row": 899,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4.1/4.2: 'A cradle-to-gate system boundary is adopted'; Table 3 'total amount of CO2-eq ... for producing 1 m3 concrete' (mistura SCC, sem armadura).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3 Phase III M22 P0.4-0.5-0.6-20-C: fc 23.0+-1.3, CO2-eq 248.3",
+    "nota": "50% PRA + 60% fly ash (subproduto). Na fase III o que distingue e a FA. Atencao: na tabela extraida a linha M22 repetida na Phase IV traz fc 40.9 (parece deslocamento de linha da extraccao); o 23.0 (Phase III, 20 C) e coerente com o texto."
+   },
+   {
+    "sheet_row": 900,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4.1/4.2: 'A cradle-to-gate system boundary is adopted'; Table 3 'total amount of CO2-eq ... for producing 1 m3 concrete' (mistura SCC, sem armadura).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 3 Phase IV M25 P0.4-0.5-0.3-90-C: fc 52.4+-3.7, CO2-eq 422.3",
+    "nota": "50% PRA + 30% FA, cura a 90 C (o que distingue na fase IV e a temperatura de cura; face a referencia natural e o agregado reciclado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "SCC com agregado de rejeitados de pre-fabricacao. Nenhum aco de armadura; fibras de aco so em misturas 'F' nao gravadas."
+ },
+ {
+  "row_id": 3188,
+  "pares": [
+   {
+    "sheet_row": 901,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: 'boundary considered was cradle-to-gate'; 'a cubic meter of concrete was considered as the basis'; Table 4 so cimento, agregados, pozolana, agua, aditivo + transporte.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 4: 50% mix Total 334.584 kg CO2eq (EC 222.061 + transporte); conclusao 1: ~32 MPa aos 28 d",
+    "nota": "Argila caulinitica de baixo grau calcinada (pozolana fabricada pelo CSIR-BRRI a ~800 C) - nao e residuo, e argila de jazida. O valor gravado (334.584) inclui transporte; o EC sem transporte e 222.061. fck 32 e 'approximately' do texto (Fig.3)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Betao C30 de laboratorio por m3; sem armadura."
+ },
+ {
+  "row_id": 3189,
+  "pares": [
+   {
+    "sheet_row": 902,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.8/Table 5: CO2 da fraccao ligante (OPC, FA, FPGC) com electricidade e transporte; sem armadura (vigas/armadura nao avaliadas).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "NC 100% OPC: 43.23 MPa; Table 5 NC 429.564",
+    "nota": "Referencia 100% OPC; CO2 so da fraccao ligante."
+   },
+   {
+    "sheet_row": 903,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.8/Table 5: CO2 da fraccao ligante (OPC, FA, FPGC) com electricidade e transporte; sem armadura (vigas/armadura nao avaliadas).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "NCF 50% FA: 29.18 MPa; Table 5 217.521",
+    "nota": "CO2 so da fraccao ligante (sem agregados), cabecalho da Table 5 diz 'kg/metric ton' mas a reconstituicao ja registada mostra que e por m3. FA (cinza volante) e FPGC (vidro residual) sao residuos/subprodutos."
+   },
+   {
+    "sheet_row": 904,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.8/Table 5: CO2 da fraccao ligante (OPC, FA, FPGC) com electricidade e transporte; sem armadura (vigas/armadura nao avaliadas).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "NS6 50% FA + 6% FPGC: 45.98 MPa; Table 5 217.562",
+    "nota": "CO2 so da fraccao ligante (sem agregados), cabecalho da Table 5 diz 'kg/metric ton' mas a reconstituicao ja registada mostra que e por m3. FA (cinza volante) e FPGC (vidro residual) sao residuos/subprodutos."
+   },
+   {
+    "sheet_row": 905,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.8/Table 5: CO2 da fraccao ligante (OPC, FA, FPGC) com electricidade e transporte; sem armadura (vigas/armadura nao avaliadas).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "NS10 50% FA + 10% FPGC: 36.64 MPa; Table 5 217.589",
+    "nota": "CO2 so da fraccao ligante (sem agregados), cabecalho da Table 5 diz 'kg/metric ton' mas a reconstituicao ja registada mostra que e por m3. FA (cinza volante) e FPGC (vidro residual) sao residuos/subprodutos."
+   },
+   {
+    "sheet_row": 1949,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.8/Table 5: CO2 da fraccao ligante (OPC, FA, FPGC) com electricidade e transporte; sem armadura (vigas/armadura nao avaliadas).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "NS4 50% FA + 4% FPGC: 44.52 MPa; Table 5 217.548",
+    "nota": "CO2 so da fraccao ligante (sem agregados), cabecalho da Table 5 diz 'kg/metric ton' mas a reconstituicao ja registada mostra que e por m3. FA (cinza volante) e FPGC (vidro residual) sao residuos/subprodutos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Nota: valores da Table 5 batem ao 3.o decimal com os gravados (217.548 gravado 217.55 para NS4)."
+ },
+ {
+  "row_id": 3190,
+  "pares": [
+   {
+    "sheet_row": 907,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 9/Sec.4.5.1: CF unit por m3 inclui PC, SF, GGBS/FA, areia, QP, SP, agua e fibra de aco (1.49 kg CO2/kg); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "Sec.4.5.1: unit CF 988 kg/m3; ST-CF 8.98 kg/m3/MPa (=>110.0 MPa)",
+    "nota": "UHPC com 2% vol de fibras de aco dispersas (156 kg/m3) - fibra, nao armadura; o CO2 da fibra esta incluido no valor por m3."
+   },
+   {
+    "sheet_row": 908,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 9/Sec.4.5.1: CF unit por m3 inclui PC, SF, GGBS/FA, areia, QP, SP, agua e fibra de aco (1.49 kg CO2/kg); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "Sec.4.5.1: GGBS50 623 kg/m3; 6.93 kg/m3/MPa (=>89.9 MPa)",
+    "nota": "50% GGBS (subproduto) a substituir cimento; fibras de aco 2% incluidas."
+   },
+   {
+    "sheet_row": 909,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 9/Sec.4.5.1: CF unit por m3 inclui PC, SF, GGBS/FA, areia, QP, SP, agua e fibra de aco (1.49 kg CO2/kg); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "Sec.4.5.1: FA30 767 kg/m3; 7.04 kg/m3/MPa (=>108.95 MPa)",
+    "nota": "30% cinza volante; fibras de aco 2% incluidas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Todos os pares batem com CF/ST-CF do texto."
+ },
+ {
+  "row_id": 3191,
+  "pares": [
+   {
+    "sheet_row": 1950,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2: ACV do cimento cradle-to-gate (UF 1 t de cimento); CO2 por m3 de argamassa 1:3 NBR 7215 (Eq.5); nenhum reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Eq.(5) cics = c/rc; OPC (CEM I) referencia",
+    "nota": "Argamassa de referencia."
+   },
+   {
+    "sheet_row": 1951,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2: ACV do cimento cradle-to-gate (UF 1 t de cimento); CO2 por m3 de argamassa 1:3 NBR 7215 (Eq.5); nenhum reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Eq.(5) cics = c/rc; PCC (CEM II com filer calcario) referencia",
+    "nota": "Argamassa de referencia."
+   },
+   {
+    "sheet_row": 1952,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2: ACV do cimento cradle-to-gate (UF 1 t de cimento); CO2 por m3 de argamassa 1:3 NBR 7215 (Eq.5); nenhum reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Eq.(5) cics = c/rc; LC3-50 2:1",
+    "nota": "Argamassa, nao betao. LC3 com residuo caulinitico do processamento de caulim (Amazonia) calcinado = residuo."
+   },
+   {
+    "sheet_row": 1953,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2: ACV do cimento cradle-to-gate (UF 1 t de cimento); CO2 por m3 de argamassa 1:3 NBR 7215 (Eq.5); nenhum reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Eq.(5) cics = c/rc; LC3-50 1,5:1",
+    "nota": "Argamassa, nao betao. LC3 com residuo caulinitico do processamento de caulim (Amazonia) calcinado = residuo."
+   },
+   {
+    "sheet_row": 1954,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2: ACV do cimento cradle-to-gate (UF 1 t de cimento); CO2 por m3 de argamassa 1:3 NBR 7215 (Eq.5); nenhum reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Eq.(5) cics = c/rc; LC3-50 1:1",
+    "nota": "Argamassa, nao betao. LC3 com residuo caulinitico do processamento de caulim (Amazonia) calcinado = residuo."
+   },
+   {
+    "sheet_row": 1955,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2: ACV do cimento cradle-to-gate (UF 1 t de cimento); CO2 por m3 de argamassa 1:3 NBR 7215 (Eq.5); nenhum reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Eq.(5) cics = c/rc; LC3-35 2:1",
+    "nota": "Argamassa, nao betao. LC3 com residuo caulinitico do processamento de caulim (Amazonia) calcinado = residuo."
+   },
+   {
+    "sheet_row": 1956,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2: ACV do cimento cradle-to-gate (UF 1 t de cimento); CO2 por m3 de argamassa 1:3 NBR 7215 (Eq.5); nenhum reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Eq.(5) cics = c/rc; LC3-35 1,5:1",
+    "nota": "Argamassa, nao betao. LC3 com residuo caulinitico do processamento de caulim (Amazonia) calcinado = residuo."
+   },
+   {
+    "sheet_row": 1957,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.2: ACV do cimento cradle-to-gate (UF 1 t de cimento); CO2 por m3 de argamassa 1:3 NBR 7215 (Eq.5); nenhum reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Eq.(5) cics = c/rc; LC3-35 1:1",
+    "nota": "Argamassa, nao betao. LC3 com residuo caulinitico do processamento de caulim (Amazonia) calcinado = residuo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Valores derivados (cics x fc) ja documentados; nada novo."
+ },
+ {
+  "row_id": 3192,
+  "pares": [
+   {
+    "sheet_row": 911,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3: GWP por m3 de betao a partir dos factores de emissao dos materiais (Table 2: cimento, FA, GGBFS, agregados, agua, transporte); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Ci (GWP por MPa) da curva 'Min cement 150 kg', fc 25 MPa (leitura de figura)",
+    "nota": "Mistura optimizada por ANN com FA + GGBFS (subprodutos); par de modelo, nao de ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3195,
+  "pares": [
+   {
+    "sheet_row": 323,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1.1-3.1.2: UF 1 m3 da parede impressa em 3D; fronteira = fase de producao (Fig.6); inventario (Tables 2/4) sem aco nem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 2: GP CDW 28-d 22.0 MPa; Sec.4.1: 488 kg CO2 eq por 1 m3",
+    "nota": "Geopolimero de residuos de construcao e demolicao (tijolo, telha, vidro, betao) + 20% BFS, activado com NaOH/Ca(OH)2. Argamassa impressa em 3D."
+   },
+   {
+    "sheet_row": 324,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.3.1.1-3.1.2: UF 1 m3 da parede impressa em 3D; fronteira = fase de producao (Fig.6); inventario (Tables 2/4) sem aco nem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4: argamassa PC (CEM II 32.5N) 28-d 24.9 MPa; Sec.4.2: 595.6 kgCO2 eq",
+    "nota": "FAMILIA ERRADA: a familia actual e 'geopolimero', mas este par e a argamassa de cimento Portland de referencia (CEM II/32.5 N, 625 kg/m3). Deve ir para a familia OPC/Portland."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Par 324 classificado como geopolimero so por pertencer a artigo de geopolimero."
+ },
+ {
+  "row_id": 3200,
+  "pares": [
+   {
+    "sheet_row": 912,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4.4.1: 'two functional units including one kilogram for each fiber type, and one cubic meter for each FRC mixture with 0.25% volumetric ratio of fibers (including the effect of cement, aggregates, and HRWR)'; cradle-to-gate. As vigas sao armadas longitudinalmente mas o aco das varoes nao entra na ACV.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 2: Steel 0.25% f'c 47.5 MPa; Sec.4.4.3.2: 'carbon emissions of steel FRC of 382.3 kg of CO2-eq'",
+    "nota": "Fibras de aco dispersas 0.25% vol (19.63 kg/m3) - fibra, nao armadura. A descricao gravada 'concreto armado com fibra de aco' engana: o CO2 e so da mistura FRC por m3. Familia 'opc' correcta (nao e concreto_armado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3203,
+  "pares": [
+   {
+    "sheet_row": 1958,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Argamassa; referencias C-1..C-4 = CEM I, CEM II/A-LL, CEM III/A, CEM V/A."
+   },
+   {
+    "sheet_row": 1959,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1960,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1961,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1962,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Argamassa; referencias C-1..C-4 = CEM I, CEM II/A-LL, CEM III/A, CEM V/A."
+   },
+   {
+    "sheet_row": 1963,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1964,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1965,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1966,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Argamassa; referencias C-1..C-4 = CEM I, CEM II/A-LL, CEM III/A, CEM V/A."
+   },
+   {
+    "sheet_row": 1967,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1968,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1969,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1970,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Argamassa; referencias C-1..C-4 = CEM I, CEM II/A-LL, CEM III/A, CEM V/A."
+   },
+   {
+    "sheet_row": 1971,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1972,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1973,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1974,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1975,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1976,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1977,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1978,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1979,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1980,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1981,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1982,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1983,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1984,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   },
+   {
+    "sheet_row": 1985,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.3.2.1: SimaPro cradle-to-gate, UF = um provete 4x4x16 cm de argamassa (cimento, escoria, areia, agua); sem reforco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 (CO2) e Figs.7/8 (fc 28 d)",
+    "nota": "Escoria de forno-panela (ladle furnace steel slag, subproduto siderurgico) a substituir 10-30% do cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem alteracoes; fck lidos de figura em revisao anterior."
+ }
+]

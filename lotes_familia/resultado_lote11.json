@@ -1,0 +1,552 @@
+[
+ {
+  "row_id": 3071,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 297,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Calculo por m3 de betao com factores de literatura por constituinte (Tab. A4-A6); fronteira = materiais + cura, sem transporte; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 / Table A4: OPCC 40 MPa = 395 kg-CO2/m3 (OPC 460 kg)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 298,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Calculo por m3 de betao com factores de literatura por constituinte (Tab. A4-A6); fronteira = materiais + cura, sem transporte; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 imprime 222, mas kg-CO2/MPa = 2.7 (x40 = 108); texto: AAC 73% menos CO2 que OPCC e OPCC 270% maior; silicato = 54% do total",
+    "nota": "ERRO GRAVE no valor gravado: o 222 da Table 4 e incoerente com o proprio artigo. A Table A4 (emissao) repete por engano os numeros da Table A1 (energia, soma 1.209). Recalculo com os factores do artigo (FA 340x0,004 + GGBFS 60x0,052 + agregados 1860x0,0048 + NaOH 45,7x0,4043x1,915 + silicato 114,3x0,415x1,222) = ~107 kg/m3, coerente com 2,7 kg/MPa, -73% e silicato = 54%. Valor correcto ~107-108 kg CO2/m3. FA classe F + GGBFS (Nath & Sarker 2014)."
+   },
+   {
+    "sheet_row": 299,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Calculo por m3 de betao com factores de literatura por constituinte (Tab. A4-A6); fronteira = materiais + cura, sem transporte; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4 / Table A5: OPCC 65 MPa = 435 (OPC 505 + FA 60, Water Tower Place)",
+    "nota": "Referencia OPCC com 60 kg de cinza volante (minoritaria)."
+   },
+   {
+    "sheet_row": 300,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Calculo por m3 de betao com factores de literatura por constituinte (Tab. A4-A6); fronteira = materiais + cura, sem transporte; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Table 4 imprime 512, mas Table A5 soma 0.259 t-CO2/m3; kg-CO2/MPa 4.4 (x58,5 = 257); texto: OPCC 68% maior que AAC (435/1,68 = 259)",
+    "nota": "ERRO GRAVE no valor gravado: 512 incoerente; o valor do inventario do artigo (Table A5) e 259 kg CO2/m3. Ligante = metacaulino (nao residuo, Pouhet & Cyr 2016)."
+   },
+   {
+    "sheet_row": 301,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Calculo por m3 de betao com factores de literatura por constituinte (Tab. A4-A6); fronteira = materiais + cura, sem transporte; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 3: OPCC 105 MPa (ACI 363) = OPC 228 + GGBFS 308 + SF 45 kg/m3; Table A6 soma 0.247",
+    "nota": "Familia actual \"uhpc\" parece errada: o artigo chama-lhe \"ultra-high-strength concrete\" (HSC ACI 363), nao UHPC, e 61% do ligante sao SCM (escoria + silica) -> familia scm. E a referencia do grau 100 MPa."
+   },
+   {
+    "sheet_row": 302,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Calculo por m3 de betao com factores de literatura por constituinte (Tab. A4-A6); fronteira = materiais + cura, sem transporte; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 / Table A6: AAC-I 106 MPa = 174 (FA 474 + SF 46,2, activador NaOH + silica de fumo; cura 75 C)",
+    "nota": "Valor confere com Table A6 (0,174)."
+   },
+   {
+    "sheet_row": 303,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Calculo por m3 de betao com factores de literatura por constituinte (Tab. A4-A6); fronteira = materiais + cura, sem transporte; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4 imprime 639, mas Table A6 soma 0.313 t-CO2/m3; kg-CO2/MPa 3.1 (x102 = 316); texto: AAC-I 44% menor que AAC-II (174/0,56 = 311)",
+    "nota": "ERRO GRAVE no valor gravado: 639 incoerente; o valor do inventario (Table A6) e 313 kg CO2/m3. Mistura de Liu et al. 2020 (fonte chama-lhe UHPGC), FA 172 + GGBFS 688 + SF 45; este artigo chama-lhe so ultra-high-strength."
+   }
+  ],
+  "notas": "Table 4 do artigo tem a coluna Total Emission incoerente para as tres misturas AAC com silicato de sodio (222/512/639 ~ 2x os valores do inventario 107/259/313). Os valores OPCC (395/435/247) e AAC-I (174) conferem com o Apendice. Recomenda-se corrigir rows 298, 300 e 303. Todas as resistencias e misturas vem de estudos externos (Nath & Sarker 2014; Pouhet & Cyr 2016; Assi et al. 2016b; Liu et al. 2020; ACI 363)."
+ },
+ {
+  "row_id": 3073,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 305,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Fig. 4 = GWP por m3 de parede portante armada (Table 5: 1-2 camadas de varoes #4; \"Conventional reinforcement techniques were implemented\"; impactos \"based on total quantity of materials\"). A Fig. 4 da ~98 kg/m3 a mais que o nivel material para todas as paredes (Mix-1: 312,6 vs 6,0x35,9 = 215; alvenaria: 655,3 vs 32,4x17,2 = 557), coerente com a armadura incluida.",
+    "co2_so_betao": 215.4,
+    "tipo_ligante": "csa",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Fig. 2(B) nivel material: Mix-1 6,0 kg CO2/MPa x 35,9 MPa = 215,4 kg CO2/m3 (derivado); Fig. 4 GWP por m3 de parede: Wall-1 312,6 (L1) / 313,0 (L2) / 314,2 (L3); Wall-3 295,0 (L1/L2)",
+    "nota": "ERRO GRAVE: o 295 gravado e da Wall-3 (Mix-3, 10% caulinite, 25,2 MPa) em L1/L2, nao da Mix-1 (35,9 MPa), e e da parede armada (inclui armadura). Para Mix-1 so betao: 215,4 kg/m3 (Fig. 2B x fck; derivado). Se se quiser a parede armada da Mix-1: 312,6 (L1). Caulinite (argila natural) substitui areia; Mix-1 tem 0% caulinite = betao CSA de referencia."
+   }
+  ],
+  "notas": "Cradle-to-gate, GaBi. Tres niveis: material (Fig. 2, por MPa), edificio e componente (paredes portantes armadas, Fig. 4 por m3). Ligante CSA."
+ },
+ {
+  "row_id": 3087,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 834,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de bloco de betao 50 MPa, cradle-to-gate (Fig. 4); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 7: OPCC 445,23 kg CO2-eq (igual com e sem alocacao)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 835,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 7: GPC-SM 344,75 (alocacao economica baseline; sem alocacao 173,03)",
+    "nota": "SM = NaCl por mineracao em solucao (via do NaOH). 70/30 CFA/GGBS."
+   },
+   {
+    "sheet_row": 836,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 7: GPC-SE 333,93 (baseline; sem alocacao 162,22)",
+    "nota": "SE = NaCl por evaporacao de agua do mar."
+   },
+   {
+    "sheet_row": 837,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 7: SHGPC-SM 380,43 (baseline; sem alocacao 208,72)",
+    "nota": "Com microcapsulas UF/DCPD (3% do ligante humido) como agente autorreparador."
+   },
+   {
+    "sheet_row": 838,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 7: SHGPC-SE 369,62 (baseline; sem alocacao 197,90)",
+    "nota": "idem"
+   }
+  ],
+  "notas": "Valores gravados = coluna 'Baseline Allocation' (alocacao economica a CFA/GGBS). fck 50 = UF de projecto (misturas do modelo, nao ensaio proprio)."
+ },
+ {
+  "row_id": 3091,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 306,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de betao, fronteira gate-to-gate (Fig. 4); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tabela de impactos: Optimum total 307,7361 kg CO2-eq (325 CM 308,2812; 425 CM 398,8571); fck 28 d >= 30,12 MPa",
+    "nota": "RCA substitui agregado grosso (270/810 kg) e escoria de ferro (IS) substitui areia (176 kg); cimento 325 kg. IS tem impacto de producao zero por ser residuo."
+   }
+  ],
+  "notas": ""
+ },
+ {
+  "row_id": 3092,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 310,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3, cradle-to-gate A1-A3 (Table 4 por constituinte, sem aco).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4: 70-30-0 = 232,5+5,29+2,47+1,72+24,15+1,41+6,28 = 273,8; texto \"70-30-0 ... 273.81 CO2-eq\"; fck 51,0 (Table 1, Celik 2015)",
+    "nota": "Cinza volante (Ratcliffe) a 30%."
+   },
+   {
+    "sheet_row": 311,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Texto: \"75-0-25 produced 287.90 CO2-eq\"; fck 33,6 (Table 1)",
+    "nota": "Filer calcario a 25% (nao residuo). A soma da Table 4 da 285,7; o 287,90 do texto difere ligeiramente."
+   },
+   {
+    "sheet_row": 312,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Texto: \"highest CO2-eq emissions among all the mix designs at 498.87 CO2-eq\"; Table 4 soma 498,8; fck 53,9",
+    "nota": "Valor gravado 500 vs 498,87 impresso no texto (diferenca de arredondamento/leitura de figura; corrigir para 498,87). Familia actual \"scm\" parece errada: e o controlo 100% cimento -> opc."
+   }
+  ],
+  "notas": "Resistencias de Celik et al. 2015 (fonte externa); CO2 calculado pelos autores com ferramenta web."
+ },
+ {
+  "row_id": 3099,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 840,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de blocos de betao 50 MPa, cradle-to-gate; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5: GWP100 OPCC 454,5937; GPC 285,0813; SHGPC 417,1633 kg CO2 eq",
+    "nota": "O valor gravado (454,59) e o do OPCC de referencia: familia opc correcta, mas a descricao do material na linha (\"SHGPC vs GPC vs OPCC\") e ambigua. GPC (285,08) e SHGPC (417,16) nao estao gravados como pares (mesmo fck 50 de projecto)."
+   }
+  ],
+  "notas": ""
+ },
+ {
+  "row_id": 3102,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 841,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "\"The required materials for the evaluated system are reinforcing steel, concrete, and spacers\" (Sec. 2.3); Table 2: aco 43,09/45,09/47,10/50,10 kg; Table C.2 total inclui A1-A3 + A4-A5 + uso (carbonatacao, negativo) + C1-C4 (fim de vida 217 kg).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table C.2 GWP100 cobrimento 15 mm: total 8,97E+02 kg CO2 eq (A1-A3 6,93E+02)",
+    "nota": "Total da laje de betao armado 4x4x0,12 m (1,92 m3), inclui aco, espacadores plasticos, construcao, carbonatacao e fim de vida; o artigo nao da o CO2 so do betao (so A1-A3 agregado: 693/709/761/768). Familia actual \"opc\" -> deve ser concreto_armado. As 4 linhas sao o mesmo betao C30 (CPIIF + 7,5% pozolana) com cobrimento diferente."
+   },
+   {
+    "sheet_row": 1852,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "\"The required materials for the evaluated system are reinforcing steel, concrete, and spacers\" (Sec. 2.3); Table 2: aco 43,09/45,09/47,10/50,10 kg; Table C.2 total inclui A1-A3 + A4-A5 + uso (carbonatacao, negativo) + C1-C4 (fim de vida 217 kg).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table C.2 cobrimento 20 mm: total 9,07E+02 (A1-A3 7,09E+02)",
+    "nota": "Total da laje de betao armado 4x4x0,12 m (1,92 m3), inclui aco, espacadores plasticos, construcao, carbonatacao e fim de vida; o artigo nao da o CO2 so do betao (so A1-A3 agregado: 693/709/761/768). Familia actual \"opc\" -> deve ser concreto_armado. As 4 linhas sao o mesmo betao C30 (CPIIF + 7,5% pozolana) com cobrimento diferente."
+   },
+   {
+    "sheet_row": 1853,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "\"The required materials for the evaluated system are reinforcing steel, concrete, and spacers\" (Sec. 2.3); Table 2: aco 43,09/45,09/47,10/50,10 kg; Table C.2 total inclui A1-A3 + A4-A5 + uso (carbonatacao, negativo) + C1-C4 (fim de vida 217 kg).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table C.2 cobrimento 25 mm: total 9,54E+02 (A1-A3 7,61E+02)",
+    "nota": "Total da laje de betao armado 4x4x0,12 m (1,92 m3), inclui aco, espacadores plasticos, construcao, carbonatacao e fim de vida; o artigo nao da o CO2 so do betao (so A1-A3 agregado: 693/709/761/768). Familia actual \"opc\" -> deve ser concreto_armado. As 4 linhas sao o mesmo betao C30 (CPIIF + 7,5% pozolana) com cobrimento diferente."
+   },
+   {
+    "sheet_row": 1854,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "\"The required materials for the evaluated system are reinforcing steel, concrete, and spacers\" (Sec. 2.3); Table 2: aco 43,09/45,09/47,10/50,10 kg; Table C.2 total inclui A1-A3 + A4-A5 + uso (carbonatacao, negativo) + C1-C4 (fim de vida 217 kg).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table C.2 cobrimento 30 mm: total 9,55E+02 (A1-A3 7,68E+02)",
+    "nota": "Total da laje de betao armado 4x4x0,12 m (1,92 m3), inclui aco, espacadores plasticos, construcao, carbonatacao e fim de vida; o artigo nao da o CO2 so do betao (so A1-A3 agregado: 693/709/761/768). Familia actual \"opc\" -> deve ser concreto_armado. As 4 linhas sao o mesmo betao C30 (CPIIF + 7,5% pozolana) com cobrimento diferente."
+   }
+  ],
+  "notas": "Valores gravados = total do ciclo de vida / 1,92 m3; contas conferem. Nao e possivel isolar o betao com dados impressos (sem factor do aco)."
+ },
+ {
+  "row_id": 3105,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 1922,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS/N3 (100% AS)",
+    "nota": "controlo dentro do sistema AAS; e a mistura sem filer. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1923,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-Q50/N3",
+    "nota": "50 vol% po de quartzo. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1924,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-Q50/N1",
+    "nota": "50% quartzo, 1% Na2O. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1925,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-Q25/N3",
+    "nota": "25% quartzo. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1926,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-Q50/N2",
+    "nota": "50% quartzo, 2% Na2O. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1927,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-Q75/N3",
+    "nota": "75% quartzo. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1928,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-L50/N1",
+    "nota": "50% po calcario, 1% Na2O. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1929,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-L50/N2",
+    "nota": "50% calcario, 2% Na2O. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1930,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-L25/N3",
+    "nota": "25% calcario. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1931,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-L50/N3",
+    "nota": "50% calcario. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   },
+   {
+    "sheet_row": 1932,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Pasta/ligante por m3 (Table 2, kg/m3), so modulo A1 (materias-primas); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig. 21 (CO2-eq/m3, cenario rede) - ASS-L75/N3",
+    "nota": "75% calcario. Escoria granulada artificial (AS) sintetizada por fusao/tempera de escoria de ferrocromio (residuo tratado); os fileres quartzo/calcario sao pos naturais (nao residuo). Referencia do artigo = mistura CEM I (nao gravada). Pasta, nao betao."
+   }
+  ],
+  "notas": "Valores ja lidos da Fig. 21 na revisao de 2026-09-27; nao re-medidos aqui. fck aos 35 d."
+ },
+ {
+  "row_id": 3112,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 843,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF = 1 m3 de betao, cradle-to-gate (Fig. 1); o resumo fala de pavimentos de betao armado mas a ACV e por m3 de betao, sem aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "\"Cement concrete constitutes 509 kg CO2 eq.\" (Fig. 13); comparado com \"a 35 MPa cement concrete\"",
+    "nota": "fck 35 = classe de projecto da referencia."
+   },
+   {
+    "sheet_row": 2097,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "\"geopolymer mixes M3 and M4 contribute to only 192 kg CO2 eq.\" ; M3 (40% FA, 30% escoria, 30% MK) 40,6 MPa aos 28 d",
+    "nota": "Metacaulino (30%) nao e residuo; FA e escoria sim."
+   },
+   {
+    "sheet_row": 2098,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "idem; M4 (20% FA, 50% escoria, 30% MK) 42,2 MPa aos 28 d",
+    "nota": "M3 e M4 com o mesmo CO2 (192) porque o texto da um valor unico para os dois; a Fig. 13 nao foi vista (PDF > 10 MB, download falhou) - os valores individuais podem diferir ligeiramente."
+   }
+  ],
+  "notas": "PDF > 10 MB: so lido o texto do conector (91 mil caracteres, completo ate as referencias); Fig. 13 nao renderizada."
+ },
+ {
+  "row_id": 3114,
+  "texto_completo_lido": true,
+  "pares": [
+   {
+    "sheet_row": 844,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "DU = 1 m3 de betao, cradle-to-gate (Fig. 1, Table 2); sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4: ACI Portland tipo I 403,0 kg CO2 eq; Table 1: fck 35,2; Table 2: RCA 786 kg, NA 752 kg",
+    "nota": "ACI e a referencia do caso C35, mas ja tem 100% do agregado grosso reciclado (RCA 786 kg)."
+   },
+   {
+    "sheet_row": 2092,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4: EMV 316,5; fck 35,5; RCA 782 kg",
+    "nota": "Gravado 316 (impresso 316,5)."
+   },
+   {
+    "sheet_row": 2093,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 4: BOLCON 410,4; fck 41,2; Table 2: Recycled aggregate 0 kg, NA 1881 kg",
+    "nota": "Familia \"reciclado\" e descricao da linha erradas: BOLCON e o betao de referencia so com agregado natural (RCA = 0) -> controlo, familia opc."
+   },
+   {
+    "sheet_row": 2094,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 4: BOLEMV 380,6; fck 43,7; RCA 235 kg",
+    "nota": ""
+   }
+  ],
+  "notas": "Valores gravados = cenario Portland tipo I (Table 4); ha tambem cenarios cimento tipo II F e II S."
+ }
+]

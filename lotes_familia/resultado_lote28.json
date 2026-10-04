@@ -1,0 +1,300 @@
+[
+ {
+  "row_id": 4098,
+  "pares": [
+   {
+    "sheet_row": 1188,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.5 (C25, global 243.126 kg CO2 eq): Concrete 105.874 | Wooden forms 77.094 | Steel 55.898; Tab.4 da o total da estrutura (betao+aco+formas) para C25-C50",
+    "co2_so_betao": 224.6,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'By separately investigating the contribution of each of the three main components of the reinforced concrete structure (concrete, steel, and wooden forms)... the reference class C25 was chosen' (Tab.5); 471,4 m3 de betao C25 (Tab.3)",
+    "nota": "O valor gravado (105.874/471,4 = 224,6) JA e so o betao. Fronteira cradle-to-grave (inclui distribuicao em obra, uso e aterro), por isso a parcela do betao pode incluir fim de vida. Cimento CP III (com escoria) - Portland composto. So o C25 tem decomposicao por material; para C30-C50 o artigo so da o total com aco e formas (Tab.4)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4099,
+  "pares": [
+   {
+    "sheet_row": 1194,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira berco-ao-portao de 1 m3 de CAA; inventario Tab.3 so cimento, areias, britas, agua, aditivo, RLS",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6: CAA_REF total 416,13 kg CO2/m3; 436 kg CP-V ARI",
+    "nota": "Sem reforco. fck 32,4 vem da Fig.5 (texto so diz >30 MPa aos 28 d). RLS substitui agregado nas outras misturas (nao gravadas aqui)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4106,
+  "pares": [
+   {
+    "sheet_row": 1196,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Duas UF: 1 m3 de betao (sem aco) e conjunto dos pilares (betao + aco de armadura, Fig.6-7). Tab.8 eco-eficiencia calculada para 1 m3 de betao",
+    "co2_so_betao": 347.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'First considering a functional unity of 1 m3 of concrete... second set... total amount of concrete and reinforcing steel to produce the columns'; Tab.8 eco-efficiency 11,58 kgCO2eq/MPa",
+    "nota": "Valor gravado JA e so o betao (UF 1 m3; eco-eficiencia x fck). Aco so entra na analise dos pilares (figuras, sem tabela numerica)."
+   },
+   {
+    "sheet_row": 1197,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Duas UF: 1 m3 de betao (sem aco) e conjunto dos pilares (betao + aco de armadura, Fig.6-7). Tab.8 eco-eficiencia calculada para 1 m3 de betao",
+    "co2_so_betao": 388.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'First considering a functional unity of 1 m3 of concrete... second set... total amount of concrete and reinforcing steel to produce the columns'; Tab.8 eco-efficiency 9,71 kgCO2eq/MPa",
+    "nota": "Valor gravado JA e so o betao. Tab.8 da cimento 414 kg para C40 mas a Tab.2 da 394 kg - incoerencia interna do artigo (nao afecta o CO2 gravado, que vem da eco-eficiencia)."
+   },
+   {
+    "sheet_row": 1198,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Duas UF: 1 m3 de betao (sem aco) e conjunto dos pilares (betao + aco de armadura, Fig.6-7). Tab.8 eco-eficiencia calculada para 1 m3 de betao",
+    "co2_so_betao": 424.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'First considering a functional unity of 1 m3 of concrete... second set... total amount of concrete and reinforcing steel to produce the columns'; Tab.8 eco-efficiency 8,48 kgCO2eq/MPa",
+    "nota": "Valor gravado JA e so o betao. Tab.8 imprime fck 60 (gralha ja corrigida para 50 na revisao de 27/09)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4110,
+  "pares": [
+   {
+    "sheet_row": 1199,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF 1 m3 de argamassa; fronteira so producao e pre-tratamento dos constituintes (Sec.2.4)",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'The GWP of the optimal mix design is 146 kg of CO2eq.' (Sec.3.4); FNS tratada como residuo, so moagem contabilizada; alocacao economica daria 434 kg CO2eq/m3",
+    "nota": "Argamassa de reparacao AAM (escoria de ferroniquel moida como precursor + areia de FNS, KOH/silicato de K, silica de fumo). Nao ha credito; residuo com carga zero (cut-off) - cenario de alocacao economica 434 kg/m3 so como sensibilidade. Referencia OPC e de Zhang et al. (fonte externa)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4138,
+  "pares": [
+   {
+    "sheet_row": 1200,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "LCA ground-to-gate de 1 m3 de betao; inventario cimento OPC, LC2, agregados, agua, transporte",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.4: OPC 930, LC2 260 kg CO2/t; 'LC2 (55% OPC + 45% LC2)'; Fig.7 CO2 por m3",
+    "nota": "LC2 = argila calcinada + calcario moidos (material produzido, nao residuo). Par lido de figura (Fig.7/Fig.9); fck 40 e aproximado (texto: todas as LC2 com w/b<=0,45 passam 40 MPa aos 90 d). Familia scm coerente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4142,
+  "pares": [
+   {
+    "sheet_row": 1201,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira: producao e transporte de cimento, agregados e POC (Fig.4); UF 1 m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6 M-0 climate change 569 kg CO2 eq/m3",
+    "nota": "UF 1 m3 a 70 MPa (fck gravado = valor da UF; medidos 68-71 MPa). Misturas tiradas da literatura (Sumesh 2018). Tab.6 exclui transporte. Familia 'scm' para o controlo deveria ser opc/controlo."
+   },
+   {
+    "sheet_row": 1202,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'M-40 denotes a replacement of 40% binder with palm oil clinker powder (POCP)'; Tab.6 536 (537 alocacao massica)",
+    "nota": "ERRO NA DESCRICAO GRAVADA: M-40 substitui 40% do ligante, nao 100%. POC com alocacao economica (0,0128%), nao credito. Mistura de Kanadasan & Abdul Razak 2015b."
+   },
+   {
+    "sheet_row": 1203,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6 C-0 436",
+    "nota": "UF 1 m3 a 45 MPa (medidos 41-47). Familia 'scm' para o controlo deveria ser opc/controlo."
+   },
+   {
+    "sheet_row": 1204,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 C-100C 432 (433); 'cement content remained constant'",
+    "nota": "POC substitui agregado grosso: familia 'scm' parece errada (seria agregado/reciclado)."
+   },
+   {
+    "sheet_row": 1205,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.6 C-100F 434 (434)",
+    "nota": "POC substitui agregado fino: familia 'scm' parece errada (seria agregado/reciclado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4144,
+  "pares": [
+   {
+    "sheet_row": 1206,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.1: ACERO 2,80 kgCO2/kg separado de HORMIGON HA-25/B/20/IIa 159,46 kgCO2/m3; Tab.3 tem varao B500S a 3,38 kgCO2/kg como tarefa propria",
+    "co2_so_betao": 159.46,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabla 1. EE y CE segun unidades de precio unitario ACCD: HA-25/B/20/IIa HORMIGON m3 ... 159.46",
+    "nota": "Valor gravado JA e so o betao (factor unitario do material da base ACCD/Ecoinvent/BEDEC, nao calculo proprio de mistura). As tarefas 'REINFORCED CONCRETE HA-25' da Tab.3 (486,19 / 328,82 kgCO2/m3) incluem colocacao/mao-de-obra/custos indirectos e o aco esta noutra tarefa. fck 25 = classe HA-25."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4145,
+  "pares": [
+   {
+    "sheet_row": 1207,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "'Tipo de construccion: Concreto en masa'; ACV de 1 m3 de betao (cimento + agregados + agua)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.12: CO2-eq entre 243,7 e 288,2 kg/m3; Tab.9 288,00 para 316 kg cimento",
+    "nota": "21 MPa e resistencia de projecto ACI 211, nao ensaio."
+   },
+   {
+    "sheet_row": 1208,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "outro",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Fig.12 minimo 243,7 kg; Tab.9 243,90 para 266 kg cimento",
+    "nota": "Distingue-se so pela optimizacao da granulometria (agregado grosso maior, menos cimento); sem material novo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4160,
+  "pares": [
+   {
+    "sheet_row": 1210,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "UF 1 m3 de argamassa, cradle-to-gate (Sec.2.5)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'The targeted product is 1 m3 of mortar'; Fig.13 GWP",
+    "nota": "CEM II/A-L 42.5R. Familia actual 'reciclado' para o controlo parece errada (seria opc/controlo). Valores lidos da Fig.13."
+   },
+   {
+    "sheet_row": 1211,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'the ceramic tile waste powder is considered to be a waste material'; 30% de cimento substituido por CWP moido 15 min",
+    "nota": "Residuo de po ceramico como substituto de cimento: familia 'reciclado' discutivel - por papel seria scm (substituicao de ligante por residuo). Sem credito (carga zero). HSM >70 MPa, nao UHPC. Resumo diz GT15CWP30 com menor GWP/MPa, texto da Sec.3.10 diz GT15CWP20 (incoerencia do artigo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4161,
+  "pares": [
+   {
+    "sheet_row": 1212,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Caso de estudo 1 ao nivel do material (UF m3/MPa), sem armadura; o aco (Reinforcing steel RER) so entra nos casos 2 e 3 (pilar e laje)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: Concrete with AEA 40 MPa -> 0,025 m3/MPa; Fig.3 GWP100a por UF",
+    "nota": "AEA (incorporador de ar) e a solucao convencional de referencia. fck 41,5 por Bolomey (nao ensaiado); a UF da Tab.2 usa 40 (classe), daí 10,34/0,025."
+   },
+   {
+    "sheet_row": 1213,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "aditivo",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.2: Concrete with SAP 45 MPa -> 0,022 m3/MPa",
+    "nota": "SAP (polimero superabsorvente) como aditivo. fck 47,7 estimado a partir de outro estudo + Bolomey; a UF usa 45 (classe). Dividir por 0,022 em vez de 1/45 da 435 vs 430."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ }
+]

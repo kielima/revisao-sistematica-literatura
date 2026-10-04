@@ -1,0 +1,480 @@
+[
+ {
+  "row_id": 3529,
+  "pares": [
+   {
+    "sheet_row": 451,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassa (TS EN 196-1, prismas 4x4x16); Eq.1 GWP = soma massa x (ek + Lk x etransport), k = BT, PC, areia, agua, aditivos (Table 4)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'In the control group, 611.86 kgCO2-e/m3 GWP value' (sec. Environmental impact)",
+    "nota": "familia 'opc' correcta"
+   },
+   {
+    "sheet_row": 452,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassa (TS EN 196-1, prismas 4x4x16); Eq.1 GWP = soma massa x (ek + Lk x etransport), k = BT, PC, areia, agua, aditivos (Table 4)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "5BT: 582.59 kgCO2-e/m3 (sec. Environmental impact); BT = 'stone cutting workshop waste', substitui PC",
+    "nota": "familia 'reciclado' aceitavel; e po de basalto residual em substituicao de cimento (poderia ser 'scm')"
+   },
+   {
+    "sheet_row": 453,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassa (TS EN 196-1, prismas 4x4x16); Eq.1 GWP = soma massa x (ek + Lk x etransport), k = BT, PC, areia, agua, aditivos (Table 4)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "10BT: 553.32 kgCO2-e/m3 (sec. Environmental impact); BT = 'stone cutting workshop waste', substitui PC",
+    "nota": "familia 'reciclado' aceitavel; e po de basalto residual em substituicao de cimento (poderia ser 'scm')"
+   },
+   {
+    "sheet_row": 454,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassa (TS EN 196-1, prismas 4x4x16); Eq.1 GWP = soma massa x (ek + Lk x etransport), k = BT, PC, areia, agua, aditivos (Table 4)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "15BT: 524.04 kgCO2-e/m3 (sec. Environmental impact); BT = 'stone cutting workshop waste', substitui PC",
+    "nota": "familia 'reciclado' aceitavel; e po de basalto residual em substituicao de cimento (poderia ser 'scm')"
+   },
+   {
+    "sheet_row": 455,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassa (TS EN 196-1, prismas 4x4x16); Eq.1 GWP = soma massa x (ek + Lk x etransport), k = BT, PC, areia, agua, aditivos (Table 4)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "20BT: 494.77 kgCO2-e/m3 (sec. Environmental impact); BT = 'stone cutting workshop waste', substitui PC",
+    "nota": "familia 'reciclado' aceitavel; e po de basalto residual em substituicao de cimento (poderia ser 'scm')"
+   },
+   {
+    "sheet_row": 456,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassa (TS EN 196-1, prismas 4x4x16); Eq.1 GWP = soma massa x (ek + Lk x etransport), k = BT, PC, areia, agua, aditivos (Table 4)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "25BT: 465.5 kgCO2-e/m3 (sec. Environmental impact); BT = 'stone cutting workshop waste', substitui PC",
+    "nota": "familia 'reciclado' aceitavel; e po de basalto residual em substituicao de cimento (poderia ser 'scm')"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Argamassa de alta resistencia (nao UHPC). Fronteira so materiais+transporte; sem armadura. fck 28d: controlo 62.45 MPa no texto; 15BT 68.65 coerente com +9.92%."
+ },
+ {
+  "row_id": 3539,
+  "pares": [
+   {
+    "sheet_row": 457,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 6 'Benchmark values for the price and carbon footprint of plain optimized blended cement concrete mixes' (cenario 1 = plain concrete; cenario 2 = betao armado so altera N/durabilidade, nao inclui aco)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 6: 20 MPa GWP kg CO2 eq 113.3 (media de misturas com ECO2>0.75)",
+    "nota": "familia 'scm' correcta"
+   },
+   {
+    "sheet_row": 458,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 6 'Benchmark values for the price and carbon footprint of plain optimized blended cement concrete mixes' (cenario 1 = plain concrete; cenario 2 = betao armado so altera N/durabilidade, nao inclui aco)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 6: 30 MPa GWP kg CO2 eq 132.6 (media de misturas com ECO2>0.75)",
+    "nota": "FAMILIA ERRADA: 'opc' -> deve ser 'scm' (betao de cimento misto com FA/GGBS/SF/argila calcinada/calcario optimizado; mesmo tipo da linha 457)"
+   },
+   {
+    "sheet_row": 459,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 6 'Benchmark values for the price and carbon footprint of plain optimized blended cement concrete mixes' (cenario 1 = plain concrete; cenario 2 = betao armado so altera N/durabilidade, nao inclui aco)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 6: 40 MPa GWP kg CO2 eq 137.3 (media de misturas com ECO2>0.75)",
+    "nota": "FAMILIA ERRADA: 'opc' -> deve ser 'scm' (betao de cimento misto com FA/GGBS/SF/argila calcinada/calcario optimizado; mesmo tipo da linha 457)"
+   },
+   {
+    "sheet_row": 460,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 6 'Benchmark values for the price and carbon footprint of plain optimized blended cement concrete mixes' (cenario 1 = plain concrete; cenario 2 = betao armado so altera N/durabilidade, nao inclui aco)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 6: 50 MPa GWP kg CO2 eq 155.2 (media de misturas com ECO2>0.75)",
+    "nota": "FAMILIA ERRADA: 'opc' -> deve ser 'scm' (betao de cimento misto com FA/GGBS/SF/argila calcinada/calcario optimizado; mesmo tipo da linha 457)"
+   },
+   {
+    "sheet_row": 461,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 6 'Benchmark values for the price and carbon footprint of plain optimized blended cement concrete mixes' (cenario 1 = plain concrete; cenario 2 = betao armado so altera N/durabilidade, nao inclui aco)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 6: 60 MPa GWP kg CO2 eq 163.0 (media de misturas com ECO2>0.75)",
+    "nota": "FAMILIA ERRADA: 'opc' -> deve ser 'scm' (betao de cimento misto com FA/GGBS/SF/argila calcinada/calcario optimizado; mesmo tipo da linha 457)"
+   },
+   {
+    "sheet_row": 462,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 6 'Benchmark values for the price and carbon footprint of plain optimized blended cement concrete mixes' (cenario 1 = plain concrete; cenario 2 = betao armado so altera N/durabilidade, nao inclui aco)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 6: 70 MPa GWP kg CO2 eq 173.6 (media de misturas com ECO2>0.75)",
+    "nota": "FAMILIA ERRADA: 'opc' -> deve ser 'scm' (betao de cimento misto com FA/GGBS/SF/argila calcinada/calcario optimizado; mesmo tipo da linha 457)"
+   },
+   {
+    "sheet_row": 463,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 6 'Benchmark values for the price and carbon footprint of plain optimized blended cement concrete mixes' (cenario 1 = plain concrete; cenario 2 = betao armado so altera N/durabilidade, nao inclui aco)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 6: 80 MPa GWP kg CO2 eq 201.4 (media de misturas com ECO2>0.75)",
+    "nota": "FAMILIA ERRADA: 'opc' -> deve ser 'scm' (betao de cimento misto com FA/GGBS/SF/argila calcinada/calcario optimizado; mesmo tipo da linha 457)"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fileId 1UODLQDqzmrrYaVcbDb-UdSXhNAH-6pxj (procurado no Drive). Valores = medias de benchmark do cenario 1 (betao simples); fck = classe de resistencia. Familia de 458-463 inconsistente com 457."
+ },
+ {
+  "row_id": 3559,
+  "pares": [
+   {
+    "sheet_row": 1043,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira (Fig.1): producao de cimento, agregados, outros materiais, transporte, mistura, colocacao; Table 3: HC2 inclui 118 kg/m3 de fibras de aco (dispersas, para aumentar peso), sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Table 5: HC1 Total 903.0 kg CO2eq/m3; HC1 = referencia com barita, 400 kg CEM I",
+    "nota": "FAMILIA ERRADA: 'scm' -> 'opc' (CEM I puro, agregado de barita natural, sem SCM). Atencao: traco e resistencia do HC1 vem da literatura (Sakr & Hakim 2005), nao do ensaio proprio"
+   },
+   {
+    "sheet_row": 1044,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira (Fig.1): producao de cimento, agregados, outros materiais, transporte, mistura, colocacao; Table 3: HC2 inclui 118 kg/m3 de fibras de aco (dispersas, para aumentar peso), sem armadura; fibras de aco = fibra dispersa, nao armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Table 5: HC2 Total 503.0 kg CO2eq/m3; agregado de escoria EAF (0-7 e 0-2 mm) 2490 kg + 118 kg fibras de aco; 300 kg CEM I",
+    "nota": "FAMILIA ERRADA: 'scm' -> 'reciclado'/agregado (a escoria EAF e agregado, nao ligante; cimento e CEM I). Inclui avoided landfill da escoria (sec. 2.1)"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo curto (8 pp.) lido inteiro. Ambos os pares por m3 de betao pesado."
+ },
+ {
+  "row_id": 3565,
+  "pares": [
+   {
+    "sheet_row": 1046,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira cradle-to-gate da producao do cimento e ingredientes do betao (sec. 4.1); CO2-e por coeficientes dos ingredientes da mistura; sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "'LC3 blended concrete emits 190.3 kg-CO2/m3' (Fig.6), OPC 362.9; 28-d CS LC3 46.2 MPa (cubos 150 mm)",
+    "nota": "familia 'scm' correcta; argila calcinada caulinitica + calcario, nao residuo"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O par OPC (362.9 kg/m3) nao tem fck proprio ensaiado no artigo (so o LC3 foi validado), por isso so ha 1 par."
+ },
+ {
+  "row_id": 3568,
+  "pares": [
+   {
+    "sheet_row": 1047,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "CO2 por m3 so com Table 1 (OPC, FA, BFS, areia, brita, RCA); armadura tratada a parte (sec. 3, 1.12 t CO2/t) e so somada nos totais por fundacao (475 m3 + 50 t aco), nao no valor por m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Mix 32 50BFS: 0.228 t CO2-e/m3 (texto sec.6 / Fig.4-5); fck medio cilindro 38.6 MPa (Table 3)",
+    "nota": "FAMILIA ERRADA: 'opc' -> 'scm' (50% escoria de alto-forno)"
+   },
+   {
+    "sheet_row": 1048,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "CO2 por m3 so com Table 1 (OPC, FA, BFS, areia, brita, RCA); armadura tratada a parte (sec. 3, 1.12 t CO2/t) e so somada nos totais por fundacao (475 m3 + 50 t aco), nao no valor por m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Mix 40 50BFS: 0.258 t CO2-e/m3 (texto sec.6 / Fig.4-5); fck medio cilindro 52.1 MPa (Table 3)",
+    "nota": "FAMILIA ERRADA: 'opc' -> 'scm' (50% escoria de alto-forno)"
+   },
+   {
+    "sheet_row": 1049,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "CO2 por m3 so com Table 1 (OPC, FA, BFS, areia, brita, RCA); armadura tratada a parte (sec. 3, 1.12 t CO2/t) e so somada nos totais por fundacao (475 m3 + 50 t aco), nao no valor por m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Mix 35 50BFS: 0.246 t CO2-e/m3 (texto sec.6 / Fig.4-5); fck medio cilindro 45.4 MPa (Table 3)",
+    "nota": "FAMILIA ERRADA: 'opc' -> 'scm' (50% escoria de alto-forno)"
+   },
+   {
+    "sheet_row": 1050,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "CO2 por m3 so com Table 1 (OPC, FA, BFS, areia, brita, RCA); armadura tratada a parte (sec. 3, 1.12 t CO2/t) e so somada nos totais por fundacao (475 m3 + 50 t aco), nao no valor por m3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Mix 35 50BFS RCA: 0.21 t CO2-e/m3 (texto sec.6 / Fig.4-5); fck medio cilindro 43.7 MPa (Table 3)",
+    "nota": "familia 'reciclado' aceitavel (RCA + 50% BFS; mistura de controlo e a 35 50BFS)"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Contexto de fundacao de betao armado de turbina eolica, mas o CO2 por m3 gravado e so do betao (separavel: aco 1.12 t CO2/t dado a parte). 1050 RCA: o papel distintivo face ao 35 50BFS e o agregado reciclado."
+ },
+ {
+  "row_id": 3576,
+  "pares": [
+   {
+    "sheet_row": 1051,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Unidade funcional: 1 m3 de betao com fck medio 40 MPa e slump 100 mm; Table 1 so cimento, agua, NA/CRA, areia, SP; sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'323 kg CO2 eqv vs. 310 kg CO2 eqv' (CRA vs CNA, sem contar aterro evitado)",
+    "nota": "FAMILIA ERRADA para o controlo: 'reciclado' -> 'opc' (CNA = agregado natural, referencia)"
+   },
+   {
+    "sheet_row": 1052,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Unidade funcional: 1 m3 de betao com fck medio 40 MPa e slump 100 mm; Table 1 so cimento, agua, NA/CRA, areia, SP; sem aco",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "CRA concrete 323 kg CO2 eqv/m3 (sem creditos de aterro evitado); RAC 325 kg cimento + 1028 kg CRA",
+    "nota": "familia 'reciclado' correcta"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Ambos os valores sao os SEM aterro/transporte evitados (o artigo tambem apresenta com creditos, so em figura). fck = alvo da unidade funcional (40 MPa)."
+ },
+ {
+  "row_id": 3582,
+  "pares": [
+   {
+    "sheet_row": 1053,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Cradle-to-gate (A1-A3 + producao do RA em C1-C3), 1 m3 de betao (Table 3: RA, agregados naturais, areia, CEM II, agua, aditivos); o aco de demolicao e sucata separada, nao entra como input",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'The climate footprint of 1 m3 of RC-concrete is 308 kg CO2-eq. with exposure class XC1' (RC-m1, 43% RA, C25/30)",
+    "nota": "familia 'reciclado' correcta"
+   },
+   {
+    "sheet_row": 1054,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Cradle-to-gate (A1-A3 + producao do RA em C1-C3), 1 m3 de betao (Table 3: RA, agregados naturais, areia, CEM II, agua, aditivos); o aco de demolicao e sucata separada, nao entra como input",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "'315 kg CO2-eq. with exposure class XC2' (RC-m2, 35% RA, C25/30)",
+    "nota": "familia 'reciclado' correcta"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fck 25 = classe C25/30 (cilindro). BAU-1/BAU-2 (controlos) nao estao na lista."
+ },
+ {
+  "row_id": 3584,
+  "pares": [
+   {
+    "sheet_row": 1055,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 + Table B (inventario): cimento, OSFA, escoria, areia, HRWR, agua, fibra de aco 156 kg/m3 (fibra dispersa 0.2x13 mm, nao armadura)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "'unit carbon footprint was reduced from 1194 to 942 kg/m3' (Control -> OSFA30); fc28 104.7 MPa",
+    "nota": "familia 'uhpc' correcta; inclui fibras de aco (fibra dispersa)"
+   },
+   {
+    "sheet_row": 1056,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 + Table B (inventario): cimento, OSFA, escoria, areia, HRWR, agua, fibra de aco 156 kg/m3 (fibra dispersa 0.2x13 mm, nao armadura)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "OSFA30: 942 kg/m3; fc28 77.1 MPa",
+    "nota": "familia 'uhpc' correcta"
+   },
+   {
+    "sheet_row": 1057,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 1 + Table B (inventario): cimento, OSFA, escoria, areia, HRWR, agua, fibra de aco 156 kg/m3 (fibra dispersa 0.2x13 mm, nao armadura)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "'optimal UHPC mixture is OSFA20SL40, the unit carbon footprint ... 687 kg/m3'; fc28 121.5 MPa",
+    "nota": "familia 'uhpc' correcta"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "UHPC com 156 kg/m3 de fibras de aco em todas as misturas (incluidas no CO2; sao fibras, nao armadura)."
+ },
+ {
+  "row_id": 3598,
+  "pares": [
+   {
+    "sheet_row": 1059,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "'this analysis only includes the materials listed in Table 1. It does not include rebar, formwork...' (sec. 2.2.1); A1-A3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'a Type I mixture with a 30 MPa compressive strength has embodied carbon emissions of 360 kg CO2/m3'",
+    "nota": "FAMILIA ERRADA: 'scm' -> 'opc' (Type I, 0% SCM)"
+   },
+   {
+    "sheet_row": 1060,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "'this analysis only includes the materials listed in Table 1. It does not include rebar, formwork...' (sec. 2.2.1); A1-A3",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "'a Type I concrete mixture with a 45 MPa compressive strength and no SCMs exhibited embodied carbon emissions of 505 kg CO2e/m3'",
+    "nota": "FAMILIA ERRADA: 'scm' -> 'opc' (Type I, 0% SCM)"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Valores cradle-to-gate (sem a carbonatacao do modulo D). fck = resistencia de projecto das misturas-tipo PCA."
+ },
+ {
+  "row_id": 3602,
+  "pares": [
+   {
+    "sheet_row": 485,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 3 (traço) x Table 8 (GWP A1-A3): cimento, microssilica, po de quartzo, areia fina, superplastificante, fibras; sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "S1 sem fibras; reconstrucao 709.9 confere com Tables 3 e 8; fc 143.0 (Table 6)",
+    "nota": "familia 'uhpc' correcta; valor reconstruido (artigo so da Fig.10 em grafico)"
+   },
+   {
+    "sheet_row": 486,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 3 (traço) x Table 8 (GWP A1-A3): cimento, microssilica, po de quartzo, areia fina, superplastificante, fibras; sem armadura; fibras dispersas nao sao armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "sim",
+    "citacao": "fibras de aco 98 kg; fc 133.6 MPa (Table 6); CO2 reconstruido = 709.90 + fibra x factor Table 8 = 914.72",
+    "nota": "familia 'uhpc' correcta; aco = fibra dispersa (22% do GWP de S2 segundo o artigo)"
+   },
+   {
+    "sheet_row": 487,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 3 (traço) x Table 8 (GWP A1-A3): cimento, microssilica, po de quartzo, areia fina, superplastificante, fibras; sem armadura; fibras dispersas nao sao armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "sim",
+    "citacao": "fibras de bambu 10 kg; fc 114.4 MPa (Table 6); CO2 reconstruido = 709.90 + fibra x factor Table 8 = 713.7",
+    "nota": "familia 'uhpc' correcta; fibra vegetal natural (coco e subproduto do coco, mas o artigo nao a trata como residuo)"
+   },
+   {
+    "sheet_row": 488,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 3 (traço) x Table 8 (GWP A1-A3): cimento, microssilica, po de quartzo, areia fina, superplastificante, fibras; sem armadura; fibras dispersas nao sao armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "sim",
+    "citacao": "fibras de coco 15 kg; fc 106.4 MPa (Table 6); CO2 reconstruido = 709.90 + fibra x factor Table 8 = 716.65",
+    "nota": "familia 'uhpc' correcta; fibra vegetal natural (coco e subproduto do coco, mas o artigo nao a trata como residuo)"
+   },
+   {
+    "sheet_row": 489,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Table 3 (traço) x Table 8 (GWP A1-A3): cimento, microssilica, po de quartzo, areia fina, superplastificante, fibras; sem armadura; fibras dispersas nao sao armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "sim",
+    "citacao": "fibras de linho 18 kg; fc 105.2 MPa (Table 6); CO2 reconstruido = 709.90 + fibra x factor Table 8 = 715.48",
+    "nota": "familia 'uhpc' correcta; fibra vegetal natural (coco e subproduto do coco, mas o artigo nao a trata como residuo)"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fileId 1t9hi9HQnrdAqlxrvHZAnnc09I9JIeS4l (procurado no Drive). Reconstrucoes conferidas com Table 3/Table 8; agua sem factor."
+ }
+]

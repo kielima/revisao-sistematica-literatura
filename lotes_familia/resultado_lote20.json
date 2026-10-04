@@ -1,0 +1,540 @@
+[
+ {
+  "row_id": 3479,
+  "pares": [
+   {
+    "sheet_row": 1017,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.5: cradle-to-gate A1-A3, FU 1 m3 de FRC; inventario = cimento, agua, agregados, aditivos, RCWTB, electricidade, transporte (Tab.10). Sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Abstract: RCWTB ate 10% vol. \"replacing the aggregates to achieve Fiber-Reinforced Concrete\"; Sec.3.2.1: \"optimal percentage for CS was 2% RCWTB ... 50.46 MPa\"; Sec.5.3: cimento 243->237 kgCO2e/m3 de W0 a W10, W10 3,21% abaixo de W0.",
+    "nota": "O RCWTB (pa eolica triturada, GFRP+balsa) substitui agregado e actua tambem como fibra dispersa (nao e armadura). CEM II/A-L 42.5 R. O valor 285,5 do W2 so esta na Fig.11a (grafico) - nao visivel no texto extraido; ordem de grandeza coerente (cimento 243 = >75% do total). Download do PDF falhou (resposta grande demais), figura nao conferida."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia reciclado adequada."
+ },
+ {
+  "row_id": 3480,
+  "pares": [
+   {
+    "sheet_row": 423,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. LCA: FU 1 m3 de argamassa simples; Tab.8 so cimento/FA/areia.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.8: \"GP based Mortar 0 80 12.15 92.15\" (FA 80 + areia 12,15 kg CO2-eq/m3); pressupostos: \"do not incorporate water and admixtures\"; Tab.5 FA 0,2 kgCO2/kg.",
+    "nota": "ERRO GRAVE DE FRONTEIRA: o CO2 de 92,15 nao inclui os activadores NaOH e Na2SiO3 (so FA 400 kg x 0,2 + areia) - o proprio artigo diz nas conclusoes que \"the alkali solution ... has the most significant environmental impact\", mas nao o contabiliza. O valor esta fortemente subestimado e nao e comparavel com geopolimeros cuja ACV inclui o activador. Alem disso e um valor generico de \"GP mortar\", nao ligado a uma molaridade/razao especifica. fck 29,5 nao aparece no texto (so 36,48 aos 90 d, cura 60 C, e 17,58 MPa); deve vir da Fig.5/6 - idade e mistura a confirmar."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Recomenda-se rever a inclusao deste par (CO2 sem activador) ou marcar alerta."
+ },
+ {
+  "row_id": 3485,
+  "pares": [
+   {
+    "sheet_row": 1018,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "2.2.4.2: cradle-to-gate, FU 1 m3 de betao, fabrica de pre-mistura em Medellin; UHPC sem fibras de aco.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "Tabela de impactos: \"Climate change kg CO2 eq 703.154 571.332\"; \"the Control mixture achieves a C28 value of 167 MPa, while that of the Optimized Mix is just 150 MPa\".",
+    "nota": "Controlo UHPC sem RGP/EAFS."
+   },
+   {
+    "sheet_row": 1019,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "sim",
+    "citacao": "\"incorporating RGP and EAFS as replacements for PC and SF\"; Optimized 571,332 kg CO2 eq/m3, C28 150 MPa.",
+    "nota": "RGP (po de vidro reciclado) + EAFS (escoria de forno electrico, residuo) a substituir cimento e silica de fumo e quartzo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia uhpc adequada para os dois."
+ },
+ {
+  "row_id": 3493,
+  "pares": [
+   {
+    "sheet_row": 1023,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.LCA: FU 1 m3 de betao (Tab.1), fronteira = extracao e processamento das materias-primas; fibras dispersas, sem varao. A viga em T com estribos (Tab.9) e uma analise a parte, nao entra neste valor.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.5 \"Baseline CML method results for 1 m3 of concrete\": RSFRC 397.24, ISFRC 479.22, ISFRC_REF 453.41 kg CO2-eq; fc = 39.42 MPa (parametro do modelo MDFSCM aplicado ao RSFRC).",
+    "nota": "Fibra de aco reciclada de pneus (1% vol.), fibra dispersa -> nao e armadura. Cimento + 40% vol. de cinza volante na matriz."
+   },
+   {
+    "sheet_row": 1024,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "fibra",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.5: ISFRC 479.22 kg CO2-eq/m3.",
+    "nota": "ALERTA fck: o artigo so imprime fc = 39,42 MPa para o RSFRC (parametro de simulacao, Sec. do modelo numerico); nao ha resistencia a compressao do ISFRC em lado nenhum - o 39,42 do ISFRC foi atribuido por se tratar da \"mesma matriz\". Familia opc aceitavel (matriz com 40% FA e fibra industrial); papel = fibra de aco industrial (comparacao). Nao e duplicado: mesmo fck mas CO2 diferente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Os dois pares partilham o fck 39,42 (o do ISFRC e inferido)."
+ },
+ {
+  "row_id": 3497,
+  "pares": [
+   {
+    "sheet_row": 425,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "CC-25: 100% NA, 0% TDA - mistura de referencia, sem material reciclado; familia \"reciclado\" parece errada (deveria ser opc). Como nao tem material reciclado, o valor bruto = liquido."
+   },
+   {
+    "sheet_row": 426,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "CO2 LIQUIDO: Fig.20 = emissoes menos creditos de carga evitada (ER1 RCA nao aterrado; ER2 TDA 1,649; ER3 pneus nao aterrados). Inconsistente com a decisao para a 4689 MOMOTAZ (review do mesmo grupo), onde se gravou o bruto sem creditos. Os valores RCA (65,7-111) estao muito abaixo do bruto. O bruto so pode sair da Fig.20 (grafico, nao conferido: download nao tentado por risco de tamanho)."
+   },
+   {
+    "sheet_row": 427,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "CO2 LIQUIDO: Fig.20 = emissoes menos creditos de carga evitada (ER1 RCA nao aterrado; ER2 TDA 1,649; ER3 pneus nao aterrados). Inconsistente com a decisao para a 4689 MOMOTAZ (review do mesmo grupo), onde se gravou o bruto sem creditos. Os valores RCA (65,7-111) estao muito abaixo do bruto. O bruto so pode sair da Fig.20 (grafico, nao conferido: download nao tentado por risco de tamanho)."
+   },
+   {
+    "sheet_row": 428,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "CO2 LIQUIDO: Fig.20 = emissoes menos creditos de carga evitada (ER1 RCA nao aterrado; ER2 TDA 1,649; ER3 pneus nao aterrados). Inconsistente com a decisao para a 4689 MOMOTAZ (review do mesmo grupo), onde se gravou o bruto sem creditos. Os valores RCA (65,7-111) estao muito abaixo do bruto. O bruto so pode sair da Fig.20 (grafico, nao conferido: download nao tentado por risco de tamanho)."
+   },
+   {
+    "sheet_row": 429,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "CO2 LIQUIDO: Fig.20 = emissoes menos creditos de carga evitada (ER1 RCA nao aterrado; ER2 TDA 1,649; ER3 pneus nao aterrados). Inconsistente com a decisao para a 4689 MOMOTAZ (review do mesmo grupo), onde se gravou o bruto sem creditos. Os valores RCA (65,7-111) estao muito abaixo do bruto. O bruto so pode sair da Fig.20 (grafico, nao conferido: download nao tentado por risco de tamanho)."
+   },
+   {
+    "sheet_row": 430,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "R100C-25 so com RCA. CO2 LIQUIDO: Fig.20 = emissoes menos creditos de carga evitada (ER1 RCA nao aterrado; ER2 TDA 1,649; ER3 pneus nao aterrados). Inconsistente com a decisao para a 4689 MOMOTAZ (review do mesmo grupo), onde se gravou o bruto sem creditos. Os valores RCA (65,7-111) estao muito abaixo do bruto. O bruto so pode sair da Fig.20 (grafico, nao conferido: download nao tentado por risco de tamanho)."
+   },
+   {
+    "sheet_row": 431,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "CO2 LIQUIDO: Fig.20 = emissoes menos creditos de carga evitada (ER1 RCA nao aterrado; ER2 TDA 1,649; ER3 pneus nao aterrados). Inconsistente com a decisao para a 4689 MOMOTAZ (review do mesmo grupo), onde se gravou o bruto sem creditos. Os valores RCA (65,7-111) estao muito abaixo do bruto. O bruto so pode sair da Fig.20 (grafico, nao conferido: download nao tentado por risco de tamanho)."
+   },
+   {
+    "sheet_row": 432,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "CO2 LIQUIDO: Fig.20 = emissoes menos creditos de carga evitada (ER1 RCA nao aterrado; ER2 TDA 1,649; ER3 pneus nao aterrados). Inconsistente com a decisao para a 4689 MOMOTAZ (review do mesmo grupo), onde se gravou o bruto sem creditos. Os valores RCA (65,7-111) estao muito abaixo do bruto. O bruto so pode sair da Fig.20 (grafico, nao conferido: download nao tentado por risco de tamanho)."
+   },
+   {
+    "sheet_row": 433,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "CO2 LIQUIDO: Fig.20 = emissoes menos creditos de carga evitada (ER1 RCA nao aterrado; ER2 TDA 1,649; ER3 pneus nao aterrados). Inconsistente com a decisao para a 4689 MOMOTAZ (review do mesmo grupo), onde se gravou o bruto sem creditos. Os valores RCA (65,7-111) estao muito abaixo do bruto. O bruto so pode sair da Fig.20 (grafico, nao conferido: download nao tentado por risco de tamanho)."
+   },
+   {
+    "sheet_row": 434,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.4: so materiais da mistura por 1 m3 (\"only the lifecycle of the materials used to prepare the mix\"); meio-fio sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Sec.4: \"After adding all the emissions for the preparation of 1 m3 of concrete and deducting the emission for using the recycled material, the net CO2 emission was found ... Fig. 20\"; \"carbon footprints varied between 228 and 244 kg/m3 for the 100% NA concrete (CC-25) and ... 5-20% TDA\".",
+    "nota": "CO2 LIQUIDO: Fig.20 = emissoes menos creditos de carga evitada (ER1 RCA nao aterrado; ER2 TDA 1,649; ER3 pneus nao aterrados). Inconsistente com a decisao para a 4689 MOMOTAZ (review do mesmo grupo), onde se gravou o bruto sem creditos. Os valores RCA (65,7-111) estao muito abaixo do bruto. O bruto so pode sair da Fig.20 (grafico, nao conferido: download nao tentado por risco de tamanho)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "ERRO DE CRITERIO: os 9 pares com material reciclado estao gravados com o CO2 liquido de creditos de carga evitada (deteccao, nao confirmado numericamente na figura). Controlo CC-25 com familia reciclado - deveria ser opc."
+ },
+ {
+  "row_id": 3504,
+  "pares": [
+   {
+    "sheet_row": 435,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "R: controlo sem SCM; familia scm parece errada (deveria ser opc).. Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   },
+   {
+    "sheet_row": 436,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "zeolita natural (nao residuo). Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   },
+   {
+    "sheet_row": 437,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "zeolita natural. Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   },
+   {
+    "sheet_row": 438,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "zeolita natural. Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   },
+   {
+    "sheet_row": 439,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "GGBFS. Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   },
+   {
+    "sheet_row": 440,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "GGBFS. Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   },
+   {
+    "sheet_row": 441,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "GGBFS. Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   },
+   {
+    "sheet_row": 442,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "zeolita natural + GGBFS. Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   },
+   {
+    "sheet_row": 443,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "zeolita natural + GGBFS. Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   },
+   {
+    "sheet_row": 444,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec.2.4: \"steel reinforcement production, construction on-site, and concrete structural use are assumed identical and excluded from the system boundary\". A FU e o volume de betao de uma viga armada (Tab.4), mas o aco nao entra.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Tab.4: fc28 38,7/38,1/37,8/36,4/37,6/37,5/31,1/36/32,8/30,6 MPa; Fig.12 GHG (kg CO2eq); conclusao: ZS40 reduz GWP ate 38%.",
+    "nota": "zeolita natural + GGBFS. Nota: a Fig.12 pode estar por FU (volume de viga 1,45-1,48 m3, relativo 0,98-1,00) e nao por m3; a diferenca entre as duas leituras e <=2%, e 475 com 450 kg/m3 de ligante e coerente com m3. Figura nao conferida visualmente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem aco no CO2. Controlo R com familia scm."
+ },
+ {
+  "row_id": 3507,
+  "pares": [
+   {
+    "sheet_row": 1025,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.10 (2.o desenho): betao 373,02 + armadura de pre-esforco 28,61 + camada de acabamento 126,36 kg/m2; Tab.5: \"Prestressed reinforcement 1.81 kg CO2,e/kg\"; Tab.11 total 165,42 kg CO2,e/m2 inclui fabrico, transporte, construcao, demolicao e reciclagem (-11,45, sobretudo credito do aco).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.11 \"GWP results for LL = 3 kN/m2 & span = 8 m\": Hollow core precast slab Total 165.42; Tab.10 2nd Design Concrete 373.02, Steel/prestressed reinforcement 28.61, Finishing Layer 126.36.",
+    "nota": "O artigo nao publica o CO2 so do betao. Estimativa nossa com os factores da Tab.5: betao 373,02x(0,151+0,029)=67,1 + acabamento 126,36x0,113=14,3 + pre-esforco 28,61x1,81=51,8 = 133 kg/m2 contra 161,96 de fabrico publicado - nao reproduz (falta ~29 kg/m2: desperdicio da Tab.7 e talvez malha/factor do acabamento), por isso nao e separavel com seguranca. O aco de pre-esforco pesa ~1/3 do fabrico. Total tambem inclui transporte (13,18), EOL e credito de reciclagem. Familia actual opc -> deveria ser concreto_armado (betao pre-esforcado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia errada: opc -> concreto_armado."
+ },
+ {
+  "row_id": 3512,
+  "pares": [
+   {
+    "sheet_row": 1029,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "3.5: LCA ao nivel do material; inventario OPC, FA, GGBFS, areia, fibra PE, agua, SP, VMA (Ecoinvent 3.9). Sem armadura (SHCC para eliminar armadura).",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1: DE-0 OPC 640, FA 214, GGBFS 333, PE 15 kg/m3; resultados de GWP na Fig.22.",
+    "nota": "Referencia com 1,5% vol. de fibra PE dispersa (nao armadura). Familia opc ok. CO2 so na Fig.22 (nao conferido visualmente)."
+   },
+   {
+    "sheet_row": 1030,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Abstract: \"diatomite (DE), a natural sedimentary rock ... partially replaces ordinary Portland cement\"; Tab.1 DE-10.",
+    "nota": "DE-10: diatomite e mineral natural, NAO residuo (o artigo enfatiza \"natural material with high reserve\"). Familia scm ok."
+   },
+   {
+    "sheet_row": 1031,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Abstract: \"diatomite (DE), a natural sedimentary rock ... partially replaces ordinary Portland cement\"; Tab.1 DE-20.",
+    "nota": "DE-20: diatomite e mineral natural, NAO residuo (o artigo enfatiza \"natural material with high reserve\"). Familia scm ok."
+   },
+   {
+    "sheet_row": 1032,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "nao",
+    "uhpc": "nao",
+    "citacao": "Abstract: \"diatomite (DE), a natural sedimentary rock ... partially replaces ordinary Portland cement\"; Tab.1 DE-30.",
+    "nota": "DE-30: diatomite e mineral natural, NAO residuo (o artigo enfatiza \"natural material with high reserve\"). Familia scm ok."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3514,
+  "pares": [
+   {
+    "sheet_row": 1033,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fig.1 fronteira da ACV de argamassas; sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.1: fc28 PC-CRL 41,5; KH-CRL 21,2; KC-CRL 34,7 MPa; texto: PC-CRL 415, KH-CRL 253, KC-CRL 308 kg CO2-eq/m3.",
+    "nota": "Referencia Portland."
+   },
+   {
+    "sheet_row": 1034,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "idem",
+    "nota": "GGBFS (subproduto) activado com KOH sintetico; e o controlo dentro da serie AAB (sem cinza de casca de amendoa), mas face a referencia PC o que distingue e o ligante alternativo. GGBFS importada da Pensilvania."
+   },
+   {
+    "sheet_row": 1035,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "idem",
+    "nota": "GGBFS activado com K2CO3 sintetico."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familias ok. Observacao: as misturas com cinza de casca de amendoa (ANDSHL/WDFSHL 10-100%, fc28 18,7-38,2 MPa na Tab.1) nao estao no painel - so os tres controlos; o CO2 delas parece estar so em figura."
+ },
+ {
+  "row_id": 3519,
+  "pares": [
+   {
+    "sheet_row": 1036,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. LCA: FU 1 m3 de material, Tab.5 receita (la de rocha, FS, PVA, agua, NaOH); fibras PVA dispersas, sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.14a \"CO2 footprint ... to produce 1 m3\": 353.8 (forno), 284.4 (2 h), 288.5 (3 h).",
+    "nota": "forno 60 C/24 h. La de rocha (residuo de isolamento) como precursor + fibra PVA."
+   },
+   {
+    "sheet_row": 1037,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. LCA: FU 1 m3 de material, Tab.5 receita (la de rocha, FS, PVA, agua, NaOH); fibras PVA dispersas, sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.14a \"CO2 footprint ... to produce 1 m3\": 353.8 (forno), 284.4 (2 h), 288.5 (3 h).",
+    "nota": "prensa 100 C/2 h. La de rocha (residuo de isolamento) como precursor + fibra PVA."
+   },
+   {
+    "sheet_row": 1038,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. LCA: FU 1 m3 de material, Tab.5 receita (la de rocha, FS, PVA, agua, NaOH); fibras PVA dispersas, sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.14a \"CO2 footprint ... to produce 1 m3\": 353.8 (forno), 284.4 (2 h), 288.5 (3 h).",
+    "nota": "prensa 100 C/3 h. La de rocha (residuo de isolamento) como precursor + fibra PVA."
+   },
+   {
+    "sheet_row": 2099,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. LCA: FU 1 m3 de material, Tab.5 receita (la de rocha, FS, PVA, agua, NaOH); fibras PVA dispersas, sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.14a \"CO2 footprint ... to produce 1 m3\": 353.8 (forno), 284.4 (2 h), 288.5 (3 h).",
+    "nota": "prensa 120 C/2 h. La de rocha (residuo de isolamento) como precursor + fibra PVA."
+   },
+   {
+    "sheet_row": 2100,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Sec. LCA: FU 1 m3 de material, Tab.5 receita (la de rocha, FS, PVA, agua, NaOH); fibras PVA dispersas, sem armadura.",
+    "co2_so_betao": null,
+    "tipo_ligante": "alcali_ativado",
+    "papel_material": "ligante_alternativo",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.14a \"CO2 footprint ... to produce 1 m3\": 353.8 (forno), 284.4 (2 h), 288.5 (3 h).",
+    "nota": "prensa 120 C/3 h. La de rocha (residuo de isolamento) como precursor + fibra PVA."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Nao sao duplicados exactos, mas 1037/2099 partilham CO2 284,4 e 1038/2100 partilham 288,5 (a ACV nao distingue temperatura - ja documentado em 2026-09-29)."
+ }
+]

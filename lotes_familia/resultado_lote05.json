@@ -1,0 +1,396 @@
+[
+ {
+  "row_id": 2755,
+  "pares": [
+   {
+    "sheet_row": 187,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira: 'Raw materials included cement, silica fume, and quartz sand' (sec. LCA); fibras de aco ganchadas 2,5% dispersas, sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "sim",
+    "citacao": "Tabela LCA: Total GWP (kg CO2 eq./m3) 410 (Ref)",
+    "nota": "Fibras de aco dispersas (HSF 2,5%) nao sao armadura; GWP por m3 inclui fases de uso e fim de vida."
+   },
+   {
+    "sheet_row": 188,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira: 'Raw materials included cement, silica fume, and quartz sand' (sec. LCA); fibras de aco ganchadas 2,5% dispersas, sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "Total GWP 399 (M1-URCF-5); URCF 'replacing an equivalent volume of Quartz Sand'",
+    "citacao": "Finos de betao reciclado substituem areia de quartzo (agregado), nao ligante.",
+    "nota": ""
+   },
+   {
+    "sheet_row": 189,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira: 'Raw materials included cement, silica fume, and quartz sand' (sec. LCA); fibras de aco ganchadas 2,5% dispersas, sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "Total GWP 362 (M5-URCF-25)",
+    "citacao": "idem",
+    "nota": ""
+   },
+   {
+    "sheet_row": 190,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira: 'Raw materials included cement, silica fume, and quartz sand' (sec. LCA); fibras de aco ganchadas 2,5% dispersas, sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "Total GWP 414 (M6-CRCF-5)",
+    "citacao": "Finos carbonatados a substituir areia de quartzo; inclui fase de carbonatacao.",
+    "nota": ""
+   },
+   {
+    "sheet_row": 191,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Fronteira: 'Raw materials included cement, silica fume, and quartz sand' (sec. LCA); fibras de aco ganchadas 2,5% dispersas, sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "Total GWP 387 (M9-CRCF-20)",
+    "citacao": "idem",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "UHPFRC Portland; familia uhpc coerente. Papel do material = agregado (substitui areia de quartzo)."
+ },
+ {
+  "row_id": 2757,
+  "pares": [
+   {
+    "sheet_row": 192,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Argamassa; FU 1 m3 de argamassa, cradle-to-gate, sem armadura (Sec.3.1 System Boundary)",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela: GWP A0 574.033 kg CO2 eq",
+    "nota": ""
+   },
+   {
+    "sheet_row": 199,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "GWP A7 (70% GGBFS)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 200,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tabela: GWP B0 573.209 kg CO2 eq",
+    "nota": ""
+   },
+   {
+    "sheet_row": 207,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "idem",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "substituicao_ligante",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "GWP B7 (70% GGBFS)",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia scm coerente para A7/B7; A0/B0 sao controlos OPC (se a familia for por par e nao por artigo, A0/B0 seriam opc)."
+ },
+ {
+  "row_id": 2758,
+  "pares": [
+   {
+    "sheet_row": 208,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2/Tab.4: 'Ready-mixed concrete 166.77 m3 -> 70,043.40'; 'Rebars and steel materials 16,982 kg -> 5773.88' em linha separada",
+    "co2_so_betao": 420.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: Ready-mixed concrete (25-240-15) 4.20x10^2 kg CO2-eq/m3 (KLCI DB)",
+    "nota": "Valor gravado e so o betao (factor KLCI); total do sistema (204.544 kg) inclui cofragem, varao e transporte."
+   },
+   {
+    "sheet_row": 209,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.5: Ready-mixed concrete 179.48 m3 -> 75,381.60; rebars 15,910 kg -> 5409.40 separados",
+    "co2_so_betao": 420.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 factor 420; Tab.5 75.381,60/179,48",
+    "nota": "idem"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Factor generico KLCI do betao pronto 25 MPa; os dois pares tem o mesmo CO2/m3. Familia opc correcta (valor so do betao)."
+ },
+ {
+  "row_id": 2759,
+  "pares": [
+   {
+    "sheet_row": 210,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.6: Ready-mixed concrete sub-total 142,426 e 'Rebars and steel materials' sub-total 13,546 em linhas separadas",
+    "co2_so_betao": 420.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2 factor 4.20x10^2/m3; Tab.6 142.426 kg / 339,11 m3",
+    "nota": ""
+   },
+   {
+    "sheet_row": 211,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.6: betao 154,135 vs aco em linha propria",
+    "co2_so_betao": 420.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.6 154.135 kg / 366,99 m3",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familia opc correcta."
+ },
+ {
+  "row_id": 2760,
+  "pares": [
+   {
+    "sheet_row": 212,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab. de resultados por m2: Ready-mixed concrete 120.9 kg/m2 e Rebars 112.0 kg/m2 em linhas separadas",
+    "co2_so_betao": 432.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Factor do betao 4.29x10^2 kg CO2 eq/m3 (Tab.1); 120,9 kg/m2 / 0,28 m3/m2 = 431,8",
+    "nota": ""
+   },
+   {
+    "sheet_row": 213,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Rebars 103.2 kg/m2 separado do betao 124.5 kg/m2",
+    "co2_so_betao": 429.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "124,5/0,29 = 429,3",
+    "nota": ""
+   },
+   {
+    "sheet_row": 214,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Rebars 90.7 kg/m2 separado do betao 102.5 kg/m2",
+    "co2_so_betao": 427.0,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "102,5/0,24 = 427,1",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O artigo imprime o factor do betao 429 kg/m3; as pequenas diferencas (427-432) vem do arredondamento das taxas por m2. Familia opc correcta."
+ },
+ {
+  "row_id": 2765,
+  "pares": [
+   {
+    "sheet_row": 216,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Tab.7 cenario 1: cement, natural aggregate, sand, landfill, transportation, diesel, electricity - sem aco; varao so mencionado na separacao magnetica do RCA",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.8: GWP 705.3 kg CO2-eq per 2 m3 (Scenario 1, NAC)",
+    "nota": "Inclui landfill (73,6) e transporte de 2 ciclos de uso; FU = 2 m3 de viga."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O par e o NAC (agregado natural, controlo); familia_atual 'reciclado' so faz sentido se a familia for do artigo — como par e opc."
+ },
+ {
+  "row_id": 2766,
+  "pares": [
+   {
+    "sheet_row": 220,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2 CJE: Concrete C25/30 0.040 m3 + Rebar 8 mm 2.772 kg + steel wire 0.053 kg; Tab.3 total A1-A3 20.1 kg; Fig.3 da a parcela do betao (~95%)",
+    "co2_so_betao": 477.4,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 GWP CJE 2.01x10^1 kg CO2 eq; Fig.3 contribuicao relativa por material",
+    "nota": "Valor gravado ja e so o betao (fraccao lida na Fig.3, confianca baixa)."
+   },
+   {
+    "sheet_row": 221,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Tab.2 CJI: Concrete 0.079 m3 + rebar 2.398 kg + stirrups 4.435 kg; Fig.4 parcela do betao (~94%)",
+    "co2_so_betao": 483.1,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.3 GWP CJI 4.06x10^1 kg CO2 eq; Fig.4",
+    "nota": "idem"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Reforco de viga de BA; fronteira A1-A3 inclui varao, mas o gravado e so o betao. Familia opc aceitavel. Fracoes 95/94% so lidas de grafico (nao re-verifiquei por pixel)."
+ },
+ {
+  "row_id": 2769,
+  "pares": [
+   {
+    "sheet_row": 700,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Cantilever: 'reinforcement steel B500S'; 'The use of reinforcement steel is the major contributor to most impact categories in cantilever walls'; GWP do muro inteiro",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: GWP cantilever 4 m = 907.43 kg CO2 eq (por metro linear, ciclo de vida completo)",
+    "nota": "Total inclui varao, cofragem, escavacao/aterro, transporte, fim de vida e carbonatacao; sem decomposicao numerica por material."
+   },
+   {
+    "sheet_row": 701,
+    "co2_inclui_aco": "nao",
+    "aco_citacao": "Muro de gravidade em betao em massa, sem armadura",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Tab.2: GWP gravity 4 m = 1025.58 kg CO2 eq",
+    "nota": "Total por metro linear tambem inclui escavacao, aterro, cofragem, transporte, fim de vida; nao e so betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Familias actuais (concreto_armado para cantilever, opc para gravidade) correctas. Ambos os CO2 sao do ciclo de vida completo do muro, nao so do betao."
+ },
+ {
+  "row_id": 2771,
+  "pares": [
+   {
+    "sheet_row": 222,
+    "co2_inclui_aco": "sim",
+    "aco_citacao": "Tab.4: alternativa 11-V305-20/P3.400 = 65 m3 de betao + 11,468 kg de aco (8 Ø20 em toda a estaca); 'Concrete and steel accounted for the majority of the environmental impact'; 11 citada entre as piores 'vibro-piles with large amounts of reinforcement'",
+    "co2_so_betao": null,
+    "tipo_ligante": "portland",
+    "papel_material": "sistema",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.10/S5: GWP da fundacao (estacas + vigas); Tab.4: 65 m3 cobre estacas e vigas",
+    "nota": "Valores absolutos so no Suplementar S5; no PDF nao ha separacao betao/aco. Com 11,5 t de aco, uma fraccao grande dos ~43.700 kg e aco -> 672 kg/m3 inflacionado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "familia_atual 'opc' parece errada: deve ser concreto_armado. Confirma-se que os 65 m3 incluem estacas+vigas (Tab.4)."
+ },
+ {
+  "row_id": 2782,
+  "pares": [
+   {
+    "sheet_row": 702,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Fig.2(c) empilha por material: 'Steel rebar' e 'RC-concrete with CEM III 42.5' em segmentos separados; varao 33.1 kg/m2 (E2)",
+    "co2_so_betao": 134.9,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.2(c), segmento RC-concrete CEM III da parede E2 ~33,7 kg/m2; espessura 250 mm (Tab.1)",
+    "nota": "Gravado = so a camada de betao (leitura de grafico)."
+   },
+   {
+    "sheet_row": 1887,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Fig.2(c): segmento 'Concrete C25/30' de E1 separado do 'Steel rebar'",
+    "co2_so_betao": 230.5,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.2(c) E1 concreto ~57,6 kg/m2 / 0,250 m",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1888,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Fig.2(c): segmento RC-concrete CEM III de F2 separado do varao (55 kg/m2)",
+    "co2_so_betao": 137.9,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.2(c) F2 ~34,5 kg/m2 / 0,250 m",
+    "nota": "CEM III = cimento de escoria (Portland composto)."
+   },
+   {
+    "sheet_row": 1889,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Fig.2(c): segmento 'Concrete C25/30' de C1 separado",
+    "co2_so_betao": 232.8,
+    "tipo_ligante": "portland",
+    "papel_material": "controlo",
+    "material_residuo": "na",
+    "uhpc": "nao",
+    "citacao": "Fig.2(c) C1 ~65,2 kg/m2 / 0,280 m",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1890,
+    "co2_inclui_aco": "separavel",
+    "aco_citacao": "Fig.2(c): segmento RC-concrete CEM II de C2 separado do varao",
+    "co2_so_betao": 238.2,
+    "tipo_ligante": "portland",
+    "papel_material": "agregado",
+    "material_residuo": "sim",
+    "uhpc": "nao",
+    "citacao": "Fig.2(c) C2 ~66,7 kg/m2 / 0,280 m",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Renderizada a Fig.2(c) (p.5): barras empilhadas por material, o varao domina (texto: 'steel rebar is dominating the ... climate footprints'); os gravados sao so o betao. Familias coerentes (reciclado para RC-concrete, opc para C25/30)."
+ }
+]
