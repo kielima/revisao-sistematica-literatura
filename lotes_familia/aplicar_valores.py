@@ -71,6 +71,8 @@ CO2 = {
            'o calculo antigo usou 3,4 kg CO2/kg para a silica ativa; a Tabela 3 da 3,4E-3 (+135,86 kg/m3)'),
     1752: (4758, 470.53, 334.67, 'calculado com as Tabelas 1 e 3 (silica ativa 3,4E-3 kg CO2/kg)', 'Tabelas 1 e 3', 'soma traco x factores', 'subagente', 'idem 1748'),
     1756: (4758, 447.18, 311.31, 'calculado com as Tabelas 1 e 3 (silica ativa 3,4E-3 kg CO2/kg)', 'Tabelas 1 e 3', 'soma traco x factores', 'subagente', 'idem 1748'),
+    51: (5041, 515.8, 224.6, '50,95 kg CO2-eq/m2 (betao: brita, areia, cimento)', 'Fig.29 p.136', '50,95 kg/m2 / volume de betao por m2 (Quadros 2-7)', 'subagente',
+         'D1: o 515,8 e o total da estrutura (Quadro 8) com aco, cofragens, distribuicao e deposicao'),
 }
 
 # linha: (row_id, fck_velho, fck_novo, nota)
@@ -101,6 +103,13 @@ NAO_CONV = {
     1743: (4754, 'E1: 15,8 kg CO2/m3 impossivel para 182,6 kg de cimento/m3; o eixo da Fig.4 nao tem unidade'),
     1744: (4754, 'E1: 20,1 kg CO2/m3 impossivel para 182,6 kg de cimento/m3; o eixo da Fig.4 nao tem unidade'),
     1761: (4766, 'E2: mesma classe 5500 psi e mesmo factor da linha 1758 (dois elementos do mesmo edificio)'),
+    63: (5050, 'E2: mesmo factor generico da DAP Votorantim (25 MPa x 267) da linha 62, aplicado a outro sistema'),
+    66: (5055, 'E2: mesmo traco e mesmo CO2 da linha 65, com o fck aos 91 d; fica o par aos 28 d'),
+    68: (5055, 'E2: mesmo traco e mesmo CO2 da linha 67, com o fck aos 91 d; fica o par aos 28 d'),
+    70: (5055, 'E2: mesmo traco e mesmo CO2 da linha 69, com o fck aos 91 d; fica o par aos 28 d'),
+    72: (5055, 'E2: mesmo traco e mesmo CO2 da linha 71, com o fck aos 91 d; fica o par aos 28 d'),
+    74: (5055, 'E2: mesmo traco e mesmo CO2 da linha 73, com o fck aos 91 d; fica o par aos 28 d'),
+    76: (5055, 'E2: mesmo traco e mesmo CO2 da linha 75, com o fck aos 91 d; fica o par aos 28 d'),
 }
 
 # fck sem apoio no PDF -> par retirado (fck apagado)
@@ -108,6 +117,9 @@ FCK_SEM_APOIO = {
     1478: (4511, 'o fck 30 nao aparece no PDF: o "25-30 MPa" e o nome do processo Ecoinvent da electricidade; a resistencia esta noutro artigo (ref.[16])'),
     1479: (4511, 'idem 1478'),
 }
+
+# rotulos de material errados: linha -> (row_id, texto_errado, texto_certo)
+ROTULO = {r: (5055, 'cinza hidratada', 'cal hidratada') for r in (71, 72)}
 
 # E3: PUSHKAR 4580 - gravado em kg CO2-eq/(m3.MPa) (FU = 1 m3 normalizado a resistencia aos 28 d) -> x fck
 PUSHKAR_4580 = range(1570, 1590)
@@ -149,6 +161,10 @@ def main():
         ws.cell(r, 8).value = None
         ws.cell(r, 10).value = None
         nota(ws, r, f'fck {velho} apagado {HOJE} (revarredura): {txt}')
+    for r, (rid, errado, certo) in ROTULO.items():
+        assert str(ws.cell(r, 1).value) == str(rid) and errado in ws.cell(r, 7).value, r
+        ws.cell(r, 7).value = ws.cell(r, 7).value.replace(errado, certo)
+        nota(ws, r, f'rotulo "{errado}" -> "{certo}" {HOJE} (revarredura: CH = cal hidratada na tese)')
     for r in PUSHKAR_4580:
         assert str(ws.cell(r, 1).value) == '4580', r
         fck, v = float(ws.cell(r, 8).value), float(ws.cell(r, 37).value)
