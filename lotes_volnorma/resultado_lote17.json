@@ -1,0 +1,582 @@
+[
+ {
+  "row_id": 4599,
+  "pares": [
+   {
+    "sheet_row": 1605,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 1: 'm3 of concrete in stem C25/30 ... C50/60'; p.4: 'Types C25/30 to C50/60 were considered in discrete 5 MPa intervals'; ref [39] 'EHE: Code of Structural Concrete; Ministerio de Fomento 2008'",
+    "nota": "Classe de projecto em notacao Cxx/yy (primeiro numero = cilindro). O artigo cita a EHE-08 como codigo de verificacao estrutural [39], mas a classe esta escrita em Cxx/yy, nao em HA-xx. Sem ensaio."
+   },
+   {
+    "sheet_row": 1606,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 1: 'm3 of concrete in stem C25/30 ... C50/60'; p.4: 'Types C25/30 to C50/60 were considered in discrete 5 MPa intervals'; ref [39] 'EHE: Code of Structural Concrete; Ministerio de Fomento 2008'",
+    "nota": "Classe de projecto em notacao Cxx/yy (primeiro numero = cilindro). O artigo cita a EHE-08 como codigo de verificacao estrutural [39], mas a classe esta escrita em Cxx/yy, nao em HA-xx. Sem ensaio."
+   },
+   {
+    "sheet_row": 1607,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 1: 'm3 of concrete in stem C25/30 ... C50/60'; p.4: 'Types C25/30 to C50/60 were considered in discrete 5 MPa intervals'; ref [39] 'EHE: Code of Structural Concrete; Ministerio de Fomento 2008'",
+    "nota": "Classe de projecto em notacao Cxx/yy (primeiro numero = cilindro). O artigo cita a EHE-08 como codigo de verificacao estrutural [39], mas a classe esta escrita em Cxx/yy, nao em HA-xx. Sem ensaio."
+   },
+   {
+    "sheet_row": 1608,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 1: 'm3 of concrete in stem C25/30 ... C50/60'; p.4: 'Types C25/30 to C50/60 were considered in discrete 5 MPa intervals'; ref [39] 'EHE: Code of Structural Concrete; Ministerio de Fomento 2008'",
+    "nota": "Classe de projecto em notacao Cxx/yy (primeiro numero = cilindro). O artigo cita a EHE-08 como codigo de verificacao estrutural [39], mas a classe esta escrita em Cxx/yy, nao em HA-xx. Sem ensaio."
+   },
+   {
+    "sheet_row": 1609,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 1: 'm3 of concrete in stem C25/30 ... C50/60'; p.4: 'Types C25/30 to C50/60 were considered in discrete 5 MPa intervals'; ref [39] 'EHE: Code of Structural Concrete; Ministerio de Fomento 2008'",
+    "nota": "Classe de projecto em notacao Cxx/yy (primeiro numero = cilindro). O artigo cita a EHE-08 como codigo de verificacao estrutural [39], mas a classe esta escrita em Cxx/yy, nao em HA-xx. Sem ensaio."
+   },
+   {
+    "sheet_row": 1610,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 1: 'm3 of concrete in stem C25/30 ... C50/60'; p.4: 'Types C25/30 to C50/60 were considered in discrete 5 MPa intervals'; ref [39] 'EHE: Code of Structural Concrete; Ministerio de Fomento 2008'",
+    "nota": "Classe de projecto em notacao Cxx/yy (primeiro numero = cilindro). O artigo cita a EHE-08 como codigo de verificacao estrutural [39], mas a classe esta escrita em Cxx/yy, nao em HA-xx. Sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Optimizacao de muros de contrafortes; sem ensaio nem dimensoes de provete. Normas citadas: EHE-08 [39], CEB-FIB Model Code [43], CTE DB-SE."
+ },
+ {
+  "row_id": 4605,
+  "pares": [
+   {
+    "sheet_row": 1623,
+    "tipo": "norma_classe",
+    "norma": "ACI 318-05",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3: \"f'c Compressive strength of concrete 30 MPa\"; p.7: 'ACI 318-05 code [36] was used to generate the design constraints'; p.9: 'Yeo and Potra [16] ... 376 kg for concrete which has 30 MPa strength'",
+    "nota": "Resistencia de projecto f'c (notacao ACI, cilindro) usada no dimensionamento pela ACI 318-05; o factor de CO2 vem de Yeo & Potra. Sem ensaio."
+   },
+   {
+    "sheet_row": 1624,
+    "tipo": "norma_classe",
+    "norma": "EHE-08 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.9: 'Paya et al. [56] suggested ... 143.48 kg for the concrete (HA-30) that has 30 MPa strength'; dimensionamento por ACI 318-05 (Table 3 f'c = 30 MPa)",
+    "nota": "Classe HA-30 (notacao EHE-08) associada ao factor de Paya et al.; o dimensionamento do artigo e por ACI 318-05 com f'c = 30 MPa (ambos cilindro). Sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Optimizacao por harmony search; sem ensaio nem provete."
+ },
+ {
+  "row_id": 4608,
+  "pares": [
+   {
+    "sheet_row": 1625,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; EPD1 Agilla: '40'",
+    "nota": "Valor solto 40 N/mm2 sem notacao de classe nem norma atribuida a este EPD; nao se sabe se e cubo ou cilindro. Fonte externa (EPD de fabricante, UK)."
+   },
+   {
+    "sheet_row": 1626,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe 30/37",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1627,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe C 35/45",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1628,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe C 30/37",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1629,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe 20/25",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1630,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe 25/30",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1631,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe 30/37",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1632,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe 35/45",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1633,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe 40/50",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1634,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; nome do EPD: 'C32/40 CEMI Ready Mix Concrete' (coluna de resistencia diz 40/35 = valor de cubo)",
+    "nota": "Classe Cxx/yy no nome do produto Hanson UK (C32/40 e C28/35 sao classes da BS 8500, complemento britanico da EN 206); valor gravado 32/28 = cilindro. BS 8500 nao citada no artigo."
+   },
+   {
+    "sheet_row": 1635,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; nome do EPD: 'C28/35 CIIIA Ready Mix Concrete' (coluna de resistencia diz 40/35 = valor de cubo)",
+    "nota": "Classe Cxx/yy no nome do produto Hanson UK (C32/40 e C28/35 sao classes da BS 8500, complemento britanico da EN 206); valor gravado 32/28 = cilindro. BS 8500 nao citada no artigo."
+   },
+   {
+    "sheet_row": 1636,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe C 25/30",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1637,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe C 20/25",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1638,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe C 45/55",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1639,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; EPD12 Watertight = 50",
+    "nota": "Valor solto em N/mm2 sem notacao de classe; nao se sabe se e cubo ou cilindro. Fonte externa (EPD BASF UK)."
+   },
+   {
+    "sheet_row": 1640,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); DIN EN 206-1 citada",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; classe C 50/60",
+    "nota": "Classe em notacao Cxx/yy (EN 206), citada pelo artigo via DIN EN 206-1 [44]; valor gravado = primeiro numero (cilindro). Fonte externa (EPD), sem ensaio."
+   },
+   {
+    "sheet_row": 1641,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 3 p.10 (coluna 'Compressive Strength (N/mm2)'); p.13: 'classification ... defined by standards DIN EN 206-1:2017-1 [44] and DIN 1045-2:2008 [58] ... C20/25 to C45/55 were selected'; EPD14 Diamondconcrete = 85",
+    "nota": "Valor solto em N/mm2 sem notacao de classe; nao se sabe se e cubo ou cilindro. Fonte externa (EPD BASF UK)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Compilacao de 14 EPDs de betao pronto; sem ensaio proprio. Norma citada para a classificacao: DIN EN 206-1:2017 e DIN 1045-2:2008."
+ },
+ {
+  "row_id": 4609,
+  "pares": [
+   {
+    "sheet_row": 1642,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 4 p.4: 'Ready-mixed concrete 25-210-12 / 25-210-15 / 25-240-12 / 25-240-15' (LCI DB MOTIE/ME 2003); Table 7 p.11 '25-21-12' etc.",
+    "nota": "Designacao coreana agregado-resistencia(kgf/cm2)-abaixamento de base de inventario nacional; o artigo nao cita norma (KS F 4009 nao aparece) nem provete; nem sequer imprime MPa."
+   },
+   {
+    "sheet_row": 1643,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 4 p.4: 'Ready-mixed concrete 25-210-12 / 25-210-15 / 25-240-12 / 25-240-15' (LCI DB MOTIE/ME 2003); Table 7 p.11 '25-21-12' etc.",
+    "nota": "Designacao coreana agregado-resistencia(kgf/cm2)-abaixamento de base de inventario nacional; o artigo nao cita norma (KS F 4009 nao aparece) nem provete; nem sequer imprime MPa."
+   },
+   {
+    "sheet_row": 1644,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 4 p.4: 'Ready-mixed concrete 25-210-12 / 25-210-15 / 25-240-12 / 25-240-15' (LCI DB MOTIE/ME 2003); Table 7 p.11 '25-21-12' etc.",
+    "nota": "Designacao coreana agregado-resistencia(kgf/cm2)-abaixamento de base de inventario nacional; o artigo nao cita norma (KS F 4009 nao aparece) nem provete; nem sequer imprime MPa."
+   },
+   {
+    "sheet_row": 1645,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 4 p.4: 'Ready-mixed concrete 25-210-12 / 25-210-15 / 25-240-12 / 25-240-15' (LCI DB MOTIE/ME 2003); Table 7 p.11 '25-21-12' etc.",
+    "nota": "Designacao coreana agregado-resistencia(kgf/cm2)-abaixamento de base de inventario nacional; o artigo nao cita norma (KS F 4009 nao aparece) nem provete; nem sequer imprime MPa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Selecao de categorias de impacto para materiais rodoviarios; sem ensaio."
+ },
+ {
+  "row_id": 4625,
+  "pares": [
+   {
+    "sheet_row": 1659,
+    "tipo": "norma_classe",
+    "norma": "fib Model Code 2010; EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.6: 'Two concrete strength classes, C25/30 and C30/37, were selected'; p.4: 'considering concrete strength classes defined in the fib Model Code 2010 [21], the mean compressive strength fcm was adopted'; p.12: 'C25/30 (mean compressive strength between 33.0 and 37.9 MPa)' / 'C30/37 (... 38.0 and 42.9 MPa)'",
+    "nota": "Classe Cxx/yy definida pelo fib MC2010 (fcm = fck + 8, cilindro); fck gravado = ponto medio do intervalo de fcm das misturas compiladas da literatura (provetes das fontes nao declarados). Eurocode 2 tambem citado."
+   },
+   {
+    "sheet_row": 1660,
+    "tipo": "norma_classe",
+    "norma": "fib Model Code 2010; EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.6: 'Two concrete strength classes, C25/30 and C30/37, were selected'; p.4: 'considering concrete strength classes defined in the fib Model Code 2010 [21], the mean compressive strength fcm was adopted'; p.12: 'C25/30 (mean compressive strength between 33.0 and 37.9 MPa)' / 'C30/37 (... 38.0 and 42.9 MPa)'",
+    "nota": "Classe Cxx/yy definida pelo fib MC2010 (fcm = fck + 8, cilindro); fck gravado = ponto medio do intervalo de fcm das misturas compiladas da literatura (provetes das fontes nao declarados). Eurocode 2 tambem citado."
+   },
+   {
+    "sheet_row": 1661,
+    "tipo": "norma_classe",
+    "norma": "fib Model Code 2010; EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.6: 'Two concrete strength classes, C25/30 and C30/37, were selected'; p.4: 'considering concrete strength classes defined in the fib Model Code 2010 [21], the mean compressive strength fcm was adopted'; p.12: 'C25/30 (mean compressive strength between 33.0 and 37.9 MPa)' / 'C30/37 (... 38.0 and 42.9 MPa)'",
+    "nota": "Classe Cxx/yy definida pelo fib MC2010 (fcm = fck + 8, cilindro); fck gravado = ponto medio do intervalo de fcm das misturas compiladas da literatura (provetes das fontes nao declarados). Eurocode 2 tambem citado."
+   },
+   {
+    "sheet_row": 1662,
+    "tipo": "norma_classe",
+    "norma": "fib Model Code 2010; EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.6: 'Two concrete strength classes, C25/30 and C30/37, were selected'; p.4: 'considering concrete strength classes defined in the fib Model Code 2010 [21], the mean compressive strength fcm was adopted'; p.12: 'C25/30 (mean compressive strength between 33.0 and 37.9 MPa)' / 'C30/37 (... 38.0 and 42.9 MPa)'",
+    "nota": "Classe Cxx/yy definida pelo fib MC2010 (fcm = fck + 8, cilindro); fck gravado = ponto medio do intervalo de fcm das misturas compiladas da literatura (provetes das fontes nao declarados). Eurocode 2 tambem citado."
+   },
+   {
+    "sheet_row": 1663,
+    "tipo": "norma_classe",
+    "norma": "fib Model Code 2010; EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.6: 'Two concrete strength classes, C25/30 and C30/37, were selected'; p.4: 'considering concrete strength classes defined in the fib Model Code 2010 [21], the mean compressive strength fcm was adopted'; p.12: 'C25/30 (mean compressive strength between 33.0 and 37.9 MPa)' / 'C30/37 (... 38.0 and 42.9 MPa)'",
+    "nota": "Classe Cxx/yy definida pelo fib MC2010 (fcm = fck + 8, cilindro); fck gravado = ponto medio do intervalo de fcm das misturas compiladas da literatura (provetes das fontes nao declarados). Eurocode 2 tambem citado."
+   },
+   {
+    "sheet_row": 1664,
+    "tipo": "norma_classe",
+    "norma": "fib Model Code 2010; EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.6: 'Two concrete strength classes, C25/30 and C30/37, were selected'; p.4: 'considering concrete strength classes defined in the fib Model Code 2010 [21], the mean compressive strength fcm was adopted'; p.12: 'C25/30 (mean compressive strength between 33.0 and 37.9 MPa)' / 'C30/37 (... 38.0 and 42.9 MPa)'",
+    "nota": "Classe Cxx/yy definida pelo fib MC2010 (fcm = fck + 8, cilindro); fck gravado = ponto medio do intervalo de fcm das misturas compiladas da literatura (provetes das fontes nao declarados). Eurocode 2 tambem citado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Estudo numerico + ACV com tracos compilados de ~50 estudos; sem ensaio proprio."
+ },
+ {
+  "row_id": 4663,
+  "pares": [
+   {
+    "sheet_row": 1678,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.8: 'The amounts of the component materials of two OPC concretes were developed by Etxeberria et al. [49] ... to achieve compressive strength at a minimum of 30 MPa at 28 days'; Table 3: NAC 35.5 MPa, RAC 38.3 MPa",
+    "nota": "Valor retirado de Etxeberria et al. (2007); o artigo nao da norma nem provete para o betao OPC. Os provetes 25x25x25 mm (cubos cortados de barras, ASTM C109 com desvio) dizem respeito so as argamassas geopolimericas G-FA/G-C, nao a estas linhas."
+   },
+   {
+    "sheet_row": 1679,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.8: 'The amounts of the component materials of two OPC concretes were developed by Etxeberria et al. [49] ... to achieve compressive strength at a minimum of 30 MPa at 28 days'; Table 3: NAC 35.5 MPa, RAC 38.3 MPa",
+    "nota": "Valor retirado de Etxeberria et al. (2007); o artigo nao da norma nem provete para o betao OPC. Os provetes 25x25x25 mm (cubos cortados de barras, ASTM C109 com desvio) dizem respeito so as argamassas geopolimericas G-FA/G-C, nao a estas linhas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Ensaio proprio so nas argamassas geopolimericas (ASTM C109/C348 com cubos 25 mm); NAC/RAC de fonte externa."
+ },
+ {
+  "row_id": 4670,
+  "pares": [
+   {
+    "sheet_row": 1683,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.6: 'A conventional C30/37 is considered, and its environmental impacts are taken from the KBOB database'; Table 1: 'Material mix for the concrete bridge—concrete C30/37'",
+    "nota": "Classe de projecto em notacao Cxx/yy; nenhuma norma (nem SIA 262 nem EN 206) citada; sem ensaio. A celula tipo_corpo_prova 'cilindro' da planilha vem so da notacao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "ACV de pontes com UHPFRC; sem ensaio do betao convencional."
+ },
+ {
+  "row_id": 4675,
+  "pares": [
+   {
+    "sheet_row": 1684,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.3: 'The mix design of normal concrete and the RAC mixture was taken from the study conducted in Pakistan [16] ... 28 days' compressive strengths of 28 MPa. ... GPC and RAGC mixtures was taken from [17], with the compressive strength of 30 MPa and 27 MPa'",
+    "nota": "Resistencias retiradas das refs [16] e [17]; o artigo nao cita norma nem provete."
+   },
+   {
+    "sheet_row": 1685,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.3: 'The mix design of normal concrete and the RAC mixture was taken from the study conducted in Pakistan [16] ... 28 days' compressive strengths of 28 MPa. ... GPC and RAGC mixtures was taken from [17], with the compressive strength of 30 MPa and 27 MPa'",
+    "nota": "Resistencias retiradas das refs [16] e [17]; o artigo nao cita norma nem provete."
+   },
+   {
+    "sheet_row": 1686,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.3: 'The mix design of normal concrete and the RAC mixture was taken from the study conducted in Pakistan [16] ... 28 days' compressive strengths of 28 MPa. ... GPC and RAGC mixtures was taken from [17], with the compressive strength of 30 MPa and 27 MPa'",
+    "nota": "Resistencias retiradas das refs [16] e [17]; o artigo nao cita norma nem provete."
+   },
+   {
+    "sheet_row": 1687,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.3: 'The mix design of normal concrete and the RAC mixture was taken from the study conducted in Pakistan [16] ... 28 days' compressive strengths of 28 MPa. ... GPC and RAGC mixtures was taken from [17], with the compressive strength of 30 MPa and 27 MPa'",
+    "nota": "Resistencias retiradas das refs [16] e [17]; o artigo nao cita norma nem provete."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "ACV com tracos de literatura; sem ensaio proprio."
+ },
+ {
+  "row_id": 4691,
+  "pares": [
+   {
+    "sheet_row": 1688,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cilindro",
+    "citacao": "p.3: 'Strength class II—corresponds to ordinary concrete in strength class C25/30'; p.6: 'The concrete cubes are cast and cured for 28 days (in accordance with EN 12390-2 [30])' (ensaio de carbonatacao, CSN EN 12390-12)",
+    "nota": "Classe C25/30 declarada (notacao EN 206; valor gravado 25 = cilindro). O artigo nao reporta ensaio de compressao (nenhum valor em MPa); os cubos moldados por CSN EN 12390-2 serviram para carbonatacao/lixiviacao e as dimensoes nao sao dadas. A planilha diz 'cubo (EN 12390)' - o cubo e o provete fabricado, mas o valor 25 e o de cilindro da classe."
+   },
+   {
+    "sheet_row": 1689,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cilindro",
+    "citacao": "p.3: 'Strength class II—corresponds to ordinary concrete in strength class C25/30'; p.6: 'The concrete cubes are cast and cured for 28 days (in accordance with EN 12390-2 [30])' (ensaio de carbonatacao, CSN EN 12390-12)",
+    "nota": "Classe C25/30 declarada (notacao EN 206; valor gravado 25 = cilindro). O artigo nao reporta ensaio de compressao (nenhum valor em MPa); os cubos moldados por CSN EN 12390-2 serviram para carbonatacao/lixiviacao e as dimensoes nao sao dadas. A planilha diz 'cubo (EN 12390)' - o cubo e o provete fabricado, mas o valor 25 e o de cilindro da classe."
+   },
+   {
+    "sheet_row": 1690,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cilindro",
+    "citacao": "p.3: 'Strength class II—corresponds to ordinary concrete in strength class C25/30'; p.6: 'The concrete cubes are cast and cured for 28 days (in accordance with EN 12390-2 [30])' (ensaio de carbonatacao, CSN EN 12390-12)",
+    "nota": "Classe C25/30 declarada (notacao EN 206; valor gravado 25 = cilindro). O artigo nao reporta ensaio de compressao (nenhum valor em MPa); os cubos moldados por CSN EN 12390-2 serviram para carbonatacao/lixiviacao e as dimensoes nao sao dadas. A planilha diz 'cubo (EN 12390)' - o cubo e o provete fabricado, mas o valor 25 e o de cilindro da classe."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Normas citadas: CSN EN 12390-12 (carbonatacao), CSN EN 12390-2 (moldagem e cura), CSN EN 16757."
+ },
+ {
+  "row_id": 4698,
+  "pares": [
+   {
+    "sheet_row": 1692,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tab.2 p.5: 'Ordinary concrete C10 ... C20 263 ... C25 276 ... C30 316 ... C35 369 ... C40 411 ... C45 453' (budget quota data of Fujian Province)",
+    "nota": "Classe 'Cxx' sem barra e sem norma citada (nenhuma GB/JGJ no artigo); pela regra da Kie nao se deduz a norma pelo pais. A nota da planilha 'norma chinesa GB: fcu,k cubo 150 mm' e deducao nossa, nao do artigo."
+   },
+   {
+    "sheet_row": 2072,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tab.2 p.5: 'Ordinary concrete C10 ... C20 263 ... C25 276 ... C30 316 ... C35 369 ... C40 411 ... C45 453' (budget quota data of Fujian Province)",
+    "nota": "Classe 'Cxx' sem barra e sem norma citada (nenhuma GB/JGJ no artigo); pela regra da Kie nao se deduz a norma pelo pais. A nota da planilha 'norma chinesa GB: fcu,k cubo 150 mm' e deducao nossa, nao do artigo."
+   },
+   {
+    "sheet_row": 2073,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tab.2 p.5: 'Ordinary concrete C10 ... C20 263 ... C25 276 ... C30 316 ... C35 369 ... C40 411 ... C45 453' (budget quota data of Fujian Province)",
+    "nota": "Classe 'Cxx' sem barra e sem norma citada (nenhuma GB/JGJ no artigo); pela regra da Kie nao se deduz a norma pelo pais. A nota da planilha 'norma chinesa GB: fcu,k cubo 150 mm' e deducao nossa, nao do artigo."
+   },
+   {
+    "sheet_row": 2074,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tab.2 p.5: 'Ordinary concrete C10 ... C20 263 ... C25 276 ... C30 316 ... C35 369 ... C40 411 ... C45 453' (budget quota data of Fujian Province)",
+    "nota": "Classe 'Cxx' sem barra e sem norma citada (nenhuma GB/JGJ no artigo); pela regra da Kie nao se deduz a norma pelo pais. A nota da planilha 'norma chinesa GB: fcu,k cubo 150 mm' e deducao nossa, nao do artigo."
+   },
+   {
+    "sheet_row": 2075,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tab.2 p.5: 'Ordinary concrete C10 ... C20 263 ... C25 276 ... C30 316 ... C35 369 ... C40 411 ... C45 453' (budget quota data of Fujian Province)",
+    "nota": "Classe 'Cxx' sem barra e sem norma citada (nenhuma GB/JGJ no artigo); pela regra da Kie nao se deduz a norma pelo pais. A nota da planilha 'norma chinesa GB: fcu,k cubo 150 mm' e deducao nossa, nao do artigo."
+   },
+   {
+    "sheet_row": 2076,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tab.2 p.5: 'Ordinary concrete C10 ... C20 263 ... C25 276 ... C30 316 ... C35 369 ... C40 411 ... C45 453' (budget quota data of Fujian Province)",
+    "nota": "Classe 'Cxx' sem barra e sem norma citada (nenhuma GB/JGJ no artigo); pela regra da Kie nao se deduz a norma pelo pais. A nota da planilha 'norma chinesa GB: fcu,k cubo 150 mm' e deducao nossa, nao do artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Pegada de carbono por quotas orcamentais de Fujian; sem ensaio."
+ }
+]

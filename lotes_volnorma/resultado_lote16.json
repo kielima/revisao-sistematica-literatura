@@ -1,0 +1,1032 @@
+[
+ {
+  "row_id": 4463,
+  "pares": [
+   {
+    "sheet_row": 1377,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'UHPC is known for its high compressive strength of more than 150 MPa with low water/cement ratio [11]' (p.2); M3Q/M2Q tirados de Schmidt et al. [14]",
+    "nota": "150 MPa e valor generico da literatura para UHPC, sem ensaio proprio nem provete. DIN EN 206 [39] e citada (com cilindro 150x300 / cubo 150) mas so para as classes C35/45 e C50/60 do betao convencional, nao para M3Q/M2Q."
+   },
+   {
+    "sheet_row": 1378,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'UHPC is known for its high compressive strength of more than 150 MPa with low water/cement ratio [11]' (p.2); M3Q/M2Q tirados de Schmidt et al. [14]",
+    "nota": "150 MPa e valor generico da literatura para UHPC, sem ensaio proprio nem provete. DIN EN 206 [39] e citada (com cilindro 150x300 / cubo 150) mas so para as classes C35/45 e C50/60 do betao convencional, nao para M3Q/M2Q."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (107.888 car., 31 pp. incl. apendices e referencias)."
+ },
+ {
+  "row_id": 4479,
+  "pares": [
+   {
+    "sheet_row": 1433,
+    "tipo": "norma_ensaio",
+    "norma": "CSN EN 12390-3",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The compressive strength and splitting tensile strength after 28 days and compressive strength after 90 days, were determined following the standard procedures for concrete defined in CSN EN 12390-3 standard [25]' (p.6); 'cast and stored in plastic cubic or cylindrical molds' (p.4)",
+    "nota": "Duvidoso: o artigo nao diz se a compressao foi em cubo ou cilindro nem as dimensoes (so 'cubic or cylindrical molds'; cubos 50 e 100 mm e prismas 40x40x150 sao citados para a massa volumica, nao para a compressao). A EN 12390-3 e de ensaio; o provete-padrao vem da EN 12390-1. O 'cubo' gravado na worklist nao tem apoio explicito no texto."
+   },
+   {
+    "sheet_row": 1434,
+    "tipo": "norma_ensaio",
+    "norma": "CSN EN 12390-3",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The compressive strength and splitting tensile strength after 28 days and compressive strength after 90 days, were determined following the standard procedures for concrete defined in CSN EN 12390-3 standard [25]' (p.6); 'cast and stored in plastic cubic or cylindrical molds' (p.4)",
+    "nota": "Duvidoso: o artigo nao diz se a compressao foi em cubo ou cilindro nem as dimensoes (so 'cubic or cylindrical molds'; cubos 50 e 100 mm e prismas 40x40x150 sao citados para a massa volumica, nao para a compressao). A EN 12390-3 e de ensaio; o provete-padrao vem da EN 12390-1. O 'cubo' gravado na worklist nao tem apoio explicito no texto."
+   },
+   {
+    "sheet_row": 1435,
+    "tipo": "norma_ensaio",
+    "norma": "CSN EN 12390-3",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The compressive strength and splitting tensile strength after 28 days and compressive strength after 90 days, were determined following the standard procedures for concrete defined in CSN EN 12390-3 standard [25]' (p.6); 'cast and stored in plastic cubic or cylindrical molds' (p.4)",
+    "nota": "Duvidoso: o artigo nao diz se a compressao foi em cubo ou cilindro nem as dimensoes (so 'cubic or cylindrical molds'; cubos 50 e 100 mm e prismas 40x40x150 sao citados para a massa volumica, nao para a compressao). A EN 12390-3 e de ensaio; o provete-padrao vem da EN 12390-1. O 'cubo' gravado na worklist nao tem apoio explicito no texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (53.079 car., 16 pp.)."
+ },
+ {
+  "row_id": 4493,
+  "pares": [
+   {
+    "sheet_row": 1452,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "'1 m3 of CC consists of 0.985 m3 of special fine concrete with the compressive strength class C70/85' (p.4); Tabela 1",
+    "nota": "Classe de projecto na notacao Cxx/yy; nenhuma norma de betao citada (so DIN EN ISO 14040/14044, EN 15804, EN 15978). fck 70 = valor de cilindro."
+   },
+   {
+    "sheet_row": 1453,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "'For 1 m3 of SC 0.991 m3 of concrete with the compressive strength class C35/45' (p.4); Tabela 1",
+    "nota": "Classe de projecto na notacao Cxx/yy; fck 35 = valor de cilindro."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (63.386 car., 17 pp.)."
+ },
+ {
+  "row_id": 4500,
+  "pares": [
+   {
+    "sheet_row": 1468,
+    "tipo": "dimensoes",
+    "norma": "NF EN 196-1",
+    "dimensoes_declaradas": "prismas 40 x 40 x 160 mm (4 x 4 x 16 cm3)",
+    "provete": "prisma",
+    "valor_de": "prisma",
+    "citacao": "'According to the French standard [68], the prismatic mortars of 4 x 4 x 16 cm3 were cast' (p.7); ref. 68 = NF EN 196-1",
+    "nota": "Argamassa; compressao EN 196-1 nas metades do prisma 40x40x160 (area 40x40). Volume do prisma moldado = 0,000256 m3."
+   },
+   {
+    "sheet_row": 1469,
+    "tipo": "dimensoes",
+    "norma": "NF EN 196-1",
+    "dimensoes_declaradas": "prismas 40 x 40 x 160 mm (4 x 4 x 16 cm3)",
+    "provete": "prisma",
+    "valor_de": "prisma",
+    "citacao": "'According to the French standard [68], the prismatic mortars of 4 x 4 x 16 cm3 were cast' (p.7); ref. 68 = NF EN 196-1",
+    "nota": "Argamassa; compressao EN 196-1 nas metades do prisma 40x40x160 (area 40x40). Volume do prisma moldado = 0,000256 m3."
+   },
+   {
+    "sheet_row": 1470,
+    "tipo": "dimensoes",
+    "norma": "NF EN 196-1",
+    "dimensoes_declaradas": "prismas 40 x 40 x 160 mm (4 x 4 x 16 cm3)",
+    "provete": "prisma",
+    "valor_de": "prisma",
+    "citacao": "'According to the French standard [68], the prismatic mortars of 4 x 4 x 16 cm3 were cast' (p.7); ref. 68 = NF EN 196-1",
+    "nota": "Argamassa; compressao EN 196-1 nas metades do prisma 40x40x160 (area 40x40). Volume do prisma moldado = 0,000256 m3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (81.144 car., 24 pp.)."
+ },
+ {
+  "row_id": 4511,
+  "pares": [
+   {
+    "sheet_row": 1478,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'Concrete, 25-30 MPa {RoW} concrete production 25-30 MPa|Cut-off, U (Ecoinvent v.3)' (p.9, sec. 3.1.4)",
+    "nota": "Classe do processo Ecoinvent, sem norma de classe nem ensaio de compressao proprio. O Codigo Estructural [2] e citado so para designacao de agregados/viabilidade de RCA, nao para a classe do betao."
+   },
+   {
+    "sheet_row": 1479,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'Concrete, 25-30 MPa {RoW} concrete production 25-30 MPa|Cut-off, U (Ecoinvent v.3)' (p.9, sec. 3.1.4)",
+    "nota": "Classe do processo Ecoinvent, sem norma de classe nem ensaio de compressao proprio. O Codigo Estructural [2] e citado so para designacao de agregados/viabilidade de RCA, nao para a classe do betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (77.092 car., 20 pp.)."
+ },
+ {
+  "row_id": 4549,
+  "pares": [
+   {
+    "sheet_row": 1504,
+    "tipo": "norma_ensaio",
+    "norma": "ASTM C109/C109M-20a",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The ASTM C109/C109M-20a test method [47] was used to examine the Rc differences between printed and mold-casted concrete samples' (p.15); ref. 47: '...Using 2-in. or [50-mm] Cube Specimens'",
+    "nota": "Duvidoso: os provetes foram cortados com serra de diamante das lajes impressas (225x150x60 mm) e as dimensoes dos provetes cortados nao sao dadas; Rc = media das duas direccoes de impressao, valor retirado de trabalhos anteriores dos autores (refs. 18-20). A norma indica cubo de 50 mm."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (74.917 car., 24 pp.)."
+ },
+ {
+  "row_id": 4557,
+  "pares": [
+   {
+    "sheet_row": 1506,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   },
+   {
+    "sheet_row": 1507,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   },
+   {
+    "sheet_row": 1508,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   },
+   {
+    "sheet_row": 1509,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   },
+   {
+    "sheet_row": 1510,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   },
+   {
+    "sheet_row": 1511,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   },
+   {
+    "sheet_row": 1512,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   },
+   {
+    "sheet_row": 1513,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   },
+   {
+    "sheet_row": 1514,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   },
+   {
+    "sheet_row": 1515,
+    "tipo": "dimensoes",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": "cilindros 76 x 152 mm (3 x 6 in)",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "'In each series, 76 by 152 mm cylindrical and 150 by 150 by 510 mm beam specimens were produced' (p.4); 'compressive strength ... at 1, 7, 14, 28 and 90 days ... in accordance with ASTM C39 [17]' (p.5); moldagem ASTM C192",
+    "nota": "Valores da Tabela 9 (28 d) sao os ensaiados (Tabela 3 traz os mesmos arredondados). Vigas 150x150x510 sao do ensaio de flexao, nao da compressao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (56.473 car., 24 pp.)."
+ },
+ {
+  "row_id": 4573,
+  "pares": [
+   {
+    "sheet_row": 1518,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1519,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1520,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1521,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1522,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1523,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1524,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1525,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1526,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1527,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1528,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1529,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1530,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1531,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1532,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1533,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1534,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1535,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1536,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1537,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1538,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1539,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1540,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1541,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1542,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1543,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1544,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1545,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1546,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1547,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1548,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1549,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1550,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1551,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1552,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1553,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1554,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1555,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1556,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1557,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1558,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1559,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1560,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1561,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1562,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1563,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1564,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1565,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1566,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1567,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1568,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   },
+   {
+    "sheet_row": 1569,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'The experimental results of the pressure strength ... for 28 days are shown in Table 5, where Fcu,k = 70 stands for that design strength is C70' (p.12); Fig.3 (p.9) fotografias dos provetes",
+    "nota": "Nenhuma norma de ensaio nem dimensoes citadas. Valores de ensaio proprio (Fcu, notacao de resistencia em cubo); as fotografias da Fig.3 (vistas no PDF renderizado) mostram provetes cubicos. Classes C70/C40/C30 sem barra e sem norma."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (56.559 car., 18 pp.) + pagina 9 renderizada (Fig.3)."
+ },
+ {
+  "row_id": 4580,
+  "pares": [
+   {
+    "sheet_row": 1570,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1571,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1572,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1573,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1574,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1575,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1576,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1577,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1578,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1579,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1580,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1581,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1582,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1583,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1584,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1585,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1586,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1587,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1588,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   },
+   {
+    "sheet_row": 1589,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mixture proportions of the concrete alternatives were based on those described by Bai et al. [19], who designed four concrete mixtures ... and evaluated the compressive strength' (p.3); Tabelas 1-4 '28-day compressive strength (MPa)'",
+    "nota": "fck de fonte externa (Bai et al. 2005); o artigo nao cita norma de ensaio nem provete."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (63.971 car., 20 pp.)."
+ },
+ {
+  "row_id": 4584,
+  "pares": [
+   {
+    "sheet_row": 1600,
+    "tipo": "norma_classe",
+    "norma": "ACI 318-05",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Tabela 4 (p.8): 'Compressive Strength of Concrete fck = 24 MPa ... Design Guidance: Building code requirement for reinforced concrete (ACI 318-05) [49]'",
+    "nota": "Resistencia de projecto; ACI 318 define f'c em cilindro (ensaio ASTM C39), dimensoes nao dadas no artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (65.436 car., 19 pp.)."
+ }
+]

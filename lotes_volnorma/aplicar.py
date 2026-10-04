@@ -39,11 +39,27 @@ OVERRIDE[235] = (CUBO150, 'medido_ensaio', 'Tabela 4: forca de rotura / tensao =
 OVERRIDE[911] = (CIL100, 'medido_ensaio', 'o modelo do artigo normaliza todos os fc para cilindro equivalente 100x200 mm (cilindro de conversao, nao provete ensaiado)')
 for r in (1036, 1037, 1038, 2099, 2100):  # 3519 NGUYEN: prisma moldado 150x40x15 (compressao nas metades)
     OVERRIDE[r] = (0.15 * 0.04 * 0.015, 'medido_ensaio', 'prisma moldado 150x40x15 mm declarado; compressao nas metades (area carregada 20x20 mm2)')
+for r in (1147, 1148):  # 3947 AMITANI: alvo de modelo teorico, so calibrado com cubos de 100 mm de outra fonte
+    OVERRIDE[r] = (None, None, 'fck = alvo de 40 MPa de um modelo teorico calibrado com cubos de 100 mm de Meddah et al.; sem ensaio deste valor, volume em branco')
 for r in (950, 951):
     OVERRIDE[r] = (None, None, 'fck gravado e o valor assumido/medio (30/45), nao o fck da classe C25/30 / C35/45; volume em branco')
+OVERRIDE[1504] = (None, None, 'ASTM C109 citada, mas os provetes foram serrados das lajes impressas (225x150x60 mm) sem dimensoes declaradas; volume em branco')  # 4549 SAMBUCCI
+for r in (1798, 1799):  # 4815 ALMONAYEA
+    OVERRIDE[r] = (None, None, 'base compilada de 580 misturas: cilindros 100x200 OU 150x300 (e conversoes de cubo pelo EC2), sem dizer qual vale para cada mistura; volume em branco')
+for r in range(1659, 1665):  # 4625 TOSIC
+    OVERRIDE[r] = (None, None, 'fck = ponto medio do intervalo de fcm de ~50 misturas compiladas da literatura, nao o fck de uma classe; provetes das fontes nao declarados; volume em branco')
+OVERRIDE[1322] = (None, None, 'betao OPC de referencia nao ensaiado: 21 MPa e o alvo de dosagem (os cilindros de 76,2 mm sao do betao hibrido); volume em branco')  # 4364 ROJAS-DUQUE
 
 TIPO_LIMPAR = {571: 'comparador SCUHPC de 140 MPa citado de Deeb & Karihaloo [93]; o cubo de 40 mm (ASTM C349) so vale para as misturas do proprio artigo',
                }
+for r in range(728, 753):  # 2836 ALMEIDA
+    TIPO_LIMPAR[r] = 'resistencias de fontes externas; o PDF nao menciona provete nem norma de ensaio ("cilindrico (nao especificado)" sem suporte)'
+for r in range(758, 762):  # 2841 RIGON
+    TIPO_LIMPAR[r] = 'classe de projecto definida pela autora, sem provete nem norma ("cilindrico (nao especificado)" sem suporte)'
+for r in range(1331, 1336):  # 4408 NASR
+    TIPO_LIMPAR[r] = 'valores estimados de fonte externa (Heikal 2013); o artigo nao diz "cube" em lado nenhum ("cubo (SCC)" sem suporte)'
+for r in (1433, 1434, 1435):  # 4479 KOCI
+    TIPO_LIMPAR[r] = 'o artigo so diz "cubic or cylindrical molds"; os cubos 50/100 mm citados sao da massa volumica, nao da compressao'
 FCK_CORRIGIR = {  # 3568 BERNDT, Tabela 3 p.611 (leitura pessoal)
     1047: (38.6, '32 50BFS', 37.9),
     1049: (45.4, '35 50BFS', 44.9),
