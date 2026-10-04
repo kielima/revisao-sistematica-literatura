@@ -1,0 +1,247 @@
+[
+ {
+  "row_id": 2828,
+  "pares": [
+   {
+    "sheet_row": 708,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.8 sec.3: 'To conform to the requirements of the Chinese design codes, the strength grades of concrete ... were 30 MPa'",
+    "nota": "Grau de projecto chines; nenhuma idade nem norma com idade citada no artigo"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Optimizacao de projecto; sem ensaio."
+ },
+ {
+  "row_id": 2833,
+  "pares": [
+   {
+    "sheet_row": 721,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.52: 'Para a simulacao foi escolhida a resistencia 4ksi ou 27,58 MPa ... corresponde aproximadamente a um fck de 20 MPa'; p.98 (7.1): concreto BEES 20% cinza volante 4Ksi",
+    "nota": "Classe do software BEES 3.0, sem idade declarada. O unico '28o dia' do texto (p.74) refere-se a classe do cimento CP IV-32, nao ao betao"
+   },
+   {
+    "sheet_row": 722,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.52: 'Para a simulacao foi escolhida a resistencia 4ksi ou 27,58 MPa ... corresponde aproximadamente a um fck de 20 MPa'; p.98 (7.1): concreto BEES 20% cinza volante 4Ksi",
+    "nota": "Classe do software BEES 3.0, sem idade declarada. O unico '28o dia' do texto (p.74) refere-se a classe do cimento CP IV-32, nao ao betao"
+   },
+   {
+    "sheet_row": 723,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.52: 'Para a simulacao foi escolhida a resistencia 4ksi ou 27,58 MPa ... corresponde aproximadamente a um fck de 20 MPa'; p.98 (7.1): concreto BEES 20% cinza volante 4Ksi",
+    "nota": "Classe do software BEES 3.0, sem idade declarada. O unico '28o dia' do texto (p.74) refere-se a classe do cimento CP IV-32, nao ao betao"
+   },
+   {
+    "sheet_row": 724,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.52: 'Para a simulacao foi escolhida a resistencia 4ksi ou 27,58 MPa ... corresponde aproximadamente a um fck de 20 MPa'; p.98 (7.1): concreto BEES 20% cinza volante 4Ksi",
+    "nota": "Classe do software BEES 3.0, sem idade declarada. O unico '28o dia' do texto (p.74) refere-se a classe do cimento CP IV-32, nao ao betao"
+   },
+   {
+    "sheet_row": 725,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.52: 'Para a simulacao foi escolhida a resistencia 4ksi ou 27,58 MPa ... corresponde aproximadamente a um fck de 20 MPa'; p.98 (7.1): concreto BEES 20% cinza volante 4Ksi",
+    "nota": "Classe do software BEES 3.0, sem idade declarada. O unico '28o dia' do texto (p.74) refere-se a classe do cimento CP IV-32, nao ao betao"
+   },
+   {
+    "sheet_row": 726,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.52: 'Para a simulacao foi escolhida a resistencia 4ksi ou 27,58 MPa ... corresponde aproximadamente a um fck de 20 MPa'; p.98 (7.1): concreto BEES 20% cinza volante 4Ksi",
+    "nota": "Classe do software BEES 3.0, sem idade declarada. O unico '28o dia' do texto (p.74) refere-se a classe do cimento CP IV-32, nao ao betao"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Dissertacao UFRGS 118 p.; texto do conector chega ate ao fim das referencias (p.118), sem truncagem."
+ },
+ {
+  "row_id": 2879,
+  "pares": [
+   {
+    "sheet_row": 777,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.829 sec.4.1: 'preliminary design ... according to the Eurocodes ... reinforced concrete slab ... concrete grade of C 25/30'",
+    "nota": "DUVIDOSO: a idade nao e escrita; deduzida porque C25/30 e classe EN 206/EN 1992 (fck aos 28 d) e o artigo declara dimensionamento pelos Eurocodigos, sem citar EN 1992 por numero. Se o criterio for estrito, passar a null/classe_sem_idade"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2891,
+  "pares": [
+   {
+    "sheet_row": 781,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.7714: 'traditional reinforced concrete, with a characteristic compressive strength of 30 and 35 MPa'; Tab.5 'Concrete C 30/37'; p.7711 'designed ... according to Eurocode 2 [55]' (EN 1992-1-1)",
+    "nota": "Resistencia caracteristica EN 1992-1-1 = 28 d"
+   },
+   {
+    "sheet_row": 783,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Idem; Tab.5 'Concrete C 35/45'",
+    "nota": "Resistencia caracteristica EN 1992-1-1 = 28 d"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2902,
+  "pares": [
+   {
+    "sheet_row": 790,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Fig.5 (legenda): 'Mix designs of 3D printed concrete and ready-mix concrete with 78 MPa and 35 MPa 28-day compressive strengths, respectively'",
+    "nota": "Valor do betao impresso vem de estudo anterior dos autores [23], nao de ensaio neste artigo; idade 28 d declarada explicitamente"
+   },
+   {
+    "sheet_row": 791,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Sec.5 (p.1438): '... 405 kg CO2 equivalent of 35-MPa printed concrete [23]'",
+    "nota": "O 35 MPa deste par e o betao IMPRESSO alternativo citado de [23], sem idade; o '28-day' da Fig.5 aplica-se ao betao pronto (ready-mix) de 35 MPa, outro material"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2927,
+  "pares": [
+   {
+    "sheet_row": 793,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Tab.5 (p.660): Mix1 0% RCA, 'Compressive strength at 28 days (MPa)' 28.7; texto: ensaios ASTM C39 aos 7 e 28 dias",
+    "nota": ""
+   },
+   {
+    "sheet_row": 794,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Tab.5 (p.660): Mix2 50% RCA, 28 d = 27.0 MPa",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Tambem ha valores aos 7 d (19.1 e 18.0 MPa)."
+ },
+ {
+  "row_id": 2937,
+  "pares": [
+   {
+    "sheet_row": 795,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.2 (p.25682) 'HBERT results': 'Cast in Situ 25/30'",
+    "nota": "Designacao da biblioteca do software HBERT; o artigo nao cita norma nem idade"
+   },
+   {
+    "sheet_row": 796,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.2 (p.25682) 'HBERT results': 'Cast in Situ 25/30'",
+    "nota": "Designacao da biblioteca do software HBERT; o artigo nao cita norma nem idade"
+   },
+   {
+    "sheet_row": 797,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.2 (p.25682) 'HBERT results': 'Cast in Situ 25/30'",
+    "nota": "Designacao da biblioteca do software HBERT; o artigo nao cita norma nem idade"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2966,
+  "pares": [
+   {
+    "sheet_row": 804,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.3.1.1: UF '1 cubic meter of reinforced concrete with a compressive strength of 30 MPa'; Tab.3/4 '(compressive strength 30 MPa)'",
+    "nota": "Resistencia alvo das misturas (cimento: Etxeberria et al. 2007; GGBFS: laboratorio Parthenope) sem idade declarada; EN 1992-1-1 e citada so para a vida util de 50 anos"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3025,
+  "pares": [
+   {
+    "sheet_row": 805,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Apendice/Tab.A1: processos AusLCI 'Concrete NN MPa'",
+    "nota": "Graus genericos da base AusLCI; sem idade nem norma no artigo"
+   },
+   {
+    "sheet_row": 806,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Apendice/Tab.A1: processos AusLCI 'Concrete NN MPa'",
+    "nota": "Graus genericos da base AusLCI; sem idade nem norma no artigo"
+   },
+   {
+    "sheet_row": 807,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Apendice/Tab.A1: processos AusLCI 'Concrete NN MPa'",
+    "nota": "Graus genericos da base AusLCI; sem idade nem norma no artigo"
+   },
+   {
+    "sheet_row": 808,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Apendice/Tab.A1: processos AusLCI 'Concrete NN MPa'",
+    "nota": "Graus genericos da base AusLCI; sem idade nem norma no artigo"
+   },
+   {
+    "sheet_row": 809,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Apendice/Tab.A1: processos AusLCI 'Concrete NN MPa'",
+    "nota": "Graus genericos da base AusLCI; sem idade nem norma no artigo"
+   },
+   {
+    "sheet_row": 810,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Apendice/Tab.A1: processos AusLCI 'Concrete NN MPa'",
+    "nota": "Graus genericos da base AusLCI; sem idade nem norma no artigo"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3026,
+  "pares": [
+   {
+    "sheet_row": 811,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.4.2: 'by selecting the 25-MPa-concrete process instead of the 35-MPa-concrete'",
+    "nota": "Processo Ecoinvent de 35 MPa; sem idade declarada"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ }
+]

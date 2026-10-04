@@ -1,0 +1,198 @@
+[
+ {
+  "row_id": 2586,
+  "pares": [
+   {
+    "sheet_row": 4,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec. 4.4 / Fig.4: 'commonly used concrete C30/37 from the company TBS' (formulacao comercial)",
+    "nota": "Classe comercial sem ensaio; nenhuma mencao a 28 d. DIN EN 206-1 so aparece no titulo da ref. [98] (directriz DAfStb de agregado reciclado, citada para DIN EN 12620), nao para a classe."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (83k car., artigo de 18 p.) lido via read_file_content."
+ },
+ {
+  "row_id": 4989,
+  "pares": [
+   {
+    "sheet_row": 24,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Tab.2 p.6014: 'Compressive strength (MPa)' CRC2 = 84.2",
+    "nota": "Valor medido (CRC2) confirmado na Tab.2; idade do ensaio nao indicada em lado nenhum (verificado tambem por renderizacao da p.6014). O '2/4 months curing' da Tab.2 refere-se ao modelo de carbonatacao do CRC1, nao a resistencia."
+   },
+   {
+    "sheet_row": 25,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Tab.2 p.6014: T(0.50) = 57.8 MPa",
+    "nota": "Idade nao declarada; remete para tese De Schepper [15]."
+   },
+   {
+    "sheet_row": 26,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Tab.2 p.6014: T(0.45) = 69.3 MPa",
+    "nota": "Idade nao declarada; remete para tese De Schepper [15]."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo integral lido + p.6014 renderizada."
+ },
+ {
+  "row_id": 4993,
+  "pares": [
+   {
+    "sheet_row": 27,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1 p.970: 'UHPC lamella - strength values: ... Compressive strength: 132,5 [MN/m2]'",
+    "nota": "Valor de calculo (condicoes de contorno do dimensionamento), sem ensaio proprio nem idade; o DIN EN 1992-1-1 citado aplica-se ao betao armado C25/30, nao ao UHPC."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 9 p. lido na integra."
+ },
+ {
+  "row_id": 5011,
+  "pares": [
+   {
+    "sheet_row": 31,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Apendice A, p.145 (pag. PDF 146): coluna 'Res. Comp. 28 (Mpa)', traco '10% SAND' [Corinaldesi, Moriconi e Naik 2010] = 32,0",
+    "nota": "Ensaio da fonte compilada (Corinaldesi et al. 2010), aos 28 d segundo o cabecalho da tabela."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "read_file_content truncou na p.79 (armadilha n.7); PDF descarregado (161 p.) e texto integral extraido com pymupdf."
+ },
+ {
+  "row_id": 5012,
+  "pares": [
+   {
+    "sheet_row": 32,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.31 e p.97-98 (artigo anexo): concreto CPII-Z traco 1:1,74:2,87, a/c 0,47, 'apresentando uma resistencia de 25 MPa aos 28 dias, segundo a norma ABNT NBR 6118'",
+    "nota": "Resistencia de projecto declarada aos 28 d para o concreto Portland; para o concreto geopolimerico o texto so diz 'resistencia na ordem de 25 MPa' (traco equivalente), sem idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto de 246k car. ate p.118 (fim das referencias do artigo anexo); PDF de 14,9 MB nao descarregado."
+ },
+ {
+  "row_id": 5018,
+  "pares": [
+   {
+    "sheet_row": 43,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.59, Tab.4 p.74, Quadro 10: 'concreto usinado de 25 MPa' / Ecoinvent 'concrete production 25MPa'",
+    "nota": "Classe comercial; nenhuma idade nem norma de classe citada no texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "read_file_content truncou (~p.60); PDF descarregado (175 p.) e texto integral extraido com pymupdf."
+ },
+ {
+  "row_id": 5038,
+  "pares": [
+   {
+    "sheet_row": 48,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.104 Exemplo IX: 'A classe de resistencia do concreto (fck) foi de 35 MPa'; p.23: fck = resistencia caracteristica, 'Segundo a norma ABNT NBR 6118 (2007)'",
+    "nota": "Texto nao diz '28 dias'; os 28 d vem da norma citada (NBR 6118: fck refere-se aos 28 d quando a idade nao e indicada). Rever se a Kie aceita a via 'norma citada' para NBR."
+   },
+   {
+    "sheet_row": 49,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.108 Exemplo X: 'Foi adotado fck de 20 MPa'; definicao de fck pela NBR 6118 (p.23)",
+    "nota": "Idem: 28 d via NBR 6118 citada, nao explicito no texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (124 p.) lido via read_file_content."
+ },
+ {
+  "row_id": 5040,
+  "pares": [
+   {
+    "sheet_row": 50,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.3/Tab.4 p.74: 'Concreto 25MPa' / Ecoinvent 'Concrete, normal, at plant/CH U 25MPa'",
+    "nota": "Classe/dataset; nenhuma idade nem norma de classe no texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "read_file_content truncado antes das referencias; PDF descarregado (122 p.) e texto integral extraido com pymupdf."
+ },
+ {
+  "row_id": 5041,
+  "pares": [
+   {
+    "sheet_row": 51,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.99-100: 'classes de resistencia caracteristica a compressao do concreto (fck) ... segundo classificacao da NBR 8953 (2009)'; Classe C25 = resistencia caracteristica a compressao de 25 MPa",
+    "nota": "Texto nao diz '28 dias' (unica mencao a 28 dias e sobre cura de pozolanas, p.~40); 28 d via norma citada (NBR 8953/NBR 6118). Rever se a Kie aceita."
+   },
+   {
+    "sheet_row": 52,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.99-100: 'classes de resistencia caracteristica a compressao do concreto (fck) ... segundo classificacao da NBR 8953 (2009)'; Classe C40 = resistencia caracteristica a compressao de 40 MPa",
+    "nota": "Texto nao diz '28 dias' (unica mencao a 28 dias e sobre cura de pozolanas, p.~40); 28 d via norma citada (NBR 8953/NBR 6118). Rever se a Kie aceita."
+   },
+   {
+    "sheet_row": 53,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.99-100: 'classes de resistencia caracteristica a compressao do concreto (fck) ... segundo classificacao da NBR 8953 (2009)'; Classe C50 = resistencia caracteristica a compressao de 50 MPa",
+    "nota": "Texto nao diz '28 dias' (unica mencao a 28 dias e sobre cura de pozolanas, p.~40); 28 d via norma citada (NBR 8953/NBR 6118). Rever se a Kie aceita."
+   },
+   {
+    "sheet_row": 2081,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.99-100: 'classes de resistencia caracteristica a compressao do concreto (fck) ... segundo classificacao da NBR 8953 (2009)'; Classe C30 = resistencia caracteristica a compressao de 30 MPa",
+    "nota": "Texto nao diz '28 dias' (unica mencao a 28 dias e sobre cura de pozolanas, p.~40); 28 d via norma citada (NBR 8953/NBR 6118). Rever se a Kie aceita."
+   },
+   {
+    "sheet_row": 2082,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.99-100: 'classes de resistencia caracteristica a compressao do concreto (fck) ... segundo classificacao da NBR 8953 (2009)'; Classe C35 = resistencia caracteristica a compressao de 35 MPa",
+    "nota": "Texto nao diz '28 dias' (unica mencao a 28 dias e sobre cura de pozolanas, p.~40); 28 d via norma citada (NBR 8953/NBR 6118). Rever se a Kie aceita."
+   },
+   {
+    "sheet_row": 2083,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.99-100: 'classes de resistencia caracteristica a compressao do concreto (fck) ... segundo classificacao da NBR 8953 (2009)'; Classe C45 = resistencia caracteristica a compressao de 45 MPa",
+    "nota": "Texto nao diz '28 dias' (unica mencao a 28 dias e sobre cura de pozolanas, p.~40); 28 d via norma citada (NBR 8953/NBR 6118). Rever se a Kie aceita."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto de 361k car. ate p.217 (apendices de inventario GaBi) lido via read_file_content; nao foi verificado se ha paginas apos a 217."
+ },
+ {
+  "row_id": 5086,
+  "pares": [
+   {
+    "sheet_row": 77,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1 'Material control parameters': Concrete C25/30, Fck = 25 MPa; 'control parameters have been assigned according to the Eurocode 2 prescriptions (European Commission, 2004a)' = EN 1992-1-1",
+    "nota": "28 d via EN 1992-1-1 citada (fck aos 28 d), nao explicito no texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo integral (15 p.) lido."
+ }
+]

@@ -1,0 +1,282 @@
+[
+ {
+  "row_id": 4855,
+  "texto_completo_lido": true,
+  "notas": "KOCAK 2024: so ACV; traco C25 tirado de Musbah et al. 2019 [28]; nenhuma idade nem norma de classe citada.",
+  "pares": [
+   {
+    "sheet_row": 1824,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.1 p.4 (1045): '3411.38 m3 of C25 concrete can be produced'; Tab.1 'Mix proportion of C25 concrete [28]'",
+    "nota": "Classe C25 sem ensaio proprio; o artigo nao diz idade nem cita EN 206/EN 1992 ou TS (so ISO 14040/44). Nao presumir 28 d."
+   },
+   {
+    "sheet_row": 1825,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "idem, Sec.2.1/Tab.1 (mesmo traco C25 para NAC)",
+    "nota": "Idem 1824."
+   }
+  ]
+ },
+ {
+  "row_id": 4869,
+  "texto_completo_lido": true,
+  "notas": "MEL 2015 (Informes de la Construccion): analise do modelo de sustentabilidade da EHE-08; HA-25 B e designacao da EHE-08 (ref.1, Real Decreto 1247/2008).",
+  "pares": [
+   {
+    "sheet_row": 1826,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.6: 'un hormigon HA-25 de consistencia blanda y con un contenido en acero de 50 kg por metro cubico'; Tab.2 'hormigon HA-25 B'; ref.(1) EHE-08",
+    "nota": "VIA NORMA CITADA: EHE-08 (HA-25 = fck 25 N/mm2, resistencia caracteristica a 28 d no art.39 da EHE-08). O artigo nao escreve '28 dias' em lado nenhum."
+   }
+  ]
+ },
+ {
+  "row_id": 4930,
+  "texto_completo_lido": true,
+  "notas": "OH 2023 (WCTE): viga RC C30 dimensionada; materiais 'based on the KS standard [4-7]' incl. KS F 4009 Ready-mixed concrete; dimensionamento KDS.",
+  "pares": [
+   {
+    "sheet_row": 1835,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1 p.2: 'RC | C30 | 2,300 | 30 (fck)'; Sec.2.2: 'the design was based on the KS standard [4-7]' ([6] KS F 4009 Ready-mixed Concrete)",
+    "nota": "VIA NORMA CITADA: KS F 4009 / KDS (resistencia nominal/fck aos 28 d). O artigo nao escreve '28 d'. DUVIDOSO: nao confirmei o texto da KS F 4009 dentro do artigo — se a regra exigir norma europeia/ACI explicita, passar a null/classe_sem_idade."
+   }
+  ]
+ },
+ {
+  "row_id": 5029,
+  "texto_completo_lido": true,
+  "notas": "HORA 2021 (dissertacao UnB, 140 p.). read_file_content truncou na p.79 (armadilha n.7); PDF descarregado (7,3 MB) e lido integralmente com pymupdf (242 mil caracteres). O concreto de 20 MPa e o dataset de inventario 'concreto usinado 20 MPa' (Tab.15, p.68), escolhido por ser 'a resistencia mais proxima da empregada pela NOVACAP'. Os '28 dias' do texto referem-se a outros valores: fck 25 MPa recomendado pela ABCP (p.34), fck 18 MPa de projecto das ciclovias de Brasilia (p.35) e 30 MPa do caderno NOVACAP 2019 (p.38) — nao aos 20 MPa gravados.",
+  "pares": [
+   {
+    "sheet_row": 1836,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.68: 'concreto usinado de 20 MPa (resistencia mais proxima da empregada pela NOVACAP no pavimento rigido)'; Tab.15 '1 m3 de concreto usinado com resistencia a compressao de 20 MPa'; p.77 'concreto com resistencia de 20 MPa'",
+    "nota": "Sem idade para os 20 MPa; nao cita NBR 6118/12655/8953. Os 28 d so aparecem para 25/18/30 MPa (p.34/35/38), outros valores. CP II F (referencia)."
+   },
+   {
+    "sheet_row": 1837,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.68: 'concreto usinado de 20 MPa (resistencia mais proxima da empregada pela NOVACAP no pavimento rigido)'; Tab.15 '1 m3 de concreto usinado com resistencia a compressao de 20 MPa'; p.77 'concreto com resistencia de 20 MPa'",
+    "nota": "Sem idade para os 20 MPa; nao cita NBR 6118/12655/8953. Os 28 d so aparecem para 25/18/30 MPa (p.34/35/38), outros valores. CP IV."
+   },
+   {
+    "sheet_row": 1838,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.68: 'concreto usinado de 20 MPa (resistencia mais proxima da empregada pela NOVACAP no pavimento rigido)'; Tab.15 '1 m3 de concreto usinado com resistencia a compressao de 20 MPa'; p.77 'concreto com resistencia de 20 MPa'",
+    "nota": "Sem idade para os 20 MPa; nao cita NBR 6118/12655/8953. Os 28 d so aparecem para 25/18/30 MPa (p.34/35/38), outros valores. CP V ARI."
+   },
+   {
+    "sheet_row": 1839,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.68: 'concreto usinado de 20 MPa (resistencia mais proxima da empregada pela NOVACAP no pavimento rigido)'; Tab.15 '1 m3 de concreto usinado com resistencia a compressao de 20 MPa'; p.77 'concreto com resistencia de 20 MPa'",
+    "nota": "Sem idade para os 20 MPa; nao cita NBR 6118/12655/8953. Os 28 d so aparecem para 25/18/30 MPa (p.34/35/38), outros valores. ARC-50%, resistencia nao ensaiada."
+   },
+   {
+    "sheet_row": 1840,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.68: 'concreto usinado de 20 MPa (resistencia mais proxima da empregada pela NOVACAP no pavimento rigido)'; Tab.15 '1 m3 de concreto usinado com resistencia a compressao de 20 MPa'; p.77 'concreto com resistencia de 20 MPa'",
+    "nota": "Sem idade para os 20 MPa; nao cita NBR 6118/12655/8953. Os 28 d so aparecem para 25/18/30 MPa (p.34/35/38), outros valores. ARC-100%, resistencia nao ensaiada."
+   },
+   {
+    "sheet_row": 1841,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.68: 'concreto usinado de 20 MPa (resistencia mais proxima da empregada pela NOVACAP no pavimento rigido)'; Tab.15 '1 m3 de concreto usinado com resistencia a compressao de 20 MPa'; p.77 'concreto com resistencia de 20 MPa'",
+    "nota": "Sem idade para os 20 MPa; nao cita NBR 6118/12655/8953. Os 28 d so aparecem para 25/18/30 MPa (p.34/35/38), outros valores. Concreto Ideal, cenario hipotetico."
+   }
+  ]
+ },
+ {
+  "row_id": 2687,
+  "texto_completo_lido": true,
+  "notas": "HAJIESMAEILI 2019: os unicos ensaios de compressao sao do PE-UHPFRC (120 MPa, 3 cilindros, 'all at 28 days', Sec.2/Tab.2). O P-RC (Metodo 1) usa classes C30/37 e C20/25 (Tab.5) de um projecto de Kawai et al. [27]; normas citadas: SIA 269/1, SIA 261/1 (cargas), SIA 2052 (UHPFRC) — nenhuma norma de classe do betao (SIA 262/EN 206).",
+  "pares": [
+   {
+    "sheet_row": 1855,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.5 p.7: 'Material mix design for demolition and reconstruction with P-RC (Method 1)... C30/37 | C20/25'",
+    "nota": "Classe C30/37 sem ensaio proprio e sem norma de classe citada; o artigo nao da idade. (O '28 days' do artigo e so do PE-UHPFRC, 120 MPa, outra mistura.) Se a Kie aceitar a notacao EN 'C30/37' como implicando 28 d, seria 28 VIA NOTACAO, nao via norma citada."
+   }
+  ]
+ },
+ {
+  "row_id": 4931,
+  "texto_completo_lido": true,
+  "notas": "KONTRA 2023 (WCTE): parede RC dimensionada segundo ACI 318-19 [18] e ASCE 7-16.",
+  "pares": [
+   {
+    "sheet_row": 1858,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.3.2.4 p.1012: 'Relevant US building codes and standards were followed, including ACI 318-19 [18]... The wall was designed with 34.4 MPa (5000 psi) concrete'",
+    "nota": "VIA NORMA CITADA: ACI 318-19 (f'c especificada aos 28 d salvo indicacao em contrario, sec.26.12). O artigo nao escreve '28 d'."
+   }
+  ]
+ },
+ {
+  "row_id": 2751,
+  "texto_completo_lido": true,
+  "notas": "MITTERPACH 2023 (Forests): betao C30/37 de projecto; 'The description of the concretes used in the construction is specified in European standard [29]' = EN 1992-1-1.",
+  "pares": [
+   {
+    "sheet_row": 1884,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.3: 'concrete with strength class C30/37 ... The description of the concretes used in the construction is specified in European standard [29]' ([29] EN 1992-1-1 Eurocode 2); Tab.1 'Concrete C30/37'",
+    "nota": "VIA NORMA CITADA: EN 1992-1-1 (fck = resistencia caracteristica em cilindro aos 28 d, 3.1.2). O artigo nao escreve '28 d'."
+   },
+   {
+    "sheet_row": 1885,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.3: 'concrete with strength class C30/37 ... The description of the concretes used in the construction is specified in European standard [29]' ([29] EN 1992-1-1 Eurocode 2); Tab.1 'Concrete C30/37'",
+    "nota": "VIA NORMA CITADA: EN 1992-1-1 (fck = resistencia caracteristica em cilindro aos 28 d, 3.1.2). O artigo nao escreve '28 d'."
+   },
+   {
+    "sheet_row": 1886,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.3: 'concrete with strength class C30/37 ... The description of the concretes used in the construction is specified in European standard [29]' ([29] EN 1992-1-1 Eurocode 2); Tab.1 'Concrete C30/37'",
+    "nota": "VIA NORMA CITADA: EN 1992-1-1 (fck = resistencia caracteristica em cilindro aos 28 d, 3.1.2). O artigo nao escreve '28 d'."
+   }
+  ]
+ },
+ {
+  "row_id": 3105,
+  "texto_completo_lido": true,
+  "notas": "ABDEL-GAWWAD 2025: pastas alcali-activadas, cubos 20 mm, 3 replicas; idades de ensaio 2, 7, 35 e 90 d — NAO ha ensaio aos 28 d. PDF original >10 MB (download recusado); o TMP reduzido da ronda de figuras (1NAAdz6O...) ja nao existe no Drive, por isso nao re-renderizei a Fig.15. Os 11 fck gravados coincidem exactamente com as leituras vectoriais aos 35 d de lotes_sem_par/resultado_figuras.json (row 3105), e o texto confirma 35 d como idade comparada (ex.: ASS-L25/N3 '16% higher ... at 35 days'). Valores a 90 d (da mesma leitura): ASS/N3 104,5; Q50/N3 70,3 (texto: 70,29); Q50/N1 27,0; Q25/N3 86,9; Q50/N2 67,8; Q75/N3 11,6; L50/N1 27,9; L50/N2 74,7; L25/N3 105,8; L50/N3 75,1 (texto: 75,10); L75/N3 12,3.",
+  "pares": [
+   {
+    "sheet_row": 1922,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 73.2 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1923,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 65.2 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1924,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 30.3 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1925,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 72.3 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1926,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 68.6 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1927,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 22.1 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1928,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 34.8 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1929,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 67.7 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1930,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 85.0 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1931,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 61.8 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   },
+   {
+    "sheet_row": 1932,
+    "idade_dias": 35,
+    "tipo": "ensaio",
+    "citacao": "Fig.15a/b (p.14) 'Compressive strength ... up to 90 d of curing'; Sec.3.4: 'At 2 d ... At 7, 35, and 90 d of curing'; leitura vectorial d35 = 35.9 MPa (resultado_figuras.json)",
+    "nota": "Idade 35 d (sem valor aos 28 d — o artigo nao ensaia aos 28 d). Confirmacao do 35 d por coincidencia exacta com a leitura vectorial anterior + texto; Fig.15 nao re-vista pessoalmente nesta ronda (PDF >10 MB)."
+   }
+  ]
+ },
+ {
+  "row_id": 3301,
+  "texto_completo_lido": true,
+  "notas": "ALMIRALL 2019: vigas BA dimensionadas (sem ensaio) segundo EHE-08 [22] e fib MC-2010 [21]; 'characteristic value of the compressive concrete strength (fck) was assumed to vary between 25 and 50 N/mm2'.",
+  "pares": [
+   {
+    "sheet_row": 1991,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.1/Tab.1 p.440: 'Characteristic concrete compressive strength fck [MPa] 25-35-50'; 'The lower value was fixed by the EHE-08'; codigos EHE-08 [22] e MC-2010 [21]",
+    "nota": "VIA NORMA CITADA: EHE-08 / fib MC-2010 (fck caracteristico aos 28 d). O artigo nao escreve '28 d'."
+   },
+   {
+    "sheet_row": 1992,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.1/Tab.1 p.440: 'Characteristic concrete compressive strength fck [MPa] 25-35-50'; 'The lower value was fixed by the EHE-08'; codigos EHE-08 [22] e MC-2010 [21]",
+    "nota": "VIA NORMA CITADA: EHE-08 / fib MC-2010 (fck caracteristico aos 28 d). O artigo nao escreve '28 d'."
+   }
+  ]
+ },
+ {
+  "row_id": 3356,
+  "texto_completo_lido": true,
+  "notas": "TEIXEIRA 2016: Fig.3 (p.2228, adaptada de Anjos et al. 2014) renderizada a 300 dpi e vista pessoalmente: curvas B300 e FA com pontos a ~3, 7, 14, 21, 28 e ~90 d. Texto: 'similar mechanical strength at about 90 days of curing age (Fig. 3)'.",
+  "pares": [
+   {
+    "sheet_row": 1996,
+    "idade_dias": 90,
+    "tipo": "ensaio",
+    "citacao": "Fig.3 p.2228 (leitura grafica): B300 ultimo ponto ~90 d = ~35 MPa; texto p.2227 'similar mechanical strength at about 90 days of curing age'",
+    "nota": "fck gravado (35) e o valor de ~90 d. VALOR AOS 28 d EXISTE: B300 ~32,2 MPa (Fig.3, ponto de 28 d, leitura grafica +-0,5). Fonte externa: Anjos et al. 2014."
+   },
+   {
+    "sheet_row": 1997,
+    "idade_dias": 90,
+    "tipo": "ensaio",
+    "citacao": "Fig.3 p.2228 (leitura grafica): FA ultimo ponto ~90 d = ~37,5 MPa; texto 'about 90 days'",
+    "nota": "fck gravado (37,5) e o valor de ~90 d. VALOR AOS 28 d EXISTE: FA ~27,8 MPa (Fig.3, ponto de 28 d, +-0,5). Fonte externa: Anjos et al. 2014."
+   }
+  ]
+ }
+]
