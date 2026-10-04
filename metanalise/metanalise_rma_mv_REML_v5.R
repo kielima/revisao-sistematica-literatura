@@ -24,7 +24,7 @@ entrada <- "metanalise/dados_metanalise.csv"
 out_dir <- "metanalise/resultados"
 dir.create(file.path(out_dir, "figuras"), showWarnings = FALSE, recursive = TRUE)
 
-d <- read.csv(entrada, fileEncoding = "UTF-8", stringsAsFactors = FALSE)
+d <- read.csv(entrada, encoding = "UTF-8", stringsAsFactors = FALSE)
 d$estudo <- factor(d$estudo)
 d$obs_id <- factor(d$obs_id)
 d$yi <- d$ci                                   # A2
@@ -70,8 +70,10 @@ ajusta <- function(dd, yi = "yi", cv_assumido = NULL, mods = NULL) {
   dd$yi_ <- dd[[yi]]
   dd$yi <- dd$yi_
   dd$vi <- monta_vi(dd, cv_assumido)
-  f <- if (is.null(mods)) NULL else as.formula(paste("~", mods))
-  rma.mv(yi_, vi, mods = f, random = ~ 1 | estudo / obs_id, data = dd, method = "REML")
+  if (is.null(mods))
+    return(rma.mv(yi_, vi, random = ~ 1 | estudo / obs_id, data = dd, method = "REML"))
+  rma.mv(yi_, vi, mods = as.formula(paste("~", mods)), random = ~ 1 | estudo / obs_id,
+         data = dd, method = "REML")
 }
 
 resumo <- function(nome, m, dd) {
