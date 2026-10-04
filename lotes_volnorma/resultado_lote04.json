@@ -1,0 +1,332 @@
+[
+ {
+  "row_id": 3120,
+  "pares": [
+   {
+    "sheet_row": 320,
+    "tipo": "dimensoes",
+    "norma": null,
+    "dimensoes_declaradas": "bloco de terra comprimida 230 x 110 x 70 mm (nominal), com duplo frog preenchido com argamassa 1:3 para o ensaio",
+    "provete": "outro",
+    "valor_de": null,
+    "citacao": "3.2.2: 'The compressed earth blocks, measuring 230 x 110 x 70 mm nominally'; Table 6 nota: 'For compression testing the frogs were filled with rich cement-sand mortar'",
+    "nota": "Bloco inteiro ensaiado em compressao (humido, apos 48 h de imersao), sem norma de ensaio citada. Volume nominal 230x110x70 mm = 0,0017710 m3 (bruto; o frog reduz o volume liquido, nao quantificado). Os cilindros 100x200 mm sao do rammed earth, nao deste valor."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (66,9 mil caracteres, artigo de revista)."
+ },
+ {
+  "row_id": 3195,
+  "pares": [
+   {
+    "sheet_row": 323,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 2: 'Compressive Strength (MPa)a 7-day 28-day 16.6 22.0' (a: ambient-cured CDW-based geopolymer mortar mixture)",
+    "nota": "Nenhuma norma de ensaio nem dimensoes do provete no artigo; os valores vem da formulacao de Ilcan et al. 2022 (ref.57). Unica norma citada para materiais: EN 197-1 (cimento)."
+   },
+   {
+    "sheet_row": 324,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 4: 'Compressive Strength (MPa)a 7-day 28-day 17.8 24.9'",
+    "nota": "Idem: sem norma nem dimensoes do provete."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 3255,
+  "pares": [
+   {
+    "sheet_row": 328,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.3.1: 'an average LCI related to the production of 1 m3 of CC with a resistance class equal to 20 MPa was selected' (dataset Ecoinvent)",
+    "nota": "Classe de 20 MPa de um dataset Ecoinvent de betao pronto, sem norma nem notacao Cxx/yy."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 3283,
+  "pares": [
+   {
+    "sheet_row": 337,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao) - RC40/50, designacao de betao BS 8500 equivalente a C40/50",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Tabela 2 nota c: 'Precast concrete spec: RC 40/50 (p.41, Hammond and Jones [33])'",
+    "nota": "DUVIDOSO: a notacao e RC40/50 (betao designado BS 8500 / ICE de Hammond & Jones), nao Cxx/yy literal; nenhuma norma citada. RC40/50 corresponde a classe C40/50 (40 = cilindro, 50 = cubo). Confirmar com a Kie se a regra da notacao se estende a RCxx/yy."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 3288,
+  "pares": [
+   {
+    "sheet_row": 342,
+    "tipo": "norma_classe",
+    "norma": "KS F 4009 (Ready-mixed concrete)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "2.2: 'The design strength and modulus of elasticity follow Korean Standard specifications (KS F 4009, KS F 2081, KS D 3504)'; Tabela 1: 'Design strength (fck) 27 [MPa]'",
+    "nota": "fck de projecto pela KS F 4009; o artigo nao diz se e cilindro ou cubo (na pratica coreana a resistencia nominal e de cilindro, mas isso nao esta no artigo). Dimensionamento pela KDS."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (artigo curto, 10 paginas)."
+ },
+ {
+  "row_id": 3309,
+  "pares": [
+   {
+    "sheet_row": 346,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "Tabela 2 'Concrete material properties reproduced from [7]': 'fc-28 Mean (MPa) 47.61 55.50 47.91 48.26 / CoV 0.030 (6)...'; Tabela 4: 'fc is the cylinder compressive strength'",
+    "nota": "Sem norma de ensaio nem dimensoes do provete neste artigo (propriedades reproduzidas de Dadd et al. [7]); o artigo indica que fc e de cilindro. Normas citadas so: ACI 211.1-91 (dosagem), AS 3972 (cimento)."
+   },
+   {
+    "sheet_row": 1993,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "Tabela 2 'Concrete material properties reproduced from [7]': 'fc-28 Mean (MPa) 47.61 55.50 47.91 48.26 / CoV 0.030 (6)...'; Tabela 4: 'fc is the cylinder compressive strength'",
+    "nota": "Sem norma de ensaio nem dimensoes do provete neste artigo (propriedades reproduzidas de Dadd et al. [7]); o artigo indica que fc e de cilindro. Normas citadas so: ACI 211.1-91 (dosagem), AS 3972 (cimento)."
+   },
+   {
+    "sheet_row": 1994,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "Tabela 2 'Concrete material properties reproduced from [7]': 'fc-28 Mean (MPa) 47.61 55.50 47.91 48.26 / CoV 0.030 (6)...'; Tabela 4: 'fc is the cylinder compressive strength'",
+    "nota": "Sem norma de ensaio nem dimensoes do provete neste artigo (propriedades reproduzidas de Dadd et al. [7]); o artigo indica que fc e de cilindro. Normas citadas so: ACI 211.1-91 (dosagem), AS 3972 (cimento)."
+   },
+   {
+    "sheet_row": 1995,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "Tabela 2 'Concrete material properties reproduced from [7]': 'fc-28 Mean (MPa) 47.61 55.50 47.91 48.26 / CoV 0.030 (6)...'; Tabela 4: 'fc is the cylinder compressive strength'",
+    "nota": "Sem norma de ensaio nem dimensoes do provete neste artigo (propriedades reproduzidas de Dadd et al. [7]); o artigo indica que fc e de cilindro. Normas citadas so: ACI 211.1-91 (dosagem), AS 3972 (cimento)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. As dimensoes 100x125x1200 mm sao das vigas de corte, nao do provete de compressao."
+ },
+ {
+  "row_id": 3354,
+  "pares": [
+   {
+    "sheet_row": 368,
+    "tipo": "norma_ensaio",
+    "norma": "BS EN 12390-3:2009",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "2.3: 'The compressive strength of concretes (0-III) was measured in accordance with BS EN 12390-3:2009 at 2, 7, 28 and 56 days'; nomenclatura: 'fcm,28, Mean compressive cube strength after 28 days'",
+    "nota": "Ensaio proprio dos betoes I-III; cura pela BS EN 12390-2. Dimensao do cubo nao declarada. O 33 MPa gravado e a media dos tres ternarios (o artigo assume-os iguais)."
+   },
+   {
+    "sheet_row": 369,
+    "tipo": "norma_ensaio",
+    "norma": "BS EN 12390-3:2009",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "2.3: 'The compressive strength of concretes (0-III) was measured in accordance with BS EN 12390-3:2009 at 2, 7, 28 and 56 days'; nomenclatura: 'fcm,28, Mean compressive cube strength after 28 days'",
+    "nota": "Ensaio proprio dos betoes I-III; cura pela BS EN 12390-2. Dimensao do cubo nao declarada. O 33 MPa gravado e a media dos tres ternarios (o artigo assume-os iguais)."
+   },
+   {
+    "sheet_row": 370,
+    "tipo": "norma_ensaio",
+    "norma": "BS EN 12390-3:2009",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "2.3: 'The compressive strength of concretes (0-III) was measured in accordance with BS EN 12390-3:2009 at 2, 7, 28 and 56 days'; nomenclatura: 'fcm,28, Mean compressive cube strength after 28 days'",
+    "nota": "Ensaio proprio dos betoes I-III; cura pela BS EN 12390-2. Dimensao do cubo nao declarada. O 33 MPa gravado e a media dos tres ternarios (o artigo assume-os iguais)."
+   },
+   {
+    "sheet_row": 371,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cubo",
+    "citacao": "2.2: 'CEMI and CEMIII/A ... concretes, of equal fcm,28 strengths, were extrapolated from the work of Dhir et al. (2001)'",
+    "nota": "Betoes de referencia nao ensaiados (n/t), extrapolados de Dhir et al. 2001; valor expresso como fcm,28 (cubo)."
+   },
+   {
+    "sheet_row": 372,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cubo",
+    "citacao": "2.2: 'CEMI and CEMIII/A ... concretes, of equal fcm,28 strengths, were extrapolated from the work of Dhir et al. (2001)'",
+    "nota": "Betoes de referencia nao ensaiados (n/t), extrapolados de Dhir et al. 2001; valor expresso como fcm,28 (cubo)."
+   },
+   {
+    "sheet_row": 373,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "2.3: 'constituent materials and procedures for proportioning the aggregates, specimen production and curing, were all identical to those employed in the earlier work'",
+    "nota": "Mistura IV vem do trabalho anterior (Grist et al. 2013); a BS EN 12390-3 e citada so para os betoes 0-III. Valor de cubo (fcm,28). DUVIDOSO: procedimento identico ao do trabalho anterior, mas nao ha norma citada para IV."
+   },
+   {
+    "sheet_row": 374,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cubo",
+    "citacao": "2.2: 'CEMI and CEMIII/A ... concretes, of equal fcm,28 strengths, were extrapolated from the work of Dhir et al. (2001)'",
+    "nota": "Betoes de referencia nao ensaiados (n/t), extrapolados de Dhir et al. 2001; valor expresso como fcm,28 (cubo)."
+   },
+   {
+    "sheet_row": 375,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cubo",
+    "citacao": "2.2: 'CEMI and CEMIII/A ... concretes, of equal fcm,28 strengths, were extrapolated from the work of Dhir et al. (2001)'",
+    "nota": "Betoes de referencia nao ensaiados (n/t), extrapolados de Dhir et al. 2001; valor expresso como fcm,28 (cubo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (90 mil caracteres)."
+ },
+ {
+  "row_id": 3360,
+  "pares": [
+   {
+    "sheet_row": 394,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'Two compressive strengths are considered for OPC and blended cement-based concretes: 25 MPa and 50 MPa. Only 40-50 MPa compressive strength is explored for the GPCs'",
+    "nota": "hLCA com resistencias nominais, sem norma nem tipo de provete."
+   },
+   {
+    "sheet_row": 395,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'Two compressive strengths are considered for OPC and blended cement-based concretes: 25 MPa and 50 MPa. Only 40-50 MPa compressive strength is explored for the GPCs'",
+    "nota": "hLCA com resistencias nominais, sem norma nem tipo de provete."
+   },
+   {
+    "sheet_row": 396,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'Two compressive strengths are considered for OPC and blended cement-based concretes: 25 MPa and 50 MPa. Only 40-50 MPa compressive strength is explored for the GPCs'",
+    "nota": "hLCA com resistencias nominais, sem norma nem tipo de provete."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 3399,
+  "pares": [
+   {
+    "sheet_row": 407,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 3 'Strength (MPa) ... 1a 21 MPa / 1b 21 MPa'; 'The mixture designs ... are from a deterministic LCA report by the NRMCA'; '21 MPa (3000 psi)'",
+    "nota": "Resistencias-alvo de misturas NRMCA, sem norma nem provete citados."
+   },
+   {
+    "sheet_row": 408,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 3 'Strength (MPa) ... 1a 21 MPa / 1b 21 MPa'; 'The mixture designs ... are from a deterministic LCA report by the NRMCA'; '21 MPa (3000 psi)'",
+    "nota": "Resistencias-alvo de misturas NRMCA, sem norma nem provete citados."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 3477,
+  "pares": [
+   {
+    "sheet_row": 420,
+    "tipo": "norma_ensaio",
+    "norma": "AS/NZS 1012.8.2:2014 (moldagem)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "3.1: 'All samples were created in a laboratory environmental in accordance with AS/NZS 1012.8.2'; ref.: 'AS/NZS-1012.8.2, 2014. Method for Making and Curing Concrete- Flexure Test Specimens'; 'target compressive strength target of 25 MPa'",
+    "nota": "DUVIDOSO: a unica norma de moldagem citada e a AS/NZS 1012.8.2 (provetes de FLEXAO, vigas), nao a 1012.8.1 de compressao; nenhuma norma de ensaio de compressao (AS 1012.9) nem dimensoes. Tipo de provete do ensaio de compressao nao declarado. O 25 MPa gravado e o alvo de projecto; o controlo foi ensaiado (Fig.3) mas sem valor impresso."
+   },
+   {
+    "sheet_row": 421,
+    "tipo": "norma_ensaio",
+    "norma": "AS/NZS 1012.8.2:2014 (moldagem)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "3.1: 'All samples were created in a laboratory environmental in accordance with AS/NZS 1012.8.2'; ref.: 'AS/NZS-1012.8.2, 2014. Method for Making and Curing Concrete- Flexure Test Specimens'; 'SFKF5 and SFKF105 had 20 and 21 MPa at 28-days'",
+    "nota": "DUVIDOSO: a unica norma de moldagem citada e a AS/NZS 1012.8.2 (provetes de FLEXAO, vigas), nao a 1012.8.1 de compressao; nenhuma norma de ensaio de compressao (AS 1012.9) nem dimensoes. Tipo de provete do ensaio de compressao nao declarado."
+   },
+   {
+    "sheet_row": 422,
+    "tipo": "norma_ensaio",
+    "norma": "AS/NZS 1012.8.2:2014 (moldagem)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "3.1: 'All samples were created in a laboratory environmental in accordance with AS/NZS 1012.8.2'; ref.: 'AS/NZS-1012.8.2, 2014. Method for Making and Curing Concrete- Flexure Test Specimens'",
+    "nota": "DUVIDOSO: a unica norma de moldagem citada e a AS/NZS 1012.8.2 (provetes de FLEXAO, vigas), nao a 1012.8.1 de compressao; nenhuma norma de ensaio de compressao (AS 1012.9) nem dimensoes. Tipo de provete do ensaio de compressao nao declarado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ }
+]

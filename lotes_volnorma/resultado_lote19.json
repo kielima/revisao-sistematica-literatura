@@ -1,0 +1,120 @@
+[
+ {
+  "row_id": 4869,
+  "pares": [
+   {
+    "sheet_row": 1826,
+    "tipo": "norma_classe",
+    "norma": "EHE-08",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.6: 'parametros de energia y emisiones estimados para un hormigón HA-25 de consistencia blanda y con un contenido en acero de 50 kg por metro cúbico'; Tabla 2 'Hormigón HA-25 B / armado con 50 kg acero/m3'; ref. (1) Real Decreto 1247/2008, Instrucción de Hormigón Estructural (EHE-08)",
+    "nota": "Classe HA-25 na notacao EHE-08, norma citada explicitamente ao longo de todo o artigo (ref. 1). Sem ensaio nem dimensoes de provete. Em EHE-08 o fck e de cilindro 150x300. O artigo menciona 'probetas cúbicas' so como variavel do modelo de sostenibilidade (criterio i=10,k=4), nao como provete deste valor."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 10 pp (Informes de la Construccion) lido integralmente via read_file_content."
+ },
+ {
+  "row_id": 4930,
+  "pares": [
+   {
+    "sheet_row": 1835,
+    "tipo": "norma_classe",
+    "norma": "KS F 4009",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.2.2: 'The materials used in the design are listed in the following Table 1, and the design was based on the KS standard [4–7]'; Table 1 'RC C30 2,300 30 (fck)'; ref [6] 'Korean Standards Association. KS F 4009 Ready-mixed Concrete. 2011'; projecto segundo KDS",
+    "nota": "Classe de projecto 'C30' sem barra (nao e notacao EN 206). A norma de material citada para o betao e KS F 4009 (betao pronto); o artigo nao diz cubo nem cilindro. KS F 4009 remete ao ensaio em cilindro (KS F 2405), mas isso nao esta escrito no artigo - valor_de deixado null. Sem ensaio proprio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de conferencia (WCTE 2023, pp.989-994) lido integralmente."
+ },
+ {
+  "row_id": 5029,
+  "pares": [
+   {
+    "sheet_row": 1836,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.68: 'foi feita com base no concreto usinado de 20 MPa (resistência mais próxima da empregada pela NOVACAP no pavimento rígido), com cimento Portland e com dados válidos globalmente' (Tabela 15, Ecoinvent)",
+    "nota": "Valor de 20 MPa vem do processo Ecoinvent 'concreto usinado 20 MPa'; nenhuma norma de ensaio nem de classe citada para o fck (as normas ABNT citadas são de ACV e de cimento: NBR ISO 14040, NBR 11578, 5733, 5736, 16697). O concreto real da ciclovia tem fck=18 MPa aos 28 d (pp.35/58/68), tambem sem norma. PDF descarregado (140 pp) e lido integralmente com pymupdf: read_file_content truncava na p.79."
+   },
+   {
+    "sheet_row": 1837,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.68: 'foi feita com base no concreto usinado de 20 MPa (resistência mais próxima da empregada pela NOVACAP no pavimento rígido), com cimento Portland e com dados válidos globalmente' (Tabela 15, Ecoinvent)",
+    "nota": "Valor de 20 MPa vem do processo Ecoinvent 'concreto usinado 20 MPa'; nenhuma norma de ensaio nem de classe citada para o fck (as normas ABNT citadas são de ACV e de cimento: NBR ISO 14040, NBR 11578, 5733, 5736, 16697). O concreto real da ciclovia tem fck=18 MPa aos 28 d (pp.35/58/68), tambem sem norma. PDF descarregado (140 pp) e lido integralmente com pymupdf: read_file_content truncava na p.79."
+   },
+   {
+    "sheet_row": 1838,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.68: 'foi feita com base no concreto usinado de 20 MPa (resistência mais próxima da empregada pela NOVACAP no pavimento rígido), com cimento Portland e com dados válidos globalmente' (Tabela 15, Ecoinvent)",
+    "nota": "Valor de 20 MPa vem do processo Ecoinvent 'concreto usinado 20 MPa'; nenhuma norma de ensaio nem de classe citada para o fck (as normas ABNT citadas são de ACV e de cimento: NBR ISO 14040, NBR 11578, 5733, 5736, 16697). O concreto real da ciclovia tem fck=18 MPa aos 28 d (pp.35/58/68), tambem sem norma. PDF descarregado (140 pp) e lido integralmente com pymupdf: read_file_content truncava na p.79."
+   },
+   {
+    "sheet_row": 1839,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.68: 'foi feita com base no concreto usinado de 20 MPa (resistência mais próxima da empregada pela NOVACAP no pavimento rígido), com cimento Portland e com dados válidos globalmente' (Tabela 15, Ecoinvent)",
+    "nota": "Valor de 20 MPa vem do processo Ecoinvent 'concreto usinado 20 MPa'; nenhuma norma de ensaio nem de classe citada para o fck (as normas ABNT citadas são de ACV e de cimento: NBR ISO 14040, NBR 11578, 5733, 5736, 16697). O concreto real da ciclovia tem fck=18 MPa aos 28 d (pp.35/58/68), tambem sem norma. PDF descarregado (140 pp) e lido integralmente com pymupdf: read_file_content truncava na p.79."
+   },
+   {
+    "sheet_row": 1840,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.68: 'foi feita com base no concreto usinado de 20 MPa (resistência mais próxima da empregada pela NOVACAP no pavimento rígido), com cimento Portland e com dados válidos globalmente' (Tabela 15, Ecoinvent)",
+    "nota": "Valor de 20 MPa vem do processo Ecoinvent 'concreto usinado 20 MPa'; nenhuma norma de ensaio nem de classe citada para o fck (as normas ABNT citadas são de ACV e de cimento: NBR ISO 14040, NBR 11578, 5733, 5736, 16697). O concreto real da ciclovia tem fck=18 MPa aos 28 d (pp.35/58/68), tambem sem norma. PDF descarregado (140 pp) e lido integralmente com pymupdf: read_file_content truncava na p.79."
+   },
+   {
+    "sheet_row": 1841,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.68: 'foi feita com base no concreto usinado de 20 MPa (resistência mais próxima da empregada pela NOVACAP no pavimento rígido), com cimento Portland e com dados válidos globalmente' (Tabela 15, Ecoinvent)",
+    "nota": "Valor de 20 MPa vem do processo Ecoinvent 'concreto usinado 20 MPa'; nenhuma norma de ensaio nem de classe citada para o fck (as normas ABNT citadas são de ACV e de cimento: NBR ISO 14040, NBR 11578, 5733, 5736, 16697). O concreto real da ciclovia tem fck=18 MPa aos 28 d (pp.35/58/68), tambem sem norma. PDF descarregado (140 pp) e lido integralmente com pymupdf: read_file_content truncava na p.79."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Tese UnB 140 pp; texto do conector truncado na p.79, confirmado com PDF descarregado (242 mil caracteres, pymupdf)."
+ },
+ {
+  "row_id": 3153,
+  "pares": [
+   {
+    "sheet_row": 1934,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 7: 'OPC [87] ... 28 days CS (MPa) 58.70' ; ref [87] H. Dong et al., Axial compressive behavior of mega steel-reinforced high-strength concrete columns..., Structures 48 (2023)",
+    "nota": "O fck 58,7 MPa do betao OPC de referencia vem de fonte externa (Dong et al. 2023, ref. [87]) e o artigo nao diz provete nem norma para esse valor. Os ensaios proprios das misturas HSGC usam cubos 150 mm segundo IS 516:2004 ('cubical specimens of size 150 × 150 mm following IS 516:2004 [40]'), mas isso nao se aplica ao OPC de referencia. Possivel caso a rever pela Kie (fck de fonte externa)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo CBM 401 (2023) 132866 lido integralmente (113 mil caracteres, inclui referencias)."
+ }
+]

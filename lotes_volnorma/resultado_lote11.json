@@ -1,0 +1,322 @@
+[
+ {
+  "row_id": 3576,
+  "pares": [
+   {
+    "sheet_row": 1051,
+    "tipo": "norma_ensaio",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "p.5: 'the compressive strength of hardened concrete (ASTM C39, 2015) ... functional unit ... a cubic meter of concrete with the average compressive strength of 40MPa (5800psi)'; Tab.1 'proportioned for achieving the 28-day compressive strength of 40 MPa'",
+    "nota": "Resistencia-alvo de projecto da UF (sem ensaio proprio); ASTM C39 citada como norma da resistencia a compressao (provetes cilindricos). Dimensoes do cilindro nao declaradas."
+   },
+   {
+    "sheet_row": 1052,
+    "tipo": "norma_ensaio",
+    "norma": "ASTM C39",
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "p.5: 'the compressive strength of hardened concrete (ASTM C39, 2015) ... functional unit ... a cubic meter of concrete with the average compressive strength of 40MPa (5800psi)'; Tab.1 'proportioned for achieving the 28-day compressive strength of 40 MPa'",
+    "nota": "Resistencia-alvo de projecto da UF (sem ensaio proprio); ASTM C39 citada como norma da resistencia a compressao (provetes cilindricos). Dimensoes do cilindro nao declaradas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (9 pp.) lido. Nenhuma dimensao de provete no artigo."
+ },
+ {
+  "row_id": 3582,
+  "pares": [
+   {
+    "sheet_row": 1053,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (DIN EN 206:2017); ensaio inicial EN 12390-1",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.3: 'the FU should be defined in terms of 1 m3 of concrete with additional specifications on strength and exposure classes according to EN 206 (DIN EN 206, 2017)'; 'RC-m1: ... compressive strength C25/30 and exposure class XC1'; Tab.2 'Concrete classes according to EN 206'. Tambem: 'initial test, according to EN 12390 (DIN EN 12390-1, 2019) and EN 206'",
+    "nota": "Classe C25/30 da EN 206 (citada explicitamente); fck=25 e o valor de cilindro. EN 12390-1 citada para o ensaio inicial do betao RC, sem dimensoes."
+   },
+   {
+    "sheet_row": 1054,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (DIN EN 206:2017); ensaio inicial EN 12390-1",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "p.3: 'the FU should be defined in terms of 1 m3 of concrete with additional specifications on strength and exposure classes according to EN 206 (DIN EN 206, 2017)'; 'RC-m1: ... compressive strength C25/30 and exposure class XC1'; Tab.2 'Concrete classes according to EN 206'. Tambem: 'initial test, according to EN 12390 (DIN EN 12390-1, 2019) and EN 206'",
+    "nota": "Classe C25/30 da EN 206 (citada explicitamente); fck=25 e o valor de cilindro. EN 12390-1 citada para o ensaio inicial do betao RC, sem dimensoes."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido. Sem dimensoes de provete."
+ },
+ {
+  "row_id": 3598,
+  "pares": [
+   {
+    "sheet_row": 1059,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.2.1.1: 'These concrete mixture designs vary in cement type, design compressive strength, and SCM content... mixture proportions for PC concrete were based on the absolute volume method (AVM) specified by the Portland Cement Association (PCA) (Kosmatka et al., 2011)'; Tab.1 'Compressive Strength (MPa) 15 30 45'",
+    "nota": "Resistencia de projecto de dosagem (manual PCA), sem norma de ensaio nem de classe citada; sem provete nem idade."
+   },
+   {
+    "sheet_row": 1060,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.2.1.1: 'These concrete mixture designs vary in cement type, design compressive strength, and SCM content... mixture proportions for PC concrete were based on the absolute volume method (AVM) specified by the Portland Cement Association (PCA) (Kosmatka et al., 2011)'; Tab.1 'Compressive Strength (MPa) 15 30 45'",
+    "nota": "Resistencia de projecto de dosagem (manual PCA), sem norma de ensaio nem de classe citada; sem provete nem idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido; nenhuma norma ASTM/EN de resistencia citada; so ISO 14040/14044 e EN 15804 (ACV)."
+ },
+ {
+  "row_id": 3615,
+  "pares": [
+   {
+    "sheet_row": 1063,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.5: 'The four concrete mixes have the same compressive strength of 40 MPa ... The ingredients of the studied mixes were collected from refereed published papers: OPC concrete [55], alkali-activated slag concrete [56], alkali-activated fly ash concrete [55], and glass powder concrete of 20 % replacement [57]'",
+    "nota": "40 MPa atribuido as misturas de literatura [55-57]; o artigo nao cita norma nem provete para este valor. Os 'three samples of 100 mm concrete cubes' (p.~11) referem-se ao conjunto de Aiken et al. [61] (Tab.3, misturas F100Ac/F80c/PCc...), NAO aos 4 pares."
+   },
+   {
+    "sheet_row": 1064,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.5: 'The four concrete mixes have the same compressive strength of 40 MPa ... The ingredients of the studied mixes were collected from refereed published papers: OPC concrete [55], alkali-activated slag concrete [56], alkali-activated fly ash concrete [55], and glass powder concrete of 20 % replacement [57]'",
+    "nota": "40 MPa atribuido as misturas de literatura [55-57]; o artigo nao cita norma nem provete para este valor. Os 'three samples of 100 mm concrete cubes' (p.~11) referem-se ao conjunto de Aiken et al. [61] (Tab.3, misturas F100Ac/F80c/PCc...), NAO aos 4 pares."
+   },
+   {
+    "sheet_row": 1065,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.5: 'The four concrete mixes have the same compressive strength of 40 MPa ... The ingredients of the studied mixes were collected from refereed published papers: OPC concrete [55], alkali-activated slag concrete [56], alkali-activated fly ash concrete [55], and glass powder concrete of 20 % replacement [57]'",
+    "nota": "40 MPa atribuido as misturas de literatura [55-57]; o artigo nao cita norma nem provete para este valor. Os 'three samples of 100 mm concrete cubes' (p.~11) referem-se ao conjunto de Aiken et al. [61] (Tab.3, misturas F100Ac/F80c/PCc...), NAO aos 4 pares."
+   },
+   {
+    "sheet_row": 1066,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.5: 'The four concrete mixes have the same compressive strength of 40 MPa ... The ingredients of the studied mixes were collected from refereed published papers: OPC concrete [55], alkali-activated slag concrete [56], alkali-activated fly ash concrete [55], and glass powder concrete of 20 % replacement [57]'",
+    "nota": "40 MPa atribuido as misturas de literatura [55-57]; o artigo nao cita norma nem provete para este valor. Os 'three samples of 100 mm concrete cubes' (p.~11) referem-se ao conjunto de Aiken et al. [61] (Tab.3, misturas F100Ac/F80c/PCc...), NAO aos 4 pares."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido. Normas BS EN 12390-5 e BS 1881-121 citadas so para flexao/modulo do conjunto de Aiken [61]."
+ },
+ {
+  "row_id": 3657,
+  "pares": [
+   {
+    "sheet_row": 1069,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "Tab.3 'Mix design of four groups of specimens ... 28-day cubic compressive [strength]' NAC 50.3, RACI 48.5, RACII 47.2, RACIII 45.3; Sec.2.2 'The 50 x 100 mm cylindrical specimens were prepared' (ensaios triaxiais); 'mix design ... refers to the requirement of JGJ 55-2011'",
+    "nota": "O valor gravado e resistencia cubica aos 28 d (Tab.3), mas a aresta do cubo e a norma de ensaio nao sao declaradas (GB/T 50081 nao citada; JGJ 55-2011 so para a dosagem). Os cilindros 50x100 mm sao dos ensaios triaxiais (fco 43,7 MPa no NAC), nao do valor gravado."
+   },
+   {
+    "sheet_row": 1070,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "Tab.3 'Mix design of four groups of specimens ... 28-day cubic compressive [strength]' NAC 50.3, RACI 48.5, RACII 47.2, RACIII 45.3; Sec.2.2 'The 50 x 100 mm cylindrical specimens were prepared' (ensaios triaxiais); 'mix design ... refers to the requirement of JGJ 55-2011'",
+    "nota": "O valor gravado e resistencia cubica aos 28 d (Tab.3), mas a aresta do cubo e a norma de ensaio nao sao declaradas (GB/T 50081 nao citada; JGJ 55-2011 so para a dosagem). Os cilindros 50x100 mm sao dos ensaios triaxiais (fco 43,7 MPa no NAC), nao do valor gravado."
+   },
+   {
+    "sheet_row": 1071,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "Tab.3 'Mix design of four groups of specimens ... 28-day cubic compressive [strength]' NAC 50.3, RACI 48.5, RACII 47.2, RACIII 45.3; Sec.2.2 'The 50 x 100 mm cylindrical specimens were prepared' (ensaios triaxiais); 'mix design ... refers to the requirement of JGJ 55-2011'",
+    "nota": "O valor gravado e resistencia cubica aos 28 d (Tab.3), mas a aresta do cubo e a norma de ensaio nao sao declaradas (GB/T 50081 nao citada; JGJ 55-2011 so para a dosagem). Os cilindros 50x100 mm sao dos ensaios triaxiais (fco 43,7 MPa no NAC), nao do valor gravado."
+   },
+   {
+    "sheet_row": 1072,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "Tab.3 'Mix design of four groups of specimens ... 28-day cubic compressive [strength]' NAC 50.3, RACI 48.5, RACII 47.2, RACIII 45.3; Sec.2.2 'The 50 x 100 mm cylindrical specimens were prepared' (ensaios triaxiais); 'mix design ... refers to the requirement of JGJ 55-2011'",
+    "nota": "O valor gravado e resistencia cubica aos 28 d (Tab.3), mas a aresta do cubo e a norma de ensaio nao sao declaradas (GB/T 50081 nao citada; JGJ 55-2011 so para a dosagem). Os cilindros 50x100 mm sao dos ensaios triaxiais (fco 43,7 MPa no NAC), nao do valor gravado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido. Duvida: so JGJ 55-2011 (dosagem) e JGJ 52/GB/T 25177 (agregados) citadas."
+ },
+ {
+  "row_id": 3661,
+  "pares": [
+   {
+    "sheet_row": 1073,
+    "tipo": "norma_classe",
+    "norma": "BS 8110:1985 (dimensionamento); dosagem BS 1881-125:1986",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tab.1: 'Design of concrete mix - BS 1881: Part 125: 1986'; p.7: 'The building was designed using conventional methodology in accordance with the British Standard (BS 8110, 1985)'; Tab.6 'Concrete Grade (MPa)'",
+    "nota": "Graus 25/30/40 MPa da Tab.6 sem ensaio proprio; edificio dimensionado pela BS 8110:1985 (graus definidos pela resistencia caracteristica em cubo, mas o artigo nao o diz) e dosagem referida a BS 1881-125:1986 (mistura/amostragem em laboratorio). Nenhuma dimensao de provete."
+   },
+   {
+    "sheet_row": 1074,
+    "tipo": "norma_classe",
+    "norma": "BS 8110:1985 (dimensionamento); dosagem BS 1881-125:1986",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tab.1: 'Design of concrete mix - BS 1881: Part 125: 1986'; p.7: 'The building was designed using conventional methodology in accordance with the British Standard (BS 8110, 1985)'; Tab.6 'Concrete Grade (MPa)'",
+    "nota": "Graus 25/30/40 MPa da Tab.6 sem ensaio proprio; edificio dimensionado pela BS 8110:1985 (graus definidos pela resistencia caracteristica em cubo, mas o artigo nao o diz) e dosagem referida a BS 1881-125:1986 (mistura/amostragem em laboratorio). Nenhuma dimensao de provete."
+   },
+   {
+    "sheet_row": 1075,
+    "tipo": "norma_classe",
+    "norma": "BS 8110:1985 (dimensionamento); dosagem BS 1881-125:1986",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tab.1: 'Design of concrete mix - BS 1881: Part 125: 1986'; p.7: 'The building was designed using conventional methodology in accordance with the British Standard (BS 8110, 1985)'; Tab.6 'Concrete Grade (MPa)'",
+    "nota": "Graus 25/30/40 MPa da Tab.6 sem ensaio proprio; edificio dimensionado pela BS 8110:1985 (graus definidos pela resistencia caracteristica em cubo, mas o artigo nao o diz) e dosagem referida a BS 1881-125:1986 (mistura/amostragem em laboratorio). Nenhuma dimensao de provete."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido. Caso duvidoso: valor_de deixado null porque o artigo nao diz cubo/cilindro."
+ },
+ {
+  "row_id": 3681,
+  "pares": [
+   {
+    "sheet_row": 1078,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.3.5: 'The baseline scenario with compressive strength 25 MPa contains 381 kg cement per cubic metre ... These proportions are reproduced from Souto-Martinez et al. (2017)'; 'fc = compressive strength (MPa) (=25 MPa for baseline scenario)'",
+    "nota": "Parametro de modelacao tirado de Souto-Martinez et al. (2017); sem norma de ensaio/classe nem provete. EN 206-1 (CEN, 2004) citada so para classes de exposicao XC1-XC4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido."
+ },
+ {
+  "row_id": 3727,
+  "pares": [
+   {
+    "sheet_row": 1082,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.6: 'For the baseline case, a Portland cement concrete mixture is modeled ... and the compressive strength at 28 days is 25 MPa.[41]' (ref.41 Oner & Akyuz 2007)",
+    "nota": "Valor citado de fonte externa (ref.41); sem norma nem provete no artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (sem SI)."
+ },
+ {
+  "row_id": 3731,
+  "pares": [
+   {
+    "sheet_row": 1083,
+    "tipo": "norma_ensaio",
+    "norma": "ASTM C109",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "'Tests were performed by subjecting the specimens to compression loads at 3, 7, 14, and 28 d ... The methodology followed was in accordance with ASTM standards.[22],[23]'; ref.22 'ASTM C109 ... Compressive Strength of Hydraulic Cement Mortars (Using 2-in. or [50-mm] Cube Specimens)'; ref.23 ASTM C192",
+    "nota": "Argamassa; ensaio proprio segundo ASTM C109 (cubo 50 mm pela norma; dimensoes nao declaradas no texto). fck 40 lido na Fig.2 (C0 aos 28 d). O 42 MPa da Tab.1 e da ficha tecnica do cimento HE. ASTM C192 tambem citada (moldagem)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido."
+ },
+ {
+  "row_id": 3818,
+  "pares": [
+   {
+    "sheet_row": 1103,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively.'",
+    "nota": "Valores citados de literatura; sem norma nem provete no artigo."
+   },
+   {
+    "sheet_row": 1104,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively.'",
+    "nota": "Valores citados de literatura; sem norma nem provete no artigo."
+   },
+   {
+    "sheet_row": 1105,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively.'",
+    "nota": "Valores citados de literatura; sem norma nem provete no artigo."
+   },
+   {
+    "sheet_row": 1106,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively.'",
+    "nota": "Valores citados de literatura; sem norma nem provete no artigo."
+   },
+   {
+    "sheet_row": 1107,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively.'",
+    "nota": "Valores citados de literatura; sem norma nem provete no artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido."
+ }
+]

@@ -1,0 +1,342 @@
+[
+ {
+  "row_id": 4756,
+  "pares": [
+   {
+    "sheet_row": 590,
+    "tipo": "norma_classe",
+    "norma": "EN 1992-1-1:2004",
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "Tabela 1, nota b: 'C25/30 (EN 1992-1-1, 2004)'; nomenclatura: 'fck characteristic value of the concrete cylinder compressive strength'; texto: 'The data for steel and concrete ... was taken from EN 1992-1-1 (EN 1992-1-1, 2004)'",
+    "nota": "Classe de projecto C25/30; fck definido no proprio artigo como resistencia caracteristica em cilindro. Sem ensaio nem dimensoes de provete."
+   },
+   {
+    "sheet_row": 591,
+    "tipo": "norma_classe",
+    "norma": "EN 1992-1-1:2004",
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "Tabela 1, nota b: 'C25/30 (EN 1992-1-1, 2004)'; nomenclatura: 'fck characteristic value of the concrete cylinder compressive strength'; texto: 'The data for steel and concrete ... was taken from EN 1992-1-1 (EN 1992-1-1, 2004)'; C30/37 com a mesma nota b na Tabela 1",
+    "nota": "Classe de projecto C30/37 (tambem notacao EN 206); fck em cilindro segundo a nomenclatura do artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fileId em falta no lote; encontrado no Drive: 1BErlRh21XgCS0qlVb1NosuQGUAPbiMCf (HUBER et al., 2024 - j.dibe.2024.100533.pdf). Texto 98 mil caracteres lido na integra."
+ },
+ {
+  "row_id": 4757,
+  "pares": [
+   {
+    "sheet_row": 592,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 1: 'C30 concrete | kg/m3 | 321.30' (fonte [43]); unica norma de engenharia citada e JTG B01-2014 (padrao tecnico rodoviario, nao define classe de betao)",
+    "nota": "C30 sem barra (notacao chinesa), nenhuma GB/GB/T citada; factor de emissao de catalogo, sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Nenhuma norma de betao nem dimensoes de provete no artigo."
+ },
+ {
+  "row_id": 4820,
+  "pares": [
+   {
+    "sheet_row": 598,
+    "tipo": "norma_classe",
+    "norma": "EN 14080:2013",
+    "dimensoes_declaradas": null,
+    "provete": "outro",
+    "valor_de": null,
+    "citacao": "'The mechanical properties of GLT (EN 14080:2013 [31]) and CLT (EN 338 [32]) are, respectively, summarized in Tables 3 and 4'; Tabela 3: GL30h fc,0,k = 30.00 MPa",
+    "nota": "Madeira lamelada-colada (glulam), nao betao. Classe GL30h da EN 14080; a norma de ensaio de provetes de madeira (EN 408) nao e citada. Sem dimensoes de provete. Volume de provete-padrao nao aplicavel por analogia com betao - decisao da Kie."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Caso duvidoso: material de madeira (familia biobase)."
+ },
+ {
+  "row_id": 5067,
+  "pares": [
+   {
+    "sheet_row": 605,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 4: 'Reinforced concrete C20 | m3 | ... CM=247.695'",
+    "nota": "Classe chinesa sem barra; nenhuma norma de betao (GB 50010 etc.) citada; factor de emissao composto de catalogo (CE1 de Gong 2004)."
+   },
+   {
+    "sheet_row": 606,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 4: 'Reinforced concrete C25 | m3 | ... CM=267.695'",
+    "nota": "Classe chinesa sem barra; nenhuma norma de betao (GB 50010 etc.) citada; factor de emissao composto de catalogo (CE1 de Gong 2004)."
+   },
+   {
+    "sheet_row": 607,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 4: 'Reinforced concrete C30 | m3 | ... CM=287.695'",
+    "nota": "Classe chinesa sem barra; nenhuma norma de betao (GB 50010 etc.) citada; factor de emissao composto de catalogo (CE1 de Gong 2004)."
+   },
+   {
+    "sheet_row": 608,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 4: 'Reinforced concrete C35 | m3 | ... CM=307.695'",
+    "nota": "Classe chinesa sem barra; nenhuma norma de betao (GB 50010 etc.) citada; factor de emissao composto de catalogo (CE1 de Gong 2004)."
+   },
+   {
+    "sheet_row": 609,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 4: 'Reinforced concrete C40 | m3 | ... CM=327.695'",
+    "nota": "Classe chinesa sem barra; nenhuma norma de betao (GB 50010 etc.) citada; factor de emissao composto de catalogo (CE1 de Gong 2004)."
+   },
+   {
+    "sheet_row": 610,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 4: 'Reinforced concrete C50 | m3 | ... CM=367.695'",
+    "nota": "Classe chinesa sem barra; nenhuma norma de betao (GB 50010 etc.) citada; factor de emissao composto de catalogo (CE1 de Gong 2004)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo curto (13 p.), lido na integra; so normas ISO 14040/14044 citadas."
+ },
+ {
+  "row_id": 2599,
+  "pares": [
+   {
+    "sheet_row": 613,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "p.4: 'compressive strength for all mortars, after 28 days of curing were above 50 MPa at dry state curing and 80 MPa at moist condition curing'; p.7: 'Obtained mortar strength was also noticeably higher, compared to concrete (80 MPa to 40 MPa)'",
+    "nota": "Argamassa; resistencia remete a estudo anterior (ref. [25] Bumanis et al. 2020); nenhuma norma de ensaio (EN 196-1/EN 1015-11) nem dimensoes de provete no artigo. 80 MPa e limite inferior (\"above\")."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 10 p. lido na integra."
+ },
+ {
+  "row_id": 2658,
+  "pares": [
+   {
+    "sheet_row": 631,
+    "tipo": "norma_classe",
+    "norma": "EN 998-2:2016",
+    "dimensoes_declaradas": null,
+    "provete": "prisma",
+    "valor_de": "prisma",
+    "citacao": "Sec.3.1: 'REF1 and DELTA mortar (compressive strength class 30 M [39])'; Sec.3.2.2: 'according to EN 988-2 [39] and EN 15,804 + A2 [40] ... 1 L of mortar mixture of 32 MPa compressive strength (compressive strength class M30)'; ref [39]: 'EN 998-2:2016; Specification for Mortar for Masonry—Part 2: Masonry Mortar'",
+    "nota": "Classe de argamassa de alvenaria da EN 998-2:2016 (o texto grafa 'EN 988-2', gralha; a ref. [39] e EN 998-2). Sem ensaio proprio nem dimensoes. A EN 998-2 remete o ensaio para a EN 1015-11 (prisma 40x40x160 mm), mas a EN 1015-11 nao e citada pelo artigo - valor_de 'prisma' so pela norma da classe."
+   },
+   {
+    "sheet_row": 632,
+    "tipo": "norma_classe",
+    "norma": "EN 998-2:2016",
+    "dimensoes_declaradas": null,
+    "provete": "prisma",
+    "valor_de": "prisma",
+    "citacao": "Sec.3.1: 'REF1 and DELTA mortar (compressive strength class 30 M [39])'; Sec.3.2.2: 'according to EN 988-2 [39] and EN 15,804 + A2 [40] ... 1 L of mortar mixture of 32 MPa compressive strength (compressive strength class M30)'; ref [39]: 'EN 998-2:2016; Specification for Mortar for Masonry—Part 2: Masonry Mortar'",
+    "nota": "Classe de argamassa de alvenaria da EN 998-2:2016 (o texto grafa 'EN 988-2', gralha; a ref. [39] e EN 998-2). Sem ensaio proprio nem dimensoes. A EN 998-2 remete o ensaio para a EN 1015-11 (prisma 40x40x160 mm), mas a EN 1015-11 nao e citada pelo artigo - valor_de 'prisma' so pela norma da classe."
+   },
+   {
+    "sheet_row": 633,
+    "tipo": "norma_classe",
+    "norma": "EN 998-2:2016",
+    "dimensoes_declaradas": null,
+    "provete": "prisma",
+    "valor_de": "prisma",
+    "citacao": "Sec.3.1: 'REF1 and DELTA mortar (compressive strength class 30 M [39])'; Sec.3.2.2: 'according to EN 988-2 [39] and EN 15,804 + A2 [40] ... 1 L of mortar mixture of 25 MPa compressive strength (compressive strength class M20)'; ref [39]: 'EN 998-2:2016; Specification for Mortar for Masonry—Part 2: Masonry Mortar'",
+    "nota": "Classe de argamassa de alvenaria da EN 998-2:2016 (o texto grafa 'EN 988-2', gralha; a ref. [39] e EN 998-2). Sem ensaio proprio nem dimensoes. A EN 998-2 remete o ensaio para a EN 1015-11 (prisma 40x40x160 mm), mas a EN 1015-11 nao e citada pelo artigo - valor_de 'prisma' so pela norma da classe."
+   },
+   {
+    "sheet_row": 634,
+    "tipo": "norma_classe",
+    "norma": "EN 998-2:2016",
+    "dimensoes_declaradas": null,
+    "provete": "prisma",
+    "valor_de": "prisma",
+    "citacao": "Sec.3.1: 'REF1 and DELTA mortar (compressive strength class 30 M [39])'; Sec.3.2.2: 'according to EN 988-2 [39] and EN 15,804 + A2 [40] ... 1 L of mortar mixture of 25 MPa compressive strength (compressive strength class M20)'; ref [39]: 'EN 998-2:2016; Specification for Mortar for Masonry—Part 2: Masonry Mortar'",
+    "nota": "Classe de argamassa de alvenaria da EN 998-2:2016 (o texto grafa 'EN 988-2', gralha; a ref. [39] e EN 998-2). Sem ensaio proprio nem dimensoes. A EN 998-2 remete o ensaio para a EN 1015-11 (prisma 40x40x160 mm), mas a EN 1015-11 nao e citada pelo artigo - valor_de 'prisma' so pela norma da classe."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O lote registava a classe como 'EN 15804+A2'; a norma que define M30/M20 e a EN 998-2 (EN 15804 e so a de EPD)."
+ },
+ {
+  "row_id": 2694,
+  "pares": [
+   {
+    "sheet_row": 651,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 1 (LCI DB): 'ready-mixed concrete 25-210-12 / 25-210-15 / 25-240-12 / 25-240-15'",
+    "nota": "Designacao de produto da base LCI coreana (agregado-resistencia-abatimento); nenhuma norma KS citada; sem ensaio nem provete."
+   },
+   {
+    "sheet_row": 652,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 1 (LCI DB): 'ready-mixed concrete 25-210-12 / 25-210-15 / 25-240-12 / 25-240-15'",
+    "nota": "Designacao de produto da base LCI coreana (agregado-resistencia-abatimento); nenhuma norma KS citada; sem ensaio nem provete."
+   },
+   {
+    "sheet_row": 653,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 1 (LCI DB): 'ready-mixed concrete 25-210-12 / 25-210-15 / 25-240-12 / 25-240-15'",
+    "nota": "Designacao de produto da base LCI coreana (agregado-resistencia-abatimento); nenhuma norma KS citada; sem ensaio nem provete."
+   },
+   {
+    "sheet_row": 654,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 1 (LCI DB): 'ready-mixed concrete 25-210-12 / 25-210-15 / 25-240-12 / 25-240-15'",
+    "nota": "Designacao de produto da base LCI coreana (agregado-resistencia-abatimento); nenhuma norma KS citada; sem ensaio nem provete."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Nenhuma ocorrencia de KS/ASTM/cube/cylinder no texto."
+ },
+ {
+  "row_id": 2695,
+  "pares": [
+   {
+    "sheet_row": 655,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 3: 'RMC | 24 MPa | kg-CO2/m3 | 414'",
+    "nota": "Factor de emissao LCI coreano por resistencia; nenhuma norma KS nem provete citados."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem normas de betao no artigo."
+ },
+ {
+  "row_id": 2696,
+  "pares": [
+   {
+    "sheet_row": 656,
+    "tipo": "norma_classe",
+    "norma": "BS EN 1992-1-1 (Eurocodigo 2)",
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "l.264-266: 'All the slabs and columns were designed with C 30/37 (characteristic cylinder strength of 30 MPa and cube strength of 37 MPa at 28 days) except for post-tensioned slabs which used C 32/40'; l.69: 'Following BS EN 1992-1-1 (BSI, 2015) for the design of concrete structures'",
+    "nota": "Classe de projecto C30/37; o artigo declara explicitamente que 30 MPa e a resistencia caracteristica em cilindro aos 28 d."
+   },
+   {
+    "sheet_row": 657,
+    "tipo": "norma_classe",
+    "norma": "BS EN 1992-1-1 (Eurocodigo 2)",
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "l.264-266: 'All the slabs and columns were designed with C 30/37 (characteristic cylinder strength of 30 MPa and cube strength of 37 MPa at 28 days) except for post-tensioned slabs which used C 32/40'; l.69: 'Following BS EN 1992-1-1 (BSI, 2015) for the design of concrete structures'",
+    "nota": "Classe de projecto C32/40 (lajes pos-tensionadas); notacao EN 206, primeiro numero = cilindro."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem ensaio proprio nem dimensoes."
+ },
+ {
+  "row_id": 2700,
+  "pares": [
+   {
+    "sheet_row": 660,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.5.1: 'Evaluation of 1 m3 of concrete with a strength of 24 MPa produced by Concrete Manufacturer A (in Korea)'; Tabelas 4-5: 'Strength (MPa) 24'",
+    "nota": "Resistencia nominal do fabricante; nenhuma norma KS/ASTM nem provete citados."
+   },
+   {
+    "sheet_row": 661,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.5.1: 'Evaluation of 1 m3 of concrete with a strength of 24 MPa produced by Concrete Manufacturer A (in Korea)'; Tabelas 4-5: 'Strength (MPa) 24'",
+    "nota": "Resistencia nominal do fabricante; nenhuma norma KS/ASTM nem provete citados."
+   },
+   {
+    "sheet_row": 662,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.5.1: 'Evaluation of 1 m3 of concrete with a strength of 24 MPa produced by Concrete Manufacturer A (in Korea)'; Tabelas 4-5: 'Strength (MPa) 24'",
+    "nota": "Resistencia nominal do fabricante; nenhuma norma KS/ASTM nem provete citados."
+   },
+   {
+    "sheet_row": 663,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.5.1: 'Evaluation of 1 m3 of concrete with a strength of 24 MPa produced by Concrete Manufacturer A (in Korea)'; Tabelas 4-5: 'Strength (MPa) 24'",
+    "nota": "Resistencia nominal do fabricante; nenhuma norma KS/ASTM nem provete citados."
+   },
+   {
+    "sheet_row": 664,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Sec.5.1: 'Evaluation of 1 m3 of concrete with a strength of 24 MPa produced by Concrete Manufacturer A (in Korea)'; Tabelas 4-5: 'Strength (MPa) 24'",
+    "nota": "Resistencia nominal do fabricante; nenhuma norma KS/ASTM nem provete citados."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem normas de ensaio ou classe de betao no artigo."
+ }
+]
