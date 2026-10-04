@@ -1,0 +1,282 @@
+[
+ {
+  "row_id": 3598,
+  "pares": [
+   {
+    "sheet_row": 1059,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.1.1 p.2 + Tab.1: 'design compressive strength' 15/30/45 MPa; traços pelo metodo de volume absoluto da PCA (Kosmatka 2011)",
+    "nota": "Resistencia de projecto de traços teoricos; nenhuma idade nem norma de classe com idade citada no artigo."
+   },
+   {
+    "sheet_row": 1060,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.1.1 p.2 + Tab.1: 'design compressive strength' 15/30/45 MPa; traços pelo metodo de volume absoluto da PCA (Kosmatka 2011)",
+    "nota": "Resistencia de projecto de traços teoricos; nenhuma idade nem norma de classe com idade citada no artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "73.959 caracteres lidos; sem '28', 'day' ou 'curing' fora das referencias."
+ },
+ {
+  "row_id": 3620,
+  "pares": [
+   {
+    "sheet_row": 1067,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Tab.1 p.4: 'Mechanical strength (kg/cm2)' = 250 para o elemento de cimento/concreto",
+    "nota": "Valor nominal de tabela comparativa multi-material (fonte citada); o artigo nao diz idade nem norma."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "126.992 caracteres lidos; unica ocorrencia de 'day' e sobre medicoes termicas."
+ },
+ {
+  "row_id": 3653,
+  "pares": [
+   {
+    "sheet_row": 1068,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.2.4 p.9: 'minimum compressive strength of 20 MPa (i.e., N20 concrete) as per the Australian Standard Specifications AS13791 (Everist, 2015)'; ref.: 'AS 1379-2007 Specification and Supply of Concrete'",
+    "nota": "DUVIDOSO: o artigo nao escreve '28 dias'; a idade vem da norma citada (AS 1379: classe N20 = resistencia caracteristica aos 28 d). Se a regra exigir menção explicita no texto, passar a null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 2003,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.2.4 p.9: 'minimum compressive strength of 20 MPa (i.e., N20 concrete) as per the Australian Standard Specifications AS13791 (Everist, 2015)'; ref.: 'AS 1379-2007 Specification and Supply of Concrete'",
+    "nota": "DUVIDOSO: o artigo nao escreve '28 dias'; a idade vem da norma citada (AS 1379: classe N20 = resistencia caracteristica aos 28 d). Se a regra exigir menção explicita no texto, passar a null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 2004,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.2.4 p.9: 'minimum compressive strength of 20 MPa (i.e., N20 concrete) as per the Australian Standard Specifications AS13791 (Everist, 2015)'; ref.: 'AS 1379-2007 Specification and Supply of Concrete'",
+    "nota": "DUVIDOSO: o artigo nao escreve '28 dias'; a idade vem da norma citada (AS 1379: classe N20 = resistencia caracteristica aos 28 d). Se a regra exigir menção explicita no texto, passar a null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 2005,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.2.4 p.9: 'minimum compressive strength of 20 MPa (i.e., N20 concrete) as per the Australian Standard Specifications AS13791 (Everist, 2015)'; ref.: 'AS 1379-2007 Specification and Supply of Concrete'",
+    "nota": "DUVIDOSO: o artigo nao escreve '28 dias'; a idade vem da norma citada (AS 1379: classe N20 = resistencia caracteristica aos 28 d). Se a regra exigir menção explicita no texto, passar a null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 2006,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.2.4 p.9: 'minimum compressive strength of 20 MPa (i.e., N20 concrete) as per the Australian Standard Specifications AS13791 (Everist, 2015)'; ref.: 'AS 1379-2007 Specification and Supply of Concrete'",
+    "nota": "DUVIDOSO: o artigo nao escreve '28 dias'; a idade vem da norma citada (AS 1379: classe N20 = resistencia caracteristica aos 28 d). Se a regra exigir menção explicita no texto, passar a null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 2007,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.2.4 p.9: 'minimum compressive strength of 20 MPa (i.e., N20 concrete) as per the Australian Standard Specifications AS13791 (Everist, 2015)'; ref.: 'AS 1379-2007 Specification and Supply of Concrete'",
+    "nota": "DUVIDOSO: o artigo nao escreve '28 dias'; a idade vem da norma citada (AS 1379: classe N20 = resistencia caracteristica aos 28 d). Se a regra exigir menção explicita no texto, passar a null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 2008,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.2.4 p.9: 'minimum compressive strength of 20 MPa (i.e., N20 concrete) as per the Australian Standard Specifications AS13791 (Everist, 2015)'; ref.: 'AS 1379-2007 Specification and Supply of Concrete'",
+    "nota": "DUVIDOSO: o artigo nao escreve '28 dias'; a idade vem da norma citada (AS 1379: classe N20 = resistencia caracteristica aos 28 d). Se a regra exigir menção explicita no texto, passar a null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 2009,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.2.4 p.9: 'minimum compressive strength of 20 MPa (i.e., N20 concrete) as per the Australian Standard Specifications AS13791 (Everist, 2015)'; ref.: 'AS 1379-2007 Specification and Supply of Concrete'",
+    "nota": "DUVIDOSO: o artigo nao escreve '28 dias'; a idade vem da norma citada (AS 1379: classe N20 = resistencia caracteristica aos 28 d). Se a regra exigir menção explicita no texto, passar a null/classe_sem_idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "102.798 caracteres lidos; nenhuma ocorrencia de '28 d'/'days'."
+ },
+ {
+  "row_id": 3661,
+  "pares": [
+   {
+    "sheet_row": 1073,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.6 p.6-7: 'Concrete Grade (MPa)' 25/30/40 (hybrid LCA)",
+    "nota": "Grau de betao de projecto; sem idade nem norma de classe citada."
+   },
+   {
+    "sheet_row": 1074,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.6 p.6-7: 'Concrete Grade (MPa)' 25/30/40 (hybrid LCA)",
+    "nota": "Grau de betao de projecto; sem idade nem norma de classe citada."
+   },
+   {
+    "sheet_row": 1075,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.6 p.6-7: 'Concrete Grade (MPa)' 25/30/40 (hybrid LCA)",
+    "nota": "Grau de betao de projecto; sem idade nem norma de classe citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "64.388 caracteres lidos; sem 'cube', 'characteristic', '28' nem 'day'."
+ },
+ {
+  "row_id": 3681,
+  "pares": [
+   {
+    "sheet_row": 1078,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.3.5 p.3: 'baseline scenario with compressive strength 25 MPa contains 381 kg cement per cubic metre'; Tab.2 'compressive strength is 25 MPa'",
+    "nota": "Valor de cenario de modelo (carbonatacao); classes de exposicao XC1-XC4 citadas via Monteiro 2012, mas nenhuma norma de classe nem idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "74.758 caracteres lidos; sem 'EN 206', '28' ou 'day'."
+ },
+ {
+  "row_id": 3817,
+  "pares": [
+   {
+    "sheet_row": 1102,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.3 p.3: 'C40 grade concrete defined in Model Code 2010 ... was used'; Tab.1: 'characteristic compressive strength fck 40 MPa; fcm = fck+8 = 48 MPa'",
+    "nota": "fck caracteristico do fib Model Code 2010 (definido aos 28 d pela norma citada); o artigo nao escreve '28 dias'. Classe de projecto, sem ensaio proprio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "88.632 caracteres lidos."
+ },
+ {
+  "row_id": 3818,
+  "pares": [
+   {
+    "sheet_row": 1103,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively'",
+    "nota": "Valores citados de estudos externos sem idade; a idade so poderia vir das refs [19],[21],[35],[43] (nao lidas, fora do ambito)."
+   },
+   {
+    "sheet_row": 1104,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively'",
+    "nota": "Valores citados de estudos externos sem idade; a idade so poderia vir das refs [19],[21],[35],[43] (nao lidas, fora do ambito)."
+   },
+   {
+    "sheet_row": 1105,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively'",
+    "nota": "Valores citados de estudos externos sem idade; a idade so poderia vir das refs [19],[21],[35],[43] (nao lidas, fora do ambito)."
+   },
+   {
+    "sheet_row": 1106,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively'",
+    "nota": "Valores citados de estudos externos sem idade; a idade so poderia vir das refs [19],[21],[35],[43] (nao lidas, fora do ambito)."
+   },
+   {
+    "sheet_row": 1107,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "p.9-10: 'According to previous studies [19,21,35,43], the compressive strength of IBA-ECC, CR-ECC, LP-ECC, and RC is 48.28, 42.27, 131.0, and 40.00 MPa, respectively'",
+    "nota": "Valores citados de estudos externos sem idade; a idade so poderia vir das refs [19],[21],[35],[43] (nao lidas, fora do ambito)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "66.894 caracteres lidos; sem '28', 'day', 'curing' ou 'age'."
+ },
+ {
+  "row_id": 3828,
+  "pares": [
+   {
+    "sheet_row": 1108,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Sec.3.1.2 p.406-407 e Figs.8-9: 96(texto)/95(Fig.8), 25, 89, 106 MPa; Sec.2.2: cilindros 100x200 mm, ACI 363R, 3 repeticoes",
+    "nota": "Ensaio proprio mas o artigo nao indica idade nem regime de cura em lado nenhum (texto completo + Figs.8-9 renderizadas). Nota: o fck 96 da linha 1108 vem do texto; a Fig.8, o resumo e as conclusoes dao 95 MPa."
+   },
+   {
+    "sheet_row": 1109,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Sec.3.1.2 p.406-407 e Figs.8-9: 96(texto)/95(Fig.8), 25, 89, 106 MPa; Sec.2.2: cilindros 100x200 mm, ACI 363R, 3 repeticoes",
+    "nota": "Ensaio proprio mas o artigo nao indica idade nem regime de cura em lado nenhum (texto completo + Figs.8-9 renderizadas). Nota: o fck 96 da linha 1108 vem do texto; a Fig.8, o resumo e as conclusoes dao 95 MPa."
+   },
+   {
+    "sheet_row": 1110,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Sec.3.1.2 p.406-407 e Figs.8-9: 96(texto)/95(Fig.8), 25, 89, 106 MPa; Sec.2.2: cilindros 100x200 mm, ACI 363R, 3 repeticoes",
+    "nota": "Ensaio proprio mas o artigo nao indica idade nem regime de cura em lado nenhum (texto completo + Figs.8-9 renderizadas). Nota: o fck 96 da linha 1108 vem do texto; a Fig.8, o resumo e as conclusoes dao 95 MPa."
+   },
+   {
+    "sheet_row": 1111,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Sec.3.1.2 p.406-407 e Figs.8-9: 96(texto)/95(Fig.8), 25, 89, 106 MPa; Sec.2.2: cilindros 100x200 mm, ACI 363R, 3 repeticoes",
+    "nota": "Ensaio proprio mas o artigo nao indica idade nem regime de cura em lado nenhum (texto completo + Figs.8-9 renderizadas). Nota: o fck 96 da linha 1108 vem do texto; a Fig.8, o resumo e as conclusoes dao 95 MPa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "80.375 caracteres lidos + PDF descarregado (24 p.), paginas 406-407 renderizadas; unicas ocorrencias de '28' sao data de aceitacao, quantidade de SP e referencia."
+ },
+ {
+  "row_id": 3872,
+  "pares": [
+   {
+    "sheet_row": 1126,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.4 p.5: 'EPD for C35/45 ready mixed concrete (RMC) from Velde company ... (NEPD-2508-1250)'",
+    "nota": "DUVIDOSO: classe C35/45 de EPD; o artigo cita EN 15804 e EN 16757 mas nao EN 206 nem idade. A notacao C35/45 e da EN 206 (28 d), mas a norma nao e citada — por isso null."
+   },
+   {
+    "sheet_row": 1127,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.4 p.5: 'EPD for C35/45 ready mixed concrete (RMC) from Velde company ... (NEPD-2508-1250)'",
+    "nota": "DUVIDOSO: classe C35/45 de EPD; o artigo cita EN 15804 e EN 16757 mas nao EN 206 nem idade. A notacao C35/45 e da EN 206 (28 d), mas a norma nao e citada — por isso null."
+   },
+   {
+    "sheet_row": 1128,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.4 p.5: 'EPD for C35/45 ready mixed concrete (RMC) from Velde company ... (NEPD-2508-1250)'",
+    "nota": "DUVIDOSO: classe C35/45 de EPD; o artigo cita EN 15804 e EN 16757 mas nao EN 206 nem idade. A notacao C35/45 e da EN 206 (28 d), mas a norma nao e citada — por isso null."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (12 p.); sem '28 d'/'days' (so '50 days' de exposicao ao CO2)."
+ },
+ {
+  "row_id": 3904,
+  "pares": [
+   {
+    "sheet_row": 1136,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2 p.3: '1 m3 of concrete (C25/30) is considered as FU'; refs [23] 'DAfStb-Richtlinie Beton nach DIN EN 206-1 ...' e [30] 'Transportbetone der Druckfestigkeitsklassen C20/25, C25/30 und C30/37'",
+    "nota": "DUVIDOSO: classe C25/30 de EPD; o artigo nao escreve '28 dias', mas cita a DIN EN 206-1 (que define a classe aos 28 d) na ref.[23]. Se a regra exigir citacao mais directa, passar a null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 2016,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2 p.3: '1 m3 of concrete (C25/30) is considered as FU'; refs [23] 'DAfStb-Richtlinie Beton nach DIN EN 206-1 ...' e [30] 'Transportbetone der Druckfestigkeitsklassen C20/25, C25/30 und C30/37'",
+    "nota": "DUVIDOSO: classe C25/30 de EPD; o artigo nao escreve '28 dias', mas cita a DIN EN 206-1 (que define a classe aos 28 d) na ref.[23]. Se a regra exigir citacao mais directa, passar a null/classe_sem_idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (11 p.)."
+ }
+]

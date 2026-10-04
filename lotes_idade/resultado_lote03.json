@@ -1,0 +1,198 @@
+[
+ {
+  "row_id": 2759,
+  "pares": [
+   {
+    "sheet_row": 210,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.5 Tab.1: 'Design guidance American Concrete Institute (ACI 318-05)... Compressive strength of the concrete fck = 24 MPa'",
+    "nota": "fck=24 MPa e valor de projecto sem ensaio; o artigo nao imprime '28 dias' em lado nenhum, mas declara o projecto segundo ACI 318-05, cuja f'c especificada e definida aos 28 d. Ligacao a idade so pela norma citada."
+   },
+   {
+    "sheet_row": 211,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.5 Tab.1 (mesma especificacao, ACI 318-05)",
+    "nota": "fck=24 MPa e valor de projecto sem ensaio; o artigo nao imprime '28 dias' em lado nenhum, mas declara o projecto segundo ACI 318-05, cuja f'c especificada e definida aos 28 d. Ligacao a idade so pela norma citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "59.191 caracteres lidos na integra; sem ensaio proprio de resistencia."
+ },
+ {
+  "row_id": 2760,
+  "pares": [
+   {
+    "sheet_row": 212,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.7 Tab.3 'fck = 24 (All storeys)'; texto: projecto segundo 'Structural Concrete Design Code and Commentary by the Korea Concrete Institute [49] and ACI 318-05 [50]'",
+    "nota": "fck=24 MPa de projecto sem ensaio; projecto segundo o codigo KCI e ACI 318-05 (f'c especificada aos 28 d). O artigo nao imprime '28 dias'."
+   },
+   {
+    "sheet_row": 213,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.7 Tab.3 'fck = 24 (All storeys)'; texto: projecto segundo 'Structural Concrete Design Code and Commentary by the Korea Concrete Institute [49] and ACI 318-05 [50]'",
+    "nota": "fck=24 MPa de projecto sem ensaio; projecto segundo o codigo KCI e ACI 318-05 (f'c especificada aos 28 d). O artigo nao imprime '28 dias'."
+   },
+   {
+    "sheet_row": 214,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.7 Tab.3 'fck = 24 (All storeys)'; texto: projecto segundo 'Structural Concrete Design Code and Commentary by the Korea Concrete Institute [49] and ACI 318-05 [50]'",
+    "nota": "fck=24 MPa de projecto sem ensaio; projecto segundo o codigo KCI e ACI 318-05 (f'c especificada aos 28 d). O artigo nao imprime '28 dias'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "67.934 caracteres lidos na integra; sem ensaio proprio."
+ },
+ {
+  "row_id": 2766,
+  "pares": [
+   {
+    "sheet_row": 220,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.3 sec.3.1: 'The beam is made of concrete class C25/30'; Tab. de inventario: 'Concrete C25/30 ... EPD S-P-05207'",
+    "nota": "Classe de projecto sem ensaio. O artigo nao cita EN 206 nem EN 1992 (so LNEC E460 para o aco e EN 15804 para EPD) e nao menciona idade."
+   },
+   {
+    "sheet_row": 221,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.3 sec.3.1: 'The beam is made of concrete class C25/30'; Tab. de inventario: 'Concrete C25/30 ... EPD S-P-05207'",
+    "nota": "Classe de projecto sem ensaio. O artigo nao cita EN 206 nem EN 1992 (so LNEC E460 para o aco e EN 15804 para EPD) e nao menciona idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "74.355 caracteres lidos na integra."
+ },
+ {
+  "row_id": 2771,
+  "pares": [
+   {
+    "sheet_row": 222,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.3: 'The nomenclature for concrete strength from the Eurocode consists of a capital C followed by two compressive strengths, one measured using concrete cylinder ... the other using concrete cube specimens (e.g., C25/30) [15]' ([15] = NEN-EN 206+NEN 8005:2017); estacas C20/25 'complying with NEN-EN 1536'; vigas segundo NEN-EN 1992-1-1 [28]; Tab.4 alternativa 11-V305-20/P3.400",
+    "nota": "Classe de projecto sem ensaio; o artigo nao imprime '28 dias' mas cita NEN-EN 206 e NEN-EN 1992-1-1 (fck definido aos 28 d). Nota: a alternativa mistura C20/25 (estacas) e C40/50 (vigas pre-fabricadas); o fck gravado (20) e so o das estacas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "67.531 caracteres lidos na integra."
+ },
+ {
+  "row_id": 2785,
+  "pares": [
+   {
+    "sheet_row": 226,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.19-20 impressa: 'when assuming a constant compression strength of 35 N/mm2'; resistencia e variavel da base IVE ('compressive strength (in N/mm2)'); EHE-08 [34] citado para relacao a/c minima e densidade",
+    "nota": "35 N/mm2 e um valor de hipotese de calculo da regressao (classe de resistencia de betao pronto), sem ensaio. O artigo cita EHE-08, mas so para requisitos de durabilidade (a/c, resistencia minima) e densidade, nunca ligando a resistencia a uma idade. Se a Kie aceitar a EHE-08 como norma que define fck aos 28 d, poderia passar a 28 (classe_28d_declarada), mas a ligacao e fraca."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "75.425 caracteres lidos na integra (post-print)."
+ },
+ {
+  "row_id": 2786,
+  "pares": [
+   {
+    "sheet_row": 227,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.5: 'the production process of reinforced concrete is modelled according to the \"Concrete 40 MPa, 30% fly ash, at the batching plant\" in the AusLCI database'",
+    "nota": "Classe de catalogo AusLCI sem ensaio; nenhuma norma de betao (AS 3600/AS 1379) citada, nenhuma idade mencionada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "84.673 caracteres lidos na integra."
+ },
+ {
+  "row_id": 2794,
+  "pares": [
+   {
+    "sheet_row": 228,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.5 Tab.2 coluna f'c (MPa)=25; texto: 'the first is a concrete beam designed according to ACI 318R-14 (ACI 318-14, 2014)'",
+    "nota": "f'c=25 MPa de projecto sem ensaio; ligacao a 28 d so via ACI 318-14 (f'c especificada aos 28 d). As unicas idades no artigo (14, 28, 90 d) sao da revisao de literatura sobre agua do mar, nao do valor gravado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "76.498 caracteres lidos na integra."
+ },
+ {
+  "row_id": 2801,
+  "pares": [
+   {
+    "sheet_row": 234,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.79 Tab.11: 'Concreto C20 0,094 m3 230,68 kg'; texto: 'Para o processo produtivo do concreto C20 foi encontrado um dado alemao'",
+    "nota": "Classe C20 sem ensaio; nenhuma norma de betao (NBR 8953/6118) citada no texto e nenhuma ocorrencia de 'MPa', 'fck' ou '28 dias'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Dissertacao, 227.927 caracteres; o texto extraido chega ao apendice final da p.138 (questionario de checagem ACV), sem sinal de truncagem."
+ },
+ {
+  "row_id": 2854,
+  "pares": [
+   {
+    "sheet_row": 239,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.4 (2416 impressa): 'All the structural options assessed were designed and verified according to the Eurocode's rules'; Tab.4 (p.2418): 'Ready-mix concrete C30/37' (One Click LCA)",
+    "nota": "Classe EN 206 de dados genericos One Click LCA, sem ensaio; o artigo nao imprime '28 dias' nem cita EN 206/EN 1992 pelo numero, so 'Eurocode's rules' de forma generica. Ligacao a 28 d fraca; a Kie pode preferir null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 240,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.4 (2416 impressa): 'All the structural options assessed were designed and verified according to the Eurocode's rules'; Tab.4 (p.2418): 'Ready-mix concrete C40/50' (One Click LCA)",
+    "nota": "Classe EN 206 de dados genericos One Click LCA, sem ensaio; o artigo nao imprime '28 dias' nem cita EN 206/EN 1992 pelo numero, so 'Eurocode's rules' de forma generica. Ligacao a 28 d fraca; a Kie pode preferir null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 241,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.4 (2416 impressa): 'All the structural options assessed were designed and verified according to the Eurocode's rules'; Tab.4 (p.2418): 'Ready-mix concrete C50/60' (One Click LCA)",
+    "nota": "Classe EN 206 de dados genericos One Click LCA, sem ensaio; o artigo nao imprime '28 dias' nem cita EN 206/EN 1992 pelo numero, so 'Eurocode's rules' de forma generica. Ligacao a 28 d fraca; a Kie pode preferir null/classe_sem_idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 8 paginas lido na integra."
+ },
+ {
+  "row_id": 2899,
+  "pares": [
+   {
+    "sheet_row": 242,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "p.2-3: 'The authors previously developed ... non-proprietary UHPC mixtures with local materials, achieving over 150 MPa (22 ksi) compressive strength ... [33]'",
+    "nota": "O '>150 MPa' e um valor generico citado de trabalho anterior dos autores [33], sem idade associada. O artigo so tem a Fig.8 (resistividade vs resistencia a varias idades de cura, sem rotulo de idade por ponto) e nao tem resistencia por mistura nem aos 28 d."
+   },
+   {
+    "sheet_row": 243,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "p.2-3: 'The authors previously developed ... non-proprietary UHPC mixtures with local materials, achieving over 150 MPa (22 ksi) compressive strength ... [33]'",
+    "nota": "O '>150 MPa' e um valor generico citado de trabalho anterior dos autores [33], sem idade associada. O artigo so tem a Fig.8 (resistividade vs resistencia a varias idades de cura, sem rotulo de idade por ponto) e nao tem resistencia por mistura nem aos 28 d."
+   },
+   {
+    "sheet_row": 244,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "p.2-3: 'The authors previously developed ... non-proprietary UHPC mixtures with local materials, achieving over 150 MPa (22 ksi) compressive strength ... [33]'",
+    "nota": "O '>150 MPa' e um valor generico citado de trabalho anterior dos autores [33], sem idade associada. O artigo so tem a Fig.8 (resistividade vs resistencia a varias idades de cura, sem rotulo de idade por ponto) e nao tem resistencia por mistura nem aos 28 d."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "89.247 caracteres lidos na integra; 28 d aparece so para absorcao e resistividade, nao para resistencia a compressao."
+ }
+]

@@ -1,0 +1,240 @@
+[
+ {
+  "row_id": 2653,
+  "pares": [
+   {
+    "sheet_row": 116,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Sec.2.2.2 p.4: 'According to the data collected at the industrial demonstrator, the carbonated blocks present a compressive strength of 43 MPa'",
+    "nota": "Blocos curados em autoclave com CO2 (5 bar) e 'immediately ready to be commercialised'; nenhuma idade/duracao de cura em texto, Tab.3, Fig.2-4 (vistas renderizadas)."
+   },
+   {
+    "sheet_row": 117,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Sec.2.2.2 p.4: 'According to the data collected at the industrial demonstrator, the carbonated blocks present a compressive strength of 43 MPa'",
+    "nota": "Blocos curados em autoclave com CO2 (5 bar) e 'immediately ready to be commercialised'; nenhuma idade/duracao de cura em texto, Tab.3, Fig.2-4 (vistas renderizadas)."
+   },
+   {
+    "sheet_row": 118,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Sec.2.2.2 p.4: 'According to the data collected at the industrial demonstrator, the carbonated blocks present a compressive strength of 43 MPa'",
+    "nota": "Blocos curados em autoclave com CO2 (5 bar) e 'immediately ready to be commercialised'; nenhuma idade/duracao de cura em texto, Tab.3, Fig.2-4 (vistas renderizadas)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "43 MPa e dado do demonstrador industrial (mesmo valor para S1-S3); sem idade de ensaio no artigo."
+ },
+ {
+  "row_id": 2672,
+  "pares": [
+   {
+    "sheet_row": 144,
+    "idade_dias": 7,
+    "tipo": "ensaio",
+    "citacao": "p.87 (PDF p.89), Fig.25 'AAMs paste mechanical performance': NH, 7d, 23.07 ± 0.90 MPa",
+    "nota": "fck gravado (23.07) e a mistura de referencia NH aos 7 d. Aos 28 d a mesma mistura NH tem 46.44 ± 1.71 MPa (Fig.25 e Tab.13, usada na ecoeficiencia). O par descreve 'conjunto de 7 misturas'; os valores aos 28 d das 7 misturas: NH 46.44, NH-SS1.0 75.87, NH-SS1.5 97.21, NH-SS2.0 90.38, NH-BLA1.0 77.45, NH-BLA1.5 86.35, NH-BLA2.0 61.00."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "read_file_content truncou (~p.78, armadilha n.7); texto completo (135 p.) obtido por download_file_content + pymupdf."
+ },
+ {
+  "row_id": 2680,
+  "pares": [
+   {
+    "sheet_row": 146,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.2.2: 'concrete with a specified compressive strength of 28 MPa for all structural elements'; Tab.1 'Concrete, 28 MPa'",
+    "nota": "Resistencia especificada de projecto, sem idade no artigo. Projecto segundo NEC-15 (Equador) citada [28] para cargas gravitacionais/sismicas; o artigo nao liga a NEC-15 a idade do f'c. Se se aceitar a definicao da NEC-15/ACI (f'c aos 28 d), seria 28."
+   },
+   {
+    "sheet_row": 147,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.2.2: 'concrete with a specified compressive strength of 28 MPa for all structural elements'; Tab.1 'Concrete, 28 MPa'",
+    "nota": "Resistencia especificada de projecto, sem idade no artigo. Projecto segundo NEC-15 (Equador) citada [28] para cargas gravitacionais/sismicas; o artigo nao liga a NEC-15 a idade do f'c. Se se aceitar a definicao da NEC-15/ACI (f'c aos 28 d), seria 28."
+   },
+   {
+    "sheet_row": 148,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.2.2: 'concrete with a specified compressive strength of 28 MPa for all structural elements'; Tab.1 'Concrete, 28 MPa'",
+    "nota": "Resistencia especificada de projecto, sem idade no artigo. Projecto segundo NEC-15 (Equador) citada [28] para cargas gravitacionais/sismicas; o artigo nao liga a NEC-15 a idade do f'c. Se se aceitar a definicao da NEC-15/ACI (f'c aos 28 d), seria 28."
+   },
+   {
+    "sheet_row": 149,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.2.2: 'concrete with a specified compressive strength of 28 MPa for all structural elements'; Tab.1 'Concrete, 28 MPa'",
+    "nota": "Resistencia especificada de projecto, sem idade no artigo. Projecto segundo NEC-15 (Equador) citada [28] para cargas gravitacionais/sismicas; o artigo nao liga a NEC-15 a idade do f'c. Se se aceitar a definicao da NEC-15/ACI (f'c aos 28 d), seria 28."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2699,
+  "pares": [
+   {
+    "sheet_row": 150,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.5.1: '1 m3 concrete of 24 MPa strength level stemming from a batch plant located in Gyeonggi-do'",
+    "nota": "Nivel de resistencia nominal do betao do caso CLAS; nenhuma idade nem norma de resistencia citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2703,
+  "pares": [
+   {
+    "sheet_row": 154,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.11 (p.9) 'Strength (MPa) 24 ... Same' para os 5 casos; Tab.3 'Target performance: Compressive strength 24 MPa', medicao a 1, 3, 7, 28 d",
+    "nota": "24 MPa e alvo de projecto sem idade associada. Ensaios proprios (Tab.4, KS F 2405, cilindros 100x200 mm), aos 28 d: OPC 29.6; OPC+BFS(30%) 33.2; OPC+W-BFS(30%) 38.6 MPa (correspondem em composicao ao Caso 1, Caso 5 e Caso 4; Casos 2-3 a 10% nao foram ensaiados)."
+   },
+   {
+    "sheet_row": 155,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.11 (p.9) 'Strength (MPa) 24 ... Same' para os 5 casos; Tab.3 'Target performance: Compressive strength 24 MPa', medicao a 1, 3, 7, 28 d",
+    "nota": "24 MPa e alvo de projecto sem idade associada. Ensaios proprios (Tab.4, KS F 2405, cilindros 100x200 mm), aos 28 d: OPC 29.6; OPC+BFS(30%) 33.2; OPC+W-BFS(30%) 38.6 MPa (correspondem em composicao ao Caso 1, Caso 5 e Caso 4; Casos 2-3 a 10% nao foram ensaiados)."
+   },
+   {
+    "sheet_row": 156,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.11 (p.9) 'Strength (MPa) 24 ... Same' para os 5 casos; Tab.3 'Target performance: Compressive strength 24 MPa', medicao a 1, 3, 7, 28 d",
+    "nota": "24 MPa e alvo de projecto sem idade associada. Ensaios proprios (Tab.4, KS F 2405, cilindros 100x200 mm), aos 28 d: OPC 29.6; OPC+BFS(30%) 33.2; OPC+W-BFS(30%) 38.6 MPa (correspondem em composicao ao Caso 1, Caso 5 e Caso 4; Casos 2-3 a 10% nao foram ensaiados)."
+   },
+   {
+    "sheet_row": 157,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.11 (p.9) 'Strength (MPa) 24 ... Same' para os 5 casos; Tab.3 'Target performance: Compressive strength 24 MPa', medicao a 1, 3, 7, 28 d",
+    "nota": "24 MPa e alvo de projecto sem idade associada. Ensaios proprios (Tab.4, KS F 2405, cilindros 100x200 mm), aos 28 d: OPC 29.6; OPC+BFS(30%) 33.2; OPC+W-BFS(30%) 38.6 MPa (correspondem em composicao ao Caso 1, Caso 5 e Caso 4; Casos 2-3 a 10% nao foram ensaiados)."
+   },
+   {
+    "sheet_row": 158,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.11 (p.9) 'Strength (MPa) 24 ... Same' para os 5 casos; Tab.3 'Target performance: Compressive strength 24 MPa', medicao a 1, 3, 7, 28 d",
+    "nota": "24 MPa e alvo de projecto sem idade associada. Ensaios proprios (Tab.4, KS F 2405, cilindros 100x200 mm), aos 28 d: OPC 29.6; OPC+BFS(30%) 33.2; OPC+W-BFS(30%) 38.6 MPa (correspondem em composicao ao Caso 1, Caso 5 e Caso 4; Casos 2-3 a 10% nao foram ensaiados)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Ha valores medidos aos 28 d para os casos 1, 4 e 5 (ver nota) — nao alterar fck sem decisao."
+ },
+ {
+  "row_id": 2738,
+  "pares": [
+   {
+    "sheet_row": 171,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.8 assuncoes de projecto: 'Concrete compressive strength, f'c = 21 MPa'; Tab.1 '21 MPa concrete'; dimensionamento segundo ACI 318-14 (citado no texto: Mn >= 1.2Mcr; armadura minima 0.33%)",
+    "nota": "VIA NORMA CITADA: o artigo nao escreve '28 d'; a idade vem da definicao da norma de projecto citada no artigo. Confianca media - rever se a regra exigir declaracao literal. ACI 318 define f'c como resistencia especificada aos 28 d."
+   },
+   {
+    "sheet_row": 172,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.8 assuncoes de projecto: 'Concrete compressive strength, f'c = 21 MPa'; Tab.1 '21 MPa concrete'; dimensionamento segundo ACI 318-14 (citado no texto: Mn >= 1.2Mcr; armadura minima 0.33%)",
+    "nota": "VIA NORMA CITADA: o artigo nao escreve '28 d'; a idade vem da definicao da norma de projecto citada no artigo. Confianca media - rever se a regra exigir declaracao literal. ACI 318 define f'c como resistencia especificada aos 28 d."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2739,
+  "pares": [
+   {
+    "sheet_row": 173,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1/Tab.2: 'Concrete HP-40'; texto p.7 'two types of concrete ... with 30 and 40 MPa strengths'; EHE-08 citada [47]",
+    "nota": "VIA NORMA CITADA: o artigo nao escreve '28 d'; a idade vem da definicao da norma de projecto citada no artigo. Confianca media - rever se a regra exigir declaracao literal. HP-40 e a tipificacao EHE-08 (fck caracteristico aos 28 d); a EHE-08 e citada no artigo, mas a proposito do agregado reciclado, nao da resistencia."
+   },
+   {
+    "sheet_row": 174,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1/Tab.2: 'Concrete HP-40'; texto p.7 'two types of concrete ... with 30 and 40 MPa strengths'; EHE-08 citada [47]",
+    "nota": "VIA NORMA CITADA: o artigo nao escreve '28 d'; a idade vem da definicao da norma de projecto citada no artigo. Confianca media - rever se a regra exigir declaracao literal. HP-40 e a tipificacao EHE-08 (fck caracteristico aos 28 d); a EHE-08 e citada no artigo, mas a proposito do agregado reciclado, nao da resistencia."
+   },
+   {
+    "sheet_row": 175,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1/Tab.2: 'Concrete HP-40'; texto p.7 'two types of concrete ... with 30 and 40 MPa strengths'; EHE-08 citada [47]",
+    "nota": "VIA NORMA CITADA: o artigo nao escreve '28 d'; a idade vem da definicao da norma de projecto citada no artigo. Confianca media - rever se a regra exigir declaracao literal. HP-40 e a tipificacao EHE-08 (fck caracteristico aos 28 d); a EHE-08 e citada no artigo, mas a proposito do agregado reciclado, nao da resistencia."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2741,
+  "pares": [
+   {
+    "sheet_row": 177,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.2/Tab.3: 'Concrete C40/50' (PCSS/PCLS/PCBG) e 'C30/37' (CBG); EHE-08 citada [44]",
+    "nota": "VIA NORMA CITADA: o artigo nao escreve '28 d'; a idade vem da definicao da norma de projecto citada no artigo. Confianca media - rever se a regra exigir declaracao literal. Notacao de classe C40/50 (EN 206/Eurocodigo: fck cilindro/cubo aos 28 d); EN 206 nao e citada, so a EHE-08 (a proposito do agregado reciclado). Confianca mais baixa que 2739."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2745,
+  "pares": [
+   {
+    "sheet_row": 178,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.1: 'the desired compressive strength at 28 days is not compromised [14,43]'; Sec.2.2.1 FU: '1 m of beam ... composed of concrete with 60 MPa of compressive strength'",
+    "nota": "60 MPa e a resistencia desejada (de dosagem) aos 28 d; nao ha valor medido impresso no artigo."
+   },
+   {
+    "sheet_row": 179,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.1: 'the desired compressive strength at 28 days is not compromised [14,43]'; Sec.2.2.1 FU: '1 m of beam ... composed of concrete with 60 MPa of compressive strength'",
+    "nota": "60 MPa e a resistencia desejada (de dosagem) aos 28 d; nao ha valor medido impresso no artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2758,
+  "pares": [
+   {
+    "sheet_row": 208,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2 p.6: 'designed in accordance with the Korean Building Code [37], while the ACI 318-05 ... [38] ... were also referenced. The materials applied to both slabs were ready-mixed concrete with 25 MPa compressive strength'",
+    "nota": "VIA NORMA CITADA: o artigo nao escreve '28 d'; a idade vem da definicao da norma de projecto citada no artigo. Confianca media - rever se a regra exigir declaracao literal. ACI 318-05 (e KBC) definem f'c aos 28 d."
+   },
+   {
+    "sheet_row": 209,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2 p.6: 'designed in accordance with the Korean Building Code [37], while the ACI 318-05 ... [38] ... were also referenced. The materials applied to both slabs were ready-mixed concrete with 25 MPa compressive strength'",
+    "nota": "VIA NORMA CITADA: o artigo nao escreve '28 d'; a idade vem da definicao da norma de projecto citada no artigo. Confianca media - rever se a regra exigir declaracao literal. ACI 318-05 (e KBC) definem f'c aos 28 d."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ }
+]
