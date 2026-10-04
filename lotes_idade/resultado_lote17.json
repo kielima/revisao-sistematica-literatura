@@ -1,0 +1,247 @@
+[
+ {
+  "row_id": 4786,
+  "pares": [
+   {
+    "sheet_row": 1782,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.3 p.6 'Consumption of key building materials and carbon emission factors' (Concrete C20/C25/C30/C35/C50)",
+    "nota": "Classe de projecto chinesa sem idade no texto; nenhuma norma de resistencia citada (as GB citadas sao de energia/hospitais/factores de emissao). Sem ocorrencias de '28 d'/'days' ligadas ao betao."
+   },
+   {
+    "sheet_row": 1783,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.3 p.6 'Consumption of key building materials and carbon emission factors' (Concrete C20/C25/C30/C35/C50)",
+    "nota": "Classe de projecto chinesa sem idade no texto; nenhuma norma de resistencia citada (as GB citadas sao de energia/hospitais/factores de emissao). Sem ocorrencias de '28 d'/'days' ligadas ao betao."
+   },
+   {
+    "sheet_row": 1784,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.3 p.6 'Consumption of key building materials and carbon emission factors' (Concrete C20/C25/C30/C35/C50)",
+    "nota": "Classe de projecto chinesa sem idade no texto; nenhuma norma de resistencia citada (as GB citadas sao de energia/hospitais/factores de emissao). Sem ocorrencias de '28 d'/'days' ligadas ao betao."
+   },
+   {
+    "sheet_row": 1785,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.3 p.6 'Consumption of key building materials and carbon emission factors' (Concrete C20/C25/C30/C35/C50)",
+    "nota": "Classe de projecto chinesa sem idade no texto; nenhuma norma de resistencia citada (as GB citadas sao de energia/hospitais/factores de emissao). Sem ocorrencias de '28 d'/'days' ligadas ao betao."
+   },
+   {
+    "sheet_row": 1786,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.3 p.6 'Consumption of key building materials and carbon emission factors' (Concrete C20/C25/C30/C35/C50)",
+    "nota": "Classe de projecto chinesa sem idade no texto; nenhuma norma de resistencia citada (as GB citadas sao de energia/hospitais/factores de emissao). Sem ocorrencias de '28 d'/'days' ligadas ao betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "66.073 caracteres lidos (artigo completo, 19 p.)."
+ },
+ {
+  "row_id": 4789,
+  "pares": [
+   {
+    "sheet_row": 1787,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.2 p.7 'Bill of material quantities': 'Concrete 40 MPa'",
+    "nota": "Classe de projecto (EPD medio Boral/Barro/Adbri); nenhuma idade no texto. AS3600:2018 [56] e citada so para a massa volumica (~2400 kg/m3), nao para a resistencia."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "71.463 caracteres lidos (artigo completo)."
+ },
+ {
+  "row_id": 4806,
+  "pares": [
+   {
+    "sheet_row": 1792,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4: 'its nominal cylinder compressive strength is considered equal to 30 MPa, which can be achieved via the concrete mix design as in the study conducted by Georgantzia et al. [19]'; Tab.2 fc=30",
+    "nota": "Valor nominal assumido, sem ensaio nem idade no texto. DUVIDOSO: o fc entra no calculo de resistencia pelo Eurocode 4 (EN 1994-1-1 [24]), que remete para EN 1992-1-1 (fck aos 28 d) - seria 'VIA NORMA CITADA: EN 1994-1-1 -> EN 1992-1-1' por cadeia de normas; o artigo nunca escreve 28 d. Deixado null por prudencia; decisao da Kie."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "65.059 caracteres lidos (artigo completo)."
+ },
+ {
+  "row_id": 4815,
+  "pares": [
+   {
+    "sheet_row": 1798,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Seccao 2 p.~6: 'Compressive strength tests were carried out on cubic samples ... or cylinders ... at 28 days and at various times from casting ... For the assessments in this paper, the cylinder concrete strength at 28 days is considered'; Seccao 3.2 p.13 (valor 72.9 MPa)",
+    "nota": "TEXTO: 'cylinder concrete strength at 28 days is considered'. Base compilada de 580 misturas de terceiros; cubos convertidos para cilindro pelo factor do Eurocode 2. Cura ambiente (25+-5 C)."
+   },
+   {
+    "sheet_row": 1799,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Seccao 2 p.~6: 'Compressive strength tests were carried out on cubic samples ... or cylinders ... at 28 days and at various times from casting ... For the assessments in this paper, the cylinder concrete strength at 28 days is considered'; Seccao 3.2 p.13 (valor ~70 MPa)",
+    "nota": "TEXTO: 'cylinder concrete strength at 28 days is considered'. Base compilada de 580 misturas de terceiros; cubos convertidos para cilindro pelo factor do Eurocode 2. Cura ambiente (25+-5 C)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "87.197 caracteres lidos (artigo completo). O valor 70 MPa (1799) e aproximado no proprio texto ('around 70 MPa')."
+ },
+ {
+  "row_id": 4822,
+  "pares": [
+   {
+    "sheet_row": 1803,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Resumo e Introducao: '50:50 sand-recycled polycarbonate (rPC) composites have an average compressive strength of 71 MPa' [31] (Woods et al. 2023); ensaio ASTM D695",
+    "nota": "Composito termoplastico (areia+policarbonato reciclado) moldado a quente: nao ha cura nem idade de ensaio; o artigo nao declara idade. Valor citado do estudo anterior da mesma equipa [31]."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "77.576 caracteres lidos (artigo completo). Idade nao aplicavel a um polimero termoplastico."
+ },
+ {
+  "row_id": 4836,
+  "pares": [
+   {
+    "sheet_row": 1805,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1 p.3-4: 'Functional unit: 50 MPa ready-mixed concrete 1-m3 production' / '24 MPa ready-mixed concrete 1-m3'; designacoes '25-50-150' e '25-24-150'",
+    "nota": "Classe/unidade funcional do produto (designacao coreana de betao pronto agregado-resistencia-abaixamento); nenhuma idade no texto. A norma coreana de betao pronto (KS F 4009) nao e citada; so KS F 4735 para outro produto. Nao presumido 28 d."
+   },
+   {
+    "sheet_row": 1806,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1 p.3-4: 'Functional unit: 50 MPa ready-mixed concrete 1-m3 production' / '24 MPa ready-mixed concrete 1-m3'; designacoes '25-50-150' e '25-24-150'",
+    "nota": "Classe/unidade funcional do produto (designacao coreana de betao pronto agregado-resistencia-abaixamento); nenhuma idade no texto. A norma coreana de betao pronto (KS F 4009) nao e citada; so KS F 4735 para outro produto. Nao presumido 28 d."
+   },
+   {
+    "sheet_row": 1807,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1 p.3-4: 'Functional unit: 50 MPa ready-mixed concrete 1-m3 production' / '24 MPa ready-mixed concrete 1-m3'; designacoes '25-50-150' e '25-24-150'",
+    "nota": "Classe/unidade funcional do produto (designacao coreana de betao pronto agregado-resistencia-abaixamento); nenhuma idade no texto. A norma coreana de betao pronto (KS F 4009) nao e citada; so KS F 4735 para outro produto. Nao presumido 28 d."
+   },
+   {
+    "sheet_row": 1808,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1 p.3-4: 'Functional unit: 50 MPa ready-mixed concrete 1-m3 production' / '24 MPa ready-mixed concrete 1-m3'; designacoes '25-50-150' e '25-24-150'",
+    "nota": "Classe/unidade funcional do produto (designacao coreana de betao pronto agregado-resistencia-abaixamento); nenhuma idade no texto. A norma coreana de betao pronto (KS F 4009) nao e citada; so KS F 4735 para outro produto. Nao presumido 28 d."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "56.606 caracteres lidos (artigo completo)."
+ },
+ {
+  "row_id": 4837,
+  "pares": [
+   {
+    "sheet_row": 1809,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4-5 e Tab.1: 'concrete compressive strengths of the vertical members ... classified into four segments: 35 MPa ... 30 MPa ... 27 MPa ... 24 MPa'; alternativa 24/30/40/50 MPa; Tab.3/4 factores por classe",
+    "nota": "Resistencias de projecto por segmento de pisos; nenhuma idade no texto e nenhuma norma de resistencia citada."
+   },
+   {
+    "sheet_row": 1810,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4-5 e Tab.1: 'concrete compressive strengths of the vertical members ... classified into four segments: 35 MPa ... 30 MPa ... 27 MPa ... 24 MPa'; alternativa 24/30/40/50 MPa; Tab.3/4 factores por classe",
+    "nota": "Resistencias de projecto por segmento de pisos; nenhuma idade no texto e nenhuma norma de resistencia citada."
+   },
+   {
+    "sheet_row": 1811,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4-5 e Tab.1: 'concrete compressive strengths of the vertical members ... classified into four segments: 35 MPa ... 30 MPa ... 27 MPa ... 24 MPa'; alternativa 24/30/40/50 MPa; Tab.3/4 factores por classe",
+    "nota": "Resistencias de projecto por segmento de pisos; nenhuma idade no texto e nenhuma norma de resistencia citada."
+   },
+   {
+    "sheet_row": 1812,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4-5 e Tab.1: 'concrete compressive strengths of the vertical members ... classified into four segments: 35 MPa ... 30 MPa ... 27 MPa ... 24 MPa'; alternativa 24/30/40/50 MPa; Tab.3/4 factores por classe",
+    "nota": "Resistencias de projecto por segmento de pisos; nenhuma idade no texto e nenhuma norma de resistencia citada."
+   },
+   {
+    "sheet_row": 1813,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4-5 e Tab.1: 'concrete compressive strengths of the vertical members ... classified into four segments: 35 MPa ... 30 MPa ... 27 MPa ... 24 MPa'; alternativa 24/30/40/50 MPa; Tab.3/4 factores por classe",
+    "nota": "Resistencias de projecto por segmento de pisos; nenhuma idade no texto e nenhuma norma de resistencia citada."
+   },
+   {
+    "sheet_row": 1814,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4-5 e Tab.1: 'concrete compressive strengths of the vertical members ... classified into four segments: 35 MPa ... 30 MPa ... 27 MPa ... 24 MPa'; alternativa 24/30/40/50 MPa; Tab.3/4 factores por classe",
+    "nota": "Resistencias de projecto por segmento de pisos; nenhuma idade no texto e nenhuma norma de resistencia citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "49.413 caracteres lidos (artigo completo)."
+ },
+ {
+  "row_id": 4841,
+  "pares": [
+   {
+    "sheet_row": 1815,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1 p.4: 'Concrete grade 25' (substructure, frame, upper floor, stairs)",
+    "nota": "Designacao de projecto; nenhuma idade nem norma de resistencia citada no artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo completo lido (15 p.)."
+ },
+ {
+  "row_id": 4846,
+  "pares": [
+   {
+    "sheet_row": 1817,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.12 Seccao 3.2: 'The first solution was built with concrete of 35 MPa ... The second solution was built with concrete of 50 MPa'; Tab.1 'Strength (MPa) 35 / 50'",
+    "nota": "Resistencia de projecto sem idade no texto. EN 206-1 [46] e citada so para a dosagem pela classe de exposicao XC-4, nao para a resistencia; nao presumido 28 d (possivel 'VIA NORMA CITADA: EN 206-1' se a Kie aceitar essa ligacao)."
+   },
+   {
+    "sheet_row": 1818,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.12 Seccao 3.2: 'The first solution was built with concrete of 35 MPa ... The second solution was built with concrete of 50 MPa'; Tab.1 'Strength (MPa) 35 / 50'",
+    "nota": "Resistencia de projecto sem idade no texto. EN 206-1 [46] e citada so para a dosagem pela classe de exposicao XC-4, nao para a resistencia; nao presumido 28 d (possivel 'VIA NORMA CITADA: EN 206-1' se a Kie aceitar essa ligacao)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "72.799 caracteres lidos (artigo completo)."
+ },
+ {
+  "row_id": 4847,
+  "pares": [
+   {
+    "sheet_row": 1819,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.5 p.11 'Concrete mix design for target building' (18/24/30 MPa) e Tab.6/Seccao 5.3: 'concrete products ... which had strengths of 18, 24, and 30 MPa'",
+    "nota": "Classes nominais de betao pronto; nenhuma idade no texto nem norma de resistencia citada."
+   },
+   {
+    "sheet_row": 1820,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.5 p.11 'Concrete mix design for target building' (18/24/30 MPa) e Tab.6/Seccao 5.3: 'concrete products ... which had strengths of 18, 24, and 30 MPa'",
+    "nota": "Classes nominais de betao pronto; nenhuma idade no texto nem norma de resistencia citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo completo lido (14 p.)."
+ }
+]

@@ -1,0 +1,205 @@
+[
+ {
+  "row_id": 3321,
+  "texto_completo_lido": true,
+  "notas": "Valores de fc da Tabela 1 compilados da literatura; o artigo declara que todos se referem a cilindros aos 28 d.",
+  "pares": [
+   {
+    "sheet_row": 958,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Sec.2 p.4: 'all strengths refer to experimental values obtained from tests on cylinders (fc,cyl) at 28 days'; Tab.1 C100-S0-RA0-H-F36 = 36.6",
+    "nota": "Ensaio da fonte (Aiello & Leuzzi 2010); se so havia cubo, factor 0,8 aplicado pelos autores."
+   },
+   {
+    "sheet_row": 959,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Mesma frase (p.4); Tab.1 C75-S25-R0-H-F36 = 36.3",
+    "nota": "Fonte Jau et al. 2004."
+   },
+   {
+    "sheet_row": 960,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Mesma frase (p.4); Tab.1 C75-S25-R50-H-F36* = 36.5",
+    "nota": "Valor interpolado linearmente pelos autores a partir de misturas de Dimitriou 2018 aos 28 d."
+   }
+  ]
+ },
+ {
+  "row_id": 3327,
+  "texto_completo_lido": true,
+  "notas": "Ensaios a 3/7/14/28/56 d (cilindros ASTM C39). fck gravado e o alvo de projecto.",
+  "pares": [
+   {
+    "sheet_row": 961,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.1: 'target the conventional concrete of 28 MPa'; Sec.4: '28-day concrete strengths with 20 % FA and 10 % SF were comparable to the target strength of 28 MPa'",
+    "nota": "28 MPa e alvo, nao valor medido. O valor medido do controlo aos 28 d existe so nas Figs.4/6 (nao impresso em texto); figura nao renderizada (download do PDF falhou: ligacao MCP fechada)."
+   }
+  ]
+ },
+ {
+  "row_id": 3331,
+  "texto_completo_lido": true,
+  "notas": "Estudo de projecto (colunas de hotel), sem ensaio.",
+  "pares": [
+   {
+    "sheet_row": 968,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.2: 'Concrete compressive strength (fc) 30 MPa'; desenho 'as per SBC302'",
+    "nota": "Nenhuma idade nem definicao a 28 d no texto; SBC302 citada so para armadura/estribos."
+   }
+  ]
+ },
+ {
+  "row_id": 3409,
+  "texto_completo_lido": true,
+  "notas": "",
+  "pares": [
+   {
+    "sheet_row": 991,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.3: 'concrete, 35 MPa' (processo de inventario)",
+    "nota": "Desenho por CSA S6-14, mas o 35 MPa so aparece como nome do processo de inventario; sem idade."
+   }
+  ]
+ },
+ {
+  "row_id": 3419,
+  "texto_completo_lido": true,
+  "notas": "Fig.3 renderizada (p.5).",
+  "pares": [
+   {
+    "sheet_row": 1001,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4: 'design is based on 25 MPa concrete'; Fig.3(a) sem idade",
+    "nota": "Fig.3(a): controlo medido ~20,5 MPa (com plastico ~16 MPa), idade do ensaio nao declarada em lado nenhum."
+   }
+  ]
+ },
+ {
+  "row_id": 3424,
+  "texto_completo_lido": true,
+  "notas": "Classes EN 206; artigo cita UNI EN 206:2016 e EN 1992 (Eurocode 2).",
+  "pares": [
+   {
+    "sheet_row": 1004,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2: 'Wall_Ref ... produced with concrete C35/45'; EN 206 (Cen 2016) e Eurocode 2 citados",
+    "nota": "Idade pela definicao da classe EN 206 (fck caracteristico aos 28 d); o texto nao imprime 28 d."
+   },
+   {
+    "sheet_row": 1005,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2: 'Wall_SAP ... produced with concrete C30/37'; EN 206 citada",
+    "nota": "Idem."
+   }
+  ]
+ },
+ {
+  "row_id": 3443,
+  "texto_completo_lido": true,
+  "notas": "Factores de emissao ITEC BEDEC; projecto por ACI 318-14; EHE-08 citada so para vida util.",
+  "pares": [
+   {
+    "sheet_row": 1009,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1: 'Concrete 30 MPa m3'",
+    "nota": "Sem idade no texto. DUVIDA: ACI 318-14 (norma de projecto citada) define f'c aos 28 d, mas o artigo nao o diz; deixado null."
+   },
+   {
+    "sheet_row": 1010,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1: 'Concrete 35 MPa m3'",
+    "nota": "Sem idade no texto. DUVIDA: ACI 318-14 (norma de projecto citada) define f'c aos 28 d, mas o artigo nao o diz; deixado null."
+   },
+   {
+    "sheet_row": 1011,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1: 'Concrete 40 MPa m3'",
+    "nota": "Sem idade no texto. DUVIDA: ACI 318-14 (norma de projecto citada) define f'c aos 28 d, mas o artigo nao o diz; deixado null."
+   },
+   {
+    "sheet_row": 1012,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.1: 'Concrete 45 MPa m3'",
+    "nota": "Sem idade no texto. DUVIDA: ACI 318-14 (norma de projecto citada) define f'c aos 28 d, mas o artigo nao o diz; deixado null."
+   }
+  ]
+ },
+ {
+  "row_id": 3449,
+  "texto_completo_lido": true,
+  "notas": "Projecto por SIA 260-263/269.",
+  "pares": [
+   {
+    "sheet_row": 1013,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.13 sec.3.3.2: 'designed according to current standard practices with a concrete grade of C30/37'",
+    "nota": "DUVIDA: classe C30/37 com SIA 262 citada (equivalente suico do EN 1992, classes EN 206 aos 28 d), mas nem o artigo nem EN 206 explicitam a idade; deixado null - a Kie pode optar por 28 como na 3424."
+   },
+   {
+    "sheet_row": 2000,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.13 sec.3.3.2: 'designed according to current standard practices with a concrete grade of C30/37'",
+    "nota": "DUVIDA: classe C30/37 com SIA 262 citada (equivalente suico do EN 1992, classes EN 206 aos 28 d), mas nem o artigo nem EN 206 explicitam a idade; deixado null - a Kie pode optar por 28 como na 3424."
+   }
+  ]
+ },
+ {
+  "row_id": 3451,
+  "texto_completo_lido": true,
+  "notas": "PDF >10 MB: download_file_content falhou, Fig.3 nao vista. Texto completo (70k car., artigo de ~12 p.) lido.",
+  "pares": [
+   {
+    "sheet_row": 1014,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Abstract/Sec.3.2: 'highest compressive ... about 21 MPa ... MPC ... NCA'; Sec.2: desmoldagem 24 h, cura a vapor (cimento) / ambiente (geopolimero), sem idade de ensaio",
+    "nota": "Idade nao declarada no texto; Fig.3(a) (legenda sem idade) por inspeccionar visualmente - usar shrink-drive-pdf.yml se necessario."
+   }
+  ]
+ },
+ {
+  "row_id": 3456,
+  "texto_completo_lido": true,
+  "notas": "UF = 1 m3 de betao de 30 MPa, traços de Limbachiya et al. 2011.",
+  "pares": [
+   {
+    "sheet_row": 1015,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.1: 'functional unit is one cubic meter (m3) of concrete with a set strength of 30 MPa'",
+    "nota": "Sem idade nem norma no artigo."
+   },
+   {
+    "sheet_row": 2001,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.1: 'functional unit is one cubic meter (m3) of concrete with a set strength of 30 MPa'",
+    "nota": "Sem idade nem norma no artigo."
+   },
+   {
+    "sheet_row": 2002,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.2.1: 'functional unit is one cubic meter (m3) of concrete with a set strength of 30 MPa'",
+    "nota": "Sem idade nem norma no artigo."
+   }
+  ]
+ }
+]

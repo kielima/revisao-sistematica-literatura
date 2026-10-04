@@ -1,0 +1,303 @@
+[
+ {
+  "row_id": 4349,
+  "pares": [
+   {
+    "sheet_row": 1301,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.7 e Tab.3 p.8: 'Cast-in-place concrete, 5000 psi, 0% SCM (NRMCA-EPD)'; pilares 5000-10000 psi, fundacao 4000 psi",
+    "nota": "Classe de projecto (5000 psi = 34,47 MPa) de EPD NRMCA via Tally; o artigo nunca indica idade (zero ocorrencias de '28 d'/'days') nem cita norma que defina a idade (ACI/ASTM nao citados)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "66.342 caracteres lidos (artigo de 19 p. completo, ate referencias)."
+ },
+ {
+  "row_id": 4364,
+  "pares": [
+   {
+    "sheet_row": 1320,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "Resumo e sec.3 (Fig.11): 'tests were carried out for the ages of 7, 28, and 90 days, achieving values of 14.26, 23.16 and 29.15 MPa'; Conclusoes: '23.16 MPa at 28 days'",
+    "nota": "Valor gravado confirmado como medido aos 28 d (betao hibrido FA/OPC 90/10). 90 d = 29,15 MPa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "52.000 caracteres (artigo de 18 p. completo)."
+ },
+ {
+  "row_id": 4381,
+  "pares": [
+   {
+    "sheet_row": 1328,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.5 p.7: 'The raw materials are C30 concrete and hot-rolled reinforced bars'; Tab.3/4",
+    "nota": "Classe chinesa C30 sem idade declarada no artigo; nenhuma norma de betao (GB 50010/GB/T 50107) citada - so ISO 14040 e base LCA chinesa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 14 p. lido integralmente (texto devolvido inline)."
+ },
+ {
+  "row_id": 4389,
+  "pares": [
+   {
+    "sheet_row": 1329,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.6 p.11: 'Concrete (32 MPa) m3 2776.00 412.00 [50]'",
+    "nota": "Classe 32 MPa (factor de emissao de base de dados) sem idade. AS 3600-2009 e citada [43] apenas para modulo de elasticidade/Poisson do betao e aco, nao para a resistencia; nao serve de 'norma citada' para a idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "93.382 caracteres (31 p. incl. apendices e referencias)."
+ },
+ {
+  "row_id": 4416,
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 20 MPa presente na Tab.3."
+   },
+   {
+    "sheet_row": 1337,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 25 MPa presente na Tab.3."
+   },
+   {
+    "sheet_row": 1338,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 30 MPa presente na Tab.3."
+   },
+   {
+    "sheet_row": 1339,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 37 MPa presente na Tab.3."
+   },
+   {
+    "sheet_row": 1340,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 40 MPa presente na Tab.3."
+   },
+   {
+    "sheet_row": 1341,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 45 MPa presente na Tab.3."
+   },
+   {
+    "sheet_row": 1342,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 50 MPa presente na Tab.3."
+   },
+   {
+    "sheet_row": 1343,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 55 MPa presente na Tab.3."
+   },
+   {
+    "sheet_row": 1344,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 60 MPa presente na Tab.3."
+   },
+   {
+    "sheet_row": 1345,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.15 (sec.3.3): 'Figure 5 shows the GWP of ready-mixed concrete against its characteristic cubic compression resistance at 28 days'; Tab.3 p.6",
+    "nota": "TEXTO: '28 days' escrito no proprio artigo (alem de EN 1992-1-1 citada). Classe 75 MPa presente na Tab.3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "read_file_content devolveu texto vazio; PDF descarregado (28 p.) e texto extraido com pymupdf (84.668 car., legivel, sem necessidade de OCR). Classe 55 so aparece nas linhas IBU/DAN da Tab.3 (OK)."
+ },
+ {
+  "row_id": 4431,
+  "pares": [
+   {
+    "sheet_row": 1346,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Table 1 p.8: 'C50 | kg/m3 | GWP ...'; p.6: 'four types of cable-stayed bridge concrete: C50, C40, C30, and asphalt concrete'",
+    "nota": "Classe normativa chinesa sem idade declarada; nenhuma norma de betao citada (dosagem tirada do Ecoinvent)."
+   },
+   {
+    "sheet_row": 1347,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Table 1 p.8: 'C40 | kg/m3 | GWP ...'; p.6: 'four types of cable-stayed bridge concrete: C50, C40, C30, and asphalt concrete'",
+    "nota": "Classe normativa chinesa sem idade declarada; nenhuma norma de betao citada (dosagem tirada do Ecoinvent)."
+   },
+   {
+    "sheet_row": 1348,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Table 1 p.8: 'C30 | kg/m3 | GWP ...'; p.6: 'four types of cable-stayed bridge concrete: C50, C40, C30, and asphalt concrete'",
+    "nota": "Classe normativa chinesa sem idade declarada; nenhuma norma de betao citada (dosagem tirada do Ecoinvent)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "72.112 caracteres (22 p. completas)."
+ },
+ {
+  "row_id": 4437,
+  "pares": [
+   {
+    "sheet_row": 1349,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.4.3: 'seven strength grades of concrete in the reference (C20, C25, C30, C35, C40, C50, and C60)'; tabela de CEFs 'C20 Concrete m3 ...'",
+    "nota": "Graus de resistencia chineses sem idade declarada; nenhuma norma de betao citada."
+   },
+   {
+    "sheet_row": 1350,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.4.3: 'seven strength grades of concrete in the reference (C20, C25, C30, C35, C40, C50, and C60)'; tabela de CEFs 'C25 Concrete m3 ...'",
+    "nota": "Graus de resistencia chineses sem idade declarada; nenhuma norma de betao citada."
+   },
+   {
+    "sheet_row": 1351,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.4.3: 'seven strength grades of concrete in the reference (C20, C25, C30, C35, C40, C50, and C60)'; tabela de CEFs 'C30 Concrete m3 ...'",
+    "nota": "Graus de resistencia chineses sem idade declarada; nenhuma norma de betao citada."
+   },
+   {
+    "sheet_row": 1352,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.4.3: 'seven strength grades of concrete in the reference (C20, C25, C30, C35, C40, C50, and C60)'; tabela de CEFs 'C35 Concrete m3 ...'",
+    "nota": "Graus de resistencia chineses sem idade declarada; nenhuma norma de betao citada."
+   },
+   {
+    "sheet_row": 1353,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.4.3: 'seven strength grades of concrete in the reference (C20, C25, C30, C35, C40, C50, and C60)'; tabela de CEFs 'C40 Concrete m3 ...'",
+    "nota": "Graus de resistencia chineses sem idade declarada; nenhuma norma de betao citada."
+   },
+   {
+    "sheet_row": 1354,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.4.3: 'seven strength grades of concrete in the reference (C20, C25, C30, C35, C40, C50, and C60)'; tabela de CEFs 'C50 Concrete m3 ...'",
+    "nota": "Graus de resistencia chineses sem idade declarada; nenhuma norma de betao citada."
+   },
+   {
+    "sheet_row": 1355,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec.4.3: 'seven strength grades of concrete in the reference (C20, C25, C30, C35, C40, C50, and C60)'; tabela de CEFs 'C60 Concrete m3 ...'",
+    "nota": "Graus de resistencia chineses sem idade declarada; nenhuma norma de betao citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "72.055 caracteres (artigo completo)."
+ },
+ {
+  "row_id": 4439,
+  "pares": [
+   {
+    "sheet_row": 1356,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.1 p.6: 'The optimization problem variables (xi) are the characteristic strength of concrete (fck)', Eq.1 x1 in [25..50] MPa; Table 2 p.7 'Concrete 30 MPa'",
+    "nota": "VIA NORMA CITADA: ABNT NBR 6118:2014 [44] (verificacao da laje de betao; a NBR 6118 define fck aos 28 d). O artigo nao escreve '28 d'. DUVIDOSO: a norma e citada para o dimensionamento da laje, nao explicitamente para a definicao de fck - se o criterio exigir ligacao explicita, usar null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 1357,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.1 p.6: 'The optimization problem variables (xi) are the characteristic strength of concrete (fck)', Eq.1 x1 in [25..50] MPa; Table 2 p.7 'Concrete 30 MPa'",
+    "nota": "VIA NORMA CITADA: ABNT NBR 6118:2014 [44] (verificacao da laje de betao; a NBR 6118 define fck aos 28 d). O artigo nao escreve '28 d'. DUVIDOSO: a norma e citada para o dimensionamento da laje, nao explicitamente para a definicao de fck - se o criterio exigir ligacao explicita, usar null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 1358,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.1 p.6: 'The optimization problem variables (xi) are the characteristic strength of concrete (fck)', Eq.1 x1 in [25..50] MPa; Table 2 p.7 'Concrete 45 MPa'",
+    "nota": "VIA NORMA CITADA: ABNT NBR 6118:2014 [44] (verificacao da laje de betao; a NBR 6118 define fck aos 28 d). O artigo nao escreve '28 d'. DUVIDOSO: a norma e citada para o dimensionamento da laje, nao explicitamente para a definicao de fck - se o criterio exigir ligacao explicita, usar null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 1359,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.1 p.6: 'The optimization problem variables (xi) are the characteristic strength of concrete (fck)', Eq.1 x1 in [25..50] MPa; Table 2 p.7 'Concrete 45 MPa'",
+    "nota": "VIA NORMA CITADA: ABNT NBR 6118:2014 [44] (verificacao da laje de betao; a NBR 6118 define fck aos 28 d). O artigo nao escreve '28 d'. DUVIDOSO: a norma e citada para o dimensionamento da laje, nao explicitamente para a definicao de fck - se o criterio exigir ligacao explicita, usar null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 1360,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.1 p.6: 'The optimization problem variables (xi) are the characteristic strength of concrete (fck)', Eq.1 x1 in [25..50] MPa; Table 2 p.7 'Concrete 50 MPa'",
+    "nota": "VIA NORMA CITADA: ABNT NBR 6118:2014 [44] (verificacao da laje de betao; a NBR 6118 define fck aos 28 d). O artigo nao escreve '28 d'. DUVIDOSO: a norma e citada para o dimensionamento da laje, nao explicitamente para a definicao de fck - se o criterio exigir ligacao explicita, usar null/classe_sem_idade."
+   },
+   {
+    "sheet_row": 1361,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Sec.2.2.1 p.6: 'The optimization problem variables (xi) are the characteristic strength of concrete (fck)', Eq.1 x1 in [25..50] MPa; Table 2 p.7 'Concrete 50 MPa'",
+    "nota": "VIA NORMA CITADA: ABNT NBR 6118:2014 [44] (verificacao da laje de betao; a NBR 6118 define fck aos 28 d). O artigo nao escreve '28 d'. DUVIDOSO: a norma e citada para o dimensionamento da laje, nao explicitamente para a definicao de fck - se o criterio exigir ligacao explicita, usar null/classe_sem_idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "54.372 caracteres (15 p. completas)."
+ },
+ {
+  "row_id": 4441,
+  "pares": [
+   {
+    "sheet_row": 1362,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "Eq.9 p.6: f'c[MPa] = -95.65*phi + 36.52 (regressao da Fig.1, dados ACI 522R-10, Barnhouse & Srubar 2016, Torres et al. 2015); sec.3.2.2: 'the highest compressive strength mixture (22.2 MPa)'",
+    "nota": "Resistencia teorica por correlacao (phi=0,15 -> 22,17 MPa); nem o texto nem o eixo da Fig.1 (renderizada a 200 dpi) indicam idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "56.798 caracteres + PDF descarregado; Fig.1 inspeccionada visualmente."
+ },
+ {
+  "row_id": 4450,
+  "pares": [
+   {
+    "sheet_row": 1363,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.5: 'Table 2 also offers information on the mixing plan for geopolymer concrete and conventional concrete, which results in the creation of concrete with a 28 day compressive strength of approximately 80 MPa [29,36]'",
+    "nota": "TEXTO: '28 day' escrito no artigo. Mas o valor (~80 MPa, aproximado) e atribuido as referencias [29,36], nao a ensaio proprio; tipo posto como classe_28d_declarada por ser resistencia-alvo/aproximada de fonte externa."
+   },
+   {
+    "sheet_row": 1364,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.5: 'Table 2 also offers information on the mixing plan for geopolymer concrete and conventional concrete, which results in the creation of concrete with a 28 day compressive strength of approximately 80 MPa [29,36]'",
+    "nota": "TEXTO: '28 day' escrito no artigo. Mas o valor (~80 MPa, aproximado) e atribuido as referencias [29,36], nao a ensaio proprio; tipo posto como classe_28d_declarada por ser resistencia-alvo/aproximada de fonte externa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "58.739 caracteres (artigo completo)."
+ }
+]

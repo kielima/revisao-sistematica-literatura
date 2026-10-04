@@ -1,0 +1,254 @@
+[
+ {
+  "row_id": 4452,
+  "pares": [
+   {
+    "sheet_row": 1365,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.10-11: 'The compressive design strength of all 30 mixes is 28 MPa'; 'compressive strength is restrained to 28 MPa'",
+    "nota": "Resistencia de projecto do modelo OptiCon (lei de Abrams). O texto diz que K1/K2 'are related to the time elapsed before testing' mas nunca da o numero de dias; nenhuma norma de betao citada que fixe a idade. Sem ensaio proprio."
+   },
+   {
+    "sheet_row": 2066,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.10-11: 'The compressive design strength of all 30 mixes is 28 MPa'; 'compressive strength is restrained to 28 MPa'",
+    "nota": "Resistencia de projecto do modelo OptiCon (lei de Abrams). O texto diz que K1/K2 'are related to the time elapsed before testing' mas nunca da o numero de dias; nenhuma norma de betao citada que fixe a idade. Sem ensaio proprio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "90 mil caracteres, texto completo (artigo de 24 p.)."
+ },
+ {
+  "row_id": 4463,
+  "pares": [
+   {
+    "sheet_row": 1377,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "p.2 e p.3: 'UHPC is known for its high compressive strength of more than 150 MPa' [11]/[13-15]",
+    "nota": "Valor generico de literatura (Schmidt et al./Wille et al.), sem idade nem ensaio proprio; Tab.1 so da composicao M3Q."
+   },
+   {
+    "sheet_row": 1378,
+    "idade_dias": null,
+    "tipo": "nao_declarada",
+    "citacao": "idem (p.2-3), 'more than 150 MPa'",
+    "nota": "Idem M2Q; nenhuma idade declarada para o valor de 150 MPa."
+   },
+   {
+    "sheet_row": 1379,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.3, sec.2.1: '35 and 50 refer to the minimum compressive strength in MPa of a cylinder specimen ... 150 mm ... 300 mm ..., and 45 and 60 ... of a cube specimen ... 150 mm edge length after 28 days when tested according to DIN EN 206'",
+    "nota": "TEXTO: '... after 28 days when tested according to DIN EN 206' (frase unica que define C35/45 e C50/60)."
+   },
+   {
+    "sheet_row": 1380,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.3, sec.2.1 (mesma frase): '... after 28 days when tested according to DIN EN 206'",
+    "nota": "TEXTO: '... after 28 days ... DIN EN 206'. Atencao: fck=50 e o valor de CILINDRO (o 60 e o de cubo); o tipo_corpo_prova gravado ('cubo 150mm') nao bate com fck=50 - deveria ser cilindro 150x300mm."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "108 mil caracteres, texto completo."
+ },
+ {
+  "row_id": 4475,
+  "pares": [
+   {
+    "sheet_row": 1382,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "sec.2.4, p.6: 'the fresh mortar was poured into 160 mm x 40 mm x 40 mm molds and cured, after demolding, for 28 days. The CFRP composite mortar specimens were tested ... according to UNI EN 196-1'; Tab.6: S-R32.5 38.01 MPa",
+    "nota": "Valor 38.01 confirmado na Tabela 6."
+   },
+   {
+    "sheet_row": 1390,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "idem sec.2.4; Tab.6: SC-32.5_12.8%_2-5 27.76 MPa (DP 2.91)",
+    "nota": "Valor 27.76 confirmado na Tabela 6."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "64 mil caracteres, texto completo."
+ },
+ {
+  "row_id": 4493,
+  "pares": [
+   {
+    "sheet_row": 1452,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4-5, Tab.1 e texto: 'special fine concrete with the compressive strength class C70/85'",
+    "nota": "Classe de projecto sem ensaio; o artigo nao cita EN 206/EN 1992 nem qualquer norma de betao (so EN 15804/15978/ISO 14040/44) e nao menciona idade."
+   },
+   {
+    "sheet_row": 1453,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.4-5, Tab.1: 'concrete with the compressive strength class C35/45'",
+    "nota": "Idem; sem norma de betao citada nem idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "65 mil caracteres, texto completo."
+ },
+ {
+  "row_id": 4502,
+  "pares": [
+   {
+    "sheet_row": 1465,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "sec.2.3, p.7: 'After 28 d curing time, the unconfined compressive strength of the specimens was determined according to DIN EN ISO 17892-7'; p.9: 'mean value sigma-D ... is 30.61 MPa'",
+    "nota": "Cubos 70 mm; 2 d no molde + toalha humida a 20 C ate aos 28 d."
+   },
+   {
+    "sheet_row": 1466,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "idem sec.2.3; p.10-11: '32.72 (10% CA) MPa'",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1467,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "idem sec.2.3; p.10-11: '30.33/26.90 (10% LFA) MPa'",
+    "nota": "30.33 = LFA1 10%."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "78 mil caracteres, texto completo (Tabelas S1-S4 estao em material suplementar, nao no PDF)."
+ },
+ {
+  "row_id": 4511,
+  "pares": [
+   {
+    "sheet_row": 1478,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.9, sec.3.1.4: processo Ecoinvent 'Concrete, 25-30 MPa {RoW} concrete production 25-30 MPa|Cut-off, U'",
+    "nota": "Faixa de resistencia do processo generico Ecoinvent, sem ensaio de compressao proprio. Unica mencao a '28 days' e da resistencia caracteristica do CIMENTO CEM I 32.5R (p.4), nao do betao."
+   },
+   {
+    "sheet_row": 1479,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.9, sec.3.1.4: processo Ecoinvent 'Concrete, 25-30 MPa {RoW} concrete production 25-30 MPa|Cut-off, U'",
+    "nota": "Faixa de resistencia do processo generico Ecoinvent, sem ensaio de compressao proprio. Unica mencao a '28 days' e da resistencia caracteristica do CIMENTO CEM I 32.5R (p.4), nao do betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "77 mil caracteres, texto completo."
+ },
+ {
+  "row_id": 4549,
+  "pares": [
+   {
+    "sheet_row": 1504,
+    "idade_dias": 28,
+    "tipo": "ensaio",
+    "citacao": "sec.3.2.1: 'After 28 days of ambient curing (20 C), the slabs were cut with a diamond saw to extract specimens intended for the material's characterization'; Tab.1 Rc p-CTR 53.60 MPa (ASTM C109)",
+    "nota": "DUVIDOSO: a idade e a da cura antes do corte dos provetes (ensaio implicitamente aos 28 d, nao escrito como 'tested at 28 d'). Alem disso o valor 53.60 vem de trabalhos anteriores dos autores [18-20] ('The majority of values were taken from previous research works'); media das duas direccoes de impressao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "75 mil caracteres, texto completo."
+ },
+ {
+  "row_id": 4599,
+  "pares": [
+   {
+    "sheet_row": 1605,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1 p.3 (classes C25/30-C50/60); Tab.3 e sec.2.4: verificacao segundo 'EHE Structural Concrete Code' [39] (EHE-08)",
+    "nota": "VIA NORMA CITADA: EHE-08 (fck = resistencia caracteristica aos 28 d). O artigo nao escreve '28 d'. Classe de projecto, sem ensaio."
+   },
+   {
+    "sheet_row": 1606,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1 p.3 (classes C25/30-C50/60); Tab.3 e sec.2.4: verificacao segundo 'EHE Structural Concrete Code' [39] (EHE-08)",
+    "nota": "VIA NORMA CITADA: EHE-08 (fck = resistencia caracteristica aos 28 d). O artigo nao escreve '28 d'. Classe de projecto, sem ensaio."
+   },
+   {
+    "sheet_row": 1607,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1 p.3 (classes C25/30-C50/60); Tab.3 e sec.2.4: verificacao segundo 'EHE Structural Concrete Code' [39] (EHE-08)",
+    "nota": "VIA NORMA CITADA: EHE-08 (fck = resistencia caracteristica aos 28 d). O artigo nao escreve '28 d'. Classe de projecto, sem ensaio."
+   },
+   {
+    "sheet_row": 1608,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1 p.3 (classes C25/30-C50/60); Tab.3 e sec.2.4: verificacao segundo 'EHE Structural Concrete Code' [39] (EHE-08)",
+    "nota": "VIA NORMA CITADA: EHE-08 (fck = resistencia caracteristica aos 28 d). O artigo nao escreve '28 d'. Classe de projecto, sem ensaio."
+   },
+   {
+    "sheet_row": 1609,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1 p.3 (classes C25/30-C50/60); Tab.3 e sec.2.4: verificacao segundo 'EHE Structural Concrete Code' [39] (EHE-08)",
+    "nota": "VIA NORMA CITADA: EHE-08 (fck = resistencia caracteristica aos 28 d). O artigo nao escreve '28 d'. Classe de projecto, sem ensaio."
+   },
+   {
+    "sheet_row": 1610,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tab.1 p.3 (classes C25/30-C50/60); Tab.3 e sec.2.4: verificacao segundo 'EHE Structural Concrete Code' [39] (EHE-08)",
+    "nota": "VIA NORMA CITADA: EHE-08 (fck = resistencia caracteristica aos 28 d). O artigo nao escreve '28 d'. Classe de projecto, sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "51 mil caracteres, texto completo."
+ },
+ {
+  "row_id": 4600,
+  "pares": [
+   {
+    "sheet_row": 1612,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.3 p.9: 'Ready-mix concrete (28-35 MPa) - 100% Portland cement (CEM I) 772.79 m3'",
+    "nota": "Faixa de classe de projecto sem idade nem norma de betao citada (so o SBC generico); sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "85 mil caracteres, texto completo."
+ },
+ {
+  "row_id": 4604,
+  "pares": [
+   {
+    "sheet_row": 1620,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.7: 'Concrete HA 35/20/B/IIIc+ ... = reinforced concrete 35 N/mm2'; sec.5: recomendacoes da 'EHE-08 (Spanish concrete norms)' [32]",
+    "nota": "VIA NORMA CITADA: EHE-08 (designacao HA-35 = fck caracteristica aos 28 d). O artigo nao escreve '28 d'. Classe de projecto, sem ensaio."
+   },
+   {
+    "sheet_row": 1621,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.7: 'Concrete HA 35/20/B/IIIc+ ... = reinforced concrete 35 N/mm2'; sec.5: recomendacoes da 'EHE-08 (Spanish concrete norms)' [32]",
+    "nota": "VIA NORMA CITADA: EHE-08 (designacao HA-35 = fck caracteristica aos 28 d). O artigo nao escreve '28 d'. Classe de projecto, sem ensaio."
+   },
+   {
+    "sheet_row": 1622,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "p.7: 'Concrete HA 35/20/B/IIIc+ ... = reinforced concrete 35 N/mm2'; sec.5: recomendacoes da 'EHE-08 (Spanish concrete norms)' [32]",
+    "nota": "VIA NORMA CITADA: EHE-08 (designacao HA-35 = fck caracteristica aos 28 d). O artigo nao escreve '28 d'. Classe de projecto, sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "58 mil caracteres, texto completo."
+ }
+]

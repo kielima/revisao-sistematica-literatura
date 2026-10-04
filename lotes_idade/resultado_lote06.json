@@ -1,0 +1,205 @@
+[
+ {
+  "row_id": 4756,
+  "pares": [
+   {
+    "sheet_row": 590,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tabela 1 (p.4): 'ftk or fck N/mm2 ... 25 b'; nota b: 'C25/30 (EN 1992-1-1, 2004)'; nomenclatura: 'fck characteristic value of the concrete cylinder compressive strength'",
+    "nota": "Sem ensaio proprio; fck tirado da EN 1992-1-1 citada pelo artigo (fck = resistencia caracteristica em cilindro aos 28 d na norma). O artigo nao escreve '28 dias' literalmente."
+   },
+   {
+    "sheet_row": 591,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Tabela 1 (p.4): 'ftk or fck N/mm2 ... 30 b' (Concrete C30/37), valores da EN 1992-1-1",
+    "nota": "Idem 590: idade vem da definicao de fck na EN 1992-1-1 citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fileId 1BErlRh21XgCS0qlVb1NosuQGUAPbiMCf (encontrado por search_files). Texto completo (98 mil car.) lido por script; nenhuma mencao a idade de ensaio."
+ },
+ {
+  "row_id": 4757,
+  "pares": [
+   {
+    "sheet_row": 592,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 1 (p.8): 'C30 concrete | kg/m3 | 321.30'",
+    "nota": "Factor de emissao de catalogo; nenhuma norma de resistencia (GB) citada e nenhuma idade declarada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4768,
+  "pares": [
+   {
+    "sheet_row": 594,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.3: 'Pavement Quality Concrete (PQC) as wearing course having depth 250 mm having a mix design of M20'",
+    "nota": "Classe indiana M20; o artigo nao cita IS 456/IRC nem idade. Unico 'compressive strength' do texto e citacao de Gajda (21/28/35 MPa) para carbonatacao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fileId 1bLTdsnnPRjtMWnPXj0pHYL0wV2MCfBzK (encontrado por search_files)."
+ },
+ {
+  "row_id": 4820,
+  "pares": [
+   {
+    "sheet_row": 598,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 3 (p.9): 'GL30h 480 30.00 30.00 ...' (fc,0,k = 30 MPa, EN 14080:2013)",
+    "nota": "Madeira lamelada-colada: classe normativa EN 14080; conceito de idade de cura nao se aplica. Nota: o fck gravado (30) coincide com fm,k e fc,0,k do GL30h - correcto para fc,0,k."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF de 24 MB; texto completo via read_file_content (74 mil car.)."
+ },
+ {
+  "row_id": 5067,
+  "pares": [
+   {
+    "sheet_row": 605,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 4 (p.8): 'Reinforced concrete C20 m3 ...'",
+    "nota": "Factor de emissao por classe chinesa; nenhuma norma de resistencia citada e nenhuma idade."
+   },
+   {
+    "sheet_row": 606,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 4 (p.8): 'Reinforced concrete C25 m3 ...'",
+    "nota": "Factor de emissao por classe chinesa; nenhuma norma de resistencia citada e nenhuma idade."
+   },
+   {
+    "sheet_row": 607,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 4 (p.8): 'Reinforced concrete C30 m3 ...'",
+    "nota": "Factor de emissao por classe chinesa; nenhuma norma de resistencia citada e nenhuma idade."
+   },
+   {
+    "sheet_row": 608,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 4 (p.8): 'Reinforced concrete C35 m3 ...'",
+    "nota": "Factor de emissao por classe chinesa; nenhuma norma de resistencia citada e nenhuma idade."
+   },
+   {
+    "sheet_row": 609,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 4 (p.8): 'Reinforced concrete C40 m3 ...'",
+    "nota": "Factor de emissao por classe chinesa; nenhuma norma de resistencia citada e nenhuma idade."
+   },
+   {
+    "sheet_row": 610,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 4 (p.8): 'Reinforced concrete C50 m3 ...'",
+    "nota": "Factor de emissao por classe chinesa; nenhuma norma de resistencia citada e nenhuma idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2641,
+  "pares": [
+   {
+    "sheet_row": 629,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec. 3.2: 'The C25/30 strength class was determined from the original drawings of the case study'; Tabela 1: 'Compressive cylinder strength 25-35 Mpa' (EN 16757)",
+    "nota": "Classe de projecto de 1967; EN 206 so e citada a proposito de manutencao, nao da classe; nenhuma idade declarada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2650,
+  "pares": [
+   {
+    "sheet_row": 630,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Sec. 4: 'The concrete of the building in our case study is of C25/30 strength class, which was determined from the original drawings. Our destructive tests on cored concrete samples revealed an increase in strength...'",
+    "nota": "Classe de projecto; ensaios de carotes sem valor nem idade publicados; EN 1992-1-1:2023 so citada para recobrimentos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2688,
+  "pares": [
+   {
+    "sheet_row": 645,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "Table 1 (p.4): 'Concrete compressive strength class C50/60 (according to EN 206-1) | Average compressive strength 58 N/mm2'; Table 2: 'Achievement of the compressive strength class C50/60 (DIN EN 206-1)'",
+    "nota": "Classe definida pela EN 206-1 (resistencia aos 28 d). O 58 N/mm2 e a resistencia MEDIA (= fck 50 + 8, fcm) sem idade escrita no artigo; idade atribuida via EN 206-1 citada. Se se quiser rigor estrito, alternativa = null."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2694,
+  "pares": [
+   {
+    "sheet_row": 651,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 2/Tabela 4: 'ready-mixed concrete 25-210-12 / 25-21-12' (Korea LCI DB)",
+    "nota": "Designacao de produto do LCI DB coreano (agregado-resistencia-abatimento); nenhuma norma (KS F) nem idade citada."
+   },
+   {
+    "sheet_row": 652,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 2/Tabela 4: 'ready-mixed concrete 25-210-15 / 25-21-15' (Korea LCI DB)",
+    "nota": "Designacao de produto do LCI DB coreano (agregado-resistencia-abatimento); nenhuma norma (KS F) nem idade citada."
+   },
+   {
+    "sheet_row": 653,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 2/Tabela 4: 'ready-mixed concrete 25-240-12 / 25-24-12' (Korea LCI DB)",
+    "nota": "Designacao de produto do LCI DB coreano (agregado-resistencia-abatimento); nenhuma norma (KS F) nem idade citada."
+   },
+   {
+    "sheet_row": 654,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 2/Tabela 4: 'ready-mixed concrete 25-240-15 / 25-24-15' (Korea LCI DB)",
+    "nota": "Designacao de produto do LCI DB coreano (agregado-resistencia-abatimento); nenhuma norma (KS F) nem idade citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 2695,
+  "pares": [
+   {
+    "sheet_row": 655,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tabela 3: 'RMC 24 MPa kg-CO2/m3 414'",
+    "nota": "Factor LCI coreano por classe; nenhuma norma nem idade citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ }
+]
