@@ -11,3 +11,6 @@ Regras:
 - Segurança: nunca enviar email ou dados pessoais a serviços externos; não usar Unpaywall nem APIs externas; só o conector do Google Drive e ferramentas locais. Não alterar ficheiros do repositório.
 
 Saída: `resultado_loteNN.json` = lista de {row_id, pares:[{sheet_row, idade_dias (int|null), tipo ('ensaio'|'classe_28d_declarada'|'classe_sem_idade'|'nao_declarada'), citacao (local + texto curto), nota}], texto_completo_lido, notas}.
+
+## Regra acrescentada depois dos lotes (decisão da Kiê, 2026-10-04)
+- Classe escrita no artigo na notação de uma norma que a define aos 28 d (Cxx/yy da EN 206, HA-xx da EHE-08) conta como 28 d mesmo sem a norma citada (`aplicar_notacao.py`). Valores soltos em MPa sem norma continuam `null`.
