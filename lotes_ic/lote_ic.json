@@ -1,0 +1,1000 @@
+[
+ {
+  "row_id": 2687,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Hajiesmaeili, Amir and Pittau, Francesco and Denarie, Emmanuel and\nHabert, Guill",
+  "titulo": "Life Cycle Analysis of Strengthening Existing RC Structures with\nR-PE-UHPFRC",
+  "pdf": "HAJIESMAEILI et al., 2019 - su11246923.pdf",
+  "fileId": "1E58tkUEG_O0caK6SN5KobJ0WzyFE1GR3",
+  "nota_QG": [],
+  "pares": [
+   {
+    "sheet_row": 1855,
+    "material": "P-RC (concreto armado pos-tensionado, Method 1, classes C30/37 e C20/25) - baseline/demolicao e reconstrucao",
+    "fck_mpa": 30,
+    "co2_kg_m3": 636.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.5"
+   },
+   {
+    "sheet_row": 1856,
+    "material": "S-UHPFRC (fibras de aco, mix HOLCIM H707/HIFCOM 13s aproximado) - Method 2, mesma ponte",
+    "fck_mpa": null,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "None"
+   },
+   {
+    "sheet_row": 1857,
+    "material": "PE-UHPFRC (fibras de polietileno UHMW-PE, 50% clinquer substituido por filer calcario) - Metodo 3, reforco da ponte Guillermaux (vao 34m, Payerne, Sui",
+    "fck_mpa": 120,
+    "co2_kg_m3": null,
+    "ic_fck_valor": 2.6,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 2 (p.3), \"Compressive strength (MPa) 120 (2.6)\""
+   }
+  ]
+ },
+ {
+  "row_id": 2714,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Kul, Anil and Ozel, Behlul Furkan and Ozcelikci, Emircan and Gunal,\nMuhammed Far",
+  "titulo": "Characterization and life cycle assessment of geopolymer mortars with\nmasonry units and recycled concrete aggregates assorted from\nconstruction and demolition waste",
+  "pdf": "KUL et al., 2023 - j.jobe.2023.107546.pdf",
+  "fileId": "1QO85DvZmILcvDcK5q7VVP5IHPEUmZPu2",
+  "nota_QG": [
+   "[QG 0.5 - Texto (secao 3.1): 'average of six cubic specimens... maximum deviation of +/-6 MPa', com os tres valores extraidos citados literalmente no mesmo paragrafo (n=6). CO2 e calculo LCA deterministico. Ressalva: ficheiro >10MB, nao foi possivel renderizar a Fig.6 para confirmar visualmente o desvio isolado de cada mistura - o +/-6 MPa e descrito como maximo do conjunto todo.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 670,
+    "material": "Argamassa geopolimerica CDW (precursor telha britada RT, cura 115C) - mistura RT-C-10-0.45",
+    "fck_mpa": 45.5,
+    "co2_kg_m3": 178.7,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Secao 3.1.3, p.8 do ficheiro (texto: valores por codigo de mistura a 115 C)"
+   },
+   {
+    "sheet_row": 671,
+    "material": "Argamassa geopolimerica CDW (precursor telha britada RT, cura 115C) - mistura RT-C-15-0.45",
+    "fck_mpa": 66.2,
+    "co2_kg_m3": 251.4,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Secao 3.1.3, p.8 do ficheiro (texto: valores por codigo de mistura a 115 C)"
+   },
+   {
+    "sheet_row": 672,
+    "material": "Argamassa geopolimerica CDW (precursor telha britada RT, cura 115C) - mistura RT-C-19-0.45",
+    "fck_mpa": 61.9,
+    "co2_kg_m3": 302.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Secao 3.1.3, p.8 do ficheiro (texto: valores por codigo de mistura a 115 C)"
+   }
+  ]
+ },
+ {
+  "row_id": 2999,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Rathnarajan, Sundar and Pacheco, Joao Nuno and Capucha, Francisco and\nValencia, ",
+  "titulo": "Seawater-mixed concretes containing supplementary cementitious\nmaterials: compressive strength, e-modulus, electrical resistivity, and\nlife cycle assessment",
+  "pdf": "RATHNARAJAN et al., 2025.pdf",
+  "fileId": "18YkfIw3XqN3bJoW8VpjMbrnn9xCYMgn_",
+  "nota_QG": [
+   "[QG 0.5 - Resistencia com desvio-padrao proprio (3 replicas) reportado apenas via barras de erro na Fig.2, confirmado visualmente; nenhum valor de CO2 foi extraido desta linha.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 249,
+    "material": "Betao amassado com agua do mar (SW) e SCM (cinza volante, escoria, metacaulino), varias composicoes binarias/ternarias",
+    "fck_mpa": 56,
+    "co2_kg_m3": 302.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1903,
+    "material": "CC-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 42.5,
+    "co2_kg_m3": 347.2,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1904,
+    "material": "CC-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck_mpa": 44.5,
+    "co2_kg_m3": 348.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1905,
+    "material": "CF30-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 43,
+    "co2_kg_m3": 256.9,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1906,
+    "material": "CF30-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck_mpa": 44,
+    "co2_kg_m3": 257.9,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1907,
+    "material": "CS50-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 50,
+    "co2_kg_m3": 256.3,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1908,
+    "material": "CS50-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck_mpa": 46,
+    "co2_kg_m3": 258.2,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1909,
+    "material": "CM30-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 55,
+    "co2_kg_m3": 301.2,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1910,
+    "material": "CS20F10-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 65,
+    "co2_kg_m3": 280.5,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1911,
+    "material": "CS20F10-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck_mpa": 60,
+    "co2_kg_m3": 281.3,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1912,
+    "material": "CS30F15-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 44,
+    "co2_kg_m3": 249.1,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1913,
+    "material": "CS30F15-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck_mpa": 46,
+    "co2_kg_m3": 249.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1914,
+    "material": "CF20M10-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 54,
+    "co2_kg_m3": 273.4,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1915,
+    "material": "CF20M10-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck_mpa": 52,
+    "co2_kg_m3": 274.1,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1916,
+    "material": "CF30M15-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 53.5,
+    "co2_kg_m3": 235.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1917,
+    "material": "CF30M15-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck_mpa": 55,
+    "co2_kg_m3": 236.3,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1918,
+    "material": "CS20M10-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 50.5,
+    "co2_kg_m3": 296.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1919,
+    "material": "CS20M10-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck_mpa": 52,
+    "co2_kg_m3": 297.6,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1920,
+    "material": "CS30M15-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",
+    "fck_mpa": 44,
+    "co2_kg_m3": 270.9,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   },
+   {
+    "sheet_row": 1921,
+    "material": "CS30M15-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",
+    "fck_mpa": 45,
+    "co2_kg_m3": 271.4,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.2 (leitura grafica aos 28 d, eixo 0-75 MPa com escala, +-2 MPa); cubos 100 mm p.4 sec.3.2"
+   }
+  ]
+ },
+ {
+  "row_id": 3017,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Cunningham, Patrick R. and Wang, Li and Kane, Seth and Kim, Alyson and\nJenkins, ",
+  "titulo": "Lifecycle implications and mechanical properties of carbonated biomass\nashes as carbon-storing supplementary cementitious materials",
+  "pdf": "CUNNINGHAM et al., 2025.pdf",
+  "fileId": "104LJMLiOKGZrsuWgAElVUzSZJe4LyePQ",
+  "nota_QG": [
+   "[QG 0.5 - Resistencia com desvio-padrao proprio declarado explicitamente (n=5) via barra de erro na Fig.3; CO2 e resultado de modelagem GHG deterministica sem incerteza reportada.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 259,
+    "material": "Argamassa com cinzas de biomassa carbonatadas (palha de trigo WSA, casca de arroz RHA) como SCM que armazena carbono",
+    "fck_mpa": 55,
+    "co2_kg_m3": 480,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "p.8, Fig.3b (grafico de barras, eixo MPa, SEM rotulo numerico) -- leitura aproximada da barra 5%RHA aos 28 dias (a mais alta, ~55 MPa)"
+   }
+  ]
+ },
+ {
+  "row_id": 3203,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Vaclavik, Vojtech and Estokova, Adriana and Papesch, Radek and Dvorsky,\nTomas an",
+  "titulo": "Investigation of the engineering and environmental properties of cement\nmortars incorporating ladle furnace steel slag",
+  "pdf": "VACLAVIK et al., 2024 - j.cscm.2024.e02876.pdf",
+  "fileId": "1yez-pojspN7gTGAf4wl4_F9bbMNDaZYN",
+  "nota_QG": [
+   "[QG 0.5 - O texto confirma explicitamente que desvios-padrao proprios (n=3 por conjunto) foram calculados e sao mostrados como barras de erro nos graficos de resistencia (armadilha 3), mas o valor numerico nao aparece no texto e o download para renderizacao falhou 4x; CO2/GWP vem de calculo LCA deterministico sem dispersao.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 915,
+    "material": "argamassa de cimento com escoria de forno-panela (fina e grossa), 4 tipos de cimento x 4 dosagens",
+    "fck_mpa": null,
+    "co2_kg_m3": 192.46,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Table 4 (p.13-14), 'Contributions of cement mortars ... expressed in GWPs' - coluna Total (g CO2 eq), 16 misturas x fina/grossa"
+   },
+   {
+    "sheet_row": 1958,
+    "material": "C-1-100 (referencia, sem escoria)",
+    "fck_mpa": 53.9,
+    "co2_kg_m3": 417.9,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1959,
+    "material": "C-1-90+10 escoria grossa (Fig.7)",
+    "fck_mpa": 49.4,
+    "co2_kg_m3": 376.5,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1960,
+    "material": "C-1-80+20 escoria grossa (Fig.7)",
+    "fck_mpa": 38,
+    "co2_kg_m3": 335.2,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1961,
+    "material": "C-1-70+30 escoria grossa (Fig.7)",
+    "fck_mpa": 29.8,
+    "co2_kg_m3": 293.9,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1962,
+    "material": "C-2-100 (referencia, sem escoria)",
+    "fck_mpa": 56.2,
+    "co2_kg_m3": 342.3,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1963,
+    "material": "C-2-90+10 escoria grossa (Fig.7)",
+    "fck_mpa": 47,
+    "co2_kg_m3": 308.5,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1964,
+    "material": "C-2-80+20 escoria grossa (Fig.7)",
+    "fck_mpa": 43.1,
+    "co2_kg_m3": 274.7,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1965,
+    "material": "C-2-70+30 escoria grossa (Fig.7)",
+    "fck_mpa": 34.8,
+    "co2_kg_m3": 241,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1966,
+    "material": "C-3-100 (referencia, sem escoria)",
+    "fck_mpa": 51.5,
+    "co2_kg_m3": 273,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 c (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1967,
+    "material": "C-3-90+10 escoria grossa (Fig.7)",
+    "fck_mpa": 49.2,
+    "co2_kg_m3": 246.2,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 c (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1968,
+    "material": "C-3-80+20 escoria grossa (Fig.7)",
+    "fck_mpa": 36,
+    "co2_kg_m3": 219.3,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 c (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1969,
+    "material": "C-3-70+30 escoria grossa (Fig.7)",
+    "fck_mpa": 26.5,
+    "co2_kg_m3": 192.5,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 c (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1970,
+    "material": "C-4-100 (referencia, sem escoria)",
+    "fck_mpa": 52.4,
+    "co2_kg_m3": 307.2,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 d (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1971,
+    "material": "C-4-90+10 escoria grossa (Fig.7)",
+    "fck_mpa": 48.5,
+    "co2_kg_m3": 276.9,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 d (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1972,
+    "material": "C-4-80+20 escoria grossa (Fig.7)",
+    "fck_mpa": 40.3,
+    "co2_kg_m3": 246.6,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 d (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1973,
+    "material": "C-4-70+30 escoria grossa (Fig.7)",
+    "fck_mpa": 32.4,
+    "co2_kg_m3": 216.4,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.7 d (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10d"
+   },
+   {
+    "sheet_row": 1974,
+    "material": "C-1-90+10 escoria fina (Fig.8)",
+    "fck_mpa": 56.6,
+    "co2_kg_m3": 377.2,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1975,
+    "material": "C-1-80+20 escoria fina (Fig.8)",
+    "fck_mpa": 48,
+    "co2_kg_m3": 336.6,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1976,
+    "material": "C-1-70+30 escoria fina (Fig.8)",
+    "fck_mpa": 44,
+    "co2_kg_m3": 295.9,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 a (CEM I 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1977,
+    "material": "C-2-90+10 escoria fina (Fig.8)",
+    "fck_mpa": 53.5,
+    "co2_kg_m3": 309.2,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1978,
+    "material": "C-2-80+20 escoria fina (Fig.8)",
+    "fck_mpa": 45.1,
+    "co2_kg_m3": 276.1,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1979,
+    "material": "C-2-70+30 escoria fina (Fig.8)",
+    "fck_mpa": 37.8,
+    "co2_kg_m3": 243,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 b (CEM II/A-LL 42,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1980,
+    "material": "C-3-90+10 escoria fina (Fig.8)",
+    "fck_mpa": 47.9,
+    "co2_kg_m3": 246.9,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 d-esq (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1981,
+    "material": "C-3-80+20 escoria fina (Fig.8)",
+    "fck_mpa": 40.9,
+    "co2_kg_m3": 220.7,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 d-esq (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1982,
+    "material": "C-3-70+30 escoria fina (Fig.8)",
+    "fck_mpa": 33.5,
+    "co2_kg_m3": 194.5,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 d-esq (CEM III/A 42,5 N), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1983,
+    "material": "C-4-90+10 escoria fina (Fig.8)",
+    "fck_mpa": 51.3,
+    "co2_kg_m3": 277.6,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 d-dir (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1984,
+    "material": "C-4-80+20 escoria fina (Fig.8)",
+    "fck_mpa": 42,
+    "co2_kg_m3": 248,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 d-dir (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   },
+   {
+    "sheet_row": 1985,
+    "material": "C-4-70+30 escoria fina (Fig.8)",
+    "fck_mpa": 35.2,
+    "co2_kg_m3": 218.4,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "fck 28 d: rotulo de dados da Fig.8 d-dir (CEM V/A (S-V) 32,5 R), confirmado por altura da barra; fck 180 d = GWP Tab.4 / CCC Fig.10b"
+   }
+  ]
+ },
+ {
+  "row_id": 3359,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Zastrow, Phillip and Molina-Moreno, Francisca and Garcia-Segura, Tatiana\nand Mar",
+  "titulo": "Life cycle assessment of cost-optimized buttress earth-retaining walls:\nA parametric study",
+  "pdf": "ZASTROW et al., 2017.pdf",
+  "fileId": "1T1cniYsZ1B6F3Rx2cY4ODYSqyWBiPxBl",
+  "nota_QG": [
+   "[QG 0.5 - O CO2 tem dispersao propria e legitima (Tabela 1: media, CV% e percentis P5/P95 via propagacao de incerteza da propria LCA), mas a resistencia e classe de projeto declarada, nunca testada com dispersao.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 391,
+    "material": "betao 25 MPa (classe declarada, muro de contrafortes de 7m optimizado)",
+    "fck_mpa": 25,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": 7.14,
+    "fonte_no_pdf": "Texto p.3 do ficheiro/p.1039 impressa, sec.2.4"
+   },
+   {
+    "sheet_row": 392,
+    "material": "betao 25 MPa (classe declarada, muro em consola)",
+    "fck_mpa": 25,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": 7.57,
+    "fonte_no_pdf": "Texto p.3 do ficheiro/p.1039 impressa"
+   },
+   {
+    "sheet_row": 393,
+    "material": "muro de pedra natural (comparador simetrico nao-cimenticio)",
+    "fck_mpa": null,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": 6.05,
+    "fonte_no_pdf": "Texto p.3 do ficheiro/p.1039 impressa"
+   },
+   {
+    "sheet_row": 1998,
+    "material": "betao 25 MPa (unico betao do estudo; 250 kg/m3 cimento, 165 agua, 940 brita, 1050 areia) - factor de impacto por m3",
+    "fck_mpa": 25,
+    "co2_kg_m3": 248,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "sec.2.4 p.1039 '25 MPa grade is assumed' (classe de projecto)"
+   }
+  ]
+ },
+ {
+  "row_id": 3399,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "DeRousseau, M. A. and Arehart, J. H. and Kasprzyk, J. R. and Srubar,\nIII, W. V.",
+  "titulo": "Statistical variation in the embodied carbon of concrete mixtures",
+  "pdf": "DEROUSSEAU et al., 2020.pdf",
+  "fileId": "1Kx-LzS9HZspLpdb1tAXh9PvuSMhHhD-Y",
+  "nota_QG": [
+   "[QG 0.5 - CO2 embutido tem distribuicao probabilistica propria por mistura (Monte Carlo, boxplots); resistencia e apenas a classe-alvo deterministica (21 MPa), sem replica.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 407,
+    "material": "betao Mistura 1a (21 MPa-alvo, sem cinza volante)",
+    "fck_mpa": 21,
+    "co2_kg_m3": 174.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa), linha '1a', coluna 'Strength (MPa)'"
+   },
+   {
+    "sheet_row": 408,
+    "material": "betao Mistura 1b (21 MPa-alvo, 20% cinza volante)",
+    "fck_mpa": 21,
+    "co2_kg_m3": 144.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa), linha '1b'"
+   },
+   {
+    "sheet_row": 409,
+    "material": "betao Misturas 2a/2b (28 MPa-alvo, par sem/com 20% cinza volante) -- REGISTO SEM VALOR",
+    "fck_mpa": 28,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa)"
+   },
+   {
+    "sheet_row": 410,
+    "material": "betao Misturas 3a/3b (34 MPa-alvo, par sem/com 20% cinza volante) -- REGISTO SEM VALOR",
+    "fck_mpa": 34,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa)"
+   },
+   {
+    "sheet_row": 411,
+    "material": "betao Misturas 4a/4b (41 MPa-alvo, par sem/com 20% cinza volante) -- REGISTO SEM VALOR",
+    "fck_mpa": 41,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa)"
+   },
+   {
+    "sheet_row": 412,
+    "material": "betao Misturas 5a/5b (55 MPa-alvo, par sem/com 20% cinza volante) -- REGISTO SEM VALOR",
+    "fck_mpa": 55,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa)"
+   }
+  ]
+ },
+ {
+  "row_id": 3685,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Malami, Salim Idris and Val, Dimitri V. and Suryanto, Benny and Salman,\nHusham A",
+  "titulo": "Probabilistic approach to the sustainability assessment of reinforced\nconcrete structures in conditions of climate change",
+  "pdf": "MALAMI et al., 2024.pdf",
+  "fileId": "1DcO975MrfazHrYAQDWZx4Xkfd7-4_irK",
+  "nota_QG": [
+   "[QG 0.5 - Tabela 10 do proprio artigo declara desvio-padrao e CoV (<0,15) do CO2 total por coluna (simulacao probabilistica/Monte Carlo do proprio estudo); resistencia e apenas classe de projeto fixa, sem dispersao.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 1079,
+    "material": "concreto armado com cinza volante (fly ash) - coluna de estacionamento (estudo de caso probabilistico)",
+    "fck_mpa": 40,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": 30.5,
+    "fonte_no_pdf": "p.7, Tab.6 (RC column characteristics)"
+   },
+   {
+    "sheet_row": 2010,
+    "material": "betao PC (so constituintes, A1-A3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 316,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 6"
+   },
+   {
+    "sheet_row": 2011,
+    "material": "betao FA/35 (so constituintes, A1-A3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 249.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 6"
+   },
+   {
+    "sheet_row": 2012,
+    "material": "betao GGBS/65 (so constituintes, A1-A3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 132.61,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 6"
+   }
+  ]
+ },
+ {
+  "row_id": 3758,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Raveendran, Namitha and Krishnan, Vasugi",
+  "titulo": "Engineering performance and environmental assessment of sustainable\nconcrete incorporating nano silica and metakaolin as cementitious\nmaterials",
+  "pdf": "RAVEENDRAN, 2025.pdf",
+  "fileId": "1qMysv_otqbkwWJWMOPNiuNBkDSQZmx92",
+  "nota_QG": [
+   "[QG 0.5 - A Fig.7a mostra barras de erro visiveis para cada mistura em cada idade de cura, com n=3 confirmado no texto; o CO2 e calculo deterministico por fator de emissao x quantidade de material, sem dispersao.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 493,
+    "material": "concreto controlo (CC, 100% OPC)",
+    "fck_mpa": 36.08,
+    "co2_kg_m3": 365.87,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.7 (impresso: 'the strength of the CC was estimated to be 36.08 MPa')"
+   },
+   {
+    "sheet_row": 494,
+    "material": "concreto com 1% nano silica, aditivo (M1)",
+    "fck_mpa": 41,
+    "co2_kg_m3": 366.14,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.7a, p.9 (leitura grafica contra eixo, confianca media - nao ha valor exato impresso em texto para M1 especificamente)"
+   },
+   {
+    "sheet_row": 495,
+    "material": "concreto com 2% nano silica, aditivo (M2) - optimo NS",
+    "fck_mpa": 43.28,
+    "co2_kg_m3": 366.4,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.7 (impresso: 'mix 2, having 2% NS, shows improvement in strength...36.08 to 43.28...at 28th day')"
+   },
+   {
+    "sheet_row": 496,
+    "material": "concreto com 3% nano silica, aditivo (M3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 366.67,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.7a, p.9 (leitura grafica, confianca media)"
+   },
+   {
+    "sheet_row": 497,
+    "material": "concreto com 5% metacaulim, substituicao (M4)",
+    "fck_mpa": 38.5,
+    "co2_kg_m3": 356.35,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.7a, p.9 (leitura grafica, confianca media)"
+   },
+   {
+    "sheet_row": 498,
+    "material": "concreto com 12.5% metacaulim, substituicao (M5) - optimo MK",
+    "fck_mpa": 41.02,
+    "co2_kg_m3": 340.41,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.7 (impresso: 'compressive strength rose from 24.05 MPa to 26.66 MPa, 36.08 to 41.02...compared to CC')"
+   },
+   {
+    "sheet_row": 499,
+    "material": "concreto com 20% metacaulim, substituicao (M6)",
+    "fck_mpa": 33.64,
+    "co2_kg_m3": 330,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.20 (impresso: 'the strength of M6 concrete was found to be 33.64 MPa, which means it leads to a 6% reduction in strength')"
+   },
+   {
+    "sheet_row": 500,
+    "material": "concreto hibrido 12.5% metacaulim + 2% nano silica (M7) - mistura otima geral",
+    "fck_mpa": 49.02,
+    "co2_kg_m3": 341.11,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.7 (impresso: '36.08 MPa to 49.02 MPa...for 7th, 28th and 90th day')"
+   }
+  ]
+ },
+ {
+  "row_id": 4416,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Asdrubali, Francesco and Grazieschi, Gianluca and Gandola, Dante Maria",
+  "titulo": "The Role of Environmental Product Declarations in the Decarbonization of\nBuilding Materials and Components",
+  "pdf": "ASDRUBALI, 2025.pdf",
+  "fileId": "1vVrMj1N3EuAoB4gbN2JrhHLvSXJfpFVn",
+  "nota_QG": [
+   "[QG 0.5 - Figura 5 (p.16), box plot de GWP por classe de resistencia cubica (compilacao de 79 EPDs europeias) - dispersao real da entidade extraida (classe), confirmada por renderizacao visual da pagina; fck e classe nominal fixa, sem dispersao propria.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 20 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 20,
+    "co2_kg_m3": 190,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 20 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1337,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 25 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 205,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 25 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1338,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 30 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 205,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 30 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1339,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 37 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 37,
+    "co2_kg_m3": 250,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 37 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1340,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 40 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 320,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 40 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1341,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 45 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 45,
+    "co2_kg_m3": 325,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 45 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1342,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 50 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 50,
+    "co2_kg_m3": 360,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 50 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1343,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 55 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 55,
+    "co2_kg_m3": 385,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 55 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1344,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 60 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 60,
+    "co2_kg_m3": 250,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 60 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1345,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 75 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 75,
+    "co2_kg_m3": 290,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 75 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   }
+  ]
+ },
+ {
+  "row_id": 4512,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Skibicki, Szymon and Federowicz, Karol and Hoffmann, Marcin and Chougan,\nMehdi a",
+  "titulo": "Potential of Reusing 3D Printed Concrete (3DPC) Fine Recycled Aggregates\nas a Strategy towards Decreasing Cement Content in 3DPC",
+  "pdf": "SKIBICKI et al., 2024.pdf",
+  "fileId": "12SiWBA1aCjOA6lopwjeQerFsDIBqqwHC",
+  "nota_QG": [
+   "[QG 0.5 - Texto (secao 3.4, p.14) afirma que a Figura 11 traz media de fc/fm e respectivo CoV, com CoV entre 3.58% e 17.41% para resistencia a compressao da mesma mistura R50 extraida, mas o valor exato por mistura so esta no grafico (barras de erro); download para renderizacao falhou por 'session expired' (armadilha n8) sem alternativa disponivel. CO2/GWP e deterministico, sem CoV.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 1480,
+    "material": "Concreto 3D impresso (3DPC) R0 - referencia sem fRA (agregado fino reciclado)",
+    "fck_mpa": 82.07,
+    "co2_kg_m3": 487.3,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Conclusoes p.22 (SKIBICKI et al., 2024): \"R50 mix showed... reduction of up to 49.3%... (fc=41.61 MPa)\" -> R0=41.61/(1-0.493) [DERIVADO]"
+   },
+   {
+    "sheet_row": 1481,
+    "material": "Concreto 3D impresso (3DPC) R10 - 10% substituicao cimento por fRA",
+    "fck_mpa": null,
+    "co2_kg_m3": 440.5,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "None"
+   },
+   {
+    "sheet_row": 1482,
+    "material": "Concreto 3D impresso (3DPC) R20 - 20% substituicao cimento por fRA",
+    "fck_mpa": 74.06,
+    "co2_kg_m3": 393.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto p.14 (SKIBICKI et al., 2024): reducao de 9.77% aos 28 dias para 20% fRA, aplicada sobre R0=82.07 (linha 1483) [DERIVADO]"
+   },
+   {
+    "sheet_row": 1483,
+    "material": "Concreto 3D impresso (3DPC) R30 - 30% substituicao cimento por fRA",
+    "fck_mpa": null,
+    "co2_kg_m3": 347.1,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "None"
+   },
+   {
+    "sheet_row": 1484,
+    "material": "Concreto 3D impresso (3DPC) R40 - 40% substituicao cimento por fRA",
+    "fck_mpa": null,
+    "co2_kg_m3": 300.3,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "None"
+   },
+   {
+    "sheet_row": 1485,
+    "material": "Concreto 3D impresso (3DPC) R50 - 50% substituicao cimento por fRA (maximo)",
+    "fck_mpa": 41.61,
+    "co2_kg_m3": 253.6,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "p.14, texto: 'As an outcome mix, R50 exhibited (fc = 41.61 MPa after 28 days, fm = 5.11 MPa after 28 days)' - repetido na Conclusao (p.20)"
+   }
+  ]
+ }
+]

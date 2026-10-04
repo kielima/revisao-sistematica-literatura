@@ -1,0 +1,232 @@
+[
+ {
+  "row_id": 5086,
+  "pares": [
+   {
+    "sheet_row": 77,
+    "tipo": "norma_classe",
+    "norma": "EN 1992-1-1 (Eurocode 2) + EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 1 \"Material control parameters\": \"Concrete C25/30  25 (Fck MPa)\"; \"The control parameters have been assigned according to the Eurocode 2 prescriptions (European Commission, 2004a)\" = EN 1992-1-1:2004",
+    "nota": "Classe de projecto C25/30; fck=25 e o valor de cilindro da notacao EN 206/EC2. Sem ensaio nem dimensoes de provete."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de modelacao estrutural + LCA (Sustainable Cities and Society 2019); texto completo lido (99 mil caracteres)."
+ },
+ {
+  "row_id": 2611,
+  "pares": [
+   {
+    "sheet_row": 88,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "\"Concrete mixtures that meet the requirements of this paper were screened under the assumption that the 28-d compressive strength reaches 30, 40, and 50 MPa\" (Sec.4.1); Table 2 \"Review of OPC concrete mix ratio\" / Table 3 FA-GPC, fontes Farhan 2019, Turner & Collins 2013, Li 2021 etc.",
+    "nota": "Niveis de resistencia assumidos para tracos compilados da literatura; nenhuma norma de ensaio nem provete citados. JGJ55-2011 so e citada para o teor de cimento na carbonatacao (Table 7), nao para a resistencia."
+   },
+   {
+    "sheet_row": 90,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "\"Concrete mixtures that meet the requirements of this paper were screened under the assumption that the 28-d compressive strength reaches 30, 40, and 50 MPa\" (Sec.4.1); Table 2 \"Review of OPC concrete mix ratio\" / Table 3 FA-GPC, fontes Farhan 2019, Turner & Collins 2013, Li 2021 etc.",
+    "nota": "Niveis de resistencia assumidos para tracos compilados da literatura; nenhuma norma de ensaio nem provete citados. JGJ55-2011 so e citada para o teor de cimento na carbonatacao (Table 7), nao para a resistencia."
+   },
+   {
+    "sheet_row": 91,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "\"Concrete mixtures that meet the requirements of this paper were screened under the assumption that the 28-d compressive strength reaches 30, 40, and 50 MPa\" (Sec.4.1); Table 2 \"Review of OPC concrete mix ratio\" / Table 3 FA-GPC, fontes Farhan 2019, Turner & Collins 2013, Li 2021 etc.",
+    "nota": "Niveis de resistencia assumidos para tracos compilados da literatura; nenhuma norma de ensaio nem provete citados. JGJ55-2011 so e citada para o teor de cimento na carbonatacao (Table 7), nao para a resistencia."
+   },
+   {
+    "sheet_row": 94,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "\"Concrete mixtures that meet the requirements of this paper were screened under the assumption that the 28-d compressive strength reaches 30, 40, and 50 MPa\" (Sec.4.1); Table 2 \"Review of OPC concrete mix ratio\" / Table 3 FA-GPC, fontes Farhan 2019, Turner & Collins 2013, Li 2021 etc.",
+    "nota": "Niveis de resistencia assumidos para tracos compilados da literatura; nenhuma norma de ensaio nem provete citados. JGJ55-2011 so e citada para o teor de cimento na carbonatacao (Table 7), nao para a resistencia."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de revisao/LCA (J. Traffic Transp. Eng. 2024); tracos e resistencias de 30/40/50 MPa compilados de estudos externos sem atribuicao de norma ou provete."
+ },
+ {
+  "row_id": 2624,
+  "pares": [
+   {
+    "sheet_row": 115,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Table 3 \"Global Warming Potential (GWP) for a reference volume (1 m3) of concrete C30/C37 and CLT CL24\"; \"Concrete C30/37 ... 478.3\"",
+    "nota": "Classe C30/37 em notacao EN 206; fck=30 e o valor de cilindro. Unica norma citada e EN 1995-1-1 (Eurocode 5, madeira), sem norma de betao explicita. Sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Laje mista madeira-betao (Sustainability 2023); texto completo lido."
+ },
+ {
+  "row_id": 2699,
+  "pares": [
+   {
+    "sheet_row": 150,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "\"The newly developed Concrete Lifecycle Assessment System was applied to a cases analysis of 1 m3 concrete of 24 MPa strength level stemming from a batch plant located in Gyeonggi-do\" (Sec.5.1)",
+    "nota": "Nivel de resistencia de 24 MPa de uma central de betao; nenhuma norma (KS, ACI...) nem provete citados no artigo inteiro."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "IJERPH 2016, 13, 1074 (CLAS); texto completo lido (51 mil caracteres)."
+ },
+ {
+  "row_id": 2703,
+  "pares": [
+   {
+    "sheet_row": 155,
+    "tipo": "dimensoes",
+    "norma": "KS F 2403 (moldagem) + KS F 2405 (ensaio de compressao)",
+    "dimensoes_declaradas": "cilindro 100 x 200 mm",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "\"After fabricating concrete specimens according to KS F 2403 [14], compressive strength by age was measured in accordance with KS F 2405 [15].\" Table 3: \"Target Performance ... Compressive strength (MPa) 24 MPa\"; \"a circular test specimen (100 mm x 200 mm) was fabricated\"",
+    "nota": "DUVIDOSO: 24 MPa e o alvo de projecto do programa experimental (Table 3), cujos provetes sao cilindros 100x200 (KS F 2403/2405). Os casos 2/3 (10% BFS/W-BFS, Table 11) nao foram ensaiados; o volume do cilindro 100x200 vale so se se aceitar que o alvo se refere ao provete do proprio programa."
+   },
+   {
+    "sheet_row": 156,
+    "tipo": "dimensoes",
+    "norma": "KS F 2403 (moldagem) + KS F 2405 (ensaio de compressao)",
+    "dimensoes_declaradas": "cilindro 100 x 200 mm",
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "\"After fabricating concrete specimens according to KS F 2403 [14], compressive strength by age was measured in accordance with KS F 2405 [15].\" Table 3: \"Target Performance ... Compressive strength (MPa) 24 MPa\"; \"a circular test specimen (100 mm x 200 mm) was fabricated\"",
+    "nota": "DUVIDOSO: 24 MPa e o alvo de projecto do programa experimental (Table 3), cujos provetes sao cilindros 100x200 (KS F 2403/2405). Os casos 2/3 (10% BFS/W-BFS, Table 11) nao foram ensaiados; o volume do cilindro 100x200 vale so se se aceitar que o alvo se refere ao provete do proprio programa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sustainability 2016, 8, 502; texto completo lido."
+ },
+ {
+  "row_id": 2736,
+  "pares": [
+   {
+    "sheet_row": 170,
+    "tipo": "norma_ensaio",
+    "norma": "ASTM C39/C39M",
+    "dimensoes_declaradas": null,
+    "provete": "cilindro",
+    "valor_de": "cilindro",
+    "citacao": "\"Material quantification followed ASTM standards C39/39M (American Society for Testing and Materials, 2001), which specifics the procedure for determining the compressive strength of cylindrical concrete specimens. Concrete cylinders were cast with standard dimensions and cured under controlled conditions.\"",
+    "nota": "Cilindros de \"standard dimensions\" sem as dimensoes declaradas; Table 1 diz \"M30 grade concrete as per ASTM standard\". Provete-padrao a assumir pela ASTM C39/C31."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (84 mil caracteres)."
+ },
+ {
+  "row_id": 2741,
+  "pares": [
+   {
+    "sheet_row": 177,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "\"The concrete decks are designed with C40/50 prestressed concrete, while for the CBG bridge deck, C30/37 reinforced concrete is considered.\" (Table 2/3)",
+    "nota": "Classes de projecto em notacao EN 206 (fck gravado 40 = C40/50, cilindro). A EHE-08 e citada [44] mas so a proposito do agregado reciclado, nao da classe. Sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sustainability 2022, 14, 5186; texto completo lido."
+ },
+ {
+  "row_id": 2747,
+  "pares": [
+   {
+    "sheet_row": 180,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "\"The data is taken from where the OPC has a compressive strength of 26.1 MPa when cured for 28 days.\" Table 6 \"Inventory data to produce 1 m3 of OPC binder for comparison from (Wei et al., 2010)\"",
+    "nota": "Valor citado de fonte externa (Wei et al. 2010) sem norma nem provete. \"OPC 32.5\" e a classe do cimento (EN 197-1, prisma de argamassa EN 196-1), mas o valor gravado (26,1) nao e essa classe - nao aplicar."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Cleaner Eng. Technol. 10 (2022) 100553; texto completo lido."
+ },
+ {
+  "row_id": 2749,
+  "pares": [
+   {
+    "sheet_row": 182,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 3 \"Material inputs into the system for 1 m3 of binary and ternary geopolymer production\" coluna \"Compressive strength (MPa)\": Phase I 30, Phase II 56.5, Phase III 52.3; dados do estudo experimental anterior (Mahmoodi et al., 2021)",
+    "nota": "Resistencias retiradas de Mahmoodi et al. 2021 (Constr. Build. Mater. 301, 124138); o artigo nao cita norma nem provete (provavelmente cubos de pasta/argamassa no estudo de origem, mas nao dito aqui)."
+   },
+   {
+    "sheet_row": 183,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 3 \"Material inputs into the system for 1 m3 of binary and ternary geopolymer production\" coluna \"Compressive strength (MPa)\": Phase I 30, Phase II 56.5, Phase III 52.3; dados do estudo experimental anterior (Mahmoodi et al., 2021)",
+    "nota": "Resistencias retiradas de Mahmoodi et al. 2021 (Constr. Build. Mater. 301, 124138); o artigo nao cita norma nem provete (provavelmente cubos de pasta/argamassa no estudo de origem, mas nao dito aqui)."
+   },
+   {
+    "sheet_row": 184,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Table 3 \"Material inputs into the system for 1 m3 of binary and ternary geopolymer production\" coluna \"Compressive strength (MPa)\": Phase I 30, Phase II 56.5, Phase III 52.3; dados do estudo experimental anterior (Mahmoodi et al., 2021)",
+    "nota": "Resistencias retiradas de Mahmoodi et al. 2021 (Constr. Build. Mater. 301, 124138); o artigo nao cita norma nem provete (provavelmente cubos de pasta/argamassa no estudo de origem, mas nao dito aqui)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Cleaner Materials 5 (2022) 100116; texto completo lido (artigo curto, 8 pp.)."
+ },
+ {
+  "row_id": 2765,
+  "pares": [
+   {
+    "sheet_row": 216,
+    "tipo": "norma_ensaio",
+    "norma": "EN 12390-3 (2003)",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "\"tested ... according to the following standards to obtain the target values: compressive strength EN 12390-3 (2003) ... For each concrete mix, three samples were tested\" ; \"The target concrete strength class for NAC mixture is C30/37, nomenclature according to Eurocode and ISO 12,491 (characteristic compressive cube strength equal to 37 MPa)\"",
+    "nota": "Dimensoes do provete nao declaradas. Valor 49,5 MPa medido (Table 5); a classe C30/37 foi atribuida pela resistencia em cubo (37), o que indica que o valor medido e de cubo - inferencia, nao dito literalmente. fck gravado 49,5 e o medido, nao a classe."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sustainability 2019, 11, 6185; texto completo lido. CSN EN 206+A1 citada [50] para o agregado."
+ }
+]

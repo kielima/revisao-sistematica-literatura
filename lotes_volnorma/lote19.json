@@ -1,0 +1,127 @@
+[
+ {
+  "row_id": 4869,
+  "autor": "Mel, J. and Gomez, D. and de la Cruz, P. and del Cano, A.",
+  "ano": "Web of Science",
+  "titulo": "Sensitivity analysis and critical study of the sustainability assessment\nmodel of the Spanish Structural Concrete Code",
+  "doi": null,
+  "pdf": "MEL, 2015.pdf",
+  "fileId": "1YWdVaWLm40Bvd8uKTNxOUMO_TI-s5YYq",
+  "pares": [
+   {
+    "sheet_row": 1826,
+    "material": "concreto HA-25 B armado (50 kg de aco/m3), consistencia mole - Caso pratico n.1",
+    "fck_mpa": 25,
+    "classe": "HA-25 B (designacao normativa espanhola EHE-08)",
+    "idade_dias": 28,
+    "tipo_corpo_prova": null,
+    "fonte_no_pdf": "p.6, texto: 'un hormigón HA-25 de consistencia blanda y con un contenido en acero de 50 kg por metro cúbico'"
+   }
+  ]
+ },
+ {
+  "row_id": 4930,
+  "autor": "Oh, Jae-Won and Pang, Sung-Jun and Ahn, Kyung-Sun and Oh, Jung-Kwon",
+  "ano": "Scopus",
+  "titulo": "A STRUCTURAL-MEMBER LEVEL ASSESSMENT OF THE ENVIRONMENTAL IMPACT OF TIMBER, REINFORCED CONCRETE AND STEEL IN BUILDING CONSTRUCTION",
+  "doi": "989 – 994",
+  "pdf": "OH et al., 2023.pdf",
+  "fileId": "1aN30n1dYwUcengJgwXTv1hxOnjRUbRfp",
+  "pares": [
+   {
+    "sheet_row": 1835,
+    "material": "concreto armado C30 — viga dimensionada, comparada com madeira laminada colada (GLT) e aço",
+    "fck_mpa": 30,
+    "classe": "C30 [CLASSE DE PROJETO]",
+    "idade_dias": 28,
+    "tipo_corpo_prova": null,
+    "fonte_no_pdf": "Tabela 1 (Material properties), p.2: 'RC | C30 | 2,300 | 30 (fck) | 27,500' (Density kg/m3, Strength MPa, MOE MPa)"
+   }
+  ]
+ },
+ {
+  "row_id": 5029,
+  "autor": "Hora, Karoline Matos da",
+  "ano": "BDTD",
+  "titulo": "Metodologia para avaliação do ciclo de vida de ciclovias de pavimento rígido",
+  "doi": null,
+  "pdf": "HORA, 2021 - unb.43688.pdf",
+  "fileId": "15QNRAXHV41jm8Pl7GHn-PNglc473ZHgD",
+  "pares": [
+   {
+    "sheet_row": 1836,
+    "material": "Concreto usinado (cimento CP II-F, referencia) para pavimento de ciclovia -- producao apenas",
+    "fck_mpa": 20,
+    "classe": "M20/fck=20MPa [CLASSE DE PROJETO, mesmo traco-alvo de Tabela 15]",
+    "idade_dias": null,
+    "tipo_corpo_prova": "nao aplicavel (concreto usinado, modelo de inventario ACV)",
+    "fonte_no_pdf": "Tabela 27 (p.88): impacto na etapa de producao do concreto para pavimentacao da ciclovia com diferentes tipos de cimento, coluna CP II F"
+   },
+   {
+    "sheet_row": 1837,
+    "material": "Concreto usinado com cimento CP IV (menor teor de clinquer) para pavimento de ciclovia -- producao apenas",
+    "fck_mpa": 20,
+    "classe": "M20/fck=20MPa [CLASSE DE PROJETO]",
+    "idade_dias": null,
+    "tipo_corpo_prova": "nao aplicavel (concreto usinado, modelo de inventario ACV)",
+    "fonte_no_pdf": "Tabela 27 (p.88), coluna CP IV"
+   },
+   {
+    "sheet_row": 1838,
+    "material": "Concreto usinado com cimento CP V ARI (maior teor de clinquer) para pavimento de ciclovia -- producao apenas",
+    "fck_mpa": 20,
+    "classe": "M20/fck=20MPa [CLASSE DE PROJETO]",
+    "idade_dias": null,
+    "tipo_corpo_prova": "nao aplicavel (concreto usinado, modelo de inventario ACV)",
+    "fonte_no_pdf": "Tabela 27 (p.88), coluna CP V"
+   },
+   {
+    "sheet_row": 1839,
+    "material": "Concreto usinado com 50% do agregado graudo substituido por reciclado de concreto (ARC-50%) -- producao+transporte",
+    "fck_mpa": 20,
+    "classe": "M20/fck=20MPa [CLASSE DE PROJETO, resistencia desta mistura nao re-verificada experimentalmente]",
+    "idade_dias": null,
+    "tipo_corpo_prova": "nao aplicavel (concreto usinado, modelo de inventario ACV)",
+    "fonte_no_pdf": "Tabela 28 (p.90): impacto nos concretos com substituicao de 50%/100% de agregado graudo por reciclado, coluna ARC-50%"
+   },
+   {
+    "sheet_row": 1840,
+    "material": "Concreto usinado com 100% do agregado graudo substituido por reciclado de concreto (ARC-100%) -- producao+transporte",
+    "fck_mpa": 20,
+    "classe": "M20/fck=20MPa [CLASSE DE PROJETO, resistencia desta mistura nao re-verificada experimentalmente]",
+    "idade_dias": null,
+    "tipo_corpo_prova": "nao aplicavel (concreto usinado, modelo de inventario ACV)",
+    "fonte_no_pdf": "Tabela 28 (p.90), coluna ARC-100%"
+   },
+   {
+    "sheet_row": 1841,
+    "material": "Concreto 'Ideal' (cimento CP IV + 100% agregado graudo reciclado, combinados) -- producao+transporte",
+    "fck_mpa": 20,
+    "classe": "M20/fck=20MPa [CLASSE DE PROJETO/HIPOTETICO, cenario combinado, resistencia nao testada]",
+    "idade_dias": null,
+    "tipo_corpo_prova": "nao aplicavel (concreto usinado, modelo de inventario ACV)",
+    "fonte_no_pdf": "Tabela 29 (p.91): impacto nas categorias avaliadas para o concreto de referencia e o ideal, coluna Concreto Ideal"
+   }
+  ]
+ },
+ {
+  "row_id": 3153,
+  "autor": "Kanagaraj, Balamurali and Anand, N. and Jerry, Rohith and Raj, R.\nSamuvel and Lu",
+  "ano": "Web of Science",
+  "titulo": "Axial compressive behaviour and physical characteristics of high\nstrength self-compacting geopolymer concrete (HSGC) columns exposed to\nelevated temperature",
+  "doi": null,
+  "pdf": "KANAGARAJ, 2023 - j.conbuildmat.2023.132866.pdf",
+  "fileId": "1ljWHDSKpf8JluRlRSvUrdchAjMgcNTl2",
+  "pares": [
+   {
+    "sheet_row": 1934,
+    "material": "OPC (referencia, Tab.7)",
+    "fck_mpa": 58.7,
+    "classe": null,
+    "idade_dias": 28,
+    "tipo_corpo_prova": null,
+    "fonte_no_pdf": "Fig.25"
+   }
+  ]
+ }
+]

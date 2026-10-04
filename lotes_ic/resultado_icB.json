@@ -1,0 +1,445 @@
+[
+ {
+  "row_id": 3399,
+  "pares": [
+   {
+    "sheet_row": 407,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 152.8-196.0 (mediana 173.2; bigodes 1,5xIQR ~91-255; outliers ate ~284) kg CO2e/m3",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 10000,
+    "ic_co2_citacao": "Fig.5 (p.8), caixa \"Total\" No FA (Mistura 1a); legenda/texto p.8: bigodes = 1,5xIQR alem dos percentis 25/75; Monte Carlo n = 10,000 (sec.3)",
+    "nota": "fck = resistencia-alvo de projecto (Tab.3, misturas da NRMCA), sem ensaio nem replica - sem dispersao. CO2: lido por pixel na imagem nativa da Fig.5 (eixo calibrado por 5 marcas, residuo <0,7 kg); confere com a Fig.4 (Mix 1 No FA: 153,1/173,5/195,3). O valor gravado 174,8 e a MEDIA impressa no texto (p.8). DP aproximado se normal: IQR/1,349 = 32,0 kg/m3 (derivado, nao impresso). Valor e CO2 liquido (cradle-to-gate + carbonatacao)."
+   },
+   {
+    "sheet_row": 408,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 126.9-161.5 (mediana ~143.0; bigodes 1,5xIQR ~76-215; outliers ~63-235) kg CO2e/m3",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 10000,
+    "ic_co2_citacao": "Fig.5 (p.8), caixa \"Total\" 20% FA (Mistura 1b); bigodes = 1,5xIQR (texto p.8); Monte Carlo n = 10,000",
+    "nota": "fck = resistencia-alvo de projecto (Tab.3, misturas da NRMCA), sem ensaio nem replica - sem dispersao. CO2 lido por pixel na Fig.5; media impressa 144,8 (p.8). DP aproximado IQR/1,349 = 25,6 kg/m3 (derivado)."
+   },
+   {
+    "sheet_row": 409,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "fck = resistencia-alvo de projecto (Tab.3, misturas da NRMCA), sem ensaio nem replica - sem dispersao. Linha sem CO2 gravado (registo sem valor) -> sem par, IC null. Se um dia se gravarem os CO2 das misturas 2a/2b, a dispersao existe na Fig.4 (p.8; boxplots Monte Carlo, n=10.000): Fig.4 aprox.: 2a No FA ~186/213/240; 2b FA ~150/171/193 kg/m3 (P25/mediana/P75, leitura visual/pixel aproximada, so as medianas No FA foram medidas por pixel: 213/260/273/316,5)."
+   },
+   {
+    "sheet_row": 410,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "fck = resistencia-alvo de projecto (Tab.3, misturas da NRMCA), sem ensaio nem replica - sem dispersao. Linha sem CO2 gravado (registo sem valor) -> sem par, IC null. Se um dia se gravarem os CO2 das misturas 3a/3b, a dispersao existe na Fig.4 (p.8; boxplots Monte Carlo, n=10.000): Fig.4 aprox.: 3a ~226/260/292; 3b ~180/207/235 kg/m3 (P25/mediana/P75, leitura visual/pixel aproximada, so as medianas No FA foram medidas por pixel: 213/260/273/316,5)."
+   },
+   {
+    "sheet_row": 411,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "fck = resistencia-alvo de projecto (Tab.3, misturas da NRMCA), sem ensaio nem replica - sem dispersao. Linha sem CO2 gravado (registo sem valor) -> sem par, IC null. Se um dia se gravarem os CO2 das misturas 4a/4b, a dispersao existe na Fig.4 (p.8; boxplots Monte Carlo, n=10.000): Fig.4 aprox.: 4a ~238/273/306; 4b ~190/219/247 kg/m3 (P25/mediana/P75, leitura visual/pixel aproximada, so as medianas No FA foram medidas por pixel: 213/260/273/316,5)."
+   },
+   {
+    "sheet_row": 412,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "fck = resistencia-alvo de projecto (Tab.3, misturas da NRMCA), sem ensaio nem replica - sem dispersao. Linha sem CO2 gravado (registo sem valor) -> sem par, IC null. Se um dia se gravarem os CO2 das misturas 5a/5b, a dispersao existe na Fig.4 (p.8; boxplots Monte Carlo, n=10.000): Fig.4 aprox.: 5a ~276/316/357; 5b ~219/252/286 kg/m3 (P25/mediana/P75, leitura visual/pixel aproximada, so as medianas No FA foram medidas por pixel: 213/260/273/316,5)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Ficheiro icB_derousseau.pdf/txt conferido (titulo, autores). Imagens nativas das Fig.4 e 5 extraidas e medidas."
+ },
+ {
+  "row_id": 3685,
+  "pares": [
+   {
+    "sheet_row": 1079,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "ATENCAO: a linha tem ic_co2_valor=30,5 gravado mas o material diz FA (cinza volante). Na Tab.10 (p.10), London-current, 30,50 kg e o DP do ECO2 TOTAL da coluna PC; o da FA/35 e 20,59 kg (GGBS/65: 13,79). Alem disso e DP do total a 100 anos POR COLUNA (0,4x0,6x3 m = 0,72 m3; inclui CO2 absorvido e reparacoes; o CO2 inicial e deterministico), nao do CO2 A1-A3 por m3. Linha sem co2_kg_m3 -> recomendo limpar o 30,5 (ou, se se quiser manter, trocar por 20,59 kg/coluna FA/35 com nota de unidade). fck: classe 40 MPa de projecto (Tab.6); o modelo usa fc lognormal COV 0,15 (Tab.3, ref.[62]) como premissa de entrada, nao como ensaio -> nao gravado."
+   },
+   {
+    "sheet_row": 2010,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 A1-A3 dos constituintes (Tab.4 x traco) e deterministico: a Tab.10 da DP 0 implicita para o \"Initial ECO2\" (so ha DP para CO2 absorvido e reparacoes). O DP do total a 100 anos (PC, London-current: 30,50 kg por coluna de 0,72 m3; Monte Carlo 10^6) e grandeza diferente (ciclo de vida com reparacoes) -> nao aplicavel ao par A1-A3. fck = classe 40 MPa (Tab.6) sem dispersao; COV 0,15 lognormal de fc (Tab.3) e premissa do modelo tirada da literatura, nao ensaio."
+   },
+   {
+    "sheet_row": 2011,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 A1-A3 dos constituintes (Tab.4 x traco) e deterministico: a Tab.10 da DP 0 implicita para o \"Initial ECO2\" (so ha DP para CO2 absorvido e reparacoes). O DP do total a 100 anos (FA/35, London-current: 20,59 kg por coluna de 0,72 m3; Monte Carlo 10^6) e grandeza diferente (ciclo de vida com reparacoes) -> nao aplicavel ao par A1-A3. fck = classe 40 MPa (Tab.6) sem dispersao; COV 0,15 lognormal de fc (Tab.3) e premissa do modelo tirada da literatura, nao ensaio."
+   },
+   {
+    "sheet_row": 2012,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 A1-A3 dos constituintes (Tab.4 x traco) e deterministico: a Tab.10 da DP 0 implicita para o \"Initial ECO2\" (so ha DP para CO2 absorvido e reparacoes). O DP do total a 100 anos (GGBS/65, London-current: 13,79 kg por coluna de 0,72 m3; Monte Carlo 10^6) e grandeza diferente (ciclo de vida com reparacoes) -> nao aplicavel ao par A1-A3. fck = classe 40 MPa (Tab.6) sem dispersao; COV 0,15 lognormal de fc (Tab.3) e premissa do modelo tirada da literatura, nao ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "So o texto (icB_malami.txt, conferido) foi preciso: Tab.10 tem a dispersao em texto. Nenhuma dispersao propria do CO2 A1-A3 nem do fck."
+ },
+ {
+  "row_id": 3758,
+  "pares": [
+   {
+    "sheet_row": 493,
+    "ic_fck_valor": 0.4,
+    "ic_fck_tipo": "barra_erro_nao_definida",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.7a (p.9), barras azuis 28D; barras de erro sem definicao no texto/legenda; texto: \"tests were conducted on three specimens for each mix\" (p.4). Meia-amplitude medida por pixel na imagem nativa (JPEG 1654x1568, 9,92 px/MPa; precisao ~+-0,1 MPa). CC: +-0.4 MPa (centro 36.05 MPa)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 calculado deterministicamente (factor de emissao x quantidade), sem dispersao."
+   },
+   {
+    "sheet_row": 494,
+    "ic_fck_valor": 0.28,
+    "ic_fck_tipo": "barra_erro_nao_definida",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.7a (p.9), barras azuis 28D; barras de erro sem definicao no texto/legenda; texto: \"tests were conducted on three specimens for each mix\" (p.4). Meia-amplitude medida por pixel na imagem nativa (JPEG 1654x1568, 9,92 px/MPa; precisao ~+-0,1 MPa). M1: +-0.28 MPa (centro 41.4 MPa)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 calculado deterministicamente (factor de emissao x quantidade), sem dispersao. Ponto central da barra 41,4 vs 41 gravado."
+   },
+   {
+    "sheet_row": 495,
+    "ic_fck_valor": 1.18,
+    "ic_fck_tipo": "barra_erro_nao_definida",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.7a (p.9), barras azuis 28D; barras de erro sem definicao no texto/legenda; texto: \"tests were conducted on three specimens for each mix\" (p.4). Meia-amplitude medida por pixel na imagem nativa (JPEG 1654x1568, 9,92 px/MPa; precisao ~+-0,1 MPa). M2: +-1.18 MPa (centro 43.2 MPa)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 calculado deterministicamente (factor de emissao x quantidade), sem dispersao."
+   },
+   {
+    "sheet_row": 496,
+    "ic_fck_valor": 0.3,
+    "ic_fck_tipo": "barra_erro_nao_definida",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.7a (p.9), barras azuis 28D; barras de erro sem definicao no texto/legenda; texto: \"tests were conducted on three specimens for each mix\" (p.4). Meia-amplitude medida por pixel na imagem nativa (JPEG 1654x1568, 9,92 px/MPa; precisao ~+-0,1 MPa). M3: +-0.3 MPa (centro 40.0 MPa)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 calculado deterministicamente (factor de emissao x quantidade), sem dispersao. Tampas quase fundidas no topo da barra - valor incerto (0,2-0,4)."
+   },
+   {
+    "sheet_row": 497,
+    "ic_fck_valor": 0.5,
+    "ic_fck_tipo": "barra_erro_nao_definida",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.7a (p.9), barras azuis 28D; barras de erro sem definicao no texto/legenda; texto: \"tests were conducted on three specimens for each mix\" (p.4). Meia-amplitude medida por pixel na imagem nativa (JPEG 1654x1568, 9,92 px/MPa; precisao ~+-0,1 MPa). M4: +-0.5 MPa (centro 39.1 MPa)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 calculado deterministicamente (factor de emissao x quantidade), sem dispersao. Ponto central entre tampas 39,1 vs 38,5 gravado (leitura grafica) - sugerir rever para ~39,0."
+   },
+   {
+    "sheet_row": 498,
+    "ic_fck_valor": 0.58,
+    "ic_fck_tipo": "barra_erro_nao_definida",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.7a (p.9), barras azuis 28D; barras de erro sem definicao no texto/legenda; texto: \"tests were conducted on three specimens for each mix\" (p.4). Meia-amplitude medida por pixel na imagem nativa (JPEG 1654x1568, 9,92 px/MPa; precisao ~+-0,1 MPa). M5: +-0.58 MPa (centro 40.9 MPa)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 calculado deterministicamente (factor de emissao x quantidade), sem dispersao."
+   },
+   {
+    "sheet_row": 499,
+    "ic_fck_valor": 0.4,
+    "ic_fck_tipo": "barra_erro_nao_definida",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.7a (p.9), barras azuis 28D; barras de erro sem definicao no texto/legenda; texto: \"tests were conducted on three specimens for each mix\" (p.4). Meia-amplitude medida por pixel na imagem nativa (JPEG 1654x1568, 9,92 px/MPa; precisao ~+-0,1 MPa). M6: +-0.4 MPa (centro 34.0 MPa)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 calculado deterministicamente (factor de emissao x quantidade), sem dispersao."
+   },
+   {
+    "sheet_row": 500,
+    "ic_fck_valor": 0.5,
+    "ic_fck_tipo": "barra_erro_nao_definida",
+    "ic_fck_n": 3,
+    "ic_fck_citacao": "Fig.7a (p.9), barras azuis 28D; barras de erro sem definicao no texto/legenda; texto: \"tests were conducted on three specimens for each mix\" (p.4). Meia-amplitude medida por pixel na imagem nativa (JPEG 1654x1568, 9,92 px/MPa; precisao ~+-0,1 MPa). M7: +-0.5 MPa (centro 48.85 MPa)",
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "CO2 calculado deterministicamente (factor de emissao x quantidade), sem dispersao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fig.7a medida na imagem nativa (JPEG de baixa qualidade); n=3 provetes; o que a barra representa nao e dito."
+ },
+ {
+  "row_id": 4416,
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 175.0-210.0 kg CO2/m3 (mediana 194.0; media 185.0; bigodes 1,5xIQR ~133-224)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 9,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 20 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana)."
+   },
+   {
+    "sheet_row": 1337,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 178.0-234.0 kg CO2/m3 (mediana 206.1; media 205.9; bigodes 1,5xIQR ~139-280)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 13,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 25 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana)."
+   },
+   {
+    "sheet_row": 1338,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 186.3-231.2 kg CO2/m3 (mediana 204.5; media 204.5; bigodes 1,5xIQR ~124-298)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 32,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 30 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana)."
+   },
+   {
+    "sheet_row": 1339,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 196.0-273.3 kg CO2/m3 (mediana 249.0; media ~237; bigodes 1,5xIQR ~145-319)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 29,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 37 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana)."
+   },
+   {
+    "sheet_row": 1340,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 286.8-368.5 kg CO2/m3 (mediana 299.1; media 319.6; bigodes 1,5xIQR ~200-444)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 6,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 40 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana)."
+   },
+   {
+    "sheet_row": 1341,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 299.1-337.1 kg CO2/m3 (mediana 305.4; media 326.1; bigodes 1,5xIQR ~285-343)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 8,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 45 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana)."
+   },
+   {
+    "sheet_row": 1342,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 333.1-428.9 kg CO2/m3 (mediana 339.0; media 356.4; bigodes 1,5xIQR ~272-465)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 9,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 50 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana)."
+   },
+   {
+    "sheet_row": 1343,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 365.0-422.9 kg CO2/m3 (mediana 420.0; media 385.4; bigodes 1,5xIQR ~310-426)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 3,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 55 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana). n=3 e caixa muito curta."
+   },
+   {
+    "sheet_row": 1344,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = 230.8-274.3 kg CO2/m3 (mediana 250.2; media 265.6; bigodes 1,5xIQR ~205-299)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 8,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 60 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana)."
+   },
+   {
+    "sheet_row": 1345,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": "P25-P75 = ~289.4-295.1 kg CO2/m3 (mediana ~289.5; media 292.6; bigodes 1,5xIQR ~288-300)",
+    "ic_co2_tipo": "percentis",
+    "ic_co2_n": 3,
+    "ic_co2_citacao": "Fig.5 (p.16), box plot da classe 75 MPa; legenda: mediana, quartis 25/75, bigodes 1,5xIQR, media (ponto branco); n por classe somado da Tab.3 (p.6)",
+    "nota": "Par = classe agregada de EPDs (GWP fossil A1-A3), pelo que a dispersao entre EPDs da classe e a propria dispersao da entidade gravada. Medido por pixel (eixo calibrado por 7 linhas de grelha, 2,53 px/kg); bigodes por leitura visual (+-3 kg). fck = classe nominal cubica, sem dispersao. Atencao: o co2_kg_m3 gravado mistura medianas e medias (ex.: 20 MPa gravado 190 vs mediana 194/media 185; 40 MPa 320 = media; 60 MPa 250 = mediana). n=3 e caixa muito curta."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fig.5 medida por pixel. Inconsistencia do artigo: o texto diz 79 EPDs de betao mas as contagens por classe da Tab.3 somam 123 (usei as contagens por classe como n). Classe 15 MPa (n=3: P25-P75 124,1-149,5, mediana 126,1) nao tem par gravado."
+ },
+ {
+  "row_id": 4512,
+  "pares": [
+   {
+    "sheet_row": 1480,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "Resolucao insuficiente: o PDF reduzido (/screen) tem a Fig.11 rasterizada em tiras de 277x10 px e as barras de erro ficaram quase apagadas. Pedir recorte em alta resolucao da p.14 do PDF (impressa \"14 of 24\"), Figura 11(b). Texto (sec.3.4, p.13): pontos = medias, barras = CoV (\"mean values ... and their respective CoV\"; CoV 3,58-17,41% na compressao). n nao declarado (prismas 40x40x160 mm, EN 1015-11, sec.2.7). CO2/GWP deterministico. R0 28 d: ponto ~82 MPa (confirma o derivado 82,07), barra de erro nao visivel no reduzido."
+   },
+   {
+    "sheet_row": 1481,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "fck nao gravado (sem par). Resolucao insuficiente: o PDF reduzido (/screen) tem a Fig.11 rasterizada em tiras de 277x10 px e as barras de erro ficaram quase apagadas. Pedir recorte em alta resolucao da p.14 do PDF (impressa \"14 of 24\"), Figura 11(b). Texto (sec.3.4, p.13): pontos = medias, barras = CoV (\"mean values ... and their respective CoV\"; CoV 3,58-17,41% na compressao). n nao declarado (prismas 40x40x160 mm, EN 1015-11, sec.2.7). CO2/GWP deterministico. Leitura provisoria R10 28 d: tampas ~84,9/74,9 -> +-5,0 MPa em ~79,7."
+   },
+   {
+    "sheet_row": 1482,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "Resolucao insuficiente: o PDF reduzido (/screen) tem a Fig.11 rasterizada em tiras de 277x10 px e as barras de erro ficaram quase apagadas. Pedir recorte em alta resolucao da p.14 do PDF (impressa \"14 of 24\"), Figura 11(b). Texto (sec.3.4, p.13): pontos = medias, barras = CoV (\"mean values ... and their respective CoV\"; CoV 3,58-17,41% na compressao). n nao declarado (prismas 40x40x160 mm, EN 1015-11, sec.2.7). CO2/GWP deterministico. Leitura PROVISORIA R20 28 d: tampas ~79,3/68,6 MPa -> meia-amplitude ~5,3 MPa em ~74 (CoV ~7%). Nao gravar ate ao recorte."
+   },
+   {
+    "sheet_row": 1483,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "fck nao gravado (sem par). Provisorio R30: ~+-1,9 MPa em ~61."
+   },
+   {
+    "sheet_row": 1484,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "fck nao gravado (sem par). Provisorio R40: tampa inferior ~43 MPa em ~50 (superior quase invisivel)."
+   },
+   {
+    "sheet_row": 1485,
+    "ic_fck_valor": null,
+    "ic_fck_tipo": null,
+    "ic_fck_n": null,
+    "ic_fck_citacao": null,
+    "ic_co2_valor": null,
+    "ic_co2_tipo": null,
+    "ic_co2_n": null,
+    "ic_co2_citacao": null,
+    "nota": "Resolucao insuficiente: o PDF reduzido (/screen) tem a Fig.11 rasterizada em tiras de 277x10 px e as barras de erro ficaram quase apagadas. Pedir recorte em alta resolucao da p.14 do PDF (impressa \"14 of 24\"), Figura 11(b). Texto (sec.3.4, p.13): pontos = medias, barras = CoV (\"mean values ... and their respective CoV\"; CoV 3,58-17,41% na compressao). n nao declarado (prismas 40x40x160 mm, EN 1015-11, sec.2.7). CO2/GWP deterministico. Leitura PROVISORIA R50 28 d: tampa inferior ~36,5 MPa, superior invisivel, centro 41,6 -> ~+-5 MPa (CoV ~12%). Nao gravar ate ao recorte. Nota lateral: o texto diz reducao \"up to 67.62%\" na compressao (p.13) e as conclusoes 49,3% (p.22) - inconsistencia do artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido o PDF reduzido (fileId_reduzido). Precisa de recorte em alta resolucao da p.14 (Fig.11b) para medir as barras de CoV."
+ }
+]

@@ -1,0 +1,372 @@
+[
+ {
+  "row_id": 2771,
+  "pares": [
+   {
+    "sheet_row": 222,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao); NEN-EN 1536 para estacas in situ; NEN-EN 1992-1-1",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "'The nomenclature for concrete strength from the Eurocode consists of a capital C followed by two compressive strengths, one measured using concrete cylinder test specimens and the other using concrete cube specimens (e.g., C25/30) [15]'; 'concrete strengths considered for cast in situ piles were C20/25, C25/30, and C30/37, complying with NEN-EN 1536:2010+A1:2015 [32]'",
+    "nota": "fck 20 = primeiro numero de C20/25 (cilindro). Sistema misto: vigas pre-fabricadas C40/50. Sem ensaio proprio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (67.531 car.)."
+ },
+ {
+  "row_id": 2785,
+  "pares": [
+   {
+    "sheet_row": 226,
+    "tipo": "norma_classe",
+    "norma": "EHE-08 (citada para resistencias minimas e dosagem)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The Royal Decree 1247/2008 [34], hereinafter EHE-08, establishes the recommended minimum strengths based on durability requirements... These data have been taken as a reference for the calculation of the dosage'; 'assuming a constant compression strength of 35 N/mm2'",
+    "nota": "DUVIDOSO: o 35 N/mm2 e hipotese de calculo da regressao (base IVE de 1.505 betoes, resistencias em N/mm2). A EHE-08 e citada para a dosagem/resistencias minimas, nao explicitamente para definir o 35; nao ha notacao HA-xx no texto. Se aceite, EHE-08 define fck em cilindro 150x300."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (75.425 car.)."
+ },
+ {
+  "row_id": 2786,
+  "pares": [
+   {
+    "sheet_row": 227,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'the production process of reinforced concrete is modelled according to the \"Concrete 40 MPa, 30% fly ash, at the batching plant\" in the AusLCI database'",
+    "nota": "Classe de catalogo AusLCI, sem norma nem provete citados (nenhuma referencia a AS 1379/AS 1012)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (84.673 car.)."
+ },
+ {
+  "row_id": 2803,
+  "pares": [
+   {
+    "sheet_row": 235,
+    "tipo": "norma_ensaio",
+    "norma": "EN 12390-3:2019",
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "Ref.[41] 'EN 12390-3:2019 Testing hardened concrete - Part 3: Compressive strength of test specimens'; Tabela 4: Destructive Force F [kN] 1533.6 / Breaking stress fci 68.2 MPa ... ; 'over 71 MPa (C55/67)'",
+    "nota": "Dimensoes nao declaradas no texto. Inferido pela Tabela 4: F/fci = 1533,6 kN / 68,2 MPa = 22.487 mm2 ~ 150x150 mm (todas as 12 leituras dao ~22.500 mm2) -> cubo 150 mm (vol 0,003375 m3). A classificacao 71 MPa -> C55/67 tambem indica valor de cubo. Fig.14 refere 'cubik' e 'cylinder' so para tracao por compressao diametral."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (52.223 car.)."
+ },
+ {
+  "row_id": 2806,
+  "pares": [
+   {
+    "sheet_row": 236,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "Tabela 4: 'Cube 60-day strength [MPa]' 71.9 / 47.2 / 70.5",
+    "nota": "Cubo declarado mas sem dimensoes nem norma de ensaio citada no artigo (MATEC 2018, 6 pp.)."
+   },
+   {
+    "sheet_row": 237,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "Tabela 4: 'Cube 60-day strength [MPa]' 71.9 / 47.2 / 70.5",
+    "nota": "Cubo declarado mas sem dimensoes nem norma de ensaio citada no artigo (MATEC 2018, 6 pp.)."
+   },
+   {
+    "sheet_row": 238,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": "cubo",
+    "valor_de": "cubo",
+    "citacao": "Tabela 4: 'Cube 60-day strength [MPa]' 71.9 / 47.2 / 70.5",
+    "nota": "Cubo declarado mas sem dimensoes nem norma de ensaio citada no artigo (MATEC 2018, 6 pp.)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (artigo curto)."
+ },
+ {
+  "row_id": 2854,
+  "pares": [
+   {
+    "sheet_row": 239,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Tabela 4: 'One Click LCA Ready-mix concrete C30/37 / C40/50 / C50/60'; 'All the structural options assessed were designed and verified according to the Eurocode's rules'",
+    "nota": "Classe EPD One Click LCA; fck = primeiro numero (cilindro)."
+   },
+   {
+    "sheet_row": 240,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Tabela 4: 'One Click LCA Ready-mix concrete C30/37 / C40/50 / C50/60'; 'All the structural options assessed were designed and verified according to the Eurocode's rules'",
+    "nota": "Classe EPD One Click LCA; fck = primeiro numero (cilindro)."
+   },
+   {
+    "sheet_row": 241,
+    "tipo": "norma_classe",
+    "norma": "EN 206 (notacao)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cilindro",
+    "citacao": "Tabela 4: 'One Click LCA Ready-mix concrete C30/37 / C40/50 / C50/60'; 'All the structural options assessed were designed and verified according to the Eurocode's rules'",
+    "nota": "Classe EPD One Click LCA; fck = primeiro numero (cilindro)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (capitulo de 8 pp.)."
+ },
+ {
+  "row_id": 3003,
+  "pares": [
+   {
+    "sheet_row": 250,
+    "tipo": "norma_classe",
+    "norma": "BS EN 206-1 / BS 8500-1",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cubo",
+    "citacao": "'The NSC covers the C25, C35 and C45 classes. The mix proportion for NSC is designed conforming to BS EN206-1 [46]. For example, 1 m3 of C28/35 concrete comprised 300 kg of cement' ([46] = BS 8500-1, complementar a BS EN 206-1)",
+    "nota": "DUVIDOSO quanto ao tipo de valor: o exemplo do proprio artigo iguala 'C28/35' ao traco com 300 kg de cimento, que e o traco C35 da Tabela 1 -> o numero Cxx do NSC parece ser a resistencia em CUBO (C35 = C28/35). Nesse caso o fck 25/35/45 gravado seria de cubo, nao de cilindro."
+   },
+   {
+    "sheet_row": 251,
+    "tipo": "norma_classe",
+    "norma": "BS EN 206-1 / BS 8500-1",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cubo",
+    "citacao": "'The NSC covers the C25, C35 and C45 classes. The mix proportion for NSC is designed conforming to BS EN206-1 [46]. For example, 1 m3 of C28/35 concrete comprised 300 kg of cement' ([46] = BS 8500-1, complementar a BS EN 206-1)",
+    "nota": "DUVIDOSO quanto ao tipo de valor: o exemplo do proprio artigo iguala 'C28/35' ao traco com 300 kg de cimento, que e o traco C35 da Tabela 1 -> o numero Cxx do NSC parece ser a resistencia em CUBO (C35 = C28/35). Nesse caso o fck 25/35/45 gravado seria de cubo, nao de cilindro."
+   },
+   {
+    "sheet_row": 252,
+    "tipo": "norma_classe",
+    "norma": "BS EN 206-1 / BS 8500-1",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": "cubo",
+    "citacao": "'The NSC covers the C25, C35 and C45 classes. The mix proportion for NSC is designed conforming to BS EN206-1 [46]. For example, 1 m3 of C28/35 concrete comprised 300 kg of cement' ([46] = BS 8500-1, complementar a BS EN 206-1)",
+    "nota": "DUVIDOSO quanto ao tipo de valor: o exemplo do proprio artigo iguala 'C28/35' ao traco com 300 kg de cimento, que e o traco C35 da Tabela 1 -> o numero Cxx do NSC parece ser a resistencia em CUBO (C35 = C28/35). Nesse caso o fck 25/35/45 gravado seria de cubo, nao de cilindro."
+   },
+   {
+    "sheet_row": 253,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mix proportion for HPC was designed according to available literature [47,48]'; UHPC 'based on several previous literatures [49-51]'",
+    "nota": "HPC/UHPC: tracos de literatura, sem norma nem provete citados no artigo."
+   },
+   {
+    "sheet_row": 254,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mix proportion for HPC was designed according to available literature [47,48]'; UHPC 'based on several previous literatures [49-51]'",
+    "nota": "HPC/UHPC: tracos de literatura, sem norma nem provete citados no artigo."
+   },
+   {
+    "sheet_row": 255,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mix proportion for HPC was designed according to available literature [47,48]'; UHPC 'based on several previous literatures [49-51]'",
+    "nota": "HPC/UHPC: tracos de literatura, sem norma nem provete citados no artigo."
+   },
+   {
+    "sheet_row": 256,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mix proportion for HPC was designed according to available literature [47,48]'; UHPC 'based on several previous literatures [49-51]'",
+    "nota": "HPC/UHPC: tracos de literatura, sem norma nem provete citados no artigo."
+   },
+   {
+    "sheet_row": 257,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mix proportion for HPC was designed according to available literature [47,48]'; UHPC 'based on several previous literatures [49-51]'",
+    "nota": "HPC/UHPC: tracos de literatura, sem norma nem provete citados no artigo."
+   },
+   {
+    "sheet_row": 258,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'The mix proportion for HPC was designed according to available literature [47,48]'; UHPC 'based on several previous literatures [49-51]'",
+    "nota": "HPC/UHPC: tracos de literatura, sem norma nem provete citados no artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (96.981 car.)."
+ },
+ {
+  "row_id": 3071,
+  "pares": [
+   {
+    "sheet_row": 297,
+    "tipo": "norma_classe",
+    "norma": "ACI 211.1-91 (metodo de dosagem; specified strength)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 1 nota a: 'The concrete mixture was designed based on the method stated in (ACI 211.1, 1991); specified strength = 40 MPa'",
+    "nota": "DUVIDOSO: ACI 211.1 e norma de dosagem, nao de ensaio nem de classe; 'measured compressive strength 40 MPa' na Tabela 1 sem provete. Se se aceitar a cadeia ACI (f'c), seria cilindro, mas o artigo nao o diz."
+   },
+   {
+    "sheet_row": 298,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 1: AAC (Nath and Sarker, 2014), 'Measured compressive strength 40 MPa'",
+    "nota": "Valor de fonte externa, sem provete nem norma no artigo."
+   },
+   {
+    "sheet_row": 299,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 2 nota a: 'This mixture was used in water tower place, Chicago, USA as cited in (ACI 363, 2011)'",
+    "nota": "ACI 363 e a fonte do traco (guia de controlo de qualidade de HSC), nao norma de ensaio citada para o valor. Sem provete."
+   },
+   {
+    "sheet_row": 300,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 2: AAC (Pouhet and Cyr, 2016) 'Measured compressive strength 58.5 MPa'",
+    "nota": "Fonte externa, sem provete nem norma."
+   },
+   {
+    "sheet_row": 301,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 3: OPCC (ACI 363, 2011) 'Measured compressive strength 105 MPa'",
+    "nota": "ACI 363 e a fonte do traco, nao norma de ensaio. Sem provete."
+   },
+   {
+    "sheet_row": 302,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 3: AAC-I (Assi et al., 2016b) 106 MPa",
+    "nota": "Fonte externa, sem provete nem norma."
+   },
+   {
+    "sheet_row": 303,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "Tabela 3: AAC-II (Liu et al., 2020) 102 MPa",
+    "nota": "Fonte externa, sem provete nem norma."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (65.426 car.). Todos os valores sao de literatura."
+ },
+ {
+  "row_id": 3073,
+  "pares": [
+   {
+    "sheet_row": 305,
+    "tipo": "sem_norma",
+    "norma": null,
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'Mix-1, Mix-2 and Mix-3 present a compressive strength of 35.9 MPa, 30.1 MPa and 25.2 MPa'; caracterizacao remetida para (Zakira, 2022)",
+    "nota": "Valores do trabalho anterior (Zakira 2022); o artigo nao da provete nem norma de ensaio. ACI 318 citado so para projecto estrutural."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (58.093 car.)."
+ },
+ {
+  "row_id": 3092,
+  "pares": [
+   {
+    "sheet_row": 310,
+    "tipo": "norma_ensaio",
+    "norma": "BS EN 12390-1 (citada); ASTM (procedimentos de Celik et al. 2015, sem numero)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'Compressive strength tests were conducted at 28 days (Table 1 and Fig. 1), in accordance with BS EN 12390-1 standards. These values were obtained from concrete samples produced under laboratory conditions following ASTM procedures (Celik et al., 2015)'",
+    "nota": "DUVIDOSO: o artigo cita BS EN 12390-1 (forma/dimensoes) e, na mesma frase, 'ASTM procedures' de Celik et al. 2015 (fonte dos dados). Norma contraditoria; nenhuma dimensao declarada. Nao deduzir pelo pais."
+   },
+   {
+    "sheet_row": 311,
+    "tipo": "norma_ensaio",
+    "norma": "BS EN 12390-1 (citada); ASTM (procedimentos de Celik et al. 2015, sem numero)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'Compressive strength tests were conducted at 28 days (Table 1 and Fig. 1), in accordance with BS EN 12390-1 standards. These values were obtained from concrete samples produced under laboratory conditions following ASTM procedures (Celik et al., 2015)'",
+    "nota": "DUVIDOSO: o artigo cita BS EN 12390-1 (forma/dimensoes) e, na mesma frase, 'ASTM procedures' de Celik et al. 2015 (fonte dos dados). Norma contraditoria; nenhuma dimensao declarada. Nao deduzir pelo pais."
+   },
+   {
+    "sheet_row": 312,
+    "tipo": "norma_ensaio",
+    "norma": "BS EN 12390-1 (citada); ASTM (procedimentos de Celik et al. 2015, sem numero)",
+    "dimensoes_declaradas": null,
+    "provete": null,
+    "valor_de": null,
+    "citacao": "'Compressive strength tests were conducted at 28 days (Table 1 and Fig. 1), in accordance with BS EN 12390-1 standards. These values were obtained from concrete samples produced under laboratory conditions following ASTM procedures (Celik et al., 2015)'",
+    "nota": "DUVIDOSO: o artigo cita BS EN 12390-1 (forma/dimensoes) e, na mesma frase, 'ASTM procedures' de Celik et al. 2015 (fonte dos dados). Norma contraditoria; nenhuma dimensao declarada. Nao deduzir pelo pais."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (93.413 car.)."
+ }
+]

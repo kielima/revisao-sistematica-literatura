@@ -1,0 +1,379 @@
+[
+ {
+  "row_id": 3399,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "DeRousseau, M. A. and Arehart, J. H. and Kasprzyk, J. R. and Srubar,\nIII, W. V.",
+  "titulo": "Statistical variation in the embodied carbon of concrete mixtures",
+  "pdf": "DEROUSSEAU et al., 2020.pdf",
+  "fileId": "1Kx-LzS9HZspLpdb1tAXh9PvuSMhHhD-Y",
+  "nota_QG": [
+   "[QG 0.5 - CO2 embutido tem distribuicao probabilistica propria por mistura (Monte Carlo, boxplots); resistencia e apenas a classe-alvo deterministica (21 MPa), sem replica.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 407,
+    "material": "betao Mistura 1a (21 MPa-alvo, sem cinza volante)",
+    "fck_mpa": 21,
+    "co2_kg_m3": 174.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa), linha '1a', coluna 'Strength (MPa)'"
+   },
+   {
+    "sheet_row": 408,
+    "material": "betao Mistura 1b (21 MPa-alvo, 20% cinza volante)",
+    "fck_mpa": 21,
+    "co2_kg_m3": 144.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa), linha '1b'"
+   },
+   {
+    "sheet_row": 409,
+    "material": "betao Misturas 2a/2b (28 MPa-alvo, par sem/com 20% cinza volante) -- REGISTO SEM VALOR",
+    "fck_mpa": 28,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa)"
+   },
+   {
+    "sheet_row": 410,
+    "material": "betao Misturas 3a/3b (34 MPa-alvo, par sem/com 20% cinza volante) -- REGISTO SEM VALOR",
+    "fck_mpa": 34,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa)"
+   },
+   {
+    "sheet_row": 411,
+    "material": "betao Misturas 4a/4b (41 MPa-alvo, par sem/com 20% cinza volante) -- REGISTO SEM VALOR",
+    "fck_mpa": 41,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa)"
+   },
+   {
+    "sheet_row": 412,
+    "material": "betao Misturas 5a/5b (55 MPa-alvo, par sem/com 20% cinza volante) -- REGISTO SEM VALOR",
+    "fck_mpa": 55,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tab.3 (p.9 do ficheiro/p.8 impressa)"
+   }
+  ]
+ },
+ {
+  "row_id": 3685,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Malami, Salim Idris and Val, Dimitri V. and Suryanto, Benny and Salman,\nHusham A",
+  "titulo": "Probabilistic approach to the sustainability assessment of reinforced\nconcrete structures in conditions of climate change",
+  "pdf": "MALAMI et al., 2024.pdf",
+  "fileId": "1DcO975MrfazHrYAQDWZx4Xkfd7-4_irK",
+  "nota_QG": [
+   "[QG 0.5 - Tabela 10 do proprio artigo declara desvio-padrao e CoV (<0,15) do CO2 total por coluna (simulacao probabilistica/Monte Carlo do proprio estudo); resistencia e apenas classe de projeto fixa, sem dispersao.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 1079,
+    "material": "concreto armado com cinza volante (fly ash) - coluna de estacionamento (estudo de caso probabilistico)",
+    "fck_mpa": 40,
+    "co2_kg_m3": null,
+    "ic_fck_valor": null,
+    "ic_co2_valor": 30.5,
+    "fonte_no_pdf": "p.7, Tab.6 (RC column characteristics)"
+   },
+   {
+    "sheet_row": 2010,
+    "material": "betao PC (so constituintes, A1-A3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 316,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 6"
+   },
+   {
+    "sheet_row": 2011,
+    "material": "betao FA/35 (so constituintes, A1-A3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 249.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 6"
+   },
+   {
+    "sheet_row": 2012,
+    "material": "betao GGBS/65 (so constituintes, A1-A3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 132.61,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 6"
+   }
+  ]
+ },
+ {
+  "row_id": 3758,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Raveendran, Namitha and Krishnan, Vasugi",
+  "titulo": "Engineering performance and environmental assessment of sustainable\nconcrete incorporating nano silica and metakaolin as cementitious\nmaterials",
+  "pdf": "RAVEENDRAN, 2025.pdf",
+  "fileId": "1qMysv_otqbkwWJWMOPNiuNBkDSQZmx92",
+  "nota_QG": [
+   "[QG 0.5 - A Fig.7a mostra barras de erro visiveis para cada mistura em cada idade de cura, com n=3 confirmado no texto; o CO2 e calculo deterministico por fator de emissao x quantidade de material, sem dispersao.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 493,
+    "material": "concreto controlo (CC, 100% OPC)",
+    "fck_mpa": 36.08,
+    "co2_kg_m3": 365.87,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.7 (impresso: 'the strength of the CC was estimated to be 36.08 MPa')"
+   },
+   {
+    "sheet_row": 494,
+    "material": "concreto com 1% nano silica, aditivo (M1)",
+    "fck_mpa": 41,
+    "co2_kg_m3": 366.14,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.7a, p.9 (leitura grafica contra eixo, confianca media - nao ha valor exato impresso em texto para M1 especificamente)"
+   },
+   {
+    "sheet_row": 495,
+    "material": "concreto com 2% nano silica, aditivo (M2) - optimo NS",
+    "fck_mpa": 43.28,
+    "co2_kg_m3": 366.4,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.7 (impresso: 'mix 2, having 2% NS, shows improvement in strength...36.08 to 43.28...at 28th day')"
+   },
+   {
+    "sheet_row": 496,
+    "material": "concreto com 3% nano silica, aditivo (M3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 366.67,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.7a, p.9 (leitura grafica, confianca media)"
+   },
+   {
+    "sheet_row": 497,
+    "material": "concreto com 5% metacaulim, substituicao (M4)",
+    "fck_mpa": 38.5,
+    "co2_kg_m3": 356.35,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Fig.7a, p.9 (leitura grafica, confianca media)"
+   },
+   {
+    "sheet_row": 498,
+    "material": "concreto com 12.5% metacaulim, substituicao (M5) - optimo MK",
+    "fck_mpa": 41.02,
+    "co2_kg_m3": 340.41,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.7 (impresso: 'compressive strength rose from 24.05 MPa to 26.66 MPa, 36.08 to 41.02...compared to CC')"
+   },
+   {
+    "sheet_row": 499,
+    "material": "concreto com 20% metacaulim, substituicao (M6)",
+    "fck_mpa": 33.64,
+    "co2_kg_m3": 330,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.20 (impresso: 'the strength of M6 concrete was found to be 33.64 MPa, which means it leads to a 6% reduction in strength')"
+   },
+   {
+    "sheet_row": 500,
+    "material": "concreto hibrido 12.5% metacaulim + 2% nano silica (M7) - mistura otima geral",
+    "fck_mpa": 49.02,
+    "co2_kg_m3": 341.11,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto, p.7 (impresso: '36.08 MPa to 49.02 MPa...for 7th, 28th and 90th day')"
+   }
+  ]
+ },
+ {
+  "row_id": 4416,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Asdrubali, Francesco and Grazieschi, Gianluca and Gandola, Dante Maria",
+  "titulo": "The Role of Environmental Product Declarations in the Decarbonization of\nBuilding Materials and Components",
+  "pdf": "ASDRUBALI, 2025.pdf",
+  "fileId": "1vVrMj1N3EuAoB4gbN2JrhHLvSXJfpFVn",
+  "nota_QG": [
+   "[QG 0.5 - Figura 5 (p.16), box plot de GWP por classe de resistencia cubica (compilacao de 79 EPDs europeias) - dispersao real da entidade extraida (classe), confirmada por renderizacao visual da pagina; fck e classe nominal fixa, sem dispersao propria.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 20 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 20,
+    "co2_kg_m3": 190,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 20 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1337,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 25 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 205,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 25 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1338,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 30 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 205,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 30 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1339,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 37 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 37,
+    "co2_kg_m3": 250,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 37 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1340,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 40 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 320,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 40 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1341,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 45 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 45,
+    "co2_kg_m3": 325,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 45 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1342,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 50 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 50,
+    "co2_kg_m3": 360,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 50 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1343,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 55 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 55,
+    "co2_kg_m3": 385,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 55 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1344,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 60 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 60,
+    "co2_kg_m3": 250,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 60 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   },
+   {
+    "sheet_row": 1345,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 75 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 75,
+    "co2_kg_m3": 290,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Tabela 3, p.6 'Overview of the dataset considered for ready-mixed concretes' - classe 75 MPa presente na amostra de 79 EPDs; eixo X da Figura 5, p.16."
+   }
+  ]
+ },
+ {
+  "row_id": 4512,
+  "status": "Elegível",
+  "QG": 0.5,
+  "autor": "Skibicki, Szymon and Federowicz, Karol and Hoffmann, Marcin and Chougan,\nMehdi a",
+  "titulo": "Potential of Reusing 3D Printed Concrete (3DPC) Fine Recycled Aggregates\nas a Strategy towards Decreasing Cement Content in 3DPC",
+  "pdf": "SKIBICKI et al., 2024.pdf",
+  "fileId": "12SiWBA1aCjOA6lopwjeQerFsDIBqqwHC",
+  "nota_QG": [
+   "[QG 0.5 - Texto (secao 3.4, p.14) afirma que a Figura 11 traz media de fc/fm e respectivo CoV, com CoV entre 3.58% e 17.41% para resistencia a compressao da mesma mistura R50 extraida, mas o valor exato por mistura so esta no grafico (barras de erro); download para renderizacao falhou por 'session expired' (armadilha n8) sem alternativa disponivel. CO2/GWP e deterministico, sem CoV.]"
+  ],
+  "pares": [
+   {
+    "sheet_row": 1480,
+    "material": "Concreto 3D impresso (3DPC) R0 - referencia sem fRA (agregado fino reciclado)",
+    "fck_mpa": 82.07,
+    "co2_kg_m3": 487.3,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Conclusoes p.22 (SKIBICKI et al., 2024): \"R50 mix showed... reduction of up to 49.3%... (fc=41.61 MPa)\" -> R0=41.61/(1-0.493) [DERIVADO]"
+   },
+   {
+    "sheet_row": 1481,
+    "material": "Concreto 3D impresso (3DPC) R10 - 10% substituicao cimento por fRA",
+    "fck_mpa": null,
+    "co2_kg_m3": 440.5,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "None"
+   },
+   {
+    "sheet_row": 1482,
+    "material": "Concreto 3D impresso (3DPC) R20 - 20% substituicao cimento por fRA",
+    "fck_mpa": 74.06,
+    "co2_kg_m3": 393.8,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "Texto p.14 (SKIBICKI et al., 2024): reducao de 9.77% aos 28 dias para 20% fRA, aplicada sobre R0=82.07 (linha 1483) [DERIVADO]"
+   },
+   {
+    "sheet_row": 1483,
+    "material": "Concreto 3D impresso (3DPC) R30 - 30% substituicao cimento por fRA",
+    "fck_mpa": null,
+    "co2_kg_m3": 347.1,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "None"
+   },
+   {
+    "sheet_row": 1484,
+    "material": "Concreto 3D impresso (3DPC) R40 - 40% substituicao cimento por fRA",
+    "fck_mpa": null,
+    "co2_kg_m3": 300.3,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "None"
+   },
+   {
+    "sheet_row": 1485,
+    "material": "Concreto 3D impresso (3DPC) R50 - 50% substituicao cimento por fRA (maximo)",
+    "fck_mpa": 41.61,
+    "co2_kg_m3": 253.6,
+    "ic_fck_valor": null,
+    "ic_co2_valor": null,
+    "fonte_no_pdf": "p.14, texto: 'As an outcome mix, R50 exhibited (fc = 41.61 MPa after 28 days, fm = 5.11 MPa after 28 days)' - repetido na Conclusao (p.20)"
+   }
+  ],
+  "fileId_reduzido": "1r-zGTA_EIrOKRokCb0SGuBjC68JcWNCZ"
+ }
+]
