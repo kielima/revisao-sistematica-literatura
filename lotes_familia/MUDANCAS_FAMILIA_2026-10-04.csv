@@ -1,0 +1,363 @@
+sheet_row,row_id,material,familia_antes,familia_nova,regra,a_rever,lote
+4,2586,"concreto C30/37 — GWP do agregado (brita), com vs sem substituição por agregado reciclado de concreto",reciclado,opc,D8 restante Portland,,resultado_lote01.json
+5,2606,"concreto a base de CFA (cinza co-queimada / co-fired ash), aplicacao estrutural",scm,reciclado,D7 residuo como agregado,,resultado_lote01.json
+23,4989,Concreto completamente reciclavel (CRC1) - agregados calcario,opc,scm,D7 substitui cimento,,resultado_lote42.json
+24,4989,Concreto completamente reciclavel (CRC2),opc,scm,D7 substitui cimento,,resultado_lote42.json
+31,5011,Argamassa com RBRO (residuo de beneficiamento de rocha ornamental) - substituicao parcial areia,opc,reciclado,D7 residuo como agregado,,resultado_lote42.json
+43,5018,Estrutura de concreto armado (ECA) vs light steel framing (ELSF),concreto_armado,opc,D8 restante Portland,,resultado_lote42.json
+51,5041,Concreto armado classe C25,concreto_armado,opc,D8 restante Portland,,resultado_lote43.json
+65,5055,Concreto REF (referencia s/ filler calcario),uhpc,opc,D8 restante Portland,,resultado_lote43.json
+66,5055,Concreto REF (referencia s/ filler calcario),uhpc,opc,D8 restante Portland,,resultado_lote43.json
+67,5055,Concreto FC50 (50% filler calcario),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+68,5055,Concreto FC50 (50% filler calcario),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+69,5055,Concreto FC60 (60% filler calcario),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+70,5055,Concreto FC60 (60% filler calcario),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+71,5055,Concreto FC60CH10 (60% filler + 10% cal hidratada),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+72,5055,Concreto FC60CH10 (60% filler + 10% cal hidratada),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+73,5055,Concreto FC70CV10 (70% filler + 10% cinza volante),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+74,5055,Concreto FC70CV10 (70% filler + 10% cinza volante),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+75,5055,Concreto FC70CV10CH10 (70% filler + 10% CV + 10% CH),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+76,5055,Concreto FC70CV10CH10 (70% filler + 10% CV + 10% CH),uhpc,scm,D7 substitui cimento,,resultado_lote43.json
+78,2580,"concreto controle (OPC grau 43, sem CBA)",reciclado,opc,D8 restante Portland,,resultado_lote01.json
+79,2580,concreto otimizado 21.51%GCBA + 29.82%CBA (proximo do mix testado G20C25),reciclado,scm,D7 substitui cimento,,resultado_lote01.json
+116,2653,"Bloco carbonatado (escoria de aco inoxidavel, SSS) - Cenario S1 (recuperacao CO2)",ligantes,ligantes,D4 outro ligante sem Portland,"confirmar ligante ""outro""",resultado_lote01.json
+117,2653,"Bloco carbonatado (escoria de aco inoxidavel, SSS) - Cenario S2 (recuperacao CO2 por membrana, menor impacto)",ligantes,ligantes,D4 outro ligante sem Portland,"confirmar ligante ""outro""",resultado_lote01.json
+118,2653,"Bloco carbonatado (escoria de aco inoxidavel, SSS) - Cenario S3 (recuperacao CO2)",ligantes,ligantes,D4 outro ligante sem Portland,"confirmar ligante ""outro""",resultado_lote01.json
+135,2684,"PC - concreto OPC de referencia (CEM I 52,5 N 300; agua 150; areia 0/4 770; brita 4/8 230, 8/16 375, 16/32 430 kg/m3; w/",scm,opc,D8 restante Portland,,resultado_lote02.json
+136,2684,"PC-SF - concreto OPC com 60 kg/m3 de fibras de aco (CEM I 52,5 N 300; SP 6,9; agua 150; areia 0/4 760; brita 4/8 225, 8/",scm,opc,D8 restante Portland,,resultado_lote02.json
+151,2703,"Betao 100% OPC, medido fisicamente (Type 1)",scm,opc,D8 restante Portland,,resultado_lote03.json
+154,2703,"Betao 100% OPC, Caso 1 da analise ambiental (classe de projeto)",scm,opc,D8 restante Portland,,resultado_lote03.json
+170,2736,"Betao com po de betao reciclado (RCP), traco RCP-15% (Mix 4)",reciclado,scm,D7 substitui cimento,,resultado_lote04.json
+178,2745,"Viga de betao com agregado reciclado, desconstruivel (ORB, 'ordinary reinforced beam')",reciclado,opc,D8 restante Portland,,resultado_lote04.json
+188,2755,"UHPFRC com 5% de finos de betao reciclado NAO carbonatados (URCF), mistura M1-URCF-5",uhpc,reciclado,D7 residuo como agregado,,resultado_lote05.json
+189,2755,"UHPFRC com 25% de finos de betao reciclado NAO carbonatados (URCF), mistura M5-URCF-25",uhpc,reciclado,D7 residuo como agregado,,resultado_lote05.json
+190,2755,"UHPFRC com 5% de finos de betao reciclado CARBONATADOS (CRCF), mistura M6-CRCF-5",uhpc,reciclado,D7 residuo como agregado,,resultado_lote05.json
+191,2755,"UHPFRC com 20% de finos de betao reciclado CARBONATADOS (CRCF), mistura M9-CRCF-20",uhpc,reciclado,D7 residuo como agregado,,resultado_lote05.json
+192,2757,"argamassa com 0% de GGBFS como substituicao de cimento, w/b=0.45, mistura A0",scm,opc,D8 restante Portland,,resultado_lote05.json
+200,2757,"argamassa com 0% de GGBFS como substituicao de cimento, w/b=0.65, mistura B0",scm,opc,D8 restante Portland,,resultado_lote05.json
+216,2765,"NAC (betao de agregado natural), 2 ciclos de uso, Cenario 1",reciclado,opc,D8 restante Portland,,resultado_lote05.json
+222,2771,"betao de fundacao, Alternativa 11 (estacas V305 classe C20/25 + vigas de fundacao pre-fabricadas P3.400 classe C40/50) -",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote05.json
+227,2786,"betao pre-fabricado 40 MPa com 30% cinza volante (inventario AusLCI), processo convencional",scm,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote06.json
+236,2806,"Concreto A (referencia, so CEM I 42,5R, sem SCM)",scm,opc,D8 restante Portland,,resultado_lote06.json
+247,2946,"Pilar de betao pre-fabricado, modelo circular (cinza de cal da industria de pasta/papel substitui 100% do filler natural",opc,reciclado,D7: cinza de cal da industria de papel substitui o filer calcario natural (nao o cimento),,resultado_lote08.json
+250,3003,"Betao NSC classe C25 (mix design de literatura, base de dados ICE, sem SCM)",scm,opc,D8 restante Portland,,resultado_lote09.json
+251,3003,"Betao NSC classe C35 (mix design de literatura, base de dados ICE, sem SCM)",scm,opc,D8 restante Portland,,resultado_lote09.json
+252,3003,"Betao NSC classe C45 (mix design de literatura, base de dados ICE, sem SCM)",scm,opc,D8 restante Portland,,resultado_lote09.json
+253,3003,"Betao HPC classe C80 (mix design de literatura, base de dados ICE, sem SCM)",scm,opc,D8 restante Portland,,resultado_lote09.json
+254,3003,"Betao HPC classe C90 (mix design de literatura, base de dados ICE, sem SCM)",scm,opc,D8 restante Portland,,resultado_lote09.json
+255,3003,"Betao HPC classe C100 (mix design de literatura, base de dados ICE, sem SCM)",scm,opc,D8 restante Portland,,resultado_lote09.json
+259,3017,"Argamassa 5%M-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+260,3055,"Betao autocompactavel (SCC), mistura C-F-L 100-0-0 (cimento-cinza volante-filer calcario, % em massa)",scm,opc,D8 restante Portland,,resultado_lote10.json
+285,3068,"Betao com cimento binario/ternario blendado, mistura M1 (w/b=0.50, 0% SCM, OPC puro)",scm,opc,D8 restante Portland,,resultado_lote10.json
+301,3071,"Betao OPC convencional (OPCC), grau ultra-alta resistencia",uhpc,opc,D8 restante Portland,,resultado_lote11.json
+312,3092,"Betao SCC, mistura C-F-L 100-0-0 (100% cimento Portland, controlo sem SCM) -- mesmo dataset de resistencia de Celik et a",scm,opc,D8 restante Portland,,resultado_lote11.json
+316,3115,"LWCM LT5S0 (argamassa leve com FAC + 0.05% MWCNTs, sem nanosilica) - melhor desempenho mecanico entre as LWCM",scm,reciclado,D7 residuo como agregado,,resultado_lote12.json
+324,3195,"Argamassa de cimento Portland (OPC), impressa em 3D, resistencia equivalente ao geopolimero CDW",geopolimero,opc,D8 restante Portland,,resultado_lote14.json
+328,3255,"Concreto convencional (CC) de referencia, classe 20 MPa - comparador simetrico ao betao geopolimerico",geopolimero,opc,D8 restante Portland,,resultado_lote16.json
+331,3276,Parede de concreto armado (RC - reinforced concrete wall) - sistema principal (concreto/UHPC de baixo carbono),uhpc,opc,D8 restante Portland,,resultado_lote16.json
+332,3281,"Concreto de alta resistencia com cinza volante para ambiente marinho - mistura FA0 (controlo, sem cinza volante)",scm,opc,D8 restante Portland,,resultado_lote16.json
+335,3282,"Concreto Cimento Branco (White cement), 45 MPa, sem SCM (0%)",scm,opc,D8 restante Portland,,resultado_lote16.json
+336,3283,Concreto armado in situ RC25/30 (pilares/lajes do 'Concrete Frame' e paredes internas do 'Steel Frame'),opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote16.json
+346,3309,Concreto com agregado virgem (VAC) e agregado reciclado multi-geracional (RACI/RACII/RACIII) - vigas sem armadura transv,reciclado,opc,D8 restante Portland,,resultado_lote17.json
+353,3335,"betao de pavimento OPC (mistura in-situ/controlo do GDOT, ja com 20% cinza volante)",scm,opc,D8 restante Portland,,resultado_lote17.json
+368,3354,"betao ternario NHL5-GGBS-SF, mistura I (53% NHL5, 35% GGBS, 12% SF, com SP)",scm,ligantes,D4 outro: cal hidraulica natural nhl5 + ggbs + silica de fumo (sem clinquer portland),,resultado_lote17.json
+369,3354,"betao ternario NHL5-GGBS-SF, mistura II (38% NHL5, 50% GGBS, 12% SF, com SP)",scm,ligantes,D4 outro: cal hidraulica natural nhl5 + ggbs + silica de fumo (sem clinquer portland),,resultado_lote17.json
+370,3354,"betao ternario NHL5-GGBS-SF, mistura III (23% NHL5, 65% GGBS, 12% SF, com SP)",scm,ligantes,D4 outro: cal hidraulica natural nhl5 + ggbs + silica de fumo (sem clinquer portland),,resultado_lote17.json
+371,3354,"betao CEMI (comparador a igual fcm,28=33MPa)",scm,opc,D8 restante Portland,,resultado_lote17.json
+373,3354,"betao ternario NHL5-GGBS-SF, mistura IV (50% NHL5, 40% GGBS, 10% SF, com SP)",scm,ligantes,D4 outro: cal hidraulica natural nhl5 + ggbs + silica de fumo (sem clinquer portland),,resultado_lote17.json
+374,3354,"betao CEMI (comparador a igual fcm,28=49MPa)",scm,opc,D8 restante Portland,,resultado_lote17.json
+396,3360,"betao OPC 100% (100% OPC 50 MPa), hLCA -- valor de referencia dos GPC",geopolimero,opc,D8 restante Portland,,resultado_lote18.json
+397,3367,"cimento PC (ASTM, sem zeolito) -- Cementos Cienfuegos S.A., Cuba",scm,opc,D8 restante Portland,,resultado_lote18.json
+407,3399,"betao Mistura 1a (21 MPa-alvo, sem cinza volante)",scm,opc,D8 restante Portland,,resultado_lote18.json
+425,3497,"concreto de meio-fio (kerb) com agregado natural (NA) e agregado de pneu triturado (TDA) 0-20%, mistura CC-25 (controlo,",reciclado,opc,D8 restante Portland,,resultado_lote20.json
+435,3504,concreto autoadensavel (SCC) - mistura de controlo R (sem SCM),scm,opc,D8 restante Portland,,resultado_lote20.json
+452,3529,argamassa de alta resistencia com 5% po de basalto residual (5BT),reciclado,scm,D7 substitui cimento,,resultado_lote21.json
+453,3529,argamassa de alta resistencia com 10% po de basalto residual (10BT),reciclado,scm,D7 substitui cimento,,resultado_lote21.json
+454,3529,argamassa de alta resistencia com 15% po de basalto residual (15BT) - mistura otima,reciclado,scm,D7 substitui cimento,,resultado_lote21.json
+455,3529,argamassa de alta resistencia com 20% po de basalto residual (20BT),reciclado,scm,D7 substitui cimento,,resultado_lote21.json
+456,3529,argamassa de alta resistencia com 25% po de basalto residual (25BT),reciclado,scm,D7 substitui cimento,,resultado_lote21.json
+458,3539,"betao de cimento misto otimizado, classe de resistencia 30 MPa",opc,scm,D7 substitui cimento,,resultado_lote21.json
+459,3539,"betao de cimento misto otimizado, classe de resistencia 40 MPa",opc,scm,D7 substitui cimento,,resultado_lote21.json
+460,3539,"betao de cimento misto otimizado, classe de resistencia 50 MPa",opc,scm,D7 substitui cimento,,resultado_lote21.json
+461,3539,"betao de cimento misto otimizado, classe de resistencia 60 MPa",opc,scm,D7 substitui cimento,,resultado_lote21.json
+462,3539,"betao de cimento misto otimizado, classe de resistencia 70 MPa",opc,scm,D7 substitui cimento,,resultado_lote21.json
+463,3539,"betao de cimento misto otimizado, classe de resistencia 80 MPa",opc,scm,D7 substitui cimento,,resultado_lote21.json
+493,3758,"concreto controlo (CC, 100% OPC)",scm,opc,D8 restante Portland,,resultado_lote23.json
+494,3758,"concreto com 1% nano silica, aditivo (M1)",scm,opc,D8 restante Portland,,resultado_lote23.json
+495,3758,"concreto com 2% nano silica, aditivo (M2) - optimo NS",scm,opc,D8 restante Portland,,resultado_lote23.json
+496,3758,"concreto com 3% nano silica, aditivo (M3)",scm,opc,D8 restante Portland,,resultado_lote23.json
+511,3827,"PRAC, caso 6 - P0.5-0.5-0.34-40-C (maior teor de cinza volante, cura 40C)",reciclado,scm,D7 substitui cimento,,resultado_lote24.json
+512,3827,"PRAC, caso 7 - P0.5-0.5-0.375-60-C",reciclado,scm,D7 substitui cimento,,resultado_lote24.json
+513,3827,"PRAC, caso 8 - P0.5-0.5-0.4-75-C",reciclado,scm,D7 substitui cimento,,resultado_lote24.json
+514,3827,"PRAC, caso 9 - P0.5-0.5-0.425-90-C (maior teor de cinza volante, maior temp de cura)",reciclado,scm,D7 substitui cimento,,resultado_lote24.json
+531,3864,TR1: concreto autoadensavel (SCC) com 0% de agregado fino substituido por cinza de lagoa (pond ash),reciclado,opc,D8 restante Portland,,resultado_lote24.json
+541,3883,"REF: concreto (referencia, agregados primarios (brita+areia), sem agregado reciclado), classe C20/25 (CSN EN 206+A1)",reciclado,opc,D8 restante Portland,,resultado_lote24.json
+544,3883,"CEM: concreto (agregados primarios + cimento parcialmente substituido por po de cimento reciclado (RCP)), classe C20/25 ",reciclado,scm,D7 substitui cimento,,resultado_lote24.json
+566,4328,Concreto reforcado com Fibra de sisal,biobase,opc,D8 restante Portland,,resultado_lote30.json
+573,4483,"Betao convencional (43.2 MPa) e betao reciclado (35.5 MPa), adotados de Turk[16] para reforco sismico (CWS/SIC)",reciclado,opc,D8 restante Portland,,resultado_lote34.json
+579,4671,"Controlo (0% substituicao de areia por particulas de borracha, RP-0)",reciclado,opc,D8 restante Portland,,resultado_lote37.json
+601,4942,Argamassa cimenticia R25C75 (25% RFA + 75% areia grossa natural),opc,reciclado,D7 residuo como agregado,,resultado_lote42.json
+629,2641,"concreto pré-fabricado estrutural C25/30 (painéis/lajes, estudo de caso prédio 1967, Helsingborg) — carbono incorporado ",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote01.json
+630,2650,"concreto pré-fabricado estrutural C25/30 (mesmo estudo de caso do artigo 2641, versão estendida com dataset Boverket atu",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote01.json
+631,2658,"REF1 (argamassa referencia, agregado natural, classe M30)",reciclado,opc,D8 restante Portland,,resultado_lote02.json
+633,2658,"REF2 (argamassa referencia, agregado natural, classe M20)",reciclado,opc,D8 restante Portland,,resultado_lote02.json
+645,2688,"Carbon-reinforced concrete (CRC) — painel de fachada, 4000x3600x40mm (~0.576 m3)",opc,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 791.67 -> 269.0,resultado_lote02.json
+646,2693,"Viga BFRP pre-tensionada, 1200x200x200mm (Beams 1.1/1.2)",concreto_armado,opc,D8 restante Portland,,resultado_lote02.json
+647,2693,"Viga BFRP pre-tensionada, 2000x200x200mm (Beams 2.1/2.2/2.3)",concreto_armado,opc,D8 restante Portland,,resultado_lote02.json
+648,2693,"Viga BFRP pre-tensionada, 2700x200x200mm (Beams 3.1/3.2)",concreto_armado,opc,D8 restante Portland,,resultado_lote02.json
+649,2693,"Viga BFRP pre-tensionada, 3860x200x200mm (Beams 4.1/4.2)",concreto_armado,opc,D8 restante Portland,,resultado_lote02.json
+650,2693,"Viga com armadura de aco convencional, 1250x200x189mm (Beams 5.1/5.2/5.3) - comparador simetrico",concreto_armado,opc,D8 restante Portland,,resultado_lote02.json
+661,2700,Concreto 24 MPa com GGBS 0% (analise de sensibilidade acidificacao/eutrofizacao),scm,opc,D8 restante Portland,,resultado_lote03.json
+668,2705,"Concreto RMC 30 MPa, projecto C-B-58 (Busan, 30 MPa-500mm slump)",opc,scm,D7 substitui cimento,,resultado_lote03.json
+669,2705,"Concreto RMC 30 MPa, projecto C-I-49 (Incheon, 30 MPa-500mm slump)",opc,scm,D7 substitui cimento,,resultado_lote03.json
+675,2721,Concreto (alvo C30) com PPF 0% + agregado de tijolo reciclado (BA) 0% - mistura 1-1,reciclado,opc,D8 restante Portland,,resultado_lote03.json
+680,2721,Concreto (alvo C30) com PPF 0.1% + agregado de tijolo reciclado (BA) 0% - mistura 2-1,reciclado,opc,D8 restante Portland,,resultado_lote03.json
+685,2721,Concreto (alvo C30) com PPF 0.15% + agregado de tijolo reciclado (BA) 0% - mistura 3-1,reciclado,opc,D8 restante Portland,,resultado_lote03.json
+706,2822,Concreto armado C45 - edificio de 9 pisos + subsolo (comparacao sismica e ACV vs hibrido madeira-concreto),opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote06.json
+707,2827,"Concreto C25/30 para Accropodes (unidades de protecao costeira <=4m3, com componentes reciclados de flowline/umbilical/t",reciclado,opc,D8 restante Portland,,resultado_lote06.json
+709,2832,"Concreto RAC (agregado reciclado) traco 0-0 (ARG=agregado grosso reciclado%, ARF=agregado fino reciclado%)",reciclado,opc,D8 restante Portland,,resultado_lote07.json
+743,2836,"Concreto convencional CC-CPIII, cenario Serra-ES",opc,scm,D7 substitui cimento,,resultado_lote07.json
+744,2836,"Concreto convencional CC-CPIII, cenario Porto Alegre-RS",opc,scm,D7 substitui cimento,,resultado_lote07.json
+745,2836,"Concreto convencional CC-CPIII, cenario Brasilia-DF",opc,scm,D7 substitui cimento,,resultado_lote07.json
+746,2836,"Concreto convencional CC-CPIII, cenario Recife-PE",opc,scm,D7 substitui cimento,,resultado_lote07.json
+747,2836,"Concreto convencional CC-CPIII, cenario Belem-PA",opc,scm,D7 substitui cimento,,resultado_lote07.json
+787,2895,Concreto V10 - 10% substituicao por cinzas de fundo vitrificadas,opc,scm,D7 substitui cimento,,resultado_lote08.json
+788,2895,Concreto V15 - 15% substituicao por cinzas de fundo vitrificadas,opc,scm,D7 substitui cimento,,resultado_lote08.json
+789,2895,Concreto V20 - 20% substituicao por cinzas de fundo vitrificadas,opc,scm,D7 substitui cimento,,resultado_lote08.json
+793,2927,Concreto convencional referencia (0% RCA) - grau 25,reciclado,opc,D8 restante Portland,,resultado_lote08.json
+800,2950,"HPC controle/referencia, 0% RCA, 0% NWF (mistura '0RA')",reciclado,opc,D8 restante Portland,,resultado_lote09.json
+804,2966,"Betao Portland Tipo I (C0-C100) e geopolimero (G0-G100), ambos com agregado reciclado, todos dimensionados para 30 MPa",geopolimero,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 345.0 -> 299.0,resultado_lote09.json
+821,3053,"Concreto convencional C30/37 (sistema de reabilitacao tradicional de ponte, com membrana de impermeabilizacao) - compara",uhpc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote10.json
+841,3102,"laje macica de concreto armado (4x4m, 12cm), cobrimento de armadura variavel (15/20/25/30mm)",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote11.json
+847,3132,"concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)",scm,opc,D8 restante Portland,,resultado_lote12.json
+848,3132,"concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)",scm,opc,D8 restante Portland,,resultado_lote12.json
+849,3132,"concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)",scm,opc,D8 restante Portland,,resultado_lote12.json
+860,3146,concreto com mucilagem de Opuntia ficus-indica (Ofim) como bio-aditivo — comparativo nivelado (APCR) Ofim-15/10 (15% Ofi,biobase,opc,D8 restante Portland,,resultado_lote12.json
+867,3152,"argamassa com borracha de pneu triturado (CR) — mistura M_REF (0% CR, controlo)",reciclado,opc,D8 restante Portland,,resultado_lote12.json
+870,3155,"concreto leve com fibra de papelao reciclado (cardboard) e macro-fibra de polipropileno — mistura W00 (controlo, sem car",reciclado,opc,D8 restante Portland,,resultado_lote13.json
+881,3173,"concreto com SCM industrial/natural, caso de Hong Kong, mistura M1 (100% OPC, referencia)",scm,opc,D8 restante Portland,,resultado_lote13.json
+887,3178,"bloco de concreto com solo extraido de escavacao (DES) substituindo areia, ligante OPC (OPCCB), traco optimo C30 (30% DE",opc,reciclado,D7 residuo como agregado,,resultado_lote13.json
+892,3182,"concreto com agregado graudo de plastico de e-waste (e-plastic), cenario E1 (concreto convencional, controlo)",reciclado,opc,D8 restante Portland,,resultado_lote13.json
+894,3182,"concreto com agregado graudo de plastico de e-waste (e-plastic), cenario E3 (E2 + 30% cimento substituido por GGBS)",reciclado,scm,D7 substitui cimento,,resultado_lote13.json
+896,3187,"betao auto-compactavel (SCC) com agregado graudo reciclado de rejeitados de pre-fabricacao (PRA/CRA) e fly ash, mistura ",reciclado,opc,D8 restante Portland,,resultado_lote14.json
+897,3187,"betao auto-compactavel (SCC) com agregado graudo reciclado de rejeitados de pre-fabricacao (PRA/CRA) e fly ash, mistura ",reciclado,opc,D8 restante Portland,,resultado_lote14.json
+899,3187,"betao auto-compactavel (SCC) com agregado graudo reciclado de rejeitados de pre-fabricacao (PRA/CRA) e fly ash, mistura ",reciclado,scm,D7 substitui cimento,,resultado_lote14.json
+902,3189,"concreto com alto teor de cinza volante (50% substituicao do OPC) e vidro finamente moido (FPGC) como nano-aditivo, mist",scm,opc,D8 restante Portland,,resultado_lote14.json
+918,3206,"concreto para pavimento - mistura de controlo (CPC, sem GGBS/fibras)",scm,opc,D8 restante Portland,,resultado_lote15.json
+919,3207,"UHSFRC controlo (FA0SF0, sem cinza volante/silica fume)",scm,uhpc,D6 UHPC declarado,,resultado_lote15.json
+920,3207,UHSFRC com cinza volante 10% + silica fume 10% (FA10SF10),scm,uhpc,D6 UHPC declarado,,resultado_lote15.json
+921,3207,UHSFRC com cinza volante 46.21% + silica fume 15% (FA46.21SF15 - minimo CO2),scm,uhpc,D6 UHPC declarado,,resultado_lote15.json
+932,3221,"concreto pronto com SCMs, classe C30 (media dos tracos C30 da base de 440 tracos chineses)",scm,opc,D8 restante Portland,,resultado_lote15.json
+945,3251,"concreto reciclado (RCA 0%, virgem - VC)",reciclado,opc,D8 restante Portland,,resultado_lote16.json
+973,3377,ligante alcali-activado GGBS25:FA75 (ativador NaOH 6M),ligantes,geopolimero,D3 alcali-ativado,,resultado_lote18.json
+974,3377,ligante alcali-activado GGBS50:FA50 (ativador NaOH 6M),ligantes,geopolimero,D3 alcali-ativado,,resultado_lote18.json
+975,3377,ligante alcali-activado GGBS75:FA25 (ativador NaOH 6M),ligantes,geopolimero,D3 alcali-ativado,,resultado_lote18.json
+997,3416,SHCC otimizado com po de concreto reciclado (RCP 45%) — mistura usada nas vigas de referencia estrutural,reciclado,scm,D7 substitui cimento,,resultado_lote19.json
+1002,3419,Concreto com 10% de residuo de copo de cafe (substituicao volumetrica de areia),opc,reciclado,D7 residuo como agregado,,resultado_lote19.json
+1004,3424,"Concreto C35/45 (Wall_Ref, parede de referencia de betao armado sem SAP)",concreto_armado,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 532.5 -> 369,resultado_lote19.json
+1005,3424,"Concreto C30/37 (Wall_SAP, parede de betao armado com polimero superabsorvente)",concreto_armado,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 526.0 -> 374,resultado_lote19.json
+1025,3507,"Laje pre-moldada hollow core (concreto NWC, classe C40/50)",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote20.json
+1043,3559,concreto pesado (heavyweight) - referência com agregado de barita (HC1),scm,opc,D8 restante Portland,,resultado_lote21.json
+1044,3559,concreto pesado (heavyweight) com agregado de escória EAF (HC2),scm,reciclado,D7 residuo como agregado,,resultado_lote21.json
+1047,3568,"concreto estrutural classe C32, 50% substituição por escória de alto-forno (BFS) - fundação de turbina eólica onshore",opc,scm,D7 substitui cimento,,resultado_lote21.json
+1048,3568,"concreto estrutural classe C40, 50% substituição por escória de alto-forno (BFS) - fundação de turbina eólica onshore",opc,scm,D7 substitui cimento,,resultado_lote21.json
+1049,3568,"concreto estrutural classe C35, 50% BFS, agregado grosso NATURAL - fundação de turbina eólica onshore",opc,scm,D7 substitui cimento,,resultado_lote21.json
+1051,3576,CNA / concreto com agregado natural,reciclado,opc,D8 restante Portland,,resultado_lote21.json
+1059,3598,"concreto Portland Tipo I (0% SCM, resistencia de projeto 30 MPa)",scm,opc,D8 restante Portland,,resultado_lote21.json
+1060,3598,"concreto Portland Tipo I (0% SCM, resistencia de projeto 45 MPa)",scm,opc,D8 restante Portland,,resultado_lote21.json
+1069,3657,"concreto com agregado reciclado (NAC - agregado natural, comparador)",reciclado,opc,D8 restante Portland,,resultado_lote22.json
+1096,3802,"Blocos de pavimento prensados (CPB), mistura de referencia W22-R (0% CWP, w/c=0.22)",scm,opc,D8 restante Portland,,resultado_lote23.json
+1105,3818,"LP-ECC (Engineered Cementitious Composite, lignina/50% vol. fibra PE, impressao 3D)",biobase,scm,D7 substitui cimento,,resultado_lote23.json
+1106,3818,"RC (concreto armado convencional, referencia com armadura, impressao 3D vs. betonagem)",concreto_armado,opc,D8 restante Portland,,resultado_lote23.json
+1112,3831,Concreto convencional RC (0% RCA) -- controle,reciclado,opc,D8 restante Portland,,resultado_lote24.json
+1123,3843,"Concreto Mix 5 (w/b=0.38, 0% cinza volante, maior teor de cimento=507 kg/m3)",scm,opc,D8 restante Portland,,resultado_lote24.json
+1126,3872,"Concreto pronto C35/45, mistura de referência (100% agregado virgem, EPD Velde)",reciclado,opc,D8 restante Portland,,resultado_lote24.json
+1144,3928,"Concreto tradicional M300 (NC) - vigas Ponte An Thuong, Vietname (comparador simetrico do UHPC)",uhpc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote25.json
+1147,3947,"Concreto 0% SCM (referencia so-PC), mistura de menor teor de cimento para 40 MPa (agregado de diametro maximo, ferrament",scm,opc,D8 restante Portland,,resultado_lote26.json
+1148,3947,"Concreto 0% SCM (referencia so-PC), mistura de maior teor de cimento para 40 MPa (agregado de diametro minimo, ferrament",scm,opc,D8 restante Portland,,resultado_lote26.json
+1151,3993,"Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,5, %R=0 (mistura de referência, sem RCA)",reciclado,opc,D8 restante Portland,,resultado_lote26.json
+1156,3993,"Concreto OPC com agregado reciclado de concreto (RCA), w/c=0,7, %R=0 (mistura de referência, sem RCA)",reciclado,opc,D8 restante Portland,,resultado_lote26.json
+1160,3995,"Concreto de alta resistência (Singapura) com substituição de areia natural por escória de cobre (CS), mistura Mix6 (0% a",scm,reciclado,D7 residuo como agregado,,resultado_lote26.json
+1164,4027,Concreto OPC 50 MPa vs geopolimero (90% FA/10% GGBFS) 50 MPa -- decomposicao de inventarios hibridos (mesmo caso de estu,opc,reciclado,D7 residuo como agregado,,resultado_lote26.json
+1201,4142,"Argamassa controlo (M-0, 0% POC) -- Malasia",scm,opc,D8 restante Portland,,resultado_lote28.json
+1203,4142,"Concreto controlo (C-0, 0% POC) -- Malasia",scm,opc,D8 restante Portland,,resultado_lote28.json
+1204,4142,Concreto com POC substituindo 100% do agregado grosso (C-100C) -- Malasia,scm,reciclado,D7 residuo como agregado,,resultado_lote28.json
+1205,4142,Concreto com POC substituindo 100% do agregado fino/areia (C-100F) -- Malasia,scm,reciclado,D7 residuo como agregado,,resultado_lote28.json
+1210,4160,"Argamassa de alta resistencia (HSM), mistura controlo 0% CWP (residuo de po de ceramica)",reciclado,opc,D8 restante Portland,,resultado_lote28.json
+1211,4160,"Argamassa de alta resistencia (HSM) com 30% CWP (residuo de po de ceramica) moido 15 min -- GT15CWP30, melhor desempenho",reciclado,scm,D7 substitui cimento,,resultado_lote28.json
+1229,4232,"Concreto com agregados reciclados e subprodutos (agregado de escoria, agregado de cinza de fundo, vidro) — 7 misturas",reciclado,opc,D8 restante Portland,,resultado_lote29.json
+1230,4244,"Concreto convencional (CTL, controle) para laje alveolar protendida — retrofit de ponte, Brasil",scm,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote29.json
+1234,4244,Concreto com 20% de substituicao de cimento por po de vidro moido (GP2-20),reciclado,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote29.json
+1263,4292,"Concreto estrutural (portais e fundacoes de portico industrial), classe de projeto C30/37 (EN 206)",reciclado,opc,D8 restante Portland,,resultado_lote30.json
+1331,4408,concreto autoadensavel (SCC) M1 - 0% substituicao de cimento por po de residuo de tijolo ceramico (CBWP),reciclado,opc,D8 restante Portland,,resultado_lote31.json
+1332,4408,concreto autoadensavel (SCC) M2 - 12.5% substituicao de cimento por po de residuo de tijolo ceramico (CBWP),reciclado,scm,D7 substitui cimento,,resultado_lote31.json
+1333,4408,concreto autoadensavel (SCC) M3 - 25% substituicao de cimento por po de residuo de tijolo ceramico (CBWP),reciclado,scm,D7 substitui cimento,,resultado_lote31.json
+1334,4408,concreto autoadensavel (SCC) M4 - 37.5% substituicao de cimento por po de residuo de tijolo ceramico (CBWP),reciclado,scm,D7 substitui cimento,,resultado_lote31.json
+1335,4408,concreto autoadensavel (SCC) M5 - 50% substituicao de cimento por po de residuo de tijolo ceramico (CBWP),reciclado,scm,D7 substitui cimento,,resultado_lote31.json
+1365,4452,"concreto Portland (30 misturas com SCMs, modelo OptiCon, Colômbia)",opc,scm,D7 substitui cimento,,resultado_lote32.json
+1379,4463,"concreto convencional pronto para uso C35/45 (Alemanha, referencia ready-mix)",uhpc,opc,D8 restante Portland,,resultado_lote32.json
+1380,4463,"concreto convencional pre-moldado C50/60 (Alemanha, referencia precast)",uhpc,opc,D8 restante Portland,,resultado_lote32.json
+1390,4475,"Argamassa R32.5 + 12.8% CFRP substituindo cimento, fibra 2-5mm (SC-R32.5_12.8%_2-5, 'experimental mix' otimo)",opc,reciclado,D7 residuo como fibra,,resultado_lote33.json
+1452,4493,Carbon concrete (CC) - concreto fino de alta resistencia C70/85 com reforco de fibra de carbono (27.01 kg/m3),opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote34.json
+1453,4493,Steel-reinforced concrete (SC) - concreto C35/45 com reforco de aco (69.16 kg/m3),opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote34.json
+1466,4502,"Concreto C25/30 com 10% cinza grossa (CA, coarse ash) substituindo cimento",opc,scm,D7 substitui cimento,,resultado_lote34.json
+1467,4502,Concreto C25/30 com 10% lignite filter ash tipo 1 (LFA1) substituindo cimento,opc,scm,D7 substitui cimento,,resultado_lote34.json
+1469,4500,"Argamassa CEM III 32.5N (referencia, sem substituicao)",scm,opc,D8 restante Portland,,resultado_lote34.json
+1475,4505,Concreto com fibra residuo tornejo/lathe (CFLW) dosagem minima - CEM II 42.5,opc,reciclado,D7 residuo como fibra,,resultado_lote34.json
+1478,4511,"Concreto H-0 (referencia, 0% substituicao de agregado natural por RCA-CBW)",reciclado,opc,D8 restante Portland,,resultado_lote34.json
+1480,4512,Concreto 3D impresso (3DPC) R0 - referencia sem fRA (agregado fino reciclado),reciclado,opc,D8 restante Portland,,resultado_lote35.json
+1482,4512,Concreto 3D impresso (3DPC) R20 - 20% substituicao cimento por fRA,reciclado,scm,D7 substitui cimento,,resultado_lote35.json
+1485,4512,Concreto 3D impresso (3DPC) R50 - 50% substituicao cimento por fRA (maximo),reciclado,scm,D7 substitui cimento,,resultado_lote35.json
+1487,4518,Argamassa controlo M-Control (CEM II 42.5),reciclado,opc,D8 restante Portland,,resultado_lote35.json
+1488,4518,Argamassa M-EcHy (CEM ecohibrido: 19% pMRA + 6% pBBA substituindo clinker),reciclado,scm,D7 substitui cimento,,resultado_lote35.json
+1489,4518,Argamassa M-EcHy/20M (19% pMRA + 6% pBBA + substituicao 20% areia por MRA fino),reciclado,scm,D7 substitui cimento,,resultado_lote35.json
+1490,4518,Concreto controlo C-Control (CEM II 42.5 + agregados naturais),reciclado,opc,D8 restante Portland,,resultado_lote35.json
+1491,4518,Concreto C-EcHy (CEM ecohibrido: 19% pMRA + 6% pBBA substituindo clinker + ANC),reciclado,scm,D7 substitui cimento,,resultado_lote35.json
+1492,4518,Concreto C-EcHy/28M-6B (19% pMRA + 6% pBBA cimento + 28% MRA grosso + 6% BBA agregado),reciclado,scm,D7 substitui cimento,,resultado_lote35.json
+1495,4522,"Concreto referencia FA0C0F0 - sem FA, 100% agregado natural (NCA+NFA), sem carbonatacao",scm,opc,D8 restante Portland,,resultado_lote35.json
+1506,4557,Concreto com po de calcario como substituto parcial de cimento - mistura Control,scm,opc,D8 restante Portland,,resultado_lote35.json
+1570,4580,"Concreto CON-fix-SLUMP-0-10, FBA0 (substituicao de areia por cinza de fundo de forno FBA)",reciclado,opc,D8 restante Portland,,resultado_lote36.json
+1575,4580,"Concreto CON-fix-SLUMP-30-60, FBA0 (substituicao de areia por cinza de fundo de forno FBA)",reciclado,opc,D8 restante Portland,,resultado_lote36.json
+1580,4580,"Concreto CON-fix-W/C-0.45, FBA0 (substituicao de areia por cinza de fundo de forno FBA)",reciclado,opc,D8 restante Portland,,resultado_lote36.json
+1585,4580,"Concreto CON-fix-W/C-0.55, FBA0 (substituicao de areia por cinza de fundo de forno FBA)",reciclado,opc,D8 restante Portland,,resultado_lote36.json
+1620,4604,"Caixão Porto de Valência - armadura de aço, CEM I SR (HA 35)",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote36.json
+1621,4604,"Caixão Porto de Valência - armadura GFRP, CEM I SR (HA 35)",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote36.json
+1622,4604,"Caixão Porto de Valência - armadura GFRP, CEM III SR (HA 35)",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote36.json
+1635,4608,"Concreto comercial pronto (EPD8, produto EPD real)",opc,scm,D7 substitui cimento,,resultado_lote36.json
+1646,4613,"Residuo de concreto armado, classe de projeto 24 MPa",reciclado,opc,D8 restante Portland,,resultado_lote37.json
+1659,4625,"Concreto natural (NAC), classe C25/30 - laje em camadas",reciclado,opc,D8 restante Portland,,resultado_lote37.json
+1662,4625,"Concreto natural (NAC), classe C30/37 - laje em camadas",reciclado,opc,D8 restante Portland,,resultado_lote37.json
+1668,4662,"Concreto controle (100% NA, 470 kg/m3 cimento)",reciclado,opc,D8 restante Portland,,resultado_lote37.json
+1674,4662,Concreto com 100% RA + microssilica (100RA-MS),reciclado,scm,D7 substitui cimento,,resultado_lote37.json
+1675,4662,Concreto com 100% RA + cinza volante (100RA-FA),reciclado,scm,D7 substitui cimento,,resultado_lote37.json
+1676,4662,Concreto com 100% RA + escoria (100RA-Slag),reciclado,scm,D7 substitui cimento,,resultado_lote37.json
+1683,4670,Concreto C30/37 do tabuleiro da ponte convencional (comparacao),uhpc,opc,D8 restante Portland,,resultado_lote37.json
+1685,4675,"Concreto com agregado reciclado (RAC, 100% RA)",geopolimero,reciclado,D7 residuo como agregado,,resultado_lote37.json
+1688,4691,"Concreto com agregado natural (NAC-II, classe C25/30)",reciclado,opc,D8 restante Portland,,resultado_lote38.json
+1694,4705,"Concreto Tradicional (TC), cura a calor (water bath) 60C, off-site -- coluna, capacidade de carga total 8400 kN",uhpc,opc,D8 restante Portland,,resultado_lote38.json
+1705,4716,Concreto para pavimento (PCC) com rock dust de basalto -- estrategia B -- 10% rock dust em agregado fino,opc,reciclado,D7 residuo como agregado,,resultado_lote38.json
+1706,4716,Concreto para pavimento (PCC) com rock dust de basalto -- estrategia C -- 20% rock dust em agregado fino,opc,reciclado,D7 residuo como agregado,,resultado_lote38.json
+1707,4716,Concreto para pavimento (PCC) com rock dust de basalto -- estrategia D -- 10% rock dust em agreg.fino + 5% em cimento,opc,scm,D7 substitui cimento,,resultado_lote38.json
+1708,4716,Concreto para pavimento (PCC) com rock dust de basalto -- estrategia E -- 10% rock dust em agreg.fino + 10% em cimento,opc,scm,D7 substitui cimento,,resultado_lote38.json
+1709,4716,Concreto para pavimento (PCC) com rock dust de basalto -- estrategia F -- 20% rock dust em agreg.fino + 5% em cimento,opc,scm,D7 substitui cimento,,resultado_lote38.json
+1710,4716,Concreto para pavimento (PCC) com rock dust de basalto -- estrategia G -- 20% rock dust em agreg.fino + 10% em cimento,opc,scm,D7 substitui cimento,,resultado_lote38.json
+1711,4724,"Concreto REF com agregado natural (NAC1, w/c=0.50, Caso 1)",reciclado,opc,D8 restante Portland,,resultado_lote38.json
+1715,4731,"Concreto massa com agregado natural (NA), cimento CEM II 320 kg/m3, (w/c)tot=0.51 (MB-1)",scm,opc,D8 restante Portland,,resultado_lote38.json
+1717,4731,"Concreto massa com agregado natural (NA), cimento CEM II 350 kg/m3 (MB-3)",scm,opc,D8 restante Portland,,resultado_lote38.json
+1719,4731,"Concreto massa com 55% agregado EAF steel slag, cimento CEM II 320 kg/m3, (w/c)tot~0.65 (MB-5)",scm,reciclado,D7 residuo como agregado,,resultado_lote38.json
+1720,4731,"Concreto massa com 55% agregado EAF steel slag, cimento CEM III 320 kg/m3 (MB-6)",scm,reciclado,D7 residuo como agregado,,resultado_lote38.json
+1721,4731,"Concreto massa com 55% agregado EAF steel slag, cimento CEM II 350 kg/m3, (w/c)tot~0.68 (MB-7)",scm,reciclado,D7 residuo como agregado,,resultado_lote38.json
+1722,4731,"Concreto massa com 55% agregado EAF steel slag, cimento CEM III 350 kg/m3 (MB-8)",scm,reciclado,D7 residuo como agregado,,resultado_lote38.json
+1740,4753,"Painel de fachada CRC (reforcado com grelha de fibra de carbono), variante F2C1 (melhor caso), cenario 50% reciclagem",opc,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 713.5 -> 300.0,resultado_lote39.json
+1741,4753,"Painel de fachada CRC, variante F1C3 (pior caso), cenario 50% reciclagem",opc,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 861.1 -> 336.0,resultado_lote39.json
+1742,4753,"Painel de fachada SRC (reforcado com aco), variante SRC 2.2 (aco de alto-forno primario)",opc,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 427.1 -> 286.0,resultado_lote39.json
+1743,4754,"Eco-concreto com 50% escoria de alto-forno (BFS) — vigas aereas e de fundacao, casa sustentavel, Santiago de Cali",scm,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote39.json
+1744,4754,"Eco-concreto com 50% escoria de alto-forno (BFS) — colunas, casa sustentavel, Santiago de Cali",scm,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote39.json
+1745,4758,⚠️ Concreto 0% RCA + OPC (referencia) (C0-R),reciclado,opc,D8 restante Portland,,resultado_lote39.json
+1746,4758,⚠️ Concreto 0% RCA + 20% cinza volante (FA) (C0-F),reciclado,scm,D7 substitui cimento,,resultado_lote39.json
+1747,4758,⚠️ Concreto 0% RCA + 30% escoria granulada de alto-forno (GGBFS) (C0-G),reciclado,scm,D7 substitui cimento,,resultado_lote39.json
+1748,4758,⚠️ Concreto 0% RCA + 10% silica ativa (SF) (C0-S),reciclado,scm,D7 substitui cimento,,resultado_lote39.json
+1778,4785,"Argamassa de cimento Portland com residuo de toner (TW), 2.5% substituicao de cimento (mix 'T2.5')",opc,scm,D7 substitui cimento,,resultado_lote40.json
+1779,4785,"Argamassa de cimento Portland com residuo de toner (TW), 5% substituicao de cimento (mix 'T5')",opc,scm,D7 substitui cimento,,resultado_lote40.json
+1780,4785,"Argamassa de cimento Portland com residuo de toner (TW), 10% substituicao de cimento (mix 'T10')",opc,scm,D7 substitui cimento,,resultado_lote40.json
+1781,4785,"Argamassa de cimento Portland com residuo de toner (TW), 15% substituicao de cimento (mix 'T15')",opc,scm,D7 substitui cimento,,resultado_lote40.json
+1803,4822,"Compósito 50:50 areia-policarbonato reciclado (sand-rPC), fabricado em tamanho de tijolo padrao (standard brick, 1 amost",reciclado,ligantes,D4 polimero,,resultado_lote40.json
+1805,4836,"concreto de baixo carbono, produto A (HVMA Concrete), Coreia do Sul",opc,scm,D7 substitui cimento,,resultado_lote41.json
+1806,4836,"concreto de baixo carbono, produto B (HVMA SCC Concrete), Coreia do Sul",opc,scm,D7 substitui cimento,,resultado_lote41.json
+1807,4836,"concreto de baixo carbono, produto C (Non-cement Concrete), Coreia do Sul",opc,ligantes,D4 outro ligante sem Portland,"confirmar ligante ""outro""",resultado_lote41.json
+1817,4846,"concreto pos-tensionado (ponte viga-caixao, costa leste da Espanha, Solucao 1, 35 MPa)",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote41.json
+1818,4846,"concreto pos-tensionado (ponte viga-caixao, costa leste da Espanha, Solucao 2, 50 MPa)",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote41.json
+1821,4849,concreto com substituicao parcial de cimento por HDPE reciclado (garrafas de leite) - traco Controle (0% HDPE),reciclado,opc,D8 restante Portland,,resultado_lote41.json
+1822,4849,"concreto com HDPE reciclado + silica fume - traco SFPMB (10% cimento substituido, +2% silica fume sobre o residuo)",reciclado,scm,D7 substitui cimento,,resultado_lote41.json
+1823,4849,"concreto com HDPE reciclado + silica fume + metacaulim - traco SFMKPMB (10% cimento substituido por HDPE+SF, +5% metacau",reciclado,scm,D7 substitui cimento,,resultado_lote41.json
+1825,4855,concreto C25 com agregado natural (NAC) - comparativo do mesmo estudo,reciclado,opc,D8 restante Portland,,resultado_lote41.json
+1837,5029,Concreto usinado com cimento CP IV (menor teor de clinquer) para pavimento de ciclovia -- producao apenas,opc,scm,D7 substitui cimento,,resultado_lote42.json
+1852,3102,"laje macica de concreto armado (4x4m, 12cm), cobrimento de armadura 20mm",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote11.json
+1853,3102,"laje macica de concreto armado (4x4m, 12cm), cobrimento de armadura 25mm",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote11.json
+1854,3102,"laje macica de concreto armado (4x4m, 12cm), cobrimento de armadura 30mm",opc,concreto_armado,D1 aco incluido e inseparavel,,resultado_lote11.json
+1855,2687,"P-RC (concreto armado pos-tensionado, Method 1, classes C30/37 e C20/25) - baseline/demolicao e reconstrucao",concreto_armado,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 636.8 -> 298.0,resultado_lote02.json
+1864,3732,"argamassa com 15% de substituicao do cimento por cinza de palha de arroz sem lixiviacao, 600C (S-U-600)",opc,scm,D7 substitui cimento,,resultado_lote23.json
+1865,3732,"argamassa com 15% de substituicao do cimento por cinza de palha de arroz sem lixiviacao, 850C (S-U-850)",opc,scm,D7 substitui cimento,,resultado_lote23.json
+1866,3732,"argamassa com 15% de substituicao do cimento por cinza de palha de arroz sem lixiviacao, 1100C (S-U-1100)",opc,scm,D7 substitui cimento,,resultado_lote23.json
+1867,3732,"argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com agua, 600C (S-W-600)",opc,scm,D7 substitui cimento,,resultado_lote23.json
+1868,3732,"argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com agua, 850C (S-W-850)",opc,scm,D7 substitui cimento,,resultado_lote23.json
+1869,3732,"argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com agua, 1100C (S-W-1100)",opc,scm,D7 substitui cimento,,resultado_lote23.json
+1870,3732,"argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com H3PO4, 600C (S-A-600)",opc,scm,D7 substitui cimento,,resultado_lote23.json
+1871,3732,"argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com H3PO4, 850C (S-A-850)",opc,scm,D7 substitui cimento,,resultado_lote23.json
+1891,2827,"Betao N25 (C25/30) para Accropodes, traco M1T1 (tubular 140 mm; cimento 398 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1892,2827,"Betao N25 (C25/30) para Accropodes, traco M1T2 (tubular 320 mm; cimento 393 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1893,2827,"Betao N25 (C25/30) para Accropodes, traco M2F1 (flowline 214 mm; cimento 373 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1894,2827,"Betao N25 (C25/30) para Accropodes, traco M2F2 (flowline 214 mm; cimento 364 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1895,2827,"Betao N25 (C25/30) para Accropodes, traco M2F3 (flowline 336 mm; cimento 348 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1896,2827,"Betao N25 (C25/30) para Accropodes, traco M2F4 (flowline 352 mm; cimento 311 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1897,2827,"Betao N25 (C25/30) para Accropodes, traco M2F5 (flowline 382 mm; cimento 296 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1898,2827,"Betao N25 (C25/30) para Accropodes, traco M3U1 (umbilical 92 mm; cimento 397 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1899,2827,"Betao N25 (C25/30) para Accropodes, traco M3U2 (2 umbilicais 92 mm; cimento 393 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1900,2827,"Betao N25 (C25/30) para Accropodes, traco M3U3 (umbilical 167 mm; cimento 397 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1901,2827,"Betao N25 (C25/30) para Accropodes, traco M3U4 (umbilical 167 mm; cimento 395 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1902,2827,"Betao N25 (C25/30) para Accropodes, traco M3U5 (umbilical 184 mm; cimento 373 kg/m3, Tabela 5)",opc,reciclado,D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao),,resultado_lote06.json
+1905,2999,"CF30-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1906,2999,"CF30-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1907,2999,"CS50-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1908,2999,"CS50-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1909,2999,"CM30-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1910,2999,"CS20F10-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1911,2999,"CS20F10-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1912,2999,"CS30F15-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1913,2999,"CS30F15-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1914,2999,"CF20M10-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1915,2999,"CF20M10-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1916,2999,"CF30M15-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1917,2999,"CF30M15-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1918,2999,"CS20M10-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1919,2999,"CS20M10-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1920,2999,"CS30M15-FW (betao, ligante 360 kg/m3, a/l 0,45, agua doce)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1921,2999,"CS30M15-SW (betao, ligante 360 kg/m3, a/l 0,45, agua do mar)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+1936,3162,"Aduela OPC/Steel - so a coluna 'Concrete' (betao CEM IV pozolanico, sem armadura)",scm,opc,D8 restante Portland,,resultado_lote13.json
+1950,3191,"argamassa 1:3 (NBR 7215, a/c 0.48) com cimento OPC (CEM I, referencia) [a linha 910 do dossie agrupa as familias LC3-50/",scm,opc,D8 restante Portland,,resultado_lote14.json
+1951,3191,"argamassa 1:3 (NBR 7215, a/c 0.48) com cimento PCC (CEM II, referencia)",scm,opc,D8 restante Portland,,resultado_lote14.json
+1958,3203,"C-1-100 (referencia, sem escoria)",scm,opc,D8 restante Portland,,resultado_lote14.json
+1962,3203,"C-2-100 (referencia, sem escoria)",scm,opc,D8 restante Portland,,resultado_lote14.json
+1966,3203,"C-3-100 (referencia, sem escoria)",scm,opc,D8 restante Portland,,resultado_lote14.json
+1970,3203,"C-4-100 (referencia, sem escoria)",scm,opc,D8 restante Portland,,resultado_lote14.json
+1996,3356,"B300 - betao auto-compactavel de referencia (300 kg/m3 CEM 42.5, SP 7,8 kg/m3, Tab.9)",scm,opc,D8 restante Portland,,resultado_lote17.json
+2001,3456,"Betao cenario BP (70% CEM I + 25% SCMs + 5% calcario, 30% RCA) - Ostersund",reciclado,scm,D7 substitui cimento,,resultado_lote19.json
+2002,3456,"Betao cenario CIRC (LC3-50, 100% RCA grosso) - Ostersund",reciclado,scm,D7 substitui cimento,,resultado_lote19.json
+2011,3685,"betao FA/35 (so constituintes, A1-A3)",opc,scm,D7 substitui cimento,,resultado_lote22.json
+2013,3786,"argamassa 100% PC (Mix 1), cura 35C 3 dias + 25C (Condicao 2)",geopolimero,opc,D8 restante Portland,,resultado_lote23.json
+2014,3786,"argamassa PC + 33% escoria GBS (Mix 2), cura 35C 3 dias + 25C (Condicao 2)",geopolimero,scm,D7 substitui cimento,,resultado_lote23.json
+2015,3786,"argamassa PC + 33% pozolana natural (Mix 3), cura 35C 3 dias + 25C (Condicao 2)",geopolimero,scm,D7 substitui cimento,,resultado_lote23.json
+2024,4092,RS-30%-230 - betao com/sem po de calcario (Radovic 2021 (proprio)); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2025,4092,RS-45%-180 - betao com/sem po de calcario (Radovic 2021 (proprio)); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2026,4092,RS-55%-150 - betao com/sem po de calcario (Radovic 2021 (proprio)); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2027,4092,DE-35%-244 (Tab.2: DE-35%-208) - betao com/sem po de calcario (Palm 2016/Neufert 2014); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2028,4092,DE-50%-190 - betao com/sem po de calcario (Palm 2016/Neufert 2014); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2030,4092,IT-15%-212 - betao com/sem po de calcario (Lollini 2014); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2031,4092,IT-15%-255 - betao com/sem po de calcario (Lollini 2014); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2032,4092,IT-30%-210 - betao com/sem po de calcario (Lollini 2014); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2033,4092,IT-30%-245 - betao com/sem po de calcario (Lollini 2014); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2037,4092,IT2-15%-340 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2038,4092,IT2-15%-297 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2039,4092,IT2-15%-255 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2040,4092,IT2-25%-300 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2043,4092,CH-15%-270 (Tab.1 CEM I=280) - betao com/sem po de calcario (Leemann 2015); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2044,4092,CH-15%-264 - betao com/sem po de calcario (Leemann 2015); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2046,4092,GB-15%-302 - betao com/sem po de calcario (Dhir 2007/Meddah 2014); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2047,4092,GB-25%-266 - betao com/sem po de calcario (Dhir 2007/Meddah 2014); traco kg/m3 Table 1,opc,scm,D7 substitui cimento,,resultado_lote27.json
+2066,4452,"Betao Portland optimizado OptiCon, casos tipo I (1-10, todos os fornecedores estrangeiros) - so producao",opc,scm,D7 substitui cimento,,resultado_lote32.json
+2085,4792,"Fundacao em 4 sapatas isoladas F2 (2,0x2,0x0,6 m), betao C35/45 + armadura, materiais de emissao media (A1-A3)",concreto_armado,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 283.5 -> 252.99,resultado_lote40.json
+2086,4792,"Fundacao em 4 sapatas isoladas F1 (1,5x1,5x0,6 m), C35/45 + armadura (sistema J)",concreto_armado,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 278.7 -> 252.99,resultado_lote40.json
+2087,4792,"Fundacao em placa PL1 (7,0x7,0x0,5 m), C35/45 + armadura (sistema M)",concreto_armado,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 322.1 -> 252.99,resultado_lote40.json
+2088,4792,"Fundacao em placa PL2 (7,0x7,0x0,7 m), C35/45 + armadura (sistema N)",concreto_armado,concreto_armado,D1 separavel mas valor gravado ainda inclui aco,trocar CO2 311.7 -> 252.99,resultado_lote40.json
+2093,3114,"concreto com agregado reciclado, traco BOLCON (referencia) (metodo ACI vs EMV) - Tab.3",reciclado,opc,D8 restante Portland,,resultado_lote11.json
+2095,3218,concreto Mix4 (15% po de concreto reciclado RCP substitui cimento),reciclado,scm,D7 substitui cimento,,resultado_lote15.json
+2096,3221,"concreto pronto com SCMs, classe C80 (media dos tracos C80 da base de 440 tracos chineses)",scm,opc,D8 restante Portland,,resultado_lote15.json
+2106,4076,"Fundacao 4000 psi (27,6 MPa), mistura real do caso de Ohio: 245,6 cimento + 61,1 cinza volante F, w/cm 0,50",scm,opc,D8 restante Portland,,resultado_lote27.json
+2107,4076,"Pilares 5000 psi (35,0 MPa), mistura real do caso de Ohio: 312,1 cimento + 78,3 cinza volante F, w/cm 0,40",scm,opc,D8 restante Portland,,resultado_lote27.json
+2111,3017,"Argamassa 5%M-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+2112,3017,"Argamassa 5%C-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+2113,3017,"Argamassa 15%M-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+2114,3017,"Argamassa 15%C-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+2115,3017,"Argamassa 5%C-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+2116,3017,"Argamassa 15%M-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",opc,scm,D7 substitui cimento,,resultado_lote09.json
+2117,3017,"Argamassa 15%C-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",opc,scm,D7 substitui cimento,,resultado_lote09.json

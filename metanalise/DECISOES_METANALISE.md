@@ -57,7 +57,43 @@ Revarredura: 43 lotes (`lotes_familia/`), leitura integral de cada PDF, quatro p
 
 Ficheiro de aplicação: `lotes_familia/aplicar.py` (escreve os overrides no `metanalise-export.py` e regista cada mudança). Depois: `classificar_base_portland.py`, exportação, painel e nova corrida do modelo v5.
 
+**Aplicada a 2026-10-04** (43/43 lotes, 1.524 pares respondidos):
+- `lotes_familia/mapear.py` (regras D1–D8 sobre as quatro respostas) + `lotes_familia/aplicar.py` → `lotes_familia/familias_revarredura.json`, que o `metanalise-export.py` consulta **antes** do OVERRIDE antigo e das regex; registo par a par em `lotes_familia/MUDANCAS_FAMILIA_2026-10-04.csv` (362 mudanças).
+- Ajustes manuais **[IMPLEMENTAÇÃO — por confirmar]**: 2827 ZHANG 2023e (tubos/umbilicais desmantelados embebidos) → `reciclado`; 2946 (cinza de cal que substitui o filer calcário, não o cimento) → `reciclado`; 3073 ABU-ENNAB → `ligantes` (CSA, valor passado ao nível do material).
+- Linhas com o aço separável **só por subtracção de barras/percentagens de figura com outras parcelas misturadas** ficam com o total em `concreto_armado` **[por confirmar]**: HAJIESMAEILI 1855, HAVERKAMP 645, COLANGELO 804, DI SUMMA 1004/1005, BACKES 4753 (1740–1742); STUDZINSKI 2085–2088 mantém a via só-fundação decidida pela Kiê a 27/09.
+- `classificar_base_portland.py` passa a seguir a família da revarredura (geopolímero/ligantes/biobase = `nao`; resto = `sim`), depois das decisões manuais por linha. Corrigiu 324, 328, 396 (referências Portland marcadas `nao`), 3354 GRIST NHL5 e 4836 CHO (sem cimento, marcadas `sim`).
+- Resultado: 1.492 pares no painel (−32), 394 estudos; famílias opc 535, scm 384, reciclado 209, geopolímero 205, betão armado 102, UHPC 34, ligantes 22, biobase 1.
+
+### D′. Correcções de valor da revarredura — `lotes_familia/aplicar_valores.py`
+
+Cada entrada diz se foi verificada por mim no PDF (`pessoal`) ou é leitura do subagente com citação exacta (`subagente`, **por confirmar**). Regras **[IMPLEMENTAÇÃO — por confirmar]**:
+
+| # | Regra | Casos |
+|---|---|---|
+| E1 | Valor que não é o CO₂ do betão (só a brita, só o gasóleo, sem o cimento, sem os activadores, soma de factores, dividido por ciclos de durabilidade, outra categoria de impacto, escala incoerente) → `NAO CONVERTIDO` | BACKES 4, CONG 90, MARTÍNEZ-MUÑOZ 177, YOUNES 793/794, SAMUVEL 880, GOPALAKRISHNA 423, PEDNEAULT 991, MAURY-RAMÍREZ 1743/1744, HORA 1836–1841 |
+| E2 | Linha que repete o traço/par de outra linha do mesmo artigo → `NAO CONVERTIDO` (duplicado); no ISAIA fica o par aos 28 d e saem os aos 91 d (mesmo traço, mesmo CO₂) | 2703 KIM 151–153, FARIDMEHR 1418/1423, YE 1106, MA 1761, BRAGA 63, ISAIA 66/68/70/72/74/76 |
+| E3 | Valor por m³ normalizado à resistência gravado como kg/m³ → × fck (regra total+divisor) | PUSHKAR 4580 (20 pares; o RELABEL de 08/09 estava errado) |
+| D1 | CO₂ só do betão impresso/calculável com números do artigo → substitui o total com aço | HAFEZ 135–138 (Fig.5, pessoal), INMAN 646–650, SOMBRIO 234, GALAN-MARIN 331, NEIMARK 1150, HABERT 821, MEL 1826, BENTO 51, REZENDE 43 |
+| — | Erros de valor/fck | ALSALMAN 298/300/303, GLANZ 1222/1223 (m³-eq → m³), LEMESRE 1494, ABDULKAREEM 976–980 (CO₂ Fig.3 e fck Tab.1, pessoal), THORNE 312, ABU-ENNAB 305, MORO 1748/1752/1756 (sílica activa 3,4E-3), LOS SANTOS 1478/1479 (fck sem apoio no PDF → apagado), rótulo ISAIA «cal hidratada» |
+
+## B (cont.)
+
+| # | Data | Decisão | Porquê |
+|---|---|---|---|
+| B7 | 2026-10-04 | **[IMPLEMENTAÇÃO — por confirmar]** Leave-one-study-out em paralelo (`mclapply`), com os `vi` do modelo completo e os σ² do modelo completo como valores iniciais; desliga-se com `LOO=0`. | A corrida sequencial passava dos 30 min. |
+
 ## C. Pendências que não bloqueiam a análise
+
+**Perguntas abertas à Kiê (2026-10-04, revarredura):**
+1. Créditos (carga evitada/carbonatação): proposta = valor bruto sem créditos sempre que publicado (LEE 4028, BATUECAS 3413, MOMOTAZ 3497, MASI 4039, BERTOLDO 4251, VITALE 4475, GARCIA-TRONCOSO 4497, KVOCKA 4731, MARIAKOVA 4691, MORO 4758), líquido só quando a carbonatação é a função do produto (DI MARIA 2653).
+2. Cimentos compostos comerciais (CP III/CEM III, CP II/CEM II): `opc` ou `scm`? (hoje segue a resposta do subagente: substituição → `scm`).
+3. PUSHKAR 4267/4580: proxy «cement mortar, at plant» para o cimento (~88 kg/m³) — manter com alerta ou retirar.
+4. TOSIC 4625 (~0,34 kg/m³, «g» impresso): manter (decisão de 12/09) ou retirar.
+5. OH 4930 (3.532 kg/m³, linhas Concrete/Rebar provavelmente trocadas): gravar 259 com alerta ou retirar.
+6. Mesmos números em artigos diferentes (FILHO 2854 = 2744; TEH 4026/4027; JANG 2694/2695): contar uma vez?
+7. DI SUMMA 3424: manter o total em `concreto_armado`?
+8. ISAIA 2021: deixa de ser `uhpc` (a tese não o chama UHPC) — confirmar.
+- Também por fazer: desdobrar COLANGELO 804 nas 8 misturas (Fig.5).
 
 - Extracção dos estudos secundários (ONSONGO, NASIR, SCOPE…) — adiada pela Kiê (2026-10-04); `origem_dado` = `primario` em todas as linhas.
 - PDF da 2880 MESHRAM (a Kiê vai enviar).

@@ -73,6 +73,8 @@ CO2 = {
     1756: (4758, 447.18, 311.31, 'calculado com as Tabelas 1 e 3 (silica ativa 3,4E-3 kg CO2/kg)', 'Tabelas 1 e 3', 'soma traco x factores', 'subagente', 'idem 1748'),
     51: (5041, 515.8, 224.6, '50,95 kg CO2-eq/m2 (betao: brita, areia, cimento)', 'Fig.29 p.136', '50,95 kg/m2 / volume de betao por m2 (Quadros 2-7)', 'subagente',
          'D1: o 515,8 e o total da estrutura (Quadro 8) com aco, cofragens, distribuicao e deposicao'),
+    43: (5018, 494.7, 198.4, '40,1% x 48.485,13 kg CO2-eq (betao 25 MPa, texto p.96)', 'texto p.96 + total da estrutura', '0,401 x 48.485,13 / 98,0 m3', 'subagente',
+         'D1: o 494,7 era o total da estrutura (aco, madeira, transporte) / volume de betao'),
 }
 
 # linha: (row_id, fck_velho, fck_novo, nota)
@@ -110,6 +112,12 @@ NAO_CONV = {
     72: (5055, 'E2: mesmo traco e mesmo CO2 da linha 71, com o fck aos 91 d; fica o par aos 28 d'),
     74: (5055, 'E2: mesmo traco e mesmo CO2 da linha 73, com o fck aos 91 d; fica o par aos 28 d'),
     76: (5055, 'E2: mesmo traco e mesmo CO2 da linha 75, com o fck aos 91 d; fica o par aos 28 d'),
+    1836: (5029, 'E1: as Tabelas 27-29 dao totais da ciclovia (588 m3) com os valores uma linha acima do rotulo; o numero gravado e a eutrofizacao, nao o GWP por m3'),
+    1837: (5029, 'E1: as Tabelas 27-29 dao totais da ciclovia (588 m3) com os valores uma linha acima do rotulo; o numero gravado e a eutrofizacao, nao o GWP por m3'),
+    1838: (5029, 'E1: as Tabelas 27-29 dao totais da ciclovia (588 m3) com os valores uma linha acima do rotulo; o numero gravado e a eutrofizacao, nao o GWP por m3'),
+    1839: (5029, 'E1: as Tabelas 27-29 dao totais da ciclovia (588 m3) com os valores uma linha acima do rotulo; o numero gravado e a eutrofizacao, nao o GWP por m3'),
+    1840: (5029, 'E1: as Tabelas 27-29 dao totais da ciclovia (588 m3) com os valores uma linha acima do rotulo; o numero gravado e a eutrofizacao, nao o GWP por m3'),
+    1841: (5029, 'E1: as Tabelas 27-29 dao totais da ciclovia (588 m3) com os valores uma linha acima do rotulo; o numero gravado e a eutrofizacao, nao o GWP por m3'),
 }
 
 # fck sem apoio no PDF -> par retirado (fck apagado)

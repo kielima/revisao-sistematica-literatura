@@ -23,6 +23,7 @@ import mapear  # noqa: E402
 spec = importlib.util.spec_from_file_location('mexp', 'metanalise-export.py')
 mexp = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(mexp)
+mexp.FAMILIA_REVARREDURA = {}  # 'antes' = familia sem a revarredura
 
 SAIDA = 'lotes_familia/familias_revarredura.json'
 LOG = 'lotes_familia/MUDANCAS_FAMILIA_2026-10-04.csv'
@@ -31,6 +32,7 @@ LOG = 'lotes_familia/MUDANCAS_FAMILIA_2026-10-04.csv'
 MANUAL = {}
 for r in range(1891, 1903):  # 2827 ZHANG 2023e: tubos/flowlines/umbilicais desmantelados embebidos no betao
     MANUAL[r] = ('reciclado', 'D7: componente petrolifero desmantelado embebido (residuo que substitui volume de betao)')
+MANUAL[305] = ('ligantes', 'D4: betao CSA (KCSC); o valor gravado passou a ser o da Mix-1 ao nivel do material (sem armadura)')
 MANUAL[247] = ('reciclado', 'D7: cinza de cal da industria de papel substitui o filer calcario natural (nao o cimento)')
 
 

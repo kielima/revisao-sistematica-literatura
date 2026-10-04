@@ -69,6 +69,14 @@ def classificar(row_id, material, titulo):
     for (rid, pref), res in MANUAL.items():
         if rid == row_id and mat.startswith(pref):
             return res[0], 'manual: ' + res[1]
+    # 2026-10-04: a revarredura das familias (leitura integral, lotes_familia/) responde ao tipo de ligante de
+    # cada par -- tem precedencia sobre as regex do material (que apanhavam "geopolimero" em descricoes de
+    # tracos Portland de referencia).
+    rev = mx.FAMILIA_REVARREDURA.get(f'{row_id}|{material}')
+    if rev in ('geopolimero', 'ligantes', 'biobase'):
+        return 'nao', f'revarredura 2026-10-04: familia {rev} (sem clinquer Portland como ligante principal)'
+    if rev:
+        return 'sim', f'revarredura 2026-10-04: ligante de cimento Portland (familia {rev})'
     m = mx._fold(mat)
     if re.search(mx.ALKALI, m):
         return 'nao', 'geopolimero / alcali-ativado (sem clinquer Portland como ligante principal)'
