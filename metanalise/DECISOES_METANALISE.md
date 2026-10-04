@@ -38,6 +38,25 @@ Ficheiros: `metanalise/preparar_dados.py` (entrada), `metanalise/metanalise_rma_
 | B5 | 2026-10-04 | **[IMPLEMENTAÇÃO — por confirmar]** Moderadores testados um a um (meta-regressão `mods = ~ moderador`) no estrato principal: família do ligante (`metanalise-export.classify`), base Portland, idade do ensaio (28 d / outra / não declarada). | Explicar a heterogeneidade (A8). |
 | B6 | 2026-10-04 | **[IMPLEMENTAÇÃO — por confirmar]** Viés de publicação: funil e teste de Egger multinível (`rma.mv` com `mods = ~ sqrt(vi)`), no estrato principal. | Protocolo PRISMA. |
 
+## D. Famílias de material (moderador) — revarredura de 2026-10-04
+
+Pedido da Kiê (2026-10-04): «corrija todas as inconsistências» e «faça a revarredura completa do concreto armado». Inconsistências encontradas ao listar as famílias: 3377 ESPUELAS (misturas activadas por álcali em «outros ligantes» por override antigo), «base biológica» com três betões Portland (aditivo de cato, fibra de sisal, ECC com lignina), 4822 (compósito areia-policarbonato em «reciclado» com base não-Portland), misturas de controlo classificadas pela família do material novo do artigo, e o mesmo tipo de resíduo (pó de vidro, pó cerâmico) ora em «SCM» ora em «reciclado». A família `concreto_armado` nunca teve varredura completa (só a de 10/09, sobre os 1.069 pares de então).
+
+Revarredura: 43 lotes (`lotes_familia/`), leitura integral de cada PDF, quatro perguntas por par (`PROMPT.md`). Regras de atribuição, por ordem de precedência:
+
+| # | Data | Regra | Estado |
+|---|---|---|---|
+| D1 | 2026-09-10 (Kiê) | `concreto_armado` **só** quando o CO₂ gravado inclui o aço de armadura/pré-esforço sem o artigo permitir separar; se o artigo dá o CO₂ só do betão, a linha fica na família química (com o valor só do betão). | fechada |
+| D2 | 2026-09-28 (Kiê) | A família segue a **composição da própria mistura**, não o título do artigo (precedente: 40 traços Portland de referência saíram de «geopolímero»). Logo, misturas de **controlo** sem o material novo → `opc`. | aplicação nova **[por confirmar]** |
+| D3 | 2026-09-28 (Kiê) | Activado por álcali (incl. híbridos com OPC minoritário) → `geopolimero`. | fechada |
+| D4 | 2026-09-28 (Kiê) | Sem clínquer Portland e sem activação alcalina (CSA, magnesianos, belite-ye'elimite, gesso, escória carbonatada, polímero) → `ligantes`. | fechada |
+| D5 | 2026-10-04 | `biobase` só para material estrutural de origem biológica (madeira/glulam). Betão Portland com aditivo ou fibra natural → família química (C6: «fibra natural como reforço incidental num material global»). | **[por confirmar]** |
+| D6 | 2026-10-04 | UHPC/UHPFRC assim chamado pelo artigo → `uhpc` (depois de D1, D3, D4). | **[por confirmar]** |
+| D7 | 2026-10-04 | Resíduo/subproduto **a substituir cimento** (papel de ligante: cinzas, escórias, pó de vidro, pó cerâmico, filer) → `scm`; resíduo/reciclado **como agregado ou fibra** → `reciclado`. É a divisão que as regex do `metanalise-export.py` já fazem (pó de vidro e CWP estão na lista de SCM); os overrides que a contrariavam são corrigidos. | **[por confirmar]** |
+| D8 | 2026-10-04 | Restante (Portland sem material distintivo, aditivos químicos, fibras virgens) → `opc`. | **[por confirmar]** |
+
+Ficheiro de aplicação: `lotes_familia/aplicar.py` (escreve os overrides no `metanalise-export.py` e regista cada mudança). Depois: `classificar_base_portland.py`, exportação, painel e nova corrida do modelo v5.
+
 ## C. Pendências que não bloqueiam a análise
 
 - Extracção dos estudos secundários (ONSONGO, NASIR, SCOPE…) — adiada pela Kiê (2026-10-04); `origem_dado` = `primario` em todas as linhas.

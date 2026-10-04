@@ -1,0 +1,764 @@
+[
+ {
+  "row_id": 4512,
+  "rotulo": "Skibicki et al., 2024",
+  "titulo": "Potential of Reusing 3D Printed Concrete (3DPC) Fine Recycled Aggregates as a Strategy towards Decreasing Cement Content in 3DPC",
+  "pdf": "SKIBICKI et al., 2024.pdf",
+  "fileId": "12SiWBA1aCjOA6lopwjeQerFsDIBqqwHC",
+  "pares": [
+   {
+    "sheet_row": 1480,
+    "material": "Concreto 3D impresso (3DPC) R0 - referencia sem fRA (agregado fino reciclado)",
+    "fck": 82.07,
+    "co2_kg_m3": 487.3,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1482,
+    "material": "Concreto 3D impresso (3DPC) R20 - 20% substituicao cimento por fRA",
+    "fck": 74.06,
+    "co2_kg_m3": 393.8,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1485,
+    "material": "Concreto 3D impresso (3DPC) R50 - 50% substituicao cimento por fRA (maximo)",
+    "fck": 41.61,
+    "co2_kg_m3": 253.6,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 4516,
+  "rotulo": "Lv et al., 2024",
+  "titulo": "Utilization of Sintered Sludge Ash with Different Mechanical-Thermal Activation Parameters as a Supplementary Cementitious Material: Mechanical Properties and Life Cycle Assessment of Cement-Based Paste",
+  "pdf": "LV et al., 2024.pdf",
+  "fileId": "1-aQjUCysRD3D8bVUyU-_pPULm7ZRfsFa",
+  "pares": [
+   {
+    "sheet_row": 1486,
+    "material": "Pasta cimento com 30% SSA calcinada a 800C/2h moida 1min (P-800/2/1) - otimo",
+    "fck": 57.92,
+    "co2_kg_m3": 1303.7,
+    "co2_conversao": "nenhuma - nativo por m3 (UF 1 m3 de pasta); valor lido ao pixel na imagem de alta resolucao da Fig.8a (eixo 0-1600, ~5 kg/px) [REVISAO 2026-09-27; confianca media] [ALERTA ETAPA4: leitura grafica; coerente com o texto (SSA = 8,1% do GWP em P-800/2/10, medido 8,4%); factor implicito do cimento ~1,31 ",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 2089,
+    "material": "Pasta SSC 30% SSA 800C/2h, moagem 10 min (P-800/2/10) - optimo TOPSIS/radar",
+    "fck": 60.15,
+    "co2_kg_m3": 1303.7,
+    "co2_conversao": "nenhuma - nativo por m3 (UF 1 m3 de pasta); valor lido ao pixel na imagem de alta resolucao da Fig.8a (eixo 0-1600, ~5 kg/px) [REVISAO 2026-09-27; confianca media] [ALERTA ETAPA4: leitura grafica; coerente com o texto (SSA = 8,1% do GWP em P-800/2/10, medido 8,4%); factor implicito do cimento ~1,31 ",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 2090,
+    "material": "Pasta de referencia P-20/0/1 (lama seca ao ar, 30%)",
+    "fck": 42.15,
+    "co2_kg_m3": 1246.9,
+    "co2_conversao": "nenhuma - nativo por m3 (UF 1 m3 de pasta); valor lido ao pixel na imagem de alta resolucao da Fig.8a (eixo 0-1600, ~5 kg/px) [REVISAO 2026-09-27; confianca media] [ALERTA ETAPA4: leitura grafica; coerente com o texto (SSA = 8,1% do GWP em P-800/2/10, medido 8,4%); factor implicito do cimento ~1,31 ",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 4518,
+  "rotulo": "Agrela et al., 2024",
+  "titulo": "Life-Cycle Assessment and Environmental Costs of Cement-Based Materials Manufactured with Mixed Recycled Aggregate and Biomass Ash",
+  "pdf": "AGRELA et al., 2024.pdf",
+  "fileId": "1oZ8kDH9QYx2QnvO2DzhXQqwFNC6aFeZA",
+  "pares": [
+   {
+    "sheet_row": 1487,
+    "material": "Argamassa controlo M-Control (CEM II 42.5)",
+    "fck": 51.48,
+    "co2_kg_m3": 475.78,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1488,
+    "material": "Argamassa M-EcHy (CEM ecohibrido: 19% pMRA + 6% pBBA substituindo clinker)",
+    "fck": 49.74,
+    "co2_kg_m3": 358.91,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1489,
+    "material": "Argamassa M-EcHy/20M (19% pMRA + 6% pBBA + substituicao 20% areia por MRA fino)",
+    "fck": 43.85,
+    "co2_kg_m3": 360.21,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1490,
+    "material": "Concreto controlo C-Control (CEM II 42.5 + agregados naturais)",
+    "fck": 55.7,
+    "co2_kg_m3": 258.89,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1491,
+    "material": "Concreto C-EcHy (CEM ecohibrido: 19% pMRA + 6% pBBA substituindo clinker + ANC)",
+    "fck": 49.1,
+    "co2_kg_m3": 229.43,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 1492,
+    "material": "Concreto C-EcHy/28M-6B (19% pMRA + 6% pBBA cimento + 28% MRA grosso + 6% BBA agregado)",
+    "fck": 43.0,
+    "co2_kg_m3": 233.71,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 4521,
+  "rotulo": "Lemesre et al., 2024",
+  "titulo": "Strength Development and Environmental Impact of Waste-Glass-Based Cements Activated with Portland Cement, NaOH, Na-Silicate or Na-Carbonates at Ambient Temperature",
+  "pdf": "LEMESRE et al., 2024.pdf",
+  "fileId": "1svkKJ9CQS0GOyuvlKuKLWvpn4-T-SCFP",
+  "pares": [
+   {
+    "sheet_row": 1494,
+    "material": "Pasta vidro alcali-ativada com 10% Na-carbonato (sc10) - a 360 dias (melhor desempenho tardio)",
+    "fck": 74.0,
+    "co2_kg_m3": 66.6,
+    "co2_conversao": "0,9 kg CO2eq/(m3.MPa) x 74 MPa = 66,6 (Eq.1 do artigo)",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 4522,
+  "rotulo": "Yao et al., 2024",
+  "titulo": "Influence of Accelerated Carbonation on the Performance of Recycled Concrete Containing Fly Ash, Recycled Coarse Aggregate, and Fine Aggregate",
+  "pdf": "YAO et al., 2024.pdf",
+  "fileId": "1D3gYpetTnjPiy_HMIamQa36yOeB6fAi7",
+  "pares": [
+   {
+    "sheet_row": 1495,
+    "material": "Concreto referencia FA0C0F0 - sem FA, 100% agregado natural (NCA+NFA), sem carbonatacao",
+    "fck": 40.38,
+    "co2_kg_m3": 432.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1496,
+    "material": "RAC FA10C0F0 - 10% FA + 100% NCA + 100% NFA sem carbonatacao (28d)",
+    "fck": 38.46,
+    "co2_kg_m3": 400.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1497,
+    "material": "RAC FA20C0F0 - 20% FA + 100% NCA + 100% NFA sem carbonatacao (28d)",
+    "fck": 39.9,
+    "co2_kg_m3": 368.5,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1498,
+    "material": "RAC FA10C50F15 - 10% FA + 50% RCA + 15% RFA sem carbonatacao (28d)",
+    "fck": 37.44,
+    "co2_kg_m3": 397.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 4537,
+  "rotulo": "Luo et al., 2023",
+  "titulo": "Study on Improving Measures of Mechanical Properties of Geopolymer Materials and Its Effect on CO2 Emission",
+  "pdf": "LUO et al., 2023.pdf",
+  "fileId": "1krfiskZrF2GuQEGRK42ULK_YBd0ZUaKe",
+  "pares": [
+   {
+    "sheet_row": 1500,
+    "material": "Concreto geopolimero CDWGC60 - 20% CDWC pre-tratado a 60C/24h + 80% FA, cura termica 80C/24h (otimo)",
+    "fck": 62.3,
+    "co2_kg_m3": 608.08,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 1501,
+    "material": "Concreto geopolimero CDWGC20 (controle) - 20% CDWC sem pre-tratamento + 80% FA, cura termica 80C/24h",
+    "fck": 57.0,
+    "co2_kg_m3": 554.6,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 1502,
+    "material": "Pasta geopolimero CDWGP3 (3% CaO, otimo) - cura ambiente 20C",
+    "fck": 28.9,
+    "co2_kg_m3": 1191.41,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 4549,
+  "rotulo": "Sambucci et al., 2023",
+  "titulo": "Life Cycle Assessment (LCA) of 3D Concrete Printing and Casting Processes for Cementitious Materials Incorporating Ground Waste Tire Rubber",
+  "pdf": "SAMBUCCI et al., 2023.pdf",
+  "fileId": "1LpO5OxAzfLvc5Cj1B_r01aMQXGgu6Sgr",
+  "pares": [
+   {
+    "sheet_row": 1504,
+    "material": "Argamassa cimenticia 3D-impressa (p-CTR, controle, sem borracha) - impressao 3D",
+    "fck": 53.6,
+    "co2_kg_m3": 742.69,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 4557,
+  "rotulo": "Kim et al., 2018",
+  "titulo": "Evaluation of the Efficiency of Limestone Powder in Concrete and the Effects on the Environment",
+  "pdf": "KIM et al., 2018.pdf",
+  "fileId": "1F83fdOZuqtPylYnsaWHMK3C5DCZiaRI-",
+  "pares": [
+   {
+    "sheet_row": 1506,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Control",
+    "fck": 45.57,
+    "co2_kg_m3": 420.9,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1507,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Alpha-10",
+    "fck": 39.19,
+    "co2_kg_m3": 387.3,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1508,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Beta-10",
+    "fck": 39.45,
+    "co2_kg_m3": 383.8,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1509,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Gamma-10",
+    "fck": 40.1,
+    "co2_kg_m3": 383.1,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1510,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Alpha-20",
+    "fck": 37.6,
+    "co2_kg_m3": 353.7,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1511,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Beta-20",
+    "fck": 37.08,
+    "co2_kg_m3": 346.7,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1512,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Gamma-20",
+    "fck": 38.16,
+    "co2_kg_m3": 345.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1513,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Alpha-30",
+    "fck": 35.98,
+    "co2_kg_m3": 320.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1514,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Beta-30",
+    "fck": 37.0,
+    "co2_kg_m3": 309.7,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1515,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Gamma-30",
+    "fck": 35.83,
+    "co2_kg_m3": 307.7,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 4560,
+  "rotulo": "Penadés-Plà et al., 2018",
+  "titulo": "An Optimization-LCA of a Prestressed Concrete Precast Bridge",
+  "pdf": "PENADÉS-PLÀ et al., 2018.pdf",
+  "fileId": "1kmX2WGe7tLSPpXOFzdsnhYMMJEsEZJzs",
+  "pares": [
+   {
+    "sheet_row": 2071,
+    "material": "Mesma ponte - so fase de fabrico (materiais, cradle-to-gate)",
+    "fck": 40.0,
+    "co2_kg_m3": 525.8,
+    "co2_conversao": "1838,55 / 3,497 [REVISAO 2026-09-27, leitura integral; confianca media]",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ },
+ {
+  "row_id": 4573,
+  "rotulo": "Cen et al., 2019",
+  "titulo": "Optimization of Concrete Mixture Design Using Adaptive Surrogate Model",
+  "pdf": "CEN et al., 2019.pdf",
+  "fileId": "107SDT5gsQT4aAdnUh4U8RQIu4DPWDfrM",
+  "pares": [
+   {
+    "sheet_row": 1518,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 1",
+    "fck": 76.18,
+    "co2_kg_m3": 289.69,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1519,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 1",
+    "fck": 42.31,
+    "co2_kg_m3": 261.38,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1520,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 1",
+    "fck": 43.66,
+    "co2_kg_m3": 287.44,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1521,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 2",
+    "fck": 47.8,
+    "co2_kg_m3": 168.62,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1522,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 2",
+    "fck": 52.92,
+    "co2_kg_m3": 185.5,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1523,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 2",
+    "fck": 34.42,
+    "co2_kg_m3": 137.49,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1524,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 3",
+    "fck": 73.29,
+    "co2_kg_m3": 273.84,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1525,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 3",
+    "fck": 48.04,
+    "co2_kg_m3": 213.57,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1526,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 3",
+    "fck": 32.38,
+    "co2_kg_m3": 168.67,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1527,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 4",
+    "fck": 62.11,
+    "co2_kg_m3": 219.71,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1528,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 4",
+    "fck": 46.41,
+    "co2_kg_m3": 184.14,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1529,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 4",
+    "fck": 33.46,
+    "co2_kg_m3": 136.12,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1530,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 5",
+    "fck": 70.21,
+    "co2_kg_m3": 413.66,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1531,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 5",
+    "fck": 59.79,
+    "co2_kg_m3": 254.91,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1532,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 5",
+    "fck": 55.11,
+    "co2_kg_m3": 206.89,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1533,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 6",
+    "fck": 77.11,
+    "co2_kg_m3": 394.23,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1534,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 6",
+    "fck": 59.32,
+    "co2_kg_m3": 277.09,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1535,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 6",
+    "fck": 51.88,
+    "co2_kg_m3": 229.08,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1536,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 7",
+    "fck": 76.65,
+    "co2_kg_m3": 292.48,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1537,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 7",
+    "fck": 59.61,
+    "co2_kg_m3": 240.03,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1538,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 7",
+    "fck": 49.35,
+    "co2_kg_m3": 191.95,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1539,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 8",
+    "fck": 80.51,
+    "co2_kg_m3": 316.68,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1540,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 8",
+    "fck": 38.93,
+    "co2_kg_m3": 129.31,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1541,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 8",
+    "fck": 29.6,
+    "co2_kg_m3": 123.53,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1542,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 9",
+    "fck": 78.03,
+    "co2_kg_m3": 375.77,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1543,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 9",
+    "fck": 60.53,
+    "co2_kg_m3": 297.07,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1544,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 9",
+    "fck": 48.67,
+    "co2_kg_m3": 249.01,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1545,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 10",
+    "fck": 65.17,
+    "co2_kg_m3": 181.5,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1546,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 10",
+    "fck": 33.57,
+    "co2_kg_m3": 130.65,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1547,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 10",
+    "fck": 32.98,
+    "co2_kg_m3": 193.77,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1548,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 11",
+    "fck": 74.53,
+    "co2_kg_m3": 346.99,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1549,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 11",
+    "fck": 35.78,
+    "co2_kg_m3": 142.92,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1550,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 11",
+    "fck": 27.67,
+    "co2_kg_m3": 156.84,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1551,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 12",
+    "fck": 72.94,
+    "co2_kg_m3": 288.54,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1552,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 12",
+    "fck": 49.59,
+    "co2_kg_m3": 194.48,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1553,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 12",
+    "fck": 34.38,
+    "co2_kg_m3": 146.43,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1554,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 13",
+    "fck": 65.23,
+    "co2_kg_m3": 253.1,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1555,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 13",
+    "fck": 47.87,
+    "co2_kg_m3": 263.4,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1556,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 13",
+    "fck": 40.32,
+    "co2_kg_m3": 215.33,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1557,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 14",
+    "fck": 53.52,
+    "co2_kg_m3": 202.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1558,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 14",
+    "fck": 58.71,
+    "co2_kg_m3": 210.77,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1559,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 14",
+    "fck": 39.09,
+    "co2_kg_m3": 162.71,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1560,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 15",
+    "fck": 68.28,
+    "co2_kg_m3": 283.75,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1561,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 15",
+    "fck": 36.87,
+    "co2_kg_m3": 275.29,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1562,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 15",
+    "fck": 36.16,
+    "co2_kg_m3": 227.28,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1563,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 16",
+    "fck": 89.58,
+    "co2_kg_m3": 273.78,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1564,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 16",
+    "fck": 63.82,
+    "co2_kg_m3": 239.75,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1565,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 16",
+    "fck": 43.24,
+    "co2_kg_m3": 186.09,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1566,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C70 (fly ash + escoria de fosforo), amostra 17",
+    "fck": 76.11,
+    "co2_kg_m3": 384.25,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1567,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C40 (fly ash + escoria de fosforo), amostra 17",
+    "fck": 44.84,
+    "co2_kg_m3": 223.12,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1568,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 17",
+    "fck": 23.32,
+    "co2_kg_m3": 93.77,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 1569,
+    "material": "Concreto otimizado serie de projeto Fcu,k=C30 (fly ash + escoria de fosforo), amostra 18",
+    "fck": 32.21,
+    "co2_kg_m3": 276.3,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "scm"
+   }
+  ]
+ }
+]

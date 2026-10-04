@@ -1,0 +1,364 @@
+[
+ {
+  "row_id": 2658,
+  "rotulo": "D'Orazio et al., 2023",
+  "titulo": "Life Cycle Assessment of Mortars with Fine Recycled Aggregates from Industrial Waste: Evaluation of Transports Impact in the Italian Context",
+  "pdf": "D'ORAZIO et al., 2023 - su15043221.pdf",
+  "fileId": "1XrCbA2LLo260bCO6jRohDYV5unmiziq5",
+  "pares": [
+   {
+    "sheet_row": 631,
+    "material": "REF1 (argamassa referencia, agregado natural, classe M30)",
+    "fck": 32.0,
+    "co2_kg_m3": 420.0,
+    "co2_conversao": "0,42 kg/L x 1000 L/m3 = 420 [VERIFICACAO 2026-09-26: OK; nota: valor lido de grafico (leitura de eixo); material e argamassa, nao betao]",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 632,
+    "material": "DELTA (argamassa com agregado reciclado composito, classe M30)",
+    "fck": 32.0,
+    "co2_kg_m3": 310.0,
+    "co2_conversao": "0,31 kg/L x 1000 L/m3 = 310 [VERIFICACAO 2026-09-26: OK; nota: valor lido de grafico (leitura de eixo); material e argamassa, nao betao]",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 633,
+    "material": "REF2 (argamassa referencia, agregado natural, classe M20)",
+    "fck": 25.0,
+    "co2_kg_m3": 420.0,
+    "co2_conversao": "0,42 kg/L x 1000 L/m3 = 420 [VERIFICACAO 2026-09-26: OK; nota: valor lido de grafico (leitura de eixo); material e argamassa, nao betao]",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 634,
+    "material": "HP (argamassa com po de carbono reciclado, classe M20)",
+    "fck": 25.0,
+    "co2_kg_m3": 385.0,
+    "co2_conversao": "0,385 kg/L x 1000 L/m3 = 385",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 2672,
+  "rotulo": "Sposito, 2024",
+  "titulo": "Design for sustainability: extruded alkali activated bio-composites",
+  "pdf": "SPOSITO, 2024 - tde-30092024-135605.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 144,
+    "material": "Pasta de escoria alcali-ativada (BFS), activador NH, Sec.4.1.3",
+    "fck": 46.44,
+    "co2_kg_m3": 96.2,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 145,
+    "material": "Pastas de escoria alcali-ativada com cinza de folha de bambu (AAM), mistura de maior resistencia (NH-SS1.5, 28d)",
+    "fck": 97.21,
+    "co2_kg_m3": 108.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 2101,
+    "material": "Pasta de escoria alcali-ativada (BFS), activador NH-SS1.0, Sec.4.1.3",
+    "fck": 75.87,
+    "co2_kg_m3": 104.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 2102,
+    "material": "Pasta de escoria alcali-ativada (BFS), activador NH-SS2.0, Sec.4.1.3",
+    "fck": 90.38,
+    "co2_kg_m3": 112.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 2103,
+    "material": "Pasta de escoria alcali-ativada (BFS), activador NH-BLA1.0, Sec.4.1.3",
+    "fck": 77.45,
+    "co2_kg_m3": 93.5,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 2104,
+    "material": "Pasta de escoria alcali-ativada (BFS), activador NH-BLA1.5, Sec.4.1.3",
+    "fck": 86.35,
+    "co2_kg_m3": 93.9,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   },
+   {
+    "sheet_row": 2105,
+    "material": "Pasta de escoria alcali-ativada (BFS), activador NH-BLA2.0, Sec.4.1.3",
+    "fck": 61.0,
+    "co2_kg_m3": 93.9,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "geopolimero"
+   }
+  ]
+ },
+ {
+  "row_id": 2680,
+  "rotulo": "Guaygua et al., 2024",
+  "titulo": "Life cycle assessment of seismic resistant prefabricated modular buildings",
+  "pdf": "GUAYGUA et al., 2024.pdf",
+  "fileId": "1YN1r22PP-5dhPasBYaiJIDaTdkSoH-V9",
+  "pares": [
+   {
+    "sheet_row": 146,
+    "material": "Edificio modular sismo-resistente, sistema CB (concreto convencional, betao armado in-situ)",
+    "fck": 28.0,
+    "co2_kg_m3": 296.2,
+    "co2_conversao": "196 x 0.47 / 0.311 m3 de betao por m2 (Tab.1) = 296.2 [so betao]; sistema completo 196/0.311 = 630.2 (inclui aco) [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: fraccao do betao no GWP impressa no texto]",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 147,
+    "material": "Edificio modular sismo-resistente, sistema CM1 (modulos de betao pre-fabricado, tipo 1)",
+    "fck": 28.0,
+    "co2_kg_m3": 298.1,
+    "co2_conversao": "282 x 0.37 / 0.35 m3 de betao por m2 (Tab.1) = 298.1 [so betao]; sistema completo 282/0.35 = 805.7 (inclui aco) [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: fraccao do betao no GWP impressa no texto]",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 148,
+    "material": "Edificio modular sismo-resistente, sistema CM2 (modulos de betao pre-fabricado, tipo 2)",
+    "fck": 28.0,
+    "co2_kg_m3": 299.7,
+    "co2_conversao": "223 x 0.34 / 0.253 m3 de betao por m2 (Tab.1) = 299.7 [so betao]; sistema completo 223/0.253 = 881.4 (inclui aco) [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: fraccao do betao no GWP impressa no texto]",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 149,
+    "material": "Edificio modular sismo-resistente, sistema MSC (modulos volumetricos de aco estrutural + laje de betao)",
+    "fck": 28.0,
+    "co2_kg_m3": 294.8,
+    "co2_conversao": "131 x 0.27 / 0.12 m3 de betao por m2 (Tab.1) = 294.8 [so betao]; sistema completo 131/0.12 = 1091.7 (inclui aco) [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: fraccao do betao no GWP impressa no texto]",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 2681,
+  "rotulo": "Habibi et al., 2024",
+  "titulo": "Biases in life cycle assessment of circular concrete",
+  "pdf": "HABIBI et al., 2024 - j.rser.2023.114237.pdf",
+  "fileId": "1HynhBt8xAB--ehZbV8M-wUKzzSPZZQCI",
+  "pares": [
+   {
+    "sheet_row": 11,
+    "material": "Concreto circular (RCA + sílica ativa + GGBS) vs concreto convencional",
+    "fck": 33.4,
+    "co2_kg_m3": 249.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   },
+   {
+    "sheet_row": 130,
+    "material": "Concreto convencional de referencia (w/b 0,5; cimento 350 kg/m3; areia natural 1031; brita natural 844 kg/m3)",
+    "fck": 33.9,
+    "co2_kg_m3": 380.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 131,
+    "material": "Concreto circular (w/b 0,5; cimento 245 + silica ativa 35 + escoria GGBFS 70 kg/m3; areia natural 1031; 100% brita reciclada 814 kg/m3)",
+    "fck": 33.4,
+    "co2_kg_m3": 297.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "reciclado"
+   }
+  ]
+ },
+ {
+  "row_id": 2684,
+  "rotulo": "Hafez et al., 2024",
+  "titulo": "Decarbonization potential of steel fibre-reinforced limestone calcined clay cement concrete one-way slabs",
+  "pdf": "HAFEZ et al., 2024b - j.conbuildmat.2024.136847.pdf",
+  "fileId": "1jfX7953gqIQxsecN7FbzPWwTDMdQmoe6",
+  "pares": [
+   {
+    "sheet_row": 135,
+    "material": "PC - concreto OPC de referencia (CEM I 52,5 N 300; agua 150; areia 0/4 770; brita 4/8 230, 8/16 375, 16/32 430 kg/m3; w/b 0,5)",
+    "fck": 40.0,
+    "co2_kg_m3": 292.8,
+    "co2_conversao": "58,56 kg/m2 / 0,2 m3/m2 de betao (mesma linha da Tab.4) = 292.80 [VERIFICACAO 2026-09-26: OK; nota: GWP da laje inclui armadura longitudinal, nao so o betao]",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 136,
+    "material": "PC-SF - concreto OPC com 60 kg/m3 de fibras de aco (CEM I 52,5 N 300; SP 6,9; agua 150; areia 0/4 760; brita 4/8 225, 8/16 375, 16/32 430 kg/m3; w/b 0,75)",
+    "fck": 40.0,
+    "co2_kg_m3": 357.2,
+    "co2_conversao": "71,44 kg/m2 / 0,2 m3/m2 de betao (mesma linha da Tab.4) = 357.20 [VERIFICACAO 2026-09-26: OK; nota: GWP da laje inclui armadura longitudinal, nao so o betao]",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 137,
+    "material": "LC3 - concreto LC3 (CEM I 52,5 N 159 + argila calcinada 90 + calcario 45 + gesso 6; SP 1,5; agua 150; areia 0/4 760; brita 4/8 225, 8/16 375, 16/32 430 kg/m3)",
+    "fck": 40.0,
+    "co2_kg_m3": 186.23,
+    "co2_conversao": "40,97 kg/m2 / 0,22 m3/m2 de betao (mesma linha da Tab.4) = 186.23 [VERIFICACAO 2026-09-26: OK; nota: GWP da laje inclui armadura longitudinal, nao so o betao]",
+    "familia_atual": "scm"
+   },
+   {
+    "sheet_row": 138,
+    "material": "LC3-SF - concreto LC3 com 60 kg/m3 de fibras de aco (CEM I 52,5 N 159 + argila calcinada 90 + calcario 45 + gesso 6; SP 7,5; agua 150; areia 0/4 755; brita 4/8 220, 8/16 370, 16/32 425 kg/m3; w/b 0,75)",
+    "fck": 40.0,
+    "co2_kg_m3": 249.82,
+    "co2_conversao": "54,96 kg/m2 / 0,22 m3/m2 de betao (mesma linha da Tab.4) = 249.82 [VERIFICACAO 2026-09-26: OK; nota: GWP da laje inclui armadura longitudinal, nao so o betao]",
+    "familia_atual": "scm"
+   }
+  ]
+ },
+ {
+  "row_id": 2687,
+  "rotulo": "Hajiesmaeili et al., 2019",
+  "titulo": "Life Cycle Analysis of Strengthening Existing RC Structures with R-PE-UHPFRC",
+  "pdf": "HAJIESMAEILI et al., 2019 - su11246923.pdf",
+  "fileId": "1E58tkUEG_O0caK6SN5KobJ0WzyFE1GR3",
+  "pares": [
+   {
+    "sheet_row": 1855,
+    "material": "P-RC (concreto armado pos-tensionado, Method 1, classes C30/37 e C20/25) - baseline/demolicao e reconstrucao",
+    "fck": 30.0,
+    "co2_kg_m3": 636.8,
+    "co2_conversao": "151.300 / 237,6 m3 (Tab.3) = 636,8 [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: total do Metodo 1 inclui aco, cabos, cofragem e parcelas menores (membrana, asfalto)]",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ },
+ {
+  "row_id": 2688,
+  "rotulo": "Haverkamp et al., 2025",
+  "titulo": "Product Environmental Footprint in the construction sector - Proposal and assessment of a representative product for carbon-reinforced concrete",
+  "pdf": "HAVERKAMP et al., 2025 - j.jcou.2025.103078.pdf",
+  "fileId": "1aNPkn6PIf_Fa2wgy3qNoLqiXlx4xxUaA",
+  "pares": [
+   {
+    "sheet_row": 645,
+    "material": "Carbon-reinforced concrete (CRC) — painel de fachada, 4000x3600x40mm (~0.576 m3)",
+    "fck": 58.0,
+    "co2_kg_m3": 791.67,
+    "co2_conversao": "456 kg / volume do painel 4,0x3,6x0,04 = 0,576 m3 = 791,67",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 2693,
+  "rotulo": "Inman et al., 2017",
+  "titulo": "A Mechanical and Environmental Assessment and Comparison of Basalt Fibre Reinforced Polymer (BFRP) Rebar and Steel Rebar in Concrete Beams",
+  "pdf": "INMAN et al., 2017 - j.egypro.2017.03.005.pdf",
+  "fileId": "17DLKFrffYXrAbCkguIoSxo05MhosIOQf",
+  "pares": [
+   {
+    "sheet_row": 646,
+    "material": "Viga BFRP pre-tensionada, 1200x200x200mm (Beams 1.1/1.2)",
+    "fck": 67.4,
+    "co2_kg_m3": 304.2,
+    "co2_conversao": "total por viga / volume de betao = 14.6 / 0.048 (C x L x A impressos na Tabela 1: 1200x200x200 mm). Alternativa com o volume arredondado impresso na Tabela 1 ('Volume of concrete (m3)' = 0.05): 292.0 kg/m3. O total inclui a armadura (BFRP+resina ou aco) - familia concreto_armado. [REVISAO 2026-09-27",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 647,
+    "material": "Viga BFRP pre-tensionada, 2000x200x200mm (Beams 2.1/2.2/2.3)",
+    "fck": 60.4,
+    "co2_kg_m3": 303.8,
+    "co2_conversao": "total por viga / volume de betao = 24.3 / 0.08 (C x L x A impressos na Tabela 1: 2000x200x200 mm). Alternativa com o volume arredondado impresso na Tabela 1 ('Volume of concrete (m3)' = 0.08): 303.8 kg/m3. O total inclui a armadura (BFRP+resina ou aco) - familia concreto_armado. [REVISAO 2026-09-27,",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 648,
+    "material": "Viga BFRP pre-tensionada, 2700x200x200mm (Beams 3.1/3.2)",
+    "fck": 61.7,
+    "co2_kg_m3": 303.7,
+    "co2_conversao": "total por viga / volume de betao = 32.8 / 0.108 (C x L x A impressos na Tabela 1: 2700x200x200 mm). Alternativa com o volume arredondado impresso na Tabela 1 ('Volume of concrete (m3)' = 0.11): 298.2 kg/m3. O total inclui a armadura (BFRP+resina ou aco) - familia concreto_armado. [REVISAO 2026-09-27",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 649,
+    "material": "Viga BFRP pre-tensionada, 3860x200x200mm (Beams 4.1/4.2)",
+    "fck": 57.1,
+    "co2_kg_m3": 303.8,
+    "co2_conversao": "total por viga / volume de betao = 46.9 / 0.1544 (C x L x A impressos na Tabela 1: 3860x200x200 mm). Alternativa com o volume arredondado impresso na Tabela 1 ('Volume of concrete (m3)' = 0.15): 312.7 kg/m3. O total inclui a armadura (BFRP+resina ou aco) - familia concreto_armado. [REVISAO 2026-09-2",
+    "familia_atual": "concreto_armado"
+   },
+   {
+    "sheet_row": 650,
+    "material": "Viga com armadura de aco convencional, 1250x200x189mm (Beams 5.1/5.2/5.3) - comparador simetrico",
+    "fck": 31.4,
+    "co2_kg_m3": 501.6,
+    "co2_conversao": "total por viga / volume de betao = 23.7 / 0.04725 (C x L x A impressos na Tabela 1: 1250x200x189 mm). Alternativa com o volume arredondado impresso na Tabela 1 ('Volume of concrete (m3)' = 0.05): 474.0 kg/m3. O total inclui a armadura (BFRP+resina ou aco) - familia concreto_armado. [REVISAO 2026-09-",
+    "familia_atual": "concreto_armado"
+   }
+  ]
+ },
+ {
+  "row_id": 2694,
+  "rotulo": "Jang et al., 2022",
+  "titulo": "Proposal of Major Environmental Impact Categories of Construction Materials Based on Life Cycle Impact Assessments",
+  "pdf": "JANG et al., 2022 - ma15145047.pdf",
+  "fileId": "1bmHsrNnFd3WQJumm4WyeJ7l8cZEZ9M1L",
+  "pares": [
+   {
+    "sheet_row": 651,
+    "material": "Concreto pronto (ready-mixed concrete) 25mm agregado, 21 MPa, abatimento 120mm",
+    "fck": 21.0,
+    "co2_kg_m3": 409.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 652,
+    "material": "Concreto pronto (ready-mixed concrete) 25mm agregado, 21 MPa, abatimento 150mm",
+    "fck": 21.0,
+    "co2_kg_m3": 419.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 653,
+    "material": "Concreto pronto (ready-mixed concrete) 25mm agregado, 24 MPa, abatimento 120mm",
+    "fck": 24.0,
+    "co2_kg_m3": 414.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   },
+   {
+    "sheet_row": 654,
+    "material": "Concreto pronto (ready-mixed concrete) 25mm agregado, 24 MPa, abatimento 150mm",
+    "fck": 24.0,
+    "co2_kg_m3": 429.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ },
+ {
+  "row_id": 2695,
+  "rotulo": "Jang et al., 2022",
+  "titulo": "Comparison of the Embodied Carbon Emissions and Direct Construction Costs for Modular and Conventional Residential Buildings in South Korea",
+  "pdf": "JANG et al., 2022b - buildings12010051.pdf",
+  "fileId": "1GNm2mS9Ou_7qDuRi9saE8yqSLKq5T-Tt",
+  "pares": [
+   {
+    "sheet_row": 655,
+    "material": "Concreto pronto (RMC), fator de emissao LCI coreano (KEITI) - classe 24 MPa",
+    "fck": 24.0,
+    "co2_kg_m3": 414.0,
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3",
+    "familia_atual": "opc"
+   }
+  ]
+ }
+]
