@@ -1,0 +1,315 @@
+[
+ {
+  "row_id": 4161,
+  "pares": [
+   {
+    "sheet_row": 1212,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 414,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2 p.48: 'cradle-to-gate'; uso, manutencao e deposicao excluidos; Fig.3 p.52 (GWP100a ~10,34 kg CO2 eq/UF) / 0,025 m3 (Tab.2)",
+    "derivado": "sim",
+    "nota": "Valor lido no grafico (Fig.3) pela revisao anterior; sem qualquer credito na ACV."
+   },
+   {
+    "sheet_row": 1213,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 435,
+    "co2_com_desconto": null,
+    "citacao": "Idem; Fig.3 p.52 ~9,56 / 0,022 m3 (Tab.2)",
+    "derivado": "sim",
+    "nota": "Com 1/45 m3 exacto da 430; o gravado usa 0,022 arredondado (435). Diferenca menor, nao e desconto."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.43-59, ate as referencias); figuras so como texto extraido",
+  "notas": "ACV cradle-to-gate CML-IA, sem creditos."
+ },
+ {
+  "row_id": 4185,
+  "pares": [
+   {
+    "sheet_row": 564,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 463.1,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.4 p.8: LCA 'cradle-to-gate', EN 15804 A1-A5; Tab.7 p.16 climate change 116,56 kg CO2 eq/m2; 59,6% do Sankey (Fig.11) / 0,15 m",
+    "derivado": "sim",
+    "nota": "Sem creditos nem fim de vida. O Sankey (Fig.11) nao foi renderizado nesta sessao; a fraccao 59,6% vem da verificacao de 2026-09-26."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias",
+  "notas": "A1-A5, EF 3.0, sem creditos."
+ },
+ {
+  "row_id": 4201,
+  "pares": [
+   {
+    "sheet_row": 1221,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 761,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2 p.4: fronteira A1-A3, B e C excluidos; Sec.2.4: alocacao cut-off por defeito (GGBFS/SF sem carga); p.6: 761 kg CO2-eq/m3",
+    "derivado": "nao",
+    "nota": "O resumo diz 'cradle-to-grave', mas os metodos dizem A1-A3; nenhum credito."
+   },
+   {
+    "sheet_row": 1222,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 545.6,
+    "co2_com_desconto": null,
+    "citacao": "p.6: 496 CO2-eq/m3-eq (M2) x FU 1,10 (Tab.2)",
+    "derivado": "sim",
+    "nota": "Alocacao economica/massica da escoria e da silica (Fig.7) e analise de sensibilidade que ACRESCENTA carga, nao e desconto."
+   },
+   {
+    "sheet_row": 1223,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 459.6,
+    "co2_com_desconto": null,
+    "citacao": "p.6: 383 CO2-eq/m3-eq (M3) x FU 1,20 (Tab.2)",
+    "derivado": "sim",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-10); figuras 2-7 so como legenda (sem valores no texto)",
+  "notas": "Sem creditos. Ressalva ja conhecida: 'material production' (A1) vs A1-A3 - o texto da 761 como 'material production'."
+ },
+ {
+  "row_id": 4207,
+  "pares": [
+   {
+    "sheet_row": 1225,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 244.75,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.6 (A1-A4) 244,75 kg CO2e/m3; Tab.3: 5.629 kg / 23 m3; Sec.4.1.1: A1-A3 = 238 kg CO2e/m3",
+    "derivado": "nao",
+    "nota": "A mistura de base nao tem credito. O artigo apresenta outra mistura (agregados mineralizados com CO2, Blue Planet) com -960 kg CO2e para 23 m3 (sequestro por mineralizacao), mas isso e outra mistura, nao a gravada. Carbono biogenico explicitamente omitido. O valor gravado e so betao (o aco e contado a parte, 1,46 kg CO2e/kg), apesar de o rotulo do material dizer 'reforcado com aco'."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (p.15)",
+  "notas": "A1-A4, sem creditos para a mistura gravada."
+ },
+ {
+  "row_id": 4232,
+  "pares": [
+   {
+    "sheet_row": 1229,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 358,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1/Tab.4: todos os LCI 'Cradle to Gate'; Tab.7 p.9: Std. GWP 3,58E+02 kg-CO2eq/m3",
+    "derivado": "nao",
+    "nota": "Escoria e cinza de fundo com carga zero (cut-off, Tab.6), nao credito. O valor gravado e o da mistura de referencia (Std.), nao das 7 misturas. A citacao do registo ('metodo KOLID') e imprecisa: o GWP vem das LCI DB; o KOLID so converte em custo."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-11)",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 4244,
+  "pares": [
+   {
+    "sheet_row": 1230,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 475,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.2 p.20: 'the conventional concrete ... totaling 475 kg CO2 eq' (Fig.14A, por 1 m3 de laje alveolar fabricada)",
+    "derivado": "nao",
+    "nota": "Sem creditos (as '972 t de clinquer evitadas' sao so a diferenca entre cenarios). ATENCAO: a UF e 1 m3 de laje alveolar protendida, que inclui 54,92 kg de cordoalha de aco + pre-tensao (Tab.1, Tab.7) - o valor nao e so betao; deve estar na familia concreto_armado."
+   },
+   {
+    "sheet_row": 1234,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 414,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.2 p.20: GP2-20 '414 kg CO2 eq' (Fig.14A)",
+    "derivado": "nao",
+    "nota": "Idem: inclui cordoalha de aco e pre-tensao."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-25)",
+  "notas": "Sem creditos; ver nota sobre o aco de pre-esforco incluido no valor por m3."
+ },
+ {
+  "row_id": 4251,
+  "pares": [
+   {
+    "sheet_row": 1238,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "biogenico"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 334.1,
+    "co2_com_desconto": 320,
+    "citacao": "Sec.2.4.1 p.5-6: os autores incluem o armazenamento de carbono biogenico no calculo (contra a EN 15804); Fig.6 p.9: resultados por m3 'lower ... thanks to their biogenic carbon content'; Tab.1: 70 kg de RHA/m3; Tab.2: carbono biogenico RHA 5,5% (3-8%). Conta: credito = 70 x 0,055 x 44/12 = 14,1 kg CO2 (faixa 7,7-20,5); bruto = 320 + 14,1 = 334,1",
+    "derivado": "sim",
+    "nota": "PDF com 10,4 MB nao descarrega pelo conector; a Fig.6 NAO foi renderizada nesta sessao. Assume-se que o 320 gravado (lido na Fig.6 em 2026-08-25) e a barra RHA, que ja inclui o credito biogenico (e o que o texto diz da Fig.6). Bruto reconstruido com numeros impressos (Tab.1+Tab.2), nao publicado pelo autor. Nota: fck 20,7 e aos 14 dias."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-12); figuras nao vistas (PDF > 10 MB)",
+  "notas": "Unico artigo do lote cujo valor gravado e liquido."
+ },
+ {
+  "row_id": 4255,
+  "pares": [
+   {
+    "sheet_row": 1239,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 285.02,
+    "co2_com_desconto": 78.52,
+    "citacao": "Eq.(1) p.4: Ctot = Cprod + Ctrans + Ccons - Crec; Tab.A4 p.16: betao -> agregado reciclado, taxa 70%, factor 295 kgCO2e/m3 -> credito 0,70 x 295 = 206,5 kg/m3 (confere: Tab.6 2.270,524 t / 10.995,276 m3 = 206,50); gravado = factor de producao (Tab.A1/Tab.2/Tab.8); com desconto = 285.02 - 206,5",
+    "derivado": "sim",
+    "nota": "Credito de reciclagem do betao no fim de vida (agregado reciclado), igual por m3 para todas as classes; o gravado (so producao, sem transporte) e bruto. Tab.A1 da 285,00; o gravado 285,02 vem de 79,763 t / 279,871 m3."
+   },
+   {
+    "sheet_row": 1240,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 295,
+    "co2_com_desconto": 88.5,
+    "citacao": "Eq.(1) p.4: Ctot = Cprod + Ctrans + Ccons - Crec; Tab.A4 p.16: betao -> agregado reciclado, taxa 70%, factor 295 kgCO2e/m3 -> credito 0,70 x 295 = 206,5 kg/m3 (confere: Tab.6 2.270,524 t / 10.995,276 m3 = 206,50); gravado = factor de producao (Tab.A1/Tab.2/Tab.8); com desconto = 295 - 206,5",
+    "derivado": "sim",
+    "nota": "Credito de reciclagem do betao no fim de vida (agregado reciclado), igual por m3 para todas as classes; o gravado (so producao, sem transporte) e bruto."
+   },
+   {
+    "sheet_row": 1241,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 321.4,
+    "co2_com_desconto": 114.9,
+    "citacao": "Eq.(1) p.4: Ctot = Cprod + Ctrans + Ccons - Crec; Tab.A4 p.16: betao -> agregado reciclado, taxa 70%, factor 295 kgCO2e/m3 -> credito 0,70 x 295 = 206,5 kg/m3 (confere: Tab.6 2.270,524 t / 10.995,276 m3 = 206,50); gravado = factor de producao (Tab.A1/Tab.2/Tab.8); com desconto = 321.4 - 206,5",
+    "derivado": "sim",
+    "nota": "Credito de reciclagem do betao no fim de vida (agregado reciclado), igual por m3 para todas as classes; o gravado (so producao, sem transporte) e bruto."
+   },
+   {
+    "sheet_row": 1242,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 385,
+    "co2_com_desconto": 178.5,
+    "citacao": "Eq.(1) p.4: Ctot = Cprod + Ctrans + Ccons - Crec; Tab.A4 p.16: betao -> agregado reciclado, taxa 70%, factor 295 kgCO2e/m3 -> credito 0,70 x 295 = 206,5 kg/m3 (confere: Tab.6 2.270,524 t / 10.995,276 m3 = 206,50); gravado = factor de producao (Tab.A1/Tab.2/Tab.8); com desconto = 385 - 206,5",
+    "derivado": "sim",
+    "nota": "Credito de reciclagem do betao no fim de vida (agregado reciclado), igual por m3 para todas as classes; o gravado (so producao, sem transporte) e bruto."
+   },
+   {
+    "sheet_row": 1243,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 416.76,
+    "co2_com_desconto": 210.26,
+    "citacao": "Eq.(1) p.4: Ctot = Cprod + Ctrans + Ccons - Crec; Tab.A4 p.16: betao -> agregado reciclado, taxa 70%, factor 295 kgCO2e/m3 -> credito 0,70 x 295 = 206,5 kg/m3 (confere: Tab.6 2.270,524 t / 10.995,276 m3 = 206,50); gravado = factor de producao (Tab.A1/Tab.2/Tab.8); com desconto = 416.76 - 206,5",
+    "derivado": "sim",
+    "nota": "Credito de reciclagem do betao no fim de vida (agregado reciclado), igual por m3 para todas as classes; o gravado (so producao, sem transporte) e bruto."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha incluindo o Apendice A (Tabs.A1-A7)",
+  "notas": "Credito de reciclagem declarado (Tab.6/Tab.7: -9.657 t no edificio; betao -2.270,5 t)."
+ },
+ {
+  "row_id": 4263,
+  "pares": [
+   {
+    "sheet_row": 1244,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 304.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.4 p.13-14 e Fig.11 (pegada da CONSTRUCAO de 1 m de largura); volume por m de largura na Sec.4.4",
+    "derivado": "sim",
+    "nota": "A reciclagem (20% de betao, aco) so entra na fase de desmantelamento da barragem de base (Fig.9, -95% sobre 735 t CO2 eq/m do desmantelamento), nunca nos cenarios de 20-50 MPa nem por m3 de betao. ATENCAO: os rotulos da Fig.11 sao a construcao inteira por m de largura (no caso base 355 t inclui ~33 t de combustivel, transporte, madeira, explosivos e aco, Tab.3/Fig.4), divididos so pelo volume de betao - o gravado nao e so betao."
+   },
+   {
+    "sheet_row": 1245,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 388.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.4 p.13-14 e Fig.11 (pegada da CONSTRUCAO de 1 m de largura); volume por m de largura na Sec.4.4",
+    "derivado": "sim",
+    "nota": "A reciclagem (20% de betao, aco) so entra na fase de desmantelamento da barragem de base (Fig.9, -95% sobre 735 t CO2 eq/m do desmantelamento), nunca nos cenarios de 20-50 MPa nem por m3 de betao. ATENCAO: os rotulos da Fig.11 sao a construcao inteira por m de largura (no caso base 355 t inclui ~33 t de combustivel, transporte, madeira, explosivos e aco, Tab.3/Fig.4), divididos so pelo volume de betao - o gravado nao e so betao."
+   },
+   {
+    "sheet_row": 1246,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 473.9,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.4 p.13-14 e Fig.11 (pegada da CONSTRUCAO de 1 m de largura); volume por m de largura na Sec.4.4",
+    "derivado": "sim",
+    "nota": "A reciclagem (20% de betao, aco) so entra na fase de desmantelamento da barragem de base (Fig.9, -95% sobre 735 t CO2 eq/m do desmantelamento), nunca nos cenarios de 20-50 MPa nem por m3 de betao. ATENCAO: os rotulos da Fig.11 sao a construcao inteira por m de largura (no caso base 355 t inclui ~33 t de combustivel, transporte, madeira, explosivos e aco, Tab.3/Fig.4), divididos so pelo volume de betao - o gravado nao e so betao."
+   },
+   {
+    "sheet_row": 1247,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 560.2,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.4 p.13-14 e Fig.11 (pegada da CONSTRUCAO de 1 m de largura); volume por m de largura na Sec.4.4",
+    "derivado": "sim",
+    "nota": "A reciclagem (20% de betao, aco) so entra na fase de desmantelamento da barragem de base (Fig.9, -95% sobre 735 t CO2 eq/m do desmantelamento), nunca nos cenarios de 20-50 MPa nem por m3 de betao. ATENCAO: os rotulos da Fig.11 sao a construcao inteira por m de largura (no caso base 355 t inclui ~33 t de combustivel, transporte, madeira, explosivos e aco, Tab.3/Fig.4), divididos so pelo volume de betao - o gravado nao e so betao."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-15)",
+  "notas": "Sem desconto aplicado aos pares gravados."
+ },
+ {
+  "row_id": 4267,
+  "pares": [
+   {
+    "sheet_row": 1251,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 88.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2 p.4: 'cradle-to-gate'; CBA so com transporte (sem credito); Fig.5 p.9 eixo GWP (kg CO2-eq por m3/MPa) x fc 56 MPa (Tab.1)",
+    "derivado": "sim",
+    "nota": "Sem creditos. SUSPEITA: 88,7 kg/m3 para 386 kg de CEM I e muito baixo (esperado >300); a Tab.3 usa 'cement mortar, at plant/CH' como proxy do cimento, o que explica o valor baixo, se a leitura da figura estiver certa. A Fig.5 e da serie MIX-fixed-W/C (CBA0 e igual nas duas series)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-12); figuras so como texto extraido",
+  "notas": "Sem creditos; valor gravado suspeito de ser baixo (proxy de cimento do proprio artigo)."
+ }
+]

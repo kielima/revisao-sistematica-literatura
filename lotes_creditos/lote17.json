@@ -1,0 +1,326 @@
+[
+ {
+  "row_id": 3281,
+  "rotulo": "Nath et al., 2018",
+  "titulo": "Effect of fly ash on the service life, carbon footprint and embodied energy of high strength concrete in the marine environment",
+  "pdf": "NATH et al., 2018.pdf",
+  "fileId": "1CKBYodKQl5ceIZYYJNNOeHsmEjFpDG9k",
+  "pares": [
+   {
+    "sheet_row": 332,
+    "material": "Concreto de alta resistencia com cinza volante para ambiente marinho - mistura FA0 (controlo, sem cinza volante)",
+    "fck": 69,
+    "co2_kg_m3": 345,
+    "co2_original": "345 kg CO2 e-/m3 (media de simulacao Monte Carlo, SimaPro 8.2)",
+    "co2_original_local": "Tabela 5 (p.6 do ficheiro, p.1699 impressa): 'The mean values of carbon footprint of 1 m3 of FA0, FA30 and FA40 concretes have been estimated to be 345 kg CO2 e-, 269 kg CO2 e- and 269 kg CO2 e-, respectively'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 333,
+    "material": "Concreto de alta resistencia com cinza volante para ambiente marinho - mistura FA30 (30% cinza volante)",
+    "fck": 73,
+    "co2_kg_m3": 269,
+    "co2_original": "269 kg CO2 e-/m3 (media de simulacao Monte Carlo, SimaPro 8.2)",
+    "co2_original_local": "Tabela 5 (p.6 do ficheiro, p.1699 impressa): 'The mean values of carbon footprint of 1 m3 of FA0, FA30 and FA40 concretes have been estimated to be 345 kg CO2 e-, 269 kg CO2 e- and 269 kg CO2 e-, respectively'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 334,
+    "material": "Concreto de alta resistencia com cinza volante para ambiente marinho - mistura FA40 (40% cinza volante)",
+    "fck": 66,
+    "co2_kg_m3": 269,
+    "co2_original": "269 kg CO2 e-/m3 (media de simulacao Monte Carlo, SimaPro 8.2)",
+    "co2_original_local": "Tabela 5 (p.6 do ficheiro, p.1699 impressa): 'The mean values of carbon footprint of 1 m3 of FA0, FA30 and FA40 concretes have been estimated to be 345 kg CO2 e-, 269 kg CO2 e- and 269 kg CO2 e-, respectively'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3282,
+  "rotulo": "Souto-Martinez et al., 2018",
+  "titulo": "Cradle-to-gate CO2e emissions vs. in situ CO2 sequestration of structural concrete elements",
+  "pdf": "SOUTO-MARTINEZ et al., 2018.pdf",
+  "fileId": "1_Fh2l9BnCQJ0o_LSqdZDBWInH6iVqLPH",
+  "pares": [
+   {
+    "sheet_row": 335,
+    "material": "Concreto Cimento Branco (White cement), 45 MPa, sem SCM (0%)",
+    "fck": 45,
+    "co2_kg_m3": 694,
+    "co2_original": "694 kg CO2e/m3 (maximo do estudo)",
+    "co2_original_local": "Texto sec.4 (p.6, p.306 impressa): 'the maximum ... observed for 1 m3 of concrete was 694 kg CO2e for a high compressive strength (45 MPa) White cement concrete mixture with [0% SCM]'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3283,
+  "rotulo": "Moncaster et al., 2018",
+  "titulo": "Why method matters: Temporal, spatial and physical variations in LCA and their impact on choice of structural system",
+  "pdf": "MONCASTER et al., 2018.pdf",
+  "fileId": "15sMFMv3RmM72rxpgKnN4O5jGGwPMXoOn",
+  "pares": [
+   {
+    "sheet_row": 336,
+    "material": "Concreto armado in situ RC25/30 (pilares/lajes do 'Concrete Frame' e paredes internas do 'Steel Frame')",
+    "fck": 25,
+    "co2_kg_m3": 475.2,
+    "co2_original": "0,198 kg CO2e/kg (coeficiente RC in-situ, colunas e laje fungiforme) e densidade 2400 kg/m3",
+    "co2_original_local": "Tabela 2 (sistema Concrete Frame, nota a)",
+    "co2_conversao": "0,198 kg/kg x 2400 kg/m3 = 475,2"
+   },
+   {
+    "sheet_row": 337,
+    "material": "Concreto pre-fabricado precast RC40/50 (laje hibrida precast/in-situ do 'Load-bearing Masonry' e do 'Steel Frame')",
+    "fck": 40,
+    "co2_kg_m3": 432,
+    "co2_original": "Coeficiente RC40/50 precast nao impresso; publicados 0,189 kg CO2e/kg (hibrido in-situ+precast, nota d) e 0,198 kg CO2e/kg (in-situ, nota a); densidade 2400 kg/m3",
+    "co2_original_local": "Tabela 2, notas a, c e d",
+    "co2_conversao": "(2 x 0,189 - 0,198) = 0,180 kg/kg x 2400 kg/m3 = 432,0 [VERIFICACAO 2026-09-26: OK; nota: depende da premissa de media simples da nota d, confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 3288,
+  "rotulo": "Oh et al., 2023",
+  "titulo": "Comparative CO2 emissions of concrete and timber slabs with equivalent structural performance",
+  "pdf": "OH et al., 2023b.pdf",
+  "fileId": "13Hj8EPzCfIYYY0fH5FIEDU5JV6JKNcsz",
+  "pares": [
+   {
+    "sheet_row": 342,
+    "material": "Concreto armado (RC) em laje comparativa com CLT e TCC, mesmo desempenho estrutural (vao/carga variaveis)",
+    "fck": 27,
+    "co2_kg_m3": 258.58,
+    "co2_original": "258.58 kg CO2-eq/m3 (factor de emissao intrinseco do betao, EPD coreano, Tabela 2)",
+    "co2_original_local": "Tabela 2 (p.4 do ficheiro): 'Carbon dioxide emission factor of materials ... Concrete 258.58 kg CO2-eq/m3'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3301,
+  "rotulo": "Almirall et al., 2019",
+  "titulo": "Environmental effects of using different construction codes applied to reinforced concrete beam designs based on Model Code 2010 and Spanish Standard EHE-08",
+  "pdf": "ALMIRALL et al., 2019.pdf",
+  "fileId": "1dx0aIv6V8we4q4DK57dW9SJaEuB7MH6x",
+  "pares": [
+   {
+    "sheet_row": 1991,
+    "material": "Viga BA pre-fabricada L=8 m, 0,3x0,6 m, fck=35, desenho de menor armadura (EHE-08, LL1=3 kN/m, Vs~6,4e-3)",
+    "fck": 35,
+    "co2_kg_m3": 341.8,
+    "co2_original": "~492 kg CO2eq/viga (Eq.(1) com Vs=6,4; ponto mais baixo de Fig.3a)",
+    "co2_original_local": "Eq.(1) p.4 + Fig.3a p.5 (eixo direito com escala numerica 0-870)",
+    "co2_conversao": "(20,4*6,4+361,6)=492,2 kg/viga / 1,44 m3 = 341,8 kg/m3 [REVISAO 2026-09-27, leitura integral; confianca media (Vs lido do grafico com escala; total inclui aco, transporte 30 km e aterro 10 km)]"
+   },
+   {
+    "sheet_row": 1992,
+    "material": "Viga BA pre-fabricada L=8 m, 0,3x0,6 m, fck=35, desenho de maior armadura (MC-2010, LL1=15 kN/m, Vs~20e-3)",
+    "fck": 35,
+    "co2_kg_m3": 534.7,
+    "co2_original": "770 kg CO2eq/viga (ponto superior de Fig.3a, tique '770' do eixo direito)",
+    "co2_original_local": "Fig.3a p.5; Eq.(1) p.4",
+    "co2_conversao": "770 / 1,44 m3 = 534,7 kg/m3 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 3305,
+  "rotulo": "Zhao et al., 2021",
+  "titulo": "Comparative life cycle assessment of composite structures incorporating uncertainty and global sensitivity analysis",
+  "pdf": "ZHAO et al., 2021 - j.engstruct.2021.112394.pdf",
+  "fileId": "1IthH5LjhdavRzeVUutrs8gQf7C08bHG4",
+  "pares": [
+   {
+    "sheet_row": 344,
+    "material": "Nucleo de concreto confinado por tubo de aco (CFST - concrete-filled steel tube), coluna composta",
+    "fck": 35,
+    "co2_kg_m3": 382.4,
+    "co2_original": "Total CFST 1.995,33 kg CO2eq por coluna (ciclo de vida 100 anos, incl. tubo de aco e manutencao); parcelas producao do betao: cimento 232,04 + brita 0,78 + areia 0,45 = 233,27 kg CO2eq",
+    "co2_original_local": "Tabela 3 p.6 (resultados do ciclo de vida); traco na Tabela 1",
+    "co2_conversao": "233,27 kg / 0,61 m3 (massas da coluna 244/427/732 kg = 0,61 x traco de referencia 400/700/1200 kg/m3) = 382,4 [REVISTO 2026-09-27: confirmado]"
+   },
+   {
+    "sheet_row": 345,
+    "material": "Nucleo de concreto confinado por tubo de FRP de vidro (CFFT - concrete-filled FRP tube), coluna composta",
+    "fck": 40,
+    "co2_kg_m3": 334.9,
+    "co2_original": "Total CFFT 645,85 kg CO2eq por coluna (ciclo de vida 100 anos, incl. tubo FRP); parcelas producao do betao: cimento 117,17 + brita 0,23 + areia 0,44 + agua 0,06 = 117,90 kg CO2eq",
+    "co2_original_local": "Tabela 3 p.6; traco C40 na Tabela 1",
+    "co2_conversao": "traco C40 por m3 (p.3) x factores da Tab.3: 350x0,951 + 614x0,00106 + 1194x0,00106 + 175x0,00091 = 334,9 [REVISTO 2026-09-27: mesmo metodo que reproduz exactamente a linha CFST (382,4); a Tab.3 e incoerente (122 kg x 0,951 = 116,02, impresso 117,17); antes 334,2]"
+   }
+  ]
+ },
+ {
+  "row_id": 3309,
+  "rotulo": "Dadd et al., 2025",
+  "titulo": "Shear behaviour and environmental impact of single and multi-generation recycled aggregate concrete beams",
+  "pdf": "DADD, 2025.pdf",
+  "fileId": "1ar-VWVtEGN8Saf6bVhDI2aHrCdbEsf0N",
+  "pares": [
+   {
+    "sheet_row": 346,
+    "material": "Concreto com agregado virgem (VAC) e agregado reciclado multi-geracional (RACI/RACII/RACIII) - vigas sem armadura transversal",
+    "fck": 47.61,
+    "co2_kg_m3": 359.1,
+    "co2_original": "nao publicado por m3; traco (Tabela 1, kg/m3) + factores (Tabela 5) + distancias (Tabela 6)",
+    "co2_original_local": "Tabelas 1, 5 e 6 (p.3 e p.9-10); verificacao: texto p.10 'CO2-eq for RACI, RACII & RACIII changing by 3.7%, -6.7% and -2.4% respectively, in comparison to VAC'",
+    "co2_conversao": "cimento 450.78 x 0,7634 + areia 587.26 x 0,0028 + grosso 1071.39 x 0.0039 + transporte (450.78x40 + 587.26x32 + 1071.39x32) km x 12,80e-5 = 359.1 kg/m3 (sem adjuvantes: dosagem nao impressa; agua sem factor) [REVISAO 2026-09-27, leitura integral; confianca alta (reconstrucao reproduz exactamente as variacoes +3,7/-6,7/-2,4% impressas no texto)]"
+   },
+   {
+    "sheet_row": 1993,
+    "material": "Betao RACI (1a geracao de agregado reciclado, 100% RCA) - vigas BA sem estribos (Univ. Adelaide)",
+    "fck": 55.5,
+    "co2_kg_m3": 372.5,
+    "co2_original": "nao publicado por m3; traco (Tabela 1, kg/m3) + factores (Tabela 5) + distancias (Tabela 6)",
+    "co2_original_local": "Tabelas 1, 5 e 6 (p.3 e p.9-10); verificacao: texto p.10 'CO2-eq for RACI, RACII & RACIII changing by 3.7%, -6.7% and -2.4% respectively, in comparison to VAC'",
+    "co2_conversao": "cimento 471.68 x 0,7634 + areia 593.47 x 0,0028 + grosso 941.55 x 0.0019 + transporte (471.68x40 + 593.47x32 + 941.55x34) km x 12,80e-5 = 372.5 kg/m3 (sem adjuvantes: dosagem nao impressa; agua sem factor) [REVISAO 2026-09-27, leitura integral; confianca alta (reconstrucao reproduz exactamente as variacoes +3,7/-6,7/-2,4% impressas no texto)]"
+   },
+   {
+    "sheet_row": 1994,
+    "material": "Betao RACII (2a geracao, 100% RCA) - vigas BA sem estribos (Univ. Adelaide)",
+    "fck": 47.91,
+    "co2_kg_m3": 335,
+    "co2_original": "nao publicado por m3; traco (Tabela 1, kg/m3) + factores (Tabela 5) + distancias (Tabela 6)",
+    "co2_original_local": "Tabelas 1, 5 e 6 (p.3 e p.9-10); verificacao: texto p.10 'CO2-eq for RACI, RACII & RACIII changing by 3.7%, -6.7% and -2.4% respectively, in comparison to VAC'",
+    "co2_conversao": "cimento 423.21 x 0,7634 + areia 595.64 x 0,0028 + grosso 900.18 x 0.0019 + transporte (423.21x40 + 595.64x32 + 900.18x34) km x 12,80e-5 = 335.0 kg/m3 (sem adjuvantes: dosagem nao impressa; agua sem factor) [REVISAO 2026-09-27, leitura integral; confianca alta (reconstrucao reproduz exactamente as variacoes +3,7/-6,7/-2,4% impressas no texto)]"
+   },
+   {
+    "sheet_row": 1995,
+    "material": "Betao RACIII (3a geracao, 100% RCA) - vigas BA sem estribos (Univ. Adelaide)",
+    "fck": 48.26,
+    "co2_kg_m3": 350.4,
+    "co2_original": "nao publicado por m3; traco (Tabela 1, kg/m3) + factores (Tabela 5) + distancias (Tabela 6)",
+    "co2_original_local": "Tabelas 1, 5 e 6 (p.3 e p.9-10); verificacao: texto p.10 'CO2-eq for RACI, RACII & RACIII changing by 3.7%, -6.7% and -2.4% respectively, in comparison to VAC'",
+    "co2_conversao": "cimento 443.65 x 0,7634 + areia 585.74 x 0,0028 + grosso 863.94 x 0.0019 + transporte (443.65x40 + 585.74x32 + 863.94x34) km x 12,80e-5 = 350.4 kg/m3 (sem adjuvantes: dosagem nao impressa; agua sem factor) [REVISAO 2026-09-27, leitura integral; confianca alta (reconstrucao reproduz exactamente as variacoes +3,7/-6,7/-2,4% impressas no texto)]"
+   }
+  ]
+ },
+ {
+  "row_id": 3321,
+  "rotulo": "Sabau et al., 2021",
+  "titulo": "Comparative carbon emission assessments of recycled and natural aggregate concrete: Environmental influence of cement content",
+  "pdf": "SABAU et al., 2021 - j.gsf.2021.101235.pdf",
+  "fileId": "1mQT4LVOzCvK6G-wC9L_8DQB_u2IJZygS",
+  "pares": [
+   {
+    "sheet_row": 958,
+    "material": "concreto NAC (C100-S0-RA0-H-F36, cimento apenas, agregado natural; Aiello & Leuzzi 2010)",
+    "fck": 36.6,
+    "co2_kg_m3": 323,
+    "co2_original": "323 kg CO2-eq/m3 (A1-A2, sem transporte)",
+    "co2_original_local": "Texto sec.3.1: 'C100-S0-RA0-H-F36 had a GWP of 323 kgCO2e for the case without transportation'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 959,
+    "material": "concreto com 25% SCM, agregado natural (C75-S25-R0-H-F36; Jau et al. 2004)",
+    "fck": 36.3,
+    "co2_kg_m3": 296,
+    "co2_original": "296 kg CO2-eq/m3 (A1-A2, sem transporte)",
+    "co2_original_local": "Texto sec.3.1: 'C75-S25-RA0-H-F36 had 296 kgCO2e without transportation'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 960,
+    "material": "concreto reciclado RAC 50% (C75-S25-R50-H-F36*, interpolado; Dimitriou et al. 2018)",
+    "fck": 36.5,
+    "co2_kg_m3": 306,
+    "co2_original": "306 kg CO2-eq/m3 (A1-A2, sem transporte)",
+    "co2_original_local": "Texto sec.3.1: 'C75-S25-R50-H-F36 had 306 kgCO2e without transportation'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3327,
+  "rotulo": "Yaseen et al., 2024",
+  "titulo": "Concrete incorporating supplementary cementitious materials: Temporal evolution of compressive strength and environmental life cycle assessment",
+  "pdf": "YASEEN et al., 2024 - j.heliyon.2024.e25056.pdf",
+  "fileId": "1Qga0DRiM2XuwoyKDLxMLsiCj65iFUQiN",
+  "pares": [
+   {
+    "sheet_row": 961,
+    "material": "concreto OPC controle (w/b=0.54)",
+    "fck": 29.3,
+    "co2_kg_m3": 466.77,
+    "co2_original": "466.77 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): Global Warming Potential - GWP100, coluna Control = 466.77 kg CO2-Eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 962,
+    "material": "concreto com 10% cinza volante (FA10)",
+    "fck": 27.9,
+    "co2_kg_m3": 423,
+    "co2_original": "423 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna FA10 = 423.0 kg CO2-Eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 963,
+    "material": "concreto com 20% cinza volante (FA20)",
+    "fck": 26.3,
+    "co2_kg_m3": 380.09,
+    "co2_original": "380.09 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna FA20 = 380.09 kg CO2-Eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 964,
+    "material": "concreto com 30% cinza volante (FA30)",
+    "fck": 25.1,
+    "co2_kg_m3": 336.33,
+    "co2_original": "336.33 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna FA30 = 336.33 kg CO2-Eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 965,
+    "material": "concreto com 5% silica fume (SF05)",
+    "fck": 26.9,
+    "co2_kg_m3": 445.32,
+    "co2_original": "445.32 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna SF05 = 445.32 kg CO2-Eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 966,
+    "material": "concreto com 10% silica fume (SF10)",
+    "fck": 28.2,
+    "co2_kg_m3": 423.86,
+    "co2_original": "423.86 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna SF10 = 423.86 kg CO2-Eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 967,
+    "material": "concreto com 15% silica fume (SF15)",
+    "fck": 24.4,
+    "co2_kg_m3": 401.55,
+    "co2_original": "401.55 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna SF15 = 401.55 kg CO2-Eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3331,
+  "rotulo": "Almulhim et al., 2024",
+  "titulo": "Influence of steel-to-concrete ratio on sustainable column design in Saudi Arabia",
+  "pdf": "ALMULHIM et al., 2024b - j.heliyon.2024.e40261.pdf",
+  "fileId": "1yhY5VD-2NN7--vkjPxIhZd7sGlWU2rRV",
+  "pares": [
+   {
+    "sheet_row": 968,
+    "material": "concreto armado (colunas de hotel - Arabia Saudita)",
+    "fck": 30,
+    "co2_kg_m3": 254.4,
+    "co2_original": "254.4 kg CO2e/m3 (fase A1-A3)",
+    "co2_original_local": "Tabela 5 (Bill of quantity and cost for different stages): 'A1-A3 Concrete (m3) ECC=254.4 EEC=1672'; texto: 'the ECC and EEC for stage A1-A3 for concrete are 254.4 kgCO2e/m3 and 1672 MJ/m3'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]

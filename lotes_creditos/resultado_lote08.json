@@ -1,0 +1,554 @@
+[
+ {
+  "row_id": 2895,
+  "pares": [
+   {
+    "sheet_row": 786,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 367,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6 (p.15) total GWP 3.67E+02; Tabela 7/8 V0=3.67E+02",
+    "derivado": "nao",
+    "nota": "Referência sem cinza: nenhum crédito aplicado."
+   },
+   {
+    "sheet_row": 787,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 360,
+    "citacao": "Tabela 7 (p.16, cinza não perigosa) V10 GWP 3.60E+02; cenário perigoso Tabela 8 (p.17) 2.73E+02",
+    "derivado": "nao",
+    "nota": "Cut-off; benefício da cinza de fundo modelado como impacto evitado da deposição em aterro (cenário não perigoso: 'Average incineration residue | residual material landfill', incl. solidificação com 0,4 kg cimento/kg cinza) — p.14-15 (§3.3.1). O CO2 sem o crédito não é impresso (Tabela S3 do material suplementar só tem inventário da vitrificação, fora do PDF). Gravado = cenário não perigoso (Tab.7), já com o aterro evitado; o cenário perigoso (Tab.8: 273) tem crédito maior (incineração de resíduo perigoso evitada)."
+   },
+   {
+    "sheet_row": 788,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 357,
+    "citacao": "Tabela 7 V15 3.57E+02; Tabela 8 V15 2.26E+02",
+    "derivado": "nao",
+    "nota": "Cut-off; benefício da cinza de fundo modelado como impacto evitado da deposição em aterro (cenário não perigoso: 'Average incineration residue | residual material landfill', incl. solidificação com 0,4 kg cimento/kg cinza) — p.14-15 (§3.3.1). O CO2 sem o crédito não é impresso (Tabela S3 do material suplementar só tem inventário da vitrificação, fora do PDF). Cenário perigoso: 226."
+   },
+   {
+    "sheet_row": 789,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 353,
+    "citacao": "Tabela 7 V20 3.53E+02; Tabela 8 V20 1.80E+02",
+    "derivado": "nao",
+    "nota": "Cut-off; benefício da cinza de fundo modelado como impacto evitado da deposição em aterro (cenário não perigoso: 'Average incineration residue | residual material landfill', incl. solidificação com 0,4 kg cimento/kg cinza) — p.14-15 (§3.3.1). O CO2 sem o crédito não é impresso (Tabela S3 do material suplementar só tem inventário da vitrificação, fora do PDF). Cenário perigoso: 180."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Releitura integral do texto (95,5 mil caracteres) incl. §3.3 completa e Tabelas 6-8. co2_original_local diz 'Fig.10' (é a figura do fck); o CO2 vem das Tabelas 7/8."
+ },
+ {
+  "row_id": 2899,
+  "pares": [
+   {
+    "sheet_row": 242,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 700,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6 (p.21) CFP (kg) per m3 = 700",
+    "derivado": "nao",
+    "nota": "CFP por m3 reaproveitado de trabalhos anteriores dos autores (refs 33,68); o artigo não descreve fronteira nem qualquer crédito/reciclagem/carbonatação; não há ACV própria (a secção 7 recomenda fazer ACV no futuro)."
+   },
+   {
+    "sheet_row": 243,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 743,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6 (p.21) CFP (kg) per m3 = 743",
+    "derivado": "nao",
+    "nota": "CFP por m3 reaproveitado de trabalhos anteriores dos autores (refs 33,68); o artigo não descreve fronteira nem qualquer crédito/reciclagem/carbonatação; não há ACV própria (a secção 7 recomenda fazer ACV no futuro)."
+   },
+   {
+    "sheet_row": 244,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 610,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6 (p.21) CFP (kg) per m3 = 610",
+    "derivado": "nao",
+    "nota": "CFP por m3 reaproveitado de trabalhos anteriores dos autores (refs 33,68); o artigo não descreve fronteira nem qualquer crédito/reciclagem/carbonatação; não há ACV própria (a secção 7 recomenda fazer ACV no futuro)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (89 mil caracteres) varrido; únicas ocorrências de CO2 = Tabela 6 e intro. Fronteira dos valores das refs 33/68 não verificável neste PDF."
+ },
+ {
+  "row_id": 2902,
+  "pares": [
+   {
+    "sheet_row": 790,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 983,
+    "co2_com_desconto": null,
+    "citacao": "p.12 (p.1438 impressa): 78-MPa 3DCP emite 983 kg CO2eq/m3 (materiais)",
+    "derivado": "nao",
+    "nota": "O ACV (cradle-to-grave da fundação) usa um sistema 'credit-buyback' de reciclagem no fim de vida (aço como sucata 90%, betão britado a 70% como agregado) — p.8-9 §3; os agregados reciclados NÃO são creditados nos resultados da §4, só no estudo paramétrico §5 (Fig.10). Esse crédito existe só ao nível da fundação inteira (betão+armadura), não por m3 de mistura. Os valores por m3 gravados são da fase de materiais (cradle-to-gate), sem crédito."
+   },
+   {
+    "sheet_row": 791,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 405,
+    "co2_com_desconto": null,
+    "citacao": "p.12: 35-MPa 3D printed 405 kg CO2eq/m3",
+    "derivado": "nao",
+    "nota": "O ACV (cradle-to-grave da fundação) usa um sistema 'credit-buyback' de reciclagem no fim de vida (aço como sucata 90%, betão britado a 70% como agregado) — p.8-9 §3; os agregados reciclados NÃO são creditados nos resultados da §4, só no estudo paramétrico §5 (Fig.10). Esse crédito existe só ao nível da fundação inteira (betão+armadura), não por m3 de mistura. Os valores por m3 gravados são da fase de materiais (cradle-to-gate), sem crédito."
+   },
+   {
+    "sheet_row": 1862,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 364.1,
+    "co2_com_desconto": null,
+    "citacao": "983/2,7 (razão impressa p.1438; Fig.8 ~360-370); valor EPD CalPortland cradle-to-gate A1-A3",
+    "derivado": "sim",
+    "nota": "O ACV (cradle-to-grave da fundação) usa um sistema 'credit-buyback' de reciclagem no fim de vida (aço como sucata 90%, betão britado a 70% como agregado) — p.8-9 §3; os agregados reciclados NÃO são creditados nos resultados da §4, só no estudo paramétrico §5 (Fig.10). Esse crédito existe só ao nível da fundação inteira (betão+armadura), não por m3 de mistura. Os valores por m3 gravados são da fase de materiais (cradle-to-gate), sem crédito. EPD NRMCA 20035 = A1-A3, sem créditos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (84 mil caracteres) lido nas secções de ACV (§3-§6) e varrido por palavras-chave; nenhum valor de fundação com crédito convertível a kg/m3 de mistura."
+ },
+ {
+  "row_id": 2937,
+  "pares": [
+   {
+    "sheet_row": 795,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 366.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (p.14) HBERT Overall EC sum ÷ volume; módulo D na Tabela 1 One-Click (p.12) e Fig.6 (-18,3%/-23,5%/-27,5% para OPC/FA/GGBFS)",
+    "derivado": "nao",
+    "nota": "Gravado = HBERT Tabela 2 'Overall EC sum' (material+transporte+construção+fim de vida, A1-C4) ÷ 4.177,26 m3, sem módulo D. O artigo declara, na outra ferramenta (One-Click LCA, Tabela 1 p.12), módulo D 'External impacts (not included in totals)' = -2,63E+05 kg CO2e igual para as três alternativas (crédito provavelmente da armadura/reciclagem; o artigo não diz de quê). Não somado ao HBERT por ser outra ferramenta/base de dados. Para referência, One-Click: total sem D / 4177,26 = 344.7; com D = 281.8 kg/m3. (OPC)."
+   },
+   {
+    "sheet_row": 796,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 304.4,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (p.14) HBERT Overall EC sum ÷ volume; módulo D na Tabela 1 One-Click (p.12) e Fig.6 (-18,3%/-23,5%/-27,5% para OPC/FA/GGBFS)",
+    "derivado": "nao",
+    "nota": "Gravado = HBERT Tabela 2 'Overall EC sum' (material+transporte+construção+fim de vida, A1-C4) ÷ 4.177,26 m3, sem módulo D. O artigo declara, na outra ferramenta (One-Click LCA, Tabela 1 p.12), módulo D 'External impacts (not included in totals)' = -2,63E+05 kg CO2e igual para as três alternativas (crédito provavelmente da armadura/reciclagem; o artigo não diz de quê). Não somado ao HBERT por ser outra ferramenta/base de dados. Para referência, One-Click: total sem D / 4177,26 = 268.1; com D = 205.2 kg/m3. (FA)."
+   },
+   {
+    "sheet_row": 797,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 230.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (p.14) HBERT Overall EC sum ÷ volume; módulo D na Tabela 1 One-Click (p.12) e Fig.6 (-18,3%/-23,5%/-27,5% para OPC/FA/GGBFS)",
+    "derivado": "nao",
+    "nota": "Gravado = HBERT Tabela 2 'Overall EC sum' (material+transporte+construção+fim de vida, A1-C4) ÷ 4.177,26 m3, sem módulo D. O artigo declara, na outra ferramenta (One-Click LCA, Tabela 1 p.12), módulo D 'External impacts (not included in totals)' = -2,63E+05 kg CO2e igual para as três alternativas (crédito provavelmente da armadura/reciclagem; o artigo não diz de quê). Não somado ao HBERT por ser outra ferramenta/base de dados. Para referência, One-Click: total sem D / 4177,26 = 229.6; com D = 166.6 kg/m3. (GGBFS)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (63 mil caracteres); Tabelas 1 e 2 e Fig.6 lidas. co2_com_desconto deixado null porque o módulo D só existe na base One-Click (totais diferentes do HBERT); valores One-Click com D estão na nota se a Kiê os quiser."
+ },
+ {
+  "row_id": 2946,
+  "pares": [
+   {
+    "sheet_row": 246,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 246,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6 (p.11): betão 2.46E2 + aterro da cinza 4.27E-1 = total linear 2.46E2",
+    "derivado": "nao",
+    "nota": "Modelo linear soma (não subtrai) o impacto do aterro da cinza de cal (0,43 kg). Cut-off; fim de vida excluído."
+   },
+   {
+    "sheet_row": 247,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 244,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.12): betão com cinza 2.44E2 (+ transporte 23 km 0,17)",
+    "derivado": "nao",
+    "nota": "A cinza entra sem carga (cut-off); o aterro evitado aparece só como diferença face ao modelo linear, nunca como crédito subtraído."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (54 mil caracteres) lido."
+ },
+ {
+  "row_id": 2950,
+  "pares": [
+   {
+    "sheet_row": 798,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 484.6,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 (p.9), 100RA Total EI 484.6",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (p.4-5), factores de Kurda et al. 2018; RCA com factor próprio 0,005 kg/kg (cut-off), sem crédito de aterro evitado nem carbonatação."
+   },
+   {
+    "sheet_row": 799,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 484.6,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5, 0.1NWF/100RA Total EI 484.6",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (p.4-5), factores de Kurda et al. 2018; RCA com factor próprio 0,005 kg/kg (cut-off), sem crédito de aterro evitado nem carbonatação."
+   },
+   {
+    "sheet_row": 800,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 565.0,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5, 0RA Total EI 565.0",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (p.4-5), factores de Kurda et al. 2018; RCA com factor próprio 0,005 kg/kg (cut-off), sem crédito de aterro evitado nem carbonatação."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (~45 mil caracteres) lido integralmente."
+ },
+ {
+  "row_id": 2951,
+  "pares": [
+   {
+    "sheet_row": 801,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 628.5,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 (p.15, 62276 impressa) NWF0 (CM) Total 628.5",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate B1-B3 (Eq.2), sem créditos. Nota lateral: as parcelas impressas da linha (525,24+0+36,96+61,60+0+0,07+0) somam 623,9, não 628,5 — diferença de 4,6 provavelmente a produção do betão não listada como coluna; o total impresso é 628,5."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (81 mil caracteres) varrido; secção ACV lida."
+ },
+ {
+  "row_id": 2952,
+  "pares": [
+   {
+    "sheet_row": 802,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 358.4,
+    "co2_com_desconto": null,
+    "citacao": "Recalculado: Tabela 4 × Tabela 6 (Eq.5)",
+    "derivado": "sim",
+    "nota": "CO2 = soma traço × factores (Eq.5, Tabela 6); MWTS com 0,091 (calcinação+moagem), FA 0,008, BFS 0,02 — sem créditos; carbonatação só citada como trabalho futuro."
+   },
+   {
+    "sheet_row": 803,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 361.8,
+    "co2_com_desconto": null,
+    "citacao": "Recalculado: Tabela 4 × Tabela 6 (Eq.5)",
+    "derivado": "sim",
+    "nota": "CO2 = soma traço × factores (Eq.5, Tabela 6); MWTS com 0,091 (calcinação+moagem), FA 0,008, BFS 0,02 — sem créditos; carbonatação só citada como trabalho futuro. O valor também aparece em barras na Fig.20b (unit CO2 footprint), não só no radar Fig.22."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (125 mil caracteres) varrido por palavras-chave; secção de avaliação ambiental lida integralmente."
+ },
+ {
+  "row_id": 2966,
+  "pares": [
+   {
+    "sheet_row": 804,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 345,
+    "citacao": "Fig.5 (p.10, 1799 impressa), barra G25 ~345; legenda inclui 'Steel net recycling' (barra positiva ~45-50 kg); §3.1.3 p.6: aço da demolição reciclado 'substitute primary steel somewhere else'; §3.4: 'steel ... balanced by its recycling'; Tabela 5: 'Net of recycling, steel accounts for around 15%'",
+    "derivado": "sim",
+    "nota": "UF = 1 m3 de betão ARMADO (120 kg aço/m3) cradle-to-grave; o aço entra líquido do crédito de reciclagem (carga evitada de aço primário). O aço bruto não é impresso ('Steel accounts for about 13% of the total, not considering the recycling process' é ambíguo), logo co2_bruto null. Linha legada agrega 8 misturas Portland e geopolímero mas grava 345 = G25 (geopolímero); família deveria ser concreto_armado. Recomenda-se desdobrar em 8 pares por leitura da Fig.5."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (56 mil caracteres) lido; Fig.5 renderizada a 170 dpi e inspeccionada."
+ },
+ {
+  "row_id": 2999,
+  "pares": [
+   {
+    "sheet_row": 249,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 302.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV. Linha 249 é legada/genérica (várias composições) — possivelmente duplica a CM30 (1909: 301,2) ou CS20M10 (~297-298)."
+   },
+   {
+    "sheet_row": 1903,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 347.2,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1904,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 348.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1905,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 256.9,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1906,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 257.9,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1907,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 256.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1908,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 258.2,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1909,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 301.2,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1910,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 280.5,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1911,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 281.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1912,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 249.1,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1913,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 249.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1914,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 273.4,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1915,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 274.1,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1916,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 235.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1917,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 236.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1918,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 296.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1919,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 297.6,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1920,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 270.9,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   },
+   {
+    "sheet_row": 1921,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 271.4,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 (traço) × Tabela 5 (p.11, A1+A2); confere com Fig.7",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate A1-A2 (A3 omitido), EN 15804+A2, factores Tabela 5; nenhum crédito. 'Carbonation' (40x) refere-se só ao ensaio de carbonatação acelerada (durabilidade), não a absorção de CO2 na ACV."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo (65 mil caracteres) varrido; §5 ACV lida integralmente."
+ }
+]

@@ -1,0 +1,487 @@
+[
+ {
+  "row_id": 4418,
+  "pares": [
+   {
+    "sheet_row": 570,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 295,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.8: factor da norma chinesa 'C30 Reinforced Concrete' 295 kgCO2eq/m3. Fronteira A1-A3+B4+B6 (Sec.3.1.1); C1-C4 e modulo D excluidos explicitamente.",
+    "derivado": "nao",
+    "nota": "Sem credito: o artigo cita o modulo D so como definicao e exclui-o. Valor e factor generico de norma (betao armado C30, provavelmente com aco) - familia concreto_armado a confirmar."
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-20; referencias so percorridas)",
+  "notas": "ACV de edificio; recycled concrete/steel so como cenario de substituicao (S2/S3) com factores mais baixos, nao credito."
+ },
+ {
+  "row_id": 4431,
+  "pares": [
+   {
+    "sheet_row": 1346,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 705,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.8: GWP C50 = 705 kg/m3 (coeficiente de producao, sem carbonatacao). Carbonatacao: Sec.3.3.4 eq.(12)-(13) e Conclusoes p.19-20: 'concrete carbonation absorbed 1712.9 tons of CO2' na fase de operacao, so para a ponte inteira.",
+    "derivado": "nao",
+    "nota": "Credito de carbonatacao so declarado ao nivel da ponte (1712,9 t para 9050 m3 C50 + 1761 m3 C40 + 4714 m3 C30, Table 6); nao ha valor por classe nem por m3, pelo que co2_com_desconto = null. Media grosseira (nossa conta, nao por classe): 1712,9 t / 15525 m3 = 110 kg/m3. A eq.(14) soma Km aos outros termos (sinal ambiguo). Valores de Table 1 (705/608/565) muito altos para betao simples - talvez incluam outra coisa; nao alterado."
+   },
+   {
+    "sheet_row": 1347,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 608,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.8: GWP C40 = 608 kg/m3 (coeficiente de producao, sem carbonatacao). Carbonatacao: Sec.3.3.4 eq.(12)-(13) e Conclusoes p.19-20: 'concrete carbonation absorbed 1712.9 tons of CO2' na fase de operacao, so para a ponte inteira.",
+    "derivado": "nao",
+    "nota": "Credito de carbonatacao so declarado ao nivel da ponte (1712,9 t para 9050 m3 C50 + 1761 m3 C40 + 4714 m3 C30, Table 6); nao ha valor por classe nem por m3, pelo que co2_com_desconto = null. Media grosseira (nossa conta, nao por classe): 1712,9 t / 15525 m3 = 110 kg/m3. A eq.(14) soma Km aos outros termos (sinal ambiguo). Valores de Table 1 (705/608/565) muito altos para betao simples - talvez incluam outra coisa; nao alterado."
+   },
+   {
+    "sheet_row": 1348,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 565,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.8: GWP C30 = 565 kg/m3 (coeficiente de producao, sem carbonatacao). Carbonatacao: Sec.3.3.4 eq.(12)-(13) e Conclusoes p.19-20: 'concrete carbonation absorbed 1712.9 tons of CO2' na fase de operacao, so para a ponte inteira.",
+    "derivado": "nao",
+    "nota": "Credito de carbonatacao so declarado ao nivel da ponte (1712,9 t para 9050 m3 C50 + 1761 m3 C40 + 4714 m3 C30, Table 6); nao ha valor por classe nem por m3, pelo que co2_com_desconto = null. Media grosseira (nossa conta, nao por classe): 1712,9 t / 15525 m3 = 110 kg/m3. A eq.(14) soma Km aos outros termos (sinal ambiguo). Valores de Table 1 (705/608/565) muito altos para betao simples - talvez incluam outra coisa; nao alterado."
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-20; referencias so percorridas)",
+  "notas": "Desconto existe mas so agregado a ponte."
+ },
+ {
+  "row_id": 4437,
+  "pares": [
+   {
+    "sheet_row": 1349,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 306.192,
+    "co2_com_desconto": null,
+    "citacao": "Table 6 p.11 e Sec.4.3.3(4) p.10: CEF C20 Concrete = 306.192 kg CO2/m3 (producao de materia-prima + transporte + processamento).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1350,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 336.68,
+    "co2_com_desconto": null,
+    "citacao": "Table 6 p.11 e Sec.4.3.3(4) p.10: CEF C25 Concrete = 336.68 kg CO2/m3 (producao de materia-prima + transporte + processamento).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1351,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 371.654,
+    "co2_com_desconto": null,
+    "citacao": "Table 6 p.11 e Sec.4.3.3(4) p.10: CEF C30 Concrete = 371.654 kg CO2/m3 (producao de materia-prima + transporte + processamento).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1352,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 389.568,
+    "co2_com_desconto": null,
+    "citacao": "Table 6 p.11 e Sec.4.3.3(4) p.10: CEF C35 Concrete = 389.568 kg CO2/m3 (producao de materia-prima + transporte + processamento).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1353,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 419.599,
+    "co2_com_desconto": null,
+    "citacao": "Table 6 p.11 e Sec.4.3.3(4) p.10: CEF C40 Concrete = 419.599 kg CO2/m3 (producao de materia-prima + transporte + processamento).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1354,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 502.819,
+    "co2_com_desconto": null,
+    "citacao": "Table 6 p.11 e Sec.4.3.3(4) p.10: CEF C50 Concrete = 502.819 kg CO2/m3 (producao de materia-prima + transporte + processamento).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1355,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 549.342,
+    "co2_com_desconto": null,
+    "citacao": "Table 6 p.11 e Sec.4.3.3(4) p.10: CEF C60 Concrete = 549.342 kg CO2/m3 (producao de materia-prima + transporte + processamento).",
+    "derivado": "nao",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-18; referencias so percorridas)",
+  "notas": "Fronteira so producao/transporte/construcao; reciclagem so mencionada como investigacao futura."
+ },
+ {
+  "row_id": 4439,
+  "pares": [
+   {
+    "sheet_row": 1356,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 157.65,
+    "co2_com_desconto": null,
+    "citacao": "Table 2 p.7: Concrete 30 MPa, Emission A = 157.65 kgCO2/m3 (cradle-to-gate de Santoro & Kripka, inclui transporte ao estaleiro).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1357,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 348.76,
+    "co2_com_desconto": null,
+    "citacao": "Table 2 p.7: Concrete 30 MPa, Emission B = 348.76 kgCO2/m3 (cradle-to-gate de Santoro & Kripka, inclui transporte ao estaleiro).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1358,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 194.7,
+    "co2_com_desconto": null,
+    "citacao": "Table 2 p.7: Concrete 45 MPa, Emission A = 194.7 kgCO2/m3 (cradle-to-gate de Santoro & Kripka, inclui transporte ao estaleiro).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1359,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 381.72,
+    "co2_com_desconto": null,
+    "citacao": "Table 2 p.7: Concrete 45 MPa, Emission B = 381.72 kgCO2/m3 (cradle-to-gate de Santoro & Kripka, inclui transporte ao estaleiro).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1360,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 225.78,
+    "co2_com_desconto": null,
+    "citacao": "Table 2 p.7: Concrete 50 MPa, Emission A = 225.78 kgCO2/m3 (cradle-to-gate de Santoro & Kripka, inclui transporte ao estaleiro).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1361,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 508.63,
+    "co2_com_desconto": null,
+    "citacao": "Table 2 p.7: Concrete 50 MPa, Emission B = 508.63 kgCO2/m3 (cradle-to-gate de Santoro & Kripka, inclui transporte ao estaleiro).",
+    "derivado": "nao",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-15; referencias so percorridas)",
+  "notas": "Nenhum credito; valores citados de estudo anterior dos autores."
+ },
+ {
+  "row_id": 4441,
+  "pares": [
+   {
+    "sheet_row": 1362,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 659,
+    "co2_com_desconto": 578.8,
+    "citacao": "Bruto: Sec.3.1 p.8 e Fig.2 (barra azul 9,54 mm, w/c 0,25, porosidade 15%) = 659 kg CO2e/m3 (A1-A3, Athena IE4B). Desconto: Table 3 p.13, 12,17% recuperavel por carbonatacao (B1) para essa mistura -> 0,1217 x 659 = 80,2 kg; liquido 659 - 80,2 = 578,8. Confirmado por leitura da Fig.6 p.12 (net ~579 kg CO2e/m3).",
+    "derivado": "sim",
+    "nota": "Sequestro teorico maximo (100% hidratacao e 100% carbonatacao do CH), o proprio artigo diz que e o limite superior; real 0,2-0,7 do valor. Coerente com eq.(8): 0,16 x 0,85 x 572 ~ 78-80 kg. fck 22,2 MPa vem da correlacao porosidade-resistencia (eq.9), nao de ensaio."
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-14) + Figs.2 e 6 renderizadas",
+  "notas": "Artigo dedicado ao credito de carbonatacao."
+ },
+ {
+  "row_id": 4450,
+  "pares": [
+   {
+    "sheet_row": 1363,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 172.37,
+    "co2_com_desconto": null,
+    "citacao": "Table 3 p.9 (geopolimero de escoria): Global Warming 172.37 kg CO2 eq por 1 m3, CML, fronteira producao + extraccao (Figs.1-2).",
+    "derivado": "nao",
+    "nota": "Escoria entra com carga propria (54,37 kg na decomposicao da Table 3), sem credito de deposicao evitada."
+   },
+   {
+    "sheet_row": 1364,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 742.88,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.9 (betao OPC): Global Warming 742.88 kg CO2 eq por 1 m3, CML, fronteira producao + extraccao (Figs.1-2).",
+    "derivado": "nao",
+    "nota": "Escoria entra com carga propria (54,37 kg na decomposicao da Table 3), sem credito de deposicao evitada."
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-15; referencias so percorridas)",
+  "notas": ""
+ },
+ {
+  "row_id": 4452,
+  "pares": [
+   {
+    "sheet_row": 1365,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 150,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 p.16 (CO2 emissions due to production, t/m3), leitura de grafico ja gravada = 150 kg/m3; Table 3 p.12 factores; fronteira cradle-to-gate (Sec.3).",
+    "derivado": "nao",
+    "nota": "RCA entra com factor positivo (1,69e-3 t/t), SCM com factores de transporte/processamento; nenhum credito de carga evitada. Valor exclui transporte e mistura (0,123 t/m3)."
+   },
+   {
+    "sheet_row": 2066,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 270,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 p.16 (CO2 emissions due to production, t/m3), leitura de grafico ja gravada = 270 kg/m3; Table 3 p.12 factores; fronteira cradle-to-gate (Sec.3).",
+    "derivado": "nao",
+    "nota": "RCA entra com factor positivo (1,69e-3 t/t), SCM com factores de transporte/processamento; nenhum credito de carga evitada. Valor exclui transporte e mistura (0,123 t/m3)."
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-20; referencias so percorridas); figura nao renderizada por mim (o valor gravado e leitura grafica anterior)",
+  "notas": ""
+ },
+ {
+  "row_id": 4455,
+  "pares": [
+   {
+    "sheet_row": 1366,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 508,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3 p.13 e Fig.9: PC mortar = 508 kg CO2 eq por m3 (so A1, Ecoinvent cut-off).",
+    "derivado": "nao",
+    "nota": "Gesso reciclado e fosfogesso entram sem carga de extraccao/producao (regra cut-off), o que nao e um credito subtraido."
+   },
+   {
+    "sheet_row": 1367,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 380,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3 p.13 e Fig.9: GCP1 = 380 kg CO2 eq por m3 (so A1, Ecoinvent cut-off).",
+    "derivado": "nao",
+    "nota": "Gesso reciclado e fosfogesso entram sem carga de extraccao/producao (regra cut-off), o que nao e um credito subtraido."
+   },
+   {
+    "sheet_row": 1368,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 333,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3 p.13 e Fig.9: GCP2 = 333 kg CO2 eq por m3 (so A1, Ecoinvent cut-off).",
+    "derivado": "nao",
+    "nota": "Gesso reciclado e fosfogesso entram sem carga de extraccao/producao (regra cut-off), o que nao e um credito subtraido."
+   },
+   {
+    "sheet_row": 1369,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 318,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3 p.13 e Fig.9: GCP4 = 318 kg CO2 eq por m3 (so A1, Ecoinvent cut-off).",
+    "derivado": "nao",
+    "nota": "Gesso reciclado e fosfogesso entram sem carga de extraccao/producao (regra cut-off), o que nao e um credito subtraido."
+   },
+   {
+    "sheet_row": 1370,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 296,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3 p.13 e Fig.9: GCP5 = 296 kg CO2 eq por m3 (so A1, Ecoinvent cut-off).",
+    "derivado": "nao",
+    "nota": "Gesso reciclado e fosfogesso entram sem carga de extraccao/producao (regra cut-off), o que nao e um credito subtraido."
+   },
+   {
+    "sheet_row": 2091,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 293,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3 p.13 e Fig.9: GCP3 = 293 kg CO2 eq por m3 (so A1, Ecoinvent cut-off).",
+    "derivado": "nao",
+    "nota": "Gesso reciclado e fosfogesso entram sem carga de extraccao/producao (regra cut-off), o que nao e um credito subtraido."
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-16; referencias so percorridas)",
+  "notas": "Fronteira so A1 (o proprio artigo o diz, p.13)."
+ },
+ {
+  "row_id": 4458,
+  "pares": [
+   {
+    "sheet_row": 1371,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 343.98,
+    "co2_com_desconto": null,
+    "citacao": "Fig.10f p.15, rotulo (343.98, 993.61, 83.77). Os paineis 10a-e mostram que o 1.o numero e CO2-eq (eixos 207-365 kg/m3) e o 2.o e custo (eixos 850-1010 AUD/m3); em 10f os rotulos dos eixos estao trocados. Factores Table 2 p.8, fronteira materias-primas + producao + transporte.",
+    "derivado": "nao",
+    "nota": "ERRO GRAVE: o co2_kg_m3 gravado (993.61) e o CUSTO em AUD/m3, nao CO2. CO2 correcto = 343.98 kg CO2-eq/m3. Verificacao: OPC <= 445 kg x 0,886 ~ 394 kg CO2, nunca ~990; e custo de areia ~1450 x 0,5 = 725 AUD bate com ~900-1000 AUD."
+   },
+   {
+    "sheet_row": 1372,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 317.1,
+    "co2_com_desconto": null,
+    "citacao": "Fig.10f p.15, rotulo (317.1, 960.31, 73.64). Os paineis 10a-e mostram que o 1.o numero e CO2-eq (eixos 207-365 kg/m3) e o 2.o e custo (eixos 850-1010 AUD/m3); em 10f os rotulos dos eixos estao trocados. Factores Table 2 p.8, fronteira materias-primas + producao + transporte.",
+    "derivado": "nao",
+    "nota": "ERRO GRAVE: o co2_kg_m3 gravado (960.31) e o CUSTO em AUD/m3, nao CO2. CO2 correcto = 317.1 kg CO2-eq/m3. Verificacao: OPC <= 445 kg x 0,886 ~ 394 kg CO2, nunca ~990; e custo de areia ~1450 x 0,5 = 725 AUD bate com ~900-1000 AUD."
+   },
+   {
+    "sheet_row": 1373,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 295.4,
+    "co2_com_desconto": null,
+    "citacao": "Fig.10f p.15, rotulo (295.4, 920.78, 64.34). Os paineis 10a-e mostram que o 1.o numero e CO2-eq (eixos 207-365 kg/m3) e o 2.o e custo (eixos 850-1010 AUD/m3); em 10f os rotulos dos eixos estao trocados. Factores Table 2 p.8, fronteira materias-primas + producao + transporte.",
+    "derivado": "nao",
+    "nota": "ERRO GRAVE: o co2_kg_m3 gravado (920.78) e o CUSTO em AUD/m3, nao CO2. CO2 correcto = 295.4 kg CO2-eq/m3. Verificacao: OPC <= 445 kg x 0,886 ~ 394 kg CO2, nunca ~990; e custo de areia ~1450 x 0,5 = 725 AUD bate com ~900-1000 AUD."
+   },
+   {
+    "sheet_row": 1374,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 250.42,
+    "co2_com_desconto": null,
+    "citacao": "Fig.10f p.15, rotulo (250.42, 890.24, 54.83). Os paineis 10a-e mostram que o 1.o numero e CO2-eq (eixos 207-365 kg/m3) e o 2.o e custo (eixos 850-1010 AUD/m3); em 10f os rotulos dos eixos estao trocados. Factores Table 2 p.8, fronteira materias-primas + producao + transporte.",
+    "derivado": "nao",
+    "nota": "ERRO GRAVE: o co2_kg_m3 gravado (890.24) e o CUSTO em AUD/m3, nao CO2. CO2 correcto = 250.42 kg CO2-eq/m3. Verificacao: OPC <= 445 kg x 0,886 ~ 394 kg CO2, nunca ~990; e custo de areia ~1450 x 0,5 = 725 AUD bate com ~900-1000 AUD."
+   },
+   {
+    "sheet_row": 1375,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 215.16,
+    "co2_com_desconto": null,
+    "citacao": "Fig.10f p.15, rotulo (215.16, 871.31, 45). Os paineis 10a-e mostram que o 1.o numero e CO2-eq (eixos 207-365 kg/m3) e o 2.o e custo (eixos 850-1010 AUD/m3); em 10f os rotulos dos eixos estao trocados. Factores Table 2 p.8, fronteira materias-primas + producao + transporte.",
+    "derivado": "nao",
+    "nota": "ERRO GRAVE: o co2_kg_m3 gravado (871.31) e o CUSTO em AUD/m3, nao CO2. CO2 correcto = 215.16 kg CO2-eq/m3. Verificacao: OPC <= 445 kg x 0,886 ~ 394 kg CO2, nunca ~990; e custo de areia ~1450 x 0,5 = 725 AUD bate com ~900-1000 AUD."
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-17; referencias so percorridas) + p.15 renderizada (Fig.10)",
+  "notas": "Erro grave nas 5 linhas: gravado = custo."
+ },
+ {
+  "row_id": 4463,
+  "pares": [
+   {
+    "sheet_row": 1377,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 940,
+    "co2_com_desconto": null,
+    "citacao": "Fig.5a p.12 (cenario de sensibilidade: cimento CEM III/A e, no UHPC, fibras de aco de forno electrico) = ~940 kg CO2-eq/m3, A1-C3. Caso base Fig.2a p.9 (A1-C3) ~1619 kg/m3 por leitura de pixel.",
+    "derivado": "nao",
+    "nota": "Sem creditos (A1-C3, sem modulo D; cinza volante e silica de fumo so com transporte por alocacao EN 15804). ATENCAO: o gravado (940) e do cenario de sensibilidade com CEM III/A, mas a descricao do material diz CEM I 52.5 / CEM II/A (cenario base, ~1619 kg/m3 na Fig.2a, leitura de pixel nossa). Rever qual cenario se quer."
+   },
+   {
+    "sheet_row": 1378,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 990,
+    "co2_com_desconto": null,
+    "citacao": "Fig.5a p.12 (cenario de sensibilidade: cimento CEM III/A e, no UHPC, fibras de aco de forno electrico) = ~990 kg CO2-eq/m3, A1-C3. Caso base Fig.2a p.9 (A1-C3) ~1709 kg/m3 por leitura de pixel.",
+    "derivado": "nao",
+    "nota": "Sem creditos (A1-C3, sem modulo D; cinza volante e silica de fumo so com transporte por alocacao EN 15804). ATENCAO: o gravado (990) e do cenario de sensibilidade com CEM III/A, mas a descricao do material diz CEM I 52.5 / CEM II/A (cenario base, ~1709 kg/m3 na Fig.2a, leitura de pixel nossa). Rever qual cenario se quer."
+   },
+   {
+    "sheet_row": 1379,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 240,
+    "co2_com_desconto": null,
+    "citacao": "Fig.5a p.12 (cenario de sensibilidade: cimento CEM III/A e, no UHPC, fibras de aco de forno electrico) = ~240 kg CO2-eq/m3, A1-C3. Caso base Fig.2a p.9 (A1-C3) ~353 kg/m3 por leitura de pixel.",
+    "derivado": "nao",
+    "nota": "Sem creditos (A1-C3, sem modulo D; cinza volante e silica de fumo so com transporte por alocacao EN 15804). ATENCAO: o gravado (240) e do cenario de sensibilidade com CEM III/A, mas a descricao do material diz CEM I 52.5 / CEM II/A (cenario base, ~353 kg/m3 na Fig.2a, leitura de pixel nossa). Rever qual cenario se quer."
+   },
+   {
+    "sheet_row": 1380,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 290,
+    "co2_com_desconto": null,
+    "citacao": "Fig.5a p.12 (cenario de sensibilidade: cimento CEM III/A e, no UHPC, fibras de aco de forno electrico) = ~290 kg CO2-eq/m3, A1-C3. Caso base Fig.2a p.9 (A1-C3) ~424 kg/m3 por leitura de pixel.",
+    "derivado": "nao",
+    "nota": "Sem creditos (A1-C3, sem modulo D; cinza volante e silica de fumo so com transporte por alocacao EN 15804). ATENCAO: o gravado (290) e do cenario de sensibilidade com CEM III/A, mas a descricao do material diz CEM I 52.5 / CEM II/A (cenario base, ~424 kg/m3 na Fig.2a, leitura de pixel nossa). Rever qual cenario se quer."
+   }
+  ],
+  "texto_completo_lido": "sim, texto integral linha a linha (pp.1-28 com apendices; referencias so percorridas) + pp.9 e 12 renderizadas",
+  "notas": "Incoerencia cenario/material nas 4 linhas."
+ }
+]

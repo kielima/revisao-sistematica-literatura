@@ -1,0 +1,263 @@
+[
+ {
+  "row_id": 2580,
+  "rotulo": "Ankur & Singh, 2024",
+  "titulo": "An investigation on optimizing the carbonation resistance of coal bottom ash concrete with its carbon footprints and eco-costs",
+  "pdf": "ANKUR et al., 2024 - resm2023.825ma0719.pdf",
+  "fileId": "1n9Xh5TerlgEC8vDu1XmR2bbjkqma8ti7",
+  "pares": [
+   {
+    "sheet_row": 78,
+    "material": "concreto controle (OPC grau 43, sem CBA)",
+    "fck": 29.34,
+    "co2_kg_m3": 379.22,
+    "co2_original": "379.22 kg CO2-eq/m3 (fast-track LCA, gate-to-gate)",
+    "co2_original_local": "Secao 3.5.3: \"Overall, the carbon footprints associated with... control mix (379.22 kg CO2 equiv.)\"",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 79,
+    "material": "concreto otimizado 21.51%GCBA + 29.82%CBA (proximo do mix testado G20C25)",
+    "fck": 26.03,
+    "co2_kg_m3": 303.06,
+    "co2_original": "303.06 kg CO2-eq/m3 (fast-track LCA, gate-to-gate)",
+    "co2_original_local": "Secao 3.5.3: \"carbon footprints associated with optimized CBA concrete was 303.06 kg CO2 equiv. which were 20.08% lower than control mix\"",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 2599,
+  "rotulo": "Bumanis et al., 2022",
+  "titulo": "Environmental Benefit of Alternative Binders in Construction Industry: Life Cycle Assessment",
+  "pdf": "BUMANIS et al., 2022 - environments9010006.pdf",
+  "fileId": "1KapzmD-P4OINktbCfsJmKoSBngA_cZX2",
+  "pares": [
+   {
+    "sheet_row": 613,
+    "material": "argamassa 100% cimento Portland (controle)",
+    "fck": 80,
+    "co2_kg_m3": 684.6,
+    "co2_original": "684,6 kg CO2 por 1 m3 de argamassa",
+    "co2_original_local": "Tab.2 p.6",
+    "co2_conversao": "nenhuma - publicado por m3 [REVISAO 2026-09-27, leitura integral; confianca baixa (fck = limite inferior)] [ALERTA ETAPA4: fck 80 MPa da argamassa 100% CEM apresentado na discussao (as restantes so tem limite inferior)]"
+   }
+  ]
+ },
+ {
+  "row_id": 2606,
+  "rotulo": "Chippagiri et al., 2023",
+  "titulo": "Life Cycle Assessment of a Sustainable Prefabricated Housing System: A Cradle-to-Site Approach Based on a Small-Scale Experimental Model",
+  "pdf": "CHIPPAGIRI et al., 2023 - buildings13040964.pdf",
+  "fileId": "1Rmpxs55Qszt1fxRV5Tkaf54pRrtIlOTR",
+  "pares": [
+   {
+    "sheet_row": 5,
+    "material": "concreto a base de CFA (cinza co-queimada / co-fired ash), aplicacao estrutural",
+    "fck": 26.91,
+    "co2_kg_m3": 379.4,
+    "co2_original": "0,162 kg CO2-eq/kg (GWP do betao CFA por unidade de massa)",
+    "co2_original_local": "Secao 6.2 Interpretacao, p.13; densidade 2342 kg/m3 na Tabela 2 p.5",
+    "co2_conversao": "0,162 kg/kg x 2342 kg/m3 (densidade medida, Tab.2) = 379,4"
+   }
+  ]
+ },
+ {
+  "row_id": 2608,
+  "rotulo": "Choi et al., 2023",
+  "titulo": "Mechanical Properties of Ultra-High Performance Concrete (UHPC) and Ultra-High Performance Fiber-Reinforced Concrete (UHPFRC) with Recycled Sand",
+  "pdf": "CHOI et al., 2023.pdf",
+  "fileId": "1oTfTZNxOA1V-9We0N-s2GrTSciIZmfa4",
+  "pares": [
+   {
+    "sheet_row": 139,
+    "material": "UHPC com areia reciclada, RS-U-20 (W/B=0,20)",
+    "fck": 86.3,
+    "co2_kg_m3": 1100,
+    "co2_original": "1100 kg CO2-eq/m3 [ALERTA ETAPA4: valor lido de eixo numerado (0/5/10/15, x10^2 kg CO2 eq) do grafico radar Fig.16a renderizado, p.18 — nao impresso em texto/tabela]",
+    "co2_original_local": "Fig. 16a (p.18), comparacao RS-U-20 vs NS-U-20",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 140,
+    "material": "UHPC com areia natural, referencia (NS-U-20, W/B=0,20)",
+    "fck": 90.1,
+    "co2_kg_m3": 1170,
+    "co2_original": "1170 kg CO2-eq/m3 [ALERTA ETAPA4: valor lido de eixo numerado do grafico radar Fig.16a renderizado, p.18]",
+    "co2_original_local": "Fig. 16a (p.18)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 2611,
+  "rotulo": "Cong et al., 2024",
+  "titulo": "Comparison and assessment of carbon dioxide emissions between alkali-activated materials and OPC cement concrete",
+  "pdf": "CONG et al., 2024 - j.jtte.2023.07.011.pdf",
+  "fileId": "1hbOEI9yF7UtjKir1xbNU6udKBk0bzo8m",
+  "pares": [
+   {
+    "sheet_row": 88,
+    "material": "OPC-A (OPC concreto convencional, 30 MPa)",
+    "fck": 30,
+    "co2_kg_m3": 364.185,
+    "co2_original": "364.185 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (Tabela 14, coluna \"OC (kg/m3)\") -- valor nao alterado]",
+    "co2_original_local": "Tabela 14 - Average life cycle CO2-E in the sulfuric acid environment (kg/m3 por ciclo de 50 anos, GPC tem 18 ciclos equivalentes a vida util do OPC)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 91,
+    "material": "OPC-B (OPC concreto convencional, 40 MPa)",
+    "fck": 40,
+    "co2_kg_m3": 351.496,
+    "co2_original": "351.496 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (Tabela 14, coluna \"OC (kg/m3)\") -- valor nao alterado]",
+    "co2_original_local": "Tabela 14 - Average life cycle CO2-E in the sulfuric acid environment (kg/m3 por ciclo de 50 anos, GPC tem 18 ciclos equivalentes a vida util do OPC)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 94,
+    "material": "OPC-C (OPC concreto convencional, 50 MPa)",
+    "fck": 50,
+    "co2_kg_m3": 375.088,
+    "co2_original": "375.088 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (Tabela 14, coluna \"OC (kg/m3)\") -- valor nao alterado]",
+    "co2_original_local": "Tabela 14 - Average life cycle CO2-E in the sulfuric acid environment (kg/m3 por ciclo de 50 anos, GPC tem 18 ciclos equivalentes a vida util do OPC)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 2624,
+  "rotulo": "Corti & Muciaccia, 2023",
+  "titulo": "Stiffness Warming Potential: An Innovative Parameter for Structural and Environmental Assessment of Timber-Concrete Composite Members",
+  "pdf": "CORTI et al., 2023 - su152014857.pdf",
+  "fileId": "1Mrx88_AmgA1V7MXv8qjPQPMmQCmZ6v6j",
+  "pares": [
+   {
+    "sheet_row": 115,
+    "material": "Concreto C30/37 (camada superior de laje composta madeira-concreto)",
+    "fck": 30,
+    "co2_kg_m3": 478.3,
+    "co2_original": "478.3 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (\"Table 3 reports GWP values referring to 1 m3 of concrete C30/37 and CLT CL24\") -- valor nao alterado]",
+    "co2_original_local": "Tabela 3",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 2641,
+  "rotulo": "Dervishaj et al., 2024",
+  "titulo": "Digital workflow to support the reuse of precast concrete and estimate the climate benefit",
+  "pdf": "DERVISHAJ et al., 2024b - 1755-1315-1402-1-012026.pdf",
+  "fileId": "15NIkDx4nNCflXnWF8aeIOV_eu-1z88FU",
+  "pares": [
+   {
+    "sheet_row": 629,
+    "material": "concreto pré-fabricado estrutural C25/30 (painéis/lajes, estudo de caso prédio 1967, Helsingborg) — carbono incorporado total A1-A5",
+    "fck": 25,
+    "co2_kg_m3": 525,
+    "co2_original": "132.825 kg CO2e total A1-A5 da estrutura pre-fabricada (A1-3 105.528 + A4 27.297 + A5 0)",
+    "co2_original_local": "Tabela 5 (linha Totals); Secao 4.2 (253 m3, 606.600 kg)",
+    "co2_conversao": "132.825 kg / 253 m3 = 525,0"
+   }
+  ]
+ },
+ {
+  "row_id": 2650,
+  "rotulo": "Dervishaj et al., 2024",
+  "titulo": "A digital workflow for assessing lifespan, carbonation, and embodied carbon of reusing concrete in buildings",
+  "pdf": "DERVISHAJ et al., 2024 - j.jobe.2024.110536.pdf",
+  "fileId": "1iec2TEAXlkvk2UvdkjUJ9DLGFff2W4xU",
+  "pares": [
+   {
+    "sheet_row": 630,
+    "material": "concreto pré-fabricado estrutural C25/30 (mesmo estudo de caso do artigo 2641, versão estendida com dataset Boverket atualizado e taxas de carbonatação contextuais/medidas) — carbono incorporado total A1-A5",
+    "fck": 25,
+    "co2_kg_m3": 525.8,
+    "co2_original": "385.957,9 kg CO2e total A1-A5 (A1-3 306.679,4 + A4-5 79.278,5)",
+    "co2_original_local": "Tabela 6 (Totals); Tabela 2 (734,06 m3)",
+    "co2_conversao": "385.957,9 kg / 734,06 m3 = 525,8"
+   }
+  ]
+ },
+ {
+  "row_id": 2653,
+  "rotulo": "Di Maria et al., 2020",
+  "titulo": "Environmental assessment of CO2 mineralisation for sustainable construction materials",
+  "pdf": "DI MARIA et al., 2020 - j.ijggc.2019.102882.pdf",
+  "fileId": "1UQT3WnvpxgCmC_LXeGKA-ydCFWqu375f",
+  "pares": [
+   {
+    "sheet_row": 116,
+    "material": "Bloco carbonatado (escoria de aco inoxidavel, SSS) - Cenario S1 (recuperacao CO2)",
+    "fck": 43,
+    "co2_kg_m3": -110.8,
+    "co2_original": "-1,09 (texto p.7, rotulado \"kg\", GWP100 sem carbono biogenico) = razao saldo/emissoes brutas; absorcao 8,5 kg CO2/UF (Tab.3); UF = 50 blocos = 0,04 m3",
+    "co2_original_local": "texto p.7 (sob a Fig.5); Fig.5 (GWP100 normalizado a PC=100%: brutos S1 ~32%, S2 ~22%, S3 ~28%, absorcao ~-67%); Tab.3 (CO2 8,5 kg; 92 kg; PC 94,4 kg / 14,4 kg CEM I)",
+    "co2_conversao": "bruto = 8,5/(1-(-1,09)) = 4.07 kg; saldo = bruto - 8,5 = -4.43 kg; / 0,04 m3 = -110.8 [REVISTO 2026-09-27: antes -1,09/0,04. Os 6 valores do texto reproduzem-se como (bruto-absorcao)/bruto lidos da Fig.5; como kg dariam bruto S1 = 58% do PC, contra 32% na figura e a \"reducao de 68%\" do texto. Coerencia: PC = 8,5/0,668 = 12,7 kg/UF = 318 kg/m3 ~ 360 kg CEM I/m3] [ALERTA ETAPA4: valor derivado - os \"-x kg\" do texto (p.7) sao razao adimensional saldo/emissoes brutas (erro de rotulo do artigo); saldo reconstruido com a absorcao impressa de 8,5 kg CO2 (Tab.3) e a Fig.5]"
+   },
+   {
+    "sheet_row": 117,
+    "material": "Bloco carbonatado (escoria de aco inoxidavel, SSS) - Cenario S2 (recuperacao CO2 por membrana, menor impacto)",
+    "fck": 43,
+    "co2_kg_m3": -140.7,
+    "co2_original": "-1,96 (texto p.7, rotulado \"kg\", GWP100 sem carbono biogenico) = razao saldo/emissoes brutas; absorcao 8,5 kg CO2/UF (Tab.3); UF = 50 blocos = 0,04 m3",
+    "co2_original_local": "texto p.7 (sob a Fig.5); Fig.5 (GWP100 normalizado a PC=100%: brutos S1 ~32%, S2 ~22%, S3 ~28%, absorcao ~-67%); Tab.3 (CO2 8,5 kg; 92 kg; PC 94,4 kg / 14,4 kg CEM I)",
+    "co2_conversao": "bruto = 8,5/(1-(-1,96)) = 2.87 kg; saldo = bruto - 8,5 = -5.63 kg; / 0,04 m3 = -140.7 [REVISTO 2026-09-27: antes -1,96/0,04. Os 6 valores do texto reproduzem-se como (bruto-absorcao)/bruto lidos da Fig.5; como kg dariam bruto S1 = 58% do PC, contra 32% na figura e a \"reducao de 68%\" do texto. Coerencia: PC = 8,5/0,668 = 12,7 kg/UF = 318 kg/m3 ~ 360 kg CEM I/m3] [ALERTA ETAPA4: valor derivado - os \"-x kg\" do texto (p.7) sao razao adimensional saldo/emissoes brutas (erro de rotulo do artigo); saldo reconstruido com a absorcao impressa de 8,5 kg CO2 (Tab.3) e a Fig.5]"
+   },
+   {
+    "sheet_row": 118,
+    "material": "Bloco carbonatado (escoria de aco inoxidavel, SSS) - Cenario S3 (recuperacao CO2)",
+    "fck": 43,
+    "co2_kg_m3": -122.4,
+    "co2_original": "-1,36 (texto p.7, rotulado \"kg\", GWP100 sem carbono biogenico) = razao saldo/emissoes brutas; absorcao 8,5 kg CO2/UF (Tab.3); UF = 50 blocos = 0,04 m3",
+    "co2_original_local": "texto p.7 (sob a Fig.5); Fig.5 (GWP100 normalizado a PC=100%: brutos S1 ~32%, S2 ~22%, S3 ~28%, absorcao ~-67%); Tab.3 (CO2 8,5 kg; 92 kg; PC 94,4 kg / 14,4 kg CEM I)",
+    "co2_conversao": "bruto = 8,5/(1-(-1,36)) = 3.60 kg; saldo = bruto - 8,5 = -4.90 kg; / 0,04 m3 = -122.4 [REVISTO 2026-09-27: antes -1,36/0,04. Os 6 valores do texto reproduzem-se como (bruto-absorcao)/bruto lidos da Fig.5; como kg dariam bruto S1 = 58% do PC, contra 32% na figura e a \"reducao de 68%\" do texto. Coerencia: PC = 8,5/0,668 = 12,7 kg/UF = 318 kg/m3 ~ 360 kg CEM I/m3] [ALERTA ETAPA4: valor derivado - os \"-x kg\" do texto (p.7) sao razao adimensional saldo/emissoes brutas (erro de rotulo do artigo); saldo reconstruido com a absorcao impressa de 8,5 kg CO2 (Tab.3) e a Fig.5]"
+   }
+  ]
+ },
+ {
+  "row_id": 2658,
+  "rotulo": "D'Orazio et al., 2023",
+  "titulo": "Life Cycle Assessment of Mortars with Fine Recycled Aggregates from Industrial Waste: Evaluation of Transports Impact in the Italian Context",
+  "pdf": "D'ORAZIO et al., 2023 - su15043221.pdf",
+  "fileId": "1XrCbA2LLo260bCO6jRohDYV5unmiziq5",
+  "pares": [
+   {
+    "sheet_row": 631,
+    "material": "REF1 (argamassa referencia, agregado natural, classe M30)",
+    "fck": 32,
+    "co2_kg_m3": 420,
+    "co2_original": "0,42 kg CO2 eq/L de argamassa REF1 (cenario A, local), lido em grafico",
+    "co2_original_local": "Fig.2a/2b, barras TOTAL (eixo rotulado kg CO2 eq)",
+    "co2_conversao": "0,42 kg/L x 1000 L/m3 = 420 [VERIFICACAO 2026-09-26: OK; nota: valor lido de grafico (leitura de eixo); material e argamassa, nao betao]"
+   },
+   {
+    "sheet_row": 632,
+    "material": "DELTA (argamassa com agregado reciclado composito, classe M30)",
+    "fck": 32,
+    "co2_kg_m3": 310,
+    "co2_original": "0,31 kg CO2 eq/L de argamassa DELTA (cenario A, local), lido em grafico",
+    "co2_original_local": "Fig.2a/2b, barras TOTAL (eixo rotulado kg CO2 eq)",
+    "co2_conversao": "0,31 kg/L x 1000 L/m3 = 310 [VERIFICACAO 2026-09-26: OK; nota: valor lido de grafico (leitura de eixo); material e argamassa, nao betao]"
+   },
+   {
+    "sheet_row": 633,
+    "material": "REF2 (argamassa referencia, agregado natural, classe M20)",
+    "fck": 25,
+    "co2_kg_m3": 420,
+    "co2_original": "0,42 kg CO2 eq/L de argamassa REF2 (cenario A, local), lido em grafico",
+    "co2_original_local": "Fig.2a/2b, barras TOTAL (eixo rotulado kg CO2 eq)",
+    "co2_conversao": "0,42 kg/L x 1000 L/m3 = 420 [VERIFICACAO 2026-09-26: OK; nota: valor lido de grafico (leitura de eixo); material e argamassa, nao betao]"
+   },
+   {
+    "sheet_row": 634,
+    "material": "HP (argamassa com po de carbono reciclado, classe M20)",
+    "fck": 25,
+    "co2_kg_m3": 385,
+    "co2_original": "0,385 kg CO2 eq/L de argamassa (cenario A local; lido no eixo rotulado da Fig.2, barra TOTAL)",
+    "co2_original_local": "Fig.2a/2b, barras TOTAL (eixo kg CO2 eq)",
+    "co2_conversao": "0,385 kg/L x 1000 L/m3 = 385"
+   }
+  ]
+ }
+]

@@ -1,0 +1,443 @@
+[
+ {
+  "row_id": 3335,
+  "rotulo": "Smith & Durham, 2016",
+  "titulo": "A cradle to gate LCA framework for emissions and energy reduction in concrete pavement mixture design",
+  "pdf": "SMITH, 2016.pdf",
+  "fileId": "1CKuhvEUWQfb-z4lD7QrRYsPP1S1som6N",
+  "pares": [
+   {
+    "sheet_row": 353,
+    "material": "betao de pavimento OPC (mistura in-situ/controlo do GDOT, ja com 20% cinza volante)",
+    "fck": 34.7,
+    "co2_kg_m3": 314.1,
+    "co2_original": "controlo: total nao impresso; derivado 9935 MT / 0,23 = 43.196 MT CO2eq no projecto",
+    "co2_original_local": "Tabela 9 p.9 + texto p.8 ('6%, 11%, and 23% decrease') + volume p.3 ('179,898 cubic yards (137,542 cubic meters)'); Fig.3 p.8 (eixo MT CO2eq per mile, controlo ~3750) como verificacao",
+    "co2_conversao": "(43.196 - 0) MT / 137.542 m3 = 314.1 kg/m3 (mesmo volume de projecto para todas as misturas) [REVISAO 2026-09-27, leitura integral; confianca media (fck lido de grafico com escala numerica; CO2 derivado de delta+percentagem, cradle-to-gate, cinza volante com factor zero)]"
+   },
+   {
+    "sheet_row": 354,
+    "material": "betao de pavimento com 25% de substituicao de cimento por cinza volante Classe F",
+    "fck": 38.3,
+    "co2_kg_m3": 296.1,
+    "co2_original": "reducao vs controlo 2473 MT CO2eq (Tabela 9)",
+    "co2_original_local": "Tabela 9 p.9 + texto p.8 ('6%, 11%, and 23% decrease') + volume p.3 ('179,898 cubic yards (137,542 cubic meters)'); Fig.3 p.8 (eixo MT CO2eq per mile, controlo ~3750) como verificacao",
+    "co2_conversao": "(43.196 - 2473) MT / 137.542 m3 = 296.1 kg/m3 (mesmo volume de projecto para todas as misturas) [REVISAO 2026-09-27, leitura integral; confianca media (fck lido de grafico com escala numerica; CO2 derivado de delta+percentagem, cradle-to-gate, cinza volante com factor zero)]"
+   },
+   {
+    "sheet_row": 355,
+    "material": "betao de pavimento com 30% de substituicao de cimento por cinza volante Classe F",
+    "fck": 36.5,
+    "co2_kg_m3": 278,
+    "co2_original": "reducao vs controlo 4961 MT CO2eq (Tabela 9)",
+    "co2_original_local": "Tabela 9 p.9 + texto p.8 ('6%, 11%, and 23% decrease') + volume p.3 ('179,898 cubic yards (137,542 cubic meters)'); Fig.3 p.8 (eixo MT CO2eq per mile, controlo ~3750) como verificacao",
+    "co2_conversao": "(43.196 - 4961) MT / 137.542 m3 = 278.0 kg/m3 (mesmo volume de projecto para todas as misturas) [REVISAO 2026-09-27, leitura integral; confianca media (fck lido de grafico com escala numerica; CO2 derivado de delta+percentagem, cradle-to-gate, cinza volante com factor zero)]"
+   },
+   {
+    "sheet_row": 356,
+    "material": "betao de pavimento com 40% de substituicao de cimento por cinza volante Classe F",
+    "fck": 31.7,
+    "co2_kg_m3": 241.8,
+    "co2_original": "reducao vs controlo 9935 MT CO2eq (Tabela 9)",
+    "co2_original_local": "Tabela 9 p.9 + texto p.8 ('6%, 11%, and 23% decrease') + volume p.3 ('179,898 cubic yards (137,542 cubic meters)'); Fig.3 p.8 (eixo MT CO2eq per mile, controlo ~3750) como verificacao",
+    "co2_conversao": "(43.196 - 9935) MT / 137.542 m3 = 241.8 kg/m3 (mesmo volume de projecto para todas as misturas) [REVISAO 2026-09-27, leitura integral; confianca media (fck lido de grafico com escala numerica; CO2 derivado de delta+percentagem, cradle-to-gate, cinza volante com factor zero)]"
+   }
+  ]
+ },
+ {
+  "row_id": 3348,
+  "rotulo": "Di Sarno et al., 2024",
+  "titulo": "Exploring innovative resilient and sustainable bio-materials for structural applications: Hemp-fibre concrete",
+  "pdf": "DI SARNO, 2024.pdf",
+  "fileId": "1g5P87cdMSvl5KsRAWs2F36P2ZPDkX_q_",
+  "pares": [
+   {
+    "sheet_row": 364,
+    "material": "betao de controlo (CEM I 42.5N, sem fibra) -- programa experimental proprio",
+    "fck": 32.9,
+    "co2_kg_m3": 413.83,
+    "co2_original": "413.83 kg CO2e/m3 de betao",
+    "co2_original_local": "Tab.5 (p.12 do ficheiro), linha 'RESULTS: kg CO2e/m3 of concrete', coluna 'Control mix'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 365,
+    "material": "betao com fibra de canhamo solta (Control mix + Loose Hemp Fiber, 2,5% em volume / 25L/m3)",
+    "fck": 31.8,
+    "co2_kg_m3": 348.09,
+    "co2_original": "348.09 kg CO2e/m3 de betao",
+    "co2_original_local": "Tab.5 (p.12 do ficheiro), linha 'RESULTS: kg CO2e/m3 of concrete', coluna 'Control mix + Loose Hemp Fiber'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3354,
+  "rotulo": "Grist et al., 2015",
+  "titulo": "The environmental credentials of hydraulic lime-pozzolan concretes",
+  "pdf": "GRIST et al., 2015.pdf",
+  "fileId": "12XybKYG1GVTph-eN4H5vBoMs3zqTqvUK",
+  "pares": [
+   {
+    "sheet_row": 368,
+    "material": "betao ternario NHL5-GGBS-SF, mistura I (53% NHL5, 35% GGBS, 12% SF, com SP)",
+    "fck": 33,
+    "co2_kg_m3": 175,
+    "co2_original": "175 kg CO2/m3 (EC, Tab.12)",
+    "co2_original_local": "Tab.12 (p.7-8 do ficheiro/p.32-33 impressa), coluna 'EC'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 369,
+    "material": "betao ternario NHL5-GGBS-SF, mistura II (38% NHL5, 50% GGBS, 12% SF, com SP)",
+    "fck": 33,
+    "co2_kg_m3": 135,
+    "co2_original": "135 kg CO2/m3 (EC, Tab.12)",
+    "co2_original_local": "Tab.12 (p.7-8 do ficheiro/p.32-33 impressa), coluna 'EC'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 370,
+    "material": "betao ternario NHL5-GGBS-SF, mistura III (23% NHL5, 65% GGBS, 12% SF, com SP)",
+    "fck": 33,
+    "co2_kg_m3": 95,
+    "co2_original": "95 kg CO2/m3 (EC, Tab.12)",
+    "co2_original_local": "Tab.12 (p.7-8 do ficheiro/p.32-33 impressa), coluna 'EC'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 371,
+    "material": "betao CEMI (comparador a igual fcm,28=33MPa)",
+    "fck": 33,
+    "co2_kg_m3": 265,
+    "co2_original": "265 kg CO2/m3 (EC, Tab.12)",
+    "co2_original_local": "Tab.12 (p.7-8 do ficheiro/p.32-33 impressa), coluna 'EC'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 372,
+    "material": "betao CEMIII/A [50% CEMI e 50% GGBS] (comparador a igual fcm,28=33MPa)",
+    "fck": 33,
+    "co2_kg_m3": 160,
+    "co2_original": "160 kg CO2/m3 (EC, Tab.12)",
+    "co2_original_local": "Tab.12 (p.7-8 do ficheiro/p.32-33 impressa), coluna 'EC'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 373,
+    "material": "betao ternario NHL5-GGBS-SF, mistura IV (50% NHL5, 40% GGBS, 10% SF, com SP)",
+    "fck": 49,
+    "co2_kg_m3": 195,
+    "co2_original": "195 kg CO2/m3 (EC, Tab.12)",
+    "co2_original_local": "Tab.12 (p.7-8 do ficheiro/p.32-33 impressa), coluna 'EC'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 374,
+    "material": "betao CEMI (comparador a igual fcm,28=49MPa)",
+    "fck": 49,
+    "co2_kg_m3": 345,
+    "co2_original": "345 kg CO2/m3 (EC, Tab.12)",
+    "co2_original_local": "Tab.12 (p.7-8 do ficheiro/p.32-33 impressa), coluna 'EC'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 375,
+    "material": "betao CEMIII/A [50% CEMI e 50% GGBS] (comparador a igual fcm,28=49MPa)",
+    "fck": 49,
+    "co2_kg_m3": 235,
+    "co2_original": "235 kg CO2/m3 (EC, Tab.12)",
+    "co2_original_local": "Tab.12 (p.7-8 do ficheiro/p.32-33 impressa), coluna 'EC'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3356,
+  "rotulo": "Teixeira et al., 2016",
+  "titulo": "Comparative environmental life-cycle analysis of concretes using biomass and coal fly ashes as partial cement replacement material",
+  "pdf": "TEIXEIRA et al., 2016.pdf",
+  "fileId": "1ylXCBZUdXq9g75SXaPOIzVMrZt-dw4kx",
+  "pares": [
+   {
+    "sheet_row": 1996,
+    "material": "B300 - betao auto-compactavel de referencia (300 kg/m3 CEM 42.5, SP 7,8 kg/m3, Tab.9)",
+    "fck": 35,
+    "co2_kg_m3": 693,
+    "co2_original": "6.93E+02 kg CO2-eq (UF 1 m3)",
+    "co2_original_local": "Tab.10 p.2228, linha GWP 100, coluna B300",
+    "co2_conversao": "nenhuma - publicado por m3 (UF = 1 m3 de betao, sec.3.1.1) [REVISAO 2026-09-27, leitura integral; confianca media (fck por leitura de grafico com escala numerica, fonte externa)]"
+   },
+   {
+    "sheet_row": 1997,
+    "material": "FA - betao auto-compactavel com 60% cinza volante de carvao (200 kg cimento + 300 kg FA/m3, Tab.9)",
+    "fck": 37.5,
+    "co2_kg_m3": 520,
+    "co2_original": "5.20E+02 kg CO2-eq (UF 1 m3)",
+    "co2_original_local": "Tab.10 p.2228, coluna FA; tambem Fig.4 'GWP_FA=520 kg CO2 eq'",
+    "co2_conversao": "nenhuma - publicado por m3 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 3359,
+  "rotulo": "Zastrow et al., 2017",
+  "titulo": "Life cycle assessment of cost-optimized buttress earth-retaining walls: A parametric study",
+  "pdf": "ZASTROW et al., 2017.pdf",
+  "fileId": "1T1cniYsZ1B6F3Rx2cY4ODYSqyWBiPxBl",
+  "pares": [
+   {
+    "sheet_row": 1998,
+    "material": "betao 25 MPa (unico betao do estudo; 250 kg/m3 cimento, 165 agua, 940 brita, 1050 areia) - factor de impacto por m3",
+    "fck": 25,
+    "co2_kg_m3": 248,
+    "co2_original": "2.48E+02 kg CO2-Eq por m3 de betao",
+    "co2_original_local": "Tab.6 p.1047 'Impact factors per unit of concrete, steel and formwork', coluna Concrete (/m3)",
+    "co2_conversao": "nenhuma - publicado por m3 [REVISAO 2026-09-27, leitura integral; confianca alta]"
+   }
+  ]
+ },
+ {
+  "row_id": 3360,
+  "rotulo": "Teh et al., 2017",
+  "titulo": "Hybrid life cycle assessment of greenhouse gas emissions from cement, concrete and geopolymer concrete in Australia",
+  "pdf": "TEH et al., 2017b.pdf",
+  "fileId": "1QiIIv2NkBJye7cnHy6z7AEvqRIa_WPt6",
+  "pares": [
+   {
+    "sheet_row": 394,
+    "material": "betao geopolimerico 90% cinza volante/10% GGBFS (Geopolymer 90% FA), hLCA",
+    "fck": 50,
+    "co2_kg_m3": 345,
+    "co2_original": "345 kg CO2-eq/m3 de betao geopolimerico",
+    "co2_original_local": "Texto p.5 do ficheiro/p.316 impressa: 'CFI of FA-based GPC using the hLCA method yields... (345 kg CO2-eq/m3)'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 395,
+    "material": "betao geopolimerico 90% GGBFS/10% cinza volante (Geopolymer 90% GGBFS), hLCA",
+    "fck": 50,
+    "co2_kg_m3": 291,
+    "co2_original": "291 kg CO2-eq/m3 de betao geopolimerico",
+    "co2_original_local": "Texto p.6 do ficheiro/p.317 impressa: 'GGBFS-based GPC (291 kg CO2-eq/m3) achieved the highest reduction'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 396,
+    "material": "betao OPC 100% (100% OPC 50 MPa), hLCA -- valor de referencia dos GPC",
+    "fck": 50,
+    "co2_kg_m3": 508.9,
+    "co2_original": "508.9 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de betao (\"GGBFS-based GPC (291 kg CO2-eq/m3)\") -- valor nao alterado]",
+    "co2_original_local": "Texto p.6 do ficheiro/p.317 impressa (percentagens 43% e 32% de reducao vs OPC50)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3363,
+  "rotulo": "Marinkovic et al., 2017",
+  "titulo": "Environmental assessment of green concretes for structural use",
+  "pdf": "MARINKOVIC, 2017.pdf",
+  "fileId": "1zi-TiIJI4ZJXirPma6lh70sQfL-tmScW",
+  "pares": [
+   {
+    "sheet_row": 376,
+    "material": "NAC (betao de agregado natural, mistura de referencia)",
+    "fck": 40.5,
+    "co2_kg_m3": 260.4,
+    "co2_original": "260,4 kg CO2-eq por FU do Cenario 2 (impresso em g CO2-eq: 260400 g; FU=1,0 m3 para traco NAC)",
+    "co2_original_local": "Tab.12 p.644 impressa (Indicators results per FU in Scenario 2, linha GWP); FU definida no texto sec.4.2 p.11",
+    "co2_conversao": "260,4 kg / FU 1,0 m3 = 260.4 (identidade)"
+   },
+   {
+    "sheet_row": 377,
+    "material": "NAC_FA (betao de agregado natural, 35% cinza volante)",
+    "fck": 42,
+    "co2_kg_m3": 197.1,
+    "co2_original": "216,8 kg CO2-eq por FU do Cenario 2 (impresso em g CO2-eq: 216800 g; FU=1,1 m3 para traco RAC/NAC_FA/RAC_FA)",
+    "co2_original_local": "Tab.12 p.644 impressa (Indicators results per FU in Scenario 2, linha GWP); FU definida no texto sec.4.2 p.11",
+    "co2_conversao": "216,8 kg / FU 1,1 m3 = 197.1"
+   },
+   {
+    "sheet_row": 378,
+    "material": "NAC_AAFA (betao de agregado natural, cinza volante alcali-activada, cura elevada)",
+    "fck": 40.7,
+    "co2_kg_m3": 134.2,
+    "co2_original": "134,2 kg CO2-eq por FU do Cenario 2 (impresso em g CO2-eq: 134200 g; FU=1,0 m3 para traco NAC_AAFA)",
+    "co2_original_local": "Tab.12 p.644 impressa (Indicators results per FU in Scenario 2, linha GWP); FU definida no texto sec.4.2 p.11",
+    "co2_conversao": "134,2 kg / FU 1,0 m3 = 134.2 (identidade)"
+   },
+   {
+    "sheet_row": 379,
+    "material": "RAC (betao de agregado reciclado)",
+    "fck": 42.1,
+    "co2_kg_m3": 266.3,
+    "co2_original": "292,9 kg CO2-eq por FU do Cenario 2 (impresso em g CO2-eq: 292900 g; FU=1,1 m3 para traco RAC)",
+    "co2_original_local": "Tab.12 p.644 impressa (Indicators results per FU in Scenario 2, linha GWP); FU definida no texto sec.4.2 p.11",
+    "co2_conversao": "292,9 kg / FU 1,1 m3 = 266.3"
+   },
+   {
+    "sheet_row": 380,
+    "material": "RAC_FA (betao de agregado reciclado, 35% cinza volante)",
+    "fck": 40.5,
+    "co2_kg_m3": 196.5,
+    "co2_original": "216,1 kg CO2-eq por FU do Cenario 2 (impresso em g CO2-eq: 216100 g; FU=1,1 m3 para traco RAC/NAC_FA/RAC_FA)",
+    "co2_original_local": "Tab.12 p.644 impressa (Indicators results per FU in Scenario 2, linha GWP); FU definida no texto sec.4.2 p.11",
+    "co2_conversao": "216,1 kg / FU 1,1 m3 = 196.5"
+   }
+  ]
+ },
+ {
+  "row_id": 3367,
+  "rotulo": "Gutierreza et al., 2017",
+  "titulo": "Improved selection of the functional unit in environmental impact assessment of cement",
+  "pdf": "GUTIERREZA, 2017.pdf",
+  "fileId": "1f3Sn2IehNlJ-D1J9rKZw4Q5Txsm0vJvG",
+  "pares": [
+   {
+    "sheet_row": 397,
+    "material": "cimento PC (ASTM, sem zeolito) -- Cementos Cienfuegos S.A., Cuba",
+    "fck": 35,
+    "co2_kg_m3": 432,
+    "co2_original": "1.08 kg CO2-eq/kg cimento",
+    "co2_original_local": "Tab.9 p.470",
+    "co2_conversao": "400 kg/m3 (Tab.6; confirmado por bi=11,4 kg/(m3.MPa) Tab.7 x 35 MPa) x 1,08 = 432 kg CO2-eq/m3 (so cimento) [REVISAO 2026-09-27, leitura integral; confianca media (fronteira so cimento; fck de projecto)]"
+   },
+   {
+    "sheet_row": 398,
+    "material": "cimento P-35 (Cuban Standard NC-95:2011, 5% zeolito) -- Cementos Cienfuegos S.A., Cuba",
+    "fck": 35,
+    "co2_kg_m3": 408,
+    "co2_original": "1.02 kg CO2-eq/kg cimento",
+    "co2_original_local": "Tab.9",
+    "co2_conversao": "400 x 1,02 = 408 kg CO2-eq/m3 (so cimento) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 399,
+    "material": "cimento PP-25 (Cuban Standard NC-96:2011, 19% zeolito) -- Cementos Cienfuegos S.A., Cuba",
+    "fck": 25,
+    "co2_kg_m3": 301,
+    "co2_original": "0.86 kg CO2-eq/kg cimento",
+    "co2_original_local": "Tab.9 (linha 'P-25')",
+    "co2_conversao": "350 (Tab.6; bi=14,0 x 25) x 0,86 = 301 kg CO2-eq/m3 (so cimento) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 3377,
+  "rotulo": "Espuelas et al., 2018",
+  "titulo": "Technical and environmental characterization of hydraulic and alkaline binders",
+  "pdf": "ESPUELAS, 2018 - j.jclepro.2018.06.090.pdf",
+  "fileId": "1klAU1n8ogyKBcdWaTcuNUZJQTB3bBAem",
+  "pares": [
+   {
+    "sheet_row": 970,
+    "material": "ligante alcali-activado GGBS 100% (ativador NaOH 6M)",
+    "fck": 66.8,
+    "co2_kg_m3": 121.77,
+    "co2_original": "56,9 kg CO2 eq por tonelada de argamassa (GGBS 6M)",
+    "co2_original_local": "Tabela 6 (GWP100 por tonelada), combinacao GGBS 6M; densidade na Tabela 5",
+    "co2_conversao": "56,9 kg/t x densidade 2,14 t/m3 (Tab.5) = 121.77"
+   },
+   {
+    "sheet_row": 971,
+    "material": "ligante alcali-activado GGBS 100% (ativador NaOH 8M)",
+    "fck": 61,
+    "co2_kg_m3": 132.25,
+    "co2_original": "61,8 kg CO2 eq por tonelada de argamassa (GGBS 8M)",
+    "co2_original_local": "Tabela 6 (GWP100 por tonelada), combinacao GGBS 8M; densidade na Tabela 5",
+    "co2_conversao": "61,8 kg/t x densidade 2,14 t/m3 (Tab.5) = 132.25"
+   },
+   {
+    "sheet_row": 972,
+    "material": "ligante alcali-activado GGBS 100% (ativador NaOH 10M)",
+    "fck": 62.1,
+    "co2_kg_m3": 143.41,
+    "co2_original": "66,7 kg CO2 eq por tonelada de argamassa (GGBS 10M)",
+    "co2_original_local": "Tabela 6 (GWP100 por tonelada), combinacao GGBS 10M; densidade na Tabela 5",
+    "co2_conversao": "66,7 kg/t x densidade 2,15 t/m3 (Tab.5) = 143.41"
+   },
+   {
+    "sheet_row": 973,
+    "material": "ligante alcali-activado GGBS25:FA75 (ativador NaOH 6M)",
+    "fck": 52.7,
+    "co2_kg_m3": 86.32,
+    "co2_original": "41,3 kg CO2 eq por tonelada de argamassa (GGBS 25:75 FA 6M)",
+    "co2_original_local": "Tabela 6 (GWP100 por tonelada), combinacao GGBS 25:75 FA 6M; densidade na Tabela 5",
+    "co2_conversao": "41,3 kg/t x densidade 2,09 t/m3 (Tab.5) = 86.32"
+   },
+   {
+    "sheet_row": 974,
+    "material": "ligante alcali-activado GGBS50:FA50 (ativador NaOH 6M)",
+    "fck": 54.2,
+    "co2_kg_m3": 97.65,
+    "co2_original": "46,5 kg CO2 eq por tonelada de argamassa (GGBS 50:50 FA 6M)",
+    "co2_original_local": "Tabela 6 (GWP100 por tonelada), combinacao GGBS 50:50 FA 6M; densidade na Tabela 5",
+    "co2_conversao": "46,5 kg/t x densidade 2,1 t/m3 (Tab.5) = 97.65"
+   },
+   {
+    "sheet_row": 975,
+    "material": "ligante alcali-activado GGBS75:FA25 (ativador NaOH 6M)",
+    "fck": 56.8,
+    "co2_kg_m3": 109.09,
+    "co2_original": "51,7 kg CO2 eq por tonelada de argamassa (GGBS 75:25 FA 6M)",
+    "co2_original_local": "Tabela 6 (GWP100 por tonelada), combinacao GGBS 75:25 FA 6M; densidade na Tabela 5",
+    "co2_conversao": "51,7 kg/t x densidade 2,11 t/m3 (Tab.5) = 109.09"
+   }
+  ]
+ },
+ {
+  "row_id": 3384,
+  "rotulo": "Abdulkareem et al., 2019",
+  "titulo": "How environmentally sustainable are fibre reinforced alkali-activated concretes?",
+  "pdf": "ABDULKAREEM et al., 2019 - j.jclepro.2019.07.076.pdf",
+  "fileId": "1dRfiq0auGS6vRhrvUZdoT84ggINgk8-e",
+  "pares": [
+   {
+    "sheet_row": 976,
+    "material": "concreto convencional (CC) — referencia",
+    "fck": 35,
+    "co2_kg_m3": 350.7,
+    "co2_original": "~350,7 kg CO2-eq/m3 (CC)",
+    "co2_original_local": "Fig.3",
+    "co2_conversao": "nenhuma - lido por pixel na Fig.3"
+   },
+   {
+    "sheet_row": 977,
+    "material": "concreto convencional reforcado com fibra de aco (SFRCC)",
+    "fck": 39.5,
+    "co2_kg_m3": 449.7,
+    "co2_original": "~449,7 kg CO2-eq/m3 (SFRCC)",
+    "co2_original_local": "Fig.3",
+    "co2_conversao": "nenhuma - lido por pixel na Fig.3"
+   },
+   {
+    "sheet_row": 978,
+    "material": "concreto alcali-ativado reforcado com fibra de aco (S_1)",
+    "fck": 38.4,
+    "co2_kg_m3": 185.7,
+    "co2_original": "~185,7 kg CO2-eq/m3 (S_1)",
+    "co2_original_local": "Fig.3",
+    "co2_conversao": "nenhuma - lido por pixel na Fig.3"
+   },
+   {
+    "sheet_row": 979,
+    "material": "concreto alcali-ativado reforcado com fibra de vidro (GF_5)",
+    "fck": 35.97,
+    "co2_kg_m3": 166.9,
+    "co2_original": "~166,9 kg CO2-eq/m3 (GF_5)",
+    "co2_original_local": "Fig.3",
+    "co2_conversao": "nenhuma - lido por pixel na Fig.3"
+   },
+   {
+    "sheet_row": 980,
+    "material": "concreto alcali-ativado reforcado com fibra de polipropileno (PP_4)",
+    "fck": 39.21,
+    "co2_kg_m3": 179.7,
+    "co2_original": "~179,7 kg CO2-eq/m3 (PP_4)",
+    "co2_original_local": "Fig.3",
+    "co2_conversao": "nenhuma - lido por pixel na Fig.3"
+   }
+  ]
+ }
+]

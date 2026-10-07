@@ -1,0 +1,452 @@
+[
+ {
+  "row_id": 3598,
+  "pares": [
+   {
+    "sheet_row": 1059,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao",
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 360,
+    "co2_com_desconto": 263,
+    "citacao": "Bruto 360 kg CO2e/m3 (A1-A3) p.5 sec.3.1.1; sequestro 'realistic maximum' por carbonatacao 97 kg CO2/m3 (Type I 30 MPa) p.7 sec.3.2.1, contabilizado no modulo D (sec.2.2.1.2). Whole-life = 360-97 = 263 (conta nossa; o artigo define whole-life como A1-A3 menos sequestro, sec.2.2.4).",
+    "derivado": "sim",
+    "nota": "Sequestro teorico maximo (carbonatacao total do volume, phi_c=0,7), modulo D. Gravado = A1-A3 bruto, confere com Tab.1 x Tab.2 (380x0,912 + agregados = 360,2)."
+   },
+   {
+    "sheet_row": 1060,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao",
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 505,
+    "co2_com_desconto": 395,
+    "citacao": "Bruto 505 kg CO2e/m3 p.5 sec.3.1.1; sequestro 110 kg CO2/m3 (Type I 45 MPa) p.7 sec.3.2.1; 505-110 = 395 (conta nossa).",
+    "derivado": "sim",
+    "nota": "Idem 1059; Tab.1/Tab.2 dao 504,2."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-12 ate as referencias, excluidas). Figuras 1-4 nao renderizadas: os valores usados estao impressos no texto.",
+  "notas": "Artigo cujo objetivo e o desconto de carbonatacao; o gravado e o A1-A3 sem desconto."
+ },
+ {
+  "row_id": 3602,
+  "pares": [
+   {
+    "sheet_row": 485,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 709.9,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 p.6 x Tab.8 p.14; ACV so A1-A3 (sec.4.1), sem modulo D nem carbono biogenico negativo (fibras naturais com GWP positivo 0,31-0,45 kg CO2e/kg).",
+    "derivado": "sim",
+    "nota": "Valor reconstruido por nos (ja assinalado). 'Inherent CO2 neutrality' das fibras so aparece como argumento qualitativo no resumo/conclusoes; nenhum credito biogenico aplicado."
+   },
+   {
+    "sheet_row": 486,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 914.72,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 p.6 x Tab.8 p.14; ACV so A1-A3 (sec.4.1), sem modulo D nem carbono biogenico negativo (fibras naturais com GWP positivo 0,31-0,45 kg CO2e/kg).",
+    "derivado": "sim",
+    "nota": "Valor reconstruido por nos (ja assinalado). 'Inherent CO2 neutrality' das fibras so aparece como argumento qualitativo no resumo/conclusoes; nenhum credito biogenico aplicado."
+   },
+   {
+    "sheet_row": 487,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 713.7,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 p.6 x Tab.8 p.14; ACV so A1-A3 (sec.4.1), sem modulo D nem carbono biogenico negativo (fibras naturais com GWP positivo 0,31-0,45 kg CO2e/kg).",
+    "derivado": "sim",
+    "nota": "Valor reconstruido por nos (ja assinalado). 'Inherent CO2 neutrality' das fibras so aparece como argumento qualitativo no resumo/conclusoes; nenhum credito biogenico aplicado."
+   },
+   {
+    "sheet_row": 488,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 716.65,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 p.6 x Tab.8 p.14; ACV so A1-A3 (sec.4.1), sem modulo D nem carbono biogenico negativo (fibras naturais com GWP positivo 0,31-0,45 kg CO2e/kg).",
+    "derivado": "sim",
+    "nota": "Valor reconstruido por nos (ja assinalado). 'Inherent CO2 neutrality' das fibras so aparece como argumento qualitativo no resumo/conclusoes; nenhum credito biogenico aplicado."
+   },
+   {
+    "sheet_row": 489,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 715.48,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 p.6 x Tab.8 p.14; ACV so A1-A3 (sec.4.1), sem modulo D nem carbono biogenico negativo (fibras naturais com GWP positivo 0,31-0,45 kg CO2e/kg).",
+    "derivado": "sim",
+    "nota": "Valor reconstruido por nos (ja assinalado). 'Inherent CO2 neutrality' das fibras so aparece como argumento qualitativo no resumo/conclusoes; nenhum credito biogenico aplicado."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-16 ate as referencias). fileId obtido por pesquisa no Drive: 1t9hi9HQnrdAqlxrvHZAnnc09I9JIeS4l. Fig.10 nao renderizada (o texto descreve-a como barras positivas por componente).",
+  "notas": "Sem descontos."
+ },
+ {
+  "row_id": 3615,
+  "pares": [
+   {
+    "sheet_row": 1063,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 347,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (total emissions); fronteira cradle-to-gate + transporte/colocacao, sem creditos.",
+    "derivado": "nao",
+    "nota": "A suposicao 7 (90% dos residuos solidos da central reciclados, aterro 16 kg/m3) e premissa de inventario, nao credito subtraido."
+   },
+   {
+    "sheet_row": 1064,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 169,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (total emissions); fronteira cradle-to-gate + transporte/colocacao, sem creditos.",
+    "derivado": "nao",
+    "nota": "A suposicao 7 (90% dos residuos solidos da central reciclados, aterro 16 kg/m3) e premissa de inventario, nao credito subtraido."
+   },
+   {
+    "sheet_row": 1065,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 234,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (total emissions); fronteira cradle-to-gate + transporte/colocacao, sem creditos.",
+    "derivado": "nao",
+    "nota": "A suposicao 7 (90% dos residuos solidos da central reciclados, aterro 16 kg/m3) e premissa de inventario, nao credito subtraido."
+   },
+   {
+    "sheet_row": 1066,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 245,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (total emissions); fronteira cradle-to-gate + transporte/colocacao, sem creditos.",
+    "derivado": "nao",
+    "nota": "A suposicao 7 (90% dos residuos solidos da central reciclados, aterro 16 kg/m3) e premissa de inventario, nao credito subtraido."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-15 ate as referencias). Figuras 4-8 nao renderizadas (repetem a Tab.2).",
+  "notas": "Sem descontos. Valores sao de misturas compiladas de outras fontes, ACV dos autores."
+ },
+ {
+  "row_id": 3620,
+  "pares": [
+   {
+    "sheet_row": 1067,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 168,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.4: Global warming 16,8 kgCO2/m2 (cimento, cobertura); espessura 0,1 m p.5.",
+    "derivado": "nao",
+    "nota": "Credito biogenico (madeira = 0 por 'neutral emissions') e materiais reciclados (cartao = 0) so afetam outros materiais, nao o cimento/betao. Conversao m2->m3 por nossa conta, ja registada."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-16 ate as referencias). Figuras (radar, termografia) nao renderizadas: nao contem valores de CO2.",
+  "notas": "Sem descontos para o betao."
+ },
+ {
+  "row_id": 3653,
+  "pares": [
+   {
+    "sheet_row": 1068,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 349.37,
+    "co2_com_desconto": null,
+    "citacao": "Tab.10 p.20, coluna 'No recycled materials' 100 mm: 122.280 kg CO2 eq / 350 m3.",
+    "derivado": "nao",
+    "nota": "ERRO DE ROTULO: o valor gravado (122.280) e o do pavimento SEM reciclados de 100 mm, nao 'concreto com vidro reciclado' como diz o campo material. O par com 20% RCG 100 mm ja esta na linha 2004 (121.655). Totais incluem aco de armadura e MTP (familia concreto_armado)."
+   },
+   {
+    "sheet_row": 2003,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 340.23,
+    "co2_com_desconto": null,
+    "citacao": "Tab.10 p.20, 'No recycled materials' 150 mm.",
+    "derivado": "nao",
+    "nota": "Inclui aco de armadura."
+   },
+   {
+    "sheet_row": 2004,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "indeterminado",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Credito de aterro evitado do vidro: -10,62 kg CO2 eq/t RCG (Tab.5 p.10, 'Benefit over landfill'), aplicado explicitamente ao enchimento de valas (sec.3.8, Tab.11). Para o pavimento de betao (Tab.10) o artigo nao diz se o RCG entra com o credito ou so com o processamento (2,15 kg/t britagem; 9,4 kg/t lavagem+britagem).",
+    "derivado": "sim",
+    "nota": "Indeterminado. Inferencia numerica nossa: a reducao 122.280->121.655 (-625 kg em 350 m3 = -1,8 kg/m3) so e compativel com o credito de -10,62 kg/t (com o processamento sem credito a reducao seria muito menor ou negativa) - indicio de valor liquido, mas a massa de areia do betao nao e impressa, por isso nao se pode provar nem obter o bruto. Efeito do credito <=1% do total."
+   },
+   {
+    "sheet_row": 2005,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "indeterminado",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Credito de aterro evitado do vidro: -10,62 kg CO2 eq/t RCG (Tab.5 p.10, 'Benefit over landfill'), aplicado explicitamente ao enchimento de valas (sec.3.8, Tab.11). Para o pavimento de betao (Tab.10) o artigo nao diz se o RCG entra com o credito ou so com o processamento (2,15 kg/t britagem; 9,4 kg/t lavagem+britagem).",
+    "derivado": "sim",
+    "nota": "Indeterminado. Inferencia numerica nossa: a reducao 122.280->121.655 (-625 kg em 350 m3 = -1,8 kg/m3) so e compativel com o credito de -10,62 kg/t (com o processamento sem credito a reducao seria muito menor ou negativa) - indicio de valor liquido, mas a massa de areia do betao nao e impressa, por isso nao se pode provar nem obter o bruto. Efeito do credito <=1% do total."
+   },
+   {
+    "sheet_row": 2006,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 275.28,
+    "co2_com_desconto": null,
+    "citacao": "Tab.10 p.20, '100% RCS'.",
+    "derivado": "nao",
+    "nota": "Reducao (-21%) vem de aco reciclado como insumo (conteudo reciclado, sec.3.7), nao de credito subtraido; mecanismo de modelacao nao descrito em detalhe."
+   },
+   {
+    "sheet_row": 2007,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 281.69,
+    "co2_com_desconto": null,
+    "citacao": "Tab.10 p.20, '100% RCS'.",
+    "derivado": "nao",
+    "nota": "Reducao (-21%) vem de aco reciclado como insumo (conteudo reciclado, sec.3.7), nao de credito subtraido; mecanismo de modelacao nao descrito em detalhe."
+   },
+   {
+    "sheet_row": 2008,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "indeterminado",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tab.10 p.20 '20% RCG and 100% RCS'; credito de aterro evitado do vidro Tab.5 p.10 (ver 2004).",
+    "derivado": "sim",
+    "nota": "Mesma indeterminacao de 2004/2005 para a parcela RCG (efeito ~1 kg/m3); a parcela RCS e conteudo reciclado, nao credito."
+   },
+   {
+    "sheet_row": 2009,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "indeterminado",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tab.10 p.20 '20% RCG and 100% RCS'; credito de aterro evitado do vidro Tab.5 p.10 (ver 2004).",
+    "derivado": "sim",
+    "nota": "Mesma indeterminacao de 2004/2005 para a parcela RCG (efeito ~1 kg/m3); a parcela RCS e conteudo reciclado, nao credito."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-20 ate as referencias). Figuras nao renderizadas: o download do PDF falhou (resultado demasiado grande para o conector); Fig.12 so tem percentagens de contribuicao.",
+  "notas": "Erro de rotulo na linha 1068 (valor e da referencia sem reciclados). Todos os totais incluem armadura."
+ },
+ {
+  "row_id": 3657,
+  "pares": [
+   {
+    "sheet_row": 1069,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 502.1,
+    "co2_com_desconto": null,
+    "citacao": "Tab.10 p.15; Fig.8b p.15: tratamento pos-demolicao do NAC = +0,6% (aterro, encargo, nao credito).",
+    "derivado": "nao",
+    "nota": "Fronteira 'cradle-to-cradle' (Fig.2) com construcao, demolicao e tratamento pos-demolicao. Unidade kg CO2 eq por m3 assumida (Tab.10 sem UF explicita)."
+   },
+   {
+    "sheet_row": 1070,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 478.0,
+    "co2_com_desconto": 459.6,
+    "citacao": "Tab.4 p.6: 'RA potential environmental benefits' (aterro evitado, -0,898x o impacto do aterro); sec.5.3.1 p.13: beneficio do RA incluido; Fig.8b p.15 (eixo direito) 'Waste concrete post-demolition treatment' = -4.0%. Bruto = 459.6 x (1+0.04) = 478.0 (conta nossa).",
+    "derivado": "sim",
+    "nota": "Interpretacao nossa da base da percentagem: aplicando-a ao valor da Tab.10, o bruto das tres geracoes fica constante (~478 kg), coerente com tracos de cimento identico (527 kg) - por isso se assume que a Tab.10 ja e liquida. Percentagem lida no rotulo da Fig.8b (renderizada a 300 dpi). Os valores unitarios da Tab.4 (-9,25E-04 por kg) nao reproduzem esta grandeza - inconsistencia do artigo. Confianca baixa."
+   },
+   {
+    "sheet_row": 1071,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 477.8,
+    "co2_com_desconto": 441.2,
+    "citacao": "Tab.4 p.6: 'RA potential environmental benefits' (aterro evitado, -0,898x o impacto do aterro); sec.5.3.1 p.13: beneficio do RA incluido; Fig.8b p.15 (eixo direito) 'Waste concrete post-demolition treatment' = -8.3%. Bruto = 441.2 x (1+0.083) = 477.8 (conta nossa).",
+    "derivado": "sim",
+    "nota": "Interpretacao nossa da base da percentagem: aplicando-a ao valor da Tab.10, o bruto das tres geracoes fica constante (~478 kg), coerente com tracos de cimento identico (527 kg) - por isso se assume que a Tab.10 ja e liquida. Percentagem lida no rotulo da Fig.8b (renderizada a 300 dpi). Os valores unitarios da Tab.4 (-9,25E-04 por kg) nao reproduzem esta grandeza - inconsistencia do artigo. Confianca baixa."
+   },
+   {
+    "sheet_row": 1072,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 478.2,
+    "co2_com_desconto": 422.8,
+    "citacao": "Tab.4 p.6: 'RA potential environmental benefits' (aterro evitado, -0,898x o impacto do aterro); sec.5.3.1 p.13: beneficio do RA incluido; Fig.8b p.15 (eixo direito) 'Waste concrete post-demolition treatment' = -13.1%. Bruto = 422.8 x (1+0.131) = 478.2 (conta nossa).",
+    "derivado": "sim",
+    "nota": "Interpretacao nossa da base da percentagem: aplicando-a ao valor da Tab.10, o bruto das tres geracoes fica constante (~478 kg), coerente com tracos de cimento identico (527 kg) - por isso se assume que a Tab.10 ja e liquida. Percentagem lida no rotulo da Fig.8b (renderizada a 300 dpi). Os valores unitarios da Tab.4 (-9,25E-04 por kg) nao reproduzem esta grandeza - inconsistencia do artigo. Confianca baixa."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-15 ate as referencias); PDF descarregado e pp.5 e 15 renderizadas (Fig.2 fronteira, Fig.8 GWP por fase).",
+  "notas": "RAC com credito de aterro evitado provavelmente incluido no gravado (liquido); NAC sem credito."
+ },
+ {
+  "row_id": 3661,
+  "pares": [
+   {
+    "sheet_row": 1073,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 436.32,
+    "co2_com_desconto": null,
+    "citacao": "Tab.6 p.6; fronteira cradle-to-site, sem uso/demolicao (sec.2.4).",
+    "derivado": "nao",
+    "nota": "As '33,72 tCO2-e prevented' (sec.4) sao a diferenca entre sistemas construtivos, nao credito."
+   },
+   {
+    "sheet_row": 1074,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 502.13,
+    "co2_com_desconto": null,
+    "citacao": "Tab.6 p.6; fronteira cradle-to-site, sem uso/demolicao (sec.2.4).",
+    "derivado": "nao",
+    "nota": "As '33,72 tCO2-e prevented' (sec.4) sao a diferenca entre sistemas construtivos, nao credito."
+   },
+   {
+    "sheet_row": 1075,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 525.89,
+    "co2_com_desconto": null,
+    "citacao": "Tab.6 p.6; fronteira cradle-to-site, sem uso/demolicao (sec.2.4).",
+    "derivado": "nao",
+    "nota": "As '33,72 tCO2-e prevented' (sec.4) sao a diferenca entre sistemas construtivos, nao credito."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-11 ate as referencias). Figuras 1-8 nao renderizadas (fronteiras/distribuicoes; valores em tabelas).",
+  "notas": "Sem descontos."
+ },
+ {
+  "row_id": 3681,
+  "pares": [
+   {
+    "sheet_row": 1078,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 266.25,
+    "co2_com_desconto": 251.25,
+    "citacao": "Sec.4.1 p.240: producao 4,26 kg CO2-eq/UF; carbonatacao 0,13 (vida util 60 anos) + 0,12 (fim de vida 940 anos em aterro) = 0,25 kg CO2; 'reduces the production impacts from 4.26 to 4.02'. 4,02/0,016 = 251,25 kg/m3.",
+    "derivado": "sim",
+    "nota": "Fronteira do artigo: so producao do cimento (381 kg/m3 x 0,69 kg CO2e/kg = 263) + carbonatacao; agregados/agua/transporte nao incluidos. Horizonte de 1000 anos."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-11 ate as referencias). Fig.2 (barras GWP100) e Figs.3-6 nao renderizadas; os numeros usados estao no texto.",
+  "notas": "Credito de carbonatacao declarado; gravado e o bruto."
+ },
+ {
+  "row_id": 3685,
+  "pares": [
+   {
+    "sheet_row": 2010,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 316,
+    "co2_com_desconto": 297.53,
+    "citacao": "Tab.10 p.10: 'Absorbed CO2' por pilar (0,4x0,6x3 = 0,72 m3, Tab.6) = -13.3 kg (Londres, clima actual); intervalo nos 6 cenarios 13,30-25,23 kg. Com desconto = 316 - 13.3/0,72 = 297.53 (conta nossa).",
+    "derivado": "sim",
+    "nota": "Base mista: o gravado e so constituintes A1-A3 (calculado por nos com Tab.4 x Tab.7); a absorcao e por pilar e foi dividida pelo volume do pilar. Cenario Londres-actual escolhido por nos; reparacoes (Tab.10) somam emissoes e nao foram incluidas. Carbonatacao do betao reciclado no fim de vida excluida pelos autores (sec.3.2)."
+   },
+   {
+    "sheet_row": 2011,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 249.8,
+    "co2_com_desconto": 233.97,
+    "citacao": "Tab.10 p.10: 'Absorbed CO2' por pilar (0,4x0,6x3 = 0,72 m3, Tab.6) = -11.4 kg (Londres, clima actual); intervalo nos 6 cenarios 11,40-19,11 kg. Com desconto = 249.8 - 11.4/0,72 = 233.97 (conta nossa).",
+    "derivado": "sim",
+    "nota": "Base mista: o gravado e so constituintes A1-A3 (calculado por nos com Tab.4 x Tab.7); a absorcao e por pilar e foi dividida pelo volume do pilar. Cenario Londres-actual escolhido por nos; reparacoes (Tab.10) somam emissoes e nao foram incluidas. Carbonatacao do betao reciclado no fim de vida excluida pelos autores (sec.3.2)."
+   },
+   {
+    "sheet_row": 2012,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 132.61,
+    "co2_com_desconto": 122.28,
+    "citacao": "Tab.10 p.10: 'Absorbed CO2' por pilar (0,4x0,6x3 = 0,72 m3, Tab.6) = -7.44 kg (Londres, clima actual); intervalo nos 6 cenarios 7,44-11,62 kg. Com desconto = 132.61 - 7.44/0,72 = 122.28 (conta nossa).",
+    "derivado": "sim",
+    "nota": "Base mista: o gravado e so constituintes A1-A3 (calculado por nos com Tab.4 x Tab.7); a absorcao e por pilar e foi dividida pelo volume do pilar. Cenario Londres-actual escolhido por nos; reparacoes (Tab.10) somam emissoes e nao foram incluidas. Carbonatacao do betao reciclado no fim de vida excluida pelos autores (sec.3.2)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-11 ate as referencias). Figuras 3-5 (probabilidades) nao renderizadas: sem CO2.",
+  "notas": "Credito de carbonatacao em servico declarado por cenario; gravado e bruto."
+ },
+ {
+  "row_id": 3687,
+  "pares": [
+   {
+    "sheet_row": 1080,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 251,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.1 p.9 / Tab.6: 251 kg CO2-eq/m3 (LC3 QC, cradle-to-gate A1-A3, Ecoinvent 3.7 cut-off).",
+    "derivado": "nao",
+    "nota": "Carbonatacao so mencionada como perspectiva na introducao; sem credito. Silica de fumo com alocacao economica (nao e credito). O 251 esta no texto da sec.4.1, a Tab.6 lista outros estudos."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (pp.1-12 ate as referencias). Fig.4 (contribuicao por processo) nao renderizada.",
+  "notas": "Sem descontos."
+ }
+]

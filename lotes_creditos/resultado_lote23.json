@@ -1,0 +1,553 @@
+[
+ {
+  "row_id": 3727,
+  "pares": [
+   {
+    "sheet_row": 1082,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 334,
+    "citacao": "p.7 (6562), texto: 'cumulative life-cycle GHG emissions are 334 kg CO2e/m3' (GWP100, berco-ao-tumulo) e 'the CO2 uptake during the use phase and at EoL resulting from concrete carbonation is small'; Fig.4a: barras por fase em TAWP com Use e End-of-life negativas (leitura por pixel: ~-10 e ~-28 kg CO2e/m3 em TAWP); fronteira na Sec.2.3.1 (captacao por carbonatacao no uso e no FdV modelada segundo Van Roijen et al. 2024).",
+    "derivado": "nao",
+    "nota": "O 334 gravado e o GWP100 liquido: ja inclui a captacao por carbonatacao no uso (50 anos) e no fim de vida (britagem 1-40 mm, 1 ano). O artigo nao imprime o CO2 sem a captacao em base GWP100 (os valores por fase estao na Tabela S1 do SI, que nao esta no PDF). Na Fig.4a as barras por fase estao em TAWP, nao em GWP100; em TAWP a captacao soma ~38 kg/m3 (lida por pixel), e em GWP100 seria igual ou maior (sem desconto temporal), pelo que o bruto GWP100 seria >= ~372 kg/m3 — estimativa, nao gravar. Atencao: o 334 e berco-ao-tumulo (inclui construcao, 28% do total, e demolicao), fronteira mais larga que A1-A3; o TAWP liquido e 330."
+   }
+  ],
+  "texto_completo_lido": "sim - 80.862 caracteres lidos linha a linha (11 paginas, incl. referencias); Fig.4 renderizada (PDF descarregado)",
+  "notas": "Unico artigo do lote com credito no valor gravado (carbonatacao)."
+ },
+ {
+  "row_id": 3731,
+  "pares": [
+   {
+    "sheet_row": 1083,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 609,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 p.24984 (C0 ~610 kg CO2-eq, ReCiPe Midpoint H, berco-ao-portao, UF 3130 kg = 1 m3); texto p.24983: aterro evitado da casca de camarao discutido so qualitativamente e NAO aplicado ('a crucial factor has not been considered, namely, the prevention of waste (shrimp shell) from being disposed of in a landfill').",
+    "derivado": "nao",
+    "nota": "A ACV nao tem creditos. O artigo menciona que evitar o aterro de 35 kg de residuo poderia tornar o indicador negativo, mas nao o quantifica nem aplica; alem disso o controlo C0 nao tem quitosano. Fig.7 confirma C0 ~610 (o 609 gravado = 670/1,10 e coerente)."
+   }
+  ],
+  "texto_completo_lido": "sim - 44.662 caracteres (9 paginas) lidos linha a linha; Fig.7 renderizada",
+  "notas": ""
+ },
+ {
+  "row_id": 3732,
+  "pares": [
+   {
+    "sheet_row": 1084,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 543,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684. Controlo ~540 na Fig.2c.",
+    "derivado": "nao",
+    "nota": "Sem creditos; cinza so com transporte."
+   },
+   {
+    "sheet_row": 1864,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1865,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1866,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1867,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1868,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1869,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1870,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1871,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1872,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1873,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1874,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1875,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1876,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1877,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1878,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   },
+   {
+    "sheet_row": 1879,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec. Environmental Impact Assessment p.3680: 'potential offsets from using the biomass for energy production were not considered'; impactos pre-cinza alocados a electricidade; Fig.2c (barras empilhadas todas positivas: PC, cinza, agregados, agua, mistura, transporte); constante y=469,8/x p.3684.",
+    "derivado": "nao",
+    "nota": "Sem creditos; os creditos de energia da biomassa foram explicitamente excluidos."
+   }
+  ],
+  "texto_completo_lido": "sim - 64.051 caracteres lidos linha a linha ate as referencias; Fig.2 renderizada",
+  "notas": ""
+ },
+ {
+  "row_id": 3752,
+  "pares": [
+   {
+    "sheet_row": 1087,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 367.85,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.4 (GWP 895 kg/t PC; 762 kg/t PC+15% RHA); Tabela 3 (RHA 8,3 kg/t por alocacao economica); Metodos LCA (UF 1 kg, CML 2001, Ecoinvent 3.5).",
+    "derivado": "sim",
+    "nota": "Sem creditos; os 70.771 t CO2e/ano 'mitigados' sao estimativa de escala, nao credito na ACV. Valor gravado e so do ligante (calculo nosso 895x0,411)."
+   },
+   {
+    "sheet_row": 1088,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 312.88,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.4 (GWP 895 kg/t PC; 762 kg/t PC+15% RHA); Tabela 3 (RHA 8,3 kg/t por alocacao economica); Metodos LCA (UF 1 kg, CML 2001, Ecoinvent 3.5).",
+    "derivado": "sim",
+    "nota": "Sem creditos (RHA com impacto por alocacao economica, nao credito). So ligante (762x0,4106)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral devolvido inline (9 paginas, curto), lido por completo",
+  "notas": ""
+ },
+ {
+  "row_id": 3758,
+  "pares": [
+   {
+    "sheet_row": 493,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 365.87,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.20: soma de factores de emissao x quantidades (OPC, MK, NS, FA, CA, agua, SP); sem fases alem da producao.",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   },
+   {
+    "sheet_row": 494,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 366.14,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.20: soma de factores de emissao x quantidades (OPC, MK, NS, FA, CA, agua, SP); sem fases alem da producao.",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   },
+   {
+    "sheet_row": 495,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 366.4,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.20: soma de factores de emissao x quantidades (OPC, MK, NS, FA, CA, agua, SP); sem fases alem da producao.",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   },
+   {
+    "sheet_row": 496,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 366.67,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.20: soma de factores de emissao x quantidades (OPC, MK, NS, FA, CA, agua, SP); sem fases alem da producao.",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   },
+   {
+    "sheet_row": 497,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 356.35,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.20: soma de factores de emissao x quantidades (OPC, MK, NS, FA, CA, agua, SP); sem fases alem da producao.",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   },
+   {
+    "sheet_row": 498,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 340.41,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.20: soma de factores de emissao x quantidades (OPC, MK, NS, FA, CA, agua, SP); sem fases alem da producao.",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   },
+   {
+    "sheet_row": 499,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 330,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.20: soma de factores de emissao x quantidades (OPC, MK, NS, FA, CA, agua, SP); sem fases alem da producao.",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   },
+   {
+    "sheet_row": 500,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 341.11,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.20: soma de factores de emissao x quantidades (OPC, MK, NS, FA, CA, agua, SP); sem fases alem da producao.",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   }
+  ],
+  "texto_completo_lido": "sim - 87.886 caracteres lidos linha a linha ate as referencias (texto da Sec. de carbono incorporado vem embaralhado no extractor, mas a Tabela 5 e as conclusoes confirmam os valores)",
+  "notas": ""
+ },
+ {
+  "row_id": 3777,
+  "pares": [
+   {
+    "sheet_row": 501,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 228.76,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 1 p.4: factores de producao do betao (kg CO2/m3; a unidade impressa 'kg CO2/kg' para C20-C40 e gralha).",
+    "derivado": "nao",
+    "nota": "O factor do betao nao tem creditos. A ACV da ponte tem uma reducao por reciclagem (Tabela 11: 797.906 kg de aco, ferro, madeira e brita das obras temporarias, Eq.6) aplicada so a fase de demolicao, ao nivel da ponte e nao ao betao por m3."
+   },
+   {
+    "sheet_row": 502,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 250.76,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 1 p.4: factores de producao do betao (kg CO2/m3; a unidade impressa 'kg CO2/kg' para C20-C40 e gralha).",
+    "derivado": "nao",
+    "nota": "O factor do betao nao tem creditos. A ACV da ponte tem uma reducao por reciclagem (Tabela 11: 797.906 kg de aco, ferro, madeira e brita das obras temporarias, Eq.6) aplicada so a fase de demolicao, ao nivel da ponte e nao ao betao por m3."
+   },
+   {
+    "sheet_row": 503,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 280.03,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 1 p.4: factores de producao do betao (kg CO2/m3; a unidade impressa 'kg CO2/kg' para C20-C40 e gralha).",
+    "derivado": "nao",
+    "nota": "O factor do betao nao tem creditos. A ACV da ponte tem uma reducao por reciclagem (Tabela 11: 797.906 kg de aco, ferro, madeira e brita das obras temporarias, Eq.6) aplicada so a fase de demolicao, ao nivel da ponte e nao ao betao por m3."
+   },
+   {
+    "sheet_row": 504,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 280.07,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 1 p.4: factores de producao do betao (kg CO2/m3; a unidade impressa 'kg CO2/kg' para C20-C40 e gralha).",
+    "derivado": "nao",
+    "nota": "O factor do betao nao tem creditos. A ACV da ponte tem uma reducao por reciclagem (Tabela 11: 797.906 kg de aco, ferro, madeira e brita das obras temporarias, Eq.6) aplicada so a fase de demolicao, ao nivel da ponte e nao ao betao por m3."
+   },
+   {
+    "sheet_row": 505,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 371.66,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 1 p.4: factores de producao do betao (kg CO2/m3; a unidade impressa 'kg CO2/kg' para C20-C40 e gralha).",
+    "derivado": "nao",
+    "nota": "O factor do betao nao tem creditos. A ACV da ponte tem uma reducao por reciclagem (Tabela 11: 797.906 kg de aco, ferro, madeira e brita das obras temporarias, Eq.6) aplicada so a fase de demolicao, ao nivel da ponte e nao ao betao por m3."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral devolvido inline (10 paginas), lido por completo; tabelas parcialmente embaralhadas pelo extractor",
+  "notas": ""
+ },
+ {
+  "row_id": 3786,
+  "pares": [
+   {
+    "sheet_row": 1090,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 697,
+    "co2_com_desconto": null,
+    "citacao": "Metodos p.2-4: berco-ao-portao (ate a mistura), GBS sem alocacao, so transporte; Fig.2 barras empilhadas por constituinte (todas emissoes positivas).",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor gravado lido por pixel na Fig.2 (feito em 27/09)."
+   },
+   {
+    "sheet_row": 1091,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 513,
+    "co2_com_desconto": null,
+    "citacao": "Metodos p.2-4: berco-ao-portao (ate a mistura), GBS sem alocacao, so transporte; Fig.2 barras empilhadas por constituinte (todas emissoes positivas).",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor gravado lido por pixel na Fig.2 (feito em 27/09)."
+   },
+   {
+    "sheet_row": 1092,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 470,
+    "co2_com_desconto": null,
+    "citacao": "Metodos p.2-4: berco-ao-portao (ate a mistura), GBS sem alocacao, so transporte; Fig.2 barras empilhadas por constituinte (todas emissoes positivas).",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor gravado lido por pixel na Fig.2 (feito em 27/09)."
+   },
+   {
+    "sheet_row": 1093,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 100,
+    "co2_com_desconto": null,
+    "citacao": "Metodos p.2-4: berco-ao-portao (ate a mistura), GBS sem alocacao, so transporte; Fig.2 barras empilhadas por constituinte (todas emissoes positivas).",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor gravado lido por pixel na Fig.2 (feito em 27/09)."
+   },
+   {
+    "sheet_row": 2013,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 720,
+    "co2_com_desconto": null,
+    "citacao": "Metodos p.2-4: berco-ao-portao (ate a mistura), GBS sem alocacao, so transporte; Fig.2 barras empilhadas por constituinte (todas emissoes positivas).",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor gravado lido por pixel na Fig.2 (feito em 27/09)."
+   },
+   {
+    "sheet_row": 2014,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 537,
+    "co2_com_desconto": null,
+    "citacao": "Metodos p.2-4: berco-ao-portao (ate a mistura), GBS sem alocacao, so transporte; Fig.2 barras empilhadas por constituinte (todas emissoes positivas).",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor gravado lido por pixel na Fig.2 (feito em 27/09)."
+   },
+   {
+    "sheet_row": 2015,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 493,
+    "co2_com_desconto": null,
+    "citacao": "Metodos p.2-4: berco-ao-portao (ate a mistura), GBS sem alocacao, so transporte; Fig.2 barras empilhadas por constituinte (todas emissoes positivas).",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor gravado lido por pixel na Fig.2 (feito em 27/09)."
+   }
+  ],
+  "texto_completo_lido": "sim - 72.388 caracteres lidos linha a linha ate as referencias (texto em duas colunas misturadas pelo extractor); Fig.2 nao re-renderizada nesta ronda",
+  "notas": ""
+ },
+ {
+  "row_id": 3802,
+  "pares": [
+   {
+    "sheet_row": 1096,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 471.62,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.22 (W22-R): Total 28,2969 = materias-primas 26,9881 + transporte 0,4071 + fabrico 0,8688 + aterro do residuo ceramico 0,0329 kg CO2 eq/m2; /0,06 m = 471,62.",
+    "derivado": "nao",
+    "nota": "Sem creditos neste cenario. Mas o total inclui uma carga de expansao do sistema: o aterro do po ceramico (+0,0329 kg/m2 = +0,55 kg/m3), que nao faz parte do bloco. So do bloco: 28,264/0,06 = 471,07 kg/m3."
+   },
+   {
+    "sheet_row": 1097,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 380.62,
+    "co2_com_desconto": 380.07,
+    "citacao": "Tabela 6 p.23 (W22-T20): Total 22,8042 = 21,5715 + 0,3968 + 0,8688 + (-0,0329 aterro evitado do po ceramico, 'avoided product', p.21); bruto = 21,5715+0,3968+0,8688 = 22,8371 kg/m2 /0,06 = 380,62 kg/m3; com desconto 22,8042/0,06 = 380,07.",
+    "derivado": "sim",
+    "nota": "Credito de aterro evitado, minusculo (-0,55 kg/m3). Gravado e o liquido."
+   }
+  ],
+  "texto_completo_lido": "sim - 58.952 caracteres lidos linha a linha ate as referencias",
+  "notas": "Os dois cenarios usam expansao do sistema (aterro do residuo como carga em W22-R e como credito em W22-T20)."
+ },
+ {
+  "row_id": 3817,
+  "pares": [
+   {
+    "sheet_row": 1102,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 388,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.10 (EPD Svensk Betong A1-A3, 388 kg CO2/m3); Sec.6.1 p.9-10: carbonatacao no uso e reciclagem explicitamente nao consideradas, so A1-A3.",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   }
+  ],
+  "texto_completo_lido": "sim - 82.438 caracteres lidos linha a linha ate as referencias",
+  "notas": ""
+ }
+]

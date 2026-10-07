@@ -1,0 +1,425 @@
+[
+ {
+  "row_id": 4578,
+  "pares": [
+   {
+    "sheet_row": 574,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 350,
+    "co2_com_desconto": null,
+    "citacao": "Sec.7.3 p.12: '12SSW100 was 0.35 t-CO2-e/m3'; factores Sec.7.3 (FA 0,004; GGBFS 0,052; agregados 0,0048; SH 1,915; SS 1,222 t-CO2/t; SSW nao considerado). Conferido com Tab.3: 200x0,004+200x0,052+1250x0,0048+88,32x1,915+132,48x1,222 = 348 kg ~ 350.",
+    "derivado": "nao",
+    "nota": "ACV simplificada por factores de literatura (Alsalman 2021), cradle-to-gate sem transporte. O SSW entra com carga zero (residuo), o que e corte de fronteira e nao credito subtraido. Nenhum credito, carbonatacao ou modulo D."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (corpo pp.1-14, ~65 mil caracteres); lista de referencias so pesquisada por termos. Figuras 22/23 (graficos de CO2) nao renderizadas: o valor gravado esta impresso no texto e foi reconferido pelos factores.",
+  "notas": "ACV simplificada por factores de literatura (Alsalman 2021), cradle-to-gate sem transporte. O SSW entra com carga zero (residuo), o que e corte de fronteira e nao credito subtraido. Nenhum credito, carbonatacao ou modulo D."
+ },
+ {
+  "row_id": 4580,
+  "pares": [
+   {
+    "sheet_row": 1570,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 86.33,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1571,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 90,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1572,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.5,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1573,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.6,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1574,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 90.3,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1575,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 88.94,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1576,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.6,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1577,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.93,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1578,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.61,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1579,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.74,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1580,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 90.18,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1581,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.54,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1582,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.27,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1583,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.44,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1584,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 88.78,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1585,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 89.36,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1586,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 88.78,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1587,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 88.8,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1588,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 88.56,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   },
+   {
+    "sheet_row": 1589,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 88.2,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2/3/6/7 (painel GWP, kg CO2-eq por m3 normalizado ao fc28) x fck da Tab.1-4. Reconferido por nos com a Tab.8 (cimento 0,192; brita 0,00445; areia 0,00242; agua 0,000171 kg CO2/kg; transporte 0,0663 kg/tkm; 50 km agregados, 100 km cimento e FBA): FBA0SL0-10 = 89,4 kg/m3 (gravado 86,33); restantes 19 pares batem a +-1%.",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-18 do corpo, incl. tabelas 1-8 e legendas); referencias so pesquisadas por termos. Figuras nao renderizadas (a questao dos creditos fica resolvida pelo inventario da Tab.8, que nao tem nenhuma entrada negativa).",
+  "notas": "Cradle-to-gate; FBA tratada como residuo (so o transporte e contado) - corte de fronteira, nao credito. Nenhum credito. Os gravados (leitura de figura) sao coerentes com o inventario impresso; o unico desvio e FBA0SL0-10 (86,33 vs 89,4 calculado, -3%)."
+ },
+ {
+  "row_id": 4584,
+  "pares": [
+   {
+    "sheet_row": 1600,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 429,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.5: ready-mixed concrete 4,29x10^2 kg CO2eq/m3 (KLCI DB).",
+    "derivado": "nao",
+    "nota": "Factor generico nacional de inventario; fronteira cradle-to-pre-operation (materiais, transporte, equipamento). Nenhum credito; reciclagem so mencionada como sugestao."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-17, incl. Tab.1-11); referencias so pesquisadas por termos.",
+  "notas": "Factor generico nacional de inventario; fronteira cradle-to-pre-operation (materiais, transporte, equipamento). Nenhum credito; reciclagem so mencionada como sugestao."
+ },
+ {
+  "row_id": 4599,
+  "pares": [
+   {
+    "sheet_row": 1605,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 224.34,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.3 (fonte [10]): C25/30 224,34 ... C50/60 265,95 kg CO2-eq/m3.",
+    "derivado": "nao",
+    "nota": "Factores unitarios de base de dados (fonte externa); a mencao a 40% de sucata refere-se a producao do aco (ja dentro do factor do aco), nao a credito do betao. Nenhum credito."
+   },
+   {
+    "sheet_row": 1606,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 224.94,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.3 (fonte [10]): C25/30 224,34 ... C50/60 265,95 kg CO2-eq/m3.",
+    "derivado": "nao",
+    "nota": "Factores unitarios de base de dados (fonte externa); a mencao a 40% de sucata refere-se a producao do aco (ja dentro do factor do aco), nao a credito do betao. Nenhum credito."
+   },
+   {
+    "sheet_row": 1607,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 265.28,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.3 (fonte [10]): C25/30 224,34 ... C50/60 265,95 kg CO2-eq/m3.",
+    "derivado": "nao",
+    "nota": "Factores unitarios de base de dados (fonte externa); a mencao a 40% de sucata refere-se a producao do aco (ja dentro do factor do aco), nao a credito do betao. Nenhum credito."
+   },
+   {
+    "sheet_row": 1608,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 265.28,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.3 (fonte [10]): C25/30 224,34 ... C50/60 265,95 kg CO2-eq/m3.",
+    "derivado": "nao",
+    "nota": "Factores unitarios de base de dados (fonte externa); a mencao a 40% de sucata refere-se a producao do aco (ja dentro do factor do aco), nao a credito do betao. Nenhum credito."
+   },
+   {
+    "sheet_row": 1609,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 265.91,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.3 (fonte [10]): C25/30 224,34 ... C50/60 265,95 kg CO2-eq/m3.",
+    "derivado": "nao",
+    "nota": "Factores unitarios de base de dados (fonte externa); a mencao a 40% de sucata refere-se a producao do aco (ja dentro do factor do aco), nao a credito do betao. Nenhum credito."
+   },
+   {
+    "sheet_row": 1610,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 265.95,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.3 (fonte [10]): C25/30 224,34 ... C50/60 265,95 kg CO2-eq/m3.",
+    "derivado": "nao",
+    "nota": "Factores unitarios de base de dados (fonte externa); a mencao a 40% de sucata refere-se a producao do aco (ja dentro do factor do aco), nao a credito do betao. Nenhum credito."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-16); referencias so pesquisadas por termos.",
+  "notas": "Factores unitarios de base de dados (fonte externa); a mencao a 40% de sucata refere-se a producao do aco (ja dentro do factor do aco), nao a credito do betao. Nenhum credito."
+ },
+ {
+  "row_id": 4600,
+  "pares": [
+   {
+    "sheet_row": 1612,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 357.3,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 p.10 e Tab.6 p.12: ready-mix concrete 287.434 kgCO2e (cradle-to-gate ICE v2.0); / (31,57+772,79) m3 = 357,3.",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate ICE; sem creditos (o fim de vida/transporte gate-to-grave e so transporte; todos os materiais excepto aco 'disposed of', sem credito ao aco). Nota: o gravado mistura os 31,57 m3 de betao de limpeza 25-30 MPa com os 772,79 m3 de 28-35 MPa (o artigo so da o total conjunto) - ~4% do volume."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-20, incl. Tab.1-11); referencias so pesquisadas por termos.",
+  "notas": "Cradle-to-gate ICE; sem creditos (o fim de vida/transporte gate-to-grave e so transporte; todos os materiais excepto aco 'disposed of', sem credito ao aco). Nota: o gravado mistura os 31,57 m3 de betao de limpeza 25-30 MPa com os 772,79 m3 de 28-35 MPa (o artigo so da o total conjunto) - ~4% do volume."
+ },
+ {
+  "row_id": 4604,
+  "pares": [
+   {
+    "sheet_row": 1620,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 430.8,
+    "co2_com_desconto": null,
+    "citacao": "Table 7 p.11: Steel CEM I SR 8,03x10^5; GFRP CEM I SR 7,60x10^5; GFRP CEM III SR 2,05x10^5 kg CO2 eq; / 1864 m3 (Table 5) = 430,8 / 407,7 / 110,0. Tab.6/8: A1-A3 + A4 + A5.",
+    "derivado": "nao",
+    "nota": "Sem creditos nem modulo D (OneClick LCA, CML-IA). Atencao: o total inclui armadura (aco ou GFRP), transporte A4 e A5 - nao e so o betao; e os autores dizem que as simulacoes 'are not absolute numbers' (faltam equipamentos, energia, residuos). Cimentos SR com EPD sueco (CEM I) e alemao (CEM III)."
+   },
+   {
+    "sheet_row": 1621,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 407.7,
+    "co2_com_desconto": null,
+    "citacao": "Table 7 p.11: Steel CEM I SR 8,03x10^5; GFRP CEM I SR 7,60x10^5; GFRP CEM III SR 2,05x10^5 kg CO2 eq; / 1864 m3 (Table 5) = 430,8 / 407,7 / 110,0. Tab.6/8: A1-A3 + A4 + A5.",
+    "derivado": "nao",
+    "nota": "Sem creditos nem modulo D (OneClick LCA, CML-IA). Atencao: o total inclui armadura (aco ou GFRP), transporte A4 e A5 - nao e so o betao; e os autores dizem que as simulacoes 'are not absolute numbers' (faltam equipamentos, energia, residuos). Cimentos SR com EPD sueco (CEM I) e alemao (CEM III)."
+   },
+   {
+    "sheet_row": 1622,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 110,
+    "co2_com_desconto": null,
+    "citacao": "Table 7 p.11: Steel CEM I SR 8,03x10^5; GFRP CEM I SR 7,60x10^5; GFRP CEM III SR 2,05x10^5 kg CO2 eq; / 1864 m3 (Table 5) = 430,8 / 407,7 / 110,0. Tab.6/8: A1-A3 + A4 + A5.",
+    "derivado": "nao",
+    "nota": "Sem creditos nem modulo D (OneClick LCA, CML-IA). Atencao: o total inclui armadura (aco ou GFRP), transporte A4 e A5 - nao e so o betao; e os autores dizem que as simulacoes 'are not absolute numbers' (faltam equipamentos, energia, residuos). Cimentos SR com EPD sueco (CEM I) e alemao (CEM III)."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-19, incl. Tab.1-8); referencias so pesquisadas por termos. Figuras (bubble charts, radar) nao renderizadas: os valores gravados estao impressos na Table 7.",
+  "notas": "Sem creditos nem modulo D (OneClick LCA, CML-IA). Atencao: o total inclui armadura (aco ou GFRP), transporte A4 e A5 - nao e so o betao; e os autores dizem que as simulacoes 'are not absolute numbers' (faltam equipamentos, energia, residuos). Cimentos SR com EPD sueco (CEM I) e alemao (CEM III)."
+ },
+ {
+  "row_id": 4605,
+  "pares": [
+   {
+    "sheet_row": 1623,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 376,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3 p.9 e Table 4 p.10: concreto 376 kg (Yeo & Potra [16]) e 143,48 kg (Paya et al. [56], HA-30) por m3.",
+    "derivado": "nao",
+    "nota": "Factores de literatura usados na funcao objectivo; o 'recycled type of steel' (352 kg/t) refere-se ao aco, nao ao betao. Nenhum credito."
+   },
+   {
+    "sheet_row": 1624,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 143.48,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3 p.9 e Table 4 p.10: concreto 376 kg (Yeo & Potra [16]) e 143,48 kg (Paya et al. [56], HA-30) por m3.",
+    "derivado": "nao",
+    "nota": "Factores de literatura usados na funcao objectivo; o 'recycled type of steel' (352 kg/t) refere-se ao aco, nao ao betao. Nenhum credito."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-28); referencias so pesquisadas por termos.",
+  "notas": "Factores de literatura usados na funcao objectivo; o 'recycled type of steel' (352 kg/t) refere-se ao aco, nao ao betao. Nenhum credito."
+ }
+]

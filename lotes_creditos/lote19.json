@@ -1,0 +1,344 @@
+[
+ {
+  "row_id": 3399,
+  "rotulo": "DeRousseau et al., 2020",
+  "titulo": "Statistical variation in the embodied carbon of concrete mixtures",
+  "pdf": "DEROUSSEAU et al., 2020.pdf",
+  "fileId": "1Kx-LzS9HZspLpdb1tAXh9PvuSMhHhD-Y",
+  "pares": [
+   {
+    "sheet_row": 407,
+    "material": "betao Mistura 1a (21 MPa-alvo, sem cinza volante)",
+    "fck": 21,
+    "co2_kg_m3": 174.8,
+    "co2_original": "174.8 kg CO2e/m3 de betao (valor liquido, incl. carbonatacao)",
+    "co2_original_local": "Texto p.9 do ficheiro (impressa 8): 'mean values of 174.8 and 144.8 kg CO2e per m3 of concrete'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 408,
+    "material": "betao Mistura 1b (21 MPa-alvo, 20% cinza volante)",
+    "fck": 21,
+    "co2_kg_m3": 144.8,
+    "co2_original": "144.8 kg CO2e/m3 de betao (valor liquido, incl. carbonatacao)",
+    "co2_original_local": "Texto p.9 do ficheiro (impressa 8): 'mean values of 174.8 and 144.8 kg CO2e per m3 of concrete'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3403,
+  "rotulo": "Stoiber et al., 2021",
+  "titulo": "Cradle-to-gate life cycle assessment of CFRP reinforcement for concrete structures: Calculation basis and exemplary application",
+  "pdf": "STOIBER et al., 2021 - j.jclepro.2020.124300.pdf",
+  "fileId": "1bzZiOGS7Lco3y7qLQf6EONI85vO3wAET",
+  "pares": [
+   {
+    "sheet_row": 984,
+    "material": "concreto estrutural classe C30/37 (paredes, ponte exemplar)",
+    "fck": 30,
+    "co2_kg_m3": 232,
+    "co2_original": "232 kg CO2eq/m3",
+    "co2_original_local": "p.7-8, Tabela 3 (valor absoluto impresso, base EPD InformationsZentrum Beton GmbH)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 985,
+    "material": "concreto estrutural classe C50/60 (tabuleiro, ponte exemplar)",
+    "fck": 50,
+    "co2_kg_m3": 335,
+    "co2_original": "335 kg CO2eq/m3",
+    "co2_original_local": "p.7-8, Tabela 3 (valor absoluto impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 986,
+    "material": "concreto estrutural classe C70/85 (tabuleiro e paredes, ponte exemplar com reforco CFRP)",
+    "fck": 70,
+    "co2_kg_m3": 431,
+    "co2_original": "431 kg CO2eq/m3",
+    "co2_original_local": "p.7-8, Tabela 3 (valor absoluto impresso, extrapolado pelo proprio artigo)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3404,
+  "rotulo": "Abdulkareem et al., 2021",
+  "titulo": "Environmental and economic perspective of waste-derived activators on alkali-activated mortars",
+  "pdf": "ABDULKAREEM et al., 2021 - j.jclepro.2020.124651.pdf",
+  "fileId": "183CCUoAPgbV7u2PbNijs5E9xd5Wbq5WD",
+  "pares": [
+   {
+    "sheet_row": 987,
+    "material": "argamassa alcali-ativada S1 (one-part, ativador em po convencional)",
+    "fck": 52,
+    "co2_kg_m3": 190.6,
+    "co2_original": "~190.6 kg CO2 eq./m3 (barra '100%' do cenario base EU NaOH / Ecoinvent)",
+    "co2_original_local": "Fig.5 (p.7, painel 'Climate change', eixo 'kg CO2 eq./m3' 0-250, grupo 'EU NaOH') e Fig.6 (p.7, painel 'Climate change', grupo 'Ecoinvent', eixo 0-300) -- os dois graficos dao o mesmo cenario base",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (UF = 1 m3 de argamassa, sec.2.2.1); valor lido no grafico por medicao de pixeis contra as linhas de grelha (S1 190,6; S2 174,2 = 92% de S1; S3 72,4 = 38%; S4 = 38% de S1 = 72,4); coerente com o texto p.5 ('S3 and S4 both had 62% lower emissions when compared to S1') [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 988,
+    "material": "argamassa alcali-ativada S2 (two-part, ativador aquoso convencional)",
+    "fck": 58,
+    "co2_kg_m3": 174.2,
+    "co2_original": "~174.2 kg CO2 eq./m3 (barra '92%' do cenario base EU NaOH / Ecoinvent)",
+    "co2_original_local": "Fig.5 (p.7, painel 'Climate change', eixo 'kg CO2 eq./m3' 0-250, grupo 'EU NaOH') e Fig.6 (p.7, painel 'Climate change', grupo 'Ecoinvent', eixo 0-300) -- os dois graficos dao o mesmo cenario base",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (UF = 1 m3 de argamassa, sec.2.2.1); valor lido no grafico por medicao de pixeis contra as linhas de grelha (S1 190,6; S2 174,2 = 92% de S1; S3 72,4 = 38%; S4 = 38% de S1 = 72,4); coerente com o texto p.5 ('S3 and S4 both had 62% lower emissions when compared to S1') [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 989,
+    "material": "argamassa alcali-ativada S3 (one-part, ativador derivado de vidro/WG-NaOH)",
+    "fck": 58,
+    "co2_kg_m3": 72.4,
+    "co2_original": "~72.4 kg CO2 eq./m3 (barra '38%' do cenario base EU NaOH / Ecoinvent)",
+    "co2_original_local": "Fig.5 (p.7, painel 'Climate change', eixo 'kg CO2 eq./m3' 0-250, grupo 'EU NaOH') e Fig.6 (p.7, painel 'Climate change', grupo 'Ecoinvent', eixo 0-300) -- os dois graficos dao o mesmo cenario base",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (UF = 1 m3 de argamassa, sec.2.2.1); valor lido no grafico por medicao de pixeis contra as linhas de grelha (S1 190,6; S2 174,2 = 92% de S1; S3 72,4 = 38%; S4 = 38% de S1 = 72,4); coerente com o texto p.5 ('S3 and S4 both had 62% lower emissions when compared to S1') [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 990,
+    "material": "argamassa alcali-ativada S4 (two-part, ativador derivado de RHA-NaOH)",
+    "fck": 60,
+    "co2_kg_m3": 72.4,
+    "co2_original": "~72.4 kg CO2 eq./m3 (barra '38%' do cenario base EU NaOH / Ecoinvent)",
+    "co2_original_local": "Fig.5 (p.7, painel 'Climate change', eixo 'kg CO2 eq./m3' 0-250, grupo 'EU NaOH') e Fig.6 (p.7, painel 'Climate change', grupo 'Ecoinvent', eixo 0-300) -- os dois graficos dao o mesmo cenario base",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (UF = 1 m3 de argamassa, sec.2.2.1); valor lido no grafico por medicao de pixeis contra as linhas de grelha (S1 190,6; S2 174,2 = 92% de S1; S3 72,4 = 38%; S4 = 38% de S1 = 72,4); coerente com o texto p.5 ('S3 and S4 both had 62% lower emissions when compared to S1') [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 3413,
+  "rotulo": "Batuecas et al., 2021",
+  "titulo": "Carbon footprint and water use of alkali-activated and hybrid cement mortars",
+  "pdf": "BATUECAS et al., 2021a - j.jclepro.2021.128653.pdf",
+  "fileId": "1Xr-5b-riY8ADsSM_d4w6ja0o6jC7UL-B",
+  "pares": [
+   {
+    "sheet_row": 993,
+    "material": "argamassa OPC (CEM I 42.5R) — referencia",
+    "fck": 43.5,
+    "co2_kg_m3": 535.8,
+    "co2_original": "535.8 kg CO2eq/m3",
+    "co2_original_local": "p.6, Tabela 4 e texto ('535.80 kg CO2 eq/m3')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 994,
+    "material": "argamassa alcali-ativada de escoria (AAM-slag)",
+    "fck": 101.2,
+    "co2_kg_m3": -406.02,
+    "co2_original": "-406.02 kg CO2eq/m3",
+    "co2_original_local": "p.6, Tabela 4 e texto ('-406.02 kg CO2 eq/m3')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 995,
+    "material": "argamassa hibrida de escoria (Hybrid-slag)",
+    "fck": 42,
+    "co2_kg_m3": -253.26,
+    "co2_original": "-253.26 kg CO2eq/m3",
+    "co2_original_local": "p.6, Tabela 4 ('-253.26 kg CO2 eq/m3, HM from slag')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 996,
+    "material": "argamassa hibrida de cinza volante (Hybrid-fly ash)",
+    "fck": 30,
+    "co2_kg_m3": -253.27,
+    "co2_original": "-253.27 kg CO2eq/m3",
+    "co2_original_local": "p.6, Tabela 4 ('-253.27 kg CO2 eq/m3, HM from fly ash')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3416,
+  "rotulo": "Li et al., 2022",
+  "titulo": "Upcycling of waste concrete in eco-friendly strain-hardening cementitious composites: Mixture design, structural performance, and life-cycle assessment",
+  "pdf": "LI et al., 2022 - j.jclepro.2021.129911.pdf",
+  "fileId": "1pmmuq6wzQkBeagW9u69OL-IVvz8UEB3q",
+  "pares": [
+   {
+    "sheet_row": 997,
+    "material": "SHCC otimizado com po de concreto reciclado (RCP 45%) — mistura usada nas vigas de referencia estrutural",
+    "fck": 30.2,
+    "co2_kg_m3": 469.7987,
+    "co2_original": "136 kg CO2eq por viga SHCC completa (material + aco); parcela so do SHCC = 70 kg por viga",
+    "co2_original_local": "p.10, texto sec.5.2.1; volume da viga na Secao 4",
+    "co2_conversao": "70 kg (so SHCC, sem os 66 kg de aco) / 0,149 m3 = 469,80"
+   },
+   {
+    "sheet_row": 998,
+    "material": "concreto convencional (viga de referencia estrutural, mesma resistencia da SHCC)",
+    "fck": 30,
+    "co2_kg_m3": 370.3704,
+    "co2_original": "132 kg CO2eq por viga de betao convencional (material + aco); parcela so do betao = 60 kg",
+    "co2_original_local": "p.10, texto sec.5.2.1; volume da viga na Secao 4",
+    "co2_conversao": "60 kg (so betao, sem os 72 kg de aco) / 0,162 m3 = 370,37"
+   }
+  ]
+ },
+ {
+  "row_id": 3419,
+  "rotulo": "Sandanayake et al., 2022",
+  "titulo": "A feasibility study of using coffee cup waste as a building material-Life cycle assessment and multi-objective optimisation",
+  "pdf": "SANDANAYAKE et al., 2022a - j.jclepro.2022.130498.pdf",
+  "fileId": "1-R6Xo30xKJyOoIxoyvB4Xi3q2bE8LwFc",
+  "pares": [
+   {
+    "sheet_row": 1001,
+    "material": "Concreto controle (traco de referencia, sem residuo de copo de cafe)",
+    "fck": 20.5,
+    "co2_kg_m3": 446,
+    "co2_original": "446 kg CO2-eq/m3 (GWP100a, CML baseline + ReCiPe midpoint, OpenLCA/Ecoinvent)",
+    "co2_original_local": "Tabela 4 (p.8): 'Life cycle impact results of 1 m3 concrete samples', coluna Control, linha 'Climate change - GWP 100a: 4.46E+02'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1002,
+    "material": "Concreto com 10% de residuo de copo de cafe (substituicao volumetrica de areia)",
+    "fck": 16,
+    "co2_kg_m3": 398,
+    "co2_original": "398 kg CO2-eq/m3 (GWP100a)",
+    "co2_original_local": "Tabela 4 (p.8), coluna 'Plastic savings' (mistura com residuo), linha 'Climate change - GWP 100a: 3.98E+02'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3424,
+  "rotulo": "Di Summa et al., 2022",
+  "titulo": "Environmental and economic sustainability of crack mitigation in reinforced concrete with SuperAbsorbent polymers (SAPs)",
+  "pdf": "DI SUMMA, 2022 - j.jclepro.2022.131998.pdf",
+  "fileId": "1Ovt_3iuW2_tK6u44Kjfc4DxA4w_dJOEl",
+  "pares": [
+   {
+    "sheet_row": 1004,
+    "material": "Concreto C35/45 (Wall_Ref, parede de referencia de betao armado sem SAP)",
+    "fck": 35,
+    "co2_kg_m3": 532.5,
+    "co2_original": "~1.64 x10^4 kg CO2 eq por parede (A1-B7, inclui armadura e reparacoes)",
+    "co2_original_local": "Fig.8 (p.9), painel 'Global warming (GWP100a) [x10^4 kg CO2 eq]', eixo -0,5 a 2,5, leitura por pixeis",
+    "co2_conversao": "total da parede / volume da parede: 16400 kg / (14 m x 2,75 m x 0,80 m = 30.8 m3, sec.2 p.2) = 532 kg/m3. Inclui armadura (familia concreto_armado) e as actividades de reparacao da fase de uso; exclui fim de vida [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 1005,
+    "material": "Concreto C30/37 (Wall_SAP, parede de betao armado com polimero superabsorvente)",
+    "fck": 30,
+    "co2_kg_m3": 526,
+    "co2_original": "~1.62 x10^4 kg CO2 eq por parede (A1-B7, inclui armadura e reparacoes)",
+    "co2_original_local": "Fig.8 (p.9), painel 'Global warming (GWP100a) [x10^4 kg CO2 eq]', eixo -0,5 a 2,5, leitura por pixeis",
+    "co2_conversao": "total da parede / volume da parede: 16200 kg / (14 m x 2,75 m x 0,80 m = 30.8 m3, sec.2 p.2) = 526 kg/m3. Inclui armadura (familia concreto_armado) e as actividades de reparacao da fase de uso; exclui fim de vida [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   }
+  ]
+ },
+ {
+  "row_id": 3439,
+  "rotulo": "Jones & Li, 2023",
+  "titulo": "Life cycle assessment of ultra-tall wind turbine towers comparing concrete additive manufacturing to conventional manufacturing",
+  "pdf": "JONES, 2023 - j.jclepro.2023.137709.pdf",
+  "fileId": "1lCB4sP2SN9U3a1HY4g2o0gLfI8ZmaNv5",
+  "pares": [
+   {
+    "sheet_row": 1006,
+    "material": "Torre eolica de concreto impresso em 3D (35-MPa, resistencia normal)",
+    "fck": 35,
+    "co2_kg_m3": 400,
+    "co2_original": "400 (idem)",
+    "co2_original_local": "Fig.7",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-5 (fim da barra coincide com a grelha de 400)) [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 1007,
+    "material": "Torre eolica de concreto impresso em 3D (78-MPa, alta resistencia)",
+    "fck": 78,
+    "co2_kg_m3": 979,
+    "co2_original": "979 (idem)",
+    "co2_original_local": "Fig.7",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-5) [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 1999,
+    "material": "Betao pronto convencional 35 MPa (ready-mix)",
+    "fck": 35,
+    "co2_kg_m3": 361,
+    "co2_original": "361 (GWP in kg CO2 eq. per m3 of material)",
+    "co2_original_local": "Fig.7",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-5 kg/m3 (1 px = 4,5)) [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   }
+  ]
+ },
+ {
+  "row_id": 3443,
+  "rotulo": "Negrin et al., 2023",
+  "titulo": "Multi-criteria optimization for sustainability-based design of reinforced concrete frame buildings",
+  "pdf": "NEGRIN et al., 2023 - j.jclepro.2023.139115.pdf",
+  "fileId": "1uDJCViu-OWFJq8HyqkmKTFdQZMfE8JqW",
+  "pares": [
+   {
+    "sheet_row": 1009,
+    "material": "Concreto 30 MPa (classe de projeto, fator de emissao unitario ITEC BEDEC 2016)",
+    "fck": 30,
+    "co2_kg_m3": 279.21,
+    "co2_original": "279.21 kg CO2/m3 (fator de emissao unitario, base de dados ITEC BEDEC 2016)",
+    "co2_original_local": "Tabela 1 (p.3): 'Concrete 30 MPa m3 279.21'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1010,
+    "material": "Concreto 35 MPa (classe de projeto, fator de emissao unitario ITEC BEDEC 2016)",
+    "fck": 35,
+    "co2_kg_m3": 305.96,
+    "co2_original": "305.96 kg CO2/m3 (fator de emissao unitario, base de dados ITEC BEDEC 2016)",
+    "co2_original_local": "Tabela 1 (p.3): 'Concrete 35 MPa m3 305.96'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1011,
+    "material": "Concreto 40 MPa (classe de projeto, fator de emissao unitario ITEC BEDEC 2016)",
+    "fck": 40,
+    "co2_kg_m3": 307.06,
+    "co2_original": "307.06 kg CO2/m3 (fator de emissao unitario, base de dados ITEC BEDEC 2016)",
+    "co2_original_local": "Tabela 1 (p.3): 'Concrete 40 MPa m3 307.06'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1012,
+    "material": "Concreto 45 MPa (classe de projeto, fator de emissao unitario ITEC BEDEC 2016)",
+    "fck": 45,
+    "co2_kg_m3": 307.06,
+    "co2_original": "307.06 kg CO2/m3 (fator de emissao unitario, base de dados ITEC BEDEC 2016)",
+    "co2_original_local": "Tabela 1 (p.3): 'Concrete 45 MPa m3 307.06'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3449,
+  "rotulo": "Kuepfer et al., 2024",
+  "titulo": "Reuse of cut concrete slabs in new buildings for circular ultra-low-carbon floor designs",
+  "pdf": "KUEPFER et al., 2024 - j.jclepro.2024.141566.pdf",
+  "fileId": "1T--H78yxLgJW3UHxqsaf99B88Zm5oRL9",
+  "pares": [
+   {
+    "sheet_row": 1013,
+    "material": "Laje de concreto armado convencional macica (comparador de referencia, C30/37)",
+    "fck": 30,
+    "co2_kg_m3": 372.2,
+    "co2_original": "67 kgCO2e/m2",
+    "co2_original_local": "Table 2 (p.14-15) 'Span 3 Conventional RC flat slab 67'; espessura p.13 'The 3-m slab is 18 cm thick'",
+    "co2_conversao": "67 / 0,18 m = 372,2 kgCO2e/m3 de laje (inclui armadura 1,42% e cofragem) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2000,
+    "material": "Laje macica de betao armado convencional C30/37, vao 6 m, 20 cm (caso de estudo, Genebra)",
+    "fck": 30,
+    "co2_kg_m3": 370,
+    "co2_original": "74 kgCO2e/m2",
+    "co2_original_local": "Table 2 'Span 6 Conventional RC flat slab 74'; p.13 'The 6-m slab is 20 cm thick, and the reinforcement rate is estimated at 1.4 %'",
+    "co2_conversao": "74 / 0,20 m = 370,0 kgCO2e/m3 de laje (inclui armadura 1,4% e cofragem) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ }
+]

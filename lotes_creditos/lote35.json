@@ -1,0 +1,389 @@
+[
+ {
+  "row_id": 4510,
+  "rotulo": "Ji et al., 2024",
+  "titulo": "Properties, Microstructure Development and Life Cycle Assessment of Alkali-Activated Materials Containing Steel Slag under Different Alkali Equivalents",
+  "pdf": "JI et al., 2024.pdf",
+  "fileId": "1kTwSJN76ROTJAfQOTRZhLgbwH231ZiLf",
+  "pares": [
+   {
+    "sheet_row": 1476,
+    "material": "AAM (pasta) SS/FA/GGBS com 10% SS + Ne=8% (N8S10 - otimo ambiental e melhor resistencia)",
+    "fck": 59.4,
+    "co2_kg_m3": 235.5,
+    "co2_original": "OPC = 1010,6 kg CO2-eq/m3 e 'GWP de N8S10 76,7% menor que o do cimento' (sem valor absoluto proprio para N8S10)",
+    "co2_original_local": "p.8, texto secao 3.3.1",
+    "co2_conversao": "1010,6 x (1 - 0,767) = 235,5"
+   }
+  ]
+ },
+ {
+  "row_id": 4512,
+  "rotulo": "Skibicki et al., 2024",
+  "titulo": "Potential of Reusing 3D Printed Concrete (3DPC) Fine Recycled Aggregates as a Strategy towards Decreasing Cement Content in 3DPC",
+  "pdf": "SKIBICKI et al., 2024.pdf",
+  "fileId": "12SiWBA1aCjOA6lopwjeQerFsDIBqqwHC",
+  "pares": [
+   {
+    "sheet_row": 1480,
+    "material": "Concreto 3D impresso (3DPC) R0 - referencia sem fRA (agregado fino reciclado)",
+    "fck": 82.07,
+    "co2_kg_m3": 487.3,
+    "co2_original": "487.3 kg CO2eq/m3",
+    "co2_original_local": "Tabela 6 (p.18): 'Global Warming Potential (kgCO2eq./m3)', linha R0, coluna A1+A2 = 487.3",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1482,
+    "material": "Concreto 3D impresso (3DPC) R20 - 20% substituicao cimento por fRA",
+    "fck": 74.06,
+    "co2_kg_m3": 393.8,
+    "co2_original": "393.8 kg CO2eq/m3",
+    "co2_original_local": "Tabela 6 (p.18): linha R20, coluna A1+A2 = 393.8",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1485,
+    "material": "Concreto 3D impresso (3DPC) R50 - 50% substituicao cimento por fRA (maximo)",
+    "fck": 41.61,
+    "co2_kg_m3": 253.6,
+    "co2_original": "253.6 kg CO2eq/m3",
+    "co2_original_local": "Tabela 6 (p.18): linha R50, coluna A1+A2 = 253.6",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4516,
+  "rotulo": "Lv et al., 2024",
+  "titulo": "Utilization of Sintered Sludge Ash with Different Mechanical-Thermal Activation Parameters as a Supplementary Cementitious Material: Mechanical Properties and Life Cycle Assessment of Cement-Based Paste",
+  "pdf": "LV et al., 2024.pdf",
+  "fileId": "1-aQjUCysRD3D8bVUyU-_pPULm7ZRfsFa",
+  "pares": [
+   {
+    "sheet_row": 1486,
+    "material": "Pasta cimento com 30% SSA calcinada a 800C/2h moida 1min (P-800/2/1) - otimo",
+    "fck": 57.92,
+    "co2_kg_m3": 1303.7,
+    "co2_original": "~1303.7 kg CO2 eq por 1 m3 de pasta SSC (leitura grafica)",
+    "co2_original_local": "Fig.8a p.11 (barra P-800/2/1; UF = 1 m3 de pasta, p.5)",
+    "co2_conversao": "nenhuma - nativo por m3 (UF 1 m3 de pasta); valor lido ao pixel na imagem de alta resolucao da Fig.8a (eixo 0-1600, ~5 kg/px) [REVISAO 2026-09-27; confianca media] [ALERTA ETAPA4: leitura grafica; coerente com o texto (SSA = 8,1% do GWP em P-800/2/10, medido 8,4%); factor implicito do cimento ~1,31 kg CO2/kg (910 kg/m3), alto mas do proprio inventario]"
+   },
+   {
+    "sheet_row": 2089,
+    "material": "Pasta SSC 30% SSA 800C/2h, moagem 10 min (P-800/2/10) - optimo TOPSIS/radar",
+    "fck": 60.15,
+    "co2_kg_m3": 1303.7,
+    "co2_original": "~1303.7 kg CO2 eq por 1 m3 de pasta SSC (leitura grafica)",
+    "co2_original_local": "Fig.8a p.11 (barra P-800/2/10; UF = 1 m3 de pasta, p.5)",
+    "co2_conversao": "nenhuma - nativo por m3 (UF 1 m3 de pasta); valor lido ao pixel na imagem de alta resolucao da Fig.8a (eixo 0-1600, ~5 kg/px) [REVISAO 2026-09-27; confianca media] [ALERTA ETAPA4: leitura grafica; coerente com o texto (SSA = 8,1% do GWP em P-800/2/10, medido 8,4%); factor implicito do cimento ~1,31 kg CO2/kg (910 kg/m3), alto mas do proprio inventario]"
+   },
+   {
+    "sheet_row": 2090,
+    "material": "Pasta de referencia P-20/0/1 (lama seca ao ar, 30%)",
+    "fck": 42.15,
+    "co2_kg_m3": 1246.9,
+    "co2_original": "~1246.9 kg CO2 eq por 1 m3 de pasta SSC (leitura grafica)",
+    "co2_original_local": "Fig.8a p.11 (barra P-20/0/1; UF = 1 m3 de pasta, p.5)",
+    "co2_conversao": "nenhuma - nativo por m3 (UF 1 m3 de pasta); valor lido ao pixel na imagem de alta resolucao da Fig.8a (eixo 0-1600, ~5 kg/px) [REVISAO 2026-09-27; confianca media] [ALERTA ETAPA4: leitura grafica; coerente com o texto (SSA = 8,1% do GWP em P-800/2/10, medido 8,4%); factor implicito do cimento ~1,31 kg CO2/kg (910 kg/m3), alto mas do proprio inventario]"
+   }
+  ]
+ },
+ {
+  "row_id": 4518,
+  "rotulo": "Agrela et al., 2024",
+  "titulo": "Life-Cycle Assessment and Environmental Costs of Cement-Based Materials Manufactured with Mixed Recycled Aggregate and Biomass Ash",
+  "pdf": "AGRELA et al., 2024.pdf",
+  "fileId": "1oZ8kDH9QYx2QnvO2DzhXQqwFNC6aFeZA",
+  "pares": [
+   {
+    "sheet_row": 1487,
+    "material": "Argamassa controlo M-Control (CEM II 42.5)",
+    "fck": 51.48,
+    "co2_kg_m3": 475.78,
+    "co2_original": "475.78 kg CO2 eq/m3",
+    "co2_original_local": "Tabela 17 (p.19): GWP, coluna M-Control = 475.78 kg CO2 eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1488,
+    "material": "Argamassa M-EcHy (CEM ecohibrido: 19% pMRA + 6% pBBA substituindo clinker)",
+    "fck": 49.74,
+    "co2_kg_m3": 358.91,
+    "co2_original": "358.91 kg CO2 eq/m3",
+    "co2_original_local": "Tabela 17 (p.19): GWP, coluna M-EcHy = 358.91 kg CO2 eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1489,
+    "material": "Argamassa M-EcHy/20M (19% pMRA + 6% pBBA + substituicao 20% areia por MRA fino)",
+    "fck": 43.85,
+    "co2_kg_m3": 360.21,
+    "co2_original": "360.21 kg CO2 eq/m3",
+    "co2_original_local": "Tabela 17 (p.19): GWP, coluna M-EcHy/20M = 360.21 kg CO2 eq",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1490,
+    "material": "Concreto controlo C-Control (CEM II 42.5 + agregados naturais)",
+    "fck": 55.7,
+    "co2_kg_m3": 258.89,
+    "co2_original": "258.89 kg CO2 eq/m3",
+    "co2_original_local": "p.20, texto e Tabela 18: 'the production of 1 m3 of C-Control generates 258.89 kg CO2 eq.'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1491,
+    "material": "Concreto C-EcHy (CEM ecohibrido: 19% pMRA + 6% pBBA substituindo clinker + ANC)",
+    "fck": 49.1,
+    "co2_kg_m3": 229.43,
+    "co2_original": "229.43 kg CO2 eq/m3",
+    "co2_original_local": "p.20, texto e Tabela 18: 'it is 229.43 kg CO2 eq. for C-EcHy'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1492,
+    "material": "Concreto C-EcHy/28M-6B (19% pMRA + 6% pBBA cimento + 28% MRA grosso + 6% BBA agregado)",
+    "fck": 43,
+    "co2_kg_m3": 233.71,
+    "co2_original": "233.71 kg CO2 eq/m3",
+    "co2_original_local": "p.20, texto e Tabela 18: '233.71 kg CO2 eq. for C-EcHy/28M-6B'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4521,
+  "rotulo": "Lemesre et al., 2024",
+  "titulo": "Strength Development and Environmental Impact of Waste-Glass-Based Cements Activated with Portland Cement, NaOH, Na-Silicate or Na-Carbonates at Ambient Temperature",
+  "pdf": "LEMESRE et al., 2024.pdf",
+  "fileId": "1svkKJ9CQS0GOyuvlKuKLWvpn4-T-SCFP",
+  "pares": [
+   {
+    "sheet_row": 1494,
+    "material": "Pasta vidro alcali-ativada com 10% Na-carbonato (sc10) - a 360 dias (melhor desempenho tardio)",
+    "fck": 74,
+    "co2_kg_m3": 64,
+    "co2_original": "64 kg CO2eq/m3 (sc10)",
+    "co2_original_local": "Fig.8",
+    "co2_conversao": "nenhuma - lido na Fig.8"
+   }
+  ]
+ },
+ {
+  "row_id": 4522,
+  "rotulo": "Yao et al., 2024",
+  "titulo": "Influence of Accelerated Carbonation on the Performance of Recycled Concrete Containing Fly Ash, Recycled Coarse Aggregate, and Fine Aggregate",
+  "pdf": "YAO et al., 2024.pdf",
+  "fileId": "1D3gYpetTnjPiy_HMIamQa36yOeB6fAi7",
+  "pares": [
+   {
+    "sheet_row": 1495,
+    "material": "Concreto referencia FA0C0F0 - sem FA, 100% agregado natural (NCA+NFA), sem carbonatacao",
+    "fck": 40.38,
+    "co2_kg_m3": 432.4,
+    "co2_original": "432.4 kg CO2eq/m3 (CT, total bruto; CL=429.6 kg CO2eq/m3 liquido apos credito de carbonatacao)",
+    "co2_original_local": "Tabela 8 (p.15): FA0C0F0, coluna CT = 432.4, coluna CL = 429.6",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1496,
+    "material": "RAC FA10C0F0 - 10% FA + 100% NCA + 100% NFA sem carbonatacao (28d)",
+    "fck": 38.46,
+    "co2_kg_m3": 400.4,
+    "co2_original": "400.4 kg CO2eq/m3 (CT, total bruto; CL=396.2 kg CO2eq/m3 liquido)",
+    "co2_original_local": "Tabela 8 (p.15): FA10C0F0, coluna CT = 400.4, coluna CL = 396.2",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1497,
+    "material": "RAC FA20C0F0 - 20% FA + 100% NCA + 100% NFA sem carbonatacao (28d)",
+    "fck": 39.9,
+    "co2_kg_m3": 368.5,
+    "co2_original": "368.5 kg CO2eq/m3 (CT, total bruto; CL=363.2 kg CO2eq/m3 liquido)",
+    "co2_original_local": "Tabela 8 (p.15): FA20C0F0, coluna CT = 368.5, coluna CL = 363.2",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1498,
+    "material": "RAC FA10C50F15 - 10% FA + 50% RCA + 15% RFA sem carbonatacao (28d)",
+    "fck": 37.44,
+    "co2_kg_m3": 397.2,
+    "co2_original": "397.2 kg CO2eq/m3 (CT, total bruto; CL=390.7 kg CO2eq/m3 liquido)",
+    "co2_original_local": "Tabela 8 (p.15): FA10C50F15, coluna CT = 397.2, coluna CL = 390.7",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4537,
+  "rotulo": "Luo et al., 2023",
+  "titulo": "Study on Improving Measures of Mechanical Properties of Geopolymer Materials and Its Effect on CO2 Emission",
+  "pdf": "LUO et al., 2023.pdf",
+  "fileId": "1krfiskZrF2GuQEGRK42ULK_YBd0ZUaKe",
+  "pares": [
+   {
+    "sheet_row": 1500,
+    "material": "Concreto geopolimero CDWGC60 - 20% CDWC pre-tratado a 60C/24h + 80% FA, cura termica 80C/24h (otimo)",
+    "fck": 62.3,
+    "co2_kg_m3": 608.08,
+    "co2_original": "608.08 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 7 (p.10): CDWGC60 (pre-tratamento CDWC a 60C), Total CO2 Emissions = 608.08 kg CO2eq (base: producao de 1 m3 de CDWGC)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1501,
+    "material": "Concreto geopolimero CDWGC20 (controle) - 20% CDWC sem pre-tratamento + 80% FA, cura termica 80C/24h",
+    "fck": 57,
+    "co2_kg_m3": 554.6,
+    "co2_original": "554.6 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 7 (p.10): CDWGC20 (control), Total CO2 Emissions = 554.60 kg CO2eq (base: producao de 1 m3 de CDWGC)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1502,
+    "material": "Pasta geopolimero CDWGP3 (3% CaO, otimo) - cura ambiente 20C",
+    "fck": 28.9,
+    "co2_kg_m3": 1191.41,
+    "co2_original": "1191.41 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 7 (p.10): CDWGP3 (3% CaO), Total CO2 Emissions = 1191.41 kg CO2eq (base: producao de 1 m3 de CDWGP)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4549,
+  "rotulo": "Sambucci et al., 2023",
+  "titulo": "Life Cycle Assessment (LCA) of 3D Concrete Printing and Casting Processes for Cementitious Materials Incorporating Ground Waste Tire Rubber",
+  "pdf": "SAMBUCCI et al., 2023.pdf",
+  "fileId": "1LpO5OxAzfLvc5Cj1B_r01aMQXGgu6Sgr",
+  "pares": [
+   {
+    "sheet_row": 1504,
+    "material": "Argamassa cimenticia 3D-impressa (p-CTR, controle, sem borracha) - impressao 3D",
+    "fck": 53.6,
+    "co2_kg_m3": 742.69,
+    "co2_original": "742.69 kg CO2-eq/m3",
+    "co2_original_local": "Figura 2a (p.7, GWP results p-CTR) - rotulo 'Total 742.69' impresso na barra, confirmado por renderizacao visual em auditoria de 2026-08-28 e reconfirmado em 2026-09-06 (nao re-renderizado nesta sessao); FU=1m3 declarado no texto (secao 3.2).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4557,
+  "rotulo": "Kim et al., 2018",
+  "titulo": "Evaluation of the Efficiency of Limestone Powder in Concrete and the Effects on the Environment",
+  "pdf": "KIM et al., 2018.pdf",
+  "fileId": "1F83fdOZuqtPylYnsaWHMK3C5DCZiaRI-",
+  "pares": [
+   {
+    "sheet_row": 1506,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Control",
+    "fck": 45.57,
+    "co2_kg_m3": 420.9,
+    "co2_original": "420.9 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Control, Total CO2e kg = 420.9 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1507,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Alpha-10",
+    "fck": 39.19,
+    "co2_kg_m3": 387.3,
+    "co2_original": "387.3 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Alpha-10, Total CO2e kg = 387.3 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1508,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Beta-10",
+    "fck": 39.45,
+    "co2_kg_m3": 383.8,
+    "co2_original": "383.8 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Beta-10, Total CO2e kg = 383.8 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1509,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Gamma-10",
+    "fck": 40.1,
+    "co2_kg_m3": 383.1,
+    "co2_original": "383.1 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Gamma-10, Total CO2e kg = 383.1 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1510,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Alpha-20",
+    "fck": 37.6,
+    "co2_kg_m3": 353.7,
+    "co2_original": "353.7 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Alpha-20, Total CO2e kg = 353.7 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1511,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Beta-20",
+    "fck": 37.08,
+    "co2_kg_m3": 346.7,
+    "co2_original": "346.7 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Beta-20, Total CO2e kg = 346.7 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1512,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Gamma-20",
+    "fck": 38.16,
+    "co2_kg_m3": 345.4,
+    "co2_original": "345.4 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Gamma-20, Total CO2e kg = 345.4 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1513,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Alpha-30",
+    "fck": 35.98,
+    "co2_kg_m3": 320.2,
+    "co2_original": "320.2 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Alpha-30, Total CO2e kg = 320.2 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1514,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Beta-30",
+    "fck": 37,
+    "co2_kg_m3": 309.7,
+    "co2_original": "309.7 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Beta-30, Total CO2e kg = 309.7 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1515,
+    "material": "Concreto com po de calcario como substituto parcial de cimento - mistura Gamma-30",
+    "fck": 35.83,
+    "co2_kg_m3": 307.7,
+    "co2_original": "307.7 kg CO2e/m3 de concreto (Total CO2e, LCA propria: cimento+po de calcario+agua+brita+areia+transporte+producao)",
+    "co2_original_local": "Table 10 (p.19): mistura Gamma-30, Total CO2e kg = 307.7 (soma de cimento+po de calcario+agua+brita+areia+transporte+producao).",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4560,
+  "rotulo": "Penadés-Plà et al., 2018",
+  "titulo": "An Optimization-LCA of a Prestressed Concrete Precast Bridge",
+  "pdf": "PENADÉS-PLÀ et al., 2018.pdf",
+  "fileId": "1kmX2WGe7tLSPpXOFzdsnhYMMJEsEZJzs",
+  "pares": [
+   {
+    "sheet_row": 2071,
+    "material": "Mesma ponte - so fase de fabrico (materiais, cradle-to-gate)",
+    "fck": 40,
+    "co2_kg_m3": 525.8,
+    "co2_original": "1838,55 kg CO2 eq/m (Manufacturing)",
+    "co2_original_local": "Tab.3 p.10",
+    "co2_conversao": "1838,55 / 3,497 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ }
+]

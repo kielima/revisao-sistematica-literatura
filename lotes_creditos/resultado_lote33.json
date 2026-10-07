@@ -1,0 +1,507 @@
+[
+ {
+  "row_id": 4471,
+  "pares": [
+   {
+    "sheet_row": 571,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 600,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4 p.11-12: CO2-e por soma de factores (Tab.13, todos positivos) x proporcoes da Tab.11; SCUHPC 0,60 e SCUHPGC 0,36 tCO2-e/m3 no texto e Fig.11. Conferido: SCUHPC 543,5x0,82+311,5x0,14+214x0,01+940x0,01+52,64x1,88 = ~600; SCUHPGC 767x0,14+230x0,01+53x0,01+922x0,01+84x0,67+336x0,54 = ~357.",
+    "derivado": "nao",
+    "nota": "Inventario cradle-to-gate de materiais (sem transporte nem fim de vida), sem qualquer credito, carbonatacao ou carga evitada. O SCUHPC e mistura da literatura (Deeb & Karihaloo [93]), nao ensaiada pelos autores; 140 MPa e o valor dessa fonte."
+   },
+   {
+    "sheet_row": 572,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 360,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4 p.11-12: CO2-e por soma de factores (Tab.13, todos positivos) x proporcoes da Tab.11; SCUHPC 0,60 e SCUHPGC 0,36 tCO2-e/m3 no texto e Fig.11. Conferido: SCUHPC 543,5x0,82+311,5x0,14+214x0,01+940x0,01+52,64x1,88 = ~600; SCUHPGC 767x0,14+230x0,01+53x0,01+922x0,01+84x0,67+336x0,54 = ~357.",
+    "derivado": "nao",
+    "nota": "Inventario cradle-to-gate de materiais (sem transporte nem fim de vida), sem qualquer credito, carbonatacao ou carga evitada. Mistura 28 (optima), Tab.9/11."
+   }
+  ],
+  "texto_completo_lido": "sim - corpo integral (pp.1-13, incl. Tab.11-13 e sec.4) lido linha a linha; lista de referencias percorrida so parcialmente e pesquisada por termos; Fig.11 (pizza) nao renderizada - valores conferidos pela conta com a Tab.13",
+  "notas": "Sem descontos. Valores gravados conferem com o texto e com a conta."
+ },
+ {
+  "row_id": 4475,
+  "pares": [
+   {
+    "sheet_row": 1382,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 511.7,
+    "co2_com_desconto": null,
+    "citacao": "Fig.9 p.15 (verificada visualmente, render 130 dpi): GW 0,394 = \"Total CFRP Waste treatment + Baseline mortar\"; 0,393 = \"Cement mortar baseline\"; 0,346 = SC-R32.5_12.8%_2-5. Texto sec.4 p.14: \"from 0.394 kg of CO2 of the baseline to 0.346\". Conta: 0,393/0,000768 = 511,7.",
+    "derivado": "sim",
+    "nota": "Nao ha credito: o artigo modela o aterro evitado do CFRP como CARGA ACRESCENTADA a argamassa de referencia (sec.2.5.2 e Fig.8/9), nao como subtraccao a mistura com CFRP. ERRO PEQUENO NO GRAVADO: os 0,394 kg usados para 513,0 incluem o aterro de 36 g de CFRP, que nao faz parte da producao da argamassa; a argamassa de referencia sozinha e 0,393 kg -> 511,7 kg/m3 (diferenca 1,3 kg/m3, 0,25%). Mantem-se a ressalva ja registada sobre o volume (amassadura EN 196-1 / 3 prismas)."
+   },
+   {
+    "sheet_row": 1390,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 450.5,
+    "co2_com_desconto": null,
+    "citacao": "Fig.9 p.15 e texto sec.4 p.14: GW 0,346 kg CO2-eq (SC-R32.5_12.8%_2-5); 0,346/0,000768 = 450,5 (conversao ja gravada).",
+    "derivado": "nao",
+    "nota": "Nenhum credito subtraido a esta mistura: o beneficio do desvio do aterro aparece so por comparacao com a referencia acrescida do aterro (0,394 vs 0,346). Inventario = cimento, areia, agua (Ecoinvent 3.1, mix electrico italiano) + <0,01 kWh de moagem do CFRP; o CFRP entra sem carga. Coerente: 394,4 g x 0,393/450 = 0,344 + moagem ~ 0,346."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral (17 pp.) lido linha a linha, excepto lista de referencias (pesquisada por termos); Fig.9 renderizada e conferida",
+  "notas": "Sem creditos subtraidos. Gravado da referencia (513,0) inclui o aterro do CFRP (+0,001 kg); argamassa sozinha = 511,7."
+ },
+ {
+  "row_id": 4476,
+  "pares": [
+   {
+    "sheet_row": 1391,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 39.55,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1392,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 36.68,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1393,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 47.05,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1394,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 44.18,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1395,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 41.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1396,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 54.55,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1397,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 51.68,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1398,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 48.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1399,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 45.93,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1400,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 71.93,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1401,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 64.43,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1402,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 74.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1403,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 67.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1404,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 59.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1405,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 77.68,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1406,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 70.18,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1407,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 62.68,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1408,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 55.18,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1409,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 69.55,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1410,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 74.18,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1411,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 78.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1412,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 83.43,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1413,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 62.05,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1414,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 66.68,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1415,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 71.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1416,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 75.93,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1417,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 80.55,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1419,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 59.18,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1420,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 63.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1421,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 68.43,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1422,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 73.05,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1424,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 58.66,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1425,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 51.16,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1426,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 63.43,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1427,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 55.93,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1428,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 48.43,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1429,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 68.2,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1430,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 60.7,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1431,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 53.2,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   },
+   {
+    "sheet_row": 1432,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 45.7,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.7 (CO2 Emission kgCO2/m3); factores da Tab.2 (ICE, todos positivos); Eq.(2) p.6 = soma m_i x p_i; Fig.7 p.13 decomposicao por ingrediente (POFA, FA, GGBFS, WCP, areia, mistura, activador).",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (ICE), excluindo transporte, uso e fim de vida; sem creditos. A \"net amount\" da Eq.(2) e so a soma das parcelas positivas. Nota fora do CO2: a Tab.3 e a Fig.9 rotulam a resistencia \"28-Days CS\", mas a sec.2.3 diz que o ensaio foi feito aos 365 dias."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral (26 pp.) lido linha a linha, incluindo referencias; Fig.7 lida pelos rotulos de dados extraidos (nao renderizada)",
+  "notas": "Sem descontos em nenhuma das 40 misturas do lote."
+ }
+]
