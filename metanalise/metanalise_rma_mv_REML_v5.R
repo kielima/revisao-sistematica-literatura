@@ -88,8 +88,11 @@ resumo <- function(nome, m, dd) {
              QE = m$QE, QEp = m$QEp)
 }
 
-princ <- subset(d, estrato == "principal")       # A7
-tudo <- d
+# F9 (Kie, 2026-10-07): os pares cujo artigo so publica o CO2 ja com desconto (sem_bruto = 1)
+# ficam fora do cenario sem desconto e so entram no cenario com desconto
+princ_todos <- subset(d, estrato == "principal")
+princ <- subset(princ_todos, sem_bruto == 0)     # A7 + F9
+tudo <- subset(d, sem_bruto == 0)
 
 # ----------------------------------------------------------------
 # 4. Modelo principal (A1, A2, A4, A7)
@@ -107,10 +110,9 @@ for (k in c(0.05, 0.10, 0.15)) {                 # A5
 }
 # F1 (2026-10-07): cenario com os descontos que o proprio artigo declara (carga evitada, carbonatacao,
 # biogenico, modulo D) e cenario so com pares que publicam o bruto
-comd <- princ; comd$yi <- comd$ci_com_desconto
-res <- rbind(res, resumo("principal, CO2 com desconto (F1)", ajusta(comd, yi = "ci_com_desconto"), comd))
-sob <- subset(princ, sem_bruto == 0)
-res <- rbind(res, resumo("principal, so pares com CO2 bruto publicado (F1)", ajusta(sob), sob))
+comd <- princ_todos; comd$yi <- comd$ci_com_desconto
+res <- rbind(res, resumo("principal, CO2 com desconto (F1, F9: inclui os pares so com desconto)",
+                         ajusta(comd, yi = "ci_com_desconto"), comd))
 port <- subset(princ, base_portland == "sim")
 res <- rbind(res, resumo("principal, so cimento Portland", ajusta(port), port))
 
