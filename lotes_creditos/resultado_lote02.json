@@ -1,0 +1,433 @@
+[
+ {
+  "row_id": 2672,
+  "pares": [
+   {
+    "sheet_row": 144,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 96.2,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 12 p.85 (CC + biogenic, F.U. 1 m3); inventario Fig.23 pp.80-82; ACV atribucional GaBi/ReCiPe 2016 (H), A1-A3 + transporte, sem fim de vida",
+    "derivado": "nao",
+    "nota": "Pasta sem material de base biologica (so escoria BFS + NaOH/silicato); ACV atribucional sem creditos, sem carga evitada, sem fim de vida. O rotulo 'CC + biogenic' e so o nome da categoria ReCiPe; para esta mistura nao ha carbono biogenico."
+   },
+   {
+    "sheet_row": 145,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 108.0,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 12 p.85 (CC + biogenic, F.U. 1 m3); inventario Fig.23 pp.80-82; ACV atribucional GaBi/ReCiPe 2016 (H), A1-A3 + transporte, sem fim de vida",
+    "derivado": "nao",
+    "nota": "Pasta sem material de base biologica (so escoria BFS + NaOH/silicato); ACV atribucional sem creditos, sem carga evitada, sem fim de vida. O rotulo 'CC + biogenic' e so o nome da categoria ReCiPe; para esta mistura nao ha carbono biogenico. Correspondencia confirmada: 108 = 1,08E+02 e exactamente a coluna NH-SS1.5 da Tabela 12 (fck 97,21 aos 28 d, Fig.25 p.87); a ressalva 'correspondencia exacta nao confirmada' do co2_original pode ser retirada."
+   },
+   {
+    "sheet_row": 2101,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 104.0,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 12 p.85 (CC + biogenic, F.U. 1 m3); inventario Fig.23 pp.80-82; ACV atribucional GaBi/ReCiPe 2016 (H), A1-A3 + transporte, sem fim de vida",
+    "derivado": "nao",
+    "nota": "Pasta sem material de base biologica (so escoria BFS + NaOH/silicato); ACV atribucional sem creditos, sem carga evitada, sem fim de vida. O rotulo 'CC + biogenic' e so o nome da categoria ReCiPe; para esta mistura nao ha carbono biogenico."
+   },
+   {
+    "sheet_row": 2102,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 112.0,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 12 p.85 (CC + biogenic, F.U. 1 m3); inventario Fig.23 pp.80-82; ACV atribucional GaBi/ReCiPe 2016 (H), A1-A3 + transporte, sem fim de vida",
+    "derivado": "nao",
+    "nota": "Pasta sem material de base biologica (so escoria BFS + NaOH/silicato); ACV atribucional sem creditos, sem carga evitada, sem fim de vida. O rotulo 'CC + biogenic' e so o nome da categoria ReCiPe; para esta mistura nao ha carbono biogenico."
+   },
+   {
+    "sheet_row": 2103,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "biogenico"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 93.5,
+    "citacao": "Tabela 12 p.85 (CC + biogenic, F.U. 1 m3); inventario Fig.23 pp.80-82; ACV atribucional GaBi/ReCiPe 2016 (H), A1-A3 + transporte, sem fim de vida; Tabela 6 p.59-60 e texto p.60 (captacao de CO2 das folhas incluida no cenario ALO)",
+    "derivado": "nao",
+    "nota": "A cinza de folha de bambu (BLA) entra com o cenario de alocacao (massa 2,12% bambu->folhas + economica electricidade/BLA, Fig.23). O Cap.3 (p.60, Tabela 6) diz que neste cenario ALO 'the bamboo leaves CO2 capture are included in the system boundaries' (CC+biogenic 6,42E-02 vs 6,44E-02 kg CO2-eq/kg BLA no cenario sem carga WST, so 0,3% menos). Logo o 'CC + biogenic' gravado ja inclui uma captacao biogenica alocada, mas o artigo nao a separa nem da o CC sem biogenico das pastas (Tabela 12 so tem CC + biogenic). Magnitude desprezavel (fraccao de 1% do gravado). A descida de 96,2 (NH) para 93,5 e explicada pelos autores pela menor densidade das pastas com BLA, nao por credito."
+   },
+   {
+    "sheet_row": 2104,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "biogenico"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 93.9,
+    "citacao": "Tabela 12 p.85 (CC + biogenic, F.U. 1 m3); inventario Fig.23 pp.80-82; ACV atribucional GaBi/ReCiPe 2016 (H), A1-A3 + transporte, sem fim de vida; Tabela 6 p.59-60 e texto p.60",
+    "derivado": "nao",
+    "nota": "A cinza de folha de bambu (BLA) entra com o cenario de alocacao (massa 2,12% bambu->folhas + economica electricidade/BLA, Fig.23). O Cap.3 (p.60, Tabela 6) diz que neste cenario ALO 'the bamboo leaves CO2 capture are included in the system boundaries' (CC+biogenic 6,42E-02 vs 6,44E-02 kg CO2-eq/kg BLA no cenario sem carga WST, so 0,3% menos). Logo o 'CC + biogenic' gravado ja inclui uma captacao biogenica alocada, mas o artigo nao a separa nem da o CC sem biogenico das pastas (Tabela 12 so tem CC + biogenic). Magnitude desprezavel (fraccao de 1% do gravado). A descida de 96,2 (NH) para 93,5 e explicada pelos autores pela menor densidade das pastas com BLA, nao por credito."
+   },
+   {
+    "sheet_row": 2105,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "biogenico"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 93.9,
+    "citacao": "Tabela 12 p.85 (CC + biogenic, F.U. 1 m3); inventario Fig.23 pp.80-82; ACV atribucional GaBi/ReCiPe 2016 (H), A1-A3 + transporte, sem fim de vida; Tabela 6 p.59-60 e texto p.60",
+    "derivado": "nao",
+    "nota": "A cinza de folha de bambu (BLA) entra com o cenario de alocacao (massa 2,12% bambu->folhas + economica electricidade/BLA, Fig.23). O Cap.3 (p.60, Tabela 6) diz que neste cenario ALO 'the bamboo leaves CO2 capture are included in the system boundaries' (CC+biogenic 6,42E-02 vs 6,44E-02 kg CO2-eq/kg BLA no cenario sem carga WST, so 0,3% menos). Logo o 'CC + biogenic' gravado ja inclui uma captacao biogenica alocada, mas o artigo nao a separa nem da o CC sem biogenico das pastas (Tabela 12 so tem CC + biogenic). Magnitude desprezavel (fraccao de 1% do gravado). A descida de 96,2 (NH) para 93,5 e explicada pelos autores pela menor densidade das pastas com BLA, nao por credito."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF descarregado (135 p.) e texto extraido por pymupdf na integra (264 mil caracteres); lidos o Cap.3 (ACV da BLA, onde estao os cenarios consequenciais com creditos de pinus/aterro evitado, que NAO se aplicam as pastas) e o Cap.4 (ACV das pastas). O Cap.5 (paineis, EN15804+A2) tem CC-biogenic negativo (-1,08/-1,60 kg por unidade funcional de painel) mas nao e a base dos pares gravados. Estranheza sem efeito no CO2: p.85 da a 'specific gravity' das pastas em 'kg/m3' (44,60...), claramente gralha de unidade."
+ },
+ {
+  "row_id": 2680,
+  "pares": [
+   {
+    "sheet_row": 146,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 296.2,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2.1.3 (EoL: demolicao, britagem, triagem, transporte para reciclagem/aterro), Tab.2 (inventario), Sec.3.1.1 (betao = 47/37/34/27% da mudanca climatica), Fig.4",
+    "derivado": "nao",
+    "nota": "ACV berco-ao-tumulo (ReCiPe, Ecoinvent+BEDEC) por m2 de edificio; o fim de vida so tem cargas (demolicao, britagem, transporte, aterro), sem credito de agregado/aco evitado nem carbonatacao; a manutencao inclui tinta anti-carbonatacao (nao e captacao). O texto diz 'CB performs worst in the end-of-life stage', coerente com EoL positivo. A fraccao 'concrete production' aplica-se ao total berco-ao-tumulo, por isso o gravado e o CO2 da producao do betao. Fig.4 nao vista em imagem (o descarregamento do PDF falhou por tamanho da mensagem do conector); leitura pelo texto completo do read_file_content."
+   },
+   {
+    "sheet_row": 147,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 298.1,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2.1.3 (EoL: demolicao, britagem, triagem, transporte para reciclagem/aterro), Tab.2 (inventario), Sec.3.1.1 (betao = 47/37/34/27% da mudanca climatica), Fig.4",
+    "derivado": "nao",
+    "nota": "ACV berco-ao-tumulo (ReCiPe, Ecoinvent+BEDEC) por m2 de edificio; o fim de vida so tem cargas (demolicao, britagem, transporte, aterro), sem credito de agregado/aco evitado nem carbonatacao; a manutencao inclui tinta anti-carbonatacao (nao e captacao). O texto diz 'CB performs worst in the end-of-life stage', coerente com EoL positivo. A fraccao 'concrete production' aplica-se ao total berco-ao-tumulo, por isso o gravado e o CO2 da producao do betao. Fig.4 nao vista em imagem (o descarregamento do PDF falhou por tamanho da mensagem do conector); leitura pelo texto completo do read_file_content."
+   },
+   {
+    "sheet_row": 148,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 299.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2.1.3 (EoL: demolicao, britagem, triagem, transporte para reciclagem/aterro), Tab.2 (inventario), Sec.3.1.1 (betao = 47/37/34/27% da mudanca climatica), Fig.4",
+    "derivado": "nao",
+    "nota": "ACV berco-ao-tumulo (ReCiPe, Ecoinvent+BEDEC) por m2 de edificio; o fim de vida so tem cargas (demolicao, britagem, transporte, aterro), sem credito de agregado/aco evitado nem carbonatacao; a manutencao inclui tinta anti-carbonatacao (nao e captacao). O texto diz 'CB performs worst in the end-of-life stage', coerente com EoL positivo. A fraccao 'concrete production' aplica-se ao total berco-ao-tumulo, por isso o gravado e o CO2 da producao do betao. Fig.4 nao vista em imagem (o descarregamento do PDF falhou por tamanho da mensagem do conector); leitura pelo texto completo do read_file_content."
+   },
+   {
+    "sheet_row": 149,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 294.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2.1.3 (EoL: demolicao, britagem, triagem, transporte para reciclagem/aterro), Tab.2 (inventario), Sec.3.1.1 (betao = 47/37/34/27% da mudanca climatica), Fig.4",
+    "derivado": "nao",
+    "nota": "ACV berco-ao-tumulo (ReCiPe, Ecoinvent+BEDEC) por m2 de edificio; o fim de vida so tem cargas (demolicao, britagem, transporte, aterro), sem credito de agregado/aco evitado nem carbonatacao; a manutencao inclui tinta anti-carbonatacao (nao e captacao). O texto diz 'CB performs worst in the end-of-life stage', coerente com EoL positivo. A fraccao 'concrete production' aplica-se ao total berco-ao-tumulo, por isso o gravado e o CO2 da producao do betao. Fig.4 nao vista em imagem (o descarregamento do PDF falhou por tamanho da mensagem do conector); leitura pelo texto completo do read_file_content."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (89 mil caracteres) via read_file_content; figuras nao renderizadas (download_file_content falhou duas vezes por tamanho)."
+ },
+ {
+  "row_id": 2681,
+  "pares": [
+   {
+    "sheet_row": 11,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 249.0,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.3 (fronteiras: convencional berco-ao-tumulo com aterro; circular berco-ao-berco com reciclagem do betao como agregado), Sec.8 p.9 (GWP 439/354 com fim de vida; 380/297 berco-a-porta), Tabela 3 (Circular 38-Y SL = 249; Conv. 38-Y SL = 439)",
+    "derivado": "nao",
+    "nota": "A ACV (IMPACT 2002+, Ecoinvent) nao aplica credito de produto evitado: o fim de vida circular so acrescenta cargas de reciclagem (o proprio texto diz que o impacto da reciclagem e maior no berco-ao-berco do que o aterro do convencional); a analise de sensibilidade 'zero-burden' de SF/GGBFS e alteracao de alocacao, nao credito. Sem carbonatacao nem biogenico. ERRO NO GRAVADO: 249 e o valor 'Circular (38-Y SL)' da Tabela 3, isto e, o GWP berco-ao-berco de 1 m3 (354) escalado para 38 anos de vida util (354 x 37,9/53,7 ~ 250) -- nao e o CO2 de produzir 1 m3 desta mistura. O CO2 por m3 e 297 (berco-a-porta, ja gravado na linha 131 para a mesma mistura) ou 354 (com fim de vida). A linha 11 duplica a mistura da linha 131 com outro valor; sugere-se retira-la do grafico ou troca-la por 297 (mesma base das outras linhas). Incoerencia interna do artigo: na mesma coluna a categoria CC (endpoint) da 217,37 e GWP 249."
+   },
+   {
+    "sheet_row": 130,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 380.0,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.3 (fronteiras: convencional berco-ao-tumulo com aterro; circular berco-ao-berco com reciclagem do betao como agregado), Sec.8 p.9 (GWP 439/354 com fim de vida; 380/297 berco-a-porta), Tabela 3 (Circular 38-Y SL = 249; Conv. 38-Y SL = 439)",
+    "derivado": "nao",
+    "nota": "A ACV (IMPACT 2002+, Ecoinvent) nao aplica credito de produto evitado: o fim de vida circular so acrescenta cargas de reciclagem (o proprio texto diz que o impacto da reciclagem e maior no berco-ao-berco do que o aterro do convencional); a analise de sensibilidade 'zero-burden' de SF/GGBFS e alteracao de alocacao, nao credito. Sem carbonatacao nem biogenico. 380 = convencional berco-a-porta (Sec.8 p.9)."
+   },
+   {
+    "sheet_row": 131,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 297.0,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.3 (fronteiras: convencional berco-ao-tumulo com aterro; circular berco-ao-berco com reciclagem do betao como agregado), Sec.8 p.9 (GWP 439/354 com fim de vida; 380/297 berco-a-porta), Tabela 3 (Circular 38-Y SL = 249; Conv. 38-Y SL = 439)",
+    "derivado": "nao",
+    "nota": "A ACV (IMPACT 2002+, Ecoinvent) nao aplica credito de produto evitado: o fim de vida circular so acrescenta cargas de reciclagem (o proprio texto diz que o impacto da reciclagem e maior no berco-ao-berco do que o aterro do convencional); a analise de sensibilidade 'zero-burden' de SF/GGBFS e alteracao de alocacao, nao credito. Sem carbonatacao nem biogenico. 297 = circular berco-a-porta (Sec.8 p.9); o RCA entra com carga de reciclagem, sem credito."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (68,5 mil caracteres) via read_file_content; Fig.3 (fronteiras) so pela legenda e pelo texto da Sec.4.3; download do PDF falhou por tamanho."
+ },
+ {
+  "row_id": 2684,
+  "pares": [
+   {
+    "sheet_row": 135,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 311.6,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.4 e Tabela 2 p.4 (factores GWP A1-A3 por constituinte, 50 km de transporte), Sec.3.3 p.6 e Fig.5",
+    "derivado": "nao",
+    "nota": "ACV so A1-A3 (+A2) por constituinte da mistura, sem fim de vida nem creditos; o cenario de fibras de aco recuperadas de pneus (Sec.3.4) e um factor de emissao menor, nao um credito, e nao se aplica aos pares gravados. Verificacao: com os factores medios da Tabela 2, OPC = 300x0,873 + 770x0,0248 + 1035x0,0265 + 150x0,0228 ~ 311,8, coerente com os 311,6 lidos na Fig.5."
+   },
+   {
+    "sheet_row": 136,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 386.6,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.4 e Tabela 2 p.4 (factores GWP A1-A3 por constituinte, 50 km de transporte), Sec.3.3 p.6 e Fig.5",
+    "derivado": "nao",
+    "nota": "ACV so A1-A3 (+A2) por constituinte da mistura, sem fim de vida nem creditos; o cenario de fibras de aco recuperadas de pneus (Sec.3.4) e um factor de emissao menor, nao um credito, e nao se aplica aos pares gravados. Verificacao: com os factores medios da Tabela 2, OPC = 300x0,873 + 770x0,0248 + 1035x0,0265 + 150x0,0228 ~ 311,8, coerente com os 311,6 lidos na Fig.5."
+   },
+   {
+    "sheet_row": 137,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 218.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.4 e Tabela 2 p.4 (factores GWP A1-A3 por constituinte, 50 km de transporte), Sec.3.3 p.6 e Fig.5",
+    "derivado": "nao",
+    "nota": "ACV so A1-A3 (+A2) por constituinte da mistura, sem fim de vida nem creditos; o cenario de fibras de aco recuperadas de pneus (Sec.3.4) e um factor de emissao menor, nao um credito, e nao se aplica aos pares gravados. Verificacao: com os factores medios da Tabela 2, OPC = 300x0,873 + 770x0,0248 + 1035x0,0265 + 150x0,0228 ~ 311,8, coerente com os 311,6 lidos na Fig.5."
+   },
+   {
+    "sheet_row": 138,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 290.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.4 e Tabela 2 p.4 (factores GWP A1-A3 por constituinte, 50 km de transporte), Sec.3.3 p.6 e Fig.5",
+    "derivado": "nao",
+    "nota": "ACV so A1-A3 (+A2) por constituinte da mistura, sem fim de vida nem creditos; o cenario de fibras de aco recuperadas de pneus (Sec.3.4) e um factor de emissao menor, nao um credito, e nao se aplica aos pares gravados. Verificacao: com os factores medios da Tabela 2, OPC = 300x0,873 + 770x0,0248 + 1035x0,0265 + 150x0,0228 ~ 311,8, coerente com os 311,6 lidos na Fig.5."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF descarregado (9 p.) e texto integral extraido; 'carbonation' so aparece como requisito de recobrimento/durabilidade, nao como captacao."
+ },
+ {
+  "row_id": 2687,
+  "pares": [
+   {
+    "sheet_row": 1855,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 636.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.2 p.8 ('cut-off method ... All benefits and loads beyond the system boundaries, e.g., recycling potential, energy recovery, etc., were not taken into account'; EoL = aterro), texto p.9 e Fig.6 (100% = 151,3 t CO2eq, so materiais), Tab.3/Tab.5 (237,6 m3 = 193 + 44,5)",
+    "derivado": "nao",
+    "nota": "Abordagem cut-off explicita, sem creditos de reciclagem nem carbonatacao. O gravado continua a ser o total dos materiais do Metodo 1 (inclui armadura, cabos, cofragem, membrana, asfalto) dividido pelo volume de betao -- ja assinalado no alerta existente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (13 p.) via read_file_content."
+ },
+ {
+  "row_id": 2688,
+  "pares": [
+   {
+    "sheet_row": 645,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada",
+     "modulo_D"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 791.67,
+    "citacao": "Tabela 6 (LCI do fim de vida: 'Credit for saved primary coarse/fine aggregates' -190,5/-173,9/-24,6/-24,6 kg; 'Credit for recycling of stainless steel scrap ... avoided primary material'), Tabela 7 (CFF, A=0,5 betao, A=0,2 aco), Tabela 9 (Climate change total 4,56E+02 kg CO2 eq por painel), Tabela 11 (estagios), Tabela 12 (contribuicao por processo: betao 34%, fibra de carbono 42%, credito reciclagem aco 7%, producao aco 6%, transp. residuos aco 5%, transp. betao 2%, <1% 2%, incineracao betao 1%, transp. residuos betao 1%)",
+    "derivado": "nao",
+    "nota": "PEF/EF 3.0 com Circular Footprint Formula: o total de 456 kg CO2 eq por painel (Tab.9) JA inclui creditos de carga evitada (agregados primarios poupados pela reciclagem do betao e aco primario evitado pela reciclagem da ancoragem). O artigo so da o credito do aco em percentagem (7% na Tab.12; o credito de reciclagem do betao aparece so em Resource use, 1%). Estimativa derivada, baixa confianca: se as contribuicoes da Tab.12 forem partes do somatorio de valores absolutos (somam 100%), o total liquido = 86% desse somatorio -> somatorio = 456/0,86 = 530,2 kg; credito do aco ~ 0,07x530,2 = 37,1 kg; bruto ~ 493 kg/painel -> 493,3/0,576 = 856,4 kg/m3. Por ser so percentagem com base ambigua, co2_bruto fica null. ERRO GRAVE NO GRAVADO: 791,67 kg/m3 e o painel completo (fibra de carbono 42%, ancoragens de aco, fim de vida, creditos) dividido pelo volume do painel -- nao e o CO2 do betao; a producao do betao e so 34% do total (~0,34x530,2 = 180 kg/painel -> ~313 kg/m3, estimativa derivada pela mesma leitura da Tab.12). Deve ir para a familia de betao armado/compositos ou ser substituido pelo valor so do betao, se aceite a derivacao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (99,6 mil caracteres) via read_file_content, incluindo todas as tabelas do inventario e da interpretacao. Fronteira: A1-A4 + C1-C4 com CFF (beneficios da reciclagem incluidos via factor A). Cenario alternativo 100% aterro (Tab.8, Tab.14-16) sem valor absoluto de CO2 publicado."
+ },
+ {
+  "row_id": 2693,
+  "pares": [
+   {
+    "sheet_row": 646,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 285.0,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2 p.34 (berco-a-porta EN 15804, sem uso nem fim de vida), Tabela 3 p.36 (Climate change 23,7/46,9/32,8/24,3/14,6 kg CO2 eq por viga), texto Sec.3.2 (betao = 93,7% nas vigas BFRP, 56,2% na viga de aco)",
+    "derivado": "nao",
+    "nota": "Sem creditos (berco-a-porta, Ecoinvent 3.1, alocacao por massa). A comparacao com EPD de aco 100% reciclado (11,3 kg/FU) e um cenario de factores alternativos, nao um credito, e nao entra nos pares. Contas conferidas: 14,6x0,937/0,048=285,0; 24,3x0,937/0,08=284,6; 32,8x0,937/0,108=284,6; 46,9x0,937/0,1544=284,6; 23,7x0,562/0,04725=281,9. Nota: o betao e um processo generico suico do Ecoinvent igual para todas as vigas (o CO2/m3 nao reflecte o fck medido 31,4 vs 57-67 MPa)."
+   },
+   {
+    "sheet_row": 647,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 284.6,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2 p.34 (berco-a-porta EN 15804, sem uso nem fim de vida), Tabela 3 p.36 (Climate change 23,7/46,9/32,8/24,3/14,6 kg CO2 eq por viga), texto Sec.3.2 (betao = 93,7% nas vigas BFRP, 56,2% na viga de aco)",
+    "derivado": "nao",
+    "nota": "Sem creditos (berco-a-porta, Ecoinvent 3.1, alocacao por massa). A comparacao com EPD de aco 100% reciclado (11,3 kg/FU) e um cenario de factores alternativos, nao um credito, e nao entra nos pares. Contas conferidas: 14,6x0,937/0,048=285,0; 24,3x0,937/0,08=284,6; 32,8x0,937/0,108=284,6; 46,9x0,937/0,1544=284,6; 23,7x0,562/0,04725=281,9. Nota: o betao e um processo generico suico do Ecoinvent igual para todas as vigas (o CO2/m3 nao reflecte o fck medido 31,4 vs 57-67 MPa)."
+   },
+   {
+    "sheet_row": 648,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 284.6,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2 p.34 (berco-a-porta EN 15804, sem uso nem fim de vida), Tabela 3 p.36 (Climate change 23,7/46,9/32,8/24,3/14,6 kg CO2 eq por viga), texto Sec.3.2 (betao = 93,7% nas vigas BFRP, 56,2% na viga de aco)",
+    "derivado": "nao",
+    "nota": "Sem creditos (berco-a-porta, Ecoinvent 3.1, alocacao por massa). A comparacao com EPD de aco 100% reciclado (11,3 kg/FU) e um cenario de factores alternativos, nao um credito, e nao entra nos pares. Contas conferidas: 14,6x0,937/0,048=285,0; 24,3x0,937/0,08=284,6; 32,8x0,937/0,108=284,6; 46,9x0,937/0,1544=284,6; 23,7x0,562/0,04725=281,9. Nota: o betao e um processo generico suico do Ecoinvent igual para todas as vigas (o CO2/m3 nao reflecte o fck medido 31,4 vs 57-67 MPa)."
+   },
+   {
+    "sheet_row": 649,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 284.6,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2 p.34 (berco-a-porta EN 15804, sem uso nem fim de vida), Tabela 3 p.36 (Climate change 23,7/46,9/32,8/24,3/14,6 kg CO2 eq por viga), texto Sec.3.2 (betao = 93,7% nas vigas BFRP, 56,2% na viga de aco)",
+    "derivado": "nao",
+    "nota": "Sem creditos (berco-a-porta, Ecoinvent 3.1, alocacao por massa). A comparacao com EPD de aco 100% reciclado (11,3 kg/FU) e um cenario de factores alternativos, nao um credito, e nao entra nos pares. Contas conferidas: 14,6x0,937/0,048=285,0; 24,3x0,937/0,08=284,6; 32,8x0,937/0,108=284,6; 46,9x0,937/0,1544=284,6; 23,7x0,562/0,04725=281,9. Nota: o betao e um processo generico suico do Ecoinvent igual para todas as vigas (o CO2/m3 nao reflecte o fck medido 31,4 vs 57-67 MPa)."
+   },
+   {
+    "sheet_row": 650,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 281.9,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.2 p.34 (berco-a-porta EN 15804, sem uso nem fim de vida), Tabela 3 p.36 (Climate change 23,7/46,9/32,8/24,3/14,6 kg CO2 eq por viga), texto Sec.3.2 (betao = 93,7% nas vigas BFRP, 56,2% na viga de aco)",
+    "derivado": "nao",
+    "nota": "Sem creditos (berco-a-porta, Ecoinvent 3.1, alocacao por massa). A comparacao com EPD de aco 100% reciclado (11,3 kg/FU) e um cenario de factores alternativos, nao um credito, e nao entra nos pares. Contas conferidas: 14,6x0,937/0,048=285,0; 24,3x0,937/0,08=284,6; 32,8x0,937/0,108=284,6; 46,9x0,937/0,1544=284,6; 23,7x0,562/0,04725=281,9. Nota: o betao e um processo generico suico do Ecoinvent igual para todas as vigas (o CO2/m3 nao reflecte o fck medido 31,4 vs 57-67 MPa)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (10 p.) via read_file_content."
+ },
+ {
+  "row_id": 2694,
+  "pares": [
+   {
+    "sheet_row": 651,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 409,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (coeficientes de impacto da LCI DB nacional coreana, GWP kg CO2-eq/m3); Sec.5.1",
+    "derivado": "nao",
+    "nota": "Coeficientes de inventario do berco-a-porta da base nacional coreana (KEITI); nenhum credito, carbonatacao ou biogenico mencionado no artigo."
+   },
+   {
+    "sheet_row": 652,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 419,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (coeficientes de impacto da LCI DB nacional coreana, GWP kg CO2-eq/m3); Sec.5.1",
+    "derivado": "nao",
+    "nota": "Coeficientes de inventario do berco-a-porta da base nacional coreana (KEITI); nenhum credito, carbonatacao ou biogenico mencionado no artigo."
+   },
+   {
+    "sheet_row": 653,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 414,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (coeficientes de impacto da LCI DB nacional coreana, GWP kg CO2-eq/m3); Sec.5.1",
+    "derivado": "nao",
+    "nota": "Coeficientes de inventario do berco-a-porta da base nacional coreana (KEITI); nenhum credito, carbonatacao ou biogenico mencionado no artigo."
+   },
+   {
+    "sheet_row": 654,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 429,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (coeficientes de impacto da LCI DB nacional coreana, GWP kg CO2-eq/m3); Sec.5.1",
+    "derivado": "nao",
+    "nota": "Coeficientes de inventario do berco-a-porta da base nacional coreana (KEITI); nenhum credito, carbonatacao ou biogenico mencionado no artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (61 mil caracteres) via read_file_content."
+ },
+ {
+  "row_id": 2695,
+  "pares": [
+   {
+    "sheet_row": 655,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 414,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.6 (factores de carbono incorporado na fase de producao, KEITI: RMC 24 MPa 414 kg-CO2/m3)",
+    "derivado": "nao",
+    "nota": "So fase de producao; o artigo exclui explicitamente eliminacao e reciclagem; sem creditos. Valor coincide com o da linha 653 (mesma base KEITI)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (60 mil caracteres) via read_file_content."
+ },
+ {
+  "row_id": 2696,
+  "pares": [
+   {
+    "sheet_row": 656,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 230,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 1 p.13 (coeficientes The Concrete Centre, jun/2020, A1-A3)",
+    "derivado": "nao",
+    "nota": "Ambito A1-A3 (berco-a-porta) declarado; sem creditos, carbonatacao ou modulo D."
+   },
+   {
+    "sheet_row": 657,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 240,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 1 p.13 (coeficientes The Concrete Centre, jun/2020, A1-A3)",
+    "derivado": "nao",
+    "nota": "Ambito A1-A3 (berco-a-porta) declarado; sem creditos, carbonatacao ou modulo D."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (65 mil caracteres) via read_file_content."
+ }
+]

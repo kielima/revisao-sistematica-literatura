@@ -1,0 +1,275 @@
+[
+ {
+  "row_id": 3221,
+  "pares": [
+   {
+    "sheet_row": 932,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 262.61,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1 (fronteira berco-portao + transporte ate obra; construcao, manutencao, demolicao e reciclagem excluidas), Eq.(1) E=Ematerial+Etran1+Emanu+Etran2 sem termo negativo; sec.3.4 e conclusao 1: 262.61 kgCO2e/m3 (media C30)",
+    "derivado": "nao",
+    "nota": "Resumo imprime 262.21, texto da sec.3.4 e conclusoes imprimem 262.61 (gralha do resumo). CRl (sec.2.6) e reducao relativa PC vs SCMC, nao credito."
+   },
+   {
+    "sheet_row": 2096,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 401.78,
+    "co2_com_desconto": null,
+    "citacao": "Idem; sec.3.4 e conclusao 1: 401.78 kgCO2e/m3 (media C80)",
+    "derivado": "nao",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": "sim - 50.8 mil caracteres lidos sequencialmente em blocos (corpo + referencias); figuras nao renderizadas (valores no texto)",
+  "notas": "Sem creditos em nenhuma mistura."
+ },
+ {
+  "row_id": 3225,
+  "pares": [
+   {
+    "sheet_row": 935,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 611.7,
+    "co2_com_desconto": null,
+    "citacao": "Tab.8 (p.17): PC 563.2+21.1+12.7+0.2+14.5, coluna 'Carbon absorption' = 0.00, Total 611.7 kgCO2eq/m3",
+    "derivado": "nao",
+    "nota": "O par gravado e a argamassa PC (sem credito). O artigo declara credito de carbonatacao (cura com CO2) so para a CSA-C: absorcao 251.7 kg/m3 (TG), bruto 423.9+34.1+12.0+105.8+14.2=590.0, liquido 338.3 (Tab.8). Se a CSA-C vier a ser gravada, o 338.3 e liquido. Material do par lista as 5 argamassas, mas o valor gravado e so o da PC."
+   }
+  ],
+  "texto_completo_lido": "sim - 71.5 mil caracteres lidos sequencialmente ate ao fim (incl. referencias iniciais)",
+  "notas": "Desconto existe no artigo apenas para outra mistura (CSA-C)."
+ },
+ {
+  "row_id": 3237,
+  "pares": [
+   {
+    "sheet_row": 937,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 231.2,
+    "co2_com_desconto": null,
+    "citacao": "Sec.6.3.3 (Eco-efficiency): CO2-e de 1 m3 de GPC = 0.2312 t-CO2/m3 a partir de fatores por material (FA, GGBS, agregados, NaOH, Na2SiO3); transporte excluido; nenhum termo negativo",
+    "derivado": "nao",
+    "nota": "Secs.6.1-6.2 falam qualitativamente de reciclagem/reuso, sem nenhum credito quantificado. Atencao: os 0.2312 t/m3 referem-se ao GPC 'normal' (sem ECA); para o SCLGC com argila expandida o artigo so da 'carbon efficiency' em t-CO2/t (0.164-0.46; 0.38-0.68 com 100% ECA) e diz que o CO2 aumenta com o ECA - o par (fck 47, SCLGC) pode estar a juntar o CO2 do GPC de referencia com outra mistura."
+   }
+  ],
+  "texto_completo_lido": "sim - corpo inteiro (66.6 mil caracteres ate as referencias) lido em blocos; referencias nao lidas",
+  "notas": ""
+ },
+ {
+  "row_id": 3241,
+  "pares": [
+   {
+    "sheet_row": 939,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 295,
+    "co2_com_desconto": null,
+    "citacao": "Tabs.3-5 (p.8): C30 concrete 178.51 m3 x 295 kgCO2e/m3 (fator de producao)",
+    "derivado": "nao",
+    "nota": "O artigo tem 'carbon offset' por reutilizacao/reciclagem (Tab.7, 60744.14 kgCO2e; Eq.9), mas so no Caso 2 (demolicao de um edificio de escritorios em Sichuan), nao aplicado ao betao da ponte (Caso 1, fase de materializacao)."
+   },
+   {
+    "sheet_row": 1863,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 340,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 (p.8): C40 concrete 257.61 m3 x 340 kgCO2e/m3",
+    "derivado": "nao",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": "sim - 74.5 mil caracteres do corpo lidos em blocos; referencias nao lidas",
+  "notas": ""
+ },
+ {
+  "row_id": 3242,
+  "pares": [
+   {
+    "sheet_row": 940,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 453.3,
+    "co2_com_desconto": null,
+    "citacao": "Fig.1/sec.4.1 berco-portao; sec.4.4.3: BBSHC +36.3% = +120 kg CO2 eq vs betao convencional; reconstrucao gravada 120/0.36+120",
+    "derivado": "sim",
+    "nota": "Sem creditos. Os 'avoided 51.4 kg CO2 eq/m3' (sec.4.4.4) sao a diferenca entre duas estruturas armadas (menos aco de retracao), nao credito da mistura. A reconstrucao gravada usa 36%; com os 36.3% impressos no texto da 450.6 (conv. 330.6). Absolutos so na Fig.5b; nao foi possivel descarregar o PDF para os ler (falha do conector)."
+   }
+  ],
+  "texto_completo_lido": "sim - corpo inteiro (61.1 mil caracteres ate as referencias) lido em blocos; Fig.5b nao vista (download falhou)",
+  "notas": ""
+ },
+ {
+  "row_id": 3245,
+  "pares": [
+   {
+    "sheet_row": 941,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 824,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.1 (SimaPro/Ecoinvent-3, IMPACT World+, berco-portao; energia da REOS assumida desprezavel) e sec.4.1: UHPC com REOS 824 kg/m3 vs 862 com areia",
+    "derivado": "nao",
+    "nota": "A escoria e tratada sem encargo (cut-off implicito), nao ha nenhum credito subtraido."
+   }
+  ],
+  "texto_completo_lido": "sim - corpo inteiro (50.5 mil caracteres ate as referencias) lido em blocos",
+  "notas": ""
+ },
+ {
+  "row_id": 3251,
+  "pares": [
+   {
+    "sheet_row": 945,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 383.1,
+    "co2_com_desconto": 313.4,
+    "citacao": "Bruto: Fig.3 (p.5, 'not considering carbon uptake'), rotulo impresso 383.1 kg (VC). Liquido: Tab.3 'Net GHG emission' e Fig.4 = 313.4. Credito = 69.7 kg/m3 = carbonatacao do RCA na producao (estagio 1) + carbonatacao na mistura/cura com CO2 99.9% (estagio 3); Fig.6 da 0.00% / -22.24% do liquido (soma confere)",
+    "derivado": "nao",
+    "nota": "O gravado (coluna 'Net GHG' da Tab.3) ja tem o desconto de carbonatacao (18-33% segundo o texto). A cura com CO2 99.9% e um processo do proprio estudo (absorcao 12.5% via Zhang 2015; RCA 12% via He 2017), sem contabilizar a origem/captura desse CO2."
+   },
+   {
+    "sheet_row": 946,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 378.5,
+    "co2_com_desconto": 295.6,
+    "citacao": "Bruto: Fig.3 (p.5, 'not considering carbon uptake'), rotulo impresso 378.5 kg (RC25). Liquido: Tab.3 'Net GHG emission' e Fig.4 = 295.6. Credito = 82.9 kg/m3 = carbonatacao do RCA na producao (estagio 1) + carbonatacao na mistura/cura com CO2 99.9% (estagio 3); Fig.6 da -4.43% / -23.61% do liquido (soma confere)",
+    "derivado": "nao",
+    "nota": "O gravado (coluna 'Net GHG' da Tab.3) ja tem o desconto de carbonatacao (18-33% segundo o texto). A cura com CO2 99.9% e um processo do proprio estudo (absorcao 12.5% via Zhang 2015; RCA 12% via He 2017), sem contabilizar a origem/captura desse CO2."
+   },
+   {
+    "sheet_row": 947,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 375.7,
+    "co2_com_desconto": 279.4,
+    "citacao": "Bruto: Fig.3 (p.5, 'not considering carbon uptake'), rotulo impresso 375.7 kg (RC50). Liquido: Tab.3 'Net GHG emission' e Fig.4 = 279.4. Credito = 96.3 kg/m3 = carbonatacao do RCA na producao (estagio 1) + carbonatacao na mistura/cura com CO2 99.9% (estagio 3); Fig.6 da -9.38% / -25.09% do liquido (soma confere)",
+    "derivado": "nao",
+    "nota": "O gravado (coluna 'Net GHG' da Tab.3) ja tem o desconto de carbonatacao (18-33% segundo o texto). A cura com CO2 99.9% e um processo do proprio estudo (absorcao 12.5% via Zhang 2015; RCA 12% via He 2017), sem contabilizar a origem/captura desse CO2."
+   },
+   {
+    "sheet_row": 948,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 373.1,
+    "co2_com_desconto": 263.5,
+    "citacao": "Bruto: Fig.3 (p.5, 'not considering carbon uptake'), rotulo impresso 373.1 kg (RC75). Liquido: Tab.3 'Net GHG emission' e Fig.4 = 263.5. Credito = 109.6 kg/m3 = carbonatacao do RCA na producao (estagio 1) + carbonatacao na mistura/cura com CO2 99.9% (estagio 3); Fig.6 da -14.91% / -26.68% do liquido (soma confere)",
+    "derivado": "nao",
+    "nota": "O gravado (coluna 'Net GHG' da Tab.3) ja tem o desconto de carbonatacao (18-33% segundo o texto). A cura com CO2 99.9% e um processo do proprio estudo (absorcao 12.5% via Zhang 2015; RCA 12% via He 2017), sem contabilizar a origem/captura desse CO2."
+   },
+   {
+    "sheet_row": 949,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 368.3,
+    "co2_com_desconto": 245.5,
+    "citacao": "Bruto: Fig.3 (p.5, 'not considering carbon uptake'), rotulo impresso 368.3 kg (RC100). Liquido: Tab.3 'Net GHG emission' e Fig.4 = 245.5. Credito = 122.8 kg/m3 = carbonatacao do RCA na producao (estagio 1) + carbonatacao na mistura/cura com CO2 99.9% (estagio 3); Fig.6 da -21.34% / -28.68% do liquido (soma confere)",
+    "derivado": "nao",
+    "nota": "O gravado (coluna 'Net GHG' da Tab.3) ja tem o desconto de carbonatacao (18-33% segundo o texto). A cura com CO2 99.9% e um processo do proprio estudo (absorcao 12.5% via Zhang 2015; RCA 12% via He 2017), sem contabilizar a origem/captura desse CO2."
+   }
+  ],
+  "texto_completo_lido": "sim - corpo inteiro (43.3 mil caracteres ate as referencias) lido; p.5 (Figs.3, 4, 6) renderizada a 200 dpi do PDF descarregado",
+  "notas": "Unico artigo do lote em que o gravado e liquido."
+ },
+ {
+  "row_id": 3255,
+  "pares": [
+   {
+    "sheet_row": 328,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 328,
+    "co2_com_desconto": null,
+    "citacao": "Tab.9 (p.6): CC 20 MPa (dataset Ecoinvent de betao pronto) GWP 328 kg CO2 eq/m3, cenario S1",
+    "derivado": "nao",
+    "nota": "O artigo usa 'avoided product' (eletricidade e calor excedentes da cogeracao, sec.2.4) e residuos de papel sem encargo (cut-off), mas so no geopolimero (cenario S3), nao no betao convencional gravado."
+   }
+  ],
+  "texto_completo_lido": "sim - corpo inteiro (40.7 mil caracteres ate as referencias) lido em blocos",
+  "notas": ""
+ },
+ {
+  "row_id": 3263,
+  "pares": [
+   {
+    "sheet_row": 950,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao",
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 291,
+    "co2_com_desconto": 231,
+    "citacao": "Tab.5 (p.118, vista renderizada): C25/30 PA. Abordagem 1 (A1-A3, sem carbonatacao) Total 291. Abordagem 2: 291 +7 (alocacao a cinza volante) -26 (carbonatacao em vida) = 272. Abordagem 3 (consequencial, A1-A3+D): 293 -26 (carbonatacao em vida) -35 (D, carbonatacao apos britagem) -0.07 (D, beneficio liquido da reciclagem) = Total 231",
+    "derivado": "nao",
+    "nota": "co2_com_desconto = Total impresso da abordagem 3, cuja parcela A1-A3 (293, mix eletrico europeu) difere ligeiramente da do gravado (291, mix nordico). Aplicando os mesmos creditos a base 291: 291-26-35-0.07=229.9 (derivado). A carbonatacao impressa e a da estrutura de 12 pisos. A abordagem 2 (272) so desconta a carbonatacao em vida, mas soma +7 de alocacao a cinza volante."
+   },
+   {
+    "sheet_row": 951,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao",
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 326,
+    "co2_com_desconto": 276,
+    "citacao": "Tab.5: C35/45 PA. Abordagem 1 Total 326. Abordagem 2: 326+8-22 = 312. Abordagem 3: 343 -22 (carbonatacao em vida) -45 (D, carbonatacao apos britagem) -0 (reciclagem) = Total 276",
+    "derivado": "nao",
+    "nota": "Base A1-A3 da abordagem 3 = 343 (mix UE) vs 326 do gravado; com os mesmos creditos sobre 326: 326-22-45=259 (derivado). Carbonatacao calculada para a estrutura de 21 pisos."
+   }
+  ],
+  "texto_completo_lido": "sim - 52.5 mil caracteres lidos ate as referencias; Tab.5 renderizada do PDF para confirmar as linhas do modulo D",
+  "notas": "Gravado = abordagem 1, cenario PA, sem descontos."
+ },
+ {
+  "row_id": 3276,
+  "pares": [
+   {
+    "sheet_row": 331,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 265.22,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 (p.150): 'Concrete, normal, at plant' (Ecoinvent v2) 265.22 kg CO2-Eq/m3, CML 2001",
+    "derivado": "nao",
+    "nota": "O fator do betao nao tem desconto. No mesmo inventario, a madeira serrada da cofragem tem fator negativo (-713.13 kg CO2-eq/m3, carbono biogenico do dataset Ecoinvent), que entra so no total da parede RC (Tab.5), nao no fator do betao. Fim de vida = aterro, sem creditos de reciclagem."
+   }
+  ],
+  "texto_completo_lido": "sim - corpo inteiro (39.9 mil caracteres ate as referencias) lido em blocos",
+  "notas": ""
+ }
+]

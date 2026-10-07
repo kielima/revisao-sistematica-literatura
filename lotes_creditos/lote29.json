@@ -1,0 +1,281 @@
+[
+ {
+  "row_id": 4161,
+  "rotulo": "Li et al., 2020",
+  "titulo": "Environmental Assessment of Frost-resistant Concrete with Superabsorbent Polymers",
+  "pdf": "LI, 2020i - ncr-2020-0011.pdf",
+  "fileId": "1eN69sQdq6MBM6p3IUd0Z2ZffMU_UvmMD",
+  "pares": [
+   {
+    "sheet_row": 1212,
+    "material": "Concreto resistente a gelo com AEA (ar incorporado), w/c=0.38",
+    "fck": 41.5,
+    "co2_kg_m3": 414,
+    "co2_original": "~10,34 kg CO2 eq por UF (0,025 m3)",
+    "co2_original_local": "Fig.3, painel Global warming (GWP100a), p.52 - leitura de grafico com eixo numerico",
+    "co2_conversao": "10,34 / 0,025 m3 (Tabela 2) = 414 kg CO2e/m3 [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: fck calculado pela formula de Bolomey, nao ensaiado]"
+   },
+   {
+    "sheet_row": 1213,
+    "material": "Concreto resistente a gelo com SAP (polimero superabsorvente), w/c=0.38",
+    "fck": 47.7,
+    "co2_kg_m3": 435,
+    "co2_original": "~9,56 kg CO2 eq por UF (0,022 m3)",
+    "co2_original_local": "Fig.3, painel GWP100a, p.52 (leitura de grafico)",
+    "co2_conversao": "9,56 / 0,022 m3 (Tabela 2) = 435 kg CO2e/m3 (430 com 1/45 m3 exacto) [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: fck calculado pela formula de Bolomey, nao ensaiado]"
+   }
+  ]
+ },
+ {
+  "row_id": 4185,
+  "rotulo": "Salandin et al., 2022",
+  "titulo": "The First 3D-Printed Building in Spain: A Study on Its Acoustic, Thermal and Environmental Performance",
+  "pdf": "SALANDIN et al., 2022 - su142013204.pdf",
+  "fileId": "1oM6q_dsY7eLnVEX9xxHyYoJOkbxmyr3O",
+  "pares": [
+   {
+    "sheet_row": 564,
+    "material": "Fachada impressa em 3D (micro-concreto, primeiro edificio impresso em 3D de Espanha)",
+    "fck": 25,
+    "co2_kg_m3": 463.1,
+    "co2_original": "116,56 kg CO2 eq/m2 de fachada impressa em 3D (climate change); fraccao 3D concrete 59,6% rotulada no Sankey",
+    "co2_original_local": "Tabela 7 p.16 (total por m2); Fig.11 p.14 (Sankey, 59,6%); Tabela 3 p.5 (espessura 0,15 m)",
+    "co2_conversao": "0,596 x 116,56 = 69,47 kg / 0,15 m3/m2 = 463,1 [VERIFICACAO 2026-09-26: OK; nota: massa no Sankey 315 kg/m2 vs 300 kg/m2 implicita (0,15 x 2000)]"
+   }
+  ]
+ },
+ {
+  "row_id": 4201,
+  "rotulo": "Glanz et al., 2023",
+  "titulo": "Comparative environmental footprint analysis of ultra-high-performance concrete using Portland cement and alkali-activated materials",
+  "pdf": "GLANZ et al., 2023.pdf",
+  "fileId": "1DiKlGwl9lTcPUUC2V3L3XF8_7M1xpRX0",
+  "pares": [
+   {
+    "sheet_row": 1221,
+    "material": "UHPC PC-ref (Portland CEM I 52.5R SR/NA) — mistura de referencia (comparador simetrico)",
+    "fck": 176.7,
+    "co2_kg_m3": 761,
+    "co2_original": "761 kg CO2-eq/m3",
+    "co2_original_local": "p.6, texto: 'The climate footprint of the PC-ref. material production amounts to 761 kg CO2-eq./m3 with Portland cement making up 88% of the GHG emissions.'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1222,
+    "material": "UHPC AAM M2 (escoria GGBFS+SF+WG_K57, w/b=0.23)",
+    "fck": 194.2,
+    "co2_kg_m3": 545.6,
+    "co2_original": "496 kg CO2-eq/m3-eq (M2), FU = 1,10 m3-eq",
+    "co2_original_local": "texto + Table 2",
+    "co2_conversao": "496 x 1,10 = 545,6 (por m3 real; so A1)"
+   },
+   {
+    "sheet_row": 1223,
+    "material": "UHPC AAM M3 (escoria GGBFS+SF+WG_K57, w/b=0.175)",
+    "fck": 211.8,
+    "co2_kg_m3": 459.6,
+    "co2_original": "383 kg CO2-eq/m3-eq (M3), FU = 1,20 m3-eq",
+    "co2_original_local": "texto + Table 2",
+    "co2_conversao": "383 x 1,20 = 459,6 (por m3 real; so A1)"
+   }
+  ]
+ },
+ {
+  "row_id": 4207,
+  "rotulo": "Ranganath et al., 2024",
+  "titulo": "Assessing the maturity of alternative construction materials and their potential impact on embodied carbon for single-family homes in the American Midwest",
+  "pdf": "RANGANATH et al., 2024.pdf",
+  "fileId": "1_B93hU-gB-_g9hEefTzl6isRQbER0Qgt",
+  "pares": [
+   {
+    "sheet_row": 1225,
+    "material": "Concreto de fundacao (20 MPa, reforcado com aco) — casa unifamiliar tipica, Midwest EUA",
+    "fck": 20,
+    "co2_kg_m3": 244.75,
+    "co2_original": "244.75 [CLASSE DE PROJETO] kg CO2e/m3",
+    "co2_original_local": "p.6, TABLE 2 (A1-A4 Embodied carbon intensity of each material used in the conventional baseline home): '20 MPa Concrete | 244.75 | kg CO2e/m3'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4232,
+  "rotulo": "Roh et al., 2020",
+  "titulo": "Environmental Evaluation of Concrete Containing Recycled and By-Product Aggregates Based on Life Cycle Assessment",
+  "pdf": "ROH et al., 2020.pdf",
+  "fileId": "1uvNBwe-5qdDzf49tmogKiezsqrfDGDGH",
+  "pares": [
+   {
+    "sheet_row": 1229,
+    "material": "Concreto com agregados reciclados e subprodutos (agregado de escoria, agregado de cinza de fundo, vidro) — 7 misturas",
+    "fck": 24,
+    "co2_kg_m3": 358,
+    "co2_original": "358 kg CO2eq/m3",
+    "co2_original_local": "Tabela (comentario E2 cita p.9): GWP calculado via metodo KOLID para a mistura de referencia",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4244,
+  "rotulo": "Guignone et al., 2022",
+  "titulo": "Life Cycle Assessment of Waste Glass Powder Incorporation on Concrete: A Bridge Retrofit Study Case",
+  "pdf": "GUIGNONE, 2022.pdf",
+  "fileId": "1oIDMCjfUsOF4Kxhh2hyBP6a2nZDMgvuU",
+  "pares": [
+   {
+    "sheet_row": 1230,
+    "material": "Concreto convencional (CTL, controle) para laje alveolar protendida — retrofit de ponte, Brasil",
+    "fck": 37.48,
+    "co2_kg_m3": 475,
+    "co2_original": "475 kg CO2eq/m3",
+    "co2_original_local": "p.20, texto e Fig.14A (IPCC GWP 100a): 'totaling 475 kg CO2 eq'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1234,
+    "material": "Concreto com 20% de substituicao de cimento por po de vidro moido (GP2-20)",
+    "fck": 36.56,
+    "co2_kg_m3": 414,
+    "co2_original": "414 kg CO2eq/m3",
+    "co2_original_local": "p.20, texto e Fig.14A",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4251,
+  "rotulo": "Bertoldo et al., 2024",
+  "titulo": "Concrete with Organic Waste Materials as Aggregate Replacement",
+  "pdf": "BERTOLDO et al., 2024.pdf",
+  "fileId": "1_BD22iRwNHt02_IY2Uh-aB4uTlb8AXyE",
+  "pares": [
+   {
+    "sheet_row": 1238,
+    "material": "Concreto com cinza de casca de arroz (rice husk ash, RHA) 10% substituicao de agregado fino",
+    "fck": 20.7,
+    "co2_kg_m3": 320,
+    "co2_original": "320 kg CO2eq/m3 (DU=1m3, EF v3.1 EN15804, categoria climate change)",
+    "co2_original_local": "Fig.6, p.9 — leitura herdada da avaliacao E2 2026-08-25 LOTE_73 (renderizada), nao re-confirmada por render de imagem nesta sessao",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4255,
+  "rotulo": "Gao et al., 2024",
+  "titulo": "Carbon Emission Analysis of RC Core Wall-Steel Frame Structures",
+  "pdf": "GAO et al., 2024 - app14177727.pdf",
+  "fileId": "1uJpxgpTm7QoKPQaddI8SLaFSV9_az_Xb",
+  "pares": [
+   {
+    "sheet_row": 1239,
+    "material": "Concreto estrutural C25 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck": 25,
+    "co2_kg_m3": 285.02,
+    "co2_original": "285.02 [PARC. DERIVADO] kgCO2e/m3 (tCO2e total da Tabela 2 / volume m3 da mesma tabela, mesma classe)",
+    "co2_original_local": "Tabela 2, p.7",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1240,
+    "material": "Concreto estrutural C30 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck": 30,
+    "co2_kg_m3": 295,
+    "co2_original": "295 kgCO2e/m3 (Tabela 8, fator de emissao 'concreto ordinario' C30 - confirmado tambem por Tabela 2, total/volume)",
+    "co2_original_local": "Tabela 8, p.12",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1241,
+    "material": "Concreto estrutural C40 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck": 40,
+    "co2_kg_m3": 321.4,
+    "co2_original": "321.4 kgCO2e/m3 (Tabela 8, fator de emissao 'concreto ordinario' C40 - confirmado tambem por Tabela 2, total/volume)",
+    "co2_original_local": "Tabela 8, p.12",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1242,
+    "material": "Concreto estrutural C50 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck": 50,
+    "co2_kg_m3": 385,
+    "co2_original": "385 kgCO2e/m3 (Tabela 8, fator de emissao 'concreto ordinario' C50 - confirmado tambem por Tabela 2, total/volume)",
+    "co2_original_local": "Tabela 8, p.12",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1243,
+    "material": "Concreto estrutural C60 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck": 60,
+    "co2_kg_m3": 416.76,
+    "co2_original": "416.76 kgCO2e/m3 (Tabela 8, fator de emissao 'concreto ordinario' C60 - confirmado tambem por Tabela 2, total/volume)",
+    "co2_original_local": "Tabela 8, p.12",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4263,
+  "rotulo": "Mostafaei et al., 2025",
+  "titulo": "Sustainability Enhancement and Evaluation of a Concrete Dam Using Recycling",
+  "pdf": "MOSTAFAEI et al., 2025 - app15052479.pdf",
+  "fileId": "1Hxx8IDSSkG_o_hUP2yv_tSrDJb-Qc9LS",
+  "pares": [
+   {
+    "sheet_row": 1244,
+    "material": "Concreto de barragem, resistencia de projeto de 20 MPa",
+    "fck": 20,
+    "co2_kg_m3": 304.7,
+    "co2_original": "303 ton CO2eq/m de largura da barragem (rotulo impresso na barra, IMPACT 2002+)",
+    "co2_original_local": "Fig.11 p.14 (rotulo); volume por m de largura na Secao 4.4 p.13",
+    "co2_conversao": "303000 kg / 994,3 m3 por m de largura (Secao 4.4) = 304,7"
+   },
+   {
+    "sheet_row": 1245,
+    "material": "Concreto de barragem, resistencia de projeto de 30 MPa",
+    "fck": 30,
+    "co2_kg_m3": 388.7,
+    "co2_original": "348 ton CO2eq/m de largura da barragem (rotulo impresso na barra, IMPACT 2002+)",
+    "co2_original_local": "Fig.11 p.14 (rotulo); volume por m de largura na Secao 4.4 p.13",
+    "co2_conversao": "348000 kg / 895,4 m3 por m de largura (Secao 4.4) = 388,7"
+   },
+   {
+    "sheet_row": 1246,
+    "material": "Concreto de barragem, resistencia de projeto de 40 MPa",
+    "fck": 40,
+    "co2_kg_m3": 473.9,
+    "co2_original": "422 ton CO2eq/m de largura da barragem (rotulo impresso na barra, IMPACT 2002+)",
+    "co2_original_local": "Fig.11 p.14 (rotulo); volume por m de largura na Secao 4.4 p.13",
+    "co2_conversao": "422000 kg / 890,5 m3 por m de largura (Secao 4.4) = 473,9"
+   },
+   {
+    "sheet_row": 1247,
+    "material": "Concreto de barragem, resistencia de projeto de 50 MPa",
+    "fck": 50,
+    "co2_kg_m3": 560.2,
+    "co2_original": "497 ton CO2eq/m de largura da barragem (rotulo impresso na barra, IMPACT 2002+)",
+    "co2_original_local": "Fig.11 p.14 (rotulo); volume por m de largura na Secao 4.4 p.13",
+    "co2_conversao": "497000 kg / 887,2 m3 por m de largura (Secao 4.4) = 560,2"
+   }
+  ]
+ },
+ {
+  "row_id": 4267,
+  "rotulo": "Pushkar, 2019",
+  "titulo": "Life-Cycle Assessment of the Substitution of Sand with Coal Bottom Ash in Concrete: Two Concrete Design Methods",
+  "pdf": "PUSHKAR, 2019b - app9173620.pdf",
+  "fileId": "1-Ga0eDaxm1YNNnoMCokmc3DtTtadHA8Y",
+  "pares": [
+   {
+    "sheet_row": 1251,
+    "material": "Concreto com cinza de fundo de carvao (MIX-fixed-SLUMP): CBA0 - controle, w/c=0.53",
+    "fck": 56,
+    "co2_kg_m3": 88.7,
+    "co2_original": "88.7 [PARC. DERIVADO] kg CO2eq/m3 (GWP normalizado pela resistencia [Fig.5, eixo, sem rotulo] x fc [Tabela 1] - nao publicado diretamente pelo autor nesta forma, confianca baixa)",
+    "co2_original_local": "Fig.5, p.9 (eixo, leitura) + Tabela 1, p.3 (fc)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]

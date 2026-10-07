@@ -1,0 +1,245 @@
+[
+ {
+  "row_id": 5041,
+  "rotulo": "Bento, 2016",
+  "titulo": "Analise do desempenho ambiental de estruturas de concreto armado: uso da avaliacao do ciclo de vida no processo de decisao de dimensionamento",
+  "pdf": "BENTO, 2016.pdf",
+  "fileId": "1mZr2mNJalVEQkQJC287sfab-SRU9OK_A",
+  "pares": [
+   {
+    "sheet_row": 51,
+    "material": "Concreto armado classe C25",
+    "fck": 25,
+    "co2_kg_m3": 224.6,
+    "co2_original": "50,95 kg CO2-eq/m2 (betao: brita, areia, cimento)",
+    "co2_original_local": "Fig.29 p.136",
+    "co2_conversao": "50,95 kg/m2 / volume de betao por m2 (Quadros 2-7)"
+   },
+   {
+    "sheet_row": 52,
+    "material": "Concreto armado classe C40 (melhor desempenho)",
+    "fck": 40,
+    "co2_kg_m3": 648.6,
+    "co2_original": "111 kg CO2-Equiv. por m2 de area estrutural (EDIP 1997)",
+    "co2_original_local": "Quadro 8, p.122 (EDIP 2003 no Quadro 15/16 p.178-179)",
+    "co2_conversao": "(kg/m2 x area estrutural 2.078 m2, p.98) / volume de betao 355.6 m3 (Quadros 2-7, p.114-117) = 111x2078/355.6; inclui aco, formas, distribuicao, deposicao e absorcao CO2 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 53,
+    "material": "Concreto armado classe C50",
+    "fck": 50,
+    "co2_kg_m3": 679,
+    "co2_original": "114 kg CO2-Equiv. por m2 de area estrutural (EDIP 1997)",
+    "co2_original_local": "Quadro 8, p.122 (EDIP 2003 no Quadro 15/16 p.178-179)",
+    "co2_conversao": "(kg/m2 x area estrutural 2.078 m2, p.98) / volume de betao 348.9 m3 (Quadros 2-7, p.114-117) = 114x2078/348.9; inclui aco, formas, distribuicao, deposicao e absorcao CO2 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2081,
+    "material": "estrutura de betao armado do edificio (9 pav.), classe C30, cimento CP III",
+    "fck": 30,
+    "co2_kg_m3": 529,
+    "co2_original": "120 kg CO2-Equiv. por m2 de area estrutural (EDIP 1997)",
+    "co2_original_local": "Quadro 8, p.122 (EDIP 2003 no Quadro 15/16 p.178-179)",
+    "co2_conversao": "(kg/m2 x area estrutural 2.078 m2, p.98) / volume de betao 471.4 m3 (Quadros 2-7, p.114-117) = 120x2078/471.4; inclui aco, formas, distribuicao, deposicao e absorcao CO2 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2082,
+    "material": "estrutura de betao armado do edificio (9 pav.), classe C35, cimento CP III",
+    "fck": 35,
+    "co2_kg_m3": 590.8,
+    "co2_original": "114 kg CO2-Equiv. por m2 de area estrutural (EDIP 1997)",
+    "co2_original_local": "Quadro 8, p.122 (EDIP 2003 no Quadro 15/16 p.178-179)",
+    "co2_conversao": "(kg/m2 x area estrutural 2.078 m2, p.98) / volume de betao 401.0 m3 (Quadros 2-7, p.114-117) = 114x2078/401.0; inclui aco, formas, distribuicao, deposicao e absorcao CO2 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2083,
+    "material": "estrutura de betao armado do edificio (9 pav.), classe C45, cimento CP III",
+    "fck": 45,
+    "co2_kg_m3": 667.1,
+    "co2_original": "112 kg CO2-Equiv. por m2 de area estrutural (EDIP 1997)",
+    "co2_original_local": "Quadro 8, p.122 (EDIP 2003 no Quadro 15/16 p.178-179)",
+    "co2_conversao": "(kg/m2 x area estrutural 2.078 m2, p.98) / volume de betao 348.9 m3 (Quadros 2-7, p.114-117) = 112x2078/348.9; inclui aco, formas, distribuicao, deposicao e absorcao CO2 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 5050,
+  "rotulo": "Braga, 2018",
+  "titulo": "Potencial de aquecimento global de paredes de concreto a partir da avaliacao do ciclo de vida",
+  "pdf": "BRAGA, 2018.pdf",
+  "fileId": "1QXwT5WIKLO0y6Hv3ATzuIczBXVR3Dpmd",
+  "pares": [
+   {
+    "sheet_row": 62,
+    "material": "Parede de concreto PC (moldado in loco) com fibra polipropileno fck=25 MPa",
+    "fck": 25,
+    "co2_kg_m3": 267,
+    "co2_original": "267 kg CO2-eq/m3 de concreto",
+    "co2_original_local": "Tabela 16, linha \"Concreto 25MPa\", fator EPD \"267 kgCO2-eq/m3\"",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 5052,
+  "rotulo": "Lara, 2024",
+  "titulo": "Prevencao de residuos da construcao civil: analise dos beneficios no contexto das habitacoes de interesse social",
+  "pdf": "LARA, 2024.pdf",
+  "fileId": "1_Uahl_goIkKiG3H0upyoX9_eYfycBFDw",
+  "pares": [
+   {
+    "sheet_row": 2084,
+    "material": "Concreto C25 - quota do concreto na etapa Fundacao CP2 (radier)",
+    "fck": 25,
+    "co2_kg_m3": 295,
+    "co2_original": "4,99E+01 kg CO2 eq./m2 (Fundacao); concreto ~77% do GWP da etapa (Fig.22)",
+    "co2_original_local": "Tabela 18, p.96; Figura 22, p.99 (barra GWP: brita ~0-1,5%, aco ~1,5-21%, concreto ~21-98,5%)",
+    "co2_conversao": "49,9 x 0,775 = ~38,7 kg/m2 / (5,52/42,12 = 0,1311 m3/m2) = ~295 kg CO2-eq/m3 (leitura grafica) [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   }
+  ]
+ },
+ {
+  "row_id": 5055,
+  "rotulo": "Isaia, 2021",
+  "titulo": "Efeito do alto teor de filler calcario no comportamento mecanico e em servico de concretos de ultra alta resistencia",
+  "pdf": "ISAIA, 2021.pdf",
+  "fileId": "1fO24uzF8q7-inNnwX3dLxdTz6I-7VnWs",
+  "pares": [
+   {
+    "sheet_row": 65,
+    "material": "Concreto REF (referencia s/ filler calcario)",
+    "fck": 118.1,
+    "co2_kg_m3": 597.24,
+    "co2_original": "597.24 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 67,
+    "material": "Concreto FC50 (50% filler calcario)",
+    "fck": 80.1,
+    "co2_kg_m3": 377.41,
+    "co2_original": "377.41 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 69,
+    "material": "Concreto FC60 (60% filler calcario)",
+    "fck": 56.3,
+    "co2_kg_m3": 325.09,
+    "co2_original": "325.09 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 71,
+    "material": "Concreto FC60CH10 (60% filler + 10% cal hidratada)",
+    "fck": 70.2,
+    "co2_kg_m3": 361.27,
+    "co2_original": "361.27 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 73,
+    "material": "Concreto FC70CV10 (70% filler + 10% cinza volante)",
+    "fck": 28,
+    "co2_kg_m3": 212.83,
+    "co2_original": "212.83 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 75,
+    "material": "Concreto FC70CV10CH10 (70% filler + 10% CV + 10% CH)",
+    "fck": 31.3,
+    "co2_kg_m3": 250.3,
+    "co2_original": "250.3 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 5067,
+  "rotulo": "Huang et al., 2016",
+  "titulo": "Measuring Carbon Emissions of Pavement Construction in China",
+  "pdf": "HUANG et al., 2016 - su8080723.pdf",
+  "fileId": "1K1I7HaSV8VtUh6oGWNiIiJYipjiob20_",
+  "pares": [
+   {
+    "sheet_row": 605,
+    "material": "Concreto armado classe C20 (fator de emissao normativo, Tabela 4)",
+    "fck": 20,
+    "co2_kg_m3": 247.695,
+    "co2_original": "247.695 kg CO2/m3",
+    "co2_original_local": "Tabela 4 (p.8): Database of emission factors for materials",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 606,
+    "material": "Concreto armado classe C25 (fator de emissao normativo, Tabela 4)",
+    "fck": 25,
+    "co2_kg_m3": 267.695,
+    "co2_original": "267.695 kg CO2/m3",
+    "co2_original_local": "Tabela 4 (p.8): Database of emission factors for materials",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 607,
+    "material": "Concreto armado classe C30 (fator de emissao normativo, Tabela 4)",
+    "fck": 30,
+    "co2_kg_m3": 287.695,
+    "co2_original": "287.695 kg CO2/m3",
+    "co2_original_local": "Tabela 4 (p.8): Database of emission factors for materials",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 608,
+    "material": "Concreto armado classe C35 (fator de emissao normativo, Tabela 4)",
+    "fck": 35,
+    "co2_kg_m3": 307.695,
+    "co2_original": "307.695 kg CO2/m3",
+    "co2_original_local": "Tabela 4 (p.8): Database of emission factors for materials",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 609,
+    "material": "Concreto armado classe C40 (fator de emissao normativo, Tabela 4)",
+    "fck": 40,
+    "co2_kg_m3": 327.695,
+    "co2_original": "327.695 kg CO2/m3",
+    "co2_original_local": "Tabela 4 (p.8): Database of emission factors for materials",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 610,
+    "material": "Concreto armado classe C50 (fator de emissao normativo, Tabela 4)",
+    "fck": 50,
+    "co2_kg_m3": 367.695,
+    "co2_original": "367.695 kg CO2/m3",
+    "co2_original_local": "Tabela 4 (p.8): Database of emission factors for materials",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 5086,
+  "rotulo": "Navarro-Rubio et al., 2019",
+  "titulo": "Sustainability, prefabrication and building optimization under different durability and re-using scenarios: Potential of dry precast structural connections",
+  "pdf": "NAVARRO-RUBIO et al., 2019.pdf",
+  "fileId": "1i4GN_rxz8_zjDfTmitOoDhKB3yW60ZSD",
+  "pares": [
+   {
+    "sheet_row": 77,
+    "material": "Concreto C25/30 para vigas e pilares (edificio 7 andares ligacao seca prefabricada)",
+    "fck": 25,
+    "co2_kg_m3": 265.22,
+    "co2_original": "265.22 kg CO2-eq/m3 (GWP 100a CML2001, Ecoinvent concrete normal at plant)",
+    "co2_original_local": "Table 5 \"Inventory list\", linha \"Concrete in beams\"",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]

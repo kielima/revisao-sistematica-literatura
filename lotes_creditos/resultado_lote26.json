@@ -1,0 +1,347 @@
+[
+ {
+  "row_id": 3944,
+  "pares": [
+   {
+    "sheet_row": 547,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 239.19,
+    "co2_com_desconto": null,
+    "citacao": "p.10, texto (coeficiente C20 = 239,19 kgCO2-eq/m3); Tabela 3 e Eq.(1)-(7)",
+    "derivado": "nao",
+    "nota": "Fronteira: fase de construcao (producao de materiais) do edificio; a unica 'deducao' do artigo e a energia solar do telhado (-12 tCO2-eq/ano) na fase operacional, que nao toca o coeficiente do betao. Fim de vida = 10% da construcao, sem creditos. Os autores admitem que alguns coeficientes so consideram CO2."
+   },
+   {
+    "sheet_row": 548,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 346.95,
+    "co2_com_desconto": null,
+    "citacao": "p.10, texto (coeficiente C30 = 346,95 kgCO2-eq/m3)",
+    "derivado": "nao",
+    "nota": "Idem: sem creditos de reciclagem, carbonatacao ou modulo D."
+   }
+  ],
+  "texto_completo_lido": "Corpo integral (pp.1-15, ~56 000 de 72 589 caracteres) lido linha a linha; lista de referencias (pp.15-18) so pesquisada por termos. Tabela S1 suplementar nao esta no PDF.",
+  "notas": "Sem nenhum credito na ACV do betao."
+ },
+ {
+  "row_id": 3947,
+  "pares": [
+   {
+    "sheet_row": 1147,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 242.0,
+    "co2_com_desconto": null,
+    "citacao": "p.8 sec.3.2 (255 kg PC/m3) x Tabela 1 p.4 (0,949 kgCO2-eq/kg PC) = 242,0",
+    "derivado": "sim",
+    "nota": "O gravado e so a fracao do cimento (bruto, mas fronteira parcial): exclui agregados, SP, mistura (1,23 kgCO2-eq/m3) e transporte que o artigo inclui no total cradle-to-gate (Fig.5, so em grafico). SA e SF com 0 kg/kg por nao alocacao de subproduto - nao e credito."
+   },
+   {
+    "sheet_row": 1148,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 391.0,
+    "co2_com_desconto": null,
+    "citacao": "p.8 sec.3.2 (412 kg PC/m3) x Tabela 1 (0,949) = 391,0",
+    "derivado": "sim",
+    "nota": "Idem: so cimento; total do betao fica um pouco acima (Fig.5)."
+   }
+  ],
+  "texto_completo_lido": "Corpo + apendices 1,3,4,5 (~72 000 de 86 564 caracteres) lidos linha a linha; referencias so pesquisadas por termos. As tabelas do Apendice 2 (pp.16-19) sao imagem e nao vieram no texto; figuras nao renderizadas (nao necessarias para creditos).",
+  "notas": "Cradle-to-gate sem creditos; a mencao a captura/sequestro de carbono e so contexto na introducao."
+ },
+ {
+  "row_id": 3958,
+  "pares": [
+   {
+    "sheet_row": 1150,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 253.44,
+    "co2_com_desconto": null,
+    "citacao": "Table 1 p.995: total 408,44 - aco 155,00 = 253,44 (cimento 204,29 + areia 6,21 + brita 8,42 + agua 0,05 + pre-fabrico 34,38)",
+    "derivado": "sim",
+    "nota": "ICE v3.0, modulos A1-A3; sem transporte. Os itens nao-aco somam 253,35 (o total impresso 408,44 difere 0,09 da soma das linhas). '+ 20,19' na tabela e o desvio-padrao do Monte Carlo, nao um credito."
+   }
+  ],
+  "texto_completo_lido": "Texto integral do corpo, tabelas e notas finais (~66 000 de 88 751 caracteres) lido linha a linha; referencias so pesquisadas por termos.",
+  "notas": "Sem creditos de qualquer tipo."
+ },
+ {
+  "row_id": 3992,
+  "pares": [
+   {
+    "sheet_row": 550,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 221.0,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6 p.2746 (CLC 20,3 MPa: 0,221 tCO2-eq/m3, fonte ref.[48])",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate, sem fim de vida nem creditos (os autores dizem que reciclagem/fim de vida ficam para trabalho futuro). Incoerencia interna sem efeito no gravado: Tabela 13 usa 2,20E-01 e da 231,89 t para 1 049,26 m3, mas o texto diz 241,32 t. O fator e externo (ref.[48]), nao calculado pelos autores."
+   }
+  ],
+  "texto_completo_lido": "Corpo integral (~60 000 de 80 001 caracteres, pp.1-13 ate inicio das referencias) lido linha a linha; referencias so pesquisadas por termos. fileId obtido no Drive: 1iXfYSyq3_psZZa9I_2GbBzsAXE58O_m7.",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 3993,
+  "pares": [
+   {
+    "sheet_row": 1151,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 350.7,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.5, coluna Total, w/c=0,5 %R=0",
+    "derivado": "nao",
+    "nota": "Producao do betao (cimento+agregados+outros); a reducao com RCA vem so de menor impacto do agregado, nao de credito. As 22 343 t CO2-e/ano 'que deixariam de ser emitidas' (p.4) sao uma extrapolacao regional, nao aplicada as misturas."
+   },
+   {
+    "sheet_row": 1152,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 349.9,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.5, coluna Total, w/c=0,5 %R=25",
+    "derivado": "nao",
+    "nota": "Producao do betao (cimento+agregados+outros); a reducao com RCA vem so de menor impacto do agregado, nao de credito. As 22 343 t CO2-e/ano 'que deixariam de ser emitidas' (p.4) sao uma extrapolacao regional, nao aplicada as misturas."
+   },
+   {
+    "sheet_row": 1153,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 349.0,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.5, coluna Total, w/c=0,5 %R=50",
+    "derivado": "nao",
+    "nota": "Producao do betao (cimento+agregados+outros); a reducao com RCA vem so de menor impacto do agregado, nao de credito. As 22 343 t CO2-e/ano 'que deixariam de ser emitidas' (p.4) sao uma extrapolacao regional, nao aplicada as misturas."
+   },
+   {
+    "sheet_row": 1154,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 348.2,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.5, coluna Total, w/c=0,5 %R=75",
+    "derivado": "nao",
+    "nota": "Producao do betao (cimento+agregados+outros); a reducao com RCA vem so de menor impacto do agregado, nao de credito. As 22 343 t CO2-e/ano 'que deixariam de ser emitidas' (p.4) sao uma extrapolacao regional, nao aplicada as misturas."
+   },
+   {
+    "sheet_row": 1155,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 347.4,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.5, coluna Total, w/c=0,5 %R=100",
+    "derivado": "nao",
+    "nota": "Producao do betao (cimento+agregados+outros); a reducao com RCA vem so de menor impacto do agregado, nao de credito. As 22 343 t CO2-e/ano 'que deixariam de ser emitidas' (p.4) sao uma extrapolacao regional, nao aplicada as misturas."
+   },
+   {
+    "sheet_row": 1156,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 264.7,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.5, coluna Total, w/c=0,7 %R=0",
+    "derivado": "nao",
+    "nota": "Producao do betao (cimento+agregados+outros); a reducao com RCA vem so de menor impacto do agregado, nao de credito. As 22 343 t CO2-e/ano 'que deixariam de ser emitidas' (p.4) sao uma extrapolacao regional, nao aplicada as misturas."
+   },
+   {
+    "sheet_row": 1157,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 263.9,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.5, coluna Total, w/c=0,7 %R=25",
+    "derivado": "nao",
+    "nota": "Producao do betao (cimento+agregados+outros); a reducao com RCA vem so de menor impacto do agregado, nao de credito. As 22 343 t CO2-e/ano 'que deixariam de ser emitidas' (p.4) sao uma extrapolacao regional, nao aplicada as misturas."
+   },
+   {
+    "sheet_row": 1158,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 263.0,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.5, coluna Total, w/c=0,7 %R=50",
+    "derivado": "nao",
+    "nota": "Producao do betao (cimento+agregados+outros); a reducao com RCA vem so de menor impacto do agregado, nao de credito. As 22 343 t CO2-e/ano 'que deixariam de ser emitidas' (p.4) sao uma extrapolacao regional, nao aplicada as misturas."
+   },
+   {
+    "sheet_row": 1159,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 262.2,
+    "co2_com_desconto": null,
+    "citacao": "Table 4 p.5, coluna Total, w/c=0,7 %R=75",
+    "derivado": "nao",
+    "nota": "Producao do betao (cimento+agregados+outros); a reducao com RCA vem so de menor impacto do agregado, nao de credito. As 22 343 t CO2-e/ano 'que deixariam de ser emitidas' (p.4) sao uma extrapolacao regional, nao aplicada as misturas."
+   }
+  ],
+  "texto_completo_lido": "Texto integral (6 paginas, incluindo referencias) lido linha a linha.",
+  "notas": "Sem creditos. A mistura w/c 0,7 %R=100 (Fc 19,0) nao esta no lote."
+ },
+ {
+  "row_id": 3995,
+  "pares": [
+   {
+    "sheet_row": 1160,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 774.0,
+    "co2_com_desconto": null,
+    "citacao": "Fig.9 p.10 (Total GWP, eixo 760-800), leitura grafica ja feita na extracao",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate; a escoria de cobre entra com os impactos de lavagem/secagem e transporte (Kua), sem credito de aterro evitado (o aterro evitado so e referido qualitativamente e na Fig.3, sem numero aplicado). Nao re-renderizei a Fig.9 (valor do gravado nao foi reverificado por pixel nesta ronda)."
+   }
+  ],
+  "texto_completo_lido": "Texto integral (13 paginas, incluindo referencias) lido linha a linha; figuras nao renderizadas.",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 4007,
+  "pares": [
+   {
+    "sheet_row": 1161,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 472.0,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 p.7: 'Reinforced concrete share' 47,2 kgCO2eq/m2 / 0,10 m = 472",
+    "derivado": "sim",
+    "nota": "Athena IE, so betao e madeira; o artigo diz expressamente que o carbono armazenado na madeira foi EXCLUIDO (p.5) - logo nao ha desconto biogenico, nem para a madeira nem para o betao. Valor inclui armadura minima (familia concreto_armado)."
+   }
+  ],
+  "texto_completo_lido": "Texto integral (11 paginas, incluindo referencias) lido linha a linha.",
+  "notas": "Sem creditos aplicados; biogenico mencionado so como exclusao."
+ },
+ {
+  "row_id": 4012,
+  "pares": [
+   {
+    "sheet_row": 1162,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 510.94,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.8 (fator C50, base CLCD)",
+    "derivado": "nao",
+    "nota": "Fator da base CLCD (kg/unidade); hipotese 3 do artigo: todos os residuos vao para aterro - sem reciclagem nem modulo D nem carbonatacao."
+   },
+   {
+    "sheet_row": 1880,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 201.38,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.8 (fator C20, base CLCD)",
+    "derivado": "nao",
+    "nota": "Fator da base CLCD (kg/unidade); hipotese 3 do artigo: todos os residuos vao para aterro - sem reciclagem nem modulo D nem carbonatacao."
+   },
+   {
+    "sheet_row": 1881,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 250.54,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.8 (fator C25, base CLCD)",
+    "derivado": "nao",
+    "nota": "Fator da base CLCD (kg/unidade); hipotese 3 do artigo: todos os residuos vao para aterro - sem reciclagem nem modulo D nem carbonatacao."
+   },
+   {
+    "sheet_row": 1882,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 306.78,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.8 (fator C30, base CLCD)",
+    "derivado": "nao",
+    "nota": "Fator da base CLCD (kg/unidade); hipotese 3 do artigo: todos os residuos vao para aterro - sem reciclagem nem modulo D nem carbonatacao."
+   },
+   {
+    "sheet_row": 1883,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 391.03,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.8 (fator C40, base CLCD)",
+    "derivado": "nao",
+    "nota": "Fator da base CLCD (kg/unidade); hipotese 3 do artigo: todos os residuos vao para aterro - sem reciclagem nem modulo D nem carbonatacao."
+   }
+  ],
+  "texto_completo_lido": "Texto integral do corpo, tabelas e conclusoes lido linha a linha; referencias so pesquisadas por termos.",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 4026,
+  "pares": [
+   {
+    "sheet_row": 1163,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 364.0,
+    "co2_com_desconto": null,
+    "citacao": "p.14, sec.4.1 e Fig.6 (MU-hLCA, GPC 90%FA/10%GGBFS com agregado natural = 364 kgCO2-eq/m3)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate; FA e GGBFS levam impactos (alocacao fisica + eletricidade a montante), nao creditos. O valor 364 e do GEOPOLIMERO com agregado natural (cenario S4.1), embora o rotulo do material diga 'OPC vs geopolimero'. O mesmo caso de estudo reaparece na linha 4027 (Fig.8, RCA GPC ~363): possivel par duplicado entre os dois artigos companheiros."
+   }
+  ],
+  "texto_completo_lido": "Corpo integral (pp.1-22, ~68 000 de 94 729 caracteres) lido linha a linha; referencias so pesquisadas por termos.",
+  "notas": "Sem creditos; a reducao de 1% com RCA vem do menor impacto do agregado, nao de credito de aterro evitado."
+ },
+ {
+  "row_id": 4027,
+  "pares": [
+   {
+    "sheet_row": 1164,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 517.0,
+    "co2_com_desconto": null,
+    "citacao": "Fig.8 p.11, barra 'RCA OPC' (leitura grafica da extracao); o artigo companheiro (4026, p.16) imprime 516 kgCO2-eq/m3 para 100% RCA OPC",
+    "derivado": "sim",
+    "nota": "Integrated hLCA cradle-to-gate, sem creditos. Valor impresso no artigo companheiro (516) confirma a leitura (517)."
+   },
+   {
+    "sheet_row": 2017,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 363.0,
+    "co2_com_desconto": null,
+    "citacao": "Fig.8 p.11, barra 'RCA GPC' (leitura grafica da extracao)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Mesmo caso do artigo 4026 (GPC NA 364, RCA 1% menor) - ver nota de possivel duplicacao."
+   }
+  ],
+  "texto_completo_lido": "Texto integral (15 paginas, incluindo referencias) lido linha a linha; Fig.8 nao re-renderizada.",
+  "notas": "Sem creditos."
+ }
+]

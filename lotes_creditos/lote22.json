@@ -1,0 +1,380 @@
+[
+ {
+  "row_id": 3598,
+  "rotulo": "Jungclaus et al., 2024",
+  "titulo": "Whole-life carbon emissions of concrete mixtures considering maximum CO2 sequestration via carbonation",
+  "pdf": "JUNGCLAUS et al., 2024.pdf",
+  "fileId": "1Kx95URJkdc_fsRK1e7WaRfrQWhh4LjQC",
+  "pares": [
+   {
+    "sheet_row": 1059,
+    "material": "concreto Portland Tipo I (0% SCM, resistencia de projeto 30 MPa)",
+    "fck": 30,
+    "co2_kg_m3": 360,
+    "co2_original": "360 kg CO2e/m3 (cradle-to-gate, modulos A1-A3)",
+    "co2_original_local": "p.4, texto",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1060,
+    "material": "concreto Portland Tipo I (0% SCM, resistencia de projeto 45 MPa)",
+    "fck": 45,
+    "co2_kg_m3": 505,
+    "co2_original": "505 kg CO2e/m3 (cradle-to-gate, modulos A1-A3)",
+    "co2_original_local": "p.4, texto",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3602,
+  "rotulo": "Joachim & Oettel, 2024",
+  "titulo": "Experimental Investigations on the Application of Natural Plant Fibers in Ultra-High-Performance Concrete",
+  "pdf": "JOACHIM et al., 2024 - ma17143519.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 485,
+    "material": "UHPC sem fibras (S1)",
+    "fck": 143,
+    "co2_kg_m3": 709.9,
+    "co2_original": "Nao publicado como total; composicao por m3 (Tab.3) e fatores GWP por componente (Tab.8) impressos",
+    "co2_original_local": "Tabela 3 p.6 (composicao) x Tabela 8 p.14 (fatores); validacao com percentagens do texto p.15",
+    "co2_conversao": "795x0,755 + 169x0,0061 + 198x0,0181 + 971x0,0385 + 36x1,88 = 709,90 (S1, A1-A3) [VERIFICACAO 2026-09-26: OK; nota: fck 143 MPa (UHPC); valor reconstruido, nao publicado]"
+   },
+   {
+    "sheet_row": 486,
+    "material": "UHPC com fibras de aco 1.25%vol (S2)",
+    "fck": 133.6,
+    "co2_kg_m3": 914.72,
+    "co2_original": "Nao publicado como total; composicao (Tab.3) e fatores GWP (Tab.8) impressos",
+    "co2_original_local": "Tabela 3 p.6 x Tabela 8 p.14",
+    "co2_conversao": "709,90 (matriz S1) + 98 kg fibra de aco x 2,09 kg CO2e/kg = 914.72 [VERIFICACAO 2026-09-26: OK; nota: valor reconstruido (UHPC)]"
+   },
+   {
+    "sheet_row": 487,
+    "material": "UHPC com fibras de bambu 10kg/m3 (S3)",
+    "fck": 114.4,
+    "co2_kg_m3": 713.7,
+    "co2_original": "Nao publicado como total; composicao (Tab.3) e fatores GWP (Tab.8) impressos",
+    "co2_original_local": "Tabela 3 p.6 x Tabela 8 p.14",
+    "co2_conversao": "709,90 (matriz S1) + 10 kg bambu x 0,38 kg CO2e/kg = 713.70 [VERIFICACAO 2026-09-26: OK; nota: valor reconstruido (UHPC)]"
+   },
+   {
+    "sheet_row": 488,
+    "material": "UHPC com fibras de coco 15kg/m3 (S4)",
+    "fck": 106.4,
+    "co2_kg_m3": 716.65,
+    "co2_original": "Nao publicado como total; composicao (Tab.3) e fatores GWP (Tab.8) impressos",
+    "co2_original_local": "Tabela 3 p.6 x Tabela 8 p.14",
+    "co2_conversao": "709,90 (matriz S1) + 15 kg coco x 0,45 kg CO2e/kg = 716.65 [VERIFICACAO 2026-09-26: OK; nota: valor reconstruido (UHPC)]"
+   },
+   {
+    "sheet_row": 489,
+    "material": "UHPC com fibras de linho 18kg/m3 (S5)",
+    "fck": 105.2,
+    "co2_kg_m3": 715.48,
+    "co2_original": "Nao publicado como total; composicao (Tab.3) e fatores GWP (Tab.8) impressos",
+    "co2_original_local": "Tabela 3 p.6 x Tabela 8 p.14",
+    "co2_conversao": "709,90 (matriz S1) + 18 kg linho x 0,31 kg CO2e/kg = 715.48 [VERIFICACAO 2026-09-26: OK; nota: valor reconstruido (UHPC)]"
+   }
+  ]
+ },
+ {
+  "row_id": 3615,
+  "rotulo": "Alkhawaldeh et al., 2024",
+  "titulo": "Sustainability evaluation and life cycle assessment of concretes including pozzolanic by-products and alkali-activated binders",
+  "pdf": "ALKHAWALDEH et al., 2024.pdf",
+  "fileId": "1_Vath2LngOj808h42u-vbzkBYJAJaZQr",
+  "pares": [
+   {
+    "sheet_row": 1063,
+    "material": "concreto OPC (Portland comum)",
+    "fck": 40,
+    "co2_kg_m3": 347,
+    "co2_original": "347 kg CO2/m3",
+    "co2_original_local": "p.5, Tabela 2 / Fig.4",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1064,
+    "material": "concreto ativado por alcalis com escoria (AAS)",
+    "fck": 40,
+    "co2_kg_m3": 169,
+    "co2_original": "169 kg CO2/m3",
+    "co2_original_local": "p.5, Tabela 2 / Fig.4",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1065,
+    "material": "concreto ativado por alcalis com cinza volante (AAFA)",
+    "fck": 40,
+    "co2_kg_m3": 234,
+    "co2_original": "234 kg CO2/m3",
+    "co2_original_local": "p.5, Tabela 2 / Fig.4",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1066,
+    "material": "concreto com po de vidro 20% (glass powder)",
+    "fck": 40,
+    "co2_kg_m3": 245,
+    "co2_original": "245 kg CO2/m3",
+    "co2_original_local": "p.5, Tabela 2 / Fig.4",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3620,
+  "rotulo": "Lopez-Sosa et al., 2025",
+  "titulo": "Multivariate analysis of materials used in rural housing in Mexico considering sustainability indicators: Towards suitable house construction",
+  "pdf": "LOPEZ-SOSA et al., 2025.pdf",
+  "fileId": "1waU72blyRuPwiWJETt_TigydTR_Pcg4x",
+  "pares": [
+   {
+    "sheet_row": 1067,
+    "material": "cimento/concreto (elemento de parede e cobertura, comparativo multi-material de habitacao rural no Mexico)",
+    "fck": 24.52,
+    "co2_kg_m3": 168,
+    "co2_original": "16,8 kgCO2/m2",
+    "co2_original_local": "Tabela 1 p.4, Global warming (kgCO2/m2), coluna Cement (ROOF)",
+    "co2_conversao": "16,8 kgCO2/m2 / 0,1 m (espessura de lajes e pavimentos de betao impressa na p.5) = 168 kg CO2/m3 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   }
+  ]
+ },
+ {
+  "row_id": 3653,
+  "rotulo": "Tushar et al., 2023",
+  "titulo": "Application of recycled crushed glass in road pavements and pipeline bedding: An integrated environmental evaluation using LCA",
+  "pdf": "TUSHAR, 2023.pdf",
+  "fileId": "1mSsV225WYPabUkAsLEdig5FNZgCY3bqV",
+  "pares": [
+   {
+    "sheet_row": 1068,
+    "material": "concreto com vidro reciclado (agregado parcial) - pavimento",
+    "fck": 20,
+    "co2_kg_m3": 349.37,
+    "co2_original": "122.280 kg CO2 eq",
+    "co2_original_local": "Tabela 10 p.20",
+    "co2_conversao": "122.280 / 350 m3 (1000 m x 3,5 m x 0,10 m) = 349,37 kg CO2/m3 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 2003,
+    "material": "pavimento de betao continuamente armado, sem reciclados, 150 mm",
+    "fck": 20,
+    "co2_kg_m3": 340.23,
+    "co2_original": "178.621 kg CO2 eq",
+    "co2_original_local": "Tabela 10 p.20",
+    "co2_conversao": "178.621 / 525 m3 = 340,23 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 2004,
+    "material": "pavimento de betao armado com 20% RCG (vidro reciclado) na areia, 100 mm",
+    "fck": 20,
+    "co2_kg_m3": 347.59,
+    "co2_original": "121.655 kg CO2 eq",
+    "co2_original_local": "Tabela 10 p.20",
+    "co2_conversao": "121.655 / 350 = 347,59 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 2005,
+    "material": "pavimento de betao armado com 20% RCG, 150 mm",
+    "fck": 20,
+    "co2_kg_m3": 338.45,
+    "co2_original": "177.684 kg CO2 eq",
+    "co2_original_local": "Tabela 10 p.20",
+    "co2_conversao": "177.684 / 525 = 338,45 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 2006,
+    "material": "pavimento de betao armado com 100% aco reciclado (RCS), 100 mm",
+    "fck": 20,
+    "co2_kg_m3": 275.28,
+    "co2_original": "96.347 kg CO2 eq",
+    "co2_original_local": "Tabela 10 p.20",
+    "co2_conversao": "96.347 / 350 = 275,28 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 2007,
+    "material": "pavimento de betao armado com 100% RCS, 150 mm",
+    "fck": 20,
+    "co2_kg_m3": 281.69,
+    "co2_original": "147.885 kg CO2 eq",
+    "co2_original_local": "Tabela 10 p.20",
+    "co2_conversao": "147.885 / 525 = 281,69 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 2008,
+    "material": "pavimento de betao armado com 20% RCG + 100% RCS, 100 mm",
+    "fck": 20,
+    "co2_kg_m3": 272.66,
+    "co2_original": "95.431 kg CO2 eq",
+    "co2_original_local": "Tabela 10 p.20",
+    "co2_conversao": "95.431 / 350 = 272,66 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 2009,
+    "material": "pavimento de betao armado com 20% RCG + 100% RCS, 150 mm",
+    "fck": 20,
+    "co2_kg_m3": 279.9,
+    "co2_original": "146.948 kg CO2 eq",
+    "co2_original_local": "Tabela 10 p.20",
+    "co2_conversao": "146.948 / 525 = 279,90 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   }
+  ]
+ },
+ {
+  "row_id": 3657,
+  "rotulo": "Lei et al., 2024",
+  "titulo": "Triaxial mechanical behaviours and life cycle assessment of sustainable multi-recycled aggregate concrete",
+  "pdf": "LEI et al., 2024 - j.scitotenv.2024.171381.pdf",
+  "fileId": "1XGfPNv2EaX4L1Ba_rEnmr4QTIvlm15YJ",
+  "pares": [
+   {
+    "sheet_row": 1069,
+    "material": "concreto com agregado reciclado (NAC - agregado natural, comparador)",
+    "fck": 50.3,
+    "co2_kg_m3": 502.1,
+    "co2_original": "502.1 kg CO2-eq/m3 (unidade inferida, confianca media - ver observacoes)",
+    "co2_original_local": "p.15, Tab.10",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1070,
+    "material": "concreto com agregado reciclado (RACI, 1a geracao)",
+    "fck": 48.5,
+    "co2_kg_m3": 459.6,
+    "co2_original": "459.6 kg CO2-eq/m3 (unidade inferida, confianca media - ver observacoes)",
+    "co2_original_local": "p.15, Tab.10",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1071,
+    "material": "concreto com agregado reciclado (RACII, 2a geracao)",
+    "fck": 47.2,
+    "co2_kg_m3": 441.2,
+    "co2_original": "441.2 kg CO2-eq/m3 (unidade inferida, confianca media - ver observacoes)",
+    "co2_original_local": "p.15, Tab.10",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1072,
+    "material": "concreto com agregado reciclado (RACIII, 3a geracao)",
+    "fck": 45.3,
+    "co2_kg_m3": 422.8,
+    "co2_original": "422.8 kg CO2-eq/m3 (unidade inferida, confianca media - ver observacoes)",
+    "co2_original_local": "p.15, Tab.10",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3661,
+  "rotulo": "Omar et al., 2014",
+  "titulo": "Assessment of the embodied carbon in precast concrete wall panels using a hybrid life cycle assessment approach in Malaysia",
+  "pdf": "OMAR et al., 2014.pdf",
+  "fileId": "1XfmTReGXizmuRzRCN0iLO0Ml3SNeMtba",
+  "pares": [
+   {
+    "sheet_row": 1073,
+    "material": "concreto pre-fabricado (painel de parede, Malasia)",
+    "fck": 25,
+    "co2_kg_m3": 436.32,
+    "co2_original": "0,17 kg CO2-e/kg de concreto (Embodied emission intensity, grau 25 MPa)",
+    "co2_original_local": "Tabela 6 (p.6-7), colunas ECO2-eIcon e Concrete density",
+    "co2_conversao": "0,17 kg/kg x densidade 2566,6 kg/m3 (mesma linha Tab.6) = 436.32"
+   },
+   {
+    "sheet_row": 1074,
+    "material": "concreto pre-fabricado (painel de parede, Malasia)",
+    "fck": 30,
+    "co2_kg_m3": 502.13,
+    "co2_original": "0,198 kg CO2-e/kg de concreto (Embodied emission intensity, grau 30 MPa)",
+    "co2_original_local": "Tabela 6 (p.6-7), colunas ECO2-eIcon e Concrete density",
+    "co2_conversao": "0,198 kg/kg x densidade 2536,0 kg/m3 (mesma linha Tab.6) = 502.13"
+   },
+   {
+    "sheet_row": 1075,
+    "material": "concreto pre-fabricado (painel de parede, Malasia)",
+    "fck": 40,
+    "co2_kg_m3": 525.89,
+    "co2_original": "0,22 kg CO2-e/kg de concreto (Embodied emission intensity, grau 40 MPa)",
+    "co2_original_local": "Tabela 6 (p.6-7), colunas ECO2-eIcon e Concrete density",
+    "co2_conversao": "0,22 kg/kg x densidade 2390,4 kg/m3 (mesma linha Tab.6) = 525.89"
+   }
+  ]
+ },
+ {
+  "row_id": 3681,
+  "rotulo": "Elliot et al., 2024",
+  "titulo": "Dynamic environmental payback of concrete due to carbonation over centuries",
+  "pdf": "ELLIOT, 2024.pdf",
+  "fileId": "1XZcBQcYB8oQuzgK5a0ryslDY2GflPKhM",
+  "pares": [
+   {
+    "sheet_row": 1078,
+    "material": "concreto com cinza volante (fly ash) - cenario baseline",
+    "fck": 25,
+    "co2_kg_m3": 266.25,
+    "co2_original": "4,26 kg CO2-eq por UF (0,016 m3 de bloco solido de concreto, cenario baseline)",
+    "co2_original_local": "p.4, Secao 4.1 Static LCA results (texto)",
+    "co2_conversao": "4,26 kg / 0,016 m3 = 266,25"
+   }
+  ]
+ },
+ {
+  "row_id": 3685,
+  "rotulo": "Malami et al., 2024",
+  "titulo": "Probabilistic approach to the sustainability assessment of reinforced concrete structures in conditions of climate change",
+  "pdf": "MALAMI et al., 2024.pdf",
+  "fileId": "1DcO975MrfazHrYAQDWZx4Xkfd7-4_irK",
+  "pares": [
+   {
+    "sheet_row": 2010,
+    "material": "betao PC (so constituintes, A1-A3)",
+    "fck": 40,
+    "co2_kg_m3": 316,
+    "co2_original": "traco Tab.7: CEM I 362, agregado 1800 kg/m3; factores Tab.4: 860 e 2,6 kg CO2/t",
+    "co2_original_local": "Tabelas 4 e 7, p.6 e p.8",
+    "co2_conversao": "0,362x860 + 1,800x2,6 = 311,32 + 4,68 = 316,0 kg CO2/m3 [REVISAO 2026-09-27, leitura integral; confianca alta]"
+   },
+   {
+    "sheet_row": 2011,
+    "material": "betao FA/35 (so constituintes, A1-A3)",
+    "fck": 40,
+    "co2_kg_m3": 249.8,
+    "co2_original": "CEM I 285, FA 154, agregado 1800 kg/m3; factores 860 / 0,1 / 2,6 kg CO2/t",
+    "co2_original_local": "Tabelas 4 e 7",
+    "co2_conversao": "0,285x860 + 0,154x0,1 + 1,8x2,6 = 245,10 + 0,02 + 4,68 = 249,80 [REVISAO 2026-09-27, leitura integral; confianca alta]"
+   },
+   {
+    "sheet_row": 2012,
+    "material": "betao GGBS/65 (so constituintes, A1-A3)",
+    "fck": 40,
+    "co2_kg_m3": 132.61,
+    "co2_original": "CEM I 127, GGBS 235, agregado 1800 kg/m3; factores 860 / 79,6 / 2,6 kg CO2/t",
+    "co2_original_local": "Tabelas 4 e 7",
+    "co2_conversao": "0,127x860 + 0,235x79,6 + 1,8x2,6 = 109,22 + 18,71 + 4,68 = 132,61 [REVISAO 2026-09-27, leitura integral; confianca alta]"
+   }
+  ]
+ },
+ {
+  "row_id": 3687,
+  "rotulo": "Jin et al., 2024",
+  "titulo": "Life cycle assessment of limestone calcined clay concrete: Potential for low-carbon 3D printing",
+  "pdf": "JIN, 2024i.pdf",
+  "fileId": "1bKrlh4zqtdWS3YcRBEkoYIGL3pS-XRdZ",
+  "pares": [
+   {
+    "sheet_row": 1080,
+    "material": "LC3 (limestone calcined clay) - mistura de referencia para impressao 3D de baixo carbono",
+    "fck": 31,
+    "co2_kg_m3": 251,
+    "co2_original": "251 kg CO2-eq/m3",
+    "co2_original_local": "p.9, Tab.6 (modelo LCA CA-QC)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]

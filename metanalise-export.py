@@ -7,7 +7,9 @@ Uso:
 Saida: {"pairs": [...], "unit_stats": [...]}.
 
 `pairs`: cada ponto e [fck_MPa, co2_kg_m3, categoria_1_letra, estrato_1_letra,
-citacao_curta_ou_null, base_portland]. `base_portland` (2026-09-28, pedido da Kie:
+citacao_curta_ou_null, base_portland, co2_com_desconto_ou_null, sem_bruto]. Os dois ultimos
+(2026-10-07): CO2 com os descontos do proprio artigo (null = sem desconto) e 1 quando o artigo so publica o valor
+com desconto. `base_portland` (2026-09-28, pedido da Kie:
 filtro 'so cimento Portland' vs 'tudo' no painel) e 'P' (ligante principal cimento
 Portland), 'N' (sem clinquer Portland: geopolimero/alcali-ativado, CSA, magnesio,
 gesso, madeira...) ou 'M' (linha mista) -- ver classificar_base_portland.py. `citacao_curta` (2026-09-12, pedido da Kie: forest
@@ -801,7 +803,14 @@ def main():
         if base is None:
             print(f'AVISO: linha {r} (row_id={row_id}) sem base_portland -- correr classificar_base_portland.py', file=sys.stderr)
             base = 'M'
-        compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato], short_label(autores, ano), base])
+        # 2026-10-07 (Kie): cenario com desconto. 7.o campo = co2 com os descontos que o proprio artigo
+        # aplica (dados_fck col 44; null = o artigo nao declara desconto -> igual ao bruto); 8.o campo = 1
+        # quando o artigo so publica o valor com desconto (col 47 = nao): o 2.o campo e entao esse valor.
+        com = tofloat(ws.cell(r, 44).value)
+        com = round(com, 2) if com is not None and CO2_MIN <= com <= CO2_MAX else None
+        sem_bruto = 1 if str(ws.cell(r, 47).value or '') == 'nao' else 0
+        compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato], short_label(autores, ano), base,
+                        com, sem_bruto])
 
     unit_stats = [
         {'kind': kind, 'cat': ucat, 'n': n}

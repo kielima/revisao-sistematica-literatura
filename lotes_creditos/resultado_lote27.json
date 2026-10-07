@@ -1,0 +1,388 @@
+[
+ {
+  "row_id": 4028,
+  "pares": [
+   {
+    "sheet_row": 1165,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 178.63,
+    "co2_com_desconto": 168.3,
+    "citacao": "Tabela 6 (p.8), Mix4: 'CO2 emissions from materials' 178,63; 'CO2 uptake' 10,33 (carbonatacao em 50 anos, pilar 500x500 mm, cobrimento 30 mm); 'Net CO2 emissions' 168,30 kg/m3. Eq.(7) p.3: CO2net = CO2-em - CO2UP.",
+    "derivado": "nao",
+    "nota": "O gravado (168,3) e o liquido = funcao objectivo do artigo. Bruto e so materiais (Tabela 1 da so fatores de materiais; Eq.1 menciona transporte e mistura mas a Tabela 6 rotula 'from materials'). Captacao modelada (nao medida), cenario sem alteracao climatica; com RCP8.5 (Tabela 8, Mix8) o bruto e o mesmo 178,63 e o liquido 167,17. A captacao depende do elemento (pilar); numa laje seria maior (Fig.7)."
+   }
+  ],
+  "texto_completo_lido": "sim - 51.747 caracteres do read_file_content, lidos por inteiro em dois blocos sequenciais ate as referencias (artigo de 13 pp.); figuras nao renderizadas (os numeros estao todos na Tabela 6).",
+  "notas": ""
+ },
+ {
+  "row_id": 4033,
+  "pares": [
+   {
+    "sheet_row": 553,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Fig.16a (p.15) vista renderizada a partir de recorte das pp.5-15 do PDF original (shrink-drive-pdf.yml, /printer): barras simples de GWP sem componentes negativas; Fig.2 (p.5) fronteira cradle-to-gate: entradas (lamas DS/PS com secagem, calcinacao, moagem; cimento, areia, agua, PCE; transporte, fabrico) e saidas so emissoes (CO2, metais pesados, outras). Texto p.5 e p.14: GWP e Energia, sem creditos.",
+    "derivado": "nao",
+    "nota": "Apesar do titulo ('Carbon sequestration') e da frase 'facilitates enhanced carbonation and CO2 sequestration ... carbon reduction at the source', o artigo nao quantifica nenhuma captacao nem credito: a reducao de GWP vem so da substituicao de cimento. Valor gravado e leitura por pixel (ja feita a 2026-09-27); nao refeita."
+   },
+   {
+    "sheet_row": 554,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Fig.16a (p.15) vista renderizada a partir de recorte das pp.5-15 do PDF original (shrink-drive-pdf.yml, /printer): barras simples de GWP sem componentes negativas; Fig.2 (p.5) fronteira cradle-to-gate: entradas (lamas DS/PS com secagem, calcinacao, moagem; cimento, areia, agua, PCE; transporte, fabrico) e saidas so emissoes (CO2, metais pesados, outras). Texto p.5 e p.14: GWP e Energia, sem creditos.",
+    "derivado": "nao",
+    "nota": "Apesar do titulo ('Carbon sequestration') e da frase 'facilitates enhanced carbonation and CO2 sequestration ... carbon reduction at the source', o artigo nao quantifica nenhuma captacao nem credito: a reducao de GWP vem so da substituicao de cimento. Valor gravado e leitura por pixel (ja feita a 2026-09-27); nao refeita."
+   },
+   {
+    "sheet_row": 2018,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Fig.16a (p.15) vista renderizada a partir de recorte das pp.5-15 do PDF original (shrink-drive-pdf.yml, /printer): barras simples de GWP sem componentes negativas; Fig.2 (p.5) fronteira cradle-to-gate: entradas (lamas DS/PS com secagem, calcinacao, moagem; cimento, areia, agua, PCE; transporte, fabrico) e saidas so emissoes (CO2, metais pesados, outras). Texto p.5 e p.14: GWP e Energia, sem creditos.",
+    "derivado": "nao",
+    "nota": "Apesar do titulo ('Carbon sequestration') e da frase 'facilitates enhanced carbonation and CO2 sequestration ... carbon reduction at the source', o artigo nao quantifica nenhuma captacao nem credito: a reducao de GWP vem so da substituicao de cimento. Valor gravado e leitura por pixel (ja feita a 2026-09-27); nao refeita."
+   },
+   {
+    "sheet_row": 2019,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Fig.16a (p.15) vista renderizada a partir de recorte das pp.5-15 do PDF original (shrink-drive-pdf.yml, /printer): barras simples de GWP sem componentes negativas; Fig.2 (p.5) fronteira cradle-to-gate: entradas (lamas DS/PS com secagem, calcinacao, moagem; cimento, areia, agua, PCE; transporte, fabrico) e saidas so emissoes (CO2, metais pesados, outras). Texto p.5 e p.14: GWP e Energia, sem creditos.",
+    "derivado": "nao",
+    "nota": "Apesar do titulo ('Carbon sequestration') e da frase 'facilitates enhanced carbonation and CO2 sequestration ... carbon reduction at the source', o artigo nao quantifica nenhuma captacao nem credito: a reducao de GWP vem so da substituicao de cimento. Valor gravado e leitura por pixel (ja feita a 2026-09-27); nao refeita."
+   },
+   {
+    "sheet_row": 2020,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Fig.16a (p.15) vista renderizada a partir de recorte das pp.5-15 do PDF original (shrink-drive-pdf.yml, /printer): barras simples de GWP sem componentes negativas; Fig.2 (p.5) fronteira cradle-to-gate: entradas (lamas DS/PS com secagem, calcinacao, moagem; cimento, areia, agua, PCE; transporte, fabrico) e saidas so emissoes (CO2, metais pesados, outras). Texto p.5 e p.14: GWP e Energia, sem creditos.",
+    "derivado": "nao",
+    "nota": "Apesar do titulo ('Carbon sequestration') e da frase 'facilitates enhanced carbonation and CO2 sequestration ... carbon reduction at the source', o artigo nao quantifica nenhuma captacao nem credito: a reducao de GWP vem so da substituicao de cimento. Valor gravado e leitura por pixel (ja feita a 2026-09-27); nao refeita."
+   },
+   {
+    "sheet_row": 2021,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Fig.16a (p.15) vista renderizada a partir de recorte das pp.5-15 do PDF original (shrink-drive-pdf.yml, /printer): barras simples de GWP sem componentes negativas; Fig.2 (p.5) fronteira cradle-to-gate: entradas (lamas DS/PS com secagem, calcinacao, moagem; cimento, areia, agua, PCE; transporte, fabrico) e saidas so emissoes (CO2, metais pesados, outras). Texto p.5 e p.14: GWP e Energia, sem creditos.",
+    "derivado": "nao",
+    "nota": "Apesar do titulo ('Carbon sequestration') e da frase 'facilitates enhanced carbonation and CO2 sequestration ... carbon reduction at the source', o artigo nao quantifica nenhuma captacao nem credito: a reducao de GWP vem so da substituicao de cimento. Valor gravado e leitura por pixel (ja feita a 2026-09-27); nao refeita."
+   },
+   {
+    "sheet_row": 2022,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Fig.16a (p.15) vista renderizada a partir de recorte das pp.5-15 do PDF original (shrink-drive-pdf.yml, /printer): barras simples de GWP sem componentes negativas; Fig.2 (p.5) fronteira cradle-to-gate: entradas (lamas DS/PS com secagem, calcinacao, moagem; cimento, areia, agua, PCE; transporte, fabrico) e saidas so emissoes (CO2, metais pesados, outras). Texto p.5 e p.14: GWP e Energia, sem creditos.",
+    "derivado": "nao",
+    "nota": "Apesar do titulo ('Carbon sequestration') e da frase 'facilitates enhanced carbonation and CO2 sequestration ... carbon reduction at the source', o artigo nao quantifica nenhuma captacao nem credito: a reducao de GWP vem so da substituicao de cimento. Valor gravado e leitura por pixel (ja feita a 2026-09-27); nao refeita."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral (78.718 caracteres) lido linha a linha ate as referencias; PDF original 7,9 MB falhou no download, por isso as Figs.2 e 16 foram vistas num recorte das pp.5-15 feito pelo shrink-drive-pdf.yml (ficheiro temporario enviado para o lixo).",
+  "notas": ""
+ },
+ {
+  "row_id": 4039,
+  "pares": [
+   {
+    "sheet_row": 1167,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.6, p.2836): CNAT GWP 7,71E2 kg CO2 eq por 3,5 m3; Fig.3 (p.7) fatias do CNAT: CEM III 88,62, agua 0,04, plastificante 2,19, agregado natural 5,21, electricidade 0,54, transporte 3,41 (soma 100,01) - sem fatia de agregado evitado.",
+    "derivado": "nao",
+    "nota": "A mistura de referencia nao tem RAP e por isso nao tem credito; 771/3,5 = 220,29 e bruto. Nota: o artigo declara credito para a outra mistura (CRAP)."
+   },
+   {
+    "sheet_row": 1168,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 216.3,
+    "co2_com_desconto": 209.43,
+    "citacao": "Sec.2.4 (p.4): 'a credit for the designed system has been considered (Pantini et al. 2018) ... avoids ... the production of 2356 kg of natural aggregate (1614 gravel + 742 sand) for 3.5 m3 ... and its transportation'. Tabela 4: CRAP 7,33E2 kg CO2 eq/3,5 m3 (liquido). Fig.3 (p.7, renderizada): fatias GWP do CRAP 88,85 / 0,04 / 2,01 / 2,87 / 0,04 / 0,53 / 2,60 e 'Avoided natural aggregate' -3,06 %. As fatias sao % da soma dos valores absolutos (positivas 96,94 + |negativa| 3,06 = 100; no CNAT a soma e 100,01). Conta: S = 733/(0,9694-0,0306) = 780,8; bruto = 0,9694 x 780,8 = 756,9 kg/3,5 m3 = 216,3 kg/m3; credito = 0,0306 x 780,8 = 23,9 kg (6,8 kg/m3); liquido 733/3,5 = 209,43.",
+    "derivado": "sim",
+    "nota": "Bruto derivado das percentagens da Fig.3 (arredondadas a 0,01 %; incerteza ~+-0,2 kg/m3). Ressalva de metodo: o inventario do CRAP ja tem menos agregado natural (Tab.1: 461 + 628 kg/m3 contra 971 + 840), e o credito volta a descontar a producao evitada de 2356 kg de agregado - possivel dupla contagem por parte dos autores; o bruto aqui (216,3) e o CRAP sem o credito, tal como modelado."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral (8 pp., incl. referencias) lido linha a linha; PDF descarregado e p.7 (Fig.3) renderizada a 200 dpi.",
+  "notas": ""
+ },
+ {
+  "row_id": 4064,
+  "pares": [
+   {
+    "sheet_row": 1169,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.8 (p.13), Eq.(13): CO2 = producao das materias-primas + transporte + cura termica; Tabela 7 (p.19): 160,86 e 134,08 kg CO2/m3. Nenhum termo de credito.",
+    "derivado": "nao",
+    "nota": "Cinza volante tratada como subproduto com fator proprio, sem credito. Fig.3 (fronteira) nao renderizada; o texto descreve-a por inteiro."
+   },
+   {
+    "sheet_row": 1170,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.8 (p.13), Eq.(13): CO2 = producao das materias-primas + transporte + cura termica; Tabela 7 (p.19): 160,86 e 134,08 kg CO2/m3. Nenhum termo de credito.",
+    "derivado": "nao",
+    "nota": "Mistura optimizada = previsao do modelo (ja anotado a 2026-10-04)."
+   }
+  ],
+  "texto_completo_lido": "sim - corpo do artigo (56.000 de 92.207 caracteres; o resto sao referencias) lido linha a linha em dois blocos; figuras nao renderizadas.",
+  "notas": ""
+ },
+ {
+  "row_id": 4076,
+  "pares": [
+   {
+    "sheet_row": 1171,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.94): 'Carbon footprint' por classe de controlo, fator Ecoinvent v3.6; sem creditos.",
+    "derivado": "nao",
+    "nota": "Tabela adaptada de Obla (2015) com fator Ecoinvent; nao ha descricao de fronteira propria alem do fator."
+   },
+   {
+    "sheet_row": 1172,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.94): 'Carbon footprint' por classe de controlo, fator Ecoinvent v3.6; sem creditos.",
+    "derivado": "nao",
+    "nota": "Tabela adaptada de Obla (2015) com fator Ecoinvent; nao ha descricao de fronteira propria alem do fator."
+   },
+   {
+    "sheet_row": 1173,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.94): 'Carbon footprint' por classe de controlo, fator Ecoinvent v3.6; sem creditos.",
+    "derivado": "nao",
+    "nota": "Tabela adaptada de Obla (2015) com fator Ecoinvent; nao ha descricao de fronteira propria alem do fator."
+   },
+   {
+    "sheet_row": 1174,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.94): 'Carbon footprint' por classe de controlo, fator Ecoinvent v3.6; sem creditos.",
+    "derivado": "nao",
+    "nota": "Tabela adaptada de Obla (2015) com fator Ecoinvent; nao ha descricao de fronteira propria alem do fator."
+   },
+   {
+    "sheet_row": 1175,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.94): 'Carbon footprint' por classe de controlo, fator Ecoinvent v3.6; sem creditos.",
+    "derivado": "nao",
+    "nota": "Tabela adaptada de Obla (2015) com fator Ecoinvent; nao ha descricao de fronteira propria alem do fator."
+   },
+   {
+    "sheet_row": 1176,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.94): 'Carbon footprint' por classe de controlo, fator Ecoinvent v3.6; sem creditos.",
+    "derivado": "nao",
+    "nota": "Tabela adaptada de Obla (2015) com fator Ecoinvent; nao ha descricao de fronteira propria alem do fator."
+   },
+   {
+    "sheet_row": 1177,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.94): 'Carbon footprint' por classe de controlo, fator Ecoinvent v3.6; sem creditos.",
+    "derivado": "nao",
+    "nota": "Tabela adaptada de Obla (2015) com fator Ecoinvent; nao ha descricao de fronteira propria alem do fator."
+   },
+   {
+    "sheet_row": 2106,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Sec. 'Life cycle assessment of Ohio condominium case study' (p.91): 'limited to the A1 to A3 stages ... and cut-off allocation was considered for the multifunctional processes'; Fig.3(b) (p.97) barras por componente (cimento, cinza, escoria, agregados, 'other' = transporte, energia, adjuvantes) sem parcelas negativas (leitura da figura feita a 2026-10-04).",
+    "derivado": "nao",
+    "nota": "Cut-off: cinza e escoria entram sem carga nem credito."
+   },
+   {
+    "sheet_row": 2107,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Sec. 'Life cycle assessment of Ohio condominium case study' (p.91): 'limited to the A1 to A3 stages ... and cut-off allocation was considered for the multifunctional processes'; Fig.3(b) (p.97) barras por componente (cimento, cinza, escoria, agregados, 'other' = transporte, energia, adjuvantes) sem parcelas negativas (leitura da figura feita a 2026-10-04).",
+    "derivado": "nao",
+    "nota": "Cut-off: cinza e escoria entram sem carga nem credito."
+   },
+   {
+    "sheet_row": 2108,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Sec. 'Life cycle assessment of Ohio condominium case study' (p.91): 'limited to the A1 to A3 stages ... and cut-off allocation was considered for the multifunctional processes'; Fig.3(b) (p.97) barras por componente (cimento, cinza, escoria, agregados, 'other' = transporte, energia, adjuvantes) sem parcelas negativas (leitura da figura feita a 2026-10-04).",
+    "derivado": "nao",
+    "nota": "Cut-off: cinza e escoria entram sem carga nem credito."
+   },
+   {
+    "sheet_row": 2109,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Sec. 'Life cycle assessment of Ohio condominium case study' (p.91): 'limited to the A1 to A3 stages ... and cut-off allocation was considered for the multifunctional processes'; Fig.3(b) (p.97) barras por componente (cimento, cinza, escoria, agregados, 'other' = transporte, energia, adjuvantes) sem parcelas negativas (leitura da figura feita a 2026-10-04).",
+    "derivado": "nao",
+    "nota": "Cut-off: cinza e escoria entram sem carga nem credito."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral (58.382 caracteres, 10 pp.) lido linha a linha ate as referencias; Fig.3(b) nao re-renderizada nesta ronda (lida por pixel a 2026-10-04).",
+  "notas": ""
+ },
+ {
+  "row_id": 4080,
+  "pares": [
+   {
+    "sheet_row": 1178,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 8 (p.10): RAC-EXP9-PPF Total 263,778 = cimento 240,7 + cinza 0,621 + RFA 3,053 + RCA 2,283 + agua 0,048 + EXP 0,0058 + fibra 17,067; Eq.(2)-(4) so somam emissoes de materiais e energia.",
+    "derivado": "nao",
+    "nota": "Sem credito de aterro evitado nem de agregado evitado; confere 290 x 0,83 = 240,7."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral (12 pp.) lido linha a linha; figuras nao renderizadas (valores todos na Tabela 8).",
+  "notas": ""
+ },
+ {
+  "row_id": 4086,
+  "pares": [
+   {
+    "sheet_row": 1181,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.6): 10R = 535 kg CO2-eq/m3 (CML-IA, cradle-to-gate, Fig.1). Sec.3.2: os autores distinguem-se de Knoeri et al. por estes considerarem 'os impactos evitados na reutilizacao de residuos' - o presente estudo nao os considera.",
+    "derivado": "nao",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha; figuras nao renderizadas.",
+  "notas": ""
+ },
+ {
+  "row_id": 4089,
+  "pares": [
+   {
+    "sheet_row": 1182,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3/4 (p.5): somas so de componentes (IPCC 2013 GWP100, Ecoinvent).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1183,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3/4 (p.5): somas so de componentes (IPCC 2013 GWP100, Ecoinvent).",
+    "derivado": "nao",
+    "nota": "Total confere: 87,60 + 139,50 + 0,346 + 2,71 + 9,66 = 239,816. O texto diz 43% de reducao na p.5 e 17% na p.7 (inconsistencia do artigo, nao afecta o par)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral (10 pp.) lido linha a linha.",
+  "notas": ""
+ },
+ {
+  "row_id": 4090,
+  "pares": [
+   {
+    "sheet_row": 1184,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Cradle-to-gate (p.2, p.4, Figs.2-3); residuo de borracha so com transporte e peneiramento (p.5: impactos computados na industria de origem, sem credito de aterro evitado nem de oportunidade). Tabela 7 (p.7-8) fatores GWP100/kg; Fig.12 (grafico).",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1185,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Cradle-to-gate (p.2, p.4, Figs.2-3); residuo de borracha so com transporte e peneiramento (p.5: impactos computados na industria de origem, sem credito de aterro evitado nem de oportunidade). Tabela 7 (p.7-8) fatores GWP100/kg; Fig.12 (grafico).",
+    "derivado": "nao",
+    "nota": "Refazendo a conta com as massas da Tabela 4 e os fatores da Tabela 7: capa 24,39 + sapata 4,45 = 28,83 kg/laje / 0,08921 m3 = 323,2 kg/m3; o gravado 324,0 usa 28,9 arredondado (diferenca 0,8 kg/m3, sem importancia). Energia de mistura e de peneiramento nao incluidas (pequenas)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral (15 pp.) lido linha a linha; figuras nao renderizadas nesta ronda (renderizadas a 2026-09-27).",
+  "notas": ""
+ }
+]

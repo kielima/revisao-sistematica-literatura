@@ -1,0 +1,371 @@
+[
+ {
+  "row_id": 4578,
+  "rotulo": "Kanagaraj et al., 2022",
+  "titulo": "Performance evaluation of sodium silicate waste as a replacement for conventional sand in geopolymer concrete",
+  "pdf": "KANAGARAJ et al., 2022 - j.jclepro.2022.134172.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 574,
+    "material": "Geopolimero FA-GGBFS com substituicao de 100% da areia por residuo de silicato de sodio (SSW), NaOH 12M (traco 12SSW100)",
+    "fck": 39.11,
+    "co2_kg_m3": 350,
+    "co2_original": "350 kg CO2-e/m3 (0.35 t-CO2-e/m3)",
+    "co2_original_local": "Texto p.8, secao 7.3: '12SSW100 was 0.35 t-CO2-e/m3'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4580,
+  "rotulo": "Pushkar, 2019",
+  "titulo": "The Effect of Different Concrete Designs on the Life-Cycle Assessment of the Environmental Impacts of Concretes Containing Furnace Bottom-Ash Instead of Sand",
+  "pdf": "PUSHKAR, 2019.pdf",
+  "fileId": "1oeEITHRpkJ-QKwGMpLuRo5iu_xB31Kct",
+  "pares": [
+   {
+    "sheet_row": 1570,
+    "material": "Concreto CON-fix-SLUMP-0-10, FBA0 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 48.5,
+    "co2_kg_m3": 86.33,
+    "co2_original": "1.78 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 2 (p.9), painel 'Global warming potential', barra FBA0 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "1.78 x fck 48.5 = 86.33 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1571,
+    "material": "Concreto CON-fix-SLUMP-0-10, FBA30 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 45,
+    "co2_kg_m3": 90,
+    "co2_original": "2.0 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 2 (p.9), painel 'Global warming potential', barra FBA30 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "2.0 x fck 45.0 = 90.0 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1572,
+    "material": "Concreto CON-fix-SLUMP-0-10, FBA50 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 50,
+    "co2_kg_m3": 89.5,
+    "co2_original": "1.79 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 2 (p.9), painel 'Global warming potential', barra FBA50 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "1.79 x fck 50.0 = 89.5 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1573,
+    "material": "Concreto CON-fix-SLUMP-0-10, FBA70 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 56,
+    "co2_kg_m3": 89.6,
+    "co2_original": "1.6 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 2 (p.9), painel 'Global warming potential', barra FBA70 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "1.6 x fck 56.0 = 89.6 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1574,
+    "material": "Concreto CON-fix-SLUMP-0-10, FBA100 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 52.5,
+    "co2_kg_m3": 90.3,
+    "co2_original": "1.72 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 2 (p.9), painel 'Global warming potential', barra FBA100 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "1.72 x fck 52.5 = 90.3 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1575,
+    "material": "Concreto CON-fix-SLUMP-30-60, FBA0 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 40.8,
+    "co2_kg_m3": 88.94,
+    "co2_original": "2.18 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 3 (p.10), painel 'Global warming potential', barra FBA0 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2.5).",
+    "co2_conversao": "2.18 x fck 40.8 = 88.94 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1576,
+    "material": "Concreto CON-fix-SLUMP-30-60, FBA30 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 40,
+    "co2_kg_m3": 89.6,
+    "co2_original": "2.24 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 3 (p.10), painel 'Global warming potential', barra FBA30 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2.5).",
+    "co2_conversao": "2.24 x fck 40.0 = 89.6 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1577,
+    "material": "Concreto CON-fix-SLUMP-30-60, FBA50 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 44.3,
+    "co2_kg_m3": 89.93,
+    "co2_original": "2.03 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 3 (p.10), painel 'Global warming potential', barra FBA50 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2.5).",
+    "co2_conversao": "2.03 x fck 44.3 = 89.93 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1578,
+    "material": "Concreto CON-fix-SLUMP-30-60, FBA70 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 43.5,
+    "co2_kg_m3": 89.61,
+    "co2_original": "2.06 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 3 (p.10), painel 'Global warming potential', barra FBA70 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2.5).",
+    "co2_conversao": "2.06 x fck 43.5 = 89.61 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1579,
+    "material": "Concreto CON-fix-SLUMP-30-60, FBA100 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 46.5,
+    "co2_kg_m3": 89.74,
+    "co2_original": "1.93 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 3 (p.10), painel 'Global warming potential', barra FBA100 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2.5).",
+    "co2_conversao": "1.93 x fck 46.5 = 89.74 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1580,
+    "material": "Concreto CON-fix-W/C-0.45, FBA0 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 54,
+    "co2_kg_m3": 90.18,
+    "co2_original": "1.67 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 6 (p.13), painel 'Global warming potential', barra FBA0 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "1.67 x fck 54.0 = 90.18 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1581,
+    "material": "Concreto CON-fix-W/C-0.45, FBA30 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 59.3,
+    "co2_kg_m3": 89.54,
+    "co2_original": "1.51 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 6 (p.13), painel 'Global warming potential', barra FBA30 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "1.51 x fck 59.3 = 89.54 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1582,
+    "material": "Concreto CON-fix-W/C-0.45, FBA50 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 56.5,
+    "co2_kg_m3": 89.27,
+    "co2_original": "1.58 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 6 (p.13), painel 'Global warming potential', barra FBA50 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "1.58 x fck 56.5 = 89.27 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1583,
+    "material": "Concreto CON-fix-W/C-0.45, FBA70 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 52,
+    "co2_kg_m3": 89.44,
+    "co2_original": "1.72 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 6 (p.13), painel 'Global warming potential', barra FBA70 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "1.72 x fck 52.0 = 89.44 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1584,
+    "material": "Concreto CON-fix-W/C-0.45, FBA100 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 46,
+    "co2_kg_m3": 88.78,
+    "co2_original": "1.93 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 6 (p.13), painel 'Global warming potential', barra FBA100 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 2).",
+    "co2_conversao": "1.93 x fck 46.0 = 88.78 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1585,
+    "material": "Concreto CON-fix-W/C-0.55, FBA0 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 48.3,
+    "co2_kg_m3": 89.36,
+    "co2_original": "1.85 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 7 (p.14), painel 'Global warming potential', barra FBA0 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 3.5).",
+    "co2_conversao": "1.85 x fck 48.3 = 89.36 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1586,
+    "material": "Concreto CON-fix-W/C-0.55, FBA30 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 46,
+    "co2_kg_m3": 88.78,
+    "co2_original": "1.93 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 7 (p.14), painel 'Global warming potential', barra FBA30 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 3.5).",
+    "co2_conversao": "1.93 x fck 46.0 = 88.78 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1587,
+    "material": "Concreto CON-fix-W/C-0.55, FBA50 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 40,
+    "co2_kg_m3": 88.8,
+    "co2_original": "2.22 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 7 (p.14), painel 'Global warming potential', barra FBA50 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 3.5).",
+    "co2_conversao": "2.22 x fck 40.0 = 88.8 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1588,
+    "material": "Concreto CON-fix-W/C-0.55, FBA70 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 36,
+    "co2_kg_m3": 88.56,
+    "co2_original": "2.46 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 7 (p.14), painel 'Global warming potential', barra FBA70 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 3.5).",
+    "co2_conversao": "2.46 x fck 36.0 = 88.56 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   },
+   {
+    "sheet_row": 1589,
+    "material": "Concreto CON-fix-W/C-0.55, FBA100 (substituicao de areia por cinza de fundo de forno FBA)",
+    "fck": 28,
+    "co2_kg_m3": 88.2,
+    "co2_original": "3.15 kg CO2-eq por m3 normalizado a resistencia aos 28 d (FU do artigo)",
+    "co2_original_local": "Figura 7 (p.14), painel 'Global warming potential', barra FBA100 — leitura visual do topo da barra total contra o eixo Y numerico (0 a 3.5).",
+    "co2_conversao": "3.15 x fck 28.0 = 88.2 [ALERTA ETAPA4: valor derivado - o inventario usa \"cement mortar, at plant/CH\" como proxy do CEM I]"
+   }
+  ]
+ },
+ {
+  "row_id": 4584,
+  "rotulo": "Na & Paik, 2019",
+  "titulo": "Reducing Greenhouse Gas Emissions and Costs with the Alternative Structural System for Slab: A Comparative Analysis of South Korea Cases",
+  "pdf": "NA et al., 2019.pdf",
+  "fileId": "1eaPNPuxWNO6QgCSp2R3XEC_GNVUcgC8f",
+  "pares": [
+   {
+    "sheet_row": 1600,
+    "material": "Laje maciça ordinária (ORC) - Caso 1 (pavimento acima do solo)",
+    "fck": 24,
+    "co2_kg_m3": 429,
+    "co2_original": "4,29 x 10^2 kg CO2 eq/m3 (factor de emissao do betao pronto, KLCI DB)",
+    "co2_original_local": "Tab.1 p.5",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (factor de inventario usado pelo estudo; mesmo valor nas 4 linhas) [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: factor generico nacional (KLCI DB) de betao pronto]"
+   }
+  ]
+ },
+ {
+  "row_id": 4599,
+  "rotulo": "Yepes et al., 2020",
+  "titulo": "Black Hole Algorithm for Sustainable Design of Counterfort Retaining Walls",
+  "pdf": "YEPES et al., 2020.pdf",
+  "fileId": "1sB5uST5VBcOWuGuG_7CTWBQZrmckZV26",
+  "pares": [
+   {
+    "sheet_row": 1605,
+    "material": "Muro de contencao com contrafortes - concreto C25/30",
+    "fck": 25,
+    "co2_kg_m3": 224.34,
+    "co2_original": "224.34 kg CO2-eq/m3",
+    "co2_original_local": "Table 1, p.3 (fonte externa ref.[10])",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1606,
+    "material": "Muro de contencao com contrafortes - concreto C30/37",
+    "fck": 30,
+    "co2_kg_m3": 224.94,
+    "co2_original": "224.94 kg CO2-eq/m3",
+    "co2_original_local": "Table 1, p.3 (fonte externa ref.[10])",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1607,
+    "material": "Muro de contencao com contrafortes - concreto C35/45",
+    "fck": 35,
+    "co2_kg_m3": 265.28,
+    "co2_original": "265.28 kg CO2-eq/m3",
+    "co2_original_local": "Table 1, p.3 (fonte externa ref.[10])",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1608,
+    "material": "Muro de contencao com contrafortes - concreto C40/50",
+    "fck": 40,
+    "co2_kg_m3": 265.28,
+    "co2_original": "265.28 kg CO2-eq/m3",
+    "co2_original_local": "Table 1, p.3 (fonte externa ref.[10])",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1609,
+    "material": "Muro de contencao com contrafortes - concreto C45/55",
+    "fck": 45,
+    "co2_kg_m3": 265.91,
+    "co2_original": "265.91 kg CO2-eq/m3",
+    "co2_original_local": "Table 1, p.3 (fonte externa ref.[10])",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1610,
+    "material": "Muro de contencao com contrafortes - concreto C50/60",
+    "fck": 50,
+    "co2_kg_m3": 265.95,
+    "co2_original": "265.95 kg CO2-eq/m3",
+    "co2_original_local": "Table 1, p.3 (fonte externa ref.[10])",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4600,
+  "rotulo": "Almulhim et al., 2020",
+  "titulo": "A Resilience and Environmentally Sustainable Assessment Framework (RESAF) for Domestic Building Materials in Saudi Arabia",
+  "pdf": "ALMULHIM et al., 2020.pdf",
+  "fileId": "1WSetpvLsxrAaCfmmz00ethpmsZbGnJpB",
+  "pares": [
+   {
+    "sheet_row": 1612,
+    "material": "Concreto usinado 28-35 MPa (concreto estrutural principal) - edificio residencial Arabia Saudita",
+    "fck": 28,
+    "co2_kg_m3": 357.3,
+    "co2_original": "287.434 kgCO2e (Ready-mix concrete, cradle-to-gate, so betao)",
+    "co2_original_local": "Tab.4 p.10 e Tab.6 p.12",
+    "co2_conversao": "total / volume impresso: 287.434 / (31,57+772,79 = 804,36 m3) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 4604,
+  "rotulo": "Cejuela et al., 2020",
+  "titulo": "Evaluation and Optimization of the Life Cycle in Maritime Works",
+  "pdf": "CEJUELA et al., 2020.pdf",
+  "fileId": "1JHZMxLoE01ytuow_0TdkTTWm6OBQC9kU",
+  "pares": [
+   {
+    "sheet_row": 1620,
+    "material": "Caixão Porto de Valência - armadura de aço, CEM I SR (HA 35)",
+    "fck": 35,
+    "co2_kg_m3": 430.8,
+    "co2_original": "430.8 kg CO2-eq/m3",
+    "co2_original_local": "Table 7 p.11 (total) / texto (1864 m3, divisor)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1621,
+    "material": "Caixão Porto de Valência - armadura GFRP, CEM I SR (HA 35)",
+    "fck": 35,
+    "co2_kg_m3": 407.7,
+    "co2_original": "407.7 kg CO2-eq/m3",
+    "co2_original_local": "Table 7 p.11 (total) / texto (1864 m3, divisor)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1622,
+    "material": "Caixão Porto de Valência - armadura GFRP, CEM III SR (HA 35)",
+    "fck": 35,
+    "co2_kg_m3": 110,
+    "co2_original": "110 kg CO2-eq/m3",
+    "co2_original_local": "Table 7 p.11 (total) / texto (1864 m3, divisor)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4605,
+  "rotulo": "Kayabekir et al., 2020",
+  "titulo": "Eco-Friendly Design of Reinforced Concrete Retaining Walls: Multi-objective Optimization with Harmony Search Applications",
+  "pdf": "KAYABEKIR et al., 2020.pdf",
+  "fileId": "1nyEGIiiN7coNbHs5rcfsOa65sDOPjA_d",
+  "pares": [
+   {
+    "sheet_row": 1623,
+    "material": "Muro de contenção RC com contrafortes - Analysis 1 (fator Yeo & Potra)",
+    "fck": 30,
+    "co2_kg_m3": 376,
+    "co2_original": "376 kg CO2/m3",
+    "co2_original_local": "Table 4, p.10 (fonte externa: Yeo and Potra [16])",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1624,
+    "material": "Muro de contenção RC com contrafortes - Analyses 2 e 3 (fator Paya et al.)",
+    "fck": 30,
+    "co2_kg_m3": 143.48,
+    "co2_original": "143.48 kg CO2/m3",
+    "co2_original_local": "Table 4, p.10 (fonte externa: Paya et al. [56])",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]

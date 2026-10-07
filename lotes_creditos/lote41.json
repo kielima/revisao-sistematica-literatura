@@ -1,0 +1,326 @@
+[
+ {
+  "row_id": 4774,
+  "rotulo": "Shi et al., 2024",
+  "titulo": "Evaluating Carbon Emissions during Slurry Shield Tunneling for Sustainable Management Utilizing a Hybrid Life-Cycle Assessment Approach",
+  "pdf": "SHI et al., 2024.pdf",
+  "fileId": "1jQaMGoCaxaUQ8CZUxqQEy5O19vFOABxq",
+  "pares": [
+   {
+    "sheet_row": 1771,
+    "material": "Concreto pre-moldado C40 (aduelas de revestimento de tunel, slurry shield)",
+    "fck": 40,
+    "co2_kg_m3": 288.9,
+    "co2_original": "288.9 kg CO2/m3 [FONTE EXTERNA: fator de emissao citado das refs 23,26, nao ACV propria]",
+    "co2_original_local": "Tabela A1, Apendice A, p.18: 'C40 concrete [23], kg/m3, 288.9'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1772,
+    "material": "Concreto pre-moldado C60 (aduelas de revestimento de tunel, slurry shield)",
+    "fck": 60,
+    "co2_kg_m3": 222.3,
+    "co2_original": "222.3 kg CO2/m3 [FONTE EXTERNA: fator de emissao citado das refs 23,26, nao ACV propria]",
+    "co2_original_local": "Tabela A1, Apendice A, p.18: 'C60 concrete [23,26], kg/m3, 222.3'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4779,
+  "rotulo": "Roux et al., 2024",
+  "titulo": "Towards Sustainable Material: Optimizing Geopolymer Mortar Formulations for 3D Printing: A Life Cycle Assessment Approach",
+  "pdf": "ROUX et al., 2024.pdf",
+  "fileId": "1er6Jz2GTxHJ-WnbpNX4QX6jv30EihN4r",
+  "pares": [
+   {
+    "sheet_row": 1773,
+    "material": "Geopolimero matriz pura M50S50 (metacaulim 50%/silicato de potassio 50%, sem areia/terra)",
+    "fck": 60,
+    "co2_kg_m3": 1165,
+    "co2_original": "1165 kg CO2-eq/m3 [RELABEL 2026-09-13: texto confirma \"expressed in kgCO2eq/m3\" (Fig.6b/7c) -- valor nao alterado]",
+    "co2_original_local": "Fig.6b (renderizada, p.10), ponto '50%' metakaolin no eixo secundario direito (1100-1250 kgCO2eq/m3)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1774,
+    "material": "Argamassa geopolimerica com areia, matriz M60S40, no 2o limiar (mix 'M60S40Sa60')",
+    "fck": 44,
+    "co2_kg_m3": 528,
+    "co2_original": "528 kg CO2-eq/m3 [RELABEL 2026-09-13: texto confirma \"expressed in kgCO2eq/m3\" (Fig.6b/7c) -- valor nao alterado]",
+    "co2_original_local": "Fig.7c (renderizada, p.11), barra 'M60S40Sa60', eixo numerico 0-600 kgCO2eq/m3",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4785,
+  "rotulo": "Ring et al., 2024",
+  "titulo": "Circular Economy Approach: Recycling Toner Waste in Cement-Based Construction Materials",
+  "pdf": "RING et al., 2024.pdf",
+  "fileId": "1aim_BvmC0mnPHR0neE_lDKyGG5EtXeUR",
+  "pares": [
+   {
+    "sheet_row": 1777,
+    "material": "Argamassa de cimento Portland com residuo de toner (TW), 0% substituicao de cimento (mix 'T0')",
+    "fck": 41.7,
+    "co2_kg_m3": 489.7,
+    "co2_original": "489.7 kg CO2-eq/m3 [RELABEL 2026-09-13: Table 7, \"ECO2 per m3 of Mortar (kg of CO2 Equivalent/m3)\" -- valor nao alterado]",
+    "co2_original_local": "Tabela 7 ('ECO2 of the component materials of cement mortars with different TW replacements'), p.11, coluna Total",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1778,
+    "material": "Argamassa de cimento Portland com residuo de toner (TW), 2.5% substituicao de cimento (mix 'T2.5')",
+    "fck": 41.5,
+    "co2_kg_m3": 478.1,
+    "co2_original": "478.1 kg CO2-eq/m3 [RELABEL 2026-09-13: Table 7, \"ECO2 per m3 of Mortar (kg of CO2 Equivalent/m3)\" -- valor nao alterado]",
+    "co2_original_local": "Tabela 7 ('ECO2 of the component materials of cement mortars with different TW replacements'), p.11, coluna Total",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1779,
+    "material": "Argamassa de cimento Portland com residuo de toner (TW), 5% substituicao de cimento (mix 'T5')",
+    "fck": 37.2,
+    "co2_kg_m3": 466.4,
+    "co2_original": "466.4 kg CO2-eq/m3 [RELABEL 2026-09-13: Table 7, \"ECO2 per m3 of Mortar (kg of CO2 Equivalent/m3)\" -- valor nao alterado]",
+    "co2_original_local": "Tabela 7 ('ECO2 of the component materials of cement mortars with different TW replacements'), p.11, coluna Total",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1780,
+    "material": "Argamassa de cimento Portland com residuo de toner (TW), 10% substituicao de cimento (mix 'T10')",
+    "fck": 37,
+    "co2_kg_m3": 443.1,
+    "co2_original": "443.1 kg CO2-eq/m3 [RELABEL 2026-09-13: Table 7, \"ECO2 per m3 of Mortar (kg of CO2 Equivalent/m3)\" -- valor nao alterado]",
+    "co2_original_local": "Tabela 7 ('ECO2 of the component materials of cement mortars with different TW replacements'), p.11, coluna Total",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1781,
+    "material": "Argamassa de cimento Portland com residuo de toner (TW), 15% substituicao de cimento (mix 'T15')",
+    "fck": 34.6,
+    "co2_kg_m3": 419.8,
+    "co2_original": "419.8 kg CO2-eq/m3 [RELABEL 2026-09-13: Table 7, \"ECO2 per m3 of Mortar (kg of CO2 Equivalent/m3)\" -- valor nao alterado]",
+    "co2_original_local": "Tabela 7 ('ECO2 of the component materials of cement mortars with different TW replacements'), p.11, coluna Total",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4786,
+  "rotulo": "Zhao et al., 2024",
+  "titulo": "Using BIM and LCA to Calculate the Life Cycle Carbon Emissions of Inpatient Building: A Case Study in China",
+  "pdf": "ZHAO, 2024.pdf",
+  "fileId": "1HiTMuHadiRjdQWUMm-eogfVywDMphlpa",
+  "pares": [
+   {
+    "sheet_row": 1782,
+    "material": "Concreto C20 (edificio hospitalar 'inpatient building', China)",
+    "fck": 20,
+    "co2_kg_m3": 237.32,
+    "co2_original": "237.32 kg CO2/m3 [fator de emissao GB51366-2019, nao ensaio proprio; Eq.3 do artigo: CP=soma(Mi x EFi)]",
+    "co2_original_local": "Tabela 3, p.6",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1783,
+    "material": "Concreto C25 (edificio hospitalar 'inpatient building', China)",
+    "fck": 25,
+    "co2_kg_m3": 266.18,
+    "co2_original": "266.18 kg CO2/m3 [fator de emissao GB51366-2019, nao ensaio proprio; Eq.3 do artigo: CP=soma(Mi x EFi)]",
+    "co2_original_local": "Tabela 3, p.6",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1784,
+    "material": "Concreto C30 (edificio hospitalar 'inpatient building', China)",
+    "fck": 30,
+    "co2_kg_m3": 295,
+    "co2_original": "295 kg CO2/m3 [fator de emissao GB51366-2019, nao ensaio proprio; Eq.3 do artigo: CP=soma(Mi x EFi)]",
+    "co2_original_local": "Tabela 3, p.6",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1785,
+    "material": "Concreto C35 (edificio hospitalar 'inpatient building', China)",
+    "fck": 35,
+    "co2_kg_m3": 362.6,
+    "co2_original": "362.6 kg CO2/m3 [fator de emissao GB51366-2019, nao ensaio proprio; Eq.3 do artigo: CP=soma(Mi x EFi)]",
+    "co2_original_local": "Tabela 3, p.6",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1786,
+    "material": "Concreto C50 (edificio hospitalar 'inpatient building', China)",
+    "fck": 50,
+    "co2_kg_m3": 511,
+    "co2_original": "511 kg CO2/m3 [fator de emissao GB51366-2019, nao ensaio proprio; Eq.3 do artigo: CP=soma(Mi x EFi)]",
+    "co2_original_local": "Tabela 3, p.6",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4789,
+  "rotulo": "Jolly et al., 2024",
+  "titulo": "Life Cycle Assessment and Cost Analysis of Mid-Rise Mass Timber vs. Concrete Buildings in Australia",
+  "pdf": "JOLLY et al., 2024.pdf",
+  "fileId": "1V_rkXNNs7gA3XEVHUREmFBC8sBQavthB",
+  "pares": [
+   {
+    "sheet_row": 1787,
+    "material": "Concreto estrutural (colunas/vigas, piso, fundacao, paredes interiores) do edificio mid-rise reforcado vs MTC — Melbourne, Australia",
+    "fck": 40,
+    "co2_kg_m3": 446,
+    "co2_original": "1.595.052 kg CO2e (total A1-A3 do edificio de betao)",
+    "co2_original_local": "Fig.1a, p.8 (rotulo impresso na barra 'Concrete')",
+    "co2_conversao": "1.595.052 / 3.576 m3 (93+2293+674+516 m3 de betao 40 MPa, Tab.2) = 446,0; total inclui 194 t de armadura + montantes de aco + gesso + isolamento (nao decomponivel) [REVISAO 2026-09-27, leitura integral; confianca media] [ALERTA ETAPA4: total A1-A3 inclui armadura e pequenos componentes nao estruturais]"
+   }
+  ]
+ },
+ {
+  "row_id": 4792,
+  "rotulo": "Studzinski et al., 2024",
+  "titulo": "Impact of Heterogeneous Soil Conditions on the Life Cycle Assessment of a Multi-Storey Reinforced Concrete Structure",
+  "pdf": "STUDZINSKI et al., 2024.pdf",
+  "fileId": "1_9SijQTao1pCfzKGVW7Ku4VNeEO2bHct",
+  "pares": [
+   {
+    "sheet_row": 2085,
+    "material": "Fundacao em 4 sapatas isoladas F2 (2,0x2,0x0,6 m), betao C35/45 + armadura, materiais de emissao media (A1-A3)",
+    "fck": 35,
+    "co2_kg_m3": 283.5,
+    "co2_original": "~2.722 kg CO2eq (segmento FOUNDATIONS, leitura grafica)",
+    "co2_original_local": "Fig.10 p.13, barras A-I e K (S1/F2), segmento castanho",
+    "co2_conversao": "2.722 / 9,6 m3 (4 x 2,0 x 2,0 x 0,6) = 283,5; leitura por pixel com eixo numerico (+-20 kg) [REVISAO 2026-09-27, leitura integral; confianca media; via so-fundacao aceite pela Kie 2026-09-27] [ALERTA ETAPA4: CO2 lido por pixel na Fig.10 (eixo numerico, +-20 kg) e dividido pelo volume das fundacoes impresso; inclui armadura -> familia concreto_armado]"
+   },
+   {
+    "sheet_row": 2086,
+    "material": "Fundacao em 4 sapatas isoladas F1 (1,5x1,5x0,6 m), C35/45 + armadura (sistema J)",
+    "fck": 35,
+    "co2_kg_m3": 278.7,
+    "co2_original": "~1.505 kg CO2eq (leitura grafica)",
+    "co2_original_local": "Fig.10 p.13, barra J - S1/F1/C3/CL-B2",
+    "co2_conversao": "1.505 / 5,4 m3 = 278,7 [REVISAO 2026-09-27, leitura integral; confianca media; via so-fundacao aceite pela Kie 2026-09-27] [ALERTA ETAPA4: CO2 lido por pixel na Fig.10 (eixo numerico, +-20 kg) e dividido pelo volume das fundacoes impresso; inclui armadura -> familia concreto_armado]"
+   },
+   {
+    "sheet_row": 2087,
+    "material": "Fundacao em placa PL1 (7,0x7,0x0,5 m), C35/45 + armadura (sistema M)",
+    "fck": 35,
+    "co2_kg_m3": 322.1,
+    "co2_original": "~7.892 kg CO2eq (leitura grafica)",
+    "co2_original_local": "Fig.10 p.13, barra M - S1/PL1/C3/CL-B2",
+    "co2_conversao": "7.892 / 24,5 m3 = 322,1 [REVISAO 2026-09-27, leitura integral; confianca media; via so-fundacao aceite pela Kie 2026-09-27] [ALERTA ETAPA4: CO2 lido por pixel na Fig.10 (eixo numerico, +-20 kg) e dividido pelo volume das fundacoes impresso; inclui armadura -> familia concreto_armado]"
+   },
+   {
+    "sheet_row": 2088,
+    "material": "Fundacao em placa PL2 (7,0x7,0x0,7 m), C35/45 + armadura (sistema N)",
+    "fck": 35,
+    "co2_kg_m3": 311.7,
+    "co2_original": "~10.690 kg CO2eq (leitura grafica)",
+    "co2_original_local": "Fig.10 p.13, barra N - S1/PL2/C3/CL-B2",
+    "co2_conversao": "10.690 / 34,3 m3 = 311,7 [REVISAO 2026-09-27, leitura integral; confianca media; via so-fundacao aceite pela Kie 2026-09-27] [ALERTA ETAPA4: CO2 lido por pixel na Fig.10 (eixo numerico, +-20 kg) e dividido pelo volume das fundacoes impresso; inclui armadura -> familia concreto_armado]"
+   }
+  ]
+ },
+ {
+  "row_id": 4800,
+  "rotulo": "Sinka et al., 2020",
+  "titulo": "Fast Setting Binders for Application in 3D Printing of Bio-Based Building Materials",
+  "pdf": "SINKA et al., 2020 - su12218838.pdf",
+  "fileId": "1pu0LEm8V503a6tju_hZoib-S5Ikd11n1",
+  "pares": [
+   {
+    "sheet_row": 595,
+    "material": "Ligante MPC - cimento fosfato de magnesio (magnesium phosphate cement)",
+    "fck": 52.1,
+    "co2_kg_m3": 3060,
+    "co2_original": "3060 kg CO2 eq/m3 de ligante",
+    "co2_original_local": "p.7, texto: 'Looking at the impact resulting from the production of 1 m3 binder ...' e Figura 4",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 596,
+    "material": "Ligante MOC - cimento oxicloreto de magnesio (magnesium oxychloride cement)",
+    "fck": 75.2,
+    "co2_kg_m3": 1550,
+    "co2_original": "1550 kg CO2 eq/m3 de ligante",
+    "co2_original_local": "p.7, texto: 'Looking at the impact resulting from the production of 1 m3 binder ...' e Figura 4",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 597,
+    "material": "Ligante CSA - cimento sulfoaluminato de calcio (calcium sulphoaluminate)",
+    "fck": 88.6,
+    "co2_kg_m3": 1030,
+    "co2_original": "1030 kg CO2 eq/m3 de ligante",
+    "co2_original_local": "p.7, texto: 'Looking at the impact resulting from the production of 1 m3 binder ...' e Figura 4",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4806,
+  "rotulo": "Ali et al., 2024",
+  "titulo": "Comparative Study of Life-Cycle Environmental and Cost Performance of Aluminium Alloy-Concrete Composite Columns",
+  "pdf": "ALI, 2024.pdf",
+  "fileId": "1oCRJw_QNnqI0UwR-aJzcYfx5DjgY81H-",
+  "pares": [
+   {
+    "sheet_row": 1792,
+    "material": "Concreto no nucleo de coluna mista CFAT (tubo de aluminio) / CFST (tubo de aco) — resistencia nominal identica em ambas as configuracoes",
+    "fck": 30,
+    "co2_kg_m3": 420.2,
+    "co2_original": "25,42 kg CO2 (cimento 25,31 + areia 0,04 + brita 0,07) para 145,18 kg de betao (CFST)",
+    "co2_original_local": "Tab.4 p.8 (linhas Production Cement/Fine/Coarse aggregate, CFST); Tab.3 p.5 (massa e densidade)",
+    "co2_conversao": "soma das parcelas do betao na Tab.4 / (145,18 kg / 2400 kg/m3 = 0,06049 m3) = 420,2 kg/m3; identico na CFAT (420,3) e CFDSAT (420,3) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 4815,
+  "rotulo": "Almonayea et al., 2025",
+  "titulo": "Probabilistic Embodied Carbon Assessments for Alkali-Activated Concrete Materials",
+  "pdf": "ALMONAYEA, 2025.pdf",
+  "fileId": "15R4W38lVkmhF50aG0wWkMufsah8yE4AC",
+  "pares": [
+   {
+    "sheet_row": 1798,
+    "material": "Mistura AACM com GGBS, silica fume e borax, binder=630 kg/m3, A/B=0.11 (dataset compilado de 580 misturas de terceiros)",
+    "fck": 72.9,
+    "co2_kg_m3": 196,
+    "co2_original": "196 kgCO2eq/m3 (cradle-to-gate A1-A3, media do dataset para esta mistura)",
+    "co2_original_local": "Secao 3.2 (Concrete Properties, p.13), mesma frase do fck",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1799,
+    "material": "Mistura AACM com GGBS e metacaulino (MK), binder=400 kg/m3, A/B>0.25 (dataset compilado de 580 misturas de terceiros)",
+    "fck": 70,
+    "co2_kg_m3": 185,
+    "co2_original": "185 kgCO2eq/m3 (cradle-to-gate A1-A3, media do dataset para esta mistura)",
+    "co2_original_local": "Secao 3.2 (Concrete Properties, p.13), mesma frase do fck",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4820,
+  "rotulo": "Ascione et al., 2024",
+  "titulo": "Sustainable and Efficient Structural Systems for Tall Buildings: Exploring Timber and Steel-Timber Hybrids through a Case Study",
+  "pdf": "ASCIONE et al., 2024 - buildings14020524.pdf",
+  "fileId": "1s48YjY1gs1PbxI4zlEzpeMekxDQLFBmM",
+  "pares": [
+   {
+    "sheet_row": 598,
+    "material": "Madeira lamelada-colada (glulam) GL30h, estrutura do edificio alto Mjostarnet (projeto original, caso de estudo) - familia madeira",
+    "fck": 30,
+    "co2_kg_m3": 138.24,
+    "co2_original": "Fatores timber frame A1-A3 0,28 + A4 0,005 + A5w 0,003 kgCO2e/kg (entrada da ref.[35]); densidade GL30h 480 kg/m3. Resultado do artigo so agregado ao edificio (132 t CO2e/m2, Tab.11, unidade provavelmente errada)",
+    "co2_original_local": "Tabela 8 p.22 (fatores); Tabela 3 p.9 (densidade)",
+    "co2_conversao": "(0,28 + 0,005 + 0,003) kg/kg x 480 kg/m3 = 138,24 [VERIFICACAO 2026-09-26: OK; nota: material e madeira (glulam GL30h), nao betao; fator de entrada generico, nao resultado do estudo]"
+   }
+  ]
+ }
+]

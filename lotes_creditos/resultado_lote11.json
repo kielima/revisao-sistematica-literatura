@@ -1,0 +1,465 @@
+[
+ {
+  "row_id": 3073,
+  "pares": [
+   {
+    "sheet_row": 305,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 215.4,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2(B) (impacto por MPa, 6,0 kg CO2/MPa) x 35,9 MPa (sec.3.1); ACV cradle-to-gate (sec.2.2.3), GaBi 2020",
+    "derivado": "sim",
+    "nota": "ACV cradle-to-gate (extraccao + fabrico de materiais), sem uso, fim de vida nem creditos. Valor gravado e derivado da leitura da Fig.2B (nao renderizada nesta ronda; nao altera a conclusao sobre creditos)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem qualquer credito; fronteira A1-A3."
+ },
+ {
+  "row_id": 3087,
+  "pares": [
+   {
+    "sheet_row": 834,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 445.23,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 p.15, coluna 'Baseline Allocation' (cradle-to-gate, sec.2.3)",
+    "derivado": "nao",
+    "nota": "Sem creditos. O gravado usa alocacao economica (baseline EA) de impactos da producao de electricidade/gusa a CFA/GGBS; o cenario 'No Allocation' da mesma Tabela 7 da 445.23 kg CO2-eq/m3. Alocacao e atribuicao de carga (nao e desconto) - escolha de cenario, nao credito."
+   },
+   {
+    "sheet_row": 835,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 344.75,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 p.15, coluna 'Baseline Allocation' (cradle-to-gate, sec.2.3)",
+    "derivado": "nao",
+    "nota": "Sem creditos. O gravado usa alocacao economica (baseline EA) de impactos da producao de electricidade/gusa a CFA/GGBS; o cenario 'No Allocation' da mesma Tabela 7 da 173.03 kg CO2-eq/m3. Alocacao e atribuicao de carga (nao e desconto) - escolha de cenario, nao credito."
+   },
+   {
+    "sheet_row": 836,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 333.93,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 p.15, coluna 'Baseline Allocation' (cradle-to-gate, sec.2.3)",
+    "derivado": "nao",
+    "nota": "Sem creditos. O gravado usa alocacao economica (baseline EA) de impactos da producao de electricidade/gusa a CFA/GGBS; o cenario 'No Allocation' da mesma Tabela 7 da 162.22 kg CO2-eq/m3. Alocacao e atribuicao de carga (nao e desconto) - escolha de cenario, nao credito."
+   },
+   {
+    "sheet_row": 837,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 380.43,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 p.15, coluna 'Baseline Allocation' (cradle-to-gate, sec.2.3)",
+    "derivado": "nao",
+    "nota": "Sem creditos. O gravado usa alocacao economica (baseline EA) de impactos da producao de electricidade/gusa a CFA/GGBS; o cenario 'No Allocation' da mesma Tabela 7 da 208.72 kg CO2-eq/m3. Alocacao e atribuicao de carga (nao e desconto) - escolha de cenario, nao credito."
+   },
+   {
+    "sheet_row": 838,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 369.62,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 p.15, coluna 'Baseline Allocation' (cradle-to-gate, sec.2.3)",
+    "derivado": "nao",
+    "nota": "Sem creditos. O gravado usa alocacao economica (baseline EA) de impactos da producao de electricidade/gusa a CFA/GGBS; o cenario 'No Allocation' da mesma Tabela 7 da 197.9 kg CO2-eq/m3. Alocacao e atribuicao de carga (nao e desconto) - escolha de cenario, nao credito."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Cradle-to-gate; a unica variacao e o cenario de alocacao dos precursores (sem alocacao vs alocacao economica), nao ha creditos."
+ },
+ {
+  "row_id": 3091,
+  "pares": [
+   {
+    "sheet_row": 306,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 307.7361,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 12 p.17 coluna Optimum, bloco 'Materials', Total CO2 equivalent 307.7361; Tabelas 9-11",
+    "derivado": "nao",
+    "nota": "Sem creditos: escoria de ferro entra com carga zero (so transporte) e RCA com o processo Idemat 'crushed concrete aggregate' - cut-off, nao credito. Atencao: o gravado e so o bloco Materiais; a mesma Tabela 12 da 'Overall impacts' Optimum = 318.667 (inclui transporte 9.9595 e electricidade 0.9711). Fronteira do gravado mais estreita do que o total do artigo. Os rotulos de reducao % da Tabela 12 parecem trocados (eco cost vs CO2)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Gate-to-gate/cradle-to-gate (Idemat), sem creditos."
+ },
+ {
+  "row_id": 3092,
+  "pares": [
+   {
+    "sheet_row": 310,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 273.81,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.4 p.9 texto ('70-30-0 ... 273.81 CO2-eq'); Tabela 4 soma 273.82",
+    "derivado": "nao",
+    "nota": "A1-A3 (sec.3.4), sem creditos."
+   },
+   {
+    "sheet_row": 311,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 287.9,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.4 p.9 texto ('75-0-25 produced 287.90'); Tabela 4",
+    "derivado": "nao",
+    "nota": "A1-A3, sem creditos. A soma das parcelas da Tabela 4 para 75-0-25 da 285.67 (diferenca de 2.2 face ao texto) - discrepancia menor do proprio artigo."
+   },
+   {
+    "sheet_row": 312,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 498.87,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.4 p.8 texto ('498.87 CO2-eq'); Tabela 4 soma 498.83",
+    "derivado": "nao",
+    "nota": "A1-A3, sem creditos. (Tabela A1 menciona sequestro de carbono no roteiro ICE do Reino Unido - contexto, nao aplicado as misturas.)"
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Cradle-to-gate A1-A3 (BS EN 15978), sem creditos."
+ },
+ {
+  "row_id": 3099,
+  "pares": [
+   {
+    "sheet_row": 840,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 454.59,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 5 p.5, GWP100 OPCC 454.5937 (GPC 285.0813; SHGPC 417.1633)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate, CFA sem carga e sem alocacao (sec.2.2.3) - cut-off, nao credito; reciclagem de solvente explicitamente excluida. Atencao: o material descrito na linha e o SHGPC, mas o co2_kg_m3 gravado (454.59) e o do OPCC de referencia; se a linha se refere ao SHGPC o valor deveria ser 417.16."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 3102,
+  "pares": [
+   {
+    "sheet_row": 841,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 475.72,
+    "co2_com_desconto": 467.19,
+    "citacao": "Tabela C.2 (Climate change GWP100, cobrimento 15 mm): A1-A3 693 + A4-A5 3.39 + B1 -16.7 + C1-C4 217 = Total 897 kg CO2-eq/laje; carbonatacao em B1 (Eq.4, EN 15804/BRE; Tabela 3: 16.70 kg para 15 mm). Bruto = (693+3.39+217)/1.92 = 475.72; com desconto = 897/1.92 = 467.19.",
+    "derivado": "sim",
+    "nota": "O Total impresso (usado no gravado) ja desconta o CO2 reabsorvido por carbonatacao na fase de uso (B1, sinal negativo). Fronteira cradle-to-grave da laje armada (inclui aco, espacadores, construcao e fim de vida em aterro; sem reciclagem). ATENCAO ao divisor: o gravado divide por 1.92 m3 (4x4x0.12), mas o proprio artigo (Tabela 4) da volume de betao 1.64 m3 e o inventario da Tabela 2 corresponde a 1.64 m3 (517.39 kg cimento / 316 kg/m3); dividindo por 1.64 o liquido seria 546.95 e o bruto 556.95 kg CO2-eq/m3 (gravado ~15% abaixo)."
+   },
+   {
+    "sheet_row": 1852,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 484.06,
+    "co2_com_desconto": 472.4,
+    "citacao": "Tabela C.2 (Climate change GWP100, cobrimento 20 mm): A1-A3 709 + A4-A5 3.39 + B1 -22.3 + C1-C4 217 = Total 907 kg CO2-eq/laje; carbonatacao em B1 (Eq.4, EN 15804/BRE; Tabela 3: 16.70 kg para 15 mm). Bruto = (709+3.39+217)/1.92 = 484.06; com desconto = 907/1.92 = 472.4.",
+    "derivado": "sim",
+    "nota": "O Total impresso (usado no gravado) ja desconta o CO2 reabsorvido por carbonatacao na fase de uso (B1, sinal negativo). Fronteira cradle-to-grave da laje armada (inclui aco, espacadores, construcao e fim de vida em aterro; sem reciclagem). ATENCAO ao divisor: o gravado divide por 1.92 m3 (4x4x0.12), mas o proprio artigo (Tabela 4) da volume de betao 1.64 m3 e o inventario da Tabela 2 corresponde a 1.64 m3 (517.39 kg cimento / 316 kg/m3); dividindo por 1.64 o liquido seria 553.05 e o bruto 566.70 kg CO2-eq/m3 (gravado ~15% abaixo)."
+   },
+   {
+    "sheet_row": 1853,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 511.14,
+    "co2_com_desconto": 496.88,
+    "citacao": "Tabela C.2 (Climate change GWP100, cobrimento 25 mm): A1-A3 761 + A4-A5 3.39 + B1 -27.8 + C1-C4 217 = Total 954 kg CO2-eq/laje; carbonatacao em B1 (Eq.4, EN 15804/BRE; Tabela 3: 16.70 kg para 15 mm). Bruto = (761+3.39+217)/1.92 = 511.14; com desconto = 954/1.92 = 496.88.",
+    "derivado": "sim",
+    "nota": "O Total impresso (usado no gravado) ja desconta o CO2 reabsorvido por carbonatacao na fase de uso (B1, sinal negativo). Fronteira cradle-to-grave da laje armada (inclui aco, espacadores, construcao e fim de vida em aterro; sem reciclagem). ATENCAO ao divisor: o gravado divide por 1.92 m3 (4x4x0.12), mas o proprio artigo (Tabela 4) da volume de betao 1.64 m3 e o inventario da Tabela 2 corresponde a 1.64 m3 (517.39 kg cimento / 316 kg/m3); dividindo por 1.64 o liquido seria 581.71 e o bruto 598.41 kg CO2-eq/m3 (gravado ~15% abaixo)."
+   },
+   {
+    "sheet_row": 1854,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 514.79,
+    "co2_com_desconto": 497.4,
+    "citacao": "Tabela C.2 (Climate change GWP100, cobrimento 30 mm): A1-A3 768 + A4-A5 3.39 + B1 -33.4 + C1-C4 217 = Total 955 kg CO2-eq/laje; carbonatacao em B1 (Eq.4, EN 15804/BRE; Tabela 3: 16.70 kg para 15 mm). Bruto = (768+3.39+217)/1.92 = 514.79; com desconto = 955/1.92 = 497.4.",
+    "derivado": "sim",
+    "nota": "O Total impresso (usado no gravado) ja desconta o CO2 reabsorvido por carbonatacao na fase de uso (B1, sinal negativo). Fronteira cradle-to-grave da laje armada (inclui aco, espacadores, construcao e fim de vida em aterro; sem reciclagem). ATENCAO ao divisor: o gravado divide por 1.92 m3 (4x4x0.12), mas o proprio artigo (Tabela 4) da volume de betao 1.64 m3 e o inventario da Tabela 2 corresponde a 1.64 m3 (517.39 kg cimento / 316 kg/m3); dividindo por 1.64 o liquido seria 582.32 e o bruto 602.68 kg CO2-eq/m3 (gravado ~15% abaixo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Unico artigo do lote com credito: carbonatacao no uso (B1). Possivel erro de divisor no CO2 gravado (1.92 vs 1.64 m3)."
+ },
+ {
+  "row_id": 3105,
+  "pares": [
+   {
+    "sheet_row": 1922,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1080,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1923,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 625,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1924,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 606,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1925,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 888,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1926,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 613,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1927,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 331,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1928,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 580,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1929,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 613,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1930,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 867,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1931,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 620,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   },
+   {
+    "sheet_row": 1932,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 360,
+    "co2_com_desconto": null,
+    "citacao": "Fig.15a/b e Fig.21 (cenario rede electrica alema), sec.3.7 p.15-17; modulo A1 apenas (sec.2.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Escoria sintetica tratada como livre de carga ('burden-free', so energia de fusao/tempera contabilizada) - cut-off, nao credito. O cenario 'renew' (mix renovavel NL) e cenario de energia, nao desconto. Valor lido de figura (gravado ja marcado como leitura de figura)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Fronteira so A1 (fornecimento de materias-primas); sem creditos."
+ },
+ {
+  "row_id": 3112,
+  "pares": [
+   {
+    "sheet_row": 843,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 509,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.7.1 p.11 texto ('Cement concrete constitutes 509 kg CO2 eq.'); Fig.13",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (sec.2.5), sem creditos."
+   },
+   {
+    "sheet_row": 2097,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 192,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.7.1 texto ('geopolymer mixes M3 and M4 contribute to only 192 kg CO2 eq.')",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate, sem creditos; o texto da um valor comum a M3 e M4."
+   },
+   {
+    "sheet_row": 2098,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 192,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.7.1 texto (idem)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate, sem creditos; valor comum a M3 e M4 no texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Cradle-to-gate, Ecoinvent; sem creditos."
+ },
+ {
+  "row_id": 3114,
+  "pares": [
+   {
+    "sheet_row": 844,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 403,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.5, GWP; Tabela 4 (403.0/316.5/410.4/380.6)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (sec.2.3.2), sem creditos; agregado reciclado carrega so britagem/crivagem com alocacao massica 60/40 (sec.2.3.4) - nao ha aterro evitado nem credito."
+   },
+   {
+    "sheet_row": 2092,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 316,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.5, GWP; Tabela 4 (403.0/316.5/410.4/380.6)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (sec.2.3.2), sem creditos; agregado reciclado carrega so britagem/crivagem com alocacao massica 60/40 (sec.2.3.4) - nao ha aterro evitado nem credito."
+   },
+   {
+    "sheet_row": 2093,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 410,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.5, GWP; Tabela 4 (403.0/316.5/410.4/380.6)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (sec.2.3.2), sem creditos; agregado reciclado carrega so britagem/crivagem com alocacao massica 60/40 (sec.2.3.4) - nao ha aterro evitado nem credito. BOLCON e 100% agregado natural (referencia), apesar da descricao 'com agregado reciclado'."
+   },
+   {
+    "sheet_row": 2094,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 381,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 p.5, GWP; Tabela 4 (403.0/316.5/410.4/380.6)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (sec.2.3.2), sem creditos; agregado reciclado carrega so britagem/crivagem com alocacao massica 60/40 (sec.2.3.4) - nao ha aterro evitado nem credito."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 3115,
+  "pares": [
+   {
+    "sheet_row": 315,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1200,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3.1 p.12 texto ('approximately 1200 kg CO2 eq'); Fig.6",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (sec.2.5.1), sem creditos; valor aproximado do texto."
+   },
+   {
+    "sheet_row": 316,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 603.44,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3.1 p.12 texto ('LT5S0 ... 603.44 kg CO2 eq')",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate, sem creditos; cenosferas (FAC) com alocacao de 1.5% da carga da cinza volante - atribuicao de carga, nao credito."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos."
+ }
+]

@@ -1,0 +1,425 @@
+[
+ {
+  "row_id": 4471,
+  "rotulo": "Eltantawi et al., 2024",
+  "titulo": "Design of a novel ternary blended Self-Compacting Ultra-high-performance Geopolymer Concrete",
+  "pdf": "ELTANTAWI et al., 2024 - j.conbuildmat.2024.138819.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 571,
+    "material": "SCUHPC - concreto ultra-alto-desempenho autoadensavel convencional (base OPC, comparador)",
+    "fck": 140,
+    "co2_kg_m3": 600,
+    "co2_original": "600 kg CO2-e/m3 (0.60 tCO2-e/m3)",
+    "co2_original_local": "Texto p.10: 'When comparing the CO2-e emissions of SCUHPC (0.60 tCO2-e/m3) and SCUHPGC (0.36 tCO2-e/m3)...'; Tabela 13",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 572,
+    "material": "SCUHPGC - concreto geopolimerico ultra-alto-desempenho autoadensavel ternario (GGBFS+FA+SF, mistura otima)",
+    "fck": 132.7,
+    "co2_kg_m3": 360,
+    "co2_original": "360 kg CO2-e/m3 (0.36 tCO2-e/m3)",
+    "co2_original_local": "Texto p.10 e Tabela 13",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4475,
+  "rotulo": "Vitale et al., 2021",
+  "titulo": "Cement-Matrix Composites Using CFRP Waste: A Circular Economy Perspective Using Industrial Symbiosis",
+  "pdf": "VITALE et al., 2021.pdf",
+  "fileId": "1NMXccjxDI_2504mRXYx5mJlTaa4eLZzL",
+  "pares": [
+   {
+    "sheet_row": 1382,
+    "material": "Argamassa de referencia R32.5 sem fibra (S-R32.5)",
+    "fck": 38.01,
+    "co2_kg_m3": 513,
+    "co2_original": "0,394 kg CO2 eq (Fig.9, GW; inventario = amassadura EN 196-1 da Tab.4, 450 g cimento)",
+    "co2_original_local": "Fig.9 e texto sec.3 (GW 0,394 -> 0,346 kg CO2); Tab.4 (quantidades da amassadura); sec.2.5.2 (LCI = Tab.4); sec.2.3 (3 prismas 40x40x160 mm por serie)",
+    "co2_conversao": "0,394 kg / 0,000768 m3 (3 prismas x 0,000256 m3) = 513,0 [CORRIGIDO 2026-09-26, decisao Kie (opcao a): antes dividido por 1 prisma (0,000256 m3). Prova: 0,394/0,450 kg cimento = 0,876 kgCO2/kg cimento; 394,4 g x 0,876 = 0,346 (valor publicado). Volume real da amassadura nao impresso] [ALERTA ETAPA4: valor derivado - CO2 publicado corresponde a amassadura EN 196-1 (Tab.4), dividido pelo volume dos 3 prismas; a UF declarada pelo autor (1 prisma) e inconsistente com o inventario]"
+   },
+   {
+    "sheet_row": 1390,
+    "material": "Argamassa R32.5 + 12.8% CFRP substituindo cimento, fibra 2-5mm (SC-R32.5_12.8%_2-5, 'experimental mix' otimo)",
+    "fck": 27.76,
+    "co2_kg_m3": 450.5,
+    "co2_original": "0,346 kg CO2 eq (Fig.9, GW; inventario = amassadura EN 196-1 da Tab.4, 394,4 g cimento)",
+    "co2_original_local": "Fig.9 e texto sec.3 (GW 0,394 -> 0,346 kg CO2); Tab.4 (quantidades da amassadura); sec.2.5.2 (LCI = Tab.4); sec.2.3 (3 prismas 40x40x160 mm por serie)",
+    "co2_conversao": "0,346 kg / 0,000768 m3 (3 prismas x 0,000256 m3) = 450,5 [CORRIGIDO 2026-09-26, decisao Kie (opcao a): antes dividido por 1 prisma (0,000256 m3). Prova: 0,394/0,450 kg cimento = 0,876 kgCO2/kg cimento; 394,4 g x 0,876 = 0,346 (valor publicado). Volume real da amassadura nao impresso] [ALERTA ETAPA4: valor derivado - CO2 publicado corresponde a amassadura EN 196-1 (Tab.4), dividido pelo volume dos 3 prismas; a UF declarada pelo autor (1 prisma) e inconsistente com o inventario]"
+   }
+  ]
+ },
+ {
+  "row_id": 4476,
+  "rotulo": "Faridmehr et al., 2021",
+  "titulo": "Life-Cycle Assessment of Alkali-Activated Materials Incorporating Industrial Byproducts",
+  "pdf": "FARIDMEHR, 2021.pdf",
+  "fileId": "1SgTtak0hspFT8L6_AjTYQpkXlYCgttnw",
+  "pares": [
+   {
+    "sheet_row": 1391,
+    "material": "AAM argamassa alcali-ativada Mix 1: FA70%+GBFS30%",
+    "fck": 78.18,
+    "co2_kg_m3": 39.55,
+    "co2_original": "39.55 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 1",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1392,
+    "material": "AAM argamassa alcali-ativada Mix 2: FA70%+GBFS20%+POFA10%",
+    "fck": 65.89,
+    "co2_kg_m3": 36.68,
+    "co2_original": "36.68 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 2",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1393,
+    "material": "AAM argamassa alcali-ativada Mix 3: FA60%+GBFS40%",
+    "fck": 80.51,
+    "co2_kg_m3": 47.05,
+    "co2_original": "47.05 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 3",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1394,
+    "material": "AAM argamassa alcali-ativada Mix 4: FA60%+GBFS30%+POFA10%",
+    "fck": 81.7,
+    "co2_kg_m3": 44.18,
+    "co2_original": "44.18 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 4",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1395,
+    "material": "AAM argamassa alcali-ativada Mix 5: FA60%+GBFS20%+POFA20%",
+    "fck": 52.6,
+    "co2_kg_m3": 41.3,
+    "co2_original": "41.3 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 5",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1396,
+    "material": "AAM argamassa alcali-ativada Mix 6: FA50%+GBFS50%",
+    "fck": 80.46,
+    "co2_kg_m3": 54.55,
+    "co2_original": "54.55 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 6",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1397,
+    "material": "AAM argamassa alcali-ativada Mix 7: FA50%+GBFS40%+POFA10%",
+    "fck": 76.9,
+    "co2_kg_m3": 51.68,
+    "co2_original": "51.68 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 7",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1398,
+    "material": "AAM argamassa alcali-ativada Mix 8: FA50%+GBFS30%+POFA20%",
+    "fck": 70.4,
+    "co2_kg_m3": 48.8,
+    "co2_original": "48.8 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 8",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1399,
+    "material": "AAM argamassa alcali-ativada Mix 9: FA50%+GBFS20%+POFA30%",
+    "fck": 46.24,
+    "co2_kg_m3": 45.93,
+    "co2_original": "45.93 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 9",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1400,
+    "material": "AAM argamassa alcali-ativada Mix 10: GBFS30%+POFA70%",
+    "fck": 34.53,
+    "co2_kg_m3": 71.93,
+    "co2_original": "71.93 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 10",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1401,
+    "material": "AAM argamassa alcali-ativada Mix 11: FA10%+GBFS20%+POFA70%",
+    "fck": 23.04,
+    "co2_kg_m3": 64.43,
+    "co2_original": "64.43 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 11",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1402,
+    "material": "AAM argamassa alcali-ativada Mix 12: GBFS40%+POFA60%",
+    "fck": 45.96,
+    "co2_kg_m3": 74.8,
+    "co2_original": "74.8 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 12",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1403,
+    "material": "AAM argamassa alcali-ativada Mix 13: FA10%+GBFS30%+POFA60%",
+    "fck": 37.8,
+    "co2_kg_m3": 67.3,
+    "co2_original": "67.3 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 13",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1404,
+    "material": "AAM argamassa alcali-ativada Mix 14: FA20%+GBFS20%+POFA60%",
+    "fck": 28.8,
+    "co2_kg_m3": 59.8,
+    "co2_original": "59.8 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 14",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1405,
+    "material": "AAM argamassa alcali-ativada Mix 15: GBFS50%+POFA50%",
+    "fck": 55.64,
+    "co2_kg_m3": 77.68,
+    "co2_original": "77.68 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 15",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1406,
+    "material": "AAM argamassa alcali-ativada Mix 16: FA10%+GBFS40%+POFA50%",
+    "fck": 47.1,
+    "co2_kg_m3": 70.18,
+    "co2_original": "70.18 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 16",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1407,
+    "material": "AAM argamassa alcali-ativada Mix 17: FA20%+GBFS30%+POFA50%",
+    "fck": 40.6,
+    "co2_kg_m3": 62.68,
+    "co2_original": "62.68 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 17",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1408,
+    "material": "AAM argamassa alcali-ativada Mix 18: FA30%+GBFS20%+POFA50%",
+    "fck": 36.8,
+    "co2_kg_m3": 55.18,
+    "co2_original": "55.18 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 18",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1409,
+    "material": "AAM argamassa alcali-ativada Mix 19: FA30%+GBFS70%",
+    "fck": 85.09,
+    "co2_kg_m3": 69.55,
+    "co2_original": "69.55 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 19",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1410,
+    "material": "AAM argamassa alcali-ativada Mix 20: FA20%+GBFS70%+POFA10%",
+    "fck": 97.75,
+    "co2_kg_m3": 74.18,
+    "co2_original": "74.18 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 20",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1411,
+    "material": "AAM argamassa alcali-ativada Mix 21: FA10%+GBFS70%+POFA20%",
+    "fck": 86.4,
+    "co2_kg_m3": 78.8,
+    "co2_original": "78.8 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 21",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1412,
+    "material": "AAM argamassa alcali-ativada Mix 22: GBFS70%+POFA30%",
+    "fck": 70.53,
+    "co2_kg_m3": 83.43,
+    "co2_original": "83.43 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 22",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1413,
+    "material": "AAM argamassa alcali-ativada Mix 23: FA40%+GBFS60%",
+    "fck": 80.68,
+    "co2_kg_m3": 62.05,
+    "co2_original": "62.05 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 23",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1414,
+    "material": "AAM argamassa alcali-ativada Mix 24: FA30%+GBFS60%+POFA10%",
+    "fck": 72.44,
+    "co2_kg_m3": 66.68,
+    "co2_original": "66.68 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 24",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1415,
+    "material": "AAM argamassa alcali-ativada Mix 25: FA20%+GBFS60%+POFA20%",
+    "fck": 71.93,
+    "co2_kg_m3": 71.3,
+    "co2_original": "71.3 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 25",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1416,
+    "material": "AAM argamassa alcali-ativada Mix 26: FA10%+GBFS60%+POFA30%",
+    "fck": 70.84,
+    "co2_kg_m3": 75.93,
+    "co2_original": "75.93 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 26",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1417,
+    "material": "AAM argamassa alcali-ativada Mix 27: GBFS60%+POFA40%",
+    "fck": 70.22,
+    "co2_kg_m3": 80.55,
+    "co2_original": "80.55 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 27",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1419,
+    "material": "AAM argamassa alcali-ativada Mix 29: FA40%+GBFS50%+POFA10%",
+    "fck": 80.43,
+    "co2_kg_m3": 59.18,
+    "co2_original": "59.18 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 29",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1420,
+    "material": "AAM argamassa alcali-ativada Mix 30: FA30%+GBFS50%+POFA20%",
+    "fck": 67.22,
+    "co2_kg_m3": 63.8,
+    "co2_original": "63.8 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 30",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1421,
+    "material": "AAM argamassa alcali-ativada Mix 31: FA20%+GBFS50%+POFA30%",
+    "fck": 65.14,
+    "co2_kg_m3": 68.43,
+    "co2_original": "68.43 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 31",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1422,
+    "material": "AAM argamassa alcali-ativada Mix 32: FA10%+GBFS50%+POFA40%",
+    "fck": 56.34,
+    "co2_kg_m3": 73.05,
+    "co2_original": "73.05 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 32",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1424,
+    "material": "AAM argamassa alcali-ativada Mix 34: GBFS30%+WCP70%",
+    "fck": 34.02,
+    "co2_kg_m3": 58.66,
+    "co2_original": "58.66 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 34",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1425,
+    "material": "AAM argamassa alcali-ativada Mix 35: FA10%+GBFS20%+WCP70%",
+    "fck": 22.4,
+    "co2_kg_m3": 51.16,
+    "co2_original": "51.16 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 35",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1426,
+    "material": "AAM argamassa alcali-ativada Mix 36: GBFS40%+WCP60%",
+    "fck": 68.44,
+    "co2_kg_m3": 63.43,
+    "co2_original": "63.43 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 36",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1427,
+    "material": "AAM argamassa alcali-ativada Mix 37: FA10%+GBFS30%+WCP60%",
+    "fck": 52.08,
+    "co2_kg_m3": 55.93,
+    "co2_original": "55.93 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 37",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1428,
+    "material": "AAM argamassa alcali-ativada Mix 38: FA20%+GBFS20%+WCP60%",
+    "fck": 46.76,
+    "co2_kg_m3": 48.43,
+    "co2_original": "48.43 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 38",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1429,
+    "material": "AAM argamassa alcali-ativada Mix 39: GBFS50%+WCP50%",
+    "fck": 74.12,
+    "co2_kg_m3": 68.2,
+    "co2_original": "68.2 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 39",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1430,
+    "material": "AAM argamassa alcali-ativada Mix 40: FA10%+GBFS40%+WCP50%",
+    "fck": 66.19,
+    "co2_kg_m3": 60.7,
+    "co2_original": "60.7 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 40",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1431,
+    "material": "AAM argamassa alcali-ativada Mix 41: FA20%+GBFS30%+WCP50%",
+    "fck": 60.17,
+    "co2_kg_m3": 53.2,
+    "co2_original": "53.2 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 41",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1432,
+    "material": "AAM argamassa alcali-ativada Mix 42: FA30%+GBFS20%+WCP50%",
+    "fck": 56.47,
+    "co2_kg_m3": 45.7,
+    "co2_original": "45.7 kg CO2/m3",
+    "co2_original_local": "Tabela 3, p.7, Mix 42",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]

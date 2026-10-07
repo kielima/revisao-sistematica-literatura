@@ -1,0 +1,461 @@
+[
+ {
+  "row_id": 3162,
+  "rotulo": "Spagnuolo & Meda, 2024",
+  "titulo": "Precast CSA-based concrete tunnel lining segments reinforced with GFRP bars: Challenges and opportunities",
+  "pdf": "SPAGNUOLO et al., 2024 - j.conbuildmat.2024.136007.pdf",
+  "fileId": "1f1b1JihIwmWTJaFYvdK-8MQmtVRex398",
+  "pares": [
+   {
+    "sheet_row": 1935,
+    "material": "Aduela CSA/GFRP - so a coluna 'Concrete' (betao A-CSA-CEM II, sem armadura)",
+    "fck": 57,
+    "co2_kg_m3": 289.5,
+    "co2_original": "385 kg CO2eq/segmento (coluna Concrete)",
+    "co2_original_local": "Tabela 9 (p.12)",
+    "co2_conversao": "385 / 1.33 = 289.5 kg/m3 (betao isolado; o artigo diz que o mix design e o da Tabela 1 para toda a aduela) [REVISAO 2026-09-27, leitura integral; confianca alta]"
+   },
+   {
+    "sheet_row": 1936,
+    "material": "Aduela OPC/Steel - so a coluna 'Concrete' (betao CEM IV pozolanico, sem armadura)",
+    "fck": 48,
+    "co2_kg_m3": 297.7,
+    "co2_original": "396 kg CO2eq/segmento (coluna Concrete)",
+    "co2_original_local": "Tabela 9 (p.12)",
+    "co2_conversao": "396 / 1.33 = 297.7 kg/m3 [REVISAO 2026-09-27, leitura integral; confianca alta]"
+   }
+  ]
+ },
+ {
+  "row_id": 3167,
+  "rotulo": "Gholampour et al., 2025",
+  "titulo": "Effect of polypropylene and polyvinyl alcohol fibers on mechanical behavior and durability of geopolymers containing lead slag: Testing, optimization, and life cycle assessment",
+  "pdf": "GHOLAMPOUR, 2025 - j.conbuildmat.2025.139960.pdf",
+  "fileId": "1CDy4HzeKTRnjoD45IJamjeocA4-nP0xw",
+  "pares": [
+   {
+    "sheet_row": 874,
+    "material": "morteiro geopolimerico FA/GGBFS com escoria de chumbo (lead slag), mistura FA100NS (sem fibra PP/PVA)",
+    "fck": 28.6,
+    "co2_kg_m3": 813.06,
+    "co2_original": "813.06 kg CO2-eq/m3 [RELABEL 2026-09-13: FU=\"1 m3 mortar by cradle-to-gate method\" -- valor nao alterado]",
+    "co2_original_local": "p.12, Tabela 11 (Global warming (GWP100a) (kg CO2 eq)), linha FA100NS",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 875,
+    "material": "morteiro geopolimerico FA/GGBFS com escoria de chumbo (lead slag), mistura FA80G20NS (sem fibra PP/PVA)",
+    "fck": 44.1,
+    "co2_kg_m3": 848.53,
+    "co2_original": "848.53 kg CO2-eq/m3 [RELABEL 2026-09-13: FU=\"1 m3 mortar by cradle-to-gate method\" -- valor nao alterado]",
+    "co2_original_local": "p.12, Tabela 11 (Global warming (GWP100a) (kg CO2 eq)), linha FA80G20NS",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 876,
+    "material": "morteiro geopolimerico FA/GGBFS com escoria de chumbo (lead slag), mistura FA50G50NS (sem fibra PP/PVA)",
+    "fck": 62.9,
+    "co2_kg_m3": 914,
+    "co2_original": "914 kg CO2-eq/m3 [RELABEL 2026-09-13: FU=\"1 m3 mortar by cradle-to-gate method\" -- valor nao alterado]",
+    "co2_original_local": "p.12, Tabela 11 (Global warming (GWP100a) (kg CO2 eq)), linha FA50G50NS",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 877,
+    "material": "morteiro geopolimerico FA/GGBFS com escoria de chumbo (lead slag), mistura FA100LS (sem fibra PP/PVA)",
+    "fck": 30.6,
+    "co2_kg_m3": 923.63,
+    "co2_original": "923.63 kg CO2-eq/m3 [RELABEL 2026-09-13: FU=\"1 m3 mortar by cradle-to-gate method\" -- valor nao alterado]",
+    "co2_original_local": "p.12, Tabela 11 (Global warming (GWP100a) (kg CO2 eq)), linha FA100LS",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 878,
+    "material": "morteiro geopolimerico FA/GGBFS com escoria de chumbo (lead slag), mistura FA80G20LS (sem fibra PP/PVA)",
+    "fck": 47.5,
+    "co2_kg_m3": 959.11,
+    "co2_original": "959.11 kg CO2-eq/m3 [RELABEL 2026-09-13: FU=\"1 m3 mortar by cradle-to-gate method\" -- valor nao alterado]",
+    "co2_original_local": "p.12, Tabela 11 (Global warming (GWP100a) (kg CO2 eq)), linha FA80G20LS",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 879,
+    "material": "morteiro geopolimerico FA/GGBFS com escoria de chumbo (lead slag), mistura FA50G50LS (sem fibra PP/PVA)",
+    "fck": 65.6,
+    "co2_kg_m3": 1024.57,
+    "co2_original": "1024.57 kg CO2-eq/m3 [RELABEL 2026-09-13: FU=\"1 m3 mortar by cradle-to-gate method\" -- valor nao alterado]",
+    "co2_original_local": "p.12, Tabela 11 (Global warming (GWP100a) (kg CO2 eq)), linha FA50G50LS",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3173,
+  "rotulo": "Hossain et al., 2021",
+  "titulo": "Influence of supplementary cementitious materials in sustainability performance of concrete industry: A case study in Hong Kong",
+  "pdf": "HOSSAIN et al., 2021 - j.cscm.2021.e00659.pdf",
+  "fileId": "1HywcSckmoeWknQmiIwtoAqG33yMhaSEW",
+  "pares": [
+   {
+    "sheet_row": 881,
+    "material": "concreto com SCM industrial/natural, caso de Hong Kong, mistura M1 (100% OPC, referencia)",
+    "fck": 59.23,
+    "co2_kg_m3": 511,
+    "co2_original": "511 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (\"GHG emissions of concretes based on per m3 FU\") -- valor nao alterado]",
+    "co2_original_local": "p.6, texto sec.4.2 (GHG emissions of concretes based on per m3 FU), valor de M1 (100% OPC, referencia)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 882,
+    "material": "concreto com SCM industrial/natural, caso de Hong Kong, mistura M2 (30% escoria)",
+    "fck": 63,
+    "co2_kg_m3": 446,
+    "co2_original": "446 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (\"GHG emissions of concretes based on per m3 FU\") -- valor nao alterado]",
+    "co2_original_local": "p.6, texto sec.4.2 (GHG emissions of concretes based on per m3 FU), valor de M2 (30% escoria)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 883,
+    "material": "concreto com SCM industrial/natural, caso de Hong Kong, mistura M3 (50% escoria)",
+    "fck": 64.37,
+    "co2_kg_m3": 366,
+    "co2_original": "366 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (\"GHG emissions of concretes based on per m3 FU\") -- valor nao alterado]",
+    "co2_original_local": "p.6, texto sec.4.2 (GHG emissions of concretes based on per m3 FU), valor de M3 (50% escoria)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 884,
+    "material": "concreto com SCM industrial/natural, caso de Hong Kong, mistura M5 (20% cinza vulcanica)",
+    "fck": 70.7,
+    "co2_kg_m3": 429,
+    "co2_original": "429 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (\"GHG emissions of concretes based on per m3 FU\") -- valor nao alterado]",
+    "co2_original_local": "p.6, texto sec.4.2 (GHG emissions of concretes based on per m3 FU), valor de M5 (20% cinza vulcanica)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 885,
+    "material": "concreto com SCM industrial/natural, caso de Hong Kong, mistura M6 (30% cinza vulcanica)",
+    "fck": 64.8,
+    "co2_kg_m3": 385,
+    "co2_original": "385 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (\"GHG emissions of concretes based on per m3 FU\") -- valor nao alterado]",
+    "co2_original_local": "p.6, texto sec.4.2 (GHG emissions of concretes based on per m3 FU), valor de M6 (30% cinza vulcanica)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3176,
+  "rotulo": "Irshidat et al., 2021",
+  "titulo": "Sustainable utilization of waste carbon black in alkali-activated mortar production",
+  "pdf": "IRSHIDAT et al., 2021 - j.cscm.2021.e00743.pdf",
+  "fileId": "1S3MOmZv7w1T8Khq_S34pNbgMHJiQro5v",
+  "pares": [
+   {
+    "sheet_row": 886,
+    "material": "morteiro geopolimerico a base de cinza volante (fly ash), mistura de controlo (sem WCB)",
+    "fck": 44.79,
+    "co2_kg_m3": 184,
+    "co2_original": "184.0 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1937,
+    "material": "GPM-5%A (adicao)",
+    "fck": 46.89,
+    "co2_kg_m3": 185,
+    "co2_original": "185.0 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1938,
+    "material": "GPM-5%S (= 5R, substituicao)",
+    "fck": 42.45,
+    "co2_kg_m3": 183.2,
+    "co2_original": "183.2 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1939,
+    "material": "GPM-10%A",
+    "fck": 39.72,
+    "co2_kg_m3": 186.1,
+    "co2_original": "186.1 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1940,
+    "material": "GPM-10%S (=10R)",
+    "fck": 34.73,
+    "co2_kg_m3": 182.2,
+    "co2_original": "182.2 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1941,
+    "material": "GPM-15%A",
+    "fck": 41.41,
+    "co2_kg_m3": 187.1,
+    "co2_original": "187.1 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1942,
+    "material": "GPM-15%S (=15R)",
+    "fck": 35.23,
+    "co2_kg_m3": 181.1,
+    "co2_original": "181.1 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1943,
+    "material": "GPM-20%A",
+    "fck": 45.9,
+    "co2_kg_m3": 188.1,
+    "co2_original": "188.1 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1944,
+    "material": "GPM-20%S (=20R)",
+    "fck": 27.92,
+    "co2_kg_m3": 180.1,
+    "co2_original": "180.1 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1945,
+    "material": "GPM-30%A",
+    "fck": 43.28,
+    "co2_kg_m3": 190.2,
+    "co2_original": "190.2 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1946,
+    "material": "GPM-30%S (=30R)",
+    "fck": 26.58,
+    "co2_kg_m3": 178,
+    "co2_original": "178.0 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1947,
+    "material": "GPM-40%A",
+    "fck": 41.63,
+    "co2_kg_m3": 192.1,
+    "co2_original": "192.1 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 1948,
+    "material": "GPM-40%S (=40R)",
+    "fck": 25.27,
+    "co2_kg_m3": 176.2,
+    "co2_original": "176.2 (Global warming potential (GWP) (Kg CO2-Equiv.), por 1,0 m3 de argamassa geopolimerica (texto sec.5))",
+    "co2_original_local": "Fig.16a; fck Tabela 4",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-0,3 kg/m3 (1 px = 0,21 kg; barras tracejadas)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 3178,
+  "rotulo": "Luo et al., 2021",
+  "titulo": "Utilisation of dewatered extracted soil in concrete blocks produced with Portland cement or alkali-activated slag: Engineering properties and sustainability",
+  "pdf": "LUO et al., 2021 - j.cscm.2021.e00760.pdf",
+  "fileId": "19Vtis9-VavIi3yMtYNHLI4A3mdzXwPEZ",
+  "pares": [
+   {
+    "sheet_row": 887,
+    "material": "bloco de concreto com solo extraido de escavacao (DES) substituindo areia, ligante OPC (OPCCB), traco optimo C30 (30% DES)",
+    "fck": 21.94,
+    "co2_kg_m3": 559.6894,
+    "co2_original": "25,51 kg CO2-eq/(m3.MPa) (indice CII, OPCCB C30)",
+    "co2_original_local": "p.13, Tabela 5 (Intensity indices), coluna OPCCB (C30), linha CII",
+    "co2_conversao": "25,51 x fck 21,94 MPa = 559,69"
+   },
+   {
+    "sheet_row": 888,
+    "material": "bloco de concreto com solo extraido de escavacao (DES) substituindo areia, ligante alcali-ativado de escoria (AASCB), traco optimo A20 (20% DES)",
+    "fck": 50.13,
+    "co2_kg_m3": 483.2532,
+    "co2_original": "9,64 kg CO2-eq/(m3.MPa) (indice CII, AASCB A20)",
+    "co2_original_local": "p.13, Tabela 5 (Intensity indices), coluna AASCB (A20), linha CII",
+    "co2_conversao": "9,64 x fck 50,13 MPa = 483,25"
+   }
+  ]
+ },
+ {
+  "row_id": 3179,
+  "rotulo": "Damrongwiriyanupap et al., 2022",
+  "titulo": "Assessment of equivalent substrate stiffness and mechanical properties of sustainable alkali-activated concrete containing recycled concrete aggregate",
+  "pdf": "DAMRONGWIRIYANUPAP, 2022 - j.cscm.2022.e00982.pdf",
+  "fileId": "1QK44u4DERwQH-QhY5Ct0Bt3dF5SXCGW9",
+  "pares": [
+   {
+    "sheet_row": 889,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio (AAHFAC, sem silica de fumo), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 23,
+    "co2_kg_m3": 612.9,
+    "co2_original": "0,61290 t CO2-e/t (rotulo do autor 'Total CO2-e/t', AAHFAC-0RCA; na pratica t/m3)",
+    "co2_original_local": "p.13, Tabela 9, coluna Total CO2-e/t, linha AAHFAC-0RCA",
+    "co2_conversao": "Rotulo t/t reinterpretado como t/m3 (parcelas calculadas sobre traco kg/m3 da Tab.3; reducao de 54% bate com valores brutos): 0,61290 t x 1000 = 612,9"
+   },
+   {
+    "sheet_row": 890,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio com silica de fumo (AAHFAC-SF), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 46,
+    "co2_kg_m3": 612.92,
+    "co2_original": "0,61292 t CO2-e/t (rotulo do autor 'Total CO2-e/t', AAHFAC-SF-0RCA; na pratica t/m3)",
+    "co2_original_local": "p.13, Tabela 9, coluna Total CO2-e/t, linha AAHFAC-SF-0RCA",
+    "co2_conversao": "Rotulo t/t reinterpretado como t/m3 (mesma prova da linha AAHFAC): 0,61292 t x 1000 = 612,92"
+   },
+   {
+    "sheet_row": 1842,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio (AAHFAC, sem silica de fumo), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 25.7,
+    "co2_kg_m3": 546.72,
+    "co2_original": "0,54672 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-20RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-20RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,54672 t/m3 x 1000 = 546,72"
+   },
+   {
+    "sheet_row": 1843,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio com silica de fumo (AAHFAC-SF), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 46.8,
+    "co2_kg_m3": 546.72,
+    "co2_original": "0,54672 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-SF-20RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-SF-20RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,54672 t/m3 x 1000 = 546,72"
+   },
+   {
+    "sheet_row": 1844,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio (AAHFAC, sem silica de fumo), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 29.3,
+    "co2_kg_m3": 480.53,
+    "co2_original": "0,48053 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-40RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-40RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,48053 t/m3 x 1000 = 480,53"
+   },
+   {
+    "sheet_row": 1845,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio com silica de fumo (AAHFAC-SF), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 48.7,
+    "co2_kg_m3": 480.54,
+    "co2_original": "0,48054 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-SF-40RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-SF-40RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,48054 t/m3 x 1000 = 480,54"
+   },
+   {
+    "sheet_row": 1846,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio (AAHFAC, sem silica de fumo), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 30.3,
+    "co2_kg_m3": 414.34,
+    "co2_original": "0,41434 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-60RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-60RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,41434 t/m3 x 1000 = 414,34"
+   },
+   {
+    "sheet_row": 1847,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio com silica de fumo (AAHFAC-SF), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 47.1,
+    "co2_kg_m3": 414.35,
+    "co2_original": "0,41435 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-SF-60RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-SF-60RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,41435 t/m3 x 1000 = 414,35"
+   },
+   {
+    "sheet_row": 1848,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio (AAHFAC, sem silica de fumo), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 30.4,
+    "co2_kg_m3": 348.15,
+    "co2_original": "0,34815 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-80RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-80RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,34815 t/m3 x 1000 = 348,15"
+   },
+   {
+    "sheet_row": 1849,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio com silica de fumo (AAHFAC-SF), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 49.2,
+    "co2_kg_m3": 348.17,
+    "co2_original": "0,34817 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-SF-80RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-SF-80RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,34817 t/m3 x 1000 = 348,17"
+   },
+   {
+    "sheet_row": 1850,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio (AAHFAC, sem silica de fumo), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 31.7,
+    "co2_kg_m3": 281.97,
+    "co2_original": "0,28197 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-100RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-100RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,28197 t/m3 x 1000 = 281,97"
+   },
+   {
+    "sheet_row": 1851,
+    "material": "concreto geopolimerico alcali-ativado de cinza volante de alto calcio com silica de fumo (AAHFAC-SF), com agregado reciclado de betao (RCA) 0-100%",
+    "fck": 51.4,
+    "co2_kg_m3": 281.99,
+    "co2_original": "0,28199 t CO2-e/t ('Total CO2-e/t', rotulado pelo autor como por tonelada de concreto), linha AAHFAC-SF-100RCA",
+    "co2_original_local": "Tabela 9 p.13, linha AAHFAC-SF-100RCA (massas por m3 da Tabela 3 p.11-13, fatores da Tabela 8)",
+    "co2_conversao": "Rotulo reinterpretado como t CO2-e por m3 (a Tab.9 soma massas por m3 da Tab.3 x fatores da Tab.8): 0,28199 t/m3 x 1000 = 281,99"
+   }
+  ]
+ },
+ {
+  "row_id": 3182,
+  "rotulo": "Goh et al., 2022",
+  "titulo": "Life cycle assessment on recycled e-waste concrete",
+  "pdf": "GOH, 2022 - j.cscm.2022.e01412.pdf",
+  "fileId": "1El9u8OJlP_87oFmFQ0x5xb4ROy7Nlk1s",
+  "pares": [
+   {
+    "sheet_row": 892,
+    "material": "concreto com agregado graudo de plastico de e-waste (e-plastic), cenario E1 (concreto convencional, controlo)",
+    "fck": 31,
+    "co2_kg_m3": 365.71,
+    "co2_original": "365.71 kg CO2-eq/m3 [RELABEL 2026-09-13: FU declarada como \"per m3 of the material mixed\", sec.3.2 -- valor nao alterado]",
+    "co2_original_local": "p.6, Tabela 6, coluna GWP (kg CO2-eq), linha E1 (concreto convencional, controlo)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 893,
+    "material": "concreto com agregado graudo de plastico de e-waste (e-plastic), cenario E2 (20% agregado graudo substituido por e-plastic)",
+    "fck": 37.5,
+    "co2_kg_m3": 361.1,
+    "co2_original": "361.1 kg CO2-eq/m3 [RELABEL 2026-09-13: FU declarada como \"per m3 of the material mixed\", sec.3.2 -- valor nao alterado]",
+    "co2_original_local": "p.6, Tabela 6, coluna GWP (kg CO2-eq), linha E2 (20% agregado graudo substituido por e-plastic)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 894,
+    "material": "concreto com agregado graudo de plastico de e-waste (e-plastic), cenario E3 (E2 + 30% cimento substituido por GGBS)",
+    "fck": 52,
+    "co2_kg_m3": 278.68,
+    "co2_original": "278.68 kg CO2-eq/m3 [RELABEL 2026-09-13: FU declarada como \"per m3 of the material mixed\", sec.3.2 -- valor nao alterado]",
+    "co2_original_local": "p.6, Tabela 6, coluna GWP (kg CO2-eq), linha E3 (E2 + 30% cimento substituido por GGBS)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 895,
+    "material": "concreto com agregado graudo de plastico de e-waste (e-plastic), cenario E4 (geopolimero, 100% cimento substituido por FA+GGBS, 20% e-plastic)",
+    "fck": 35,
+    "co2_kg_m3": 287.32,
+    "co2_original": "287.32 kg CO2-eq/m3 [RELABEL 2026-09-13: FU declarada como \"per m3 of the material mixed\", sec.3.2 -- valor nao alterado]",
+    "co2_original_local": "p.6, Tabela 6, coluna GWP (kg CO2-eq), linha E4 (geopolimero, 100% cimento substituido por FA+GGBS, 20% e-plastic)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]

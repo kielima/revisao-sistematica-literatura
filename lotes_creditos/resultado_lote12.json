@@ -1,0 +1,360 @@
+[
+ {
+  "row_id": 3117,
+  "pares": [
+   {
+    "sheet_row": 317,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 770.9,
+    "co2_com_desconto": null,
+    "citacao": "Tab.A.1 (p.13) GWP 578,16 kg CO2-eq / 0,75 m3 (Tab.2) = 770,9. ACV cradle-to-grave do encamisamento RC (OpenLCA/Ecoinvent; Tab.A.1 TRACI 2.1). Fim de vida = demolicao, britagem do betao e transporte para reciclagem/aterro (sec.2.2.1, Tab.2); nenhum credito de reciclagem nem produto evitado. 'Climate change-Biogenic' da Tab.A.2 (EF 3.1) e emissao positiva (0,49-0,64), nao credito.",
+    "derivado": "sim",
+    "nota": "O gravado e o total do pilar reforcado (betao + armadura 101,8-132,6 kg + adesivo epoxi + pintura anti-carbonatacao + maquinaria + fim de vida) dividido so pelo volume de betao: nao e CO2 do betao; deve estar na familia concreto_armado/sistema. Sem relacao com descontos."
+   },
+   {
+    "sheet_row": 318,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 798.5,
+    "co2_com_desconto": null,
+    "citacao": "Tab.A.1: 678,73 / 0,85 m3 = 798,5. ACV cradle-to-grave do encamisamento RC (OpenLCA/Ecoinvent; Tab.A.1 TRACI 2.1). Fim de vida = demolicao, britagem do betao e transporte para reciclagem/aterro (sec.2.2.1, Tab.2); nenhum credito de reciclagem nem produto evitado. 'Climate change-Biogenic' da Tab.A.2 (EF 3.1) e emissao positiva (0,49-0,64), nao credito.",
+    "derivado": "sim",
+    "nota": "O gravado e o total do pilar reforcado (betao + armadura 101,8-132,6 kg + adesivo epoxi + pintura anti-carbonatacao + maquinaria + fim de vida) dividido so pelo volume de betao: nao e CO2 do betao; deve estar na familia concreto_armado/sistema. Sem relacao com descontos."
+   },
+   {
+    "sheet_row": 1933,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 795.2,
+    "co2_com_desconto": null,
+    "citacao": "Tab.A.1: 747,46 / 0,94 m3 = 795,2. ACV cradle-to-grave do encamisamento RC (OpenLCA/Ecoinvent; Tab.A.1 TRACI 2.1). Fim de vida = demolicao, britagem do betao e transporte para reciclagem/aterro (sec.2.2.1, Tab.2); nenhum credito de reciclagem nem produto evitado. 'Climate change-Biogenic' da Tab.A.2 (EF 3.1) e emissao positiva (0,49-0,64), nao credito.",
+    "derivado": "sim",
+    "nota": "O gravado e o total do pilar reforcado (betao + armadura 101,8-132,6 kg + adesivo epoxi + pintura anti-carbonatacao + maquinaria + fim de vida) dividido so pelo volume de betao: nao e CO2 do betao; deve estar na familia concreto_armado/sistema. Sem relacao com descontos. O lote indica este par como 3.a linha (10 pisos); confere com Tab.A.1/Tab.2."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (88.911 car.); metodos, resultados, discussao, conclusoes e Apendice A lidos por inteiro."
+ },
+ {
+  "row_id": 3118,
+  "pares": [
+   {
+    "sheet_row": 845,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 566,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 9 (p.10) GWP100 REF = 5,66E+02 kg CO2-eq/m3; ACV cradle-to-gate (sec.3.3.2), SimaPro/CML. A cinza de biomassa entra com carga zero (residuo, so transporte) - regra de corte, nao credito.",
+    "derivado": "nao",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Seccao 3.3 e 4.3.3 lidas por inteiro; sem credito, carbonatacao so como ensaio de durabilidade."
+ },
+ {
+  "row_id": 3120,
+  "pares": [
+   {
+    "sheet_row": 320,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 184.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.5 e 5 (pp.19-31): GWP so de materiais e cura (Ecoinvent), sem credito. Gravado = 42,5 (Fig.10) / 0,230 m.",
+    "derivado": "sim",
+    "nota": "Carbonatacao so citada como ganho de resistencia. Fig.10 inclui argamassa de assentamento; texto fala 'per linear metre of wall' (alerta ja registado)."
+   }
+  ],
+  "texto_completo_lido": "parcial",
+  "notas": "Seccoes 3.5, 5, 6, 7 e 8 lidas por inteiro; restante varrido por termos."
+ },
+ {
+  "row_id": 3132,
+  "pares": [
+   {
+    "sheet_row": 847,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 381.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.2-3.4.3 (pp.4-6) cradle-to-site, coeficientes ICE, sem credito. Sec.4.4 (p.9): 'PLC ... contributing approximately 92 % ... These generated about 353 ... kgCO2-eq'. Conta pelo Eq.(9) com Tab.3/5/7/8: 1,19x(312x0,95+885x0,0051+1045x0,0052+190x0,001)+(312x62+885x3,5+1045x81)x0,159/1000 = 381,8; Fig.8 (p.9) mostra barra V0 C25 ~385.",
+    "derivado": "sim",
+    "nota": "ERRO NO GRAVADO: 353 e so a parcela do cimento (312 kg x 0,95 x 1,19 = 352,7), nao o GWP total da mistura; o total cradle-to-site e ~382 (Fig.8 ~385). Nao e questao de desconto."
+   },
+   {
+    "sheet_row": 848,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 427.2,
+    "co2_com_desconto": null,
+    "citacao": "Idem; 398 = 352 kg PLC x 0,95 x 1,19 = 397,9 (so cimento). Total Eq.(9) = 427,2; Fig.8 V0 C30 ~430.",
+    "derivado": "sim",
+    "nota": "ERRO NO GRAVADO: 398 e so a parcela do cimento (93 %); total ~427."
+   },
+   {
+    "sheet_row": 849,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 540.6,
+    "co2_com_desconto": null,
+    "citacao": "Idem; 511 = 452 x 0,95 x 1,19 = 511,0 (so cimento). Total Eq.(9) = 540,6; Fig.8 V0 C40 ~540.",
+    "derivado": "sim",
+    "nota": "ERRO NO GRAVADO: 511 e so a parcela do cimento (95 %); total ~541."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Metodos e resultados da ACV lidos por inteiro; Fig.8 vista (render p.9). A descricao 'material' das 3 linhas diz V0 para todas mas sao C25/C30/C40."
+ },
+ {
+  "row_id": 3139,
+  "pares": [
+   {
+    "sheet_row": 855,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 768.4,
+    "co2_com_desconto": null,
+    "citacao": "Sec.5.2 (p.11) Eq.(3) = soma de factores de material (Tab.5) x dosagem (Tab.6); sem credito (o vidro de residuo entra com 0,30/0,60 kg/kg). Conta Control: 565,1x0,83+780,4x0,02+780,4x0,10+40,5x0,72+225,1x0,01+117x1,49 = 768,4; Fig.20a (p.12) barra Control ~770.",
+    "derivado": "sim",
+    "nota": "ERRO GRAVE: 1.046 kg/m3 e da mistura UHPC-LCC da referencia [6] (762 kg cimento, Tab.6; 762x0,83+229x0,03+102x0,30+229x0,60+60x0,72+135x0,01+130x1,49 = 1.045,6), nao do Control deste estudo; Fig.20a mostra UHPC-LCC ~1.046 e Control ~770. O fck 134,2 e do Control. Corrigir co2 da linha 855 para ~768 (calculado a partir das Tab.5/6; texto so imprime 1.046 vs 771)."
+   },
+   {
+    "sheet_row": 856,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 771,
+    "co2_com_desconto": null,
+    "citacao": "Sec.5.2 texto 'from 1,046 kg/m3 to 771 kg/m3'; conta GM20 = 770,9; Fig.20a.",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 857,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 656,
+    "co2_com_desconto": null,
+    "citacao": "Sec.5.2 texto '771 to 656'; conta L0 = 656,2; Fig.20a.",
+    "derivado": "nao",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Seccao 5 lida por inteiro e Fig.20 vista (render p.12). No texto o 1.046->771 compara UHP-LCC [6] com GM20 (chamado 'GB50')."
+ },
+ {
+  "row_id": 3146,
+  "pares": [
+   {
+    "sheet_row": 859,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 331.36,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 11 (p.13) GWP100 Control 331,36 kg CO2-eq; cradle-to-gate (sec.4.5.1), OpenLCA/ELCD, sem transporte, sem credito.",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 860,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 298.844006,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 11 'Ofim-15' 298,84 (inventario Ofim-15/10 da Tabela 10); mucilagem de cacto tratada como residuo sem carga (corte, nao credito).",
+    "derivado": "nao",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Seccao 4.5 e conclusoes lidas por inteiro."
+ },
+ {
+  "row_id": 3151,
+  "pares": [
+   {
+    "sheet_row": 861,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 356,
+    "co2_com_desconto": null,
+    "citacao": "Sec.6.2 'Carbon efficiency' (p.11) e seccao final (p.13): CO2-e por factores de material da literatura [20,92,95,101], cradle-to-gate de materiais, sem transporte nem credito.",
+    "derivado": "nao",
+    "nota": "Texto extraido baralhado mas a sequencia OPC 356/373, GPC 313/346, LC3 183/268 e consistente nas duas passagens. As percentagens do proprio texto (LC3 -47,5 %/-39,2 % vs OPC; -31,2 %/-33,81 % vs GPC) nao batem com estes valores - incoerencia do artigo, nao de desconto. Figs.11-13 nao vistas (download falhou)."
+   },
+   {
+    "sheet_row": 862,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 373,
+    "co2_com_desconto": null,
+    "citacao": "Sec.6.2 'Carbon efficiency' (p.11) e seccao final (p.13): CO2-e por factores de material da literatura [20,92,95,101], cradle-to-gate de materiais, sem transporte nem credito.",
+    "derivado": "nao",
+    "nota": "Texto extraido baralhado mas a sequencia OPC 356/373, GPC 313/346, LC3 183/268 e consistente nas duas passagens. As percentagens do proprio texto (LC3 -47,5 %/-39,2 % vs OPC; -31,2 %/-33,81 % vs GPC) nao batem com estes valores - incoerencia do artigo, nao de desconto. Figs.11-13 nao vistas (download falhou)."
+   },
+   {
+    "sheet_row": 863,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 313,
+    "co2_com_desconto": null,
+    "citacao": "Sec.6.2 'Carbon efficiency' (p.11) e seccao final (p.13): CO2-e por factores de material da literatura [20,92,95,101], cradle-to-gate de materiais, sem transporte nem credito.",
+    "derivado": "nao",
+    "nota": "Texto extraido baralhado mas a sequencia OPC 356/373, GPC 313/346, LC3 183/268 e consistente nas duas passagens. As percentagens do proprio texto (LC3 -47,5 %/-39,2 % vs OPC; -31,2 %/-33,81 % vs GPC) nao batem com estes valores - incoerencia do artigo, nao de desconto. Figs.11-13 nao vistas (download falhou)."
+   },
+   {
+    "sheet_row": 864,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 346,
+    "co2_com_desconto": null,
+    "citacao": "Sec.6.2 'Carbon efficiency' (p.11) e seccao final (p.13): CO2-e por factores de material da literatura [20,92,95,101], cradle-to-gate de materiais, sem transporte nem credito.",
+    "derivado": "nao",
+    "nota": "Texto extraido baralhado mas a sequencia OPC 356/373, GPC 313/346, LC3 183/268 e consistente nas duas passagens. As percentagens do proprio texto (LC3 -47,5 %/-39,2 % vs OPC; -31,2 %/-33,81 % vs GPC) nao batem com estes valores - incoerencia do artigo, nao de desconto. Figs.11-13 nao vistas (download falhou)."
+   },
+   {
+    "sheet_row": 865,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 183,
+    "co2_com_desconto": null,
+    "citacao": "Sec.6.2 'Carbon efficiency' (p.11) e seccao final (p.13): CO2-e por factores de material da literatura [20,92,95,101], cradle-to-gate de materiais, sem transporte nem credito.",
+    "derivado": "nao",
+    "nota": "Texto extraido baralhado mas a sequencia OPC 356/373, GPC 313/346, LC3 183/268 e consistente nas duas passagens. As percentagens do proprio texto (LC3 -47,5 %/-39,2 % vs OPC; -31,2 %/-33,81 % vs GPC) nao batem com estes valores - incoerencia do artigo, nao de desconto. Figs.11-13 nao vistas (download falhou)."
+   },
+   {
+    "sheet_row": 866,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 268,
+    "co2_com_desconto": null,
+    "citacao": "Sec.6.2 'Carbon efficiency' (p.11) e seccao final (p.13): CO2-e por factores de material da literatura [20,92,95,101], cradle-to-gate de materiais, sem transporte nem credito.",
+    "derivado": "nao",
+    "nota": "Texto extraido baralhado mas a sequencia OPC 356/373, GPC 313/346, LC3 183/268 e consistente nas duas passagens. As percentagens do proprio texto (LC3 -47,5 %/-39,2 % vs OPC; -31,2 %/-33,81 % vs GPC) nao batem com estes valores - incoerencia do artigo, nao de desconto. Figs.11-13 nao vistas (download falhou)."
+   }
+  ],
+  "texto_completo_lido": "parcial",
+  "notas": "Revisao (135 mil car.); seccao 6 e 7 lidas por inteiro, restante varrido por termos (carbonation/sequestr/biogenic so em referencias)."
+ },
+ {
+  "row_id": 3152,
+  "pares": [
+   {
+    "sheet_row": 867,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 270,
+    "co2_com_desconto": null,
+    "citacao": "Tabelas 12/13/14 (pp.8-10): M_REF = 270 nos tres cenarios (sem borracha, logo sem co-produtos); Tab.11 decomposicao 254+9,56+0,056+6,14.",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (A1-A3)."
+   },
+   {
+    "sheet_row": 868,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 292,
+    "co2_com_desconto": 240,
+    "citacao": "Tab.12 (E1, p.8) M_10 GWP 292 = bruto, toda a carga da reciclagem de pneus atribuida a borracha. Tab.14 (E3, p.10) M_10 GWP 240: expansao do sistema com credito de aco reciclado em forno electrico (fibras metalicas 261 kg/1450 kg pneu) e energia termica da incineracao das fibras texteis que substitui combustiveis fosseis (sec.4.2.3).",
+    "derivado": "nao",
+    "nota": "Ha ainda o cenario E2 (Tab.13) = 286, que e alocacao por massa entre co-produtos (CR 0,6897), nao credito. Sec.5: aterro/queima de pneus evitados NAO foram incluidos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Metodologia, seccoes 4.1-4.3, 5 e 6 lidas por inteiro."
+ },
+ {
+  "row_id": 3153,
+  "pares": [
+   {
+    "sheet_row": 869,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 412,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.5 (pp.15-17), Eq.(10): Production+Transportation+Construction+End-life; fim de vida = deposicao em aterro aberto (adopta Zhao et al. [80]); Fig.25 empilhada.",
+    "derivado": "sim",
+    "nota": "A formula do fim de vida tem um termo subtraido (ri.Ed - rsalvage.Esalvage), mas o cenario declarado e aterro aberto do betao sem reciclagem; armadura so citada como reciclavel em termos gerais. Fig.25 nao revista nesta ronda (PDF 30 MB, acima do limite de download); valor herdado da leitura por pixel de 2026-09-27."
+   },
+   {
+    "sheet_row": 1934,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 438,
+    "co2_com_desconto": null,
+    "citacao": "Idem, coluna OPC da Fig.25.",
+    "derivado": "sim",
+    "nota": "Idem; mistura OPC de referencia vem da ref.[87] (Tab.7)."
+   }
+  ],
+  "texto_completo_lido": "parcial",
+  "notas": "Seccao 3.5 lida por inteiro; restante varrido por termos."
+ },
+ {
+  "row_id": 3155,
+  "pares": [
+   {
+    "sheet_row": 870,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 253,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3 (pp.9-14): cradle-to-gate, GreenConcrete LCA + factores NGA 2022; cartao: 'disposal-to-landfill' e 'landfill-to-raw material' contabilizados como emissoes; beneficio do desvio de aterro so qualitativo (p.14), sem valor. Fig.17 (p.13) rotulos.",
+    "derivado": "nao",
+    "nota": "Figuras 16/17 nao revistas visualmente (PDF 13 MB, acima do limite). A Fig.16 da os mesmos casos x10 (UF = 10 m3), segundo leitura E2 de 2026-08-24. O CO2 sobe com o cartao, o que nao indica credito; o '1 credito Green Star Mat-4' (p.4) e de certificacao, nao de CO2."
+   },
+   {
+    "sheet_row": 871,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 267,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3 (pp.9-14): cradle-to-gate, GreenConcrete LCA + factores NGA 2022; cartao: 'disposal-to-landfill' e 'landfill-to-raw material' contabilizados como emissoes; beneficio do desvio de aterro so qualitativo (p.14), sem valor. Fig.17 (p.13) rotulos.",
+    "derivado": "nao",
+    "nota": "Figuras 16/17 nao revistas visualmente (PDF 13 MB, acima do limite). A Fig.16 da os mesmos casos x10 (UF = 10 m3), segundo leitura E2 de 2026-08-24. O CO2 sobe com o cartao, o que nao indica credito; o '1 credito Green Star Mat-4' (p.4) e de certificacao, nao de CO2."
+   },
+   {
+    "sheet_row": 872,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 268,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.3 (pp.9-14): cradle-to-gate, GreenConcrete LCA + factores NGA 2022; cartao: 'disposal-to-landfill' e 'landfill-to-raw material' contabilizados como emissoes; beneficio do desvio de aterro so qualitativo (p.14), sem valor. Fig.17 (p.13) rotulos.",
+    "derivado": "nao",
+    "nota": "Figuras 16/17 nao revistas visualmente (PDF 13 MB, acima do limite). A Fig.16 da os mesmos casos x10 (UF = 10 m3), segundo leitura E2 de 2026-08-24. O CO2 sobe com o cartao, o que nao indica credito; o '1 credito Green Star Mat-4' (p.4) e de certificacao, nao de CO2."
+   }
+  ],
+  "texto_completo_lido": "parcial",
+  "notas": "Seccao 3.3 e conclusoes lidas por inteiro; restante varrido por termos."
+ }
+]

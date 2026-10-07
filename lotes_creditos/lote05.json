@@ -1,0 +1,272 @@
+[
+ {
+  "row_id": 2758,
+  "rotulo": "Paik et al., 2019",
+  "titulo": "Assessment of CO2 Emissions by Replacing an Ordinary Reinforced Concrete Slab with the Void Slab System in a High-Rise Commercial Residential Complex Building in South Korea",
+  "pdf": "PAIK et al., 2019.pdf",
+  "fileId": "1bmD2QGoqUGGyemdD129px82sVfWyQ05u",
+  "pares": [
+   {
+    "sheet_row": 208,
+    "material": "betao pronto 25 MPa, laje maciça (ordinary reinforced concrete slab)",
+    "fck": 25,
+    "co2_kg_m3": 420,
+    "co2_original": "Fator 4,20x10^2 kg CO2-eq/m3 para Ready-mixed concrete 25-240-15 (Korean LCI DB); total do edificio (laje macica) 204.433,06 kg CO2-eq",
+    "co2_original_local": "Tabela 2 p.5 (fator); Tabela 4 p.8 (70.043,40 kg para 166,77 m3); total na p.9 e conclusoes p.12",
+    "co2_conversao": "Fator publicado adoptado directamente (420); confirmado 70.043,40 kg / 166,77 m3 = 419,98 [VERIFICACAO 2026-09-26: OK; nota: co2_fonte_atual ainda aponta para o total p.9, nao para a Tab.2]"
+   },
+   {
+    "sheet_row": 209,
+    "material": "betao pronto 25 MPa, laje nervurada / void deck slab (VDS)",
+    "fck": 25,
+    "co2_kg_m3": 420,
+    "co2_original": "Fator 4,20x10^2 kg CO2-eq/m3 (Ready-mixed concrete 25-240-15); total do edificio (laje nervurada/VDS) 151.754,75 kg CO2-eq",
+    "co2_original_local": "Tabela 2 p.5 (fator); Tabela 5 p.8 (179,48 m3); total na p.9",
+    "co2_conversao": "Fator publicado adoptado (420); confirmado 75.381,60 kg / 179,48 m3 = 420,0 [VERIFICACAO 2026-09-26: OK; nota: co2_fonte_atual ainda aponta para o total p.9]"
+   }
+  ]
+ },
+ {
+  "row_id": 2759,
+  "rotulo": "Paik & Na, 2019",
+  "titulo": "Comparison of Carbon Dioxide Emissions of the Ordinary Reinforced Concrete Slab and the Voided Slab System During the Construction Phase: A Case Study of a Residential Building in South Korea",
+  "pdf": "PAIK et al., 2019b.pdf",
+  "fileId": "1i5Fgr_undVNgylw5ZTaJegF-XMycfvVL",
+  "pares": [
+   {
+    "sheet_row": 210,
+    "material": "betao fck=24 MPa, laje maciça (fase de construcao)",
+    "fck": 24,
+    "co2_kg_m3": 420,
+    "co2_original": "Fator 4,20x10^2 kg CO2-eq/m3 (Ready-mixed concrete 25-240-15); total fase de construcao (laje macica) 257.230 kg CO2",
+    "co2_original_local": "Tabela 2 (fator); Tabela 6 subtotal Concrete 142.426 kg; Tabela 7 p.12 volume 339,11 m3; total na Tabela 5 p.8",
+    "co2_conversao": "Fator publicado adoptado (420); confirmado 142.426 kg / 339,11 m3 = 420,0"
+   },
+   {
+    "sheet_row": 211,
+    "material": "betao fck=24 MPa, laje nervurada (fase de construcao)",
+    "fck": 24,
+    "co2_kg_m3": 420,
+    "co2_original": "Fator 4,20x10^2 kg CO2-eq/m3; total fase de construcao (laje nervurada/voided) 218.800 kg CO2",
+    "co2_original_local": "Tabela 2 (fator); Tabela 6 subtotal Concrete (V) 154.135 kg; Tabela 7 volume 366,99 m3; total Tabela 5 p.8",
+    "co2_conversao": "Fator publicado adoptado (420); confirmado 154.135 kg / 366,99 m3 = 420,0"
+   }
+  ]
+ },
+ {
+  "row_id": 2760,
+  "rotulo": "Paik & Na, 2019",
+  "titulo": "Evaluation of Carbon Dioxide Emissions amongst Alternative Slab Systems during the Construction Phase in a Building Project",
+  "pdf": "PAIK et al., 2019c.pdf",
+  "fileId": "1FR5SkKX1rSscx68yD44776HwYqMTM31U",
+  "pares": [
+   {
+    "sheet_row": 212,
+    "material": "betao fck=24 MPa, ORC (ordinary reinforced concrete slab)",
+    "fck": 24,
+    "co2_kg_m3": 432,
+    "co2_original": "Ready-mixed concrete (ORC) 1.631.735 kg CO2 eq (fase E1); total do edificio 3.275.712 kg CO2-eq (242 kg CO2-eq/m2 de pavimento)",
+    "co2_original_local": "Tabela 8 p.10 (linha Ready-mixed concrete, coluna ORC); Tabela 7 p.11 (0,28 m3/m2); area 13.487 m2 no texto p.6; total Tabela 5 p.8",
+    "co2_conversao": "1.631.735 kg / (0,28 m3/m2 x 13.487 m2 = 3.776,36 m3) = 432,0"
+   },
+   {
+    "sheet_row": 213,
+    "material": "betao fck=24 MPa, FPS (flat plate slab / laje fungiforme)",
+    "fck": 24,
+    "co2_kg_m3": 429.4,
+    "co2_original": "Ready-mixed concrete (FPS) 1.679.253 kg CO2 eq (fase E1); total do edificio 3.157.260 kg CO2-eq (234 kg CO2-eq/m2)",
+    "co2_original_local": "Tabela 8 (coluna FPS); Tabela 7 p.11 (0,29 m3/m2); area 13.487 m2 p.6; total Tabela 5 p.8",
+    "co2_conversao": "1.679.253 kg / (0,29 x 13.487 = 3.911,23 m3) = 429,4"
+   },
+   {
+    "sheet_row": 214,
+    "material": "betao fck=24 MPa, VDS (void deck slab / laje nervurada)",
+    "fck": 24,
+    "co2_kg_m3": 427,
+    "co2_original": "Ready-mixed concrete (VDS) 1.382.080 kg CO2 eq (fase E1); total do edificio 2.943.695 kg CO2-eq (218 kg CO2-eq/m2)",
+    "co2_original_local": "Tabela 8 (coluna VDS); Tabela 7 p.11 (0,24 m3/m2); area 13.487 m2 p.6; total Tabela 5 p.8",
+    "co2_conversao": "1.382.080 kg / (0,24 x 13.487 = 3.236,88 m3) = 427,0"
+   }
+  ]
+ },
+ {
+  "row_id": 2765,
+  "rotulo": "Pavlu et al., 2019",
+  "titulo": "Environmental Assessment of Two Use Cycles of Recycled Aggregate Concrete",
+  "pdf": "PAVLU et al., 2019.pdf",
+  "fileId": "1h7V5ajLu8aRCVwpgTgCYE_o6u33eQcuC",
+  "pares": [
+   {
+    "sheet_row": 216,
+    "material": "NAC (betao de agregado natural), 2 ciclos de uso, Cenario 1",
+    "fck": 49.5,
+    "co2_kg_m3": 352.65,
+    "co2_original": "705,3 kg CO2-eq por 2 m3 de betao (Cenario 1 = 2 elementos NAC)",
+    "co2_original_local": "Tabela 8 p.13 (Environmental impacts per 2 m3), linha GWP, coluna Scenario 1",
+    "co2_conversao": "705,3 kg / 2 m3 = 352,65"
+   }
+  ]
+ },
+ {
+  "row_id": 2766,
+  "rotulo": "Pedroso et al., 2024",
+  "titulo": "Environmental and Economic LCA Comparison of Flexural Strengthening Solutions for a Reinforced Concrete Beam",
+  "pdf": "PEDROSO et al., 2024.pdf",
+  "fileId": "17azX49Oy6ByW6_fzNCX1Y8rSDUZtm_Ga",
+  "pares": [
+   {
+    "sheet_row": 220,
+    "material": "betao C25/30 existente + reforco por encamisamento de betao mantendo seccao (concrete jacketing, CJE)",
+    "fck": 25,
+    "co2_kg_m3": 477.4,
+    "co2_original": "Total CJE 21,4 kg CO2-eq por viga reforcada (A1-A3+A5, Tab.6); A1-A3 = 20,1 kg CO2 eq (Tab.3); fraccao C25/30 ~95% so em grafico (Fig.3)",
+    "co2_original_local": "Tabela 3 p.9 (A1-A3), Fig.3 p.11 (fraccao por material, leitura de grafico), Tabela 2 p.9 (volume 0,040 m3), Tabela 6 p.13 (total)",
+    "co2_conversao": "0,95 (leitura Fig.3) x 20,1 kg = 19,10 kg (A5 de electricidade excluida) / 0,040 m3 = 477,4 [VERIFICACAO 2026-09-26: OK; nota: fraccao 95% lida de grafico de barras em %, confianca baixa]"
+   },
+   {
+    "sheet_row": 221,
+    "material": "betao C25/30 existente + reforco por encamisamento de betao aumentando altura da seccao (concrete jacketing, CJI)",
+    "fck": 25,
+    "co2_kg_m3": 483.1,
+    "co2_original": "Total CJI 42,6 kg CO2-eq por viga reforcada (A1-A3+A5, Tab.6); A1-A3 = 40,6 kg CO2 eq (Tab.3); fraccao C25/30 ~94% so em grafico (Fig.4)",
+    "co2_original_local": "Tabela 3, Fig.4 p.12 (leitura de grafico), Tabela 2 (volume 0,079 m3), Tabela 6 p.13",
+    "co2_conversao": "0,94 (leitura Fig.4) x 40,6 kg = 38,16 kg / 0,079 m3 = 483,1 [VERIFICACAO 2026-09-26: OK; nota: fraccao 94% lida de grafico, confianca baixa]"
+   }
+  ]
+ },
+ {
+  "row_id": 2769,
+  "rotulo": "Pons et al., 2018",
+  "titulo": "Life cycle assessment of earth-retaining walls: An environmental comparison",
+  "pdf": "PONS et al., 2018 - j.jclepro.2018.04.268.pdf",
+  "fileId": "11fuMVYIcjJDWv5QokXoEjeopUfpxVJG4",
+  "pares": [
+   {
+    "sheet_row": 700,
+    "material": "Concreto para muro de contencao tipo cantilever (consola) - ACV comparativa de muros de 4m altura",
+    "fck": 25,
+    "co2_kg_m3": 521.5,
+    "co2_original": "907.43 kg CO2 eq por metro linear de muro de 4 m (media Monte Carlo, ciclo de vida completo, liquido de carbonatacao)",
+    "co2_original_local": "Tabela 2 (p.24), GWP, Cantilever wall mean",
+    "co2_conversao": "907.43 / 1.74 m3 de betao por m linear (Tabela 1, 4 m) = 521.5 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 701,
+    "material": "Concreto para muro de contencao tipo gravidade - ACV comparativa de muros de 4m altura",
+    "fck": 25,
+    "co2_kg_m3": 213.7,
+    "co2_original": "1025.58 kg CO2 eq por metro linear de muro de 4 m (liquido de carbonatacao)",
+    "co2_original_local": "Tabela 2 (p.24), GWP, Gravity wall mean",
+    "co2_conversao": "1025.58 / 4.8 m3 (Tabela 1, 4 m) = 213.7 [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 2771,
+  "rotulo": "Pujadas-Gispert et al., 2021",
+  "titulo": "Environmental and Economic Optimization of a Conventional Concrete Building Foundation: Selecting the Best of 28 Alternatives by Applying the Pareto Front",
+  "pdf": "PUJADAS-GISPERT et al., 2021.pdf",
+  "fileId": "1jpd6SujZnTTPpuOcfbLM3j0GtYKClu5b",
+  "pares": [
+   {
+    "sheet_row": 222,
+    "material": "betao de fundacao, Alternativa 11 (estacas V305 classe C20/25 + vigas de fundacao pre-fabricadas P3.400 classe C40/50) -- sistema misto de duas classes",
+    "fck": 20,
+    "co2_kg_m3": 672,
+    "co2_original": "43.700 kg CO2eq total (Alternativa 11, rotulo lido na Fig.13 Pareto GWP)",
+    "co2_original_local": "Fig.13 p.15 (GWP); Tabela 4 p.10-11 (volume de betao 65 m3)",
+    "co2_conversao": "43.700 kg / 65 m3 = 672,3 [VERIFICACAO 2026-09-26: OK; nota: valor lido de figura; sistema misto estaca C20/25 + viga C40/50; nao e claro se 65 m3 cobre estaca+viga]"
+   }
+  ]
+ },
+ {
+  "row_id": 2782,
+  "rotulo": "Sameer et al., 2020",
+  "titulo": "Product Resource and Climate Footprint Analysis during Architectural Design in BIM",
+  "pdf": "SAMEER et al., 2020.pdf",
+  "fileId": "1xowydv3tbv9yzgrvISwx2_MQHj1JhIbN",
+  "pares": [
+   {
+    "sheet_row": 702,
+    "material": "RC-concrete C25/30 com agregado reciclado 35% - parede exterior subterranea (edificio Korbach, Alemanha)",
+    "fck": 25,
+    "co2_kg_m3": 134.9,
+    "co2_original": "~33,7 kg CO2 eq/m2 de parede (segmento \"RC-concrete with CEM III 42.5\" da barra E2)",
+    "co2_original_local": "Fig.2c (p.5), barras empilhadas, eixo \"kg CO2 eq./m2\" 0-300 com grelha de 50; leitura por pixel a 400 dpi (escala 1,987 px/unidade)",
+    "co2_conversao": "33,7 kg/m2 / 0,250 m (espessura impressa na Tabela 1) = 134.9 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 1887,
+    "material": "Betao convencional C25/30, parede exterior enterrada E1 (250 mm), so a camada de betao",
+    "fck": 25,
+    "co2_kg_m3": 230.5,
+    "co2_original": "~57,6 kg CO2 eq/m2 (segmento \"Concrete C25/30\" da barra E1)",
+    "co2_original_local": "Fig.2c (p.5), barras empilhadas, eixo \"kg CO2 eq./m2\" 0-300 com grelha de 50; leitura por pixel a 400 dpi (escala 1,987 px/unidade)",
+    "co2_conversao": "57,6 / 0,250 = 230.5 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 1888,
+    "material": "RC-concrete C25/30 CEM III 42.5 com 35% agregado reciclado, fundacao F2 (250 mm), so a camada de betao",
+    "fck": 25,
+    "co2_kg_m3": 137.9,
+    "co2_original": "~34,5 kg CO2 eq/m2 (segmento RC-concrete CEM III da barra F2)",
+    "co2_original_local": "Fig.2c (p.5), barras empilhadas, eixo \"kg CO2 eq./m2\" 0-300 com grelha de 50; leitura por pixel a 400 dpi (escala 1,987 px/unidade)",
+    "co2_conversao": "34,5 / 0,250 = 137.9 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 1889,
+    "material": "Betao convencional C25/30, laje C1 (280 mm), so a camada de betao",
+    "fck": 25,
+    "co2_kg_m3": 232.8,
+    "co2_original": "~65,2 kg CO2 eq/m2 (segmento Concrete C25/30 da barra C1)",
+    "co2_original_local": "Fig.2c (p.5), barras empilhadas, eixo \"kg CO2 eq./m2\" 0-300 com grelha de 50; leitura por pixel a 400 dpi (escala 1,987 px/unidade)",
+    "co2_conversao": "65,2 / 0,280 = 232.8 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   },
+   {
+    "sheet_row": 1890,
+    "material": "RC-concrete C25/30 com CEM II 42.5 e 45% agregado reciclado, laje C2 (280 mm), so a camada de betao",
+    "fck": 25,
+    "co2_kg_m3": 238.2,
+    "co2_original": "~66,7 kg CO2 eq/m2 (segmento RC-concrete CEM II da barra C2)",
+    "co2_original_local": "Fig.2c (p.5), barras empilhadas, eixo \"kg CO2 eq./m2\" 0-300 com grelha de 50; leitura por pixel a 400 dpi (escala 1,987 px/unidade)",
+    "co2_conversao": "66,7 / 0,280 = 238.2 [REVISAO 2026-09-27, leitura integral; confianca baixa]"
+   }
+  ]
+ },
+ {
+  "row_id": 2785,
+  "rotulo": "Sanchez-Pantoja et al., 2023",
+  "titulo": "Parameterized environmental impacts of ready-mixed concrete in Spain",
+  "pdf": "SANCHEZ-PANTOJA et al., 2023.pdf",
+  "fileId": "1OFYcWk6EitQJofuhb6R3wmXEjObZqEix",
+  "pares": [
+   {
+    "sheet_row": 226,
+    "material": "betao pronto parametrizado (1.505 combinacoes da base de dados IVE 2020, Espanha)",
+    "fck": 35,
+    "co2_kg_m3": 494,
+    "co2_original": "494 kg CO2-eq/m3 (maximo da Tabela 8; minimos 239-253 tambem impressos)",
+    "co2_original_local": "p.35 do ficheiro, Tabela 8, GWP kg CO2 eq/m3: 4.94x10^2 (maximo), 2.53x10^2 e 2.39x10^2 (minimos)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 2786,
+  "rotulo": "Sandagomika et al., 2024",
+  "titulo": "Hybrid Life Cycle Assessment (LCA) of prefabrication: A comparison of conventional and mixed reality-based solutions",
+  "pdf": "SANDAGOMIKA et al., 2024.pdf",
+  "fileId": "19oI44RQ6Bs8w2V7AY_Pti8KWgfmOrupk",
+  "pares": [
+   {
+    "sheet_row": 227,
+    "material": "betao pre-fabricado 40 MPa com 30% cinza volante (inventario AusLCI), processo convencional",
+    "fck": 40,
+    "co2_kg_m3": 248.95,
+    "co2_original": "248.95 kg CO2-eq/m3 (processo convencional); processo com realidade mista=231.39 kg CO2-eq/m3, mesmo material de betao",
+    "co2_original_local": "p.7, Tabela 1, linha Global warming (kg CO2 eq), coluna convencional; alternativa MR-enabled na mesma linha",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]

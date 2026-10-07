@@ -1,0 +1,398 @@
+[
+ {
+  "row_id": 3399,
+  "pares": [
+   {
+    "sheet_row": 407,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 257,
+    "co2_com_desconto": 174.8,
+    "citacao": "Liquido: texto p.9 (impressa 9) 'mean values of 174.8 and 144.8 kg CO2e per m3' = net (cradle-to-gate + carbonatacao B1/C4). Bruto: Fig.5 (p.8), boxplot 'Cradle-to-Gate Impacts' No FA, mediana lida por pixel ~257 kg CO2e/m3 (+-3); carbonatacao Fig.5 ~-85. Conferencia com numeros impressos: Tab.2 carbonatacao mediana 297,8 kg/t cimento x 288 kg cimento (Tab.3) = 85,8 -> 174,8 + 85,8 = 260,6.",
+    "derivado": "sim",
+    "nota": "Bruto so existe em figura (boxplot, medianas); o liquido gravado e media de Monte Carlo — mistura de mediana e media, diferenca de poucos kg. Fronteira A1-A3 + B1 + C4 (carbonatacao). O artigo nao imprime o valor cradle-to-gate da mistura 1a como numero."
+   },
+   {
+    "sheet_row": 408,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 220,
+    "co2_com_desconto": 144.8,
+    "citacao": "Liquido: texto p.9 '144.8 kg CO2e per m3'. Bruto: Fig.5 (p.8) 'Cradle-to-Gate Impacts' 20% FA, mediana lida por pixel ~220 kg CO2e/m3 (+-3); carbonatacao Fig.5 ~-79 (mediana).",
+    "derivado": "sim",
+    "nota": "Para a 1b nao ha conta com numeros impressos (a carbonatacao da cinza depende do CaO, distribuicao triangular 1-40%); bruto so por leitura de figura. Mesma ressalva mediana vs media."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-12 + Tab.4); lista de referencias so pesquisada por termos. PDF descarregado e Fig.5 (p.8) renderizada a 400 dpi para leitura por pixel.",
+  "notas": "Valor gravado e o LIQUIDO (inclui carbonatacao em uso e fim de vida). Os 174,8/144,8 sao 'net embodied carbon'. Cradle-to-gate (bruto) ~257/~220 so por leitura de figura."
+ },
+ {
+  "row_id": 3403,
+  "pares": [
+   {
+    "sheet_row": 984,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 232,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 (p.7): C30/37 GWP 232 kgCO2eq/m3, EPD InformationsZentrum Beton (Becke et al. 2014), cradle-to-gate A1-A3.",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 985,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 335,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 (p.7): C50/60 335 kgCO2eq/m3, cradle-to-gate.",
+    "derivado": "nao",
+    "nota": ""
+   },
+   {
+    "sheet_row": 986,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 431,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 (p.7): C70/85 431 kgCO2eq/m3 (extrapolado pelos autores), cradle-to-gate.",
+    "derivado": "nao",
+    "nota": "Valor extrapolado pelo artigo a partir das EPD de C20/25-C50/60 (nota b da Tab.3)."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-11, ate ao inicio das referencias); referencias so pesquisadas por termos.",
+  "notas": "ACV cradle-to-gate (A1-A3), uso e fim de vida excluidos (sec.2.1). O unico credito do artigo e a reciclagem de 85% do ACO (Fig.14, comparacao das pontes, sec.3.2.4 e 4.2.3) — nao se aplica ao betao. Os valores por m3 de betao nao tem credito."
+ },
+ {
+  "row_id": 3404,
+  "pares": [
+   {
+    "sheet_row": 987,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 190.6,
+    "co2_com_desconto": null,
+    "citacao": "Fig.5/Fig.6 (p.7), painel Climate change, cenario base EU NaOH/Ecoinvent; leitura por pixel ja gravada (S1 = 100%).",
+    "derivado": "sim",
+    "nota": "Fig.4 (p.6) confirma: todas as contribuicoes positivas, sem barra negativa. Indicador 'climate change (excluding biogenic carbon)', ReCiPe 2016 em GaBi."
+   },
+   {
+    "sheet_row": 988,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 174.2,
+    "co2_com_desconto": null,
+    "citacao": "Fig.5 (p.7): S2 = 92% de S1.",
+    "derivado": "sim",
+    "nota": ""
+   },
+   {
+    "sheet_row": 989,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 72.4,
+    "co2_com_desconto": null,
+    "citacao": "Fig.5 (p.7): S3 = 38% de S1; texto p.5 '62% lower emissions'.",
+    "derivado": "sim",
+    "nota": ""
+   },
+   {
+    "sheet_row": 990,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 72.4,
+    "co2_com_desconto": null,
+    "citacao": "Fig.5 (p.7): S4 = 38% de S1.",
+    "derivado": "sim",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-10, ate as referencias); referencias pesquisadas por termos. PDF descarregado e pp.6-7 (Figs.4-6) renderizadas.",
+  "notas": "Cradle-to-gate; WG, RHA, CFA e GBFS entram como residuos sem carga (cut-off), so com o tratamento. A frase 'avoided burden gained from using waste materials' (p.6) refere-se a essa entrada sem carga, nao a um credito subtraido: nenhuma contribuicao negativa nas figuras. Sem descontos."
+ },
+ {
+  "row_id": 3413,
+  "pares": [
+   {
+    "sheet_row": 993,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 535.8,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 (p.6): OPC total 535,80 kg CO2 eq/m3 (cimento 515,65 + areia 20,05 + agua 0,10).",
+    "derivado": "nao",
+    "nota": "A mistura OPC nao tem credito; o artigo aplica 'avoided product' so as misturas com escoria/cinza."
+   },
+   {
+    "sheet_row": 994,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 109.63,
+    "co2_com_desconto": -406.02,
+    "citacao": "Tab.4 (p.6) e Tab.3 (p.4): escoria modelada como 'Cement, Portland ... (as avoided product)' = -515,65. Bruto = areia 20,05 + agua 0,06 + NaOH 23,74 + Na2SiO3 65,78 = 109,63; liquido = 109,63 - 515,65 = -406,02.",
+    "derivado": "sim",
+    "nota": "ERRO GRAVE no gravado: -406,02 nao e o CO2 da argamassa; e dominado pelo credito de cimento evitado (585,94 kg de cimento 'evitado' por usar escoria). O CO2 de produzir a argamassa e 109,63 kg/m3."
+   },
+   {
+    "sheet_row": 995,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 138.64,
+    "co2_com_desconto": -253.26,
+    "citacao": "Tab.4 (p.6): cimento 97,97 + areia 20,05 + agua 0,09 + Na2SO4 20,53 = 138,64; escoria como cimento evitado -391,90 -> -253,26.",
+    "derivado": "sim",
+    "nota": "ERRO GRAVE: gravado negativo por credito de 445,31 kg de cimento evitado. Bruto 138,64."
+   },
+   {
+    "sheet_row": 996,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 138.63,
+    "co2_com_desconto": -253.27,
+    "citacao": "Tab.4 (p.6): cimento 97,97 + areia 20,05 + agua 0,08 + Na2SO4 20,53 = 138,63; cinza volante como cimento evitado -391,90 -> -253,27.",
+    "derivado": "sim",
+    "nota": "ERRO GRAVE: gravado negativo por credito de cimento evitado. Bruto 138,63. Nota: na Tab.3 a linha 'Fly ash ... (as avoided product)' aparece com sinal positivo (0.88), mas a Tab.4 aplica -391,90 — gralha da Tab.3."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (todas as paginas ate as referencias, incluindo Tab.1-4); referencias pesquisadas por termos.",
+  "notas": "Abordagem 'consequencial': escoria e cinza volante modeladas como produto evitado (cimento Portland Ecoinvent, -0,88 kg CO2/kg). Os tres valores negativos gravados sao liquidos e nao representam o CO2 de producao. Recomenda-se usar o bruto (109,63 / 138,64 / 138,63) no grafico."
+ },
+ {
+  "row_id": 3416,
+  "pares": [
+   {
+    "sheet_row": 997,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 469.7987,
+    "co2_com_desconto": null,
+    "citacao": "Sec.5.2.1 (p.10): SHCC 70 kg CO2 por viga (0,149 m3) -> 469,80; fatores Tab.8 (p.10).",
+    "derivado": "sim",
+    "nota": "Conta ja gravada (70/0,149)."
+   },
+   {
+    "sheet_row": 998,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 370.3704,
+    "co2_com_desconto": null,
+    "citacao": "Sec.5.2.1 (p.10): betao 60 kg / 0,162 m3 = 370,37. Conferencia com Tab.7 + Tab.8: 440x0,83 + 700x0,001 + 1050x0,002 + 167,2x0,001 + 4,4x0,72 = 371,3.",
+    "derivado": "sim",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-12 ate as referencias); referencias pesquisadas por termos.",
+  "notas": "Pegada = soma ingrediente x fator (Tab.8), manufactura e transporte; RCP com fator 0,004 kg/kg (sem credito). Sem descontos de nenhum tipo."
+ },
+ {
+  "row_id": 3419,
+  "pares": [
+   {
+    "sheet_row": 1001,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 446,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 (p.8): Control, GWP100a 4,46E+02 kg CO2-eq/m3.",
+    "derivado": "nao",
+    "nota": "Sec.3.1.9: carbonatacao e sequestro considerados desprezaveis; fim de vida (aterro) fora da fronteira (sec.3.1.1)."
+   },
+   {
+    "sheet_row": 1002,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 398,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 (p.8): coluna 'Plastic savings', GWP 3,98E+02 (-10,74%).",
+    "derivado": "nao",
+    "nota": "Nenhum credito declarado (Fig.1 da fronteira sem aterro evitado), mas a reducao de 48 kg CO2/m3 por trocar 10% em volume da areia (~73 kg de areia) por plastico nao se explica pelos fatores normais da areia (~1 kg CO2); o artigo nao explica o mecanismo (Eq.6 usa um fator eef_mu do residuo nao impresso). Pode haver um credito implicito nao declarado — tratar com cautela."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-10 ate as referencias); referencias pesquisadas por termos. PDF descarregado; pp.4 (Fig.1, fronteira) e 9 (Fig.4) renderizadas.",
+  "notas": "Cradle-to-gate; carbonatacao e sequestro explicitamente desprezados. Sem descontos declarados. Ver nota da linha 1002."
+ },
+ {
+  "row_id": 3424,
+  "pares": [
+   {
+    "sheet_row": 1004,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 532.5,
+    "co2_com_desconto": null,
+    "citacao": "Fig.8 (p.9), painel GWP, Wall_Ref_M1_50 ~1,64x10^4 kg (pixel), / 30,8 m3.",
+    "derivado": "sim",
+    "nota": "Fronteira A1-B7 (sec.4.1); fim de vida e modulo D explicitamente excluidos; Ecoinvent APOS. Fig.8 sem segmentos negativos (verificado em recorte a 350 dpi)."
+   },
+   {
+    "sheet_row": 1005,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 526,
+    "co2_com_desconto": null,
+    "citacao": "Fig.8 (p.9), Wall_SAP_M1_50 ~1,62x10^4 kg (pixel), / 30,8 m3.",
+    "derivado": "sim",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-14 incluindo Tab.1-19, ate as referencias); referencias pesquisadas por termos. PDF descarregado e Fig.8 renderizada.",
+  "notas": "Sem creditos: a tabela EN 15804 (Tab.3) lista o modulo D mas o estudo nao o inclui. Os totais incluem armadura e reparacoes (familia concreto_armado, ja anotado)."
+ },
+ {
+  "row_id": 3439,
+  "pares": [
+   {
+    "sheet_row": 1006,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 400,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 (p.10): GWP de 1 m3 de betao impresso 35 MPa (fase de materiais).",
+    "derivado": "sim",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1007,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 979,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 (p.10): 78 MPa impresso.",
+    "derivado": "sim",
+    "nota": ""
+   },
+   {
+    "sheet_row": 1999,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 361,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 (p.10): ready-mix 35 MPa (EPD CalPortland).",
+    "derivado": "sim",
+    "nota": ""
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-15 incluindo Tabelas 1-8 e Apendice A); referencias pesquisadas por termos.",
+  "notas": "O artigo aplica creditos de reciclagem no FIM DE VIDA ao nivel da torre (sec.3.3, 'credit buyback'; sobretudo aco reciclado como sucata; o betao britado nao gera credito no cenario base), mas o fim de vida das torres de betao e liquido POSITIVO (Tab.6: +14.207 / +7.290 / +10.401 kg) e nao e separavel por m3. Os valores da Fig.7 sao so producao de material (sem credito)."
+ },
+ {
+  "row_id": 3443,
+  "pares": [
+   {
+    "sheet_row": 1009,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 279.21,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 (p.3): fator unitario 279,21 kg CO2/m3 (ITEC BEDEC 2016). Carbonatacao: Eq.(1) E = sum(e_i m_i) - CCO2, Eq.(2) e Fig.2 (p.4).",
+    "derivado": "nao",
+    "nota": "A captura por carbonatacao e subtraida so ao nivel da estrutura (depende da area exposta e da vida util); o artigo nao da valor por m3 nem por classe de betao, logo nao ha co2_com_desconto na mesma base."
+   },
+   {
+    "sheet_row": 1010,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 305.96,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 (p.3).",
+    "derivado": "nao",
+    "nota": "Idem."
+   },
+   {
+    "sheet_row": 1011,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 307.06,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 (p.3).",
+    "derivado": "nao",
+    "nota": "Idem."
+   },
+   {
+    "sheet_row": 1012,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 307.06,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 (p.3).",
+    "derivado": "nao",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-12 ate as referencias); referencias pesquisadas por termos.",
+  "notas": "Fatores unitarios brutos (A1-A3 + actividades). A carbonatacao e um credito ao nivel do edificio (Eq.2: k, cimento c, CaO 0,65, pc 0,75, area exposta, M 0,79), nao convertivel por m3 com os numeros impressos."
+ },
+ {
+  "row_id": 3449,
+  "pares": [
+   {
+    "sheet_row": 1013,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 372.2,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 (p.14): 3 m convencional 67 kgCO2e/m2 / 0,18 m.",
+    "derivado": "sim",
+    "nota": "Sem creditos (cut-off, Fig.3). ATENCAO fronteira: o cenario convencional inclui A1-A5 E o fim de vida (C1-4) do material equivalente da estrutura doadora que nao e reutilizado (sec.2.4.2) — uma carga adicionada, nao desconto; fator de eliminacao 0,013 kg/kg (Apendice), ~30 kg/m3. Inclui armadura e cofragem."
+   },
+   {
+    "sheet_row": 2000,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 370,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 (p.14): 6 m convencional 74 kgCO2e/m2 / 0,20 m.",
+    "derivado": "sim",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": "Texto integral lido linha a linha (pp.1-17 incluindo Tab.1-2 e Apendice); referencias pesquisadas por termos.",
+  "notas": "Cut-off, sem creditos nem carbonatacao. Fronteira do convencional inclui a eliminacao do material doador nao reutilizado (C1-4), que acrescenta e nao subtrai."
+ }
+]

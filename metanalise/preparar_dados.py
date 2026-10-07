@@ -22,7 +22,7 @@ spec.loader.exec_module(mexp)
 SAIDA = 'metanalise/dados_metanalise.csv'
 COLS = ['obs_id', 'estudo', 'rotulo', 'material', 'fck', 'co2_kg_m3', 'ci', 'estrato', 'familia', 'base_portland',
         'idade_dias', 'vol_m3', 'ci_mpa', 'vida_util', 'ic_fck_valor', 'ic_fck_tipo', 'ic_fck_n',
-        'ic_co2_valor', 'ic_co2_tipo', 'ic_co2_n']
+        'ic_co2_valor', 'ic_co2_tipo', 'ic_co2_n', 'co2_com_desconto', 'ci_com_desconto', 'sem_bruto']
 
 
 def main():
@@ -53,6 +53,10 @@ def main():
             'ci_mpa': ci_mpa, 'vida_util': vida,
             'ic_fck_valor': mexp.tofloat(g(26)), 'ic_fck_tipo': g(27), 'ic_fck_n': mexp.tofloat(g(28)),
             'ic_co2_valor': mexp.tofloat(g(30)), 'ic_co2_tipo': g(31), 'ic_co2_n': mexp.tofloat(g(32)),
+            # 2026-10-07: cenario com desconto (col 44; vazio = sem desconto declarado -> igual ao bruto)
+            'co2_com_desconto': mexp.tofloat(g(44)) if mexp.tofloat(g(44)) is not None else co2m3,
+            'ci_com_desconto': (mexp.tofloat(g(44)) if mexp.tofloat(g(44)) is not None else co2m3) / fck,
+            'sem_bruto': 1 if str(g(47) or '') == 'nao' else 0,
         })
     os.makedirs('metanalise', exist_ok=True)
     with open(SAIDA, 'w', newline='', encoding='utf-8') as f:

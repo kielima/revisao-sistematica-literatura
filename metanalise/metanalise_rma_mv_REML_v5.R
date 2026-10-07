@@ -105,6 +105,12 @@ for (k in c(0.05, 0.10, 0.15)) {                 # A5
   res <- rbind(res, resumo(sprintf("principal, CV assumido %d%% (A5)", round(100 * k)),
                            ajusta(princ, cv_assumido = k), princ))
 }
+# F1 (2026-10-07): cenario com os descontos que o proprio artigo declara (carga evitada, carbonatacao,
+# biogenico, modulo D) e cenario so com pares que publicam o bruto
+comd <- princ; comd$yi <- comd$ci_com_desconto
+res <- rbind(res, resumo("principal, CO2 com desconto (F1)", ajusta(comd, yi = "ci_com_desconto"), comd))
+sob <- subset(princ, sem_bruto == 0)
+res <- rbind(res, resumo("principal, so pares com CO2 bruto publicado (F1)", ajusta(sob), sob))
 port <- subset(princ, base_portland == "sim")
 res <- rbind(res, resumo("principal, so cimento Portland", ajusta(port), port))
 

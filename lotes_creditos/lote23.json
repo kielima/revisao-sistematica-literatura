@@ -1,0 +1,479 @@
+[
+ {
+  "row_id": 3727,
+  "rotulo": "Van Roijen et al., 2025",
+  "titulo": "Dynamic Accounting of Carbon Uptake in the Built Environment",
+  "pdf": "VAN ROIJEN, 2025.pdf",
+  "fileId": "1PKP5cMuQW68zATjw7ph61Q4OQe_1y0gy",
+  "pares": [
+   {
+    "sheet_row": 1082,
+    "material": "Concreto (mistura baseline, sem SCMs, comparada com CLT)",
+    "fck": 25,
+    "co2_kg_m3": 334,
+    "co2_original": "334 kg CO2e/m3 (GWP100 tradicional, IPCC AR5, 100 anos; funcional unit=1m3 concreto)",
+    "co2_original_local": "p.7, texto: 'if conventional GWP100 characterization factors are applied (as are conventionally used in reporting practices, e.g., Environmental Product Declarations), the cumulative life-cycle GHG emissions are 334 kg CO2e/m3'",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3731,
+  "rotulo": "Baykara et al., 2024",
+  "titulo": "Chitosan-Cement Composite Mortars: Exploring Interactions, Structural Evolution, Environmental Footprint and Mechanical Performance",
+  "pdf": "BAYKARA, 2024.pdf",
+  "fileId": "1XK6bhAM_GwuEhzSc248mL-qmAs2a3xQQ",
+  "pares": [
+   {
+    "sheet_row": 1083,
+    "material": "Argamassa de cimento com chitosan (cimento HE + areia Ottawa) - mistura controle C0/G0",
+    "fck": 40,
+    "co2_kg_m3": 609,
+    "co2_original": "609 [PARC. DERIVADO] kg CO2 eq/m3 (climate change/GWP, mistura controle C0='G0'; calculado como 670/1.10 a partir do texto do proprio artigo)",
+    "co2_original_local": "p.6-7, texto e Fig.7: faixa 610-670 kg CO2 eq/m3 para as 6 misturas; 'In contrast, our highest score (670 kg CO2 eq) was only ~10% higher than the reference (G0)' — valor do controle derivado dessa comparacao percentual explicita",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3732,
+  "rotulo": "Cunningham et al., 2021",
+  "titulo": "Effects of Leaching Method and Ashing Temperature of Rice Residues for Energy Production and Construction Materials",
+  "pdf": "CUNNINGHAM, 2021.pdf",
+  "fileId": "1s9tGS9MCxxC8m7q54dBJbeUM_TQQ0tyS",
+  "pares": [
+   {
+    "sheet_row": 1084,
+    "material": "argamassa de controlo 100% cimento Portland tipo II/V (PC-Control)",
+    "fck": 38.2,
+    "co2_kg_m3": 543,
+    "co2_original": "Absoluto nao impresso: razao 14,20 kg CO2eq/(m3.MPa) do PC-Control lida na Fig.3; barra PC da Fig.2c ~540 kg CO2eq/m3",
+    "co2_original_local": "Fig.3 p.3684 (geometria vetorial) e Fig.2c",
+    "co2_conversao": "14,20 x fck 28 d 38,2 MPa = 542,4 ~ 543 (leitura de figura)"
+   },
+   {
+    "sheet_row": 1864,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de palha de arroz sem lixiviacao, 600C (S-U-600)",
+    "fck": 37.1,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1865,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de palha de arroz sem lixiviacao, 850C (S-U-850)",
+    "fck": 29.6,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1866,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de palha de arroz sem lixiviacao, 1100C (S-U-1100)",
+    "fck": 31.6,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1867,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com agua, 600C (S-W-600)",
+    "fck": 28.3,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1868,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com agua, 850C (S-W-850)",
+    "fck": 27,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1869,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com agua, 1100C (S-W-1100)",
+    "fck": 25.9,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1870,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com H3PO4, 600C (S-A-600)",
+    "fck": 22.2,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1871,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de palha de arroz lixiviada com H3PO4, 850C (S-A-850)",
+    "fck": 31.4,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1872,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de casca de arroz sem lixiviacao, 600C (H-U-600)",
+    "fck": 34.2,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1873,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de casca de arroz sem lixiviacao, 850C (H-U-850)",
+    "fck": 27.2,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1874,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de casca de arroz sem lixiviacao, 1100C (H-U-1100)",
+    "fck": 29.2,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1875,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de casca de arroz lixiviada com agua, 600C (H-W-600)",
+    "fck": 31.4,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1876,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de casca de arroz lixiviada com agua, 850C (H-W-850)",
+    "fck": 27.7,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1877,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de casca de arroz lixiviada com agua, 1100C (H-W-1100)",
+    "fck": 23.5,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1878,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de casca de arroz lixiviada com H3PO4, 600C (H-A-600)",
+    "fck": 34.5,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1879,
+    "material": "argamassa com 15% de substituicao do cimento por cinza de casca de arroz lixiviada com H3PO4, 850C (H-A-850)",
+    "fck": 27.7,
+    "co2_kg_m3": 469.8,
+    "co2_original": "469.8 kg CO2eq/m3 (GHG por m3 de argamassa, constante impressa para as misturas com cinza)",
+    "co2_original_local": "p.3684, texto e Fig.3: y = 469.8/x para bioash-cement mortars",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3752,
+  "rotulo": "Ro et al., 2024",
+  "titulo": "Technical, economic, and environmental feasibility of rice hull ash from electricity generation as a mineral additive to concrete",
+  "pdf": "RO et al., 2024.pdf",
+  "fileId": "1HYL7oPToyih5QBUf7jIYAoE4C7pMDOSJ",
+  "pares": [
+   {
+    "sheet_row": 1087,
+    "material": "Concreto com 100% cimento Portland (controle)",
+    "fck": 44,
+    "co2_kg_m3": 367.85,
+    "co2_original": "895 kg CO2 eq./tonne de cimento",
+    "co2_original_local": "Tabela 4, p.4; traco Tabela 7, p.7",
+    "co2_conversao": "895 kg/t x 0,411 t cimento/m3 (Tab.7) = 367,85 (so ligante) [REVISAO 2026-09-27, leitura integral; confianca media (fck lido de grafico; CO2 so do ligante)]"
+   },
+   {
+    "sheet_row": 1088,
+    "material": "Concreto com 15% cinza de casca de arroz (RHA) substituindo cimento",
+    "fck": 37.5,
+    "co2_kg_m3": 312.88,
+    "co2_original": "762 kg CO2 eq./tonne de ligante (PC, RHA 15%)",
+    "co2_original_local": "Tabela 4, p.4; traco Tabela 7",
+    "co2_conversao": "762 kg/t x (349+61,6=410,6 kg/m3) = 312,88 (so ligante) [REVISAO 2026-09-27, leitura integral; confianca media (fck lido de grafico; CO2 so do ligante)]"
+   }
+  ]
+ },
+ {
+  "row_id": 3758,
+  "rotulo": "Raveendran & Krishnan, 2025",
+  "titulo": "Engineering performance and environmental assessment of sustainable concrete incorporating nano silica and metakaolin as cementitious materials",
+  "pdf": "RAVEENDRAN, 2025.pdf",
+  "fileId": "1qMysv_otqbkwWJWMOPNiuNBkDSQZmx92",
+  "pares": [
+   {
+    "sheet_row": 493,
+    "material": "concreto controlo (CC, 100% OPC)",
+    "fck": 36.08,
+    "co2_kg_m3": 365.87,
+    "co2_original": "365.87 kg CO2/m3",
+    "co2_original_local": "Tabela 5, p.20 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 494,
+    "material": "concreto com 1% nano silica, aditivo (M1)",
+    "fck": 41,
+    "co2_kg_m3": 366.14,
+    "co2_original": "366.14 kg CO2/m3",
+    "co2_original_local": "Tabela 5, p.20 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 495,
+    "material": "concreto com 2% nano silica, aditivo (M2) - optimo NS",
+    "fck": 43.28,
+    "co2_kg_m3": 366.4,
+    "co2_original": "366.4 kg CO2/m3",
+    "co2_original_local": "Tabela 5, p.20 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 496,
+    "material": "concreto com 3% nano silica, aditivo (M3)",
+    "fck": 40,
+    "co2_kg_m3": 366.67,
+    "co2_original": "366.67 kg CO2/m3",
+    "co2_original_local": "Tabela 5, p.20 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 497,
+    "material": "concreto com 5% metacaulim, substituicao (M4)",
+    "fck": 38.5,
+    "co2_kg_m3": 356.35,
+    "co2_original": "356.35 kg CO2/m3",
+    "co2_original_local": "Tabela 5, p.20 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 498,
+    "material": "concreto com 12.5% metacaulim, substituicao (M5) - optimo MK",
+    "fck": 41.02,
+    "co2_kg_m3": 340.41,
+    "co2_original": "340.41 kg CO2/m3",
+    "co2_original_local": "Tabela 5, p.20 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 499,
+    "material": "concreto com 20% metacaulim, substituicao (M6)",
+    "fck": 33.64,
+    "co2_kg_m3": 330,
+    "co2_original": "330 kg CO2/m3",
+    "co2_original_local": "Tabela 5, p.20 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 500,
+    "material": "concreto hibrido 12.5% metacaulim + 2% nano silica (M7) - mistura otima geral",
+    "fck": 49.02,
+    "co2_kg_m3": 341.11,
+    "co2_original": "341.11 kg CO2/m3",
+    "co2_original_local": "Tabela 5, p.20 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3777,
+  "rotulo": "Xu et al., 2024",
+  "titulo": "Carbon emission calculation method of steel-concrete composite girder Bridge based on LCA: A case study of Yanchong Expressway (Hebei Section)",
+  "pdf": "XU, 2024 - e3sconf-202456102015.pdf",
+  "fileId": "1pQGqEvvdkK6flrkqSODVRLrOo-qPsfVV",
+  "pares": [
+   {
+    "sheet_row": 501,
+    "material": "concreto de cimento C20 usado na ponte (levantamento de quantitativos real do projeto)",
+    "fck": 20,
+    "co2_kg_m3": 228.76,
+    "co2_original": "228.76 kg CO2/m3",
+    "co2_original_local": "Tabela 1, p.4 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 502,
+    "material": "concreto de cimento C25 (cement-based) usado na ponte",
+    "fck": 25,
+    "co2_kg_m3": 250.76,
+    "co2_original": "250.76 kg CO2/m3",
+    "co2_original_local": "Tabela 1, p.4 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 503,
+    "material": "concreto de cimento C30 usado na ponte",
+    "fck": 30,
+    "co2_kg_m3": 280.03,
+    "co2_original": "280.03 kg CO2/m3",
+    "co2_original_local": "Tabela 1, p.4 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 504,
+    "material": "concreto de cimento C40 usado na ponte",
+    "fck": 40,
+    "co2_kg_m3": 280.07,
+    "co2_original": "280.07 kg CO2/m3",
+    "co2_original_local": "Tabela 1, p.4 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 505,
+    "material": "concreto de cimento C50 usado na ponte (elementos principais, incl. variantes com fibra de polipropileno)",
+    "fck": 50,
+    "co2_kg_m3": 371.66,
+    "co2_original": "371.66 kg CO2/m3",
+    "co2_original_local": "Tabela 1, p.4 (impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3786,
+  "rotulo": "Cunningham & Miller, 2020",
+  "titulo": "Quantitative Assessment of Alkali-Activated Materials: Environmental Impact and Property Assessments",
+  "pdf": "CUNNINGHAM, 2020d.pdf",
+  "fileId": "1WGKWQPsBuaWur2feCFlLRfF7cDjaRQrx",
+  "pares": [
+   {
+    "sheet_row": 1090,
+    "material": "Argamassa cimento Portland puro (Mix 1, sem substituicao)",
+    "fck": 24.18,
+    "co2_kg_m3": 697,
+    "co2_original": "~697 kg CO2-eq/m3 (leitura grafica de barra empilhada)",
+    "co2_original_local": "Fig.2, p.5 (eixo numerico 0-800 kg CO2-eq/m3, grelha de 200)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 de argamassa; valor lido do grafico por medicao de pixeis (0 e 800 nas linhas de grelha, ~1,95 kg/px), incerteza ~+/-10 kg [REVISAO 2026-09-27, leitura integral; confianca baixa (CO2 lido de grafico sem rotulo; fck impresso)]"
+   },
+   {
+    "sheet_row": 1091,
+    "material": "Argamassa cimento Portland + 33% escoria de alto-forno moida (GBS) (Mix 2, melhor resistencia entre as 7 misturas)",
+    "fck": 30.69,
+    "co2_kg_m3": 513,
+    "co2_original": "~513 kg CO2-eq/m3 (leitura grafica de barra empilhada)",
+    "co2_original_local": "Fig.2, p.5 (eixo numerico 0-800 kg CO2-eq/m3, grelha de 200)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 de argamassa; valor lido do grafico por medicao de pixeis (0 e 800 nas linhas de grelha, ~1,95 kg/px), incerteza ~+/-10 kg [REVISAO 2026-09-27, leitura integral; confianca baixa (CO2 lido de grafico sem rotulo; fck impresso)]"
+   },
+   {
+    "sheet_row": 1092,
+    "material": "Argamassa cimento Portland + 33% pozolana natural (NP) (Mix 3)",
+    "fck": 23.41,
+    "co2_kg_m3": 470,
+    "co2_original": "~470 kg CO2-eq/m3 (leitura grafica de barra empilhada)",
+    "co2_original_local": "Fig.2, p.5 (eixo numerico 0-800 kg CO2-eq/m3, grelha de 200)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 de argamassa; valor lido do grafico por medicao de pixeis (0 e 800 nas linhas de grelha, ~1,95 kg/px), incerteza ~+/-10 kg [REVISAO 2026-09-27, leitura integral; confianca baixa (CO2 lido de grafico sem rotulo; fck impresso)]"
+   },
+   {
+    "sheet_row": 1093,
+    "material": "Argamassa alcali-ativada (AAM, escoria+pozolana natural 1:1, ativador Na2CO3, Mix 5 - melhor AAM)",
+    "fck": 20.56,
+    "co2_kg_m3": 100,
+    "co2_original": "~100 kg CO2-eq/m3 (leitura grafica de barra empilhada)",
+    "co2_original_local": "Fig.2, p.5 (eixo numerico 0-800 kg CO2-eq/m3, grelha de 200)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 de argamassa; valor lido do grafico por medicao de pixeis (0 e 800 nas linhas de grelha, ~1,95 kg/px), incerteza ~+/-10 kg [REVISAO 2026-09-27, leitura integral; confianca baixa (CO2 lido de grafico sem rotulo; fck impresso)]"
+   },
+   {
+    "sheet_row": 2013,
+    "material": "argamassa 100% PC (Mix 1), cura 35C 3 dias + 25C (Condicao 2)",
+    "fck": 26.81,
+    "co2_kg_m3": 720,
+    "co2_original": "~720 kg CO2-eq/m3 (leitura grafica de barra empilhada)",
+    "co2_original_local": "Fig.2, p.5 (eixo numerico 0-800 kg CO2-eq/m3, grelha de 200)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 de argamassa; valor lido do grafico por medicao de pixeis (0 e 800 nas linhas de grelha, ~1,95 kg/px), incerteza ~+/-10 kg [REVISAO 2026-09-27, leitura integral; confianca baixa (CO2 lido de grafico sem rotulo; fck impresso)]"
+   },
+   {
+    "sheet_row": 2014,
+    "material": "argamassa PC + 33% escoria GBS (Mix 2), cura 35C 3 dias + 25C (Condicao 2)",
+    "fck": 26.41,
+    "co2_kg_m3": 537,
+    "co2_original": "~537 kg CO2-eq/m3 (leitura grafica de barra empilhada)",
+    "co2_original_local": "Fig.2, p.5 (eixo numerico 0-800 kg CO2-eq/m3, grelha de 200)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 de argamassa; valor lido do grafico por medicao de pixeis (0 e 800 nas linhas de grelha, ~1,95 kg/px), incerteza ~+/-10 kg [REVISAO 2026-09-27, leitura integral; confianca baixa (CO2 lido de grafico sem rotulo; fck impresso)]"
+   },
+   {
+    "sheet_row": 2015,
+    "material": "argamassa PC + 33% pozolana natural (Mix 3), cura 35C 3 dias + 25C (Condicao 2)",
+    "fck": 21.54,
+    "co2_kg_m3": 493,
+    "co2_original": "~493 kg CO2-eq/m3 (leitura grafica de barra empilhada)",
+    "co2_original_local": "Fig.2, p.5 (eixo numerico 0-800 kg CO2-eq/m3, grelha de 200)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 de argamassa; valor lido do grafico por medicao de pixeis (0 e 800 nas linhas de grelha, ~1,95 kg/px), incerteza ~+/-10 kg [REVISAO 2026-09-27, leitura integral; confianca baixa (CO2 lido de grafico sem rotulo; fck impresso)]"
+   }
+  ]
+ },
+ {
+  "row_id": 3802,
+  "rotulo": "Dehghani et al., 2024",
+  "titulo": "Ceramic waste powder as a cement replacement in concrete paving blocks: mechanical properties and environmental assessment",
+  "pdf": "DEHGHANI et al., 2024.pdf",
+  "fileId": "1liPvoudLPwDkhXXn7x7U_hv-4ME6p2Ag",
+  "pares": [
+   {
+    "sheet_row": 1096,
+    "material": "Blocos de pavimento prensados (CPB), mistura de referencia W22-R (0% CWP, w/c=0.22)",
+    "fck": 51.2,
+    "co2_kg_m3": 471.62,
+    "co2_original": "28,2969 kg CO2 eq/m2 de pavimento CPB (FU = 1 m2, 25 blocos; W22-R)",
+    "co2_original_local": "Tabela 5, p.22 (cenario 1), coluna Total, Climate change EN15804+A2",
+    "co2_conversao": "28,2969 kg/m2 / espessura do bloco 0,06 m = 471,62"
+   },
+   {
+    "sheet_row": 1097,
+    "material": "Blocos de pavimento prensados (CPB), W22-T20 (20% CWP substituindo cimento, w/c=0.22)",
+    "fck": 65.7,
+    "co2_kg_m3": 380.07,
+    "co2_original": "22,8042 kg CO2 eq/m2 de pavimento CPB (FU = 1 m2, 25 blocos; W22-T20)",
+    "co2_original_local": "Tabela 6, p.23 (cenario 2), coluna Total, Climate change EN15804+A2",
+    "co2_conversao": "22,8042 kg/m2 / espessura do bloco 0,06 m = 380,07"
+   }
+  ]
+ },
+ {
+  "row_id": 3817,
+  "rotulo": "Chen et al., 2023",
+  "titulo": "Comparison of the service life, life-cycle costs and assessment of hybrid and traditional reinforced concrete through a case study of bridge edge beams in Sweden",
+  "pdf": "CHEN, 2023i_1.pdf",
+  "fileId": "1j6x2nFbVQf7-92UKAGx2a-7hUD7vbzk6",
+  "pares": [
+   {
+    "sheet_row": 1102,
+    "material": "Concreto C40 para vigas de bordas de pontes (SFRC hibrido vs RC tradicional, Suecia)",
+    "fck": 40,
+    "co2_kg_m3": 388,
+    "co2_original": "388 kg CO2/m3",
+    "co2_original_local": "Tabela 4, p.10 (EPD A1-A3, produtor Svensk Betong)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]
