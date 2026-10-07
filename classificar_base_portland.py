@@ -57,7 +57,7 @@ MANUAL = {
     (5012, 'Concreto base cimento Portland vs'): ('sim', 'o valor gravado (286,37) e o do concreto tradicional CPII-Z'),
     (4027, 'Concreto OPC 50 MPa vs'): ('sim', 'o valor gravado (517) e o do concreto OPC; o geopolimero tem linha propria'),
     (4026, 'Concreto OPC 50 MPa vs'): ('nao', 'o valor gravado (364) e o do geopolimero (GPC, MU-hLCA)'),
-    (3099, 'geopolymer concrete auto-reparavel'): ('sim', 'o valor gravado (454,59) e o do OPCC de referencia'),
+    (3099, 'geopolymer concrete auto-reparavel'): ('nao', 'SHGPC (geopolimero); o valor gravado passou de 454,59 (OPCC) a 417,16 (SHGPC) em 2026-10-07'),
     (3225, 'argamassa de baixo carbono'): ('sim', 'o valor gravado (611,7) e o da argamassa PC'),
     (2966, 'Betao Portland Tipo I (C0-C100) e geopolimero'): ('misto', 'linha junta 8 tracos Portland e geopolimero num valor lido no grafico'),
     (3095, 'Ligantes puros'): ('misto', 'linha junta ligantes cimenticios e alcali-ativados (sem par valido)'),
