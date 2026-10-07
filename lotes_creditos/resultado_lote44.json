@@ -1,0 +1,295 @@
+[
+ {
+  "row_id": 5041,
+  "pares": [
+   {
+    "sheet_row": 51,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "indeterminado",
+    "co2_bruto": null,
+    "co2_com_desconto": null,
+    "citacao": "Gravado = (brita 3,13 + areia 2,32 + cimento 45,5 = 50,95 kg/m2, Fig.29 p.136) x 2078/471,4 = 224,6 kg/m3 (confere). Se a absorção (5%) estiver embutida na barra do cimento, bruto = (3,13+2,32+45,5/0,95) x 2078/471,4 = 235,2 kg/m3.",
+    "derivado": "sim",
+    "nota": "Sec.5.5.9 p.108-109: 'foi considerada a absorção de CO2 pela estrutura com o passar dos anos ... valor mínimo de absorção no período de 5% do CO2 emitido na fabricação do cimento'; Sec.7.3 p.135: 'nesta categoria de impacto foi considerada a absorção de CO2 pela estrutura'. O valor absoluto da absorção NÃO é impresso em lado nenhum (Fig.28 só mostra Distribuição 1,65 + Deposição 0,0012 + Estrutura 115 = ~117 kg/m2, sem barra negativa; Fig.29 materiais da C25: brita 3,13, areia 2,32, cimento 45,5, madeira 37,1, aço 26,9 = 115). Fim de vida: todo o betão para aterro, reciclagem do aço explicitamente NÃO considerada (p.111). Não se sabe em que barra da Fig.29 a absorção foi descontada (a soma das barras = total 'Estrutura' 115, logo está dentro de alguma; o mais plausível é o cimento, porque é 5% do CO2 do cimento). Por isso gravado_e indeterminado (provavelmente líquido); 235,2 é só hipótese."
+   },
+   {
+    "sheet_row": 52,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 661.0,
+    "co2_com_desconto": 648.6,
+    "citacao": "Quadro 8 p.122 (EDIP97 GWP C40 = 111 kg CO2-eq/m2 área estrutural, inclui absorção de CO2). Bruto estimado: absorção = 5% x CO2 do cimento; factor do cimento = 45,5 kg CO2/m2 / 71,3 kg cim/m2 (Fig.29 e Fig.13, C25) = 0,638 kg/kg; cimento C40 = 66.13 kg/m2 (Fig.13) -> absorção ~2.11 kg/m2; bruto = (111+2.11) x 2078 / 355.6 = 661.0 kg/m3.",
+    "derivado": "sim",
+    "nota": "Sec.5.5.9 p.108-109: 'foi considerada a absorção de CO2 pela estrutura com o passar dos anos ... valor mínimo de absorção no período de 5% do CO2 emitido na fabricação do cimento'; Sec.7.3 p.135: 'nesta categoria de impacto foi considerada a absorção de CO2 pela estrutura'. O valor absoluto da absorção NÃO é impresso em lado nenhum (Fig.28 só mostra Distribuição 1,65 + Deposição 0,0012 + Estrutura 115 = ~117 kg/m2, sem barra negativa; Fig.29 materiais da C25: brita 3,13, areia 2,32, cimento 45,5, madeira 37,1, aço 26,9 = 115). Fim de vida: todo o betão para aterro, reciclagem do aço explicitamente NÃO considerada (p.111). Bruto é ESTIMATIVA nossa (o artigo não imprime a absorção; Quadro 8 tem só 3 algarismos significativos, ±0,5 kg/m2, da mesma ordem da absorção ~2 kg/m2). Gravado continua a incluir aço, fôrmas de madeira, transporte e deposição (já sinalizado em co2_conversao)."
+   },
+   {
+    "sheet_row": 53,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 692.4,
+    "co2_com_desconto": 679.0,
+    "citacao": "Quadro 8 p.122 (EDIP97 GWP C50 = 114 kg CO2-eq/m2 área estrutural, inclui absorção de CO2). Bruto estimado: absorção = 5% x CO2 do cimento; factor do cimento = 45,5 kg CO2/m2 / 71,3 kg cim/m2 (Fig.29 e Fig.13, C25) = 0,638 kg/kg; cimento C50 = 70.73 kg/m2 (Fig.13) -> absorção ~2.26 kg/m2; bruto = (114+2.26) x 2078 / 348.9 = 692.4 kg/m3.",
+    "derivado": "sim",
+    "nota": "Sec.5.5.9 p.108-109: 'foi considerada a absorção de CO2 pela estrutura com o passar dos anos ... valor mínimo de absorção no período de 5% do CO2 emitido na fabricação do cimento'; Sec.7.3 p.135: 'nesta categoria de impacto foi considerada a absorção de CO2 pela estrutura'. O valor absoluto da absorção NÃO é impresso em lado nenhum (Fig.28 só mostra Distribuição 1,65 + Deposição 0,0012 + Estrutura 115 = ~117 kg/m2, sem barra negativa; Fig.29 materiais da C25: brita 3,13, areia 2,32, cimento 45,5, madeira 37,1, aço 26,9 = 115). Fim de vida: todo o betão para aterro, reciclagem do aço explicitamente NÃO considerada (p.111). Bruto é ESTIMATIVA nossa (o artigo não imprime a absorção; Quadro 8 tem só 3 algarismos significativos, ±0,5 kg/m2, da mesma ordem da absorção ~2 kg/m2). Gravado continua a incluir aço, fôrmas de madeira, transporte e deposição (já sinalizado em co2_conversao)."
+   },
+   {
+    "sheet_row": 2081,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 540.0,
+    "co2_com_desconto": 529.0,
+    "citacao": "Quadro 8 p.122 (EDIP97 GWP C30 = 120 kg CO2-eq/m2 área estrutural, inclui absorção de CO2). Bruto estimado: absorção = 5% x CO2 do cimento; factor do cimento = 45,5 kg CO2/m2 / 71,3 kg cim/m2 (Fig.29 e Fig.13, C25) = 0,638 kg/kg; cimento C30 = 78.2 kg/m2 (Fig.13) -> absorção ~2.5 kg/m2; bruto = (120+2.5) x 2078 / 471.4 = 540.0 kg/m3.",
+    "derivado": "sim",
+    "nota": "Sec.5.5.9 p.108-109: 'foi considerada a absorção de CO2 pela estrutura com o passar dos anos ... valor mínimo de absorção no período de 5% do CO2 emitido na fabricação do cimento'; Sec.7.3 p.135: 'nesta categoria de impacto foi considerada a absorção de CO2 pela estrutura'. O valor absoluto da absorção NÃO é impresso em lado nenhum (Fig.28 só mostra Distribuição 1,65 + Deposição 0,0012 + Estrutura 115 = ~117 kg/m2, sem barra negativa; Fig.29 materiais da C25: brita 3,13, areia 2,32, cimento 45,5, madeira 37,1, aço 26,9 = 115). Fim de vida: todo o betão para aterro, reciclagem do aço explicitamente NÃO considerada (p.111). Bruto é ESTIMATIVA nossa (o artigo não imprime a absorção; Quadro 8 tem só 3 algarismos significativos, ±0,5 kg/m2, da mesma ordem da absorção ~2 kg/m2). Gravado continua a incluir aço, fôrmas de madeira, transporte e deposição (já sinalizado em co2_conversao)."
+   },
+   {
+    "sheet_row": 2082,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 602.4,
+    "co2_com_desconto": 590.8,
+    "citacao": "Quadro 8 p.122 (EDIP97 GWP C35 = 114 kg CO2-eq/m2 área estrutural, inclui absorção de CO2). Bruto estimado: absorção = 5% x CO2 do cimento; factor do cimento = 45,5 kg CO2/m2 / 71,3 kg cim/m2 (Fig.29 e Fig.13, C25) = 0,638 kg/kg; cimento C35 = 70.3 kg/m2 (Fig.13) -> absorção ~2.24 kg/m2; bruto = (114+2.24) x 2078 / 401.0 = 602.4 kg/m3.",
+    "derivado": "sim",
+    "nota": "Sec.5.5.9 p.108-109: 'foi considerada a absorção de CO2 pela estrutura com o passar dos anos ... valor mínimo de absorção no período de 5% do CO2 emitido na fabricação do cimento'; Sec.7.3 p.135: 'nesta categoria de impacto foi considerada a absorção de CO2 pela estrutura'. O valor absoluto da absorção NÃO é impresso em lado nenhum (Fig.28 só mostra Distribuição 1,65 + Deposição 0,0012 + Estrutura 115 = ~117 kg/m2, sem barra negativa; Fig.29 materiais da C25: brita 3,13, areia 2,32, cimento 45,5, madeira 37,1, aço 26,9 = 115). Fim de vida: todo o betão para aterro, reciclagem do aço explicitamente NÃO considerada (p.111). Bruto é ESTIMATIVA nossa (o artigo não imprime a absorção; Quadro 8 tem só 3 algarismos significativos, ±0,5 kg/m2, da mesma ordem da absorção ~2 kg/m2). Gravado continua a incluir aço, fôrmas de madeira, transporte e deposição (já sinalizado em co2_conversao)."
+   },
+   {
+    "sheet_row": 2083,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 680.0,
+    "co2_com_desconto": 667.1,
+    "citacao": "Quadro 8 p.122 (EDIP97 GWP C45 = 112 kg CO2-eq/m2 área estrutural, inclui absorção de CO2). Bruto estimado: absorção = 5% x CO2 do cimento; factor do cimento = 45,5 kg CO2/m2 / 71,3 kg cim/m2 (Fig.29 e Fig.13, C25) = 0,638 kg/kg; cimento C45 = 68.04 kg/m2 (Fig.13) -> absorção ~2.17 kg/m2; bruto = (112+2.17) x 2078 / 348.9 = 680.0 kg/m3.",
+    "derivado": "sim",
+    "nota": "Sec.5.5.9 p.108-109: 'foi considerada a absorção de CO2 pela estrutura com o passar dos anos ... valor mínimo de absorção no período de 5% do CO2 emitido na fabricação do cimento'; Sec.7.3 p.135: 'nesta categoria de impacto foi considerada a absorção de CO2 pela estrutura'. O valor absoluto da absorção NÃO é impresso em lado nenhum (Fig.28 só mostra Distribuição 1,65 + Deposição 0,0012 + Estrutura 115 = ~117 kg/m2, sem barra negativa; Fig.29 materiais da C25: brita 3,13, areia 2,32, cimento 45,5, madeira 37,1, aço 26,9 = 115). Fim de vida: todo o betão para aterro, reciclagem do aço explicitamente NÃO considerada (p.111). Bruto é ESTIMATIVA nossa (o artigo não imprime a absorção; Quadro 8 tem só 3 algarismos significativos, ±0,5 kg/m2, da mesma ordem da absorção ~2 kg/m2). Gravado continua a incluir aço, fôrmas de madeira, transporte e deposição (já sinalizado em co2_conversao)."
+   }
+  ],
+  "texto_completo_lido": "read_file_content devolveu as 217 páginas completas (termina no Anexo 12.1). Lidos linha a linha: Cap.5 (p.93-113), Cap.6 (Quadros 2-7), Cap.7 até 7.4 incl. Quadro 8 e 7.3 Aquecimento global (Figs.27-29), Cap.8 e 8.1 (Quadros 12-18), Cap.10 considerações finais e Anexo 12.1. Caps.1-4 (revisão), 7.4-7.12 e 9 só pesquisados por termos (absor/carbonata/credit/sequestr/biogên/recicl/negativ/líquid). Figuras não renderizadas (valores das barras vêm no texto extraído).",
+  "notas": "Único artigo do lote com desconto aplicado ao gravado: absorção de CO2 por carbonatação (5% do CO2 do cimento) dentro do GWP do Quadro 8. ILCD (Quadro 17) dá 'excl/incl carbono biogénico' (C25 113 vs 116) — o biogénico vem da madeira das fôrmas, não é crédito aplicado ao betão; não usado."
+ },
+ {
+  "row_id": 5050,
+  "pares": [
+   {
+    "sheet_row": 62,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 267,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 16 p.78 (factor EPD Votorantim 267 kg CO2-eq/m3, Apêndice A p.116); fronteira Fig.14/15 p.59-60: 'Fase além dos limites do sistema: potencial de reuso/recuperação/reciclagem' excluída; fim de vida = demolição + transporte para aterro.",
+    "derivado": "nao",
+    "nota": "Factor de EPD berço-ao-portão sem crédito. Nenhuma carbonatação, reciclagem ou carga evitada na ACV."
+   }
+  ],
+  "texto_completo_lido": "Texto completo (137 páginas, até ao Apêndice J). Lidos linha a linha: pré-textuais, Cap.1, Cap.3 Método, Cap.5 Resultados, Cap.6 Conclusão, Apêndices A e B. Cap.2 (revisão bibliográfica, p.17-52) e referências só pesquisados por termos.",
+  "notas": ""
+ },
+ {
+  "row_id": 5052,
+  "pares": [
+   {
+    "sheet_row": 2084,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 295,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 18 p.96 (CP2 Fundação GWP 4,99E+01 kg CO2 eq/m2); fronteira 'do berço à entrega' (A1-A5), p.73: RCC todo para aterro Classe A, reciclagem não modelada por falta de dados.",
+    "derivado": "sim",
+    "nota": "Sem créditos. O valor gravado é leitura gráfica (Fig.22) já sinalizada; não reverificado por píxel nesta ronda. Fundação CP2 = radier fck 25 MPa (Tab.10)."
+   }
+  ],
+  "texto_completo_lido": "Texto completo (151 p., até ao Anexo A). Lidos linha a linha: Cap.3 Metodologia (p.62-81), Cap.4 Resultados e Discussão (p.82-111), Cap.5 Conclusões. Cap.2 (revisão, onde aparecem 'evitado'/'módulo D' só em estudos citados), referências e anexo só pesquisados por termos.",
+  "notas": ""
+ },
+ {
+  "row_id": 5055,
+  "pares": [
+   {
+    "sheet_row": 65,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 597.24,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6.5 p.288 (MCC, 597.24 kg CO2eq/m3). PEC REF: Σ 272.66 − absorção 7.69 = 264.97 kg CO2eq/pilar (Tab.6.8 p.300); volume do pilar 0.1 m3 (Tab.4.26 p.193).",
+    "derivado": "nao",
+    "nota": "MCC = berço ao portão (Sec.4.7.2.1.2 p.180), sem créditos; CV como 'fly ash dummy' (carga nula, não crédito); coprocessamento 20,7% do combustível (não crédito). A carbonatação (fixação de CO2, eq.4.11) só é descontada na outra UF (pilar PEC, berço ao túmulo), Tabela 6.8 p.300: a absorção do pilar REF (7.69 kg/pilar ≈ 76.9 kg por m3 desse pilar) depende da área exposta e cobrimento do pilar, não é transponível ao m3 da MCC; por isso co2_com_desconto = null."
+   },
+   {
+    "sheet_row": 67,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 377.41,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6.5 p.288 (MCC, 377.41 kg CO2eq/m3). PEC FC50: Σ 134.16 − absorção 5.34 = 128.82 kg CO2eq/pilar (Tab.6.8 p.300); volume do pilar 0.15 m3 (Tab.4.26 p.193).",
+    "derivado": "nao",
+    "nota": "MCC = berço ao portão (Sec.4.7.2.1.2 p.180), sem créditos; CV como 'fly ash dummy' (carga nula, não crédito); coprocessamento 20,7% do combustível (não crédito). A carbonatação (fixação de CO2, eq.4.11) só é descontada na outra UF (pilar PEC, berço ao túmulo), Tabela 6.8 p.300: a absorção do pilar FC50 (5.34 kg/pilar ≈ 35.6 kg por m3 desse pilar) depende da área exposta e cobrimento do pilar, não é transponível ao m3 da MCC; por isso co2_com_desconto = null."
+   },
+   {
+    "sheet_row": 69,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 325.09,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6.5 p.288 (MCC, 325.09 kg CO2eq/m3). PEC FC60: Σ 149.22 − absorção 4.68 = 144.54 kg CO2eq/pilar (Tab.6.8 p.300); volume do pilar 0.18 m3 (Tab.4.26 p.193).",
+    "derivado": "nao",
+    "nota": "MCC = berço ao portão (Sec.4.7.2.1.2 p.180), sem créditos; CV como 'fly ash dummy' (carga nula, não crédito); coprocessamento 20,7% do combustível (não crédito). A carbonatação (fixação de CO2, eq.4.11) só é descontada na outra UF (pilar PEC, berço ao túmulo), Tabela 6.8 p.300: a absorção do pilar FC60 (4.68 kg/pilar ≈ 26.0 kg por m3 desse pilar) depende da área exposta e cobrimento do pilar, não é transponível ao m3 da MCC; por isso co2_com_desconto = null."
+   },
+   {
+    "sheet_row": 71,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 361.27,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6.5 p.288 (MCC, 361.27 kg CO2eq/m3). PEC FC60CH10: Σ 133.35 − absorção 5.34 = 128.01 kg CO2eq/pilar (Tab.6.8 p.300); volume do pilar 0.15 m3 (Tab.4.26 p.193).",
+    "derivado": "nao",
+    "nota": "MCC = berço ao portão (Sec.4.7.2.1.2 p.180), sem créditos; CV como 'fly ash dummy' (carga nula, não crédito); coprocessamento 20,7% do combustível (não crédito). A carbonatação (fixação de CO2, eq.4.11) só é descontada na outra UF (pilar PEC, berço ao túmulo), Tabela 6.8 p.300: a absorção do pilar FC60CH10 (5.34 kg/pilar ≈ 35.6 kg por m3 desse pilar) depende da área exposta e cobrimento do pilar, não é transponível ao m3 da MCC; por isso co2_com_desconto = null."
+   },
+   {
+    "sheet_row": 73,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 212.83,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6.5 p.288 (MCC, 212.83 kg CO2eq/m3).",
+    "derivado": "nao",
+    "nota": "MCC = berço ao portão (Sec.4.7.2.1.2 p.180), sem créditos; CV como 'fly ash dummy' (carga nula, não crédito); coprocessamento 20,7% do combustível (não crédito). FC70CV10 foi excluído da UF pilar (vida útil < NBR 15575, p.190), logo não tem desconto em lado nenhum."
+   },
+   {
+    "sheet_row": 75,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 250.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6.5 p.288 (MCC, 250.3 kg CO2eq/m3).",
+    "derivado": "nao",
+    "nota": "MCC = berço ao portão (Sec.4.7.2.1.2 p.180), sem créditos; CV como 'fly ash dummy' (carga nula, não crédito); coprocessamento 20,7% do combustível (não crédito). FC70CV10CH10 foi excluído da UF pilar (vida útil < NBR 15575, p.190), logo não tem desconto em lado nenhum."
+   }
+  ],
+  "texto_completo_lido": "read_file_content trunca na p.167 (armadilha 7). Recorte pp.179-325 via shrink-drive-pdf.yml (/screen), descarregado e extraído com pymupdf; ficheiro temporário enviado para o lixo do Drive. Lidos linha a linha: pp.1-167 até onde o conector chegou só por pesquisa de termos (sumário lido); 4.6-4.7 (p.177-196, método ACV MCC e PEC) e 6.1 MCC (p.269-288, incl. Tab.6.1-6.5) linha a linha; Cap.5 e 6.2 PEC (p.289-323) só pesquisados por termos, Tabela 6.8 lida.",
+  "notas": "Tabela 6.1 lista 'Dióxido de Carbono, no ar' com factor +1 (não negativo) — sem efeito de crédito visível na MCC. Todos os 6 valores gravados conferem com a Tab.6.5."
+ },
+ {
+  "row_id": 5067,
+  "pares": [
+   {
+    "sheet_row": 605,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 247.695,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.8 (CM = CE1+CE2+CE4 = 247.695 kg/m3). Reciclagem (eq.4, α) só para aço e alumínio (Tab.1 e nota '*' da Tab.4), não para betão.",
+    "derivado": "nao",
+    "nota": "Factor composto de fabrico+transporte+transporte de resíduos ('Reinforced concrete' sem asterisco = sem reciclagem). CE1 adoptado de Gong (2004)."
+   },
+   {
+    "sheet_row": 606,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 267.695,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.8 (CM = CE1+CE2+CE4 = 267.695 kg/m3). Reciclagem (eq.4, α) só para aço e alumínio (Tab.1 e nota '*' da Tab.4), não para betão.",
+    "derivado": "nao",
+    "nota": "Factor composto de fabrico+transporte+transporte de resíduos ('Reinforced concrete' sem asterisco = sem reciclagem). CE1 adoptado de Gong (2004)."
+   },
+   {
+    "sheet_row": 607,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 287.695,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.8 (CM = CE1+CE2+CE4 = 287.695 kg/m3). Reciclagem (eq.4, α) só para aço e alumínio (Tab.1 e nota '*' da Tab.4), não para betão.",
+    "derivado": "nao",
+    "nota": "Factor composto de fabrico+transporte+transporte de resíduos ('Reinforced concrete' sem asterisco = sem reciclagem). CE1 adoptado de Gong (2004)."
+   },
+   {
+    "sheet_row": 608,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 307.695,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.8 (CM = CE1+CE2+CE4 = 307.695 kg/m3). Reciclagem (eq.4, α) só para aço e alumínio (Tab.1 e nota '*' da Tab.4), não para betão.",
+    "derivado": "nao",
+    "nota": "Factor composto de fabrico+transporte+transporte de resíduos ('Reinforced concrete' sem asterisco = sem reciclagem). CE1 adoptado de Gong (2004)."
+   },
+   {
+    "sheet_row": 609,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 327.695,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.8 (CM = CE1+CE2+CE4 = 327.695 kg/m3). Reciclagem (eq.4, α) só para aço e alumínio (Tab.1 e nota '*' da Tab.4), não para betão.",
+    "derivado": "nao",
+    "nota": "Factor composto de fabrico+transporte+transporte de resíduos ('Reinforced concrete' sem asterisco = sem reciclagem). CE1 adoptado de Gong (2004)."
+   },
+   {
+    "sheet_row": 610,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 367.695,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.8 (CM = CE1+CE2+CE4 = 367.695 kg/m3). Reciclagem (eq.4, α) só para aço e alumínio (Tab.1 e nota '*' da Tab.4), não para betão.",
+    "derivado": "nao",
+    "nota": "Factor composto de fabrico+transporte+transporte de resíduos ('Reinforced concrete' sem asterisco = sem reciclagem). CE1 adoptado de Gong (2004)."
+   }
+  ],
+  "texto_completo_lido": "Artigo inteiro (13 p.) lido linha a linha no texto devolvido pelo conector (não truncado). Figuras não renderizadas (Fig.1-3 sem dados de CO2 por m3).",
+  "notas": ""
+ },
+ {
+  "row_id": 5086,
+  "pares": [
+   {
+    "sheet_row": 77,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 265.22,
+    "co2_com_desconto": null,
+    "citacao": "Table 5 'Inventory list' (Ecoinvent 'concrete, normal, at plant' 265,22 kg CO2-eq/m3, CML2001 GWP100a).",
+    "derivado": "nao",
+    "nota": "O factor do betão é berço-ao-portão sem crédito. O estudo do edifício tem módulo D (cenário reciclado para PC-PT), reutilização de vigas/pilares (cenário c) e a madeira de cofragem com −713,13 kg CO2-eq/m3 (biogénico), mas nada disso se aplica ao factor por m3 de betão gravado."
+   }
+  ],
+  "texto_completo_lido": "Artigo inteiro (15 p.) lido linha a linha até ao fim das conclusões; lista de referências só pesquisada por termos. Fig.13 (resultados por m2·ano) não renderizada — não é a base do gravado.",
+  "notas": ""
+ }
+]

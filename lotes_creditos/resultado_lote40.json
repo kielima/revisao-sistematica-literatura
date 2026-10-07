@@ -1,0 +1,518 @@
+[
+ {
+  "row_id": 4731,
+  "pares": [
+   {
+    "sheet_row": 1715,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 229.5,
+    "co2_com_desconto": null,
+    "citacao": "MB-1: mistura so com agregado natural; Fig.6 p.11-12 mostra as barras de \"Avoided landfill\"/\"Avoided pig iron production\" a zero para MB-1 a MB-4; Sec.2.2.1 p.5 so atribui creditos a escoria EAF. Valor gravado = SI Tab.6 p.16 x fc (conta da extraccao), sem credito.",
+    "derivado": "nao",
+    "nota": "co2_bruto fica igual ao gravado (sem desconto). O gravado ja era derivado (SI x fc lido do grafico Fig.4), nao publicado em absoluto."
+   },
+   {
+    "sheet_row": 1716,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 127.4,
+    "co2_com_desconto": null,
+    "citacao": "MB-2: mistura so com agregado natural; Fig.6 p.11-12 mostra as barras de \"Avoided landfill\"/\"Avoided pig iron production\" a zero para MB-1 a MB-4; Sec.2.2.1 p.5 so atribui creditos a escoria EAF. Valor gravado = SI Tab.6 p.16 x fc (conta da extraccao), sem credito.",
+    "derivado": "nao",
+    "nota": "co2_bruto fica igual ao gravado (sem desconto). O gravado ja era derivado (SI x fc lido do grafico Fig.4), nao publicado em absoluto."
+   },
+   {
+    "sheet_row": 1717,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 247.5,
+    "co2_com_desconto": null,
+    "citacao": "MB-3: mistura so com agregado natural; Fig.6 p.11-12 mostra as barras de \"Avoided landfill\"/\"Avoided pig iron production\" a zero para MB-1 a MB-4; Sec.2.2.1 p.5 so atribui creditos a escoria EAF. Valor gravado = SI Tab.6 p.16 x fc (conta da extraccao), sem credito.",
+    "derivado": "nao",
+    "nota": "co2_bruto fica igual ao gravado (sem desconto). O gravado ja era derivado (SI x fc lido do grafico Fig.4), nao publicado em absoluto."
+   },
+   {
+    "sheet_row": 1718,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 137.2,
+    "co2_com_desconto": null,
+    "citacao": "MB-4: mistura so com agregado natural; Fig.6 p.11-12 mostra as barras de \"Avoided landfill\"/\"Avoided pig iron production\" a zero para MB-1 a MB-4; Sec.2.2.1 p.5 so atribui creditos a escoria EAF. Valor gravado = SI Tab.6 p.16 x fc (conta da extraccao), sem credito.",
+    "derivado": "nao",
+    "nota": "co2_bruto fica igual ao gravado (sem desconto). O gravado ja era derivado (SI x fc lido do grafico Fig.4), nao publicado em absoluto."
+   },
+   {
+    "sheet_row": 1719,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 251.9,
+    "co2_com_desconto": 205.8,
+    "citacao": "Sec.2.2.1 p.5 e 2.2.2 p.5-6: sistema expandido, aterro de escoria evitado (GaBi inert landfill) e recuperacao de metal como gusa evitada (Ecoinvent 3.8) \"subtracted from the total impact\"; Sec.2.3 Eq.2 p.7: SI = GHG total / fc, logo Tab.6 p.16 (SI) e o liquido. Bruto por leitura de pixeis da Fig.6 p.12 (MB-5, coluna GWP, render 400 dpi): positivo 84.2% / negativo 15.4% (soma 99.6% ~100%, a normalizacao e pela soma dos modulos); bruto = liquido x P/(P-N) = 205.8 / 0.817 = 251.9.",
+    "derivado": "sim",
+    "nota": "Credito ~46.1 kg/m3 (aterro evitado + gusa evitada; a recuperacao de metal e um encargo positivo ja incluido no bruto). Valores por pixel, confianca media; o gravado tambem e derivado (SI x fc lido da Fig.4)."
+   },
+   {
+    "sheet_row": 1720,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 151.7,
+    "co2_com_desconto": 105.3,
+    "citacao": "Sec.2.2.1 p.5 e 2.2.2 p.5-6: sistema expandido, aterro de escoria evitado (GaBi inert landfill) e recuperacao de metal como gusa evitada (Ecoinvent 3.8) \"subtracted from the total impact\"; Sec.2.3 Eq.2 p.7: SI = GHG total / fc, logo Tab.6 p.16 (SI) e o liquido. Bruto por leitura de pixeis da Fig.6 p.12 (MB-6, coluna GWP, render 400 dpi): positivo 76.4% / negativo 23.4% (soma 99.8% ~100%, a normalizacao e pela soma dos modulos); bruto = liquido x P/(P-N) = 105.3 / 0.694 = 151.7.",
+    "derivado": "sim",
+    "nota": "Credito ~46.4 kg/m3 (aterro evitado + gusa evitada; a recuperacao de metal e um encargo positivo ja incluido no bruto). Valores por pixel, confianca media; o gravado tambem e derivado (SI x fc lido da Fig.4)."
+   },
+   {
+    "sheet_row": 1721,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 271.0,
+    "co2_com_desconto": 226.8,
+    "citacao": "Sec.2.2.1 p.5 e 2.2.2 p.5-6: sistema expandido, aterro de escoria evitado (GaBi inert landfill) e recuperacao de metal como gusa evitada (Ecoinvent 3.8) \"subtracted from the total impact\"; Sec.2.3 Eq.2 p.7: SI = GHG total / fc, logo Tab.6 p.16 (SI) e o liquido. Bruto por leitura de pixeis da Fig.6 p.12 (MB-7, coluna GWP, render 400 dpi): positivo 85.8% / negativo 14.0% (soma 99.8% ~100%, a normalizacao e pela soma dos modulos); bruto = liquido x P/(P-N) = 226.8 / 0.837 = 271.0.",
+    "derivado": "sim",
+    "nota": "Credito ~44.2 kg/m3 (aterro evitado + gusa evitada; a recuperacao de metal e um encargo positivo ja incluido no bruto). Valores por pixel, confianca media; o gravado tambem e derivado (SI x fc lido da Fig.4)."
+   },
+   {
+    "sheet_row": 1722,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 158.2,
+    "co2_com_desconto": 114.7,
+    "citacao": "Sec.2.2.1 p.5 e 2.2.2 p.5-6: sistema expandido, aterro de escoria evitado (GaBi inert landfill) e recuperacao de metal como gusa evitada (Ecoinvent 3.8) \"subtracted from the total impact\"; Sec.2.3 Eq.2 p.7: SI = GHG total / fc, logo Tab.6 p.16 (SI) e o liquido. Bruto por leitura de pixeis da Fig.6 p.12 (MB-8, coluna GWP, render 400 dpi): positivo 78.1% / negativo 21.4% (soma 99.5% ~100%, a normalizacao e pela soma dos modulos); bruto = liquido x P/(P-N) = 114.7 / 0.725 = 158.2.",
+    "derivado": "sim",
+    "nota": "Credito ~43.5 kg/m3 (aterro evitado + gusa evitada; a recuperacao de metal e um encargo positivo ja incluido no bruto). Valores por pixel, confianca media; o gravado tambem e derivado (SI x fc lido da Fig.4)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (ficheiro cr40_kvocka.txt de corrida anterior, 72.288 car., completo); Fig.6 p.11-12 vista e medida por pixel no PDF descarregado (5,3 MB).",
+  "notas": "Os creditos so existem nas misturas com escoria EAF (MB-5 a MB-8)."
+ },
+ {
+  "row_id": 4749,
+  "pares": [
+   {
+    "sheet_row": 1735,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 447.4,
+    "co2_com_desconto": null,
+    "citacao": "p.8 Sec.3.2.2: factor C60 447,4 kg CO2/m3; p.5 pressupostos: \"No consideration of building material recovery factors\"; reciclagem/manutencao excluidas (p.4-6).",
+    "derivado": "nao",
+    "nota": "Factor de emissao generico do C60 (sem fonte de ACV propria); sem qualquer credito."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (53.026 car.); figuras nao renderizadas (so equipamento/CO2 de maquinas, nada de creditos).",
+  "notas": ""
+ },
+ {
+  "row_id": 4750,
+  "pares": [
+   {
+    "sheet_row": 1738,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 335.09,
+    "co2_com_desconto": null,
+    "citacao": "Tab.5 p.9: GWP 33.509 kg CO2-eqv para o ciclo de vida do pavimento industrial (100 m3, Tab.4 p.8); inventario p.9 (producao, construcao, exploracao, fim de vida) sem creditos; p.13-14 a reutilizacao do vidro e discutida so qualitativamente.",
+    "derivado": "nao",
+    "nota": "Total do ciclo de vida do pavimento (inclui transporte, reparacoes e demolicao), nao so A1-A3; sem desconto."
+   }
+  ],
+  "texto_completo_lido": "sim - corpo integral lido ate as referencias (97.688 car.); pesquisa de termos confirmatoria.",
+  "notas": ""
+ },
+ {
+  "row_id": 4753,
+  "pares": [
+   {
+    "sheet_row": 1740,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D",
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 767.4,
+    "co2_com_desconto": 713.5,
+    "citacao": "Tab.7 p.13: F2C1* (50% aterro/50% reciclagem) = 382 (A1-A3) + 29 (transporte) + 0,2 (EoL liquido, \"credit gained from downcycling of concrete\" com credito de brita, p.11-13) = 411 kg/painel; F2C1 dagger (100% aterro, sem credito) = 442 kg. 442/0,576 = 767,4; 411/0,576 = 713,5.",
+    "derivado": "sim",
+    "nota": "O bruto proposto e o cenario sem credito publicado pelo proprio artigo (100% aterro), que tambem muda a deposicao; o bruto exacto do cenario 50/50 sem o credito de brita nao e publicado. Total do painel inclui grelha CFRP (~41% do GWP, Fig.6), fixacoes inox e transporte - nao e so o betao (betao ~42% na Fig.6)."
+   },
+   {
+    "sheet_row": 1741,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D",
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 914.9,
+    "co2_com_desconto": 861.1,
+    "citacao": "Tab.7 p.13: F1C3* = 467 + 29 + 0,2 = 496 kg/painel; F1C3 dagger (100% aterro) = 527 kg (componentes somam 527,5). 527/0,576 = 914,9; 496/0,576 = 861,1.",
+    "derivado": "sim",
+    "nota": "Mesma ressalva do F2C1: bruto = cenario 100% aterro publicado. Total do painel com CFRP (~47% do GWP, Fig.6)."
+   },
+   {
+    "sheet_row": 1742,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D",
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 427.1,
+    "citacao": "Tab.7 p.13: SRC 2.2 = 733 (A1-A3) + 59 (transporte) - 299,9 (EoL, \"large credit gained from steel reuse/recycling\" + credito de brita) = 492 kg/painel; Fig.6 p.15: EoL armadura -64%, EoL betao +3%. 492/1,152 = 427,1.",
+    "derivado": "nao",
+    "nota": "Nao ha cenario sem credito para o SRC; o bruto exacto nao e publicado. Limite inferior A1-A4 = 792 kg/painel = 687,5 kg/m3 (exclui encargos de fim de vida); estimativa pela Fig.6 sem o credito do aco ~492x1,64/1,152 = ~700 kg/m3. Total inclui 150 kg de aco (familia concreto_armado)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (85.368 car.); Tab.7 e Fig.6 lidas no texto extraido (tabela desformatada, reconstituida pelas somas).",
+  "notas": "CO2 gravado e o total do painel por volume, com creditos de fim de vida (cenario 50/50). Sem carbonatacao contabilizada (p.17 diz que nao foi considerada)."
+ },
+ {
+  "row_id": 4756,
+  "pares": [
+   {
+    "sheet_row": 590,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 199.92,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.4: C25/30 0,0833 kg CO2-eq/kg (200 kg/m3), factor A1-A3 de Kromoser 2021, sem credito. A Tab.8 p.8 (com B1 e D) so lista o C30/37.",
+    "derivado": "nao",
+    "nota": "Nenhum credito declarado para o C25/30."
+   },
+   {
+    "sheet_row": 591,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao",
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 219.12,
+    "co2_com_desconto": null,
+    "citacao": "Gravado: Tab.1 p.4 (0,0913 kg/kg x 2400, A1-A3). Tab.8 p.8, C30/37 B3 por m3: A1-A3 203,9; A4 8,2; A5 1,1; B1 -10,0; B2 614,4; B4 234,3; C1-C4 21,1; D -6,9.",
+    "derivado": "nao",
+    "nota": "Os descontos (B1 -10,0, que num EPD de betao e a recarbonatacao - o artigo nao o diz por extenso; e D -6,9) estao na Tab.8 sobre outra base (A1-A3 = 203,9, nao 219,12) e outra fronteira (ciclo completo). Nao ha \"com desconto\" na mesma base do gravado; aplicar -16,9 ao 219,12 misturaria fontes. A p.4 diz tambem que nao se reconhece a fase D nos custos."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha incluindo apendices A e B (98.228 car.); PDF de 7,6 MB nao descarregado (Tab.8 lida so no texto extraido, colunas reconstituidas: B4 = A + C confere 234,3).",
+  "notas": ""
+ },
+ {
+  "row_id": 4757,
+  "pares": [
+   {
+    "sheet_row": 592,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 321.3,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.8: C30 concrete 321,30 kg/m3; Sec.3.2 p.5-6: cradle-to-gate, sem uso nem fim de vida; residuos solidos com factor 0 (p.11), nao negativo.",
+    "derivado": "nao",
+    "nota": "Factor generico; sem credito."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (54.718 car.).",
+  "notas": ""
+ },
+ {
+  "row_id": 4758,
+  "pares": [
+   {
+    "sheet_row": 1745,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 393.09,
+    "co2_com_desconto": null,
+    "citacao": "C0-R: Tab.1 p.4 sem RCA; factores Tab.3 p.6 todos positivos para estes constituintes; conta confere 393.09.",
+    "derivado": "nao",
+    "nota": "O unico credito do artigo (carbonatacao do RCA) nao se aplica a misturas sem RCA."
+   },
+   {
+    "sheet_row": 1746,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 324.93,
+    "co2_com_desconto": null,
+    "citacao": "C0-F: Tab.1 p.4 sem RCA; factores Tab.3 p.6 todos positivos para estes constituintes; conta confere 324.93.",
+    "derivado": "nao",
+    "nota": "O unico credito do artigo (carbonatacao do RCA) nao se aplica a misturas sem RCA."
+   },
+   {
+    "sheet_row": 1747,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 299.49,
+    "co2_com_desconto": null,
+    "citacao": "C0-G: Tab.1 p.4 sem RCA; factores Tab.3 p.6 todos positivos para estes constituintes; conta confere 299.49.",
+    "derivado": "nao",
+    "nota": "O unico credito do artigo (carbonatacao do RCA) nao se aplica a misturas sem RCA."
+   },
+   {
+    "sheet_row": 1748,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 358.03,
+    "co2_com_desconto": null,
+    "citacao": "C0-S: Tab.1 p.4 sem RCA; factores Tab.3 p.6 todos positivos para estes constituintes; conta confere 358.03.",
+    "derivado": "nao",
+    "nota": "O unico credito do artigo (carbonatacao do RCA) nao se aplica a misturas sem RCA."
+   },
+   {
+    "sheet_row": 1749,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 378.37,
+    "co2_com_desconto": 369.73,
+    "citacao": "Sec.2.2.3 p.6: captacao de CO2 de 10,8 kg/t na demolicao e britagem do RCA \"subtracted from the CO2 produced during RCA pre-treatment\"; Tab.3 p.6: FRCA/CRCA GWP -6,5E-3 kg/kg (liquido). RCA C50-R = 800.1 kg/m3 (Tab.1 p.4). Bruto = 369.73 + 800.1 x 0,0108 = 378.37.",
+    "derivado": "sim",
+    "nota": "Credito de carbonatacao = 8.64 kg/m3. Factor bruto do RCA implicito = +4,3E-3 kg/kg. Gravado exclui transporte (como ja anotado)."
+   },
+   {
+    "sheet_row": 1750,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 310.21,
+    "co2_com_desconto": 301.57,
+    "citacao": "Sec.2.2.3 p.6: captacao de CO2 de 10,8 kg/t na demolicao e britagem do RCA \"subtracted from the CO2 produced during RCA pre-treatment\"; Tab.3 p.6: FRCA/CRCA GWP -6,5E-3 kg/kg (liquido). RCA C50-F = 800.1 kg/m3 (Tab.1 p.4). Bruto = 301.57 + 800.1 x 0,0108 = 310.21.",
+    "derivado": "sim",
+    "nota": "Credito de carbonatacao = 8.64 kg/m3. Factor bruto do RCA implicito = +4,3E-3 kg/kg. Gravado exclui transporte (como ja anotado)."
+   },
+   {
+    "sheet_row": 1751,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 284.77,
+    "co2_com_desconto": 276.13,
+    "citacao": "Sec.2.2.3 p.6: captacao de CO2 de 10,8 kg/t na demolicao e britagem do RCA \"subtracted from the CO2 produced during RCA pre-treatment\"; Tab.3 p.6: FRCA/CRCA GWP -6,5E-3 kg/kg (liquido). RCA C50-G = 800.1 kg/m3 (Tab.1 p.4). Bruto = 276.13 + 800.1 x 0,0108 = 284.77.",
+    "derivado": "sim",
+    "nota": "Credito de carbonatacao = 8.64 kg/m3. Factor bruto do RCA implicito = +4,3E-3 kg/kg. Gravado exclui transporte (como ja anotado)."
+   },
+   {
+    "sheet_row": 1752,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 343.31,
+    "co2_com_desconto": 334.67,
+    "citacao": "Sec.2.2.3 p.6: captacao de CO2 de 10,8 kg/t na demolicao e britagem do RCA \"subtracted from the CO2 produced during RCA pre-treatment\"; Tab.3 p.6: FRCA/CRCA GWP -6,5E-3 kg/kg (liquido). RCA C50-S = 800.1 kg/m3 (Tab.1 p.4). Bruto = 334.67 + 800.1 x 0,0108 = 343.31.",
+    "derivado": "sim",
+    "nota": "Credito de carbonatacao = 8.64 kg/m3. Factor bruto do RCA implicito = +4,3E-3 kg/kg. Gravado exclui transporte (como ja anotado)."
+   },
+   {
+    "sheet_row": 1753,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 363.66,
+    "co2_com_desconto": 346.38,
+    "citacao": "Sec.2.2.3 p.6: captacao de CO2 de 10,8 kg/t na demolicao e britagem do RCA \"subtracted from the CO2 produced during RCA pre-treatment\"; Tab.3 p.6: FRCA/CRCA GWP -6,5E-3 kg/kg (liquido). RCA C100-R = 1600.2 kg/m3 (Tab.1 p.4). Bruto = 346.38 + 1600.2 x 0,0108 = 363.66.",
+    "derivado": "sim",
+    "nota": "Credito de carbonatacao = 17.28 kg/m3. Factor bruto do RCA implicito = +4,3E-3 kg/kg. Gravado exclui transporte (como ja anotado)."
+   },
+   {
+    "sheet_row": 1754,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 295.5,
+    "co2_com_desconto": 278.22,
+    "citacao": "Sec.2.2.3 p.6: captacao de CO2 de 10,8 kg/t na demolicao e britagem do RCA \"subtracted from the CO2 produced during RCA pre-treatment\"; Tab.3 p.6: FRCA/CRCA GWP -6,5E-3 kg/kg (liquido). RCA C100-F = 1600.2 kg/m3 (Tab.1 p.4). Bruto = 278.22 + 1600.2 x 0,0108 = 295.5.",
+    "derivado": "sim",
+    "nota": "Credito de carbonatacao = 17.28 kg/m3. Factor bruto do RCA implicito = +4,3E-3 kg/kg. Gravado exclui transporte (como ja anotado)."
+   },
+   {
+    "sheet_row": 1755,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 270.06,
+    "co2_com_desconto": 252.78,
+    "citacao": "Sec.2.2.3 p.6: captacao de CO2 de 10,8 kg/t na demolicao e britagem do RCA \"subtracted from the CO2 produced during RCA pre-treatment\"; Tab.3 p.6: FRCA/CRCA GWP -6,5E-3 kg/kg (liquido). RCA C100-G = 1600.2 kg/m3 (Tab.1 p.4). Bruto = 252.78 + 1600.2 x 0,0108 = 270.06.",
+    "derivado": "sim",
+    "nota": "Credito de carbonatacao = 17.28 kg/m3. Factor bruto do RCA implicito = +4,3E-3 kg/kg. Gravado exclui transporte (como ja anotado)."
+   },
+   {
+    "sheet_row": 1756,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 328.59,
+    "co2_com_desconto": 311.31,
+    "citacao": "Sec.2.2.3 p.6: captacao de CO2 de 10,8 kg/t na demolicao e britagem do RCA \"subtracted from the CO2 produced during RCA pre-treatment\"; Tab.3 p.6: FRCA/CRCA GWP -6,5E-3 kg/kg (liquido). RCA C100-S = 1600.2 kg/m3 (Tab.1 p.4). Bruto = 311.31 + 1600.2 x 0,0108 = 328.59.",
+    "derivado": "sim",
+    "nota": "Credito de carbonatacao = 17.28 kg/m3. Factor bruto do RCA implicito = +4,3E-3 kg/kg. Gravado exclui transporte (como ja anotado)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as conclusoes (96.492 car.); seccoes MCDM de sensibilidade lidas em bloco.",
+  "notas": "O gravado foi recalculado e confere com Tab.1 x Tab.3 + 4,7 em todas as 12 misturas."
+ },
+ {
+  "row_id": 4763,
+  "pares": [
+   {
+    "sheet_row": 1757,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 238,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.4 p.4: cradle-to-gate (materias-primas, transporte, fabrico), GaBi, EN 15804; Sec.3.7 p.18: 205-240 kg CO2-e/m3 sem mencao de creditos; Fig.12a com eixo 0-400 (sem valores negativos, segundo a extraccao anterior).",
+    "derivado": "nao",
+    "nota": "Os residuos (zeolito de mina, escoria) entram como entradas, sem credito de deposicao evitada."
+   }
+  ],
+  "texto_completo_lido": "parcial-visual: texto integral lido ate as referencias (71.286 car.); a Fig.12a nao foi revista nesta corrida (PDF > 10 MB, download recusado) - fica a leitura da extraccao anterior.",
+  "notas": ""
+ },
+ {
+  "row_id": 4766,
+  "pares": [
+   {
+    "sheet_row": 1758,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 305.81,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.5 (Slabs on Grade): 305.81 kg CO2/m3 (EPD NRMCA via Tally). Tab.3 p.6: modulo D do edificio = +5.206.257 kg CO2eq (encargo, \"beyond-life loads\", 9%), nao credito.",
+    "derivado": "nao",
+    "nota": "A Tab.1 nao diz a que modulos corresponde o factor; o rotulo \"A-D\" do co2_original nao tem apoio no texto (provavelmente A1-A3 do EPD NRMCA). Soma Tab.1 x volume = 10,3 Mt, so ~22% do A1-A3 do edificio (46,7 Mt) e o volume da Tab.1 (28.131 m3) nao bate com a massa de betao da Tab.4 (127.464 t) - tabela incompleta ou factores noutra base."
+   },
+   {
+    "sheet_row": 1759,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 288.23,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.5 (Walls and Footings): 288.23 kg CO2/m3 (EPD NRMCA via Tally). Tab.3 p.6: modulo D do edificio = +5.206.257 kg CO2eq (encargo, \"beyond-life loads\", 9%), nao credito.",
+    "derivado": "nao",
+    "nota": "A Tab.1 nao diz a que modulos corresponde o factor; o rotulo \"A-D\" do co2_original nao tem apoio no texto (provavelmente A1-A3 do EPD NRMCA). Soma Tab.1 x volume = 10,3 Mt, so ~22% do A1-A3 do edificio (46,7 Mt) e o volume da Tab.1 (28.131 m3) nao bate com a massa de betao da Tab.4 (127.464 t) - tabela incompleta ou factores noutra base."
+   },
+   {
+    "sheet_row": 1760,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 353.21,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.5 (Slabs on Steel Deck): 353.21 kg CO2/m3 (EPD NRMCA via Tally). Tab.3 p.6: modulo D do edificio = +5.206.257 kg CO2eq (encargo, \"beyond-life loads\", 9%), nao credito.",
+    "derivado": "nao",
+    "nota": "A Tab.1 nao diz a que modulos corresponde o factor; o rotulo \"A-D\" do co2_original nao tem apoio no texto (provavelmente A1-A3 do EPD NRMCA). Soma Tab.1 x volume = 10,3 Mt, so ~22% do A1-A3 do edificio (46,7 Mt) e o volume da Tab.1 (28.131 m3) nao bate com a massa de betao da Tab.4 (127.464 t) - tabela incompleta ou factores noutra base."
+   },
+   {
+    "sheet_row": 1762,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 344.04,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.5 (Columns): 344.04 kg CO2/m3 (EPD NRMCA via Tally). Tab.3 p.6: modulo D do edificio = +5.206.257 kg CO2eq (encargo, \"beyond-life loads\", 9%), nao credito.",
+    "derivado": "nao",
+    "nota": "A Tab.1 nao diz a que modulos corresponde o factor; o rotulo \"A-D\" do co2_original nao tem apoio no texto (provavelmente A1-A3 do EPD NRMCA). Soma Tab.1 x volume = 10,3 Mt, so ~22% do A1-A3 do edificio (46,7 Mt) e o volume da Tab.1 (28.131 m3) nao bate com a massa de betao da Tab.4 (127.464 t) - tabela incompleta ou factores noutra base."
+   },
+   {
+    "sheet_row": 1763,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 412.84,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.5 (Shear Walls): 412.84 kg CO2/m3 (EPD NRMCA via Tally). Tab.3 p.6: modulo D do edificio = +5.206.257 kg CO2eq (encargo, \"beyond-life loads\", 9%), nao credito.",
+    "derivado": "nao",
+    "nota": "A Tab.1 nao diz a que modulos corresponde o factor; o rotulo \"A-D\" do co2_original nao tem apoio no texto (provavelmente A1-A3 do EPD NRMCA). Soma Tab.1 x volume = 10,3 Mt, so ~22% do A1-A3 do edificio (46,7 Mt) e o volume da Tab.1 (28.131 m3) nao bate com a massa de betao da Tab.4 (127.464 t) - tabela incompleta ou factores noutra base."
+   },
+   {
+    "sheet_row": 1764,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 318.81,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.5 (Grade Beams): 318.81 kg CO2/m3 (EPD NRMCA via Tally). Tab.3 p.6: modulo D do edificio = +5.206.257 kg CO2eq (encargo, \"beyond-life loads\", 9%), nao credito.",
+    "derivado": "nao",
+    "nota": "A Tab.1 nao diz a que modulos corresponde o factor; o rotulo \"A-D\" do co2_original nao tem apoio no texto (provavelmente A1-A3 do EPD NRMCA). Soma Tab.1 x volume = 10,3 Mt, so ~22% do A1-A3 do edificio (46,7 Mt) e o volume da Tab.1 (28.131 m3) nao bate com a massa de betao da Tab.4 (127.464 t) - tabela incompleta ou factores noutra base."
+   },
+   {
+    "sheet_row": 1765,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 270.64,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.5 (Pier Caps): 270.64 kg CO2/m3 (EPD NRMCA via Tally). Tab.3 p.6: modulo D do edificio = +5.206.257 kg CO2eq (encargo, \"beyond-life loads\", 9%), nao credito.",
+    "derivado": "nao",
+    "nota": "A Tab.1 nao diz a que modulos corresponde o factor; o rotulo \"A-D\" do co2_original nao tem apoio no texto (provavelmente A1-A3 do EPD NRMCA). Soma Tab.1 x volume = 10,3 Mt, so ~22% do A1-A3 do edificio (46,7 Mt) e o volume da Tab.1 (28.131 m3) nao bate com a massa de betao da Tab.4 (127.464 t) - tabela incompleta ou factores noutra base."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (resposta completa do conector, ~45 mil car.); figuras Tally nao renderizadas.",
+  "notas": "Neste estudo o modulo D e positivo para o GWP; nao ha creditos."
+ },
+ {
+  "row_id": 4768,
+  "pares": [
+   {
+    "sheet_row": 594,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao",
+     "outro"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 383.4,
+    "co2_com_desconto": 347.2,
+    "citacao": "Gravado: Tab.11 p.14, GWP rigido 46.962 kg/km/ano x 20 anos = 939.250 kg/km / 2450 m3 = 383,4 (cenario base, sem compensacoes). Sec.3.3 p.9-10 e Conclusoes: carbonatacao -18,97 t/UF e albedo -69,60 t/UF (outro), contados a parte. 18.970/2450 = 7,74; 69.600/2450 = 28,41; 383,4 - 7,74 - 28,41 = 347,2.",
+    "derivado": "sim",
+    "nota": "So carbonatacao: 375,6 kg/m3. O cenario IS2 (Tab.11, 37.855 kg/km/ano) tem reciclagem do betao no fim de vida e deposicao evitada (-7%, ~-26,8 kg/m3) mas tambem RDF no forno - e outro cenario, nao entrou. Gravado e total do pavimento (inclui aco, sub-base, tinta, maquinaria)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (105.639 car.); PDF de 8,5 MB nao descarregado (figuras nao vistas; os numeros usados estao todos no texto).",
+  "notas": ""
+ }
+]
