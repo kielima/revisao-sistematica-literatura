@@ -34,7 +34,8 @@
  },
  "840": {
   "co2": 417.16,
-  "motivo": "GARCES 3099: 454,59 era o OPCC de referencia; SHGPC = 417,1633 (Tab.5 GWP100); fck 50 = unidade funcional comum (alvo de dosagem aos 28 d)"
+  "motivo": "GARCES 3099: 454,59 era o OPCC de referencia; SHGPC = 417,1633 (Tab.5 GWP100); fck 50 = unidade funcional comum (alvo de dosagem aos 28 d)",
+  "familia": "geopolimero"
  },
  "847": {
   "co2": 381.8,
@@ -71,7 +72,8 @@
  "43": {
   "co2": 214.9,
   "familia": "opc",
-  "motivo": "REZENDE 5018: p.80 'Para GWP, o resultado ... para o processo elementar 4 foi de 15.810,37 kg CO2 equiv. Neste montante, a producao do concreto representa 40,1%'; Tab.4 processo 4 (vigas e laje de transicao) = 29,50 m3 de concreto usinado 25 MPa -> 0,401 x 15.810,37 / 29,50 = 214,9 (so producao do betao, sem aco); o 198,4 aplicava a quota ao total da estrutura; derivado por nos; ajuste da Tab.5 sobre a Tab.4 da ~217 (confere)"
+  "motivo": "REZENDE 5018: p.80 'Para GWP, o resultado ... para o processo elementar 4 foi de 15.810,37 kg CO2 equiv. Neste montante, a producao do concreto representa 40,1%'; Tab.4 processo 4 (vigas e laje de transicao) = 29,50 m3 de concreto usinado 25 MPa -> 0,401 x 15.810,37 / 29,50 = 214,9 (so producao do betao, sem aco); o 198,4 aplicava a quota ao total da estrutura; derivado por nos; ajuste da Tab.5 sobre a Tab.4 da ~217 (confere)",
+  "vol": 29.5
  },
  "937": {
   "co2": "NAO",
@@ -80,5 +82,42 @@
  "11": {
   "co2": "NAO",
   "motivo": "HABIBI 2681: 249 = GWP do circular com fim de vida escalado para a vida util do convencional (Tab.3 'Circular (38-Y SL)'; 354 x 37,9/53,7); a mesma mistura (fck 33,4) ja esta na linha 131 (297, berco-a-porta) -> duplicado com outra fronteira"
+ },
+ "304": {
+  "co2": 326,
+  "fck": 94.4,
+  "material": "Argamassa alcali-ativada A-SA (sem oleo)",
+  "motivo": "GRENGG 3066: o par juntava o fck da A-SA com o CO2 do CEM I de referencia (553); Fig.5 p.7 rotulo 94,4 MPa (A-SA, 28 d); Fig.9 p.11 barra A-SA ~326 kg CO2eq/m3 (pixel, eixo 0-600); sem credito biogenico (A-SA nao tem oleo)"
+ },
+ "928": {
+  "co2": 331,
+  "motivo": "DACIC 3216: Fig.4a p.10, C40F10-0 ~331 (pixel, eixo 270-340; conta ~329); os 294 eram de C30F10-2/C20F20-2"
+ },
+ "249": {
+  "material_prefixo": "CM30-SW: ",
+  "motivo": "RATHNARAJAN 2999: nao e duplicado; e a mistura CM30-SW (unica em falta na serie 1903-1921); 302,8 = Tab.2 x Tab.5; fck ~56 (Fig.2a, 28 d)"
+ },
+ "921": {
+  "nota": "ZHANG 3207: Fig.19a vectorial da 715,4 para FA46.21SF15 (mantido); a diferenca para a conta da Tab.11 (~724) e para o texto (42,97% -> ~753) e do proprio artigo"
+ },
+ "1371": {
+  "co2": 343.98,
+  "motivo": "HUANG 4458: o gravado (993,61/960,31/920,78/890,24/871,31) era o CUSTO em AUD/m3; Fig.10f p.15 rotulos (CO2, custo, CS): o 1.o numero e o CO2-eq kg/m3 (confere com a escala de CO2 dos paineis a-e: 335-365 ... 207-225); o eixo do painel f tem os rotulos de custo e CO2 trocados"
+ },
+ "1372": {
+  "co2": 317.1,
+  "motivo": "HUANG 4458: o gravado (993,61/960,31/920,78/890,24/871,31) era o CUSTO em AUD/m3; Fig.10f p.15 rotulos (CO2, custo, CS): o 1.o numero e o CO2-eq kg/m3 (confere com a escala de CO2 dos paineis a-e: 335-365 ... 207-225); o eixo do painel f tem os rotulos de custo e CO2 trocados"
+ },
+ "1373": {
+  "co2": 295.4,
+  "motivo": "HUANG 4458: o gravado (993,61/960,31/920,78/890,24/871,31) era o CUSTO em AUD/m3; Fig.10f p.15 rotulos (CO2, custo, CS): o 1.o numero e o CO2-eq kg/m3 (confere com a escala de CO2 dos paineis a-e: 335-365 ... 207-225); o eixo do painel f tem os rotulos de custo e CO2 trocados"
+ },
+ "1374": {
+  "co2": 250.42,
+  "motivo": "HUANG 4458: o gravado (993,61/960,31/920,78/890,24/871,31) era o CUSTO em AUD/m3; Fig.10f p.15 rotulos (CO2, custo, CS): o 1.o numero e o CO2-eq kg/m3 (confere com a escala de CO2 dos paineis a-e: 335-365 ... 207-225); o eixo do painel f tem os rotulos de custo e CO2 trocados"
+ },
+ "1375": {
+  "co2": 215.16,
+  "motivo": "HUANG 4458: o gravado (993,61/960,31/920,78/890,24/871,31) era o CUSTO em AUD/m3; Fig.10f p.15 rotulos (CO2, custo, CS): o 1.o numero e o CO2-eq kg/m3 (confere com a escala de CO2 dos paineis a-e: 335-365 ... 207-225); o eixo do painel f tem os rotulos de custo e CO2 trocados"
  }
 }
