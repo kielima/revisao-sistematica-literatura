@@ -1,0 +1,520 @@
+[
+ {
+  "row_id": 4328,
+  "pares": [
+   {
+    "sheet_row": 565,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 313.717464,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 p.14 (ReCiPe Midpoint H, GWP por 1 m3); Sec. LCA p.13: SimaPro 9.2, Ecoinvent \"market perspective and consequential approach\"; Fig.9 p.14 contribuicoes por processo, todas positivas",
+    "derivado": "nao",
+    "nota": "Nenhum credito/carga evitada/carbono biogenico declarado; o fim de vida (reciclagem do betao, biodegradabilidade do sisal) so e discutido qualitativamente (Tabela 6), fora da ACV. Nota: o artigo diz usar modelo consequencial do Ecoinvent, mas nao reporta qualquer credito."
+   },
+   {
+    "sheet_row": 566,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 313.736294,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 p.14 (ReCiPe Midpoint H, GWP por 1 m3); Sec. LCA p.13: SimaPro 9.2, Ecoinvent \"market perspective and consequential approach\"; Fig.9 p.14 contribuicoes por processo, todas positivas",
+    "derivado": "nao",
+    "nota": "Nenhum credito/carga evitada/carbono biogenico declarado; o fim de vida (reciclagem do betao, biodegradabilidade do sisal) so e discutido qualitativamente (Tabela 6), fora da ACV. Nota: o artigo diz usar modelo consequencial do Ecoinvent, mas nao reporta qualquer credito."
+   },
+   {
+    "sheet_row": 567,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 315.08268,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 p.14 (ReCiPe Midpoint H, GWP por 1 m3); Sec. LCA p.13: SimaPro 9.2, Ecoinvent \"market perspective and consequential approach\"; Fig.9 p.14 contribuicoes por processo, todas positivas",
+    "derivado": "nao",
+    "nota": "Nenhum credito/carga evitada/carbono biogenico declarado; o fim de vida (reciclagem do betao, biodegradabilidade do sisal) so e discutido qualitativamente (Tabela 6), fora da ACV. Nota: o artigo diz usar modelo consequencial do Ecoinvent, mas nao reporta qualquer credito."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido por blocos sequenciais (corpo, tabelas e legendas; referencias percorridas por pesquisa de termos)",
+  "notas": "ACV cradle-to-gate simples, sem creditos."
+ },
+ {
+  "row_id": 4341,
+  "pares": [
+   {
+    "sheet_row": 1287,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 299.71,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.10 (GWP100a, cura normal, 20 MPa)",
+    "derivado": "nao",
+    "nota": "O cenario de reciclagem do betao de demolicao (Fig.6) so e apresentado para a serie com cura por CO2; para a cura normal o artigo nao aplica nenhum credito. Incoerencia interna: o texto p.9 diz que o GWP vai de 2,59e2 a 2,65e2 kg CO2-eq entre 20 e 100 MPa, o que nao bate com a Tabela 2 (299,7-305,9 normal; 269,0-274,5 cura CO2)."
+   },
+   {
+    "sheet_row": 1288,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 268.954,
+    "co2_com_desconto": 183.19,
+    "citacao": "Bruto = Tabela 2 p.10 (cura por CO2, 20 MPa) = valor de \"100% Disposal\" da Fig.6 p.17 (\"without employing any recycling measures, varies from 268.95 to 274.46\"). Com desconto = Fig.6, cenario 40% Disposal (60% reciclado): 183.19; cenario 80% Disposal: 239.38. Rotulos numericos impressos na Fig.6, atribuidos a cada classe pela ordem monotona 20->100 MPa (o texto confirma os extremos 239,38-244,25 e 183,19-186,85).",
+    "derivado": "sim",
+    "nota": "Credito = reutilizacao do betao de demolicao no fim de vida (reduz o impacto; tipo modulo_D/reciclagem). Escolhido o cenario de maior reciclagem (40% deposicao) como \"com todos os descontos\"; o resumo fala em \"recycling 60%\". Cura por CO2: o artigo modela GHG_curing como parcela adicional (Eq.2, injecao 0,15% da massa de cimento) e nao imprime nenhum valor de CO2 sequestrado; a reducao ~31 kg face a cura normal aparece tambem em todas as outras categorias (toxicidade, deplecao), portanto nao e um credito de carbonatacao explicito - nao classificado como desconto, mas a natureza dessa reducao fica por explicar no artigo."
+   },
+   {
+    "sheet_row": 1289,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 301.797,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.10 (GWP100a, cura normal, 35 MPa)",
+    "derivado": "nao",
+    "nota": "O cenario de reciclagem do betao de demolicao (Fig.6) so e apresentado para a serie com cura por CO2; para a cura normal o artigo nao aplica nenhum credito. Incoerencia interna: o texto p.9 diz que o GWP vai de 2,59e2 a 2,65e2 kg CO2-eq entre 20 e 100 MPa, o que nao bate com a Tabela 2 (299,7-305,9 normal; 269,0-274,5 cura CO2)."
+   },
+   {
+    "sheet_row": 1290,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 270.819,
+    "co2_com_desconto": 184.43,
+    "citacao": "Bruto = Tabela 2 p.10 (cura por CO2, 35 MPa) = valor de \"100% Disposal\" da Fig.6 p.17 (\"without employing any recycling measures, varies from 268.95 to 274.46\"). Com desconto = Fig.6, cenario 40% Disposal (60% reciclado): 184.43; cenario 80% Disposal: 241.03. Rotulos numericos impressos na Fig.6, atribuidos a cada classe pela ordem monotona 20->100 MPa (o texto confirma os extremos 239,38-244,25 e 183,19-186,85).",
+    "derivado": "sim",
+    "nota": "Credito = reutilizacao do betao de demolicao no fim de vida (reduz o impacto; tipo modulo_D/reciclagem). Escolhido o cenario de maior reciclagem (40% deposicao) como \"com todos os descontos\"; o resumo fala em \"recycling 60%\". Cura por CO2: o artigo modela GHG_curing como parcela adicional (Eq.2, injecao 0,15% da massa de cimento) e nao imprime nenhum valor de CO2 sequestrado; a reducao ~31 kg face a cura normal aparece tambem em todas as outras categorias (toxicidade, deplecao), portanto nao e um credito de carbonatacao explicito - nao classificado como desconto, mas a natureza dessa reducao fica por explicar no artigo."
+   },
+   {
+    "sheet_row": 1291,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 302.468,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.10 (GWP100a, cura normal, 40 MPa)",
+    "derivado": "nao",
+    "nota": "O cenario de reciclagem do betao de demolicao (Fig.6) so e apresentado para a serie com cura por CO2; para a cura normal o artigo nao aplica nenhum credito. Incoerencia interna: o texto p.9 diz que o GWP vai de 2,59e2 a 2,65e2 kg CO2-eq entre 20 e 100 MPa, o que nao bate com a Tabela 2 (299,7-305,9 normal; 269,0-274,5 cura CO2)."
+   },
+   {
+    "sheet_row": 1292,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 271.419,
+    "co2_com_desconto": 184.83,
+    "citacao": "Bruto = Tabela 2 p.10 (cura por CO2, 40 MPa) = valor de \"100% Disposal\" da Fig.6 p.17 (\"without employing any recycling measures, varies from 268.95 to 274.46\"). Com desconto = Fig.6, cenario 40% Disposal (60% reciclado): 184.83; cenario 80% Disposal: 241.56. Rotulos numericos impressos na Fig.6, atribuidos a cada classe pela ordem monotona 20->100 MPa (o texto confirma os extremos 239,38-244,25 e 183,19-186,85).",
+    "derivado": "sim",
+    "nota": "Credito = reutilizacao do betao de demolicao no fim de vida (reduz o impacto; tipo modulo_D/reciclagem). Escolhido o cenario de maior reciclagem (40% deposicao) como \"com todos os descontos\"; o resumo fala em \"recycling 60%\". Cura por CO2: o artigo modela GHG_curing como parcela adicional (Eq.2, injecao 0,15% da massa de cimento) e nao imprime nenhum valor de CO2 sequestrado; a reducao ~31 kg face a cura normal aparece tambem em todas as outras categorias (toxicidade, deplecao), portanto nao e um credito de carbonatacao explicito - nao classificado como desconto, mas a natureza dessa reducao fica por explicar no artigo."
+   },
+   {
+    "sheet_row": 1293,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 303.096,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.10 (GWP100a, cura normal, 50 MPa)",
+    "derivado": "nao",
+    "nota": "O cenario de reciclagem do betao de demolicao (Fig.6) so e apresentado para a serie com cura por CO2; para a cura normal o artigo nao aplica nenhum credito. Incoerencia interna: o texto p.9 diz que o GWP vai de 2,59e2 a 2,65e2 kg CO2-eq entre 20 e 100 MPa, o que nao bate com a Tabela 2 (299,7-305,9 normal; 269,0-274,5 cura CO2)."
+   },
+   {
+    "sheet_row": 1294,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 271.98,
+    "co2_com_desconto": 185.2,
+    "citacao": "Bruto = Tabela 2 p.10 (cura por CO2, 50 MPa) = valor de \"100% Disposal\" da Fig.6 p.17 (\"without employing any recycling measures, varies from 268.95 to 274.46\"). Com desconto = Fig.6, cenario 40% Disposal (60% reciclado): 185.2; cenario 80% Disposal: 242.06. Rotulos numericos impressos na Fig.6, atribuidos a cada classe pela ordem monotona 20->100 MPa (o texto confirma os extremos 239,38-244,25 e 183,19-186,85).",
+    "derivado": "sim",
+    "nota": "Credito = reutilizacao do betao de demolicao no fim de vida (reduz o impacto; tipo modulo_D/reciclagem). Escolhido o cenario de maior reciclagem (40% deposicao) como \"com todos os descontos\"; o resumo fala em \"recycling 60%\". Cura por CO2: o artigo modela GHG_curing como parcela adicional (Eq.2, injecao 0,15% da massa de cimento) e nao imprime nenhum valor de CO2 sequestrado; a reducao ~31 kg face a cura normal aparece tambem em todas as outras categorias (toxicidade, deplecao), portanto nao e um credito de carbonatacao explicito - nao classificado como desconto, mas a natureza dessa reducao fica por explicar no artigo."
+   },
+   {
+    "sheet_row": 1295,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 303.452,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.10 (GWP100a, cura normal, 65 MPa)",
+    "derivado": "nao",
+    "nota": "O cenario de reciclagem do betao de demolicao (Fig.6) so e apresentado para a serie com cura por CO2; para a cura normal o artigo nao aplica nenhum credito. Incoerencia interna: o texto p.9 diz que o GWP vai de 2,59e2 a 2,65e2 kg CO2-eq entre 20 e 100 MPa, o que nao bate com a Tabela 2 (299,7-305,9 normal; 269,0-274,5 cura CO2)."
+   },
+   {
+    "sheet_row": 1296,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 272.298,
+    "co2_com_desconto": 185.41,
+    "citacao": "Bruto = Tabela 2 p.10 (cura por CO2, 65 MPa) = valor de \"100% Disposal\" da Fig.6 p.17 (\"without employing any recycling measures, varies from 268.95 to 274.46\"). Com desconto = Fig.6, cenario 40% Disposal (60% reciclado): 185.41; cenario 80% Disposal: 242.34. Rotulos numericos impressos na Fig.6, atribuidos a cada classe pela ordem monotona 20->100 MPa (o texto confirma os extremos 239,38-244,25 e 183,19-186,85).",
+    "derivado": "sim",
+    "nota": "Credito = reutilizacao do betao de demolicao no fim de vida (reduz o impacto; tipo modulo_D/reciclagem). Escolhido o cenario de maior reciclagem (40% deposicao) como \"com todos os descontos\"; o resumo fala em \"recycling 60%\". Cura por CO2: o artigo modela GHG_curing como parcela adicional (Eq.2, injecao 0,15% da massa de cimento) e nao imprime nenhum valor de CO2 sequestrado; a reducao ~31 kg face a cura normal aparece tambem em todas as outras categorias (toxicidade, deplecao), portanto nao e um credito de carbonatacao explicito - nao classificado como desconto, mas a natureza dessa reducao fica por explicar no artigo."
+   },
+   {
+    "sheet_row": 1297,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 304.267,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.10 (GWP100a, cura normal, 80 MPa)",
+    "derivado": "nao",
+    "nota": "O cenario de reciclagem do betao de demolicao (Fig.6) so e apresentado para a serie com cura por CO2; para a cura normal o artigo nao aplica nenhum credito. Incoerencia interna: o texto p.9 diz que o GWP vai de 2,59e2 a 2,65e2 kg CO2-eq entre 20 e 100 MPa, o que nao bate com a Tabela 2 (299,7-305,9 normal; 269,0-274,5 cura CO2)."
+   },
+   {
+    "sheet_row": 1298,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 273.026,
+    "co2_com_desconto": 185.9,
+    "citacao": "Bruto = Tabela 2 p.10 (cura por CO2, 80 MPa) = valor de \"100% Disposal\" da Fig.6 p.17 (\"without employing any recycling measures, varies from 268.95 to 274.46\"). Com desconto = Fig.6, cenario 40% Disposal (60% reciclado): 185.9; cenario 80% Disposal: 242.98. Rotulos numericos impressos na Fig.6, atribuidos a cada classe pela ordem monotona 20->100 MPa (o texto confirma os extremos 239,38-244,25 e 183,19-186,85).",
+    "derivado": "sim",
+    "nota": "Credito = reutilizacao do betao de demolicao no fim de vida (reduz o impacto; tipo modulo_D/reciclagem). Escolhido o cenario de maior reciclagem (40% deposicao) como \"com todos os descontos\"; o resumo fala em \"recycling 60%\". Cura por CO2: o artigo modela GHG_curing como parcela adicional (Eq.2, injecao 0,15% da massa de cimento) e nao imprime nenhum valor de CO2 sequestrado; a reducao ~31 kg face a cura normal aparece tambem em todas as outras categorias (toxicidade, deplecao), portanto nao e um credito de carbonatacao explicito - nao classificado como desconto, mas a natureza dessa reducao fica por explicar no artigo."
+   },
+   {
+    "sheet_row": 1299,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 305.873,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 2 p.10 (GWP100a, cura normal, 100 MPa)",
+    "derivado": "nao",
+    "nota": "O cenario de reciclagem do betao de demolicao (Fig.6) so e apresentado para a serie com cura por CO2; para a cura normal o artigo nao aplica nenhum credito. Incoerencia interna: o texto p.9 diz que o GWP vai de 2,59e2 a 2,65e2 kg CO2-eq entre 20 e 100 MPa, o que nao bate com a Tabela 2 (299,7-305,9 normal; 269,0-274,5 cura CO2)."
+   },
+   {
+    "sheet_row": 1300,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 274.461,
+    "co2_com_desconto": 186.85,
+    "citacao": "Bruto = Tabela 2 p.10 (cura por CO2, 100 MPa) = valor de \"100% Disposal\" da Fig.6 p.17 (\"without employing any recycling measures, varies from 268.95 to 274.46\"). Com desconto = Fig.6, cenario 40% Disposal (60% reciclado): 186.85; cenario 80% Disposal: 244.25. Rotulos numericos impressos na Fig.6, atribuidos a cada classe pela ordem monotona 20->100 MPa (o texto confirma os extremos 239,38-244,25 e 183,19-186,85).",
+    "derivado": "sim",
+    "nota": "Credito = reutilizacao do betao de demolicao no fim de vida (reduz o impacto; tipo modulo_D/reciclagem). Escolhido o cenario de maior reciclagem (40% deposicao) como \"com todos os descontos\"; o resumo fala em \"recycling 60%\". Cura por CO2: o artigo modela GHG_curing como parcela adicional (Eq.2, injecao 0,15% da massa de cimento) e nao imprime nenhum valor de CO2 sequestrado; a reducao ~31 kg face a cura normal aparece tambem em todas as outras categorias (toxicidade, deplecao), portanto nao e um credito de carbonatacao explicito - nao classificado como desconto, mas a natureza dessa reducao fica por explicar no artigo."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido por blocos sequenciais ate ao inicio das referencias; Fig.6 lida pelos rotulos numericos extraidos (nao renderizada)",
+  "notas": "Unico credito quantificado: reciclagem do betao de demolicao (Fig.6), so para a serie com cura por CO2."
+ },
+ {
+  "row_id": 4349,
+  "pares": [
+   {
+    "sheet_row": 1301,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 523.9,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 p.15 cenario Concrete: A1-A3 295,3; A4 3,7; C2-C4 53,2; D +23,0 kg CO2eq/m2 (soma 375,2 = Tabela 4). Gravado = A1-A3 295,3 x 20850 / 11752,58 m3",
+    "derivado": "nao",
+    "nota": "No cenario de betao nao ha credito: o Modulo D e uma carga POSITIVA (+23,0 kg/m2, atribuida pela Tally a armadura com 100% de sucata de entrada); o unico credito de modulo D e do cenario Steel (-7,1) e o carbono biogenico (-85 a -120 kg/m2, Fig.8) so existe nos cenarios com madeira. O betao do cenario Concrete nao tem madeira. Gravado (A1-A3) correcto; inclui armadura e cordoalhas (familia concreto_armado)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido por blocos sequenciais ate as referencias; Fig.7 lida pelos rotulos numericos extraidos",
+  "notas": ""
+ },
+ {
+  "row_id": 4350,
+  "pares": [
+   {
+    "sheet_row": 2065,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada",
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 287,
+    "co2_com_desconto": 160.2,
+    "citacao": "Liquido: p.12 Sec.4.2 \"II C100F RA2 reached the lowest impact (705 kg CO2 eq)\" / 4,4 m3 (Tabela 3) = 160,2. Bruto: Fig.8 p.17 (renderizada) - para II C100F RA2 a contribuicao do RA2 e ~ -79% do total e a do cimento ~ +138% (lidos por pixel: eixo 50%=72 px); 705 x 1,79 / 4,4 = 286,8 ~ 287.",
+    "derivado": "sim",
+    "nota": "Creditos declarados (Sec.4.4-4.5, Fig.9): reciclagem da sucata de aco do RCD e reutilizacao das outras fracoes do RA como substituto de agregado primario (\"credits for steel recycling\", \"credits for aggregate\"). O \"bruto\" ~287 retira a contribuicao LIQUIDA do RA2 (creditos menos a carga de processamento do RA2), por isso e aproximado (provavelmente ligeiramente abaixo do bruto verdadeiro); os creditos absolutos em kg CO2 nao sao impressos (Fig.9 so em pontos normalizados/ponderados PEF; Tabela S1 e material suplementar externo). O gravado 287 bate com o bruto aproximado da Fig.8 - coerente com a anotacao em co2_conversao."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido por blocos sequenciais; paginas 17-18 (Figs.8 e 9) renderizadas a 130 dpi",
+  "notas": "Tabela S1 (resultados completos) nao esta no PDF."
+ },
+ {
+  "row_id": 4364,
+  "pares": [
+   {
+    "sheet_row": 1320,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 243.5,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 8 p.13 (total 243.5) e Fig.16/texto p.14; fronteira cradle-to-gate, Ecoinvent 3.4",
+    "derivado": "nao",
+    "nota": "Inventario so de emissoes das materias-primas; cinza volante com fator proprio 5,26e-3 (sem credito de residuo evitado); nenhum credito."
+   },
+   {
+    "sheet_row": 1322,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 377.8,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 8 p.13 (total 377.8) e Fig.16/texto p.14; fronteira cradle-to-gate, Ecoinvent 3.4",
+    "derivado": "nao",
+    "nota": "Inventario so de emissoes das materias-primas; cinza volante com fator proprio 5,26e-3 (sem credito de residuo evitado); nenhum credito."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido por blocos sequenciais ate as referencias",
+  "notas": ""
+ },
+ {
+  "row_id": 4365,
+  "pares": [
+   {
+    "sheet_row": 1323,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 239,
+    "co2_com_desconto": null,
+    "citacao": "Tabelas 12 e 13 p.21 (CC-Ref-R0 GWP100 = 2,39e2 nos dois cenarios); Sec.2.5.2: cradle-to-gate, sem uso nem fim de vida",
+    "derivado": "nao",
+    "nota": "Sem creditos: o RCA entra com corte (sem fluxos atribuidos, so transporte); a mistura de referencia CC-Ref-R0 usa CP III (escoria) sem credito."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido por blocos sequenciais ate as referencias",
+  "notas": ""
+ },
+ {
+  "row_id": 4381,
+  "pares": [
+   {
+    "sheet_row": 1328,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 321.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 p.8: C30 concrete 2,34 m3 x 321,3 kg CO2eq/m3 = 751,84 kg (coeficiente da base de dados chinesa de ACV)",
+    "derivado": "nao",
+    "nota": "Estudo so de producao, transporte e montagem; nenhum credito. Nota lateral: a conclusao fala em \"1044.85 g ... per cubic meter\" (gralha de unidade do artigo, nao afecta o par)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido (resultado completo devolvido pelo conector, 14 paginas)",
+  "notas": ""
+ },
+ {
+  "row_id": 4389,
+  "pares": [
+   {
+    "sheet_row": 1329,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 412,
+    "co2_com_desconto": 371.44,
+    "citacao": "Bruto: Tabela 6 p.11, \"Concrete (32 MPa) m3 ... 412.00 kg CO2e\" (A1-A3, AusLCI/EPiC). Credito impresso na mesma tabela: \"Benefit by recycling (D) - Recycled aggregates -0.0169 kg CO2e/kg\"; densidade do betao 2400 kg/m3 (Apendice A.2.2 p.25). Conta: 412 - 0,0169 x 2400 = 412 - 40,56 = 371,44.",
+    "derivado": "sim",
+    "nota": "O artigo aplica o modulo D (reciclagem do betao em agregado e do aco; e reutilizacao do sistema pre-fabricado, D(reused)) ao sistema de fundacao inteiro (Fig.9, resultados por sistema com aco, sem valores por m3 de betao). O valor com desconto e uma derivacao nossa por m3, assume que toda a massa do betao vira agregado reciclado e NAO inclui as cargas de fim de vida C impressas na mesma tabela (demolicao 0,00054 e processamento 0,006 kg CO2e/kg = +15,7 kg/m3); se se quiser o mesmo ambito do modulo D com C: 412 + 15,7 - 40,6 = 387,1. Confianca baixa. O gravado (412, fator A1-A3) esta correcto como bruto."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido por blocos sequenciais ate as referencias; Fig.9 nao renderizada (resultados ao nivel do sistema, nao por m3)",
+  "notas": ""
+ },
+ {
+  "row_id": 4408,
+  "pares": [
+   {
+    "sheet_row": 1331,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 498.5,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 p.15 (rotulos 498.50/444.68/390.87/337.05/283.23) e Fig.8 (decomposicao por componente, todas positivas; M1: cimento 436,44 + agregado grosso 12,27 + fino 38,90 + agua 0,14 + mistura 0,78 + SP 9,96 = 498,49); Sec.6: cradle-to-gate, OpenLCA/CML-IA",
+    "derivado": "nao",
+    "nota": "Sem creditos: o CBWP e tratado como residuo com corte (so a energia de moagem); sem fim de vida nem carbonatacao."
+   },
+   {
+    "sheet_row": 1332,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 444.68,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 p.15 (rotulos 498.50/444.68/390.87/337.05/283.23) e Fig.8 (decomposicao por componente, todas positivas; M1: cimento 436,44 + agregado grosso 12,27 + fino 38,90 + agua 0,14 + mistura 0,78 + SP 9,96 = 498,49); Sec.6: cradle-to-gate, OpenLCA/CML-IA",
+    "derivado": "nao",
+    "nota": "Sem creditos: o CBWP e tratado como residuo com corte (so a energia de moagem); sem fim de vida nem carbonatacao."
+   },
+   {
+    "sheet_row": 1333,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 390.87,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 p.15 (rotulos 498.50/444.68/390.87/337.05/283.23) e Fig.8 (decomposicao por componente, todas positivas; M1: cimento 436,44 + agregado grosso 12,27 + fino 38,90 + agua 0,14 + mistura 0,78 + SP 9,96 = 498,49); Sec.6: cradle-to-gate, OpenLCA/CML-IA",
+    "derivado": "nao",
+    "nota": "Sem creditos: o CBWP e tratado como residuo com corte (so a energia de moagem); sem fim de vida nem carbonatacao."
+   },
+   {
+    "sheet_row": 1334,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 337.05,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 p.15 (rotulos 498.50/444.68/390.87/337.05/283.23) e Fig.8 (decomposicao por componente, todas positivas; M1: cimento 436,44 + agregado grosso 12,27 + fino 38,90 + agua 0,14 + mistura 0,78 + SP 9,96 = 498,49); Sec.6: cradle-to-gate, OpenLCA/CML-IA",
+    "derivado": "nao",
+    "nota": "Sem creditos: o CBWP e tratado como residuo com corte (so a energia de moagem); sem fim de vida nem carbonatacao."
+   },
+   {
+    "sheet_row": 1335,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 283.23,
+    "co2_com_desconto": null,
+    "citacao": "Fig.7 p.15 (rotulos 498.50/444.68/390.87/337.05/283.23) e Fig.8 (decomposicao por componente, todas positivas; M1: cimento 436,44 + agregado grosso 12,27 + fino 38,90 + agua 0,14 + mistura 0,78 + SP 9,96 = 498,49); Sec.6: cradle-to-gate, OpenLCA/CML-IA",
+    "derivado": "nao",
+    "nota": "Sem creditos: o CBWP e tratado como residuo com corte (so a energia de moagem); sem fim de vida nem carbonatacao."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido por blocos sequenciais ate as referencias (rotulos das figuras extraidos como texto)",
+  "notas": ""
+ },
+ {
+  "row_id": 4416,
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 185,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   },
+   {
+    "sheet_row": 1337,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 205.9,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   },
+   {
+    "sheet_row": 1338,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 204.5,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   },
+   {
+    "sheet_row": 1339,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 237,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   },
+   {
+    "sheet_row": 1340,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 319.6,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   },
+   {
+    "sheet_row": 1341,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 326.1,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   },
+   {
+    "sheet_row": 1342,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 356.4,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   },
+   {
+    "sheet_row": 1343,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 385.4,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   },
+   {
+    "sheet_row": 1344,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 265.6,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   },
+   {
+    "sheet_row": 1345,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 292.6,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1/2.1.3 p.3 e p.6: so GWP fossil dos modulos A1-A3 das EPDs; Fig.5 p.16 (box plot do GWP fossil do betao pronto por classe)",
+    "derivado": "nao",
+    "nota": "Revisao de EPDs com GWP fossil cradle-to-gate: exclui carbono biogenico, modulo D e carbonatacao por construcao. O modulo D so foi recolhido para o aco e o biogenico so para a madeira, nao para o betao. Valores gravados (media de cada caixa da Fig.5) nao revistos aqui - a Fig.5 nao foi renderizada nesta ronda, por nao ser necessaria para a questao dos creditos."
+   }
+  ],
+  "texto_completo_lido": "sim - read_file_content devolveu texto vazio; PDF descarregado (28 p.) e texto extraido com PyMuPDF, lido integralmente por blocos ate as referencias",
+  "notas": "O conector devolve conteudo vazio para este PDF; o PyMuPDF extrai texto normal (sem precisar de OCR)."
+ }
+]

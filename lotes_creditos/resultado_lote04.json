@@ -1,0 +1,383 @@
+[
+ {
+  "row_id": 2736,
+  "pares": [
+   {
+    "sheet_row": 170,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 359.99,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.14), Climate change, Mix 4 = 359.99 kg CO2-Eq (FU 1 m3 de betao, Tab.2/3)",
+    "derivado": "nao",
+    "nota": "ACV cradle-to-gate OpenLCA/Ecoinvent/ReCiPe 2016 sem qualquer credito; o RCP entra sem carga (so reduz cimento). 'diverts waste from landfills' e so qualitativo, sem carga evitada contabilizada. Nota: Tabela 3 (betao generico 25-30 MPa) tem as unidades trocadas (Climate change em m2a) e o texto diz 320 kg mas a tabela 410 - nao afecta o par gravado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (18 pp., texto Drive). Sem creditos."
+ },
+ {
+  "row_id": 2738,
+  "pares": [
+   {
+    "sheet_row": 171,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 367.0,
+    "co2_com_desconto": null,
+    "citacao": "Fig.4 (p.14) 'concrete (1211 kgCO2eq)' / 3.3 m3 (Tabela 1) = 367.0",
+    "derivado": "sim",
+    "nota": "LCA OpenLCA/Ecoinvent V3/IPCC2013 so de producao+transporte; bambu entra com emissao positiva (15.7 kg) e nenhum carbono biogenico armazenado e descontado. Valor = so parcela betao do portico."
+   },
+   {
+    "sheet_row": 172,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 345.0,
+    "co2_com_desconto": null,
+    "citacao": "Fig.4 (p.14) 'concrete (414 kgCO2eq)' / 1.2 m3 (Tabela 1) = 345.0",
+    "derivado": "sim",
+    "nota": "Sem creditos; aco sem modulo D/reciclagem."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (16 pp. ate referencias). 'sequestration' so aparece no titulo de uma referencia INBAR."
+ },
+ {
+  "row_id": 2739,
+  "pares": [
+   {
+    "sheet_row": 173,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 770.9,
+    "citacao": "Tabela 3 (p.12) GWP 636.76 kg CO2eq/m2 / 0.826 m3/m2 (Tabela 1, 35 m) = 770.9; carbonatacao: eq.(6)-(7) p.6, texto p.11, Fig.5 p.13 (fim de vida -12%)",
+    "derivado": "sim",
+    "nota": "O GWP da Tabela 3 (media Monte Carlo, ciclo de vida completo: fabrico+construcao+uso/manutencao+fim de vida) ja inclui a fixacao de CO2 por carbonatacao (eq.6-7, Lagerblad; texto p.11: 'in the end of life phase, all the alternatives have a negative impact on the GWP, due to the CO2 fixation caused by the carbonation of concrete'; Fig.3 lista 'CO2 fixation' tambem na fase de uso). O artigo so da a parcela por fase em percentagem na Fig.5 (p.13, 35 m): fim de vida = -12% (PCSS, PCLS, PCBG); mas a fase de fim de vida mistura demolicao/britagem/transporte (positivos) com a carbonatacao (negativa) e a fase de uso tambem inclui fixacao, por isso o credito de carbonatacao isolado nao e recuperavel -> co2_bruto null. Ordem de grandeza se se retirar so a fase de fim de vida (-12% do total, leitura de rotulos da Fig.5): PCSS ~863, PCLS ~887, PCBG ~840 kg/m3 (=total x1.12 / volume) - NAO e o bruto verdadeiro. A Fig.5 de PCSS soma 90% (88+9+5-12), incoerente. Alerta grave ja conhecido: o valor gravado e o GWP do tabuleiro inteiro (betao + armadura passiva e activa + cofragem + construcao + manutencao + fim de vida) dividido so pelo volume de betao - nao e CO2 do betao; deve ficar na familia concreto_armado/estrutura."
+   },
+   {
+    "sheet_row": 174,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 792.3,
+    "citacao": "Tabela 3 (p.12) GWP 556.19 / 0.702 (Tabela 1) = 792.3; Fig.5 fim de vida -12%",
+    "derivado": "sim",
+    "nota": "Ver nota do par 173."
+   },
+   {
+    "sheet_row": 175,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 749.8,
+    "citacao": "Tabela 3 (p.12) GWP 392.14 / 0.523 (Tabela 1) = 749.8; Fig.5 fim de vida -12%",
+    "derivado": "sim",
+    "nota": "Ver nota do par 173."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (22 pp.) + Fig.5 renderizada (p.13). Credito de carbonatacao incluido no GWP publicado mas so dado em % por fase; bruto nao isolavel."
+ },
+ {
+  "row_id": 2744,
+  "pares": [
+   {
+    "sheet_row": 697,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 270.88,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.10 do ficheiro / p.64 impressa): One Click LCA ready-mix C30/37 = 270.88 kg CO2eq/m3, so A1-A3",
+    "derivado": "nao",
+    "nota": "O artigo e cradle-to-cradle (A1-A5, C3-C4, D; p.9-10) e aplica modulo D ao edificio (betao armado 75% reciclado, Tabela 6), mas o credito D so aparece agregado por m2 de GFA nas Figs.7-10, por sistema estrutural e misturando materiais; nao ha valor de modulo D por m3 de betao desta classe -> co2_com_desconto null. O gravado e o factor generico A1-A3 da base One Click LCA (nao mistura propria do estudo). Madeira: biogenico assumido neutro (nao se aplica ao betao)."
+   },
+   {
+    "sheet_row": 698,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 355.83,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.10 do ficheiro / p.64 impressa): One Click LCA ready-mix C40/50 = 355.83 kg CO2eq/m3, so A1-A3",
+    "derivado": "nao",
+    "nota": "O artigo e cradle-to-cradle (A1-A5, C3-C4, D; p.9-10) e aplica modulo D ao edificio (betao armado 75% reciclado, Tabela 6), mas o credito D so aparece agregado por m2 de GFA nas Figs.7-10, por sistema estrutural e misturando materiais; nao ha valor de modulo D por m3 de betao desta classe -> co2_com_desconto null. O gravado e o factor generico A1-A3 da base One Click LCA (nao mistura propria do estudo). Madeira: biogenico assumido neutro (nao se aplica ao betao)."
+   },
+   {
+    "sheet_row": 699,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "modulo_D"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 429.0,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 7 (p.10 do ficheiro / p.64 impressa): One Click LCA ready-mix C50/60 = 429.0 kg CO2eq/m3, so A1-A3",
+    "derivado": "nao",
+    "nota": "O artigo e cradle-to-cradle (A1-A5, C3-C4, D; p.9-10) e aplica modulo D ao edificio (betao armado 75% reciclado, Tabela 6), mas o credito D so aparece agregado por m2 de GFA nas Figs.7-10, por sistema estrutural e misturando materiais; nao ha valor de modulo D por m3 de betao desta classe -> co2_com_desconto null. O gravado e o factor generico A1-A3 da base One Click LCA (nao mistura propria do estudo). Madeira: biogenico assumido neutro (nao se aplica ao betao)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (16 pp.)."
+ },
+ {
+  "row_id": 2745,
+  "pares": [
+   {
+    "sheet_row": 178,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 351.76,
+    "co2_com_desconto": null,
+    "citacao": "Tabela A2 (p.17-18): linhas de betao 29.548 kg/m / 0.084 m3/m = 351.76; 'Avoided impacts' = 0.000 na ORB",
+    "derivado": "nao",
+    "nota": "Viga ORB (agregado natural) sem qualquer credito (linha Avoided impacts = 0). Creditos de reutilizacao (50:50, 0-100) so para a DRB e so em single score (Pt, Tabela A5), nao em CC."
+   },
+   {
+    "sheet_row": 179,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 352.43,
+    "co2_com_desconto": 333.45,
+    "citacao": "Tabela A3 (p.19): linhas de betao 29.604 kg/m / 0.084 = 352.43; cargas evitadas pelo RCA (modulo D, sec.2.2.1 p.5: extraccao de agregado natural evitada 0.446 + transporte de agregado natural 0.436 + deposicao em aterro inerte evitada 0.276 + transporte para aterro 0.436 = 1.594 kg CO2eq/m, negativas na Fig.3b p.8); (29.604 - 1.594)/0.084 = 333.45",
+    "derivado": "sim",
+    "nota": "Credito atribuido ao agregado reciclado do betao, por isso aplicado todo ao betao. Na Tabela A3 as cargas evitadas aparecem com sinal positivo e o Total (63.580) nao bate com nenhuma soma: componentes positivos = 64.017, menos cargas evitadas = 62.423 (o mesmo desvio na Tabela A4: 64.213 vs 63.776) - incoerencia do artigo; a Fig.3b confirma que sao negativas (~-2.5% do CC). Creditos de reutilizacao da viga (allocation 50:50/0-100) so em Pt, sem valor em kg CO2."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (25 pp.) + Fig.3 renderizada (p.8)."
+ },
+ {
+  "row_id": 2747,
+  "pares": [
+   {
+    "sheet_row": 180,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 807.0,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 9 (p.7) OPC 32.5 = 807 kg CO2 eq por 1 m3 de ligante (TRACI, GaBi)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate sem creditos. O CDW entra sem carga; nenhum aterro evitado contabilizado. O par OPC e pasta (1215.7 kg OPC + 607.8 kg agua por m3, Tabela 6, dados de Wei et al. 2010), fck 26.1 MPa tambem de Wei et al. (fonte externa)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (10 pp.)."
+ },
+ {
+  "row_id": 2749,
+  "pares": [
+   {
+    "sheet_row": 182,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1800.98,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6 (p.5) Phase I = 1800.98 kg CO2-eq/m3 (TRACI 2.0, GaBi)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate sem creditos; residuos ceramicos/cinza sem carga e sem aterro evitado. Existe cenario industrial (Tabela 7: 1352.12/1374.82/1365.23) que nao e desconto, e outro cenario de processo."
+   },
+   {
+    "sheet_row": 183,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1631.9,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6 (p.5) Phase II = 1631.9 kg CO2-eq/m3 (TRACI 2.0, GaBi)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate sem creditos; residuos ceramicos/cinza sem carga e sem aterro evitado. Existe cenario industrial (Tabela 7: 1352.12/1374.82/1365.23) que nao e desconto, e outro cenario de processo."
+   },
+   {
+    "sheet_row": 184,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1811.14,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 6 (p.5) Phase III = 1811.14 kg CO2-eq/m3 (TRACI 2.0, GaBi)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate sem creditos; residuos ceramicos/cinza sem carga e sem aterro evitado. Existe cenario industrial (Tabela 7: 1352.12/1374.82/1365.23) que nao e desconto, e outro cenario de processo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (8 pp.)."
+ },
+ {
+  "row_id": 2751,
+  "pares": [
+   {
+    "sheet_row": 1884,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 702.9,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 (p.9) Global warming coluna 1 / volume de betao do elemento (Tabela 1)",
+    "derivado": "sim",
+    "nota": "ACV so de materiais cradle-to-gate (SimaPro/IMPACT 2002+), sem fim de vida, sem carbonatacao, sem credito biogenico da madeira (e de qualquer modo estes elementos sao so betao armado). Valor inclui a armadura do elemento (familia concreto_armado)."
+   },
+   {
+    "sheet_row": 1885,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 493.3,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 (p.9) Global warming coluna 2 / volume de betao do elemento (Tabela 1)",
+    "derivado": "sim",
+    "nota": "ACV so de materiais cradle-to-gate (SimaPro/IMPACT 2002+), sem fim de vida, sem carbonatacao, sem credito biogenico da madeira (e de qualquer modo estes elementos sao so betao armado). Valor inclui a armadura do elemento (familia concreto_armado)."
+   },
+   {
+    "sheet_row": 1886,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 379.4,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 3 (p.9) Global warming coluna 3 / volume de betao do elemento (Tabela 1)",
+    "derivado": "sim",
+    "nota": "ACV so de materiais cradle-to-gate (SimaPro/IMPACT 2002+), sem fim de vida, sem carbonatacao, sem credito biogenico da madeira (e de qualquer modo estes elementos sao so betao armado). Valor inclui a armadura do elemento (familia concreto_armado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (15 pp.)."
+ },
+ {
+  "row_id": 2755,
+  "pares": [
+   {
+    "sheet_row": 187,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 410,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.22) Total GWP coluna Reference = 410 kg CO2 eq/m3",
+    "derivado": "nao",
+    "nota": "Tabela 4 (p.22): GWP por etapas (materias-primas, processamento, transporte, carbonatacao, uso, fim de vida), todas positivas; a etapa 'Carbonation' (+20 nas CRCF) e a CARGA energetica do processo de carbonatacao acelerada, nao captacao. O texto fala de sequestro de CO2 pelas CRCF so qualitativamente (p.2-3), sem valor descontado. A reducao na fase de uso e atribuida a maior durabilidade, nao a credito. Fronteira inclui uso e fim de vida (nao e cradle-to-gate). Valores da Tabela 4 sao numeros redondos/estilizados sem inventario."
+   },
+   {
+    "sheet_row": 188,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 399,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.22) Total GWP coluna M1-URCF-5 = 399 kg CO2 eq/m3",
+    "derivado": "nao",
+    "nota": "Tabela 4 (p.22): GWP por etapas (materias-primas, processamento, transporte, carbonatacao, uso, fim de vida), todas positivas; a etapa 'Carbonation' (+20 nas CRCF) e a CARGA energetica do processo de carbonatacao acelerada, nao captacao. O texto fala de sequestro de CO2 pelas CRCF so qualitativamente (p.2-3), sem valor descontado. A reducao na fase de uso e atribuida a maior durabilidade, nao a credito. Fronteira inclui uso e fim de vida (nao e cradle-to-gate). Valores da Tabela 4 sao numeros redondos/estilizados sem inventario."
+   },
+   {
+    "sheet_row": 189,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 362,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.22) Total GWP coluna M5-URCF-25 = 362 kg CO2 eq/m3",
+    "derivado": "nao",
+    "nota": "Tabela 4 (p.22): GWP por etapas (materias-primas, processamento, transporte, carbonatacao, uso, fim de vida), todas positivas; a etapa 'Carbonation' (+20 nas CRCF) e a CARGA energetica do processo de carbonatacao acelerada, nao captacao. O texto fala de sequestro de CO2 pelas CRCF so qualitativamente (p.2-3), sem valor descontado. A reducao na fase de uso e atribuida a maior durabilidade, nao a credito. Fronteira inclui uso e fim de vida (nao e cradle-to-gate). Valores da Tabela 4 sao numeros redondos/estilizados sem inventario."
+   },
+   {
+    "sheet_row": 190,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 414,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.22) Total GWP coluna M6-CRCF-5 = 414 kg CO2 eq/m3",
+    "derivado": "nao",
+    "nota": "Tabela 4 (p.22): GWP por etapas (materias-primas, processamento, transporte, carbonatacao, uso, fim de vida), todas positivas; a etapa 'Carbonation' (+20 nas CRCF) e a CARGA energetica do processo de carbonatacao acelerada, nao captacao. O texto fala de sequestro de CO2 pelas CRCF so qualitativamente (p.2-3), sem valor descontado. A reducao na fase de uso e atribuida a maior durabilidade, nao a credito. Fronteira inclui uso e fim de vida (nao e cradle-to-gate). Valores da Tabela 4 sao numeros redondos/estilizados sem inventario."
+   },
+   {
+    "sheet_row": 191,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 387,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.22) Total GWP coluna M9-CRCF-20 = 387 kg CO2 eq/m3",
+    "derivado": "nao",
+    "nota": "Tabela 4 (p.22): GWP por etapas (materias-primas, processamento, transporte, carbonatacao, uso, fim de vida), todas positivas; a etapa 'Carbonation' (+20 nas CRCF) e a CARGA energetica do processo de carbonatacao acelerada, nao captacao. O texto fala de sequestro de CO2 pelas CRCF so qualitativamente (p.2-3), sem valor descontado. A reducao na fase de uso e atribuida a maior durabilidade, nao a credito. Fronteira inclui uso e fim de vida (nao e cradle-to-gate). Valores da Tabela 4 sao numeros redondos/estilizados sem inventario."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (22 pp.)."
+ },
+ {
+  "row_id": 2757,
+  "pares": [
+   {
+    "sheet_row": 192,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 574.033,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.8) A0",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (SimaPro/Ecoinvent 3.5 + MY-LCID, ReCiPe 2016), sem transporte e sem creditos; GGBFS so com carga de processamento (corte de alocacao, nao credito)."
+   },
+   {
+    "sheet_row": 199,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 209,
+    "co2_com_desconto": null,
+    "citacao": "Texto p.17 sec.4.4 (A7, 209) / Fig.12",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (SimaPro/Ecoinvent 3.5 + MY-LCID, ReCiPe 2016), sem transporte e sem creditos; GGBFS so com carga de processamento (corte de alocacao, nao credito)."
+   },
+   {
+    "sheet_row": 200,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 573.209,
+    "co2_com_desconto": null,
+    "citacao": "Tabela 4 (p.8) B0",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (SimaPro/Ecoinvent 3.5 + MY-LCID, ReCiPe 2016), sem transporte e sem creditos; GGBFS so com carga de processamento (corte de alocacao, nao credito)."
+   },
+   {
+    "sheet_row": 207,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 207,
+    "co2_com_desconto": null,
+    "citacao": "Texto p.17 sec.4.4 (B7, 207) / Fig.12",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate (SimaPro/Ecoinvent 3.5 + MY-LCID, ReCiPe 2016), sem transporte e sem creditos; GGBFS so com carga de processamento (corte de alocacao, nao credito)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido 100% (21 pp.)."
+ }
+]

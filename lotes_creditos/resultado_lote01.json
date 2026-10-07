@@ -1,0 +1,303 @@
+[
+ {
+  "row_id": 2580,
+  "pares": [
+   {
+    "sheet_row": 78,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 379.22,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.5.3 p.155-156 (total 379,22 kg CO2 eq/m3); Tab.6 inventario; Fig.15",
+    "derivado": "nao",
+    "nota": "ACV fast-track Idemat2023 so com Materiais+Transporte+Energia; fim de vida excluido; 'carbonation' no artigo e o ensaio de durabilidade, nao absorcao de CO2."
+   },
+   {
+    "sheet_row": 79,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 303.06,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.5.3 p.156 (303,06 kg CO2 eq/m3)",
+    "derivado": "nao",
+    "nota": "Idem; nenhum credito pela CBA (residuo entra so com transporte+moagem)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (77 mil car.); sem credito de nenhum tipo."
+ },
+ {
+  "row_id": 2599,
+  "pares": [
+   {
+    "sheet_row": 613,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "biogenico"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 685.7,
+    "co2_com_desconto": 684.6,
+    "citacao": "Tab.2 p.6: Total 684,6 = Fossil 638,4 + Biogenic 46,8 + land transformation 0,5 + 'CO2 uptake' -1,1 (GHG Protocol, SimaPro). Bruto = 684,6 + 1,1 = 685,7",
+    "derivado": "sim",
+    "nota": "Credito minusculo (-1,1 kg, 0,16%): 'CO2 uptake' do metodo GHG Protocol (absorcao de CO2 biogenico em processos de fundo do Ecoinvent), nao carbonatacao do material. Nota: nas misturas GCP o 'uptake' e +0,5 (positivo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo curto (10 p.) lido por inteiro; unica parcela negativa e a linha 'CO2 uptake' da Tab.2."
+ },
+ {
+  "row_id": 2606,
+  "pares": [
+   {
+    "sheet_row": 5,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 379.4,
+    "co2_com_desconto": null,
+    "citacao": "Sec.6.2 p.13 (0,162 kgCO2e/kg = 75,6 kg / 465 kg da Fase B, Tab.5 e Tab.11) x 2342 kg/m3 (Tab.2)",
+    "derivado": "sim",
+    "nota": "Sem creditos (cradle-to-site, GaBi). O valor da fase B inclui energia de mistura e transporte das materias-primas; residuos reaproveitados como blocos sem credito. Conversao ja gravada mantida."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido por inteiro (16 p.)."
+ },
+ {
+  "row_id": 2608,
+  "pares": [
+   {
+    "sheet_row": 139,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1100,
+    "co2_com_desconto": null,
+    "citacao": "Fig.16a p.18 (radar, eixo x10^2 kg CO2 eq), Tab.13 (Ecoinvent cut-off)",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate, modelo cut-off, sem creditos para a areia reciclada; texto p.17 diz RS-U-20 6% menor que NS-U-20 em alteracoes climaticas (1100/1170 = -6%, coerente)."
+   },
+   {
+    "sheet_row": 140,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1170,
+    "co2_com_desconto": null,
+    "citacao": "Fig.16a p.18",
+    "derivado": "sim",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido; figura do radar nao re-renderizada (valores ja lidos por pixel numa revisao anterior e coerentes com os 6% do texto)."
+ },
+ {
+  "row_id": 2611,
+  "pares": [
+   {
+    "sheet_row": 88,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 365.0,
+    "co2_com_desconto": 364.185,
+    "citacao": "Eq.(5) p.10 (renderizada): OPC CO2-E = 0,8077 mOPC + 0,046 mC + 0,014 mF + 0,00438 mconcrete - yCRAW x CaO + 0,9642x; Eq.(3) e Tab.7 (y=6 mm, C=355 kg, CaO 65%, R 75%, A=1 m2, W 0,786); Tab.14 p.15 (total OC); Fig.8 p.14 mostra a barra 'Carbonization' negativa; bruto = 364,185 + 0,816",
+    "derivado": "sim",
+    "nota": "O total da Tab.14 ja desconta a carbonatacao (Eq.5 com sinal menos, confirmado na pagina renderizada). Absorcao = 0,006 m x 355 x 0,65 x 0,75 x 1 x 0,786 = 0,816 kg CO2 (a Eq.3 so e plausivel com y em metros; com y em mm daria 816 kg, absurdo; o artigo diz que a carbonatacao 'has little impact... small order of magnitude'). O mesmo termo (C fixo = 355 kg da Tab.7) aplica-se a OPC-A/B/C. Bruto = gravado + 0,82 (derivado, depende da hipotese de unidade). Fronteira inclui construcao, demolicao e reciclagem (Tab.9). Traco OPC compilado da literatura (Tab.2)."
+   },
+   {
+    "sheet_row": 91,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 352.31,
+    "co2_com_desconto": 351.496,
+    "citacao": "Eq.(5) p.10 (renderizada): OPC CO2-E = 0,8077 mOPC + 0,046 mC + 0,014 mF + 0,00438 mconcrete - yCRAW x CaO + 0,9642x; Eq.(3) e Tab.7 (y=6 mm, C=355 kg, CaO 65%, R 75%, A=1 m2, W 0,786); Tab.14 p.15 (total OC); Fig.8 p.14 mostra a barra 'Carbonization' negativa; bruto = 351,496 + 0,816",
+    "derivado": "sim",
+    "nota": "O total da Tab.14 ja desconta a carbonatacao (Eq.5 com sinal menos, confirmado na pagina renderizada). Absorcao = 0,006 m x 355 x 0,65 x 0,75 x 1 x 0,786 = 0,816 kg CO2 (a Eq.3 so e plausivel com y em metros; com y em mm daria 816 kg, absurdo; o artigo diz que a carbonatacao 'has little impact... small order of magnitude'). O mesmo termo (C fixo = 355 kg da Tab.7) aplica-se a OPC-A/B/C. Bruto = gravado + 0,82 (derivado, depende da hipotese de unidade). Fronteira inclui construcao, demolicao e reciclagem (Tab.9). Traco OPC compilado da literatura (Tab.2)."
+   },
+   {
+    "sheet_row": 94,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 375.9,
+    "co2_com_desconto": 375.088,
+    "citacao": "Eq.(5) p.10 (renderizada): OPC CO2-E = 0,8077 mOPC + 0,046 mC + 0,014 mF + 0,00438 mconcrete - yCRAW x CaO + 0,9642x; Eq.(3) e Tab.7 (y=6 mm, C=355 kg, CaO 65%, R 75%, A=1 m2, W 0,786); Tab.14 p.15 (total OC); Fig.8 p.14 mostra a barra 'Carbonization' negativa; bruto = 375,088 + 0,816",
+    "derivado": "sim",
+    "nota": "O total da Tab.14 ja desconta a carbonatacao (Eq.5 com sinal menos, confirmado na pagina renderizada). Absorcao = 0,006 m x 355 x 0,65 x 0,75 x 1 x 0,786 = 0,816 kg CO2 (a Eq.3 so e plausivel com y em metros; com y em mm daria 816 kg, absurdo; o artigo diz que a carbonatacao 'has little impact... small order of magnitude'). O mesmo termo (C fixo = 355 kg da Tab.7) aplica-se a OPC-A/B/C. Bruto = gravado + 0,82 (derivado, depende da hipotese de unidade). Fronteira inclui construcao, demolicao e reciclagem (Tab.9). Traco OPC compilado da literatura (Tab.2)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (106 mil car.) + pp.10 e 13-14 renderizadas. 'Net cost' do artigo e so custo, nao CO2."
+ },
+ {
+  "row_id": 2624,
+  "pares": [
+   {
+    "sheet_row": 115,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 478.3,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 p.8 (GWP 1 m3 C30/37, AIE4B)",
+    "derivado": "nao",
+    "nota": "Os creditos do artigo (cenario de reciclagem/replantacao, 155,0 -> 72,9) e os 'carbon credits' de custo aplicam-se SO ao CLT; o betao C30/37 tem um unico valor sem desconto. O custo do betao inclui malha de aco, mas nao ha indicacao de que o GWP a inclua."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 2641,
+  "pares": [
+   {
+    "sheet_row": 629,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 525.0,
+    "co2_com_desconto": 505.3,
+    "citacao": "Tab.5 p.7: A1-3 105.528 + A4 27.297 + A5 0 = 132.825 kg CO2e; B1 (1.a vida, 57 anos, EN 16757) -4.973 kg CO2; C reciclagem -1.264 (reuso/armazenamento -129); MaxCarb -27.866 (potencial, nao aplicado); Sec.4.2: 253 m3, 19,66 kg CO2/m3 de absorcao. Com desconto = (132.825 - 4.973)/253 = 505,3",
+    "derivado": "sim",
+    "nota": "O artigo nao publica um total liquido; apresenta a absorcao por carbonatacao (B1) ao lado do EC A1-5. Usei so B1 (realizada); com B1 + C reciclagem: (132.825-4.973-1.264)/253 = 500,3. MaxCarb e potencial teorico (modulo D) e os autores dizem para nao o subtrair. ATENCAO: os fatores Boverket sao de produtos pre-fabricados 'inclusive of reinforcement' (Tab.2) -> CO2 inclui aco (familia concreto_armado). Valores genericos 'typical' Boverket, nao do betao de 1967."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de conferencia (10 p.) lido por inteiro."
+ },
+ {
+  "row_id": 2650,
+  "pares": [
+   {
+    "sheet_row": 630,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 525.8,
+    "co2_com_desconto": 506.6,
+    "citacao": "Tab.6 p.16: A1-3 306.679,4 + A4-5 79.278,5 = 385.957,9 kg CO2e; B1 1.a vida EN 16757 -14.105,1 (contextual -3.953,8); C3 reciclagem -3.670,3; armazenamento -366,4/-102,7; B1 2.a vida -5.123/-1.436; MaxCarb -80.930,1; Tab.2: 734,06 m3. Com desconto = (385.957,9 - 14.105,1)/734,06 = 506,6",
+    "derivado": "sim",
+    "nota": "Nao ha total liquido publicado. Alternativas: B1 contextual/medida -> (385.957,9-3.953,8)/734,06 = 520,4; B1 EN 16757 + C3 reciclagem -> 501,6. Escolhi B1 EN 16757 por paralelismo com a 2641 (mesmo edificio, mesma norma). MaxCarb e potencial latente que os autores dizem nao subtrair. Fatores Boverket de pre-fabricados armados (incluem aco; 'Precast reinforced concrete' na Tab.2) -> familia concreto_armado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (118 mil car.), incl. Sec.4.5 (alocacoes cut-off/50:50/EoL, que nao mudam o EC A1-5 do edificio novo)."
+ },
+ {
+  "row_id": 2653,
+  "pares": [
+   {
+    "sheet_row": 116,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 101.7,
+    "co2_com_desconto": -110.8,
+    "citacao": "Texto p.7 (absorcao 8,5 kg CO2/UF no processo de carbonatacao; saldos -1,09/-1,96/-1,36); Tab.3; Fig.5 p.7 renderizada (GWP100: brutos S1 ~32%, S2 ~22%, S3 ~28% do PC=100%; absorcao ~-67%); UF = 50 blocos = 0,04 m3; S1: 8,5/2,09 = 4,067 kg/UF -> 101,7 kg/m3",
+    "derivado": "sim",
+    "nota": "O gravado e o saldo liquido (emissoes - CO2 mineralizado no bloco por carbonatacao acelerada com escoria). Bruto pela mesma reconstrucao da co2_conversao: bruto/UF = 8,5/(1-r) kg, /0,04 m3. Fig.5 confirmada visualmente (coerente: PC ~12,7 kg/UF; 32% x 12,7 = 4,07). Tipo 'carbonatacao' = mineralizacao/cura com CO2."
+   },
+   {
+    "sheet_row": 117,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 71.8,
+    "co2_com_desconto": -140.7,
+    "citacao": "Texto p.7 (absorcao 8,5 kg CO2/UF no processo de carbonatacao; saldos -1,09/-1,96/-1,36); Tab.3; Fig.5 p.7 renderizada (GWP100: brutos S1 ~32%, S2 ~22%, S3 ~28% do PC=100%; absorcao ~-67%); UF = 50 blocos = 0,04 m3; S2: 8,5/2,96 = 2,872 kg/UF -> 71,8 kg/m3",
+    "derivado": "sim",
+    "nota": "O gravado e o saldo liquido (emissoes - CO2 mineralizado no bloco por carbonatacao acelerada com escoria). Bruto pela mesma reconstrucao da co2_conversao: bruto/UF = 8,5/(1-r) kg, /0,04 m3. Fig.5 confirmada visualmente (coerente: PC ~12,7 kg/UF; 32% x 12,7 = 4,07). Tipo 'carbonatacao' = mineralizacao/cura com CO2."
+   },
+   {
+    "sheet_row": 118,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 90.0,
+    "co2_com_desconto": -122.4,
+    "citacao": "Texto p.7 (absorcao 8,5 kg CO2/UF no processo de carbonatacao; saldos -1,09/-1,96/-1,36); Tab.3; Fig.5 p.7 renderizada (GWP100: brutos S1 ~32%, S2 ~22%, S3 ~28% do PC=100%; absorcao ~-67%); UF = 50 blocos = 0,04 m3; S3: 8,5/2,36 = 3,602 kg/UF -> 90,0 kg/m3",
+    "derivado": "sim",
+    "nota": "O gravado e o saldo liquido (emissoes - CO2 mineralizado no bloco por carbonatacao acelerada com escoria). Bruto pela mesma reconstrucao da co2_conversao: bruto/UF = 8,5/(1-r) kg, /0,04 m3. Fig.5 confirmada visualmente (coerente: PC ~12,7 kg/UF; 32% x 12,7 = 4,07). Tipo 'carbonatacao' = mineralizacao/cura com CO2."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido + Fig.5 renderizada."
+ },
+ {
+  "row_id": 2658,
+  "pares": [
+   {
+    "sheet_row": 631,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 420,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2a p.9 (barra TOTAL REF1-A ~0,42 kg/L); Tab.7 sem linhas de beneficio para REF1",
+    "derivado": "sim",
+    "nota": "Referencia com agregado natural: sem creditos."
+   },
+   {
+    "sheet_row": 632,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 418.0,
+    "co2_com_desconto": 310,
+    "citacao": "Fig.2a p.9 (TOTAL DELTA-A ~0,31; barra 'Benefits treatment' ~-0,105); Tab.7 p.11: Benefits waste plastic -0,10558 + Benefits transports -0,00238 = -0,10796 kg/L; bruto = 0,310 + 0,108 = 0,418 kg/L -> 418 kg/m3 (coerente com 34% do texto: 0,105/0,31)",
+    "derivado": "sim",
+    "nota": "A barra TOTAL da Fig.2 ja inclui o credito 'Benefits treatment' (aterro evitado do residuo); o texto da Sec.4.1 diz que esse beneficio reduz o GWP em 34% (DELTA, cenario A) e 8% (HP, A). Credito = medias Monte Carlo da Tab.7/8 (beneficio aterro de plastico + transporte evitado). Valores por litro x 1000. DU = 1 L de argamassa, A1-A5 (A4 50 km). Note-se que sem credito DELTA (418) ~ REF1 (420): a reducao de 26% vem quase toda do aterro evitado."
+   },
+   {
+    "sheet_row": 633,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 420,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2b p.9 (TOTAL REF2-A ~0,42 kg/L); Tab.8 sem beneficios para REF2",
+    "derivado": "sim",
+    "nota": "Sem creditos."
+   },
+   {
+    "sheet_row": 634,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carga_evitada"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 420.2,
+    "co2_com_desconto": 385,
+    "citacao": "Fig.2b p.9 (TOTAL HP-A ~0,385; 'Benefits treatment' ~-0,035); Tab.8 p.12: -0,034873 - 0,000278 = -0,03515 kg/L; bruto = 0,385 + 0,035 = 0,420 kg/L -> 420,2 kg/m3 (coerente com os 8% do texto)",
+    "derivado": "sim",
+    "nota": "A barra TOTAL da Fig.2 ja inclui o credito 'Benefits treatment' (aterro evitado do residuo); o texto da Sec.4.1 diz que esse beneficio reduz o GWP em 34% (DELTA, cenario A) e 8% (HP, A). Credito = medias Monte Carlo da Tab.7/8 (beneficio aterro de plastico + transporte evitado). Valores por litro x 1000. DU = 1 L de argamassa, A1-A5 (A4 50 km)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido + Fig.2 renderizada (p.9)."
+ }
+]

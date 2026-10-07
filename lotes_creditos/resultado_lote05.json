@@ -1,0 +1,296 @@
+[
+ {
+  "row_id": 2758,
+  "pares": [
+   {
+    "sheet_row": 208,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 420,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (factor 4,20x10^2 kg CO2-eq/m3, KLCI DB); Tab.4 p.8 70.043,40 kg / 166,77 m3",
+    "derivado": "nao",
+    "nota": "Fronteira materias-primas a pre-operacao (ISO 14044/21930); sem fim de vida, sem creditos."
+   },
+   {
+    "sheet_row": 209,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 420,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5; Tab.5 p.8 75.381,60 kg / 179,48 m3",
+    "derivado": "nao",
+    "nota": "Idem; sem creditos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "ACV do berco a pre-operacao; nenhum credito, carbonatacao ou modulo D."
+ },
+ {
+  "row_id": 2759,
+  "pares": [
+   {
+    "sheet_row": 210,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 420,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 (factor 420); Tab.6 142.426 kg / Tab.7 339,11 m3",
+    "derivado": "nao",
+    "nota": "Fase de construcao (materiais, transporte, equipamento, residuos); sem creditos. O \"negative contributor\" da p.~12 refere-se a variacao de emissoes do equipamento entre sistemas, nao a credito."
+   },
+   {
+    "sheet_row": 211,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 420,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2; Tab.6 154.135 kg / Tab.7 366,99 m3",
+    "derivado": "nao",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 2760,
+  "pares": [
+   {
+    "sheet_row": 212,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 432,
+    "co2_com_desconto": null,
+    "citacao": "Tab.8 p.11 (1.631.735 kg) / (Tab.7 0,28 m3/m2 x 13.487 m2); Tab.7 120,9 kg/m2 / 0,28 = 431,8",
+    "derivado": "nao",
+    "nota": "Fronteira E1-E3 (materiais, transporte, equipamento); cofragens reutilizadas 7x (reparticao de carga, nao credito). Diferenca 432 vs factor 420 vem do arredondamento de m3/m2 na Tab.7."
+   },
+   {
+    "sheet_row": 213,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 429.4,
+    "co2_com_desconto": null,
+    "citacao": "Tab.8 (1.679.253 kg) / (0,29 x 13.487)",
+    "derivado": "nao",
+    "nota": "Idem."
+   },
+   {
+    "sheet_row": 214,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 427,
+    "co2_com_desconto": null,
+    "citacao": "Tab.8 (1.382.080 kg) / (0,24 x 13.487)",
+    "derivado": "nao",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos; Tabela 6 \"reducao\" = diferenca entre sistemas, nao credito."
+ },
+ {
+  "row_id": 2765,
+  "pares": [
+   {
+    "sheet_row": 216,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 352.65,
+    "co2_com_desconto": null,
+    "citacao": "Tab.7 p.13: Cenario 1 GWP 561,5 cimento + 5,9 NA + 3,9 areia + 73,6 aterro + 48,6 transporte + 4,8 diesel + 7,0 electricidade = 705,3 kg/2 m3 (Tab.8); /2 = 352,65",
+    "derivado": "nao",
+    "nota": "Cenario 1 = 2 elementos NAC ambos para aterro; sem carga evitada nem modulo D (Ecoinvent, sistema aberto). A reciclagem dos cenarios 2-4 entra como menor consumo de agregado/aterro, nao como credito. O gravado inclui aterro (73,6) e transporte ao aterro - fronteira mais larga que A1-A3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos no cenario gravado."
+ },
+ {
+  "row_id": 2766,
+  "pares": [
+   {
+    "sheet_row": 220,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 477.4,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 p.9 (A1-A3 20,1 kg) x 0,95 (Fig.3) / Tab.2 0,040 m3",
+    "derivado": "sim",
+    "nota": "Fronteira A1-A3 + A5, EPD EN 15804+A1 e Ecoinvent cut-off; uso e fim de vida explicitamente excluidos; sem modulo D. Derivado = fraccao lida no grafico (registo anterior)."
+   },
+   {
+    "sheet_row": 221,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 483.1,
+    "co2_com_desconto": null,
+    "citacao": "Tab.3 (40,6 kg) x 0,94 (Fig.4) / 0,079 m3",
+    "derivado": "sim",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 2769,
+  "pares": [
+   {
+    "sheet_row": 700,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 521.5,
+    "citacao": "Tab.2 p.24 GWP cantilever 4 m 907,43 kg CO2-eq/m linear (media Monte Carlo, ciclo de vida completo: producao, construcao, uso com carbonatacao 50 anos, fim de vida com britagem e carbonatacao do betao britado); /1,74 m3 (Tab.1) = 521,5. Texto (sec.3.1 e Conclusoes): carbonatacao reduz a alteracao climatica em -9,6% a -12,4% nos muros cantilever (4-6 m), sem valor por altura.",
+    "derivado": "nao",
+    "nota": "Bruto nao recuperavel: o credito so e dado como faixa percentual para 4-6 m (nao o valor a 4 m) e a Eq.3 (fixacao = 1,608*A) depende da area exposta, nao impressa; a Fig.11 e do impacto global (endpoint), nao do GWP. Faixa indicativa se se aplicar -9,6..-12,4% ao total: bruto ~571-586 kg/m3 (nao gravar). ALERTA: o 907,43 e o GWP do MURO INTEIRO (armadura 100 kg, cofragem de contraplacado, escavacao, aterro, demolicao, reciclagem) dividido pelo volume de betao - nao e CO2 so do betao; inclui aco (familia concreto_armado)."
+   },
+   {
+    "sheet_row": 701,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": null,
+    "co2_com_desconto": 213.7,
+    "citacao": "Tab.2 p.24 GWP gravity 4 m 1.025,58 kg/m linear (liquido de carbonatacao em uso e fim de vida); /4,8 m3 = 213,7. Texto: carbonatacao reduz -17,5% a -33,8% nos muros de gravidade (1-6 m). Fig.11: fim de vida negativo no muro de gravidade a 4 m.",
+    "derivado": "nao",
+    "nota": "Bruto nao recuperavel pelo mesmo motivo (faixa 1-6 m sem valor a 4 m). Faixa indicativa: ~251-286 kg/m3 (nao gravar). ALERTA: gravado = GWP do muro inteiro (cofragem, escavacao, aterro, demolicao) / volume de betao, nao so o betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Unico artigo do lote com credito: carbonatacao (uso 50 anos via Lagerblad + betao britado no fim de vida). Valores gravados sao liquidos. Fig.6/11 vistas renderizadas."
+ },
+ {
+  "row_id": 2771,
+  "pares": [
+   {
+    "sheet_row": 222,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 672,
+    "co2_com_desconto": null,
+    "citacao": "Fig.13 p.15 (43.700 kg, Alt.11) / Tab.4 65 m3",
+    "derivado": "sim",
+    "nota": "Fronteira: extraccao ate construcao da fundacao; uso e fim de vida excluidos explicitamente (p.7); Ecoinvent 3.5/Idemat. Sem creditos. ALERTA: 43.700 kg e o GWP da fundacao inteira (aco, gasoleo das estacas, escavacao, cofragem, transporte) / volume de betao - nao e so o betao; e classes mistas C20/25 + C40/50."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 2782,
+  "pares": [
+   {
+    "sheet_row": 702,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 134.9,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2c p.5 (leitura por pixel, registo anterior) / espessura Tab.1",
+    "derivado": "sim",
+    "nota": "Berco-a-porta (A1-A3), GaBi; agregado reciclado modelado com a carga do fim de vida do edificio antigo (demolicao, transporte, britagem) ate A1-A3, sem credito de carga evitada nem modulo D."
+   },
+   {
+    "sheet_row": 1887,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 230.5,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2c p.5 (leitura por pixel, registo anterior) / espessura Tab.1",
+    "derivado": "sim",
+    "nota": "Berco-a-porta (A1-A3), GaBi; agregado reciclado modelado com a carga do fim de vida do edificio antigo (demolicao, transporte, britagem) ate A1-A3, sem credito de carga evitada nem modulo D."
+   },
+   {
+    "sheet_row": 1888,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 137.9,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2c p.5 (leitura por pixel, registo anterior) / espessura Tab.1",
+    "derivado": "sim",
+    "nota": "Berco-a-porta (A1-A3), GaBi; agregado reciclado modelado com a carga do fim de vida do edificio antigo (demolicao, transporte, britagem) ate A1-A3, sem credito de carga evitada nem modulo D."
+   },
+   {
+    "sheet_row": 1889,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 232.8,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2c p.5 (leitura por pixel, registo anterior) / espessura Tab.1",
+    "derivado": "sim",
+    "nota": "Berco-a-porta (A1-A3), GaBi; agregado reciclado modelado com a carga do fim de vida do edificio antigo (demolicao, transporte, britagem) ate A1-A3, sem credito de carga evitada nem modulo D."
+   },
+   {
+    "sheet_row": 1890,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 238.2,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2c p.5 (leitura por pixel, registo anterior) / espessura Tab.1",
+    "derivado": "sim",
+    "nota": "Berco-a-porta (A1-A3), GaBi; agregado reciclado modelado com a carga do fim de vida do edificio antigo (demolicao, transporte, britagem) ate A1-A3, sem credito de carga evitada nem modulo D."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos. Texto curto (7 p.) lido na integra."
+ },
+ {
+  "row_id": 2785,
+  "pares": [
+   {
+    "sheet_row": 226,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 494,
+    "co2_com_desconto": null,
+    "citacao": "Tab.8 (p.35 do ficheiro) GWP total A1-A3 4,94x10^2 kg CO2-eq/m3 (maximo)",
+    "derivado": "nao",
+    "nota": "A1-A3, EN 15804+A2, cut-off; carbono biogenico assumido nulo (clima total = fossil); betoes com materias recicladas excluidos. Sem creditos. ALERTA (fora do ambito dos creditos): o par usa o MAXIMO das 1.505 combinacoes com fck 35 - nao e uma mistura especifica."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto do post-print tem sobreposicao de marca de agua que baralha partes (p.21-23 e referencias); seccoes de metodo e Tabela 8 legiveis. Sem creditos."
+ },
+ {
+  "row_id": 2786,
+  "pares": [
+   {
+    "sheet_row": 227,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 248.95,
+    "co2_com_desconto": null,
+    "citacao": "Tab.1 p.7 Global warming 248,95 kg CO2-eq (convencional) por 1 m3 de painel pre-fabricado",
+    "derivado": "nao",
+    "nota": "Berco-a-porta + reciclagem/aterro de residuos de producao com alocacao massica de cargas (sec.2.3); sem carga evitada nem modulo D. ALERTA: o valor e por m3 de PAINEL pre-fabricado (betao 40 MPa 30% FA + gaiola de armadura + cofragem de aco + trabalho humano); a armadura sozinha e ~32% do GWP (Fig.6) - nao e CO2 so do betao, e familia concreto_armado. A linha \"Water consumption\" da Tab.1 repete 248,95/231,39 (gralha do artigo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Sem creditos."
+ }
+]

@@ -1,0 +1,445 @@
+[
+ {
+  "row_id": 4510,
+  "pares": [
+   {
+    "sheet_row": 1476,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 235.5,
+    "co2_com_desconto": null,
+    "citacao": "p.5 sec.2.4.3 (cradle-to-gate implicito, OpenLCA/Ecoinvent 3.9.1, UF 1 m3); p.8 sec.3.3.1: OPC 1010,6 kg CO2-eq/m3 e N8S10 76,7% menor; Tab.4 p.9 so factores positivos por material. Conta (ja gravada): 1010,6 x (1-0,767) = 235,5",
+    "derivado": "sim",
+    "nota": "Nenhum credito: escoria de aco, cinza volante e GGBS entram com factores de producao positivos (Tab.4). O valor e derivado da percentagem (Fig.8 em grafico, nao renderizada); nao ha valor absoluto proprio impresso para N8S10."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (17 pp., incl. referencias); figuras nao renderizadas",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 4512,
+  "pares": [
+   {
+    "sheet_row": 1480,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 487.3,
+    "co2_com_desconto": null,
+    "citacao": "Tab.6 p.18, A1+A2 R0 = 487,3; Tab.4 p.16 factores A1 todos positivos (fRA 1,14 kgCO2eq/t = media de EPD); A3 desprezado",
+    "derivado": "nao",
+    "nota": "Fronteira A1+A2 (A3 desprezado, <cut-off). Sem credito por aterro evitado ou carbonatacao (a carbonatacao so e citada na introducao como tecnica da literatura)."
+   },
+   {
+    "sheet_row": 1482,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 393.8,
+    "co2_com_desconto": null,
+    "citacao": "Tab.6 p.18, A1+A2 R20 = 393,8",
+    "derivado": "nao",
+    "nota": "Idem R0."
+   },
+   {
+    "sheet_row": 1485,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 253.6,
+    "co2_com_desconto": null,
+    "citacao": "Tab.6 p.18, A1+A2 R50 = 253,6",
+    "derivado": "nao",
+    "nota": "Idem R0."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (24 pp.); figuras nao renderizadas",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 4516,
+  "pares": [
+   {
+    "sheet_row": 1486,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1303.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.5.3 p.5 (cradle-to-gate, CML-IA, SimaPro 9.4, UF 1 m3); sec.3.2.1-3.2.3 pp.8-11; Fig.8a p.11 (valor lido ao pixel em sessao anterior, nao re-renderizado agora)",
+    "derivado": "sim",
+    "nota": "Sem credito pela lama dragada nao depositada/aterro evitado: a lama entra so com transporte, moagem e calcinacao; a secagem ao ar foi cortada (cut-off). O texto diz que a SSA contribui 8,1% do GWP (positivo). Nota: 1486 (P-800/2/1) e 2089 (P-800/2/10) tem o mesmo valor 1303,7 - plausivel (moagem quase nula: 0,01 vs 0,15 kWh), mas e leitura grafica."
+   },
+   {
+    "sheet_row": 2089,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1303.7,
+    "co2_com_desconto": null,
+    "citacao": "Idem; Fig.8a p.11 barra P-800/2/10; Tab.8 p.13 (sensibilidade GWP so com parcelas positivas)",
+    "derivado": "sim",
+    "nota": "Idem."
+   },
+   {
+    "sheet_row": 2090,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1246.9,
+    "co2_com_desconto": null,
+    "citacao": "Fig.8a p.11 barra P-20/0/1",
+    "derivado": "sim",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (20 pp., ate as referencias); Fig.8 nao renderizada nesta sessao",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 4518,
+  "pares": [
+   {
+    "sheet_row": 1487,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 475.78,
+    "co2_com_desconto": null,
+    "citacao": "Tab.17 p.19 GWP M-Control 475,78; Tab.16 p.18 factores por tonelada (todos positivos); sec.4.1.1 p.15",
+    "derivado": "nao",
+    "nota": "A fronteira (sec.4.1.1) lista 'avoided production of cement' e 'avoided production of natural aggregates', mas a reconciliacao mostra que isso so significa menos quantidade, nao credito subtraido: M-EcHy = 405x0,8695 + pBBA + pMRA + SNS 1620x1,07e-3 + fabrico ~4,5 = 358,9 (bate). Estranho: a dosagem diz CEM II para M-Control, mas o GWP (e o custo ambiental da Tab.23, 'CEM I 52.5' 66,41 EUR = 0,540 t) foi calculado com CEM I: 540x0,8695+1,7+4,5 = 475,8."
+   },
+   {
+    "sheet_row": 1488,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 358.91,
+    "co2_com_desconto": null,
+    "citacao": "Tab.17 p.19 GWP M-EcHy 358,91",
+    "derivado": "nao",
+    "nota": "Reconciliado sem credito (ver 1487)."
+   },
+   {
+    "sheet_row": 1489,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 360.21,
+    "co2_com_desconto": null,
+    "citacao": "Tab.17 p.19 GWP M-EcHy/20M 360,21",
+    "derivado": "nao",
+    "nota": "Sem credito; inclui adjuvante."
+   },
+   {
+    "sheet_row": 1490,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 258.89,
+    "co2_com_desconto": null,
+    "citacao": "Tab.18 p.20 e texto p.19: C-Control 258,89",
+    "derivado": "nao",
+    "nota": "ATENCAO: nao reconcilia com o proprio inventario: 365 kg CEM II x 0,7999 = 292 kg so do cimento > 258,89 total. Implicaria ~315 kg de CEM II ou factor ~0,69. Nao e credito (C-Control nao tem material reciclado); possivel erro dos autores no traco modelado. O custo ambiental da Tab.25 (CEM II 33,22 EUR = 0,291 t a 114,14 EUR/t) tambem nao bate com 365 kg."
+   },
+   {
+    "sheet_row": 1491,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 229.43,
+    "co2_com_desconto": null,
+    "citacao": "Tab.18 p.20 C-EcHy 229,43",
+    "derivado": "nao",
+    "nota": "Reconciliado sem credito: 256x0,8695=222,6 + pBBA/pMRA 0,37 + agregados ~2,0 + fabrico ~4,5 = 229,4."
+   },
+   {
+    "sheet_row": 1492,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 233.71,
+    "co2_com_desconto": null,
+    "citacao": "Tab.18 p.20 C-EcHy/28M-6B 233,71",
+    "derivado": "nao",
+    "nota": "Reconciliado sem credito: 222,6 + 0,37 + agregados/MRA/BBA ~1,7 + adjuvante 3,8x1,19=4,5 + fabrico ~4,5 = 233,7."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (36 pp.); figuras nao renderizadas",
+  "notas": "'Avoided production' na fronteira e so substituicao de quantidade, confirmado por reconciliacao numerica; C-Control (1490) nao reconcilia com 365 kg de CEM II - possivel erro do artigo."
+ },
+ {
+  "row_id": 4521,
+  "pares": [
+   {
+    "sheet_row": 1494,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 64,
+    "co2_com_desconto": null,
+    "citacao": "Fig.8 p.14 (GWP por m3, valor lido em sessao anterior); fronteira Fig.1 p.6 e Tab.4 p.6-7; coerente com PII 360 d da Fig.10 p.16 (sc10 = 0,9 kgCO2eq/m3/MPa x 74 MPa = 66,6)",
+    "derivado": "sim",
+    "nota": "O vidro e tratado como subproduto (so moagem e transporte) - alocacao de carga zero, nao credito subtraido. Sem carbonatacao nem modulo D. Fig.8 nao re-renderizada nesta sessao."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (23 pp.); figuras nao renderizadas",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 4522,
+  "pares": [
+   {
+    "sheet_row": 1495,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 432.4,
+    "co2_com_desconto": 429.6,
+    "citacao": "Tab.8 p.15: CT = 432,4 (C1+C2+C3+C4+C6), CL = CT - C5 = 429,6, C5 = 2,8 (CO2 absorvido por carbonatacao natural em 50 anos, Eq.8/12, Tab.7 p.15)",
+    "derivado": "nao",
+    "nota": "Fronteira do gravado = CT berco-ao-tumulo do proprio artigo (inclui construcao C4 21,8, demolicao C6a 19,6, transporte C6b 5,2); so producao C1+C2 = 385,8. O 'C' de CL e LCA, nao 'carbonatacao acelerada': a C5 e carbonatacao em servico modelada."
+   },
+   {
+    "sheet_row": 1496,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 400.4,
+    "co2_com_desconto": 396.2,
+    "citacao": "Tab.8 p.15: CT 400,4; C5 4,2; CL 396,2",
+    "derivado": "nao",
+    "nota": "Idem; so producao C1+C2 = 353,8."
+   },
+   {
+    "sheet_row": 1497,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 368.5,
+    "co2_com_desconto": 363.2,
+    "citacao": "Tab.8 p.15: CT 368,5; C5 5,2; CL 363,2 (368,5-5,2 = 363,3, arredondamento do artigo)",
+    "derivado": "nao",
+    "nota": "Idem; so producao C1+C2 = 321,8."
+   },
+   {
+    "sheet_row": 1498,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 397.2,
+    "co2_com_desconto": 390.7,
+    "citacao": "Tab.8 p.15: CT 397,2; C5 6,5; CL 390,7",
+    "derivado": "nao",
+    "nota": "Idem; so producao C1+C2 = 350,6."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (19 pp.); Fig.11 nao renderizada (Tab.8 da todos os numeros)",
+  "notas": "Gravado = CT (bruto). Atencao a fronteira: CT inclui construcao, demolicao e transporte de fim de vida, nao e A1-A3."
+ },
+ {
+  "row_id": 4537,
+  "pares": [
+   {
+    "sheet_row": 1500,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 608.08,
+    "co2_com_desconto": null,
+    "citacao": "Tab.7 p.10: CDWGC60 = 319,04 + 28,72 + 260,32 = 608,08",
+    "derivado": "nao",
+    "nota": "Sem creditos (nem por RCD desviado de aterro)."
+   },
+   {
+    "sheet_row": 1501,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 554.6,
+    "co2_com_desconto": null,
+    "citacao": "Tab.7 p.10: CDWGC20 = 554,60",
+    "derivado": "nao",
+    "nota": "Idem."
+   },
+   {
+    "sheet_row": 1502,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 1191.41,
+    "co2_com_desconto": null,
+    "citacao": "Tab.7 p.10: CDWGP3 = 1191,41",
+    "derivado": "nao",
+    "nota": "Idem."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha (13 pp.); figuras sem relevancia para o CO2",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 4549,
+  "pares": [
+   {
+    "sheet_row": 1504,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 742.69,
+    "co2_com_desconto": null,
+    "citacao": "Fig.2a p.7 (total 742,69, confirmado em auditorias de 2026-08-28/09-06); metodo sec.3.4.1-3.4.2 pp.17-18, Tab.4 p.19",
+    "derivado": "nao",
+    "nota": "O artigo tem credito de carga evitada (borracha sintetica evitada, -1 kg por kg de GWTR, Tab.4 e sec.2.2.1), mas SO nas misturas com borracha (p-RuC, c-RuC). O p-CTR gravado tem areia e nenhum GWTR, logo nenhum credito. Fig.2a nao re-renderizada (descarga do PDF falhou por tamanho)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (24 pp.); Fig.2a nao re-renderizada nesta sessao",
+  "notas": "Credito existe no artigo mas nao se aplica a mistura gravada (p-CTR)."
+ },
+ {
+  "row_id": 4557,
+  "pares": [
+   {
+    "sheet_row": 1506,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 420.9,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Control = 420.9 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   },
+   {
+    "sheet_row": 1507,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 387.3,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Alpha-10 = 387.3 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   },
+   {
+    "sheet_row": 1508,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 383.8,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Beta-10 = 383.8 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   },
+   {
+    "sheet_row": 1509,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 383.1,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Gamma-10 = 383.1 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   },
+   {
+    "sheet_row": 1510,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 353.7,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Alpha-20 = 353.7 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   },
+   {
+    "sheet_row": 1511,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 346.7,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Beta-20 = 346.7 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   },
+   {
+    "sheet_row": 1512,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 345.4,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Gamma-20 = 345.4 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   },
+   {
+    "sheet_row": 1513,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 320.2,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Alpha-30 = 320.2 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   },
+   {
+    "sheet_row": 1514,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 309.7,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Beta-30 = 309.7 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   },
+   {
+    "sheet_row": 1515,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 307.7,
+    "co2_com_desconto": null,
+    "citacao": "Table 10 p.19: Total CO2e Gamma-30 = 307.7 (soma so de parcelas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (PCA LCI + TRACI)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (24 pp.); figuras nao renderizadas (Table 10 da tudo)",
+  "notas": "Sem creditos."
+ },
+ {
+  "row_id": 4560,
+  "pares": [
+   {
+    "sheet_row": 2071,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "carbonatacao"
+    ],
+    "gravado_e": "bruto",
+    "co2_bruto": 525.8,
+    "co2_com_desconto": 428.2,
+    "citacao": "Tab.3 p.10 GWP por m de ponte: fabrico 1838,55; uso e manutencao 1095,77; fim de vida -117,68. Texto p.10: CO2 fixado = -3,84% do uso (-> -42,08) e -254,05% do fim de vida (-> -298,97, betao britado e totalmente carbonatado). Conta: (1838,55 - 42,08 - 298,97)/3,497 = 428,2 kg/m3",
+    "derivado": "sim",
+    "nota": "O gravado e so a fase de fabrico (cradle-to-gate, sem credito) - bruto. O desconto (carbonatacao) e aplicado pelo artigo nas fases de uso e fim de vida, nao no fabrico; o 428,2 mistura fronteiras (fabrico menos CO2 fixado ao longo da vida) e deve ser usado com cuidado. O total do ciclo de vida com tudo seria 3084,49 kg/m = 882,0 kg/m3. Nao ha credito pela reciclagem do aco no fim de vida (71% reciclado, mas nao aparece como parcela negativa); a taxa de 71% no fabrico e conteudo reciclado de entrada. O CO2 de fabrico inclui aco de armadura e de pre-esforco (familia concreto_armado)."
+   }
+  ],
+  "texto_completo_lido": "sim - texto integral lido linha a linha ate as referencias (17 pp.); Figs.9-10 lidas so pelo texto extraido",
+  "notas": "Carbonatacao declarada em uso e fim de vida; gravado (fabrico) e bruto."
+ }
+]

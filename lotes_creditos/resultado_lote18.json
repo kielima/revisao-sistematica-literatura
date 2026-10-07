@@ -1,0 +1,503 @@
+[
+ {
+  "row_id": 3335,
+  "pares": [
+   {
+    "sheet_row": 353,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 314.1,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.1.2.2 p.6 (cinza volante com factor zero; 'negative emission factor' so mencionado como pratica de outras ACV e explicitamente NAO aplicado: 'only the transportation of the fly ash ... is considered due to the end-of-life phase being outside the boundaries'); Tab.9 p.9; volume p.3",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate (ate a central de betao); sem creditos. Valor gravado e derivado por nos (delta Tab.9 + 23% do texto) - nao muda com esta revisao."
+   },
+   {
+    "sheet_row": 354,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 296.1,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.1.2.2 p.6 (cinza volante com factor zero; 'negative emission factor' so mencionado como pratica de outras ACV e explicitamente NAO aplicado: 'only the transportation of the fly ash ... is considered due to the end-of-life phase being outside the boundaries'); Tab.9 p.9; volume p.3",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate (ate a central de betao); sem creditos. Valor gravado e derivado por nos (delta Tab.9 + 23% do texto) - nao muda com esta revisao."
+   },
+   {
+    "sheet_row": 355,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 278.0,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.1.2.2 p.6 (cinza volante com factor zero; 'negative emission factor' so mencionado como pratica de outras ACV e explicitamente NAO aplicado: 'only the transportation of the fly ash ... is considered due to the end-of-life phase being outside the boundaries'); Tab.9 p.9; volume p.3",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate (ate a central de betao); sem creditos. Valor gravado e derivado por nos (delta Tab.9 + 23% do texto) - nao muda com esta revisao."
+   },
+   {
+    "sheet_row": 356,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 241.8,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.1.2.2 p.6 (cinza volante com factor zero; 'negative emission factor' so mencionado como pratica de outras ACV e explicitamente NAO aplicado: 'only the transportation of the fly ash ... is considered due to the end-of-life phase being outside the boundaries'); Tab.9 p.9; volume p.3",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate (ate a central de betao); sem creditos. Valor gravado e derivado por nos (delta Tab.9 + 23% do texto) - nao muda com esta revisao."
+   }
+  ],
+  "texto_completo_lido": "sim - 49.476 caracteres lidos linha a linha (texto, tabelas e referencias); Fig.3 so pelo texto extraido (eixo), nao renderizada",
+  "notas": "Nenhum credito: cinza volante com factor 0 (so transporte), sem carbonatacao nem modulo D."
+ },
+ {
+  "row_id": 3348,
+  "pares": [
+   {
+    "sheet_row": 364,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 413.83,
+    "co2_com_desconto": null,
+    "citacao": "Tab.5 p.13 do ficheiro, coluna 'Control mix' (sem fibra, sem parcela negativa)",
+    "derivado": "nao",
+    "nota": "Controlo sem canhamo: nenhuma parcela negativa."
+   },
+   {
+    "sheet_row": 365,
+    "artigo_declara_desconto": "sim",
+    "tipos_desconto": [
+     "biogenico"
+    ],
+    "gravado_e": "liquido",
+    "co2_bruto": 413.83,
+    "co2_com_desconto": 348.09,
+    "citacao": "Tab.5 p.13 do ficheiro: linha 'Natural Hemp Fibers' factor -1,7300 kg CO2e/kg -> -65,74 kg CO2e/m3; total 348,09. Texto sec.6.2.3 p.12: 25 L de fibra = 38 kg x -1,73 = reducao de 65,74 kg CO2 eq/m3 (16%); cenario alternativo -2,9 kg/kg -> reducao max. 28% (sem valor absoluto impresso). Bruto = 348,09 + 65,74 = 413,83 (todas as outras parcelas da Tab.5 sao iguais as do controlo)",
+    "derivado": "sim",
+    "nota": "O gravado (348,09) JA inclui o sequestro biogenico do canhamo (-65,74). Bruto 413,83 = controlo (mesmas parcelas). Factor -1,73 kg CO2e/kg 'conservador' citado de [134]; a reducao de 28% com -2,9 kg/kg e cenario de sensibilidade sem total impresso (daria ~413,83-110,2=303,6, calculo nosso, nao gravar)."
+   }
+  ],
+  "texto_completo_lido": "parcial - corpo do artigo (caracteres 0-80.000 de 122.285: secs.1-7, Tabs.1-6, Figs.10-17 pelo texto) lido linha a linha; lista de referencias [15]-[143] (caracteres 80.000-122.285) nao lida linha a linha, so verificada por pesquisa de termos (sem tabelas/figuras la dentro)",
+  "notas": "Credito biogenico declarado e aplicado no valor gravado da mistura com canhamo. Nota lateral: a conclusao diz '28% decrease at 28 days' na resistencia, contraditorio com a Fig.10 (31,8 vs 32,9 MPa); nao afecta o CO2."
+ },
+ {
+  "row_id": 3354,
+  "pares": [
+   {
+    "sheet_row": 368,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 175,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (factores positivos: CEMI 930, NHL5 635, GGBS 52, SF 14 kgCO2/t...), Tab.12 p.7 coluna EC; Sec.1.3/2.2 (so impactos de processamento secundario de GGBS/SF); Fig.3 (sensibilidade de alocacao, caso 1 = impacto zero, nao negativo)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate de materiais; sem carbonatacao da cal (NHL) nem creditos. A sensibilidade da Fig.3 (alocacao massica/economica) so AUMENTA o valor; nao e desconto."
+   },
+   {
+    "sheet_row": 369,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 135,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (factores positivos: CEMI 930, NHL5 635, GGBS 52, SF 14 kgCO2/t...), Tab.12 p.7 coluna EC; Sec.1.3/2.2 (so impactos de processamento secundario de GGBS/SF); Fig.3 (sensibilidade de alocacao, caso 1 = impacto zero, nao negativo)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate de materiais; sem carbonatacao da cal (NHL) nem creditos. A sensibilidade da Fig.3 (alocacao massica/economica) so AUMENTA o valor; nao e desconto."
+   },
+   {
+    "sheet_row": 370,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 95,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (factores positivos: CEMI 930, NHL5 635, GGBS 52, SF 14 kgCO2/t...), Tab.12 p.7 coluna EC; Sec.1.3/2.2 (so impactos de processamento secundario de GGBS/SF); Fig.3 (sensibilidade de alocacao, caso 1 = impacto zero, nao negativo)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate de materiais; sem carbonatacao da cal (NHL) nem creditos. A sensibilidade da Fig.3 (alocacao massica/economica) so AUMENTA o valor; nao e desconto."
+   },
+   {
+    "sheet_row": 371,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 265,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (factores positivos: CEMI 930, NHL5 635, GGBS 52, SF 14 kgCO2/t...), Tab.12 p.7 coluna EC; Sec.1.3/2.2 (so impactos de processamento secundario de GGBS/SF); Fig.3 (sensibilidade de alocacao, caso 1 = impacto zero, nao negativo)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate de materiais; sem carbonatacao da cal (NHL) nem creditos. A sensibilidade da Fig.3 (alocacao massica/economica) so AUMENTA o valor; nao e desconto."
+   },
+   {
+    "sheet_row": 372,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 160,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (factores positivos: CEMI 930, NHL5 635, GGBS 52, SF 14 kgCO2/t...), Tab.12 p.7 coluna EC; Sec.1.3/2.2 (so impactos de processamento secundario de GGBS/SF); Fig.3 (sensibilidade de alocacao, caso 1 = impacto zero, nao negativo)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate de materiais; sem carbonatacao da cal (NHL) nem creditos. A sensibilidade da Fig.3 (alocacao massica/economica) so AUMENTA o valor; nao e desconto."
+   },
+   {
+    "sheet_row": 373,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 195,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (factores positivos: CEMI 930, NHL5 635, GGBS 52, SF 14 kgCO2/t...), Tab.12 p.7 coluna EC; Sec.1.3/2.2 (so impactos de processamento secundario de GGBS/SF); Fig.3 (sensibilidade de alocacao, caso 1 = impacto zero, nao negativo)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate de materiais; sem carbonatacao da cal (NHL) nem creditos. A sensibilidade da Fig.3 (alocacao massica/economica) so AUMENTA o valor; nao e desconto."
+   },
+   {
+    "sheet_row": 374,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 345,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (factores positivos: CEMI 930, NHL5 635, GGBS 52, SF 14 kgCO2/t...), Tab.12 p.7 coluna EC; Sec.1.3/2.2 (so impactos de processamento secundario de GGBS/SF); Fig.3 (sensibilidade de alocacao, caso 1 = impacto zero, nao negativo)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate de materiais; sem carbonatacao da cal (NHL) nem creditos. A sensibilidade da Fig.3 (alocacao massica/economica) so AUMENTA o valor; nao e desconto."
+   },
+   {
+    "sheet_row": 375,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 235,
+    "co2_com_desconto": null,
+    "citacao": "Tab.2 p.5 (factores positivos: CEMI 930, NHL5 635, GGBS 52, SF 14 kgCO2/t...), Tab.12 p.7 coluna EC; Sec.1.3/2.2 (so impactos de processamento secundario de GGBS/SF); Fig.3 (sensibilidade de alocacao, caso 1 = impacto zero, nao negativo)",
+    "derivado": "nao",
+    "nota": "Cradle-to-gate de materiais; sem carbonatacao da cal (NHL) nem creditos. A sensibilidade da Fig.3 (alocacao massica/economica) so AUMENTA o valor; nao e desconto."
+   }
+  ],
+  "texto_completo_lido": "parcial - corpo (caracteres 0-66.000 de 84.275: secs.1-4, Tabs.1-12) lido linha a linha; lista de referencias (66.000-84.275) nao lida linha a linha. Fig.3 (barras de sensibilidade) nao renderizada - so a legenda e o texto que a descreve",
+  "notas": "Nenhum credito. Para a mistura (IV) o EC com/sem SP e igual (195)."
+ },
+ {
+  "row_id": 3356,
+  "pares": [
+   {
+    "sheet_row": 1996,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 693,
+    "co2_com_desconto": null,
+    "citacao": "Sec.1 p.2 (carbonatacao 'not taken into account'); sec.3.1.1 cradle-to-gate; Tab.10 p.8 (GWP B300 6,93E+02, FA 5,20E+02); cinza de carvao com alocacao economica 0,03% (positiva)",
+    "derivado": "nao",
+    "nota": "Sem creditos; carbonatacao explicitamente excluida."
+   },
+   {
+    "sheet_row": 1997,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 520,
+    "co2_com_desconto": null,
+    "citacao": "Sec.1 p.2 (carbonatacao 'not taken into account'); sec.3.1.1 cradle-to-gate; Tab.10 p.8 (GWP B300 6,93E+02, FA 5,20E+02); cinza de carvao com alocacao economica 0,03% (positiva)",
+    "derivado": "nao",
+    "nota": "Sem creditos; cinza volante com impacto alocado (positivo)."
+   }
+  ],
+  "texto_completo_lido": "sim - 65.949 caracteres lidos linha a linha (texto, Tabs.1-11 e referencias); Figs.3-5 so pelo texto/legendas",
+  "notas": "Nenhum credito."
+ },
+ {
+  "row_id": 3359,
+  "pares": [
+   {
+    "sheet_row": 1998,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 248,
+    "co2_com_desconto": null,
+    "citacao": "Tab.6 p.11 (factor de impacto do betao 2,48E+02 kg CO2-eq/m3); sec.2.6 ('Recycling of the concrete is not considered ... landfill'); sec.3.5/Tab.7 (credito de reciclagem so do aco)",
+    "derivado": "nao",
+    "nota": "O artigo aplica credito de reciclagem (70%) apenas ao ACO (Tab.7, -0,147 kg CO2/kg por 10%); o factor do betao (248) nao tem credito nem carbonatacao."
+   }
+  ],
+  "texto_completo_lido": "parcial - corpo e tabelas (caracteres 0-48.000 de 56.673) lidos linha a linha; referencias (48.000-56.673) so pesquisadas por termos. Figs.5-13 nao renderizadas (o valor gravado e da Tab.6)",
+  "notas": "Sem desconto no betao."
+ },
+ {
+  "row_id": 3360,
+  "pares": [
+   {
+    "sheet_row": 394,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 345,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.2-3.3 p.5-6 (345 e 291 kg CO2-eq/m3 impressos; 43% e 32% de reducao vs OPC 50 MPa); sec.4 ('cradle-to-gate, so end-of-life phase and recycling are not included'); sensibilidade Fig.6 so altera a alocacao da cinza (0 a positiva)",
+    "derivado": "nao",
+    "nota": "hLCA cradle-to-shelf, sem creditos. Cenario de sensibilidade sem alocacao da cinza (236/245 kg) e alternativa de alocacao, nao desconto."
+   },
+   {
+    "sheet_row": 395,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 291,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.2-3.3 p.5-6 (345 e 291 kg CO2-eq/m3 impressos; 43% e 32% de reducao vs OPC 50 MPa); sec.4 ('cradle-to-gate, so end-of-life phase and recycling are not included'); sensibilidade Fig.6 so altera a alocacao da cinza (0 a positiva)",
+    "derivado": "nao",
+    "nota": "Sem creditos."
+   },
+   {
+    "sheet_row": 396,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 508.9,
+    "co2_com_desconto": null,
+    "citacao": "Sec.3.2-3.3 p.5-6 (345 e 291 kg CO2-eq/m3 impressos; 43% e 32% de reducao vs OPC 50 MPa); sec.4 ('cradle-to-gate, so end-of-life phase and recycling are not included'); sensibilidade Fig.6 so altera a alocacao da cinza (0 a positiva); 508,9 nao esta impresso no texto: 291/(1-0,43)=510,5 e 345/(1-0,32)=507,4 (provavelmente lido na Fig.5)",
+    "derivado": "sim",
+    "nota": "Sem creditos. O OPC 50 MPa nao tem valor absoluto no texto extraido; 508,9 vem de figura ou das percentagens - verificar se for preciso."
+   }
+  ],
+  "texto_completo_lido": "parcial - corpo (caracteres 0-48.000 de 69.193) lido linha a linha; referencias so pesquisadas por termos. Figs.2-6 nao renderizadas",
+  "notas": "Nenhum credito."
+ },
+ {
+  "row_id": 3363,
+  "pares": [
+   {
+    "sheet_row": 376,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 260.4,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.3 p.8 ('The system expansion with substitution method was not used'; abordagem atribucional com alocacao; EoL omitido); Tab.12 p.12 (GWP por FU, Cenario 2); Tab.13 (contribuicoes todas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (cargas evitadas de aterro/RCA explicitamente nao contadas). Valor por m3 = GWP Cen.2 / FU (1,0 ou 1,1 m3), igual ao Cenario 1."
+   },
+   {
+    "sheet_row": 377,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 197.1,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.3 p.8 ('The system expansion with substitution method was not used'; abordagem atribucional com alocacao; EoL omitido); Tab.12 p.12 (GWP por FU, Cenario 2); Tab.13 (contribuicoes todas positivas)",
+    "derivado": "sim",
+    "nota": "Sem creditos (cargas evitadas de aterro/RCA explicitamente nao contadas). Valor por m3 = GWP Cen.2 / FU (1,0 ou 1,1 m3), igual ao Cenario 1."
+   },
+   {
+    "sheet_row": 378,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 134.2,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.3 p.8 ('The system expansion with substitution method was not used'; abordagem atribucional com alocacao; EoL omitido); Tab.12 p.12 (GWP por FU, Cenario 2); Tab.13 (contribuicoes todas positivas)",
+    "derivado": "nao",
+    "nota": "Sem creditos (cargas evitadas de aterro/RCA explicitamente nao contadas). Valor por m3 = GWP Cen.2 / FU (1,0 ou 1,1 m3), igual ao Cenario 1."
+   },
+   {
+    "sheet_row": 379,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 266.3,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.3 p.8 ('The system expansion with substitution method was not used'; abordagem atribucional com alocacao; EoL omitido); Tab.12 p.12 (GWP por FU, Cenario 2); Tab.13 (contribuicoes todas positivas)",
+    "derivado": "sim",
+    "nota": "Sem creditos (cargas evitadas de aterro/RCA explicitamente nao contadas). Valor por m3 = GWP Cen.2 / FU (1,0 ou 1,1 m3), igual ao Cenario 1."
+   },
+   {
+    "sheet_row": 380,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 196.5,
+    "co2_com_desconto": null,
+    "citacao": "Sec.4.3 p.8 ('The system expansion with substitution method was not used'; abordagem atribucional com alocacao; EoL omitido); Tab.12 p.12 (GWP por FU, Cenario 2); Tab.13 (contribuicoes todas positivas)",
+    "derivado": "sim",
+    "nota": "Sem creditos (cargas evitadas de aterro/RCA explicitamente nao contadas). Valor por m3 = GWP Cen.2 / FU (1,0 ou 1,1 m3), igual ao Cenario 1."
+   }
+  ],
+  "texto_completo_lido": "parcial - corpo, Tabs.1-16 (caracteres 0-82.000 de 103.900) lidos linha a linha; lista de referencias (82.000-103.900) nao lida linha a linha. Figs.7-12 nao renderizadas (o gravado e da Tab.12)",
+  "notas": "Artigo discute que estudos consequenciais dao creditos ao RAC (Knoeri, Turk), mas este estudo NAO os aplica."
+ },
+ {
+  "row_id": 3367,
+  "pares": [
+   {
+    "sheet_row": 397,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 432,
+    "co2_com_desconto": null,
+    "citacao": "Tab.9 p.8 (GWP por kg de cimento: 1,08/1,02/0,86); Tab.8 (inventario so emissoes positivas); cradle-to-gate do cimento",
+    "derivado": "sim",
+    "nota": "Sem creditos; fronteira so cimento (gravado = kg cimento/m3 x factor, calculo ja existente)."
+   },
+   {
+    "sheet_row": 398,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 408,
+    "co2_com_desconto": null,
+    "citacao": "Tab.9 p.8 (GWP por kg de cimento: 1,08/1,02/0,86); Tab.8 (inventario so emissoes positivas); cradle-to-gate do cimento",
+    "derivado": "sim",
+    "nota": "Sem creditos; fronteira so cimento (gravado = kg cimento/m3 x factor, calculo ja existente)."
+   },
+   {
+    "sheet_row": 399,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 301,
+    "co2_com_desconto": null,
+    "citacao": "Tab.9 p.8 (GWP por kg de cimento: 1,08/1,02/0,86); Tab.8 (inventario so emissoes positivas); cradle-to-gate do cimento",
+    "derivado": "sim",
+    "nota": "Sem creditos; fronteira so cimento (gravado = kg cimento/m3 x factor, calculo ja existente)."
+   }
+  ],
+  "texto_completo_lido": "parcial - corpo (caracteres 0-56.000 de 72.159) lido linha a linha; referencias so pesquisadas por termos. Figs.4-6 nao renderizadas",
+  "notas": "Nenhum credito."
+ },
+ {
+  "row_id": 3377,
+  "pares": [
+   {
+    "sheet_row": 970,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 121.77,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 p.4 (factores todos positivos); Tab.6 p.6 renderizada (GWP100 por t de argamassa: GGBS 6M 5,69E+01; 8M 6,18E+01; 10M 6,67E+01; 25:75 6M 4,13E+01; 50:50 6M 4,65E+01; 75:25 6M 5,17E+01) - confere com o gravado; densidades Tab.5",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate, GGBS/FA com alocacao proporcional (positiva); sem creditos. Conversao t->m3 feita por nos com a densidade."
+   },
+   {
+    "sheet_row": 971,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 132.25,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 p.4 (factores todos positivos); Tab.6 p.6 renderizada (GWP100 por t de argamassa: GGBS 6M 5,69E+01; 8M 6,18E+01; 10M 6,67E+01; 25:75 6M 4,13E+01; 50:50 6M 4,65E+01; 75:25 6M 5,17E+01) - confere com o gravado; densidades Tab.5",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate, GGBS/FA com alocacao proporcional (positiva); sem creditos. Conversao t->m3 feita por nos com a densidade."
+   },
+   {
+    "sheet_row": 972,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 143.41,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 p.4 (factores todos positivos); Tab.6 p.6 renderizada (GWP100 por t de argamassa: GGBS 6M 5,69E+01; 8M 6,18E+01; 10M 6,67E+01; 25:75 6M 4,13E+01; 50:50 6M 4,65E+01; 75:25 6M 5,17E+01) - confere com o gravado; densidades Tab.5",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate, GGBS/FA com alocacao proporcional (positiva); sem creditos. Conversao t->m3 feita por nos com a densidade."
+   },
+   {
+    "sheet_row": 973,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 86.32,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 p.4 (factores todos positivos); Tab.6 p.6 renderizada (GWP100 por t de argamassa: GGBS 6M 5,69E+01; 8M 6,18E+01; 10M 6,67E+01; 25:75 6M 4,13E+01; 50:50 6M 4,65E+01; 75:25 6M 5,17E+01) - confere com o gravado; densidades Tab.5",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate, GGBS/FA com alocacao proporcional (positiva); sem creditos. Conversao t->m3 feita por nos com a densidade."
+   },
+   {
+    "sheet_row": 974,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 97.65,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 p.4 (factores todos positivos); Tab.6 p.6 renderizada (GWP100 por t de argamassa: GGBS 6M 5,69E+01; 8M 6,18E+01; 10M 6,67E+01; 25:75 6M 4,13E+01; 50:50 6M 4,65E+01; 75:25 6M 5,17E+01) - confere com o gravado; densidades Tab.5",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate, GGBS/FA com alocacao proporcional (positiva); sem creditos. Conversao t->m3 feita por nos com a densidade."
+   },
+   {
+    "sheet_row": 975,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 109.09,
+    "co2_com_desconto": null,
+    "citacao": "Tab.4 p.4 (factores todos positivos); Tab.6 p.6 renderizada (GWP100 por t de argamassa: GGBS 6M 5,69E+01; 8M 6,18E+01; 10M 6,67E+01; 25:75 6M 4,13E+01; 50:50 6M 4,65E+01; 75:25 6M 5,17E+01) - confere com o gravado; densidades Tab.5",
+    "derivado": "sim",
+    "nota": "Cradle-to-gate, GGBS/FA com alocacao proporcional (positiva); sem creditos. Conversao t->m3 feita por nos com a densidade."
+   }
+  ],
+  "texto_completo_lido": "quase total - texto (caracteres 0-39.000 de 48.352) lido linha a linha; resto = referencias, nao lidas linha a linha. Tab.6 (imagem) descarregada e renderizada (p.6)",
+  "notas": "Nenhum credito; valores da Tab.6 confirmados visualmente."
+ },
+ {
+  "row_id": 3384,
+  "pares": [
+   {
+    "sheet_row": 976,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 350.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1 p.4 (cradle-to-gate; EoL e reciclagem omitidos); sec.2.2.2 (cinza volante so transporte); Fig.3 p.7 renderizada - painel GWP sem barras negativas (eixo comeca em 0)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor lido por pixel na Fig.3 (ja existente). A mencao 'CML 2015 including biogenic carbon' refere-se so aos factores de normalizacao (Tab.3)."
+   },
+   {
+    "sheet_row": 977,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 449.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1 p.4 (cradle-to-gate; EoL e reciclagem omitidos); sec.2.2.2 (cinza volante so transporte); Fig.3 p.7 renderizada - painel GWP sem barras negativas (eixo comeca em 0)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor lido por pixel na Fig.3 (ja existente). A mencao 'CML 2015 including biogenic carbon' refere-se so aos factores de normalizacao (Tab.3)."
+   },
+   {
+    "sheet_row": 978,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 185.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1 p.4 (cradle-to-gate; EoL e reciclagem omitidos); sec.2.2.2 (cinza volante so transporte); Fig.3 p.7 renderizada - painel GWP sem barras negativas (eixo comeca em 0)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor lido por pixel na Fig.3 (ja existente). A mencao 'CML 2015 including biogenic carbon' refere-se so aos factores de normalizacao (Tab.3)."
+   },
+   {
+    "sheet_row": 979,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 166.9,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1 p.4 (cradle-to-gate; EoL e reciclagem omitidos); sec.2.2.2 (cinza volante so transporte); Fig.3 p.7 renderizada - painel GWP sem barras negativas (eixo comeca em 0)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor lido por pixel na Fig.3 (ja existente). A mencao 'CML 2015 including biogenic carbon' refere-se so aos factores de normalizacao (Tab.3)."
+   },
+   {
+    "sheet_row": 980,
+    "artigo_declara_desconto": "nao",
+    "tipos_desconto": [],
+    "gravado_e": "bruto",
+    "co2_bruto": 179.7,
+    "co2_com_desconto": null,
+    "citacao": "Sec.2.1 p.4 (cradle-to-gate; EoL e reciclagem omitidos); sec.2.2.2 (cinza volante so transporte); Fig.3 p.7 renderizada - painel GWP sem barras negativas (eixo comeca em 0)",
+    "derivado": "sim",
+    "nota": "Sem creditos. Valor lido por pixel na Fig.3 (ja existente). A mencao 'CML 2015 including biogenic carbon' refere-se so aos factores de normalizacao (Tab.3)."
+   }
+  ],
+  "texto_completo_lido": "parcial - corpo (caracteres 0-53.000 de 66.509) lido linha a linha; referencias so pesquisadas por termos. Fig.3 (p.7) descarregada e renderizada",
+  "notas": "Nenhum credito. No painel ADP(fossil) da Fig.3 ha pequenos segmentos negativos (S_1, GF_5), mas nao no GWP."
+ }
+]
