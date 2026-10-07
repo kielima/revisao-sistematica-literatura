@@ -1,0 +1,425 @@
+[
+ {
+  "row_id": 3451,
+  "rotulo": "Huang & Wang, 2024",
+  "titulo": "Comprehensive assessment of engineering and environmental attributes of geopolymer pervious concrete with natural and recycled aggregate",
+  "pdf": "HUANG et al., 2024c - j.jclepro.2024.143138.pdf",
+  "fileId": "195Wm_SRtB1dk5hYYwLEHjJU4QeDIXdGL",
+  "pares": [
+   {
+    "sheet_row": 1014,
+    "material": "Concreto pervio geopolimerico de metacaulim + agregado natural (MPC+NCA, pavimento)",
+    "fck": 21,
+    "co2_kg_m3": 297,
+    "co2_original": "297 kg CO2 eq/m3",
+    "co2_original_local": "p.8, Tabela 7 (LCA results of conventional or geopolymer based pervious concrete): linha MPC, coluna NCA, GWP=297",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3456,
+  "rotulo": "Driessen & Gronlund, 2024",
+  "titulo": "Circular concrete scenarios and their environmental impacts: A life cycle assessment modelled after a Swedish city",
+  "pdf": "DRIESSEN, 2024_24144348 - j.jclepro.2024.144348.pdf",
+  "fileId": "1qu7EhmbbaMeXPgKnpSypbJuMmWBv-QGR",
+  "pares": [
+   {
+    "sheet_row": 1015,
+    "material": "Concreto circular, cenario BAU (business-as-usual, 30 MPa)",
+    "fck": 30,
+    "co2_kg_m3": 322,
+    "co2_original": "~322 kg CO2 eq (por m3, UF)",
+    "co2_original_local": "Fig.8 p.7 (leitura do eixo 0-350)",
+    "co2_conversao": "nativo por m3 (UF); leitura de grafico calibrada por pixel, sem rotulo na barra [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2001,
+    "material": "Betao cenario BP (70% CEM I + 25% SCMs + 5% calcario, 30% RCA) - Ostersund",
+    "fck": 30,
+    "co2_kg_m3": 248,
+    "co2_original": "~248 kg CO2 eq/m3",
+    "co2_original_local": "Fig.8 p.7; texto p.7 '-23%' face ao BAU",
+    "co2_conversao": "nativo por m3; leitura de grafico (confirmada pela % impressa) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2002,
+    "material": "Betao cenario CIRC (LC3-50, 100% RCA grosso) - Ostersund",
+    "fck": 30,
+    "co2_kg_m3": 211,
+    "co2_original": "~211 kg CO2 eq/m3",
+    "co2_original_local": "Fig.8 p.7; texto p.7 '-35%' face ao BAU",
+    "co2_conversao": "nativo por m3; leitura de grafico (confirmada pela % impressa: 322x0,65=209) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 3477,
+  "rotulo": "Haigh et al., 2024",
+  "titulo": "A life cycle assessment of cardboard waste in low stress grade concrete applications",
+  "pdf": "HAIGH, 2024b.pdf",
+  "fileId": "10p-f6-XC04eSqj7HjH58B2zQacLpti-o",
+  "pares": [
+   {
+    "sheet_row": 420,
+    "material": "betao de controlo (sem fibra kraft, alvo 25 MPa de projecto para betao de baixa tensao)",
+    "fck": 25,
+    "co2_kg_m3": 370,
+    "co2_original": "370 kg CO2-eq/m3 (GWP100)",
+    "co2_original_local": "Tab.7 (p.6), linha Global warming potential",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 421,
+    "material": "betao SFKF5 (5% fibra kraft de cartao reciclado, modificada com silica de fumo)",
+    "fck": 20,
+    "co2_kg_m3": 360,
+    "co2_original": "360 kg CO2-eq/m3 (GWP100)",
+    "co2_original_local": "Tab.7 (p.6), linha Global warming potential",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 422,
+    "material": "betao SFKF105 (10% fibra kraft de cartao reciclado + 5% metacaulino, modificada com silica de fumo)",
+    "fck": 21,
+    "co2_kg_m3": 343,
+    "co2_original": "343 kg CO2-eq/m3 (GWP100)",
+    "co2_original_local": "Tab.7 (p.6), linha Global warming potential",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3479,
+  "rotulo": "Manso-Morato et al., 2025",
+  "titulo": "Management of wind-turbine blade waste as high-content concrete addition: Mechanical performance evaluation and life cycle assessment",
+  "pdf": "MANSO-MORATO, 2025 - j.jenvman.2024.123995.pdf",
+  "fileId": "1qNZIOdX0ApKdfCey-bOG-41VbMjQlkhM",
+  "pares": [
+   {
+    "sheet_row": 1017,
+    "material": "FRC (fiber-reinforced concrete) com residuo bruto triturado de pa de turbina eolica (RCWTB) ate 10% vol. - Espanha, mix W2 (2% RCWTB)",
+    "fck": 50.46,
+    "co2_kg_m3": 285.5,
+    "co2_original": "285.5 kg CO2e/m3",
+    "co2_original_local": "Fig.11a (p.10 do ficheiro/10 impressa) - tabela de dados impressa sob o grafico de barras, mix W2 (2% RCWTB vol.)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3485,
+  "rotulo": "Khan et al., 2024",
+  "titulo": "Eco-efficient ultra-high-performance concrete formulation utilizing electric arc furnace slag and recycled glass powder-advanced analytics and lifecycle perspectives",
+  "pdf": "KHAN et al., 2024 - j.jmrt.2024.07.171.pdf",
+  "fileId": "1XF7ZBt1L0ARSlU5TQAdlR0xJS10EYwMR",
+  "pares": [
+   {
+    "sheet_row": 1018,
+    "material": "UHPC controle (0% po de vidro reciclado RGP e escoria de forno a arco eletrico EAFS) - mistura Control, Colombia",
+    "fck": 167,
+    "co2_kg_m3": 703.154,
+    "co2_original": "703.154 kg CO2 eq/m3",
+    "co2_original_local": "Table 12 (p.12 do ficheiro/373 impressa): \"Climate change kg CO2 eq 703.154 571.332\" (coluna Control)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1019,
+    "material": "UHPC com po de vidro reciclado (RGP, 28um) e escoria de forno a arco eletrico (EAFS) - mistura Optimized, Colombia",
+    "fck": 150,
+    "co2_kg_m3": 571.332,
+    "co2_original": "571.332 kg CO2 eq/m3",
+    "co2_original_local": "Table 12 (p.12 do ficheiro/373 impressa)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3493,
+  "rotulo": "Frazao et al., 2022",
+  "titulo": "Technical and environmental potentialities of recycled steel fiber reinforced concrete for structural applications",
+  "pdf": "FRAZAO, 2022 - j.jobe.2021.103579.pdf",
+  "fileId": "17V0JXwaSnL9VDf1psxkhkWBhq4qXl3xe",
+  "pares": [
+   {
+    "sheet_row": 1023,
+    "material": "RSFRC - concreto auto-adensavel reforcado com fibra de aco reciclada de pneus em fim-de-vida (1% vol.)",
+    "fck": 39.42,
+    "co2_kg_m3": 397.24,
+    "co2_original": "397.24 kg CO2-eq/m3",
+    "co2_original_local": "Table 5 (p.15 do ficheiro/15 impressa): \"RSFRC 397.24\" (GWP, metodo CML baseline, ACV propria do estudo)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1024,
+    "material": "ISFRC - concreto auto-adensavel reforcado com fibra de aco industrial (1% vol., mesma matriz do RSFRC) - mistura de comparacao",
+    "fck": 39.42,
+    "co2_kg_m3": 479.22,
+    "co2_original": "479.22 kg CO2-eq/m3",
+    "co2_original_local": "Table 5 (p.15/15 impressa): \"ISFRC 479.22\"",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3497,
+  "rotulo": "Momotaz et al., 2023",
+  "titulo": "Comparative study on properties of kerb concrete made from recycled materials and related carbon footprint",
+  "pdf": "MOMOTAZ et al., 2023.pdf",
+  "fileId": "1_z3sVakkZDxarSy_ZMdnTbk1m098_v8u",
+  "pares": [
+   {
+    "sheet_row": 425,
+    "material": "concreto de meio-fio (kerb) com agregado natural (NA) e agregado de pneu triturado (TDA) 0-20%, mistura CC-25 (controlo, 100% NA, 0% TDA)",
+    "fck": 25.93,
+    "co2_kg_m3": 234,
+    "co2_original": "234 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulos numericos impressos sobre os pontos do grafico, confirmado por renderizacao)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 426,
+    "material": "concreto de meio-fio, NA + 5% TDA (CTr-c05-25)",
+    "fck": 27.85,
+    "co2_kg_m3": 238,
+    "co2_original": "238 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 427,
+    "material": "concreto de meio-fio, NA + 10% TDA (CTr-c10-25)",
+    "fck": 25.23,
+    "co2_kg_m3": 244,
+    "co2_original": "244 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 428,
+    "material": "concreto de meio-fio, NA + 15% TDA (CTr-c15-25)",
+    "fck": 27.68,
+    "co2_kg_m3": 236,
+    "co2_original": "236 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 429,
+    "material": "concreto de meio-fio, NA + 20% TDA (CTr-c20-25)",
+    "fck": 27.33,
+    "co2_kg_m3": 228,
+    "co2_original": "228 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 430,
+    "material": "concreto de meio-fio, 100% agregado reciclado (RCA), 0% TDA (R100C-25)",
+    "fck": 26.55,
+    "co2_kg_m3": 65.7,
+    "co2_original": "65.7 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 431,
+    "material": "concreto de meio-fio, RCA + 5% TDA (RTr-c05-25)",
+    "fck": 28.15,
+    "co2_kg_m3": 88.3,
+    "co2_original": "88.3 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 432,
+    "material": "concreto de meio-fio, RCA + 10% TDA (RTr-c10-25)",
+    "fck": 28.51,
+    "co2_kg_m3": 109,
+    "co2_original": "109 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 433,
+    "material": "concreto de meio-fio, RCA + 15% TDA (RTr-c15-25)",
+    "fck": 27.72,
+    "co2_kg_m3": 110,
+    "co2_original": "110 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 434,
+    "material": "concreto de meio-fio, RCA + 20% TDA (RTr-c20-25)",
+    "fck": 28.12,
+    "co2_kg_m3": 111,
+    "co2_original": "111 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3504,
+  "rotulo": "Bayat et al., 2024",
+  "titulo": "Durability, mechanical, workability, and environmental assessment of self-consolidating concrete containing blast furnace slag and natural zeolite",
+  "pdf": "BAYAT et al., 2024.pdf",
+  "fileId": "1Bmomhoo6ID6sTejVulAyAHoXcXx8Lhi6",
+  "pares": [
+   {
+    "sheet_row": 435,
+    "material": "concreto autoadensavel (SCC) - mistura de controlo R (sem SCM)",
+    "fck": 38.7,
+    "co2_kg_m3": 475,
+    "co2_original": "475 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 475.0 kg na escala da figura) / volume relativo da FU 1.0000 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 436,
+    "material": "SCC com 5% zeolita natural (Z5)",
+    "fck": 38.1,
+    "co2_kg_m3": 457,
+    "co2_original": "457 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 457.0 kg na escala da figura) / volume relativo da FU 1.0001 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 437,
+    "material": "SCC com 10% zeolita natural (Z10)",
+    "fck": 37.8,
+    "co2_kg_m3": 439,
+    "co2_original": "439 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 433.7 kg na escala da figura) / volume relativo da FU 0.9885 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 438,
+    "material": "SCC com 15% zeolita natural (Z15)",
+    "fck": 36.4,
+    "co2_kg_m3": 422,
+    "co2_original": "422 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 414.7 kg na escala da figura) / volume relativo da FU 0.9831 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 439,
+    "material": "SCC com 20% GGBFS (S20)",
+    "fck": 37.6,
+    "co2_kg_m3": 407,
+    "co2_original": "407 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 404.5 kg na escala da figura) / volume relativo da FU 0.9941 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 440,
+    "material": "SCC com 30% GGBFS (S30)",
+    "fck": 37.5,
+    "co2_kg_m3": 371,
+    "co2_original": "371 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 368.1 kg na escala da figura) / volume relativo da FU 0.9914 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 441,
+    "material": "SCC com 40% GGBFS (S40)",
+    "fck": 31.1,
+    "co2_kg_m3": 337,
+    "co2_original": "337 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 338.9 kg na escala da figura) / volume relativo da FU 1.0043 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 442,
+    "material": "SCC com 10% zeolita + 20% GGBFS (ZS20)",
+    "fck": 36,
+    "co2_kg_m3": 370,
+    "co2_original": "370 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 366.6 kg na escala da figura) / volume relativo da FU 0.9921 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 443,
+    "material": "SCC com 10% zeolita + 30% GGBFS (ZS30)",
+    "fck": 32.8,
+    "co2_kg_m3": 335,
+    "co2_original": "335 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 331.6 kg na escala da figura) / volume relativo da FU 0.9895 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 444,
+    "material": "SCC com 10% zeolita + 40% GGBFS (ZS40)",
+    "fck": 30.6,
+    "co2_kg_m3": 300,
+    "co2_original": "300 kg CO2eq/m3",
+    "co2_original_local": "Fig.12 p.10 (barra empilhada, leitura por pixel com grelha calibrada: 296.6 kg na escala da figura) / volume relativo da FU 0.9877 (Tabela 4) = kg CO2eq por m3 da propria mistura",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3507,
+  "rotulo": "Alali et al., 2024",
+  "titulo": "Comparative life cycle assessment (LCA) of the composite prefabricated ultra-shallow slabs (PUSS) and hollow core slabs in the UK",
+  "pdf": "ALALI et al., 2024 - j.jobe.2024.110588.pdf",
+  "fileId": "12saoVHPGEByvU8-_Odo5apbqmDrL7O_g",
+  "pares": [
+   {
+    "sheet_row": 1025,
+    "material": "Laje pre-moldada hollow core (concreto NWC, classe C40/50)",
+    "fck": 40,
+    "co2_kg_m3": 795,
+    "co2_original": "165,42 kg CO2,e/m2 de laje (sistema hollow core completo, LL=3 kN/m2, vao 8 m)",
+    "co2_original_local": "Tabela 11 (p.12); massas na Tabela 10; densidade na Tabela 2",
+    "co2_conversao": "165,42 kg/m2 / [(373,02 + 126,36 kg/m2) / 2400 kg/m3 = 0,208075 m3/m2] = 795,0 (inclui aco de pre-esforco)"
+   }
+  ]
+ },
+ {
+  "row_id": 3512,
+  "rotulo": "Teng et al., 2025",
+  "titulo": "Development of sustainable strain-hardening cementitious composites containing diatomite for 3D printing",
+  "pdf": "TENG et al., 2025 - j.jobe.2025.112170.pdf",
+  "fileId": "1bP_cgt8GzmTl6jPJDU8vxj7akSugKfLv",
+  "pares": [
+   {
+    "sheet_row": 1029,
+    "material": "SHCC imprimivel 3D com diatomite (DE) — mistura DE-0 (referencia, sem substituicao)",
+    "fck": 40.2,
+    "co2_kg_m3": 639,
+    "co2_original": "639 kg CO2-eq/m3 material (Fig.22a, tabela impressa)",
+    "co2_original_local": "Fig.22a, p.17, tabela impressa sob o grafico: DE-0 = 639",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1030,
+    "material": "SHCC imprimivel 3D com diatomite (DE) — mistura DE-10 (10% substituicao)",
+    "fck": 45.8,
+    "co2_kg_m3": 581,
+    "co2_original": "581 kg CO2-eq/m3 material (Fig.22a, tabela impressa)",
+    "co2_original_local": "Fig.22a, p.17, tabela impressa: DE-10 = 581",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1031,
+    "material": "SHCC imprimivel 3D com diatomite (DE) — mistura DE-20 (20% substituicao)",
+    "fck": 44.2,
+    "co2_kg_m3": 522,
+    "co2_original": "522 kg CO2-eq/m3 material (Fig.22a, tabela impressa)",
+    "co2_original_local": "Fig.22a, p.17, tabela impressa: DE-20 = 522",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1032,
+    "material": "SHCC imprimivel 3D com diatomite (DE) — mistura DE-30 (30% substituicao, pior mecanicamente)",
+    "fck": 34.2,
+    "co2_kg_m3": 463,
+    "co2_original": "463 kg CO2-eq/m3 material (Fig.22a, tabela impressa)",
+    "co2_original_local": "Fig.22a, p.17, tabela impressa: DE-30 = 463",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ }
+]

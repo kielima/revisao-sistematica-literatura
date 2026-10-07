@@ -1,0 +1,425 @@
+[
+ {
+  "row_id": 4731,
+  "rotulo": "Kvocka et al., 2022",
+  "titulo": "Mass Concrete with EAF Steel Slag Aggregate: Workability, Strength, Temperature Rise, and Environmental Performance",
+  "pdf": "KVOCKA, 2022.pdf",
+  "fileId": "19pFkwOtQ83HnIxY0NWcfPF_kBUHaJ4ow",
+  "pares": [
+   {
+    "sheet_row": 1715,
+    "material": "Concreto massa com agregado natural (NA), cimento CEM II 320 kg/m3, (w/c)tot=0.51 (MB-1)",
+    "fck": 45,
+    "co2_kg_m3": 229.5,
+    "co2_original": "SIclimate_change = 5,1 kg CO2eq/(m3.MPa) para MB-1 (indice GHG/fc do artigo; CO2 absoluto nao publicado)",
+    "co2_original_local": "Tabela 6 p.16 (SI) + Fig.4 p.9 (fc 28d lido do grafico) + Eq.2 p.7",
+    "co2_conversao": "SI 5,1 kg CO2eq/(m3 x MPa) x fc 45 MPa = 229,5"
+   },
+   {
+    "sheet_row": 1716,
+    "material": "Concreto massa com agregado natural (NA), cimento CEM III 320 kg/m3 (MB-2)",
+    "fck": 49,
+    "co2_kg_m3": 127.4,
+    "co2_original": "SIclimate_change = 2,6 kg CO2eq/(m3.MPa) para MB-2 (indice GHG/fc do artigo; CO2 absoluto nao publicado) (valor inferido de co2/fck; nao transcrito nas notas da linha)",
+    "co2_original_local": "Tabela 6 p.16 (SI) + Fig.4 p.9 (fc 28d lido do grafico) + Eq.2 p.7",
+    "co2_conversao": "SI 2,6 kg CO2eq/(m3 x MPa) x fc 49 MPa = 127,4"
+   },
+   {
+    "sheet_row": 1717,
+    "material": "Concreto massa com agregado natural (NA), cimento CEM II 350 kg/m3 (MB-3)",
+    "fck": 45,
+    "co2_kg_m3": 247.5,
+    "co2_original": "SIclimate_change = 5,5 kg CO2eq/(m3.MPa) para MB-3 (indice GHG/fc do artigo; CO2 absoluto nao publicado) (valor inferido de co2/fck; nao transcrito nas notas da linha)",
+    "co2_original_local": "Tabela 6 p.16 (SI) + Fig.4 p.9 (fc 28d lido do grafico) + Eq.2 p.7",
+    "co2_conversao": "SI 5,5 kg CO2eq/(m3 x MPa) x fc 45 MPa = 247,5"
+   },
+   {
+    "sheet_row": 1718,
+    "material": "Concreto massa com agregado natural (NA), cimento CEM III 350 kg/m3 (MB-4)",
+    "fck": 49,
+    "co2_kg_m3": 137.2,
+    "co2_original": "SIclimate_change = 2,8 kg CO2eq/(m3.MPa) para MB-4 (indice GHG/fc do artigo; CO2 absoluto nao publicado) (valor inferido de co2/fck; nao transcrito nas notas da linha)",
+    "co2_original_local": "Tabela 6 p.16 (SI) + Fig.4 p.9 (fc 28d lido do grafico) + Eq.2 p.7",
+    "co2_conversao": "SI 2,8 kg CO2eq/(m3 x MPa) x fc 49 MPa = 137,2"
+   },
+   {
+    "sheet_row": 1719,
+    "material": "Concreto massa com 55% agregado EAF steel slag, cimento CEM II 320 kg/m3, (w/c)tot~0.65 (MB-5)",
+    "fck": 42,
+    "co2_kg_m3": 205.8,
+    "co2_original": "SIclimate_change = 4,9 kg CO2eq/(m3.MPa) para MB-5 (indice GHG/fc do artigo; CO2 absoluto nao publicado) (valor inferido de co2/fck; nao transcrito nas notas da linha)",
+    "co2_original_local": "Tabela 6 p.16 (SI) + Fig.4 p.9 (fc 28d lido do grafico) + Eq.2 p.7",
+    "co2_conversao": "SI 4,9 kg CO2eq/(m3 x MPa) x fc 42 MPa = 205,8"
+   },
+   {
+    "sheet_row": 1720,
+    "material": "Concreto massa com 55% agregado EAF steel slag, cimento CEM III 320 kg/m3 (MB-6)",
+    "fck": 39,
+    "co2_kg_m3": 105.3,
+    "co2_original": "SIclimate_change = 2,7 kg CO2eq/(m3.MPa) para MB-6 (indice GHG/fc do artigo; CO2 absoluto nao publicado) (valor inferido de co2/fck; nao transcrito nas notas da linha)",
+    "co2_original_local": "Tabela 6 p.16 (SI) + Fig.4 p.9 (fc 28d lido do grafico) + Eq.2 p.7",
+    "co2_conversao": "SI 2,7 kg CO2eq/(m3 x MPa) x fc 39 MPa = 105,3"
+   },
+   {
+    "sheet_row": 1721,
+    "material": "Concreto massa com 55% agregado EAF steel slag, cimento CEM II 350 kg/m3, (w/c)tot~0.68 (MB-7)",
+    "fck": 42,
+    "co2_kg_m3": 226.8,
+    "co2_original": "SIclimate_change = 5,4 kg CO2eq/(m3.MPa) para MB-7 (indice GHG/fc do artigo; CO2 absoluto nao publicado) (valor inferido de co2/fck; nao transcrito nas notas da linha)",
+    "co2_original_local": "Tabela 6 p.16 (SI) + Fig.4 p.9 (fc 28d lido do grafico) + Eq.2 p.7",
+    "co2_conversao": "SI 5,4 kg CO2eq/(m3 x MPa) x fc 42 MPa = 226,8"
+   },
+   {
+    "sheet_row": 1722,
+    "material": "Concreto massa com 55% agregado EAF steel slag, cimento CEM III 350 kg/m3 (MB-8)",
+    "fck": 37,
+    "co2_kg_m3": 114.7,
+    "co2_original": "SIclimate_change = 3,1 kg CO2eq/(m3.MPa) para MB-8 (indice GHG/fc do artigo; CO2 absoluto nao publicado) (valor inferido de co2/fck; nao transcrito nas notas da linha)",
+    "co2_original_local": "Tabela 6 p.16 (SI) + Fig.4 p.9 (fc 28d lido do grafico) + Eq.2 p.7",
+    "co2_conversao": "SI 3,1 kg CO2eq/(m3 x MPa) x fc 37 MPa = 114,7"
+   }
+  ]
+ },
+ {
+  "row_id": 4749,
+  "rotulo": "Wang et al., 2023",
+  "titulo": "A Modified Process Analysis Method and Neural Network Models for Carbon Emissions Assessment in Shield Tunnel Construction",
+  "pdf": "WANG et al., 2023 - su15129604.pdf",
+  "fileId": "1PpNN0g1UbpGJPV-NDPDwhMXo60cNU92_",
+  "pares": [
+   {
+    "sheet_row": 1735,
+    "material": "Concreto pre-moldado (aduela/segmento de tunel, classe C60) — tunel com escudo (shield tunnel), China",
+    "fck": 60,
+    "co2_kg_m3": 447.4,
+    "co2_original": "447.4 kg CO2/m3",
+    "co2_original_local": "p.8, texto",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4750,
+  "rotulo": "Starczyk-Kolbyk & Malek, 2023",
+  "titulo": "Analysis of the Life Cycle and Properties of Concrete with the Addition of Waste Car Glass",
+  "pdf": "STARCZYK-KOLBYK, 2023.pdf",
+  "fileId": "1Ua5CkLb7KSaOoEw7nY3XKpI5yBZqo81_",
+  "pares": [
+   {
+    "sheet_row": 1738,
+    "material": "Concreto W2 (111.11 kg/m3 de vidro de carro triturado)",
+    "fck": 70.13,
+    "co2_kg_m3": 335.09,
+    "co2_original": "33.509 kg CO2-eqv (GWP para 100 m3 de mistura W2)",
+    "co2_original_local": "Tabela 5 p.10 (total) + Tabela 4 p.9 (100 m3 de mistura)",
+    "co2_conversao": "33.509 kg / 100 m3 = 335,09"
+   }
+  ]
+ },
+ {
+  "row_id": 4753,
+  "rotulo": "Backes et al., 2023",
+  "titulo": "Comparative Cradle-to-Grave Carbon Footprint of a CFRP-Grid Reinforced Concrete Facade Panel",
+  "pdf": "BACKES et al., 2023 - su151511548.pdf",
+  "fileId": "1KvZsj2SFHaLUKC2igYfxMGo7AnE2-I9I",
+  "pares": [
+   {
+    "sheet_row": 1740,
+    "material": "Painel de fachada CRC (reforcado com grelha de fibra de carbono), variante F2C1 (melhor caso), cenario 50% reciclagem",
+    "fck": 58,
+    "co2_kg_m3": 713.5,
+    "co2_original": "411 kg CO2e por painel de fachada CRC (F2C1, cenario 50% reciclagem, cradle-to-grave)",
+    "co2_original_local": "Tabela 7 p.13; dimensoes do painel 4,0x3,6x0,04 m no texto (Materials and Methods)",
+    "co2_conversao": "411 kg / 0,576 m3 (4,0x3,6x0,04) = 713,5"
+   },
+   {
+    "sheet_row": 1741,
+    "material": "Painel de fachada CRC, variante F1C3 (pior caso), cenario 50% reciclagem",
+    "fck": 58,
+    "co2_kg_m3": 861.1,
+    "co2_original": "496 kg CO2e por painel de fachada CRC (F1C3, cenario 50% reciclagem, cradle-to-grave)",
+    "co2_original_local": "Tabela 7 p.13; dimensoes 4,0x3,6x0,04 m no texto",
+    "co2_conversao": "496 kg / 0,576 m3 = 861,1"
+   },
+   {
+    "sheet_row": 1742,
+    "material": "Painel de fachada SRC (reforcado com aco), variante SRC 2.2 (aco de alto-forno primario)",
+    "fck": 35,
+    "co2_kg_m3": 427.1,
+    "co2_original": "492 kg CO2e por painel de fachada SRC (SRC 2.2, aco primario)",
+    "co2_original_local": "Tabela 7 p.13; dimensoes do painel SRC 4,0x3,6x0,08 m no texto",
+    "co2_conversao": "492 kg / 1,152 m3 (4,0x3,6x0,08) = 427,1"
+   }
+  ]
+ },
+ {
+  "row_id": 4756,
+  "rotulo": "Huber et al., 2024",
+  "titulo": "Holistic life cycle cost analysis of road bridges with non-metallic reinforcement",
+  "pdf": "HUBER et al., 2024 - j.dibe.2024.100533.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 590,
+    "material": "Concreto C25/30 (usado na subestrutura/fundacao da ponte, variante aco)",
+    "fck": 25,
+    "co2_kg_m3": 199.92,
+    "co2_original": "0,0833 kg CO2-eq/kg (Concrete C25/30), com a nota impressa (200 kg/m3)",
+    "co2_original_local": "Tabela 1 p.4",
+    "co2_conversao": "0,0833 kg/kg x 2400 kg/m3 (densidade Tab.1) = 199,92"
+   },
+   {
+    "sheet_row": 591,
+    "material": "Concreto C30/37 (usado na superestrutura da ponte, variantes GFRP/BFRP/CFRP)",
+    "fck": 30,
+    "co2_kg_m3": 219.12,
+    "co2_original": "0,0913 kg CO2-eq/kg (Concrete C30/37), com a nota impressa (220 kg/m3)",
+    "co2_original_local": "Tabela 1 p.4",
+    "co2_conversao": "0,0913 kg/kg x 2400 kg/m3 = 219,12"
+   }
+  ]
+ },
+ {
+  "row_id": 4757,
+  "rotulo": "Zheng et al., 2023",
+  "titulo": "Carbon Emission Evaluation of Roadway Construction at Contaminated Sites Based on Life Cycle Assessment Method",
+  "pdf": "ZHENG et al., 2023.pdf",
+  "fileId": "1M36C13SFZdhOFkYVYLQl7ZBlfMBLMmoW",
+  "pares": [
+   {
+    "sheet_row": 592,
+    "material": "Concreto C30 (fator de emissao normativo, usado nos cenarios 2 e 3 de remediacao de solo contaminado)",
+    "fck": 30,
+    "co2_kg_m3": 321.3,
+    "co2_original": "321.3 kg CO2/m3",
+    "co2_original_local": "Tabela 1 (p.8): Emission factors of materials involved in Scenarios 2 and 3",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4758,
+  "rotulo": "Moro, 2023",
+  "titulo": "Comparative Analysis of Multi-Criteria Decision Making and Life Cycle Assessment Methods for Sustainable Evaluation of Concrete Mixtures",
+  "pdf": "MORO, 2023.pdf",
+  "fileId": "1P3s6E5ETmVpLFxyryQJrb6_h4mQoVOQy",
+  "pares": [
+   {
+    "sheet_row": 1745,
+    "material": "⚠️ Concreto 0% RCA + OPC (referencia) (C0-R)",
+    "fck": 47.6,
+    "co2_kg_m3": 393.09,
+    "co2_original": "393.09 [PARC. DERIVADO, exclui transporte] kg CO2eq/m3",
+    "co2_original_local": "Tabela 1 p.6 (traco kg/m3) x Tabela 3 p.6 (fatores kg CO2eq/kg) + 4.7 kg CO2eq/m3 (processo 'Concrete Production')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1746,
+    "material": "⚠️ Concreto 0% RCA + 20% cinza volante (FA) (C0-F)",
+    "fck": 54.9,
+    "co2_kg_m3": 324.93,
+    "co2_original": "324.93 [PARC. DERIVADO, exclui transporte] kg CO2eq/m3",
+    "co2_original_local": "Tabela 1 p.6 (traco kg/m3) x Tabela 3 p.6 (fatores kg CO2eq/kg) + 4.7 kg CO2eq/m3 (processo 'Concrete Production')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1747,
+    "material": "⚠️ Concreto 0% RCA + 30% escoria granulada de alto-forno (GGBFS) (C0-G)",
+    "fck": 42.7,
+    "co2_kg_m3": 299.49,
+    "co2_original": "299.49 [PARC. DERIVADO, exclui transporte] kg CO2eq/m3",
+    "co2_original_local": "Tabela 1 p.6 (traco kg/m3) x Tabela 3 p.6 (fatores kg CO2eq/kg) + 4.7 kg CO2eq/m3 (processo 'Concrete Production')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1748,
+    "material": "⚠️ Concreto 0% RCA + 10% silica ativa (SF) (C0-S)",
+    "fck": 56,
+    "co2_kg_m3": 358.03,
+    "co2_original": "calculado com as Tabelas 1 e 3 (silica ativa 3,4E-3 kg CO2/kg)",
+    "co2_original_local": "Tabelas 1 e 3",
+    "co2_conversao": "soma traco x factores"
+   },
+   {
+    "sheet_row": 1749,
+    "material": "⚠️ Concreto 50% RCA + OPC (C50-R)",
+    "fck": 44.4,
+    "co2_kg_m3": 369.73,
+    "co2_original": "369.73 [PARC. DERIVADO, exclui transporte] kg CO2eq/m3",
+    "co2_original_local": "Tabela 1 p.6 (traco kg/m3) x Tabela 3 p.6 (fatores kg CO2eq/kg) + 4.7 kg CO2eq/m3 (processo 'Concrete Production')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1750,
+    "material": "⚠️ Concreto 50% RCA + 20% cinza volante (FA) (C50-F)",
+    "fck": 53.2,
+    "co2_kg_m3": 301.57,
+    "co2_original": "301.57 [PARC. DERIVADO, exclui transporte] kg CO2eq/m3",
+    "co2_original_local": "Tabela 1 p.6 (traco kg/m3) x Tabela 3 p.6 (fatores kg CO2eq/kg) + 4.7 kg CO2eq/m3 (processo 'Concrete Production')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1751,
+    "material": "⚠️ Concreto 50% RCA + 30% escoria granulada de alto-forno (GGBFS) (C50-G)",
+    "fck": 40.1,
+    "co2_kg_m3": 276.13,
+    "co2_original": "276.13 [PARC. DERIVADO, exclui transporte] kg CO2eq/m3",
+    "co2_original_local": "Tabela 1 p.6 (traco kg/m3) x Tabela 3 p.6 (fatores kg CO2eq/kg) + 4.7 kg CO2eq/m3 (processo 'Concrete Production')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1752,
+    "material": "⚠️ Concreto 50% RCA + 10% silica ativa (SF) (C50-S)",
+    "fck": 49.3,
+    "co2_kg_m3": 334.67,
+    "co2_original": "calculado com as Tabelas 1 e 3 (silica ativa 3,4E-3 kg CO2/kg)",
+    "co2_original_local": "Tabelas 1 e 3",
+    "co2_conversao": "soma traco x factores"
+   },
+   {
+    "sheet_row": 1753,
+    "material": "⚠️ Concreto 100% RCA + OPC (C100-R)",
+    "fck": 44.3,
+    "co2_kg_m3": 346.38,
+    "co2_original": "346.38 [PARC. DERIVADO, exclui transporte] kg CO2eq/m3",
+    "co2_original_local": "Tabela 1 p.6 (traco kg/m3) x Tabela 3 p.6 (fatores kg CO2eq/kg) + 4.7 kg CO2eq/m3 (processo 'Concrete Production')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1754,
+    "material": "⚠️ Concreto 100% RCA + 20% cinza volante (FA) (C100-F)",
+    "fck": 50.7,
+    "co2_kg_m3": 278.22,
+    "co2_original": "278.22 [PARC. DERIVADO, exclui transporte] kg CO2eq/m3",
+    "co2_original_local": "Tabela 1 p.6 (traco kg/m3) x Tabela 3 p.6 (fatores kg CO2eq/kg) + 4.7 kg CO2eq/m3 (processo 'Concrete Production')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1755,
+    "material": "⚠️ Concreto 100% RCA + 30% escoria granulada de alto-forno (GGBFS) (C100-G)",
+    "fck": 41.6,
+    "co2_kg_m3": 252.78,
+    "co2_original": "252.78 [PARC. DERIVADO, exclui transporte] kg CO2eq/m3",
+    "co2_original_local": "Tabela 1 p.6 (traco kg/m3) x Tabela 3 p.6 (fatores kg CO2eq/kg) + 4.7 kg CO2eq/m3 (processo 'Concrete Production')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1756,
+    "material": "⚠️ Concreto 100% RCA + 10% silica ativa (SF) (C100-S)",
+    "fck": 53.2,
+    "co2_kg_m3": 311.31,
+    "co2_original": "calculado com as Tabelas 1 e 3 (silica ativa 3,4E-3 kg CO2/kg)",
+    "co2_original_local": "Tabelas 1 e 3",
+    "co2_conversao": "soma traco x factores"
+   }
+  ]
+ },
+ {
+  "row_id": 4763,
+  "rotulo": "Amari et al., 2024",
+  "titulo": "Engineering and Life Cycle Assessment (LCA) of Sustainable Zeolite-Based Geopolymer Incorporating Blast Furnace Slag",
+  "pdf": "AMARI, 2024.pdf",
+  "fileId": "1n5V6VjeYgXtc6Ad4MqZqAZ3cuRpXBIv0",
+  "pares": [
+   {
+    "sheet_row": 1757,
+    "material": "Geopolimero de zeolita de mina com escoria de alto forno (BFS 20%), cura 60C",
+    "fck": 43.3,
+    "co2_kg_m3": 238,
+    "co2_original": "238 kg CO2-e/m3",
+    "co2_original_local": "Fig.12a (renderizada, p.18) — barra '20% wt BFS cured at 60C', eixo numerico 0-400 kg CO2-e/m3",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4766,
+  "rotulo": "Ma et al., 2024",
+  "titulo": "A Building Information Modeling-Based Life Cycle Assessment of the Embodied Carbon and Environmental Impacts of High-Rise Building Structures: A Case Study",
+  "pdf": "MA, 2024.pdf",
+  "fileId": "1FPwjZXcJig4LFeZc6rrNo1JhN9mw7Hm2",
+  "pares": [
+   {
+    "sheet_row": 1758,
+    "material": "Concreto estrutural — Slabs on Grade (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 37.9,
+    "co2_kg_m3": 305.81,
+    "co2_original": "305.81 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1759,
+    "material": "Concreto estrutural — Walls and Footings (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 34.5,
+    "co2_kg_m3": 288.23,
+    "co2_original": "288.23 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1760,
+    "material": "Concreto estrutural — Slabs on Steel Deck (mesh reinforced) (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 34.5,
+    "co2_kg_m3": 353.21,
+    "co2_original": "353.21 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1762,
+    "material": "Concreto estrutural — Columns (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 68.9,
+    "co2_kg_m3": 344.04,
+    "co2_original": "344.04 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1763,
+    "material": "Concreto estrutural — Shear Walls (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 82.7,
+    "co2_kg_m3": 412.84,
+    "co2_original": "412.84 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1764,
+    "material": "Concreto estrutural — Grade Beams (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 55.2,
+    "co2_kg_m3": 318.81,
+    "co2_original": "318.81 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1765,
+    "material": "Concreto estrutural — Pier Caps (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck": 41.4,
+    "co2_kg_m3": 270.64,
+    "co2_original": "270.64 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4768,
+  "rotulo": "Aryan et al., 2024",
+  "titulo": "Assessment of environmental impacts and reduction opportunities for road infrastructures in India",
+  "pdf": "ARYAN et al., 2024 - j.trd.2024.104106.pdf",
+  "fileId": null,
+  "pares": [
+   {
+    "sheet_row": 594,
+    "material": "Pavement Quality Concrete (PQC), mix design indiano M20, camada de rolamento do pavimento rigido (MDR)",
+    "fck": 20,
+    "co2_kg_m3": 383.4,
+    "co2_original": "46.962,5 kg CO2 eq/km/ano (Tabela 11) = 4,69,625 kg CO2 eq/km/faixa (texto); construcao, vida de projecto 20 anos",
+    "co2_original_local": "Tabela 11 + texto sec.4; espessuras sec.3.2 e Fig.4 p.6; UF 1 km x 7,0 m (sec.3.1)",
+    "co2_conversao": "469.625 x 2 faixas = 939.250 kg/km (= 46.962,5 x 20 anos); volume de betao por km = 1000 m x 7,0 m x (0,25 PQC + 0,10 DLC) = 2450 m3; 939.250 / 2450 = 383,4 kg CO2 eq/m3 [REVISAO 2026-09-27; confianca baixa; Fig.4 vista: largura 7,0 m confirmada pela UF e pelo calculo de carbonatacao do proprio artigo (7000 m2)] [ALERTA ETAPA4: total do sistema - inclui 20,44 t/km de aco, sub-base granular, tinta e maquinaria; mistura M20 (PQC) e M15 (DLC)]"
+   }
+  ]
+ }
+]

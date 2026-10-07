@@ -1,0 +1,344 @@
+[
+ {
+  "row_id": 4028,
+  "rotulo": "Lee et al., 2019",
+  "titulo": "Optimal Mixture Design of Low-CO2 High-Volume Slag Concrete Considering Climate Change and CO2 Uptake",
+  "pdf": "LEE et al., 2019 - s40069-019-0359-7.pdf",
+  "fileId": "1UnJs8JfSMHZlL0AWqY-GBitFmheWR1GJ",
+  "pares": [
+   {
+    "sheet_row": 1165,
+    "material": "Concreto HVS (alto teor de escoria) -- 8 misturas otimizadas por algoritmo genetico, Mix4",
+    "fck": 55,
+    "co2_kg_m3": 168.3,
+    "co2_original": "168.3 kg CO2/m3 (liquido: emissao bruta dos materiais - captura por carbonatacao em 50 anos)",
+    "co2_original_local": "Tabela 6 (p.8): bruto=178.63, captura=10.33, liquido=168.30 kg/m3 (Mix4)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4033,
+  "rotulo": "Tian et al., 2024",
+  "titulo": "Carbon sequestration and environmental impacts in ternary blended cements using dyeing sludge and papermaking sludge",
+  "pdf": "TIAN et al., 2024.pdf",
+  "fileId": "1zZ6sywfXgTAMBTsQGptnIQWprBFxnVnB",
+  "pares": [
+   {
+    "sheet_row": 553,
+    "material": "Ref: argamassa de cimento Portland puro (OPC, sem substituicao)",
+    "fck": 61.1,
+    "co2_kg_m3": 432,
+    "co2_original": "432 (GWP (kg CO2 eq./m3); Specific GWP (kg CO2 eq./MPa))",
+    "co2_original_local": "Fig.16a; fck do texto p.6",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-4 kg/m3 (1 px = 3,3); specific 7,0 -> 432/7,0 = 61,7 MPa (bate com 61,1)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 554,
+    "material": "D5-P5: argamassa de cimento ternaria com 5% lama de tingimento calcinada (DS) + 5% lama de fabrico de papel (PS)",
+    "fck": 65.4,
+    "co2_kg_m3": 392,
+    "co2_original": "392 (idem)",
+    "co2_original_local": "Fig.16a; texto",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-4; specific ~6,1 -> 64,6 MPa (bate)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2018,
+    "material": "D10-P5",
+    "fck": 48.9,
+    "co2_kg_m3": 375,
+    "co2_original": "375 (idem)",
+    "co2_original_local": "Fig.16a; texto",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-4; specific 7,7 -> 48,9 (bate)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2019,
+    "material": "D15-P5",
+    "fck": 31.5,
+    "co2_kg_m3": 352,
+    "co2_original": "352 (idem)",
+    "co2_original_local": "Fig.16a; fck da Fig.4a 28 d (~31,8) e de GWP/specific (31,2)",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (GWP +-4; fck +-1) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2020,
+    "material": "D10-P10",
+    "fck": 36.5,
+    "co2_kg_m3": 352,
+    "co2_original": "352 (idem)",
+    "co2_original_local": "Fig.16a; texto",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-4; specific 9,6 -> 36,7 (bate)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2021,
+    "material": "D20-P10",
+    "fck": 25,
+    "co2_kg_m3": 308,
+    "co2_original": "308 (idem)",
+    "co2_original_local": "Fig.16a; fck Fig.4a (~25,3) e GWP/specific (24,3)",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (GWP +-4; fck +-1) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   },
+   {
+    "sheet_row": 2022,
+    "material": "D10-P15",
+    "fck": 29.5,
+    "co2_kg_m3": 332,
+    "co2_original": "332 (idem)",
+    "co2_original_local": "Fig.16a; texto",
+    "co2_conversao": "leitura de figura com eixo numerico calibrado (+-4; specific 11,3 -> 29,5 (bate)) [REVISAO 2026-09-27, leitura integral; confianca media]"
+   }
+  ]
+ },
+ {
+  "row_id": 4039,
+  "rotulo": "Masi et al., 2023",
+  "titulo": "Performance and environmental analysis of Reclaimed Asphalt Pavement (RAP) concrete produced in industrial environment",
+  "pdf": "MASI, 2023d.pdf",
+  "fileId": "149TDPOPCPT4q_dr_TOXSRc9Twa_jh812",
+  "pares": [
+   {
+    "sheet_row": 1167,
+    "material": "Concreto C32/40 com 100% agregado natural (CNAT) — mistura de referencia",
+    "fck": 52,
+    "co2_kg_m3": 220.29,
+    "co2_original": "771 kg CO2 eq por FU (3,5 m3 de concreto CNAT)",
+    "co2_original_local": "Tabela 4, p.6 do ficheiro (p.2836 impressa)",
+    "co2_conversao": "771 kg / 3,5 m3 = 220,29"
+   },
+   {
+    "sheet_row": 1168,
+    "material": "Concreto C32/40 com 40% agregado reciclado de pavimento asfaltico (CRAP) — mistura experimental",
+    "fck": 34,
+    "co2_kg_m3": 209.43,
+    "co2_original": "733 kg CO2 eq por FU (3,5 m3 de concreto CRAP)",
+    "co2_original_local": "Tabela 4, p.6 do ficheiro (p.2836 impressa)",
+    "co2_conversao": "733 kg / 3,5 m3 = 209,43"
+   }
+  ]
+ },
+ {
+  "row_id": 4064,
+  "rotulo": "Jiang et al., 2024",
+  "titulo": "Compressive strength prediction and low-carbon optimization of fly ash geopolymer concrete based on big data and ensemble learning",
+  "pdf": "JIANG et al., 2024 - journal.pone.0310422.pdf",
+  "fileId": "15vPe_YTjDiFqqQBCt-OiomkvuXJrTb6p",
+  "pares": [
+   {
+    "sheet_row": 1169,
+    "material": "Concreto geopolimerico de cinza volante (FAGC) -- mix por tentativa-e-erro (baseline, antes da otimizacao)",
+    "fck": 51.6,
+    "co2_kg_m3": 160.86,
+    "co2_original": "160.86 kg CO2/m3",
+    "co2_original_local": "Tabela 7, p.19 do ficheiro",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1170,
+    "material": "Concreto geopolimerico de cinza volante (FAGC) -- mix otimizado por machine learning + algoritmo genetico",
+    "fck": 50.7,
+    "co2_kg_m3": 134.08,
+    "co2_original": "134.08 kg CO2/m3",
+    "co2_original_local": "Tabela 7, p.19 do ficheiro",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4076,
+  "rotulo": "Buffenbarger et al., 2023",
+  "titulo": "Role of Mixture Overdesign in the Sustainability of Concrete: Current State and Future Perspective",
+  "pdf": "BUFFENBARGER, 2023.pdf",
+  "fileId": "1_ccVRjg3aeBqGqJekS3xFAX5aTp4EfXd",
+  "pares": [
+   {
+    "sheet_row": 1171,
+    "material": "Concreto EUA (ACI 301, fc' nominal especificado 4000psi/27.6MPa) -- resistencia media requerida (fcr') e pegada de carbono por classe de controle de qualidade ACI 214R: Excellent (S=350psi/2.4MPa)",
+    "fck": 30.8,
+    "co2_kg_m3": 241,
+    "co2_original": "241 kg CO2/m3",
+    "co2_original_local": "Tabela 7 (p.6 do ficheiro / p.93 impressa): 'Carbon footprint, lb/yd3 (kg/m3)' = 241 kg/m3 para classe Excellent (S=350psi/2.4MPa) (fator de emissao Ecoinvent v3.6)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1172,
+    "material": "Concreto EUA (ACI 301, fc' nominal especificado 4000psi/27.6MPa) -- resistencia media requerida (fcr') e pegada de carbono por classe de controle de qualidade ACI 214R: Very Good (S=450psi/3.1MPa)",
+    "fck": 31.8,
+    "co2_kg_m3": 248,
+    "co2_original": "248 kg CO2/m3",
+    "co2_original_local": "Tabela 7 (p.6 do ficheiro / p.93 impressa): 'Carbon footprint, lb/yd3 (kg/m3)' = 248 kg/m3 para classe Very Good (S=450psi/3.1MPa) (fator de emissao Ecoinvent v3.6)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1173,
+    "material": "Concreto EUA (ACI 301, fc' nominal especificado 4000psi/27.6MPa) -- resistencia media requerida (fcr') e pegada de carbono por classe de controle de qualidade ACI 214R: Good (S=550psi/3.8MPa)",
+    "fck": 32.9,
+    "co2_kg_m3": 258,
+    "co2_original": "258 kg CO2/m3",
+    "co2_original_local": "Tabela 7 (p.6 do ficheiro / p.93 impressa): 'Carbon footprint, lb/yd3 (kg/m3)' = 258 kg/m3 para classe Good (S=550psi/3.8MPa) (fator de emissao Ecoinvent v3.6)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1174,
+    "material": "Concreto EUA (ACI 301, fc' nominal especificado 4000psi/27.6MPa) -- resistencia media requerida (fcr') e pegada de carbono por classe de controle de qualidade ACI 214R: Fair (S=650psi/4.5MPa)",
+    "fck": 34.5,
+    "co2_kg_m3": 271,
+    "co2_original": "271 kg CO2/m3",
+    "co2_original_local": "Tabela 7 (p.6 do ficheiro / p.93 impressa): 'Carbon footprint, lb/yd3 (kg/m3)' = 271 kg/m3 para classe Fair (S=650psi/4.5MPa) (fator de emissao Ecoinvent v3.6)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1175,
+    "material": "Concreto EUA (ACI 301, fc' nominal especificado 4000psi/27.6MPa) -- resistencia media requerida (fcr') e pegada de carbono por classe de controle de qualidade ACI 214R: Poor (S=750psi/5.2MPa)",
+    "fck": 36.2,
+    "co2_kg_m3": 283,
+    "co2_original": "283 kg CO2/m3",
+    "co2_original_local": "Tabela 7 (p.6 do ficheiro / p.93 impressa): 'Carbon footprint, lb/yd3 (kg/m3)' = 283 kg/m3 para classe Poor (S=750psi/5.2MPa) (fator de emissao Ecoinvent v3.6)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1176,
+    "material": "Concreto EUA (ACI 301, fc' nominal especificado 4000psi/27.6MPa) -- resistencia media requerida (fcr') e pegada de carbono por classe de controle de qualidade ACI 214R: S=950psi/6.6MPa (pior que Poor)",
+    "fck": 39.4,
+    "co2_kg_m3": 308,
+    "co2_original": "308 kg CO2/m3",
+    "co2_original_local": "Tabela 7 (p.6 do ficheiro / p.93 impressa): 'Carbon footprint, lb/yd3 (kg/m3)' = 308 kg/m3 para classe S=950psi/6.6MPa (pior que Poor) (fator de emissao Ecoinvent v3.6)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1177,
+    "material": "Concreto EUA (ACI 301, fc' nominal especificado 4000psi/27.6MPa) -- resistencia media requerida (fcr') e pegada de carbono por classe de controle de qualidade ACI 214R: S=1250psi/8.6MPa (pior que Poor)",
+    "fck": 44.2,
+    "co2_kg_m3": 346,
+    "co2_original": "346 kg CO2/m3",
+    "co2_original_local": "Tabela 7 (p.6 do ficheiro / p.93 impressa): 'Carbon footprint, lb/yd3 (kg/m3)' = 346 kg/m3 para classe S=1250psi/8.6MPa (pior que Poor) (fator de emissao Ecoinvent v3.6)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 2106,
+    "material": "Fundacao 4000 psi (27,6 MPa), mistura real do caso de Ohio: 245,6 cimento + 61,1 cinza volante F, w/cm 0,50",
+    "fck": 47.5,
+    "co2_kg_m3": 250.2,
+    "co2_original": "~250.2 kg CO2e/m3 (barra da Fig.3b; escala 0-350, ~0,89 px/kg; diferencas 28,1 e 65,0 conferem com o texto \"28 and 65 kg CO2/m3\")",
+    "co2_original_local": "Fig.3(b) p.96",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido em figura)"
+   },
+   {
+    "sheet_row": 2107,
+    "material": "Pilares 5000 psi (35,0 MPa), mistura real do caso de Ohio: 312,1 cimento + 78,3 cinza volante F, w/cm 0,40",
+    "fck": 61.7,
+    "co2_kg_m3": 310.7,
+    "co2_original": "~310.7 kg CO2e/m3 (barra da Fig.3b; escala 0-350, ~0,89 px/kg; diferencas 28,1 e 65,0 conferem com o texto \"28 and 65 kg CO2/m3\")",
+    "co2_original_local": "Fig.3(b) p.96",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido em figura)"
+   },
+   {
+    "sheet_row": 2108,
+    "material": "Mistura ternaria \"reasonably designed\" para 4000 psi: 200,5 cimento + 50,4 cinza F + 83,6 escoria, w/cm 0,50",
+    "fck": 45.7,
+    "co2_kg_m3": 222.1,
+    "co2_original": "~222.1 kg CO2e/m3 (barra da Fig.3b; escala 0-350, ~0,89 px/kg; diferencas 28,1 e 65,0 conferem com o texto \"28 and 65 kg CO2/m3\")",
+    "co2_original_local": "Fig.3(b) p.96",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido em figura)"
+   },
+   {
+    "sheet_row": 2109,
+    "material": "Mistura ternaria \"reasonably designed\" para 5000 psi: 234,4 cimento + 67,0 cinza F + 33,2 escoria, w/cm 0,43",
+    "fck": 51.2,
+    "co2_kg_m3": 245.7,
+    "co2_original": "~245.7 kg CO2e/m3 (barra da Fig.3b; escala 0-350, ~0,89 px/kg; diferencas 28,1 e 65,0 conferem com o texto \"28 and 65 kg CO2/m3\")",
+    "co2_original_local": "Fig.3(b) p.96",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3 (lido em figura)"
+   }
+  ]
+ },
+ {
+  "row_id": 4080,
+  "rotulo": "Zhang et al., 2022",
+  "titulo": "Mechanical and Environmental Evaluation of Concrete Mix Using Aggregates Recycled from Construction and Demolition Waste",
+  "pdf": "ZHANG, 2022i - pjoes-147185.pdf",
+  "fileId": "1qQDGRpsBkzRMgq0nk19Tddq1uwsXmJ2R",
+  "pares": [
+   {
+    "sheet_row": 1178,
+    "material": "RAC (100% agregado reciclado) + 9% agente expansivo (EXP) + 0.4% fibra de polipropileno (PPF) -- resistencia maxima aos 28 dias, mistura 'RAC-EXP9-PPF'",
+    "fck": 44.4,
+    "co2_kg_m3": 263.778,
+    "co2_original": "263.778 kg CO2/m3",
+    "co2_original_local": "Tabela 8, p.10 do ficheiro (p.3938 impressa): linha 'RAC-EXP9-PPF', Total=263.778 kg-CO2/m3 [CORRIGIDO de 289.095, que pertence a linha 'CC' da mesma tabela]",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4086,
+  "rotulo": "Passuello et al., 2019",
+  "titulo": "Agate waste valorization in mortars and concretes: Life cycle assessment",
+  "pdf": "PASSUELLO, 2019c.pdf",
+  "fileId": "1JxuaDkqDQFARp1wF5nrXDWJSwu8wgbz0",
+  "pares": [
+   {
+    "sheet_row": 1181,
+    "material": "Argamassa traco 10R (traco rico, 10% de po de agata em substituicao ao cimento, em massa)",
+    "fck": 30,
+    "co2_kg_m3": 535,
+    "co2_original": "535 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 4, p.6 do ficheiro: traco 10R = 535 kg CO2-eq/m3 (categoria 'mudanca climatica')",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4089,
+  "rotulo": "Gomes et al., 2019",
+  "titulo": "Carbon emissions associated with two types of foundations: CP-II Portland cement-based composite vs. geopolymer concrete",
+  "pdf": "GOMES, 2019i.pdf",
+  "fileId": "1xwYl-z1ZJzh5atiDYwjEBUy7m18pBcsx",
+  "pares": [
+   {
+    "sheet_row": 1182,
+    "material": "Concreto convencional CPII-E -- fundacao isolada, 40 MPa @28d, 1 m3 (Joao Pessoa, PB, Brasil)",
+    "fck": 40,
+    "co2_kg_m3": 418.783,
+    "co2_original": "418.783 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 3, p.5 do ficheiro: Total = 418.783 kg CO2-eq/m3 (Cimento 392.00 = 93.6% do total)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 1183,
+    "material": "Concreto geopolimerico (metacaulino + ativador alcalino) -- fundacao isolada, mesma resistencia de projeto 40 MPa @28d, 1 m3 (comparador simetrico)",
+    "fck": 40,
+    "co2_kg_m3": 239.816,
+    "co2_original": "239.816 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 4, p.5 do ficheiro: Total = 239.816 kg CO2-eq/m3 (Metacaulino 36.5% + solucao alcalina 58.2% do total)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4090,
+  "rotulo": "De Azevedo Sampaio et al., 2022",
+  "titulo": "Life cycle assessment of lattice girder slabs with tire rubber residue addition",
+  "pdf": "DE AZEVEDO SAMPAIO et al., 2022.pdf",
+  "fileId": "1uhKRvmzHtU_96l3A4HYfAsgVDguveGfX",
+  "pares": [
+   {
+    "sheet_row": 1184,
+    "material": "Concreto convencional para laje trelicada (capa CPII-Z32 + sapatas CPV-ARI) - Ilha Solteira, Brasil",
+    "fck": 27.82,
+    "co2_kg_m3": 304.9,
+    "co2_original": "Nao publicado em numero (autores so dao diferenca ~5% e graficos sem escala); calculado 27,2 kg CO2-eq por laje convencional",
+    "co2_original_local": "Tabela 3 (massas, p.6) x Tabela 7 (GWP100/kg, p.7-8)",
+    "co2_conversao": "Soma massa x fator (Tab.3/4 x Tab.7): capa 64,61x0,0132 + 73,31x0,00949 + 24,99x0,865 = 23,17 + sapata 12,90x0,0132 + 18,89x0,00949 + 4,51x0,818 = 4,04 -> 27,20 kg/laje / 0,08921 m3 (89,21 L por laje, p.4 e p.7) = 304,9 [REVISTO 2026-09-27: confirmado; Fig.12 (eixo numerico impresso) da ~27,25 kg/laje]"
+   },
+   {
+    "sheet_row": 1185,
+    "material": "Concreto com residuo de borracha de pneu para laje trelicada (capa CPII-Z32 + sapatas CPV-ARI) - Ilha Solteira, Brasil",
+    "fck": 28.73,
+    "co2_kg_m3": 324,
+    "co2_original": "Nao publicado como total: 28,83 kg CO2-eq/laje (arredondado 28,9) calculado pela extracao = capa 24,39 + sapata 4,45 kg (massas Tab.4 x GWP100/kg Tab.7), laje COM residuo de borracha",
+    "co2_original_local": "Tabela 4 p.6 (massas) x Tabela 7 p.7-8 (GWP/kg); volume de concreto por laje 89,21 L no texto p.4",
+    "co2_conversao": "28,9 kg CO2-eq/laje / 0,08921 m3 (89,21 L por laje, texto p.4) = 324,0"
+   }
+  ]
+ }
+]

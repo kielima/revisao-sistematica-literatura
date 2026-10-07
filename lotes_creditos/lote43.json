@@ -1,0 +1,245 @@
+[
+ {
+  "row_id": 4931,
+  "rotulo": "Kontra et al., 2023",
+  "titulo": "Design and Cradle-to-Grave Life-Cycle Assessment: Full-Scale Six-Story Shake-Table Test Building Lateral Systems",
+  "pdf": "KONTRA et al., 2023.pdf",
+  "fileId": "17bcUQTyUdZII1ELZNgJm3ApTgxabyI6m",
+  "pares": [
+   {
+    "sheet_row": 1858,
+    "material": "Parede de contraventamento (shear wall) de betao armado (RC), sistema lateral de edificio de ensaio a escala real de 6 pisos (NHERI TallWood, Seattle); ACI 318-19/ASCE 7-16, elementos de fronteira reforcados nos 2 primeiros pisos",
+    "fck": 34.4,
+    "co2_kg_m3": 642.67,
+    "co2_original": "5,0 x10^4 kg CO2-eq (total do sistema RC: parede+fundacao+armadura, GWP100 TRACI cradle-to-grave sem creditos BBL)",
+    "co2_original_local": "Figura 5 p.1013 (rotulo no topo da barra RC Wall) + Tabela 4 (volumes 72,6 + 5,2 m3)",
+    "co2_conversao": "50.000 kg / (72,6 + 5,2 = 77,8 m3) = 642,67 (inclui ~8,3 t de aco)"
+   }
+  ]
+ },
+ {
+  "row_id": 4942,
+  "rotulo": "Islam et al., 2024",
+  "titulo": "Life cycle assessment and mechanical strength of cement composites with conventional, and recycled fine aggregate",
+  "pdf": "ISLAM et al., 2024 - j.sust.2024.000052.pdf",
+  "fileId": "1srx6QC_etx54Ph4BISnAD833JTbDh72I",
+  "pares": [
+   {
+    "sheet_row": 599,
+    "material": "Argamassa cimenticia C100 (100% areia grossa natural)",
+    "fck": 42.25,
+    "co2_kg_m3": 437,
+    "co2_original": "437 kg CO2eq/m3 (Tabela 4, GWP100a x10^2)",
+    "co2_original_local": "Tabela 4 (p.11): GWP100a kg CO2 eq (x10^2) por FU de 1m3 de argamassa",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 600,
+    "material": "Argamassa cimenticia R100 (100% agregado fino reciclado - RFA)",
+    "fck": 33.8,
+    "co2_kg_m3": 366,
+    "co2_original": "366 kg CO2eq/m3 (Tabela 4, GWP100a x10^2)",
+    "co2_original_local": "Tabela 4 (p.11): GWP100a kg CO2 eq (x10^2) por FU de 1m3 de argamassa",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 601,
+    "material": "Argamassa cimenticia R25C75 (25% RFA + 75% areia grossa natural)",
+    "fck": 48.25,
+    "co2_kg_m3": 419,
+    "co2_original": "419 kg CO2eq/m3 (Tabela 4, GWP100a x10^2)",
+    "co2_original_local": "Tabela 4 (p.11): GWP100a kg CO2 eq (x10^2) por FU de 1m3 de argamassa",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4989,
+  "rotulo": "De Schepper et al., 2014",
+  "titulo": "Life Cycle Assessment of Completely Recyclable Concrete",
+  "pdf": "DESCHEPPER et al., 2014.pdf",
+  "fileId": "1p0DxjKN-_MNse7pf0AuG51NCWzMYZHOR",
+  "pares": [
+   {
+    "sheet_row": 23,
+    "material": "Concreto completamente reciclavel (CRC1) - agregados calcario",
+    "fck": 65.1,
+    "co2_kg_m3": 316,
+    "co2_original": "316 kg CO2-eq/m3",
+    "co2_original_local": "Figura 3 \"Life Cycle impact Assessment of 1 m3 concrete\" (De Schepper et al. 2014, p.6020), subplot GWP100, barra CRC1 - leitura visual contra linhas de grade",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 24,
+    "material": "Concreto completamente reciclavel (CRC2)",
+    "fck": 84.2,
+    "co2_kg_m3": 212,
+    "co2_original": "212 kg CO2-eq/m3",
+    "co2_original_local": "mesma Figura 3, barra CRC2 - leitura visual",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 25,
+    "material": "Concreto tradicional referencia T(0.50) (a/c=0.50)",
+    "fck": 57.8,
+    "co2_kg_m3": 306,
+    "co2_original": "306 kg CO2-eq/m3",
+    "co2_original_local": "mesma Figura 3, barra T(0.50) - leitura visual",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 26,
+    "material": "Concreto tradicional referencia T(0.45) (a/c=0.45)",
+    "fck": 69.3,
+    "co2_kg_m3": 322,
+    "co2_original": "322 kg CO2-eq/m3",
+    "co2_original_local": "mesma Figura 3, barra T(0.45) - leitura visual",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4993,
+  "rotulo": "Wagner et al., 2023",
+  "titulo": "Comparative Life Cycle Assessment of Timber-Concrete-Composite Walls with Concrete and CLT-Wall Elements",
+  "pdf": "WAGNER, 2023d.pdf",
+  "fileId": "1O3mQYdIVRIKENxj6joaOT0HvfqhfCGv8",
+  "pares": [
+   {
+    "sheet_row": 27,
+    "material": "UHPC (Ultra High Performance Concrete) em lamelas de parede hibrida CLT-UHPC",
+    "fck": 132.5,
+    "co2_kg_m3": 560,
+    "co2_original": "560 kg CO2 eq./m3",
+    "co2_original_local": "Figura 7 \"GWPfossil results for 1 m3 UHPC...\" - barra UHPC com rotulo impresso \"560\"",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4997,
+  "rotulo": "Borges et al., 2014",
+  "titulo": "Estudo comparativo da analise de ciclo de vida de concretos geopolimericos e de concretos a base de cimento Portland composto (CP II)",
+  "pdf": "BORGES, 2014.pdf",
+  "fileId": "1oH1bkbob4ShAHE5RtZUjKhP-N9_QV-WZ",
+  "pares": [
+   {
+    "sheet_row": 28,
+    "material": "Concreto de cimento Portland CP II (referencia)",
+    "fck": 40,
+    "co2_kg_m3": 271.9,
+    "co2_original": "271.9 kg CO2/m3",
+    "co2_original_local": "Borges et al. 2014, texto: \"...reduz a emissao de CO2 em 72,4% (75,1 kg CO2/m3) quando comparado ao concreto tradicional de cimento Portland (271,9 kg CO2/m3)\" - valor do concreto Portland CPII referencia",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 29,
+    "material": "Concreto geopolimero (metacaulim + ativador alcalino NaOH/Na2SiO3)",
+    "fck": 40,
+    "co2_kg_m3": 75.1,
+    "co2_original": "75.1 kg CO2/m3",
+    "co2_original_local": "mesma passagem do texto - valor do concreto geopolimerico",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 5011,
+  "rotulo": "Mello, 2018",
+  "titulo": "Avaliacao do ciclo de vida da utilizacao do residuo do beneficiamento de rochas ornamentais em materiais de construcao civil a base de cimento",
+  "pdf": "MELLO, 2018.pdf",
+  "fileId": "1o14OvydMHgfhf7eJZcn8aW81_k4VuCL-",
+  "pares": [
+   {
+    "sheet_row": 31,
+    "material": "Argamassa com RBRO (residuo de beneficiamento de rocha ornamental) - substituicao parcial areia",
+    "fck": 32,
+    "co2_kg_m3": 463,
+    "co2_original": "463 kg CO2eq/m3 (total materiais+producao+transporte, IPCC 2013 100a)",
+    "co2_original_local": "Apendice D, coluna \"Total\": 463 kg CO2eq/m3 (alternativa: 446 so materiais)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 5012,
+  "rotulo": "Figueiredo, 2017",
+  "titulo": "Aplicacao da avaliacao do ciclo de vida como criterio de selecao para materiais utilizados em construcoes sustentaveis",
+  "pdf": "FIGUEIREDO, 2017.pdf",
+  "fileId": "1DtDEav4rO9NJQhWbdUl-H-Mj5qg1ENPd",
+  "pares": [
+   {
+    "sheet_row": 32,
+    "material": "Concreto base cimento Portland vs concreto AAM (material ativado alcalinamente)",
+    "fck": 25,
+    "co2_kg_m3": 286.37,
+    "co2_original": "286.37 kg CO2-eq/m3 (concreto tradicional CPII-Z, cradle-to-gate)",
+    "co2_original_local": "Tabela 2, p.115: Total kg CO2-eq/m3 = 286,37 (Tradicional) / 217,11 (Geopolimerico, nao usado aqui)",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 5018,
+  "rotulo": "Rezende, 2019",
+  "titulo": "Um modelo lean & green para a ecoeficiencia em processos produtivos da construcao civil",
+  "pdf": "REZENDE, 2019.pdf",
+  "fileId": "1h4ylxuMkqAy1hD9fylHgrvv28ejxmuj9",
+  "pares": [
+   {
+    "sheet_row": 43,
+    "material": "Estrutura de concreto armado (ECA) vs light steel framing (ELSF)",
+    "fck": 25,
+    "co2_kg_m3": 198.4,
+    "co2_original": "40,1% x 48.485,13 kg CO2-eq (betao 25 MPa, texto p.96)",
+    "co2_original_local": "texto p.96 + total da estrutura",
+    "co2_conversao": "0,401 x 48.485,13 / 98,0 m3"
+   }
+  ]
+ },
+ {
+  "row_id": 5038,
+  "rotulo": "Medeiros, 2012",
+  "titulo": "Metodo da busca harmonica aplicado na otimizacao de secoes de pilares retangulares em concreto armado",
+  "pdf": "MEDEIROS, 2012.pdf",
+  "fileId": "1OW_xvtklcSt9v0ouAzB6wzRyufel3C_8",
+  "pares": [
+   {
+    "sheet_row": 48,
+    "material": "Concreto estrutural fck=35 MPa (pilar - exemplo IX)",
+    "fck": 35,
+    "co2_kg_m3": 352.29,
+    "co2_original": "352.29 kg CO2e/m3 (GWP; existe tambem CO2=265,28 kg/m3 na mesma tabela)",
+    "co2_original_local": "Tabela 40, p.108: \"Concreto 35 MPa (m3): GWP (kg CO2e)=352,29\"",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   },
+   {
+    "sheet_row": 49,
+    "material": "Concreto estrutural fck=20 MPa (pilar - exemplo X)",
+    "fck": 20,
+    "co2_kg_m3": 256.88,
+    "co2_original": "256.88 kg CO2e/m3 (GWP; existe tambem CO2=224,34 kg/m3 na mesma tabela)",
+    "co2_original_local": "Tabela 43, p.109: \"Concreto 20 MPa (m3): GWP=256,88\"",
+    "co2_conversao": "nenhuma - publicado em kg CO2-eq/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 5040,
+  "rotulo": "Medeiros, 2016",
+  "titulo": "Impactos ambientais de sistemas construtivos: um exercicio de analise de ciclo de vida",
+  "pdf": "MEDEIROS, 2016.pdf",
+  "fileId": "1MBx_LrGy6dR8o_hzw2GJngxX-M51jvqA",
+  "pares": [
+   {
+    "sheet_row": 50,
+    "material": "Concreto armado 25MPa - sistemas Fundacao+Superestrutura de edificio real (UFMT, 4.347,57 m2) - familia concreto armado",
+    "fck": 25,
+    "co2_kg_m3": 501.56,
+    "co2_original": "812.132,42 kg CO2 eq (total do sistema estrutural: Fundacao 265.770,17 + Superestrutura 546.362,25; inclui aco CA-50, formas e transporte)",
+    "co2_original_local": "Tabela 10 p.85; volumes na Tabela 3/4 p.74 (630,00 + 989,21 m3)",
+    "co2_conversao": "812.132,42 kg / 1.619,21 m3 de betao 25 MPa (630,00+989,21) = 501,56 [VERIFICACAO 2026-09-26: OK; nota: numerador inclui aco, formas e transporte (nao isolado ao betao)]"
+   }
+  ]
+ }
+]
