@@ -84,6 +84,14 @@ Cada entrada diz se foi verificada por mim no PDF (`pessoal`) ou é leitura do s
 
 **Leave-one-study-out (2026-10-04, 1.492 pares, estrato principal 308 estudos):** retirando qualquer estudo, a média de `ci` fica entre 10,00 (sem 2849) e 10,32 (sem 3413), contra 10,27 do modelo completo; 0 falhas de convergência. Nenhum estudo isolado determina o resultado. `metanalise/resultados/leave_one_study_out.csv`.
 
+## E. CO2 com e sem desconto (créditos) — 2026-10-07
+
+| # | Data | Decisão | Estado |
+|---|---|---|---|
+| F1 | 2026-10-07 (Kiê) | Em vez de escolher uma regra única para os créditos (carga evitada, carbonatação, biogénico, módulo D), o painel passa a ter **uma opção para ver os dois cenários — sem desconto (bruto) e com desconto** —, como o filtro «Só cimento Portland». Nova coluna para o CO2 com desconto. | fechada |
+| F2 | 2026-10-07 (Kiê) | **Reabrir todos os PDFs** com pares no painel (394 estudos, 1.492 pares) para saber quais declaram CO2 com desconto e quais só o bruto. Lotes em `lotes_creditos/` (44 lotes, `PROMPT.md`). | em curso |
+| F3 | 2026-10-07 | **[IMPLEMENTAÇÃO — por confirmar]** Colunas novas em `dados_fck`: `co2_kg_m3_com_desconto` (kg CO2-eq/m3 com todos os descontos que o próprio artigo aplica; vazia se o artigo não declara desconto), `co2_desconto_tipo` e `co2_desconto_citacao`. `co2_kg_m3` (col 37) passa a guardar o **bruto** quando o artigo o publica ou permite calculá-lo com números impressos. | em curso |
+
 ## C. Pendências que não bloqueiam a análise
 
 **Perguntas abertas à Kiê (2026-10-04, revarredura):**
