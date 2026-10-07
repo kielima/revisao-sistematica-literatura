@@ -97,6 +97,8 @@ Cada entrada diz se foi verificada por mim no PDF (`pessoal`) ou é leitura do s
 | F7 | 2026-10-07 | **[IMPLEMENTAÇÃO — por confirmar]** Painel: barra fixa com dois grupos — «Base do ligante» e «CO₂ dos artigos» (Sem desconto / Com desconto, `?co2=com`); o cenário troca o CO2 em todos os gráficos que leem `currentData()`. Exportador: 7.º campo = CO2 com desconto (null = sem desconto), 8.º = 1 quando não há bruto. | aplicada |
 | F8 | 2026-10-07 | A pergunta aberta 1 (créditos: bruto vs líquido) fica **resolvida pela F1**: os dois cenários coexistem; o «sem desconto» é a análise principal. **[por confirmar]** | — |
 
+**Resultados (2026-10-07, modelo v5):** principal (sem desconto) μ = 10,37 kg CO2-eq/(m3·MPa) (IC 95% 9,69–11,05; k = 1.172, 308 estudos); **com desconto 10,14** (9,44–10,84); só pares com bruto publicado 10,28 (k = 1.127). O desconto baixa a média em ~2% — o efeito concentra-se em poucos estudos (BATUECAS, MOMOTAZ, GAO, RØNNING, HUANG 3251). Geopolímero passa de 3,1 para 4,2 com o bruto da BATUECAS (antes negativo).
+
 ## C. Pendências que não bloqueiam a análise
 
 **Perguntas abertas à Kiê (2026-10-04, revarredura):**
