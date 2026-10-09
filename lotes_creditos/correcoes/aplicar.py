@@ -13,7 +13,8 @@ import re
 import openpyxl
 
 HOJE = '2026-10-07'
-V = json.load(open('lotes_creditos/correcoes/verificadas.json', encoding='utf-8'))
+import sys
+V = json.load(open(sys.argv[1] if len(sys.argv) > 1 else 'lotes_creditos/correcoes/verificadas.json', encoding='utf-8'))
 FAM = 'lotes_familia/familias_revarredura.json'
 
 
