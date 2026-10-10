@@ -1,0 +1,315 @@
+[
+ {
+  "row_id": 2580,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (sem truncamento: tamanho abaixo do limite de corte conhecido) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 78,
+    "cimento_designacao": "ordinary Portland cement (OPC) grade 43",
+    "norma_cimento": "IS 8112-2013",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.138, sec. 2.1 Material: 'The present study used ordinary Portland cement (OPC) grade 43 for preparing concrete that conforms to IS 8112-2013 [47]'; Tabela 2: Control PC 395 kg/m3.",
+    "nota": "Na ACV (Tabela 6, p.157) o factor de CO2 do cimento e o da base Idemat2023/ELCD 'Cement (Portland CEM I 52.5 N)' europeu (0,91 kg CO2/kg), nao o OPC 43 indiano ensaiado: cimento da ACV diferente do cimento do ensaio."
+   },
+   {
+    "sheet_row": 79,
+    "cimento_designacao": "ordinary Portland cement (OPC) grade 43",
+    "norma_cimento": "IS 8112-2013",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.138, sec. 2.1 (mesmo OPC 43, IS 8112-2013); p.155, sec. 3.5.2: '21.51% GCBA as PC replacement curtailed the cement content to 310 Kg per m3 from 395 Kg per m3'.",
+    "nota": "Mistura optimizada: 21,51% de cinza de fundo moida (GCBA) em substituicao do cimento + 29,82% de CBA em substituicao da areia. Na ACV o factor do cimento e 'Portland CEM I 52.5 N' (Idemat2023/ELCD), nao o OPC 43 do ensaio."
+   }
+  ]
+ },
+ {
+  "row_id": 2599,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 10 paginas lido integralmente no texto devolvido pelo conector.",
+  "pares": [
+   {
+    "sheet_row": 613,
+    "cimento_designacao": "CEM I",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2: 'Traditional cement mortar with 100% CEM (PC) was used as reference'; Tabela 1: 'CEM I 670' kg/m3 na coluna 100% CEM.",
+    "nota": "CEM I sem classe de resistencia nem norma citada. A ACV (SimaPro/Ecoinvent) nao identifica o dataset de cimento."
+   }
+  ]
+ },
+ {
+  "row_id": 2611,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (sem truncamento: tamanho abaixo do limite de corte conhecido) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro. Artigo de revisao: os tracos OPC-A/B/C sao compilados da literatura.",
+  "pares": [
+   {
+    "sheet_row": 88,
+    "cimento_designacao": "OPC (ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.923, Tabela 2 'Review of OPC concrete mix ratio (kg/m3)': OPC-A (30 MPa) Cement 350 kg/m3 (fonte Farhan et al. 2019); p.923 sec. 4.2.1: 'the production emission coefficient of Portland cement is selected as 0.8077 tCO2/t'.",
+    "nota": "Traco retirado de fonte externa (Farhan et al. 2019); o artigo so escreve 'Cement'/'OPC', sem tipo nem norma. O factor de CO2 (0,8077 tCO2/t, Tabela 5 de Shen et al. 2015) e um factor nacional chines de 'Portland cement', calculado 'considering the increase in mineral admixture content'."
+   },
+   {
+    "sheet_row": 91,
+    "cimento_designacao": "OPC (ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.923, Tabela 2 'Review of OPC concrete mix ratio (kg/m3)': OPC-B (40 MPa) Cement 328 kg/m3 (fonte Turner and Collins 2013); p.923 sec. 4.2.1: 'the production emission coefficient of Portland cement is selected as 0.8077 tCO2/t'.",
+    "nota": "Traco retirado de fonte externa (Turner and Collins 2013); o artigo so escreve 'Cement'/'OPC', sem tipo nem norma. O factor de CO2 (0,8077 tCO2/t, Tabela 5 de Shen et al. 2015) e um factor nacional chines de 'Portland cement', calculado 'considering the increase in mineral admixture content'."
+   },
+   {
+    "sheet_row": 94,
+    "cimento_designacao": "OPC (ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.923, Tabela 2 'Review of OPC concrete mix ratio (kg/m3)': OPC-C (50 MPa) Cement 375 kg/m3 (fonte Li et al. 2021); p.923 sec. 4.2.1: 'the production emission coefficient of Portland cement is selected as 0.8077 tCO2/t'.",
+    "nota": "Traco retirado de fonte externa (Li et al. 2021); o artigo so escreve 'Cement'/'OPC', sem tipo nem norma. O factor de CO2 (0,8077 tCO2/t, Tabela 5 de Shen et al. 2015) e um factor nacional chines de 'Portland cement', calculado 'considering the increase in mineral admixture content'."
+   }
+  ]
+ },
+ {
+  "row_id": 2624,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (sem truncamento: tamanho abaixo do limite de corte conhecido) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro. Nenhuma ocorrencia de 'cement', 'Portland', 'CEM' ou 'clinker' no corpo do artigo.",
+  "pares": [
+   {
+    "sheet_row": 115,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, Tabela 3: 'Global Warming Potential (GWP) for a reference volume (1 m3) of concrete C30/C37 ... 478.3' kg CO2 eq; p.7: avaliacao feita com o Athena Impact Estimator for Building (AIE4B).",
+    "nota": "O cimento nunca e indicado; o betao C30/37 e um processo generico do software Athena (AIE4B), sem composicao do ligante."
+   }
+  ]
+ },
+ {
+  "row_id": 2658,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (sem truncamento: tamanho abaixo do limite de corte conhecido) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 631,
+    "cimento_designacao": "CEM II/A-LL 42,5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "Cement, limestone 6-20% (dataset Ecoinvent usado na ACV)",
+    "citacao": "p.6, Tabela 3: 'Cement CEM II/A-LL 42,5 R 0.450' kg por 1 L de mistura (REF1, classe M30); p.8, Tabela 4: 'Cement CEM II/A-LL 42,5 R | Cement, limestone 6-20% [RoW], cement production, limestone 6-20%|APOS, U Ecoinvent 3'.",
+    "nota": "Norma do cimento nao citada (a EN 998-2, citada como 'EN 988-2', refere-se a classe de resistencia da argamassa). O teor 6-20% de calcario vem do nome do dataset Ecoinvent, nao de uma composicao declarada pelo fabricante. Tracos dosados por litro de mistura."
+   },
+   {
+    "sheet_row": 633,
+    "cimento_designacao": "CEM II/A-LL 42,5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "Cement, limestone 6-20% (dataset Ecoinvent usado na ACV)",
+    "citacao": "p.6, Tabela 3: 'Cement CEM II/A-LL 42,5 R 0.450' kg por 1 L de mistura (REF2, classe M20); p.8, Tabela 4: 'Cement CEM II/A-LL 42,5 R | Cement, limestone 6-20% [RoW], cement production, limestone 6-20%|APOS, U Ecoinvent 3'.",
+    "nota": "Norma do cimento nao citada (a EN 998-2, citada como 'EN 988-2', refere-se a classe de resistencia da argamassa). O teor 6-20% de calcario vem do nome do dataset Ecoinvent, nao de uma composicao declarada pelo fabricante. Tracos dosados por litro de mistura."
+   }
+  ]
+ },
+ {
+  "row_id": 2680,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (sem truncamento: tamanho abaixo do limite de corte conhecido) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro. Nenhuma ocorrencia de 'Portland'; 'cement' so aparece como material generico (cement mortar, manufacturing processes for cement).",
+  "pares": [
+   {
+    "sheet_row": 146,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec. 2.2.2 / Tabela 1 (Inventory by functional unit): 'concrete with a specified compressive strength of 28 MPa for all structural elements'; 'Concrete, 28 MPa  m3' com fonte E (Ecoinvent, OpenLCA).",
+    "nota": "Sistema CB (betao armado convencional in situ). O betao e um processo generico Ecoinvent 'Concrete, 28 MPa'; o artigo nao indica o tipo de cimento. Valor de CO2 de sistema estrutural (betao armado) por area de edificio."
+   },
+   {
+    "sheet_row": 147,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec. 2.2.2 / Tabela 1 (Inventory by functional unit): 'concrete with a specified compressive strength of 28 MPa for all structural elements'; 'Concrete, 28 MPa  m3' com fonte E (Ecoinvent, OpenLCA).",
+    "nota": "Sistema CM1 (modulos pre-fabricados de betao, ligacoes humidas). O betao e um processo generico Ecoinvent 'Concrete, 28 MPa'; o artigo nao indica o tipo de cimento. Valor de CO2 de sistema estrutural (betao armado) por area de edificio."
+   },
+   {
+    "sheet_row": 148,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec. 2.2.2 / Tabela 1 (Inventory by functional unit): 'concrete with a specified compressive strength of 28 MPa for all structural elements'; 'Concrete, 28 MPa  m3' com fonte E (Ecoinvent, OpenLCA).",
+    "nota": "Sistema CM2 (modulos pre-fabricados de betao, ligacoes secas). O betao e um processo generico Ecoinvent 'Concrete, 28 MPa'; o artigo nao indica o tipo de cimento. Valor de CO2 de sistema estrutural (betao armado) por area de edificio."
+   },
+   {
+    "sheet_row": 149,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec. 2.2.2 / Tabela 1 (Inventory by functional unit): 'concrete with a specified compressive strength of 28 MPa for all structural elements'; 'Concrete, 28 MPa  m3' com fonte E (Ecoinvent, OpenLCA).",
+    "nota": "Sistema MSC (modulos de aco com laje de betao). O betao e um processo generico Ecoinvent 'Concrete, 28 MPa'; o artigo nao indica o tipo de cimento. Valor de CO2 de sistema estrutural (betao armado) por area de edificio."
+   }
+  ]
+ },
+ {
+  "row_id": 2681,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (sem truncamento: tamanho abaixo do limite de corte conhecido) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 130,
+    "cimento_designacao": "Commercial type II portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec. 3.1 Materials properties: 'Commercial type II portland cement with accordance to ASTM-C150 standard and two SCMs (SF and GGBFS) are used as binder'; Tabela 2: Conventional Cement 350, SF 0, GGBFS 0 kg/m3.",
+    "nota": "O fck 33,9 MPa da mistura convencional e previsto por equacao de regressao (Eq. 2) de estudo anterior dos autores [14], nao ensaiado neste artigo."
+   }
+  ]
+ },
+ {
+  "row_id": 2684,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (sem truncamento: tamanho abaixo do limite de corte conhecido) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 135,
+    "cimento_designacao": "CEM I 42.5 N",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2, sec. 2.1: 'The OPC used in the study was CEM I 42.5 N and provided by Holcim (Schweiz) AG'; Tabela 1: OPC, Cement type CEM I 42.5 N.",
+    "nota": "Cimento diferente entre ensaio e ACV: o texto e a Tabela 1 dizem CEM I 42.5 N; a Tabela 2 (tracos e inventario de GWP da ACV) diz 'CEM I 52.5 N' 300 kg/m3 (GWP 0,850 kg CO2 eq/kg, media de literatura). Norma do cimento nao citada."
+   },
+   {
+    "sheet_row": 136,
+    "cimento_designacao": "CEM I 42.5 N",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2, sec. 2.1 e Tabela 1: OPC SF, mesmo CEM I 42.5 N (Holcim) com 0,75% vol. de fibras de aco; Tabela 2: 'CEM I 52.5 N' 300 kg/m3.",
+    "nota": "Igual ao par 135: CEM I 42.5 N no ensaio, CEM I 52.5 N na Tabela 2 da ACV. Fibras de aco (60 kg/m3) incluidas no CO2."
+   },
+   {
+    "sheet_row": 137,
+    "cimento_designacao": "LC3-50",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "53% OPC (CEM I) + 30% argila calcinada (50% caulinitica) + 15% po de calcario + 2% gesso",
+    "citacao": "p.2, sec. 2.1: 'The LC3-50 mix included: 1) 53% of the same OPC; 2) 30% calcined clay with 50% kaolinitic content ... calcined at the labs at EPFL; 3) 15% commercial limestone powder; 3) 2% commercial gypsum'; Tabela 2: CEM I 52.5 N 159 + Calcined Clay 90 + Limestone 45 + Gypsum 6 kg/m3.",
+    "nota": "LC3 composto no proprio estudo (argila calcinada em laboratorio na EPFL), nao e cimento comercial. O OPC base e CEM I 42.5 N no texto e CEM I 52.5 N na Tabela 2 da ACV."
+   },
+   {
+    "sheet_row": 138,
+    "cimento_designacao": "LC3-50",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "53% OPC (CEM I) + 30% argila calcinada (50% caulinitica) + 15% po de calcario + 2% gesso",
+    "citacao": "p.2, sec. 2.1 e Tabela 1: LC3 SF (LC3-50 com 0,75% vol. de fibras de aco); Tabela 2: CEM I 52.5 N 159 + Calcined Clay 90 + Limestone 45 + Gypsum 6 kg/m3 + fibras 60.",
+    "nota": "Igual ao par 137, com fibras de aco incluidas no CO2. Mesma discrepancia CEM I 42.5 N (texto) / CEM I 52.5 N (ACV)."
+   }
+  ]
+ },
+ {
+  "row_id": 2693,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 10 paginas lido integralmente no texto devolvido pelo conector. Nenhuma ocorrencia de 'cement' tipificado; o unico 'cement content' e generico (introducao).",
+  "pares": [
+   {
+    "sheet_row": 646,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.34, sec. 2.2: 'Life cycle inventory data has been collected from the Ecoinvent v3.1 database [28]. A Swiss process has been used for all concrete'; p.33, sec. 2.1: resistencia de cilindros aos 28 d.",
+    "nota": "Vigas 1.1/1.2 BFRP. O cimento e a composicao do betao nunca sao indicados; o CO2 do betao vem de um processo suico generico do Ecoinvent, igual para todas as vigas apesar de fc diferentes (31,4 a 67,4 MPa)."
+   },
+   {
+    "sheet_row": 647,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.34, sec. 2.2: 'Life cycle inventory data has been collected from the Ecoinvent v3.1 database [28]. A Swiss process has been used for all concrete'; p.33, sec. 2.1: resistencia de cilindros aos 28 d.",
+    "nota": "Vigas 2.1-2.3 BFRP. O cimento e a composicao do betao nunca sao indicados; o CO2 do betao vem de um processo suico generico do Ecoinvent, igual para todas as vigas apesar de fc diferentes (31,4 a 67,4 MPa)."
+   },
+   {
+    "sheet_row": 648,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.34, sec. 2.2: 'Life cycle inventory data has been collected from the Ecoinvent v3.1 database [28]. A Swiss process has been used for all concrete'; p.33, sec. 2.1: resistencia de cilindros aos 28 d.",
+    "nota": "Vigas 3.1/3.2 BFRP. O cimento e a composicao do betao nunca sao indicados; o CO2 do betao vem de um processo suico generico do Ecoinvent, igual para todas as vigas apesar de fc diferentes (31,4 a 67,4 MPa)."
+   },
+   {
+    "sheet_row": 649,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.34, sec. 2.2: 'Life cycle inventory data has been collected from the Ecoinvent v3.1 database [28]. A Swiss process has been used for all concrete'; p.33, sec. 2.1: resistencia de cilindros aos 28 d.",
+    "nota": "Vigas 4.1/4.2 BFRP. O cimento e a composicao do betao nunca sao indicados; o CO2 do betao vem de um processo suico generico do Ecoinvent, igual para todas as vigas apesar de fc diferentes (31,4 a 67,4 MPa)."
+   },
+   {
+    "sheet_row": 650,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.34, sec. 2.2: 'Life cycle inventory data has been collected from the Ecoinvent v3.1 database [28]. A Swiss process has been used for all concrete'; p.33, sec. 2.1: resistencia de cilindros aos 28 d.",
+    "nota": "Vigas 5.1-5.3 com aco. O cimento e a composicao do betao nunca sao indicados; o CO2 do betao vem de um processo suico generico do Ecoinvent, igual para todas as vigas apesar de fc diferentes (31,4 a 67,4 MPa)."
+   }
+  ]
+ },
+ {
+  "row_id": 2694,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (sem truncamento: tamanho abaixo do limite de corte conhecido) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 651,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 4 (LCI DB nacional coreana): 'ready-mixed concrete 25-21-12 A m3' com GWP; sec. metodologia: 'the national LCI DB (Ministry of Knowledge Economy and Ministry of Environment)'.",
+    "nota": "Betao pronto da base de dados nacional coreana (codigo agregado-resistencia-abaixamento); o artigo nao diz que cimento entra nesse betao. Os cimentos 'Portland cement type I/II/III/V' e 'Blast furnace slag cement' aparecem so como materiais separados na mesma tabela, sem ligacao ao betao e sem norma."
+   },
+   {
+    "sheet_row": 652,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 4 (LCI DB nacional coreana): 'ready-mixed concrete 25-21-15 A m3' com GWP; sec. metodologia: 'the national LCI DB (Ministry of Knowledge Economy and Ministry of Environment)'.",
+    "nota": "Betao pronto da base de dados nacional coreana (codigo agregado-resistencia-abaixamento); o artigo nao diz que cimento entra nesse betao. Os cimentos 'Portland cement type I/II/III/V' e 'Blast furnace slag cement' aparecem so como materiais separados na mesma tabela, sem ligacao ao betao e sem norma."
+   },
+   {
+    "sheet_row": 653,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 4 (LCI DB nacional coreana): 'ready-mixed concrete 25-24-12 A m3' com GWP; sec. metodologia: 'the national LCI DB (Ministry of Knowledge Economy and Ministry of Environment)'.",
+    "nota": "Betao pronto da base de dados nacional coreana (codigo agregado-resistencia-abaixamento); o artigo nao diz que cimento entra nesse betao. Os cimentos 'Portland cement type I/II/III/V' e 'Blast furnace slag cement' aparecem so como materiais separados na mesma tabela, sem ligacao ao betao e sem norma."
+   },
+   {
+    "sheet_row": 654,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 4 (LCI DB nacional coreana): 'ready-mixed concrete 25-24-15 A m3' com GWP; sec. metodologia: 'the national LCI DB (Ministry of Knowledge Economy and Ministry of Environment)'.",
+    "nota": "Betao pronto da base de dados nacional coreana (codigo agregado-resistencia-abaixamento); o artigo nao diz que cimento entra nesse betao. Os cimentos 'Portland cement type I/II/III/V' e 'Blast furnace slag cement' aparecem so como materiais separados na mesma tabela, sem ligacao ao betao e sem norma."
+   }
+  ]
+ }
+]
