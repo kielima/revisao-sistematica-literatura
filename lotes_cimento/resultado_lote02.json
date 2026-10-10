@@ -1,0 +1,288 @@
+[
+ {
+  "row_id": 2695,
+  "pares": [
+   {
+    "sheet_row": 655,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Sec. 3.2.1, Table 3: 'RMC 24 MPa kg-CO2/m3 414' (factores do Korea LCI Database, KEITI [67]).",
+    "nota": "O par e um factor de emissao generico da base KEITI para betao pronto (RMC) de 24 MPa; o artigo nao diz o cimento nem a composicao do RMC. O unico cimento nomeado ('Ordinary Portland Cement', Table 4, custo por saco de 40 kg; factor 'Cement 1.060 kg-CO2/kg' na Table 3) e o cimento ensacado usado como material separado do edificio, nao o ligante do RMC."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (15 pp.) e pesquisado; nenhuma mencao a tipo de cimento ou norma para o RMC."
+ },
+ {
+  "row_id": 2696,
+  "pares": [
+   {
+    "sheet_row": 656,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.13, Sec.3, Table 1: 'Concrete C30/37 145 £/m3 230 kgCO2e/m3'; coeficientes 'recommended by The Concrete Centre based on survey information from industry in June 2020 in the UK context' (linhas 291-293).",
+    "nota": "Factor de inventario por classe (The Concrete Centre, Concept V4), sem cimento nem composicao. O texto so cita CEM I e 40% cinza volante como exemplo da base ICE para C28/35 (linhas 219-221), que nao e o valor usado."
+   },
+   {
+    "sheet_row": 657,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.13, Table 1: 'Concrete C32/40 145 £/m3 240 kgCO2e/m3' (lajes pos-tensionadas).",
+    "nota": "Igual ao par 656: factor generico da Concrete Centre sem cimento declarado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Preprint (Jayasinghe et al. 2021, J. Clean. Prod.) lido em texto integral; estudo de optimizacao de lajes sem traco proprio."
+ },
+ {
+  "row_id": 2699,
+  "pares": [
+   {
+    "sheet_row": 150,
+    "cimento_designacao": "OPC (Ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Traco real da central: OPC 297 kg/m3 + GGBS 33 kg/m3 (~10% do ligante), Table 5",
+    "citacao": "p.9, Sec.5.1 e Table 5: 'OPC: 297 kg/m3 ... GGBS: 33 kg/m3'; 'OPC: Ordinary Portland cement'. Table 2: 'Cement National LCI Korea'.",
+    "nota": "Betao de 24 MPa de uma central de Gyeonggi-do; o traco base ja inclui 33 kg/m3 de GGBS (o estudo nao o juntou, e o traco da central), por isso familia 'opc' pode nao ser exacta. Factor do cimento = LCI nacional coreano (0,948 kg CO2-eq/kg, Table 4), sem norma nem subtipo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (16 pp.)."
+ },
+ {
+  "row_id": 2700,
+  "pares": [
+   {
+    "sheet_row": 660,
+    "cimento_designacao": "normal cement / ordinary cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Traco do fabricante A: C 297 kg/m3 + GGBS 33 kg/m3 (~10% do ligante), Table 4",
+    "citacao": "p.10, Sec.5.1, Table 4: '24 297 160 931 896 33 2.6' (C, W, G, S, GGBS, AE); Table 6: 'ordinary cement South Korea'; Fig.4: GWP total 299 kg CO2-eq/m3.",
+    "nota": "O traco de referencia ('Plain' na legenda do par) ja contem 33 kg/m3 de GGBS; no texto o cimento e chamado 'normal cement'/'ordinary cement' e nas conclusoes 'ordinary Portland cement'. Sem norma."
+   },
+   {
+    "sheet_row": 661,
+    "cimento_designacao": "OPC (ordinary cement)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "OPC 100% / GGBS 0% (Table 5)",
+    "citacao": "p.10, Table 5: 'OPC 100% GGBS 0%'; Fig.8: 'Plain' 331 kgCO2-eq/m3.",
+    "nota": "Variante da analise de sensibilidade (GGBS 0%), CO2 lido da Fig.8; cimento so do LCI coreano 'ordinary cement'."
+   },
+   {
+    "sheet_row": 662,
+    "cimento_designacao": "OPC (ordinary cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "OPC 90% / GGBS 10%",
+    "citacao": "p.10, Table 5; Fig.8: 10% -> 300 kgCO2-eq/m3.",
+    "nota": "GGBS do ecoinvent (Table 6)."
+   },
+   {
+    "sheet_row": 663,
+    "cimento_designacao": "OPC (ordinary cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "OPC 80% / GGBS 20%",
+    "citacao": "p.10, Table 5; Fig.8: 20% -> 269 kgCO2-eq/m3.",
+    "nota": null
+   },
+   {
+    "sheet_row": 664,
+    "cimento_designacao": "OPC (ordinary cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "OPC 70% / GGBS 30%",
+    "citacao": "p.10, Table 5; Fig.8: 30% -> 239 kgCO2-eq/m3.",
+    "nota": null
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (20 pp.); figuras nao renderizadas, valores de CO2 da Fig.8 vem no texto extraido."
+ },
+ {
+  "row_id": 2703,
+  "pares": [
+   {
+    "sheet_row": 154,
+    "cimento_designacao": "OPC ('OPC available in the Republic of Korea'; 'ordinary Portland cement')",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "OPC 100% (Case 1, Table 11); no ensaio Type 1: C 340 kg/m3 (Table 2)",
+    "citacao": "p.4, Sec.3.1.1: 'In this test, OPC available in the Republic of Korea was used'; Table 2 nota 'OPC: ordinary Portland cement'; Table 11 Case 1 OPC 100%.",
+    "nota": "Sem norma de cimento (as KS citadas sao de ensaio: KS F 2402/2421/2403/2405)."
+   },
+   {
+    "sheet_row": 155,
+    "cimento_designacao": "OPC (ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "OPC 90% / W-BFS 10% (Case 2, Table 11); W-BFS = BFS:W 70:30 (titanio-gesso, lodo, calcario)",
+    "citacao": "p.13, Sec.3.3.1, Table 11: 'Case 2 90% 10% 0%'.",
+    "nota": "Caso so da ACV (nao ensaiado). W-BFS e uma escoria com aditivo de residuos produzida pelo estudo/fornecedor, nao um cimento comercial."
+   },
+   {
+    "sheet_row": 156,
+    "cimento_designacao": "OPC (ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "OPC 90% / BFS 10% (Case 3, Table 11)",
+    "citacao": "p.13, Table 11: 'Case 3 90% 0% 10%'.",
+    "nota": "Caso so da ACV (nao ensaiado)."
+   },
+   {
+    "sheet_row": 157,
+    "cimento_designacao": "OPC (ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "OPC 70% / W-BFS 30% (Case 4, Table 11); ensaio Type 3: C 238 + W-BFS 102 kg/m3",
+    "citacao": "p.13, Table 11: 'Case 4 70% 30% 0%'; p.5 Table 2 / Table 4 'OPC + W-BFS (30%)' 28 d 38,6 MPa.",
+    "nota": "Inconsistencia do artigo: o texto da Sec.3.3.1 diz que os Cases 4 e 5 tem '20%', mas a Table 11 e os resultados dizem 30%."
+   },
+   {
+    "sheet_row": 158,
+    "cimento_designacao": "OPC (ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "OPC 70% / BFS 30% (Case 5, Table 11); ensaio Type 2: C 238 + BFS 102 kg/m3",
+    "citacao": "p.13, Table 11: 'Case 5 70% 0% 30%'; Table 4 'OPC + BFS (30%)' 28 d 33,2 MPa.",
+    "nota": "Mesma inconsistencia 20%/30% do par 157."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (19 pp.)."
+ },
+ {
+  "row_id": 2704,
+  "pares": [
+   {
+    "sheet_row": 666,
+    "cimento_designacao": "Ordinary Portland Cement (C = cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Traco real (metodo convencional): C 314 + F/A 45 kg/m3 (~12,5% cinza volante no ligante), Table 9",
+    "citacao": "p.14-15, Table 7: 'Standard 25-24-150, Mixed Materials (Fly ash)'; Table 9 'Conventional Input Method ... 314 917 902 45 173 2'; Table 1: 'Ordinary Portland Cement kg National LCI Database (Korea)'.",
+    "nota": "Traco da central com cinza volante; familia 'opc' pode nao ser exacta. Sem norma."
+   },
+   {
+    "sheet_row": 667,
+    "cimento_designacao": "Ordinary Portland Cement (C = cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Traco optimizado CLAS: C 330 + F/A 34 kg/m3 (~9,3% cinza volante), Table 9",
+    "citacao": "p.15, Table 9 'Optimization System Method 47.2 47.3 330 924 833 34 172 2.6'; Table 8 'CO2 Prioritized ... 225.8'.",
+    "nota": "O artigo da 225,8 kg-CO2/m3 (Table 8 e texto), nao 225,7 como esta gravado. A Table 4 lista tambem 'B/C: Blast Furnace Cement' como opcao do sistema, mas o traco do caso usa C + F/A."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (19 pp.)."
+ },
+ {
+  "row_id": 2705,
+  "pares": [
+   {
+    "sheet_row": 668,
+    "cimento_designacao": "blast-furnace slag cement (texto); 'Ordinary Cement Not included' (Table 5)",
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": "Table 5: sem cimento comum; escoria em po (blast-furnace slag powder) 308 kg/m3 + cinza volante 102 kg/m3",
+    "citacao": "p.7, Sec.4.1: 'In the case of the C-B-58 project ... all cement was substituted with blast-furnace slag cement and blast-furnace fine particles'; p.8 Table 5: 'Ordinary Cement Not included ... Blast-furnace slag powder 308 62.83 ... Flyash 102 63.21'.",
+    "nota": "Estranho: o texto fala em cimento de escoria, mas a Table 5 so tem escoria em po e cinza volante (sem linha para o cimento de escoria); a soma da Table 5 da exactamente 134,59. O factor implicito da cinza volante (63,21/102 = 0,62 kg CO2/kg) e muito alto para cinza volante, podendo ser o cimento de escoria lancado nessa linha. Nao e claro se ha clinquer Portland. Betao de ensoleiramento (mat) com baixo calor de hidratacao."
+   },
+   {
+    "sheet_row": 669,
+    "cimento_designacao": "Ordinary Cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Table 5: Ordinary Cement 211 + Blast-furnace slag powder 211 kg/m3 (50% escoria no ligante)",
+    "citacao": "p.8, Table 5: 'C-I-49 ... Ordinary Cement 211 196.44 ... Blast-furnace slag powder 211 43.04'; Table 1: 'Ordinary Portland Cement kg National LCI DB (South Korea)'.",
+    "nota": "Traco de obra (central de betao pronto, Incheon), nao desenhado pelo estudo; escoria a 50% do ligante. Sem norma."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (14 pp.)."
+ },
+ {
+  "row_id": 2719,
+  "pares": [
+   {
+    "sheet_row": 674,
+    "cimento_designacao": "CEM I 42.5 N",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.2.1: 'Portland cement, CEM I 42.5 N, was selected as a reference.'",
+    "nota": "Argamassa de referencia (areia normalizada, a/l 0,45) de um estudo chines que usa a notacao EN sem citar a EN 197-1. O CO2 (469,3 kg/m3) vem de inventario ecoinvent/literatura (Sec.2.5.2), sem dizer qual processo de cimento; na ACV e nas figuras o comparador chama-se 'OPC'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (12 pp.)."
+ },
+ {
+  "row_id": 2720,
+  "pares": [
+   {
+    "sheet_row": 162,
+    "cimento_designacao": "P.O. 42.5 ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2-3, Sec.2.1: 'The cement used is P.O. 42.5 ordinary Portland cement'; Table 3 (a/l 0,40, 0%): cimento 425 kg.",
+    "nota": "Nenhuma norma de cimento citada (GB/T 17671-2021 e GB/T 50081-2019 sao de ensaio). ACV em SimaPro 9.4 / ecoinvent 3.8 sem indicar o processo de cimento. A Table 1 da a composicao quimica do 'cement clinker' (CaO 64,19%, SiO2 21,20%...), nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 163,
+    "cimento_designacao": "P.O. 42.5 ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Cimento 340 kg + micro-po de cinza MSWI 85 kg (20% do ligante), Table 3",
+    "citacao": "p.4, Table 3: '0.40 20 170 2.9 340.0 85.0 777 985'; Sec.2.1 (cimento P.O. 42.5).",
+    "nota": "P.O 42.5 e cimento composto chines (com adicoes), mas o artigo nao da a composicao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (14 pp.)."
+ },
+ {
+  "row_id": 2721,
+  "pares": [
+   {
+    "sheet_row": 675,
+    "cimento_designacao": "P·O 42.5 ordinary Portland cement (Harbin Cement Plant)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4-5, Sec.2.1: 'The cement used in the test specimens was P·O 42.5 ordinary Portland cement from Harbin Cement Plant'; Table 3 'Main chemical components of Portland cement type P·O 42.5'; Table 7: cimento 487 kg/m3.",
+    "nota": "Sem norma de cimento. A Table 3 da fases (C3S 60,2; C2S 19,4; C4AF 8,5; C3A 7,1; f-MgO 2,0; f-CaO 0,7; outros 2,1 %), nao teor de clinquer/adicoes. Na ACV (Table 10) o cimento entra como 'PC' com factor 0,7350 kg CO2/kg (ref. [35])."
+   },
+   {
+    "sheet_row": 680,
+    "cimento_designacao": "P·O 42.5 ordinary Portland cement (Harbin Cement Plant)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.2.1; Table 7 mistura 2-1 (cimento 487 kg/m3, PPF 0,10%).",
+    "nota": "Fibra de PP nao altera o ligante."
+   },
+   {
+    "sheet_row": 685,
+    "cimento_designacao": "P·O 42.5 ordinary Portland cement (Harbin Cement Plant)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.2.1; Table 7 mistura 3-1 (cimento 487 kg/m3, PPF 0,15%).",
+    "nota": "Igual ao par 680."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (17 pp.)."
+ }
+]

@@ -1,0 +1,216 @@
+[
+ {
+  "row_id": 3218,
+  "pares": [
+   {
+    "sheet_row": 930,
+    "cimento_designacao": "ordinary Portland cement (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Sec. 2.1.1 Materials: 'ordinary Portland cement was used as the binding material for all mixtures, conforming to ASTM C150 [47]'; ref. [47] = ASTM C150/C150M-21. Tabela 1 (p.5) so da massa especifica 3155 kg/m3 e finura 360 m2/kg.",
+    "nota": "ASTM C150 sem Type (I/II/...) indicado. Mix 1 (0% RCP). O traco experimental (Tabela 3, p.6, citado de [46]) tem 340 kg OPC/m3, mas o traco da ACV (Tabela 9, p.18) tem 306 kg 'Cement, Portland' - traco da ACV diferente do ensaiado. Na ACV o cimento e um processo generico Ecoinvent ('Cement, Portland'; Tabela 7 inventario com clinquer 955 g CO2-Eq)."
+   },
+   {
+    "sheet_row": 2095,
+    "cimento_designacao": "ordinary Portland cement (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Sec. 2.1.1: OPC conforme ASTM C150; RCP 'can be effectively utilized as a partial replacement for cement'. Sec. 2.1.2 (p.5-6): 'Mix 4 had 15 % RCP'. Tabela 3 (p.6): Mix 4 = 289 kg OPC + 51 kg RCP.",
+    "nota": "Po de betao reciclado (RCP) a 15% do ligante, adicionado no traco pelo proprio estudo. Composicao do cimento nao dada (Tabela 2 e XRF do RCP, nao do cimento). Traco da ACV (Tabela 9, p.18: 260 kg cimento + 45,9 kg RCP) diferente do ensaiado (289 + 51)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (23 pp., ate as referencias) extraido pelo conector e percorrido; materiais, Tabelas 1-3 e 7-10 lidas."
+ },
+ {
+  "row_id": 3221,
+  "pares": [
+   {
+    "sheet_row": 932,
+    "cimento_designacao": "42.5 Cement (inclui P.O, P.I e P.II)",
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Tabela 1 (factores de emissao): '42.5 Cement 0.735 GB/T 51366-2019; 52.5 Cement 0.889 DB3502/Z 5053-2019'; nota da Tabela 1: '42.5 Cement and 52.5 Cement includes the cement type of P.O, P.I and P.II'.",
+    "nota": "Media de 40 tracos C30 de uma base de 440 tracos chineses (Tabela S1, material suplementar, nao incluida no PDF). A base mistura tracos so com cimento (PC) e tracos com SCMs no traco (SCMC: FA, GGBS, SS, LP, SF) - Sec. 3.5/Fig. 9; a media nao distingue, por isso ligante indeterminado. O cimento so aparece como classe de resistencia (42.5/52.5) e como factor de emissao; GB/T 51366 e DB3502/Z 5053 sao normas de calculo de carbono, nao de cimento. Nenhuma norma de cimento (p.ex. GB 175) citada."
+   },
+   {
+    "sheet_row": 2096,
+    "cimento_designacao": "42.5 Cement / 52.5 Cement (inclui P.O, P.I e P.II)",
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Tabela 1 e nota ('42.5 Cement and 52.5 Cement includes the cement type of P.O, P.I and P.II'); p.6-7, Sec. 3.1: 'Between C70 and C80, the mass of 52.5 cement rises rapidly to satisfy strength requirements'.",
+    "nota": "Media de 40 tracos C80 da base de 440 tracos (Tabela S1 nao incluida no PDF). Nos tracos de alta resistencia entram cimento 42.5 e 52.5 e SCMs; a media junta tracos PC e SCMC, logo ligante indeterminado. Sem norma de cimento citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (13 pp.) lido pelo conector. A base de tracos (Tabela S1) e material suplementar e nao esta no PDF."
+ },
+ {
+  "row_id": 3225,
+  "pares": [
+   {
+    "sheet_row": 935,
+    "cimento_designacao": "PI 52.5 Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1 Materials and specimen preparation: 'PI 52.5 Portland cement (PC), metakaolin (MK), calcium sulphoaluminate cement (CSA), fly ash (FA), ground granulated blast-furnace slag (GGBS) and calcined clay (CC) were used'. Tabela 2 (p.3): PC0.45 = 651 kg PC/m3; Tabela 8 (p.17): PC total 611.7 kgCO2eq/m3.",
+    "nota": "O par (611,7 kg/m3) corresponde so a argamassa PC (PC0.45, seleccionada para a classe de 65 MPa), embora a descricao do lote liste PC/CSA/LC3/CSA-C/AAS. Nao cita GB 175 nem outra norma para o cimento. Tabela 1 (p.2) da so a composicao em oxidos do PC (CaO 67, SiO2 18.62...), nao o teor de clinquer. Na ACV o cimento usa um factor de literatura 'Potland cement raw material production 0.860 kgCO2eq/kg' (Tabela 4)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido pelo conector (ate as referencias)."
+ },
+ {
+  "row_id": 3241,
+  "pares": [
+   {
+    "sheet_row": 939,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, Tabelas 3-5: 'C30 concrete 178.51 m3 295 kgCO2e/m3'; o betao C30 so e descrito pela classe (Sec. 4, p.6-7: 'the material is C30 concrete').",
+    "nota": "O betao C30 entra como factor por m3 (295 kgCO2e/m3) sem traco nem tipo de cimento; a fonte do factor nao e dada na tabela (GB/T 51366-2019 aparece nas referencias). A nota da Tabela 2 ('Cement is ordinary silicate cement') refere-se so ao betao impresso 3D e ao betao de cinza volante, nao ao C30."
+   },
+   {
+    "sheet_row": 1863,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, Tabela 4 (metodo tradicional): 'C40 concrete 257.61 m3 340 kgCO2e/m3'; p.7: 'Scheme 2 adopts C40 reinforced concrete construction, with a capacity of 2400 kg/m3'.",
+    "nota": "Factor por m3 de betao C40 sem traco nem cimento declarado. Mesmo caso do C30."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (14 pp.) lido pelo conector; a unica mencao a um tipo de cimento ('ordinary silicate cement', nota da Tabela 2) nao se aplica aos pares C30/C40."
+ },
+ {
+  "row_id": 3242,
+  "pares": [
+   {
+    "sheet_row": 940,
+    "cimento_designacao": "CEM II/A-L",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Sec. 4.2.4: 'the LCI was compiled similarly as the BBSHC, using the same Ecoinvent input for sand limestone, gravel limestone, cement (CEM II/A-L), superplasticiser, tap water and concrete mixing, using the quantities specified in Table S1'.",
+    "nota": "O cimento so aparece como entrada Ecoinvent (CEM II/A-L), sem norma citada; o traco (Tabela S1) esta no material suplementar, nao no PDF. O valor 453,3 kg/m3 nao esta escrito no texto; pelo resumo (BBSHC +36% = +120 kg CO2 eq face ao convencional) corresponde ao BBSHC, nao ao betao convencional (~333). O BBSHC leva ainda PCSGs, esporos, nitrato de calcio etc., que nao sao adicoes em substituicao do cimento declaradas no PDF."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (14 pp.) lido pelo conector; tabelas de traco e LCI estao no material suplementar (S1, S24), nao incluido no PDF."
+ },
+ {
+  "row_id": 3251,
+  "pares": [
+   {
+    "sheet_row": 945,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Tabela 1 'Mix design of recycled concrete (unit: kg/m3)': 'VC 389 618 1176 0 175' (Cement, Sand, Crushed stone, RCA, Water); nota da Tabela 2 (p.4): 'Cement and water emission data refer to IPCC(2019) ... and database of national greenhouse gas emission'.",
+    "nota": "O artigo so diz 'cement', sem tipo, classe nem norma. Traco VC sem adicoes. Distancia de transporte do cimento 20 km no texto vs 15 km na Tabela 2 (incoerencia interna, nao afecta o tipo de cimento)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (8 pp.) lido pelo conector."
+ },
+ {
+  "row_id": 3255,
+  "pares": [
+   {
+    "sheet_row": 328,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Sec. 3.1: 'an average LCI related to the production of 1 m3 of CC with a resistance class equal to 20 MPa was selected ... Included into the Ecoinvent database, the dataset involved the mean data of the whole manufacturing process to produce ready-mixed concrete'; Tabela 9 (p.6): CC = 'Portland cement 300' kg/m3, GWP 328 kg CO2 eq.",
+    "nota": "O betao convencional e um dataset medio do Ecoinvent (ready-mixed, 20 MPa), nao um traco ensaiado; o tipo exacto de cimento do dataset nao e dado, so 'Portland cement' na Tabela 9."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (10 pp.) lido pelo conector."
+ },
+ {
+  "row_id": 3263,
+  "pares": [
+   {
+    "sheet_row": 950,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": "5 % fly ash no betao (cenario PA de referencia, Tabela 4)",
+    "citacao": "p.118, Sec. 3.3: 'The concrete emission factors are based on processes in the Ecoinvent library, and modified according to electricity mix and fly ash content'; Tabela 4: 'Concrete: PA Reference scenario 5 % fly ash'; Tabela 5: Concrete C25/30 A1-A3 PA = 291 kg CO2-eq/m3.",
+    "nota": "Nenhum tipo de cimento declarado; o betao e um processo Ecoinvent ajustado ao teor de cinza volante. O artigo nao diz se os 5% de cinza estao no cimento (composto) ou adicionados no traco (p.115 refere as duas vias em geral), por isso ligante indeterminado."
+   },
+   {
+    "sheet_row": 951,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": "5 % fly ash no betao (cenario PA de referencia, Tabela 4)",
+    "citacao": "p.118, Tabela 4 (PA: 5 % fly ash) e Tabela 5: Concrete C35/45 A1-A3 PA = 326 kg CO2-eq/m3; p.116: 'The average concrete strength for the entire structure is estimated to be 45 MPa by the supplier'.",
+    "nota": "Mesmo caso do C25/30: processo Ecoinvent modificado, sem tipo de cimento; posicao da cinza volante (cimento vs traco) nao declarada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (pp.112-123) lido pelo conector."
+ },
+ {
+  "row_id": 3276,
+  "pares": [
+   {
+    "sheet_row": 331,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Tabela 4 (inventario): 'Concrete 504 Concrete, normal, at plant m3 265.22 [kg CO2-Eq]'; o processo 'Cement 484 Cement, unspecified, at plant' so se aplica as argamassas/blocos. p.6: 'reinforced concrete-based walls ... (25 MPa)'.",
+    "nota": "O betao da parede RC e o processo Ecoinvent 'Concrete, normal, at plant', sem traco nem tipo de cimento. A descricao do lote ('concreto/UHPC de baixo carbono') nao corresponde ao artigo: e betao normal generico. Para as alvenarias o cimento e 'Cement, unspecified'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (pp.146-154) lido pelo conector."
+ },
+ {
+  "row_id": 3281,
+  "pares": [
+   {
+    "sheet_row": 332,
+    "cimento_designacao": "General Purpose (GP) Portland cement",
+    "norma_cimento": "AS 3972",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.1695 (p.2), Sec. 2.1 Materials: 'A General Purpose (GP) Portland cement conforming to Australian standard [24] was used as the main binder and a Class F fly ash [25] was used to partially replace cement'; ref. [24] = Standards Australia, Portland and Blended Cements (AS 3972), 1997. Tabela 1: FA0 = 355 kg cimento, 0 fly ash.",
+    "nota": "Mistura de controlo sem cinza volante."
+   },
+   {
+    "sheet_row": 333,
+    "cimento_designacao": "General Purpose (GP) Portland cement",
+    "norma_cimento": "AS 3972",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.1695, Sec. 2.1 (GP Portland cement, AS 3972; Class F fly ash, ASTM C 618-08a [25]); Tabela 1: FA30 = 30 % fly ash, 132 kg fly ash + 308 kg cimento.",
+    "nota": "Cinza volante Classe F (ASTM C618) a 30 % do ligante, adicionada no traco pelo estudo."
+   },
+   {
+    "sheet_row": 334,
+    "cimento_designacao": "General Purpose (GP) Portland cement",
+    "norma_cimento": "AS 3972",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.1695, Sec. 2.1; Tabela 1: FA40 = 40 % fly ash, 176 kg fly ash + 264 kg cimento; Tabela 5 (p.1699): FA40 Global Warming 269 kg CO2 e-.",
+    "nota": "Cinza volante Classe F a 40 % do ligante, no traco. O CO2 de FA40 (269) e igual ao de FA30 na Tabela 5; na discussao (p.1700) o artigo usa '413 kg CO2 e' como total de FA40 para as medidas de melhoria, incoerente com os 269 (nao afecta o cimento)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (pp.1694-1702) lido pelo conector."
+ }
+]

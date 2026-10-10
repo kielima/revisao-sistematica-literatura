@@ -1,0 +1,585 @@
+[
+ {
+  "row_id": 3187,
+  "pares": [
+   {
+    "sheet_row": 896,
+    "cimento_designacao": "P.O. 42.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1 'Concrete ingredients': 'two types of binder materials were used, namely ordinary Portland cement (OPC) and ASTM Class C fly ash [33]. The OPC is classified as P.O. 42.5 cement, which was sourced from China Resources Cement Limited Company, Dongguan.' Traco: Table 2 (p.5); CO2: Table 3 (p.7), factor do cimento 0,914 kg CO2-eq/kg na Table 4. M1 N0.3-0-0.3-20-C: cimento 418,1 + cinza volante 179,2 kg/m3.",
+    "nota": "Familia actual 'opc' mas a mistura M1 tem 30% de cinza volante classe C (ASTM C618) a substituir o cimento (notacao: penultimo numero = teor de cinza; Table 2: 179,2 kg/m3 de cinza). A norma citada [33] e a ASTM C618 da cinza, nao do cimento; o artigo nao cita norma para o P.O. 42.5. Composicao do cimento remetida para a Table A do material suplementar (nao esta no PDF)."
+   },
+   {
+    "sheet_row": 897,
+    "cimento_designacao": "P.O. 42.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1 'Concrete ingredients': 'two types of binder materials were used, namely ordinary Portland cement (OPC) and ASTM Class C fly ash [33]. The OPC is classified as P.O. 42.5 cement, which was sourced from China Resources Cement Limited Company, Dongguan.' Traco: Table 2 (p.5); CO2: Table 3 (p.7), factor do cimento 0,914 kg CO2-eq/kg na Table 4. M2 N0.4-0-0.3-20-C: cimento 388,3 + cinza volante 166,4 kg/m3.",
+    "nota": "Familia actual 'opc' mas M2 tem 30% de cinza volante classe C a substituir o cimento (Table 2: 166,4 kg/m3). Sem norma citada para o cimento."
+   },
+   {
+    "sheet_row": 899,
+    "cimento_designacao": "P.O. 42.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1 'Concrete ingredients': 'two types of binder materials were used, namely ordinary Portland cement (OPC) and ASTM Class C fly ash [33]. The OPC is classified as P.O. 42.5 cement, which was sourced from China Resources Cement Limited Company, Dongguan.' Traco: Table 2 (p.5); CO2: Table 3 (p.7), factor do cimento 0,914 kg CO2-eq/kg na Table 4. M22 P0.4-0.5-0.6-20-C (60% de cinza volante, 50% PRA).",
+    "nota": "M22 = 60% de cinza volante classe C. Na Table 3 a M22 reaparece na Fase IV com fc 40,9 MPa (e nao 23,0) e o mesmo CO2 248,3 - incoerencia interna da tabela; o par gravado usa o valor da Fase III (23,0)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (13 pp., ate a ref. [53]); lidas Sec. 2.1, Tables 2-4 e notacao das misturas. Material suplementar (Table A, composicao do cimento) nao faz parte do PDF."
+ },
+ {
+  "row_id": 3188,
+  "pares": [
+   {
+    "sheet_row": 901,
+    "cimento_designacao": "Portland cement class 42.5 R",
+    "norma_cimento": "GS 1118:16",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1 'Materials': 'Portland cement class 42.5 R conforming to GS 1118:16 [23] was sourced from a retail market in Fumesua, Ashanti region.' Table 2 (p.4): mistura 50% = 206 kg cimento + 206 kg pozolana de argila calcinada; Table 3: 'Portland cement (42.5 R) 0.9500 kgCO2eq/kg' (Hammond and Jones/ICE).",
+    "nota": "Norma ganesa GS 1118:16 (cimentos correntes, equivalente local da EN 197-1) - o artigo nao diz o tipo CEM, so a classe 42.5 R. Table 1 da so composicao quimica e mineralogica (C3S 59, C2S 16, C3A 8,2, C4AF 15%), nao o teor de clinquer/adicoes. Factor de CO2 do cimento e generico da base ICE (Hammond & Jones), nao do cimento ensaiado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (11 pp.)."
+ },
+ {
+  "row_id": 3189,
+  "pares": [
+   {
+    "sheet_row": 902,
+    "cimento_designacao": "ASTM C150 Type I (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.1 'Material design': 'The used OPC satisfied the requirement of ASTM C150 [89] standards for cement Type I.' Table 2 (p.6) traco: NC 460 kg OPC; NCF/NS 230 OPC + 230 FA (+ FPGC). CO2: Table 5 (p.19-20). Mistura NC (controlo, 100% OPC).",
+    "nota": "Table 1 da so a composicao quimica XRF do OPC (CaO 67,84%, SiO2 17,60%). CO2 da Table 5 esta em 'kg/ metric ton' do ligante, nao por m3 de betao (verificar a conversao gravada)."
+   },
+   {
+    "sheet_row": 903,
+    "cimento_designacao": "ASTM C150 Type I (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.1 'Material design': 'The used OPC satisfied the requirement of ASTM C150 [89] standards for cement Type I.' Table 2 (p.6) traco: NC 460 kg OPC; NCF/NS 230 OPC + 230 FA (+ FPGC). CO2: Table 5 (p.19-20). Mistura NCF (50% cinza volante, 0% FPGC; CO2 217,521).",
+    "nota": "CO2 da Table 5 esta em 'kg/ metric ton' do ligante, nao por m3 de betao (verificar a conversao gravada)."
+   },
+   {
+    "sheet_row": 904,
+    "cimento_designacao": "ASTM C150 Type I (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.1 'Material design': 'The used OPC satisfied the requirement of ASTM C150 [89] standards for cement Type I.' Table 2 (p.6) traco: NC 460 kg OPC; NCF/NS 230 OPC + 230 FA (+ FPGC). CO2: Table 5 (p.19-20). CO2 217,56 corresponde a NS6 (217,562): 50% FA + 6% FPGC.",
+    "nota": "Correspondencia pela coluna de CO2 da Table 5 (arredondamento). CO2 da Table 5 esta em 'kg/ metric ton' do ligante, nao por m3 de betao (verificar a conversao gravada)."
+   },
+   {
+    "sheet_row": 905,
+    "cimento_designacao": "ASTM C150 Type I (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.1 'Material design': 'The used OPC satisfied the requirement of ASTM C150 [89] standards for cement Type I.' Table 2 (p.6) traco: NC 460 kg OPC; NCF/NS 230 OPC + 230 FA (+ FPGC). CO2: Table 5 (p.19-20). CO2 217,59 corresponde a NS10 (217,589): 50% FA + 10% FPGC.",
+    "nota": "Correspondencia pela coluna de CO2 da Table 5. CO2 da Table 5 esta em 'kg/ metric ton' do ligante, nao por m3 de betao (verificar a conversao gravada)."
+   },
+   {
+    "sheet_row": 1949,
+    "cimento_designacao": "ASTM C150 Type I (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.1 'Material design': 'The used OPC satisfied the requirement of ASTM C150 [89] standards for cement Type I.' Table 2 (p.6) traco: NC 460 kg OPC; NCF/NS 230 OPC + 230 FA (+ FPGC). CO2: Table 5 (p.19-20). NS4 (50% FA + 4% FPGC; CO2 217,548).",
+    "nota": "CO2 da Table 5 esta em 'kg/ metric ton' do ligante, nao por m3 de betao (verificar a conversao gravada)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (ate a ref. [115]); lidas Sec. 2.1, Tables 1, 2 e 5."
+ },
+ {
+  "row_id": 3191,
+  "pares": [
+   {
+    "sheet_row": 1950,
+    "cimento_designacao": "type CEM I (Ordinary Portland cement, OPC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2-3, Sec. 2.1: 'Ordinary Portland cement (OPC), type CEM I, and Portland composite cement (PCC), type CEM II, were used as reference binders. OPC was also used for the composition of the LC3 cements.' Table 2 (p.3): composicao dos LC3. FU da ACV: 1 t de cimento (Sec. 2.2.3).",
+    "nota": "O artigo nao cita norma para os cimentos (so ABNT NBR 7215 para o ensaio da argamassa). Estudo brasileiro que designa os cimentos pela nomenclatura europeia ('type CEM I'/'type CEM II'), sem classe de resistencia nem designacao CP da NBR 16697. ACV do OPC/PCC feita com farinha crua media de Queiroz [37] e dados da literatura (nao do cimento ensaiado)."
+   },
+   {
+    "sheet_row": 1951,
+    "cimento_designacao": "type CEM II (Portland composite cement, PCC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2-3, Sec. 2.1: 'Ordinary Portland cement (OPC), type CEM I, and Portland composite cement (PCC), type CEM II, were used as reference binders. OPC was also used for the composition of the LC3 cements.' Table 2 (p.3): composicao dos LC3. FU da ACV: 1 t de cimento (Sec. 2.2.3).",
+    "nota": "'CEM II' sem /A ou /B nem letra da adicao; teor de clinquer do PCC nao indicado. O artigo nao cita norma para os cimentos (so ABNT NBR 7215 para o ensaio da argamassa). Estudo brasileiro que designa os cimentos pela nomenclatura europeia ('type CEM I'/'type CEM II'), sem classe de resistencia nem designacao CP da NBR 16697."
+   },
+   {
+    "sheet_row": 1952,
+    "cimento_designacao": "LC3-50 2:1 (CEM I + metacaulim + filer calcario + gesso)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer 50%, gesso 5%, argila caulinitica calcinada 30%, calcario 15% (Table 2)",
+    "citacao": "p.2-3, Sec. 2.1: 'Ordinary Portland cement (OPC), type CEM I, and Portland composite cement (PCC), type CEM II, were used as reference binders. OPC was also used for the composition of the LC3 cements.' Table 2 (p.3): composicao dos LC3. FU da ACV: 1 t de cimento (Sec. 2.2.3).",
+    "nota": "LC3 produzido em laboratorio pelo proprio estudo a partir do OPC CEM I. O texto fala em '45% ... replacement of OPC' para os LC3-50 (clinquer 50% + gesso 5%)."
+   },
+   {
+    "sheet_row": 1953,
+    "cimento_designacao": "LC3-50 1,5:1 (CEM I + metacaulim + filer calcario + gesso)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer 50%, gesso 5%, argila calcinada 27%, calcario 18% (Table 2)",
+    "citacao": "p.2-3, Sec. 2.1: 'Ordinary Portland cement (OPC), type CEM I, and Portland composite cement (PCC), type CEM II, were used as reference binders. OPC was also used for the composition of the LC3 cements.' Table 2 (p.3): composicao dos LC3. FU da ACV: 1 t de cimento (Sec. 2.2.3).",
+    "nota": "LC3 de laboratorio; celulas de clinquer/gesso partilhadas na Table 2."
+   },
+   {
+    "sheet_row": 1954,
+    "cimento_designacao": "LC3-50 1:1 (CEM I + metacaulim + filer calcario + gesso)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer 50%, gesso 5%, argila calcinada 22,5%, calcario 22,5% (Table 2)",
+    "citacao": "p.2-3, Sec. 2.1: 'Ordinary Portland cement (OPC), type CEM I, and Portland composite cement (PCC), type CEM II, were used as reference binders. OPC was also used for the composition of the LC3 cements.' Table 2 (p.3): composicao dos LC3. FU da ACV: 1 t de cimento (Sec. 2.2.3).",
+    "nota": "LC3 de laboratorio."
+   },
+   {
+    "sheet_row": 1955,
+    "cimento_designacao": "LC3-35 2:1 (CEM I + metacaulim + filer calcario + gesso)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer 35%, gesso 5%, argila calcinada 40%, calcario 20% (Table 2)",
+    "citacao": "p.2-3, Sec. 2.1: 'Ordinary Portland cement (OPC), type CEM I, and Portland composite cement (PCC), type CEM II, were used as reference binders. OPC was also used for the composition of the LC3 cements.' Table 2 (p.3): composicao dos LC3. FU da ACV: 1 t de cimento (Sec. 2.2.3).",
+    "nota": "LC3 de laboratorio; o texto fala em 60% de substituicao do OPC."
+   },
+   {
+    "sheet_row": 1956,
+    "cimento_designacao": "LC3-35 1,5:1 (CEM I + metacaulim + filer calcario + gesso)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer 35%, gesso 5%, argila calcinada 36%, calcario 24% (Table 2)",
+    "citacao": "p.2-3, Sec. 2.1: 'Ordinary Portland cement (OPC), type CEM I, and Portland composite cement (PCC), type CEM II, were used as reference binders. OPC was also used for the composition of the LC3 cements.' Table 2 (p.3): composicao dos LC3. FU da ACV: 1 t de cimento (Sec. 2.2.3).",
+    "nota": "LC3 de laboratorio."
+   },
+   {
+    "sheet_row": 1957,
+    "cimento_designacao": "LC3-35 1:1 (CEM I + metacaulim + filer calcario + gesso)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer 35%, gesso 5%, argila calcinada 30%, calcario 30% (Table 2)",
+    "citacao": "p.2-3, Sec. 2.1: 'Ordinary Portland cement (OPC), type CEM I, and Portland composite cement (PCC), type CEM II, were used as reference binders. OPC was also used for the composition of the LC3 cements.' Table 2 (p.3): composicao dos LC3. FU da ACV: 1 t de cimento (Sec. 2.2.3).",
+    "nota": "LC3 de laboratorio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido; lidas Sec. 2 (materiais, ACV), Tables 1-4 e resultados. A unidade funcional da ACV e 1 t de cimento, nao o m3 de argamassa."
+ },
+ {
+  "row_id": 3192,
+  "pares": [
+   {
+    "sheet_row": 911,
+    "cimento_designacao": "Ordinary Portland Cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.1 Introducao ('Ordinary Portland Cement (OPC)'); p.6 Sec. 4.1: 'it is assumed that at all locations the chemical makeup of OPC is the mean of the chemical makeup ranges defined in Guirguis (1998) [72]'; Table 2 (p.5): 'Cement 896.6x10-3 kgCO2-eq/kg'.",
+    "nota": "Mistura virtual optimizada por ANN+algoritmo genetico (OPC + cinza volante + GGBFS), nao ensaiada; minimo de 150 kg de cimento. O artigo nao da designacao comercial nem norma do cimento; composicao quimica assumida pela media de Guirguis 1998 (Cement and Concrete Association of Australia)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido; lidas Sec. 2-4 e Table 2. Material suplementar nao incluido no PDF."
+ },
+ {
+  "row_id": 3195,
+  "pares": [
+   {
+    "sheet_row": 324,
+    "cimento_designacao": "CEMII 32.5 N Portland cement",
+    "norma_cimento": "EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.1.2: 'The materials used in the production of cement-based material for 3DP applications were CEMII 32.5 N Portland cement (PC) in compliance with EN 197-1'; Table 3 (composicao quimica do CEMII 32.5 N); Table 4: PC 625 kg/m3, fc28 24,9 MPa.",
+    "nota": "O texto e o resumo chamam-lhe 'ordinary Portland cement (OPC)', mas o cimento declarado e CEM II 32.5 N sem /A ou /B nem letra da adicao. Table 3 da so oxidos (perda ao fogo 11,02%), nao o teor de clinquer/adicoes."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido; lidas Sec. 2.1.2-2.1.3, Tables 3-6 e Sec. 4.2."
+ },
+ {
+  "row_id": 3200,
+  "pares": [
+   {
+    "sheet_row": 912,
+    "cimento_designacao": "ASTM C150 Type I (Portland cement)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 3.1: 'The Portland cement used had a specific gravity and Blaine fineness of 3.14 and 3200 cm2/g, respectively; the cement complied with ASTM C150 Type I requirements.' Sec. 3.2: cimento 400 kg/m3, a/c 0,5; Table 5: cimento 400 kg/m3.",
+    "nota": "Sem composicao do cimento. A mistura gravada (fibra de aco 0,25%) nao tem adicoes minerais."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido; lidas Sec. 3.1-3.2, Tables 2, 4-6."
+ },
+ {
+  "row_id": 3203,
+  "pares": [
+   {
+    "sheet_row": 1958,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-1-100 (referencia, 450 g de cimento, sem escoria).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1959,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-1-90+10 C: 10% do CEM I 42.5 R substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1960,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-1-80+20 C: 20% do CEM I 42.5 R substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1961,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-1-70+30 C: 30% do CEM I 42.5 R substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1962,
+    "cimento_designacao": "CEM II/A-LL 42.5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-2-100 (referencia, 450 g de cimento, sem escoria).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer. Cimento composto/de escoria tal como vendido."
+   },
+   {
+    "sheet_row": 1963,
+    "cimento_designacao": "CEM II/A-LL 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-2-90+10 C: 10% do CEM II/A-LL 42.5 R substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1964,
+    "cimento_designacao": "CEM II/A-LL 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-2-80+20 C: 20% do CEM II/A-LL 42.5 R substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1965,
+    "cimento_designacao": "CEM II/A-LL 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-2-70+30 C: 30% do CEM II/A-LL 42.5 R substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1966,
+    "cimento_designacao": "CEM III/A 42.5 N",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-3-100 (referencia, 450 g de cimento, sem escoria).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer. Cimento composto/de escoria tal como vendido."
+   },
+   {
+    "sheet_row": 1967,
+    "cimento_designacao": "CEM III/A 42.5 N",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-3-90+10 C: 10% do CEM III/A 42.5 N substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1968,
+    "cimento_designacao": "CEM III/A 42.5 N",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-3-80+20 C: 20% do CEM III/A 42.5 N substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1969,
+    "cimento_designacao": "CEM III/A 42.5 N",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-3-70+30 C: 30% do CEM III/A 42.5 N substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1970,
+    "cimento_designacao": "CEM V/A (S-V) 32.5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-4-100 (referencia, 450 g de cimento, sem escoria).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer. Cimento composto/de escoria tal como vendido."
+   },
+   {
+    "sheet_row": 1971,
+    "cimento_designacao": "CEM V/A (S-V) 32.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-4-90+10 C: 10% do CEM V/A (S-V) 32.5 R substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1972,
+    "cimento_designacao": "CEM V/A (S-V) 32.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-4-80+20 C: 20% do CEM V/A (S-V) 32.5 R substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1973,
+    "cimento_designacao": "CEM V/A (S-V) 32.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-4-70+30 C: 30% do CEM V/A (S-V) 32.5 R substituido por escoria de panela grossa (moinho vibratorio).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1974,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-1-90+10 F: 10% do CEM I 42.5 R substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1975,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-1-80+20 F: 20% do CEM I 42.5 R substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1976,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-1-70+30 F: 30% do CEM I 42.5 R substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1977,
+    "cimento_designacao": "CEM II/A-LL 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-2-90+10 F: 10% do CEM II/A-LL 42.5 R substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1978,
+    "cimento_designacao": "CEM II/A-LL 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-2-80+20 F: 20% do CEM II/A-LL 42.5 R substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1979,
+    "cimento_designacao": "CEM II/A-LL 42.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-2-70+30 F: 30% do CEM II/A-LL 42.5 R substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1980,
+    "cimento_designacao": "CEM III/A 42.5 N",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-3-90+10 F: 10% do CEM III/A 42.5 N substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1981,
+    "cimento_designacao": "CEM III/A 42.5 N",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-3-80+20 F: 20% do CEM III/A 42.5 N substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1982,
+    "cimento_designacao": "CEM III/A 42.5 N",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-3-70+30 F: 30% do CEM III/A 42.5 N substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1983,
+    "cimento_designacao": "CEM V/A (S-V) 32.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-4-90+10 F: 10% do CEM V/A (S-V) 32.5 R substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1984,
+    "cimento_designacao": "CEM V/A (S-V) 32.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-4-80+20 F: 20% do CEM V/A (S-V) 32.5 R substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   },
+   {
+    "sheet_row": 1985,
+    "cimento_designacao": "CEM V/A (S-V) 32.5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'The four cement types employed were CEM I 42.5 R (C-1), CEM II/A-LL 42.5 R (C-2), CEM III/A 42.5 N (C-3), and CEM V/A (S-V) 32.5 R (C-4) obtained from Cement Hranice, Ltd.' Table 1 (traco das argamassas, 450 g de ligante); CO2: Table 4. Mistura C-4-70+30 F: 30% do CEM V/A (S-V) 32.5 R substituido por escoria de panela fina (moinho de bolas).",
+    "nota": "ACV com dados medios europeus da ecoinvent 3.9.1 por tipo de cimento (CEM I-CEM V), nao do cimento Hranice ensaiado (Sec. 2.3.2.1). O artigo nao cita a EN 197-1. Table 2 da so oxidos XRF, nao o teor de clinquer."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido; lidas Sec. 2.1, 2.3.2.1, Tables 1, 2 e 4. Os quatro cimentos sao comerciais (Cement Hranice); nas misturas com escoria o proprio estudo substitui 10-30% do cimento."
+ },
+ {
+  "row_id": 3206,
+  "pares": [
+   {
+    "sheet_row": 916,
+    "cimento_designacao": "type II PC (ASTM C150)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'In this research, type II PC following ASTM C150 [50] was utilized.' Table 1 (composicao quimica do PC e GGBS); Table 5 (traco): CPC 400 kg PC; G40 240 PC + 160 GGBS; G50 200 PC + 200 GGBS (menos a % de fibra). G50S1.5: 194 kg PC + 200 kg GGBS + 1,5% fibra de aco.",
+    "nota": "50% GGBS por massa de cimento. Sem teor de clinquer (so oxidos na Table 1)."
+   },
+   {
+    "sheet_row": 917,
+    "cimento_designacao": "type II PC (ASTM C150)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'In this research, type II PC following ASTM C150 [50] was utilized.' Table 1 (composicao quimica do PC e GGBS); Table 5 (traco): CPC 400 kg PC; G40 240 PC + 160 GGBS; G50 200 PC + 200 GGBS (menos a % de fibra). G40C0.5: 238 kg PC + 160 kg GGBS + 0,5% fibra de carbono.",
+    "nota": "40% GGBS."
+   },
+   {
+    "sheet_row": 918,
+    "cimento_designacao": "type II PC (ASTM C150)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'In this research, type II PC following ASTM C150 [50] was utilized.' Table 1 (composicao quimica do PC e GGBS); Table 5 (traco): CPC 400 kg PC; G40 240 PC + 160 GGBS; G50 200 PC + 200 GGBS (menos a % de fibra). CPC: 'consists of only PC' (400 kg/m3).",
+    "nota": "Controlo so com cimento Portland tipo II (ASTM C150)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido; lidas Sec. 2.1-2.2, Tables 1 e 5 e a analise ambiental."
+ },
+ {
+  "row_id": 3212,
+  "pares": [
+   {
+    "sheet_row": 924,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 1 'Material inputs during materialization': 'Concrete (C50) 143,783.6 m3 ... Concrete (C20) 8039.7 m3', e em linha separada 'Cement (P.O.42.5 R) 117,281,920 kg'; p.9-10: 'The concrete grades used in the study case are C50, C40, C35, C30, C25, and C20, which are all watertight'; factores de emissao do betao da GaBi (Table A3 do suplementar). Classe C50: 58,0 kt / 143.783,6 m3 (p.10).",
+    "nota": "O artigo nao diz que cimento entra no betao: a unica designacao, P.O.42.5 R, aparece como material separado (sobretudo para estacas de mistura profunda/jet grouting e cortinas), nao ligada as classes de betao. O CO2 por classe vem de factores da base GaBi (Table A3 do material suplementar, nao incluida no PDF) - cimento citado so como factor de base de dados. Sem norma citada para o cimento."
+   },
+   {
+    "sheet_row": 1986,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 1 'Material inputs during materialization': 'Concrete (C50) 143,783.6 m3 ... Concrete (C20) 8039.7 m3', e em linha separada 'Cement (P.O.42.5 R) 117,281,920 kg'; p.9-10: 'The concrete grades used in the study case are C50, C40, C35, C30, C25, and C20, which are all watertight'; factores de emissao do betao da GaBi (Table A3 do suplementar). Classe C40: 0,35 kt / 1.086,5 m3 (p.10).",
+    "nota": "O artigo nao diz que cimento entra no betao: a unica designacao, P.O.42.5 R, aparece como material separado (sobretudo para estacas de mistura profunda/jet grouting e cortinas), nao ligada as classes de betao. O CO2 por classe vem de factores da base GaBi (Table A3 do material suplementar, nao incluida no PDF) - cimento citado so como factor de base de dados. Sem norma citada para o cimento."
+   },
+   {
+    "sheet_row": 1987,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 1 'Material inputs during materialization': 'Concrete (C50) 143,783.6 m3 ... Concrete (C20) 8039.7 m3', e em linha separada 'Cement (P.O.42.5 R) 117,281,920 kg'; p.9-10: 'The concrete grades used in the study case are C50, C40, C35, C30, C25, and C20, which are all watertight'; factores de emissao do betao da GaBi (Table A3 do suplementar). Classe C35: 32,7 kt / 111.815,6 m3 (p.10).",
+    "nota": "O artigo nao diz que cimento entra no betao: a unica designacao, P.O.42.5 R, aparece como material separado (sobretudo para estacas de mistura profunda/jet grouting e cortinas), nao ligada as classes de betao. O CO2 por classe vem de factores da base GaBi (Table A3 do material suplementar, nao incluida no PDF) - cimento citado so como factor de base de dados. Sem norma citada para o cimento."
+   },
+   {
+    "sheet_row": 1988,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 1 'Material inputs during materialization': 'Concrete (C50) 143,783.6 m3 ... Concrete (C20) 8039.7 m3', e em linha separada 'Cement (P.O.42.5 R) 117,281,920 kg'; p.9-10: 'The concrete grades used in the study case are C50, C40, C35, C30, C25, and C20, which are all watertight'; factores de emissao do betao da GaBi (Table A3 do suplementar). Classe C30: 10,8 kt / 39.518,9 m3 (p.10).",
+    "nota": "O artigo nao diz que cimento entra no betao: a unica designacao, P.O.42.5 R, aparece como material separado (sobretudo para estacas de mistura profunda/jet grouting e cortinas), nao ligada as classes de betao. O CO2 por classe vem de factores da base GaBi (Table A3 do material suplementar, nao incluida no PDF) - cimento citado so como factor de base de dados. Sem norma citada para o cimento."
+   },
+   {
+    "sheet_row": 1989,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 1 'Material inputs during materialization': 'Concrete (C50) 143,783.6 m3 ... Concrete (C20) 8039.7 m3', e em linha separada 'Cement (P.O.42.5 R) 117,281,920 kg'; p.9-10: 'The concrete grades used in the study case are C50, C40, C35, C30, C25, and C20, which are all watertight'; factores de emissao do betao da GaBi (Table A3 do suplementar). Classe C25: 1,3 kt / 5.348,9 m3 (p.10).",
+    "nota": "O artigo nao diz que cimento entra no betao: a unica designacao, P.O.42.5 R, aparece como material separado (sobretudo para estacas de mistura profunda/jet grouting e cortinas), nao ligada as classes de betao. O CO2 por classe vem de factores da base GaBi (Table A3 do material suplementar, nao incluida no PDF) - cimento citado so como factor de base de dados. Sem norma citada para o cimento."
+   },
+   {
+    "sheet_row": 1990,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 1 'Material inputs during materialization': 'Concrete (C50) 143,783.6 m3 ... Concrete (C20) 8039.7 m3', e em linha separada 'Cement (P.O.42.5 R) 117,281,920 kg'; p.9-10: 'The concrete grades used in the study case are C50, C40, C35, C30, C25, and C20, which are all watertight'; factores de emissao do betao da GaBi (Table A3 do suplementar). Classe C20: 1,7 kt / 8.039,7 m3 (p.10).",
+    "nota": "O artigo nao diz que cimento entra no betao: a unica designacao, P.O.42.5 R, aparece como material separado (sobretudo para estacas de mistura profunda/jet grouting e cortinas), nao ligada as classes de betao. O CO2 por classe vem de factores da base GaBi (Table A3 do material suplementar, nao incluida no PDF) - cimento citado so como factor de base de dados. Sem norma citada para o cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (ate a ref. [59]); lidas Sec. 3.2, Tables 1-5 e Sec. 4.1. Material suplementar (Tables A1-A7) nao faz parte do PDF."
+ }
+]
