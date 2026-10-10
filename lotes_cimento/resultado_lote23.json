@@ -1,0 +1,252 @@
+[
+ {
+  "row_id": 4452,
+  "pares": [
+   {
+    "sheet_row": 1365,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.11-12 Tabela 3 'CO2 emissions associated with PCC production' (PC 0.93 t/t; adaptada de [79]-[81]); p.11 Tabela 2 (PC, bulk density 1.44); p.15 Sec.4: 'Cases type I: In 10 cases, foreign suppliers were considered for all materials' ... 'in 14 of the 30 cases ... silica fume was the chosen SCM, and in the remaining cases this was steel slag'",
+    "nota": "Misturas teoricas do modelo OptiCon (programacao linear, Colombia), todas com SCM (escoria de aciaria ou silica de fumo) a substituir parcialmente o 'Portland Cement (PC)'; o cimento e sempre generico 'PC', sem tipo, classe nem norma. 'Cases type I' refere-se ao grupo de fornecedores (todos estrangeiros), NAO a cimento ASTM Type I."
+   },
+   {
+    "sheet_row": 2066,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.11-12 Tabela 3 'CO2 emissions associated with PCC production' (PC 0.93 t/t; adaptada de [79]-[81]); p.11 Tabela 2 (PC, bulk density 1.44); p.15 Sec.4: 'Cases type I: In 10 cases, foreign suppliers were considered for all materials' ... 'in 14 of the 30 cases ... silica fume was the chosen SCM, and in the remaining cases this was steel slag'",
+    "nota": "Misturas teoricas do modelo OptiCon (programacao linear, Colombia), todas com SCM (escoria de aciaria ou silica de fumo) a substituir parcialmente o 'Portland Cement (PC)'; o cimento e sempre generico 'PC', sem tipo, classe nem norma. 'Cases type I' refere-se ao grupo de fornecedores (todos estrangeiros), NAO a cimento ASTM Type I. Linha = so emissoes de producao (Fig.7)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de modelacao (Inventions 2025). Nenhuma designacao comercial de cimento; factor do PC 0,93 t CO2/t de literatura."
+ },
+ {
+  "row_id": 4455,
+  "pares": [
+   {
+    "sheet_row": 1366,
+    "cimento_designacao": "CEM I 42.5N",
+    "norma_cimento": "EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 Sec.2.1: 'Ordinary Portland cement CEM I 42.5N (Schwenk Ltd., Broceni, Latvia) in accordance with EN 197-1 [32] was used'; p.6 Tabela 1 (PC mortar: CEM I 42.5 N 1.000, limestone filler 0.670); p.8 Tabela 3 (CEM I 42.5 N 550 kg/m3, limestone filler 367)",
+    "nota": "Argamassa de referencia so com CEM I + filer calcario (filer como componente da argamassa de impressao, nao como substituicao do cimento). Na ACV (p.8 Tabela 2) o CEM I 42.5 N foi modelado com o processo ecoinvent 'Cement, limestone 6-10% {RoW} | market for cement, limestone 6-10%' - ou seja, um proxy de CEM II/A-LL, diferente do cimento ensaiado. Os autores justificam o uso de CEM I (p.3 e p.13)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "So o par de referencia PC mortar; as misturas GCP (gesso-cimento-metacaulino) nao estao neste lote."
+ },
+ {
+  "row_id": 4458,
+  "pares": [
+   {
+    "sheet_row": 1371,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 Sec.2.1 (base de 366 misturas LC3 de 14 estudos + ensaios proprios); p.8 Tabela 2 'OPC 0.886 kg CO2-eq/kg' (com CC, LS, GYP); p.15-16 Sec.4.4 (solucoes Pareto-optimas 35-85 MPa, Fig.10-11: 'OPC replacement percentage of the optimal solution')",
+    "nota": "LC3 formulado no traco: OPC + argila calcinada + calcario + gesso doseados pelo modelo (nao e cimento LC3 comercial). O OPC e generico ('ordinary Portland cement'), sem tipo, classe nem norma; factor de ACV de modelo proprio adaptado a Australia [60]."
+   },
+   {
+    "sheet_row": 1372,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 Sec.2.1 (base de 366 misturas LC3 de 14 estudos + ensaios proprios); p.8 Tabela 2 'OPC 0.886 kg CO2-eq/kg' (com CC, LS, GYP); p.15-16 Sec.4.4 (solucoes Pareto-optimas 35-85 MPa, Fig.10-11: 'OPC replacement percentage of the optimal solution')",
+    "nota": "LC3 formulado no traco: OPC + argila calcinada + calcario + gesso doseados pelo modelo (nao e cimento LC3 comercial). O OPC e generico ('ordinary Portland cement'), sem tipo, classe nem norma; factor de ACV de modelo proprio adaptado a Australia [60]."
+   },
+   {
+    "sheet_row": 1373,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 Sec.2.1 (base de 366 misturas LC3 de 14 estudos + ensaios proprios); p.8 Tabela 2 'OPC 0.886 kg CO2-eq/kg' (com CC, LS, GYP); p.15-16 Sec.4.4 (solucoes Pareto-optimas 35-85 MPa, Fig.10-11: 'OPC replacement percentage of the optimal solution')",
+    "nota": "LC3 formulado no traco: OPC + argila calcinada + calcario + gesso doseados pelo modelo (nao e cimento LC3 comercial). O OPC e generico ('ordinary Portland cement'), sem tipo, classe nem norma; factor de ACV de modelo proprio adaptado a Australia [60]."
+   },
+   {
+    "sheet_row": 1374,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 Sec.2.1 (base de 366 misturas LC3 de 14 estudos + ensaios proprios); p.8 Tabela 2 'OPC 0.886 kg CO2-eq/kg' (com CC, LS, GYP); p.15-16 Sec.4.4 (solucoes Pareto-optimas 35-85 MPa, Fig.10-11: 'OPC replacement percentage of the optimal solution')",
+    "nota": "LC3 formulado no traco: OPC + argila calcinada + calcario + gesso doseados pelo modelo (nao e cimento LC3 comercial). O OPC e generico ('ordinary Portland cement'), sem tipo, classe nem norma; factor de ACV de modelo proprio adaptado a Australia [60]."
+   },
+   {
+    "sheet_row": 1375,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 Sec.2.1 (base de 366 misturas LC3 de 14 estudos + ensaios proprios); p.8 Tabela 2 'OPC 0.886 kg CO2-eq/kg' (com CC, LS, GYP); p.15-16 Sec.4.4 (solucoes Pareto-optimas 35-85 MPa, Fig.10-11: 'OPC replacement percentage of the optimal solution')",
+    "nota": "LC3 formulado no traco: OPC + argila calcinada + calcario + gesso doseados pelo modelo (nao e cimento LC3 comercial). O OPC e generico ('ordinary Portland cement'), sem tipo, classe nem norma; factor de ACV de modelo proprio adaptado a Australia [60]."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de optimizacao multiobjectivo (J. Compos. Sci. 2024). Nenhuma norma de cimento citada."
+ },
+ {
+  "row_id": 4463,
+  "pares": [
+   {
+    "sheet_row": 1379,
+    "cimento_designacao": "CEM II/A",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "teor medio de clinquer 85% (CEM II/A segundo EN 197-1); cinza volante 47 kg/m3 adicionada ao betao",
+    "citacao": "p.2 Sec.2.1: 'In order to define type of cement, average content of clinker in cement is 85% [42], which corresponds to the cement type of CEM II/A according to EN 197-1 [41]'; p.3 Tabela 1 (C35/45 ready-mix: Cement/CEM II/A 356 kg/m3, Fly ash 47 kg/m3); p.17 Tabela A4 'Cement (CEM II/A) (EN15804 A1-A3), production mix, at plant, technology mix, CEM II/A, DE' (GaBi)",
+    "nota": "Betao convencional = mistura media alema da EPD da associacao alema de betao [40]. 'CEM II/A' sem letra de adicao (S, LL, V...) - o tipo foi atribuido pelos autores a partir do teor medio de clinquer de 85%. A mistura inclui ainda cinza volante como adicao do betao (impacto so de transporte). Analise de sensibilidade (p.11 Tabela 6) troca por CEM III/A."
+   },
+   {
+    "sheet_row": 1380,
+    "cimento_designacao": "CEM II/A",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "teor medio de clinquer 85% (CEM II/A segundo EN 197-1); cinza volante 25 kg/m3 adicionada ao betao",
+    "citacao": "p.2 Sec.2.1 (mesma frase do CEM II/A, 85% de clinquer, EN 197-1); p.3 Tabela 1 (C50/60 precast: Cement/CEM II/A 405 kg/m3, Fly ash 25 kg/m3); p.18 Tabela A5 'Cement (CEM II/A) (EN15804 A1-A3) ... CEM II/A, DE'",
+    "nota": "Igual ao C35/45: mistura media alema (EPD), 'CEM II/A' sem letra de adicao, atribuido pelo teor medio de clinquer; inclui cinza volante. Sensibilidade com CEM III/A (p.11)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Os UHPC M3Q/M2Q (nao neste lote) usam CEM I 52.5 R-HS/NA (SR 3)."
+ },
+ {
+  "row_id": 4475,
+  "pares": [
+   {
+    "sheet_row": 1382,
+    "cimento_designacao": "R32.5",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6 Sec.2.4: 'The reference cement mortar was obtained starting from a R32.5 strength class and using the constituents and preparation procedure specified in UNI EN 196-1'; p.6: 'R32.5 is the strength class of the cement adopted, according to UNI EN 197-1 [28]'; p.7 Tabela 4 (S-R32.5: cement 450 g, water 225 g, sand 1350 g); p.9 LCI: 'Cement, Portland production' (Ecoinvent 3.1)",
+    "nota": "So a classe de resistencia (32,5 R) e dada; o tipo (CEM I, II...) nao e dito. A norma UNI EN 197-1 e citada para a classe de resistencia (a referencia [28] e a mesma usada para UNI EN 196-1 - possivel confusao de referencias). Na ACV o cimento e o generico 'Cement, Portland production' do Ecoinvent."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Argamassa normalizada EN 196-1 (3 prismas 40x40x160)."
+ },
+ {
+  "row_id": 4479,
+  "pares": [
+   {
+    "sheet_row": 1433,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2 Sec.2.1: 'The concrete studied is made of Portland cement CEM I 42.5 R (Malogoszcz, Poland) that is mixed with water to yield the w/c ratio equal to 0.45'; p.3 Tabela 1 (REF: CEM I 42.5 R 414.2 kg/m3)",
+    "nota": "Nenhuma norma de cimento citada (EN 197-1 nao aparece). ACV com SimaPro 8.5 / Ecoinvent 3.5, sem nome do processo de cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4483,
+  "pares": [
+   {
+    "sheet_row": 573,
+    "cimento_designacao": "Cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5 Sec.2.2: 'The mix proportions for conventional concrete with a density of 2421 kg/m3 and compressive strength of 43.2 MPa ... were adopted from Turk [16]'; p.5 Tabela 2 (CWS-conventional concrete: Fly Ash -, Cement 92,224 kg); p.10 Tabela 8: 'Cement - Portland cement, strength class Z 42.5, at plant/CH U' (Ecoinvent v3.2)",
+    "nota": "Mistura adoptada de Turk [16]; o artigo so escreve 'Cement' (sem tipo nem norma). O betao convencional nao tem cinza volante (so o betao 'waste-included'). Na ACV o cimento e o processo ecoinvent suico 'Portland cement, strength class Z 42.5'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de reforco sismico + cobertura verde; dados de betao de fonte externa."
+ },
+ {
+  "row_id": 4497,
+  "pares": [
+   {
+    "sheet_row": 1455,
+    "cimento_designacao": "HE (Holcim hydraulic cement, 'high early-strength')",
+    "norma_cimento": "NTE INEN 2380 (equivalente a ASTM C1157)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "composicao qualitativa: 'Portland cement clinker, Gypsum, Natural pozzolans' (sem percentagens)",
+    "citacao": "p.2 Sec.2.1: 'Holcim's hydraulic cement was used in this study. The cement is commercially known as HE cements ... manufactured under the Ecuadorian standard NTE INEN 2380, which is equivalent to the American standard ASTM C1157 [36]'; p.3 Tabela 1 (clinquer + gesso + pozolanas naturais; 28 d min. 40 MPa); p.14 Tabela 7: 'Cement, Portland {RoW}|market for|Conseq, U'",
+    "nota": "Cimento hidraulico de desempenho (ASTM C1157 tipo HE) com pozolana natural - nao e CEM II 42.5: o rotulo 'CEM II 42.5' do campo material nao tem apoio no artigo (nenhuma ocorrencia de 'CEM'). Na ACV o cimento e o generico 'Cement, Portland {RoW}' do Ecoinvent (proxy diferente do cimento ensaiado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Corrigir o rotulo 'CEM II 42.5' do material."
+ },
+ {
+  "row_id": 4500,
+  "pares": [
+   {
+    "sheet_row": 1468,
+    "cimento_designacao": "CEM I 52.5 N",
+    "norma_cimento": "EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "CEM I: constituintes minoritarios <=5% (Tabela 1, regulacao EN 197-1)",
+    "citacao": "p.6 Sec.2.1.1: 'Two types of cement were used in this study, CEM I 52.5 N and CEM III 32.5 N in compliance with the European standard [59]' (ref.59 = EN 197-1); p.8 Tabela 3 (CEM I 500 kg/m3); p.3 Tabela 1",
+    "nota": "A % de constituintes vem da tabela generica da EN 197-1 (p.3), nao da ficha do cimento usado. ACV propria (Tabelas 4-6) com inventario de clinquer."
+   },
+   {
+    "sheet_row": 1469,
+    "cimento_designacao": "CEM III 32.5 N",
+    "norma_cimento": "EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "CEM III: escoria (GGBFS) 36-95% segundo EN 197-1 (media 65,5% na Tabela 1) - faixa generica, nao a do cimento usado",
+    "citacao": "p.6 Sec.2.1.1 (CEM III 32.5 N, EN 197-1 [59]); p.8 Tabela 3 (CEM III 500 kg/m3); p.3 Tabela 1 'Blast furnace cement (CEM III) 36-95%, GGBFS'",
+    "nota": "'CEM III' sem subtipo /A, /B ou /C. Na ACV (p.12 Tabela 4) o CEM III foi modelado com GGBFS 1,0316 kg/kg produto (mais limestone 0,40, clay 0,11) e o texto cita reducao de 78,84% do CEM III [64] - modelacao pouco coerente com um subtipo concreto; CO2 de 71 kg/m3 muito baixo para 500 kg de cimento."
+   },
+   {
+    "sheet_row": 1470,
+    "cimento_designacao": "CEM I 52.5 N",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "50% do cimento em massa substituido por po de vidro (CEM I 250 + GP 250 kg/m3)",
+    "citacao": "p.6 Sec.2: 'In this study, 50% of the cement mass was replaced by GP'; p.6 Sec.2.1.1 (CEM I 52.5 N, EN 197-1 [59]); p.8 Tabela 3 (CEM I + GP: CEM I 250, GP 250 kg/m3)",
+    "nota": "Po de vidro de residuos de demolicao (Caen) a substituir 50% do CEM I no traco."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4502,
+  "pares": [
+   {
+    "sheet_row": 1465,
+    "cimento_designacao": "CEM II/A-LL 32.5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6 Sec.2.3: 'A Portland cement CEM II/A-LL 32.5 R was used for testing the potential primary sand sources'; p.6 Tabela 1 / p.7 Tabela 4 'Base' (cement 463 kg/m3); p.10: base formulation 30.61 MPa; p.8 Tabela 5 LCI 'Cement, Portland {RoW}|production|APOS, U'",
+    "nota": "Nenhuma norma de cimento citada (so DIN EN 206 para o betao C25/30). Na ACV o cimento e o generico 'Cement, Portland {RoW}' do Ecoinvent (proxy de CEM I, diferente do CEM II/A-LL ensaiado), justificado pela falta de inventario vietnamita (p.8)."
+   },
+   {
+    "sheet_row": 1466,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% do cimento substituido por cinza grossa (cement 417 + ash 46 kg/m3)",
+    "citacao": "p.7 Tabela 4 '10% Ash: Cement 417, Ash 46 kg/m3'; p.7: 'The ashes are to replace the cement and, as such, the cement content'; p.10 (CA 10% = 32.72 MPa); p.13 (362 kg CO2 eq)",
+    "nota": "O artigo so nomeia o CEM II/A-LL 32.5 R para a serie de areias primarias; para a serie das cinzas (test series 4) o cimento nao e repetido - provavelmente o mesmo, mas nao dito. ACV com 'Cement, Portland {RoW}' do Ecoinvent; cinza com alocacao zero."
+   },
+   {
+    "sheet_row": 1467,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% do cimento substituido por cinza de filtro de lignite LFA1 (cement 417 + ash 46 kg/m3)",
+    "citacao": "p.7 Tabela 4 '10% Ash: Cement 417, Ash 46 kg/m3'; p.10 (LFA1 10% = 30.33 MPa); p.13 (362 kg CO2 eq)",
+    "nota": "Igual a 1466: cimento da serie das cinzas nao nomeado (o unico nomeado e o CEM II/A-LL 32.5 R da serie de areias primarias)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Vietname; ACV com proxy global de cimento Portland."
+ }
+]
