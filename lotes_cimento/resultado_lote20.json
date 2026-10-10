@@ -1,0 +1,306 @@
+[
+ {
+  "row_id": 4145,
+  "pares": [
+   {
+    "sheet_row": 1207,
+    "cimento_designacao": "cemento portland (Cemento Argos)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8-9 (Inventario ambiental): 'se buscaron las empresas proveedoras de cemento portland ... se identificaron dos empresas: Cemento Argos (Portland Cement Association, 2014) para el cemento'; Tabla 5 (p.9) GWP do cemento 892,00 kg CO2-eq/t, 'Adaptado de ... Portland Cement Association (2014)'; ref. PCA 2014 = 'Declaracion Ambiental de Producto Cementos adicionados (segun ASTM C595, ASTM C1157, AASHTO M240, o CSA A3001)'.",
+    "nota": "O artigo so diz 'cemento portland' (Cemento Argos). A norma nao e citada para o cimento do traco: ASTM C595/C1157 aparecem apenas no titulo da DAP da PCA (2014) usada como inventario do cimento (DAP de cimentos adicionados/compostos, nao de um tipo especifico). Na Tabla 9 (p.18), a comparacao com a Green Concrete LCA Web Tool foi simulada 'haciendo uso de cemento Portland tipo I' — cimento diferente do inventario principal. Traco ACI 211 sem adicoes (316 kg de cimento no caso de referencia; 266 kg no optimizado). Par 1207 = familia de 316 kg cimento/m3 (Tabla 9: 288,00 kg CO2-eq)."
+   },
+   {
+    "sheet_row": 1208,
+    "cimento_designacao": "cemento portland (Cemento Argos)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8-9 (Inventario ambiental): 'se buscaron las empresas proveedoras de cemento portland ... se identificaron dos empresas: Cemento Argos (Portland Cement Association, 2014) para el cemento'; Tabla 5 (p.9) GWP do cemento 892,00 kg CO2-eq/t, 'Adaptado de ... Portland Cement Association (2014)'; ref. PCA 2014 = 'Declaracion Ambiental de Producto Cementos adicionados (segun ASTM C595, ASTM C1157, AASHTO M240, o CSA A3001)'.",
+    "nota": "O artigo so diz 'cemento portland' (Cemento Argos). A norma nao e citada para o cimento do traco: ASTM C595/C1157 aparecem apenas no titulo da DAP da PCA (2014) usada como inventario do cimento (DAP de cimentos adicionados/compostos, nao de um tipo especifico). Na Tabla 9 (p.18), a comparacao com a Green Concrete LCA Web Tool foi simulada 'haciendo uso de cemento Portland tipo I' — cimento diferente do inventario principal. Traco ACI 211 sem adicoes (316 kg de cimento no caso de referencia; 266 kg no optimizado). Par 1208 = familia de 266 kg cimento/m3 (Tabla 9: 243,90 kg CO2-eq)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (81 mil caracteres, ate as referencias). Sem norma propria do cimento; inventario = DAP PCA 2014 de cimentos adicionados (ASTM C595/C1157)."
+ },
+ {
+  "row_id": 4160,
+  "pares": [
+   {
+    "sheet_row": 1210,
+    "cimento_designacao": "CEM II/A-L 42.5 R (limestone cement)",
+    "norma_cimento": "Iraqi Standard No. 5; BS EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.43, sec. 2.1 Cement: 'Limestone cement of the CEM II/A-L 42.5 R type was employed in all high-strength mortar (HSM) blends ... Table 1 details the characteristics of cement that satisfy Iraqi Standard No. 5 [44] and BS EN 197-1 [45]'. Tabela 2 (p.45): Control, cimento 1 / CWP 0.",
+    "nota": "Composicao quimica do cimento na Tabela 1 (CaO 60,51%, SiO2 16,91%...), sem % de clinquer ou de filer calcario. Inventario ACV (OpenLCA, CML-IA) sem identificacao do processo de cimento."
+   },
+   {
+    "sheet_row": 1211,
+    "cimento_designacao": "CEM II/A-L 42.5 R (limestone cement)",
+    "norma_cimento": "Iraqi Standard No. 5; BS EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "30% do cimento substituido por po de residuo ceramico (CWP) moido 15 min (Tabela 2: cimento 0,70 / CWP 0,30 do ligante)",
+    "citacao": "p.43, sec. 2.1 Cement: 'Limestone cement of the CEM II/A-L 42.5 R type was employed in all high-strength mortar (HSM) blends ... Table 1 details the characteristics of cement that satisfy Iraqi Standard No. 5 [44] and BS EN 197-1 [45]'. Tabela 2 (p.45): GT15CWP30.",
+    "nota": "Substituicao feita sobre um cimento ja composto (CEM II/A-L). Sem % de clinquer do cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (61 mil caracteres)."
+ },
+ {
+  "row_id": 4161,
+  "pares": [
+   {
+    "sheet_row": 1212,
+    "cimento_designacao": "CEM I 52.5N (Aalborg Portland)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 (pag. 45 da revista), sec. 2 Materials and methods: 'Unicon A/S ... has provided the mix design of frost-resistant concrete with AEA. The cement type is CEM I 52.5N from Aalborg Portland.' (repetido na p.4 para a formula de Bolomey e na p.5 para a mistura com SAP).",
+    "nota": "Nenhuma norma citada para o cimento. Na ACV (p.6) o cimento vem da base Ecoinvent sem o nome do processo indicado; o processo de fabrico do betao usa o LCI 'Concrete, for de-icing salt contact {CH}| concrete production, for drilled piles, with cement CEM I'. A mistura com SAP usa o mesmo cimento (traco com mesmo w/c 0,38)."
+   },
+   {
+    "sheet_row": 1213,
+    "cimento_designacao": "CEM I 52.5N (Aalborg Portland)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 (pag. 45 da revista), sec. 2 Materials and methods: 'Unicon A/S ... has provided the mix design of frost-resistant concrete with AEA. The cement type is CEM I 52.5N from Aalborg Portland.' (repetido na p.4 para a formula de Bolomey e na p.5 para a mistura com SAP).",
+    "nota": "Nenhuma norma citada para o cimento. Na ACV (p.6) o cimento vem da base Ecoinvent sem o nome do processo indicado; o processo de fabrico do betao usa o LCI 'Concrete, for de-icing salt contact {CH}| concrete production, for drilled piles, with cement CEM I'. A mistura com SAP usa o mesmo cimento (traco com mesmo w/c 0,38)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (56 mil caracteres)."
+ },
+ {
+  "row_id": 4185,
+  "pares": [
+   {
+    "sheet_row": 564,
+    "cimento_designacao": "Portland cement (\"gray cement\")",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3-4, sec. 2: 'The 3D concrete is formed of a conglomerate of gray cement, fine aggregates, fibers and additives'; Table 1 (p.4) 'Concrete proportions for 1 m3 of micro-concrete': Portland cement 500,00 kg.",
+    "nota": "Nenhuma norma nem tipo/classe do cimento. Dados do betao impresso fornecidos pela empresa; resto do inventario Ecoinvent 3.8 (SimaPro 9.3), processo do cimento nao identificado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (57 mil caracteres)."
+ },
+ {
+  "row_id": 4207,
+  "pares": [
+   {
+    "sheet_row": 1225,
+    "cimento_designacao": "OPC (Ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Mistura de base NRMCA 'Great-Lakes Midwest' (Tabela 4): OPC 227 kg + cinza volante 26 kg + cimento de escoria 16 kg por m3 (~84% OPC no ligante)",
+    "citacao": "p.7-8, sec. 4.1.1: 'The 20 MPa (3000 PSI) mix design ... is based on the NRMCA regional benchmark design for the Great-Lakes Midwest region. Table 4 presents the quantities of raw material used in making the baseline mix'; Tabela 4 (p.8): Cement OPC 227, Fly Ash 26, Slag Cement 16.",
+    "nota": "O traco de base nao e so cimento: a mistura de referencia da NRMCA ja inclui cinza volante e escoria (nao e adicao proposta pelo estudo; as alternativas do estudo sao 50% SCM, CSC e agregados mineralizados). Nenhuma norma do cimento citada. CO2 244,75 kg/m3 = A1-A4 (Tabela 2); A1-A3 = 238."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (122 mil caracteres, ate a lista de ligacoes final)."
+ },
+ {
+  "row_id": 4232,
+  "pares": [
+   {
+    "sheet_row": 1229,
+    "cimento_designacao": "Ordinary Portland Cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Tabela 2 'Concrete Mixture Proportions of Evaluation Targets', nota 2: 'Ordinary Portland Cement' (coluna C, 305-400 kg/m3); p.5, Tabela 4 'LCI DB Information for Water, Ordinary Portland Cement, and Superplasticizer' (Korean LCI DB, 2003).",
+    "nota": "Nenhuma norma citada (nem KS). Os residuos (agregado reciclado, de escoria, de cinza de fundo, vidro) substituem 30% do AGREGADO, nao do cimento. As 7 misturas sao de estudos externos [35-41]; o valor 358 nao aparece impresso no texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (48 mil caracteres)."
+ },
+ {
+  "row_id": 4255,
+  "pares": [
+   {
+    "sheet_row": 1239,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Apendice A, Tabela A1 (p.16): 'C25 concrete 285.00 kgCO2e/m3'; Tabela 2 (p.6-7): C25 279,871 m3, 79,763 tCO2e.",
+    "nota": "O artigo nao descreve o cimento: os valores sao factores de emissao de betao por classe da norma de calculo GB/T51366-2019 (BIM, edificio real). GB/T51366 e norma de calculo de carbono, nao do cimento. C25 nao aparece na Tabela 8, portanto nem sequer ha a indicacao 'Ordinary concrete' (sem adicao mineral)."
+   },
+   {
+    "sheet_row": 1240,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.12, Tabela 8 'The carbon emission factors of concrete with different admixtures': C30/C40/C50/C60 'Ordinary concrete' 295,00/321,40/385,00/416,76 kgCO2e/m3 (contra 'Single admixture of fly ash' e 'Composite mineral admixture'); Apendice A, Tabela A1 (p.16): C25 285,00 ... C60 416,76 kgCO2e/m3; factores da base de GB/T51366-2019 (sec. 2.1, p.4).",
+    "nota": "O artigo nao descreve o cimento: os valores sao factores de emissao de betao por classe da norma de calculo GB/T51366-2019 (BIM, edificio real). GB/T51366 e norma de calculo de carbono, nao do cimento. Classificado como cimento_comercial so porque a Tabela 8 o chama 'Ordinary concrete' por oposicao aos betoes com cinza volante / adicao mineral composta; o tipo de cimento e desconhecido."
+   },
+   {
+    "sheet_row": 1241,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.12, Tabela 8 'The carbon emission factors of concrete with different admixtures': C30/C40/C50/C60 'Ordinary concrete' 295,00/321,40/385,00/416,76 kgCO2e/m3 (contra 'Single admixture of fly ash' e 'Composite mineral admixture'); Apendice A, Tabela A1 (p.16): C25 285,00 ... C60 416,76 kgCO2e/m3; factores da base de GB/T51366-2019 (sec. 2.1, p.4).",
+    "nota": "O artigo nao descreve o cimento: os valores sao factores de emissao de betao por classe da norma de calculo GB/T51366-2019 (BIM, edificio real). GB/T51366 e norma de calculo de carbono, nao do cimento. Idem C30."
+   },
+   {
+    "sheet_row": 1242,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.12, Tabela 8 'The carbon emission factors of concrete with different admixtures': C30/C40/C50/C60 'Ordinary concrete' 295,00/321,40/385,00/416,76 kgCO2e/m3 (contra 'Single admixture of fly ash' e 'Composite mineral admixture'); Apendice A, Tabela A1 (p.16): C25 285,00 ... C60 416,76 kgCO2e/m3; factores da base de GB/T51366-2019 (sec. 2.1, p.4).",
+    "nota": "O artigo nao descreve o cimento: os valores sao factores de emissao de betao por classe da norma de calculo GB/T51366-2019 (BIM, edificio real). GB/T51366 e norma de calculo de carbono, nao do cimento. Idem C30."
+   },
+   {
+    "sheet_row": 1243,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.12, Tabela 8 'The carbon emission factors of concrete with different admixtures': C30/C40/C50/C60 'Ordinary concrete' 295,00/321,40/385,00/416,76 kgCO2e/m3 (contra 'Single admixture of fly ash' e 'Composite mineral admixture'); Apendice A, Tabela A1 (p.16): C25 285,00 ... C60 416,76 kgCO2e/m3; factores da base de GB/T51366-2019 (sec. 2.1, p.4).",
+    "nota": "O artigo nao descreve o cimento: os valores sao factores de emissao de betao por classe da norma de calculo GB/T51366-2019 (BIM, edificio real). GB/T51366 e norma de calculo de carbono, nao do cimento. Idem C30."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (65 mil caracteres). Nenhum cimento nem norma de cimento no artigo."
+ },
+ {
+  "row_id": 4267,
+  "pares": [
+   {
+    "sheet_row": 1251,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Tabela 1 (MIX-fixed-SLUMP, 'based on [15]' = Kou e Poon): 'Portland cement (kg/m3) 386'; p.5, Tabela 3 (processos Ecoinvent v3.5): 'CEM I 42.4N production — cement mortar, at plant/CH U'.",
+    "nota": "Tracos tirados de Kou e Poon [15] (estudo externo). Na ACV o cimento e modelado como 'CEM I 42.4N' (provavel gralha de 42.5N; nao corrigido) com o processo Ecoinvent 'cement mortar, at plant/CH U' — processo de argamassa, nao de cimento. Nenhuma norma citada. A cinza de fundo (CBA) substitui a areia, nao o cimento; o par CBA0 e o controlo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (49 mil caracteres)."
+ },
+ {
+  "row_id": 4284,
+  "pares": [
+   {
+    "sheet_row": 1252,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.15, Tabela 4 'The EE intensity, embodied greenhouse gas (GHGEE) intensity and density of construction material used in the wall systems [88]': 'Grout (25 MPa) 2400 kg/m3 ... 361 kg CO2-e/m3'; [88] = Crawford, Life Cycle Assessment in the Built Environment (2011).",
+    "nota": "O artigo nao diz qual o cimento do grout (nem que e Portland): o valor e um coeficiente generico de 'Grout (25 MPa)' da base de Crawford (2011). Incoerencia do artigo: a Tabela 1 (p.11) diz Type 3 = PT sem grout e Type 4 = RM com grout, mas o texto (p.10-11) diz 'Grouting was only considered for the RM wall system (Type 3), while the PT masonry system (Type 4) was designed for unbonded tendons without any grout'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (76 mil caracteres). Nenhuma mencao a cimento Portland ou tipo de cimento para o grout."
+ },
+ {
+  "row_id": 4290,
+  "pares": [
+   {
+    "sheet_row": 1253,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   },
+   {
+    "sheet_row": 1254,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   },
+   {
+    "sheet_row": 1255,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   },
+   {
+    "sheet_row": 1256,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   },
+   {
+    "sheet_row": 1257,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   },
+   {
+    "sheet_row": 1258,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   },
+   {
+    "sheet_row": 1259,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   },
+   {
+    "sheet_row": 1260,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   },
+   {
+    "sheet_row": 1261,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   },
+   {
+    "sheet_row": 1262,
+    "cimento_designacao": "hydraulic cement, types GU / HE / MH ('composite hydraulic cement'); tipo usado nesta classe nao indicado",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The functional units are 1 ton of clinker, 1 ton of type GU (general use) cement, 1 ton of type HE (high early strength) cement, 1 ton of type MH (moderate heat of hydration) cement, under ASTM C1157 [65], and 1 m3 of ready-mixed concrete (RMX)'; p.8, Tabela 2 'for 1 ton of composite hydraulic cement' (GU 545,78; HE 696,81; MH 465,89 kg CO2-Eq/t); p.10, Tabela 3 (RMX 2,5-80 MPa); conclusoes p.14-15: 'inventory data of cement types: GU, HE, and MH, used in conventional construction and the ready-mixed concrete industry'.",
+    "nota": "O artigo nao indica que tipo (GU, HE ou MH) ou que mistura de tipos entra em cada classe de betao pronto: o inventario do betao esta na Tabela S5 (material suplementar, nao incluida no PDF) e o inventario do cimento e confidencial. Sao cimentos hidraulicos compostos (ASTM C1157, especificacao por desempenho), com pozolana/escoria segundo o texto (resumo: 'pozzolan-lime cement'; p.14: 'levels of additions in Ecuadorian cement'), sem % de clinquer publicada. Valores = media nacional ponderada das centrais."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido (76 mil caracteres). Material suplementar (Tabelas S1-S5) nao disponivel no PDF."
+ }
+]
