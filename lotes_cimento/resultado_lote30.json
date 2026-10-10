@@ -1,0 +1,18 @@
+[
+  {
+    "row_id": 5086,
+    "pares": [
+      {
+        "sheet_row": 77,
+        "cimento_designacao": null,
+        "norma_cimento": null,
+        "ligante": "indeterminado",
+        "teor_clinquer_ou_adicoes": null,
+        "citacao": "p.617, Tabela 1 'Material control parameters': 'Concrete C25/30 ... 25' (classe pelo Eurocode 2, EN 1992-1-1:2004); p.626, Tabela 5 'Inventory list': 'Concrete in beams / in column / in slabs — 504 — concrete, normal, at plant — m3 — 265.2200 [kg CO2-eq, GWP 100a CML 2001]'. Unico outro registo de cimento: 'disposal, building, cement (in concrete), to final disposal' (fim de vida, Tabela 5).",
+        "nota": "O artigo nao identifica o cimento em parte nenhuma: nao ha seccao de materiais nem traco; o betao e modelado so pelo processo generico 'concrete, normal, at plant' (ID 504) do ECOINVENT v2 (p.623, passo VI). O CO2 265,22 kg CO2-eq/m3 e o factor dessa base de dados, aplicado igualmente a vigas, pilares e lajes, e nao a um traco proprio; o tipo de cimento implicito no processo do Ecoinvent nao e declarado pelo artigo e nao foi deduzido. Estudo de caso: edificio de 7 pisos em Almeria (Espanha), central de betao 'Paraje El Chumico' e fabrica de prefabricados em Alhama (Tabela 4), sem mencao ao cimento. O fck 25 MPa e a classe de projecto C25/30 (Eurocode 2), sem ensaio. CO2 publicado como factor por m3 de betao, sem aco (o aco e linha separada da Tabela 5)."
+      }
+    ],
+    "texto_completo_lido": true,
+    "notas": "PDF lido na integra pelo read_file_content (99.164 caracteres, pp.614-628 completas incluindo referencias; o documento e um artigo de 15 paginas, sem risco de truncagem). Pesquisa por 'cement', 'CEM', 'Portland', 'clinker', 'EN 197', 'binder', 'UNE', 'EHE' no texto inteiro: nenhuma designacao de cimento nem norma de cimento; as unicas ocorrencias de 'cement' sao o processo de fim de vida do Ecoinvent e titulos de referencias bibliograficas. Figuras (Figs.1-13: geometria, FEM, MTO, cronograma, custo, GWP/CED agregados) nao sao locais onde o cimento seria identificado; nao foram renderizadas."
+  }
+]
