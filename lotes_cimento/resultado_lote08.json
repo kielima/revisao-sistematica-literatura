@@ -1,0 +1,261 @@
+[
+ {
+  "row_id": 3118,
+  "pares": [
+   {
+    "sheet_row": 845,
+    "cimento_designacao": "Portland cement CEM I 42.5R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2, Sec.2 Materials: «The powder materials used in the mixes were Portland cement CEM I 42.5R (from Secil company, Outão, Portugal) (C)»; Tabela 3 (p.3): REF = argamassa só com cimento (561 kg), w/b 0,5.",
+    "nota": "Nenhuma norma de cimento citada (a designação CEM I segue a EN 197-1, mas o artigo não a escreve). Na ACV (Sec.4, p.4) o cimento foi modelado com dados de uma fábrica portuguesa a partir da Declaração Ambiental pública da Secil (ref.[37] «Declaração ambiental intercalar»), não com factor genérico. Tabela 2 dá só a composição química (óxidos), não o teor de clínquer."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido via read_file_content (73 mil caracteres, chega ao fim das referências, p.207)."
+ },
+ {
+  "row_id": 3132,
+  "pares": [
+   {
+    "sheet_row": 847,
+    "cimento_designacao": "Portland limestone cement (PLC), 42.5 R grade, classified as CEM II",
+    "norma_cimento": "BS EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.2.1 Materials (pp.2-3): «the PLC (42.5 R grade) shown in Fig. 1, classified as CEM II [60], satisfied the oxide elements of BS EN 196–3»; ref.[60] = «British Standard EN 197-1, Cement: Composition, Specifications and Conformity»; Tabela 3: V0 = 100% PLC (C25).",
+    "nota": "«CEM II» sem /A ou /B nem letra de adição (L/LL). Tabela 1 dá só óxidos do PLC. Na ACV o factor do PLC (GWP 0,95 kg CO2-eq/kg, Tabela 5; GTP 0,91, Tabela 6) vem de literatura (Flower & Sanjayan, Hammond & Jones/ICE, Robayo-Salazar et al., etc.), não de um dado específico de cimento de calcário. Fornecedor: Ibese, Nigéria (Tabela de transporte)."
+   },
+   {
+    "sheet_row": 848,
+    "cimento_designacao": "Portland limestone cement (PLC), 42.5 R grade, classified as CEM II",
+    "norma_cimento": "BS EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.2.1 Materials (pp.2-3): «the PLC (42.5 R grade) ... classified as CEM II [60]»; ref.[60] BS EN 197-1; Tabela 3: V0 = 100% PLC (C30).",
+    "nota": "Igual ao 847 (mistura V0 da classe C30). «CEM II» sem /A ou /B; factor de CO2 do PLC tirado da literatura (0,95 kg CO2-eq/kg)."
+   },
+   {
+    "sheet_row": 849,
+    "cimento_designacao": "Portland limestone cement (PLC), 42.5 R grade, classified as CEM II",
+    "norma_cimento": "BS EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.2.1 Materials (pp.2-3): «the PLC (42.5 R grade) ... classified as CEM II [60]»; ref.[60] BS EN 197-1; Tabela 3: V0 = 100% PLC (C40).",
+    "nota": "Igual ao 847 (mistura V0 da classe C40). «CEM II» sem /A ou /B; factor de CO2 do PLC tirado da literatura (0,95 kg CO2-eq/kg)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (97 mil caracteres, até ao fim das referências). Os três pares são a mistura de controlo V0 (100% PLC) das classes C25/C30/C40."
+ },
+ {
+  "row_id": 3146,
+  "pares": [
+   {
+    "sheet_row": 859,
+    "cimento_designacao": "Type 1 cement provided by Holcim (Lebanon), satisfying European norms (CEM II/A-L) and LIBNOR",
+    "norma_cimento": "BS EN 197-1:2011; Lebanese standards (LIBNOR)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2, Sec.3.1 Materials: «The cement used in the study was Type 1 cement provided by Holcim, a leading cement company in Lebanon, and satisfying European norms (CEM II/A-L) and the Lebanese standards (LIBNOR) [22]»; ref.[22] = «BS EN 197-1: 2011. Cement - composition, specifications and conformity criteria»; Tabela 10: Control 360 kg cimento.",
+    "nota": "Designação contraditória: «Type 1» e «CEM II/A-L» na mesma frase (CEM II/A-L é cimento Portland de calcário, não tipo I). Na ACV (OpenLCA, Fig.16) o cimento vem de um processo genérico da base ELCD/GreenDelta, não do cimento Holcim ensaiado."
+   },
+   {
+    "sheet_row": 860,
+    "cimento_designacao": "Type 1 cement provided by Holcim (Lebanon), satisfying European norms (CEM II/A-L) and LIBNOR",
+    "norma_cimento": "BS EN 197-1:2011; Lebanese standards (LIBNOR)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2, Sec.3.1 Materials (mesma frase do par 859); Tabelas 9-10 (Sec.4.5): Ofim-15/10 = 324 kg cimento (10% menos que o controlo), 15% da água substituída por mucilagem.",
+    "nota": "A mucilagem (Ofim) substitui água de amassadura, não cimento; o ligante continua a ser só o cimento comercial (em menor quantidade, método APCR). Mesma contradição «Type 1» vs «CEM II/A-L» e cimento da ACV genérico (ELCD)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (71 mil caracteres, até ao fim das referências)."
+ },
+ {
+  "row_id": 3151,
+  "pares": [
+   {
+    "sheet_row": 861,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.9, Tabela 1 (Cost-efficiency analysis of OPC, GPC, and LC3 concrete): OPC M40 = OPC 412 kg/m3, sem FA/SF; fc28 46,50 MPa.",
+    "nota": "Artigo de revisão; os traços e os factores de CO2 vêm de literatura (refs.[20,101]; «the energy demand and CO2-e of the virgin materials are considered based on past studies»). O cimento só é chamado «OPC»/«ordinary Portland cement», sem classe nem norma."
+   },
+   {
+    "sheet_row": 862,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "traço: OPC 428 kg + cinza volante 80 kg + sílica activa 27 kg por m3",
+    "citacao": "p.9, Tabela 1: OPC M70 = OPC 428, FA 80, SF 27 kg/m3; fc28 79,90 MPa.",
+    "nota": "Embora rotulado «OPC concrete», o traço M70 junta cinza volante e sílica activa ao OPC. Artigo de revisão com dados de literatura; sem norma de cimento."
+   },
+   {
+    "sheet_row": 865,
+    "cimento_designacao": "LC3 (Limestone Calcined Clay Cement) — OPC clinker modified with 30% LS, 15% CC and 5% gypsum",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "OPC 50% + calcário 30% + argila calcinada 15% + gesso 5% (traço M40: OPC 206, LS 123,6, CC 61,8, gesso 20,6 kg/m3)",
+    "citacao": "p.9, Sec.6.1.1: «Modifying OPC clinker with 30% LS, 15% CC, and 5% gypsum»; Tabela 1: LC3 M40 = OPC 206, LS 123.60, CC 61.80, Gypsum 20.60 kg/m3; fc28 48,25 MPa.",
+    "nota": "O LC3 não é um cimento comercial: é composto no próprio traço a partir de OPC + calcário + argila calcinada + gesso, cada um com quantidade e factor de CO2 próprios. O texto diz «OPC clinker», mas a Tabela 1 usa «OPC». Revisão com dados de literatura."
+   },
+   {
+    "sheet_row": 866,
+    "cimento_designacao": "LC3 (Limestone Calcined Clay Cement) — OPC clinker modified with 30% LS, 15% CC and 5% gypsum",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "OPC 50% + calcário 30% + argila calcinada 15% + gesso 5% (traço M70: OPC 255, LS 153, CC 77, gesso 26 kg/m3)",
+    "citacao": "p.9, Tabela 1: LC3 M70 = OPC 255, LS 153, CC 77, Gypsum 26 kg/m3; fc28 79,90 MPa.",
+    "nota": "Igual ao 865 (classe M70). LC3 composto no traço, não cimento comercial."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (135 mil caracteres; confirmado que chega ao fim da lista de referências, sem truncagem). Artigo de revisão: os traços OPC/GPC/LC3 são compilados da literatura, não ensaiados pelos autores."
+ },
+ {
+  "row_id": 3152,
+  "pares": [
+   {
+    "sheet_row": 867,
+    "cimento_designacao": "CEM II/A-L 42.5R",
+    "norma_cimento": "UNE-EN 197-1:2011",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "clínquer entre 80 e 94% em massa",
+    "citacao": "Sec.2.1 Cement: «The cement used to manufacture this mortar is CEM II/A-L 42.5R, as defined by European standards [27]. It has a characteristic strength of 42.5 MPa at 28 days and its clinker content ranges between 80 and 94% by weight»; ref.[27] = «UNE-EN 197-1:2011 Cemento. Parte 1: Composición, especificaciones...»; Tabela 3: M_REF = 312,62 kg cimento.",
+    "nota": "O teor de clínquer é a faixa normativa do tipo, não uma análise do lote. Na ACV (SimaPro 9.4) o cimento vem de dados secundários (Ecoinvent v3 / ELCD); o processo exacto do cimento não é nomeado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (75 mil caracteres, até ao fim das referências)."
+ },
+ {
+  "row_id": 3153,
+  "pares": [
+   {
+    "sheet_row": 1934,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "traço de referência: OPC 353 kg + cinza volante 73 kg + sílica activa 73 kg por m3",
+    "citacao": "p.17, Tabela 7 (Cost analysis of HSGC and its counterpart): coluna «OPC [87]» = FA 73, OPC 353, SF 73 kg/m3; 28 days CS 58,70 MPa; Sec.3.5.3 (p.16): factores de CO2 de Turner and Collins [81].",
+    "nota": "O traço de referência «OPC» não foi ensaiado pelos autores: vem de Dong et al. [87] (pilares mistos aço-betão). Apesar do rótulo «OPC», junta cinza volante e sílica activa. Nenhuma classe nem norma de cimento no artigo (o estudo experimental é de geopolímero)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (113 mil caracteres, até ao fim das referências)."
+ },
+ {
+  "row_id": 3155,
+  "pares": [
+   {
+    "sheet_row": 870,
+    "cimento_designacao": "general-purpose blend of Ordinary Portland Cement (OPC)",
+    "norma_cimento": "AS 3972-2010",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "cimento: clínquer Portland >92%, CaSO4·2H2O 3–8%, CaCO3 0–7,5%, pó de clínquer 0–2,5% (Tabela 2); traço W00: cimento 200 + GGBFS 100 kg/m3 (2:1)",
+    "citacao": "p.3, Sec.2.1: «a general-purpose blend of Ordinary Portland Cement (OPC) that conforms to AS 3972-2010 [52] was selected ... Additionally, Ground Granulated Blast Furnace Slag (GGBFS) was incorporated as a supplementary cementitious material»; Tabela 2 (p.3) composição; p.4, Sec.2.2: «the binder consisting of OPC and GGBFS at a 2:1 ratio»; Tabela 3: W00 Cement 200, GGBFS 100.",
+    "nota": "Na ACV (p.12, Sec.3.3.2.3, GreenConcrete LCA tool) o cimento foi modelado como «Type I Portland Cement, also referred to as OPC», não como o cimento GP AS 3972 ensaiado. A escória (AS 3582.2) é adicionada no traço pelo próprio estudo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (83 mil caracteres, até ao fim das referências)."
+ },
+ {
+  "row_id": 3162,
+  "pares": [
+   {
+    "sheet_row": 1936,
+    "cimento_designacao": "CEM IV/A(PV) 42.5 N SR pozzolanic cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: «a ternary system was employed to replace pure OPC, based on pozzolanic CEM IV/A (PV) 42.5N SR, typically adopted in Italy for the precast tunnel segments»; p.5, nota (d) da Tabela 2: «Ordinary Portland Cement consists of 100% CEM IV/A(PV) 42.5 N SR pozzolanic cement»; p.11, Tabela 8: OPC/Steel → binder «CEM IV».",
+    "nota": "Os autores chamam «OPC» a um cimento pozolânico CEM IV/A. Grafia inconsistente: «CEM IV/A(P) 42.5N SR» na nota da Tabela 1 e «CEM IV/A(PV)» no resto. Nenhuma norma de cimento citada (só UNI EN 12350/12390 para ensaios; ACV pela EN 15804+A2). O processo de cimento usado na ACV (SimaPro 9.2) não é identificado; só o aço é declarado como Ecoinvent. A mistura ternária CSA (10% anidrite + 35% CSA + 55% CEM II/A-LL 42.5R) é a outra solução, não este par."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (80 mil caracteres, até ao fim das referências)."
+ },
+ {
+  "row_id": 3173,
+  "pares": [
+   {
+    "sheet_row": 881,
+    "cimento_designacao": "ordinary Portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "pp.3-4, Sec.3.2: «a reference concrete (with OPC only)»; «The data (both energy and transportation) for OPC production in Hong Kong was based on Hossain et al. [36], as locally manufactured OPC was used in this study»; Tabela 1 (p.4, traços de [46]): M1 (OPC only).",
+    "nota": "Nenhuma classe nem norma de cimento (só ASTM C618 para a cinza vulcânica e «BS Standard Methods» para o ensaio). Traços tirados de [46]/guias do CEDD de Hong Kong. Cimento da ACV = OPC produzido em Hong Kong (Hossain et al. [36]), com CLCD para energia."
+   },
+   {
+    "sheet_row": 882,
+    "cimento_designacao": "ordinary Portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "30% do OPC substituído por escória (slag/GGBS)",
+    "citacao": "Sec.3.2 (p.3): «concrete with most commonly used percentage of slag (i.e. 30 % and 50 % ordinary cement replacement)»; Tabela 1 (p.4): M2 (30% slag).",
+    "nota": "Escória importada (fonte mais próxima), alocação económica. Sem norma de cimento."
+   },
+   {
+    "sheet_row": 883,
+    "cimento_designacao": "ordinary Portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "50% do OPC substituído por escória (slag/GGBS)",
+    "citacao": "Sec.3.2 (p.3) e Tabela 1 (p.4): M3 (50% slag).",
+    "nota": "Sem norma de cimento."
+   },
+   {
+    "sheet_row": 884,
+    "cimento_designacao": "ordinary Portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "20% do OPC substituído por cinza vulcânica",
+    "citacao": "Sec.3.2 (p.3): «concrete with volcanic ash (i.e. 20 % and 30 % ordinary cement replacement)»; Tabela 1 (p.4): M5 (20% volcanic ash).",
+    "nota": "Cinza vulcânica da Indonésia (dados primários do fabricante). Sem norma de cimento."
+   },
+   {
+    "sheet_row": 885,
+    "cimento_designacao": "ordinary Portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "30% do OPC substituído por cinza vulcânica",
+    "citacao": "Sec.3.2 (p.3) e Tabela 1 (p.4): M6 (30% volcanic ash).",
+    "nota": "Sem norma de cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (69 mil caracteres, até ao fim das referências). As Tabelas S1–S3 do material suplementar não estão no PDF."
+ },
+ {
+  "row_id": 3182,
+  "pares": [
+   {
+    "sheet_row": 892,
+    "cimento_designacao": "ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Sec.3: «E1 is the control sample which is the conventional concrete with ordinary Portland cement and natural aggregates mix»; Tabela 3: E1 Cement 390 kg/m3, fc28 31,0 MPa; Tabela 4: inventário «Cement — Rest of World» (Ecoinvent).",
+    "nota": "Cimento da ACV = processo genérico Ecoinvent «Cement», geografia Rest of World. Sem classe nem norma. Traços adoptados da literatura (Partheeban/Arrasi [16] e Arivalagan [26]), não ensaiados pelos autores."
+   },
+   {
+    "sheet_row": 894,
+    "cimento_designacao": "ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "cimento 273 kg + GGBS 116 kg por m3 (≈30% de substituição)",
+    "citacao": "Resumo: «20 % e-plastic concrete with 30 % cement replaced by GGBS»; p.5, Sec.4.1: «30 % of GGBS is used to substitute the cement content in E3»; Tabela 3: E3 Cement 273, GGBS 116, fc28 52,0 MPa.",
+    "nota": "Contradição no texto da p.5: «E3 uses fly ash and reduce the cement», mas a Tabela 3 dá GGBS 116 e cinza volante 0 em E3. Cimento da ACV = Ecoinvent «Cement, Rest of World»."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (52 mil caracteres, até ao fim das referências)."
+ }
+]
