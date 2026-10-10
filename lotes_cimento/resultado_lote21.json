@@ -1,0 +1,255 @@
+[
+ {
+  "row_id": 4292,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 10 paginas (Buildings 2022, 12, 573) lido integralmente no texto devolvido pelo conector (inclui referencias). Estudo teorico: o betao entra so pelo EPD noruegues.",
+  "pares": [
+   {
+    "sheet_row": 1263,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec. 2.2: 'The concrete used in reinforced concrete frames and the foundations of all frames is C30/C37 ... minimum cement content of 300 kg/m3'; p.6, Tabela 5: 'Concrete (C30/C37) 212.26 kg CO2-eq./m3'; p.9, ref. [36]: 'Lavkarbonbetong kl. A B35-M45 D.16 Uredusert, Synk 200 mm, Standard FA-Helgeland Betong' (EPD-Norge).",
+    "nota": "O artigo nunca nomeia o cimento nem da traco; o CO2 e o do EPD de um betao pronto noruegues de baixo carbono (classe A). O titulo do EPD contem 'Standard FA', mas o artigo nao diz que isso e o cimento - nao deduzido. O EPD e de um B35 (M45), enquanto o projecto usa C30/37: classe do EPD diferente da classe de projecto."
+   }
+  ]
+ },
+ {
+  "row_id": 4297,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 20 paginas (Buildings 2022, 12, 1854) lido integralmente no texto devolvido pelo conector; seccoes 2.1 (edificio), 2.3 (inventario, Tabelas 4-6) e resultados verificadas.",
+  "pares": [
+   {
+    "sheet_row": 1264,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec. 2.1: 'Its first floor is open and consists of C20-concrete columns'; p.11, Tabela 5 (LCI, EcoInvent v3.2): 'Concrete - Pre-cast concrete, production mixture C 20/25/RER U'; Tabela 6: Concrete (1 kg) GWP 0.122 kg CO2.",
+    "nota": "Cimento nunca mencionado como material do estudo (so na discussao generica, p.16). O betao entra so pelo dataset generico do Ecoinvent 'Pre-cast concrete, production mixture C 20/25/RER U' para todos os casos, embora o encamisamento e as diagonais sejam descritos como C30 (p.5-6). Nao ha traco nem tipo de cimento."
+   }
+  ]
+ },
+ {
+  "row_id": 4301,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 19 paginas (Buildings 2023, 13, 746) lido integralmente no texto devolvido pelo conector; sec. 2.1 (tracos, Tabelas 1-3), 2.2 (ACV) e 3.1 (inventario, Tabela 11) verificadas.",
+  "pares": [
+   {
+    "sheet_row": 1268,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec. 2.1: 'The amount of CS used in the concrete is described on a percent mass basis of cement, with percent mass substitutions of 5%, 10%, and 15%'; p.4, Tabela 3 / p.10, Tabela 11: FC20.7CS5 Cement 286.40 kg, CS 14.32 kg; p.5, sec. 2.2.3: 'Data were acquired from the Ecoinvent v3.01 database'.",
+    "nota": "O artigo so escreve 'cement' (massa especifica 3,15), sem tipo, classe, norma nem nome do dataset Ecoinvent; fornecedor local nas Filipinas a 40 km. A escoria de cobre (CS) substitui 5% da massa de cimento no proprio traco (dosagem ACI 211, sem ensaio)."
+   }
+  ]
+ },
+ {
+  "row_id": 4304,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 14 paginas (Buildings 2023, 13, 1313) lido integralmente no texto devolvido pelo conector; sec. 3 (Tabela 1, tracos ACI 211-09) e 4 (ACV, Ecoinvent v3.5) verificadas.",
+  "pares": [
+   {
+    "sheet_row": 1269,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, sec. 3, Tabela 1 'The concrete mix designs based on the ACI 211-09 standard': C20 Cement 259 kg/m3, W/C 0.69, superplasticizer 1.4; p.7, sec. 4: 'relied on the Ecoinvent v. 3.5 databases'.",
+    "nota": "O artigo so escreve 'Cement', sem tipo, classe nem norma; o dataset de cimento do Ecoinvent nao e nomeado. Traco sem adicoes (so cimento + superplastificante). Edificio em Teerao (Irao)."
+   },
+   {
+    "sheet_row": 1270,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Tabela 1: C30 Cement 331 kg/m3, W/C 0.54, superplasticizer 1.7; p.7, sec. 4 (Ecoinvent v3.5).",
+    "nota": "Idem C20: so 'Cement', sem tipo nem norma; sem adicoes."
+   },
+   {
+    "sheet_row": 1271,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Tabela 1: C40 Cement 425 kg/m3, W/C 0.42, superplasticizer 2.0; p.7, sec. 4 (Ecoinvent v3.5).",
+    "nota": "Idem C20: so 'Cement', sem tipo nem norma; sem adicoes."
+   }
+  ]
+ },
+ {
+  "row_id": 4305,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 24 paginas (Buildings 2023, 13, 1348) lido integralmente no texto devolvido pelo conector, incluindo a Tabela 2 de factores e os anexos.",
+  "pares": [
+   {
+    "sheet_row": 1272,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec. 2.1: 'The building materials used were HRB400 grade longitudinal reinforcement, HPB300 stirrup, and C40 concrete'; p.7, Tabela 2: 'C40 concrete [38,40,41] 361.80* kgCO2-e/m3' (* = media das referencias).",
+    "nota": "Sem traco: o CO2 do C40 e um factor medio de literatura. A Tabela 2 lista tambem factores de 'Cement (P.I.52.5)' 1.14, 'Cement (P.O.42.5)' 1.00 e 'Cement (P.S.32.5)' 0.74 kgCO2-e/kg, mas o artigo nao diz que algum deles corresponde ao betao C40 (sao usados para calcular a calda/grout, p.7). Tipo de cimento do C40 nao declarado."
+   }
+  ]
+ },
+ {
+  "row_id": 4321,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 27 paginas (Buildings 2024, 14, 860) lido integralmente no texto devolvido pelo conector; sec. 2.6.5-2.6.10 (Tabelas 4-6) verificadas.",
+  "pares": [
+   {
+    "sheet_row": 1274,
+    "cimento_designacao": "Cement, OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "94% clinker, 5% gypsum, 1% MAC (modelacao do factor da Tabela 4)",
+    "citacao": "p.15, Tabela 4 (ECC, base ICE / Circular Ecology): 'Cement, OPC 0.912 - Modelled with 94% clinker, 5% gypsum, 1% MAC'; p.16, Tabela 6: Fcr 38.27 MPa (C40) Cement 420 kg/m3, W/C 0.386, admixture 1.89.",
+    "nota": "Na Tabela 6 o traco so diz 'Cement' (sem adicoes). A designacao 'Cement, OPC' e a composicao vem da tabela de factores ICE usada na calculadora Circular Ecology (factor da base de dados, clinquer extrapolado do EPD medio do Reino Unido), nao de uma descricao do cimento real; nenhuma norma de cimento citada. A Tabela 4 lista tambem GGBS e cinza volante, mas nenhum traco as usa."
+   },
+   {
+    "sheet_row": 1275,
+    "cimento_designacao": "Cement, OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "94% clinker, 5% gypsum, 1% MAC (modelacao do factor da Tabela 4)",
+    "citacao": "p.15, Tabela 4: 'Cement, OPC 0.912 - Modelled with 94% clinker, 5% gypsum, 1% MAC'; p.16, Tabela 6: Fcr 48.82 MPa (C50) Cement 480 kg/m3.",
+    "nota": "Idem C40: designacao so pela tabela de factores ICE; traco sem adicoes."
+   },
+   {
+    "sheet_row": 1276,
+    "cimento_designacao": "Cement, OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "94% clinker, 5% gypsum, 1% MAC (modelacao do factor da Tabela 4)",
+    "citacao": "p.15, Tabela 4; p.16, Tabela 6: Fcr 59.82 MPa (C60) Cement 530 kg/m3.",
+    "nota": "Idem C40: designacao so pela tabela de factores ICE; traco sem adicoes."
+   },
+   {
+    "sheet_row": 1277,
+    "cimento_designacao": "Cement, OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "94% clinker, 5% gypsum, 1% MAC (modelacao do factor da Tabela 4)",
+    "citacao": "p.15, Tabela 4; p.16, Tabela 6: Fcr 70.82 MPa (C70) Cement 570 kg/m3.",
+    "nota": "Idem C40: designacao so pela tabela de factores ICE; traco sem adicoes."
+   },
+   {
+    "sheet_row": 1278,
+    "cimento_designacao": "Cement, OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "94% clinker, 5% gypsum, 1% MAC (modelacao do factor da Tabela 4)",
+    "citacao": "p.15, Tabela 4; p.16, Tabela 6: Fcr 81.82 MPa (C80) Cement 610 kg/m3.",
+    "nota": "Idem C40: designacao so pela tabela de factores ICE; traco sem adicoes."
+   }
+  ]
+ },
+ {
+  "row_id": 4328,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 18 paginas (Fibers 2022, 10, 31) lido integralmente no texto devolvido pelo conector; sec. 2 (materiais, Tabelas 1-2) e sec. ACV (p.14-15) verificadas.",
+  "pares": [
+   {
+    "sheet_row": 565,
+    "cimento_designacao": "Holcim premium type HE (high early-strength)",
+    "norma_cimento": "NTE INEN 2380 (equivalente a ASTM C1157)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "Portland cement clinker up to 95%; calcium sulphate 0-5%; calcium carbonate 0-5%; calcium oxide 0-4%; magnesium oxide 0-5%",
+    "citacao": "p.3, sec. 2: 'The cement adopted in the mixes from this paper is the Holcim premium type HE (high early-strength), manufactured to NTE INEN 2380 [30] that is the standard equivalent to ASTM C1157 [31] (Table 1)'; Tabela 1 (composicao); p.4, Tabela 2: Cement 300 kg/m3.",
+    "nota": "Cimento de desempenho (ASTM C1157 / INEN 2380, tipo HE), nao prescritivo. Na ACV (p.14) o inventario usa o dataset Ecoinvent 'cement, ordinary Portland', nao o cimento HE ensaiado: cimento da ACV diferente do cimento do ensaio. Mistura nominal sem fibra."
+   },
+   {
+    "sheet_row": 566,
+    "cimento_designacao": "Holcim premium type HE (high early-strength)",
+    "norma_cimento": "NTE INEN 2380 (equivalente a ASTM C1157)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "Portland cement clinker up to 95%; calcium sulphate 0-5%; calcium carbonate 0-5%; calcium oxide 0-4%; magnesium oxide 0-5%",
+    "citacao": "p.3, sec. 2 e Tabela 1 (mesmo cimento HE); mistura com 1% em volume de fibra de sisal.",
+    "nota": "Mesmo cimento da mistura nominal; a fibra de sisal e reforco, nao substitui ligante. ACV com 'cement, ordinary Portland' do Ecoinvent."
+   },
+   {
+    "sheet_row": 567,
+    "cimento_designacao": "Holcim premium type HE (high early-strength)",
+    "norma_cimento": "NTE INEN 2380 (equivalente a ASTM C1157)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "Portland cement clinker up to 95%; calcium sulphate 0-5%; calcium carbonate 0-5%; calcium oxide 0-4%; magnesium oxide 0-5%",
+    "citacao": "p.3, sec. 2 e Tabela 1 (mesmo cimento HE); mistura com 1% em volume de fibra de polipropileno.",
+    "nota": "Mesmo cimento da mistura nominal; a fibra de polipropileno e reforco, nao substitui ligante. ACV com 'cement, ordinary Portland' do Ecoinvent."
+   }
+  ]
+ },
+ {
+  "row_id": 4341,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 23 paginas (Buildings 2025, 15, 442) lido integralmente no texto devolvido pelo conector; sec. 3 (modelo, 3.3 tracos) e 4 (resultados) verificadas. Modelo computacional (AS 1379, AusLCI + Ecoinvent v3), sem ensaio.",
+  "pares": [
+   {"sheet_row": 1287, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3: 'The quantity of cement increases significantly with strength, starting at 239.13 kg for 20 MPa and reaching 634.62 kg for 100 MPa'; p.4: componentes calculados 'as requirements in Australian standard AS 1379:2007', base 'AusLCI ... and the Ecoinvent Database v3'.",
+    "nota": "O artigo so escreve 'cement', sem tipo (GP/GB), classe nem norma de cimento (AS 1379 e a norma do betao). Betao convencional sem SCM (as SCM 30-40% sao outras opcoes do modelo). Dataset do cimento nao nomeado; o texto so diz que o CO2 do cimento usa a 'average clinker-to-cement ratio' (p.5)."},
+   {"sheet_row": 1288, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3 (mesmo traco de 20 MPa); p.6: injeccao de CO2 'estimated to be 0.15% of the cement weight'.",
+    "nota": "Mesmo betao convencional com cura por injeccao de CO2; cimento nao especificado."},
+   {"sheet_row": 1289, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3 (tracos 20-100 MPa, so 'cement'); p.4 (AS 1379:2007).", "nota": "Classe 35 MPa, cura normal; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1290, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.6 (injeccao de CO2 0,15% da massa de cimento).", "nota": "Classe 35 MPa, cura por CO2; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1291, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.4 (AS 1379:2007).", "nota": "Classe 40 MPa, cura normal; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1292, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.6 (injeccao de CO2).", "nota": "Classe 40 MPa, cura por CO2; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1293, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.4 (AS 1379:2007).", "nota": "Classe 50 MPa, cura normal; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1294, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.6 (injeccao de CO2).", "nota": "Classe 50 MPa, cura por CO2; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1295, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.4 (AS 1379:2007).", "nota": "Classe 65 MPa, cura normal; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1296, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.6 (injeccao de CO2).", "nota": "Classe 65 MPa, cura por CO2; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1297, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.4 (AS 1379:2007).", "nota": "Classe 80 MPa, cura normal; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1298, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.6 (injeccao de CO2).", "nota": "Classe 80 MPa, cura por CO2; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1299, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3: '... reaching 634.62 kg for 100 MPa'; p.4 (AS 1379:2007).", "nota": "Classe 100 MPa, cura normal; cimento nao especificado, sem SCM."},
+   {"sheet_row": 1300, "cimento_designacao": null, "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec. 3.3; p.6 (injeccao de CO2).", "nota": "Classe 100 MPa, cura por CO2; cimento nao especificado, sem SCM."}
+  ]
+ },
+ {
+  "row_id": 4364,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 18 paginas (Crystals 2020, 10, 946) lido integralmente no texto devolvido pelo conector; sec. 2.1 (materiais) e 3.4 (ACV, Tabela 8) verificadas.",
+  "pares": [
+   {
+    "sheet_row": 1322,
+    "cimento_designacao": "OPC type UG (General Use)",
+    "norma_cimento": "ASTM C1157 (equivalente a NTC 121)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2, sec. 2.1: '10% of OPC type UG (General Use) was used—according to ASTM C1157, equivalent to NTC 121 in Colombia'; p.12-13, sec. 3.4: 'conventional concrete based exclusively in Portland cement (100% OPC as binder) ... same amount of cement (400 kg/m3) ... water/cement ratio of the OPC concrete of 0.64'; Tabela 8: OPC 400 kg, factor 9.10e-1 (Ecoinvent 3.4), total 377.8 kg CO2-eq.",
+    "nota": "O betao de referencia 100% OPC so existe na ACV (dosagem teorica para ~21 MPa, nao ensaiado); o artigo nao diz explicitamente que usa o mesmo OPC type UG do cimento hibrido, mas e o unico OPC descrito. Factor de CO2 do OPC do Ecoinvent 3.4 (0,91 kg/kg), dataset nao nomeado. 'UG' = Uso General (tipo GU da ASTM C1157)."
+   }
+  ]
+ },
+ {
+  "row_id": 4365,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 29 paginas (Crystals 2021, 11, 209) lido integralmente no texto devolvido pelo conector; sec. 2.1 (Tabela 1), tracos (Tabela 3) e ACV (inventario e Tabelas 12-13) verificadas.",
+  "pares": [
+   {
+    "sheet_row": 1323,
+    "cimento_designacao": "CP III 40 RS",
+    "norma_cimento": "NBR 16697",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2-3, sec. 2.1: 'As the conventional concrete (reference), Portland cement type CP III 40 RS was used according to the recommendations of NBR 16697 [34]. This designation refers to a hydraulic binder obtained by the homogeneous mixture of clinker and blast furnace slag'; p.3, Tabela 1 (Cement CP III 40 RS, 28 d 47.8 MPa); Tabela 3: CC-Ref-R0 Cement 320 kg/m3; p.21, Tabela 12: CC-Ref-R0 GWP 2.39e2.",
+    "nota": "Cimento de alto-forno comercial (CP III); a percentagem de escoria nao e dada. O betao poroso do estudo usa outro cimento (CP V-ARI). ACV com o EPD de uma fabrica brasileira de cimento (ref. [65]); o texto da 587 g CO2/kg para o CP III."
+   }
+  ]
+ }
+]

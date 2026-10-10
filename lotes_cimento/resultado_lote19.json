@@ -1,0 +1,423 @@
+[
+ {
+  "row_id": 4086,
+  "pares": [
+   {
+    "sheet_row": 1181,
+    "cimento_designacao": "cimento Portland de alta resistencia inicial (CP-V ARI-RS)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Argamassa 10R: 464 kg cimento + 52 kg po de agata/m3 (10% do aglomerante substituido em massa) - Tabela 2. Composicao do proprio cimento nao dada (so massa especifica 3,02 g/cm3, Blaine 4960 cm2/g).",
+    "citacao": "p.3 (Sec. 2.1): 'considerou-se o uso do cimento Portland de alta resistencia inicial (CP-V ARI-RS)'; 'como substituicao, em massa, ao cimento, nos teores de 0, 10, 20 e 30% de po de rolagem'. Tabela 2 (proporcionamento das argamassas) e Tabela 4 (10 R: MC 535 kg CO2-eq/m3).",
+    "nota": "Nenhuma norma do cimento citada (NBR 7215 e NBR 12653/5751/5752 sao normas de ensaio/pozolana). O po de agata nao foi classificado como pozolanico pela NBR 12653 (quase inerte, efeito filer), mas e adicao ao ligante feita pelo proprio estudo. Na ACV o cimento vem da base GaBi/PE International 2014 'adaptada a realidade brasileira', sem nome do processo. O material do lote diz 'traco 10R'; confere com Tabela 4 (535)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (artigo de 10 pp. da revista Materia) lido pelo conector, incluindo Tabelas 1-5 e referencias."
+ },
+ {
+  "row_id": 4089,
+  "pares": [
+   {
+    "sheet_row": 1182,
+    "cimento_designacao": "CPII-E Portland cement (Tabela 1: 'PC II Portland Cement')",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "CPII-E 'with a maximum of 34% blast furnace slag' (p.4)",
+    "citacao": "p.4, Sec. 2.2: 'The first type of foundation uses CPII-E Portland cement-based concrete, with a maximum of 34% blast furnace slag. This cement was selected because it is widely used in the metropolitan region of Joao Pessoa.' Tabela 1: 'PC II Portland Cement 425 kg'. Tabela 3: 'PC II Portland Cement 392.00 kg CO2-eq', total 418.783.",
+    "nota": "Designacao varia no proprio artigo: 'CP-II' (titulo), 'PC-II'/'PC II' (resumo e Tabelas 1 e 3), 'CPII-E' (texto). Nenhuma norma citada (NBR 16697/11578 nao aparecem). Na ACV o cimento e um processo Ecoinvent v3.3 (SimaPro, IPCC 2013 GWP100) sem nome do processo indicado - nao se sabe se o processo modela CP II-E."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (10 pp.) lido pelo conector, incluindo Tabelas 1-4 e referencias."
+ },
+ {
+  "row_id": 4090,
+  "pares": [
+   {
+    "sheet_row": 1184,
+    "cimento_designacao": "CP II Z 32 (capa) + CP V ARI / 'CP V-ARI Plus' (sapatas das vigotas)",
+    "norma_cimento": "NBR 16697",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "CP V ARI modelado como 85% clinquer + 5% gesso + 10% material carbonatico 'de acordo com a NBR 16697'; composicao do CP II Z 32 nao dada.",
+    "citacao": "p.2, Sec. 2: 'O CP V-ARI Plus ... foi utilizado para a execucao das sapatas das vigotas pre-moldadas. Ja na etapa de capeamento das lajes foi empregado o cimento CP II Z 32 (Cimento Portland Composto).' p.3: 'De acordo com a NBR 16697 [31], esse cimento e composto por 85% de clinquer, 5% de gesso e 10% de material carbonatico.' Tabela 5 (p.6): CP II Z 32 -> 'CH: portland cement, strength class Z 42.5, at plant'; CP V ARI -> processo inserido manualmente.",
+    "nota": "Dois cimentos no mesmo par: capa (73,1 L/laje, 342 kg CP II Z 32/m3) e sapatas (16,1 L/laje, 280 kg CP V ARI/m3) - Tabela 3. A NBR 16697 e citada so para a composicao do CP V ARI. Na ACV o CP II Z 32 foi substituido por um cimento Ecoinvent suico 'Z 42.5' (os proprios autores reconhecem a diferenca, p.3 e p.13). fck 27,82 = media da capa CP II Z 32 aos 28 d (Tabela 1, Fazzan 2011); sapatas 28,21."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (15 pp.) lido pelo conector, incluindo Tabelas 1-7 e referencias."
+ },
+ {
+  "row_id": 4092,
+  "pares": [
+   {
+    "sheet_row": 555,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]). Tabela 2 (p.7): DE-0%-320 fcm,150 = 64,7 MPa.",
+    "nota": "Linha-catalogo (26 misturas); o fck 64,7 corresponde a DE-0%-320 (Palm 2016/Neufert 2014; 320 kg CEM I, 0% LS). As 26 misturas misturam controlos so com CEM I e misturas com po de calcario no traco. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2023,
+    "cimento_designacao": "CEM I 52.5R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "CEM I 52.5R: max. 5% de constituintes adicionais (p.3). 330 kg/m3, 0% LS.",
+    "citacao": "p.3, Sec. 2.2.1: 'Ordinary Portland cement CEM I 52.5R (max 5% additional constituents) was used for own tested mixtures.' Tabela 1 (p.4): coluna 'CEM I [kg/m3]'; codigo XX-Y%-Z, 'Z is the mass per unit volume of the CEM I component'.",
+    "nota": "Mistura propria (Servia). Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2024,
+    "cimento_designacao": "CEM I 52.5R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "CEM I 52.5R (max. 5% de constituintes adicionais) 230 kg + po de calcario 200 kg/m3; 30% do cimento (330 kg) substituido por LS (Tabela 1).",
+    "citacao": "p.3, Sec. 2.2.1: 'Ordinary Portland cement CEM I 52.5R (max 5% additional constituents) was used for own tested mixtures.' Tabela 1 (p.4): coluna 'CEM I [kg/m3]'; codigo XX-Y%-Z, 'Z is the mass per unit volume of the CEM I component'. p.3: 'three other mixtures were tested in which 30%, 45% and 55% of the cement, respectively, were replaced by LS powder'; 'the amount of LS added was larger than the amount of cement replaced'.",
+    "nota": "Mistura propria (Servia), RS-30%-230. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2025,
+    "cimento_designacao": "CEM I 52.5R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "CEM I 52.5R (max. 5% de constituintes adicionais) 180 kg + po de calcario 250 kg/m3; 45% do cimento (330 kg) substituido por LS (Tabela 1).",
+    "citacao": "p.3, Sec. 2.2.1: 'Ordinary Portland cement CEM I 52.5R (max 5% additional constituents) was used for own tested mixtures.' Tabela 1 (p.4): coluna 'CEM I [kg/m3]'; codigo XX-Y%-Z, 'Z is the mass per unit volume of the CEM I component'. p.3: 'three other mixtures were tested in which 30%, 45% and 55% of the cement, respectively, were replaced by LS powder'; 'the amount of LS added was larger than the amount of cement replaced'.",
+    "nota": "Mistura propria (Servia), RS-45%-180. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2026,
+    "cimento_designacao": "CEM I 52.5R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "CEM I 52.5R (max. 5% de constituintes adicionais) 150 kg + po de calcario 280 kg/m3; 55% do cimento (330 kg) substituido por LS (Tabela 1).",
+    "citacao": "p.3, Sec. 2.2.1: 'Ordinary Portland cement CEM I 52.5R (max 5% additional constituents) was used for own tested mixtures.' Tabela 1 (p.4): coluna 'CEM I [kg/m3]'; codigo XX-Y%-Z, 'Z is the mass per unit volume of the CEM I component'. p.3: 'three other mixtures were tested in which 30%, 45% and 55% of the cement, respectively, were replaced by LS powder'; 'the amount of LS added was larger than the amount of cement replaced'.",
+    "nota": "Mistura propria (Servia), RS-55%-150. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2027,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "244 kg CEM I + 131 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Palm 2016/Neufert 2014 (Alemanha); classe do CEM I da fonte original nao indicada. Tabela 1 tem 'DE-35%-244' (244 kg CEM I) e a Tabela 2 tem 'DE-35%-208' - codigo inconsistente no proprio artigo. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2028,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "190 kg CEM I + 190 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Palm 2016/Neufert 2014 (Alemanha); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2029,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "300 kg CEM I/m3, 0% LS (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura de controlo compilada de Lollini 2014 (Italia); o tipo/classe exacta do cimento da fonte original nao e indicado (so 'CEM I'). Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2030,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "212 kg CEM I + 38 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Lollini 2014 (Italia); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2031,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "255 kg CEM I + 45 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Lollini 2014 (Italia); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2032,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "210 kg CEM I + 90 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Lollini 2014 (Italia); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2033,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "245 kg CEM I + 105 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Lollini 2014 (Italia); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2034,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "400 kg CEM I/m3, 0% LS (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura de controlo compilada de Collepardi 2004 (Italia); o tipo/classe exacta do cimento da fonte original nao e indicado (so 'CEM I'). Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2035,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "350 kg CEM I/m3, 0% LS (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura de controlo compilada de Collepardi 2004 (Italia); o tipo/classe exacta do cimento da fonte original nao e indicado (so 'CEM I'). Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2036,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "300 kg CEM I/m3, 0% LS (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura de controlo compilada de Collepardi 2004 (Italia); o tipo/classe exacta do cimento da fonte original nao e indicado (so 'CEM I'). Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2037,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "340 kg CEM I + 60 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Collepardi 2004 (Italia); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2038,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "297 kg CEM I + 53 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Collepardi 2004 (Italia); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2039,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "255 kg CEM I + 45 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Collepardi 2004 (Italia); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2040,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "300 kg CEM I + 100 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Collepardi 2004 (Italia); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2041,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "335 kg CEM I/m3, 0% LS (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura de controlo compilada de Leemann 2015 (Suica); o tipo/classe exacta do cimento da fonte original nao e indicado (so 'CEM I'). Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2042,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "315 kg CEM I/m3, 0% LS (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura de controlo compilada de Leemann 2015 (Suica); o tipo/classe exacta do cimento da fonte original nao e indicado (so 'CEM I'). Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2043,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "280 kg CEM I + 50 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Leemann 2015 (Suica); classe do CEM I da fonte original nao indicada. O codigo diz 270 mas a Tabela 1 da 280 kg de CEM I. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2044,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "264 kg CEM I + 46 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Leemann 2015 (Suica); classe do CEM I da fonte original nao indicada. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2045,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "355 kg CEM I/m3, 0% LS (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura de controlo compilada de Dhir 2007/Meddah 2014 (Reino Unido); o tipo/classe exacta do cimento da fonte original nao e indicado (so 'CEM I'). A fonte citada (Dhir et al. 2007, ref. [48]) intitula-se 'Evaluation of Portland limestone cements...'; o artigo, porem, codifica estas misturas como CEM I + po de calcario no traco. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2046,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "302 kg CEM I + 53 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Dhir 2007/Meddah 2014 (Reino Unido); classe do CEM I da fonte original nao indicada. A fonte citada (Dhir et al. 2007, ref. [48]) intitula-se 'Evaluation of Portland limestone cements...'; o artigo, porem, codifica estas misturas como CEM I + po de calcario no traco. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   },
+   {
+    "sheet_row": 2047,
+    "cimento_designacao": "CEM I (Tabela 1)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "266 kg CEM I + 89 kg po de calcario/m3 (Tabela 1). Composicao do cimento da fonte nao dada.",
+    "citacao": "Tabela 1 (p.4): coluna 'CEM I [kg/m3]' para todas as misturas da literatura; p.3: 'Z is the mass per unit volume of the CEM I component in the concrete mix'. Tabela 3 (p.8): factor 'CEM I' 8.96E-01 kg CO2 eq/kg (media de Ecoinvent e artigos [39,65-67]).",
+    "nota": "Mistura compilada de Dhir 2007/Meddah 2014 (Reino Unido); classe do CEM I da fonte original nao indicada. A fonte citada (Dhir et al. 2007, ref. [48]) intitula-se 'Evaluation of Portland limestone cements...'; o artigo, porem, codifica estas misturas como CEM I + po de calcario no traco. Na ACV o cimento e um factor medio unico 'CEM I' 0,896 kg CO2eq/kg (Tabela 3), igual para todas as misturas e fontes. EN 197-1 so e citada (ref. [15]) para a composicao quimica do po de calcario, nao para o cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "PDF localizado por titulo (fileId 1AEum-W3FlY5-0SGYiqtbocP1oGbFYsfE). Texto integral (15 pp. + referencias, 85 mil caracteres) lido em blocos a partir do ficheiro gravado pelo conector; Tabelas 1-3 lidas. O material suplementar (base de dados) nao esta no PDF."
+ },
+ {
+  "row_id": 4098,
+  "pares": [
+   {
+    "sheet_row": 1188,
+    "cimento_designacao": "Portland cement CP III",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.191 (5 do PDF), Tabela 2 'Quantification of materials for the production of concrete - values considered for each m3 of concrete': linha 'Portland cement CP III (kg)' 310 (C25) ... 421 (C50). p.192: 'The primary data collected relate to the quantity of raw material for cement production, directly informed by the manufacturer'.",
+    "nota": "Cimento de alto-forno (CP III) usado para todas as classes C25-C50; nenhuma norma do cimento citada e composicao nao dada. ACV em GaBi/Ecoinvent (EDIP 1997) com dados de materias-primas do cimento fornecidos pelo fabricante; processo Ecoinvent nao nomeado. O CO2 do par (224,6) e o total do betao do edificio C25 (105.874 kg CO2 eq, Tabela 5) dividido por 471,4 m3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (16 pp.) lido a partir do ficheiro gravado pelo conector, incluindo Tabelas 1-6 e conclusoes."
+ },
+ {
+  "row_id": 4099,
+  "pares": [
+   {
+    "sheet_row": 1194,
+    "cimento_designacao": "Cimento Portland tipo CP-V - ARI",
+    "norma_cimento": "NBR 16697",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Caracterizacao dos materiais: 'Cimento Portland tipo CP-V - ARI (ABNT, 2018a)'; ABNT 2018a = 'NBR 16697: cimento Portland: requisitos' (referencias). Tabela 2: CAA_REF 436 kg/m3. Tabela 3: 'Cimento Portland 0,93 kg CO2 eq./kg'.",
+    "nota": "Na ACV o cimento e um factor generico 'Cimento Portland' 0,93 kg CO2eq/kg tirado da literatura (Mithun & Narasimhan 2016, Palankar 2016, Souza 2021/2022), nao especifico do CP V-ARI. O RLS substitui agregados, nao o cimento (CAA_REF = 0% RLS)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (12 pp.) lido pelo conector, incluindo Tabelas 1-6 e referencias."
+ },
+ {
+  "row_id": 4106,
+  "pares": [
+   {
+    "sheet_row": 1196,
+    "cimento_designacao": "cement (Ecoinvent: 'market for cement, Portland | cement, Portland | APOS,U - RoW')",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.2, Tabela 2: 'Cement (kg/m3) 345 / 394 / 432' (C30/C40/C50). p.5, Sec. 2.3.2, Tabela 3: 'Cement - market for cement, Portland | cement, Portland | APOS,U - RoW'.",
+    "nota": "Nenhum tipo de cimento indicado no artigo: so 'Cement' no traco (Tabela 2, dosagem pelo metodo de Thomaz) e o processo Ecoinvent generico 'market for cement, Portland | cement, Portland | APOS,U - RoW' (Tabela 3). Betao armado: o par e do pilar; o CO2 do concreto vem desse processo generico. C30 = 345 kg/m3."
+   },
+   {
+    "sheet_row": 1197,
+    "cimento_designacao": "cement (Ecoinvent: 'market for cement, Portland | cement, Portland | APOS,U - RoW')",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.2, Tabela 2: 'Cement (kg/m3) 345 / 394 / 432' (C30/C40/C50). p.5, Sec. 2.3.2, Tabela 3: 'Cement - market for cement, Portland | cement, Portland | APOS,U - RoW'.",
+    "nota": "Nenhum tipo de cimento indicado no artigo: so 'Cement' no traco (Tabela 2, dosagem pelo metodo de Thomaz) e o processo Ecoinvent generico 'market for cement, Portland | cement, Portland | APOS,U - RoW' (Tabela 3). Betao armado: o par e do pilar; o CO2 do concreto vem desse processo generico. C40 = 394 kg/m3 na Tabela 2, mas a Tabela 8 da 414 kg."
+   },
+   {
+    "sheet_row": 1198,
+    "cimento_designacao": "cement (Ecoinvent: 'market for cement, Portland | cement, Portland | APOS,U - RoW')",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.2, Tabela 2: 'Cement (kg/m3) 345 / 394 / 432' (C30/C40/C50). p.5, Sec. 2.3.2, Tabela 3: 'Cement - market for cement, Portland | cement, Portland | APOS,U - RoW'.",
+    "nota": "Nenhum tipo de cimento indicado no artigo: so 'Cement' no traco (Tabela 2, dosagem pelo metodo de Thomaz) e o processo Ecoinvent generico 'market for cement, Portland | cement, Portland | APOS,U - RoW' (Tabela 3). Betao armado: o par e do pilar; o CO2 do concreto vem desse processo generico. C50 = 432 kg/m3 na Tabela 2, mas a Tabela 8 da 465 kg e fck 60."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (14 pp.) lido pelo conector, incluindo Tabelas 1-8 e referencias."
+ },
+ {
+  "row_id": 4138,
+  "pares": [
+   {
+    "sheet_row": 1200,
+    "cimento_designacao": "ordinary portland cement (OPC, 53 grade)",
+    "norma_cimento": "IS 269",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Ligante = 55% OPC + 45% LC2 (Tabela 1); LC2 = 65% argila calcinada + 33% calcario + 2% gesso (moidos juntos, escala industrial). OPC com 65% de alite.",
+    "citacao": "p.12-13, Materials: 'A commercially available ordinary portland cement (OPC, 53 grade with 65% alite content, conforming to IS 269 [10]) was mixed with ... limestone-calcined clay as admixtures at 30% and 45% replacement levels'; 'The LC2 used here was produced by intergrinding 65% calcined clay, 33% limestone and 2% gypsum'. Tabela 1: 'LC2 (55% OPC + 45% LC2)'.",
+    "nota": "LC2 adicionado no traco como SCM (nao e o cimento LC3 da IS 18189, que so e citado na introducao). Na ACV: OPC 930 kg CO2/t e LC2 260 kg CO2/t (Tabela 4, dados de uma fabrica integrada perto de Nandyal)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (11 pp.) lido pelo conector, incluindo Tabelas 1-4; Figuras 4-11 so com rotulos no texto extraido."
+ },
+ {
+  "row_id": 4142,
+  "pares": [
+   {
+    "sheet_row": 1201,
+    "cimento_designacao": "cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.154, Tabela 1 (vista renderizada): coluna 'Cement' (M-0 550; M-40 520; C-0 420 kg/m3). p.156, Inventory Analysis: 'LCI data for production of cement, sand and gravel were obtained from the Malaysia Life Cycle Inventory Database (MY-LCID)'.",
+    "nota": "O artigo nunca diz que cimento e (nem 'Portland', nem OPC, nem norma); so 'cement' com inventario da MY-LCID (Tabela 3: CO2 9,82E-01 kg/kg). Misturas compiladas da literatura (Sumesh 2018, Kanadasan & Abdul Razak 2015b, Abutaha 2016, Mohd Hilton 2008). M-0 = argamassa de referencia (Sumesh et al. 2018)."
+   },
+   {
+    "sheet_row": 1202,
+    "cimento_designacao": "cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Tabela 1: M-40 = 520 kg cement + 350 kg po de clinquer de oleo de palma (POCP)/m3; texto: 'M-40 denotes a replacement of 40% binder with palm oil clinker powder (POCP)'.",
+    "citacao": "p.154, Tabela 1 (vista renderizada): coluna 'Cement' (M-0 550; M-40 520; C-0 420 kg/m3). p.156, Inventory Analysis: 'LCI data for production of cement, sand and gravel were obtained from the Malaysia Life Cycle Inventory Database (MY-LCID)'. p.154: 'M-40 denotes a replacement of 40% binder with palm oil clinker powder (POCP)'.",
+    "nota": "O artigo nunca diz que cimento e (nem 'Portland', nem OPC, nem norma); so 'cement' com inventario da MY-LCID (Tabela 3: CO2 9,82E-01 kg/kg). Misturas compiladas da literatura (Sumesh 2018, Kanadasan & Abdul Razak 2015b, Abutaha 2016, Mohd Hilton 2008). O material do lote diz 'substituindo 100% do ligante' - errado: o artigo diz 40% do ligante. Os numeros da Tabela 1 (520 cimento + 350 POCP) nao batem com 40% de substituicao; M-40 vem de Kanadasan & Abdul Razak 2015b."
+   },
+   {
+    "sheet_row": 1203,
+    "cimento_designacao": "cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.154, Tabela 1 (vista renderizada): coluna 'Cement' (M-0 550; M-40 520; C-0 420 kg/m3). p.156, Inventory Analysis: 'LCI data for production of cement, sand and gravel were obtained from the Malaysia Life Cycle Inventory Database (MY-LCID)'.",
+    "nota": "O artigo nunca diz que cimento e (nem 'Portland', nem OPC, nem norma); so 'cement' com inventario da MY-LCID (Tabela 3: CO2 9,82E-01 kg/kg). Misturas compiladas da literatura (Sumesh 2018, Kanadasan & Abdul Razak 2015b, Abutaha 2016, Mohd Hilton 2008). C-0 = betao de referencia (Abutaha et al. 2016)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto do conector (73 mil caracteres) muito embaralhado nas pp. 151, 154-156; PDF descarregado (20 pp.) e pp.154 e 156 renderizadas para ler a Tabela 1 e o paragrafo do inventario. Resto do texto lido pelo conector."
+ },
+ {
+  "row_id": 4144,
+  "pares": [
+   {
+    "sheet_row": 1206,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.83, Tabela 1: 'HA-25/B/20/IIa HORMIGON m3 6209.97 [MJ] 159.46 [kgCO2]'; p.83: 'Los valores EE y CE se extrajeron de la base de datos Ecoinvent ... BEDEC'. Tabela 3 (p.87-88): HA-25/B/20/IIa e HA-25/P/20/IIa.",
+    "nota": "O artigo trata o betao como unidade de preco da base BCCA/ACCD (HA-25/B/20/IIa, designacao EHE) com factor de CO2 por m3 tirado de Ecoinvent/BEDEC; o cimento nunca e mencionado (a palavra so aparece numa citacao de outro estudo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (16 pp., 55 mil caracteres) lido a partir do ficheiro gravado pelo conector; procura de 'cement'/'cemento'/'CEM'/'Portland' em todo o texto."
+ }
+]
