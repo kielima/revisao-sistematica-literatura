@@ -1,0 +1,252 @@
+[
+ {
+  "row_id": 4806,
+  "pares": [
+   {
+    "sheet_row": 1792,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec.2.2: 'nominal cylinder compressive strength is considered equal to 30 MPa, which can be achieved via the concrete mix design as in the study conducted by Georgantzia et al. [19]'; p.7, Sec.5.1 / Table 4: 'Cement' com factor 0.951 kg CO2/kg [30] (Muller et al. 2014)",
+    "nota": "O artigo so escreve 'Cement' (Tab.4, quantidade 26,62 kg na coluna CFST); o traco vem de Georgantzia et al. [19] e o factor de CO2 de Muller et al. 2014 [30]. Para custo cita 'Blue Circle Multipurpose Cement, 25 kg Bag' [39] (preco de retalho, nao especificacao do cimento do traco). Nao ha designacao nem norma do cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral extraido pelo read_file_content (sem truncagem; artigo curto) e lidas as seccoes de materiais, inventario de ACV e tabelas de traco/CO2."
+ },
+ {
+  "row_id": 4836,
+  "pares": [
+   {
+    "sheet_row": 1805,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3-4, Table 1: High Strength Ready-Mixed Concrete (A,B,C), 'Resource recycling (use of industrial waste)', Reference product '50 MPa OPC concrete'; Table 2: 'A HVMA Concrete 92.0 / 375.0'; nota da Tab.2: 'HVMA: High Volume Mineral Admixture'",
+    "nota": "Produto comercial certificado (rotulagem de carbono coreana), nao traco do proprio estudo: 'High Volume Mineral Admixture' = adicoes minerais em alto teor no betao pronto, sem tipo/percentagem. Classificado substituicao_no_traco porque as adicoes estao no traco do betao (nao no cimento), mas o estudo nao as dosa. Unico cimento nomeado e o 'OPC' do produto de referencia (50 MPa OPC concrete). Sem norma de cimento (so KS F 4735 para paineis)."
+   },
+   {
+    "sheet_row": 1806,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Table 2: 'B HVMA SCC Concrete 145.0 / 417.0'; nota: 'HVMA SCC: High Volume Mineral Admixture Self Compacting Conctete'",
+    "nota": "Idem 1805: produto comercial com adicoes minerais em alto volume, autocompactavel; composicao do ligante nao dada. Referencia: '50 MPa OPC concrete'."
+   },
+   {
+    "sheet_row": 1808,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3-4, Table 1: Amorphous Steel Fiber Concrete (E,G), standard '25-24-150', CO2 reduction technology 'Increasing of the durability life by crack reducing', Reference product '24 MPa OPC concrete'; Table 2: 'E Amorphous Steel Fiber Concrete 253.6 / 320.0'",
+    "nota": "O ligante do produto E nao e descrito (so a fibra de aco amorfo); o 'OPC' refere-se ao betao de referencia (24 MPa OPC concrete, 320 kg CO2/m3), nao ao produto. Table 1 lista para (E,G) tambem 'Use of industrial waste materials' numa coluna ambigua."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral extraido pelo read_file_content (sem truncagem; artigo curto) e lidas as seccoes de materiais, inventario de ACV e tabelas de traco/CO2."
+ },
+ {
+  "row_id": 4837,
+  "pares": [
+   {
+    "sheet_row": 1809,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 3: 'Concrete 24 MPa m3 329.37' (CO2 basic unit kg-CO2/m3); p.3-4: 'the CO2 basic unit through the database of concrete strength and CO2 emissions for each admixtures, which were analyzed by the individual integration'",
+    "nota": "Factor unitario de base de dados por classe de resistencia (Coreia); o artigo nunca designa o cimento. Tab.4 (carbonatacao) usa 'Cement type: Normal concrete -> 1'. A substituicao de 20% de escoria de alto-forno ('20% blast furnace slag in the cement', Case 4, Tab.5) e cenario a parte e nao corresponde a estes factores da Tab.3."
+   },
+   {
+    "sheet_row": 1810,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 3: 'Concrete 27 MPa m3 353.02' (CO2 basic unit kg-CO2/m3); p.3-4: 'the CO2 basic unit through the database of concrete strength and CO2 emissions for each admixtures, which were analyzed by the individual integration'",
+    "nota": "Factor unitario de base de dados por classe de resistencia (Coreia); o artigo nunca designa o cimento. Tab.4 (carbonatacao) usa 'Cement type: Normal concrete -> 1'. A substituicao de 20% de escoria de alto-forno ('20% blast furnace slag in the cement', Case 4, Tab.5) e cenario a parte e nao corresponde a estes factores da Tab.3."
+   },
+   {
+    "sheet_row": 1811,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 3: 'Concrete 30 MPa m3 383.77' (CO2 basic unit kg-CO2/m3); p.3-4: 'the CO2 basic unit through the database of concrete strength and CO2 emissions for each admixtures, which were analyzed by the individual integration'",
+    "nota": "Factor unitario de base de dados por classe de resistencia (Coreia); o artigo nunca designa o cimento. Tab.4 (carbonatacao) usa 'Cement type: Normal concrete -> 1'. A substituicao de 20% de escoria de alto-forno ('20% blast furnace slag in the cement', Case 4, Tab.5) e cenario a parte e nao corresponde a estes factores da Tab.3."
+   },
+   {
+    "sheet_row": 1812,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 3: 'Concrete 35 MPa m3 406.71' (CO2 basic unit kg-CO2/m3); p.3-4: 'the CO2 basic unit through the database of concrete strength and CO2 emissions for each admixtures, which were analyzed by the individual integration'",
+    "nota": "Factor unitario de base de dados por classe de resistencia (Coreia); o artigo nunca designa o cimento. Tab.4 (carbonatacao) usa 'Cement type: Normal concrete -> 1'. A substituicao de 20% de escoria de alto-forno ('20% blast furnace slag in the cement', Case 4, Tab.5) e cenario a parte e nao corresponde a estes factores da Tab.3."
+   },
+   {
+    "sheet_row": 1813,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 3: 'Concrete 40 MPa m3 429.65' (CO2 basic unit kg-CO2/m3); p.3-4: 'the CO2 basic unit through the database of concrete strength and CO2 emissions for each admixtures, which were analyzed by the individual integration'",
+    "nota": "Factor unitario de base de dados por classe de resistencia (Coreia); o artigo nunca designa o cimento. Tab.4 (carbonatacao) usa 'Cement type: Normal concrete -> 1'. A substituicao de 20% de escoria de alto-forno ('20% blast furnace slag in the cement', Case 4, Tab.5) e cenario a parte e nao corresponde a estes factores da Tab.3."
+   },
+   {
+    "sheet_row": 1814,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Table 3: 'Concrete 50 MPa m3 508.39' (CO2 basic unit kg-CO2/m3); p.3-4: 'the CO2 basic unit through the database of concrete strength and CO2 emissions for each admixtures, which were analyzed by the individual integration'",
+    "nota": "Factor unitario de base de dados por classe de resistencia (Coreia); o artigo nunca designa o cimento. Tab.4 (carbonatacao) usa 'Cement type: Normal concrete -> 1'. A substituicao de 20% de escoria de alto-forno ('20% blast furnace slag in the cement', Case 4, Tab.5) e cenario a parte e nao corresponde a estes factores da Tab.3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral extraido pelo read_file_content (sem truncagem; artigo curto) e lidas as seccoes de materiais, inventario de ACV e tabelas de traco/CO2."
+ },
+ {
+  "row_id": 4841,
+  "pares": [
+   {
+    "sheet_row": 1815,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec.2.1: 'The Malaysia Life Cycle Inventory Database (MYLCID) was used in the LCI, especially on raw materials such as cement'; p.4-5, Table 1: 'Concrete grade 25'; p.9, Sec.3.2: 'cement production in Malaysia were calculated based on the MYLCID ... raw material extraction, production of clinker, and cement grinding'",
+    "nota": "So 'cement' generico do MYLCID; sem designacao, norma ou traco do betao grade 25. O texto refere 570 kg CO2/t de cimento (processo) e 359 kg CO2 do cimento por m3 de betao, sem dizer o tipo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral extraido pelo read_file_content (sem truncagem; artigo curto) e lidas as seccoes de materiais, inventario de ACV e tabelas de traco/CO2."
+ },
+ {
+  "row_id": 4847,
+  "pares": [
+   {
+    "sheet_row": 1819,
+    "cimento_designacao": "ordinary portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.11, Table 5 'Concrete mix design for target building': 24 MPa OPC 336, FA 0 kg/m3; nota: 'OPC: ordinary portland cement'",
+    "nota": "Traco real de central (Seongnam). Factor de CO2 do cimento da LCI nacional coreana ('944 kg-CO2 eq/ton from ordinary portland cement', p.12). Sem norma de cimento citada."
+   },
+   {
+    "sheet_row": 1820,
+    "cimento_designacao": "ordinary portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.11, Table 5: 30 MPa OPC 334, FA 59 kg/m3; nota: 'OPC: ordinary portland cement ... FA: fly ash'",
+    "nota": "Cinza volante (59 kg/m3, ~15% do ligante) adicionada no traco da central, nao pelo estudo (o estudo so avalia o traco real). Tambem tem agregado reciclado (R/S 394) e agua reciclada (68)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral devolvido inline pelo read_file_content e lido por inteiro."
+ },
+ {
+  "row_id": 4849,
+  "pares": [
+   {
+    "sheet_row": 1821,
+    "cimento_designacao": "General-purpose cement",
+    "norma_cimento": "AS/NZS 3972",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "Table 1 (composicao do general-purpose cement): Portland clinker 92%; limestone (CaCO3) 0-7.5%; gypsum (CaSO4.2H2O) 3-8%; cement kiln dust 0-2.5%; Cr(VI) trace",
+    "citacao": "p.4, Sec.2.1: 'General-purpose cement was used in line with AS/NZS 3972 [45], and its composition is provided in Table 1'; Table 1 'Composition of general-purpose cement'; Table 2: Control cement 355 kg/m3",
+    "nota": "Valores da Table 1 copiados tal como extraidos (cabecalho 'Cement Portland Clinker | Lime-Stone | Gypsum | Clinker Kiln Dust | Chromium (VI)'). Na ACV o cimento e modelado com Ecoinvent 3.4 (Tab.3, energia por kg)."
+   },
+   {
+    "sheet_row": 1822,
+    "cimento_designacao": "General-purpose cement",
+    "norma_cimento": "AS/NZS 3972",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Table 1: Portland clinker 92%; limestone 0-7.5%; gypsum 3-8%; cement kiln dust 0-2.5%",
+    "citacao": "p.6, Sec.2.2.2: 'All waste plastic milk bottle specimens contained a 10% cement substitution'; 'surface modification was applied using silica fume (SF) on the plastic milk bottle granules, with a maximum loading of 2%'; Table 2: SFPMB cement 319.5, milk bottle 35.5, silica fume 0.71 kg/m3",
+    "nota": "A substituicao de 10% do cimento e por granulado de HDPE (residuo plastico, nao SCM); a silica de fumo (2% do plastico, AS/NZS 3582.3) e so revestimento das particulas."
+   },
+   {
+    "sheet_row": 1823,
+    "cimento_designacao": "General-purpose cement",
+    "norma_cimento": "AS/NZS 3972",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Table 1: Portland clinker 92%; limestone 0-7.5%; gypsum 3-8%; cement kiln dust 0-2.5%",
+    "citacao": "p.6, Sec.2.2.2: 'matrix modification was applied using metakaolin at a 5% cement replacement rate on specimen SFMKPMB'; Table 2: SFMKPMB cement 301.7, milk bottle 35.5, silica fume 0.71, metakaolin 17.8 kg/m3",
+    "nota": "10% de HDPE + 5% de metacaulino (ASTM C618 classe N) em substituicao do cimento, pelo proprio estudo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral extraido pelo read_file_content (sem truncagem; artigo curto) e lidas as seccoes de materiais, inventario de ACV e tabelas de traco/CO2."
+ },
+ {
+  "row_id": 4855,
+  "pares": [
+   {
+    "sheet_row": 1825,
+    "cimento_designacao": "Portland cement (CEM I)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4 (1045), Table 1: C25 com 309 kg cement/m3 [28]; p.7 (1048), Table 2 'ReCiPe (midpoint) data used for inputs': NAC 'Cement 1 054 116.42 kg Portland cement (CEM I)'",
+    "nota": "'Portland cement (CEM I)' e a descricao do conjunto de dados de inventario (Tab.2); o traco (Tab.1) vem de Musbah et al. 2019 [28] e so diz 'cement'. Nao cita EN 197-1."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral devolvido inline pelo read_file_content e lido por inteiro."
+ },
+ {
+  "row_id": 4869,
+  "pares": [
+   {
+    "sheet_row": 1826,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Sec.3.2 Caso practico n.1: 'Las estimaciones empleadas son los valores medios que proceden del estudio de todas las plantas espanolas y, por tanto, de todos los tipos de cemento producidos'; p.7, Tabla 2: 'Dosificacion: 341,7 kg cemento, 1.880,9 kg aridos, 205 kg agua, 5 kg aditivos'",
+    "nota": "Caso 1 usa a media de todas as cimenteiras espanholas e de todos os tipos de cimento (sem designacao). O caso 2 (Tab.3) e que distingue CEM I e CEM II (17% de adicoes medias, cinzas volantes e calcario) de uma fabrica espanhola - nao e este par. A EHE e codigo de betao, nao norma de cimento. Observacao lateral: 302,39 nao aparece impresso; coincide com o total medio da Tab.2 (337,67) sem as parcelas do aco (31,15+0,95+2,66+0,52)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral extraido pelo read_file_content (sem truncagem; artigo curto) e lidas as seccoes de materiais, inventario de ACV e tabelas de traco/CO2."
+ },
+ {
+  "row_id": 4930,
+  "pares": [
+   {
+    "sheet_row": 1835,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.990, Sec.2.2 Table 1: 'RC C30 2,300 30 (fck)', design 'based on the KS standard [4-7]' (KS F 4009 Ready-mixed Concrete); p.991, Table 2: 'Concrete 3,532 [10]' (EPD do Ministerio do Ambiente coreano)",
+    "nota": "Factor de EPD coreano para betao pronto; cimento nunca mencionado. A unidade do 3.532 nao esta escrita na linha do betao (so 'kgCO2-eq/m3' na linha do GLT) - valor alto para kg/m3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral devolvido inline pelo read_file_content e lido por inteiro (artigo de conferencia, 6 pp.)."
+ },
+ {
+  "row_id": 4942,
+  "pares": [
+   {
+    "sheet_row": 599,
+    "cimento_designacao": "Ordinary Portland Cement (OPC), i.e., Type I cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.000052-4, Sec.2.1: 'Ordinary Portland Cement (OPC), i.e., Type I cement, was considered as the main binder in the mortar mixes'; p.000052-10: '...meet the requirement of compressive strength of 28 MPa at a 28-day curing period, as per ASTM C150 [58]'",
+    "nota": "A ASTM C150 so e citada nos resultados (requisito de 28 MPa aos 28 d), nao na seccao de materiais junto do cimento. Argamassa 1:2,75, a/c 0,485 (ASTM C305). Na ACV o cimento vem do ecoinvent v3.7.1 (RoW), sem nome do conjunto de dados."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "texto integral extraido pelo read_file_content (sem truncagem; artigo curto) e lidas as seccoes de materiais, inventario de ACV e tabelas de traco/CO2."
+ }
+]
