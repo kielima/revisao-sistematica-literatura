@@ -1,0 +1,414 @@
+[
+ {
+  "row_id": 3657,
+  "pares": [
+   {
+    "sheet_row": 1069,
+    "cimento_designacao": "Ordinary Portland cement (PO. 42.5)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2, sec. 2.1 Raw materials: 'Ordinary Portland cement (PO. 42.5) served as the binder, and the physical and mechanical properties as shown in Table 1'; Tabela 3: NAC cement 527 kg/m3, 50.3 MPa (cubo 28 d).",
+    "nota": "Nenhuma norma de cimento citada (so JGJ 52-2006, GB/T 25177-2012 e JGJ 55-2011 para agregados e dosagem). A Tabela 1 da propriedades fisicas/mecanicas do cimento, nao a composicao. O inventario da ACV (Tabelas S1/S2) esta no material suplementar, nao incluido no PDF: nao se ve que factor de cimento foi usado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (92 mil caracteres) extraido pelo read_file_content e pesquisado na totalidade; seccoes 2.1-2.3 (materiais, traco, ACV) e Tabelas 1, 3, 4 e 10 lidas."
+ },
+ {
+  "row_id": 3661,
+  "pares": [
+   {
+    "sheet_row": 1073,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "pp.106-107, sec. 3.4 e Tabela 6: emissao do betao por classe (25/30/40 MPa) calculada a partir de 'cement, aggregate and water' com intensidade do cimento da tabela I-O da Malasia 2005 (Tabela 4, 'cement ... IOPC 26941'); ex.: 30 MPa 'mix proportion of 15%, 79%, and 6% of cement, aggregate and water'.",
+    "nota": "O artigo nunca diz o tipo, classe ou norma do cimento: 'cement' e o sector de fabrico de cimento da matriz insumo-produto malaia (HLCA). Traco so com cimento, agregado e agua (sem adicoes mencionadas); 'Portland' so aparece numa referencia bibliografica."
+   },
+   {
+    "sheet_row": 1074,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "pp.106-107, sec. 3.4 e Tabela 6: emissao do betao por classe (25/30/40 MPa) calculada a partir de 'cement, aggregate and water' com intensidade do cimento da tabela I-O da Malasia 2005 (Tabela 4, 'cement ... IOPC 26941'); ex.: 30 MPa 'mix proportion of 15%, 79%, and 6% of cement, aggregate and water'.",
+    "nota": "O artigo nunca diz o tipo, classe ou norma do cimento: 'cement' e o sector de fabrico de cimento da matriz insumo-produto malaia (HLCA). Traco so com cimento, agregado e agua (sem adicoes mencionadas); 'Portland' so aparece numa referencia bibliografica."
+   },
+   {
+    "sheet_row": 1075,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "pp.106-107, sec. 3.4 e Tabela 6: emissao do betao por classe (25/30/40 MPa) calculada a partir de 'cement, aggregate and water' com intensidade do cimento da tabela I-O da Malasia 2005 (Tabela 4, 'cement ... IOPC 26941'); ex.: 30 MPa 'mix proportion of 15%, 79%, and 6% of cement, aggregate and water'.",
+    "nota": "O artigo nunca diz o tipo, classe ou norma do cimento: 'cement' e o sector de fabrico de cimento da matriz insumo-produto malaia (HLCA). Traco so com cimento, agregado e agua (sem adicoes mencionadas); 'Portland' so aparece numa referencia bibliografica."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (65 mil caracteres) extraido e pesquisado na totalidade; seccoes 3.3-3.5 e Tabelas 4-6 e 9 lidas."
+ },
+ {
+  "row_id": 3681,
+  "pares": [
+   {
+    "sheet_row": 1078,
+    "cimento_designacao": "Ordinary Portland Cement (OPC) Type I + 20 % fly ash (Class F)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "20 % de cinza volante classe F em substituicao do OPC (y = 20 %); 381 kg de cimento/m3 para 25 MPa",
+    "citacao": "p.239, sec. 3.3-3.4: 'Ordinary Portland Cement (OPC) Type I is chosen for this case study ... the analysis can be conducted with Types II, III, IV, V'; 'For the baseline scenario, 20 % fly ash (Class F) is used as the SCM'; 'y = 20 %, percent replacement of OPC by SCM'; Tabela 2: 'Baseline Concrete Type I ... 25 MPa with 20 % SCM'.",
+    "nota": "Estudo de modelacao (calculadora), sem ensaio. Na ACV o ligante e modelado com o processo Ecoinvent 3.7 'cement, portland fly ash cement 6-20%' (um cimento composto comercial), e a Tabela 1 chama-lhe 'Cement with 20 % fly ash' (0,69 kg CO2-eq/kg): a substituicao e descrita como do traco, mas o factor e o de um cimento composto de mercado. 'Type I' sugere ASTM C150, mas a norma nao e citada. Traco de 381 kg/m3 reproduzido de Souto-Martinez et al. (2017)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (75 mil caracteres) extraido e pesquisado na totalidade; seccoes 3.1-3.5, Tabelas 1-2 e resultados lidos."
+ },
+ {
+  "row_id": 3685,
+  "pares": [
+   {
+    "sheet_row": 2010,
+    "cimento_designacao": "Portland cement CEM I",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Tabela 4: 'Portland cement CEM I 860' kg CO2/t; sec. 5 (caso de estudo): 'traditional with CEM I cement (PC concrete), and two green ones - in one of them CEM I cement is partially replaced with 35 % FA (FA/35 concrete), in the other - with 65 % GGBS'; Tabela 7: CEM I 362/285/127, FA 0/154/0, GGBS 0/0/235 kg/m3.",
+    "nota": "Cimento so designado 'CEM I', sem classe de resistencia; nenhuma norma de cimento citada. As classes CEM I 52.5 N, CEM II A/L 52.5 N, CEM III/A e III/B aparecem apenas como valores tipicos de teor de clinquer na equacao de carbonatacao, nao como o cimento do caso. Estudo de modelacao (pilares de parque de estacionamento), sem ensaio."
+   },
+   {
+    "sheet_row": 2011,
+    "cimento_designacao": "Portland cement CEM I",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "35 % do CEM I substituido por cinza volante (285 kg CEM I + 154 kg FA/m3)",
+    "citacao": "p.6, Tabela 4: 'Portland cement CEM I 860' kg CO2/t; sec. 5 (caso de estudo): 'traditional with CEM I cement (PC concrete), and two green ones - in one of them CEM I cement is partially replaced with 35 % FA (FA/35 concrete), in the other - with 65 % GGBS'; Tabela 7: CEM I 362/285/127, FA 0/154/0, GGBS 0/0/235 kg/m3.",
+    "nota": "Cimento so designado 'CEM I', sem classe de resistencia; nenhuma norma de cimento citada. As classes CEM I 52.5 N, CEM II A/L 52.5 N, CEM III/A e III/B aparecem apenas como valores tipicos de teor de clinquer na equacao de carbonatacao, nao como o cimento do caso. Estudo de modelacao (pilares de parque de estacionamento), sem ensaio."
+   },
+   {
+    "sheet_row": 2012,
+    "cimento_designacao": "Portland cement CEM I",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "65 % do CEM I substituido por GGBS (127 kg CEM I + 235 kg GGBS/m3)",
+    "citacao": "p.6, Tabela 4: 'Portland cement CEM I 860' kg CO2/t; sec. 5 (caso de estudo): 'traditional with CEM I cement (PC concrete), and two green ones - in one of them CEM I cement is partially replaced with 35 % FA (FA/35 concrete), in the other - with 65 % GGBS'; Tabela 7: CEM I 362/285/127, FA 0/154/0, GGBS 0/0/235 kg/m3.",
+    "nota": "Cimento so designado 'CEM I', sem classe de resistencia; nenhuma norma de cimento citada. As classes CEM I 52.5 N, CEM II A/L 52.5 N, CEM III/A e III/B aparecem apenas como valores tipicos de teor de clinquer na equacao de carbonatacao, nao como o cimento do caso. Estudo de modelacao (pilares de parque de estacionamento), sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (87 mil caracteres) extraido e pesquisado na totalidade; seccoes de ACV (Tabela 4), caso de estudo (Tabelas 6-7) e resultados (Tabela 10) lidas."
+ },
+ {
+  "row_id": 3687,
+  "pares": [
+   {
+    "sheet_row": 1080,
+    "cimento_designacao": "GUb-8SF 42.5 MPa (general use cement blended with 8 % silica fume), Ciment Quebec",
+    "norma_cimento": "CSA A3001",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Cimento GUb-8SF = 92 % cimento Portland + 8 % silica de fumo; argamassa LC3: 165 kg GUbSF + 132 kg argila calcinada + 362 kg filer calcario",
+    "citacao": "pp.3-4, sec. 2.2-2.3: 'The binder is composed of general use cement blended with 8 % silica fume (GUb-8SF) 42.5 MPa conforming to the Canadian standard CSA A3001, of calcined clay ... and of limestone filler'; 'The GUb-8SF 42.5 MPa binary cement is supplied by Ciment Quebec and is composed of 92 % of Portland cement and 8 % of silica fume'; Tabela 2 (31 MPa).",
+    "nota": "O cimento de base ja e um cimento composto comercial (GUb-8SF, CSA A3001); o proprio estudo junta-lhe argila calcinada e filer calcario no traco (LC3 feito no traco, nao LC3 de mercado). No cenario FR o GUbSF e modelado com o mercado europeu de cimento Portland do Ecoinvent + silica de fumo. O valor 251 kg CO2-eq/m3 e o do modelo CA-QC."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (88 mil caracteres) extraido e pesquisado na totalidade; seccoes 2.1-2.5, Tabelas 1-2 e 6 lidas."
+ },
+ {
+  "row_id": 3727,
+  "pares": [
+   {
+    "sheet_row": 1082,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec. 2.3.1: 'For the baseline case, a Portland cement concrete mixture is modeled, in which there are no supplementary cementitious materials (SCMs) considered, and the compressive strength at 28 days is 25 MPa'; emissoes do cimento pelo Open-Concrete LCA tool (Kim et al., 2022).",
+    "nota": "Sem tipo, classe nem norma de cimento no texto principal; detalhes do inventario remetidos para a Tabela S1 do material suplementar (nao incluida no PDF). Mistura modelada, sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (84 mil caracteres) extraido e pesquisado na totalidade; sec. 2.3 e resultados (pp.6-8) lidos."
+ },
+ {
+  "row_id": 3731,
+  "pares": [
+   {
+    "sheet_row": 1083,
+    "cimento_designacao": "High-initial-strength hydraulic cement, HOLCIM PREMIUM HE (cement HE)",
+    "norma_cimento": "ASTM C1157",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.24979 (p.2), Experimental Section: 'High-initial-strength hydraulic cement, commercially known as HOLCIM PREMIUM HE, was obtained from Holcim S.A.'; Tabela 1, nota a: 'HE cement follows the ASTM C1157 standard'.",
+    "nota": "Cimento hidraulico por desempenho (ASTM C1157, tipo HE), sem composicao declarada. Na ACV o perfil do clinquer e do cimento vem de Petroche et al. (Equador). Argamassa com areia Ottawa; controlo C0 sem quitosano."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (56 mil caracteres) extraido e pesquisado na totalidade; Experimental Section, Tabelas 1-2 e LCA lidas."
+ },
+ {
+  "row_id": 3732,
+  "pares": [
+   {
+    "sheet_row": 1084,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1864,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1865,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1866,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1867,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1868,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1869,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1870,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1871,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1872,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1873,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1874,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1875,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1876,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1877,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1878,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   },
+   {
+    "sheet_row": 1879,
+    "cimento_designacao": "ASTM type II/V Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de residuo de arroz",
+    "citacao": "p.2, Materials: 'mortars were produced using natural quartz sand ... and ASTM type II/V Portland cement (PC) from Lehigh Southwest Cement Company in Stockton, California'; p.3: 'Bioash-cement mortars were proportioned using the control mixtures but with ashes replacing 15% of the PC, by mass'.",
+    "nota": "Tipo ASTM II/V citado, mas sem a norma escrita (ASTM C150 nao e mencionada). A Tabela 2 da a composicao em oxidos do cimento II/V, nao o teor de clinquer. Na ACV o cimento e modelado como 'cement production, preheater-precalciner kiln, US average kiln fuel mix' (Miller e Myers; UCB Green Concrete Tool), nao especificamente o II/V."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (78 mil caracteres) extraido e pesquisado na totalidade; Materials and Methods, Tabela 1 (inventario ACV) e Tabela 2 lidas."
+ },
+ {
+  "row_id": 3752,
+  "pares": [
+   {
+    "sheet_row": 1087,
+    "cimento_designacao": "PC (ASTM type II/V)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Experimental testing methods: 'Lehigh Southwest Cement Company in Stockton, CA was the source of PC (ASTM type II/V)'; p.7, Tabela 7: 100% PC 411 kg/m3; 15% RHA 349 kg PC + 61.6 kg RHA.",
+    "nota": "Tipo ASTM II/V sem norma escrita. Na ACV o cimento e o dataset generico 'Cement production, Portland' (Ecoinvent 3.5, EUA, via GaBi; 895 kg CO2-eq/t, Tabelas 4 e 8), nao especificamente o II/V do ensaio."
+   },
+   {
+    "sheet_row": 1088,
+    "cimento_designacao": "PC (ASTM type II/V)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15 % do PC substituido (em massa) por cinza de casca de arroz (RHA)",
+    "citacao": "p.6, Experimental testing methods: 'Lehigh Southwest Cement Company in Stockton, CA was the source of PC (ASTM type II/V)'; p.7, Tabela 7: 100% PC 411 kg/m3; 15% RHA 349 kg PC + 61.6 kg RHA.",
+    "nota": "Tipo ASTM II/V sem norma escrita. Na ACV o cimento e o dataset generico 'Cement production, Portland' (Ecoinvent 3.5, EUA, via GaBi; 895 kg CO2-eq/t, Tabelas 4 e 8), nao especificamente o II/V do ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido por inteiro na resposta do read_file_content (artigo curto de 9 paginas)."
+ },
+ {
+  "row_id": 3758,
+  "pares": [
+   {
+    "sheet_row": 493,
+    "cimento_designacao": "Ordinary Portland Cement (OPC) of grade 53",
+    "norma_cimento": "IS 12269-2013",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Materials: 'Ordinary Portland Cement (OPC) of grade 53 was the cement used. It was acquired from Chettinad Cement Co. Ltd in India and fulfilled the requirements outlined in IS 12,269 - 2013'; p.4, Mix design: 'NS was added as an additive material at various percentages of 1%, 2%, and 3% (M1-M3), while MK was used as a replacement material at percentages of 5%, 12.50%, and 20% (M4-M6)'; Tabela 5: OPC 0,82 kgCO2/kg.",
+    "nota": "O factor do OPC na ACV (0,82 kg CO2/kg, Tabela 5) vem da ref. 81, nao do cimento ensaiado."
+   },
+   {
+    "sheet_row": 494,
+    "cimento_designacao": "Ordinary Portland Cement (OPC) of grade 53",
+    "norma_cimento": "IS 12269-2013",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "1 % de nano-silica adicionada ao OPC (adicao, nao substituicao)",
+    "citacao": "p.3, Materials: 'Ordinary Portland Cement (OPC) of grade 53 was the cement used. It was acquired from Chettinad Cement Co. Ltd in India and fulfilled the requirements outlined in IS 12,269 - 2013'; p.4, Mix design: 'NS was added as an additive material at various percentages of 1%, 2%, and 3% (M1-M3), while MK was used as a replacement material at percentages of 5%, 12.50%, and 20% (M4-M6)'; Tabela 5: OPC 0,82 kgCO2/kg.",
+    "nota": "O factor do OPC na ACV (0,82 kg CO2/kg, Tabela 5) vem da ref. 81, nao do cimento ensaiado. Nano-silica em adicao: o OPC fica a 100 % (302,88 kg CO2/m3 de OPC igual ao CC)."
+   },
+   {
+    "sheet_row": 495,
+    "cimento_designacao": "Ordinary Portland Cement (OPC) of grade 53",
+    "norma_cimento": "IS 12269-2013",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "2 % de nano-silica adicionada ao OPC (adicao, nao substituicao)",
+    "citacao": "p.3, Materials: 'Ordinary Portland Cement (OPC) of grade 53 was the cement used. It was acquired from Chettinad Cement Co. Ltd in India and fulfilled the requirements outlined in IS 12,269 - 2013'; p.4, Mix design: 'NS was added as an additive material at various percentages of 1%, 2%, and 3% (M1-M3), while MK was used as a replacement material at percentages of 5%, 12.50%, and 20% (M4-M6)'; Tabela 5: OPC 0,82 kgCO2/kg.",
+    "nota": "O factor do OPC na ACV (0,82 kg CO2/kg, Tabela 5) vem da ref. 81, nao do cimento ensaiado. Nano-silica em adicao; OPC igual ao CC."
+   },
+   {
+    "sheet_row": 496,
+    "cimento_designacao": "Ordinary Portland Cement (OPC) of grade 53",
+    "norma_cimento": "IS 12269-2013",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "3 % de nano-silica adicionada ao OPC (adicao, nao substituicao)",
+    "citacao": "p.3, Materials: 'Ordinary Portland Cement (OPC) of grade 53 was the cement used. It was acquired from Chettinad Cement Co. Ltd in India and fulfilled the requirements outlined in IS 12,269 - 2013'; p.4, Mix design: 'NS was added as an additive material at various percentages of 1%, 2%, and 3% (M1-M3), while MK was used as a replacement material at percentages of 5%, 12.50%, and 20% (M4-M6)'; Tabela 5: OPC 0,82 kgCO2/kg.",
+    "nota": "O factor do OPC na ACV (0,82 kg CO2/kg, Tabela 5) vem da ref. 81, nao do cimento ensaiado. Nano-silica em adicao; OPC igual ao CC."
+   },
+   {
+    "sheet_row": 497,
+    "cimento_designacao": "Ordinary Portland Cement (OPC) of grade 53",
+    "norma_cimento": "IS 12269-2013",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "5 % do OPC substituido por metacaulim",
+    "citacao": "p.3, Materials: 'Ordinary Portland Cement (OPC) of grade 53 was the cement used. It was acquired from Chettinad Cement Co. Ltd in India and fulfilled the requirements outlined in IS 12,269 - 2013'; p.4, Mix design: 'NS was added as an additive material at various percentages of 1%, 2%, and 3% (M1-M3), while MK was used as a replacement material at percentages of 5%, 12.50%, and 20% (M4-M6)'; Tabela 5: OPC 0,82 kgCO2/kg.",
+    "nota": "O factor do OPC na ACV (0,82 kg CO2/kg, Tabela 5) vem da ref. 81, nao do cimento ensaiado."
+   },
+   {
+    "sheet_row": 498,
+    "cimento_designacao": "Ordinary Portland Cement (OPC) of grade 53",
+    "norma_cimento": "IS 12269-2013",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "12,5 % do OPC substituido por metacaulim",
+    "citacao": "p.3, Materials: 'Ordinary Portland Cement (OPC) of grade 53 was the cement used. It was acquired from Chettinad Cement Co. Ltd in India and fulfilled the requirements outlined in IS 12,269 - 2013'; p.4, Mix design: 'NS was added as an additive material at various percentages of 1%, 2%, and 3% (M1-M3), while MK was used as a replacement material at percentages of 5%, 12.50%, and 20% (M4-M6)'; Tabela 5: OPC 0,82 kgCO2/kg.",
+    "nota": "O factor do OPC na ACV (0,82 kg CO2/kg, Tabela 5) vem da ref. 81, nao do cimento ensaiado."
+   },
+   {
+    "sheet_row": 499,
+    "cimento_designacao": "Ordinary Portland Cement (OPC) of grade 53",
+    "norma_cimento": "IS 12269-2013",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "20 % do OPC substituido por metacaulim",
+    "citacao": "p.3, Materials: 'Ordinary Portland Cement (OPC) of grade 53 was the cement used. It was acquired from Chettinad Cement Co. Ltd in India and fulfilled the requirements outlined in IS 12,269 - 2013'; p.4, Mix design: 'NS was added as an additive material at various percentages of 1%, 2%, and 3% (M1-M3), while MK was used as a replacement material at percentages of 5%, 12.50%, and 20% (M4-M6)'; Tabela 5: OPC 0,82 kgCO2/kg.",
+    "nota": "O factor do OPC na ACV (0,82 kg CO2/kg, Tabela 5) vem da ref. 81, nao do cimento ensaiado."
+   },
+   {
+    "sheet_row": 500,
+    "cimento_designacao": "Ordinary Portland Cement (OPC) of grade 53",
+    "norma_cimento": "IS 12269-2013",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "12,5 % do OPC substituido por metacaulim + 2 % de nano-silica em adicao",
+    "citacao": "p.3, Materials: 'Ordinary Portland Cement (OPC) of grade 53 was the cement used. It was acquired from Chettinad Cement Co. Ltd in India and fulfilled the requirements outlined in IS 12,269 - 2013'; p.4, Mix design: 'NS was added as an additive material at various percentages of 1%, 2%, and 3% (M1-M3), while MK was used as a replacement material at percentages of 5%, 12.50%, and 20% (M4-M6)'; Tabela 5: OPC 0,82 kgCO2/kg.",
+    "nota": "O factor do OPC na ACV (0,82 kg CO2/kg, Tabela 5) vem da ref. 81, nao do cimento ensaiado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (90 mil caracteres) extraido e pesquisado na totalidade; Materials, Mix design (Tabela 2) e Environmental impact assessment (Tabela 5) lidos. A Tabela 5 tem incoerencias menores (NS = 0 em M1) sem relacao com o cimento."
+ }
+]

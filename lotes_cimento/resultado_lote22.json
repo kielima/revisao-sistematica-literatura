@@ -1,0 +1,396 @@
+[
+ {
+  "row_id": 4381,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (14 p.) lido pelo read_file_content, sem truncamento. O artigo nunca nomeia o cimento: so 'C30 concrete' com factor 321,3 kg CO2eq/m3 da base chinesa de ACV [37].",
+  "pares": [
+   {
+    "sheet_row": 1328,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, Tabela 4: 'C30 concrete 2.34 m3 321.3 kg CO2eq/m3'; p.4: 'the carbon emission coefficients are all from the basic database of China's LCA [37]'.",
+    "nota": "Cimento nao mencionado em nenhuma parte do artigo; o CO2 do betao C30 e factor generico da base de dados chinesa (Gong et al. 2006), sem composicao do traco."
+   }
+  ]
+ },
+ {
+  "row_id": 4389,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (31 p., ~93 mil caracteres) extraido e pesquisado na totalidade; a palavra 'cement' nao ocorre no artigo.",
+  "pares": [
+   {
+    "sheet_row": 1329,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.11, Tabela 6: 'Concrete (32 MPa) m3 2776.00 412.00 [50]'; p.10: dados do EPiC database e AusLCI.",
+    "nota": "Cimento nao mencionado; o CO2 do betao 32 MPa e factor generico da base AusLCI/EPiC (Australia), sem traco."
+   }
+  ]
+ },
+ {
+  "row_id": 4408,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (23 p., ~82 mil caracteres) extraido e pesquisado na totalidade. Cimento generico 'Cement' sem designacao nem norma.",
+  "pares": [
+   {
+    "sheet_row": 1331,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.11, Tabela 3 'Mix design of the SCCs (kg/m3) [53]': M1 Cement 500, CBWP 0.",
+    "nota": "Tabela 3 (p.11) so diz 'Cement' (sem tipo, classe ou norma); os tracos sao de Silva et al. 2019 [53] (dados secundarios: o artigo e uma revisao com ACV propria em OpenLCA/CML-IA). A unica mencao a 'ordinary Portland cement' (p.9) refere-se a outro estudo (Silva et al. 2021 [63])."
+   },
+   {
+    "sheet_row": 1332,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.6: 'SCC with five different CBWP contents (0%, 12.5%, 25%, 37.5% and 50%) as a volumetric replacement for cement from [53]'; Tabela 3: M2 Cement 437.5, CBWP 53.2.",
+    "nota": "Tabela 3 (p.11) so diz 'Cement' (sem tipo, classe ou norma); os tracos sao de Silva et al. 2019 [53] (dados secundarios: o artigo e uma revisao com ACV propria em OpenLCA/CML-IA). A unica mencao a 'ordinary Portland cement' (p.9) refere-se a outro estudo (Silva et al. 2021 [63]). Mistura M2: 12,5% de po de residuo de tijolo ceramico (CBWP) em substituicao volumetrica do cimento."
+   },
+   {
+    "sheet_row": 1333,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.6: 'SCC with five different CBWP contents (0%, 12.5%, 25%, 37.5% and 50%) as a volumetric replacement for cement from [53]'; Tabela 3: M3 Cement 375, CBWP 106.4.",
+    "nota": "Tabela 3 (p.11) so diz 'Cement' (sem tipo, classe ou norma); os tracos sao de Silva et al. 2019 [53] (dados secundarios: o artigo e uma revisao com ACV propria em OpenLCA/CML-IA). A unica mencao a 'ordinary Portland cement' (p.9) refere-se a outro estudo (Silva et al. 2021 [63]). Mistura M3: 25% de po de residuo de tijolo ceramico (CBWP) em substituicao volumetrica do cimento."
+   },
+   {
+    "sheet_row": 1334,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.6: 'SCC with five different CBWP contents (0%, 12.5%, 25%, 37.5% and 50%) as a volumetric replacement for cement from [53]'; Tabela 3: M4 Cement 312.5, CBWP 159.6.",
+    "nota": "Tabela 3 (p.11) so diz 'Cement' (sem tipo, classe ou norma); os tracos sao de Silva et al. 2019 [53] (dados secundarios: o artigo e uma revisao com ACV propria em OpenLCA/CML-IA). A unica mencao a 'ordinary Portland cement' (p.9) refere-se a outro estudo (Silva et al. 2021 [63]). Mistura M4: 37,5% de po de residuo de tijolo ceramico (CBWP) em substituicao volumetrica do cimento."
+   },
+   {
+    "sheet_row": 1335,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.6: 'SCC with five different CBWP contents (0%, 12.5%, 25%, 37.5% and 50%) as a volumetric replacement for cement from [53]'; Tabela 3: M5 Cement 250, CBWP 212.8.",
+    "nota": "Tabela 3 (p.11) so diz 'Cement' (sem tipo, classe ou norma); os tracos sao de Silva et al. 2019 [53] (dados secundarios: o artigo e uma revisao com ACV propria em OpenLCA/CML-IA). A unica mencao a 'ordinary Portland cement' (p.9) refere-se a outro estudo (Silva et al. 2021 [63]). Mistura M5: 50% de po de residuo de tijolo ceramico (CBWP) em substituicao volumetrica do cimento."
+   }
+  ]
+ },
+ {
+  "row_id": 4416,
+  "texto_completo_lido": true,
+  "notas": "PDF descarregado (28 p.) e texto integral extraido com pymupdf (o read_file_content devolveu vazio). Para os betoes nao ha tipo de cimento.",
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 20 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   },
+   {
+    "sheet_row": 1337,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 25 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   },
+   {
+    "sheet_row": 1338,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 30 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   },
+   {
+    "sheet_row": 1339,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 37 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   },
+   {
+    "sheet_row": 1340,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 40 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   },
+   {
+    "sheet_row": 1341,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 45 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   },
+   {
+    "sheet_row": 1342,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 50 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   },
+   {
+    "sheet_row": 1343,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 55 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   },
+   {
+    "sheet_row": 1344,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 60 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   },
+   {
+    "sheet_row": 1345,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, sec.2.1.3 e Tabela 3: 'embodied GWP (modules A1-A3) for ready-mixed concretes ... resistance class (based on EN 1992-1-1:2004)'; p.15-16, Fig.5 (classe 75 MPa).",
+    "nota": "Pares de betao pronto compilados de 79 EPDs europeias/internacionais (Tabela 3, p.6), agrupados so por resistencia cubica (EN 1992-1-1); o artigo nao regista o tipo de cimento dos betoes. Os tipos CEM I/II/III/IV (EN 197-1) da Tabela 4 (p.7) referem-se ao conjunto separado de 64 EPDs de cimento, nao aos betoes."
+   }
+  ]
+ },
+ {
+  "row_id": 4418,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (~77 mil caracteres) lido e pesquisado; 'cement' so aparece como material generico da Tabela 2 e em referencias.",
+  "pares": [
+   {
+    "sheet_row": 570,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, sec.3.1.2, Tabela 2: 'C30 Reinforced Concrete kgCO2eq/m3 295' (dados genericos da norma GB/T 51366-2019 [52]); 'Cement 735 kgCO2eq/t' listado a parte.",
+    "nota": "Factor generico de 'C30 Reinforced Concrete' da GB/T 51366-2019 (norma de calculo de carbono, nao de cimento); sem tipo de cimento nem traco. O valor inclui armadura (betao armado)."
+   }
+  ]
+ },
+ {
+  "row_id": 4431,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (22 p., ~72 mil caracteres) extraido e pesquisado na totalidade.",
+  "pares": [
+   {
+    "sheet_row": 1346,
+    "cimento_designacao": "ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, sec.3.1.1: 'According to the requirements of the construction drawings and the same-concrete data of the Ecoinvent database, ordinary Portland cement was selected'; p.8 Tabela 1: C50 705 kg/m3; p.15-16, Tabela 6 (cimento e cinza volante por classe).",
+    "nota": "O artigo diz que, segundo os desenhos e os dados da Ecoinvent, foi seleccionado 'ordinary Portland cement', sem classe nem norma. A Tabela 1 (p.8) da factores para P.I 52.5, P.O 42.5 e P.S 32.5 (designacoes chinesas, sem norma citada), mas o betao C50/C40/C30 usa factores proprios (705/608/565) e nao diz qual destes cimentos entra. O traco segue a proporcao da Ecoinvent e o inventario (Tabela 6, p.16) inclui cinza volante (C50 cimento 1337 / cinza 315; C40 213/54; C30 560/124), pelo que o ligante e cimento + cinza volante; a cinza nao e variavel do estudo."
+   },
+   {
+    "sheet_row": 1347,
+    "cimento_designacao": "ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, sec.3.1.1: 'According to the requirements of the construction drawings and the same-concrete data of the Ecoinvent database, ordinary Portland cement was selected'; p.8 Tabela 1: C40 608 kg/m3; p.15-16, Tabela 6 (cimento e cinza volante por classe).",
+    "nota": "O artigo diz que, segundo os desenhos e os dados da Ecoinvent, foi seleccionado 'ordinary Portland cement', sem classe nem norma. A Tabela 1 (p.8) da factores para P.I 52.5, P.O 42.5 e P.S 32.5 (designacoes chinesas, sem norma citada), mas o betao C50/C40/C30 usa factores proprios (705/608/565) e nao diz qual destes cimentos entra. O traco segue a proporcao da Ecoinvent e o inventario (Tabela 6, p.16) inclui cinza volante (C50 cimento 1337 / cinza 315; C40 213/54; C30 560/124), pelo que o ligante e cimento + cinza volante; a cinza nao e variavel do estudo."
+   },
+   {
+    "sheet_row": 1348,
+    "cimento_designacao": "ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, sec.3.1.1: 'According to the requirements of the construction drawings and the same-concrete data of the Ecoinvent database, ordinary Portland cement was selected'; p.8 Tabela 1: C30 565 kg/m3; p.15-16, Tabela 6 (cimento e cinza volante por classe).",
+    "nota": "O artigo diz que, segundo os desenhos e os dados da Ecoinvent, foi seleccionado 'ordinary Portland cement', sem classe nem norma. A Tabela 1 (p.8) da factores para P.I 52.5, P.O 42.5 e P.S 32.5 (designacoes chinesas, sem norma citada), mas o betao C50/C40/C30 usa factores proprios (705/608/565) e nao diz qual destes cimentos entra. O traco segue a proporcao da Ecoinvent e o inventario (Tabela 6, p.16) inclui cinza volante (C50 cimento 1337 / cinza 315; C40 213/54; C30 560/124), pelo que o ligante e cimento + cinza volante; a cinza nao e variavel do estudo."
+   }
+  ]
+ },
+ {
+  "row_id": 4437,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (20 p., ~72 mil caracteres) extraido e pesquisado na totalidade.",
+  "pares": [
+   {
+    "sheet_row": 1349,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.4.3.2 (4) 'Concrete CEFs': 'this paper used seven strength grades of concrete in the reference (C20 ... C60)'; Tabela 3: C20 Concrete m3 306.192.",
+    "nota": "Os factores de CO2 do betao C20-C60 (Tabela 3, p.11) sao calculados a partir dos consumos de materiais da ref. [58] (Yu et al. 2011, betao pronto), sem indicar o cimento de cada classe. O artigo da factores para 'P.S.32.5, P.O. 42.5, and P.I.52.5' (p.10; 'Ordinary Cement Grade 32.5/42.5/52.5' na Tabela 3), sem norma citada, e o inventario da obra (Tabela 8, p.16) lista cimento comum 32.5 e 42.5 e po de escoria para betao de alto desempenho, mas nenhum e atribuido a uma classe de betao."
+   },
+   {
+    "sheet_row": 1350,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.4.3.2 (4) 'Concrete CEFs': 'this paper used seven strength grades of concrete in the reference (C20 ... C60)'; Tabela 3: C25 Concrete m3 336.68.",
+    "nota": "Os factores de CO2 do betao C20-C60 (Tabela 3, p.11) sao calculados a partir dos consumos de materiais da ref. [58] (Yu et al. 2011, betao pronto), sem indicar o cimento de cada classe. O artigo da factores para 'P.S.32.5, P.O. 42.5, and P.I.52.5' (p.10; 'Ordinary Cement Grade 32.5/42.5/52.5' na Tabela 3), sem norma citada, e o inventario da obra (Tabela 8, p.16) lista cimento comum 32.5 e 42.5 e po de escoria para betao de alto desempenho, mas nenhum e atribuido a uma classe de betao."
+   },
+   {
+    "sheet_row": 1351,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.4.3.2 (4) 'Concrete CEFs': 'this paper used seven strength grades of concrete in the reference (C20 ... C60)'; Tabela 3: C30 Concrete m3 371.654.",
+    "nota": "Os factores de CO2 do betao C20-C60 (Tabela 3, p.11) sao calculados a partir dos consumos de materiais da ref. [58] (Yu et al. 2011, betao pronto), sem indicar o cimento de cada classe. O artigo da factores para 'P.S.32.5, P.O. 42.5, and P.I.52.5' (p.10; 'Ordinary Cement Grade 32.5/42.5/52.5' na Tabela 3), sem norma citada, e o inventario da obra (Tabela 8, p.16) lista cimento comum 32.5 e 42.5 e po de escoria para betao de alto desempenho, mas nenhum e atribuido a uma classe de betao."
+   },
+   {
+    "sheet_row": 1352,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.4.3.2 (4) 'Concrete CEFs': 'this paper used seven strength grades of concrete in the reference (C20 ... C60)'; Tabela 3: C35 Concrete m3 389.568.",
+    "nota": "Os factores de CO2 do betao C20-C60 (Tabela 3, p.11) sao calculados a partir dos consumos de materiais da ref. [58] (Yu et al. 2011, betao pronto), sem indicar o cimento de cada classe. O artigo da factores para 'P.S.32.5, P.O. 42.5, and P.I.52.5' (p.10; 'Ordinary Cement Grade 32.5/42.5/52.5' na Tabela 3), sem norma citada, e o inventario da obra (Tabela 8, p.16) lista cimento comum 32.5 e 42.5 e po de escoria para betao de alto desempenho, mas nenhum e atribuido a uma classe de betao."
+   },
+   {
+    "sheet_row": 1353,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.4.3.2 (4) 'Concrete CEFs': 'this paper used seven strength grades of concrete in the reference (C20 ... C60)'; Tabela 3: C40 Concrete m3 419.599.",
+    "nota": "Os factores de CO2 do betao C20-C60 (Tabela 3, p.11) sao calculados a partir dos consumos de materiais da ref. [58] (Yu et al. 2011, betao pronto), sem indicar o cimento de cada classe. O artigo da factores para 'P.S.32.5, P.O. 42.5, and P.I.52.5' (p.10; 'Ordinary Cement Grade 32.5/42.5/52.5' na Tabela 3), sem norma citada, e o inventario da obra (Tabela 8, p.16) lista cimento comum 32.5 e 42.5 e po de escoria para betao de alto desempenho, mas nenhum e atribuido a uma classe de betao."
+   },
+   {
+    "sheet_row": 1354,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.4.3.2 (4) 'Concrete CEFs': 'this paper used seven strength grades of concrete in the reference (C20 ... C60)'; Tabela 3: C50 Concrete m3 502.819.",
+    "nota": "Os factores de CO2 do betao C20-C60 (Tabela 3, p.11) sao calculados a partir dos consumos de materiais da ref. [58] (Yu et al. 2011, betao pronto), sem indicar o cimento de cada classe. O artigo da factores para 'P.S.32.5, P.O. 42.5, and P.I.52.5' (p.10; 'Ordinary Cement Grade 32.5/42.5/52.5' na Tabela 3), sem norma citada, e o inventario da obra (Tabela 8, p.16) lista cimento comum 32.5 e 42.5 e po de escoria para betao de alto desempenho, mas nenhum e atribuido a uma classe de betao."
+   },
+   {
+    "sheet_row": 1355,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10-11, sec.4.3.2 (4) 'Concrete CEFs': 'this paper used seven strength grades of concrete in the reference (C20 ... C60)'; Tabela 3: C60 Concrete m3 549.342.",
+    "nota": "Os factores de CO2 do betao C20-C60 (Tabela 3, p.11) sao calculados a partir dos consumos de materiais da ref. [58] (Yu et al. 2011, betao pronto), sem indicar o cimento de cada classe. O artigo da factores para 'P.S.32.5, P.O. 42.5, and P.I.52.5' (p.10; 'Ordinary Cement Grade 32.5/42.5/52.5' na Tabela 3), sem norma citada, e o inventario da obra (Tabela 8, p.16) lista cimento comum 32.5 e 42.5 e po de escoria para betao de alto desempenho, mas nenhum e atribuido a uma classe de betao."
+   }
+  ]
+ },
+ {
+  "row_id": 4439,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (15 p., ~54 mil caracteres) extraido e pesquisado na totalidade; 'cement'/'cimento' nao ocorre.",
+  "pares": [
+   {
+    "sheet_row": 1356,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Tabela 2 'Unit costs and emissions of each material': Concrete 30 MPa, Emission A = 157.65 kgCO2/m3.",
+    "nota": "O artigo nao menciona cimento; os CO2 do betao (Tabela 2) sao de Santoro e Kripka [27] (cenario A) e [18] (cenario B, SimaPro) para uma cidade do sul do Brasil, sem traco nem tipo de cimento."
+   },
+   {
+    "sheet_row": 1357,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Tabela 2 'Unit costs and emissions of each material': Concrete 30 MPa, Emission B = 348.76 kgCO2/m3.",
+    "nota": "O artigo nao menciona cimento; os CO2 do betao (Tabela 2) sao de Santoro e Kripka [27] (cenario A) e [18] (cenario B, SimaPro) para uma cidade do sul do Brasil, sem traco nem tipo de cimento."
+   },
+   {
+    "sheet_row": 1358,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Tabela 2 'Unit costs and emissions of each material': Concrete 45 MPa, Emission A = 194.7 kgCO2/m3.",
+    "nota": "O artigo nao menciona cimento; os CO2 do betao (Tabela 2) sao de Santoro e Kripka [27] (cenario A) e [18] (cenario B, SimaPro) para uma cidade do sul do Brasil, sem traco nem tipo de cimento."
+   },
+   {
+    "sheet_row": 1359,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Tabela 2 'Unit costs and emissions of each material': Concrete 45 MPa, Emission B = 381.72 kgCO2/m3.",
+    "nota": "O artigo nao menciona cimento; os CO2 do betao (Tabela 2) sao de Santoro e Kripka [27] (cenario A) e [18] (cenario B, SimaPro) para uma cidade do sul do Brasil, sem traco nem tipo de cimento."
+   },
+   {
+    "sheet_row": 1360,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Tabela 2 'Unit costs and emissions of each material': Concrete 50 MPa, Emission A = 225.78 kgCO2/m3.",
+    "nota": "O artigo nao menciona cimento; os CO2 do betao (Tabela 2) sao de Santoro e Kripka [27] (cenario A) e [18] (cenario B, SimaPro) para uma cidade do sul do Brasil, sem traco nem tipo de cimento."
+   },
+   {
+    "sheet_row": 1361,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Tabela 2 'Unit costs and emissions of each material': Concrete 50 MPa, Emission B = 508.63 kgCO2/m3.",
+    "nota": "O artigo nao menciona cimento; os CO2 do betao (Tabela 2) sao de Santoro e Kripka [27] (cenario A) e [18] (cenario B, SimaPro) para uma cidade do sul do Brasil, sem traco nem tipo de cimento."
+   }
+  ]
+ },
+ {
+  "row_id": 4441,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (~57 mil caracteres) extraido e pesquisado na totalidade.",
+  "pares": [
+   {
+    "sheet_row": 1362,
+    "cimento_designacao": "Type I OPC (Type I cement)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1.1: 'Given that Type I cement is the most widely specified cement for pervious concrete applications, only Type I cement pervious concrete mixtures are considered ... Type I classification of OPC as specified by the ... (ASTM) C150 Standard [27]'; Tabela 1.",
+    "nota": "Misturas teoricas (nao fabricadas); CO2 calculado no Athena IE4B (v5.2) com o traco definido pelo utilizador para a regiao EUA. A Tabela 1 da composicao media de oxidos e de Bogue do Type I (SiO2 20,5; CaO 63,9; C3S 54; C2S 18; C3A 10; C4AF 8 %), nao teor de clinquer/adicoes."
+   }
+  ]
+ },
+ {
+  "row_id": 4450,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (17 p., ~59 mil caracteres) extraido e pesquisado na totalidade.",
+  "pares": [
+   {
+    "sheet_row": 1364,
+    "cimento_designacao": "OPC (ordinary Portland cement)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, sec.2.3, Tabela 2 'Differences between geo concrete and conventional concrete': 'OPC - 600' (kg/m3) no betao convencional; Tabela 4: 'concrete made of ordinary Portland cement'.",
+    "nota": "Sem classe nem norma; inventario da ACV tirado da base Ecoinvent no SimaPro ('Equinont 12 databases'), processo de cimento nao identificado. Traco de ~80 MPa citado de [29,36]."
+   }
+  ]
+ }
+]
