@@ -1,0 +1,369 @@
+[
+ {
+  "row_id": 3944,
+  "pares": [
+   {
+    "sheet_row": 547,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.9 Tabela 1 ('C20 commercial concrete (no pumping)', 'C30 commercial concrete (pumping)'); p.10: 'the carbon emission coefficient of C20 concrete is 239.19 kgCO2-eq/m3, ... C30 is 346.95'",
+    "nota": "Betao comercial (pronto) do inventario BIM; o artigo nao diz o tipo de cimento do betao. Coeficientes de emissao da compilacao CNKI + GB/T 51366-2019 (180 CECs, material suplementar). 'Portland cement' aparece so como material separado (542,61 t na Tabela 1, factor 0,54 kgCO2/kg), nao associado ao betao."
+   },
+   {
+    "sheet_row": 548,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.9 Tabela 1 ('C20 commercial concrete (no pumping)', 'C30 commercial concrete (pumping)'); p.10: 'the carbon emission coefficient of C20 concrete is 239.19 kgCO2-eq/m3, ... C30 is 346.95'",
+    "nota": "Betao comercial (pronto) do inventario BIM; o artigo nao diz o tipo de cimento do betao. Coeficientes de emissao da compilacao CNKI + GB/T 51366-2019 (180 CECs, material suplementar). 'Portland cement' aparece so como material separado (542,61 t na Tabela 1, factor 0,54 kgCO2/kg), nao associado ao betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Edificio hospitalar (Chuzhou). Nenhuma designacao de cimento para o betao C20/C30."
+ },
+ {
+  "row_id": 3947,
+  "pares": [
+   {
+    "sheet_row": 1147,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 1 (factor 'Portland cement (PC) 9.49x10-01 kg CO2-eq/kg'); Tabela 4 'M 1-M 17 Portland cement (PC) 0%'; Apendice 1, Tabela A1.1: Meddah et al [32] 'Cement ASTM Type I.'; Meddah et al [33]-[35] 'CEM I 42.5 N with a density of 3140 kg/m3 and fineness of 381 m2/kg'",
+    "nota": "Misturas teoricas (modelo de Abrams calibrado com dados experimentais de Meddah et al. [32]-[35]); a mistura so-PC de 40 MPa com agregado variavel (Fig.3) vem do modelo M1-M17, que junta M1-M12 de [32] (ASTM Type I) e M13-M17 de [33] (CEM I 42.5 N) - dois cimentos de normas diferentes no mesmo grupo. Na ACV o cimento e generico 'Portland cement (PC)'. ASTM C150 so citada em termos gerais na discussao ('different types specified in ASTM standards' [47]), nao como norma do cimento usado."
+   },
+   {
+    "sheet_row": 1148,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 1 (factor 'Portland cement (PC) 9.49x10-01 kg CO2-eq/kg'); Tabela 4 'M 1-M 17 Portland cement (PC) 0%'; Apendice 1, Tabela A1.1: Meddah et al [32] 'Cement ASTM Type I.'; Meddah et al [33]-[35] 'CEM I 42.5 N with a density of 3140 kg/m3 and fineness of 381 m2/kg'",
+    "nota": "Misturas teoricas (modelo de Abrams calibrado com dados experimentais de Meddah et al. [32]-[35]); a mistura so-PC de 40 MPa com agregado variavel (Fig.3) vem do modelo M1-M17, que junta M1-M12 de [32] (ASTM Type I) e M13-M17 de [33] (CEM I 42.5 N) - dois cimentos de normas diferentes no mesmo grupo. Na ACV o cimento e generico 'Portland cement (PC)'. ASTM C150 so citada em termos gerais na discussao ('different types specified in ASTM standards' [47]), nao como norma do cimento usado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Estudo de modelacao (UC Davis); cimento das fontes experimentais: ASTM Type I [32] e CEM I 42.5 N [33-35]."
+ },
+ {
+  "row_id": 3958,
+  "pares": [
+   {
+    "sheet_row": 1150,
+    "cimento_designacao": "CEM 1 Ordinary Portland Cement",
+    "norma_cimento": "BS EN 197",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "94% clinquer, 5% gesso, 1% constituintes adicionais minoritarios",
+    "citacao": "p.~995-996 (Antipode 2024): 'We therefore assumed that all blast walls were produced using CEM 1 Ordinary Portland Cement, comprising 94% clinker, 5% gypsum, and 1% minor additional constituents (BS EN 197)'; Tabela 1 'CEM 1 Ordinary Portland Cement 224 kg, 0.912 kg CO2e/kg'",
+    "nota": "Cimento ASSUMIDO pelos autores (a especificacao USDoD Section 03300 so diz 'Ordinary Portland Cement'); escrito 'CEM 1' (algarismo arabe). O par 253,44 = total da Tabela 1 (408,44) menos a armadura (155,00)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": null
+ },
+ {
+  "row_id": 3992,
+  "pares": [
+   {
+    "sheet_row": 550,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 2 'Compressive strength of cellular concrete (fc) 20.3 MPa'; Tabela 6 'Cellular lightweight concrete; 20.3 MPa 0.221 tons CO2 e.q/m3' (fonte [48])",
+    "nota": "Betao celular leve 'premixed' (pronto); o artigo nao indica cimento, traco nem norma de cimento - o factor de emissao vem da referencia [48]."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "fileId do lote era null; encontrado no Drive como 1iXfYSyq3_psZZa9I_2GbBzsAXE58O_m7."
+ },
+ {
+  "row_id": 3993,
+  "pares": [
+   {
+    "sheet_row": 1151,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2 Sec.2.1: 'OPC was used in all mixtures, and its production process was considered independently'; Tabela 3: 'Cement 0.745 kg CO2-e/kg, Mexico, 2004 [15]'",
+    "nota": "So 'OPC', sem tipo nem norma; factor de emissao media nacional do Mexico (INE 2004), nao do cimento ensaiado."
+   },
+   {
+    "sheet_row": 1156,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2 Sec.2.1: 'OPC was used in all mixtures, and its production process was considered independently'; Tabela 3: 'Cement 0.745 kg CO2-e/kg, Mexico, 2004 [15]'",
+    "nota": "So 'OPC', sem tipo nem norma; factor de emissao media nacional do Mexico (INE 2004), nao do cimento ensaiado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": null
+ },
+ {
+  "row_id": 4012,
+  "pares": [
+   {
+    "sheet_row": 1162,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 2 (p.9): 'C20 concrete m3 868.71 201.38 ... C50 concrete m3 13.59 510.94'; Sec.2.2.1: factores do Chinese Core Life Cycle Database (CLCD) [35]",
+    "nota": "Factores de betao por classe da base CLCD; o artigo nao diz o cimento do betao. 'Cement' aparece como material separado (622,3 t, 719,62 kg/t) e '32.5 cement' so na tabela de manutencao (alargamento de seccao), nao ligado as classes de betao."
+   },
+   {
+    "sheet_row": 1880,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 2 (p.9): 'C20 concrete m3 868.71 201.38 ... C50 concrete m3 13.59 510.94'; Sec.2.2.1: factores do Chinese Core Life Cycle Database (CLCD) [35]",
+    "nota": "Factores de betao por classe da base CLCD; o artigo nao diz o cimento do betao. 'Cement' aparece como material separado (622,3 t, 719,62 kg/t) e '32.5 cement' so na tabela de manutencao (alargamento de seccao), nao ligado as classes de betao."
+   },
+   {
+    "sheet_row": 1881,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 2 (p.9): 'C20 concrete m3 868.71 201.38 ... C50 concrete m3 13.59 510.94'; Sec.2.2.1: factores do Chinese Core Life Cycle Database (CLCD) [35]",
+    "nota": "Factores de betao por classe da base CLCD; o artigo nao diz o cimento do betao. 'Cement' aparece como material separado (622,3 t, 719,62 kg/t) e '32.5 cement' so na tabela de manutencao (alargamento de seccao), nao ligado as classes de betao."
+   },
+   {
+    "sheet_row": 1882,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 2 (p.9): 'C20 concrete m3 868.71 201.38 ... C50 concrete m3 13.59 510.94'; Sec.2.2.1: factores do Chinese Core Life Cycle Database (CLCD) [35]",
+    "nota": "Factores de betao por classe da base CLCD; o artigo nao diz o cimento do betao. 'Cement' aparece como material separado (622,3 t, 719,62 kg/t) e '32.5 cement' so na tabela de manutencao (alargamento de seccao), nao ligado as classes de betao."
+   },
+   {
+    "sheet_row": 1883,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 2 (p.9): 'C20 concrete m3 868.71 201.38 ... C50 concrete m3 13.59 510.94'; Sec.2.2.1: factores do Chinese Core Life Cycle Database (CLCD) [35]",
+    "nota": "Factores de betao por classe da base CLCD; o artigo nao diz o cimento do betao. 'Cement' aparece como material separado (622,3 t, 719,62 kg/t) e '32.5 cement' so na tabela de manutencao (alargamento de seccao), nao ligado as classes de betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Monocarril de Chongqing; nenhum cimento identificado para as classes C20-C50."
+ },
+ {
+  "row_id": 4028,
+  "pares": [
+   {
+    "sheet_row": 1165,
+    "cimento_designacao": "cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "escoria = 70% do ligante (Mix4: 170,05 kg cimento + 396,78 kg escoria/m3, Tabela 5)",
+    "citacao": "Tabela 1 'Cement (kg/kg) 0.931, Slag 0.0265' (Yang et al. 2015); Tabela 5 'Mix4: design strength of 55 MPa 174.48 170.05 396.78 ...'; Introducao: 'HVS concrete, which contains about 70% slag in the binder'",
+    "nota": "Cimento so designado como 'cement' (densidade 3150 kg/m3), sem tipo nem norma; misturas optimizadas por algoritmo genetico (modelo, nao ensaio)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": null
+ },
+ {
+  "row_id": 4033,
+  "pares": [
+   {
+    "sheet_row": 553,
+    "cimento_designacao": "PO52.5 ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 'Raw materials': 'The raw materials used for producing the cement mixtures in this study include PO52.5 ordinary Portland cement, dyeing sludge, papermaking sludge (PS)...'; Tabela 2 (proporcoes, % do ligante)",
+    "nota": "Nenhuma norma citada para o cimento (GB/T 8077 so para fluidez). Factor de CO2 do cimento da base GaBi e literatura. Argamassa (s/b 2,0)."
+   },
+   {
+    "sheet_row": 554,
+    "cimento_designacao": "PO52.5 ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "D5-P5: OPC 90% + lama de tingimento calcinada (DS) 5% + lama de papel (PS) 5% (Tabela 2)",
+    "citacao": "p.3 'Raw materials': 'The raw materials used for producing the cement mixtures in this study include PO52.5 ordinary Portland cement, dyeing sludge, papermaking sludge (PS)...'; Tabela 2 (proporcoes, % do ligante)",
+    "nota": "Nenhuma norma citada para o cimento (GB/T 8077 so para fluidez). Factor de CO2 do cimento da base GaBi e literatura. Argamassa (s/b 2,0)."
+   },
+   {
+    "sheet_row": 2018,
+    "cimento_designacao": "PO52.5 ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "D10-P5: OPC 85% + lama de tingimento calcinada (DS) 10% + lama de papel (PS) 5% (Tabela 2)",
+    "citacao": "p.3 'Raw materials': 'The raw materials used for producing the cement mixtures in this study include PO52.5 ordinary Portland cement, dyeing sludge, papermaking sludge (PS)...'; Tabela 2 (proporcoes, % do ligante)",
+    "nota": "Nenhuma norma citada para o cimento (GB/T 8077 so para fluidez). Factor de CO2 do cimento da base GaBi e literatura. Argamassa (s/b 2,0)."
+   },
+   {
+    "sheet_row": 2019,
+    "cimento_designacao": "PO52.5 ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "D15-P5: OPC 80% + lama de tingimento calcinada (DS) 15% + lama de papel (PS) 5% (Tabela 2)",
+    "citacao": "p.3 'Raw materials': 'The raw materials used for producing the cement mixtures in this study include PO52.5 ordinary Portland cement, dyeing sludge, papermaking sludge (PS)...'; Tabela 2 (proporcoes, % do ligante)",
+    "nota": "Nenhuma norma citada para o cimento (GB/T 8077 so para fluidez). Factor de CO2 do cimento da base GaBi e literatura. Argamassa (s/b 2,0)."
+   },
+   {
+    "sheet_row": 2020,
+    "cimento_designacao": "PO52.5 ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "D10-P10: OPC 80% + lama de tingimento calcinada (DS) 10% + lama de papel (PS) 10% (Tabela 2)",
+    "citacao": "p.3 'Raw materials': 'The raw materials used for producing the cement mixtures in this study include PO52.5 ordinary Portland cement, dyeing sludge, papermaking sludge (PS)...'; Tabela 2 (proporcoes, % do ligante)",
+    "nota": "Nenhuma norma citada para o cimento (GB/T 8077 so para fluidez). Factor de CO2 do cimento da base GaBi e literatura. Argamassa (s/b 2,0)."
+   },
+   {
+    "sheet_row": 2021,
+    "cimento_designacao": "PO52.5 ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "D20-P10: OPC 70% + lama de tingimento calcinada (DS) 20% + lama de papel (PS) 10% (Tabela 2)",
+    "citacao": "p.3 'Raw materials': 'The raw materials used for producing the cement mixtures in this study include PO52.5 ordinary Portland cement, dyeing sludge, papermaking sludge (PS)...'; Tabela 2 (proporcoes, % do ligante)",
+    "nota": "Nenhuma norma citada para o cimento (GB/T 8077 so para fluidez). Factor de CO2 do cimento da base GaBi e literatura. Argamassa (s/b 2,0)."
+   },
+   {
+    "sheet_row": 2022,
+    "cimento_designacao": "PO52.5 ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "D10-P15: OPC 75% + lama de tingimento calcinada (DS) 10% + lama de papel (PS) 15% (Tabela 2)",
+    "citacao": "p.3 'Raw materials': 'The raw materials used for producing the cement mixtures in this study include PO52.5 ordinary Portland cement, dyeing sludge, papermaking sludge (PS)...'; Tabela 2 (proporcoes, % do ligante)",
+    "nota": "Nenhuma norma citada para o cimento (GB/T 8077 so para fluidez). Factor de CO2 do cimento da base GaBi e literatura. Argamassa (s/b 2,0)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Grafia do artigo 'PO52.5' (sem ponto mediano)."
+ },
+ {
+  "row_id": 4039,
+  "pares": [
+   {
+    "sheet_row": 1167,
+    "cimento_designacao": "CEM III/A 42.5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "escoria de alto-forno 36-65% (nome do dataset ecoinvent 'Cement, blast furnace slag 36-65%', Tabela 2)",
+    "citacao": "p.2832 Sec.2.1: 'For preparing concrete mixes, CEM III/A 42.5 R was used'; Tabela 2: 'CEM III/A 42.5 R - Cement, blast furnace slag 36-65%'",
+    "nota": "Cimento de escoria comercial; norma EN 197-1 nao citada. A composicao 36-65% e a do dataset ecoinvent, nao uma analise do cimento. Familia actual 'opc' - e cimento CEM III/A."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": null
+ },
+ {
+  "row_id": 4076,
+  "pares": [
+   {
+    "sheet_row": 1171,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 7 'Target average strength for 4000 psi (27.6 MPa) mixture (adapted from Obla [2015])': fcr' 30.8-44.2 MPa, 'Cementitious content' 265-380 kg/m3, 'Carbon footprint* 241-346 kg/m3' (*Ecoinvent v3.6)",
+    "nota": "So 'cementitious content' (materiais cimenticios totais), sem tipo de cimento nem proporcao de adicoes; misturas teoricas adaptadas de Obla 2015."
+   },
+   {
+    "sheet_row": 1172,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 7 'Target average strength for 4000 psi (27.6 MPa) mixture (adapted from Obla [2015])': fcr' 30.8-44.2 MPa, 'Cementitious content' 265-380 kg/m3, 'Carbon footprint* 241-346 kg/m3' (*Ecoinvent v3.6)",
+    "nota": "So 'cementitious content' (materiais cimenticios totais), sem tipo de cimento nem proporcao de adicoes; misturas teoricas adaptadas de Obla 2015."
+   },
+   {
+    "sheet_row": 1173,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 7 'Target average strength for 4000 psi (27.6 MPa) mixture (adapted from Obla [2015])': fcr' 30.8-44.2 MPa, 'Cementitious content' 265-380 kg/m3, 'Carbon footprint* 241-346 kg/m3' (*Ecoinvent v3.6)",
+    "nota": "So 'cementitious content' (materiais cimenticios totais), sem tipo de cimento nem proporcao de adicoes; misturas teoricas adaptadas de Obla 2015."
+   },
+   {
+    "sheet_row": 1174,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 7 'Target average strength for 4000 psi (27.6 MPa) mixture (adapted from Obla [2015])': fcr' 30.8-44.2 MPa, 'Cementitious content' 265-380 kg/m3, 'Carbon footprint* 241-346 kg/m3' (*Ecoinvent v3.6)",
+    "nota": "So 'cementitious content' (materiais cimenticios totais), sem tipo de cimento nem proporcao de adicoes; misturas teoricas adaptadas de Obla 2015."
+   },
+   {
+    "sheet_row": 1175,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 7 'Target average strength for 4000 psi (27.6 MPa) mixture (adapted from Obla [2015])': fcr' 30.8-44.2 MPa, 'Cementitious content' 265-380 kg/m3, 'Carbon footprint* 241-346 kg/m3' (*Ecoinvent v3.6)",
+    "nota": "So 'cementitious content' (materiais cimenticios totais), sem tipo de cimento nem proporcao de adicoes; misturas teoricas adaptadas de Obla 2015."
+   },
+   {
+    "sheet_row": 1176,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 7 'Target average strength for 4000 psi (27.6 MPa) mixture (adapted from Obla [2015])': fcr' 30.8-44.2 MPa, 'Cementitious content' 265-380 kg/m3, 'Carbon footprint* 241-346 kg/m3' (*Ecoinvent v3.6)",
+    "nota": "So 'cementitious content' (materiais cimenticios totais), sem tipo de cimento nem proporcao de adicoes; misturas teoricas adaptadas de Obla 2015."
+   },
+   {
+    "sheet_row": 1177,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 7 'Target average strength for 4000 psi (27.6 MPa) mixture (adapted from Obla [2015])': fcr' 30.8-44.2 MPa, 'Cementitious content' 265-380 kg/m3, 'Carbon footprint* 241-346 kg/m3' (*Ecoinvent v3.6)",
+    "nota": "So 'cementitious content' (materiais cimenticios totais), sem tipo de cimento nem proporcao de adicoes; misturas teoricas adaptadas de Obla 2015."
+   },
+   {
+    "sheet_row": 2106,
+    "cimento_designacao": "Type I/II",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "cinza volante classe F 19,9% do ligante (245,6 cimento + 61,1 cinza kg/m3)",
+    "citacao": "Tabela 3 (mistura do caso de Ohio): 'Cement, Type I/II 414.0 (245.6) 526.0 (312.1) 338.0 (200.5) 395.0 (234.4)'; 'Fly ash, Class F 103.0 (61.1) 132.0 (78.3) 85.0 (50.4) 113.0 (67.0)'; 'Slag — — 141.0 (83.6) 56.0 (33.2)'",
+    "nota": "Mistura real de fundacao com cinza volante F; familia actual 'opc' mas ha substituicao no traco. Nenhuma norma citada (ASTM C150 nao escrita)."
+   },
+   {
+    "sheet_row": 2107,
+    "cimento_designacao": "Type I/II",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "cinza volante classe F 20,1% do ligante (312,1 cimento + 78,3 cinza kg/m3)",
+    "citacao": "Tabela 3 (mistura do caso de Ohio): 'Cement, Type I/II 414.0 (245.6) 526.0 (312.1) 338.0 (200.5) 395.0 (234.4)'; 'Fly ash, Class F 103.0 (61.1) 132.0 (78.3) 85.0 (50.4) 113.0 (67.0)'; 'Slag — — 141.0 (83.6) 56.0 (33.2)'",
+    "nota": "Mistura real de pilares com cinza volante F; familia actual 'opc' mas ha substituicao no traco."
+   },
+   {
+    "sheet_row": 2108,
+    "cimento_designacao": "Type I/II",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "ternaria: cimento 200,5 + cinza F 50,4 + escoria 83,6 kg/m3 (cimento 60% do ligante)",
+    "citacao": "Tabela 3 (mistura do caso de Ohio): 'Cement, Type I/II 414.0 (245.6) 526.0 (312.1) 338.0 (200.5) 395.0 (234.4)'; 'Fly ash, Class F 103.0 (61.1) 132.0 (78.3) 85.0 (50.4) 113.0 (67.0)'; 'Slag — — 141.0 (83.6) 56.0 (33.2)'",
+    "nota": "Mistura 'reasonably designed' (projecto dos autores)."
+   },
+   {
+    "sheet_row": 2109,
+    "cimento_designacao": "Type I/II",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "ternaria: cimento 234,4 + cinza F 67,0 + escoria 33,2 kg/m3 (cimento 70% do ligante)",
+    "citacao": "Tabela 3 (mistura do caso de Ohio): 'Cement, Type I/II 414.0 (245.6) 526.0 (312.1) 338.0 (200.5) 395.0 (234.4)'; 'Fly ash, Class F 103.0 (61.1) 132.0 (78.3) 85.0 (50.4) 113.0 (67.0)'; 'Slag — — 141.0 (83.6) 56.0 (33.2)'",
+    "nota": "Mistura 'reasonably designed' (projecto dos autores)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "ACV com Ecoinvent v3.6 (GWP100). As percentagens de cinza/escoria foram calculadas por mim a partir das massas da Tabela 3."
+ }
+]

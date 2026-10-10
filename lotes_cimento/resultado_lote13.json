@@ -1,0 +1,342 @@
+[
+ {
+  "row_id": 3416,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (77.321 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 997,
+    "cimento_designacao": "Type I Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec.3.1 Materials: 'This research adopted Type I Portland cement, Class F fly ash, and RCP as binder'; sec.3.2: RCP 15-45% 'by volume of RCP and cement', 'fly ash content was fixed at 1.5 times the total mass of the RCP and cement'; Tabela 5 (mistura optima RCP 45%).",
+    "nota": "Ligante da SHCC: cimento Type I + po de betao reciclado (45% em volume de RCP+cimento) + cinza volante Classe F (1,5x a massa de RCP+cimento) - adicoes juntas no traco pelo proprio estudo. Nenhuma norma citada para o cimento ('Type I' sem ASTM escrito). Na ACV (Tabela 8) o factor e generico 'Portland cement' 0,83 kg CO2/kg de literatura."
+   },
+   {
+    "sheet_row": 998,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Tabela 7 'Mixture design of the conventional concrete (kg/m3)': Portland cement 440, River sand 700, Coarse aggregate 1050, Water 167.2, HRWR 4.4.",
+    "nota": "O betao convencional so diz 'Portland cement' (o 'Type I Portland cement' aparece para o betao de origem do RCP, sec.2.1, e para a SHCC). Na ACV, factor generico 'Portland cement' 0,83 kg CO2/kg (Tabela 8)."
+   }
+  ]
+ },
+ {
+  "row_id": 3419,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (72.526 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 1001,
+    "cimento_designacao": "ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3-4, sec.3.1.2: 'The second material considered is an ordinary Portland cement concrete mix with fine aggregate substituted with finely ground recycled coffee cups... 355.9 kg, 733.6 kg, 1100.5 kg and 210 kg of cement, sand, coarse aggregate and water'; 'This concrete mix design is based on 25 MPa concrete'.",
+    "nota": "Nenhuma norma nem tipo de cimento indicados. ACV em OpenLCA com Ecoinvent; o processo de cimento usado nao e nomeado."
+   }
+  ]
+ },
+ {
+  "row_id": 3439,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (110.551 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro. A Fig.3 (composicao em % das misturas impressas) e imagem e nao foi vista: o PDF tem 6,5 MB e o download_file_content falhou (ligacao fechada por mensagem demasiado grande); a composicao foi tirada do texto e da Tabela A.4.",
+  "pares": [
+   {
+    "sheet_row": 1006,
+    "cimento_designacao": "Cement (inventario 'Cement, Portland {US}| market for')",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, sec.3.3: 'Compared with the high-strength concrete, the normal-strength concrete has lower cement content and a higher water-to-cement ratio, and includes fly ash and coarse aggregates'; Tabela A.4: 35-MPa 3D printed concrete 2.321,1 kg, Cement 338 kg 'Cement, Portland {US}| market for'; nota: 'Masses of silica fume not included due to the material's status as a waste byproduct'.",
+    "nota": "O artigo nao designa o tipo nem a norma do cimento; a unica designacao e o processo Ecoinvent 'Cement, Portland {US}'. A mistura impressa de 35 MPa inclui cinza volante (texto) e a Tabela A.4 deixa de fora ~112 kg (2.321,1 total vs 2.209,1 listados), que serao cinza volante/silica de fumo nao inventariadas. Traco compilado da literatura (Al-Chaar 2018, Wang 2022, Chen 2021, Liu 2022), nao ensaiado pelos autores."
+   },
+   {
+    "sheet_row": 1007,
+    "cimento_designacao": "Cement (inventario 'Cement, Portland {US}| market for')",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela A.4: 78-MPa 3D printed concrete 17.898,5 g, Cement 8.500 g 'Cement, Portland {US}| market for', Sand 5.000 g, Water 2.650 g, SP 145 g, VMA 5 g, Retarder 8,5 g; nota 'Masses of silica fume not included due to the material's status as a waste byproduct'; p.7: '78-MPa 3D printed concrete... contain 47.73%... cement by weight'.",
+    "nota": "Sem tipo nem norma de cimento. Os componentes listados somam 16.308,5 g contra 17.898,5 g do total: ~1.590 g nao inventariados, coerente com a silica de fumo da nota (nao confirmado visualmente na Fig.3). Por isso 'substituicao_no_traco' com reserva; se nao houver silica de fumo nesta mistura seria 'cimento_comercial'. Mistura desenvolvida na UC Irvine, nao ensaiada neste artigo."
+   },
+   {
+    "sheet_row": 1999,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6: 'For the 35-MPa cast concrete in the 3D Cast tower, the impact indicators are determined from the 2020 Environmental Product Declaration (CalPortland Company, 2020) summarizing the LCA results for 30 ready-mix concrete mixtures from eight Southern California plants'; Tabela A.2: 'Ready-mix concrete... 35 MPa Concrete CalPortland Mix 45EF6Z'.",
+    "nota": "CO2 vem directamente da EPD da CalPortland (mistura 45EF6Z); o artigo nao diz o cimento nem a composicao do ligante (so que tem 13,48% de cimento em massa, p.7). Fig.7 compara 1 m3 desta mistura com as impressas."
+   }
+  ]
+ },
+ {
+  "row_id": 3443,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (83.070 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 1009,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Tabela 1 'Concrete 30 MPa m3 279.21'; p.3: 'the quantity of Portland cement per cubic meter of concrete (c(x)) (see Table 2); the CaO content in Portland cement (0.65)'; Tabela 2: Concrete 30 MPa c = 280 kg/m3; p.3: valores da Tabela 1 'obtained from the 2016 database of the Institute of Construction Technology of Catalonia (ITEC BEDEC, 2016)'.",
+    "nota": "Cimento citado so como factor da base de dados (ITEC BEDEC 2016) e no calculo da carbonatacao; tipo, classe e norma nao indicados. Classificado como cimento_comercial porque a Tabela 2 so lista cimento Portland como ligante, mas a composicao do betao BEDEC nao e dada."
+   },
+   {
+    "sheet_row": 1010,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Tabela 1 'Concrete 35 MPa m3 305.96'; p.3: 'the quantity of Portland cement per cubic meter of concrete (c(x)) (see Table 2); the CaO content in Portland cement (0.65)'; Tabela 2: Concrete 35 MPa c = 300 kg/m3; p.3: valores da Tabela 1 'obtained from the 2016 database of the Institute of Construction Technology of Catalonia (ITEC BEDEC, 2016)'.",
+    "nota": "Cimento citado so como factor da base de dados (ITEC BEDEC 2016) e no calculo da carbonatacao; tipo, classe e norma nao indicados. Classificado como cimento_comercial porque a Tabela 2 so lista cimento Portland como ligante, mas a composicao do betao BEDEC nao e dada."
+   },
+   {
+    "sheet_row": 1011,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Tabela 1 'Concrete 40 MPa m3 307.06'; p.3: 'the quantity of Portland cement per cubic meter of concrete (c(x)) (see Table 2); the CaO content in Portland cement (0.65)'; Tabela 2: Concrete 40 MPa c = 320 kg/m3; p.3: valores da Tabela 1 'obtained from the 2016 database of the Institute of Construction Technology of Catalonia (ITEC BEDEC, 2016)'.",
+    "nota": "Cimento citado so como factor da base de dados (ITEC BEDEC 2016) e no calculo da carbonatacao; tipo, classe e norma nao indicados. Classificado como cimento_comercial porque a Tabela 2 so lista cimento Portland como ligante, mas a composicao do betao BEDEC nao e dada."
+   },
+   {
+    "sheet_row": 1012,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Tabela 1 'Concrete 45 MPa m3 307.06'; p.3: 'the quantity of Portland cement per cubic meter of concrete (c(x)) (see Table 2); the CaO content in Portland cement (0.65)'; Tabela 2: Concrete 45 MPa c = 350 kg/m3; p.3: valores da Tabela 1 'obtained from the 2016 database of the Institute of Construction Technology of Catalonia (ITEC BEDEC, 2016)'.",
+    "nota": "Cimento citado so como factor da base de dados (ITEC BEDEC 2016) e no calculo da carbonatacao; tipo, classe e norma nao indicados. Classificado como cimento_comercial porque a Tabela 2 so lista cimento Portland como ligante, mas a composicao do betao BEDEC nao e dada."
+   }
+  ]
+ },
+ {
+  "row_id": 3456,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (87.058 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 1015,
+    "cimento_designacao": "Portland cement (inventario ecoinvent 'Cement, Portland')",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "100% Portland cement no ligante (Tabela 1); 330 kg/m3 (Tabela 2)",
+    "citacao": "p.4, sec.2.4.1 BAU: 'uses the mixing values from the study by Limbachiya et al. (2011) with mix code PC30 with 0% RCA'; 'Portland cement is transported from the cement factory in Skövde'; Tabela 1 Binder BAU '100% Portland cement'; Tabela 2 'Cement, Portland kg 330'.",
+    "nota": "Sem norma nem classe. A unica designacao normalizada no artigo e a referencia 'Cementa AB, 2022. EPD ... Portland Limestone Cement CEM II/A-LL 42,5 R Skovde', citada so a proposito do consumo de agua (p.9), nao como o cimento modelado; ACV com o processo generico ecoinvent 3.6 'Cement, Portland'. Traco de literatura (Limbachiya 2011), cenario."
+   },
+   {
+    "sheet_row": 2001,
+    "cimento_designacao": "Portland cement (inventario ecoinvent 'Cement, Portland')",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "70% Portland cement, 25% common SCMs, 5% limestone (Tabela 1); 247 kg cimento + 110 kg SCMs + 13 kg calcario (Tabela 2)",
+    "citacao": "p.5, sec.2.4.2 BP: 'mix code PCFA30... The exception is that 5% limestone and 25% common SCMs were used instead of 30% of fly ash'; Fig.2: 'In the BP scenario, Portland cement is replaced by common SCMs like fly ash, blast furnace slag, and some limestone'.",
+    "nota": "Adicoes juntas no traco pelo estudo (cenario). O 'CEM I' do lote nao aparece no artigo, que so diz 'Portland cement'. Sem norma."
+   },
+   {
+    "sheet_row": 2002,
+    "cimento_designacao": "Portland cement (inventario ecoinvent 'Cement, Portland'), em ligante LC3-50",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "LC3-50: 50% Portland cement, 30% calcined clay, 15% biomass fly ash, 5% gypsum (Tabela 1); 186 kg cimento + 112 argila calcinada + 56 cinza de biomassa + 19 gesso (Tabela 2)",
+    "citacao": "p.5, sec.2.4.3 CIRC: 'the limestone calcined clay cement LC3-50 is used to replace 50% of the Portland cement in the mixing design from Limbachiya et al. (2011)'; 'This ternary binder in this scenario is a combination of calcined clay, biomass fly ash instead of limestone, and gypsum'.",
+    "nota": "LC3 montado pelo proprio estudo a partir de componentes separados no inventario (nao e um cimento comercial ensacado); a cinza de biomassa substitui o calcario do LC3. Sem norma."
+   }
+  ]
+ },
+ {
+  "row_id": 3477,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (88.096 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 420,
+    "cimento_designacao": "General purpose cement",
+    "norma_cimento": "AS/NZS 3972",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "Portland cement clinker >92%, limestone 0-7.5%, gypsum 3-8%, clinker kiln dust 0-2.5% (Tabela 2, ficha de seguranca Independent Cement 2017)",
+    "citacao": "p.2-3, sec.3.1: 'General purpose cement was the main pozzolanic constituent material conforming with AS/NZS 3972 (AS/NZS-3972, 2010). The composition of the cement is shown in Table 2'; Tabela 3: Control cement 355.9 kg/m3.",
+    "nota": "Na ACV o cimento e modelado com o processo ecoinvent 'Cement, all types to generic market for cement, unspecified' (ref. Ecoinvent_ecoquery 2023a, Tabela 4) - factor generico, nao o GP australiano especifico."
+   }
+  ]
+ },
+ {
+  "row_id": 3493,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (85.582 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 1024,
+    "cimento_designacao": "ordinary Portland cement type CEM I 42.5R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec.2: 'Recycled Steel Fiber Reinforced Concrete (RSFRC) was produced with ordinary Portland cement type CEM I 42.5R (CEM), fly ash (FA)...'; 'ISFRC was produced with the same concrete matrix'; Tabela 1: RSFRC/ISFRC CEM 400 kg, FA 200 kg; 'A high percentage of fly ash was adopted (40% of binder volume)'.",
+    "nota": "ISFRC tem a mesma matriz da RSFRC: 400 kg CEM I + 200 kg cinza volante (40% do volume de ligante), pelo que a familia 'opc' actual nao corresponde ao ligante. Nenhuma norma citada no texto para o cimento; a EN 197-1 so aparece no titulo da referencia [42] do dataset ELCD 3.2 'Portland Cement (CEM I); CEMBUREAU production mix' usado na ACV. A ISFRC_REF (C30/37, sem cinza) nao e este par."
+   }
+  ]
+ },
+ {
+  "row_id": 3497,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (102.523 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 425,
+    "cimento_designacao": "General purpose (GP) cement (Adelaide Brighton)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, sec.2.1: 'General purpose (GP) cement (Adelaide Brighton) mixed with fly ash was used as binders'; Tabela 3: CC-25 cement 225 kg, fly ash 75 kg, TCM 300 kg.",
+    "nota": "O controlo CC-25 ja tem 25% de cinza volante no ligante (75/300), juntada no traco pelo estudo; a familia 'opc' actual nao corresponde. Nenhuma norma citada para o cimento (AS 3972 nao aparece). ACV com factores de literatura (Turner & Collins 2013)."
+   }
+  ]
+ },
+ {
+  "row_id": 3504,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (68.397 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 435,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: R PC 450, NZ 0, GGBFS 0, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura de referencia sem SCM."
+   },
+   {
+    "sheet_row": 436,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: Z5 PC 427.5, NZ 22.5, GGBFS 0, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura Z5: 5% zeolita em substituicao do PC (massa)."
+   },
+   {
+    "sheet_row": 437,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: Z10 PC 405, NZ 45, GGBFS 0, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura Z10: 10% zeolita em substituicao do PC (massa)."
+   },
+   {
+    "sheet_row": 438,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: Z15 PC 382.5, NZ 67.5, GGBFS 0, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura Z15: 15% zeolita em substituicao do PC (massa)."
+   },
+   {
+    "sheet_row": 439,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: S20 PC 360, NZ 0, GGBFS 90, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura S20: 20% GGBFS em substituicao do PC (massa)."
+   },
+   {
+    "sheet_row": 440,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: S30 PC 315, NZ 0, GGBFS 135, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura S30: 30% GGBFS em substituicao do PC (massa)."
+   },
+   {
+    "sheet_row": 441,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: S40 PC 270, NZ 0, GGBFS 180, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura S40: 40% GGBFS em substituicao do PC (massa)."
+   },
+   {
+    "sheet_row": 442,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: ZS20 PC 315, NZ 45, GGBFS 90, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura ZS20: 10% zeolita + 20% GGBFS em substituicao do PC (massa)."
+   },
+   {
+    "sheet_row": 443,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: ZS30 PC 270, NZ 45, GGBFS 135, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura ZS30: 10% zeolita + 30% GGBFS em substituicao do PC (massa)."
+   },
+   {
+    "sheet_row": 444,
+    "cimento_designacao": "Type CEM I 42.5 ordinary Portland cement",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'Type CEM I 42.5 ordinary Portland cement (PC), ground granulated blast furnace slag (GGBFS), and natural zeolite (NZ) complying with the requirements of ASTM C150 [39], ASTM C989 [40] and ASTM C618 [41], respectively'; Tabela 2: ZS40 PC 225, NZ 45, GGBFS 180, LP 150 kg/m3.",
+    "nota": "'CEM I 42.5' e notacao da EN 197-1 mas o artigo cita a ASTM C150 para o cimento - designacao e norma de sistemas diferentes. Todas as misturas levam 150 kg/m3 de po de calcario (LP) como filer, fora do ligante (W/B=0.4 sobre 450 kg). CO2 do cimento medido nas chamines da fabrica ('Cement Plant Co.', 906,23 kg CO2/t). Mistura ZS40: 10% zeolita + 40% GGBFS em substituicao do PC (massa)."
+   }
+  ]
+ },
+ {
+  "row_id": 3512,
+  "texto_completo_lido": true,
+  "notas": "Texto integral extraido pelo read_file_content (75.171 caracteres, abaixo do limite de corte conhecido ~135k) e pesquisado na totalidade; seccoes de materiais, tracos e ACV lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 1029,
+    "cimento_designacao": "ASTM type I ordinary Portland cement (OPC, supplied by Chor Kee Construction Materials Co., Ltd)",
+    "norma_cimento": "ASTM (sem numero da norma; escrito 'ASTM type I')",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'ASTM type I ordinary Portland cement (OPC, supplied by Chor Kee Construction Materials Co., Ltd) was blended with Class F fly ash (FA) and S105 ground granulated blast-furnace slag (GGBFS)'; 'DE ... was used to partially replace OPC. The replacement ratios were 10 %, 20 %, and 30 %, by the mass fraction of OPC'; Tabela 1: DE-0 OPC 640, DE 0, FA 214, GGBFS 333 kg/m3.",
+    "nota": "Mesmo a referencia DE-0 (sem diatomite) tem 214 kg de cinza volante + 333 kg de escoria juntos ao OPC no traco; a familia 'opc' actual nao corresponde ao ligante. Na ACV, OPC com factor de literatura 0,83 kg CO2/kg (Tabela 6, ref.[60]); a Tabela 2 de composicao quimica traz uma coluna SF que nao entra na Tabela 1."
+   },
+   {
+    "sheet_row": 1030,
+    "cimento_designacao": "ASTM type I ordinary Portland cement (OPC, supplied by Chor Kee Construction Materials Co., Ltd)",
+    "norma_cimento": "ASTM (sem numero da norma; escrito 'ASTM type I')",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'ASTM type I ordinary Portland cement (OPC, supplied by Chor Kee Construction Materials Co., Ltd) was blended with Class F fly ash (FA) and S105 ground granulated blast-furnace slag (GGBFS)'; 'DE ... was used to partially replace OPC. The replacement ratios were 10 %, 20 %, and 30 %, by the mass fraction of OPC'; Tabela 1: DE-10 OPC 576, DE 64, FA 214, GGBFS 333 kg/m3.",
+    "nota": "DE-10: diatomite em substituicao de parte do OPC, alem da cinza volante e da escoria. Na ACV, OPC com factor de literatura 0,83 kg CO2/kg (Tabela 6, ref.[60]); a Tabela 2 de composicao quimica traz uma coluna SF que nao entra na Tabela 1."
+   },
+   {
+    "sheet_row": 1031,
+    "cimento_designacao": "ASTM type I ordinary Portland cement (OPC, supplied by Chor Kee Construction Materials Co., Ltd)",
+    "norma_cimento": "ASTM (sem numero da norma; escrito 'ASTM type I')",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'ASTM type I ordinary Portland cement (OPC, supplied by Chor Kee Construction Materials Co., Ltd) was blended with Class F fly ash (FA) and S105 ground granulated blast-furnace slag (GGBFS)'; 'DE ... was used to partially replace OPC. The replacement ratios were 10 %, 20 %, and 30 %, by the mass fraction of OPC'; Tabela 1: DE-20 OPC 512, DE 128, FA 214, GGBFS 333 kg/m3.",
+    "nota": "DE-20: diatomite em substituicao de parte do OPC, alem da cinza volante e da escoria. Na ACV, OPC com factor de literatura 0,83 kg CO2/kg (Tabela 6, ref.[60]); a Tabela 2 de composicao quimica traz uma coluna SF que nao entra na Tabela 1."
+   },
+   {
+    "sheet_row": 1032,
+    "cimento_designacao": "ASTM type I ordinary Portland cement (OPC, supplied by Chor Kee Construction Materials Co., Ltd)",
+    "norma_cimento": "ASTM (sem numero da norma; escrito 'ASTM type I')",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec.2.1: 'ASTM type I ordinary Portland cement (OPC, supplied by Chor Kee Construction Materials Co., Ltd) was blended with Class F fly ash (FA) and S105 ground granulated blast-furnace slag (GGBFS)'; 'DE ... was used to partially replace OPC. The replacement ratios were 10 %, 20 %, and 30 %, by the mass fraction of OPC'; Tabela 1: DE-30 OPC 448, DE 192, FA 214, GGBFS 333 kg/m3.",
+    "nota": "DE-30: diatomite em substituicao de parte do OPC, alem da cinza volante e da escoria. Na ACV, OPC com factor de literatura 0,83 kg CO2/kg (Tabela 6, ref.[60]); a Tabela 2 de composicao quimica traz uma coluna SF que nao entra na Tabela 1."
+   }
+  ]
+ }
+]
