@@ -1,0 +1,198 @@
+[
+ {
+  "row_id": 3864,
+  "pares": [
+   {
+    "sheet_row": 531,
+    "cimento_designacao": "Ordinary Portland cement 53 grade (OPC 53 grade, Birla super cement)",
+    "norma_cimento": "IS 269-2015",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2 (pag. 3 do PDF), sec. 2.1 Cement: «Ordinary Portland cement of 53 Grade confirming to IS 269-2015 was used»; Tabela A1: «Type of cement: OPC 53 grade — Birla super cement»; Tabela 6: TR1 = 405 kg cimento + 70 kg cinza volante «(15% by wt. of cement)»; Apendice B: «Fly ash blended with OPC 53 grade cement is 15 %».",
+    "nota": "A mistura TR1 (0% de pond ash) leva cinza volante (70 kg/m3) junto com o OPC 53 — a cinza volante e adicao do proprio traco, em todas as misturas TR1–TR6; a pond ash substitui o agregado miudo, nao o cimento. Na ACV (Tabela 9) a cinza volante tem factor de CO2 = 0. Tabela 5 da composicao quimica do cimento apenas como faixas tipicas da literatura [14][23], nao do cimento usado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral do texto (14 pp., incl. apendices A e B)."
+ },
+ {
+  "row_id": 3870,
+  "pares": [
+   {
+    "sheet_row": 537,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "Inventario da ACV (Tabela 3, linha [D] Cement): 0,53 kg «PE: cement production, Portland» + 0,14 kg «PE: cement production, limestone» + 0,33 kg «PE: cement production, pozzolana and fly ash 36-55%» por kg de cimento (ecoinvent 3.8); Fig.4: cimentos limestone 21-35% e pozzolana/fly ash 36-55%",
+    "citacao": "p.7, sec. 2.1: «This includes three types of cement: Pozzolana and fly ash, Portland, and Limestone (Figure 4). Portland concrete is the most representative (57%); hence, this type of cement will be used as a reference for the composition of the concrete mix»; p.8: «in Peru, where Portland cement is the predominant type used»; p.11, Tabela 3 [D] Cement (inventario com tres processos ecoinvent, proporcoes 0,53/0,14/0,33 baseadas em Vazquez-Rowe et al., 2019).",
+    "nota": "Incoerencia interna: o texto diz que o cimento Portland e a referencia (so para as proporcoes do traco, 420 kg/m3), mas a ACV modela o cimento como mistura do mercado peruano (53% Portland, 14% com calcario 21-35%, 33% pozolanico/cinza volante 36-55%). Cimento citado so como factor da base de dados (ecoinvent 3.8 adaptado a electricidade do Peru); nao ha ensaio — 20 MPa (210 kg/cm2) e a resistencia minima da unidade funcional. Sem norma de cimento citada (so normas peruanas de betao [17])."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (20 pp.) e paginas 8 e 12 renderizadas (Fig.4 e Tabela 3 sao imagem)."
+ },
+ {
+  "row_id": 3872,
+  "pares": [
+   {
+    "sheet_row": 1126,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6: «EPD for C35/45 ready mixed concrete (RMC) from Velde company, as published by the EPD program operator EPD Norge (NEPD-2508-1250), was utilized»; «considering the specified mixtures (cement 15.82%, aggregates 76.89%, water 7.12%, chemicals 0.17%)»; p.9 (conclusao) cita CEM III/B (Skedsmo Betong) e CEM II (Leonhard Nilsen) para outros produtores, nao para a Velde.",
+    "nota": "O tipo de cimento da mistura de referencia (EPD Velde NEPD-2508-1250) nao e dito em lado nenhum; so a fraccao massica de cimento (15,82%). Fig.3 (vista renderizada) so mostra GWP por produtor. O valor 237,38 (Tabela 2) e GWP A1-A3 da EPD + ajustes; nao ha ensaio de resistencia (C35/45 e a classe da EPD)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (13 pp.); p.7 renderizada para confirmar a Fig.3."
+ },
+ {
+  "row_id": 3883,
+  "pares": [
+   {
+    "sheet_row": 541,
+    "cimento_designacao": "CEM I 42,5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Tabela 1 «The overview of concrete mixtures»: linha «CEM I 42,5 R [kg]» — REF 320 kg, RCP 0 kg.",
+    "nota": "CSN EN 206+A1 e citada so para a classe do betao (C20/25), nao para o cimento. Nenhuma norma de cimento citada."
+   },
+   {
+    "sheet_row": 544,
+    "cimento_designacao": "CEM I 42,5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "288 kg CEM I 42,5 R + 32 kg de po de cimento reciclado (RCP) = 10% do ligante (Tabela 1, mistura CEM)",
+    "citacao": "p.3, Tabela 1: mistura CEM — CEM I 42,5 R 288 kg, RCP 32 kg; p.2 sec. 2.1: «cement in mixtures CEM and REC CEM (-) are partly replaced by RCP»; p.6: «The recycled cement powder (RCP) was used as the partial cement replacement in two mixtures (CEM and REC CEM (-))».",
+    "nota": "O RCP (subproduto da britagem de RCD) entra com impacto zero na ACV («no environmental impacts were allocated on this material flow»). Na Tabela 1 os cabecalhos das colunas estao desalinhados no texto extraido; a atribuicao 288/32 a mistura CEM confirma-se pela ordem das colunas (REF, OPT, REC, CEM, REC CEM(-), REC CEM(+)) e pela Tabela 5 (CEM = 37,8 MPa)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral do texto (8 pp.)."
+ },
+ {
+  "row_id": 3894,
+  "pares": [
+   {
+    "sheet_row": 1131,
+    "cimento_designacao": "CP-II-E e CP-II-F",
+    "norma_cimento": "ABNT NBR 11578",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "CP-II-E: 6% a 34% de escoria granulada de alto-forno e ate 10% de filer calcario; CP-II-F: 6% a 10% de filer calcario",
+    "citacao": "p.2, sec. 2 Method: «made with two Brazilian cement types according to ABNT NBR 11578 [23]: CP-II-E (with addition of 6% to 34% of ground granulated blast furnace slag and up to 10% limestone filler) and CP-II-F (with addition of 6% to 10% limestone filler)»; nota de rodape 1: «Superseded version, valid at the time of the data collection».",
+    "nota": "Valor medio de 34 centrais que usam um ou outro cimento; os resultados (Tabela 1) nao distinguem CP-II-E de CP-II-F («irrespective of the cement type»). NBR 11578 ja substituida (hoje NBR 16697). fck = classe de projecto, nao ensaio."
+   },
+   {
+    "sheet_row": 1132,
+    "cimento_designacao": "CP-II-E e CP-II-F",
+    "norma_cimento": "ABNT NBR 11578",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "CP-II-E: 6% a 34% de escoria granulada de alto-forno e ate 10% de filer calcario; CP-II-F: 6% a 10% de filer calcario",
+    "citacao": "p.2, sec. 2 Method (mesma frase do par 1131); Tabela 1, classe 30 MPa.",
+    "nota": "Idem: media das centrais, sem distincao entre CP-II-E e CP-II-F."
+   },
+   {
+    "sheet_row": 1133,
+    "cimento_designacao": "CP-II-E e CP-II-F",
+    "norma_cimento": "ABNT NBR 11578",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "CP-II-E: 6% a 34% de escoria granulada de alto-forno e ate 10% de filer calcario; CP-II-F: 6% a 10% de filer calcario",
+    "citacao": "p.2, sec. 2 Method (mesma frase do par 1131); Tabela 1, classe 35 MPa.",
+    "nota": "Idem: media das centrais, sem distincao entre CP-II-E e CP-II-F."
+   },
+   {
+    "sheet_row": 1134,
+    "cimento_designacao": "CP-II-E e CP-II-F",
+    "norma_cimento": "ABNT NBR 11578",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "CP-II-E: 6% a 34% de escoria granulada de alto-forno e ate 10% de filer calcario; CP-II-F: 6% a 10% de filer calcario",
+    "citacao": "p.2, sec. 2 Method (mesma frase do par 1131); Tabela 1, classe 40 MPa.",
+    "nota": "Idem: media das centrais, sem distincao entre CP-II-E e CP-II-F."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral do texto (8 pp.)."
+ },
+ {
+  "row_id": 3904,
+  "pares": [
+   {
+    "sheet_row": 1136,
+    "cimento_designacao": "CEM II",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Traco BAU: 290 kg cimento CEM II + 60 kg cinza volante (cinza ~17% do ligante); composicao do cimento nao dada",
+    "citacao": "p.4, Tabela 1 «Concrete mixture composition for business as usual (BAU) scenario ... according to [27]»: colunas «Cement CEM II (kg)» 290 e «Fly ash (kg)» 60.",
+    "nota": "«CEM II» sem subtipo (/A ou /B) nem tipo de adicao. O traco BAU vem das explicacoes das EPD de betao alemas (Becke et al. 2014 [27]), nao de ensaio proprio; a cinza volante e adicao no traco. C25/30 e a classe da unidade funcional (DIN EN 206-1 citada so para o betao com agregado reciclado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral do texto (11 pp.)."
+ },
+ {
+  "row_id": 3915,
+  "pares": [
+   {
+    "sheet_row": 1140,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3 sec. 3.1: «shotcrete corresponding to concrete with a strength class of C25/30 will be used, as well as B500B steel»; p.5 Tabela 1: «Concrete C25/30 — m3 — GWPequiv 362.29 kg/unit», calculado segundo [15][16] e GEMIS.",
+    "nota": "O artigo nao diz o cimento nem o traco do betao projectado; o CO2 e factor unitario por m3 de C25/30 tirado de [15][16]/GEMIS. Sem ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral do corpo do artigo (10 pp.); o texto devolvido pelo conector corta a meio da lista de referencias ([14]), sem perda de conteudo tecnico."
+ },
+ {
+  "row_id": 3924,
+  "pares": [
+   {
+    "sheet_row": 1142,
+    "cimento_designacao": "OPC CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2 sec. 2.1: «The composites (mortars) were prepared from OPC CEM I 42.5 R»; resumo: «blended mortars composed of Portland cement CEM I 42.5, silica sand, and thermally treated sewage sludge»; «Control mortar composed of OPC, sand, and batch water was also produced».",
+    "nota": "Argamassa de referencia RM (sem SSA). O resumo escreve «CEM I 42.5» e a sec. 2.1 «CEM I 42.5 R». Normas citadas (EN 1015-10/-11) sao de ensaio da argamassa, nao do cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral do texto (6 pp.)."
+ },
+ {
+  "row_id": 3930,
+  "pares": [
+   {
+    "sheet_row": 1145,
+    "cimento_designacao": "Ordinary Portland cement (Type I)",
+    "norma_cimento": "ESS 373, ESS 541 (Egyptian Standard Specifications)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7 sec. 3.3.1.1: «Ordinary Portland cement (Type I) has been used in the project. Cement is designed in accordance with the Egyptian Standard Specifications (ESS) 373, ESS. 541»; Tabela 3: material Tally «Structural concrete, 3001-4000 psi, 0-19% fly ash and/or slag. Mix design matches the NRMCA Industry-wide EPD» — «16% Cement, 7% Batch water, 44% Coarse aggregate, 33% Fine aggregate».",
+    "nota": "Cimento diferente entre obra e ACV: o projecto usa OPC Type I, mas o CO2 vem do material generico do Tally/GaBi (betao NRMCA 3001-4000 psi com 0-19% de cinza volante e/ou escoria). O valor e de betao armado do edificio (inclui aco no total da Fig.6)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral do texto (11 pp.)."
+ },
+ {
+  "row_id": 3932,
+  "pares": [
+   {
+    "sheet_row": 1146,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela 7 (Korea LCI Database 2022): «Cement concrete (2020) — Raw materials: Cement, Blast furnace slag cement, Fly ash, Ground granulated blast-furnace slag, Fine aggregate, Coarse aggregate, Admixture, Water — Output: Ready-mix concrete 25–50»; Tabela 9: «Ready-mixed concrete 25-30-12» e «25-18-12»; ref. KS F 4009:2022 (betao pronto).",
+    "nota": "O tipo de cimento do betao do trackbed nao e dito; o CO2 vem do inventario coreano generico de betao pronto (que inclui cimento, cimento de escoria, cinza volante e GGBS) e de Lee et al. 2009 (303 kg CO2-eq/m3). A unica mencao a «Portland cement» (377,5 kg) refere-se as travessas KRSC-1533-00, nao ao betao do trackbed. KS F 4009 e norma do betao, nao do cimento. O valor 401,3 kg/m3 do par nao aparece impresso tal qual no texto (derivado de totais das Tabelas 13)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (via ficheiro guardado, ~58 mil caracteres); tabelas 7, 9 e 13 conferidas."
+ }
+]
