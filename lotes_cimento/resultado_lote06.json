@@ -1,0 +1,504 @@
+[
+ {
+  "row_id": 2946,
+  "pares": [
+   {
+    "sheet_row": 246,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Sec.3, Table 1 'Formulation of the precast concrete columns': 'Cement 246' kg/m3; Table 5 (p.10) so 'Cement' como componente da ACV",
+    "nota": "O artigo nunca diz o tipo nem a norma do cimento (so 'cement'); nao ha base de dados nomeada para o factor do cimento (CML-IA; GWP do cimento 2,15e2 kg CO2 eq/m3 na Table 5). Ligante = so cimento no traco (o filler calcario 104 kg/m3 e tratado como agregado/filler, nao como substituicao do cimento). Coincidencia: co2_kg_m3 246 = soma das Tables 4+5 (~245,6), igual por acaso a dosagem de cimento 246 kg/m3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral do texto (53.856 car., ate ao fim das referencias). Caso industrial (pilar pre-fabricado, Aveiro); cimento sem designacao."
+ },
+ {
+  "row_id": 2950,
+  "pares": [
+   {
+    "sheet_row": 800,
+    "cimento_designacao": "Portland cement of ASTM 53 grade",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2 (50270), 'Constituent materials of concrete': 'For binding material, Portland cement of ASTM 53 grade was used. It complies with the \"type I general purpose cement\" according to ASTM C150 (2018).'",
+    "nota": "'ASTM 53 grade' e designacao hibrida (grau 53 e nomenclatura indiana/paquistanesa, nao ASTM); o artigo afirma conformidade com ASTM C150 Type I. Factor de CO2 do cimento (0,898 kg CO2/kg, Table 3) tirado de Kurda et al. 2018 (estudo europeu), nao do cimento ensaiado (Mianwali, Paquistao). Mistura 0RA sem adicoes."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (11 pp.)."
+ },
+ {
+  "row_id": 2951,
+  "pares": [
+   {
+    "sheet_row": 801,
+    "cimento_designacao": "Portland cement of ASTM 53 Grade",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.62264-62265, 'Raw materials - Binders': 'Portland cement of ASTM 53 Grade was used as the main binder, which complies with ASTM C150 (2018).' Table 2: NWF0 (CM) 555 kg/m3 cimento, MS 0",
+    "nota": "Mesmo grupo de autores da 2950 (GILLANI): 'ASTM 53 Grade' hibrido; nao diz Type I aqui, so conformidade com ASTM C150. Factor de CO2 do cimento (0,898 kg CO2/kg) de Kurda et al. 2018b (europeu). Mistura CM sem microssilica; as outras familias do estudo substituem 7,5/12,5% do cimento por MS."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (80.897 car., ate as referencias)."
+ },
+ {
+  "row_id": 2952,
+  "pares": [
+   {
+    "sheet_row": 802,
+    "cimento_designacao": "CEM I 42.5R",
+    "norma_cimento": "TS EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.15128-15129, 'Raw materials': 'Ordinary CEM I 42.5R Portland cement (PC) conforming to TS EN 197-1'; Table 1 (oxidos do PC: CaO 58,85; SiO2 19,41; LOI 6,07...)",
+    "nota": "Ligante ternario do proprio estudo: 10% MWTS + 30% cinza volante classe F (ASTM C618) em massa de PC; ligante total 650 kg/m3. Composicao do PC so em oxidos (Table 1), sem % de clinquer. LOI 6,07% alta para CEM I (nao comentado pelo artigo). Factor de CO2 do PC = 0,83 kg CO2-eq/kg de Ruviaro et al. (2021), nao do cimento ensaiado."
+   },
+   {
+    "sheet_row": 803,
+    "cimento_designacao": "CEM I 42.5R",
+    "norma_cimento": "TS EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.15128-15129, 'Raw materials': 'Ordinary CEM I 42.5R Portland cement (PC) conforming to TS EN 197-1'; Table 1 (oxidos do PC: CaO 58,85; SiO2 19,41; LOI 6,07...)",
+    "nota": "Ligante ternario do proprio estudo: 10% MWTS + 30% escoria granulada de alto-forno em massa de PC; ligante total 650 kg/m3. Composicao do PC so em oxidos (Table 1), sem % de clinquer. LOI 6,07% alta para CEM I (nao comentado pelo artigo). Factor de CO2 do PC = 0,83 kg CO2-eq/kg de Ruviaro et al. (2021), nao do cimento ensaiado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (124.560 car., chega ao fim das referencias)."
+ },
+ {
+  "row_id": 2999,
+  "pares": [
+   {
+    "sheet_row": 249,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "Linha legada que descreve 'varias composicoes binarias/ternarias'; pelo par (fck 56, CO2 302,8) e pela ausencia de CM30-SW no lote, parece ser a CM30-SW (30% metacaulino) - verificar. Em qualquer caso o ligante e CEM I + SCM do proprio estudo. CO2 do cimento da EPD CEMBUREAU."
+   },
+   {
+    "sheet_row": 1903,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CC-FW: 100% CEM I (360 kg/m3). O CO2 do cimento na ACV vem da EPD media da CEMBUREAU (europeia), embora a ACV seja modelada para Chennai (India) com cimento de Nandyal/Arakkonam."
+   },
+   {
+    "sheet_row": 1904,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CC-SW: 100% CEM I (360 kg/m3). O CO2 do cimento na ACV vem da EPD media da CEMBUREAU (europeia), embora a ACV seja modelada para Chennai (India) com cimento de Nandyal/Arakkonam."
+   },
+   {
+    "sheet_row": 1905,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CF30-FW: 30% cinza volante siliciosa em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1906,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CF30-SW: 30% cinza volante siliciosa em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1907,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS50-FW: 50% escoria em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1908,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS50-SW: 50% escoria em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1909,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CM30-FW: 30% metacaulino em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1910,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS20F10-FW: 20% escoria + 10% cinza volante em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1911,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS20F10-SW: 20% escoria + 10% cinza volante em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1912,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS30F15-FW: 30% escoria + 15% cinza volante em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1913,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS30F15-SW: 30% escoria + 15% cinza volante em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1914,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CF20M10-FW: 20% cinza volante + 10% metacaulino em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1915,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CF20M10-SW: 20% cinza volante + 10% metacaulino em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1916,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CF30M15-FW: 30% cinza volante + 15% metacaulino em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1917,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CF30M15-SW: 30% cinza volante + 15% metacaulino em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1918,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS20M10-FW: 20% escoria + 10% metacaulino em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1919,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS20M10-SW: 20% escoria + 10% metacaulino em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1920,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS30M15-FW: 30% escoria + 15% metacaulino em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   },
+   {
+    "sheet_row": 1921,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.1: 'CEM I 42.5 R conforming to EN 197-1 [30] was used as the primary binder throughout this study.' Table 1 (oxidos do CEM I); Table 2 (traco); Table 3 (p.10): cimento na ACV = 'Cement CEM I 42.5 R - EPD-CEMBUREAU'",
+    "nota": "CS30M15-SW: 30% escoria + 15% metacaulino em substituicao do CEM I (ligante 360 kg/m3, a/l 0,45). CO2 do cimento da EPD media CEMBUREAU; ACV modelada para Chennai."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (65.372 car., 14 pp.)."
+ },
+ {
+  "row_id": 3003,
+  "pares": [
+   {
+    "sheet_row": 250,
+    "cimento_designacao": "CEM I 32.5",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.27 (Sec.3.1.1) e Table 1 (p.28): linha 'CEM I 32.5' (0,930 kgCO2/kg) para C25/C35/C45 e 'CEM I 52.5' (0,476 kgCO2/kg) para C80/C90/C100; p.30: 'The value of embodied CO2 for cement (Portland cement, CEM I 32.5) ... [54,62,63]' (ICE/BCA)",
+    "nota": "NSC: traco 'conforming to BS EN206-1' (norma do betao, nao do cimento); nenhuma norma de cimento citada. Sem SCM. Traco tipico de literatura, nao ensaiado; factor do cimento do ICE/BCA. C25: 260 kg/m3 de cimento."
+   },
+   {
+    "sheet_row": 251,
+    "cimento_designacao": "CEM I 32.5",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.27 (Sec.3.1.1) e Table 1 (p.28): linha 'CEM I 32.5' (0,930 kgCO2/kg) para C25/C35/C45 e 'CEM I 52.5' (0,476 kgCO2/kg) para C80/C90/C100; p.30: 'The value of embodied CO2 for cement (Portland cement, CEM I 32.5) ... [54,62,63]' (ICE/BCA)",
+    "nota": "NSC: traco 'conforming to BS EN206-1' (norma do betao, nao do cimento); nenhuma norma de cimento citada. Sem SCM. Traco tipico de literatura, nao ensaiado; factor do cimento do ICE/BCA. C35: 300 kg/m3 de cimento."
+   },
+   {
+    "sheet_row": 252,
+    "cimento_designacao": "CEM I 32.5",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.27 (Sec.3.1.1) e Table 1 (p.28): linha 'CEM I 32.5' (0,930 kgCO2/kg) para C25/C35/C45 e 'CEM I 52.5' (0,476 kgCO2/kg) para C80/C90/C100; p.30: 'The value of embodied CO2 for cement (Portland cement, CEM I 32.5) ... [54,62,63]' (ICE/BCA)",
+    "nota": "NSC: traco 'conforming to BS EN206-1' (norma do betao, nao do cimento); nenhuma norma de cimento citada. Sem SCM. Traco tipico de literatura, nao ensaiado; factor do cimento do ICE/BCA. C45: 340 kg/m3 de cimento."
+   },
+   {
+    "sheet_row": 253,
+    "cimento_designacao": "CEM I 52.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.27 (Sec.3.1.1) e Table 1 (p.28): linha 'CEM I 32.5' (0,930 kgCO2/kg) para C25/C35/C45 e 'CEM I 52.5' (0,476 kgCO2/kg) para C80/C90/C100; p.30: 'The value of embodied CO2 for cement (Portland cement, CEM I 32.5) ... [54,62,63]' (ICE/BCA)",
+    "nota": "HPC: 'CEM I 52.5' + silica de fumo 27 kg/m3 (~5% do ligante) e superplastificante - a descricao 'sem SCM' do lote esta errada, o HPC leva silica de fumo. Nenhuma norma de cimento citada. Factor 0,476 kgCO2/kg para CEM I 52.5 e cerca de metade do do CEM I 32.5 (0,930) - estranho, nao explicado no artigo. Traco de literatura [47,48], nao ensaiado. C80: 510 kg/m3 de cimento."
+   },
+   {
+    "sheet_row": 254,
+    "cimento_designacao": "CEM I 52.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.27 (Sec.3.1.1) e Table 1 (p.28): linha 'CEM I 32.5' (0,930 kgCO2/kg) para C25/C35/C45 e 'CEM I 52.5' (0,476 kgCO2/kg) para C80/C90/C100; p.30: 'The value of embodied CO2 for cement (Portland cement, CEM I 32.5) ... [54,62,63]' (ICE/BCA)",
+    "nota": "HPC: 'CEM I 52.5' + silica de fumo 30 kg/m3 (~5% do ligante) e superplastificante - a descricao 'sem SCM' do lote esta errada, o HPC leva silica de fumo. Nenhuma norma de cimento citada. Factor 0,476 kgCO2/kg para CEM I 52.5 e cerca de metade do do CEM I 32.5 (0,930) - estranho, nao explicado no artigo. Traco de literatura [47,48], nao ensaiado. C90: 580 kg/m3 de cimento."
+   },
+   {
+    "sheet_row": 255,
+    "cimento_designacao": "CEM I 52.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.27 (Sec.3.1.1) e Table 1 (p.28): linha 'CEM I 32.5' (0,930 kgCO2/kg) para C25/C35/C45 e 'CEM I 52.5' (0,476 kgCO2/kg) para C80/C90/C100; p.30: 'The value of embodied CO2 for cement (Portland cement, CEM I 32.5) ... [54,62,63]' (ICE/BCA)",
+    "nota": "HPC: 'CEM I 52.5' + silica de fumo 34 kg/m3 (~5% do ligante) e superplastificante - a descricao 'sem SCM' do lote esta errada, o HPC leva silica de fumo. Nenhuma norma de cimento citada. Factor 0,476 kgCO2/kg para CEM I 52.5 e cerca de metade do do CEM I 32.5 (0,930) - estranho, nao explicado no artigo. Traco de literatura [47,48], nao ensaiado. C100: 650 kg/m3 de cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (96.981 car.). Estudo de ontologia; tracos e factores de CO2 de literatura/ICE, sem ensaios proprios."
+ },
+ {
+  "row_id": 3017,
+  "pares": [
+   {
+    "sheet_row": 259,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.2 e Table 2: 'Mixtures ... were prepared with 5 % and 15 % mass replacement of PC with ash ... compared to an 100 % PC control mortar (CTRL)'; Table 2 coluna 'Portland cement (PC)' (CTRL 564; 5% 534; 15% 475 kg/m3); tabela de composicao quimica: nota 'a Cement is Portland cement'",
+    "nota": "5%M-RHA: 5% do PC substituido por cinza de biomassa (moida M ou moida+carbonatada C). So 'Portland cement (PC)'; tipo e norma nao indicados (ASTM C150 aparece so na ref. [53], citada a proposito de alcalis/durabilidade, nao como especificacao do cimento usado). Composicao do cimento so em oxidos. CO2 modelado com o OpenConcrete (Kim et al. 2022), cimento tipo EUA/California."
+   },
+   {
+    "sheet_row": 2110,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.2 e Table 2: 'Mixtures ... were prepared with 5 % and 15 % mass replacement of PC with ash ... compared to an 100 % PC control mortar (CTRL)'; Table 2 coluna 'Portland cement (PC)' (CTRL 564; 5% 534; 15% 475 kg/m3); tabela de composicao quimica: nota 'a Cement is Portland cement'",
+    "nota": "CTRL: 100% PC (564 kg/m3). So 'Portland cement (PC)'; tipo e norma nao indicados (ASTM C150 aparece so na ref. [53], citada a proposito de alcalis/durabilidade, nao como especificacao do cimento usado). Composicao do cimento so em oxidos. CO2 modelado com o OpenConcrete (Kim et al. 2022), cimento tipo EUA/California."
+   },
+   {
+    "sheet_row": 2111,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.2 e Table 2: 'Mixtures ... were prepared with 5 % and 15 % mass replacement of PC with ash ... compared to an 100 % PC control mortar (CTRL)'; Table 2 coluna 'Portland cement (PC)' (CTRL 564; 5% 534; 15% 475 kg/m3); tabela de composicao quimica: nota 'a Cement is Portland cement'",
+    "nota": "5%M-WSA: 5% do PC substituido por cinza de biomassa (moida M ou moida+carbonatada C). So 'Portland cement (PC)'; tipo e norma nao indicados (ASTM C150 aparece so na ref. [53], citada a proposito de alcalis/durabilidade, nao como especificacao do cimento usado). Composicao do cimento so em oxidos. CO2 modelado com o OpenConcrete (Kim et al. 2022), cimento tipo EUA/California."
+   },
+   {
+    "sheet_row": 2112,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.2 e Table 2: 'Mixtures ... were prepared with 5 % and 15 % mass replacement of PC with ash ... compared to an 100 % PC control mortar (CTRL)'; Table 2 coluna 'Portland cement (PC)' (CTRL 564; 5% 534; 15% 475 kg/m3); tabela de composicao quimica: nota 'a Cement is Portland cement'",
+    "nota": "5%C-WSA: 5% do PC substituido por cinza de biomassa (moida M ou moida+carbonatada C). So 'Portland cement (PC)'; tipo e norma nao indicados (ASTM C150 aparece so na ref. [53], citada a proposito de alcalis/durabilidade, nao como especificacao do cimento usado). Composicao do cimento so em oxidos. CO2 modelado com o OpenConcrete (Kim et al. 2022), cimento tipo EUA/California."
+   },
+   {
+    "sheet_row": 2113,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.2 e Table 2: 'Mixtures ... were prepared with 5 % and 15 % mass replacement of PC with ash ... compared to an 100 % PC control mortar (CTRL)'; Table 2 coluna 'Portland cement (PC)' (CTRL 564; 5% 534; 15% 475 kg/m3); tabela de composicao quimica: nota 'a Cement is Portland cement'",
+    "nota": "15%M-WSA: 15% do PC substituido por cinza de biomassa (moida M ou moida+carbonatada C). So 'Portland cement (PC)'; tipo e norma nao indicados (ASTM C150 aparece so na ref. [53], citada a proposito de alcalis/durabilidade, nao como especificacao do cimento usado). Composicao do cimento so em oxidos. CO2 modelado com o OpenConcrete (Kim et al. 2022), cimento tipo EUA/California."
+   },
+   {
+    "sheet_row": 2114,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.2 e Table 2: 'Mixtures ... were prepared with 5 % and 15 % mass replacement of PC with ash ... compared to an 100 % PC control mortar (CTRL)'; Table 2 coluna 'Portland cement (PC)' (CTRL 564; 5% 534; 15% 475 kg/m3); tabela de composicao quimica: nota 'a Cement is Portland cement'",
+    "nota": "15%C-WSA: 15% do PC substituido por cinza de biomassa (moida M ou moida+carbonatada C). So 'Portland cement (PC)'; tipo e norma nao indicados (ASTM C150 aparece so na ref. [53], citada a proposito de alcalis/durabilidade, nao como especificacao do cimento usado). Composicao do cimento so em oxidos. CO2 modelado com o OpenConcrete (Kim et al. 2022), cimento tipo EUA/California."
+   },
+   {
+    "sheet_row": 2115,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.2 e Table 2: 'Mixtures ... were prepared with 5 % and 15 % mass replacement of PC with ash ... compared to an 100 % PC control mortar (CTRL)'; Table 2 coluna 'Portland cement (PC)' (CTRL 564; 5% 534; 15% 475 kg/m3); tabela de composicao quimica: nota 'a Cement is Portland cement'",
+    "nota": "5%C-RHA: 5% do PC substituido por cinza de biomassa (moida M ou moida+carbonatada C). So 'Portland cement (PC)'; tipo e norma nao indicados (ASTM C150 aparece so na ref. [53], citada a proposito de alcalis/durabilidade, nao como especificacao do cimento usado). Composicao do cimento so em oxidos. CO2 modelado com o OpenConcrete (Kim et al. 2022), cimento tipo EUA/California."
+   },
+   {
+    "sheet_row": 2116,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.2 e Table 2: 'Mixtures ... were prepared with 5 % and 15 % mass replacement of PC with ash ... compared to an 100 % PC control mortar (CTRL)'; Table 2 coluna 'Portland cement (PC)' (CTRL 564; 5% 534; 15% 475 kg/m3); tabela de composicao quimica: nota 'a Cement is Portland cement'",
+    "nota": "15%M-RHA: 15% do PC substituido por cinza de biomassa (moida M ou moida+carbonatada C). So 'Portland cement (PC)'; tipo e norma nao indicados (ASTM C150 aparece so na ref. [53], citada a proposito de alcalis/durabilidade, nao como especificacao do cimento usado). Composicao do cimento so em oxidos. CO2 modelado com o OpenConcrete (Kim et al. 2022), cimento tipo EUA/California."
+   },
+   {
+    "sheet_row": 2117,
+    "cimento_designacao": "Portland cement (PC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.3.2 e Table 2: 'Mixtures ... were prepared with 5 % and 15 % mass replacement of PC with ash ... compared to an 100 % PC control mortar (CTRL)'; Table 2 coluna 'Portland cement (PC)' (CTRL 564; 5% 534; 15% 475 kg/m3); tabela de composicao quimica: nota 'a Cement is Portland cement'",
+    "nota": "15%C-RHA: 15% do PC substituido por cinza de biomassa (moida M ou moida+carbonatada C). So 'Portland cement (PC)'; tipo e norma nao indicados (ASTM C150 aparece so na ref. [53], citada a proposito de alcalis/durabilidade, nao como especificacao do cimento usado). Composicao do cimento so em oxidos. CO2 modelado com o OpenConcrete (Kim et al. 2022), cimento tipo EUA/California."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (73.315 car.). A informacao suplementar (SI) nao esta no PDF."
+ },
+ {
+  "row_id": 3025,
+  "pares": [
+   {
+    "sheet_row": 805,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Appendix A/Table A (p.10) e Table B1 (pp.10-11): 'Concrete X MPa (m3)' com GEIs de processo AusLCI; p.8: 'The decomposition analysis of 40 MPa concrete by final-stage inputs suggests its embodied GHG emissions are primarily associated with ordinary Portland cement (Fig. 9)'",
+    "nota": "Conjunto de dados AusLCI 'Concrete 20 MPa'; o artigo nao diz o cimento desta classe nem cita norma. A Table B1 separa estas linhas das variantes 'Concrete 20 MPa 30% fly ash' e '30% GGBFS', pelo que o processo usado e o sem adicao declarada; so para o 40 MPa o artigo nomeia o cimento (ordinary Portland cement, Fig. 9). Cimento citado apenas como insumo da base de dados (sem ensaio)."
+   },
+   {
+    "sheet_row": 806,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Appendix A/Table A (p.10) e Table B1 (pp.10-11): 'Concrete X MPa (m3)' com GEIs de processo AusLCI; p.8: 'The decomposition analysis of 40 MPa concrete by final-stage inputs suggests its embodied GHG emissions are primarily associated with ordinary Portland cement (Fig. 9)'",
+    "nota": "Conjunto de dados AusLCI 'Concrete 25 MPa'; o artigo nao diz o cimento desta classe nem cita norma. A Table B1 separa estas linhas das variantes 'Concrete 25 MPa 30% fly ash' e '30% GGBFS', pelo que o processo usado e o sem adicao declarada; so para o 40 MPa o artigo nomeia o cimento (ordinary Portland cement, Fig. 9). Cimento citado apenas como insumo da base de dados (sem ensaio)."
+   },
+   {
+    "sheet_row": 807,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Appendix A/Table A (p.10) e Table B1 (pp.10-11): 'Concrete X MPa (m3)' com GEIs de processo AusLCI; p.8: 'The decomposition analysis of 40 MPa concrete by final-stage inputs suggests its embodied GHG emissions are primarily associated with ordinary Portland cement (Fig. 9)'",
+    "nota": "Conjunto de dados AusLCI 'Concrete 32 MPa'; o artigo nao diz o cimento desta classe nem cita norma. A Table B1 separa estas linhas das variantes 'Concrete 32 MPa 30% fly ash' e '30% GGBFS', pelo que o processo usado e o sem adicao declarada; so para o 40 MPa o artigo nomeia o cimento (ordinary Portland cement, Fig. 9). Cimento citado apenas como insumo da base de dados (sem ensaio)."
+   },
+   {
+    "sheet_row": 808,
+    "cimento_designacao": "ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Appendix A/Table A (p.10) e Table B1 (pp.10-11): 'Concrete X MPa (m3)' com GEIs de processo AusLCI; p.8: 'The decomposition analysis of 40 MPa concrete by final-stage inputs suggests its embodied GHG emissions are primarily associated with ordinary Portland cement (Fig. 9)'",
+    "nota": "Conjunto de dados AusLCI 'Concrete 40 MPa'; o artigo nao diz o cimento desta classe nem cita norma. A Table B1 separa estas linhas das variantes 'Concrete 40 MPa 30% fly ash' e '30% GGBFS', pelo que o processo usado e o sem adicao declarada; so para o 40 MPa o artigo nomeia o cimento (ordinary Portland cement, Fig. 9). Cimento citado apenas como insumo da base de dados (sem ensaio)."
+   },
+   {
+    "sheet_row": 809,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Appendix A/Table A (p.10) e Table B1 (pp.10-11): 'Concrete X MPa (m3)' com GEIs de processo AusLCI; p.8: 'The decomposition analysis of 40 MPa concrete by final-stage inputs suggests its embodied GHG emissions are primarily associated with ordinary Portland cement (Fig. 9)'",
+    "nota": "Conjunto de dados AusLCI 'Concrete 50 MPa'; o artigo nao diz o cimento desta classe nem cita norma. A Table B1 separa estas linhas das variantes 'Concrete 50 MPa 30% fly ash' e '30% GGBFS', pelo que o processo usado e o sem adicao declarada; so para o 40 MPa o artigo nomeia o cimento (ordinary Portland cement, Fig. 9). Cimento citado apenas como insumo da base de dados (sem ensaio)."
+   },
+   {
+    "sheet_row": 810,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Appendix A/Table A (p.10) e Table B1 (pp.10-11): 'Concrete X MPa (m3)' com GEIs de processo AusLCI; p.8: 'The decomposition analysis of 40 MPa concrete by final-stage inputs suggests its embodied GHG emissions are primarily associated with ordinary Portland cement (Fig. 9)'",
+    "nota": "Conjunto de dados AusLCI 'Concrete 65 MPa'; o artigo nao diz o cimento desta classe nem cita norma. A Table B1 separa estas linhas das variantes 'Concrete 65 MPa 30% fly ash' e '30% GGBFS', pelo que o processo usado e o sem adicao declarada; so para o 40 MPa o artigo nomeia o cimento (ordinary Portland cement, Fig. 9). Cimento citado apenas como insumo da base de dados (sem ensaio). A classe 65 MPa so aparece na Table A (797,69 kg CO2e/m3); nao tem linha nem variantes na Table B1, pelo que a comparacao com as variantes com adicao nao se aplica a ela."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (79.331 car.). ACV hibrida de edificio em Sydney; o cimento so e nomeado para o betao de 40 MPa."
+ },
+ {
+  "row_id": 3026,
+  "pares": [
+   {
+    "sheet_row": 811,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Table 2 (p.4): 'OPC concrete blocks' (parede convencional); Table 3 (p.5): 'OPC Concrete (m3) 314.0' kgCO2e (Ecoinvent 3.2) e 'Cement (t) 838.2' (media da literatura); p.8: 'by selecting the 25-MPa-concrete process instead of the 35-MPa-concrete'",
+    "nota": "So 'OPC' (betao/bloco de OPC); sem designacao normalizada nem norma. O valor 314 kgCO2e/m3 e o processo Ecoinvent 3.2 de betao 35 MPa, cimento implicito na base de dados (sem ensaio). Elemento = bloco de betao de parede, nao betao estrutural ensaiado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (97.371 car.)."
+ },
+ {
+  "row_id": 3034,
+  "pares": [
+   {
+    "sheet_row": 812,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4-5, Sec.2.4.1 e Table 2 'Material and energy consumption for concrete products': 4000 psi NW - 'Portland cement 282 kg', 'Fly ash 49 kg', 'Slag cement 14 kg' (traco medio NRMCA); 'For Portland cement production, we used the embodied GHG intensities recently developed for GREET [33]'",
+    "nota": "Traco de media industrial NRMCA (nao do proprio estudo) com 282 kg de cimento Portland + 49 kg de cinza volante + 14 kg de 'slag cement' por m3 (~18% de adicoes no ligante). A familia actual 'opc' nao reflecte que o betao inclui cinza volante e escoria. Tipo e norma do cimento nao indicados; factor do GREET."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Leitura integral (80.735 car.). 'substituicao_no_traco' atribuido porque o traco contem SCM separados do cimento, embora seja traco NRMCA e nao uma variavel do estudo."
+ }
+]
