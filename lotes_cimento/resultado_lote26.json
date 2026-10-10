@@ -1,0 +1,279 @@
+[
+ {
+  "row_id": 4663,
+  "pares": [
+   {
+    "sheet_row": 1678,
+    "cimento_designacao": "Type I Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Sec.2.1.2/Tabela 3: 'The amounts of the component materials of two OPC concretes were developed by Etxeberria et al. [49] using Type I Portland cement to achieve compressive strength at a minimum of 30 MPa at 28 days'; Tabela 3 NAC: Cement 300 kg, 35.5 MPa",
+    "nota": "O traco NAC nao foi ensaiado pelos autores: vem da literatura (Etxeberria et al.). Nenhuma norma citada para o 'Type I' (nao se diz ASTM). O inventario do cimento na ACV vem de Marinkovic et al. [55], nao do proprio cimento Type I. No resto do artigo o betao e chamado apenas 'OPC concrete'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de geopolimeros (G-FA, G-C) comparados com NAC/RAC de literatura; texto integral (23 pp., 85 mil caracteres) lido pelo conector."
+ },
+ {
+  "row_id": 4670,
+  "pares": [
+   {
+    "sheet_row": 1683,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Sec.3.2.1, Tabela 1 'Material mix for the concrete bridge—concrete C30/37': 'CEM I 42.5 R  50 km  350 kg/m3  7791 kg'",
+    "nota": "Nenhuma norma de cimento citada (EN 197-1 nao aparece). Na mesma ponte composta, o UHPFRC usa 'CEM III/N 32.5 N' (Tabela 2) - designacao invulgar (sem /A, /B ou /C) - mas isso nao e o par em causa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Ponte convencional de betao armado C30/37 vs pontes UHPFRC; texto integral lido (19 pp.)."
+ },
+ {
+  "row_id": 4671,
+  "pares": [
+   {
+    "sheet_row": 579,
+    "cimento_designacao": "type II 42.5 ordinary Portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.2-3, Sec.2.1: 'various raw materials were used ...: type II 42.5 ordinary Portland cement (OPC), grade 955 silica fume (SF), ...'; Tabela 1 Control: OPC 881.0, SF 88.1 kg/m3; Tabela 3: oxidos do OPC (CaO 63.4, SiO2 20.10...)",
+    "nota": "Todas as misturas, incluindo o controlo RP-0, levam silica de fumo (88,1 kg/m3 = 10% da massa de OPC, em adicao). 'type II 42.5' sem norma (nao diz GB 175 nem P·II). Na ACV (Tabela 6) a silica de fumo tem factor 0 e o OPC 0,780 kgCO2e/kg. So composicao em oxidos, sem % de clinquer/adicoes."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Argamassa 3D impressa com particulas de borracha; fileId resolvido por pesquisa no Drive (1b3Jt5nYFobj9vPLnFmSTWwAwCVURGrYr); texto integral lido (19 pp.)."
+ },
+ {
+  "row_id": 4675,
+  "pares": [
+   {
+    "sheet_row": 1684,
+    "cimento_designacao": "Ordinary portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.1 Introducao: 'Ordinary portland cement (OPC) used in concrete production...'; p.4 Tabela 1 'OPC Concrete (kg/m3) [16]': Cement 415; p.3-4 Sec.2.2/2.5: cimento recolhido na fabrica Bestway Cement (Haripur/Hattar)",
+    "nota": "Na tabela de traco o ligante e apenas 'Cement'; a designacao OPC vem do nome da mistura ('OPC concrete') e da lista de abreviaturas. Traco de literatura [16]; dados do cimento da Bestway Cement (Paquistao) por questionario. Nenhuma norma citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "ACV comparativa OPC/RAC/GPC/RAGC (Paquistao); texto integral lido (19 pp.)."
+ },
+ {
+  "row_id": 4689,
+  "pares": [
+   {
+    "sheet_row": 584,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "Cement 225 + Fly ash 75 kg/m3 (TCM 300; cinza volante = 25% do ligante)",
+    "citacao": "p.12, Sec.5, Tabela 6 'Material requirements (kg/m3)...': CC-25: Water 173, Cement 225, Fly Ash 75, TCM 300; Fig.6: 'E2 cement: 0.82', 'E3 Fly ash: 0.027' kgCO2-e/kg",
+    "nota": "O artigo nunca diz o tipo de cimento ('Portland' nao aparece em nenhum ponto do texto); misturas preparadas no laboratorio da University of South Australia. A cinza volante entra em todas as misturas (25% do TCM), por isso mesmo o controlo CC-25 tem substituicao no traco."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Revisao sobre lancis (kerbs) com caso de ACV de 4 tracos de 25 MPa; texto integral lido (22 pp.)."
+ },
+ {
+  "row_id": 4691,
+  "pares": [
+   {
+    "sheet_row": 1688,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Sec.2.5.2 Tabela 1 'Composition of concrete mixes': NAC II Cement 300 kg; p.7: 'generic data from the GaBi database were used to describe the environmental impacts of resource production'",
+    "nota": "O tipo de cimento nao e dito em nenhum ponto (so 'Cement'); cimento modelado com dados genericos GaBi. A absorcao maxima de CO2 assumida (0,49 kg CO2/kg de cimento, EN 16757) nao identifica o cimento. Classe C25/30 sem norma de cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Betao com agregados reciclados (RMAC/RCAC) vs NAC, ecotoxicidade e carbonatacao; texto integral lido (24 pp.)."
+ },
+ {
+  "row_id": 4698,
+  "pares": [
+   {
+    "sheet_row": 1692,
+    "cimento_designacao": "ordinary and Portland cement (grau 42.5 / 32.5 conforme o texto)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4-5, Sec.2.3.1(b) Concrete: 'the cement grade for concrete C10 is 32.5 ... For 42.5, the crushed stone is 40 mm ... non-pumped commercial concrete cement ... grade of which is 42.5 ... Pumped commercial concrete cement ... grade of 42.5'; Tabela 2 'Carbon-emission coefficient of ordinary concrete', nota: 'The carbon-emission coefficient of ordinary and Portland cement is 0.87'; Tabela 4: 'Ordinary Portland cement kg 0.87 [30]'",
+    "nota": "Traco da quota orcamental de Fujian (Tabela 2), nao ensaiado. O texto e ambiguo quanto a classe do cimento do 'ordinary concrete' C15-C45: so diz explicitamente 32.5 para C10 e 42.5 para os betoes comerciais/impermeaveis. A nota da Tabela 2 escreve 'ordinary and Portland cement' com o factor 0,87 (unidade impressa 'kgCO2/m3', parece gralha por kg). Nenhuma norma de cimento citada. O par C30 do edificio usa o coeficiente da Tabela 2 (C30: cimento 316 kg, 280.661 kgCO2/m3)."
+   },
+   {
+    "sheet_row": 2072,
+    "cimento_designacao": "ordinary and Portland cement (grau 42.5 / 32.5 conforme o texto)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4-5, Sec.2.3.1(b) Concrete: 'the cement grade for concrete C10 is 32.5 ... For 42.5, the crushed stone is 40 mm ... non-pumped commercial concrete cement ... grade of which is 42.5 ... Pumped commercial concrete cement ... grade of 42.5'; Tabela 2 'Carbon-emission coefficient of ordinary concrete', nota: 'The carbon-emission coefficient of ordinary and Portland cement is 0.87'; Tabela 4: 'Ordinary Portland cement kg 0.87 [30]'; Tabela 2 C20: 263 kg, 234.637",
+    "nota": "Traco da quota orcamental de Fujian (Tabela 2), nao ensaiado. O texto e ambiguo quanto a classe do cimento do 'ordinary concrete' C15-C45: so diz explicitamente 32.5 para C10 e 42.5 para os betoes comerciais/impermeaveis. A nota da Tabela 2 escreve 'ordinary and Portland cement' com o factor 0,87 (unidade impressa 'kgCO2/m3', parece gralha por kg). Nenhuma norma de cimento citada."
+   },
+   {
+    "sheet_row": 2073,
+    "cimento_designacao": "ordinary and Portland cement (grau 42.5 / 32.5 conforme o texto)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4-5, Sec.2.3.1(b) Concrete: 'the cement grade for concrete C10 is 32.5 ... For 42.5, the crushed stone is 40 mm ... non-pumped commercial concrete cement ... grade of which is 42.5 ... Pumped commercial concrete cement ... grade of 42.5'; Tabela 2 'Carbon-emission coefficient of ordinary concrete', nota: 'The carbon-emission coefficient of ordinary and Portland cement is 0.87'; Tabela 4: 'Ordinary Portland cement kg 0.87 [30]'; Tabela 2 C25: 276 kg, 245.981",
+    "nota": "Traco da quota orcamental de Fujian (Tabela 2), nao ensaiado. O texto e ambiguo quanto a classe do cimento do 'ordinary concrete' C15-C45: so diz explicitamente 32.5 para C10 e 42.5 para os betoes comerciais/impermeaveis. A nota da Tabela 2 escreve 'ordinary and Portland cement' com o factor 0,87 (unidade impressa 'kgCO2/m3', parece gralha por kg). Nenhuma norma de cimento citada."
+   },
+   {
+    "sheet_row": 2074,
+    "cimento_designacao": "ordinary and Portland cement (grau 42.5 / 32.5 conforme o texto)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4-5, Sec.2.3.1(b) Concrete: 'the cement grade for concrete C10 is 32.5 ... For 42.5, the crushed stone is 40 mm ... non-pumped commercial concrete cement ... grade of which is 42.5 ... Pumped commercial concrete cement ... grade of 42.5'; Tabela 2 'Carbon-emission coefficient of ordinary concrete', nota: 'The carbon-emission coefficient of ordinary and Portland cement is 0.87'; Tabela 4: 'Ordinary Portland cement kg 0.87 [30]'; Tabela 2 C35: 369 kg, 326.621",
+    "nota": "Traco da quota orcamental de Fujian (Tabela 2), nao ensaiado. O texto e ambiguo quanto a classe do cimento do 'ordinary concrete' C15-C45: so diz explicitamente 32.5 para C10 e 42.5 para os betoes comerciais/impermeaveis. A nota da Tabela 2 escreve 'ordinary and Portland cement' com o factor 0,87 (unidade impressa 'kgCO2/m3', parece gralha por kg). Nenhuma norma de cimento citada."
+   },
+   {
+    "sheet_row": 2075,
+    "cimento_designacao": "ordinary and Portland cement (grau 42.5 / 32.5 conforme o texto)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4-5, Sec.2.3.1(b) Concrete: 'the cement grade for concrete C10 is 32.5 ... For 42.5, the crushed stone is 40 mm ... non-pumped commercial concrete cement ... grade of which is 42.5 ... Pumped commercial concrete cement ... grade of 42.5'; Tabela 2 'Carbon-emission coefficient of ordinary concrete', nota: 'The carbon-emission coefficient of ordinary and Portland cement is 0.87'; Tabela 4: 'Ordinary Portland cement kg 0.87 [30]'; Tabela 2 C40: 411 kg, 363.032",
+    "nota": "Traco da quota orcamental de Fujian (Tabela 2), nao ensaiado. O texto e ambiguo quanto a classe do cimento do 'ordinary concrete' C15-C45: so diz explicitamente 32.5 para C10 e 42.5 para os betoes comerciais/impermeaveis. A nota da Tabela 2 escreve 'ordinary and Portland cement' com o factor 0,87 (unidade impressa 'kgCO2/m3', parece gralha por kg). Nenhuma norma de cimento citada."
+   },
+   {
+    "sheet_row": 2076,
+    "cimento_designacao": "ordinary and Portland cement (grau 42.5 / 32.5 conforme o texto)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4-5, Sec.2.3.1(b) Concrete: 'the cement grade for concrete C10 is 32.5 ... For 42.5, the crushed stone is 40 mm ... non-pumped commercial concrete cement ... grade of which is 42.5 ... Pumped commercial concrete cement ... grade of 42.5'; Tabela 2 'Carbon-emission coefficient of ordinary concrete', nota: 'The carbon-emission coefficient of ordinary and Portland cement is 0.87'; Tabela 4: 'Ordinary Portland cement kg 0.87 [30]'; Tabela 2 C45: 453 kg, 399.447",
+    "nota": "Traco da quota orcamental de Fujian (Tabela 2), nao ensaiado. O texto e ambiguo quanto a classe do cimento do 'ordinary concrete' C15-C45: so diz explicitamente 32.5 para C10 e 42.5 para os betoes comerciais/impermeaveis. A nota da Tabela 2 escreve 'ordinary and Portland cement' com o factor 0,87 (unidade impressa 'kgCO2/m3', parece gralha por kg). Nenhuma norma de cimento citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Base de coeficientes por quota (Fujian) aplicada a 16 edificios; texto integral lido (25 pp.). Designacao composta a partir do texto; a classe 32.5/42.5 por classe de betao nao e inequivoca."
+ },
+ {
+  "row_id": 4705,
+  "pares": [
+   {
+    "sheet_row": 1694,
+    "cimento_designacao": "CEM II 42.5 N based on limestone filler",
+    "norma_cimento": "EN 197-1",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Sec.2.1: 'CEM II 42.5 N based on limestone filler was used to produce TC'; p.6 apos Tabela 1: 'the cement used in these articles is CEM I ... This study used limestone powder as the supplementary cementite material'; p.13 Discussao: 'CEM II allows for the replacing of 35% of clinker [28]' ([28] = EN 197-1 ... Common Cements, 2011)",
+    "nota": "'CEM II' sem /A ou /B nem letra da adicao (so 'based on limestone filler'). Contradicao: o traco e a resistencia vem de Topcu & Toprak [14], cujo cimento e CEM I; os autores trocaram-no por calcario na ACV. A EN 197-1 so e citada na discussao sobre limites de clinquer, nao como norma do cimento usado. O UHPC do mesmo artigo usa CEM I 42.5 N."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "ACV de construcao off-site com UHPC vs betao tradicional (TC); texto integral lido (19 pp.)."
+ },
+ {
+  "row_id": 4709,
+  "pares": [
+   {
+    "sheet_row": 1697,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10 Sec.2.3.1: 'SHC-456 (456 kg cement), SHC-383 (383 kg cement), SHC-403 (403 kg cement), ... SHC-350 (350 kg cement) ... SHC-450 (450 kg cement)'; p.13: 'Figure 7 shows the tendency to lower impacts depending on the amount of OPC used in the mixes'; Tabela 4 (GWP): SHC 456 -> 439.56",
+    "nota": "Misturas de base de dados de literatura (Pei et al., Mondal et al., Schreiberova et al. [34-36]); o artigo so chama ao ligante 'cement' e, na discussao, 'OPC'. Inventario Ecoinvent 3.7.1 sem nomear o processo de cimento. Nenhuma norma."
+   },
+   {
+    "sheet_row": 1698,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10 Sec.2.3.1: 'SHC-456 (456 kg cement), SHC-383 (383 kg cement), SHC-403 (403 kg cement), ... SHC-350 (350 kg cement) ... SHC-450 (450 kg cement)'; p.13: 'Figure 7 shows the tendency to lower impacts depending on the amount of OPC used in the mixes'; Tabela 4 (GWP): SHC 383 -> 372.62",
+    "nota": "Misturas de base de dados de literatura (Pei et al., Mondal et al., Schreiberova et al. [34-36]); o artigo so chama ao ligante 'cement' e, na discussao, 'OPC'. Inventario Ecoinvent 3.7.1 sem nomear o processo de cimento. Nenhuma norma."
+   },
+   {
+    "sheet_row": 1699,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10 Sec.2.3.1: 'SHC-456 (456 kg cement), SHC-383 (383 kg cement), SHC-403 (403 kg cement), ... SHC-350 (350 kg cement) ... SHC-450 (450 kg cement)'; p.13: 'Figure 7 shows the tendency to lower impacts depending on the amount of OPC used in the mixes'; Tabela 4 (GWP): SHC 403 -> 390.88",
+    "nota": "Misturas de base de dados de literatura (Pei et al., Mondal et al., Schreiberova et al. [34-36]); o artigo so chama ao ligante 'cement' e, na discussao, 'OPC'. Inventario Ecoinvent 3.7.1 sem nomear o processo de cimento. Nenhuma norma."
+   },
+   {
+    "sheet_row": 1701,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10 Sec.2.3.1: 'SHC-456 (456 kg cement), SHC-383 (383 kg cement), SHC-403 (403 kg cement), ... SHC-350 (350 kg cement) ... SHC-450 (450 kg cement)'; p.13: 'Figure 7 shows the tendency to lower impacts depending on the amount of OPC used in the mixes'; Tabela 4 (GWP): SHC 350 -> 342.2",
+    "nota": "Misturas de base de dados de literatura (Pei et al., Mondal et al., Schreiberova et al. [34-36]); o artigo so chama ao ligante 'cement' e, na discussao, 'OPC'. Inventario Ecoinvent 3.7.1 sem nomear o processo de cimento. Nenhuma norma."
+   },
+   {
+    "sheet_row": 1703,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10 Sec.2.3.1: 'SHC-456 (456 kg cement), SHC-383 (383 kg cement), SHC-403 (403 kg cement), ... SHC-350 (350 kg cement) ... SHC-450 (450 kg cement)'; p.13: 'Figure 7 shows the tendency to lower impacts depending on the amount of OPC used in the mixes'; Tabela 4 (GWP): SHC 450 -> 433.9",
+    "nota": "Misturas de base de dados de literatura (Pei et al., Mondal et al., Schreiberova et al. [34-36]); o artigo so chama ao ligante 'cement' e, na discussao, 'OPC'. Inventario Ecoinvent 3.7.1 sem nomear o processo de cimento. Nenhuma norma."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Betao autocurativo com Bacillus subtilis (modelos GEP/ANN/EPR + ACV); texto integral lido (28 pp.)."
+ },
+ {
+  "row_id": 4716,
+  "pares": [
+   {
+    "sheet_row": 1704,
+    "cimento_designacao": "Ordinary Portland cement, OPC, CEM I 42.5R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.2.1: 'Ordinary Portland cement, OPC, CEM I 42.5R was used in the concrete mixtures'; Tabela 1 (oxidos do cimento); p.4 Tabela 3 (traco A: cimento 350 kg/m3, sem po de rocha); Tabela 4 A 'Conventional concrete' 43.5 MPa",
+    "nota": "Nenhuma norma de cimento citada (so EN 206 para a classe C30/37). Tabela 1 da apenas a composicao quimica em oxidos, nao a % de clinquer."
+   },
+   {
+    "sheet_row": 1707,
+    "cimento_designacao": "Ordinary Portland cement, OPC, CEM I 42.5R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "5% do cimento substituido por po de rocha basaltica (cimento 332.5 kg/m3)",
+    "citacao": "p.3, Sec.2.1: 'Ordinary Portland cement, OPC, CEM I 42.5R was used in the concrete mixtures'; Tabela 1 (oxidos do cimento); p.4 Tabela 3 (traco A: cimento 350 kg/m3, sem po de rocha); Tabela 3 D: cimento 332.5; Tabela 4 D '10% rock dust in FA + 5% in cement' 45 MPa",
+    "nota": "Nenhuma norma de cimento citada (so EN 206 para a classe C30/37). Tabela 1 da apenas a composicao quimica em oxidos, nao a % de clinquer. Po de rocha basaltica (inerte) substitui 5% do cimento e 10% da areia."
+   },
+   {
+    "sheet_row": 1708,
+    "cimento_designacao": "Ordinary Portland cement, OPC, CEM I 42.5R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% do cimento substituido por po de rocha basaltica",
+    "citacao": "p.3, Sec.2.1: 'Ordinary Portland cement, OPC, CEM I 42.5R was used in the concrete mixtures'; Tabela 1 (oxidos do cimento); p.4 Tabela 3 (traco A: cimento 350 kg/m3, sem po de rocha); Tabela 3 E; Tabela 4 E '10% rock dust in FA + 10% in cement' 43 MPa",
+    "nota": "Nenhuma norma de cimento citada (so EN 206 para a classe C30/37). Tabela 1 da apenas a composicao quimica em oxidos, nao a % de clinquer. Po de rocha basaltica substitui 10% do cimento e 10% da areia."
+   },
+   {
+    "sheet_row": 1709,
+    "cimento_designacao": "Ordinary Portland cement, OPC, CEM I 42.5R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "5% do cimento substituido por po de rocha basaltica",
+    "citacao": "p.3, Sec.2.1: 'Ordinary Portland cement, OPC, CEM I 42.5R was used in the concrete mixtures'; Tabela 1 (oxidos do cimento); p.4 Tabela 3 (traco A: cimento 350 kg/m3, sem po de rocha); Tabela 3 F; Tabela 4 F '20% rock dust in FA + 5% in cement' 46 MPa",
+    "nota": "Nenhuma norma de cimento citada (so EN 206 para a classe C30/37). Tabela 1 da apenas a composicao quimica em oxidos, nao a % de clinquer. Po de rocha basaltica substitui 5% do cimento e 20% da areia."
+   },
+   {
+    "sheet_row": 1710,
+    "cimento_designacao": "Ordinary Portland cement, OPC, CEM I 42.5R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% do cimento substituido por po de rocha basaltica",
+    "citacao": "p.3, Sec.2.1: 'Ordinary Portland cement, OPC, CEM I 42.5R was used in the concrete mixtures'; Tabela 1 (oxidos do cimento); p.4 Tabela 3 (traco A: cimento 350 kg/m3, sem po de rocha); Tabela 3 G; Tabela 4 G '20% rock dust in FA + 10% in cement' 44 MPa",
+    "nota": "Nenhuma norma de cimento citada (so EN 206 para a classe C30/37). Tabela 1 da apenas a composicao quimica em oxidos, nao a % de clinquer. Po de rocha basaltica substitui 10% do cimento e 20% da areia."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Pavimento de betao (Polonia) com po de rocha basaltica; texto integral lido (17 pp.)."
+ }
+]
