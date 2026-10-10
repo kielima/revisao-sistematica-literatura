@@ -1,0 +1,414 @@
+[
+ {
+  "row_id": 2827,
+  "pares": [
+   {
+    "sheet_row": 707,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.9, Tabela 6 'Specification of concrete mixes' (Cement 398 kg/m3); p.9 Tabela 8: 'Cement ... Cockburn Cement Port Hedland'; Fig.13 (p.19) legenda 'OPC'; Sec.3.5: 'cement alone accounts for 77% of the total global warming impact ... partial replacement of OPC'",
+    "nota": "Tipo de cimento nunca especificado alem de 'OPC'/'Cement' (fornecedor Cockburn Cement). Factor de CO2 do cimento de 'Australian emission databases' no SimaPro 9.2 (Sec.2.7.1), sem nome do dataset. Concreto C25/30 (Eurocode 2 = N25 da AS3600)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo Buildings 2023 lido na integra (texto). Unico ligante = cimento; os componentes reciclados (flowline/umbilical/tubular) sao reforco, nao adicao."
+ },
+ {
+  "row_id": 2832,
+  "pares": [
+   {
+    "sheet_row": 709,
+    "cimento_designacao": "Ordinary Portland cement (OPC) with a nominal compressive strength grade of 42.5 MPa at 28 days",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec.2.1 Materials: 'Ordinary Portland cement (OPC) with a nominal compressive strength grade of 42.5 MPa at 28 days was used as the cementitious material.' Tabela 2: cement 487.5 kg/m3 (mistura 0-0)",
+    "nota": "Nenhuma norma de cimento citada (so GB/T 50081 para o ensaio). ICV do cimento das bases CNMLCA/CLCD (Sec.3.2, Tabela 4), sem dataset nomeado. Mistura 0-0 = controlo sem agregado reciclado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Lido na integra (texto)."
+ },
+ {
+  "row_id": 2836,
+  "pares": [
+   {
+    "sheet_row": 743,
+    "cimento_designacao": "CPIII (Cimento Portland CP-III)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPIII - Concreto de Cimento Portland CP-III'; Sec.4.1.1 'Tracos avaliados' (p.33-34): 'concretos convencionais, um a base de cimento CPIII (CC-CPIII)'; Tabela 2: CC-CPIII cimento 420 kg/m3, 52 MPa, fonte (d) MEDEIROS-JUNIOR et al., 2014",
+    "nota": "Cenario Serra-ES. CP III = cimento comercial de escoria (familia actual 'scm', mas o ligante e o cimento tal como vendido). Nenhuma norma NBR citada; classe de resistencia do cimento nao indicada. Traco retirado da literatura (Medeiros-Junior et al., 2014); ACV no Ecoinvent 3.6/OpenLCA sem o dataset do cimento nomeado (provavel aproximacao por dataset generico)."
+   },
+   {
+    "sheet_row": 744,
+    "cimento_designacao": "CPIII (Cimento Portland CP-III)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPIII - Concreto de Cimento Portland CP-III'; Sec.4.1.1 'Tracos avaliados' (p.33-34): 'concretos convencionais, um a base de cimento CPIII (CC-CPIII)'; Tabela 2: CC-CPIII cimento 420 kg/m3, 52 MPa, fonte (d) MEDEIROS-JUNIOR et al., 2014",
+    "nota": "Cenario Porto Alegre-RS. CP III = cimento comercial de escoria (familia actual 'scm', mas o ligante e o cimento tal como vendido). Nenhuma norma NBR citada; classe de resistencia do cimento nao indicada. Traco retirado da literatura (Medeiros-Junior et al., 2014); ACV no Ecoinvent 3.6/OpenLCA sem o dataset do cimento nomeado (provavel aproximacao por dataset generico)."
+   },
+   {
+    "sheet_row": 745,
+    "cimento_designacao": "CPIII (Cimento Portland CP-III)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPIII - Concreto de Cimento Portland CP-III'; Sec.4.1.1 'Tracos avaliados' (p.33-34): 'concretos convencionais, um a base de cimento CPIII (CC-CPIII)'; Tabela 2: CC-CPIII cimento 420 kg/m3, 52 MPa, fonte (d) MEDEIROS-JUNIOR et al., 2014",
+    "nota": "Cenario Brasilia-DF. CP III = cimento comercial de escoria (familia actual 'scm', mas o ligante e o cimento tal como vendido). Nenhuma norma NBR citada; classe de resistencia do cimento nao indicada. Traco retirado da literatura (Medeiros-Junior et al., 2014); ACV no Ecoinvent 3.6/OpenLCA sem o dataset do cimento nomeado (provavel aproximacao por dataset generico)."
+   },
+   {
+    "sheet_row": 746,
+    "cimento_designacao": "CPIII (Cimento Portland CP-III)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPIII - Concreto de Cimento Portland CP-III'; Sec.4.1.1 'Tracos avaliados' (p.33-34): 'concretos convencionais, um a base de cimento CPIII (CC-CPIII)'; Tabela 2: CC-CPIII cimento 420 kg/m3, 52 MPa, fonte (d) MEDEIROS-JUNIOR et al., 2014",
+    "nota": "Cenario Recife-PE. CP III = cimento comercial de escoria (familia actual 'scm', mas o ligante e o cimento tal como vendido). Nenhuma norma NBR citada; classe de resistencia do cimento nao indicada. Traco retirado da literatura (Medeiros-Junior et al., 2014); ACV no Ecoinvent 3.6/OpenLCA sem o dataset do cimento nomeado (provavel aproximacao por dataset generico)."
+   },
+   {
+    "sheet_row": 747,
+    "cimento_designacao": "CPIII (Cimento Portland CP-III)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPIII - Concreto de Cimento Portland CP-III'; Sec.4.1.1 'Tracos avaliados' (p.33-34): 'concretos convencionais, um a base de cimento CPIII (CC-CPIII)'; Tabela 2: CC-CPIII cimento 420 kg/m3, 52 MPa, fonte (d) MEDEIROS-JUNIOR et al., 2014",
+    "nota": "Cenario Belem-PA. CP III = cimento comercial de escoria (familia actual 'scm', mas o ligante e o cimento tal como vendido). Nenhuma norma NBR citada; classe de resistencia do cimento nao indicada. Traco retirado da literatura (Medeiros-Junior et al., 2014); ACV no Ecoinvent 3.6/OpenLCA sem o dataset do cimento nomeado (provavel aproximacao por dataset generico)."
+   },
+   {
+    "sheet_row": 748,
+    "cimento_designacao": "CPI (Cimento Portland CPI)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPI - Concreto de Cimento Portland CPI'; Sec.4.1.1 (p.33-34): 'outro a base de cimento CPI (CC-CPI)'; Tabela 2: CC-CPI cimento 384 kg/m3, 51 MPa, fonte (b) MARINKOVIC et al., 2017",
+    "nota": "Cenario Serra-ES. Nenhuma norma citada. Traco retirado de Marinkovic et al. (2017), estudo estrangeiro - o cimento original desse traco nao e descrito na dissertacao; a autora rotula-o CPI. ACV Ecoinvent 3.6 sem dataset do cimento nomeado."
+   },
+   {
+    "sheet_row": 749,
+    "cimento_designacao": "CPI (Cimento Portland CPI)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPI - Concreto de Cimento Portland CPI'; Sec.4.1.1 (p.33-34): 'outro a base de cimento CPI (CC-CPI)'; Tabela 2: CC-CPI cimento 384 kg/m3, 51 MPa, fonte (b) MARINKOVIC et al., 2017",
+    "nota": "Cenario Porto Alegre-RS. Nenhuma norma citada. Traco retirado de Marinkovic et al. (2017), estudo estrangeiro - o cimento original desse traco nao e descrito na dissertacao; a autora rotula-o CPI. ACV Ecoinvent 3.6 sem dataset do cimento nomeado."
+   },
+   {
+    "sheet_row": 750,
+    "cimento_designacao": "CPI (Cimento Portland CPI)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPI - Concreto de Cimento Portland CPI'; Sec.4.1.1 (p.33-34): 'outro a base de cimento CPI (CC-CPI)'; Tabela 2: CC-CPI cimento 384 kg/m3, 51 MPa, fonte (b) MARINKOVIC et al., 2017",
+    "nota": "Cenario Brasilia-DF. Nenhuma norma citada. Traco retirado de Marinkovic et al. (2017), estudo estrangeiro - o cimento original desse traco nao e descrito na dissertacao; a autora rotula-o CPI. ACV Ecoinvent 3.6 sem dataset do cimento nomeado."
+   },
+   {
+    "sheet_row": 751,
+    "cimento_designacao": "CPI (Cimento Portland CPI)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPI - Concreto de Cimento Portland CPI'; Sec.4.1.1 (p.33-34): 'outro a base de cimento CPI (CC-CPI)'; Tabela 2: CC-CPI cimento 384 kg/m3, 51 MPa, fonte (b) MARINKOVIC et al., 2017",
+    "nota": "Cenario Recife-PE. Nenhuma norma citada. Traco retirado de Marinkovic et al. (2017), estudo estrangeiro - o cimento original desse traco nao e descrito na dissertacao; a autora rotula-o CPI. ACV Ecoinvent 3.6 sem dataset do cimento nomeado."
+   },
+   {
+    "sheet_row": 752,
+    "cimento_designacao": "CPI (Cimento Portland CPI)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Lista de abreviaturas: 'CC-CPI - Concreto de Cimento Portland CPI'; Sec.4.1.1 (p.33-34): 'outro a base de cimento CPI (CC-CPI)'; Tabela 2: CC-CPI cimento 384 kg/m3, 51 MPa, fonte (b) MARINKOVIC et al., 2017",
+    "nota": "Cenario Belem-PA. Nenhuma norma citada. Traco retirado de Marinkovic et al. (2017), estudo estrangeiro - o cimento original desse traco nao e descrito na dissertacao; a autora rotula-o CPI. ACV Ecoinvent 3.6 sem dataset do cimento nomeado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Dissertacao lida na integra (125 mil caracteres, ate aos apendices; nao houve truncagem aparente). Comparacao com 3 geopolimeros (nao estao neste lote)."
+ },
+ {
+  "row_id": 2841,
+  "pares": [
+   {
+    "sheet_row": 758,
+    "cimento_designacao": "CP II F-32",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "10% de filler (segundo o autor, para ajustar o factor de emissao)",
+    "citacao": "p.71 (Sec.3.4.1, Analise do inventario): 'O cimento utilizado para a realizacao dos ensaios em ambos os trabalhos foi o CP II F -32'; Tabela 13 (p.71); p.71-72: 'optou-se por utilizar as emissoes do cimento Portland CPI ... por esse tipo de cimento possuir 10% de filler, o fator de emissao considerado foi reduzido em 10%'; Tabela 14 (CPI - Sem adicao de residuos, CO2 855 kg/t, Carvalho 2002)",
+    "nota": "Cimento diferente entre ensaio e ACV: os tracos (Krug 2011; Fedumenti 2013) usam CP II F-32, mas o factor de emissao da ACV e o do CPI de Carvalho (2002) reduzido em 10% pelo filler. Nenhuma norma NBR citada para o cimento. Traco 0% CCA LF (Fedumenti 2013)."
+   },
+   {
+    "sheet_row": 759,
+    "cimento_designacao": "CP II F-32",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% de filler no cimento (segundo o autor); 20% CCA em volume de aglomerante",
+    "citacao": "p.71 (Sec.3.4.1, Analise do inventario): 'O cimento utilizado para a realizacao dos ensaios em ambos os trabalhos foi o CP II F -32'; Tabela 13 (p.71); p.71-72: 'optou-se por utilizar as emissoes do cimento Portland CPI ... por esse tipo de cimento possuir 10% de filler, o fator de emissao considerado foi reduzido em 10%'; Tabela 14 (CPI - Sem adicao de residuos, CO2 855 kg/t, Carvalho 2002); 'nestes estudos, 20% de CCA indica que a cinza ocupa 20% do volume de aglomerantes'",
+    "nota": "Cimento diferente entre ensaio e ACV: os tracos (Krug 2011; Fedumenti 2013) usam CP II F-32, mas o factor de emissao da ACV e o do CPI de Carvalho (2002) reduzido em 10% pelo filler. Nenhuma norma NBR citada para o cimento. Mistura com 20% de cinza de casca de arroz de leito fluidizado (cimento 285 kg/m3)."
+   },
+   {
+    "sheet_row": 760,
+    "cimento_designacao": "CP II F-32",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "10% de filler (segundo o autor, para ajustar o factor de emissao)",
+    "citacao": "p.71 (Sec.3.4.1, Analise do inventario): 'O cimento utilizado para a realizacao dos ensaios em ambos os trabalhos foi o CP II F -32'; Tabela 13 (p.71); p.71-72: 'optou-se por utilizar as emissoes do cimento Portland CPI ... por esse tipo de cimento possuir 10% de filler, o fator de emissao considerado foi reduzido em 10%'; Tabela 14 (CPI - Sem adicao de residuos, CO2 855 kg/t, Carvalho 2002)",
+    "nota": "Cimento diferente entre ensaio e ACV: os tracos (Krug 2011; Fedumenti 2013) usam CP II F-32, mas o factor de emissao da ACV e o do CPI de Carvalho (2002) reduzido em 10% pelo filler. Nenhuma norma NBR citada para o cimento. Traco 0% CCA GR (Krug 2011)."
+   },
+   {
+    "sheet_row": 761,
+    "cimento_designacao": "CP II F-32",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% de filler no cimento (segundo o autor); 20% CCA em volume de aglomerante",
+    "citacao": "p.71 (Sec.3.4.1, Analise do inventario): 'O cimento utilizado para a realizacao dos ensaios em ambos os trabalhos foi o CP II F -32'; Tabela 13 (p.71); p.71-72: 'optou-se por utilizar as emissoes do cimento Portland CPI ... por esse tipo de cimento possuir 10% de filler, o fator de emissao considerado foi reduzido em 10%'; Tabela 14 (CPI - Sem adicao de residuos, CO2 855 kg/t, Carvalho 2002)",
+    "nota": "Cimento diferente entre ensaio e ACV: os tracos (Krug 2011; Fedumenti 2013) usam CP II F-32, mas o factor de emissao da ACV e o do CPI de Carvalho (2002) reduzido em 10% pelo filler. Nenhuma norma NBR citada para o cimento. Mistura com 20% de cinza de casca de arroz de grelha (cimento 381 kg/m3)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Dissertacao lida na integra (196 mil caracteres, ate ao questionario do apendice, p.120). Tambem cita CPII-F-32 na revisao (p.~38) para os mesmos estudos."
+ },
+ {
+  "row_id": 2847,
+  "pares": [
+   {
+    "sheet_row": 763,
+    "cimento_designacao": "cimento Portland CPV - ARI (marca Caue)",
+    "norma_cimento": "NBR 5733:1991",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.4.1 Materias-Primas (p.65): 'Para compor a matriz cimenticia dos compositos foi utilizado o cimento Portland CPV - ARI, da marca Caue, de alta resistencia inicial (NBR 5733:1991) ... constituido predominantemente por clinquer e nao possuir adicoes minerais'; Tabela 14 (composicao quimica do CPV-ARI)",
+    "nota": "A Sec.4.10 (argamassas, p.76) e o capitulo de ACV (pp.131-160) nao foram lidos: o read_file_content truncou na p.76 e o PDF (9,2 MB) nao desceu pelo conector. A atribuicao do CPV-ARI as argamassas vem da seccao de materiais (matriz cimenticia dos compositos); nao confirmado o cimento/dataset usado no inventario da ACV. No ensaio de Frattini (Sec.4.9.4, feito na UPV) usou-se 'CEM I' - nao e o das argamassas. Argamassa de referencia."
+   },
+   {
+    "sheet_row": 764,
+    "cimento_designacao": "cimento Portland CPV - ARI (marca Caue)",
+    "norma_cimento": "NBR 5733:1991",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% de silica ativa",
+    "citacao": "Sec.4.1 Materias-Primas (p.65): 'Para compor a matriz cimenticia dos compositos foi utilizado o cimento Portland CPV - ARI, da marca Caue, de alta resistencia inicial (NBR 5733:1991) ... constituido predominantemente por clinquer e nao possuir adicoes minerais'; Tabela 14 (composicao quimica do CPV-ARI)",
+    "nota": "A Sec.4.10 (argamassas, p.76) e o capitulo de ACV (pp.131-160) nao foram lidos: o read_file_content truncou na p.76 e o PDF (9,2 MB) nao desceu pelo conector. A atribuicao do CPV-ARI as argamassas vem da seccao de materiais (matriz cimenticia dos compositos); nao confirmado o cimento/dataset usado no inventario da ACV. No ensaio de Frattini (Sec.4.9.4, feito na UPV) usou-se 'CEM I' - nao e o das argamassas."
+   },
+   {
+    "sheet_row": 765,
+    "cimento_designacao": "cimento Portland CPV - ARI (marca Caue)",
+    "norma_cimento": "NBR 5733:1991",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "5% de cinza de cana-de-acucar lavada",
+    "citacao": "Sec.4.1 Materias-Primas (p.65): 'Para compor a matriz cimenticia dos compositos foi utilizado o cimento Portland CPV - ARI, da marca Caue, de alta resistencia inicial (NBR 5733:1991) ... constituido predominantemente por clinquer e nao possuir adicoes minerais'; Tabela 14 (composicao quimica do CPV-ARI)",
+    "nota": "A Sec.4.10 (argamassas, p.76) e o capitulo de ACV (pp.131-160) nao foram lidos: o read_file_content truncou na p.76 e o PDF (9,2 MB) nao desceu pelo conector. A atribuicao do CPV-ARI as argamassas vem da seccao de materiais (matriz cimenticia dos compositos); nao confirmado o cimento/dataset usado no inventario da ACV. No ensaio de Frattini (Sec.4.9.4, feito na UPV) usou-se 'CEM I' - nao e o das argamassas."
+   },
+   {
+    "sheet_row": 766,
+    "cimento_designacao": "cimento Portland CPV - ARI (marca Caue)",
+    "norma_cimento": "NBR 5733:1991",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% de cinza de cana-de-acucar lavada",
+    "citacao": "Sec.4.1 Materias-Primas (p.65): 'Para compor a matriz cimenticia dos compositos foi utilizado o cimento Portland CPV - ARI, da marca Caue, de alta resistencia inicial (NBR 5733:1991) ... constituido predominantemente por clinquer e nao possuir adicoes minerais'; Tabela 14 (composicao quimica do CPV-ARI)",
+    "nota": "A Sec.4.10 (argamassas, p.76) e o capitulo de ACV (pp.131-160) nao foram lidos: o read_file_content truncou na p.76 e o PDF (9,2 MB) nao desceu pelo conector. A atribuicao do CPV-ARI as argamassas vem da seccao de materiais (matriz cimenticia dos compositos); nao confirmado o cimento/dataset usado no inventario da ACV. No ensaio de Frattini (Sec.4.9.4, feito na UPV) usou-se 'CEM I' - nao e o das argamassas."
+   },
+   {
+    "sheet_row": 767,
+    "cimento_designacao": "cimento Portland CPV - ARI (marca Caue)",
+    "norma_cimento": "NBR 5733:1991",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "20% de cinza de cana-de-acucar lavada",
+    "citacao": "Sec.4.1 Materias-Primas (p.65): 'Para compor a matriz cimenticia dos compositos foi utilizado o cimento Portland CPV - ARI, da marca Caue, de alta resistencia inicial (NBR 5733:1991) ... constituido predominantemente por clinquer e nao possuir adicoes minerais'; Tabela 14 (composicao quimica do CPV-ARI)",
+    "nota": "A Sec.4.10 (argamassas, p.76) e o capitulo de ACV (pp.131-160) nao foram lidos: o read_file_content truncou na p.76 e o PDF (9,2 MB) nao desceu pelo conector. A atribuicao do CPV-ARI as argamassas vem da seccao de materiais (matriz cimenticia dos compositos); nao confirmado o cimento/dataset usado no inventario da ACV. No ensaio de Frattini (Sec.4.9.4, feito na UPV) usou-se 'CEM I' - nao e o das argamassas."
+   },
+   {
+    "sheet_row": 768,
+    "cimento_designacao": "cimento Portland CPV - ARI (marca Caue)",
+    "norma_cimento": "NBR 5733:1991",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "5% de cinza de cana-energia lavada",
+    "citacao": "Sec.4.1 Materias-Primas (p.65): 'Para compor a matriz cimenticia dos compositos foi utilizado o cimento Portland CPV - ARI, da marca Caue, de alta resistencia inicial (NBR 5733:1991) ... constituido predominantemente por clinquer e nao possuir adicoes minerais'; Tabela 14 (composicao quimica do CPV-ARI)",
+    "nota": "A Sec.4.10 (argamassas, p.76) e o capitulo de ACV (pp.131-160) nao foram lidos: o read_file_content truncou na p.76 e o PDF (9,2 MB) nao desceu pelo conector. A atribuicao do CPV-ARI as argamassas vem da seccao de materiais (matriz cimenticia dos compositos); nao confirmado o cimento/dataset usado no inventario da ACV. No ensaio de Frattini (Sec.4.9.4, feito na UPV) usou-se 'CEM I' - nao e o das argamassas."
+   },
+   {
+    "sheet_row": 769,
+    "cimento_designacao": "cimento Portland CPV - ARI (marca Caue)",
+    "norma_cimento": "NBR 5733:1991",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% de cinza de cana-energia lavada",
+    "citacao": "Sec.4.1 Materias-Primas (p.65): 'Para compor a matriz cimenticia dos compositos foi utilizado o cimento Portland CPV - ARI, da marca Caue, de alta resistencia inicial (NBR 5733:1991) ... constituido predominantemente por clinquer e nao possuir adicoes minerais'; Tabela 14 (composicao quimica do CPV-ARI)",
+    "nota": "A Sec.4.10 (argamassas, p.76) e o capitulo de ACV (pp.131-160) nao foram lidos: o read_file_content truncou na p.76 e o PDF (9,2 MB) nao desceu pelo conector. A atribuicao do CPV-ARI as argamassas vem da seccao de materiais (matriz cimenticia dos compositos); nao confirmado o cimento/dataset usado no inventario da ACV. No ensaio de Frattini (Sec.4.9.4, feito na UPV) usou-se 'CEM I' - nao e o das argamassas."
+   },
+   {
+    "sheet_row": 770,
+    "cimento_designacao": "cimento Portland CPV - ARI (marca Caue)",
+    "norma_cimento": "NBR 5733:1991",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "20% de cinza de cana-energia lavada",
+    "citacao": "Sec.4.1 Materias-Primas (p.65): 'Para compor a matriz cimenticia dos compositos foi utilizado o cimento Portland CPV - ARI, da marca Caue, de alta resistencia inicial (NBR 5733:1991) ... constituido predominantemente por clinquer e nao possuir adicoes minerais'; Tabela 14 (composicao quimica do CPV-ARI)",
+    "nota": "A Sec.4.10 (argamassas, p.76) e o capitulo de ACV (pp.131-160) nao foram lidos: o read_file_content truncou na p.76 e o PDF (9,2 MB) nao desceu pelo conector. A atribuicao do CPV-ARI as argamassas vem da seccao de materiais (matriz cimenticia dos compositos); nao confirmado o cimento/dataset usado no inventario da ACV. No ensaio de Frattini (Sec.4.9.4, feito na UPV) usou-se 'CEM I' - nao e o das argamassas."
+   }
+  ],
+  "texto_completo_lido": false,
+  "notas": "TESE TRUNCADA: texto obtido so ate a p.76 (inicio da Sec.4.10). download_file_content falhou (mensagem demasiado grande, 9,2 MB). Para confirmar o cimento das argamassas e do inventario da ACV seria preciso um recorte de paginas (shrink-drive-pdf.yml com first_page/last_page) - nao feito porque criaria ficheiros no Drive. Teores de substituicao copiados da descricao das misturas no lote (nao da tabela de traco da tese)."
+ },
+ {
+  "row_id": 2854,
+  "pares": [
+   {
+    "sheet_row": 239,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Tabela 4 'EPDs and environmental data': 'One Click LCA - Ready-mix concrete C30/37 / C40/50 / C50/60 - m3'",
+    "nota": "Factor generico da base One Click LCA para betao pronto; o artigo nao diz o cimento nem a composicao. Elemento real: pre-fabricado de betao armado (Luxemburgo)."
+   },
+   {
+    "sheet_row": 240,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Tabela 4 'EPDs and environmental data': 'One Click LCA - Ready-mix concrete C30/37 / C40/50 / C50/60 - m3'",
+    "nota": "Factor generico da base One Click LCA para betao pronto; o artigo nao diz o cimento nem a composicao. Elemento real: pre-fabricado de betao armado (Luxemburgo)."
+   },
+   {
+    "sheet_row": 241,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.6, Tabela 4 'EPDs and environmental data': 'One Click LCA - Ready-mix concrete C30/37 / C40/50 / C50/60 - m3'",
+    "nota": "Factor generico da base One Click LCA para betao pronto; o artigo nao diz o cimento nem a composicao. Elemento real: pre-fabricado de betao armado (Luxemburgo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 8 paginas lido na integra."
+ },
+ {
+  "row_id": 2879,
+  "pares": [
+   {
+    "sheet_row": 777,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Tabela 1 'Concrete [kg CO2-Eq./m3] A1-A3 MME mu 248,8'; p.3: 'EPDs for manufacturers located in a total of 34 countries'; p.6: 'concrete grade of C 25/30'",
+    "nota": "Media de EPDs de betao de 34 paises, sem qualquer informacao de cimento; a classe C25/30 e do caso de estudo (ponte pedonal ficticia), nao das EPDs."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 9 paginas lido na integra."
+ },
+ {
+  "row_id": 2895,
+  "pares": [
+   {
+    "sheet_row": 786,
+    "cimento_designacao": "CEM II/A-LL 42.5",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec.2.2 Cement and aggregates: 'Portland limestone cement CEM II/A-LL 42.5 was used as binder.'; Sec.2.3: 'The first mix (V0) ... contained only ordinary Portland cement (OPC)'; p.~11: 'in this study cement type R, which provides rapid strength development, was used'",
+    "nota": "Contradicao interna: o cimento e CEM II/A-LL 42.5 (Sec.2.2), mas o V0 e chamado 'ordinary Portland cement (OPC)' na Sec.2.3, e mais adiante diz-se 'cement type R' (designacao completa provavel CEM II/A-LL 42.5 R, nao escrita assim). Nenhuma norma citada para o cimento. Dataset Ecoinvent 3.8 do cimento so no material suplementar (Table S2), nao no PDF."
+   },
+   {
+    "sheet_row": 787,
+    "cimento_designacao": "CEM II/A-LL 42.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% (em massa) do cimento substituido por cinza de fundo de RSU vitrificada",
+    "citacao": "p.3, Sec.2.2 Cement and aggregates: 'Portland limestone cement CEM II/A-LL 42.5 was used as binder.'; Sec.2.3: 'The first mix (V0) ... contained only ordinary Portland cement (OPC)'; p.~11: 'in this study cement type R, which provides rapid strength development, was used'; 'V10, V15, V20 ... substituting 10%, 15%, and 20% by weight of cement with vitrified MSWI-BA'",
+    "nota": "Contradicao interna: o cimento e CEM II/A-LL 42.5 (Sec.2.2), mas o V0 e chamado 'ordinary Portland cement (OPC)' na Sec.2.3, e mais adiante diz-se 'cement type R' (designacao completa provavel CEM II/A-LL 42.5 R, nao escrita assim). Nenhuma norma citada para o cimento. Dataset Ecoinvent 3.8 do cimento so no material suplementar (Table S2), nao no PDF."
+   },
+   {
+    "sheet_row": 788,
+    "cimento_designacao": "CEM II/A-LL 42.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15% (em massa) do cimento substituido por cinza de fundo de RSU vitrificada",
+    "citacao": "p.3, Sec.2.2 Cement and aggregates: 'Portland limestone cement CEM II/A-LL 42.5 was used as binder.'; Sec.2.3: 'The first mix (V0) ... contained only ordinary Portland cement (OPC)'; p.~11: 'in this study cement type R, which provides rapid strength development, was used'",
+    "nota": "Contradicao interna: o cimento e CEM II/A-LL 42.5 (Sec.2.2), mas o V0 e chamado 'ordinary Portland cement (OPC)' na Sec.2.3, e mais adiante diz-se 'cement type R' (designacao completa provavel CEM II/A-LL 42.5 R, nao escrita assim). Nenhuma norma citada para o cimento. Dataset Ecoinvent 3.8 do cimento so no material suplementar (Table S2), nao no PDF."
+   },
+   {
+    "sheet_row": 789,
+    "cimento_designacao": "CEM II/A-LL 42.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "20% (em massa) do cimento substituido por cinza de fundo de RSU vitrificada",
+    "citacao": "p.3, Sec.2.2 Cement and aggregates: 'Portland limestone cement CEM II/A-LL 42.5 was used as binder.'; Sec.2.3: 'The first mix (V0) ... contained only ordinary Portland cement (OPC)'; p.~11: 'in this study cement type R, which provides rapid strength development, was used'",
+    "nota": "Contradicao interna: o cimento e CEM II/A-LL 42.5 (Sec.2.2), mas o V0 e chamado 'ordinary Portland cement (OPC)' na Sec.2.3, e mais adiante diz-se 'cement type R' (designacao completa provavel CEM II/A-LL 42.5 R, nao escrita assim). Nenhuma norma citada para o cimento. Dataset Ecoinvent 3.8 do cimento so no material suplementar (Table S2), nao no PDF."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo lido na integra (texto, 95 mil caracteres). Material suplementar nao incluido no PDF."
+ },
+ {
+  "row_id": 2902,
+  "pares": [
+   {
+    "sheet_row": 790,
+    "cimento_designacao": "Cement, Portland {US}|market for (dataset Ecoinvent)",
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tabela A3 'Material inventory of modeled 78-MPa 3D printed concrete': 'Cement 8500 g Cement, Portland {US}|market for'; nota a: 'Masses of silica fume not included due to the material's status as a waste byproduct'; Sec.4: '78-MPa 3D printed concrete contains 47.73% cement by weight'",
+    "nota": "O cimento so aparece como dataset do Ecoinvent; o tipo real nao e dito. A mistura tem silica de fumo (excluida do inventario), mas a sua proporcao so esta na Fig.5 (imagem, nao lida - PDF de 10 MB nao desceu pelo conector), por isso nao e possivel dizer se e substituicao no traco."
+   },
+   {
+    "sheet_row": 791,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.5 Parametric study / p.~14: '35-MPa 3D printed concrete emits 405 kg CO2 equivalent [23]'",
+    "nota": "Mistura hipotetica de 3DCP de 35 MPa tirada do estudo anterior [23]; nenhuma informacao sobre o cimento."
+   },
+   {
+    "sheet_row": 1862,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": "13.48% de cimento em massa do betao (extrapolado do dataset Ecoinvent '35 MPa {GLO} market for')",
+    "citacao": "Sec.3.2: 'The impact indicator values for the 35-MPa ready-mix concrete are sourced from the 2020 Environmental Product Declaration (EPD) ... 30 ready-mix concrete mixtures from eight Southern California plants'; Tabela A1: '35 MPa Concrete CalPortland Mix 45EF6Za'; Fig.5 legenda: mix extrapolado do Ecoinvent 'due to the lack of specific mix design data in the CalPortland EPD'",
+    "nota": "EPD do produtor (CalPortland, NRMCA EPD 20035); o artigo nao diz o tipo de cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto completo lido (84 mil caracteres, incluindo apendices); a Fig.5 (traco) e imagem e nao foi vista."
+ },
+ {
+  "row_id": 2937,
+  "pares": [
+   {
+    "sheet_row": 795,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Sec.3: 'three types of concrete: traditional concrete that uses OPC, green concrete including 30% FA, and green concrete including 50% GGBFS'; p.10: 'One-Click LCA EPD database used in this study was the Egyptian database'; HBERT usa 'ICE database ... V3 (2019)'; Tabela 2 (p.14): 'HBA traditional concrete Cast in Situ 25/30' / 'HBA concrete 30% fly ash' / 'HBA concrete 50% GGBFS'",
+    "nota": "Materiais de base de dados (HBERT/ICE V3 e One Click LCA egipcia), nao misturas proprias; o tipo de cimento nunca e especificado alem de 'OPC'/'Portland cement'. 'The first structure contains 100% OPC'."
+   },
+   {
+    "sheet_row": 796,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "30% de cinza volante (FA) 'as a cement substitute'",
+    "citacao": "p.7, Sec.3: 'three types of concrete: traditional concrete that uses OPC, green concrete including 30% FA, and green concrete including 50% GGBFS'; p.10: 'One-Click LCA EPD database used in this study was the Egyptian database'; HBERT usa 'ICE database ... V3 (2019)'; Tabela 2 (p.14): 'HBA traditional concrete Cast in Situ 25/30' / 'HBA concrete 30% fly ash' / 'HBA concrete 50% GGBFS'",
+    "nota": "Materiais de base de dados (HBERT/ICE V3 e One Click LCA egipcia), nao misturas proprias; o tipo de cimento nunca e especificado alem de 'OPC'/'Portland cement'. Substituicao definida pelo material da base de dados (HBA concrete 30% fly ash)."
+   },
+   {
+    "sheet_row": 797,
+    "cimento_designacao": "OPC",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "50% de GGBFS 'as a cement substitute'",
+    "citacao": "p.7, Sec.3: 'three types of concrete: traditional concrete that uses OPC, green concrete including 30% FA, and green concrete including 50% GGBFS'; p.10: 'One-Click LCA EPD database used in this study was the Egyptian database'; HBERT usa 'ICE database ... V3 (2019)'; Tabela 2 (p.14): 'HBA traditional concrete Cast in Situ 25/30' / 'HBA concrete 30% fly ash' / 'HBA concrete 50% GGBFS'",
+    "nota": "Materiais de base de dados (HBERT/ICE V3 e One Click LCA egipcia), nao misturas proprias; o tipo de cimento nunca e especificado alem de 'OPC'/'Portland cement'. Substituicao definida pelo material da base de dados (HBA concrete 50% GGBFS)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo lido na integra (texto)."
+ }
+]

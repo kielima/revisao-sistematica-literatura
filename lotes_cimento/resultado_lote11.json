@@ -1,0 +1,270 @@
+[
+ {
+  "row_id": 3282,
+  "pares": [
+   {
+    "sheet_row": 335,
+    "cimento_designacao": "White cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.302, Sec. 2.1: 'Two types of cement were included in the analysis for all concrete mixtures, Type I cement ... and White cement, an architectural cement used most commonly for exposed-surface elements'; p.304, Table 3: 'White cement 1.07 kg CO2e/kg, EPD [23]'; ref. [23]: 'EPD Cimsa Super White - White portland cement, 2015, EPD-CIS-20150243-CAA1-EN'; p.306: 'Maximum initial embodied carbon ... 694 kg CO2e for a high compressive strength (45 MPa) White cement concrete mixture with no SCM replacement'",
+    "nota": "Estudo de modelacao (traco teorico pelo metodo AVM da PCA, Table 1: 641 kg/m3 de cimento a 45 MPa), sem ensaio. O artigo nao cita norma para o cimento branco; o factor vem da EPD do cimento branco Cimsa Super White (Turquia). O fck 45 MPa e de projecto e o proprio artigo assume resistencia igual para Type I e White. O artigo chama a todas as misturas 'OPC concrete'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (11 pp., ate as referencias). Unico par: mistura White cement 45 MPa 0% SCM."
+ },
+ {
+  "row_id": 3283,
+  "pares": [
+   {
+    "sheet_row": 337,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.394, Table 2, nota c: 'Precast concrete spec: RC 40/50 (p.41, Hammond and Jones [33])'; nota d: 'Hybrid precast + in situ figure taken as average of 1 and 3 above'; p.393: 'used standard UK references for embodied carbon coefficients for stages A1-3 from the Bath/BSRIA Inventory of Carbon and Energy [33]'",
+    "nota": "O artigo nunca nomeia o cimento: o betao e um factor generico da base ICE (Hammond & Jones 2011) para 'RC 40/50' pre-fabricado, sem traco. A palavra 'cement' so aparece na introducao/revisao e para 'cementitious layers' acusticas. O coeficiente usado pela engenharia para a laje hibrida e 0,189 kgCO2e/kg (media RC25/30 in situ 0,198 e RC40/50 pre-fabricado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (10 pp.). Caso de estudo WYNG Gardens (Cambridge); dados de cimento inexistentes."
+ },
+ {
+  "row_id": 3288,
+  "pares": [
+   {
+    "sheet_row": 342,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.2: 'The design strength and modulus of elasticity follow Korean Standard specifications (KS F 4009, ...)'; 'this study selected concrete commonly used in the market'; p.4, Table 2: 'Concrete 258.58 kg CO2-eq/m3 [13]' (EPD do Ministerio do Ambiente coreano)",
+    "nota": "O artigo nao menciona cimento em lado nenhum. O CO2 do betao e um factor de EPD coreana (Korea Environmental Industry & Technology Institute) por m3; a KS F 4009 citada e a norma do betao pronto, nao do cimento. Nao ha traco."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (10 pp.)."
+ },
+ {
+  "row_id": 3305,
+  "pares": [
+   {
+    "sheet_row": 344,
+    "cimento_designacao": "ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Sec. 3.3: 'For concrete, commonly used ingredients include ordinary Portland cement, river gravel, and sand'; p.6: 'The unit CO2 emissions from producing cement ... are 0.951 kg CO2/kg' (Ecoinvent [89]/[90]); Table 3 (inventario): 'CFST ... Cement 244 kg 0.951' / 'CFFT ... Cement 122 kg 0.951'; p.3, Sec. 2.1: 'The benchmark example is from [32], where 1 m3 of concrete production considers 400 kg of cement, 700 kg of sand, and 1200 kg of gravel'",
+    "nota": "Designacao generica, sem tipo/classe nem norma; factor do cimento de Ecoinvent. O betao do CFST (f'co 35 MPa) e do exemplo de referencia [32]. Sem ensaio proprio."
+   },
+   {
+    "sheet_row": 345,
+    "cimento_designacao": "ordinary Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Sec. 3.3: 'For concrete, commonly used ingredients include ordinary Portland cement, river gravel, and sand'; p.6: 'The unit CO2 emissions from producing cement ... are 0.951 kg CO2/kg' (Ecoinvent [89]/[90]); Table 3 (inventario): 'CFST ... Cement 244 kg 0.951' / 'CFFT ... Cement 122 kg 0.951'; p.3, Sec. 2.1: 'for the other two scenarios, 1 m3 of C40 concrete requires 350 kg of cement, 175 kg of water, 1194 kg of sand, and 614 kg of gravel [66]'",
+    "nota": "Designacao generica, sem tipo/classe nem norma; traco C40 tirado da ref. [66]; factor do cimento de Ecoinvent. Sem ensaio proprio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (estudo de ACV/LCC de colunas CFST, CFFT e DSTC)."
+ },
+ {
+  "row_id": 3309,
+  "pares": [
+   {
+    "sheet_row": 346,
+    "cimento_designacao": "Ordinary Portland cement",
+    "norma_cimento": "AS 3972",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec. 2.1: 'The concrete was batched with an Ordinary Portland cement meeting the requirements of AS 3972 [26]'; ref. [26]: 'Standards Australia (2010) AS 3972-2010 General Purpose Cements'; Table 1: Cement 450.78 (VA) / 471.68 / 423.21 / 443.65 kg/m3; Table 5: 'Cement 0.7634 kg CO2-eq/kg'",
+    "nota": "Mesmo cimento nas quatro geracoes (VAC, RACI-III); sem adicoes no traco. O artigo nao diz se e o tipo GP ou outro da AS 3972 (so 'Ordinary Portland cement'). O factor 0,7634 vem do modelo de Gursel/Bennett et al. 2022, nao de uma EPD do cimento usado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 3321,
+  "pares": [
+   {
+    "sheet_row": 958,
+    "cimento_designacao": "Type I Portland cement or CEM I 52.5",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "minimo de 95% de clinquer, restantes 5% outros constituintes como gesso; Table 1: ligante 335,0 kg/m3 = clinquer 318,3 + 'SCM' 16,7",
+    "citacao": "p.4, Sec. 2.4: 'Note that cement-only refers to Type I Portland cement or CEM I 52.5 which has a minimum of 95% clinker, whilst the remaining 5% contains other constituents such as gypsum'; p.5, Table 1: 'C100-S0-RA0-H-F36 Aiello and Leuzzi (2010) 335.0 318.3 16.7 ... 36.6'",
+    "nota": "Mistura da literatura (Aiello & Leuzzi 2010), sem ensaio proprio. A designacao e a frase generica do artigo para todas as misturas 'cement-only', nao o cimento declarado pela fonte. Nenhuma norma citada para Type I/CEM I (EN 197-1 e ASTM C150 nao aparecem); as normas citadas (NTC 121, ASTM C1157) referem-se ao cimento colombiano ART das misturas proprias, nao a esta."
+   },
+   {
+    "sheet_row": 959,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": "Table 1: ligante 380,0 kg/m3 = clinquer 285,0 + SCM 95,0 (75%/25%); LCI do cimento: 'raw materials (75% clinker and 25% fly ash)'",
+    "citacao": "p.5, Table 1: 'C75-S25-R0-H-F36 Jau et al. (2004) 380.0 285.0 95.0 ... 36.3'; p.4: 'Caa is the amount of cement from the total binder in percentage, Sbb represents the quantity of SCM'; p.4, Sec. 2.5: 'The inventory flows for cement production were as follows: raw materials (75% clinker and 25% fly ash)'; p.4: 'From the two available cement data sheets, general use (GU) and high early strength (HE or ART), the later was used in the experiments ... This cement (ART) ... incorporates 25% SCMs'; normas: 'cement production conforms with the NTC 121 (ICONTEC, 2011) ... largely based on the ASTM C1157'",
+    "nota": "Mistura da literatura (Jau et al. 2004), sem ensaio proprio; o artigo nao diz que cimento Jau usou. Ambiguo: o resumo/conclusoes descrevem 'replacing 25% of the cement with fly ash' (substituicao), mas o inventario modela um cimento produto com 75% clinquer + 25% cinza volante, igual ao cimento comercial colombiano ART (NTC 121/ASTM C1157) das misturas proprias. Nao da para dizer se e cimento composto comercial ou adicao no traco."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. A coluna 'SCM' da Table 1 tambem e preenchida nas misturas C100 (5% de constituintes menores), o que mostra que a tabela decompoe o cimento e nao so adicoes no traco."
+ },
+ {
+  "row_id": 3327,
+  "pares": [
+   {
+    "sheet_row": 961,
+    "cimento_designacao": "Ordinary Portland Cement (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, Sec. 2.1: 'Ordinary Portland Cement (OPC) was used as a basic cementing material for the mix design of concrete, according to ASTM C150 standards [49]'; ref. [49]: 'ASTM C150/C150M-21 Standard Specification for Portland Cement'; Table 2: 'Control 0.54 507 0 0' (OPC/FA/SF kg/m3)",
+    "nota": "Controlo so com OPC (507 kg/m3). O tipo ASTM C150 (I, II...) nao e indicado. ACV em ecoinvent 3.7.1 sem nomear o dataset de cimento."
+   },
+   {
+    "sheet_row": 962,
+    "cimento_designacao": "Ordinary Portland Cement (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% cinza volante classe F (ASTM C618) em massa do ligante",
+    "citacao": "p.3, Sec. 2.1: 'Ordinary Portland Cement (OPC) was used as a basic cementing material for the mix design of concrete, according to ASTM C150 standards [49]'; ref. [49]: 'ASTM C150/C150M-21 Standard Specification for Portland Cement'; Table 2: 'FA10 0.54 456 51 0'; p.3: 'Different proportions of FA and SF were used to substitute the cement ... 10 %, 20 %, and 30 % by weight of binder for FA'",
+    "nota": "Tipo ASTM C150 nao indicado."
+   },
+   {
+    "sheet_row": 963,
+    "cimento_designacao": "Ordinary Portland Cement (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "20% cinza volante classe F (ASTM C618) em massa do ligante",
+    "citacao": "p.3, Sec. 2.1: 'Ordinary Portland Cement (OPC) was used as a basic cementing material for the mix design of concrete, according to ASTM C150 standards [49]'; ref. [49]: 'ASTM C150/C150M-21 Standard Specification for Portland Cement'; Table 2: 'FA20 0.54 406 101 0'",
+    "nota": "Tipo ASTM C150 nao indicado."
+   },
+   {
+    "sheet_row": 964,
+    "cimento_designacao": "Ordinary Portland Cement (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "30% cinza volante classe F (ASTM C618) em massa do ligante",
+    "citacao": "p.3, Sec. 2.1: 'Ordinary Portland Cement (OPC) was used as a basic cementing material for the mix design of concrete, according to ASTM C150 standards [49]'; ref. [49]: 'ASTM C150/C150M-21 Standard Specification for Portland Cement'; Table 2: 'FA30 0.54 355 152 0'",
+    "nota": "Tipo ASTM C150 nao indicado."
+   },
+   {
+    "sheet_row": 965,
+    "cimento_designacao": "Ordinary Portland Cement (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "5% silica de fumo (ASTM C1240-15) em massa do ligante",
+    "citacao": "p.3, Sec. 2.1: 'Ordinary Portland Cement (OPC) was used as a basic cementing material for the mix design of concrete, according to ASTM C150 standards [49]'; ref. [49]: 'ASTM C150/C150M-21 Standard Specification for Portland Cement'; Table 2: 'SF05 0.54 482 0 25'; p.3: '5 %, 10 %, and 15 % by weight of the binder for SF'",
+    "nota": "Tipo ASTM C150 nao indicado."
+   },
+   {
+    "sheet_row": 966,
+    "cimento_designacao": "Ordinary Portland Cement (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "10% silica de fumo (ASTM C1240-15) em massa do ligante",
+    "citacao": "p.3, Sec. 2.1: 'Ordinary Portland Cement (OPC) was used as a basic cementing material for the mix design of concrete, according to ASTM C150 standards [49]'; ref. [49]: 'ASTM C150/C150M-21 Standard Specification for Portland Cement'; Table 2: 'SF10 0.54 457 0 51'",
+    "nota": "Tipo ASTM C150 nao indicado."
+   },
+   {
+    "sheet_row": 967,
+    "cimento_designacao": "Ordinary Portland Cement (OPC)",
+    "norma_cimento": "ASTM C150",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "15% silica de fumo (ASTM C1240-15) em massa do ligante",
+    "citacao": "p.3, Sec. 2.1: 'Ordinary Portland Cement (OPC) was used as a basic cementing material for the mix design of concrete, according to ASTM C150 standards [49]'; ref. [49]: 'ASTM C150/C150M-21 Standard Specification for Portland Cement'; Table 2: 'SF15 0.54 431 0 76'",
+    "nota": "Tipo ASTM C150 nao indicado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. O mesmo OPC em todas as misturas."
+ },
+ {
+  "row_id": 3331,
+  "pares": [
+   {
+    "sheet_row": 968,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.7, Sec. 3.2: 'the ECC and EEC for stage A1-A3 for concrete are 254.4 kgCO2e/m3 and 1672 MJ/m3'; Table 5: 'A1-A3 Concrete (m3) 254.4 1672'; Table (parametros de projecto): 'Concrete compressive strength (fc) 30 MPa'",
+    "nota": "O artigo nao identifica cimento nem traco; o betao entra como coeficiente unico por m3 (sem fonte de cimento). 'cement' so aparece na introducao/discussao generica e numa recomendacao final ('adoption of specific cement types')."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 3335,
+  "pares": [
+   {
+    "sheet_row": 353,
+    "cimento_designacao": "OPC (ordinary portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "~20% cinza volante classe F no total de ligante (in situ do GDOT)",
+    "citacao": "Abstract/p.24: 'the in-situ mixture on the Dooly County project site already contained a 20% Class F fly ash replacement for the total cementitious content'; p.27, Sec. 3.2: 'Four concrete mixtures were designed to determine the mechanical influence of increased Class F fly ash percentages in replacement of OPC'; Table 7: 'Chemical/Physical test (ASTM C618)'; Table 3: 'Cement production 0.9497 (MT CO2eq/MT cement)'; Table 6: 'Control (In-situ) Cement 460 lbs (209 kg), Class F fly ash 113 (51)'",
+    "nota": "Controlo = traco in situ do produtor de betao pronto, que ja tem ~20% de cinza volante (113/573 lb). Cimento designado so como 'OPC'/'ordinary portland cement', sem tipo nem norma. Table 1 da 460 lb/cy = 273 kg/m3, mas a Table 6 converte 460 lbs em 209 kg (sem passar a m3)."
+   },
+   {
+    "sheet_row": 354,
+    "cimento_designacao": "OPC (ordinary portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "25% cinza volante classe F em substituicao do OPC",
+    "citacao": "Abstract/p.24: 'the in-situ mixture on the Dooly County project site already contained a 20% Class F fly ash replacement for the total cementitious content'; p.27, Sec. 3.2: 'Four concrete mixtures were designed to determine the mechanical influence of increased Class F fly ash percentages in replacement of OPC'; Table 7: 'Chemical/Physical test (ASTM C618)'; Table 3: 'Cement production 0.9497 (MT CO2eq/MT cement)'; Table 6: '25% fly ash replacement Cement 431 (195), Class F fly ash 143 (65)'",
+    "nota": "Cimento so 'OPC', sem tipo nem norma."
+   },
+   {
+    "sheet_row": 355,
+    "cimento_designacao": "OPC (ordinary portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "30% cinza volante classe F em substituicao do OPC",
+    "citacao": "Abstract/p.24: 'the in-situ mixture on the Dooly County project site already contained a 20% Class F fly ash replacement for the total cementitious content'; p.27, Sec. 3.2: 'Four concrete mixtures were designed to determine the mechanical influence of increased Class F fly ash percentages in replacement of OPC'; Table 7: 'Chemical/Physical test (ASTM C618)'; Table 3: 'Cement production 0.9497 (MT CO2eq/MT cement)'; Table 6: '30% fly ash replacement Cement 401 (182), Class F fly ash 172 (78)'",
+    "nota": "Cimento so 'OPC', sem tipo nem norma."
+   },
+   {
+    "sheet_row": 356,
+    "cimento_designacao": "OPC (ordinary portland cement)",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "40% cinza volante classe F em substituicao do OPC",
+    "citacao": "Abstract/p.24: 'the in-situ mixture on the Dooly County project site already contained a 20% Class F fly ash replacement for the total cementitious content'; p.27, Sec. 3.2: 'Four concrete mixtures were designed to determine the mechanical influence of increased Class F fly ash percentages in replacement of OPC'; Table 7: 'Chemical/Physical test (ASTM C618)'; Table 3: 'Cement production 0.9497 (MT CO2eq/MT cement)'; Table 6: '40% fly ash replacement Cement 344 (156), Class F fly ash 229 (104)'",
+    "nota": "Cimento so 'OPC', sem tipo nem norma."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido. O factor do cimento (0,9497) foi desenvolvido pelos autores a partir de dados da PCA (media da industria dos EUA 2012), nao de um cimento especifico."
+ },
+ {
+  "row_id": 3348,
+  "pares": [
+   {
+    "sheet_row": 364,
+    "cimento_designacao": "CEM I 42.5 N",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10, Table 4 (Mix design of control and hemp-based concrete): 'Cement CEM I 42.5 N 380 380'; p.13, Table 6: 'Supplier 3 Cement CEM I 42.5 N'; p.13, Table 5: 'Cement 0.9120 kg CO2e/kg ... 346.56'",
+    "nota": "Norma do cimento nao citada (EN 197-1 nao aparece). Factor do cimento da ICE (Inventory of Carbon and Energy). A Table 3/Figs. 4-5 da revisao citam outros cimentos (CEM I 42.5 R, ASTM Type I/II) de estudos alheios, nao deste programa."
+   },
+   {
+    "sheet_row": 365,
+    "cimento_designacao": "CEM I 42.5 N",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.10, Table 4 (Mix design of control and hemp-based concrete): 'Cement CEM I 42.5 N 380 380'; p.13, Table 6: 'Supplier 3 Cement CEM I 42.5 N'; p.13, Table 5: 'Cement 0.9120 kg CO2e/kg ... 346.56'",
+    "nota": "Mesmo cimento do controlo (380 kg/m3); a fibra de canhamo e adicao em volume (25 L/m3), nao substituicao de ligante. Norma nao citada. O valor 413,83 do par e o do controlo; a Table 5 da 348,09 kg CO2e/m3 para a mistura com canhamo, ja com o credito biogenico de -65,74."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido (revisao + programa experimental proprio, Sec. 6)."
+ }
+]
