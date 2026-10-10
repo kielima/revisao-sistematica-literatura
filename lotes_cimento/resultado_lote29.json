@@ -1,0 +1,288 @@
+[
+ {
+  "row_id": 4989,
+  "pares": [
+   {
+    "sheet_row": 23,
+    "cimento_designacao": "CEM I 52.5 N",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Materials 2014, 7, p.6012, Sec. 2.1, Table 1 'Overview of the compositions of the studied concrete types (kg/m3)': 'CEM I 52.5 N 300 - 320 340 / CEM III/A 42.5 N LA - 325 - -'; p.6015 Sec. 3.1: 'The data for both Ordinary Portland Cement and Blast Furnace Slag Cement were taken from the ecoinvent 2.0 database'; CRC1: CEM I 52.5 N 300 + fly ash 100 + limestone filler 53 kg/m3.",
+    "nota": "Nenhuma norma de cimento citada (a NBN EN 206-1 / NBN B15-001 sao citadas so para o projecto do betao, Sec. 2.3.2). Na ACV o cimento e o processo 'Ordinary Portland Cement' do ecoinvent 2.0. Fly ash 100 e filer calcario 53 kg/m3 juntados pelo proprio estudo."
+   },
+   {
+    "sheet_row": 24,
+    "cimento_designacao": "CEM III/A 42.5 N LA",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Materials 2014, 7, p.6012, Sec. 2.1, Table 1 'Overview of the compositions of the studied concrete types (kg/m3)': 'CEM I 52.5 N 300 - 320 340 / CEM III/A 42.5 N LA - 325 - -'; p.6015 Sec. 3.1: 'The data for both Ordinary Portland Cement and Blast Furnace Slag Cement were taken from the ecoinvent 2.0 database'; CRC2: CEM III/A 42.5 N LA 325 + fly ash 85 + limestone filler 177 kg/m3.",
+    "nota": "Cimento de escoria comercial (CEM III/A, sem % de escoria declarada) e, alem disso, cinza volante 85 e filer calcario 177 kg/m3 juntados no traco. Na ACV: processo 'Blast Furnace Slag Cement' do ecoinvent 2.0 (p.6015). Nenhuma norma de cimento citada."
+   },
+   {
+    "sheet_row": 25,
+    "cimento_designacao": "CEM I 52.5 N",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Materials 2014, 7, p.6012, Sec. 2.1, Table 1 'Overview of the compositions of the studied concrete types (kg/m3)': 'CEM I 52.5 N 300 - 320 340 / CEM III/A 42.5 N LA - 325 - -'; p.6015 Sec. 3.1: 'The data for both Ordinary Portland Cement and Blast Furnace Slag Cement were taken from the ecoinvent 2.0 database'; T(0.50): CEM I 52.5 N 320 kg/m3.",
+    "nota": "Nenhuma norma de cimento citada; ACV com 'Ordinary Portland Cement' do ecoinvent 2.0."
+   },
+   {
+    "sheet_row": 26,
+    "cimento_designacao": "CEM I 52.5 N",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Materials 2014, 7, p.6012, Sec. 2.1, Table 1 'Overview of the compositions of the studied concrete types (kg/m3)': 'CEM I 52.5 N 300 - 320 340 / CEM III/A 42.5 N LA - 325 - -'; p.6015 Sec. 3.1: 'The data for both Ordinary Portland Cement and Blast Furnace Slag Cement were taken from the ecoinvent 2.0 database'; T(0.45): CEM I 52.5 N 340 kg/m3.",
+    "nota": "Nenhuma norma de cimento citada; ACV com 'Ordinary Portland Cement' do ecoinvent 2.0."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo MDPI de 18 p. lido na integra (read_file_content completo). Os quatro tracos usam so dois cimentos: CEM I 52.5 N e CEM III/A 42.5 N LA."
+ },
+ {
+  "row_id": 4997,
+  "pares": [
+   {
+    "sheet_row": 28,
+    "cimento_designacao": "CP II E40 (cimento Portland do tipo CPII-E; tambem escrito 'CPII E-40')",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "ate 34% de escoria de alto forno; assumido o maximo de 34% 'permitido por norma'",
+    "citacao": "Ambiente Construido v.14 n.2, p.159-160, sec. 'Escolhas dos concretos comparados': 'Decidiu-se estudar um concreto a base de cimento Portland do tipo CPII-E, que contem ate 34% de escoria de alto forno em sua composicao... Assumiu-se que o cimento e produzido com o limite maximo de escoria permitida por norma, ou seja, 34%. O concreto com cimento CPII E-40 foi idealizado...'; Tabela 1 'Cimento CP II E40 ... 422 kg/m3'.",
+    "nota": "O artigo diz 'permitida por norma' sem nomear a norma (nenhuma NBR citada para o cimento). Titulo fala em 'cimento Portland composto (CP II)'. O PDF traz no offset 0 o titulo alheio 'VANTAGENS E DESVANTAGENS DA UTILIZACAO DE PELES-VERDES...' (lixo de metadado da revista, ja documentado no CLAUDE.md)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 16 p. lido na integra."
+ },
+ {
+  "row_id": 5012,
+  "pares": [
+   {
+    "sheet_row": 32,
+    "cimento_designacao": "CPII-Z",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "6 a 14% de argila (pozolana)",
+    "citacao": "PDF p.44 (impressa p.31), sec. 11.1: 'A Estrutura Tradicional, ou seja, a base de cimento Portland foi produzida com um cimento CPII-Z, que possui de 6 a 14% de argila, alem de ser bastante utilizado no estado da Paraiba... traco de 1:1,74:2,87 e fator a/c de 0,47, apresentando uma resistencia de 25 MPa aos 28 dias, segundo a norma ABNT NBR 6118'; Tabela 3 (p.37): 'Cimento Portland 272,00 ... Total 286,37 kg CO2-eq por m3'; artigo em anexo: 'cimento Portland composto a base de pozolana (CPII-Z)'.",
+    "nota": "A unica norma citada junto ao traco e a NBR 6118 (projecto de estruturas), nao uma norma de cimento -> norma_cimento null. ACV em SimaPro/Ecoinvent (IPCC 2013 GWP100a); o processo Ecoinvent de cimento usado nao e nomeado, so 'Cimento Portland 272,00 kg CO2-eq'. Os blocos de vedacao usam outro cimento (CPII-F), fora deste par."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Dissertacao (TCC/mestrado) lida na integra pelo read_file_content (246 mil caracteres, termina nas referencias do artigo anexo)."
+ },
+ {
+  "row_id": 5018,
+  "pares": [
+   {
+    "sheet_row": 43,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "PDF p.89 (impressa 72): insumos '(i) Concreto usinado de 25 MPa'; PDF p.174 (impressa 157), Apendice F, Quadro 10: 'Concreto usinado 25 MPa -> concrete production 25MPa, RNA only, RoW' (Ecoinvent 3.5 cut-off).",
+    "nota": "O artigo nunca diz que cimento tem o concreto usinado de 25 MPa; o CO2 vem do dataset generico do Ecoinvent 3.5 'concrete production 25MPa, RNA only, RoW'. Nenhuma norma de cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "O read_file_content truncou a dissertacao na p.63 de 175 (armadilha n.7); lida na integra pelo PDF descarregado (pymupdf, 175 p.)."
+ },
+ {
+  "row_id": 5038,
+  "pares": [
+   {
+    "sheet_row": 48,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "PDF p.105 (impressa 104), tabela dos custos dos insumos do exemplo IX: 'Concreto 35 MPa (m3) 313,00 265,28 352,29 42000 3180'; 'Os custos em termos de CO2, GWP e Eco-Indicadores foram retirados das mesmas referencias citadas no exemplo anterior' (GWP de Ochsendorf, 2011).",
+    "nota": "Cimento nunca especificado; o GWP do concreto e um factor unitario de literatura (Ochsendorf 2011), sem traco nem cimento."
+   },
+   {
+    "sheet_row": 49,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "PDF p.110 (impressa 109), Tabela 43 'Custos dos insumos do concreto armado para o exemplo X': 'Concreto 20 MPa (m3) 255,00 224,34 256,88 39100'.",
+    "nota": "Cimento nunca especificado; factor GWP de literatura (Ochsendorf 2011). O mesmo 256,88 e usado para o concreto de 25 MPa do exemplo VIII (Tabela 37)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Dissertacao UPF (otimizacao de pilares) lida na integra; nenhuma mencao a tipo de cimento em todo o texto."
+ },
+ {
+  "row_id": 5041,
+  "pares": [
+   {
+    "sheet_row": 51,
+    "cimento_designacao": "CP III 40 RS",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "36% de clinquer, 55% de escoria, 4% de gesso e 5% de calcario (segundo o fabricante)",
+    "citacao": "PDF p.107 (impressa 106), sec. processo de producao do cimento: 'O cimento utilizado foi o CP III 40 RS da fabrica de cimento Holcim, localizada em Barroso, MG... a composicao basica do cimento segundo a fabricante foi de 36% de clinquer, 55% de escoria, 4% de gesso e 5% de calcario'; p.37 (impressa 36): 'CP III, que e produzido com a adicao de ate 70% de escoria de alto forno (ABCP - BT-106, 2002) e sera o utilizado'; traco C25 (p.102/101): 'Cimento: 310 kg'.",
+    "nota": "Norma de cimento nao citada (so o boletim ABCP BT-106 e, nas referencias, a EN 197-1 generica). Incoerencias: os dados do cimento vem da 'Declaracao Ambiental do Produto' da Holcim, mas a referencia listada e 'Declaracao Ambiental do produto: Cimento CP II 40 RS' (2011); e no Apendice (GaBi) o processo de cimento e 'BR: Cement (average)'. A ACV declara modelar o CP III."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Dissertacao lida na integra pelo read_file_content (361 mil caracteres, ate ao apendice GaBi final)."
+ },
+ {
+  "row_id": 5050,
+  "pares": [
+   {
+    "sheet_row": 62,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "PDF p.55 (impressa 45): 'Esta vedacao constitui-se por concreto comum, com adicao de fibras de polipropileno na proporcao de 300 g/m3... fck 25 MPa'; Tabela 16 (PDF p.88, impressa 78): 'Concreto 25MPa 0,179 m3 267 kgCO2-eq/m3 EPD'.",
+    "nota": "Cimento do concreto da parede nunca especificado; o factor 267 kgCO2-eq/m3 vem de uma 'EPD' nao identificada. O unico cimento nomeado (CPII-E, Sobradinho-DF) e o da argamassa do sistema de vedacao convencional (VC), nao deste par. O Apendice B descreve o dataset GaBi de cimento como CEM I, mas aplica-se ao cimento ensacado do VC."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Dissertacao UnB lida na integra pelo read_file_content (ate ao Apendice J)."
+ },
+ {
+  "row_id": 5052,
+  "pares": [
+   {
+    "sheet_row": 2084,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "PDF p.79-80, sec. 3.3: 'No CP2, o inventario do concreto foi modificado de acordo com o traco fornecido pela concreteira (Tabela 10)... adaptado com base no dado Concrete, 25MPa {RoW}| concrete production 25MPa, RNA only | APOS, U... o cimento, areia e brita tambem foram substituidos para os seus respectivos datasets adaptados ao cenario brasileiro'; Tabela 10: 'Cimento 306 kg/m3' (Cohab, 2021).",
+    "nota": "Tipo de cimento nao dito; so 'cimento'. Nos anexos o cimento ensacado e modelado como 'Cement, Portland {RoW}| market for | APOS, U', mas o texto nao diz explicitamente que esse e o dataset do cimento dentro do concreto C25."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Tese lida na integra pelo read_file_content (320 mil caracteres, ate ao Anexo A final, p.151)."
+ },
+ {
+  "row_id": 5055,
+  "pares": [
+   {
+    "sheet_row": 65,
+    "cimento_designacao": "CPV-ARI",
+    "norma_cimento": "NBR 16697",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "clinquer ~90% (calcita 7%, gesso 2,5%, perda ao fogo 0,5%)",
+    "citacao": "Tese UFSM, PDF p.140 (impressa 137-138), sec. 4.3.1: 'Foi utilizado o CPV-ARI, de alta resistencia inicial, porque e o que se encontra no mercado brasileiro com menor teor de FC (maximo de 10%) conforme NBR 16697 (ABNT, 2018a), cuja analise quimica apresentou teor de Calcita de 7%, Gesso 2,5% e perda ao fogo 0,5% o que levou a um teor de clinquer ~90%'; Tabela 4.1 (siglas dos tracos): '100% CP 0,25 REF'.",
+    "nota": "Traco de referencia so com CPV-ARI. Substituicoes do CP em volume ('substituicao de 50%, em volume'), a/ag 0,25. A ACV (cap. 6) modela o CPV-ARI do berco ao portao (sec. 4.7.2.2.3, Tabelas 4.21-4.22 do sumario), mesmo cimento do ensaio."
+   },
+   {
+    "sheet_row": 67,
+    "cimento_designacao": "CPV-ARI",
+    "norma_cimento": "NBR 16697",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer ~90% (calcita 7%, gesso 2,5%, perda ao fogo 0,5%)",
+    "citacao": "Tese UFSM, PDF p.140 (impressa 137-138), sec. 4.3.1: 'Foi utilizado o CPV-ARI, de alta resistencia inicial, porque e o que se encontra no mercado brasileiro com menor teor de FC (maximo de 10%) conforme NBR 16697 (ABNT, 2018a), cuja analise quimica apresentou teor de Calcita de 7%, Gesso 2,5% e perda ao fogo 0,5% o que levou a um teor de clinquer ~90%'; Tabela 4.1 (siglas dos tracos): '50% CP + 50% FC 0,25 FC50'.",
+    "nota": "50% de filer calcario (FC) juntado pelo estudo. Substituicoes do CP em volume ('substituicao de 50%, em volume'), a/ag 0,25. A ACV (cap. 6) modela o CPV-ARI do berco ao portao (sec. 4.7.2.2.3, Tabelas 4.21-4.22 do sumario), mesmo cimento do ensaio."
+   },
+   {
+    "sheet_row": 69,
+    "cimento_designacao": "CPV-ARI",
+    "norma_cimento": "NBR 16697",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer ~90% (calcita 7%, gesso 2,5%, perda ao fogo 0,5%)",
+    "citacao": "Tese UFSM, PDF p.140 (impressa 137-138), sec. 4.3.1: 'Foi utilizado o CPV-ARI, de alta resistencia inicial, porque e o que se encontra no mercado brasileiro com menor teor de FC (maximo de 10%) conforme NBR 16697 (ABNT, 2018a), cuja analise quimica apresentou teor de Calcita de 7%, Gesso 2,5% e perda ao fogo 0,5% o que levou a um teor de clinquer ~90%'; Tabela 4.1 (siglas dos tracos): '40% CP + 60% FC 0,25 FC60'.",
+    "nota": "60% de filer calcario. Substituicoes do CP em volume ('substituicao de 50%, em volume'), a/ag 0,25. A ACV (cap. 6) modela o CPV-ARI do berco ao portao (sec. 4.7.2.2.3, Tabelas 4.21-4.22 do sumario), mesmo cimento do ensaio."
+   },
+   {
+    "sheet_row": 71,
+    "cimento_designacao": "CPV-ARI",
+    "norma_cimento": "NBR 16697",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer ~90% (calcita 7%, gesso 2,5%, perda ao fogo 0,5%)",
+    "citacao": "Tese UFSM, PDF p.140 (impressa 137-138), sec. 4.3.1: 'Foi utilizado o CPV-ARI, de alta resistencia inicial, porque e o que se encontra no mercado brasileiro com menor teor de FC (maximo de 10%) conforme NBR 16697 (ABNT, 2018a), cuja analise quimica apresentou teor de Calcita de 7%, Gesso 2,5% e perda ao fogo 0,5% o que levou a um teor de clinquer ~90%'; Tabela 4.1 (siglas dos tracos): '40% CP + 60% FC + 10% CH 0.25 FC60CH10'.",
+    "nota": "60% de filer calcario + adicao de 10% de cal hidratada (CH). Substituicoes do CP em volume ('substituicao de 50%, em volume'), a/ag 0,25. A ACV (cap. 6) modela o CPV-ARI do berco ao portao (sec. 4.7.2.2.3, Tabelas 4.21-4.22 do sumario), mesmo cimento do ensaio."
+   },
+   {
+    "sheet_row": 73,
+    "cimento_designacao": "CPV-ARI",
+    "norma_cimento": "NBR 16697",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer ~90% (calcita 7%, gesso 2,5%, perda ao fogo 0,5%)",
+    "citacao": "Tese UFSM, PDF p.140 (impressa 137-138), sec. 4.3.1: 'Foi utilizado o CPV-ARI, de alta resistencia inicial, porque e o que se encontra no mercado brasileiro com menor teor de FC (maximo de 10%) conforme NBR 16697 (ABNT, 2018a), cuja analise quimica apresentou teor de Calcita de 7%, Gesso 2,5% e perda ao fogo 0,5% o que levou a um teor de clinquer ~90%'; Tabela 4.1 (siglas dos tracos): traco FC70CV10 = 'Traco com 70% de FC e 10% de CV' (lista de siglas).",
+    "nota": "70% de filer + 10% de cinza volante classe F (NBR 12653). Substituicoes do CP em volume ('substituicao de 50%, em volume'), a/ag 0,25. A ACV (cap. 6) modela o CPV-ARI do berco ao portao (sec. 4.7.2.2.3, Tabelas 4.21-4.22 do sumario), mesmo cimento do ensaio."
+   },
+   {
+    "sheet_row": 75,
+    "cimento_designacao": "CPV-ARI",
+    "norma_cimento": "NBR 16697",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "clinquer ~90% (calcita 7%, gesso 2,5%, perda ao fogo 0,5%)",
+    "citacao": "Tese UFSM, PDF p.140 (impressa 137-138), sec. 4.3.1: 'Foi utilizado o CPV-ARI, de alta resistencia inicial, porque e o que se encontra no mercado brasileiro com menor teor de FC (maximo de 10%) conforme NBR 16697 (ABNT, 2018a), cuja analise quimica apresentou teor de Calcita de 7%, Gesso 2,5% e perda ao fogo 0,5% o que levou a um teor de clinquer ~90%'; Tabela 4.1 (siglas dos tracos): traco FC70CV10CH10 = 'Traco com 70% de FC, 10% de CV e Adicao de 10% de CH' (lista de siglas).",
+    "nota": "70% de filer + 10% de cinza volante + 10% de cal hidratada. Substituicoes do CP em volume ('substituicao de 50%, em volume'), a/ag 0,25. A ACV (cap. 6) modela o CPV-ARI do berco ao portao (sec. 4.7.2.2.3, Tabelas 4.21-4.22 do sumario), mesmo cimento do ensaio."
+   }
+  ],
+  "texto_completo_lido": false,
+  "notas": "Tese de ~390 p. (10,6 MB): o read_file_content truncou na p.167 (armadilha n.7) e o ficheiro excede o tecto de 10 MB do download_file_content (armadilha n.8, ja registada no CLAUDE.md). A seccao de materiais (4.3.1, cimento e norma) e a Tabela 4.1 foram lidas integralmente; o capitulo 6 de ACV nao foi lido, mas o sumario confirma que a ACV modela o mesmo CPV-ARI (sec. 4.7.2.2.3 'CPV-ARI do berco ao portao (MCC)')."
+ },
+ {
+  "row_id": 5067,
+  "pares": [
+   {
+    "sheet_row": 605,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sustainability 2016, 8, 723, p.7-8, Table 4 'Database of emission factors for materials': 'Reinforced concrete C20 m3 ... CM 247.695' (CE1 adoptado de Gong 2004 [26]).",
+    "nota": "Factor de emissao normativo/literatura (Gong 2004) por classe de betao armado; o cimento do betao nao e especificado. A Table 4 lista cimentos 'Cement 52.5 / 42.5 / 32.5' como materiais separados, sem ligacao as classes de betao."
+   },
+   {
+    "sheet_row": 606,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sustainability 2016, 8, 723, p.7-8, Table 4 'Database of emission factors for materials': 'Reinforced concrete C25 m3 ... CM 267.695' (CE1 adoptado de Gong 2004 [26]).",
+    "nota": "Factor de emissao normativo/literatura (Gong 2004) por classe de betao armado; o cimento do betao nao e especificado. A Table 4 lista cimentos 'Cement 52.5 / 42.5 / 32.5' como materiais separados, sem ligacao as classes de betao."
+   },
+   {
+    "sheet_row": 607,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sustainability 2016, 8, 723, p.7-8, Table 4 'Database of emission factors for materials': 'Reinforced concrete C30 m3 ... CM 287.695' (CE1 adoptado de Gong 2004 [26]).",
+    "nota": "Factor de emissao normativo/literatura (Gong 2004) por classe de betao armado; o cimento do betao nao e especificado. A Table 4 lista cimentos 'Cement 52.5 / 42.5 / 32.5' como materiais separados, sem ligacao as classes de betao."
+   },
+   {
+    "sheet_row": 608,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sustainability 2016, 8, 723, p.7-8, Table 4 'Database of emission factors for materials': 'Reinforced concrete C35 m3 ... CM 307.695' (CE1 adoptado de Gong 2004 [26]).",
+    "nota": "Factor de emissao normativo/literatura (Gong 2004) por classe de betao armado; o cimento do betao nao e especificado. A Table 4 lista cimentos 'Cement 52.5 / 42.5 / 32.5' como materiais separados, sem ligacao as classes de betao."
+   },
+   {
+    "sheet_row": 609,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sustainability 2016, 8, 723, p.7-8, Table 4 'Database of emission factors for materials': 'Reinforced concrete C40 m3 ... CM 327.695' (CE1 adoptado de Gong 2004 [26]).",
+    "nota": "Factor de emissao normativo/literatura (Gong 2004) por classe de betao armado; o cimento do betao nao e especificado. A Table 4 lista cimentos 'Cement 52.5 / 42.5 / 32.5' como materiais separados, sem ligacao as classes de betao."
+   },
+   {
+    "sheet_row": 610,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sustainability 2016, 8, 723, p.7-8, Table 4 'Database of emission factors for materials': 'Reinforced concrete C50 m3 ... CM 367.695' (CE1 adoptado de Gong 2004 [26]).",
+    "nota": "Factor de emissao normativo/literatura (Gong 2004) por classe de betao armado; o cimento do betao nao e especificado. A Table 4 lista cimentos 'Cement 52.5 / 42.5 / 32.5' como materiais separados, sem ligacao as classes de betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo MDPI de 13 p. lido na integra."
+ }
+]
