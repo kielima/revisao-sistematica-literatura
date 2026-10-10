@@ -1,0 +1,153 @@
+[
+ {
+  "row_id": 3514,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (73 mil caracteres, ate ao fim da lista de referencias) extraido pelo read_file_content e pesquisado na totalidade; sec. 2.1-2.2.1 (materiais e recursos do mortar Portland), Tabela 1 (tracos) e Tabela 2 (factores de emissao) lidas por inteiro.",
+  "pares": [
+   {
+    "sheet_row": 1033,
+    "cimento_designacao": "PLC (Portland Limestone Cement Type IL)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "modelado como blend intermoido de 85 % PC e 15 % calcario (sec. 2.2.1)",
+    "citacao": "Tabela 1 (p.3): linha 'PLC (Portland Limestone Cement Type IL)' 513 kg/m3 na mistura PC-CRL, fc28 41.5 MPa; sec. 2.2.1 'Portland cement mortar resources' (p.2): 'the impacts tied to the production of Portland limestone cement (PLC) were considered, namely modeled as an interground blend of 85 % PC and 15 % limestone [29]'.",
+    "nota": "Nenhuma norma de cimento citada (a ref. [29] e um documento CalTrans 'Portland-Limestone Cement Allowance in Blended Cements'; ASTM C31 so para a cura). O texto chama ao controlo 'PC mortar' / 'PC-CRL' mas o ligante da Tabela 1 e PLC Type IL. Factor de CO2 do PLC (Tabela 2) = 0,72 kg GHG/kg, media da California [36]; a composicao 85/15 e a do modelo de ACV, nao uma analise do cimento ensaiado."
+   }
+  ]
+ },
+ {
+  "row_id": 3529,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 8 paginas devolvido inteiro pelo conector (inclui referencias) e lido na totalidade.",
+  "pares": [
+   {"sheet_row": 451, "cimento_designacao": "CEM I 42.5 R", "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3, sec. Materials and methods: 'CEM I 42.5 R type PC was used in mortar mixtures'; Tabela 3: Control PC 500 g, BT 0.",
+    "nota": "Sem norma de cimento citada (TS EN 196-1 e citada so para o procedimento de amassadura; TS EN 1015-11 para o ensaio). Tabela 1 da apenas a composicao em oxidos do PC (CaO 62,85 %, SiO2 19,52 %...), nao o teor de clinquer. Factor de CO2 do PC na ACV: 896,6 kg CO2/t (Tabela 4, refs. [23,24,35-39])."},
+   {"sheet_row": 452, "cimento_designacao": "CEM I 42.5 R", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3: 'CEM I 42.5 R type PC was used in mortar mixtures'; Tabela 3: 5BT PC 475 g + BT 25 g (5 % de po de basalto residual em substituicao do PC).",
+    "nota": "Po de basalto residual (BT) de corte de pedra (Kayseri) em substituicao parcial do cimento."},
+   {"sheet_row": 453, "cimento_designacao": "CEM I 42.5 R", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3: 'CEM I 42.5 R type PC was used in mortar mixtures'; Tabela 3: 10BT PC 450 g + BT 50 g.",
+    "nota": "10 % de BT em substituicao do PC."},
+   {"sheet_row": 454, "cimento_designacao": "CEM I 42.5 R", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3: 'CEM I 42.5 R type PC was used in mortar mixtures'; Tabela 3: 15BT PC 425 g + BT 75 g.",
+    "nota": "15 % de BT em substituicao do PC (mistura optima segundo os autores)."},
+   {"sheet_row": 455, "cimento_designacao": "CEM I 42.5 R", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3: 'CEM I 42.5 R type PC was used in mortar mixtures'; Tabela 3: 20BT PC 400 g + BT 100 g.",
+    "nota": "20 % de BT em substituicao do PC."},
+   {"sheet_row": 456, "cimento_designacao": "CEM I 42.5 R", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3: 'CEM I 42.5 R type PC was used in mortar mixtures'; Tabela 3: 25BT PC 375 g + BT 125 g.",
+    "nota": "25 % de BT em substituicao do PC."}
+  ]
+ },
+ {
+  "row_id": 3539,
+  "texto_completo_lido": true,
+  "notas": "fileId nulo no lote; ficheiro encontrado na pasta por titulo ('HAFEZ et al., 2023 - j.jobe.2023.106022.pdf', fileId 1UODLQDqzmrrYaVcbDb-UdSXhNAH-6pxj). Texto integral (73 mil caracteres, ate ao fim das referencias) pesquisado na totalidade; sec. 2 (SCMs, Tabela 2), sec. 3 (modelo Opt-bcc, Tabelas 3-5) e sec. 5 (Tabela 6) lidas por inteiro.",
+  "pares": [
+   {"sheet_row": 457, "cimento_designacao": "CEM I (Grade 42.5 or 52.5)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "sec. 3 (p.7): 'a mix contains a varying percentage of the following components: CEM I (Grade 42.5 or 52.5), FA, GGBS, SF, LP, CC...'; Tabela 5: 'p1 {0,1} whether cement 42.5 or cement 52.5'; Tabela 6 (p.10): 20 MPa GWP 113.3 kg CO2 eq.",
+    "nota": "Tracos teoricos de um algoritmo genetico: o valor da Tabela 6 e a media de muitas misturas optimizadas (binarias ou ternarias com FA, GGBS, SF, LP, CC); o artigo nao diz se a classe 42.5 ou 52.5 foi a escolhida em cada classe de resistencia. Factor de CO2 'OPC' (Tabela 2) = media de literatura 0,896 kg CO2-eq/kg, nao um cimento especifico. Sem norma de cimento citada."},
+   {"sheet_row": 458, "cimento_designacao": "CEM I (Grade 42.5 or 52.5)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "sec. 3: 'CEM I (Grade 42.5 or 52.5)'; Tabela 6: 30 MPa GWP 132.6 kg CO2 eq.",
+    "nota": "Idem 457: media das misturas optimizadas do cenario 1; classe do CEM I nao atribuida."},
+   {"sheet_row": 459, "cimento_designacao": "CEM I (Grade 42.5 or 52.5)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "sec. 3: 'CEM I (Grade 42.5 or 52.5)'; Tabela 6: 40 MPa GWP 137.3 kg CO2 eq.",
+    "nota": "Idem 457."},
+   {"sheet_row": 460, "cimento_designacao": "CEM I (Grade 42.5 or 52.5)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "sec. 3: 'CEM I (Grade 42.5 or 52.5)'; Tabela 6: 50 MPa GWP 155.2 kg CO2 eq.",
+    "nota": "Idem 457."},
+   {"sheet_row": 461, "cimento_designacao": "CEM I (Grade 42.5 or 52.5)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "sec. 3: 'CEM I (Grade 42.5 or 52.5)'; Tabela 6: 60 MPa GWP 163.0 kg CO2 eq.",
+    "nota": "Idem 457."},
+   {"sheet_row": 462, "cimento_designacao": "CEM I (Grade 42.5 or 52.5)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "sec. 3: 'CEM I (Grade 42.5 or 52.5)'; Tabela 6: 70 MPa GWP 173.6 kg CO2 eq.",
+    "nota": "Idem 457."},
+   {"sheet_row": 463, "cimento_designacao": "CEM I (Grade 42.5 or 52.5)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "sec. 3: 'CEM I (Grade 42.5 or 52.5)'; Tabela 6: 80 MPa GWP 201.4 kg CO2 eq.",
+    "nota": "Idem 457."}
+  ]
+ },
+ {
+  "row_id": 3559,
+  "texto_completo_lido": true,
+  "notas": "Artigo de conferencia de 8 paginas devolvido inteiro pelo conector (paginas 1-8) e lido na totalidade.",
+  "pares": [
+   {"sheet_row": 1043, "cimento_designacao": "CEM I 42.5", "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.473 (pag. 5), sec. 3.2, Tabela 3 'Heavyweight concrete mixture and properties': HC1 'CEM I 42.5' 400 kg/m3, barite coarse 1510 / fine 1236, fc28 47.0 MPa.",
+    "nota": "O traco HC1 (referencia com barita) nao foi produzido pelos autores: 'data for which was collected from the literature' (ref. 25, Sakr & Hakim 2005); a designacao 'CEM I 42.5' e a que o artigo escreve na tabela. Na ACV a energia do cimento veio do produtor local e o clinquer da biblioteca do SimaPro. Sem norma de cimento citada."}
+  ]
+ },
+ {
+  "row_id": 3565,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (78,6 mil caracteres, paginas 1-11 ate ao fim das referencias) extraido pelo read_file_content e pesquisado na totalidade; sec. 2 (metodo de dosagem), sec. 3 (ensaios) e sec. 4-5 (ACV) lidas.",
+  "pares": [
+   {"sheet_row": 1046, "cimento_designacao": "Limestone Calcined Clay Cement (LC3)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": "clinquer 50 %, calcario 30 %, argila calcinada 15 %, gesso 5 %",
+    "citacao": "Resumo (p.1): 'Limestone Calcined Clay Cement (LC3), with a proportion of Clinker 50 %, Limestone 30 %, Calcined Clay 15 % and gypsum 5 %'; p.3: 'the present method employs a methodology dosage of clinker 50 %, CC 15 %, LS 30 % and gypsum 5 %'; sec. 3.1 (p.4): 'The influencing variables considered in the proposed mix design are SG of cement clinker, LS, CC, gypsum'; p.5: 'The 28-d CS of the LC3 mix was found to be 46.2 MPa'.",
+    "nota": "O LC3 e composto pelo proprio estudo a partir de clinquer, calcario, argila calcinada e gesso (as massas de cada um entram na equacao do volume do ligante), nao um cimento comprado - por isso 'substituicao_no_traco'; dosagem pelo IS 10262:2019 (norma de dosagem, nao de cimento). Na ACV (sec. 4, p.6) comparam-se OPC indiano 'made with 5 % CaCO3', PPC com 15 % de pozolana natural e LC3; o CO2 190,3 kg/m3 vem de coeficientes de emissao por ingrediente (Kanagaraj et al. 2022). A ACV cita 'Anastasiou et al., 2017' para a equivalencia de resistencias, o que parece citacao trocada."}
+  ]
+ },
+ {
+  "row_id": 3568,
+  "texto_completo_lido": true,
+  "notas": "Artigo de 7 paginas devolvido inteiro pelo conector e lido na totalidade (Tabelas 1-4 incluidas).",
+  "pares": [
+   {"sheet_row": 1047, "cimento_designacao": "Portland cement (OPC)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.609, Tabela 1: 'Portland cement (OPC) 0.820' t CO2-e/t [23]; p.611, Tabela 3: mistura '32 50BFS' Cement 167.5 + Blast furnace slag 167.5 kg/m3, fc28 media 38.6 MPa.",
+    "nota": "Tracos baseados em betao comercial e investigacao nao publicada (p.610); o tipo/classe do cimento nunca e dado (Tabela 3 diz so 'Cement'). 50 % de escoria de alto-forno no traco. Factor de CO2 do cimento de Flower & Sanjayan (Melbourne)."},
+   {"sheet_row": 1048, "cimento_designacao": "Portland cement (OPC)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.609, Tabela 1: 'Portland cement (OPC)'; p.611, Tabela 3: '40 50BFS' Cement 200 + BFS 200 kg/m3, fc28 media 52.1 MPa.",
+    "nota": "Idem 1047; 50 % de escoria."},
+   {"sheet_row": 1049, "cimento_designacao": "Portland cement (OPC)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.609, Tabela 1: 'Portland cement (OPC)'; p.611, Tabela 3: '35 50BFS' Cement 188 + BFS 188 kg/m3, agregado grosso natural 1039, fc28 media 45.4 MPa.",
+    "nota": "Idem 1047; 50 % de escoria, agregado natural."}
+  ]
+ },
+ {
+  "row_id": 3576,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (64 mil caracteres, paginas 1-9 ate ao fim das referencias) extraido pelo read_file_content e pesquisado na totalidade; sec. 2 (metodo, Tabela 1), resultados e Apendice A lidos.",
+  "pares": [
+   {"sheet_row": 1051, "cimento_designacao": "portland cement", "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.205, Tabela 1: mistura Ref 'Cement 300' kg/m3 (40 MPa aos 28 d); p.204: 'results in the demand for additional portland cement'; Apendice A: dataset ecoinvent 3.3 'Cement, Portland (US) | production | Alloc Rec, U'.",
+    "nota": "A Tabela 1 diz so 'Cement'; tipo/classe nunca indicados. Tracos de Etxeberria et al. (2007), validados num ensaio preliminar dos autores. Na ACV o cimento e o dataset generico ecoinvent 'Cement, Portland (US)'."}
+  ]
+ },
+ {
+  "row_id": 3598,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (74 mil caracteres, paginas 1-10 ate ao fim das referencias) extraido pelo read_file_content e pesquisado na totalidade; sec. 2.1 (tracos, Tabela 1), Tabela 2 (factores), Tabela 3 (Bogue) e resultados lidos.",
+  "pares": [
+   {"sheet_row": 1059, "cimento_designacao": "Type I", "norma_cimento": "ASTM C150", "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": "Type I PC assumido com 95 % clinquer e 5 % gesso",
+    "citacao": "p.2, sec. 2.1: 'Type I PC is assumed to contain 95 % clinker and 5 % gypsum (Scrivener et al., 2018)'; Tabela 1: 'Type I, II, III, IV, and V Concrete Mixtures', SCM 0 %; p.5, Tabela 3: 'Average Bogue composition of each cement type by mass percent according to ASTM C150'; p.6: 'a Type I mixture with a 30 MPa compressive strength has embodied carbon emissions of 360 kg CO2/m3'.",
+    "nota": "Tracos teoricos (metodo de volume absoluto da PCA), sem ensaio. A ASTM C150 e citada para a composicao de Bogue dos tipos de cimento. Factor de CO2 'Type I, II, III, IV, and V cements' = 0,912 kg CO2e/kg do ICE (Bath, Reino Unido), o mesmo para todos os tipos."},
+   {"sheet_row": 1060, "cimento_designacao": "Type I", "norma_cimento": "ASTM C150", "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": "Type I PC assumido com 95 % clinquer e 5 % gesso",
+    "citacao": "p.2, sec. 2.1 (idem); p.6: 'a Type I concrete mixture with a 45 MPa compressive strength and no SCMs exhibited embodied carbon emissions of 505 kg CO2e/m3'.",
+    "nota": "Idem 1059."}
+  ]
+ },
+ {
+  "row_id": 3615,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (91 mil caracteres, paginas 1-16 ate ao fim das referencias) extraido pelo read_file_content e pesquisado na totalidade; sec. 5-6 (tracos e ACV, Tabela 2) lidas por inteiro.",
+  "pares": [
+   {"sheet_row": 1063, "cimento_designacao": "OPC (ordinary Portland cement)", "norma_cimento": null, "ligante": "cimento_comercial", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, sec. 6.1: 'The ingredients of the studied mixes were collected from refereed published papers: OPC concrete [55]'; Tabela 2: OPC concrete 'OPC 465' kg/m3 -> 257 kg CO2/m3 (total 347); p.6: 'The manufacturing of ordinary Portland cement produces 5.5299 e-1 kg CO2 per kg of cement, according to ... NREL [58]'.",
+    "nota": "Artigo de revisao: traco retirado de Turner & Collins [55]; tipo/classe do cimento nao indicados. Factor do cimento = NREL (EUA)."},
+   {"sheet_row": 1066, "cimento_designacao": "OPC (ordinary Portland cement)", "norma_cimento": null, "ligante": "substituicao_no_traco", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, sec. 5-6.1: 'glass powder concrete of 20 % replacement [57]'; 'The glass powder concrete mixture (with 20 % glass powder of cement weight)'; Tabela 2: OPC 242 + Glass powder 50 kg/m3 (total 245 kg CO2/m3).",
+    "nota": "Traco retirado de Guignone et al. [57]; 20 % de po de vidro em substituicao do cimento. Tipo/classe do cimento nao indicados."}
+  ]
+ },
+ {
+  "row_id": 3620,
+  "texto_completo_lido": true,
+  "notas": "Texto integral (127 mil caracteres, paginas 1-19 ate a ultima referencia [140]) extraido pelo read_file_content, abaixo do limite de corte conhecido, e pesquisado na totalidade; sec. 2 (metodo, Tabela 1) lida por inteiro.",
+  "pares": [
+   {"sheet_row": 1067, "cimento_designacao": null, "norma_cimento": null, "ligante": "indeterminado", "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Tabela 1 'Criteria matrix of materials used in walls, ceilings, and floors': coluna 'Cement' (parede/cobertura) Mechanical strength 250 kg/cm2 [87], Global warming 16.8 kgCO2/m2; p.5: 'thicknesses ... concrete and mosaic slabs and floors, 0.1 m'; 'The environmental indicators were taken from the ECOINVENT database [68]'.",
+    "nota": "O material e so rotulado 'Cement' (elemento cimenticio de parede/laje de habitacao rural no Mexico); nenhum tipo de cimento, traco ou norma em todo o artigo. Resistencia de manual de materiais (Jaramillo-Botero, Univ. del Quindio [87]) e CO2 de factor generico ecoinvent por m2 - nao ha mistura propriamente dita."}
+  ]
+ }
+]
