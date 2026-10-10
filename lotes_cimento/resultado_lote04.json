@@ -1,0 +1,216 @@
+[
+ {
+  "row_id": 2765,
+  "pares": [
+   {
+    "sheet_row": 216,
+    "cimento_designacao": "CEM I 42.5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.8, Sec. 2.1.3 Concrete Mixes: 'CEM I 42.5 R OPC was used for experimentation. The cement content was kept constant at 320 kg/m3'; Tab.4 coluna 'OPC CEM I 42.5 R (kg)'; Tab.7 (p.13, ACV) 'Cement (CEM I 42.5)'",
+    "nota": "NAC = so OPC, sem adicoes. A Tab.2 (p.7) da a composicao quimica do OPC (CaO 61,9%, SiO2 20,2%...), nao o teor de clinquer. Na ACV (Tab.7) aparece 'CEM I 42.5' sem o 'R'; dados de cimento do Ecoinvent 3.1. Nenhuma norma de cimento citada (EN 197-1 nao aparece)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (22 p.) lido via read_file_content; pesquisa por cement/CEM/OPC/197 em todo o texto."
+ },
+ {
+  "row_id": 2766,
+  "pares": [
+   {
+    "sheet_row": 220,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.9, Sec. LCI: 'for concrete, an EPD for fresh concrete with the reference S-P-05207 [51]' (Kvarnbackens Betongfabrik); Tab.2 'Concrete C25/30 - EPD'",
+    "nota": "O artigo nunca indica o tipo de cimento; o betao C25/30 do encamisamento e modelado por uma EPD de betao fresco (S-P-05207, Kvarnbackens Betongfabrik, Suecia). O cimento so aparece como causa generica do impacto (p.12)."
+   },
+   {
+    "sheet_row": 221,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.9, Sec. LCI: 'for concrete, an EPD for fresh concrete with the reference S-P-05207 [51]'; Tab.2 'Concrete C25/30 - EPD'",
+    "nota": "Igual ao par 220 (mesma EPD de betao C25/30); tipo de cimento nao declarado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (19 p.) lido; nenhuma ocorrencia de CEM, Portland, EN 197 ou NBR."
+ },
+ {
+  "row_id": 2769,
+  "pares": [
+   {
+    "sheet_row": 701,
+    "cimento_designacao": "cement",
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": "K = 90,2 (teor de clinquer no cimento, %, usado na equacao de carbonatacao)",
+    "citacao": "p.5, Sec. 2.2.3 Wall design: 'a 25 MPa grade is considered with the following dosage: 208 kg/m3 of cement, 164 l/m3 of water...'; p.6, Use phase: 'K is the content of clinker in the cement ... considering k is 2.359, t is 50, C is 279 and K is 90.2'",
+    "nota": "So 'cement', sem tipo nem norma; processos do Ecoinvent 3.3. O teor de clinquer 90,2% so aparece na equacao de carbonatacao (sugere um cimento com ~10% de adicoes, mas o tipo nao e dito). Incoerencia: a dosagem da 208 kg/m3 de cimento mas a equacao de carbonatacao usa C = 279 kg/m3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (versao post-print RiuNet) lido."
+ },
+ {
+  "row_id": 2782,
+  "pares": [
+   {
+    "sheet_row": 1887,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3-4, Tab.1: 'Concrete C25/30 a 250 581.0' (nota a: 'concrete mixture is set according to Becke et al. [35]'); Sec.2.3: 'Different types of cement are considered for concrete production'",
+    "nota": "Betao convencional C25/30 da parede E1: cimento nao especificado (mistura segundo Becke et al. 2014, explicacoes das EPD de betao alemas; base GaBi). So as alternativas RC-concrete tem cimento declarado: 'RC-concrete C25/30 with CEM III 42.5' (F2/E2) e 'with CEM II 42.5' (C2), ambos sem /A ou /B."
+   },
+   {
+    "sheet_row": 1889,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.3-4, Tab.1: 'Concrete C25/30 a 280 663.0' (laje C1); nota a: mistura segundo Becke et al. [35]",
+    "nota": "Igual ao 1887: cimento do betao convencional nao declarado. A alternativa C2 usa 'RC-concrete C25/30 with CEM II 42.5' (sem /A ou /B)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo curto (7 p., IOP), lido na integra."
+ },
+ {
+  "row_id": 2785,
+  "pares": [
+   {
+    "sheet_row": 226,
+    "cimento_designacao": "CEM I",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.35, Tab.8: 'PBPC.2 ... Structural concrete, non-aggressive environment CEM I', combinacao n.160 'dcdd' GWP 4.94·10^2 kg CO2 eq/m3 (maximo do grupo CEM I); p.13, Sec.3.3: dados de cimento das EPD do IECA",
+    "nota": "O valor 494 e o GWP maximo das combinacoes com CEM I (ambiente I nao agressivo, codigo dcdd: 4.o nivel de resistencia, agregado 12 mm, consistencia liquida, exposicao Qc). Na base IVE o tipo de cimento esta amarrado ao ambiente (I->CEM I, IIa->CEM IIa, IIb->CEM IIb, IIIa/b/c->CEM IIIa/b/c, IV->CEM IV), sem classe de resistencia do cimento. Factor do cimento = EPD IECA (Tab.5: CEM I 884 kg CO2 eq/t). Tab.5 refere uma razao clinquer/cimento media de 0,8 para a producao espanhola, nao especifica do CEM I. EN 197-1 nao citada; EHE-08 citada so para a dosagem."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "read_file_content devolveu texto parcialmente baralhado; PDF descarregado e extraido com pymupdf (48 p.) e lido, incluindo as tabelas."
+ },
+ {
+  "row_id": 2794,
+  "pares": [
+   {
+    "sheet_row": 228,
+    "cimento_designacao": "Ordinary Portland cement (OPC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Sec.2: 'Ordinary Portland cement (OPC) was utilized for casting the three beams, and it has a bulk density of 1440 kg/m3 ... 416 kg cement'; Sec.3.2 'The environmental impacts of sand, cement, gravel, steel bar, and seawater were found in the Gabi database'",
+    "nota": "Cimento so como 'OPC', sem classe nem norma; factor ambiental generico da base GaBi. Vigas desenhadas pela ACI 318R-14."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral lido."
+ },
+ {
+  "row_id": 2800,
+  "pares": [
+   {
+    "sheet_row": 230,
+    "cimento_designacao": "CEM I 52.5 R",
+    "norma_cimento": "EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.4, Sec.2.1: 'The applied cement was CEM I 52.5 R, in accordance with EN 197-1 [30]'; p.5, Tab.1: C 500 kg/m3, Fa 150 kg/m3 (cinza volante de biomassa, classe F), Ls 214 kg/m3 (filer calcario); Sec. LCA: 'High-performance cement, CEM I 52.5 R, produced at a Portuguese cement plant' (Declaracao Ambiental da fabrica [45])",
+    "nota": "O estudo junta ao CEM I uma cinza volante de biomassa (150 kg/m3) e filer calcario (214 kg/m3) no traco; nao e substituicao do cimento propriamente dita (o cimento fica em 500 kg/m3), mas sao adicoes no ligante decididas pelo estudo. Ref.[30] = BS EN 197-1:2004. Cinza tratada como residuo sem carga ambiental na ACV."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (23 p.) lido."
+ },
+ {
+  "row_id": 2801,
+  "pares": [
+   {
+    "sheet_row": 234,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.79, Tab.11: 'Concreto C20 0,094 m3'; p.80: 'O software contem em seu banco de dados as informacoes do processo de producao do concreto CA20/CA25'; p.116: 'Para o processo produtivo do concreto C20 foi encontrado um dado alemao'",
+    "nota": "Dissertacao nao identifica o cimento; o betao C20 e um processo pronto (dado alemao) da base GaBi 6 Educational. NBR 8953 nao e citada no texto. Lista de dados brasileiros da base (p.117) menciona 'Cimento (media)', mas nao foi o usado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Tese de 138 p.: PDF descarregado e extraido na integra com pymupdf (220 mil caracteres); pesquisa por cimento/CP/NBR/clinquer em todo o texto."
+ },
+ {
+  "row_id": 2804,
+  "pares": [
+   {
+    "sheet_row": 703,
+    "cimento_designacao": "CEM I (PC 42.5)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "100% PC",
+    "citacao": "p.5, Tab.1 'Mix 1: CEM I' PC 380 kg/m3; p.5 'CEM I (100 % PC content)'; p.9: 'An inclusion of PC 42.5'; p.2 Abreviaturas: 'CEM I Cement classification of Portland cement without any main addition'",
+    "nota": "EN 197-1 nao e citada; BS 8500-1/-2 citadas para o betao (RC32/40, S3) e para as combinacoes."
+   },
+   {
+    "sheet_row": 704,
+    "cimento_designacao": "CEM II/B-V",
+    "norma_cimento": "BS 8500-2",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "65% PC + 35% cinza volante (PC 247 + FA 133 kg/m3)",
+    "citacao": "p.3: 'GGBS, FA and limestone are additions that can be used in combination with PC at the concrete works in accordance with ... BS 8500-2'; p.5 Tab.1 'Mix 2: CEM II/B-V' PC 247, FA 133 kg/m3; p.9 'An inclusion of PC 42.5 ... frequently combined with FA and GGBS'",
+    "nota": "O artigo usa a notacao 'CEM II/B-V' (Portland-fly ash cement), mas o inventario separa PC 42.5 e cinza volante (distancias de transporte proprias: PC 209 km, FA 314 km) - e uma combinacao feita na central (BS 8500-2), nao um cimento ensacado. Composicao de ligante 380 kg/m3."
+   },
+   {
+    "sheet_row": 705,
+    "cimento_designacao": "CEM III/B",
+    "norma_cimento": "BS 8500-2",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "30% PC + 70% GGBS (PC 114 + GGBS 266 kg/m3)",
+    "citacao": "p.5 Tab.1 'Mix 3: CEM III/B' PC 114, GGBS 266 kg/m3; p.2 'CEM III/B Cement classification of blast furnace cement containing 66-80 % GGBS'; p.3 combinacoes na central segundo BS 8500-2",
+    "nota": "Como o 704: notacao de cimento CEM III/B mas inventariado como PC 42.5 + escoria (GGBS 439 km de transporte) combinados na central."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "download_file_content falhou (mensagem demasiado grande); texto integral (14 p.) lido via read_file_content."
+ },
+ {
+  "row_id": 2806,
+  "pares": [
+   {
+    "sheet_row": 236,
+    "cimento_designacao": "CEM I 42,5 R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "p.5, Tab.1 'CEM I 42,5 R' 389 kg/m3 (Concrete A - 'reference mixture, Portland cement only'); Tab.2 'CEM I 42.5 R (718 kg CO2/t)' [15]",
+    "nota": "fck do par = resistencia em cubo aos 60 dias (Tab.4). Nenhuma norma de cimento citada."
+   },
+   {
+    "sheet_row": 237,
+    "cimento_designacao": "CEM I 42,5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "290 kg CEM I + 194 kg cinza volante Detmarovice (40% do ligante)",
+    "citacao": "p.5: 'B - with fly ash used as a substitute for a portion of the Portland cement'; Tab.1 CEM I 42,5 R 290, 'Fly ash Detmarovice' 194 kg/m3",
+    "nota": "Cinza volante com factor 388 kg CO2/t atribuido (Tab.2), por isso o CO2 quase iguala o de A."
+   },
+   {
+    "sheet_row": 238,
+    "cimento_designacao": "CEM I 42,5 R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "290 kg CEM I + 194 kg escoria de alto-forno moida fina (3800 m2/kg) (40% do ligante)",
+    "citacao": "p.5: 'C - with fine-ground slag'; Tab.1 CEM I 42,5 R 290, 'Fin-ground blast furnace slag (3800 m2/kg)' 194 kg/m3",
+    "nota": "Escoria com factor 445 kg CO2/t atribuido (Tab.2), daí CO2 de C (344) superior ao de A (318)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Artigo de 7 p. (MATEC) descarregado e extraido com pymupdf, lido na integra."
+ }
+]
