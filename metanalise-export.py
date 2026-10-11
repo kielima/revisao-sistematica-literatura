@@ -7,7 +7,9 @@ Uso:
 Saida: {"pairs": [...], "unit_stats": [...]}.
 
 `pairs`: cada ponto e [fck_MPa, co2_kg_m3, categoria_1_letra, estrato_1_letra,
-citacao_curta_ou_null, base_portland, co2_com_desconto_ou_null, sem_bruto]. Os dois ultimos
+citacao_curta_ou_null, base_portland, co2_com_desconto_ou_null, sem_bruto, subfamilia_cimento_ou_null].
+O 9.o (2026-10-11, F12): subfamilia do cimento comercial dos pares da familia opc (dados_fck col 48,
+escrita por lotes_cimento/aplicar.py); null nas outras familias. Os dois anteriores
 (2026-10-07): CO2 com os descontos do proprio artigo (null = sem desconto) e 1 quando o artigo so publica o valor
 com desconto. `base_portland` (2026-09-28, pedido da Kie:
 filtro 'so cimento Portland' vs 'tudo' no painel) e 'P' (ligante principal cimento
@@ -809,8 +811,9 @@ def main():
         com = tofloat(ws.cell(r, 44).value)
         com = round(com, 2) if com is not None and CO2_MIN <= com <= CO2_MAX else None
         sem_bruto = 1 if str(ws.cell(r, 47).value or '') == 'nao' else 0
+        sub = (ws.cell(r, 48).value or 'nao_declarado') if cat == 'opc' else None
         compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato], short_label(autores, ano), base,
-                        com, sem_bruto])
+                        com, sem_bruto, sub])
 
     unit_stats = [
         {'kind': kind, 'cat': ucat, 'n': n}
