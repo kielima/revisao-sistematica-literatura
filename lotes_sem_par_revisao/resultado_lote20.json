@@ -1,0 +1,57 @@
+[
+ {
+  "row_id": 4337,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.3 p.8 (massa e GWP por fase/divisao/categoria Revit, so % e totais)", "Fig.4 p.11 (massa 4.739.437 kg Bolu / 4.506.540 kg Mardin e GWP por material, so %)", "Fig.5 p.13 (GWP por material e fase, so %)", "Tab.3 p.9", "Tab.4 p.10", "Tab.5 p.12-13", "Tab.6 p.14"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O unico CO2 atribuivel ao betao e o total Tally da divisao '03-Concrete' (Tab.3 p.9: Bolu 1,31E6 kg CO2eq; Mardin 1,20E6 kg CO2eq), que e de ciclo de vida completo (A1-A3, A4, B2-B5, C2-C4, D) e junta betao leve 3000 psi, betao 5000 psi e escadas betonadas in situ (Fig.4 p.11). A Tab.4 separa A1-A3 so para o edificio inteiro, nunca por material. Falta o VOLUME de betao (m3) do modelo - nao impresso em lado nenhum; a Fig.4 so da a massa total do edificio (4.739.437 kg) e a percentagem da massa (63%+~10% betao), mas nenhuma massa volumica do betao esta impressa, e a percentagem e lida da figura. Tambem nao ha area total do edificio (so areas das divisoes por fogo, p.3) para inverter a Tab.6 (kg CO2eq/m2). Nao se separa o CO2 por classe 3000/5000 psi (20,68 / 34,47 MPa).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Confirmada a leitura de 2026-09-27. Tab.6 p.14 usa ponto de milhar ('2.147' kg CO2eq/m2 A1-A3 Bolu = 2147; 'Mardin 2.684'). A divisao '03-Concrete' do Tally pode incluir armadura (o artigo nao o diz). Software Tally/GaBi 2018, TRACI 2.1, vida util 50 anos (p.6)."
+ },
+ {
+  "row_id": 4352,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.2 p.8 (GWP normalizado em %, betao=100)", "Fig.3 p.9 (energia incorporada, sem CO2)", "Fig.4 p.12 (sensibilidade normalizada em %)", "Tab.2 p.5-6", "Tab.3 p.7", "Tab.4 p.15"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O GWP proprio do cenario de betao (420 kg CO2eq/m2, Tab.4 p.15; area 14.233 m2, p.3) e do sistema estrutural + envolvente (curtain wall 2.415 m2, ccSPF 2.134 m3, R-13 258 m3, montantes de aco 1.617 m2, gesso 1.929 m2 - Tab.3 p.7) e inclui armadura (86,2 / 172,4 kg/m3 e 0,908 / 23,9 kg/m2, Tab.2) e cofragem. Falta o GWP so do betao (ou da estrutura de betao) - o artigo nunca o separa: Fig.2 e Fig.4 sao so percentagens normalizadas e o Apendice A so lista fontes de dados (BEES 4.0, Athena, US LCI), sem factores de emissao. Tambem nao separa CO2 por classe 21 / 28 / 34 MPa. O volume de betao existe (Tab.3: soma 11.598 m3), mas dividir 420x14.233 por ele atribuiria ao betao o CO2 da envolvente e do aco.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Confirmada a leitura de 2026-09-27. A diferenca entre cenarios (4.930 t sem carbono armazenado do cenario de madeira vs 'over a kilotonne' a mais no betao, p.14) tambem nao isola o betao, porque o cenario de madeira mantem 7.355 m3 de betao (fundacoes, nucleos) e muda a envolvente. Linha 1317 (glulam/CLT) nao e betao."
+ },
+ {
+  "row_id": 4363,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.2 p.6 (plantas, so vaos 7,3-7,7 m, sem seccoes de pilares/vigas)", "Fig.3 p.7 (pormenores construtivos sem cotas)", "Fig.5 p.9 (pie GWP edificio comum, betao 24%)", "Fig.6 p.10 (pie GWP edificio sustentavel, betao geopolimerico 15%)", "Fig.7-8 p.12 (CML/ReCiPe em %)", "Tab.1 p.9", "Tab.2 p.10", "Tab.3 p.11"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 do betao C25 so se isola em MASSA: 23,7% (texto p.9) de 448,3 t = ~106,2 t para 734.400 kg de betao (Tab.1 p.9) -> ~0,145 kg CO2eq/kg; geopolimero 15% (Fig.6, valor so do grafico circular, arredondado) de 264,4 t = ~39,7 t para 731.000 kg (Tab.2 p.10) -> ~0,054 kg CO2eq/kg. Para passar a kg/m3 falta a MASSA VOLUMICA do betao (ou o volume de betao em m3), que o artigo nao imprime em lado nenhum (nem seccoes dos elementos; so 'C25' e 734,4 t para pilares e vigas, p.7). Os 434,8 / 256,5 kg CO2eq/m2 sao do edificio inteiro (tijolo, marmore, cortica, aluminio...).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Confirmada a leitura de 2026-09-27. O 23,7% inclui transporte? Nao - transporte e 1,5% a parte (p.10). Unidade funcional m2 de construcao; SimaPro 7.2. Se um dia se aceitar uma massa volumica assumida, o resultado seria ~0,145 kg/kg x densidade, mas isso viola a regra 'nao vamos assumir nada'."
+ },
+ {
+  "row_id": 4369,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.4 p.7 (seccao: betao F'c 200 kg/cm2)", "Fig.5 p.7 (planta e paredes)", "Fig.7 p.14 (% por fase)", "Fig.8 p.15 (kg CO2eq por fase e alternativa, sem desagregacao por material)", "Fig.9 p.16 (GWP por fase)", "Tab.5 p.9", "Tab.11 p.13", "Tab.12 p.16"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 so e publicado para a habitacao inteira de 42 m2 (Tab.11 p.13: A 12,9-13,3 t CO2eq; 309 kg CO2eq/m2 A1-A5, Tab.12 p.16) e repartido so por ETAPA (Fig.7, Fig.8, Fig.9), nunca por material ou elemento. Falta o GWP do betao 20 MPa (13,8 m3, Tab.5 p.9, dataset ecoinvent 'Concrete production 20 MPa, RNA') - o artigo nao o imprime, nem o factor de emissao do dataset. Dividir o total pelos 13,8 m3 atribuiria ao betao o CO2 dos blocos (12.199,5 kg PE ou 8.155,9 kg pumice), argamassa, ceramica, aco (975,4 kg), EPS, portas e janelas.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Confirmada a leitura de 2026-09-27. Texto lido via read_file_content (completo, 24 p., ate a lista de referencias) e PDF descarregado na 2.a tentativa para ver as figuras. Classe do betao: F'c = 200 kg/cm2 (~19,6 MPa) na Fig.4, modelada como 20 MPa na ACV."
+ },
+ {
+  "row_id": 4387,
+  "pdf_confere": true,
+  "texto_completo_lido": false,
+  "figuras_vistas": ["nao foi possivel ver as figuras: download_file_content falhou duas vezes ('File too large for download, over limit of 10 MB', PDF de 17,7 MB, manuscrito HAL em imagem); read_file_content devolve texto parcial e muito degradado"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Do texto legivel: a Tab.2 da o GWP 100a so por kg de cada ACTIVADOR (NaOH 1,31; Ca(OH)2 8,78E-1; MgO 1,16; CaSO4 5,63E-2; CaCO3 4,97E-3 kg CO2eq/kg) e o impacto total e 'Total Impacts = soma mi.Ii' dos activadores; o indice publicado e Ci = GWP (kg CO2eq) / resistencia a compressao (MPa) por formulacao (Fig.12a), com a escoria e a agua fora da fronteira (sec.2.2, conforme o OCR integral de 2026-09-27). O CO2 nao e do ligante/argamassa completa (exclui a escoria) e, mesmo que fosse, falta a MASSA VOLUMICA da pasta (ou volume do provete por kg de escoria) para passar de 'por kg de escoria' a 'por m3' - nao impressa. fck aos 28 d legivel: NH 26,4 MPa e NH 10 34,2 MPa (legenda Fig.1/Fig.7), NH+Cc_5 30,7, NH+Mg+Cs_5_5 31,2 MPa.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Concordancia baseada no texto parcial legivel (Tab.2, legendas das Fig.1/7, formula Ci) e na nota da leitura anterior por OCR integral do PDF reduzido; nao foi possivel reler as paginas 5-7 e 25-28 em imagem nesta ronda. Para nova verificacao seria preciso um recorte pelo shrink-drive-pdf.yml (fora do ambito deste lote)."
+ }
+]

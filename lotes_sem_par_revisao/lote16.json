@@ -1,0 +1,102 @@
+[
+ {
+  "row_id": 3852,
+  "titulo": "Miller, Sabbie A.",
+  "autores": "ENVIRONMENTAL RESEARCH LETTERS",
+  "ano": "Web of Science",
+  "doi": null,
+  "pdf": "MILLER, 2021i - 1748-9326-abe677.pdf",
+  "fileId": "11UXCYM8O9vOu_Z_hrc-8-TfXrq1AixlA",
+  "linhas": [
+   {
+    "sheet_row": 1124,
+    "material": "Concreto CA-HC (alto teor cimenticio, especificacao Caltrans, 25 MPa aos 28 dias)",
+    "fck_gravado": 25,
+    "co2_original": "",
+    "co2_original_local": "",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): so o intervalo interquartil (240-466) e impresso; sem valor central",
+    "vol_m3": null
+   }
+  ]
+ },
+ {
+  "row_id": 3863,
+  "titulo": "Ataee, Soroosh and Stephan, A.",
+  "autores": "IOP Conference Series: Earth and Environmental Science",
+  "ano": "Scopus",
+  "doi": null,
+  "pdf": "ATAEE, 2022.pdf",
+  "fileId": "1-Fpt701GDh60P7cyHLlxC2NE-2DHULwY",
+  "linhas": [
+   {
+    "sheet_row": 1125,
+    "material": "Concreto 25 MPa (banco de dados EPiC) - passeio, ciclovia, fundacoes de poste/via de eletrico/pocos, 1km de boulevard/60 anos",
+    "fck_gravado": 25,
+    "co2_original": "471 tCO2e por 1km de boulevard/60 anos (IEGHG 325 + REGHG 146, soma de valores publicados, categoria de material 'Concrete' inteira)",
+    "co2_original_local": "Figura 5 (Initial and re-current GHG emissions by material category, valores impressos sobre as barras 'IN TONNE'), p.8 impressa; Tabela 4 (percentagens)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = 'Concrete 25 MPa' (designacao do material EPiC, Tabela 2) e CO2 da categoria Concrete = 325 t IEGHG + 146 t REGHG = 471 tCO2e por km de boulevard em 60 anos (Fig.5). Para dividir por volume falta o volume/massa de betao: a Fig.3 (massa por material) e um treemap sem numeros, a Tabela 4 so da % de massa (7%) sem massa total, e as espessuras das camadas nunca sao impressas (so larguras: passeio 4 m, ciclovia 1,5 m). Alem disso a categoria 'Concrete' mistura ladrilhos, blocos, fundacoes e argamassa. Nao conv",
+    "vol_m3": null
+   }
+  ]
+ },
+ {
+  "row_id": 3881,
+  "titulo": "Han, A.L. and Setiawan, H. and Hajek, P.",
+  "autores": "IOP Conference Series: Earth and Environmental Science",
+  "ano": "Scopus",
+  "doi": null,
+  "pdf": "HAN, 2019.pdf",
+  "fileId": "1CDSSha4gXaiF_vipF51kzcdc02EnpM7g",
+  "linhas": [
+   {
+    "sheet_row": 1129,
+    "material": "Concreto estrutural (media de corpos de prova de laboratorio, 7 anos de dados, Indonesia)",
+    "fck_gravado": 35,
+    "co2_original": "~20 m3 \"CO2\" (serie da Fig.4, pico 2017; Eq.1 herda unidade de volume) -> 63.000 kg CO2/ano pela excepcao 5b (3,15 t/m3)",
+    "co2_original_local": "Figura 4, p.4 (leitura visual) + Eq.1 p.4",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck 35 MPa = media das resistencias registadas em 7 anos (usada para estimar o teor de cimento pelo ACI). O CO2 so existe em 'm3' (Eq.1 aplica factor massa/massa a um VOLUME de cimento; Fig.4 eixo 'CO2 emission (m3)'). Conversao para kg exige a massa volumica do cimento, que o artigo nao imprime. Pela excepcao 5b ja autorizada pela Kie para esta linha (3,15 t/m3), a intensidade por m3 sai directamente das constantes impressas, sem leitura de grafico: 0,204 m3 cimento/m3 betao x 3,15 t/m3 x 0,95 (clinquer) x 0,5",
+    "vol_m3": null
+   }
+  ]
+ },
+ {
+  "row_id": 3886,
+  "titulo": "Eberhardt, L. and Birgisdottir, H. and Birkved, M.",
+  "autores": "IOP Conference Series: Earth and Environmental Science",
+  "ano": "Scopus",
+  "doi": null,
+  "pdf": "EBERHARDT et al., 2019 - 1755-1315_323_1_012027.pdf",
+  "fileId": "1ssaxc-f-QW3OgKZ2es7zZ32dHaY02i6e",
+  "linhas": [
+   {
+    "sheet_row": 1130,
+    "material": "Concreto armado (coluna estrutural, cenario sT — traditional, design estatico)",
+    "fck_gravado": 35,
+    "co2_original": "488 kg CO2 eq/elemento (coluna, cenario sT, 2 ciclos de 80 anos)",
+    "co2_original_local": "p.7-8, texto: \"the scenario exhibiting the highest embodied GHG is sT with 488 kg CO2 eq.\"",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: Coluna de betao armado 35 MPa: 1489 kg de betao + 76 kg de armadura (Tabelas 1-2); CO2 total por coluna ao longo de 2 ciclos de 80 anos: sT 488, sD 326, dT 297, dD 257 kg CO2 eq (texto + Fig.1). Nao ha volume nem dimensoes da coluna nem massa volumica do betao impressas -> nao e possivel dividir por m3 (seria preciso assumir ~2400 kg/m3). O total inclui armadura (familia concreto_armado), dois ciclos de vida e creditos de reciclagem (modulo N/D, barras negativas na Fig.1); o valor de producao do ano 1 isolado s",
+    "vol_m3": null
+   }
+  ]
+ },
+ {
+  "row_id": 3948,
+  "titulo": "Kane, Seth and Olsson, Josefine A and Miller, Sabbie A",
+  "autores": "Environmental Research: Infrastructure and Sustainability",
+  "ano": "Scopus",
+  "doi": null,
+  "pdf": "KANE et al., 2025 - 2634-4505_adbd6e.pdf",
+  "fileId": "1ed-zKSAak485QIZCotaHO1tm6R3acRWn",
+  "linhas": [
+   {
+    "sheet_row": 1149,
+    "material": "Concreto (familia agregada, compilacao global de 12 classes de materiais de construcao)",
+    "fck_gravado": 50,
+    "co2_original": "0.16 kg CO2/kg concreto (faixa reportada em texto: 0,09-0,16 kg CO2/kg concreto por tipo de material entre os dez maiores paises produtores; usado o limite superior)",
+    "co2_original_local": "p.7, texto: \"concrete production is 0.09-0.16 kg CO2/kg concrete by material type\"",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: Artigo de compilacao global (12 classes de materiais). O CO2 do betao so aparece por massa: 0,09-0,16 kg CO2/kg (por tipo de material), 0,08-0,13 kg CO2/kg (media das 10 maiores economias), 0,097 kg CO2/kg (media da industria). A resistencia so aparece como faixa na Fig.4 (Ashby plot, eixos log numerados; mancha 'Concrete' ~20-50 MPa) e como 'ex. 20 MPa concrete' do ecoinvent. A conversao para kg/m3 exige a massa volumica do betao, que o artigo diz ter usado mas remete para a 'supplemental sheet 2' - nao esta i",
+    "vol_m3": null
+   }
+  ]
+ }
+]

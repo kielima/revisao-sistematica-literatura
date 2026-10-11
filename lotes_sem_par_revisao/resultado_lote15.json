@@ -1,0 +1,95 @@
+[
+ {
+  "row_id": 3787,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.2 p.3 (fronteira do sistema)",
+   "Tab.2 p.3 (traco em %)",
+   "Tab.4 p.4",
+   "Fig.4a/4b p.5 (GWP por t de ligante)",
+   "Fig.6a/6b p.6 (resistencia)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica do betao (ou os kg de ligante por m3). A UF da ACV e 1 t de ligante (p.2: 'functional unit of assessment used was 1 t of RMC and calcined dolomite'); Tab.4 p.4 da 1,1 t CO2/t RMC e 0,3 t CO2/t D800 (Fig.4b ~1.150 e ~370 kg CO2-eq/t). O betao so e dosado em % de massa (Tab.2 p.3: 40% ligante, 60% agregado, w/b 0,60/0,29); nenhum ponto do artigo imprime massa volumica, massa dos cubos de 50 mm nem traco em kg/m3. Alem disso a fronteira (Fig.2) cobre so a producao do ligante (calcinacao), nao o betao (agregado, mistura).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Titulo e 1.o autor conferem (Ruan & Unluer, J. Mater. Civ. Eng. 2018, 30(11):04018279). fck aos 14 d em cubos 50 mm (p.6): RMC 51 MPa (R90T60C10), ~33 (R90T30C10), ~20 (R50T30C10); D800 28 MPa (R90T30C10). O unico 'por volume' do artigo e a porosidade (Eq.3, sem valores de massa). Nao ha indice CO2/MPa publicado."
+ },
+ {
+  "row_id": 3803,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.2 p.4 (fronteira cradle-to-site)",
+   "Tab.1 p.6",
+   "Tab.2 e Tab.3 p.7 (vistas como imagem)",
+   "Figs.4-7 p.7-8 (graficos de setores, so percentagens)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica do betao (ou o volume em m3 de cada classe). Tab.1 p.6 da as quantidades so em toneladas (C30 10.858,80 t; C35 9.683,33 t; C40 3.590,16 t); Tab.2 p.7 da factores por tonelada (0,099 / 0,113 / 0,122 tCO2e/t); Tab.3 p.7 da Cp 1.077,82 / 1.096,39 / 436,46 tCO2 (= factor x t, confere). Nenhum volume, area x espessura, nem massa volumica e impresso em todo o artigo, pelo que t -> m3 exigiria assumir uma massa volumica.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Titulo e autores conferem (Liu & Leng, JAABE 2022, 21:4, 1182-1192). fck = classes nominais C30/C35/C40 (norma chinesa, sem ensaio, sem idade impressa). Factores tirados de normas/literatura chinesa (nao ACV propria do betao). UHPC de fachada 780 t, 0,268 tCO2e/t, sem classe de resistencia. Edificio misto betao armado + aco; o CO2 do betao por classe esta separado do aco (inclui_aco seria false)."
+ },
+ {
+  "row_id": 3832,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Tab.3/Tab.4 p.4 (dosagens em % massica)",
+   "Fig.7 p.11 e Fig.8 p.12 (resistencia 1/7/28 d)",
+   "Tab.13 p.12",
+   "Tab.14/Tab.15 p.13 (GWP por t.MPa)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica das argamassas (ou o traco em kg/m3). A UF e '1 t of material and 1 MPa of compressive strength' (p.7); o GWP das Tab.14/15 (p.13, CML2001) esta em kg CO2 eq/(t.MPa). Multiplicando pelo fck lido nas Figs.7/8 obtem-se kg CO2 eq/t de argamassa, mas as Tab.3/4 (p.4) e Tab.13 (p.12) dao o traco so em % de massa e nenhuma massa volumica, massa de provete ou kg/m3 e impressa no artigo (procura por density/kg/m3/bulk: zero ocorrencias). Nao ha indice por m3.MPa.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Titulo e autores conferem (Yoris-Nobile et al., J. Sustain. Cem.-Based Mater. 2023). Fronteira: so producao das materias-primas (A1), mistura e transporte excluidos (p.6-7). Cinza volante sem encargos ambientais excepto processamento. fck por figura, prismas moldados 4x4x16 cm (EN 196-1), idade 28 d; a divisao do GWP pela resistencia nao diz explicitamente a idade usada (provavelmente 28 d)."
+ },
+ {
+  "row_id": 3834,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Tab.2 p.5 (estrutura rigida, espessura 365 mm)",
+   "Tab.3/Tab.5 p.7 (traco kg/m3 e t/km) vistas como imagem",
+   "Tab.6 p.8 (7.000 m2 de laje 365 mm)",
+   "Tab.8 p.14 e Tab.10 p.16 (vistas como imagem)"
+  ],
+  "veredicto": "CONVERTIVEL",
+  "pares": [
+   {
+    "sheet_row": 1115,
+    "mistura": "Betao C-35 da laje do pavimento JCP (Etiopia, ACI 211/EBCS)",
+    "fck_mpa": 35,
+    "fck_fonte": "p.6 (impressa p.5), sec.3.2: 'A specified compressive strength, of 35 Mpa is required at 28 days' (f'cr = 43,5 MPa); Tab.2 p.5 'Concrete Class C-35'",
+    "idade_dias": 28,
+    "co2_kg_m3": 325.4,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Leitura literal do cabecalho da Tab.8 (p.14): 'emission ... to air in kg per ton of Portland cement concrete production'. CO2 por t de betao, A1-A3 sem aco: fine aggregate 0,0222 + coarse aggregate 0,745 + Portland cement 141 + PC concrete mixing 0,0277 = 141,7949 kg CO2/t de betao. Massa volumica = soma do traco da Tab.3 (p.7, SSD): agua 127 + cimento 410 + agregado grosso 1.077,36 + agregado fino 680,73 = 2.295,09 kg/m3 (confere com Tab.5 p.7: 5.863,72 t de betao por km / (7.000 m2 da Tab.6 x 0,365 m da Tab.2 e Tab.6 = 2.555 m3) = 2.295,0 kg/m3). 141,7949 x 2,29509 = 325,4 kg CO2/m3 (+0,0168 x 2,295 = 0,04 se se juntar a colocacao). ALTERNATIVA (aplicacao do proprio autor na Tab.10 p.16, que multiplica o factor 141 pela massa de CIMENTO: 1,47E+05 kg = 141 x 1.047,26 t; e o factor dos agregados pela massa de cada agregado): por m3 = 141x0,410 + 0,745x1,07736 + 0,0222x0,68073 + 0,0277x2,29509 = 58,7 kg CO2/m3 (ou, pelas parcelas da Tab.10: (38,6+2.050+147.000+1,62)/2.555 = 58,4). Ver notas: a escolha entre 325,4 e 58,7 e decisao da Kie.",
+    "inclui_aco": false,
+    "confianca": "baixa"
+   }
+  ],
+  "nao_convertivel_motivo": "",
+  "concorda_com_leitura_anterior": false,
+  "notas": "Titulo e autor conferem (Habte, Cogent Engineering 2021, 8:1923362). A leitura anterior concluiu NAO CONVERTIDO por (1) factor 141 kg CO2/t de cimento ~6x abaixo do normal e (2) 'Sum' da Tab.10 incoerente. (2) NAO se confirma: o 'Sum' 2,24E+05 kg CO2 = 1,5 x soma das parcelas (149.208 kg), exactamente a formula impressa na p.13 ('Ep + 50% x Ep = 1.5Ep', construcao + 50% de manutencao em 40 anos); por isso o 'Sum' NAO serve para o CO2 de producao (inclui manutencao), mas as parcelas sim. Unica gralha: 'PC Concrete mixing' 1,62E+00 na Tab.10 quando 0,0277 x 5.863,72 = 162 (irrelevante: 0,06 kg/m3). (1) A incoerencia resolve-se com o proprio cabecalho da Tab.8, que diz 'per ton of Portland cement concrete production': lido assim, 141 kg CO2 por t de BETAO e 2,2 kg CO2 por t de betao para o aco (= 12.900 kg para 8,67 t de aco, 1,49 kg CO2/kg aco), valores coerentes com 410 kg de cimento/m3 (325,4/0,410 = 794 kg CO2/t de cimento implicito); o autor, na Tab.10, aplicou-os a massa de cada material (141 por t de cimento, 2,2 por t de aco), o que da valores fisicamente improvaveis. Ambas as leituras usam so numeros impressos; pus no par a leitura do cabecalho (325,4) por coerencia interna (precedente KOCAK/LARSEN), com confianca baixa, e a do autor (58,7) como alternativa. RECOMENDO decisao da Kie antes de gravar. So CO2 (nao CO2-eq): CH4 e N2O sao <0,001% do total (Tab.10). Inventario de terceiros (Hao & Rashmi 2014; Stripple 2001), nao ACV propria do betao ensaiado. Volume do elemento: 2.555 m3 por km (7.000 m2 x 0,365 m). Vida util de projecto 40 anos (Tab.2)."
+ },
+ {
+  "row_id": 3837,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.1 p.5 (fronteira do sistema)",
+   "Tab.2 e Tab.3 p.7 (vistas como imagem)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica do shotcrete (ou o seu volume em m3). Tab.2 p.7 da 'Shotcrete mixture' 3,14 t, 'Density (kg per m3)' = 3 e EE factor 0,74 kgCO2eq/kg; a coluna 'Density' nao e massa volumica (150/3/90/80/30 acompanham as quantidades em t: 157,12/3,14/94,27/83,80/31,42), e 0,74 x 3 = 2,2 kg/m3 seria absurdo. A Tab.3 da areas de paineis mas nenhuma espessura de reboco/shotcrete. Alem disso o texto (p.9) da 369,04 tCO2eq para 388,46 t de cimento com 0,74 kg/kg (388,46 x 0,74 = 287,5; 369,04/0,74 = 498,7 t), incoerente com os 3,14 t da Tab.2.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Titulo e autores conferem (Ayob et al., J. Phys.: Conf. Ser. 1793 (2021) 012035). fck = shotcrete 'with 25 MPa strength' (p.9), sem ensaio nem idade. Factor 0,74 kgCO2eq/kg e de fonte externa [23]. Totais tambem incoerentes entre resumo/resultados (760,89 tCO2eq) e conclusoes (4.565,34 tCO2eq)."
+ }
+]

@@ -1,0 +1,68 @@
+[
+ {
+  "row_id": 3852,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.2 p.10 (histograma Monte Carlo, imagem raster extraida 1351x428 e lida por pixel)", "Fig.3 p.10", "Fig.4 p.11 (matriz de % de reducao media e probabilidades)", "Tabela 1 p.5 (traco das 4 misturas)"],
+  "veredicto": "PARCIAL",
+  "pares": [
+   {"sheet_row": 1124, "mistura": "CA-HC (475 kg/m3 cimenticios: 403 PC + 71 FA, Tabela 1)", "fck_mpa": 25,
+    "fck_fonte": "p.4 (sec. 2.1): 'a concrete mixture that reaches 25 MPa at 28 days (referred to herein as CA-HC)' - resistencia-alvo de projecto (Caltrans), nao ensaio",
+    "idade_dias": 28, "co2_kg_m3": 334, "co2_bruto_ou_liquido": "unico", "co2_com_desconto_kg_m3": null,
+    "conta": "MEDIANA lida da Fig.2 (p.10, histograma de 100 000 simulacoes Monte Carlo por m3, eixo x 'Greenhouse Gas Emissions (kg CO2-eq/m3)' 0-1000, eixo y 'Simulations' 0-10000). Calibracao por pixel na imagem raster: x=0 em px 88,7 e x=1000 em px 1322; y=0 em px 350 e y=10000 em px 12. Alturas das barras cinzentas (CA-HC, largura de classe 33,1 px = 26,8 kg) lidas coluna a coluna; acumulado ate 50 000 simulacoes (n=100 000, sec. 2.2.1 p.4) -> mediana = 334,1 kg CO2-eq/m3. Validacao: o mesmo calculo da q25 = 240,0 e q75 = 467,4, contra o intervalo interquartil IMPRESSO no texto p.9 '240-466 kg CO2-eq m-1' (gralha de unidade; a Fig.2 e por m3). A media NAO e recuperavel: a cauda >1000 kg/m3 fica fora do eixo (media so da parte visivel = 360,6, limite inferior).",
+    "inclui_aco": false, "confianca": "baixa"},
+   {"sheet_row": null, "mistura": "300C-15FA (300 kg/m3 cimenticios: 255 PC + 45 FA, Tabela 1)", "fck_mpa": 25,
+    "fck_fonte": "p.4: 'Two additional mixtures capable of achieving the same strength at 28 days ... used 300 kg m-3 of cementitious material' (mesmo alvo 25 MPa aos 28 d do CA-HC)",
+    "idade_dias": 28, "co2_kg_m3": 224.5, "co2_bruto_ou_liquido": "unico", "co2_com_desconto_kg_m3": null,
+    "conta": "MEDIANA lida da Fig.2 (barras salmao 300C-15FA, largura de classe 25,2 px = 20,4 kg), mesma calibracao; acumulado ate 50 000 de 100 000 -> 224,5 kg CO2-eq/m3 (q25 = 160,7; q75 = 314,0). Validacao: IQR = 153 = 0,68 x IQR do CA-HC, coerente com o texto p.9 'for the 300C-FA15 mixture, the range is 2/3rds that amount'; razao das medianas 224,5/334,1 = 0,672 (reducao 32,8%), coerente com a reducao media de GHG de 33% impressa na Fig.4 (p.11) para 300C-15FA.",
+    "inclui_aco": false, "confianca": "baixa"}
+  ],
+  "nao_convertivel_motivo": "Nenhum valor central (media ou mediana) de CO2 por m3 e impresso em texto ou tabela; so o IQR do CA-HC (240-466, p.9) e as % de reducao da MEDIA (Fig.4: CA-LC 14%, 300C-15FA 33%, 300C-30FA 42%). A media do CA-HC, que permitiria converter as 3 alternativas pelas % da Fig.4, nao e impressa nem recuperavel da Fig.2 (cauda cortada aos 1000 kg/m3). CA-LC e 300C-30FA nao tem histograma: ficam sem par. As medianas acima so existem por leitura pixel a pixel do histograma.",
+  "concorda_com_leitura_anterior": false,
+  "notas": "Concordo que nao ha valor central IMPRESSO, mas a Fig.2 tem escala legivel e permite ler a mediana das duas distribuicoes; a leitura reproduz o IQR impresso (240-466) com erro < 1,5 kg, o que da confianca na calibracao. Cabe a Kie decidir se uma mediana de distribuicao Monte Carlo lida de histograma serve como CO2 da mistura. Escopo da ACV: berco-ao-portao (materias-primas ate producao do betao, ano 2018, sem construcao/uso/fim de vida, p.5), por m3. fck e classe/alvo de projecto, nao medido."
+ },
+ {
+  "row_id": 3863,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.2 p.6 (corte do boulevard, so larguras)", "Fig.3 p.7 (treemaps sem numeros)", "Fig.4 p.8 (treemaps sem numeros)", "Fig.5 p.8 (IEGHG/REGHG por material, valores impressos)", "Tabelas 2-4"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o VOLUME (ou a massa) de betao 'Concrete 25 MPa' por km de boulevard. O CO2 da categoria 'Concrete' e 325 t (IEGHG) + 146 t (REGHG) = 471 tCO2e/km/60 anos (Fig.5, p.8), mas: a Fig.3 (massa por material) e um treemap sem valores; a Tabela 4 so da 7% da massa total sem a massa total; a Fig.2 e a Tabela 2 so dao larguras (passeio 4 m, ciclovia 1,5 m, via de electrico 3,6 m), nunca espessuras nem densidades (a Eq.1 usa W x T x I x D mas T e D nao sao impressos). Alem disso a categoria 'Concrete' junta ladrilhos, blocos, fundacoes e argamassa (nao e uma so mistura) e o REGHG inclui substituicoes ao longo de 60 anos.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck 25 MPa = designacao do material EPiC (Tabela 2). Factores de emissao EPiC (australianos) nao impressos no artigo."
+ },
+ {
+  "row_id": 3881,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.3 p.5", "Fig.4 p.5 (residuo de betao, uso de cimento e CO2, todos em m3)", "Fig.2 p.4", "Fig.6 p.6"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 so existe em 'm3' (Eq.1 p.4: CO2 = V_cimento x C_clinquer x EF_clinquer, aplicada a um VOLUME de cimento; Fig.4 eixo 'CO2 emission (m3)'). Para passar a kg falta a massa volumica do cimento, que o artigo nao imprime. A excepcao 5b (3,15 t/m3) daria 0,204 m3 cimento/m3 betao (p.4) x 3,15 t/m3 x 0,95 x 0,5 t CO2/t clinquer = 0,305 t = ~305 kg CO2/m3 (~311 com a correccao CKD +2% que o texto menciona sem dizer se a aplica), MAS: (1) o proprio resultado do artigo nao segue a Eq.1 - na Fig.4, em 2017, residuo ~97 m3, cimento ~20 m3 (razao 0,204, coerente) e CO2 ~19 'm3', ou seja CO2/cimento ~0,95 e nao 0,475 como a Eq.1 daria; o mecanismo nao fica claro, condicao que a regra 5b exige; (2) o CO2 calculado e so a emissao de processo do clinquer (factor IPCC 0,5 t/t), sem combustivel do forno, electricidade, agregados ou transporte, logo nao e o A1-A3 do betao.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Se a Kie quiser mesmo aplicar a 5b ja autorizada para esta linha, o valor da Eq.1 e ~305 kg CO2/m3 (so calcinacao/clinquer, confianca baixa), mas recomendo nao converter pelo conflito Eq.1 x Fig.4 e pela fronteira incompleta. fck 35 MPa = media das resistencias registadas em 7 anos (p.4), usada para estimar o teor de cimento pelo metodo ACI. Texto p.4 escreve '0.204 m2 cement' (gralha, devia ser m3)."
+ },
+ {
+  "row_id": 3886,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.1 p.9 (GHG acumulado por cenario + fluxos)", "Tabelas 1-2 p.7", "Tabela 3 p.10"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o VOLUME da coluna (ou as suas dimensoes) ou a massa volumica do betao: o artigo so da 1489 kg de 'Concrete 35MPa' e 76 kg de armadura por coluna (Tabelas 1-2, p.7). Os totais (sT 488, sD 326, dT 297, dD 257 kg CO2 eq, p.8 e Fig.1) cobrem 2 ciclos de 80 anos, incluem armadura (e ligacoes de aco em D), transporte e creditos de reciclagem/substituicao (modulo N). A producao do ano 1 so e legivel na Fig.1 (barra do betao ~200 kg, betao+armadura ~240 kg CO2 eq por coluna), mas mesmo esse valor exige dividir pelo volume da coluna, que nao e impresso.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Mesmo com volume, o total seria familia concreto_armado (inclui aco). Seria preciso assumir ~2400 kg/m3, o que a regra estrita proibe. A dimensao da coluna remete para o estudo anterior [15] (Eberhardt et al 2020), nao impresso aqui."
+ },
+ {
+  "row_id": 3948,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.2 p.7 (producao, emissoes totais, intensidades por kg)", "Fig.3 p.8 (intensidade regional do betao em kg CO2e/kg)", "Fig.4 p.9 (Ashby resistencia x GHG por kg)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a MASSA VOLUMICA do betao: o CO2 do betao so aparece por massa (0,09-0,16 kg CO2/kg por tipo de material e 0,08-0,13 kg CO2/kg entre as 10 maiores economias, p.7; media da industria 0,097 kg CO2/kg, p.6). O artigo diz ter usado densidades para converter (p.6) mas remete para a 'supplemental sheet 2', que nao esta impressa no PDF; a unica densidade impressa (2400 kg/m3) e da ceramica/ladrilho (p.3). Tambem nao ha pares mistura a mistura: a resistencia do betao so aparece como mancha na Fig.4 (~20-50 MPa) e o indice GHG/sigma = 0,003-0,005 kg CO2/kg/MPa (p.8) e por kg, nao por m3, sem resistencia por mistura associada.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Artigo de compilacao global de 12 classes de materiais (ecoinvent GLO, cut-off, 'Selected LCI Results' - so CO2 fossil). O fck=50 da linha 1149 emparelha topo da faixa de resistencia com topo da faixa de CO2 sem correspondencia impressa."
+ }
+]

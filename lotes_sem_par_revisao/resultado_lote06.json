@@ -1,0 +1,210 @@
+[
+ {
+  "row_id": 3095,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.5 p.8 (resistencia cimenticios, com tabela)",
+   "Fig.7 p.9 (resistencia AA, com tabela)",
+   "Fig.8 p.9",
+   "Fig.9a/b p.10 (climate change kg CO2-eq/m3 com tabela de valores)",
+   "Fig.10 p.10",
+   "Fig.11 p.11",
+   "Fig.12 p.11"
+  ],
+  "veredicto": "CONVERTIVEL",
+  "pares": [
+   {
+    "sheet_row": 839,
+    "mistura": "C-II/B (pasta CEM II/B-L 32.5R, l/s 0,4)",
+    "fck_mpa": 45.4,
+    "fck_fonte": "Fig.5 p.8, tabela 'sigma_c,max (MPa) 28 days': C-II/B 45.4; cubos de 20 mm, 10 replicas, cura 20 C / HR>90%, ensaio aos 28 d (sec.2.3 p.5); pasta pura, nao betao",
+    "idade_dias": 28,
+    "co2_kg_m3": 1212,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Nativo: 1212 kg CO2-eq/m3 de ligante (pasta) impresso na tabela da Fig.9a p.10 para C-II/B; nenhuma conversao. Coerencia: percentagens da mesma figura (-2% C-IV/A, -26% C-IV/B, -62% C-IV/H, -70% AA-CDW0.4, -65% AA-CDW0.5, -71% AA-WC, -50% AA-IBA face a 1212) e texto p.10 (357 e 358 kg/m3 para AA-WC e AA-CDW0.4; 605 para AA-IBA). Volume do provete = 0,02^3 = 0.000008 m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "C-IV/A (pasta CEM IV/A 32.5N, l/s 0,4)",
+    "fck_mpa": 48.7,
+    "fck_fonte": "Fig.5 p.8, tabela 28 days: C-IV/A 48.7; cubos de 20 mm, 10 replicas, cura 20 C / HR>90%, ensaio aos 28 d (sec.2.3 p.5); pasta pura, nao betao",
+    "idade_dias": 28,
+    "co2_kg_m3": 1193,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Nativo: 1193 kg CO2-eq/m3 de ligante (pasta) impresso na tabela da Fig.9a p.10 para C-IV/A; nenhuma conversao. Coerencia: percentagens da mesma figura (-2% C-IV/A, -26% C-IV/B, -62% C-IV/H, -70% AA-CDW0.4, -65% AA-CDW0.5, -71% AA-WC, -50% AA-IBA face a 1212) e texto p.10 (357 e 358 kg/m3 para AA-WC e AA-CDW0.4; 605 para AA-IBA). Volume do provete = 0,02^3 = 0.000008 m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "C-IV/B (pasta CEM IV/B 32.5N, l/s 0,4)",
+    "fck_mpa": 45.9,
+    "fck_fonte": "Fig.5 p.8, tabela 28 days: C-IV/B 45.9 (o 42.6 do texto p.8 e o valor aos 7 d); cubos de 20 mm, 10 replicas, cura 20 C / HR>90%, ensaio aos 28 d (sec.2.3 p.5); pasta pura, nao betao",
+    "idade_dias": 28,
+    "co2_kg_m3": 895,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Nativo: 895 kg CO2-eq/m3 de ligante (pasta) impresso na tabela da Fig.9a p.10 para C-IV/B; nenhuma conversao. Coerencia: percentagens da mesma figura (-2% C-IV/A, -26% C-IV/B, -62% C-IV/H, -70% AA-CDW0.4, -65% AA-CDW0.5, -71% AA-WC, -50% AA-IBA face a 1212) e texto p.10 (357 e 358 kg/m3 para AA-WC e AA-CDW0.4; 605 para AA-IBA). Volume do provete = 0,02^3 = 0.000008 m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "C-IV/H (pasta 50% CEM IV/B + 50% argila residual, l/s 0,4)",
+    "fck_mpa": 35.8,
+    "fck_fonte": "Fig.5 p.8 e texto p.8 'average sigma_c,max = 35.8 MPa' aos 28 d; cubos de 20 mm, 10 replicas, cura 20 C / HR>90%, ensaio aos 28 d (sec.2.3 p.5); pasta pura, nao betao",
+    "idade_dias": 28,
+    "co2_kg_m3": 458,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Nativo: 458 kg CO2-eq/m3 de ligante (pasta) impresso na tabela da Fig.9a p.10 para C-IV/H; nenhuma conversao. Coerencia: percentagens da mesma figura (-2% C-IV/A, -26% C-IV/B, -62% C-IV/H, -70% AA-CDW0.4, -65% AA-CDW0.5, -71% AA-WC, -50% AA-IBA face a 1212) e texto p.10 (357 e 358 kg/m3 para AA-WC e AA-CDW0.4; 605 para AA-IBA). Volume do provete = 0,02^3 = 0.000008 m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "AA-CDW0.4 (finos de RCD alcali-ativados, l/s 0,4)",
+    "fck_mpa": 4.3,
+    "fck_fonte": "Fig.7 p.9 tabela 28 days 4.3; texto p.8; cubos de 20 mm, 10 replicas, cura 20 C / HR>90%, ensaio aos 28 d (sec.2.3 p.5); pasta pura, nao betao",
+    "idade_dias": 28,
+    "co2_kg_m3": 358,
+    "co2_bruto_ou_liquido": "liquido",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Nativo: 358 kg CO2-eq/m3 de ligante (pasta) impresso na tabela da Fig.9a p.10 para AA-CDW0.4; nenhuma conversao. Coerencia: percentagens da mesma figura (-2% C-IV/A, -26% C-IV/B, -62% C-IV/H, -70% AA-CDW0.4, -65% AA-CDW0.5, -71% AA-WC, -50% AA-IBA face a 1212) e texto p.10 (357 e 358 kg/m3 para AA-WC e AA-CDW0.4; 605 para AA-IBA). Volume do provete = 0,02^3 = 0.000008 m3. O precursor (finos de RCD / IBA) inclui no modelo um impacto negativo por aterro evitado (sec.2.4 p.5: 'a negative impact (environmental benefit) was included since there was no recourse to landfilling'; Tab.5 p.6 'Avoidance of landfilled CDW/IBA'); o artigo nao imprime o valor bruto sem esse credito (Fig.11 p.11 so da percentagens, com a parcela 'CDW fines'/'IBA' positiva 3,7-4,6%/2,5%), por isso so ha o valor liquido.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "AA-CDW0.5 (finos de RCD alcali-ativados, l/s 0,5)",
+    "fck_mpa": 8.6,
+    "fck_fonte": "Fig.7 p.9 tabela 28 days 8.6; texto p.8; cubos de 20 mm, 10 replicas, cura 20 C / HR>90%, ensaio aos 28 d (sec.2.3 p.5); pasta pura, nao betao",
+    "idade_dias": 28,
+    "co2_kg_m3": 425,
+    "co2_bruto_ou_liquido": "liquido",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Nativo: 425 kg CO2-eq/m3 de ligante (pasta) impresso na tabela da Fig.9a p.10 para AA-CDW0.5; nenhuma conversao. Coerencia: percentagens da mesma figura (-2% C-IV/A, -26% C-IV/B, -62% C-IV/H, -70% AA-CDW0.4, -65% AA-CDW0.5, -71% AA-WC, -50% AA-IBA face a 1212) e texto p.10 (357 e 358 kg/m3 para AA-WC e AA-CDW0.4; 605 para AA-IBA). Volume do provete = 0,02^3 = 0.000008 m3. O precursor (finos de RCD / IBA) inclui no modelo um impacto negativo por aterro evitado (sec.2.4 p.5: 'a negative impact (environmental benefit) was included since there was no recourse to landfilling'; Tab.5 p.6 'Avoidance of landfilled CDW/IBA'); o artigo nao imprime o valor bruto sem esse credito (Fig.11 p.11 so da percentagens, com a parcela 'CDW fines'/'IBA' positiva 3,7-4,6%/2,5%), por isso so ha o valor liquido.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "AA-WC (argila residual alcali-ativada, l/s 0,6)",
+    "fck_mpa": 3.0,
+    "fck_fonte": "Fig.7 p.9 tabela 28 days 3.0 (nao impresso no texto, so na tabela da figura); cubos de 20 mm, 10 replicas, cura 20 C / HR>90%, ensaio aos 28 d (sec.2.3 p.5); pasta pura, nao betao",
+    "idade_dias": 28,
+    "co2_kg_m3": 357,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Nativo: 357 kg CO2-eq/m3 de ligante (pasta) impresso na tabela da Fig.9a p.10 para AA-WC; nenhuma conversao. Coerencia: percentagens da mesma figura (-2% C-IV/A, -26% C-IV/B, -62% C-IV/H, -70% AA-CDW0.4, -65% AA-CDW0.5, -71% AA-WC, -50% AA-IBA face a 1212) e texto p.10 (357 e 358 kg/m3 para AA-WC e AA-CDW0.4; 605 para AA-IBA). Volume do provete = 0,02^3 = 0.000008 m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "AA-IBA (cinza de fundo de incinerador alcali-ativada, l/s 0,8)",
+    "fck_mpa": 6.9,
+    "fck_fonte": "Fig.7 p.9 tabela 28 days 6.9; texto p.8; cubos de 20 mm, 10 replicas, cura 20 C / HR>90%, ensaio aos 28 d (sec.2.3 p.5); pasta pura, nao betao",
+    "idade_dias": 28,
+    "co2_kg_m3": 605,
+    "co2_bruto_ou_liquido": "liquido",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Nativo: 605 kg CO2-eq/m3 de ligante (pasta) impresso na tabela da Fig.9a p.10 para AA-IBA; nenhuma conversao. Coerencia: percentagens da mesma figura (-2% C-IV/A, -26% C-IV/B, -62% C-IV/H, -70% AA-CDW0.4, -65% AA-CDW0.5, -71% AA-WC, -50% AA-IBA face a 1212) e texto p.10 (357 e 358 kg/m3 para AA-WC e AA-CDW0.4; 605 para AA-IBA). Volume do provete = 0,02^3 = 0.000008 m3. O precursor (finos de RCD / IBA) inclui no modelo um impacto negativo por aterro evitado (sec.2.4 p.5: 'a negative impact (environmental benefit) was included since there was no recourse to landfilling'; Tab.5 p.6 'Avoidance of landfilled CDW/IBA'); o artigo nao imprime o valor bruto sem esse credito (Fig.11 p.11 so da percentagens, com a parcela 'CDW fines'/'IBA' positiva 3,7-4,6%/2,5%), por isso so ha o valor liquido.",
+    "inclui_aco": false,
+    "confianca": "media"
+   }
+  ],
+  "nao_convertivel_motivo": "",
+  "concorda_com_leitura_anterior": false,
+  "notas": "A leitura de 2026-09-28 dizia que os cimenticios 'nao tem CO2 absoluto divulgado (segredo industrial)'. Errado: o segredo industrial (p.6) e so do inventario dos cimentos; os resultados absolutos dos 8 ligantes estao impressos na tabela por baixo da Fig.9a (p.10): C-II/B 1212, C-IV/A 1193, C-IV/B 895, C-IV/H 458, AA-CDW0.4 358, AA-CDW0.5 425, AA-WC 357, AA-IBA 605 kg CO2-eq/m3. Os 4 cimenticios tem fck28 >= 20 MPa (45,4 / 48,7 / 45,9 / 35,8) e passam a ter par; os 4 alcali-ativados tem fck28 < 20 MPa (4,3 / 8,6 / 3,0 / 6,9) e ficam sujeitos a regra da purga de 08/09 (listados por completude). Todos sao PASTAS (ligante + agua/AS), nao betao; o material e para estabilizar agregado reciclado de sub-base. C-IV/H nao cumpre a EN 197-1 (p.8). A linha legada 839 juntava tudo; sugere-se desdobrar numa linha por ligante. Base Portland: C-II/B, C-IV/A, C-IV/B, C-IV/H = sim; AA-* = nao. Os valores por m3 de mistura estabilizada (Fig.12/texto p.12, ex.: 24-49 kg/m3 para 2-4% C-II/B) NAO servem: sao escalados de faixas de dosagem da literatura (Tab.1), sem fck da mistura."
+ },
+ {
+  "row_id": 3098,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.1 p.2",
+   "Fig.2 p.2",
+   "Tab.1/Tab.2 p.2",
+   "Fig.3 p.3",
+   "Fig.4 p.4 (LCIA por t de cinza tratada)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o CO2 do betao/UHPC: a UF e 'the treatment of 1 t of Class F fly ash' (sec.2.1 p.3) e o unico GWP e o saldo consequencial do sistema por tonelada de cinza (Fig.4 p.4, barras ~-4150 / ~-3900 kg CO2 eq, sem valor impresso), que soma separador DCS + aterro da fraccao grossa + ponte UHPC em substituicao de ponte em betao convencional + cimento evitado. Nao ha kg CO2-eq por m3 (nem por kg) de nenhuma mistura, nem traco do UHPC (vem de Sameer et al. 2019, nao impresso), nem volume de betao da ponte. Tambem nao ha fck proprio: '150 MPa can be achieved' (p.5) e capacidade declarada, nao ensaio.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Fig.3 p.3 so em percentagem de contribuicao; Fig.6 (mix electrico) irrelevante. Artigo de 9 pp lido na integra via download + pymupdf."
+ },
+ {
+  "row_id": 3111,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Tab.1-4 p.4-5",
+   "Fig.4 p.6",
+   "Fig.5 p.6",
+   "Fig.6 p.6",
+   "Fig.7 p.7"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o GWP do betao isolado em kg CO2-eq: as Figs.4-6 (p.6) dao GWP por etapa construtiva so em 'person*year' normalizado (CML), e a Fig.7 (p.7) da o impacto por material agregando todas as categorias, tambem em person*year; o factor de normalizacao nao e impresso. O unico GWP absoluto e da casa inteira por m2 de area construida (PS2 242, alvenaria 234 kg CO2 eq/m2, Discussao p.5), que inclui aco (81,79 kg/m2 no PS2, Tab.2), tinta, ceramica, telha, etc. Mesmo com o traco impresso (p.4: 306 cimento, 887 areia, 903 brita, '199 g/m3' de agua, 4,6 aditivo por m3, 25 MPa aos 28 d), nao existe numero de CO2 do betao para multiplicar.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck 25 MPa = classe do dataset Ecoinvent / traco do produtor (p.4), nao ensaio. O texto diz que o traco foi aplicado ao 'PS1' mas e o cenario de paredes de betao (PS2) - gralha do artigo. A agua vem impressa como '199 g/m3' (provavel gralha de kg)."
+ },
+ {
+  "row_id": 3106,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Tab.1-4 p.3",
+   "Tab.8 / Fig.9 (resistencia)",
+   "Fig.13 / Tab.14 p.13",
+   "Fig.14 p.14",
+   "Fig.15 p.15",
+   "Fig.16 / Tab.15 / Tab.16 / Fig.17 p.16",
+   "Tab.17-20 p.17-19"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Nao ha nenhum GWP em kg CO2-eq no artigo: a ACV (SimaPro 9.5, ReCiPe Endpoint H, sec.2.4.6 p.5) e so do REVESTIMENTO de Mg(OH)2, com UF = revestimento de 0,01 m2 de face de cubo, e todos os resultados estao em pontuacao unica mPt/Pt (Figs.14-17, Tabs.15-17). O betao (traco unico da Tab.2 p.3: 451,88 kg cimento, 216 agua, 984,30 brita, 650,25 areia por m3, alvo 28 MPa) nao entra na ACV. Faltaria o CO2 do betao em kg CO2-eq por m3 (ou por kg), que o artigo nunca calcula; a unica equivalencia kg CO2 <-> mPt (p.17: 50.000 kg CO2 = 12.500.000 mPt de uma casa de 250 m2) e um benchmark externo (UN 2023), nao um resultado do estudo, e o objecto seria o revestimento.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF original 19,8 MB (acima do teto de 10 MB do download): texto integral lido por read_file_content (98.562 caracteres, ate as referencias, sem truncamento - termina na declaracao de dados); pp.6-17 vistas como imagem a partir de um recorte gerado pelo shrink-drive-pdf.yml (ficheiro temporario enviado para o lixo do Drive depois de lido). Resistencia pos-exposicao ao acido (Tab.8): controlo 21,89 MPa; revestidos 24,26-26,78 MPa (idade 28 d + 4 d de acido)."
+ },
+ {
+  "row_id": 3133,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.7b p.8 (resistencia a compressao, massa volumica 1.2)",
+   "Fig.7d p.8",
+   "Fig.8 p.9 (GWP por kg)",
+   "Fig.9 p.9 (seccoes das paredes)",
+   "Fig.10 p.10 (GWP por m2 de parede, estrutura portante vs restante)"
+  ],
+  "veredicto": "PARCIAL",
+  "pares": [
+   {
+    "sheet_row": 1861,
+    "mistura": "3DP Biowall BW1 (particulas de madeira + Biomix 1:1; Biomix = 50% amido de milho + 50% lignossulfonato de sodio), sem ciclo de reciclagem",
+    "fck_mpa": 92,
+    "fck_fonte": "Fig.7b p.8 'max. strength [N/mm2]', marcador da Biowall '1.2 g/mm3' lido por pixel entre as linhas 90 e 100 (~91-92); cubos de 40 mm cortados das metades dos prismas de flexao (sec.4.2 p.7), duas leituras por provete; nenhum valor impresso no texto",
+    "idade_dias": null,
+    "co2_kg_m3": 456,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Via A (material): GWP BW1 por kg da Fig.8 p.9 lido por pixel ~0,38 kg CO2eq/kg (eixo com rotulos arredondados '0E+00, 5E-01, 1E+00, 2E+00, 2E+00' = linhas a 0/0,5/1,0/1,5/2,0) x massa volumica impressa na Fig.7b '1.2 g/mm3' (gralha de unidade, so plausivel como 1,2 g/cm3 = 1200 kg/m3) = ~456 kg CO2eq/m3. Via B (parede): estrutura portante BW1 da Fig.10 p.10 (parte verde = so os 200 mm de 'Biowall composite', Fig.9 p.9) lida por pixel ~57,5 kg CO2eq/m2 / 0,200 m = ~288 kg CO2eq/m3. As duas vias divergem ~58% (a Fig.10 usa EPD/Baubook 'with consideration of the stored carbon values' [90], p.9, e/ou uma massa volumica implicita ~0,76 t/m3 que o artigo nao imprime; a Fig.8 declara biomassa neutra, p.8).",
+    "inclui_aco": false,
+    "confianca": "baixa"
+   }
+  ],
+  "nao_convertivel_motivo": "Conversao so possivel com leitura de figuras e duas vias incoerentes (456 vs 288 kg CO2eq/m3); a massa volumica vem impressa com unidade errada ('1.2 g/mm3'); e, sobretudo, o material NAO e betao nem argamassa: e um composito 100% de base biologica (madeira + amido + lignossulfonato), sem ligante mineral - fora do ambito do ponto 5 do PROMPT ('o CO2 tem de ser do betao/argamassa da mistura'). Para uma via unica faltaria a massa volumica da parede impressa (ou o GWP por m3 do composito) e um GWP sem/com carbono armazenado explicitado.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Recomendacao: manter NAO CONVERTIDO (material de base biologica, familia biobase, e vias divergentes), salvo decisao da Kie. O fck ~92 MPa e invulgar para um composito de madeira a 1,2 g/cm3 mas e o que a Fig.7b mostra (comparado com espruce ~94 e OSB ~12). PDF original 12,3 MB: texto integral lido por read_file_content (75.944 caracteres, ate as referencias); pp.7-10 vistas como imagem a partir de um recorte do shrink-drive-pdf.yml (temporario, enviado para o lixo do Drive)."
+ }
+]

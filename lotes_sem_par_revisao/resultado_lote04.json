@@ -1,0 +1,57 @@
+[
+ {
+  "row_id": 2837,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.5.2 p.66 (eixo 'CO2eq/kg', 4,4E+04 a 5,1E+04)", "Fig.5.10 p.74 (diagrama de processo SimaPro do CR)", "Tab.4.4 p.58", "Tab.4.5 p.62-63", "Tab.5.1 p.64-65", "Tab.5.2 p.80"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta um valor de GWP de 1 m3 de betao que seja coerente com o proprio inventario. A UF e 1 m3 (p.51) e o traco esta impresso (Tab.4.4 p.58: CR 283,02 kg cimento, 1074,85 kg brita, 929,04 kg areia), mas o unico resultado de GWP (Tab.5.1 p.64 e Fig.5.2 p.66: CR 4,37E+04; CRCD25 3,77E+04; CRCD50 3,84E+04; CRCD75 4,53E+04; CRCD100 5,11E+04, unidade 'CO2 eq/kg') esta ~100x acima de qualquer betao. O diagrama de processo da Fig.5.10 (p.74) mostra a causa: o transporte da brita entrou como 9,82E4 tkm e o da areia como 2,91E4 tkm, quando a Tab.4.5 (p.63) da 91,36 tkm e 27,87 tkm (ou seja, kg.km lancados como t.km, ~1000x), e a electricidade como 1,29E5 MJ; por isso a brita aparece com 56,3% do GWP (p.79). O erro esta no inventario dos autores e nao e uma simples escala corrigivel, porque so afecta alguns processos. Os factores de emissao por constituinte nao sao impressos (Quadro 4.2 so nomeia processos Ecoinvent), por isso nao da para recalcular traco x factores.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck 32 MPa aos 28 d e de dosagem comum aos 5 tracos (p.58, 'resistencia a compressao aos 28 dias igual a 32 MPa'; cilindros 10x20 cm, p.57). Achado novo, que reforca a leitura anterior: os diagramas de processo (Figs.5.10-5.14, p.74-78) trazem so percentagens e mostram o inventario de transporte e de electricidade inflacionado ~1000x face a Tab.4.5 (brita CR 9,82E4 tkm vs 91,36 tkm impressos). Os valores de GWP nao se podem usar, nem com reescala."
+ },
+ {
+  "row_id": 2844,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Tab.1 p.11 impressa", "Fig.3 p.14 impressa (kg CO2 por modulo, escala 0-14.000)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o volume de betao HA-25 de cada modulo (ou o quantitativo de materiais do forjado reticular). A Fig.3 (p.14) da o CO2 total por modulo (leitura: 4x4 ~3.100; 5x5 ~3.900; 6x6 ~6.500; 7x7 ~8.600; 8x8 ~11.800 kg CO2), mas esse total junta betao, aco (malha B500T e armaduras), blocos aligeirados de betao leve, 4 pilares, transporte e obra (pp.10-11 impressas), sem separacao por material. A seccao tipo da laje e descrita (25 cm, nervuras a cada 72 cm, blocos 60x20x25, camada de compressao 5 cm, p.09) mas nem o volume nem as dimensoes dos pilares sao impressos. A Tab.1 (p.11) so da factores por kg de materia-prima (cimento 0,410; aco 2,800; arido 0,007 kg CO2/kg) e pesos especificos a granel, sem traco do HA-25.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck 25 MPa (HA-25/B/16/I, p.09). Mesmo com o volume, o total incluiria aco e blocos inseparaveis (inclui_aco seria true)."
+ },
+ {
+  "row_id": 2871,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.1-2 p.753", "Fig.3 p.754", "Tab.1-3 p.756-757", "Fig.4 p.757"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o volume de betao C25/30 do sistema de piso (e o GWP so do betao). A UF e 'one composite floor system with a length of 6000 mm' (p.755), e o GWP A1-A3 da Tab.1 (669-1110 kg CO2 eq) e do sistema inteiro: viga de aco, chapa colaborante, betao e conectores. Testei a separacao por regressao: o GWP A1-A3 sobe linearmente com a massa da viga (IPE180 112,8 kg -> 669; IPE400 397,8 kg -> 1110; declive ~1,55 kg CO2/kg de aco, p.753 e Tab.1). A ordenada na origem (~494 kg CO2 eq) e a parte comum, mas ainda junta betao, chapa e conectores, sem decomposicao. A geometria da laje (altura 120 mm, nervura 60 mm, nervuras a 240 mm, largura efectiva 1500 mm, p.754) nao da o volume, porque o perfil da chapa nao e impresso.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck 25 MPa (C25/30, p.754). As massas das vigas IPE270/240/220/200 nao sao impressas no texto (so nas Figs.1-2). Mesmo com o volume, a ordenada na origem continuaria a incluir aco da chapa e dos conectores."
+ },
+ {
+  "row_id": 2886,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.6 p.8 (% por fase)", "Fig.7 p.9 (quota por material)", "Fig.8 p.11", "Fig.9 p.12 (% de reducao)", "Tab.4 p.7", "Tab.6 p.9", "Tab.8 p.12"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o volume (ou a massa e a massa volumica) de betao de cada edificio. O artigo so imprime o carbono por m2 de GIA (Tab.4 p.7: A1-A5 residencial 521,78; faculdade 511,51; hotel 708,57 kgCO2e/m2; Tab.8 p.12 WLEC) e as areas (Tab.6 p.9: 145,861; 2500; 11.843,29 m2), mais a quota do betao na Fig.7 (27%, 29%, 12%), sem dizer se a quota e sobre A1-A5 ou outra base. Da para chegar a kg CO2e do betao por edificio (ex. residencial 521,78 x 145,861 x 0,27 = ~20.550 kg), mas nao a kg/m3. A Fig.9 so da % de reducao com GGBS/cinzas. Nao ha quantidades de materiais, traco nem factores de emissao impressos.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck: RC20/25 (residencial) e RC32/40 (faculdade e hotel) (p.10). O 'betao' da Fig.7 parece excluir a armadura (o 'metal' inclui a rebar, p.12), mas isso nao e dito de forma explicita. O valor gravado em co2_original (140,9 kg/m2, derivado por % da Fig.7) continua a nao ser convertivel."
+ },
+ {
+  "row_id": 2890,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Tab.1 p.1898", "Fig.6 p.1902", "Fig.7 p.1903 (incl. 7e lida por pixel)", "Tab.2 e Fig.11 p.1905", "Fig.12 p.1907", "Tab.3 e Fig.13 p.1908"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Para a mistura das linhas 779/780 (HPFRC/UHPRC das vigas U, 100 MPa, Alt.2, Tab.3 p.1908), falta a massa volumica do HPFRC: o ECC e 0,157/0,253 kg CO2eq/kg (Sec.5.3 p.1909) e nenhuma massa volumica de betao e impressa no artigo. O resultado da Alt.2 so existe como total por m2 de todos os elementos e materiais (Fig.13: 386/1124 kgCO2eq/m2), sem separar as vigas U, e a area de referencia do m2 nunca e declarada. A Tab.1 (p.1898) so da kg CO2eq/kg (com 'assumes 305/342/420 kg cement/m3'), tambem sem massa volumica.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Dois caminhos candidatos, que exigem inferencia nao impressa e que deixo a decisao da Kie (nao gravados): (1) TABULEIRO DE REFERENCIA C40 (CEM II, 0,153 kg/kg; Tab.2 6399 m3, 40 MPa). O m2 dos graficos e coerente com o m2 do tabuleiro: o pre-esforco 19,28 kg/m2 (Tab.2) x ECC minimo 1,00 (Tab.1) = 19,28 kgCO2/m2, igual aos 7% de ~272 da Fig.12a. Mas a area em si nao e impressa (432,5 m x 2 estruturas x 12,0 m = 10.380 m2 seria inferencia nossa a partir da p.1908). Com ela, o betao a 83% de ~272 = ~226 kg/m2 daria ~366 kg/m3 (min). No cenario max (48% de ~525 = ~252 kg/m2) daria ~409 kg/m3, apesar de o ECC do betao do tabuleiro ser declarado fixo (0,153), o que e uma incoerencia interna. (2) COBERTURA de 35 m em C30/37 CEM III (0,065 kg/kg, p.1906; armadura 110 kg/m3 a 0,53; +5% A4-A5). Fig.7e lida por pixel, com escala dada pelo total rotulado: solucao pre-esforcada 60 kg/m2, dos quais betao ~54,4 e pre-esforco ~5,6; solucao mista, betao ~35,7 de 115 kg/m2 sobre laje de 180 mm (Fig.7d), o que daria ~198 kg/m3 (incluindo armadura, inclui_aco true). Mas a Fig.7e nao tem escala no eixo, nao diz se o segmento 'concrete' inclui a armadura e a ensoleira, e a seccao e so a de meio-vao. Ambos ficam nao convertidos pela regra 'nao vamos assumir nada'."
+ }
+]

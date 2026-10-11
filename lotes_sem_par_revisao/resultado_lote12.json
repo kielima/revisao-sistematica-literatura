@@ -1,0 +1,74 @@
+[
+ {
+  "row_id": 3414,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.3 p.4 (desenho cotado do modulo pre-fabricado, 400 dpi)", "Table 1 p.4", "Fig.4 p.5 (modulo AM)", "Table 2 p.5", "Fig.5 p.7 (GWP por cenario + fc28 no eixo secundario, lido por pixel a 400 dpi)", "Fig.6 p.7", "Fig.7 e Fig.8 p.8"],
+  "veredicto": "PARCIAL",
+  "pares": [
+   {"sheet_row": 419, "mistura": "S0 - betao Portland pre-fabricado (barreira acustica, 45 modulos)", "fck_mpa": 32.0, "fck_fonte": "p.6, sec.3: 'S0 having the highest strength (32 MPa)'; Fig.5 legenda 'MPa (28 days)' (marcador lido por pixel = 31,9)", "idade_dias": 28, "co2_kg_m3": 651.2, "co2_bruto_ou_liquido": "bruto", "co2_com_desconto_kg_m3": null,
+    "conta": "GWP da fase 'LHNB production' de S0 lido por pixel na Fig.5 (p.7; escala 0-5000 kg CO2 eq./20m, 15,24 kg/px): 4.062 kg CO2 eq./20m (confere com o texto p.6: S1/S2/S3/S4 44/7/32/96% abaixo de S0 -> 2.275/3.778/2.762/162 vs 2.264/3.773/2.751/145 lidos). Volume de betao: Fig.3 (p.4) cota o modulo como prisma macico de altura 900 mm com planta em L: rectangulo 500x400 mm menos o recorte trapezoidal (350+263)/2 x 150 = 45.975 mm2 -> area 154.025 mm2 -> 0,15403 m2 x 0,9 m = 0,13862 m3/modulo; 45 modulos por 20 m (p.4) -> 6,238 m3. 4.062 / 6,238 = 651,2 kg CO2-eq/m3. Verificacoes internas: massa impressa 330 kg/modulo (p.4) / 0,13862 m3 = 2.381 kg/m3 (coerente com betao); Table 1 cimento 27% x 14.850 kg = 4.010 kg -> 643 kg cimento/m3, e cimento = 90% do GWP de producao (p.6) -> 3.656/4.010 = 0,91 kg CO2/kg cimento CEM I (coerente). A fase 'production' inclui extraccao, transporte ate a fabrica e ao local, e electricidade de moldagem (Fig.2/sec.2.1). Absorcao por carbonatacao (uso/fim de vida, 270+36 kg/20m anuais) nao e desconto sobre A1-A3 e nao foi aplicada.",
+    "inclui_aco": false, "confianca": "media"},
+   {"sheet_row": null, "mistura": "S1 - geopolimero pre-fabricado (CFA+GBFS, 10% activador), mesmos 45 modulos", "fck_mpa": 20.0, "fck_fonte": "Fig.5 p.7, marcador amarelo no eixo secundario 'Compressive strength (MPa)', 'MPa (28 days)', lido por pixel = 19,96", "idade_dias": 28, "co2_kg_m3": 362.8, "co2_bruto_ou_liquido": "unico", "co2_com_desconto_kg_m3": null,
+    "conta": "Fig.5: barra 'LHNB production' de S1 = 2.264 kg CO2 eq./20m (pixel). Volume 6,238 m3 (mesma geometria Fig.3: o texto p.4 aplica o modulo de 330 kg x 45 ao 'precast LHNB' e p.9 da espessura 150 mm para S0-S2; p.6 diz que os pesos dos cenarios sao equivalentes). 2.264 / 6,238 = 362,8 kg CO2-eq/m3.",
+    "inclui_aco": false, "confianca": "baixa"},
+   {"sheet_row": null, "mistura": "S2 - geopolimero pre-fabricado (GBFS+metacaulino, 15% activador), mesmos 45 modulos", "fck_mpa": 24.9, "fck_fonte": "Fig.5 p.7, marcador no eixo secundario, 'MPa (28 days)', lido por pixel = 24,93", "idade_dias": 28, "co2_kg_m3": 604.8, "co2_bruto_ou_liquido": "unico", "co2_com_desconto_kg_m3": null,
+    "conta": "Fig.5: barra 'LHNB production' de S2 = 3.773 kg CO2 eq./20m (pixel; texto: 7% abaixo de S0). 3.773 / 6,238 m3 = 604,8 kg CO2-eq/m3 (volume como em S1).",
+    "inclui_aco": false, "confianca": "baixa"}
+  ],
+  "nao_convertivel_motivo": "S3 e S4 (impressao 3D): modulo oco de forma curva (Fig.4: 450 mm de altura, paredes de 30 mm, faces de 295,7/565,28 mm) cujo volume de material nao se calcula das cotas impressas, e nao ha massa volumica do geopolimero; so massa 57 kg x 90 modulos. Falta o volume de material (ou a massa volumica) dos modulos AM. Para S0-S2 o volume nao vem escrito como numero, mas sai so das cotas impressas da Fig.3.",
+  "concorda_com_leitura_anterior": false,
+  "notas": "A leitura anterior dizia que as dimensoes exteriores eram incoerentes com um volume macico; isso so e verdade se se usar 150 mm x 0,9 m x 20 m (2,7 m3 -> 5.500 kg/m3). Com a planta em L cotada na Fig.3 a densidade fica 2.381 kg/m3 e o teor de cimento confere com o GWP. Os 45 modulos de 0,5 m de largura cobrem 20 m porque encaixam uns nos outros (zigue-zague); usou-se o numero de modulos e a massa impressos, nao o comprimento. Chanfros dos cantos (desenhados, sem cota) ignorados (<1%). Valores lidos por pixel com incerteza ~ +/-30 kg/20m (+/-5 kg/m3). Recomendo que a Kie confirme S0 (confianca media) e decida se aceita S1/S2 com a mesma geometria. Fig.6 da tambem GWP/MPa (~120 kg CO2/(MPa.20m) para S0), mas sobre o GWP total do ciclo de vida, nao so producao."
+ },
+ {
+  "row_id": 3418,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.3 p.5 (fc micro-calcite, lido por pixel a 400 dpi)", "Table 6 p.5", "Fig.4, Fig.5, Fig.6, Fig.7 p.6", "Fig.12 p.7 (massa volumica aos 28 d, lida por pixel)", "Tables 10-13 p.10 (texto)"],
+  "veredicto": "PARCIAL",
+  "pares": [
+   {"sheet_row": 1000, "mistura": "Pasta de OPC + 15% CaCO3 sintetico de captura (micro-calcite), cenario 2 (NaOH por membrana), w/s 0,5", "fck_mpa": 51.3, "fck_fonte": "Fig.3 p.5, curva '15% micro-calcite' aos 28 d, lida por pixel (51,3); confere com Fig.5 p.6 (+11,7% sobre OPC 46,0 -> 51,4). Cubos 50x50x50 mm (sec.2.4)", "idade_dias": 28, "co2_kg_m3": 927.7, "co2_bruto_ou_liquido": "bruto", "co2_com_desconto_kg_m3": 385.2,
+    "conta": "Ligante por m3 = massa volumica aos 28 d / (1 + w/s): Fig.12 p.7, barra micro-calcite do 3.o grupo = 1.767 kg/m3 (pixel) / 1,5 (w/s = 0,5, sec.2.3) = 1.178 kg de ligante/m3. Bruto = 1.178 x (0,85 x 0,899 [Table 10, OPC] + 0,15 x 0,154 [Table 12, CaCO3 cenario 2]) = 1.178 x 0,7874 = 927,7 kg CO2-eq/m3 (combinacao feita por nos com factores impressos; o artigo nao imprime o bruto da blenda). Com desconto = 1.178 x 0,327 kg CO2eq/kg (p.11, numero do proprio artigo para a blenda a 15%, cenario 2) = 385,2 kg CO2-eq/m3. O 0,327 coincide com 0,85 x 0,902 - 0,44 = 0,327, i.e. credita os 0,44 kg de CO2 capturados para produzir 1 kg de CaCO3 (excedente 'usado noutras industrias'), tipo de desconto: captura/carga evitada.",
+    "inclui_aco": false, "confianca": "baixa"},
+   {"sheet_row": null, "mistura": "Pasta de OPC de referencia (CEM I Hanson), w/s 0,5", "fck_mpa": 46.0, "fck_fonte": "Fig.3 p.5, curva OPC aos 28 d, lida por pixel (46,0); confere com 10% nano-calcite 58,3 = +26-27% (Fig.5 e p.6)", "idade_dias": 28, "co2_kg_m3": 1055.0, "co2_bruto_ou_liquido": "unico", "co2_com_desconto_kg_m3": null,
+    "conta": "Massa volumica da pasta de OPC aos 28 d = 1.760 kg/m3 (texto p.7, sec.3.5) / 1,5 (w/s 0,5) = 1.173,3 kg cimento/m3 x 0,899172 kg CO2eq/kg (Table 10, p.10) = 1.055,0 kg CO2-eq/m3.",
+    "inclui_aco": false, "confianca": "baixa"}
+  ],
+  "nao_convertivel_motivo": "Linha 999 (10% nano-calcite, fck 58,3): a ACV so modela o CaCO3 do processo de captura (micro-calcite, sec.2.2 e 2.7); a nano-calcite foi sintetizada de CaCl2 + Na2CO3 em laboratorio e nao tem CO2 proprio, e o artigo so da o CO2 da blenda a 15%. Falta o kg CO2-eq/kg da nano-calcite (ou da blenda a 10%). Para os pares dados, o numero estritamente em falta e a massa volumica FRESCA (ou o teor de ligante por m3) da pasta: o artigo so imprime a massa volumica aparente aos 28 d de cubos curados em agua (Fig.12, texto p.7).",
+  "concorda_com_leitura_anterior": false,
+  "notas": "A leitura anterior dizia que seria preciso supor a massa volumica; o artigo imprime-a (1.760 kg/m3 para OPC, Fig.12 para as blendas), mas e a do provete endurecido e saturado aos 28 d, nao a da amassadura - usa-la como divisor assume que a massa por m3 nao mudou na cura. Por isso confianca baixa e decisao da Kie. Ambiguidade adicional: o eixo x da Fig.12 esta mal rotulado (5,10,15,5,10); o texto diz que a massa volumica decresce com o teor de CaCO3, pelo que o 3.o grupo (1.767) e 15%; se fosse o 2.o grupo (1.775) o resultado muda < 0,5% (931,9 / 386,9). A UF da ACV e 1 kg de cimento (A1-A3 do cimento), sem agua nem mistura. O 0,327 do artigo parece nao somar as emissoes do processo de captura (0,154) - nao verificavel; registado tal como impresso."
+ },
+ {
+  "row_id": 3420,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["nao foi possivel ver as figuras: download_file_content falhou duas vezes (ficheiro de 9,4 MB; ligacao ao servidor Drive fechada por mensagem demasiado grande). Texto integral lido via read_file_content (74.000 caracteres, inclui todas as seccoes ate as referencias)."],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O texto nao imprime nenhum valor absoluto de GWP (kg CO2-eq) de nenhum portico nem do edificio: os resultados estao so nas Figs.7, 8, 9, 11 e 12, que nao consegui ver (e que a leitura anterior descreve como indices normalizados, com a Fig.12 ilegivel na copia reduzida). O divisor existe: UF = portico de 0,44 m3 de betao C60/75 (p.5) com 67,7 kg de armadura (Table 1, portico nao reutilizavel). Falta o GWP absoluto da fase de construcao do portico nao reutilizavel C60/75 (Fig.7 ou ciclo 1 da Fig.12a, em kg CO2-eq). Se existir, o par seria GWP/0,44 m3 com inclui_aco = true (familia betao armado), fck 60 (classe de projecto).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Traco do betao feito no BetonLab, nao impresso no texto principal (so material suplementar). Para fechar de vez seria preciso ver a Fig.12 em alta resolucao (recorte de paginas pelo shrink-drive-pdf.yml com first_page/last_page, p.9-10) - nao feito nesta ronda."
+ },
+ {
+  "row_id": 3480,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.5 p.5 (fc por molaridade)", "Fig.4 p.5", "Table 2 e 3 p.3", "Table 5-7 p.10", "Fig.13 e Table 8 p.11"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Linha 423 (GP 16 M, fck 29,5 aos 28 d): os 92,15 kg CO2-eq/m3 da Table 8 (p.11) sao so cinza volante 400 kg x 0,2 + areia 1.350 kg x 0,009; o artigo exclui explicitamente activadores e agua ('do not incorporate water and admixtures', p.9) e nao imprime nem a dosagem de NaOH/Na2SiO3 por m3 (so 'consistent activator/binder ratios', sem valor) nem factores de emissao de NaOH ou silicato (Table 5 so tem OPC, areia e cinza). Faltam: kg de NaOH e de Na2SiO3 por m3 e os respectivos kg CO2-eq/kg. Linha 424 (argamassa OPC, 421,65 kg CO2-eq/m3, Table 8): mistura so calculada para comparacao, nunca ensaiada - falta qualquer resistencia a compressao da argamassa OPC.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Traco implicito da Table 8: OPC 450 kg/m3 (409,5/0,91), areia 1.350 kg/m3 (12,15/0,009), cinza 400 kg/m3 (80/0,2). fc aos 28 d da mistura 16 M ~29,5 MPa (Fig.5), cubos 70,6 mm."
+ },
+ {
+  "row_id": 3488,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.1-3 p.2-3 (seccoes das lajes)", "Table 1 p.5", "Table 2 p.5", "Table 3-4 p.6", "Table 5, Fig.7, Fig.8, Fig.9 p.7"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "UF = 1 m2 de sistema de piso (laje + chapa/perfis de aco + la de rocha + armadura), CO2 por m2 e por fase (Table 5). O artigo nao imprime quantidades de betao por m2 (volume, espessura so do betao, ou massa), nem massa volumica dos betoes; so peso total do piso em kN/m2 (Table 1: 2,8 / 5,1 / 2,61, que inclui aco e isolamento). Os factores por kg da Table 2 (ex.: 'Reinforcing concrete (25/30 MPa)' 0,132, 'Concrete (40/50)' 0,151 kg CO2e/kg) sao coeficientes genericos de base de dados (ICE), nao resultados do estudo, e mesmo assim faltaria a massa volumica. Falta: volume (ou massa) de betao por m2 de cada sistema e a parcela do CO2 de fabrico atribuida so ao betao.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Fig.2: laje alveolar 250 mm (vs 200 mm na Table 1 e 300 mm no texto); Fig.3: PUSS 230 mm. Mesmo dividindo por espessura, o total inclui aco e isolamento inseparaveis - nao serve."
+ }
+]

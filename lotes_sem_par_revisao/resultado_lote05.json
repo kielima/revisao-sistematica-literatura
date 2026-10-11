@@ -1,0 +1,71 @@
+[
+ {
+  "row_id": 2917,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Tab.11 p.16-17 (p.1478-1479 impressas)",
+   "Fig.6 p.17 (contribuicao por processo, mistura PP 0,1%, por 1 t)",
+   "Fig.7 p.17"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica (kg/m3) da argamassa (fresca ou endurecida) ou o volume da amassadura. O CO2 e por 1 t de argamassa (sec.2.5 p.8: 'The reference unit was 1 t of mortar'; Tab.11: controlo 104,31774 kg CO2 eq/t). O traco (Tab.2 p.5) so da razoes em massa relativas ao cimento (1:2:0,5338:0,0093:0,5:0,0417) e a Fig.6 da as massas por 1 t (cimento 245 kg, calcario 490 kg, fly ash 122 kg, caulino 10,2 kg, plastificante 2,27 kg); a unica 'Density' impressa e a das fibras (Tab.1). Misturadora de 30 l (sec.2.3) e capacidade do equipamento, nao volume da amassadura. Prismas 40x40x160 tem dimensoes mas a massa dos provetes nunca e impressa.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF conferido (Alonso-Canon et al., Int J Adv Manuf Technol 2024, 134:1463-1485, DOI 10.1007/s00170-024-14126-1). Texto integral (23 pp.) lido com pymupdf. fck controlo 52,53 MPa aos 28 d (Tab.10, meios-prismas EN 196-1); 35 misturas com fibras 49,38-56,92 MPa. Fronteira declarada 'gate-to-gate ... only the material production stage' com electricidade de mistura/impressao incluida."
+ },
+ {
+  "row_id": 2927,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Tab.2 + Fig.2 p.4",
+   "Tab.5 p.7",
+   "Fig.8/Fig.9 p.8",
+   "Tab.6 p.9",
+   "Fig.11 p.10",
+   "Fig.12 p.11"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 da Tab.6 (Mix1 45,9; Mix2 29,4; Mix3 20,7; Mix4 12,9 kg CO2 eq por m3, A1-A3) exclui explicitamente o cimento: p.10 'Since the quantity of cement remains constant across all mixtures, the estimation of cement production and transportation impacts have been excluded from assessment' (a Fig.2 desenha o cimento dentro de A1, mas o texto e o inventario o excluem). O traco imprime 300 kg cimento CEM I 42.5N/m3 (Tab.1 p.3 e p.6), mas falta o factor de emissao do cimento (kg CO2-eq/kg de cimento) e o do seu transporte - nao impressos em lado nenhum do artigo. Sem esse numero o total A1-A3 do betao nao e reconstituivel.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF conferido (Younes et al., J Mater Cycles Waste Manag 2024, 26:654-668, DOI 10.1007/s10163-023-01834-1). fck aos 28 d (Tab.5, cubos 150 mm, media de 2): 0% 28,7; 50% 27,0; 75% 18,3; 100% 9,3 MPa. Unidade funcional 1 m3 (p.7). Tambem ficam excluidos a agua e as emissoes difusas de poeira."
+ },
+ {
+  "row_id": 2976,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.1 p.2 (fotografias das casas)",
+   "Tab.1 p.3"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o GWP do betao isolado e o volume de betao de cada casa. O unico GWP e por 1 m2 de area de pavimento da casa inteira, ciclo de 60 anos com fase operacional (Tab.1 p.3: 1415,539 / 547,945 / 828,03 kg CO2eq/m2), com tijolo, EPS, madeira, palha, caixilharia e energia de uso misturados. O betao so aparece como classe (fundacao corrida C16/20, 600 mm x >=650 mm, p.2; cintas/vergas C20/25 na casa 1, p.3) sem comprimentos, volumes nem contribuicao por material.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF conferido (Monokova, Vilcekova, Selecka, Proceedings 2019, 16, 19, DOI 10.3390/proceedings2019016019; 4 pp.). Fronteira 'cradle to gate with options', eToolLCD, CML-IA. Mantem-se a nota de que fck=20 na linha 248 e ambiguo (C16/20 => 16 cil./20 cubo; C20/25 => 20 cil.)."
+ },
+ {
+  "row_id": 3069,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta (1) um CO2 proprio da mistura: o artigo declara 'The reported CO2 emissions are not based on life cycle assessment' (resumo) e a unica emissao e um factor de literatura para o cimento ('Based on the CO2 emission values reported in the literature [3], for every 1 ton of cement, 0.86 ton of CO2 is produced', sec.3.5.1 p.10), sem plastificante, surfactante nem processo; e (2) a dosagem de cimento por m3 (kg/m3), que nao e impressa. As massas volumicas impressas nao servem para a reconstituir: 1600 kg/m3 e a densidade-ALVO dos espumados (sec.2.2.1.1), cuja resistencia e '< 20 MPa' (p.10, sem valor exacto no texto); 2100 kg/m3 do Controlo (p.6-7) e provavelmente a densidade medida em provetes secos usada no Ed (sec.2.2.5: 'density in kg/m3 measured using dry specimens'), pelo que a agua evaporavel nao esta incluida e a divisao por (1+a/c) nao e valida. Os provetes intermisturados (a/c 0,45/0,55/0,65, cubos 50 mm) nao tem densidade impressa.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF conferido (Jativa, Dalton, Pourghaz, Cement 16 (2024) 100099, DOI 10.1016/j.cement.2024.100099). Texto integral lido via read_file_content (completo ate Conclusoes/Supplementary materials). download_file_content falhou duas vezes (ligacao do conector fechada por mensagem demasiado grande), por isso as figuras (Fig.8 resistencia dos espumados, Fig.9 intermisturados) NAO foram vistas como imagem; o valor do Controlo 52 MPa aos 120 d esta no texto (sec.3.3). Resultados proprios sao so sequestro: 0,057-0,06 t CO2/t cimento (CFC) e 0,04 t/t (intermisturado a/c 0,45). Diferenca face a leitura anterior: a densidade 2100 kg/m3 do Controlo existe no texto, mas pelas razoes acima nao permite a conversao; mesmo que a Kie aceitasse reconstituir, o factor 0,86 e citado de terceiros e o artigo recusa expressamente o estatuto de ACV."
+ },
+ {
+  "row_id": 3079,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica (ou o volume da amassadura) da argamassa e os factores de emissao da areia e da agua. O GWP proprio e por tonelada de CIMENTO (FU '1 tonne (t) of product', sec.2.3.1 p.3; 775 kg CO2 eq/t OPC e 674 kg CO2 eq/t OPCGr, resumo e sec.3). O traco da Tab.1 (p.3) esta em gramas por amassadura (mist.1: cimento 1488 g, areia 2475 g, agua 612 g, total 4575 g; mist.5: Gr 0,25 g, cimento 1276 g, areia 2475 g, agua 612 g), sem volume da amassadura nem densidade; provetes cubos 50 mm sem massa impressa. A reducao de 16,5% de OPCGr e um pressuposto de escala da ACV, nao um traco por m3.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF conferido (Tarpani et al., Cleaner Environmental Systems 14 (2024) 100206, DOI 10.1016/j.cesys.2024.100206). Texto integral (14 pp., ate referencias) lido via read_file_content; download_file_content falhou (ligacao do conector fechada), por isso as figuras (Fig.3 GWP do OPC por t, etc.) NAO foram vistas como imagem - nao alteram a conclusao, pois sao por t de cimento/kg de grafeno. fck aos 28 d (Tab.2, cubos 50 mm ASTM C109, 3 ensaios): mist.1 66,15 MPa; mist.5 (0,02% Gr) 68,80 MPa (ensaios 68,02 / 75,40 / 62,98). Informacao suplementar (SI) referida no texto nao esta impressa no PDF."
+ }
+]
