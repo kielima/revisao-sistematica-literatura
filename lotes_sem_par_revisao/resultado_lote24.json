@@ -1,0 +1,57 @@
+[
+ {
+  "row_id": 4761,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.2 p.8 (6916)", "Fig.3a/3b p.8 (6916)", "Tabela 3 p.10 (6918)", "Fig.5 p.10 (6918)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a resistencia a compressao (classe ou fck medido) do betao modelado. O artigo (Lawania, Sarker & Biswas 2015, Materials 8:6909-6925) nao imprime em lado nenhum a classe do 'Ready mix concrete' de 32,65 m3 da casa CBWH (Tabela 1a, p.4/6912), nem das 72 misturas CCSW (Fig.2, p.8). Todos os MPa do artigo estao na Tabela 2 (p.6/6914) e sao de 17 estudos externos citados (Berndt 2009, Sarker & McKenzie 2009 62-68 MPa, etc.), sem atribuicao a nenhuma mistura modelada. O CO2 do betao da casa CBWH seria derivavel (23,02% de 45,60 t, Fig.3b p.8 e Tabela 3 p.10 = 10,50 t / 32,65 m3 = 321,5 kg CO2e/m3, A1-A3), mas sem fck proprio nao ha par. Fig.5 so da totais da casa CCSWH (410,7-415,8 t), nao do betao por m3.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "O fck gravado (68 MPa) e da referencia externa Sarker & McKenzie 2009 (Tabela 2) e nao pertence ao betao modelado. O CO2 gravado (444,87 t / 243 m2) e da casa inteira, incluindo electrodomesticos, AQS, iluminacao, aquecimento e arrefecimento - nao e do betao. Unidade funcional = construcao e uso de uma casa 4x2x2; SimaPro 8.02, metodo Australian GHG. Tabela 4 (p.11/6919) so da % de mitigacao por grupo cimentício. Nenhum indice kg CO2/(m3.MPa) publicado."
+ },
+ {
+  "row_id": 4770,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Nao foi possivel ver as figuras: download_file_content falhou duas vezes (ligacao ao servidor Google Drive fechada por mensagem demasiado grande). Texto completo lido via read_file_content (73.034 caracteres, pp.1-19 integralmente, incl. Tabelas 2-6 e legendas das Figs.10 e 14)."],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica (fresca ou endurecida) das argamassas AARM. A unidade funcional da ACV e '1kg of AARM' (Sec.2.3, p.6) e o GWP e dado em g CO2 eq. por kg de argamassa (87 g/kg para 1G50, p.15; restantes so na Fig.14). O artigo so imprime as densidades dos precursores (GW 2650 e BFS 2890 kg/m3, p.3); nao imprime densidade da areia, do silicato, do NaOH/KOH, nem teor de ar, nem a massa dos prismas 40x40x160 mm. O traco da Tabela 2 (p.5) esta em gramas por amassadura (ex.: 1G50 = 301,9 BFS + 301,9 GW + 161,5 agua + 23,5 NaOH + 116,1 silicato + 1314,8 areia = 2219,7 g), sem o volume dessa amassadura (o 'mixer de 2 L' e capacidade do misturador, nao volume da amassadura). Logo kg CO2/kg nao passa a kg CO2/m3 sem assumir uma massa volumica.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck proprios (EN 12190, 28 d, prismas 40x40x160): 1G50 = 91,4 N/mm2 (p.12, texto); 1G50KOH e 1G40KOH 'about 19 and 14 N/mm2 lower' que 1G50 (p.12) = ~72,4 e ~77,4 N/mm2 - os valores gravados (74 e 79) nao batem exactamente com esta conta do texto (podem ter sido lidos da Fig.10, que nao consegui ver). 1.5G50 so na Fig.4/10. Fronteira da ACV = A1-A2 apenas (o A3, energia de mistura, foi excluido por ser 'similar across the mixes', p.6) - portanto mesmo com densidade nao seria A1-A3 completo. GWP: 1G50 87 g/kg; 1G50KOH +19%; 1.5G50 +3%; 1G40KOH 2% diferente de 1G50KOH (p.15). Tabela 4 (p.6) da os factores por kg de cada constituinte, mas a soma continua a ser por kg de argamassa. Nenhum indice por m3.MPa publicado."
+ },
+ {
+  "row_id": 4827,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.3 e Fig.4 p.7", "Tabela 3 p.12", "Tabela 4 p.14", "Figs.10-14 (texto/eixos via extraccao; p.14 renderizada)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a atribuicao do factor de CO2 do betao a uma classe de resistencia. O unico valor de CO2 do betao isolado e 'the GWP for the mixed concrete EPD is 0.161 kg CO2-eq./kg' (A1-A3, p.14), no singular, sem dizer se e o EPD C40/50 (pilares/vigas/paredes) ou C30/37 (lajes) da Tabela 2 (p.11), nem se e versao com ou sem ligante reciclado. Tambem falta a massa volumica do EPD: o unico peso unitario impresso e 150 lb/ft3 (= 2402,8 kg/m3) usado nas contas de pre-dimensionamento (p.7: 'Weight/ft2 = (170,100 + 189,000) x 150/1,350,000 = 40 PSF'; laje 9/12 x 150 = 112,5 PSF), que e premissa estrutural e nao a densidade do EPD da One Click LCA. Todos os outros resultados (Tabelas 3 e 4) sao kg CO2-eq/m2 de area bruta do sistema RC completo (betao + armadura, A1-A5 + C2-C3), sem volume de betao do modelo BIM impresso (so a massa total ~83.200.000 kg de betao+aco, p.14, e Fig.12 sem separacao por material).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Caminho candidato, NAO aplicado por exigir decisao: 0,161 kg CO2-eq/kg (p.14) x 150 lb/ft3 (p.7; 150 x 16,0185 = 2402,8 kg/m3) = 386,8 kg CO2-eq/m3 (A1-A3, betao sem aco). So seria utilizavel se a Kie aceitar (i) usar o peso unitario do pre-dimensionamento como densidade do EPD e (ii) atribuir o 0,161 a uma das duas classes (C40/50 = fck 40, ou C30/37 = fck 30) - o texto nao permite escolher. O par gravado (166 kg CO2-eq/m2) inclui armadura e A4/A5/C2-C3; se algum dia entrar, vai para concreto_armado. Vida util 50 anos (p.12)."
+ },
+ {
+  "row_id": 4879,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.6 p.9 (fck das pastas)", "Fig.7 p.11", "Fig.8 p.11 (GWP por ton de ligante)", "Tabelas 3, 6, 7 e 8 (texto)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica das PASTAS. A unidade funcional da ACV e '1 ton of binder' (p.5), cradle-to-gate, e a Tabela 3 (p.5) da a composicao por tonelada (soma 1000 kg incluindo agua). O artigo nao imprime a densidade de nenhuma das 4 pastas (FA/GBFS-SN, FA/GBFS-RN, FA/OPC-SN, FA/OPC-RN), nem as densidades dos constituintes (FA, GBFS, OPC, RHA, NaOH, silicato) que permitiriam calcular o volume de 1 t. A unica massa volumica impressa e a do BLOCO de alvenaria em argamassa FA/GBFS-RN + areia (1894 kg/m3, Tabela 8 p.13; fc bloco 16,7 MPa), mas o GWP do bloco/argamassa nunca e dado e nao e calculavel: a areia nao tem factor de emissao na Tabela 6 (p.10), e FA/RHA so tem energia de preparacao (Tabela 4). Alem disso o bloco (16,7 MPa) fica abaixo de 20 MPa.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "GWP por tonelada de pasta: FA/OPC-SN 514,18 (p.11, impresso), FA/GBFS-RN 117,06 (p.12 e p.14, impresso), FA/GBFS-SN ~375 e FA/OPC-RN ~205 (Fig.8, leitura grafica). fck das pastas (cubos 20 mm, n=3, Fig.6 e texto): FA/GBFS-RN 38 (28 d) / 65 (360 d); FA/OPC-RN 30 / 61; FA/GBFS-SN ~74 / ~76; FA/OPC-SN ~55,5 / ~85. Verificacao: Tabela 3 x Tabela 6 para FA/OPC-SN da 101,1 (OPC) + 49,5 (NaOH) + 361,5 (SS) = ~512 kg + energia = coerente com 514,18; para FA/GBFS-RN da 117,2 (NaOH) + 11,6 (GBFS) = ~129 kg > 117,06 impresso (diferenca de ~12 kg, provavelmente o GBFS nao entrou na soma dos autores) - so nota, nao muda o veredicto. Valor de 210,9 / 381,17 kg CO2/m3 (p.12) e de Robayo-Salazar et al. (ref. 31), estudo externo."
+ },
+ {
+  "row_id": 4923,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.3 e Fig.4 p.13 (45)", "Tabelas 1, 2, 4, 5 (p.7-12) via texto; p.11 renderizada"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Faltam o volume de betao por m2 (espessura da laje/vigas do waffle raft, ou volume de betao por projecto) e os factores de emissao. O CO2 so e dado em kg CO2-e/m2 de GFA ou BF (Tabela 4 p.10: media Grupo A 94 GFA / 144 BF; Tabela 5 p.12: 'Ground floor structure' 80 GFA / 122 BF). A Tabela 2 (p.7-8) da o traco por 1 m3 de 'RC slab & beams' 25 MPa (cimento 280, areia 685, agregado 1535, agua 140, armadura 105, cofragem 50, poliestireno 41 kg), mas a saida 'GHG kgCO2-e/m2' e 'Various' - nao ha CO2 por m3 nem divisor m3/m2. Os factores do GaBi 6 nao sao impressos (so os GWP de CO2/CH4/N2O, Tabela 3). Mesmo com divisor, o valor incluiria armadura, cofragem e poliestireno (sistema, nao so o betao).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck = 25 MPa (classe de projecto, Tabela 2). Unidade funcional 1 m2 de footprint (p.6); cradle-to-grave, 60 anos. Se algum dia houver divisor, vai para concreto_armado (inclui_aco). Figs.3-4 sao percentagens (85% do GHG do Grupo A na 'RC floor/footings'), sem ancora adicional. Modelo de regressao (Tabela 7, p.15) da kg CO2-e por m2 de BF, tambem sem volume."
+ }
+]
