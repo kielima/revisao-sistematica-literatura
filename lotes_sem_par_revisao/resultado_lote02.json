@@ -1,0 +1,97 @@
+[
+ {
+  "row_id": 2668,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.3 p.7",
+   "Tabela 4 p.6",
+   "Tabela 7 p.11",
+   "Tabela A2 pp.25-27",
+   "Tabela A4 pp.29-30"
+  ],
+  "veredicto": "PARCIAL",
+  "pares": [
+   {
+    "sheet_row": 635,
+    "mistura": "Betao pronto C35/45 da ponte CSF (so a producao do betao, A1-A3; nao a ponte inteira)",
+    "fck_mpa": 35,
+    "fck_fonte": "Tabela A1 p.25 e Tabela A2 p.26: 'Ready-mix concrete C35/45' (classe de projecto EN 206; fck cilindro 35 MPa)",
+    "idade_dias": 28,
+    "co2_kg_m3": 288.6,
+    "co2_bruto_ou_liquido": "bruto",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "(1) CO2 do betao em A1-A3: p.8 '39% [do GWP de A1-A3] from the production of 472 tons of concrete'; GWP-total A1-A3 = 313 kg CO2eq/(m.ano) (Tabela 4 p.6); UF = 1 m de ponte e ano de RSL, ponte de 6 m e RSL 80 anos (Tabela 1 p.3, texto p.3) -> 0,39 x 313 x 6 x 80 = 58.594 kg CO2eq para 472.000 kg = 0,1241 kg CO2eq/kg. Verificacao independente com B1-B5: p.9 '30% [do GWP de B1-B5] is caused by the production of 14 tons of ready-mix concrete'; 0,30 x 12 x 480 = 1.728 kg / 13.944 kg (1.344 + 12.600 kg de C35/45, Tabela A2 p.27) = 0,1239 kg/kg (concorda). (2) Massa volumica derivada so de numeros impressos: volume demolido em C1 = 386 m3 de agua / 2 m3 de agua por m3 de betao = 193 m3 (Tabela A4 p.30; confirmado por 1.023 L de gasoleo / 5,3 L por m3 = 193 m3 e por 193 h a 1 m3/h); massa do mesmo betao em C3 'Concrete for recycling 448,615 kg' (Tabela A2 p.27) -> 448.615 / 193 = 2.324 kg/m3. (3) 0,1241 x 2.324 = 288,6 kg CO2eq/m3. Alternativa com o par da substituicao das vigas de bordo (B4): 12.600 kg de C35/45 (Tabela A2 p.27) para '5 m3 of concrete' (Tabela A4 p.30) = 2.520 kg/m3 -> 312,8 kg CO2eq/m3.",
+    "inclui_aco": false,
+    "confianca": "baixa"
+   }
+  ],
+  "nao_convertivel_motivo": "Linha 636 (ponte solo-aco SSC): nao ha betao estrutural com classe nesta solucao (so 8,1 t de lancis de betao C20/25 comuns as duas pontes, sem CO2 proprio isolado nem volume); o CO2 da SSC e de aco + agregados + HVO. Para a 635, o total da ponte por m e ano (778 kg CO2eq) nao e convertivel enquanto tal (inclui 6.833 t de agregados de aterro, aco, asfalto, gasoleo); so a parcela do betao converte, como acima.",
+  "concorda_com_leitura_anterior": false,
+  "notas": "A leitura anterior dizia 'volume de betao e massa volumica nao impressos (so 472 t)'. O volume nao esta escrito como tal, mas sai directamente de numeros impressos no Anexo C (Tabela A4, C1: 2000 L de agua e 5,3 L de gasoleo por m3 de betao, total 386 m3 de agua e 1.023 L -> 193 m3), e a massa do mesmo betao esta na Tabela A2 (C3, 448.615 kg). Fragilidades, por isso confianca baixa: (a) a parcela do betao vem de percentagens arredondadas (39%, 30%) aplicadas a valores arredondados (313, 12); (b) os 472 t incluem 8,1 t de lancis 'Concrete elements' C20/25 (Tabela A2 p.25) alem dos 463,7 t de C35/45; (c) as massas volumicas implicitas no proprio artigo nao sao coerentes entre si (2.324 kg/m3 de C1/C3; 2.520 de B4 com o '5 m3' arredondado de 2 x 0,4 x 0,5 x 6 x 2 = 4,8 m3, que daria 2.625; 2.400 em B3 se forem 8 reparacoes de 1 m2 x 70 mm, numero de ocasioes nao impresso; o modulo D da 340 kWh / 0,7 kWh/t = 486 t). Intervalo plausivel 289-313 kg CO2eq/m3. CO2 do betao e do dataset generico GaBi 'Concrete C35/45 (Ready-mix concrete) (EN15804 A1-A3) EU-28' (Tabela A1 p.25). Carbonatacao B1 = 1.139 kg CO2 para a ponte inteira (Tabela A4 p.29) - nao separavel por m3 de forma limpa, nao aplicada. Decisao de aceitar a massa volumica derivada fica para a Kie."
+ },
+ {
+  "row_id": 2698,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.9 p.12",
+   "Fig.10 p.13",
+   "Fig.12 p.15",
+   "Tabelas 1, 5 e 6 pp.3-11"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica da pasta MOC-9 (ou do 'MOC concrete'): todo o CO2 do artigo e por 1,0 kg (pasta: Fig.9 p.12 e Fig.10 p.13; 'MOC concrete' 0,308/0,285 kg CO2-eq/kg: Fig.12 p.15) e a palavra 'density' nao ocorre. O indice publicado (Fig.9, CO2-eq intensity ~0,0185 kg/MPa para MOC-9) e por kg de pasta e MPa, nao por m3 e MPa. Nao e possivel tirar a massa volumica do molde: 1 kg de pasta foi amassado e moldado em tres prismas 20x20x160 mm (0,192 L), mas a massa efectivamente moldada nao e impressa. Alem disso, o fck=111 MPa (Tabela 6, 7 dias, prismas 20x20x160) e da PASTA, enquanto 0,308/0,285 kg/kg sao do 'MOC concrete' hipotetico da Tabela 5 (com agregados e PFA), cuja resistencia nao foi ensaiada.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Fig.9 lida visualmente: intensidade (compressao) MOC-3 ~0,0263, MOC-5 ~0,022, MOC-9 ~0,0185 kg CO2-eq/MPa por 1 kg de pasta (eixo direito). Mesmo com estes valores falta o volume de 1 kg de pasta."
+ },
+ {
+  "row_id": 2710,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.3 p.4",
+   "Tabela 2 p.3",
+   "Tabela 3 p.4",
+   "Tabelas 5-7 pp.7-9"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica (fresca ou endurecida) das pastas Ref e M20: o CO2 esta por 1 t de pasta (Tabela 7 p.9: 645,767 e 536,101 kg CO2-eq/t) e a Tabela 5 so da massas por 1 t (OPC 715/572 kg, HCP calcinada 143 kg, agua 285 kg). Nao ha massa volumica do cimento, da HCP calcinada nem da pasta; a Tabela 2 (60 g por amassadura, cubos de 20 mm) nao permite calcula-la porque nao diz quanto material foi moldado.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Ref 37,8 MPa impresso (p.4); M20 so na Fig.3 (~41 MPa, barra visivel na p.4) e no texto '+8%' (37,8 x 1,08 = 40,8). Cubos 20 mm, 28 d (ASTM C109). A regra 5b (3,15 t/m3 do cimento) nao se aplica: o artigo nao imprime essa densidade nem as da HCP calcinada e da agua nao bastam para fechar o volume."
+ },
+ {
+  "row_id": 2713,
+  "pdf_confere": true,
+  "texto_completo_lido": false,
+  "figuras_vistas": [
+   "Fig.4 p.11 (lida por pixel a 300 dpi)",
+   "Fig.5 p.11",
+   "Fig.6 p.12"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Faltam (1) a resistencia a compressao da mistura de betao polimerico avaliada na ACV - o artigo so da uma gama de fabricante, '90-130 MPa ... depending on the composition of the polymer concrete mix' (p.8); e (2) a massa volumica do betao polimerico, ou a indicacao de que a UF '1 m2 wall (thickness of 0.2 m)' contem so betao polimerico (o sistema Polyblock tem nucleo de EPS/la mineral, p.6 e p.9). Fig.4 p.11 por pixel: betao polimerico 47,6 kg CO2-eq por 100 kg e 47,6 kg CO2-eq por 1 m2 de parede; betao convencional 9,2 por 100 kg e 43,3 por m2 de parede (sem classe de resistencia).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Hipotese NAO aplicada, so registada para a Kie: se a parede de 1 m2 x 0,2 m fosse so os blocos e o valor de 47,6 fosse so do betao polimerico, o volume de betao seria 0,2 m3 x 20% ('only 20% of the Polyblock's volume is polymer concrete', p.8) = 0,04 m3 -> 47,6 / 0,04 = 1.190 kg CO2-eq/m3. O facto de o valor por m2 ser igual ao valor por 100 kg sugere ~100 kg de betao por m2 (o que daria ~2.500 kg/m3), mas isso e inferencia, nao numero impresso. A leitura anterior (237,5 kg/m3 dividindo pela espessura total) esta errada porque so 20% do volume e betao. Mesmo assim falta o fck da mistura. Lidas na integra as pp.5-13 (metodo, caso, resultados); o resto (introducao, entrevistas, discussao social) foi pesquisado por termos (MPa, CO2, density, thick, m3, functional unit) sem novos numeros."
+ },
+ {
+  "row_id": 2722,
+  "pdf_confere": true,
+  "texto_completo_lido": false,
+  "figuras_vistas": [
+   "Fig.11 p.67 (p.62 impressa)",
+   "Fig.12 p.68",
+   "Fig.13 p.69",
+   "Tabela 3 p.65",
+   "Quadro 12 pp.63-64"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o volume de concreto por projeto (m3 ou m3/m2) ou a massa volumica do concreto: a tese da o CO2 por m2 de area construida da casa inteira (Tabela 3, p.60 impressa: 417,73 / 391,06 / 246,23 kg CO2eq/m2), a parcela da categoria 'Concreto' em % do GWP (Figs.11-13: 32% / 27% / 30%) e a massa de concreto por m2 (Quadro 12: 716,76 / 451,48 / 315,82 kg/m2), o que da 0,187 / 0,234 / 0,234 kg CO2eq/kg; mas nao ha 'm3', 'massa especifica' nem 'densidade' em lado nenhum do texto (pesquisa integral das 125 paginas).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Ressalvas adicionais: (a) o material usado no Tally para concreto e graute e 'Structural concrete, 2501-3000 psi, 0-19% fly ash and/or slag' (Quadro 6), ou seja ~17-21 MPa, nao exactamente o fck 20/25 do projeto; (b) a categoria 'Metais' da 0% no Projeto 1 apesar de 8,82 kg/m2 de aco, pelo que nao e claro se o aco de armadura esta dentro da categoria 'Concreto' (possivel inclui_aco); (c) no Projeto 2 a categoria pode incluir o graute (67,29 kg/m2). Lidos na integra os caps.3 (metodo) e 4.1.1 (ACV); o resto (revisao, AHP, questionario) pesquisado por termos."
+ }
+]
