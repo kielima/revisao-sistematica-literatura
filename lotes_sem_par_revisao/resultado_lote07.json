@@ -1,0 +1,163 @@
+[
+ {
+  "row_id": 3135,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.2 p.6",
+   "Fig.3 p.6",
+   "Fig.4 p.7",
+   "Fig.5 p.7",
+   "Fig.6 p.8",
+   "Tab.1 p.2",
+   "Tab.3 p.4"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o GWP absoluto (kg CO2-eq/m3) do betao CEM I equivalente ou de cada AAM: o artigo so imprime GWP em % do CEM I (Fig.2/3/6 com eixo '100%=CEM I concrete' ou '100%=AAMs incl. former silicate data'; texto p.5: -57/-42/-39 %). Os valores absolutos estao so no suplementar (S2 Tab.1, S3 Fig.6), fora do PDF. Nao ha factores de emissao impressos para GBFS, FA, MK, NaOH, areia, brita nem cimento; a Tab.3 (p.4) da so o silicato de sodio por tonelada (504 hidrotermal 48 %, 973 spray 80 %...) sem dizer qual dos produtos (ou media) entra em cada mistura, e a quota do silicato no GWP so vem como faixa global 5-28 % (p.5) sem atribuicao por mistura. A ancoragem pelo silicato exigiria escolher o produto e ler a barra empilhada da Fig.3 a escala de % -> assumir.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Tab.1 (p.2): traco por m3, densidade (2375/2350/2186 kg/m3), fc28 52/52/58 MPa e 'Cement eq.' 385/440/566 kg (CEM I equivalente via Feret), mas sem factor do CEM I. UF = 1 m3 de betao de resistencia equivalente, cradle-to-gate, Belgica. Confirma-se a leitura de 2026-09-27."
+ },
+ {
+  "row_id": 3138,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.4 p.8 (so no texto/legenda)",
+   "Fig.5 p.9",
+   "Tab.2 p.3",
+   "Tab.3 p.4-5",
+   "Tab.4 p.7",
+   "Tab.6-8 p.8"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta a massa volumica (kg/m3) das argamassas PC 100 S, SLAG 100 S, SLAG 75 S-25 GW e HSLAG 5% 100 S; nao e impressa em lado nenhum (a UNE EN 1015-6 citada na p.3 e so referida para a trabalhabilidade, sem valor). Com a Tab.7 (massa que armazena 1 MJ: 5,85/6,24/5,36/5,37 kg) e a Tab.8 (GWP por MJ: 1,18/-0,95/-0,84/-0,55 kg CO2-eq) chega-se so a kg CO2-eq por kg de argamassa (PC 100 S: 1,18/5,85 = 0,202 kg/kg). O volume da amassadura EN 196-1 (450 g ligante + 1350 g areia) tambem nao e impresso.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck aos 28 d sem tratamento (Tab.4 p.7, prismas 40x40x160 EN 196-1): PC 100 S 41,0; SLAG 100 S 67,5; SLAG 75 S-25 GW 41,4; HSLAG 5% 100 S 35,4 MPa. Totais das AAM sao liquidos com credito de produto evitado (escoria modelada como cimento Portland evitado, -0,88 kg/kg; Tab.3/Tab.8 linha 'Slag': -1,21/-1,04/-0,82 por MJ); brutos por MJ = SLAG 100 S 0,26; SLAG 75 S-25 GW 0,21 (areia 0,03 + NaOH 0,05 + Na2SiO3 0,13); HSLAG 5% 100 S 0,27 (cimento 0,19 + areia 0,04 + Na2SO4 0,04), todos da Tab.8 sem as linhas de credito Slag/Glass waste. As Conclusoes (p.9) escrevem 'kg CO2/m3' para os valores por MJ - gralha de unidade, nao e por m3."
+ },
+ {
+  "row_id": 3170,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "NAO FOI POSSIVEL VER AS FIGURAS: download_file_content falhou duas vezes ('File too large for download, over limit of 10 MB'); lido so o texto integral via read_file_content (p.1-21, inclui referencias ate [65]). Fig.3 (resistencias) e Fig.10 (GHG-e por m3) nao vistas."
+  ],
+  "veredicto": "CONVERTIVEL",
+  "pares": [
+   {
+    "sheet_row": null,
+    "mistura": "AANC nGS0 (FA 280 + GGBFS 120 + nGS 0 kg/m3; SH 12 M 67,2 + SS 168 kg/m3)",
+    "fck_mpa": 40.69,
+    "fck_fonte": "p.7 sec.4.2.2 (texto): ref 40,69 MPa aos 28 d; aumentos de 15,67/32,24/42,89/48,37/38,24 % para 3/6/9/12/15 % nGS; 47,07 (3 %), 60,37 (12 %) e 56,26 (15 %) MPa escritos no texto; cubos 150 mm (IS 516, Tab.3; sec.3), media de 3 provetes | 40,69 MPa impresso (p.7)",
+    "idade_dias": 28,
+    "co2_kg_m3": 348.94,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Soma Tab.2 (p.5, kg/m3) x Tab.4 (p.16, t-CO2/t = kg/kg): FA 280x0,004 + GGBFS 120x0,052 + nGS 0x0,065 + fillers (M-sand 625 + CA 958 = 1583; Tab.2 agrupa ambos sob 'Filler' e a Tab.4 tem coluna 'Fillers') x0,0048 + Na2SiO3 168x1,222 + NaOH 67,2x1,915. Agua (0 ou 20 kg) sem factor na Tab.4 -> nao incluida. = 348.94 kg CO2-eq/m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "AANC nGS3 (FA 268 + GGBFS 120 + nGS 12 kg/m3; SH 12 M 67,2 + SS 168 kg/m3)",
+    "fck_mpa": 47.07,
+    "fck_fonte": "p.7 sec.4.2.2 (texto): ref 40,69 MPa aos 28 d; aumentos de 15,67/32,24/42,89/48,37/38,24 % para 3/6/9/12/15 % nGS; 47,07 (3 %), 60,37 (12 %) e 56,26 (15 %) MPa escritos no texto; cubos 150 mm (IS 516, Tab.3; sec.3), media de 3 provetes | 47,07 MPa impresso (p.7)",
+    "idade_dias": 28,
+    "co2_kg_m3": 349.67,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Soma Tab.2 (p.5, kg/m3) x Tab.4 (p.16, t-CO2/t = kg/kg): FA 268x0,004 + GGBFS 120x0,052 + nGS 12x0,065 + fillers (M-sand 625 + CA 958 = 1583; Tab.2 agrupa ambos sob 'Filler' e a Tab.4 tem coluna 'Fillers') x0,0048 + Na2SiO3 168x1,222 + NaOH 67,2x1,915. Agua (0 ou 20 kg) sem factor na Tab.4 -> nao incluida. = 349.67 kg CO2-eq/m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "AANC nGS6 (FA 256 + GGBFS 120 + nGS 24 kg/m3; SH 12 M 67,2 + SS 168 kg/m3)",
+    "fck_mpa": 53.81,
+    "fck_fonte": "p.7 sec.4.2.2 (texto): ref 40,69 MPa aos 28 d; aumentos de 15,67/32,24/42,89/48,37/38,24 % para 3/6/9/12/15 % nGS; 47,07 (3 %), 60,37 (12 %) e 56,26 (15 %) MPa escritos no texto; cubos 150 mm (IS 516, Tab.3; sec.3), media de 3 provetes | derivado: 40,69 x 1,3224 (aumento de 32,24 % impresso, p.7)",
+    "idade_dias": 28,
+    "co2_kg_m3": 350.41,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Soma Tab.2 (p.5, kg/m3) x Tab.4 (p.16, t-CO2/t = kg/kg): FA 256x0,004 + GGBFS 120x0,052 + nGS 24x0,065 + fillers (M-sand 625 + CA 958 = 1583; Tab.2 agrupa ambos sob 'Filler' e a Tab.4 tem coluna 'Fillers') x0,0048 + Na2SiO3 168x1,222 + NaOH 67,2x1,915. Agua (0 ou 20 kg) sem factor na Tab.4 -> nao incluida. = 350.41 kg CO2-eq/m3.",
+    "inclui_aco": false,
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "AANC nGS9 (FA 244 + GGBFS 120 + nGS 36 kg/m3; SH 12 M 67,2 + SS 168 kg/m3)",
+    "fck_mpa": 58.14,
+    "fck_fonte": "p.7 sec.4.2.2 (texto): ref 40,69 MPa aos 28 d; aumentos de 15,67/32,24/42,89/48,37/38,24 % para 3/6/9/12/15 % nGS; 47,07 (3 %), 60,37 (12 %) e 56,26 (15 %) MPa escritos no texto; cubos 150 mm (IS 516, Tab.3; sec.3), media de 3 provetes | derivado: 40,69 x 1,4289 (aumento de 42,89 % impresso, p.7)",
+    "idade_dias": 28,
+    "co2_kg_m3": 351.14,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Soma Tab.2 (p.5, kg/m3) x Tab.4 (p.16, t-CO2/t = kg/kg): FA 244x0,004 + GGBFS 120x0,052 + nGS 36x0,065 + fillers (M-sand 625 + CA 958 = 1583; Tab.2 agrupa ambos sob 'Filler' e a Tab.4 tem coluna 'Fillers') x0,0048 + Na2SiO3 168x1,222 + NaOH 67,2x1,915. Agua (0 ou 20 kg) sem factor na Tab.4 -> nao incluida. = 351.14 kg CO2-eq/m3.",
+    "inclui_aco": false,
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row": 880,
+    "mistura": "AANC nGS12 (FA 232 + GGBFS 120 + nGS 48 kg/m3; SH 12 M 67,2 + SS 168 kg/m3)",
+    "fck_mpa": 60.37,
+    "fck_fonte": "p.7 sec.4.2.2 (texto): ref 40,69 MPa aos 28 d; aumentos de 15,67/32,24/42,89/48,37/38,24 % para 3/6/9/12/15 % nGS; 47,07 (3 %), 60,37 (12 %) e 56,26 (15 %) MPa escritos no texto; cubos 150 mm (IS 516, Tab.3; sec.3), media de 3 provetes | 60,37 MPa impresso (p.7 e Tab.5 p.17)",
+    "idade_dias": 28,
+    "co2_kg_m3": 351.87,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Soma Tab.2 (p.5, kg/m3) x Tab.4 (p.16, t-CO2/t = kg/kg): FA 232x0,004 + GGBFS 120x0,052 + nGS 48x0,065 + fillers (M-sand 625 + CA 958 = 1583; Tab.2 agrupa ambos sob 'Filler' e a Tab.4 tem coluna 'Fillers') x0,0048 + Na2SiO3 168x1,222 + NaOH 67,2x1,915. Agua (0 ou 20 kg) sem factor na Tab.4 -> nao incluida. = 351.87 kg CO2-eq/m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "AANC nGS15 (FA 220 + GGBFS 120 + nGS 60 kg/m3; SH 12 M 67,2 + SS 168 kg/m3)",
+    "fck_mpa": 56.26,
+    "fck_fonte": "p.7 sec.4.2.2 (texto): ref 40,69 MPa aos 28 d; aumentos de 15,67/32,24/42,89/48,37/38,24 % para 3/6/9/12/15 % nGS; 47,07 (3 %), 60,37 (12 %) e 56,26 (15 %) MPa escritos no texto; cubos 150 mm (IS 516, Tab.3; sec.3), media de 3 provetes | 56,26 MPa impresso (p.7)",
+    "idade_dias": 28,
+    "co2_kg_m3": 352.6,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Soma Tab.2 (p.5, kg/m3) x Tab.4 (p.16, t-CO2/t = kg/kg): FA 220x0,004 + GGBFS 120x0,052 + nGS 60x0,065 + fillers (M-sand 625 + CA 958 = 1583; Tab.2 agrupa ambos sob 'Filler' e a Tab.4 tem coluna 'Fillers') x0,0048 + Na2SiO3 168x1,222 + NaOH 67,2x1,915. Agua (0 ou 20 kg) sem factor na Tab.4 -> nao incluida. = 352.6 kg CO2-eq/m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   }
+  ],
+  "nao_convertivel_motivo": "",
+  "concorda_com_leitura_anterior": false,
+  "notas": "Confirma-se que o 3,2628 't-CO2/t' (e 't-CO2/m3') da sec.4.6.2 (p.17) e a soma dos 6 factores unitarios da Tab.4 (0,004+0,052+0,065+0,0048+1,222+1,915 = 3,2628) e nao o CO2 da mistura. Mas o proprio artigo imprime o traco por m3 (Tab.2 p.5) e um factor por constituinte (Tab.4 p.16, citado de [23] Samuvel 2024 mas impresso aqui), o que permite a via 'factor x quantidade por m3'. Cautelas: (1) agua sem factor (omitida; 0-20 kg); (2) nao se diz se o 67,2 kg de NaOH e solucao 12 M ou solido nem se 168 kg de Na2SiO3 e solucao - usado tal como impresso, mesma base que o artigo usa na Tab.5 de custos; (3) a Tab.5 (p.17) da FA 244 kg para AAC-nGS (com nGS 48), divergente da Tab.2 (232 para nGS12) - usada a Tab.2; com 244 o CO2 seria 351,92; (4) a Fig.10 (GHG-e por 1 m3) nao foi vista e pode trazer outro valor - convem confirmar visualmente; (5) nGS6 e nGS9 com fck derivado das percentagens impressas (confianca baixa). Densidade impressa: 2292 (ref) a 2438 kg/m3 (nGS12) (p.8). O CO2 cobre so materiais A1 (sem transporte nem fabrico)."
+ },
+ {
+  "row_id": 3208,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.5 p.8",
+   "Fig.6 p.9",
+   "Fig.7 p.10",
+   "Fig.8 p.11",
+   "Tab.1-2 p.4",
+   "Tab.9 p.12"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta o GWP absoluto so das lajes de betao (fase de producao) e o volume de betao por km. O artigo so da o score normalizado da Tab.9 (PCC 233 x factor CML-IA 6,96E+03 -> ~1,62E6 kg CO2-eq por km), e esse total inclui sub-base de macadame (150 mm), barras de transferencia/ligacao de aco, juntas, construcao e manutencao de 20 anos (Fig.6: producao ~54 % do GWP do PCC, lido da figura, sem separar lajes). A repartição 85 % 'Concrete slabs' da Fig.8 e de energia acumulada (CED), nao de GWP. A largura pavimentada da UF tambem nao e inequivoca (2 faixas novas de 3,6 m, ou plataforma de 19,4 m, sec.2.1). Valores absolutos so nas Tabelas S5/S6 do suplementar.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck 36,18 MPa (p.5), traco Tab.2: cimento 330, brita 714+402, areia 762 kg/m3, a/c 0,56. Inclui aco (barras) inseparavel no total. Confirma-se a leitura de 2026-09-27."
+ },
+ {
+  "row_id": 3210,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.7 p.8",
+   "Fig.8 p.8"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O unico CO2 e 255 kg CO2/t de clinquer AWH (p.12: 340 kg/t de trabalho anterior [63], com electrificacao verde assumida, x 0,75 pela substituicao de 25 % por SCM). Falta: dosagem de ligante por m3 (so ha a amassadura EN 196-1, 450 g ligante + 1350 g areia, sem volume nem massa volumica), factor do activador (silicato de sodio + NaOH) e da areia, factores das SCM. Nao e ACV propria da argamassa.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Confirmada a correccao do dossie: Fig.8A (argamassas EN 196-1, 40x40x160, 28 d): AWH 76, 25L 63, 25CC 59, 25FA 65, 25GGBFS 74 MPa; Fig.7 (pastas 20x20x40): 25L 78, 25CC 53, 25FA 101, 25GGBFS 103 MPa. O '~103 MPa' gravado (sheet_row 923) e da pasta 25GGBFS, nao do 100% AWH."
+ }
+]
