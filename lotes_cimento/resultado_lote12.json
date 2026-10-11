@@ -1,0 +1,261 @@
+[
+ {
+  "row_id": 3354,
+  "pares": [
+   {
+    "sheet_row": 371,
+    "cimento_designacao": "CEMI",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.2.2 (pdf p.5): 'CEMI and CEMIII/A (50% CEMI & 50% CEMIII/A) concretes, of equal fcm,28 strengths, were extrapolated from the work of Dhir et al. (2001)'; Tab.4 'CEMI reference concretes: CEMI (33 MPa) ... 273 kg/m3 CEMI'; Tab.12 (pdf p.7) CEMI 33,0 MPa EC 265 kgCO2/m3.",
+    "nota": "Betao de referencia teorico (extrapolado de Dhir et al. 2001, nao ensaiado, slump n/t). Factor de CO2 do CEMI = 930 kgCO2/t (Tab.2, dados MPA/CESA). Nenhuma norma citada especificamente para o CEMI; a BS EN 197-1 so e citada a proposito do limite de substituicao por GGBS (Sec.1.2.3.1)."
+   },
+   {
+    "sheet_row": 372,
+    "cimento_designacao": "CEMIII/A [50% CEMI & 50% GGBS]",
+    "norma_cimento": "BS EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "50% CEMI e 50% GGBS (Tab.4: 154 kg CEMI + 154 kg GGBS/m3)",
+    "citacao": "Sec.1.2.3.1 (pdf p.3): 'GGBS is a latent-hydraulic Type II addition, permitted to replace CEMI by up to 80% by mass ... (BS EN 197-1, 2011)' e 'In the UK the most commonly used blastfurnace cement has a GGBS content of 50% by mass, designated CEMIII/A'; Tab.4 (pdf p.5) 'CEMIII/A (33 MPa) ... CEMI 154, GGBS 154'; Tab.12 160 kgCO2/m3.",
+    "nota": "O artigo chama-lhe CEMIII/A (designacao EN 197-1), mas a Tab.4 e a Tab.2 tratam-no como CEMI + GGBS em colunas separadas (CO2 calculado como soma dos dois constituintes), por isso classificado como substituicao no traco; podia ser cimento CEM III/A de fabrica ou combinacao na betoneira - o artigo nao distingue. Gralha no texto: '(50% CEMI & 50% CEMIII/A)'. Betao teorico extrapolado de Dhir et al. (2001)."
+   },
+   {
+    "sheet_row": 374,
+    "cimento_designacao": "CEMI",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.2.2 (pdf p.5); Tab.4 'CEMI (49 MPa) 175 365 0.48 365' kg/m3; Tab.12 (pdf p.7) CEMI 49,0 MPa EC 345 kgCO2/m3.",
+    "nota": "Igual ao par 371: comparador teorico extrapolado de Dhir et al. (2001); CEMI 930 kgCO2/t (Tab.2); sem norma citada para o CEMI."
+   },
+   {
+    "sheet_row": 375,
+    "cimento_designacao": "CEMIII/A [50% CEMI & 50% GGBS]",
+    "norma_cimento": "BS EN 197-1",
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "50% CEMI e 50% GGBS (Tab.4: 230 kg CEMI + 230 kg GGBS/m3)",
+    "citacao": "Sec.1.2.3.1 (pdf p.3) BS EN 197-1 e designacao CEMIII/A; Tab.4 (pdf p.5) 'CEMIII/A (49 MPa) 175 461 0.38 230 0 230'; Tab.12 (pdf p.7) 235 kgCO2/m3.",
+    "nota": "Mesmas observacoes do par 372 (designacao CEMIII/A mas modelado como CEMI + GGBS separados; norma citada so no contexto do limite de GGBS)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (86.053 car., 12 pp. incl. referencias) lido via read_file_content. Os comparadores CEMI/CEMIII/A sao betoes teoricos de igual fcm,28 (cubo), nao ensaiados."
+ },
+ {
+  "row_id": 3356,
+  "pares": [
+   {
+    "sheet_row": 1996,
+    "cimento_designacao": "Portland cement 42.5",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tab.9 'Concrete compositions' (pdf p.8): 'Portland cement 42.5 (kg/m3) B300 300 / FA 200'; Sec.4 (pdf p.7): 'The first type (B300) is a conventional plain Portland cement concrete'.",
+    "nota": "Sem designacao EN 197-1 (tipo CEM nao indicado, so a classe 42.5). Na ACV o cimento e modelado com a Declaracao Ambiental da fabrica Secil-Outao (Sec.2, pdf p.3), assumida como fornecedora do cimento. Composicoes adaptadas de Anjos et al. (2014)."
+   },
+   {
+    "sheet_row": 1997,
+    "cimento_designacao": "Portland cement 42.5",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "60% do cimento substituido por cinza volante de carvao (200 kg cimento + 300 kg FA/m3, Tab.9)",
+    "citacao": "Sec.4 (pdf p.7): 'in the other (FA) 60% of cement was replaced by coal fly ashes'; Tab.9 (pdf p.8): 'Portland cement 42.5 (kg/m3) ... FA 200; Coal fly ash (kg/m3) ... 300'.",
+    "nota": "Mesmo cimento do B300 (Portland cement 42.5, sem tipo CEM), com cinza volante adicionada no traco. Cimento da ACV = Secil-Outao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (67.521 car., 10 pp.) lido."
+ },
+ {
+  "row_id": 3359,
+  "pares": [
+   {
+    "sheet_row": 1998,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.2.4 (pdf p.3): 'Considering the concrete, 25 MPa grade is assumed with the following dosage: 250 kg/m3 of cement, 165 kg/m3 of water, 940 kg/m3 of gravel and 1050 kg/m3 of sand'; Sec.2.6 (pdf pp.4-5): 'all concrete components (gravel, sand, water and Portland cement)'.",
+    "nota": "Cimento so referido como 'cement'/'Portland cement', sem tipo nem classe; modelado com Ecoinvent 3.2 (sem nome do dataset). Unico codigo citado e a EHE-08 (Fomento 2008) para verificacao estrutural, nao para o cimento."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (58.293 car.) lido."
+ },
+ {
+  "row_id": 3360,
+  "pares": [
+   {
+    "sheet_row": 396,
+    "cimento_designacao": "OPC (100% OPC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "95% clinquer e 5% gesso (sem SCM)",
+    "citacao": "Sec.2.1 (pdf p.2): 'Five binders are considered in this study: 100% OPC, ...' e 'OPC composed of 95% clinker and 5% gypsum from Grant (2015)'; Sec.3.1 (pdf p.4): '1 kg of OPC produced in Australia, which is composed of 95% local and imported clinker and 5% gypsum with no addition of supplementary cementitious materials (SCMs)'.",
+    "nota": "O artigo cita a AS3972 (2010) mas para o 'General Purpose cement' que diz ser o realmente usado na Australia (~92,5% OPC + ate 7,5% adicoes) - nao para o OPC modelado; por isso norma_cimento = null. Betao OPC 50 MPa com mix-design da SI (Table A2), hLCA input-output."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (70.176 car.) lido; o mix-design detalhado esta no material suplementar (nao incluido no PDF)."
+ },
+ {
+  "row_id": 3363,
+  "pares": [
+   {
+    "sheet_row": 376,
+    "cimento_designacao": "blended Portland cement CEM II/A-M (S-L) 42.5R",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "adicoes (escoria moida e calcario) ate 20% da massa total",
+    "citacao": "Sec.3 (pdf p.4): 'blended Portland cement CEM II/A-M (S-L) 42.5R was used. This type of cement has additions (ground slag and limestone) up to 20% of the total mass'; Tab.2 'CEM II 42.5R' (composicao quimica).",
+    "nota": "Designacao EN 197-1 mas a norma nao e citada (so EN 450-1 para a cinza). Inventario do cimento da fabrica Lafarge Beocin, Servia (Sec.4.3). Tab.13 chama-lhe 'CEM II'. O teor de adicoes e o limite da classe, nao uma analise do lote."
+   },
+   {
+    "sheet_row": 377,
+    "cimento_designacao": "blended Portland cement CEM II/A-M (S-L) 42.5R",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "35% do cimento substituido por cinza volante (FA de baixo calcio, TENT B); cimento com ate 20% de escoria e calcario",
+    "citacao": "Sec.3 (pdf p.4): 'NAC_FA - natural aggregate concrete with 35% replacement of cement with FA' e 'Low-calcium FA was obtained from the coal-fired power plant Nikola Tesla B ... while blended Portland cement CEM II/A-M (S-L) 42.5R was used'.",
+    "nota": "Ligante = cimento composto CEM II/A-M (S-L) + 35% de FA no traco (EN 450-1 citada para a FA). Cimento da ACV: Lafarge Beocin."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (106.585 car.) lido."
+ },
+ {
+  "row_id": 3367,
+  "pares": [
+   {
+    "sheet_row": 397,
+    "cimento_designacao": "PC (Portland cement)",
+    "norma_cimento": "ASTM C150/C150M-15",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "95% de clinquer; 0% zeolito",
+    "citacao": "Tab.5 (pdf p.5) 'Characteristics of cements produced in Cementos Cienfuegos S.A': 'PC [ASTM, 2016] SG 35 MPa, Zeolite 0%'; referencias: 'ASTM C150/C150M-15, 2016. Standard specification for Portland cement'; Sec.4 (pdf p.9): 'compared to PC (95% of clinker)'.",
+    "nota": "Cimento produzido pela Cementos Cienfuegos S.A. (Cuba); ACV de fabrica (cradle-to-gate). Classe de resistencia SG 35 MPa e a do cimento (cubo de argamassa), usada como fck do betao de projecto (ACI 211.1)."
+   },
+   {
+    "sheet_row": 398,
+    "cimento_designacao": "P-35",
+    "norma_cimento": "NC-95:2011 (Cuban Standard)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "90% de clinquer; 5% zeolito",
+    "citacao": "Tab.5 (pdf p.5): 'P-35 Cuban Standard NC-95, 2011, SG 35, Zeolite 5%'; Nomenclatura: 'P-35 Zeolite blended cement (5% of zeolite)'; Sec.4 (pdf p.9): 'P-35 (90% of clinker)'.",
+    "nota": "Cimento composto comercial cubano com zeolito moido na fabrica (Fig.3: zeolito entra no estagio 3 de moagem). Fora das normas EN/ASTM."
+   },
+   {
+    "sheet_row": 399,
+    "cimento_designacao": "PP-25",
+    "norma_cimento": "NC-96:2011 (Cuban Standard)",
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "76% de clinquer; 19% zeolito",
+    "citacao": "Tab.5 (pdf p.5): 'PP-25 Cuban Standard NC-96, 2011, SG 25, Zeolite 19%'; Sec.4 (pdf p.9): 'PP-25 (76% of clinker)'.",
+    "nota": "Cimento pozolanico comercial cubano. Nas Tab.7 e Tab.9 o artigo escreve 'P-25' (gralha por PP-25)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (73.698 car.) lido."
+ },
+ {
+  "row_id": 3384,
+  "pares": [
+   {
+    "sheet_row": 976,
+    "cimento_designacao": "Portland cement CEM I (GaBi database 2018)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tab.2 (pdf p.5) fontes do inventario: 'Cement GaBi database 2018 (Portland cement CEM I)'; Tab.1 (pdf p.4): 'Conventional concrete CC 360 [cement] 598 1266 192 35 [1]'.",
+    "nota": "O traco (Tab.1) so diz 'Cement' (360 kg/m3), recolhido da literatura (ref.[1]); a designacao CEM I aparece apenas como dataset GaBi usado para o factor de CO2."
+   },
+   {
+    "sheet_row": 977,
+    "cimento_designacao": "Portland cement CEM I (GaBi database 2018)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Tab.2 (pdf p.5): 'Cement GaBi database 2018 (Portland cement CEM I)'; Tab.1 (pdf p.4): 'SFRCC 360 598 1266 4 192 38.64 39.5 [1]'.",
+    "nota": "Igual ao CC + 38,64 kg/m3 de fibra de aco; cimento so como factor de base de dados (GaBi CEM I)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (67.856 car.) lido."
+ },
+ {
+  "row_id": 3399,
+  "pares": [
+   {
+    "sheet_row": 407,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": "95% de clinquer (assumido no calculo de carbonatacao, Eq.1b, Chesner et al. 2002)",
+    "citacao": "Tab.3 (pdf p.8): 'Mixture 1a 21 MPa Cement 288 kg, Fly Ash 0'; Sec.3.4 (pdf p.6): 'the maximum CO2 uptake for a Portland cement can be calculated ... assuming a 95% clinker content per cement'.",
+    "nota": "Cimento generico ('cement'), sem tipo nem norma; emissoes de fabrica a partir do inquerito WBCSD/CSI de 849 fabricas dos EUA (calcinacao 522 kg CO2/t cimento). Para a carbonatacao usa graus de carbonatacao de Andrade (2020) para 'CEM I' (sem SCM) - designacao so de literatura. Traco do relatorio NRMCA."
+   },
+   {
+    "sheet_row": 408,
+    "cimento_designacao": "Portland cement",
+    "norma_cimento": null,
+    "ligante": "substituicao_no_traco",
+    "teor_clinquer_ou_adicoes": "20% de cinza volante no ligante (243 kg cimento + 61 kg FA/m3, Tab.3)",
+    "citacao": "Sec.4.2 (pdf p.6): 'one which contains no fly ash and one which utilizes 20% fly ash replacement'; Tab.3 (pdf p.8): 'Mixture 1b 21 MPa 243 61'.",
+    "nota": "Carbonatacao calculada com o DoC de Andrade (2020) para 'CEM II cement with 25% fly ash' - referencia de literatura, nao o cimento do traco."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (88.055 car.) lido."
+ },
+ {
+  "row_id": 3403,
+  "pares": [
+   {
+    "sheet_row": 984,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.3.2.5 (pdf p.6): 'The publicly available EPDs by InformationsZentrum Beton GmbH (Becke et al., 2014) ... 1 m3 of an average standard composition of concrete in Germany ... (C20/25, C25/30, C30/37, C35/45, C45/55 and C50/60)'; Tab.4 (pdf p.7) 'Concrete C30/37 m3 ... 232'.",
+    "nota": "Valor de EPD media alema por classe de betao; o artigo nao diz o cimento (menciona so transporte de 'cement' e de 'additives and fly ash' na EPD)."
+   },
+   {
+    "sheet_row": 985,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.3.2.5 (pdf p.6) EPD media alema (Becke et al., 2014); Tab.4 (pdf p.7) 'C50/60 335'.",
+    "nota": "Idem 984: cimento nao identificado."
+   },
+   {
+    "sheet_row": 986,
+    "cimento_designacao": null,
+    "norma_cimento": null,
+    "ligante": "indeterminado",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.3.2.5 (pdf p.6): 'an extrapolation of the concrete quality C70/80 seems to represent an acceptable approach'; Tab.4 (pdf p.7) 'C70/85(b) 431', nota b 'Extrapolated'.",
+    "nota": "Valor extrapolado pelos autores a partir das EPD C20/25-C50/60; cimento nao identificado. O texto escreve 'C70/80' e a tabela 'C70/85'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (83.925 car.) lido."
+ },
+ {
+  "row_id": 3413,
+  "pares": [
+   {
+    "sheet_row": 993,
+    "cimento_designacao": "Portland cement CEM I 42.5R (OPC)",
+    "norma_cimento": null,
+    "ligante": "cimento_comercial",
+    "teor_clinquer_ou_adicoes": null,
+    "citacao": "Sec.2.1 (p.3): 'First, a Portland cement CEM I 42.5R (OPC) supplied by the company Cementos Portland Valderrivas was used'; Tab.2: 'OPC 450-CEM-I 42.5R'; 'All mortars have been prepared under the UNE EN 196-1 standard'.",
+    "nota": "A UNE EN 196-1 e a norma de preparacao/ensaio da argamassa, nao de especificacao do cimento (EN 197-1 nao citada). Na ACV (Tab.3) o cimento e modelado com o dataset generico Ecoinvent 3.6 'Cement, Portland {Europe without Switzerland}| market for | APOS, U' (0,88 kg CO2eq/kg), nao com o CEM I 42.5R especifico. Composicao quimica (XRF) na Tab.1, sem teor de clinquer."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Texto integral (67.678 car.) lido."
+ }
+]

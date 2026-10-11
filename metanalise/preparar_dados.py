@@ -22,7 +22,7 @@ spec.loader.exec_module(mexp)
 SAIDA = 'metanalise/dados_metanalise.csv'
 COLS = ['obs_id', 'estudo', 'rotulo', 'material', 'fck', 'co2_kg_m3', 'ci', 'estrato', 'familia', 'base_portland',
         'idade_dias', 'vol_m3', 'ci_mpa', 'vida_util', 'ic_fck_valor', 'ic_fck_tipo', 'ic_fck_n',
-        'ic_co2_valor', 'ic_co2_tipo', 'ic_co2_n', 'co2_com_desconto', 'ci_com_desconto', 'sem_bruto']
+        'ic_co2_valor', 'ic_co2_tipo', 'ic_co2_n', 'co2_com_desconto', 'ci_com_desconto', 'sem_bruto', 'cimento_subfamilia']
 
 
 def main():
@@ -57,6 +57,7 @@ def main():
             'co2_com_desconto': mexp.tofloat(g(44)) if mexp.tofloat(g(44)) is not None else co2m3,
             'ci_com_desconto': (mexp.tofloat(g(44)) if mexp.tofloat(g(44)) is not None else co2m3) / fck,
             'sem_bruto': 1 if str(g(47) or '') == 'nao' else 0,
+            'cimento_subfamilia': g(48) or '',
         })
     os.makedirs('metanalise', exist_ok=True)
     with open(SAIDA, 'w', newline='', encoding='utf-8') as f:
