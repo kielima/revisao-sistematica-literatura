@@ -1,0 +1,32 @@
+[
+ {
+  "row_id": 5043,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.17 + Tabela 3 p.63 impressa (PDF p.65, sistema e fronteiras: cimento, brita, areia, agua, aditivos, ACO e MADEIRA entram no pilar; fases 1-5 ate demolicao/reciclagem)", "Tabela 23 + Fig.31 p.98 impressa (PDF p.100)", "Tabelas 5, 11, 12, 14, 16, 17, 18, 22, 24 e Quadro 1 por texto (PyMuPDF, 188 paginas)", "Apendice E (Inventario das emissoes, PDF pp.140-188) por texto"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "pares_aritmeticos_rejeitados": [
+   {"sheet_row": 54, "mistura": "II30 (CP II-Z, fck 30)", "fck_mpa": 36.6, "co2_bruto_kg_m3": 997.3, "co2_liquido_kg_m3": 958.9, "conta": "Tabela 23 p.98: 308,18 (bruto, Σ substancia.fator) e 296,31 (menos 11,88 absorcao) kg/pilar ÷ 0,309 m3 (Tabela 5 p.64 'Volume de concreto')"},
+   {"sheet_row": 56, "mistura": "IV30 (CP IV, fck 30)", "fck_mpa": 36.6, "co2_bruto_kg_m3": 989.2, "co2_liquido_kg_m3": 956.0, "conta": "305,66 / 295,41 ÷ 0,309"},
+   {"sheet_row": 58, "mistura": "V30 (CP V-ARI, fck 30)", "fck_mpa": 36.6, "co2_bruto_kg_m3": 1076.9, "co2_liquido_kg_m3": 1031.9, "conta": "332,77 / 318,87 ÷ 0,309"},
+   {"sheet_row": 55, "mistura": "II50 (CP II-Z, fck 50)", "fck_mpa": 56.6, "co2_bruto_kg_m3": 1360.2, "co2_liquido_kg_m3": 1304.9, "conta": "299,24 / 287,08 ÷ 0,220"},
+   {"sheet_row": 57, "mistura": "IV50 (CP IV, fck 50)", "fck_mpa": 56.6, "co2_bruto_kg_m3": 1352.5, "co2_liquido_kg_m3": 1310.5, "conta": "297,54 / 288,32 ÷ 0,220"},
+   {"sheet_row": 59, "mistura": "V50 (CP V-ARI, fck 50)", "fck_mpa": 56.6, "co2_bruto_kg_m3": 1292.6, "co2_liquido_kg_m3": 1247.6, "conta": "284,38 / 274,48 ÷ 0,220"}
+  ],
+  "nao_convertivel_motivo": "A divisao e aritmeticamente possivel (Tabela 23 p.98 kg CO2e/pilar ÷ Tabela 5 p.64 volume de concreto 0,309/0,220 m3), mas o numerador nao e o CO2 do betao da mistura: (1) unidade funcional = pilar de betao armado do berco ao tumulo (p.62-63, Fig.17), incluindo aco 21,40/20,69 kg (Tab.5), cofragem de madeira (7,37E-02/6,24E-02 m3 de madeira dura, inventario item 5), lavagens ou pintura acrilica ao longo de 53-150 anos (Quadro 1 p.122), demolicao, transporte e britagem a diesel (Tab.15); nenhuma parcela A1-A3 so do betao e impressa (a fase berco-portao e remetida para Silva 2014, p.78-79); (2) o Σ(substancia.fator) usa a Tabela 16 (p.83-84), que da factor 1 a 'Dioxido de carbono, no ar' — fluxo de MATERIA-PRIMA no inventario (Apendice E item 9: 99,0/97,8/98,1/87,5/85,8/87,7 kg/pilar, captacao biogenica, sobretudo da madeira) — e factor 0,0176 a agua; o CO2 fossil emitido no inventario e ~161 kg/pilar na 1.a sub-lista do compartimento Ar (item 239) mais 18,7 e 21,7 kg noutras sub-listas; o total 308,18 nao se reproduz de forma inequivoca a partir do inventario impresso. Mesma incoerencia ja registada para 5015 SILVA 2014 / 5016 SCHMIDT / 5019 SANTOS (metodo UFSM) e mesmo criterio de MEKKY/ZHOU/HABTE. Os valores resultantes (956-1.360 kg/m3) sao implausiveis para betao de 30-50 MPa com 277-535 kg cimento/m3 (Tab.11-12). Para converter faltaria: o CO2 A1-A3 do betao de cada traco por m3 (ou por pilar sem aco/cofragem/uso/fim de vida), que o PDF nao imprime.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Dissertacao UFSM 2015 (Lucas Alves Lamberti, orient. G.C. Isaia), titulo e autor conferem (p.1, ficha catalografica p.4). fc28 = 36,6 / 56,6 MPa sao resistencias de dosagem (fck + 1,65×4,0, p.71) usadas para interpolar os tracos nas curvas de Abrams (Tab.10-11); nao ha ensaio da mistura final. Traços por m3 impressos na Tab.12 (ex.: II30 353,43 kg cimento). Incoerencia interna adicional: Quadro 1 (p.122) da 10,25 kg de CO2 absorvido para V30, a Tabela 23 da 13,90 (igual a V50). Indice publicado 'CO2e.MPa-1.ano-1.10^4' (Tab.24, ex.: II30 1445,67 = 296,31/(36,6×56)×10^4) e por pilar e por ano, nao por m3, logo nao serve como via (b). Tabela 2 (p.38, Dinamarca) e Fig.5 (p.39) sao literatura, nao as misturas do estudo. Se a Kie quiser aceitar mesmo assim (familia concreto_armado, berco ao tumulo), os valores aritmeticos estao em pares_aritmeticos_rejeitados, com inclui_aco=true e vol 0,309/0,220 m3 (medido_elemento_real)."
+ },
+ {
+  "row_id": 5046,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.17 p.90 impressa (PDF p.91, contribuicao % dos sistemas, A1-A3)", "Tabela 16 p.166 impressa (PDF p.167, GWP por sistema)", "Tabela 1 p.78, Tabela 11 pp.143-153 (inventario) por texto (PyMuPDF, 173 paginas)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 so e publicado por sistema construtivo do edificio inteiro (Tabela 16 p.166: Fundacoes 1,31E+04 e Estruturas 5,76E+04 kg CO2 eq). O sistema 'Estruturas' (Tabela 11 p.143-144) junta 274,60 m3 de 'concreto usinado bombeavel FCK = 25 MPa' com 16.143,99 kg de aco, 9,80 m3 de compensado e 38,04 m3 de madeira de cofragem, 15.024,24 kg de lajotas ceramicas, 30 kg de EPS e um betao/argamassa feito em obra (750 kg cimento CP II-32, 3.675 kg areia, 7.840 kg brita) cujo volume nao e impresso; as 'Fundacoes' juntam 42,00 m3 do mesmo betao usinado com 1.778,19 kg de aco, madeira e 900 kg cimento + 4.410 kg areia + 9.408 kg brita de betao feito em obra, tambem sem volume. Nenhuma linha da contribuicao do processo 'concrete production 25MPa, ready-mix, with cement limestone 6-10% - BR' (Ecoinvent 3.6) e impressa em kg CO2 eq — so percentagens por sistema (Fig.17-18) e hotspots de esquadrias/pisos (Tab.2 e 4). Falta o GWP do processo de betao 25 MPa (por m3 ou total para os 274,60 / 42,00 m3); sem ele, total ÷ volume misturaria aco, madeira, ceramica e betao de volume desconhecido.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Dissertacao UFRGS 2022 (Juliano Libraga da Silva, orient. A.C.B. Passuello), titulo e autor conferem (p.1-4). O betao FCK 25 e uma classe de projecto modelada com dataset generico Ecoinvent (Tabela 1 p.78), sem traco nem ensaio proprio. Unidade funcional = edificio de 830,85 m2, 50 anos (p.72, 76); resultados globais 3,80E+03 kg CO2 eq/m2 e 75,92 kg CO2 eq/m2/ano (Tab.16, p.108) — por area de construcao, sem relacao com m3 de betao. Nota menor: a Tabela 11 converte betao a massa com 2.400 kg/m3 'conforme referencia' (nota b p.152), mas isso so serve a massa, nao ao CO2."
+ }
+]

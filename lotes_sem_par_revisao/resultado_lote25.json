@@ -1,0 +1,139 @@
+[
+ {
+  "row_id": 5015,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.10 Mudancas climaticas p.57 (pdf p.76): so em Pt Eco-indicator 99",
+   "Tab.19-23 pp.53-55 (texto)",
+   "Tab.26-32 pp.62-68 (texto)",
+   "Apendice B pp.92-99 e Apendice D Quadro 21 pp.110-146 (texto)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2e da Tab.31 (p.67) e por PILAR DE CONCRETO ARMADO completo: betao + aco (21,40/20,69 kg, Tab.19) + formas de compensado (3,575/3,025 m2). Falta o CO2 so do betao: o inventario do Apendice D (Quadro 21) e o total do pilar sem separacao por processo, e a Tab.26 (p.62) da a contribuicao por processo so em % do impacto total em Pt (todas as categorias), nao do CO2. O volume de betao e derivavel (25x45x275 cm = 0,309 m3; 20x40x275 = 0,22 m3; confere com Tab.23/Tab.21), mas dividir o total daria um valor com aco+madeira e com erro de metodo: a soma da Tab.30 aplica o fator 298 (do N2O) aos 'oxidos de nitrogenio' (NOx) e conta 'CO2 no ar' (materia-prima) e vapor de agua. Reconstrucao aproximada com o Quadro 21 (coluna 1): CO2 fossil 194,6 + biogenico 37,1 + CO2 4,6 + NOx 0,619 kg x 298 = 184,5 + CH4 ~9,8 = ~430 kg, ~ o 428,98 publicado -> ~43% do total e NOx tratado como N2O. A via por constituintes tambem falha: o artigo imprime 0,494 t CO2/t clinquer e 0,103 kg CO2/kWh, mas NAO imprime o fator de CO2 do diesel (Tab.12 so da CO, HC, NOx, MP por litro), usado na extraccao de agregados, transporte de cimento (3,99 L/t) e execucao.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Concordo com NAO CONVERTIDO; o mecanismo da incoerencia e sobretudo NOx x 298 (a leitura anterior apontava 'CO2 no ar'; pela reconstrucao, o 'no ar' parece NAO entrar na soma de 428,98, mas o NOx sim). Curiosidade que reforca a incoerencia: o CO2 fossil do Quadro 21 e quase igual para os tres cimentos do mesmo fck (194,59 kg) apesar de 85,6 a 122,3 kg de cimento por pilar. fck gravados 36,6/56,6 = resistencias de dosagem (Tab.20, p.54) - correctos. Fig.10 so em Pt."
+ },
+ {
+  "row_id": 5016,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.24 p.114 (pdf p.116): t CO2eq por edificacao",
+   "Fig.25 p.115 (texto, t CO2eq/MPa/m3x10^2)",
+   "Tab.7 p.81, Tab.15-16 pp.92-99, Tab.19 p.119 (texto)",
+   "Apendice E inventario (texto)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Os 623,54/624,10/533,14/534,33 t CO2eq (Fig.24, p.114) sao da estrutura inteira de betao ARMADO (betao 297,3/289,9 m3 + aco 33.212/27.582 kg + formas 3.679/3.602 m2, Tab.7 p.81). A Fig.25 publica o indice t CO2eq/MPa/m3 (5,73/5,74/3,25/3,26 x10^-2), que x fc28 da exactamente total/volume = 2.097 (II30), 2.099 (IV30), 1.839 (II50), 1.843 (IV50) kg/m3 - mas com aco e formas incluidos. Falta o CO2 so do betao: a Tab.19 (p.119) da a parte do betao (7,1/6,7/10,1/9,7%) so em % do impacto total em Pt, nao do CO2, e o inventario do Apendice E e da edificacao inteira. Alem disso o total esta inflacionado por erro de metodo: a Tab.16 aplica 298 aos 'oxidos de nitrogenio' (NOx) - no Apendice E, NOx = 983,5 kg (II30) x 298 = 293 t, ~47% dos 623,5 t (fossil 296,6 + biogenico 12,4 + CO2 6,5 + NOx 293,1 + CH4 ~14,8 = ~623,5 t).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Concordo. Se a Kie quisesse mesmo usar a via 'concreto_armado', a conta seria total/volume impresso (ex.: 623.540/297,3 = 2.097 kg/m3, inclui_aco=true, inclui tambem formas de madeira) - nao recomendo pelo erro NOx x 298, que dobra o valor. Os tracos (Tab.13-15) sao os de SILVA 2014 (5015)."
+ },
+ {
+  "row_id": 5017,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Quadro 16 p.92 (pdf p.94): lista de insumos SEM quantidades",
+   "Tab.6 p.83, Tab.7 p.84, Tab.9 p.103, Tab.10-11 (texto)",
+   "Apendice B composicoes SINAPI 94964/94969/94971/94972 (texto)",
+   "Apendice C quantidades de insumos por projecto (texto)",
+   "Apendice D.1/D.2 e Tabela E.2 (texto)"
+  ],
+  "veredicto": "PARCIAL",
+  "pares": [
+   {
+    "sheet_row": null,
+    "mistura": "Concreto SINAPI 94964 'FCK = 20MPA, traco 1:2,7:3' (CP II-32), preparo em betoneira",
+    "fck_mpa": 20,
+    "fck_fonte": "Apendice B, composicao SINAPI 94964 (designacao nominal da composicao de custos)",
+    "idade_dias": null,
+    "co2_kg_m3": 426.9,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Factores implicitos por unidade de insumo, reconstruidos com numeros impressos: CO2 do insumo por m2 (Tab.E.2) / quantidade do insumo por m2 (Apendice C / area da UF da Tab.7 = area total dos apartamentos 43,61 / 714,14 / 5.052,91 m2). Cimento: 142/(5.356,77/43,61)=1,156; 156/(96.041,58/714,14)=1,160; 236/(1.028.215,48/5.052,91)=1,160 -> media 1,159 kg CO2eq/kg. Areia (grossa+media, m3): 27,9/(19,89/43,61)=61,17; 25,9/(301,10/714,14)=61,43; 38,9/(3.208,44/5.052,91)=61,26 -> 61,29 kg/m3. Brita (n.0+n.1, m3): 1,23/(6,85/43,61)=7,83; 1,39/(126,22/714,14)=7,86; 1,86/(1.199,41/5.052,91)=7,84 -> 7,84 kg/m3. Composicao 94964 (Apendice B): 322,98 kg cimento x 1,159 = 374,2 + 0,785 m3 areia x 61,29 = 48,1 + 0,587 m3 brita x 7,84 = 4,6 -> 426,9 kg CO2eq/m3 (agua sem CO2; sem energia da betoneira nem transporte, excluidos pela fronteira, p.90).",
+    "inclui_aco": false,
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "Concreto SINAPI 94971 'FCK = 25MPA, traco 1:2,3:2,7' (CP II-32)",
+    "fck_mpa": 25,
+    "fck_fonte": "Apendice B, composicao SINAPI 94971",
+    "idade_dias": null,
+    "co2_kg_m3": 473.8,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Mesmos factores implicitos (1,159 kg/kg cimento; 61,29 kg/m3 areia; 7,84 kg/m3 brita): 364,94 x 1,159 = 422,8 + 0,755 x 61,29 = 46,3 + 0,597 x 7,84 = 4,7 -> 473,8 kg CO2eq/m3.",
+    "inclui_aco": false,
+    "confianca": "baixa"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "Concreto SINAPI 94972 'FCK = 30MPA, traco 1:2,1:2,5' (CP II-32)",
+    "fck_mpa": 30,
+    "fck_fonte": "Apendice B, composicao SINAPI 94972",
+    "idade_dias": null,
+    "co2_kg_m3": 503.6,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "391,51 x 1,159 = 453,6 + 0,74 x 61,29 = 45,4 + 0,593 x 7,84 = 4,7 -> 503,6 kg CO2eq/m3.",
+    "inclui_aco": false,
+    "confianca": "baixa"
+   }
+  ],
+  "nao_convertivel_motivo": "Para a linha existente 603 (fck 40 da Tab.6): nao converte - a Tab.6 (p.83) e uma tabela normativa de a/c (NBR 12655) usada so para a pegada hidrica, nao uma mistura com CO2. O artigo NUNCA publica o CO2 do betao: so por m2 de area construida e por insumo (Tab.E.2), e nao imprime nem o factor de CO2 por kg de cimento (dataset EF 'Portland cement, at plant', valor nao impresso) nem as quantidades por m2 no Quadro 16 (p.92, lista vazia de numeros). Os 3 pares propostos so existem por reconstrucao: factores por unidade obtidos dividindo o CO2/m2 da Tab.E.2 pelas quantidades do Apendice C / area da Tab.7, aplicados as composicoes SINAPI do Apendice B.",
+  "concorda_com_leitura_anterior": false,
+  "notas": "Discordo parcialmente: a leitura de 27/09 dizia que o cimento agregado (betao+argamassas+blocos) impedia isolar o betao; mas como o CO2 do insumo e linear (quantidade x factor do dataset), o factor por kg sai igual nos 3 projectos (1,156/1,160/1,160 kg CO2eq/kg; areia 61,2-61,4; brita 7,83-7,86), o que confirma a reconstrucao e o divisor (m2 da UF = area total dos apartamentos, definida na p.90). PORQUE PARCIAL e confianca baixa: (1) os factores por unidade nao estao impressos, sao derivados por nos; (2) e uma ACV de betao que o autor nunca fez - as composicoes SINAPI sao de custo e o fck e a designacao nominal da composicao (nao ensaio, nao classe de projecto usada numa ACV); (3) so A1 dos constituintes (sem betoneira nem transporte, fora da fronteira p.90). Decisao da Kie: aceitar a reconstrucao (regra 'nos mesmos calculamos', 2026-08-28) ou manter NAO CONVERTIDO. A composicao fck 15 (94969) fica de fora (fck < 20). Concreto C20/25 da laje trelicada (Apendice D.2) entra so dentro do insumo LJ (betao+aco+blocos), nao isolavel."
+ },
+ {
+  "row_id": 5019,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Tab.5.8 p.130 (pdf p.131)",
+   "Tab.4.2 p.81 (pdf p.82)",
+   "Fig.5.6 Mudancas climaticas p.125 (rotulos em Pt, via texto)",
+   "Tab.4.10-4.13 pp.91-109 e Apendice D inventario (texto)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2eq da Tab.5.8 (p.130) e por pilar de concreto ARMADO (aco 21,40 kg, formas 4,125 m2, Tab.4.2) e por ciclo de vida completo (producao, uso/manutencao com pintura acrilica ou lavagens, demolicao, reciclagem, menos a absorcao por carbonatacao; pp.105-107). O volume de betao esta impresso (0,344 m3, Tab.4.2), mas falta o CO2 so do betao A1-A3: o inventario do Apendice D e o total do pilar sem separacao por fase nem por material, e as figuras so dao Pt. O metodo e o de SILVA 2014 (Tab.4.13 aplica 298 aos 'oxidos de nitrogenio'): NOx = 0,641 kg/pilar x 298 = ~191 kg, ~40% dos 471,39 kg; o CO2 fossil do inventario e praticamente constante (198,56-198,72 kg) para cimento de 256 a 581 kg/m3, incoerente com o traco.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "A Tab.5.8 da bruto (Sigma substancia x fator) e liquido (menos absorcao de CO2): TRIV 471,39/462,45; 15RCDIV 474,11/464,54; TRV 476,69/466,49; 15RCD25CCAV 473,43/464,01 kg/pilar - mas ambos por pilar armado e berco-ao-tumulo. Dividir por 0,344 m3 daria ~1.370 kg/m3 com aco, formas, pintura e o erro NOx x 298; nao recomendo."
+ },
+ {
+  "row_id": 5029,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Tab.9 p.64 (pdf p.65) inventario do clinquer",
+   "Tab.26 p.85 (pdf p.86)",
+   "Tab.27 p.87 (pdf p.88)",
+   "Tab.28 p.89 e Tab.29 p.90 (pdf p.90-91)",
+   "Tab.32 p.97 (pdf p.98)",
+   "Tab.15, 21, 22, 31 (texto)"
+  ],
+  "veredicto": "PARCIAL",
+  "pares": [
+   {
+    "sheet_row": 1836,
+    "mistura": "Concreto usinado de referencia (CP II-F, 309 kg/m3), camada de pavimento da ciclovia - so producao",
+    "fck_mpa": 20,
+    "fck_fonte": "p.67 (Tab.15) e p.85: 'concreto usinado de 20 MPa (resistencia mais proxima da empregada pela NOVACAP)'; a obra real e fck 18 MPa (p.34 e p.56 impressas: 'fck aos 28 dias ... adotada como sendo de 18 MPa')",
+    "idade_dias": 28,
+    "co2_kg_m3": 468.9,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Tab.27 (p.87), coluna CP II F, valor 2,757E+05 kg impresso na linha rotulada 'AP' (= GWP verdadeiro, ver notas) / 588 m3 de betao da ciclovia (p.85: 'totalizando 588 m3'; = 2,94 km x 2,50 m x 0,08 m) = 468,9 kg CO2-eq/m3. Verificacao independente com a Tab.26 (p.85, rotulos correctos): GWP dos constituintes 270.300 + 4.790 + 2.650 + 1 + 4.990 = 282.731 kg / 588 = 480,8 kg/m3 (diferenca 2,5%).",
+    "inclui_aco": false,
+    "confianca": "baixa"
+   }
+  ],
+  "nao_convertivel_motivo": "Linhas 1837-1841 (CP IV, CP V, ARC-50%, ARC-100%, 'ideal'): o CO2 converte (ver notas), mas NAO ha resistencia dessas misturas - sao substituicoes hipoteticas sobre o inventario do betao de 20 MPa, e o proprio autor diz que precisam de ser 'testados em relacao as possiveis alteracoes nas propriedades mecanicas' (p.88) e que a combinacao ideal 'deve ser ainda avaliada ... das propriedades mecanicas' (p.92) (regra 13 do PROMPT_E2: cenario hipotetico). Linha 604 (53,3 kg/m2): o kg CO2/m2 da Tab.31 e do sistema inteiro (subleito + BGS + pavimento), nao so do betao; a parte do pavimento (42,4 kg/m2 / 0,08 m = 530 kg/m3 = Tab.21 311.300/588 = 529,4 kg/m3) inclui transporte e construcao e repete a mistura da 1836; o fck 30 gravado na 604 e de outro tipo de ciclovia (norma NOVACAP), nao desta.",
+  "concorda_com_leitura_anterior": false,
+  "notas": "Confirmo o achado E1 (Tabs.27-29 com linhas trocadas; os 190,7/112,3/200,1/175,0/158,2/79,81 gravados NAO sao GWP), mas a conversao e possivel. Prova da troca de linhas: (a) as somas da Tab.26 (rotulos correctos - o texto p.86 confirma brita = 8,13% do ADP e 18,09% do EP) reaparecem na Tab.27 uma linha acima: AP 205.277 -> linha 'ADP' 2,053E+05; GWP 282.731 -> linha 'AP' 2,757E+05; EP 194,9 -> linha 'GWP' 190,7; FAETP 1.561 -> linha 'EP' 1.538; HTP 111.507 -> linha 'FAETP' 1,119E+05; MAETP 6,41E+07 -> linha 'HTP' 6,458E+07; POCP 10.116 -> linha 'MAETP' 1,011E+04; ADP 0,182 -> linha 'POCP' 0,1693; ODP e TAETP batem nas linhas certas; (b) na Tab.28 a troca de 100% da brita por reciclado baixa a linha 'GWP' 17% - impossivel para o GWP (brita = 1,7% do GWP na Tab.26) mas coerente com o EP (brita = 18,09%); a linha 'AP' baixa 1,7%. (c) Tab.21: pavimento GWP 311.300 kg (prod+transp+construcao) - 190,7 kg seria absurdo. CO2 de producao pela linha 'AP' (GWP real) / 588 m3: CP IV 1,554E+05 -> 264,3; CP V 2,922E+05 -> 496,9 (Tab.27); producao+transporte (Tab.28): AG 2,801E+05 -> 476,4; ARC-50 2,764E+05 -> 470,1; ARC-100 2,753E+05 -> 468,2; ideal (Tab.29) 1,550E+05 -> 263,6 kg/m3 - sem fck proprio. AVISO DE QUALIDADE (forte): o inventario do clinquer criado pelo autor (Tab.9, p.64, visto na imagem) tem CH4 0,0259 kg/kg, N2O 2,07E-03 kg/kg e SOx 1,29 kg/kg de clinquer - valores com ordens de grandeza a mais (provavel g lidos como kg); so CH4 x 25 + N2O x 298 acrescentam ~1,26 kg CO2e/kg de clinquer aos 0,9425 de CO2. Por isso o cimento sai a ~1,49 kg CO2e/kg (270.300 kg / (309 x 588) kg) e o AP do betao e absurdo (205 t SO2). O GWP publicado esta inflacionado por este erro; mesmo tipo de incoerencia que levou a NAO CONVERTIDO em 5015/5016. Recomendo que a Kie decida entre aceitar 468,9 (confianca baixa, com alerta) ou manter NAO CONVERTIDO por incoerencia do inventario."
+ }
+]

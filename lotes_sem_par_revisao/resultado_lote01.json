@@ -1,0 +1,57 @@
+[
+ {
+  "row_id": 2564,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Falta qualquer resistencia a compressao propria: nenhum valor em MPa ou N/mm2 em todo o artigo (texto completo lido, 18/18 pp.). A unica mencao a classes (p.14, sec. 4.2) diz que as EPD de C12/15 e C20/25 do Informationszentrum Beton 'closely resemble the compressive strength of the additive-manufactured mixtures in Scenario 3 and Scenario 5 [15]': e uma analogia com a fonte externa Herding et al., sem atribuicao de classe a cada mistura. O Cenario 6 (CEM III, linha 611) nem e imprimivel ('not yet printable', p.5/p.7), por isso nao tem resistencia nenhuma. O betao de enchimento e uma 'generic mixture of Ordinary Portland cement' sem classe (p.5). Alem disso o GWP da Tab.4 (134 kg CO2 eq para o Cenario 6) e por escada inteira: enchimento de betao armado (inclui 10,63 kg de armadura, Tab.3) + cofragem perdida SCA + residuos. O volume da cofragem SCA e a massa volumica dela nao sao impressos (so a espessura de 5 cm, p.5, e as massas do inventario, Tab.3), e o GWP por componente so existe em percentagem nas Figs.4/5.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF confere (Albrecht, Hellerbrand, Weininger, Thiel, Materials 2025, 18, 825, doi 10.3390/ma18040825 na p.1). Texto integral lido via read_file_content (64.743 caracteres, paginas 1 a 18, incluindo referencias - nao truncado). O download_file_content falhou duas vezes (ficheiro de 6,7 MB, acima do limite de ~6 MB do conector), por isso as Figs.4 e 5 (analise de dominancia, em %) nao foram renderizadas. Nao mudam o veredicto: o que falta e a resistencia, nao o CO2. Dados do enchimento, por registo: Cenario 1 = cimento 119,70 + brita 349,30 + areia 285,95 + agua 63,00 kg (Tab.2), 'approximate density of 2400 kg/m3' (p.5); factor do cimento Portland 0,880346 kg CO2 eq/kg (Tab.5/7). Os factores da brita e da areia nao sao impressos, e o betao nao tem fck."
+ },
+ {
+  "row_id": 2582,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Figura 17 e Figura 18 p.60 (fl.62 do PDF)", "Tabela 4 p.66", "Tabela 5 p.67", "Figura 24 p.69 (lida por pixel a 300 dpi)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Com os rotulos tal como impressos nao converte. A Tab.5 (p.67) e a Fig.24 (p.69) dao 'Mudancas climaticas [kg CO2-Equiv.]/(m3.MPa)' = 0,243 (C) / 0,209 (B-15) / 0,176 (B-30); vezes o fck (Fig.17: 52,7 / 48,4 / 47,4 MPa) da 12,8 / 10,1 / 8,3 kg CO2-eq/m3, impossivel com 250 g de cimento por kg de argamassa (Fig.16) e massa especifica de 1.996 kg/m3 (Tab.4), ou seja cerca de 500 kg de cimento/m3. O numero que falta e o resultado em kg CO2-eq por m3 de argamassa (ou por kg de argamassa) com a unidade inequivoca. A p.66 diz que o GaBi deu resultados 'por unidade de resistencia (MPa) em 1 kg de argamassa' e que depois se passaria a m3 com a Tab.4, mas o resultado intermedio nunca e impresso e o rotulo final contradiz os proprios numeros (ver notas).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "ACHADO NOVO PARA A KIE DECIDIR. A leitura por pixel da Fig.24 (escala: 0,05 por 116,6 px; topos C 0,2423 / B-15 0,2088 / B-30 0,1754, iguais a Tab.5) mostra que a barra do 'Cimento ARI' vale 0,2140 / 0,1822 / 0,1497. As razoes B-15/C = 0,851 e B-30/C = 0,700 sao exactamente as razoes da massa de cimento por kg de argamassa da Fig.16 (212,5/250 = 0,850 e 175/250 = 0,700). Se os valores estivessem divididos por MPa, as razoes seriam 0,925 e 0,778; se fossem por m3 (densidades diferentes da Tab.4), seriam 0,851 e 0,684. Os numeros impressos comportam-se como kg CO2-eq por kg de argamassa, sem divisao por MPa nem por m3: o rotulo '/(m3.MPa)' parece errado. O factor implicito do cimento ARI e 0,2140/0,250 = 0,856 kg CO2-eq/kg, plausivel. Se a Kie aceitar reinterpretar a unidade como kg CO2-eq/kg de argamassa (o que contraria o rotulo impresso, por isso nao o apliquei), a conversao seria Tab.5 x massa especifica no estado fresco da Tab.4: C (sheet_row 80) 0,243 x 1.996 = 485,0; B-15 (sheet_row 81) 0,209 x 1.998 = 417,6; B-30 (sheet_row 3) 0,176 x 1.950 = 343,2 kg CO2-eq/m3. Os fck correspondentes seriam 52,7 / 48,4 / 47,4 MPa aos 28 d (NBR 5739; Fig.17, adaptada de Fazzan 2017), com confianca baixa. A dissertacao confere (Camila Cassola Assuncao, UNESP Ilha Solteira, 2020, orientador Tashima). Texto integral extraido com pymupdf (99 pp., 175 mil caracteres)."
+ },
+ {
+  "row_id": 2586,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Figura 4 p.12 (traco do C30/37)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O unico CO2 por m3 e o GWP da brita do C30/37: 1.092 kg x 0,028 kg CO2e/kg = 30,6 kg CO2e/m3 (p.11). A reducao de 22,5% (6,9/30,6, pp.11-12) tambem e so sobre a brita. Falta o GWP do cimento (360 kg/m3, Fig.4), da areia (649 kg), do superplastificante (3 kg) e da agua, ou o GWP total por m3 do C30/37. Nenhum destes e impresso. O resto da ACV e de fim de vida (C1-C3) por kg de material reutilizavel de betao reforcado com carbono, nao do betao.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF confere (Backes et al., Processes 2022, 10, 1791, doi 10.3390/pr10091791). Texto integral lido (18 pp.). A resistencia e so a classe C30/37 de projecto (traco TBS, segundo Mettke e Heyn 2010), sem ensaio. O material suplementar A.1 nao esta impresso no PDF."
+ },
+ {
+  "row_id": 2628,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.9 p.42", "Tabelas 2-4 pp.30-32 (texto)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Nao ha CO2 da argila solidificada. A ACV (sec. 2.3.5 e 4) avalia so o fabrico de 1 kg de cada aditivo: MgO reactivo com CO2 directo de 1.096,54 g/kg (Tab.3, so emissao do inventario), cal viva com 0,78 kg (texto p.19) e CP com 832,61 kg/t (Tab.4). Os resultados finais estao so em mPt do Eco-indicator 99 (Fig.9). Para chegar a kg CO2/m3 do M20-OC (20,4 MPa aos 28 d, cubos de 50 mm, ASTM C109) faltam: (1) a massa volumica da pasta ou as quantidades por m3, porque a Tab.2 so da % em massa (argila 80%, MgO 20%, Na2CO3 10% dos solidos, a/l 0,41); (2) o factor de CO2 do Na2CO3 e da argila; (3) o CO2 total (directo + indirecto) do MgO em kg, porque a Fig.9 da a mudanca climatica so em mPt.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "O lote trazia fileId null. O ficheiro foi encontrado na pasta: 'RUAN et al., 2020 - j.conbuildmat.2020.120333.pdf', fileId 1zTfewmQVuhM3sHYok0w51Mw92ndB8Pqq. E o manuscrito aceite (42 pp., sem DOI impresso); titulo e primeiro autor (Shaoqin Ruan) conferem. Atencao: na mesma pasta existe 'RUAN et al., 2020 - fmats.2020.581358.pdf', que e outro artigo e nao foi usado."
+ },
+ {
+  "row_id": 2666,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Tabela 2 p.927", "Fig.8 p.928"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O 95,5 kg CO2-eq/m2 da Amostra 5 (Tab.2, p.927; Fig.8) e por m2 de parede completa: betao normal 0,12 m (288 kg/m2) + malha de aco 12x200 mm (18 kg/m2) + la mineral 0,20 m (20 kg/m2). Nem a Tab.2 nem a Fig.8 (barras simples, sem divisao por camada) dao o GWP so da camada de betao. Falta o GWP da camada de betao normal em kg CO2-eq/m2 (ou um factor por m3 ou por kg do betao). Sem isso nao se pode dividir por 0,12 m, porque o sistema inclui la mineral alem do aco. As outras amostras (betoes celulares e espumados) tem Rc de 1,5 a 8,0 MPa (Tab.1), abaixo de 20 MPa.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "O lote trazia fileId null. Usou-se 'SAHMENKO et al., 2021 - rtuect-2021-0069.pdf', fileId 12iU_wLBM0TI7BHWPejN7NlJ2vdO4G7L8 (Environ. Clim. Technol. 2021, 25(1), 917-930, doi 10.2478/rtuect-2021-0069); titulo e autores conferem. O fck de 35 MPa (Tab.1) do betao normal e um dado do fabricante (p.920: 'properties of these materials were taken from the manufacturer's data'), nao um ensaio proprio. Texto integral lido (14 pp.)."
+ }
+]

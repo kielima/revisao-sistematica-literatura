@@ -1,0 +1,111 @@
+[
+ {
+  "row_id": 3215,
+  "titulo": "Mekky, Khadiga M. and Ibrahim, Mona G. and Sharobim, Kamal and Fujii,\nManabu and Nasr, Mahmoud",
+  "autores": "CASE STUDIES IN CONSTRUCTION MATERIALS",
+  "ano": "Web of Science",
+  "doi": null,
+  "pdf": "MEKKY, 2024 - j.cscm.2024.e03712.pdf",
+  "fileId": "14a2aJz-6ysTJmrGlf3mkWg2TRlS00d1D",
+  "linhas": [
+   {
+    "sheet_row": 926,
+    "material": "concreto de controlo (CM) + cenario de aterro de lama de esgoto",
+    "fck_gravado": 33.35,
+    "co2_original": "10300 kg CO2 eq (GWP, cenario 1: CM + aterro de lama de esgoto)",
+    "co2_original_local": "texto, p.9, sec.3.4: 'the first scenario resulted in a total of GWP of 10300 kg CO2 eq (see supplementary Table S19)'",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): incoerente com o proprio inventario (10.300 kg/m3 com 380 kg de cimento; cenario inclui deposicao de lamas)",
+    "vol_m3": 0.001
+   },
+   {
+    "sheet_row": 927,
+    "material": "concreto com 5% biochar de lama de esgoto (ASB) substituindo cimento",
+    "fck_gravado": 31.9,
+    "co2_original": "6980 kg CO2 eq (GWP, cenario 2: 5% ASB - biochar de lama de esgoto)",
+    "co2_original_local": "texto, p.9, sec.3.4: 'which is higher than the result of ASB scenario (6980 kg CO2 eq) by 32.2%'",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): incoerente com o proprio inventario (10.300 kg/m3 com 380 kg de cimento; cenario inclui deposicao de lamas)",
+    "vol_m3": 0.001
+   }
+  ]
+ },
+ {
+  "row_id": 3217,
+  "titulo": "Dong, Meng and Jin, Jiaxu and Li, Jiang-Shan and Wang, Kaikai and Qiu,\nShuo",
+  "autores": "CASE STUDIES IN CONSTRUCTION MATERIALS",
+  "ano": "Web of Science",
+  "doi": null,
+  "pdf": "DONG, 2024 - j.cscm.2024.e03931.pdf",
+  "fileId": "1vG1x-mx2Xdxe632WvbOwodBz3AhIrg5H",
+  "linhas": [
+   {
+    "sheet_row": 929,
+    "material": "cimento CSA modificado com fosfogesso (PG) + escoria de carbureto (CS) - mistura otima C6P4CS5",
+    "fck_gravado": 61.55,
+    "co2_original": "0.424 [DERIVADO] kg CO2 / kg de mistura (media ponderada de factores por materia-prima x composicao C6P4CS5)",
+    "co2_original_local": "Table 5 (p.14, factores) + Table 4 (p.4-5, composicao C6P4CS5: 60% clinquer CSA + 38% PG + 2% CS) - calculo proprio desta extracao",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck proprio (pasta CS-PG-CSA C6P4CS5, 61,55 MPa aos 28 d, cubos de 20 mm). CO2 so existe como factores por kg de materia-prima (Tab.5) e radar normalizado ao OPC (Fig.14). A media ponderada da 0,424 kg CO2/kg de ligante seco (60% clinquer CSA x 0,679 + 38% PG x 0,0398 + 2% CS x 0,0693). Para kg/m3 falta a massa volumica da pasta (ou o consumo de ligante por m3), que o artigo NAO imprime - so a razao a/l = 0,43. O material e pasta de cimento, nao betao.",
+    "vol_m3": null
+   }
+  ]
+ },
+ {
+  "row_id": 3237,
+  "titulo": "Kanagaraj, Balamurali and Anand, N. and Praveen, B. and Kandasami,\nSivakumar and Lubloy, Eva and Naser, M. Z.",
+  "autores": "DEVELOPMENTS IN THE BUILT ENVIRONMENT",
+  "ano": "Web of Science",
+  "doi": null,
+  "pdf": "KANAGARAJ et al., 2023c - j.dibe.2022.100115.pdf",
+  "fileId": "1g2ABHC33s3Cmy88tWVC4X9GWav36g5wt",
+  "linhas": [
+   {
+    "sheet_row": 937,
+    "material": "SCLGC - concreto geopolimerico autocompactavel leve com agregado de argila expandida (ECA)",
+    "fck_gravado": 47,
+    "co2_original": "231.2 kg CO2/m3 (convertido de 0,2312 t-CO2/m3, texto sec.6.3.3)",
+    "co2_original_local": "p.16, texto sec.6.3.3 (Eco-efficiency) e Fig.20",
+    "co2_conversao": "NAO CONVERTIDO - KANAGARAJ 3237: 231,2 kg/m3 e um GPC generico 'segundo a proposta' de Alsalman 2021, nao corresponde a nenhuma mistura da Tab.2 (as ECA0 dao 168,6/315,2/461,0); o fck 47 e de uma mistura SCLGC com argila expandida, sem factor de CO2 -> par mistura duas misturas",
+    "vol_m3": 0.003375
+   }
+  ]
+ },
+ {
+  "row_id": 3238,
+  "titulo": "Prabhat Vashistha and Kebede A. Moges and Sukhoon Pyo",
+  "autores": "Developments in the Built Environment",
+  "ano": "Science Direct",
+  "doi": null,
+  "pdf": "PYO, 2023i - j.dibe.2023.100146.pdf",
+  "fileId": "1V_CS2AqFExuwFR-HghuNgx0--MCPAcq1",
+  "linhas": [
+   {
+    "sheet_row": 938,
+    "material": "ligante cementless de lama de cal (lime mud, LM) ativado alcalinamente (AcLM), comparado com OPC",
+    "fck_gravado": "AcLM50:~36.7 (leitura grafica Fig.9, 28d)",
+    "co2_original": "OPC:863; AcLM50:49.9 kg CO2/ton de material (OPC citado de literatura externa; AcLM50 calculo proprio, funcional unit=1 ton)",
+    "co2_original_local": "p.9 impressa, sec.3.4 (texto)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): CO2 so por tonelada de ligante; massa volumica da pasta nao impressa (fck 36,4 confirmado na Fig.9)",
+    "vol_m3": null
+   }
+  ]
+ },
+ {
+  "row_id": 3270,
+  "titulo": "Pons, Joaquin J. and Villalba Sanchis, Ignacio and Insa Franco, Ricardo\nand Yepes, Victor",
+  "autores": "ENVIRONMENTAL IMPACT ASSESSMENT REVIEW",
+  "ano": "Web of Science",
+  "doi": null,
+  "pdf": "PONS et al., 2020 - j.eiar.2020.106444.pdf",
+  "fileId": "1qJktiAYnn1PAzd5zHQdr6jX7cVk-QO_x",
+  "linhas": [
+   {
+    "sheet_row": 952,
+    "material": "concreto (lastro/laje e fundacoes de via ferroviaria de alta velocidade)",
+    "fck_gravado": 35,
+    "co2_original": "",
+    "co2_original_local": "",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): SEM_CO2: A unica resistencia e a designacao do processo Ecoinvent 'Concrete, 35 MPa' (Tab.1, em t/UF). O GWP (Tab.3: 2,01E7 / 2,23E7 / 2,60E7 kg CO2eq, 75 anos) e do sistema inteiro da via por UF (balastro, carris, fixacoes, aco, betao, transporte, manutencao) - nao ha CO2 atribuido so ao betao nem factor de emissao do processo impresso. Dividir o total pela massa/volume de betao misturaria aco, balastro e manutencao. Alem disso o betao vem em toneladas sem massa volumica impressa.",
+    "vol_m3": null
+   }
+  ]
+ }
+]

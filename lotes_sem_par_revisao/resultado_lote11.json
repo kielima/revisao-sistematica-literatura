@@ -1,0 +1,74 @@
+[
+ {
+  "row_id": 3373,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.6 e Fig.7 p.9 (636 impressa)",
+   "Tab.B5 p.16 (texto)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 (Tab.B5, p.16/643 impressa: OPC 989, SC 525, FAC 625, MKG 618 [linha 'Feedstock+transportation+processing+capital'], HLAASC 124 kg CO2-eq/t) e por TONELADA DE LIGANTE (UF 'one tonne of cement that meets a minimum compressive strength of 50 MPa in 28 days', p.3/630). O artigo exclui expressamente a producao de betao (p.2/629: 'exclude inventory of all process steps following cement production, including concrete production'). Faltam: (1) teor de ligante por m3 de qualquer betao/argamassa (nenhum traco impresso), (2) CO2 dos agregados/agua de uma mistura, (3) massa volumica. Alem disso os 50 MPa nao sao ensaio proprio: e um criterio de equivalencia apoiado em literatura (Habert 2011; Moseson 2012, p.2-3).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Fig.7 (a)/(b) confirmam em kg CO2e/tonne. Proporcoes da Tab.1 sao % em massa do ligante, nao traco de betao. Sem nenhum valor em m3 ou kg/m3 no texto completo (18 p.)."
+ },
+ {
+  "row_id": 3394,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.8 p.12 (GWP das concrete works, ktonne CO2eq)",
+   "Fig.5 p.10 (contribuicao por fase)",
+   "Tab.2 p.7 e Tab.4 p.8 (texto)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 das 'concrete works' existe isolado (Fig.8 p.12: baseline kerbs & parapets ~0,92 kt; 65% GGBFS ~0,68 kt; traffic & light ~0,38/~0,37 kt; texto p.9: reducao de 241,75 t = 26,37% -> baseline 916,8 t), mas: (1) nenhuma resistencia a compressao e atribuida ao betao das concrete works -- o unico '20 MPa concrete' (650 m3) esta no inventario das TERRAPLENAGENS (Tab.2 p.7, AB1/AB2), cujo CO2 nao e isolado; (2) o VOLUME de betao das concrete works nao e impresso -- Tab.2 da so massas em toneladas (clinquer 416,053; gesso 21,897; calcario 23,050; areia 2090,330; brita 2280,153 no AC1), sem agua nem massa volumica; (3) o GWP das concrete works inclui a fase de construcao (maquinas, Tab.3) e manutencao, nao e A1-A3 isolado. Faltam: fck do betao das barreiras/lancis/fundacoes e o volume (m3) desse betao.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "A UF e a seccao de 3,5 km de estrada (p.3). Fig.8 so tem a escala em ktonne e barras de incerteza; nao ha divisor."
+ },
+ {
+  "row_id": 3395,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.11 p.11 (resistencia a compressao/flexao das argamassas, imagem extraida a resolucao nativa)",
+   "Tab.3 p.6 e Tab.7 p.13 (texto)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 (Tab.7 p.13) e por 1 t de CIMENTO: CEM II 42.5R 812 kg CO2-eq/t; 95% CEM II + 5% URSCA ou URLCA 772 kg CO2-eq/t (UF '1 ton of each product', p.7). Resistencias das argamassas normalizadas EN 196-1 aos 28 d lidas da Fig.11 (prismas 40x40x160): ref ~53,6 MPa; 5% URSCA ~55,9 (+4,3% rotulado); 5% URLCA ~51,2 (-4,5% rotulado). Para passar a kg/m3 de argamassa faltam: (1) a massa volumica da argamassa (fresca ou endurecida) ou o volume da amassadura -- nao impressos (a Tab.5 so da a densidade do cimento 3,2 e do clinquer 3,15, nao a da areia normalizada nem a da argamassa); (2) o CO2 da areia e da agua -- a ACV so cobre o cimento, e nao ha factor para a areia. Traco impresso (Tab.3): 450 g cimento, 1350 g areia, 225 g agua (ref.); 427,5 g cimento + 22,5 g SCM para 5%.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Usar 3 prismas por amassadura (0,000768 m3) seria assumir a norma EN 196-1; o artigo nao diz quantos prismas sairam de cada amassadura (diz 3 provetes por idade, 3 idades). E mesmo com o volume faltaria o CO2 da areia. Leituras da Fig.11 coerentes com a leitura anterior."
+ },
+ {
+  "row_id": 3406,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.1 p.4 (abordagens A/B)",
+   "Fig.3 e Fig.4 p.7 (profundidade de carbonatacao, indice de fiabilidade)",
+   "Fig.6 a Fig.10 p.10 (indicadores normalizados com equacoes de regressao)",
+   "Tab.5 p.12 (texto)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O unico CO2 impresso e o indice GWP/(fcm*tsl) em g CO2-eq/(MPa*ano), por UF = 1 m2 de laje (Tab.5 p.12: CC 34,7/32,5/30,7 e HVFAC 28,0/27,1/23,7 para 38-45/45-50/50-55 MPa) ou 1 m de viga (equacoes da Fig.6). Para desfazer: GWP/m2 = indice x fcm x 50 anos, e /m3 = GWP/m2 / altura total da laje. Faltam: (1) o fcm medio de cada intervalo da Tab.5 (so os limites 38-45 etc.; e a media de razoes nao e a razao de medias), (2) a altura total da laje de cada mistura/intervalo -- so as faixas (CC 0,1723-0,1829 m; HVFAC 0,2087-0,2189 m, p.7), e o diametro da armadura que fixaria h = d + c + phi/2 nao e impresso. Nenhum GWP absoluto por m2 ou m3 aparece; as 94 misturas e os resultados por mistura estao so no material suplementar (nao incluido no PDF).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Armadura excluida da ACV (p.7), portanto seria so betao (A1-A3 + transporte), mas o divisor e o fcm por mistura nao estao no PDF."
+ },
+ {
+  "row_id": 3409,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "NAO FOI POSSIVEL VER AS FIGURAS: download_file_content falhou duas vezes (ligacao ao servidor Drive fechada por mensagem demasiado grande); texto completo lido por read_file_content (13 paginas ate as referencias, tabelas 1-5 incluidas). As figuras 3-5 sao resultados relativos (%) e a Fig.12/13 sensibilidades."
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 do tabuleiro (Decking, CD, Scope 1) e 3,20 x10^5 kg CO2-eq na Tab.4 (p.8), para 51,1 m3 de betao 35 MPa + 11,5 t de aco de armadura (Tab.3 p.6) -- aco inseparavel (o artigo nao decompoe betao vs aco). Alem disso a escala e incoerente: a coluna por m2 diz '10^3 kg CO2 eq/m2' (12,8) mas 3,20e5/250,7 m2 = 1.276 kg/m2 (seria 10^2), e o texto (p.11) da 8.960 kg/m2 para o Scope 2, coerente com a coluna absoluta em 10^5; com 10^5 o tabuleiro daria 6.262 kg CO2-eq/m3 (com aco), e a estrutura de aco 3,28e5 kg para 22,8 t de aco (14 kg CO2/kg) -- valores que so seriam plausiveis em 10^4 (626 kg/m3 com aco). O artigo nao resolve qual e a escala certa. Falta: o CO2 so do betao do tabuleiro (ou a decomposicao betao/aco) e uma escala inequivoca da Tab.4.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Mantem-se a decisao E1 de DECISOES_METANALISE.md (escala incoerente + aco inseparavel). Se a Kie quiser, o candidato seria familia concreto_armado com inclui_aco=true, mas so depois de decidir a escala (10^5 apoiado pelo texto p.11; 10^4 apoiado pela plausibilidade fisica, que e informacao externa ao artigo)."
+ }
+]

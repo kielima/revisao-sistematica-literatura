@@ -1,0 +1,57 @@
+[
+ {
+  "row_id": 4718,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Tabela 1 p.4 (renderizada)", "Fig.1-2 p.3-4 (fotos, sem dados)", "Tabelas 2-4 p.5-8 (texto)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O unico CO2 do artigo e a linha 'Global Warming Potential (kg CO2 eq)' da Tabela 1 (p.4): 2,39 (fibra de poliolefina) e 5,30 (malha de aco), sem unidade de referencia impressa. Os valores so batem com a ARMADURA por m2 da mesma tabela (2,39/0,80 = 2,99 kg CO2/kg de fibra PP; 5,30/3,11 = 1,70 kg CO2/kg de aco), ou seja sao o GWP do reforco por m2, nao do betao. Falta o CO2 do betao HA-25 (por m3, por m2 ou por kg) e o teor de cimento do traco: o artigo diz apenas que cimento e agregados sao iguais nas duas lajes (p.3-4) e so imprime os limites do MIVES (cimento 55-150 kg/m2, agregados 240-600 kg/m2, p.5), nao o traco real. Laje 200 x 50 x 0,20 m impressa, mas sem CO2 do betao nao ha nada a dividir.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF confere: 'Use of Steel and Polyolefin Fibres in the La Canda Tunnels: Applying MIVES...', Alberti, Galvez et al., Sustainability 2018, doi 10.3390/su10124765 (cabecalho impresso '2017, 9'). fck = 25 MPa caracteristico (HA-25, p.4). Avaliacao MIVES (pontuacoes 0-100), sem ACV propria do betao."
+ },
+ {
+  "row_id": 4738,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.1 p.8 (resistencia aos 7 d, eixo 0-25 MPa)", "Fig.3a p.11 (climate change kg CO2-eq por kg de argamassa)", "Fig.4 p.11", "Tabela 2 p.7 e Tabela 4 p.15 (texto)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 esta por 1 kg de argamassa (unidade funcional, p.8; Tabela 4 p.15: medias Mo 1,83; M1 1,80; M2 1,91; M3 1,81; M4 1,93; M5 1,82; M6 1,81; M7 1,81 kg CO2 eq; Fig.3a com os mesmos valores) e o traco da Tabela 2 (p.7) esta em gramas por 1 kg de argamassa. Falta a massa volumica da argamassa fresca ou endurecida (kg/m3), que o artigo nao imprime em lado nenhum (so cita densidades de literatura de BFS, BA, FNS e EPS na revisao, p.3-6, que nao sao das misturas), nem a massa dos cilindros 100x200 mm. Sem esse numero nao ha passagem de kg para m3.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF confere: Navaratnam, Tushar, Jahan, Zhang, Sustainability 2023, 15, 1873. Resistencia propria so aos 7 dias (cilindros 100x200, ASTM C39, n=3, p.8), lida na Fig.1 por pixel com barra de erro: Mo ~16,4; M1 ~14,3; M2 ~18,2; M3 ~15,0; M4 ~15,5; M5 ~19,0; M6 ~11,3; M7 ~11,7 MPa (confianca baixa). Nota adicional: ~1,8 kg CO2/kg de argamassa e muito alto para 0,19-0,22 kg de cimento por kg; o inventario inclui 2,2 kWh/kg de mistura (p.9), o que provavelmente explica o valor; mesmo que houvesse massa volumica, o valor deveria ser tratado com cautela."
+ },
+ {
+  "row_id": 4739,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.3 p.7 (GWP das 5 casas, kg CO2eq/m2 de area)", "Tabela 2 p.8 (renderizada)", "Tabelas 3-5 p.8-9"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Unico caminho candidato: Tabela 2 (p.8), opcoes de fundacao para 230 m2. (i) 'Traditional concrete slab': 34,5 m3 e A1-A3 16.685 kg CO2eq -> 16.685/34,5 = 483,6 kg/m3 (incluiria aco de armadura), mas o artigo NAO imprime a resistencia desta laje (o unico fck, 25 MPa, e atribuido ao 'in situ reinforced concrete' da Casa 2, p.9). (ii) 'Concrete waffle slab': 71,3 m3 e A1-A3 16.320 -> 228,9 kg/m3, mas o 'Volume of Material Required' nao e so betao (a laje waffle inclui caixotes de poliestireno 1,1x1,1 m, p.6; 71,3 m3 e o dobro da laje maciça), e o artigo nao imprime o volume de betao isolado; tambem nao liga explicitamente os 25 MPa a esta opcao padronizada. O valor da Casa 2 (69% x 53% x 235,45 = 86,1 kg CO2eq/m2 de area, p.9) nao tem volume de betao da Casa 2 impresso (237 m2; a Tabela 2 e para 230 m2 e escalar seria assumir). Faltam: fck da laje tradicional, ou volume so de betao da laje waffle/Casa 2.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF confere: Taylor, Roy, Dani, Lim, De Silva, Jones, 'Delivering Sustainable Housing through Material Choice', Sustainability 2023, 15, 3331. Ferramenta LCAQuick/BRANZ, berço-ao-berço (A-D). Valor 0,29 kg CO2eq/kg para betao 30 MPa com 100 kg/m3 de aco (p.2) e citado de [21], nao proprio. Se a Kie decidir aceitar a ligacao fck 25 MPa -> laje waffle, o valor seria 228,9 kg/m3 por volume de material (inclui EPS e aco) - nao recomendado."
+ },
+ {
+  "row_id": 4744,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.9 p.9 (GWP com rotulos numericos, renderizada)", "Tabela 1 p.5 e Tabela 3 p.8 (texto)", "Figs.1-8 (caracterizacao do agregado, sem CO2)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Unidade funcional = 1 kg de argamassa (p.5). GWP da Fig.9 (rotulos impressos): NAC 0,195 + 0,00935 + 0,000041 + 0,00535 = 0,2097 kg/kg; CRAC (NT, ND) sem absorcao 0,189 + 0,00625 + 0,0000474 + 0,00535 + 0,000718 = 0,2014 kg/kg; com absorcao de CO2 0,189 + 0,00625 + 0,0000474 + 0,00535 - 0,0081 = 0,1926 kg/kg. Traco por amassadura (Tabela 1): CEM I 453 g, agua 227 g, areia 1360 g (NAC; RAC/CRAC 952 g + 408 g de FRCA + 49/45 g de agua de compensacao), sem volume da amassadura nem numero/tamanho de provetes. Falta a massa volumica da argamassa (kg/m3): o artigo so da as densidades das particulas de agregado (2,65/2,36/2,37, p.5) e diz 'same unit weight' sem valor (p.5); a densidade do cimento e o teor de ar nao sao impressos, pelo que nem o volume absoluto da amassadura se pode calcular.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF confere: Villagran-Zaccardi, Broodcoorens, Van den Heede, De Belie, Sustainability 2023, 15, 6386. fck aos 28 d (Tabela 3, p.8): NAC 64,04 +/- 1,82; RAC 54,33 +/- 1,28; CRAC 65,35 +/- 1,46 N/mm2 (provete nao indicado). RAC sem ACV. A Fig.9 tem ainda cenarios TG/TO/50%D/100%D para CRAC (todos por kg). Material suplementar com o inventario nao esta impresso no PDF."
+ },
+ {
+  "row_id": 4754,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.4 p.8 (GWP vigas, eixo sem unidade)", "Fig.5 p.9 (GWP pilares, eixo sem unidade)", "Figs.6-7 p.9 (acidificacao)", "Tabela 6 p.11 (renderizada)", "Tabelas 1-2 p.4-5 (traços)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O artigo imprime kg CO2/m3 (Tabela 6, p.11: vigas 50% escoria 12 kg CO2/yd3 = 15,8 kg CO2/m3; pilares 15,3 kg/yd3 = 20,1 kg/m3; volumes 7,88 + 9,00 + 5,60 m3), mas o valor e fisicamente impossivel para o traco impresso da mesma mistura (Tabela 2, p.5: 182,6 kg de cimento Portland + 182,6 kg de cimento de escoria por m3), e a fronteira do sistema inclui ainda aco de armadura e cofragem de contraplacado, berco-ao-tumulo 60 anos (p.6). Os valores vem do eixo das Figs.4-5 (BEES), que nao tem unidade impressa (o 'kg CO2/yd3' so aparece na Tabela 6), e para as outras 7 misturas nao ha valor numerico alem da leitura desse eixo sem unidade. Falta um CO2 por m3 coerente com o traco (ou a unidade real do eixo das Figs.4-5). Mantem-se a decisao E1 (valor nao utilizavel).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "PDF confere: Maury-Ramirez & De Belie, 'Environmental and Economic Assessment of Eco-Concrete for Residential Buildings: A Case Study of Santiago de Cali (Colombia)', Sustainability 2023, 15, 12032. fck = 28 MPa de projecto (4K psi) para todas as misturas (p.3-4); tracos das Tabelas 1-2 sao do BEES [25]. Se o valor fosse aceite, inclui_aco seria true (armadura dentro da fronteira). Leitura das Figs.4-5 (unidade desconhecida): vigas 100% PC ~16,7, 50% escoria ~11,8; pilares 100% PC ~20, 50% escoria ~15,1."
+ }
+]
