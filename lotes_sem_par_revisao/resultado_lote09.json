@@ -1,0 +1,47 @@
+[
+ {"row_id": 3272, "pdf_confere": true, "texto_completo_lido": true,
+  "figuras_vistas": ["nao foi possivel ver as figuras: download_file_content recusou duas vezes ('File too large for download, over limit of 10 MB'); lido so o texto completo via read_file_content (85.392 caracteres, ate as referencias). Table 2 (estatistica de materiais) vem ilegivel no texto (provavelmente imagem/tabela partida); Fig.16 e Fig.17 nao vistas"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "A divisao total/volume e aritmeticamente possivel mas da um valor fisicamente incoerente e de classes misturadas. Tab.7 (p.14): GWP do 'Concrete' = 8.208.453,44 kg (projecto original) e 6.156.340,08 kg (pos-TO); 'Number (t)' = 8.922,23 t IGUAL nos dois cenarios (incoerente, a quantidade nao muda com a optimizacao). Volumes impressos so no texto da Sec.4 (p.18): pilares 38 e 40 = 1.494,4 m3 + 1.028,5 m3 = 2.522,9 m3; reducao de 448,32 + 205,70 m3 apos TO (=1.868,88 m3). Conta: 8.208.453,44 / 2.522,9 = 3.253,6 kg CO2-eq/m3 (original) e 6.156.340,08 / 1.868,88 = 3.294,1 kg CO2-eq/m3 (TO) - ~8-10x um betao corrente e acima do proprio cimento puro, e 8.922,23 t / 2.522,9 m3 = 3,54 t/m3 (massa volumica impossivel). Alem disso os pilares 38/40 juntam classes C40 (pile platform/pier base/pier column) e C50 (bearing pad stone/bent cap) - e possivelmente C35 das estacas - sem volume por classe (Tab.3 p.6); o fck gravado (55 = C55 da viga principal) e de um elemento que nem entra na ACV. Falta: volume (ou massa) de betao por classe dos pilares 38/40 e um GWP do betao coerente com esse volume.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Confirmado titulo/autores p.1 (Zhou, Alcala, Yepes, EIAR 97 (2022) 106914). Inconsistencias adicionais: soma da Tab.7 original = 8.869 t, nao os 8.971,69 t do texto; legenda da Fig.17 diz 'piers 39 and 40' e o texto diz 38 e 40; Tab.4 'CS' (23,29-37,45 MPa) depende da temperatura e e de fonte externa (OBrien et al. 2020). Rejeitar a tentacao de usar 3.254 kg/m3: nao e CO2 de betao plausivel."},
+
+ {"row_id": 3280, "pdf_confere": true, "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.2 p.4 (diagrama conceptual longevidade/carbono, sem valores)", "Fig.6 p.8 (probabilidade de profundidade de lixiviacao vs tempo, sem CO2)", "p.3, p.7 e p.9 renderizadas (Fig.1 ICE, Fig.5, Tabela 2)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O unico CO2 proprio e a Tabela 2 (p.9): 'Total Embodied Carbon (kg CO2 equiv./m2)' = 13 (OPC, OPC+0,8% e +3,8% silica; 1 accao de reparacao em 100 anos), 26 (ITZ-OPC; 2 accoes), 120-600 (NHL), cradle-to-site, por m2 de reboco reparado e ACUMULADO no horizonte de 100 anos. Para kg/m3 falta a ESPESSURA do reboco (ou a massa por m2 - a Eq.1 p.4 define Cei em kg CO2e/(kg/m2) mas nunca imprime os kg/m2) e falta o traco das argamassas; o artigo nao imprime nenhum dos dois. Alem disso as resistencias da Tabela 1 (p.6: 27,1 / 52 / 53 / 60 MPa) sao compiladas de [25-29], nao ensaio proprio, e nao ha CO2 por mistura independente do numero de reparacoes (OPC=13 kg/m2 por 1 reparacao e o unico valor 'unitario', mas sem espessura).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Pre-print (Energy and Buildings 2017, doi 10.1016/j.enbuild.2017.08.026), titulo e autores (Bras, Faria) conferem na p.1. Texto completo lido (12 paginas). As argamassas NHL tem resistencias < 3 MPa."},
+
+ {"row_id": 3285, "pdf_confere": true, "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.3 p.8 (barras empilhadas por sistema do edificio, Climate change em t CO2 eq, sem rotulos numericos - lida por pixel a 300 dpi)", "Fig.4 p.8 (A1-A3 vs A4 em %)", "Fig.5 p.9 (cascata com rotulos: base 2666,3 t; structures -13,4/-46,1/-830,9 t)", "Tabela 1 pp.3-4 e Tabela 4 p.7 lidas no texto"],
+  "veredicto": "PARCIAL",
+  "pares": [
+   {"sheet_row": 338, "mistura": "Cenario Con (base) - sistema 'Structures' (betao 30-32 MPa 2.780 m3 + betao 50 MPa 38 m3 + armadura 285 t + 'steel works' 37,0 t + EPS 3.387,5 kg + madeira 40 m), edificio Veroeld, Reykjavik",
+    "fck_mpa": 31, "fck_fonte": "Tabela 1 p.3: 'Concrete, 30-32 MPa' 2780 m3 (mais 'Concrete, 50 MPa' 38 m3 nos 'Concrete elements'); faixa 30-32 MPa, 31 = ponto medio ja gravado; classe de projecto/processo, sem ensaio",
+    "idade_dias": null, "co2_kg_m3": 585.5, "co2_bruto_ou_liquido": "unico", "co2_com_desconto_kg_m3": null,
+    "conta": "Fig.3 p.8 (Climate change, t CO2 eq; A1-A4, ReCiPe midpoint, sem creditos de fim de vida - Sec.2.4.1): barra laranja 'Structures' do cenario Con lida por pixel a 300 dpi: eixo 0 em x=658,5, gridline 3000 em x=1460,5 (0,2673 px/t); fim do laranja em x=1099,5 -> 1.650 t CO2 eq (verificacao: fim da barra total Con = 2.667 t vs 2.666,3 t impresso na Fig.5 = 664,42 kg/m2 x 4.013 m2; e Con-Wood structures 1.650-817 = 833 t vs -830,9 t impresso na Fig.5). Divisor: volume de betao do sistema Structures na Tabela 1 = 2.780 + 38 = 2.818 m3. 1.650.000 kg / 2.818 m3 = 585,5 kg CO2-eq/m3 (taxa por m3 de betao do sistema estrutural inteiro, com armadura). vol_corpo_prova_m3 = 2.818 (medido_elemento_real) devolve o total.",
+    "inclui_aco": true, "confianca": "baixa"}
+  ],
+  "nao_convertivel_motivo": "Os valores gravados (664,42 / 672,99 / 562,09 / 379,16 kg CO2 eq/m2 da Tabela 4) sao do edificio inteiro e nao convertem. So o cenario Con tem caminho, e com ressalvas: (1) o valor do sistema 'Structures' so existe numa figura sem rotulos (leitura por pixel, ~+-5 t); (2) o sistema inclui, alem do betao armado, 37,0 t de 'Steel, low-alloyed' (steel works), 3.387,5 kg de EPS de isolamento da fundacao e madeira - o artigo nao imprime o CO2 de cada material para os separar; (3) inclui transporte A4 (Islandia, factor 0,0327 kg CO2/t.km); (4) mistura 2.780 m3 de 30-32 MPa com 38 m3 de 50 MPa (1,3%). OptCon/ConWood: o volume do betao C20 das paredes e o volume retirado nao sao impressos -> nao convertem. Wood: sem betao estrutural com fck.",
+  "concorda_com_leitura_anterior": false,
+  "notas": "A leitura de 27/09 ('total do edificio inteiro nao atribuivel ao betao') esta certa para os valores por m2, mas a Fig.3 separa o sistema 'Structures' e a Tabela 1 imprime o volume de betao, o que da a via 'total de um elemento / volume impresso' para o cenario Con, na familia concreto_armado. Decisao para a Kie: aceitar 585,5 kg/m3 com confianca baixa (inclui aco, steel works, EPS e A4) ou manter NAO CONVERTIDO por o sistema nao ser so betao armado. Titulo/autores conferem p.1 (Amiri et al., Energy & Buildings 241 (2021) 110962)."},
+
+ {"row_id": 3311, "pdf_confere": true, "texto_completo_lido": true,
+  "figuras_vistas": ["Fig.1 p.4 (fronteira do sistema: 'Functional unit: 1 tonne of the product produced')", "Fig.3 p.8 (contribuicao por material, kg CO2 eq/t, Sc8 = 305,52 OPC + 1,36 SED + 1,26 RG + 13,45 NC + 19,14 PP = 340,7)"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "CO2 so por tonelada de produto (Tabela 4 p.6: Sc8 340,63; Sc9 300,97; Sc10 270,27; Sc11 305,93 kg CO2 eq/t; cradle-to-gate). Falta a MASSA VOLUMICA dos blocos de pavimento (ou o traco em kg/m3): a Tabela 1 (p.3) da so percentagens em massa e o texto (Sec.2.2.1 p.3) diz que escolheu a tonelada para evitar a 'complexity of volume as functional unit'. Falta tambem a resistencia medida de cada mistura: so o requisito '>30 MPa' (Tabela 1), com os valores remetidos a Wang et al. 2017/2018a/2018b.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Titulo/autores conferem p.1 (Hossain, Wang, Chen, Tsang, Ng, Poon, Mechtcherine; Environment International 145 (2020) 106139). Texto completo lido (11 pp.). Sc8 sem creditos; Sc9-Sc11 tambem sem creditos visiveis na Fig.3 (os creditos de ISSA so aparecem em Sc1/Sc3/Sc4)."},
+
+ {"row_id": 3328, "pdf_confere": true, "texto_completo_lido": true,
+  "figuras_vistas": ["nao foi possivel ver as figuras: download_file_content falhou duas vezes (ligacao ao servidor MCP fechada, mensagem demasiado grande); lido so o texto completo via read_file_content (61.933 caracteres, ate as referencias). Figs.11, 12, 14 e 15 nao vistas"],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "CO2 so ao nivel do edificio, UF = 1 m2 de area de pavimento em 50 anos, cradle-to-grave (Sec.2.4 p.7) e em percentagens (estrutura = 61,4% do GWP, Sec.3.2 p.10). O texto nao imprime: o VOLUME (ou massa) de betao C25/30 in-situ (lajes e parede da escada, p.4), nem o GWP isolado do betao, nem o factor EPD do betao. A estrutura junta betao C25/30, blocos de cofragem armados de 24 cm, alvenaria de blocos ocos e armadura; massas so em grafico (Fig.11) e em total (290 t de elementos portantes, p.9). Area de pavimento impressa (389 m2, p.4) nao resolve: falta o volume de betao.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Titulo/autores conferem p.1 (Eslami, Yaghma, Jayasinghe, Waldmann; Heliyon 10 (2024) e26083). Como as figuras nao foram vistas, nao posso excluir que a Fig.11 (massas) ou a Fig.12 desagreguem por material; mesmo assim faltaria a massa volumica/volume do betao C25/30, que o texto nao imprime. O valor 147 kg CO2-eq/m2 nao aparece no texto (so na Fig.14, segundo a leitura anterior)."}
+]

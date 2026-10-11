@@ -1,0 +1,110 @@
+[
+ {
+  "row_id": 3215,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "nao foi possivel ver as figuras: download_file_content falhou duas vezes (PDF de 7,6 MB; ligacao ao conector fechada por mensagem demasiado grande). Texto integral lido via read_file_content (72.716 caracteres, pp.1-13 incl. referencias). Fig.4 (resistencias), Fig.5 (midpoint/endpoint normalizados) e Fig.6 (radar TOPSIS) nao vistas"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "Os dois unicos valores absolutos de CO2 sao 10.300 kg CO2 eq (cenario 1 = CM + deposicao em aterro de 20,25 kg de lama, p.9 sec.3.3 e p.11 conclusoes) e 6.980 kg CO2 eq (cenario 2 = ASB 5%, p.9). A UF declarada e 1 m3 (sec.2.5.1, p.4), mas a Tab.2 (p.5) modela o cenario ASB com 1,07 m3 de betao (384,76 kg cimento, 722,63 areia...). Lidos literalmente dariam 10.300 kg/m3 para um traco com 380 kg de cimento (Tab.1, p.3) - cerca de 30x acima do que o proprio inventario permite; o artigo nao imprime o factor do cimento nem a decomposicao por constituinte (remete para a Supplementary Table S19, que nao esta no PDF). Alem disso o cenario 1 inclui o aterro da lama, e nao ha valor so do betao. Falta: o GWP do betao CM (e do ASB5) por m3, A1-A3, sem a deposicao da lama, coerente com o inventario - estaria na Table S19 do material suplementar, ausente do PDF.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck medido aos 28 d em cubos 100 mm (sec.2.3, p.3): CM 33,35 MPa e ASB5 31,9 MPa (p.8). A reducao de 32,2% e a unica comparacao relativa; o 'per FU' e explicito mas o valor e incoerente com o traco. Se a Kie quiser usar mesmo assim, o literal seria 10.300 kg/m3 (CM+aterro) e 6.980/1,07 = 6.523 kg/m3 (ASB5), mas nao recomendo."
+ },
+ {
+  "row_id": 3217,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "nao foi possivel ver as figuras: download_file_content falhou duas vezes (PDF de 9,0 MB; ligacao ao conector fechada). Texto integral lido via read_file_content (78.264 caracteres). Fig.7 (resistencias CS-PG-CSA) e Fig.14 (radar LCA normalizado ao OPC) nao vistas; a Fig.14 e por definicao normalizada (texto p.13: 'The LCA index of each sample was normalized by OPC')"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 so existe como factores por kg de materia-prima (Tab.5, p.14: CSA clinker 0,679; PG 0,0398; CS 0,0693; OPC 0,84 kg CO2/kg) e a composicao em % de massa do ligante (Tab.4: C6P4CS5 = 60% clinquer CSA + 40% CS-PG com 5% CS), com a/l = 0,43 (sec.2.2, p.3). Da 0,424 kg CO2/kg de ligante seco (0,60x0,679 + 0,38x0,0398 + 0,02x0,0693). Para kg/m3 falta a massa volumica da pasta (ou o consumo de ligante por m3), que o artigo nao imprime em lado nenhum (nenhuma ocorrencia de 'density' nem de kg/m3). O material e pasta ensaiada em cubos de 20 mm, nao betao.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck C6P4CS5 = 61,55 MPa aos 28 d (p.11, sec.3.3.2, cubos 20x20x20 mm). Mistura com 2,5% CS a 20% PG chega a 71,30 MPa, mas o LCA e so da C6P4CS5."
+ },
+ {
+  "row_id": 3237,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "nao foi possivel ver as figuras: download_file_content recusado ('File too large for download, over limit of 10 MB', PDF de 16,2 MB). Texto integral lido via read_file_content (105.641 caracteres). Fig.7 (fck por mistura) e Fig.20 (CO2-e por ingrediente) nao vistas"
+  ],
+  "veredicto": "PARCIAL",
+  "pares": [
+   {
+    "sheet_row": null,
+    "mistura": "ECA0-4-A / ECA0-4-S (0% argila expandida, NaOH 4 M; mesmo traco, so muda a cura)",
+    "fck_mpa": null,
+    "fck_fonte": "so na Fig.7 (p.6-7, 'Influence of ECA on compressive strength of SCLGC'); o texto nao imprime o valor - por ler na figura",
+    "idade_dias": null,
+    "co2_kg_m3": 168.6,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Soma por constituinte: traco da Tab.2 (p.4, kg/m3) x factores impressos na sec.6.3.3 (p.15, t-CO2/t): FA 275x0,004=1,10 + GGBS 275x0,052=14,30 + areia 510x0,0048=2,45 + brita 999x0,0048=4,80 + SH 29x1,915=55,54 + SS 74x1,222=90,43 = 168,6 kg CO2/m3. Agua e superplastificante sem factor no artigo (os autores tambem os excluem). O proprio artigo da 'carbon efficiency' 0,164 t-CO2/t para 4 M (p.15), coerente com esta soma.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "ECA0-8-A / ECA0-8-S (0% ECA, NaOH 8 M)",
+    "fck_mpa": null,
+    "fck_fonte": "so na Fig.7 - por ler",
+    "idade_dias": null,
+    "co2_kg_m3": 315.3,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Tab.2 x factores sec.6.3.3: 1,10 + 14,30 + 2,45 + 4,80 + SH 59x1,915=112,99 + SS 147x1,222=179,63 = 315,3 kg CO2/m3.",
+    "inclui_aco": false,
+    "confianca": "media"
+   },
+   {
+    "sheet_row": null,
+    "mistura": "ECA0-12-A / ECA0-12-S (0% ECA, NaOH 12 M)",
+    "fck_mpa": null,
+    "fck_fonte": "so na Fig.7 - por ler",
+    "idade_dias": null,
+    "co2_kg_m3": 461.2,
+    "co2_bruto_ou_liquido": "unico",
+    "co2_com_desconto_kg_m3": null,
+    "conta": "Tab.2 x factores sec.6.3.3: 1,10 + 14,30 + 2,45 + 4,80 + SH 88x1,915=168,52 + SS 221x1,222=270,06 = 461,2 kg CO2/m3. O artigo da 0,46 t-CO2/t para 12 M (p.15), coerente.",
+    "inclui_aco": false,
+    "confianca": "media"
+   }
+  ],
+  "nao_convertivel_motivo": "Linha existente 937 (fck 47 de uma mistura SCLGC com ECA + 231,2 kg/m3): continua NAO convertivel - os 231,2 sao o GPC generico 'based on the proposal' de Alsalman 2021 (p.15), nao uma mistura da Tab.2, e para as misturas com ECA (25-100%) o artigo NAO imprime factor de CO2 da argila expandida (falta o kg CO2/kg de ECA). As misturas com ECA so tem 0,38/0,68 't-CO2/t' para ECA100 4 M/12 M (p.15), em unidade ambigua (por t, sem dizer de que). Para as misturas ECA0 o CO2/m3 fecha por soma de constituintes com numeros do proprio artigo; falta so o fck dessas misturas, que so esta na Fig.7 (nao vista: PDF 16 MB > limite de 10 MB do conector).",
+  "concorda_com_leitura_anterior": true,
+  "notas": "Concordo que a linha 937 nao converte. Mas ha caminho para 3 pares novos (ECA0 a 4/8/12 M; cada um com cura A e S, mesmo CO2): falta ler o fck na Fig.7 (sugestao: recorte das pp.6-7 pelo shrink-drive-pdf.yml com first_page/last_page). Cuidados: (1) o texto diz que a analise de CO2 foi feita 'for FA, fine & coarse aggregates, and the Alkaline Solution' - a GGBS tem factor impresso (0,052) mas nao e listada; sem GGBS daria 154,3/301,0/446,9 kg/m3; incluí-a porque o constituinte existe e o factor esta impresso. (2) O factor do SH (1,915) e para 'SH (100% solid)'; a Tab.2 nao diz se os 29/59/88 kg sao NaOH solido ou solucao - os valores escalam 1:2:3 com a molaridade, o que sugere massa de solido, mas nao e explicito. (3) Factores sao de literatura (Hammond & Jones, Alsalman, Turner & Collins) mas impressos no proprio artigo, como pede a regra. Provete de compressao: cilindros 150x300 e cubos 150 (sec.3.2.1, p.4) - nao e claro qual deu a Fig.7. Massas volumicas medidas ECA0: 2.390-2.365 kg/m3 (p.6)."
+ },
+ {
+  "row_id": 3238,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "nao foi possivel ver as figuras: download_file_content falhou duas vezes (PDF de 10,2 MB; ligacao ao conector fechada). Texto integral lido via read_file_content (63.197 caracteres, incl. Appendix A). Fig.9 (resistencias), Fig.13-15 (fluxograma e comparacao LCA) nao vistas"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O CO2 proprio e so por tonelada de ligante: AcLM50 = 49,9 kg CO2/t (sec.3.4, p.10; Appendix A com contribuicoes % por constituinte para '1 ton of AcLM50 binder'); OPC 863 kg/t e citado de literatura. O material e pasta (cubos 50 mm, a/s = 0,45, Tab.3 em % de massa). Para kg/m3 falta a massa volumica da pasta endurecida/fresca (ou o consumo de ligante por m3), nao impressa; o artigo so da a densidade especifica do LM (2,14) e do AcLM (2,35) (sec.2.3.1, p.3), nao da GGBS nem da silica de fumo, pelo que nem um calculo por volumes absolutos seria possivel sem assumir valores.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "fck AcLM50 aos 28 d so na Fig.9 (leitura anterior ~36,4-36,7 MPa; o texto da so +5,74% face ao AcLM30). Nao revisto por mim por falta de acesso a figura."
+ },
+ {
+  "row_id": 3270,
+  "pdf_confere": true,
+  "texto_completo_lido": true,
+  "figuras_vistas": [
+   "Fig.2 p.5 (modelo LCA)",
+   "Fig.6 p.8 (climate change por vida util, kg CO2, sistema inteiro)",
+   "Fig.7 e Fig.8 p.8 (endpoint)",
+   "Fig.11 p.10 (contribuicao por fase, % do score global)"
+  ],
+  "veredicto": "NAO_CONVERTIVEL",
+  "pares": [],
+  "nao_convertivel_motivo": "O GWP so existe para o sistema inteiro da via por UF (10 km de via dupla): Tab.3 p.6 (75 anos) 2,01E7 / 2,23E7 / 2,60E7 kg CO2 eq e Fig.6 p.8 (50/75/100 anos), incluindo balastro, carris, fixacoes, aco de armadura, palmilhas, maquinaria, manutencao e fim de vida. Nao ha CO2 atribuido ao betao 'Concrete, 35 MPa' (Tab.1 p.4, 25.860 t Rheda / 26.720 t BBEST) nem factor de emissao do processo Ecoinvent impresso; a Fig.11 e por fase e em % do score normalizado, nao por material. Falta: o GWP (A1-A3) atribuivel ao betao in situ de 35 MPa (ou o factor kg CO2/t do processo) e a massa volumica para passar de t a m3.",
+  "concorda_com_leitura_anterior": true,
+  "notas": "A unica 'resistencia' e a designacao do processo Ecoinvent 'Concrete, 35 MPa'. Mesmo a vida util 0 anos nao e reportada isoladamente."
+ }
+]
