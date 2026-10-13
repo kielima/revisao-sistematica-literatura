@@ -600,9 +600,15 @@ _COLCHETES_PAT = re.compile(r'\[.*?\]')
 # nenhuma (em particular preserva 413-418, que continuam corretamente
 # pendentes -- a unidade real deles, fora do colchete, nunca foi m3).
 _JA_MPA_PAT = re.compile(r'/\s*\(?\s*m3\s*[\.\*]\s*mpa|/\s*mpa\b|\.\s*mpa\)|\bkg\s*co2[\-\s]?e?q?\.?\s*/\s*\(m3\s*mpa\)')
-_TONELADA_PAT = re.compile(r'\btonelada|/\s*t\b|\btco2')
+_TONELADA_PAT = re.compile(r'\btonelada|/\s*t\b|\btco2|/\s*ton\b|/\s*tonne|\bper\s+(metric\s+)?ton')
 _KG_PAT = re.compile(r'/\s*kg\b')
-_M2_PAT = re.compile(r'\bm2\b|metro quadrado')
+_M2_PAT = re.compile(r'\bm2\b|\dm2\b|metro quadrado')
+# 2026-10-13 (Kie: «"outro / nao classificado" nao e para ter nenhuma unidade de CO2 nao relatada»): as 48
+# linhas que caiam em "outro" tinham todas unidade declarada que estas regex nao apanhavam -- por pilar/coluna/
+# casa, por tonelada escrita «/ton», por MJ, indice por MPa.ano e totais sem divisor. Padroes acrescentados:
+_ELEMENTO_EXTRA_PAT = re.compile(r'/\s*(pilar|coluna|column|casa|elemento|viga|laje|segmento|anel)\b|\bcasa\b')
+_JA_MPA_EXTRA_PAT = re.compile(r'mpa\s*[\.\*\u00b7]\s*ano')
+_ENERGIA_PAT = re.compile(r'/\s*mj\b')
 _METRO_LINEAR_PAT = re.compile(r'metro linear|\bml\b|/\s*m\b(?!2|3)|\bkm\b')
 _ELEMENTO_PAT = re.compile(
     r'\btotal\b|por peca|por unidade|por painel|por bloco|por viga|por pilar|por laje|'
@@ -617,6 +623,17 @@ def _norm(s):
     s = (s or '').strip().lower()
     s = unicodedata.normalize('NFKD', s)
     return ''.join(c for c in s if not unicodedata.combining(c))
+
+
+# 2026-10-13: artigos cuja unidade nao se deixa classificar pelo texto -- categoria decidida pela leitura
+# (motivo em co2_conversao de cada linha).
+UNIDADE_OVERRIDE = {
+    4718: 'sem_referencia',  # kg CO2-eq sem unidade de referencia impressa em lado nenhum (Tab.1 p.4)
+    3215: 'm3',              # UF 1 m3; valor incoerente com o proprio inventario (10.300 kg/m3)
+    5016: 'elemento',        # t CO2eq do edificio inteiro
+    4037: 'elemento',        # UF = 1 painel pre-fabricado + gestao de 1 t de residuo
+    2687: 'elemento',        # totais da intervencao na ponte (Fig.6)
+}
 
 
 def classify_unidade(u_raw):
@@ -641,8 +658,12 @@ def classify_unidade(u_raw):
     u_sem_aspas_colchetes = _ASPAS_PAT.sub(' ', u_sem_colchetes)
     if _M3_OK_PAT.search(u_sem_colchetes) and not _JA_MPA_PAT.search(u_sem_colchetes) and not _NEGACAO_M3_PAT.search(u_sem_aspas_colchetes):
         return ('derivado', 'm3') if _DERIVADO_TAG_PAT.search(u) else ('nativo', 'm3')
-    if _JA_MPA_PAT.search(u_sem_colchetes):
+    if _JA_MPA_PAT.search(u_sem_colchetes) or _JA_MPA_EXTRA_PAT.search(u):
         return 'pendente', 'ja_mpa'
+    if _ELEMENTO_EXTRA_PAT.search(u):
+        return 'pendente', 'elemento'
+    if _ENERGIA_PAT.search(u):
+        return 'pendente', 'energia'
     if _TONELADA_PAT.search(u):
         return 'pendente', 'tonelada'
     if _KG_PAT.search(u):
@@ -655,6 +676,10 @@ def classify_unidade(u_raw):
         return 'pendente', 'elemento'
     if _ESPECIME_PAT.search(u):
         return 'pendente', 'especime'
+    if '/' not in u_sem_colchetes and re.search(r'co2', u_sem_colchetes):
+        # kg CO2-eq sem divisor: total do sistema/cenario estudado (a unidade funcional
+        # vem descrita noutra coluna ou e o proprio objecto do estudo)
+        return 'pendente', 'total'
     return 'pendente', 'outro'
 
 
@@ -752,6 +777,7 @@ def main():
         status[i] = row[19]
 
     compact = []
+    excluded = []
     unit_counts = {}  # (kind, cat) -> n
     for r in range(2, ws.max_row + 1):
         row_id = ws.cell(r, 1).value
@@ -782,7 +808,15 @@ def main():
             continue
 
         if co2_kg_m3 is None:
-            kind, ucat = 'pendente', classify_unidade(unidade)[1]
+            kind, ucat = 'pendente', UNIDADE_OVERRIDE.get(row_id) or classify_unidade(unidade)[1]
+            if ucat == 'm3':
+                # 2026-10-13 (Kie): unidade ja em kg/m3 mas excluida da analise (valor incoerente ou
+                # sem par valido). Barra propria no site, clicavel, com cada linha e o motivo.
+                kind = 'excluido'
+                excluded.append({'row_id': row_id, 'estudo': short_label(autores, ano),
+                                 'material': str(material or '')[:160], 'fck': round(fck, 2),
+                                 'co2': co2, 'unidade': str(unidade or '')[:160],
+                                 'motivo': re.sub(r'^NAO CONVERTIDO\s*-\s*', '', conversao)[:600]})
         elif conversao.startswith('nenhuma'):
             kind, ucat = 'nativo', 'm3'
         else:
@@ -790,7 +824,7 @@ def main():
         unit_counts[(kind, ucat)] = unit_counts.get((kind, ucat), 0) + 1
         co2 = co2_kg_m3
 
-        if kind == 'pendente':
+        if kind in ('pendente', 'excluido'):
             # unidade ainda na forma original do estudo, nao convertida para
             # kg/m3 -- fora de `pairs` (ver nota no topo do ficheiro), mas ja
             # contado em unit_counts acima.
@@ -820,7 +854,7 @@ def main():
         for (kind, ucat), n in sorted(unit_counts.items())
     ]
 
-    json.dump({'pairs': compact, 'unit_stats': unit_stats}, sys.stdout, separators=(',', ':'))
+    json.dump({'pairs': compact, 'unit_stats': unit_stats, 'excluded': excluded}, sys.stdout, separators=(',', ':'))
 
 
 if __name__ == '__main__':
