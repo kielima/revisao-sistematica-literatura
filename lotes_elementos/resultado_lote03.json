@@ -1,0 +1,80 @@
+[
+  {
+    "row_id": 4739,
+    "pdf_confere": true,
+    "texto_completo_lido": true,
+    "figuras_vistas": ["Tabela 2 p.8 (renderizada)", "Figura 3 p.7 (renderizada)", "Tabelas 3-5 p.8-9"],
+    "veredicto": "NAO_CONVERTIVEL",
+    "pares": [],
+    "motivo_se_nao": "Nenhuma das duas lajes de fundacao tem, ao mesmo tempo, volume de betao e resistencia impressos. (1) 'Traditional concrete slab' (Tab.2, p.8): 34,5 m3 e A1-A3 16.685 kg CO2eq para 230 m2 (16.685/34,5 = 483,6 kg/m3; total A-D 18.512 -> 536,6 kg/m3), mas o artigo NAO imprime resistencia para esta laje em lado nenhum (o unico fck do artigo, 25 MPa, p.9, e do 'in situ reinforced concrete' da Casa 2, que tem laje waffle; os 30 MPa da p.2 sao de um factor citado de [21] BRANZ, nao desta laje). (2) 'Concrete waffle slab' (Tab.2): 71,3 m3 e A1-A3 16.320 kg CO2eq, mas a coluna e 'Volume of Material Required', nao volume de betao: 71,3/230 = 0,31 m de espessura media (o dobro da laje macica, 0,15 m), coerente com o volume bruto da laje incluindo os caixotes de poliestireno de 1,1 x 1,1 m entre nervuras de 100 mm (p.6); e o A1-A3 da waffle e quase igual ao da laje macica (16.320 vs 16.685) com o dobro do volume, o que mostra que o betao nao e 71,3 m3. O volume so de betao da waffle nao e impresso, nem as dimensoes que o dariam (altura dos caixotes, espessura da lamina superior, vigas de bordo). A ligacao dos 25 MPa a esta opcao padronizada de 230 m2 tambem nao e explicita (a Tab.2 nao e a Casa 2, que tem 237 m2). A linha da Casa 2 (86,1 kg CO2eq/m2 de area) nao tem volume de betao da Casa 2 impresso.",
+    "notas": "PDF confere: Taylor, Roy, Dani, Lim, De Silva, Jones, 'Delivering Sustainable Housing through Material Choice', Sustainability 2023, 15, 3331, doi 10.3390/su15043331. LCAQuick v3.4.4 (BRANZ), berco-ao-berco A-D; na Tab.2 B2/B4 excluidos. Lidas as 16 pp. A coluna 'Volume of Material Required' tambem mistura materiais nas opcoes de madeira (43,7 m3 com estacas, contraventamento e soalho), o que confirma que nao e volume de betao. Se a Kie aceitasse a laje tradicional sem resistencia, o unico numero seria 483,6 kg CO2eq/m3 A1-A3 (inclui armadura; volume presumivelmente so betao mas o artigo nao o diz) - nao recomendado, falta o fck. sheet_row 1731 deve ficar NAO CONVERTIDO."
+  },
+  {
+    "row_id": 2666,
+    "pdf_confere": true,
+    "texto_completo_lido": true,
+    "figuras_vistas": ["Tabela 1 p.921", "Tabela 2 p.927", "Figura 8 p.928 (renderizada)"],
+    "veredicto": "CONVERTIVEL",
+    "pares": [
+      {
+        "sheet_row": 143,
+        "elemento": "Amostra 5 - parede sandwich de betao armado in situ: 1 m2 de parede com betao normal 0,12 m + malha de aco 12x200 mm + la mineral 0,20 m (U = 0,18 W/m2K)",
+        "fck_mpa": 35,
+        "fck_fonte": "Tab.1 p.921, 'Normal concrete' Rc = 35 MPa; dado do fabricante (p.920: 'properties of these materials were taken from the manufacturer's data'), nao ensaio proprio",
+        "idade_dias": null,
+        "co2_total": 95.5,
+        "co2_total_unidade": "kg CO2-eq por 1 m2 de parede",
+        "co2_fonte": "Tab.2 p.927 (Total da Amostra 5) e Fig.8 p.928; texto p.926 ('12.7 vs 95.5 kg/m2')",
+        "fronteira": "berco ao portao (cradle-to-gate, A1-A3), SimaPro 8, GWP 100a, Ecoinvent; UF = 1 m2 de parede com U semelhante",
+        "inclui": "betao normal (0,12 m, 288 kg/m2) + malha de aco (18 kg/m2) + la mineral 0,20 m (20 kg/m2); sem transporte, uso nem fim de vida; o GWP por camada nao e dado (nem na Tab.2 nem na Fig.8)",
+        "volume_m3": 0.12,
+        "volume_fonte_e_conta": "Espessura do betao impressa na Tab.2 (T = 0,12 m) x 1 m2 de parede (UF) = 0,12 m3 de betao por m2. Coerencia: 0,12 m x 2.400 kg/m3 (massa volumica impressa, Tab.1/Tab.2) = 288 kg/m2 = G impresso; 288 + 18 + 20 = 326 kg/m2 = total impresso.",
+        "co2_kg_m3": 795.8,
+        "conta": "95,5 kg CO2-eq/m2 / 0,12 m3/m2 = 795,8 kg CO2-eq/m3 de betao (o numerador inclui a malha de aco e a la mineral)",
+        "familia_sugerida": "concreto_armado",
+        "confianca": "media"
+      }
+    ],
+    "motivo_se_nao": "",
+    "notas": "PDF confere: Sahmenko, Sinka, Namsone, Korjakins, Bajare, 'Sustainable Wall Solutions Using Foam Concrete and Hemp Composites', Environ. Clim. Technol. 2021, 25(1), 917-930, doi 10.2478/rtuect-2021-0069; fileId 12iU_wLBM0TI7BHWPejN7NlJ2vdO4G7L8 (encontrado por title = na pasta). Texto integral lido (14 pp.). O CO2 da camada de betao isolada NAO se separa (Tab.2 e Fig.8 so dao o total da parede); a conversao pela regra F18 e do elemento inteiro, com aco e isolamento no numerador. A la mineral pesa no numerador (o valor por m3 fica acima do que seria so o betao armado). Traco do betao normal impresso na Tab.1: cimento 330, areia 750, brita 1000 kg/m3. Outros elementos com espessura e CO2 impressos: Amostra 6 (bloco sandwich de betao espumado 0,06+0,10 m, 1.000 kg/m3, com EPS 0,14 m; 82,4 kg/m2 -> 82,4/0,16 = 515 kg/m3) tem Rc = 8,0 MPa (Tab.1), abaixo de 20 MPa - fora pela regra da purga de 08/09; as restantes (AAC, HPFC, canhamo) tem Rc 0,07-2,0 MPa. Nao confundir com SAHMENKO 4455 (outro artigo)."
+  },
+  {
+    "row_id": 2713,
+    "pdf_confere": true,
+    "texto_completo_lido": true,
+    "figuras_vistas": ["Figura 4 p.11 (renderizada a 300 dpi, leitura por pixel)", "Figura 5 p.11", "Figura 6 p.12", "Figura 3 p.8"],
+    "veredicto": "NAO_CONVERTIVEL",
+    "pares": [],
+    "motivo_se_nao": "Falta uma resistencia atribuivel ao betao polimerico avaliado na ACV: o artigo so da a gama do fabricante 'compressive strength (sigma,c) of 90-130 MPa ... depending on the composition of the polymer concrete mix' (p.8), sem dizer que mistura entrou no inventario (dados da Polycare). A parede Polyblock tem 4,5-5,0 MPa (p.9), mas isso e resistencia do sistema de alvenaria, nao do betao. O CO2 e o volume, esses, conseguem-se so com numeros impressos (ver notas), pelo que, se a Kie aceitar um fck da gama, o par fica pronto.",
+    "notas": "PDF confere: Kouvara, Priavolou, Ott, Scherer, van Zyl-Bulitta, 'Circular, Local, Open: A Recipe for Sustainable Building Construction', Buildings 2023, 13, 2493, doi 10.3390/buildings13102493. Lidas na integra pp.5-13 (metodo, caso, resultados); restantes paginas (introducao, discussao social, referencias) pesquisadas por termos sem novos numeros. CAMINHO DO CO2 E DO VOLUME (candidato, nao aplicado): Fig.4 p.11, leitura por pixel a 300 dpi (eixo 0 = y1236, 50 = y440): betao polimerico 47,6 kg CO2-eq por 100 kg e 47,6 kg CO2-eq por 1 m2 de parede; betao convencional 9,1 por 100 kg e 43,3 por m2. Fronteira: berco ao portao (producao), GaBi TS 8.7 + ecoinvent, ReCiPe 2016 midpoint H; a legenda diz 'scaled' mas o eixo tem unidades absolutas (kg CO2 eq/FU). Volume: UF '1 m2 wall (thickness of 0.2 m)' (legenda Fig.4) = 0,2 m3 de parede; 'only 20% of the Polyblock's volume is polymer concrete' (p.8) e Polyblocks com 200 mm de espessura (p.9) -> betao polimerico = 0,2 x 0,20 = 0,04 m3 por m2. Conta: 47,6 / 0,04 = 1.190 kg CO2-eq/m3 de betao polimerico. Coerencia com numeros impressos: Polyblock maior 600 x 300 mm de face e 'maximum specific weight of 18 kg per Polyblock' (p.9) -> 18 / 0,18 m2 = 100 kg/m2 de parede; 100 kg / 0,04 m3 = 2.500 kg/m3 (plausivel para betao polimerico); e 47,6 kg CO2-eq/100 kg x 100 kg/m2 = 47,6 kg/m2, igual ao valor por m2 da figura -> o CO2 da parede e, na pratica, so o do betao polimerico (nucleo de EPS desprezavel ou nao contado). A anterior conta de 237,5-238 kg/m3 (dividir pela espessura total) esta errada. Se a Kie quiser o par: fck = limite inferior 90 MPa (ou media 110) com confianca baixa, familia de ligante polimerico (base_portland = nao), co2_kg_m3 = 1.190. O betao convencional (43,3 kg/m2; 'unreinforced normal concrete based on CEM', ecoinvent) nao tem classe de resistencia nem a parte de betao do sistema convencional (blocos + ETICS de poliestireno) impressa - nao convertivel. Figs.5 e 6 estao normalizadas a 1, sem ancora absoluta."
+  },
+  {
+    "row_id": 4334,
+    "pdf_confere": true,
+    "texto_completo_lido": true,
+    "figuras_vistas": ["Figura 2 p.11", "Figura 3 p.12 (renderizada)", "Figura 4 e Tabela 8 p.13 (renderizadas)", "Tabela 9 p.14", "Tabela 2 p.7", "Tabelas A1-A3 pp.19-21 (A2 renderizada)"],
+    "veredicto": "CONVERTIVEL",
+    "pares": [
+      {
+        "sheet_row": 1284,
+        "elemento": "Betao estrutural C30 de todo o edificio (paredes, lajes, fundacao) - moradia de 2 pisos na Turquia, 710 m2 de area bruta",
+        "fck_mpa": 30,
+        "fck_fonte": "Tab.2 p.7, 'Concrete C30' (sem barra nem norma citada; sem idade). CONFLITO: o material Tally que lhe corresponde e 'cast-in-place concrete, 5000 psi' (= 34,5 MPa); o fck do projecto e o C30",
+        "idade_dias": null,
+        "co2_total": 515000,
+        "co2_total_unidade": "kg CO2eq (total do material no edificio)",
+        "co2_fonte": "Tab.9 p.14: 'Cast-in-place concrete, structural concrete, 5000 psi' 3,73E5 + 'Cast-in-place concrete, lightweight structural concrete, 5000 psi' 1,42E5 = 5,15E5 kg CO2eq (confirmado pela Fig.4 p.13: 50% e 19% de 751.399)",
+        "fronteira": "ciclo de vida completo do Tally 2023 (GaBi 2018, TRACI 2.1, vida 50 anos): A1-A3 + A4 + B2-B5 + C2-C4 + modulo D; valor LIQUIDO (impactos + creditos do modulo D). A parcela A1-A3 por material NAO e impressa (so a do edificio inteiro: 88,97%, p.10)",
+        "inclui": "betao C30 modelado como dois materiais Tally de 5000 psi (normal e leve); o artigo nao diz se o material Tally inclui armadura; inclui fim de vida, manutencao e credito do modulo D (desconto)",
+        "volume_m3": 591.26,
+        "volume_fonte_e_conta": "Tab.2 p.7: 'Concrete C30' 591,26 m3 no modelo Revit (o Tally corre sobre o modelo BIM); 618 m3 usados em obra (+4,52% de desperdicio). Coerencia: massas da Fig.4 (58% + 13% de 1.942.552 kg = 1.379.212 kg) / 591,26 m3 = 2.333 kg/m3, massa volumica plausivel para a mistura de betao normal e leve.",
+        "co2_kg_m3": 871.0,
+        "conta": "5,15E5 kg CO2eq / 591,26 m3 = 871,0 kg CO2eq/m3 (ciclo de vida, liquido do modulo D). Alternativa com o volume de obra: 5,15E5 / 618 = 833,3",
+        "familia_sugerida": "opc (concreto_armado se a Kie entender que o Tally inclui armadura - nao impresso)",
+        "confianca": "baixa"
+      }
+    ],
+    "motivo_se_nao": "",
+    "notas": "PDF confere: Yardimci, Kurucay, 'LCA-TOPSIS Integration for Minimizing Material Waste in the Construction Sector: A BIM-Based Decision-Making', Buildings 2024, 14, 3919, doi 10.3390/buildings14123919. Lidas as 26 pp. CORRESPONDENCIA C30 <-> 5000 psi verificada so com numeros impressos: (a) a linha 'Cast-in-place concrete, 5000 psi' das matrizes TOPSIS (Tab.A2) tem desperdicio ponderado 0,063785858 e a de '3000 psi' 0,064386925; a razao 0,99066 e exactamente 4,5225/4,5652, os desperdicios do C30 e do lean concrete na Tab.2; (b) o GWP ponderado dessa linha (0,256412551) dividido pelo da linha 3000 psi (0,010156924) da 25,245 = 5,15E5/2,04E4, o que prova que os autores juntaram structural + lightweight 5000 psi numa so linha e a ligaram ao C30. RESSALVAS que justificam confianca baixa: (1) fronteira de ciclo de vida completo e liquida do modulo D - pela F9 este par so pode entrar no cenario 'Com desconto' (co2_desconto_tipo = modulo_D); nao ha valor bruto nem A1-A3 por material (aplicar os 88,97% do edificio ao betao seria assumir; daria ~775 kg/m3, so como indicacao); a Fig.2 da 772.149 kg CO2eq (impactos sem credito) contra 751.399 liquido (Tab.8/9), ~2,8% de diferenca, coerente com o modulo D de -2,82%; (2) classe C30 (30 MPa) contra 5000 psi (34,5 MPa) no modelo; (3) mistura de betao leve (1,42E5) com normal (3,73E5); (4) armadura nao declarada. Nao proponho par para o lean concrete (3000 psi leve, 2,04E4 / 39,21 m3 = 520 kg/m3, correspondencia tambem verificavel pelo desperdicio 4,5652): betao de limpeza nao estrutural e sem classe no artigo (so o nome do material Tally). O screed (44,76 m3) liga-se ao 2500 psi pelo desperdicio 5,0045, mas o mesmo desperdicio e dado ao 'stair' - nao separavel, e nao e betao estrutural. A linha existente (1.087,53 kg/m2 = 772.149/710) e por m2 de area e deve ser substituida ou ficar NAO CONVERTIDO conforme decisao da Kie."
+  }
+]
