@@ -1,0 +1,392 @@
+[
+ {
+  "row_id": 5043,
+  "titulo": "Análise do ciclo de vida e de custo de pilar com diferentes traços de concreto frente a carbonatação: do berço ao túmulo",
+  "autores": "Lamberti, Lucas Alves",
+  "ano": "2015",
+  "pdf": "LAMBERTI, 2015.pdf",
+  "fileId": "1yQ0C_Re0KnzA-dcQjWMufDFU4ffekVvZ",
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 54,
+    "material": "Concreto CP II-Z fck=30 MPa (pilar)",
+    "fck": 36.6,
+    "co2_valor": 296.31,
+    "co2_unidade": "kg CO2e/pilar",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   },
+   {
+    "sheet_row": 55,
+    "material": "Concreto CP II-Z fck=50 MPa (pilar)",
+    "fck": 56.6,
+    "co2_valor": 287.08,
+    "co2_unidade": "kg CO2e/pilar",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   },
+   {
+    "sheet_row": 56,
+    "material": "Concreto CP IV fck=30 MPa (pilar)",
+    "fck": 36.6,
+    "co2_valor": 295.41,
+    "co2_unidade": "kg CO2e/pilar",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   },
+   {
+    "sheet_row": 57,
+    "material": "Concreto CP IV fck=50 MPa (pilar)",
+    "fck": 56.6,
+    "co2_valor": 288.32,
+    "co2_unidade": "kg CO2e/pilar",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   },
+   {
+    "sheet_row": 58,
+    "material": "Concreto CP V-ARI fck=30 MPa (pilar)",
+    "fck": 36.6,
+    "co2_valor": 318.87,
+    "co2_unidade": "kg CO2e/pilar",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   },
+   {
+    "sheet_row": 59,
+    "material": "Concreto CP V-ARI fck=50 MPa (pilar)",
+    "fck": 56.6,
+    "co2_valor": 274.48,
+    "co2_unidade": "kg CO2e/pilar",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   }
+  ],
+  "leitura_F14": "A divisao e aritmeticamente possivel (Tabela 23 p.98 kg CO2e/pilar ÷ Tabela 5 p.64 volume de concreto 0,309/0,220 m3), mas o numerador nao e o CO2 do betao da mistura: (1) unidade funcional = pilar de betao armado do berco ao tumulo (p.62-63, Fig.17), incluindo aco 21,40/20,69 kg (Tab.5), cofragem de madeira (7,37E-02/6,24E-02 m3 de madeira dura, inventario item 5), lavagens ou pintura acrilica ao longo de 53-150 anos (Quadro 1 p.122), demolicao, transporte e britagem a diesel (Tab.15); nenhuma parcela A1-A3 so do betao e impressa (a fase berco-portao e remetida para Silva 2014, p.78-79); (2) o Σ(substancia.fator) usa a Tabela 16 (p.83-84), que da factor 1 a 'Dioxido de carbono, no ar' — fluxo de MATERIA-PRIMA no inventario (Apendice E item 9: 99,0/97,8/98,1/87,5/85,8/87,7 kg/pilar, captacao biogenica, sobretudo da madeira) — e factor 0,0176 a agua; o CO2 fossil emitido no inventario e ~161 kg/pilar na 1.a sub-lista do compartimento Ar (item 239) mais 18,7 e 21,7 kg noutras sub-listas; o total 308,18 nao se reproduz de forma inequivoca a partir do inventario impresso. Mesma incoerencia ja registada para 5015 SILVA 2014 / 5016 SCHMIDT / 5019 SANTOS (metodo UFSM) e mesmo criterio de MEKKY/ZHOU/HABTE. Os valores resultantes (956-1.360 kg/m3) sao implausiveis para betao de 30-50 MPa com 277-535 kg cimento/m3 (Tab.11-12). Para converter faltaria: o CO2 A1-A3 do betao de cada traco por m3 (ou por pilar sem aco/cofragem/uso/fim de vida), que o PDF nao imprime. || Dissertacao UFSM 2015 (Lucas Alves Lamberti, orient. G.C. Isaia), titulo e autor conferem (p.1, ficha catalografica p.4). fc28 = 36,6 / 56,6 MPa sao resistencias de dosagem (fck + 1,65×4,0, p.71) usadas para interpolar os tracos nas curvas de Abrams (Tab.10-11); nao ha ensaio da mistura final. Traços por m3 impressos na Tab.12 (ex.: II30 353,43 kg cimento). Incoerencia interna adicional: Quadro 1 (p.122) da 10,25 kg de CO2 absorvido para V30, a Tabela 23 da 13,90 (igual a V50). Indice publicado 'CO2e.MPa-1.ano-1.10^4' (Tab.24, ex.: II30 1445,67 = 296,31/(36,6×56)×10^4) e por pilar e por ano, nao por m3, logo nao serve como via (b). Tabela 2 (p.38, Dinamarca) e Fig.5 (p.39) sao literatura, nao as misturas do estudo. Se a Kie quiser aceitar mesmo assim (familia concreto_armado, berco ao tumulo), os valores aritmeticos estao em pares_aritmeticos_rejeitados, com inclui_aco=true e vol 0,309/0,220 m3 (medido_elemento_real)."
+ },
+ {
+  "row_id": 5015,
+  "titulo": "Estudo comparativo de ciclo de vida e custo de pilar com diferentes traços de concreto",
+  "autores": "Silva, Aline de Oliveira",
+  "ano": "2014",
+  "pdf": "SILVA, 2014.pdf",
+  "fileId": "1K6vqllMFsATWv9RUD-fVG3XwNkZN_xit",
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 33,
+    "material": "Concreto CP II-Z com fck=30 MPa",
+    "fck": 36.6,
+    "co2_valor": 428.98,
+    "co2_unidade": "kg CO2e/pilar (elemento completo: concreto+aco+forma, nao por m3)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM soma \"CO2 no ar\" como materia-prima; total > 2x o CO2 fossil do inventario (dupla contagem provavel)"
+   },
+   {
+    "sheet_row": 34,
+    "material": "Concreto CP II-Z com fck=50 MPa",
+    "fck": 56.6,
+    "co2_valor": 400.78,
+    "co2_unidade": "kg CO2e/pilar (elemento completo: concreto+aco+forma, nao por m3)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM soma \"CO2 no ar\" como materia-prima; total > 2x o CO2 fossil do inventario (dupla contagem provavel)"
+   },
+   {
+    "sheet_row": 35,
+    "material": "Concreto CP IV com fck=30 MPa",
+    "fck": 36.6,
+    "co2_valor": 429.53,
+    "co2_unidade": "kg CO2e/pilar (elemento completo: concreto+aco+forma, nao por m3)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM soma \"CO2 no ar\" como materia-prima; total > 2x o CO2 fossil do inventario (dupla contagem provavel)"
+   },
+   {
+    "sheet_row": 36,
+    "material": "Concreto CP IV com fck=50 MPa",
+    "fck": 56.6,
+    "co2_valor": 401.64,
+    "co2_unidade": "kg CO2e/pilar (elemento completo: concreto+aco+forma, nao por m3)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM soma \"CO2 no ar\" como materia-prima; total > 2x o CO2 fossil do inventario (dupla contagem provavel)"
+   },
+   {
+    "sheet_row": 37,
+    "material": "Concreto CP V-ARI com fck=30 MPa",
+    "fck": 36.6,
+    "co2_valor": 427.65,
+    "co2_unidade": "kg CO2e/pilar (elemento completo: concreto+aco+forma, nao por m3)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM soma \"CO2 no ar\" como materia-prima; total > 2x o CO2 fossil do inventario (dupla contagem provavel)"
+   },
+   {
+    "sheet_row": 38,
+    "material": "Concreto CP V-ARI com fck=50 MPa",
+    "fck": 56.6,
+    "co2_valor": 399.08,
+    "co2_unidade": "kg CO2e/pilar (elemento completo: concreto+aco+forma, nao por m3)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM soma \"CO2 no ar\" como materia-prima; total > 2x o CO2 fossil do inventario (dupla contagem provavel)"
+   }
+  ],
+  "leitura_F14": "O CO2e da Tab.31 (p.67) e por PILAR DE CONCRETO ARMADO completo: betao + aco (21,40/20,69 kg, Tab.19) + formas de compensado (3,575/3,025 m2). Falta o CO2 so do betao: o inventario do Apendice D (Quadro 21) e o total do pilar sem separacao por processo, e a Tab.26 (p.62) da a contribuicao por processo so em % do impacto total em Pt (todas as categorias), nao do CO2. O volume de betao e derivavel (25x45x275 cm = 0,309 m3; 20x40x275 = 0,22 m3; confere com Tab.23/Tab.21), mas dividir o total daria um valor com aco+madeira e com erro de metodo: a soma da Tab.30 aplica o fator 298 (do N2O) aos 'oxidos de nitrogenio' (NOx) e conta 'CO2 no ar' (materia-prima) e vapor de agua. Reconstrucao aproximada com o Quadro 21 (coluna 1): CO2 fossil 194,6 + biogenico 37,1 + CO2 4,6 + NOx 0,619 kg x 298 = 184,5 + CH4 ~9,8 = ~430 kg, ~ o 428,98 publicado -> ~43% do total e NOx tratado como N2O. A via por constituintes tambem falha: o artigo imprime 0,494 t CO2/t clinquer e 0,103 kg CO2/kWh, mas NAO imprime o fator de CO2 do diesel (Tab.12 so da CO, HC, NOx, MP por litro), usado na extraccao de agregados, transporte de cimento (3,99 L/t) e execucao. || Concordo com NAO CONVERTIDO; o mecanismo da incoerencia e sobretudo NOx x 298 (a leitura anterior apontava 'CO2 no ar'; pela reconstrucao, o 'no ar' parece NAO entrar na soma de 428,98, mas o NOx sim). Curiosidade que reforca a incoerencia: o CO2 fossil do Quadro 21 e quase igual para os tres cimentos do mesmo fck (194,59 kg) apesar de 85,6 a 122,3 kg de cimento por pilar. fck gravados 36,6/56,6 = resistencias de dosagem (Tab.20, p.54) - correctos. Fig.10 so em Pt."
+ },
+ {
+  "row_id": 5019,
+  "titulo": "Concretos com misturas de agregado residual de construção e demolição ({RCD}) e pozolana, com ênfase na carbonatação",
+  "autores": "Santos, Cristiane Carine dos",
+  "ano": "2017",
+  "pdf": "SANTOS, 2017.pdf",
+  "fileId": "14SMK1aOy_3b715lm2tSum7_O3wvyGK42",
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 44,
+    "material": "Concreto referencia CP IV sem RCD (TRIV) - fck=25 MPa",
+    "fck": 30.2,
+    "co2_valor": 462.45,
+    "co2_unidade": "kg CO2eq/pilar (liquido, ja descontada absorcao por carbonatacao)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   },
+   {
+    "sheet_row": 45,
+    "material": "Concreto 15%RCD + CP IV (15RCDIV) - fck=25 MPa",
+    "fck": 30,
+    "co2_valor": 464.54,
+    "co2_unidade": "kg CO2eq/pilar (liquido)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   },
+   {
+    "sheet_row": 46,
+    "material": "Concreto referencia CP V-ARI sem RCD (TRV) - fck=25 MPa",
+    "fck": 31.5,
+    "co2_valor": 466.49,
+    "co2_unidade": "kg CO2eq/pilar (liquido)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   },
+   {
+    "sheet_row": 47,
+    "material": "Concreto 15%RCD + 25%CCA + CP V-ARI (15RCD25CCAV) - fck=25 MPa",
+    "fck": 33,
+    "co2_valor": 464.01,
+    "co2_unidade": "kg CO2eq/pilar (liquido)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015)"
+   }
+  ],
+  "leitura_F14": "O CO2eq da Tab.5.8 (p.130) e por pilar de concreto ARMADO (aco 21,40 kg, formas 4,125 m2, Tab.4.2) e por ciclo de vida completo (producao, uso/manutencao com pintura acrilica ou lavagens, demolicao, reciclagem, menos a absorcao por carbonatacao; pp.105-107). O volume de betao esta impresso (0,344 m3, Tab.4.2), mas falta o CO2 so do betao A1-A3: o inventario do Apendice D e o total do pilar sem separacao por fase nem por material, e as figuras so dao Pt. O metodo e o de SILVA 2014 (Tab.4.13 aplica 298 aos 'oxidos de nitrogenio'): NOx = 0,641 kg/pilar x 298 = ~191 kg, ~40% dos 471,39 kg; o CO2 fossil do inventario e praticamente constante (198,56-198,72 kg) para cimento de 256 a 581 kg/m3, incoerente com o traco. || A Tab.5.8 da bruto (Sigma substancia x fator) e liquido (menos absorcao de CO2): TRIV 471,39/462,45; 15RCDIV 474,11/464,54; TRV 476,69/466,49; 15RCD25CCAV 473,43/464,01 kg/pilar - mas ambos por pilar armado e berco-ao-tumulo. Dividir por 0,344 m3 daria ~1.370 kg/m3 com aco, formas, pintura e o erro NOx x 298; nao recomendo."
+ },
+ {
+  "row_id": 5016,
+  "titulo": "Avaliação do ciclo de vida e do custo de uma edificação de concreto estrutural com diferentes traços: estudo do berço ao portão",
+  "autores": "Schmidt, Raquel Petry Brondani",
+  "ano": "2015",
+  "pdf": "SCHMIDT, 2015.pdf",
+  "fileId": "12sgDixzl-gBaZi0k2td88dSWijRFNzz3",
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 39,
+    "material": "Concreto CP II-Z com fck=30 MPa (edificacao)",
+    "fck": 36.6,
+    "co2_valor": 623.54,
+    "co2_unidade": "t CO2eq (edificio inteiro, todos os tracos de concreto da estrutura; Eco-indicator 99)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015): 1.839-2.099 kg/m3 incoerente com o inventario"
+   },
+   {
+    "sheet_row": 40,
+    "material": "Concreto CP II-Z com fck=50 MPa (edificacao)",
+    "fck": 56.6,
+    "co2_valor": 533.14,
+    "co2_unidade": "t CO2eq (edificio inteiro, todos os tracos de concreto da estrutura; Eco-indicator 99)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015): 1.839-2.099 kg/m3 incoerente com o inventario"
+   },
+   {
+    "sheet_row": 41,
+    "material": "Concreto CP IV com fck=30 MPa (edificacao)",
+    "fck": 36.6,
+    "co2_valor": 624.1,
+    "co2_unidade": "t CO2eq (edificio inteiro, todos os tracos de concreto da estrutura; Eco-indicator 99)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015): 1.839-2.099 kg/m3 incoerente com o inventario"
+   },
+   {
+    "sheet_row": 42,
+    "material": "Concreto CP IV com fck=50 MPa (edificacao)",
+    "fck": 56.6,
+    "co2_valor": 534.33,
+    "co2_unidade": "t CO2eq (edificio inteiro, todos os tracos de concreto da estrutura; Eco-indicator 99)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): metodo UFSM (idem 5015): 1.839-2.099 kg/m3 incoerente com o inventario"
+   }
+  ],
+  "leitura_F14": "Os 623,54/624,10/533,14/534,33 t CO2eq (Fig.24, p.114) sao da estrutura inteira de betao ARMADO (betao 297,3/289,9 m3 + aco 33.212/27.582 kg + formas 3.679/3.602 m2, Tab.7 p.81). A Fig.25 publica o indice t CO2eq/MPa/m3 (5,73/5,74/3,25/3,26 x10^-2), que x fc28 da exactamente total/volume = 2.097 (II30), 2.099 (IV30), 1.839 (II50), 1.843 (IV50) kg/m3 - mas com aco e formas incluidos. Falta o CO2 so do betao: a Tab.19 (p.119) da a parte do betao (7,1/6,7/10,1/9,7%) so em % do impacto total em Pt, nao do CO2, e o inventario do Apendice E e da edificacao inteira. Alem disso o total esta inflacionado por erro de metodo: a Tab.16 aplica 298 aos 'oxidos de nitrogenio' (NOx) - no Apendice E, NOx = 983,5 kg (II30) x 298 = 293 t, ~47% dos 623,5 t (fossil 296,6 + biogenico 12,4 + CO2 6,5 + NOx 293,1 + CH4 ~14,8 = ~623,5 t). || Concordo. Se a Kie quisesse mesmo usar a via 'concreto_armado', a conta seria total/volume impresso (ex.: 623.540/297,3 = 2.097 kg/m3, inclui_aco=true, inclui tambem formas de madeira) - nao recomendo pelo erro NOx x 298, que dobra o valor. Os tracos (Tab.13-15) sao os de SILVA 2014 (5015)."
+ },
+ {
+  "row_id": 4617,
+  "titulo": "Optimization of RC Structures in Terms of Cost and Environmental\nImpact-Case Study",
+  "autores": "Zenisek, Michal and Pesta, Jan and Tipka, Martin and Koci, Vladimir and\nHajek, Petr",
+  "ano": "2020",
+  "pdf": "ZENISEK, 2020.pdf",
+  "fileId": "1wbs93vglg2kn7zphJddb875mCCTiUxbJ",
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 1647,
+    "material": "Concreto armado C20/25 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 20,
+    "co2_valor": 351553,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura - colunas+lajes+fundacao+armadura - variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   },
+   {
+    "sheet_row": 1648,
+    "material": "Concreto armado C25/30 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 25,
+    "co2_valor": 364080,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura, variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   },
+   {
+    "sheet_row": 1649,
+    "material": "Concreto armado C30/37 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 30,
+    "co2_valor": 385898,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura, variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   },
+   {
+    "sheet_row": 1650,
+    "material": "Concreto armado C35/45 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 35,
+    "co2_valor": 436369,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura, variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   },
+   {
+    "sheet_row": 1651,
+    "material": "Concreto armado C40/50 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 40,
+    "co2_valor": 451244,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura, variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   },
+   {
+    "sheet_row": 1652,
+    "material": "Concreto armado C45/55 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 45,
+    "co2_valor": 479691,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura, variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   },
+   {
+    "sheet_row": 1653,
+    "material": "Concreto armado C50/60 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 50,
+    "co2_valor": 498718,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura, variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   },
+   {
+    "sheet_row": 1654,
+    "material": "Concreto armado C60/75 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 60,
+    "co2_valor": 529240,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura, variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   },
+   {
+    "sheet_row": 1655,
+    "material": "Concreto armado C70/85 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 70,
+    "co2_valor": 561192,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura, variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   },
+   {
+    "sheet_row": 1656,
+    "material": "Concreto armado C80/95 (variavel de projeto, edificio 4 pavimentos/vao 4m)",
+    "fck": 80,
+    "co2_valor": 593541,
+    "co2_unidade": "kg CO2 eq (GWP total da estrutura, variante 4 pavimentos/vao 4m; Tabela A1, Anexo A, p.21)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: fck = classes EN 206 C20/25 a C80/95 (variavel de projecto) e GWP absoluto por classe e por variante de edificio (Tab.A1-A6, kg CO2 eq, A1-A5 cradle-to-gate, GaBi/thinkstep, ReCiPe 1.08 H). O GWP e da estrutura completa: pilares + lajes (na classe variavel) + ensoleiramento SEMPRE em C30/37 + nucleo de paredes de 200 mm + estacas (variantes de 8 m) + armadura B500b. O artigo so imprime volumes de pilares e lajes (Tab.4-9); o volume do ensoleiramento calcula-se (42x26 m x espessura impressa), mas o volume das paredes do nucleo ('Core walls are not included', p.11) e o numero de estacas nao sao impressos. Os factores de emissao por material (cimento, agregados, aco) tambem nao sao impressos, logo nao se pode fazer traco x factor. Indicativo apenas (NAO usar): 4 pisos/vao 4 m C20/25 -> 43,8+688,8+1092x0,35=1114,8 m3 sem nucleo -> 351.553/1114,8 = 315 kg/m3 (sobrestimado"
+   }
+  ],
+  "leitura_F14": "Os GWP das Tab.A1-A6 (ex.: Tab.A1 p.21, C20/25 = 351.553 kg CO2 eq) sao da estrutura inteira A1-A5: betao de pilares e lajes (classe variavel) + ensoleiramento SEMPRE em C30/37 (p.6) + nucleo de paredes de 200 mm (p.11, 'Core walls are not included', volume nao impresso) + estacas nas variantes de 8 m + armadura B500b + transporte/bombagem. Para isolar o betao de uma classe faltam: (1) o VOLUME do nucleo de paredes (a Fig.2/3 desenha o nucleo mas nao o cota; p.11 so da a espessura 200 mm) e a classe usada nele; (2) o CO2 da armadura (ou factor por kg de aco) para o subtrair; (3) factores de emissao por constituinte (cimento CEM I 42,5 R / CEM II 32,5 R, areia, brita, microsilica, superplastificante) para aplicar ao traco da Tab.1 - o artigo so diz que vem da base thinkstep/GaBi (p.8-9) e nao os imprime. A unica fraccao impressa ('the share of impact caused by the process of concrete production was 85% for C20/25 and 91% for C80/95', p.15, variante 4 pisos/vao 4 m) cobre todo o betao da obra, incluindo o ensoleiramento em C30/37 (42x26x0,35 = 382,2 m3) e o nucleo de volume desconhecido, por isso nao se pode dividir por um volume de uma so classe. || fck = classes EN 206 de projecto (p.5: C20/25 a C50/60 + C60/75, C70/85, C80/95). Vida util 50 anos EN 1990 (p.8). A Tab.1 da o traco por m3 (ex.: C20/25: cimento 32,5 R 340 kg, areia 871, brita 4/8 361, brita 8/16 511, agua 211), mas sem factores de emissao. Mesmo com o total+volume, o valor incluiria aco (inclui_aco seria true)."
+ },
+ {
+  "row_id": 3409,
+  "titulo": "Economic and environmental life cycle assessment of a short-span\naluminium composite bridge deck in Canada",
+  "autores": "Pedneault, Julien and Desjardins, Victor and Margni, Manuele and\nConciatori, David and Fafard, Mario and Sorelli, Luca",
+  "ano": "2021",
+  "pdf": "PEDNEAULT et al., 2021 - j.jclepro.2021.127405.pdf",
+  "fileId": "194eiL3s5-L2u5Gx_tvb24DTRZ8YY8kHv",
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 991,
+    "material": "concreto (tabuleiro de ponte, CD — comparacao com tabuleiro de aluminio AD)",
+    "fck": 35,
+    "co2_valor": 8960,
+    "co2_unidade": "kg CO2eq/m2 de tabuleiro (unidade funcional = area do tabuleiro, scope 2 completo)",
+    "co2_conversao": "NAO CONVERTIDO - E1: tabuleiro com 11,5 t de armadura e escala do artigo internamente incoerente (10^5 vs 10^4); sem CO2 do betao recuperavel"
+   }
+  ],
+  "leitura_F14": "O CO2 do tabuleiro (Decking, CD, Scope 1) e 3,20 x10^5 kg CO2-eq na Tab.4 (p.8), para 51,1 m3 de betao 35 MPa + 11,5 t de aco de armadura (Tab.3 p.6) -- aco inseparavel (o artigo nao decompoe betao vs aco). Alem disso a escala e incoerente: a coluna por m2 diz '10^3 kg CO2 eq/m2' (12,8) mas 3,20e5/250,7 m2 = 1.276 kg/m2 (seria 10^2), e o texto (p.11) da 8.960 kg/m2 para o Scope 2, coerente com a coluna absoluta em 10^5; com 10^5 o tabuleiro daria 6.262 kg CO2-eq/m3 (com aco), e a estrutura de aco 3,28e5 kg para 22,8 t de aco (14 kg CO2/kg) -- valores que so seriam plausiveis em 10^4 (626 kg/m3 com aco). O artigo nao resolve qual e a escala certa. Falta: o CO2 so do betao do tabuleiro (ou a decomposicao betao/aco) e uma escala inequivoca da Tab.4. || Mantem-se a decisao E1 de DECISOES_METANALISE.md (escala incoerente + aco inseparavel). Se a Kie quiser, o candidato seria familia concreto_armado com inclui_aco=true, mas so depois de decidir a escala (10^5 apoiado pelo texto p.11; 10^4 apoiado pela plausibilidade fisica, que e informacao externa ao artigo)."
+ },
+ {
+  "row_id": 4739,
+  "titulo": "Delivering Sustainable Housing through Material Choice",
+  "autores": "Taylor, Cameron and Roy, Krishanu and Dani, Aflah Alamsah and Lim, James B. P. and De Silva, Karnika and Jones, Mark",
+  "ano": "2023",
+  "pdf": "TAYLOR et al., 2023.pdf",
+  "fileId": "1EU-QpWXZba7kga29rXScO57BYBkajDSQ",
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 1731,
+    "material": "Concreto armado in situ (fundacao, Casa 2, 25 MPa) — estudo de caso residencial, Nova Zelandia",
+    "fck": 25,
+    "co2_valor": 86.1,
+    "co2_unidade": "[PARC. DERIVADO] kg CO2eq/m2 (area da casa, nao m3 de concreto)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): volume de material da laje waffle inclui provavelmente os caixotes de EPS; laje tradicional sem fck"
+   }
+  ],
+  "leitura_F14": "Unico caminho candidato: Tabela 2 (p.8), opcoes de fundacao para 230 m2. (i) 'Traditional concrete slab': 34,5 m3 e A1-A3 16.685 kg CO2eq -> 16.685/34,5 = 483,6 kg/m3 (incluiria aco de armadura), mas o artigo NAO imprime a resistencia desta laje (o unico fck, 25 MPa, e atribuido ao 'in situ reinforced concrete' da Casa 2, p.9). (ii) 'Concrete waffle slab': 71,3 m3 e A1-A3 16.320 -> 228,9 kg/m3, mas o 'Volume of Material Required' nao e so betao (a laje waffle inclui caixotes de poliestireno 1,1x1,1 m, p.6; 71,3 m3 e o dobro da laje maciça), e o artigo nao imprime o volume de betao isolado; tambem nao liga explicitamente os 25 MPa a esta opcao padronizada. O valor da Casa 2 (69% x 53% x 235,45 = 86,1 kg CO2eq/m2 de area, p.9) nao tem volume de betao da Casa 2 impresso (237 m2; a Tabela 2 e para 230 m2 e escalar seria assumir). Faltam: fck da laje tradicional, ou volume so de betao da laje waffle/Casa 2. || PDF confere: Taylor, Roy, Dani, Lim, De Silva, Jones, 'Delivering Sustainable Housing through Material Choice', Sustainability 2023, 15, 3331. Ferramenta LCAQuick/BRANZ, berço-ao-berço (A-D). Valor 0,29 kg CO2eq/kg para betao 30 MPa com 100 kg/m3 de aco (p.2) e citado de [21], nao proprio. Se a Kie decidir aceitar a ligacao fck 25 MPa -> laje waffle, o valor seria 228,9 kg/m3 por volume de material (inclui EPS e aco) - nao recomendado."
+ },
+ {
+  "row_id": 2666,
+  "titulo": "Sustainable Wall Solutions Using Foam Concrete and Hemp Composites",
+  "autores": "Sahmenko, Genadijs and Sinka, Maris and Namsone, Eva and Korjakins, Aleksandrs and Bajare, Diana",
+  "ano": "2021",
+  "pdf": "SAHMENKO et al., 2021 - rtuect-2021-0069.pdf",
+  "fileId": null,
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 143,
+    "material": "Betao normal (NC), parede sandwich com la mineral, referencia (Amostra 5)",
+    "fck": 35,
+    "co2_valor": 95.5,
+    "co2_unidade": "kg CO2-eq/m2 de parede (sistema completo: betao+aco+la mineral)",
+    "co2_conversao": "NAO CONVERTIDO - unidade original (m2) sem divisor/equivalencia impresso no artigo que permita passar a kg CO2-eq/m3 (fusao co2_unidade, lotes 1-11, 2026-09-08/11 - ver LEGENDA)"
+   }
+  ],
+  "leitura_F14": "O 95,5 kg CO2-eq/m2 da Amostra 5 (Tab.2, p.927; Fig.8) e por m2 de parede completa: betao normal 0,12 m (288 kg/m2) + malha de aco 12x200 mm (18 kg/m2) + la mineral 0,20 m (20 kg/m2). Nem a Tab.2 nem a Fig.8 (barras simples, sem divisao por camada) dao o GWP so da camada de betao. Falta o GWP da camada de betao normal em kg CO2-eq/m2 (ou um factor por m3 ou por kg do betao). Sem isso nao se pode dividir por 0,12 m, porque o sistema inclui la mineral alem do aco. As outras amostras (betoes celulares e espumados) tem Rc de 1,5 a 8,0 MPa (Tab.1), abaixo de 20 MPa. || O lote trazia fileId null. Usou-se 'SAHMENKO et al., 2021 - rtuect-2021-0069.pdf', fileId 12iU_wLBM0TI7BHWPejN7NlJ2vdO4G7L8 (Environ. Clim. Technol. 2021, 25(1), 917-930, doi 10.2478/rtuect-2021-0069); titulo e autores conferem. O fck de 35 MPa (Tab.1) do betao normal e um dado do fabricante (p.920: 'properties of these materials were taken from the manufacturer's data'), nao um ensaio proprio. Texto integral lido (14 pp.)."
+ },
+ {
+  "row_id": 2713,
+  "titulo": "Circular, Local, Open: A Recipe for Sustainable Building Construction",
+  "autores": "Kouvara, Asimina and Priavolou, Christina and Ott, Denise and Scherer, Philipp and van Zyl-Bulitta, Verena Helen",
+  "ano": "2023",
+  "pdf": "KOUVARA et al., 2023.pdf",
+  "fileId": "1-dNWJUxh7CXKHrpCD4z2NhtD1bNQX4bE",
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 161,
+    "material": "Betao polimerico Polycare (Polyblock), gama de resistencia do material (nao ligada a uma mistura especifica)",
+    "fck": 90,
+    "co2_valor": 47.5,
+    "co2_unidade": "kg CO2-eq/100kg de material E kg CO2-eq/m2 de parede (Fig.4, p.11, renderizada — ambas as bases deram leitura semelhante no grafico)",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: O betao polimerico tem so uma GAMA de resistencia de fabricante (90-130 MPa) e o CO2 esta por 100 kg (Fig.4, ~47,5 kg CO2-eq) - sem massa volumica impressa. A outra UF (1 m2 de parede, espessura 0,2 m impressa, ~47,5 kg CO2-eq/m2) permitiria dividir pela espessura (237,5 kg/m3), mas essa UF e o SISTEMA de parede (Polyblock com nucleo de poliestireno; so 20% do volume e betao polimerico), cuja resistencia e 4,5-5,0 MPa - nao e o betao. Deixo essa linha como opcao de nivel sistema, confianca baixa, para decisao da Kie. O betao convencional da mesma figura (~43,5 kg/m2 -> ~217 kg/m3 de parede) nao tem resistencia declarada. Figs.5 e 6 estao normalizadas a 1 sem ancora absoluta. Fig.4 tem legenda 'scaled' mas eixo com unidades absolutas (kg CO2 eq/FU)."
+   }
+  ],
+  "leitura_F14": "Faltam (1) a resistencia a compressao da mistura de betao polimerico avaliada na ACV - o artigo so da uma gama de fabricante, '90-130 MPa ... depending on the composition of the polymer concrete mix' (p.8); e (2) a massa volumica do betao polimerico, ou a indicacao de que a UF '1 m2 wall (thickness of 0.2 m)' contem so betao polimerico (o sistema Polyblock tem nucleo de EPS/la mineral, p.6 e p.9). Fig.4 p.11 por pixel: betao polimerico 47,6 kg CO2-eq por 100 kg e 47,6 kg CO2-eq por 1 m2 de parede; betao convencional 9,2 por 100 kg e 43,3 por m2 de parede (sem classe de resistencia). || Hipotese NAO aplicada, so registada para a Kie: se a parede de 1 m2 x 0,2 m fosse so os blocos e o valor de 47,6 fosse so do betao polimerico, o volume de betao seria 0,2 m3 x 20% ('only 20% of the Polyblock's volume is polymer concrete', p.8) = 0,04 m3 -> 47,6 / 0,04 = 1.190 kg CO2-eq/m3. O facto de o valor por m2 ser igual ao valor por 100 kg sugere ~100 kg de betao por m2 (o que daria ~2.500 kg/m3), mas isso e inferencia, nao numero impresso. A leitura anterior (237,5 kg/m3 dividindo pela espessura total) esta errada porque so 20% do volume e betao. Mesmo assim falta o fck da mistura. Lidas na integra as pp.5-13 (metodo, caso, resultados); o resto (introducao, entrevistas, discussao social) foi pesquisado por termos (MPa, CO2, density, thick, m3, functional unit) sem novos numeros."
+ },
+ {
+  "row_id": 4334,
+  "titulo": "LCA-TOPSIS Integration for Minimizing Material Waste in the Construction\nSector: A BIM-Based Decision-Making",
+  "autores": "Yardimci, Yigit and Kurucay, Emre",
+  "ano": "2024",
+  "pdf": "YARDIMCI et al., 2024 - buildings14123919.pdf",
+  "fileId": "1348xWct_MGhDkpkJmBEl1bIJ1gtXTXJw",
+  "linhas_dados_fck": [
+   {
+    "sheet_row": 1284,
+    "material": "concreto C30 (parede e piso)",
+    "fck": 30,
+    "co2_valor": 1087.53,
+    "co2_unidade": "[DERIVADO] kgCO2eq/m2",
+    "co2_conversao": "NAO CONVERTIDO - revisao 2026-09-27 (leitura integral do PDF): PAR_NAO_CONVERTIVEL: Tab.2 (p.7) imprime o volume de 'Concrete C30' (591,26 m3 BIM; 618 m3 usado) e lean concrete (39,21/41 m3). Mas o CO2 (Tally, TRACI 2.1, ciclo A1-A3+A4+B2-B5+C2-C4+D) esta dado por materiais Tally que NAO correspondem 1:1 a essas linhas: Tab.9 (p.14) separa 'lightweight structural 3000 psi' 2,04E4, 'lightweight structural 5000 psi' 1,42E5, 'structural 2500 psi' 2,07E4, 'structural 5000 psi' 3,73E5, 'stair' 7,88E2 kg CO2eq (divisao 03 = 5,57E5). O volume de cada material Tally nao e impresso, e o artigo nao diz qual corresponde ao C30 nem ao lean concrete; alem disso so ha o total do ciclo de vida, sem A1-A3 por material. Candidato (decisao Kie, confianca baixa): divisao 03 inteira / (591,26+39,21) m3 = 5,57E5/630,47 = 883 kg CO2eq/m3 (ciclo de vida completo, classes 2500-5000 psi misturadas) - desaconselho. A linha existente (1087,53 kg/m2 = 772.149/710) e por m2 de "
+   }
+  ],
+  "leitura_F14": "Ha um caminho so com numeros impressos, mas ficam tres ressalvas que impedem a confianca: (a) o GWP da Tab.9 e o TOTAL do ciclo de vida do material (A1-A3 + A4 + B2-B5 + C2-C4 + D, TRACI 2.1, liquido do modulo D). A parte A1-A3 so e dada para o edificio inteiro (88,97%, p.10), nao por material. (b) A correspondencia C30 <-> 5000 psi (structural + lightweight) e implicita: resulta do emparelhamento feito pelos autores na matriz TOPSIS, nao de uma frase do texto. O volume de cada um dos dois materiais Tally nao e impresso, so o total C30. (c) Ha conflito de classe (C30 = 30 MPa contra 5000 psi = 34,47 MPa) e mistura de betao leve com normal. O artigo nao diz se o material Tally inclui armadura. Faltaria, impresso no artigo, o GWP A1-A3 do betao estrutural e o volume que lhe corresponde. || Li as 26 pp. inteiras, incluindo os apendices A1-A3. ACHADO NOVO: a nota anterior dizia que os materiais Tally nao correspondem 1:1 as linhas da Tab.2. A matriz de decisao do Apendice A mostra que os autores fizeram essa correspondencia pelo desperdicio de cada material: '5000 psi' (structural + lightweight, 5,15E5) <-> C30 (4,5225%); '3000 psi' (lightweight 3000, 2,04E4) <-> lean concrete (4,5652% = (41 - 39,21) / 39,21); '2500 psi' e 'stair' <-> screed (5,0045%). Dai, por analogia, sairia lean concrete 20.400 / 39,21 = 520 kg CO2eq/m3 a 3000 psi (20,7 MPa, classe Tally). Nao proponho par para essa linha (nao existe em dados_fck e o betao de limpeza nao e estrutural). O valor 871 e alto para betao A1-A3 porque inclui fim de vida, manutencao e possivelmente armadura do modelo Tally. Recomendo que a Kie decida se o aceita (sensibilidade) ou se fica NAO CONVERTIDO."
+ }
+]
