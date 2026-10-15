@@ -1179,3 +1179,15 @@ Caso 3917 UNGUREANU 2019 (reabilitação de painéis pré-fabricados, EcoDesigne
 Quando o artigo nomeia classes de resistencia (ex.: "C35 and C45") para um conjunto de misturas mas **nunca diz qual classe pertence a qual mistura**, `E2_resistencia` = **Rejeitado** por falta de resistencia atribuivel a cada mistura. Nao deduzir a atribuicao pela dosagem (teor de cimento, a/c), mesmo quando a deducao e muito plausivel — seria um valor nosso, nao impresso no artigo. Mesma familia: 4817 NOUHOUN (C20/25 a C35/45 sem atribuicao a LC/NC/SC) e 4173 ONYELOWE (so estatisticas globais de Fc).
 
 Extensao (Kie, 2026-10-02, caso 4583 PUSHKAR): o mesmo vale quando as misturas sao "based on" estudos anteriores e o artigo so cita as **faixas** de resistencia dessas fontes. A regra MULLER (fck externo) so se aplica se a mistura for comprovadamente a **mesma** da fonte; se o proprio artigo mostrar que as misturas foram adaptadas (ex.: niveis de substituicao diferentes dos descritos para a fonte), Rejeitado.
+
+## Regra nova (Kie, 2026-10-15, F18) — CO2 que nao se consegue levar ao betao/cimento = Rejeitado em E2_co2
+
+Kie: «se e por viga ou por laje, se tiver as dimensoes do elemento da pra fazer a conta e colocar como concreto armado ou alguma familia. Ja o edificio todo, se ele nao separa, nao da pra converter. Eu nao quero tirar pilares, vigas, lajes e elementos que da pra converter. Quero tirar so o que nao da pra converter.»
+
+- **Rejeitado em `E2_co2`** quando o unico CO2 do artigo:
+  - e do edificio, sistema, pavimento/infra-estrutura ou elemento **sem** a quantidade de betao (volume, ou dimensoes que o deem) impressa no proprio artigo; ou
+  - nao e do betao/cimento (so uma parcela: brita, activadores, agregado reciclado; ou o betao fica fora da fronteira); ou
+  - nao esta em kg CO2 (so pontuacao ReCiPe endpoint, indices normalizados ou percentagens).
+- **Aceito (converte)**: elemento ou estrutura com o volume de betao ou as dimensoes impressos — total ÷ volume, mesmo que o total inclua aco, cofragem ou isolamento; nesse caso a familia e `concreto_armado` (regra de 26/09, KONTRA/MEDEIROS). Caso de referencia: 2666 SAHMENKO (parede de 0,12 m por m2).
+- **Continua Aceito sem converter**: CO2 do proprio material por kg/tonelada sem massa volumica impressa (e emissao do cimento/betao). Falhas de outra natureza (fck em falta, valores incoerentes) seguem as regras respectivas.
+- Aplicada a 48 artigos (34 do tipo edificio/sistema/elemento sem volume + 14 de CO2 parcial ou sem kg): `lotes_elementos/aplicar_f18.py`.
