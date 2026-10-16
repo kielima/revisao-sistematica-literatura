@@ -7,7 +7,10 @@ Uso:
 Saida: {"pairs": [...], "unit_stats": [...]}.
 
 `pairs`: cada ponto e [fck_MPa, co2_kg_m3, categoria_1_letra, estrato_1_letra,
-citacao_curta_ou_null, base_portland, co2_com_desconto_ou_null, sem_bruto, subfamilia_cimento_ou_null].
+citacao_curta_ou_null, base_portland, co2_com_desconto_ou_null, sem_bruto, subfamilia_cimento_ou_null,
+vida_util_anos_ou_null].
+O 10.o (2026-10-16, F25): vida util de projecto declarada pelo proprio artigo (dados_fck col 19), para o
+botao ci / ci_t do forest por familia (ci_t = ci / vida util, F22); null = sem vida util.
 O 9.o (2026-10-11, F12): subfamilia do cimento comercial dos pares da familia opc (dados_fck col 48,
 escrita por lotes_cimento/aplicar.py); null nas outras familias. Os dois anteriores
 (2026-10-07): CO2 com os descontos do proprio artigo (null = sem desconto) e 1 quando o artigo so publica o valor
@@ -846,8 +849,10 @@ def main():
         com = round(com, 2) if com is not None and CO2_MIN <= com <= CO2_MAX else None
         sem_bruto = 1 if str(ws.cell(r, 47).value or '') == 'nao' else 0
         sub = (ws.cell(r, 48).value or 'nao_declarado') if cat == 'opc' else None
+        vida = tofloat(ws.cell(r, 19).value)
+        vida = round(vida, 2) if vida else None
         compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato], short_label(autores, ano), base,
-                        com, sem_bruto, sub])
+                        com, sem_bruto, sub, vida])
 
     unit_stats = [
         {'kind': kind, 'cat': ucat, 'n': n}
