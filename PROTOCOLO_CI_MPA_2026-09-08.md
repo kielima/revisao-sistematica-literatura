@@ -11,7 +11,7 @@
 - **ci_m3 = kg CO₂-eq / m³** — já existe, é o campo `co2_valor` de `dados_fck`
   sozinho, sem dividir por resistência. Intensidade de carbono por volume de
   material, sem nenhum ajuste por desempenho.
-- ⚠️ **F23 (Kiê, 2026-10-16): o `ci_mpa` saiu do modelo estatístico e ficou só descritivo, por escala do volume** — o volume explica 85–98% da sua variação (ver F21-r/F23 em `metanalise/DECISOES_METANALISE.md`).
+- ⛔ **F24 (Kiê, 2026-10-16): o `ci_mpa` foi removido de todo o projecto** («Pode remover ci_mpa completamente, não vou usar ele nem descritivo»), depois de a F23 o ter tirado do modelo — o volume explica 85–98% da sua variação. O que se segue sobre o `ci_mpa` é histórico. A coluna 38 de `dados_fck` guarda agora o `ci` de Damineli (`ci_kgco2_m3_mpa`).
 - **ci_mpa = kg CO₂-eq / MPa** — **grandeza nova**, ainda não calculável a
   partir do que já está no banco. Não é o `ci` actual (que é
   `co2_valor/fck`, ou seja `kg/(m³·MPa)` — a "carbon intensity" do Damineli
