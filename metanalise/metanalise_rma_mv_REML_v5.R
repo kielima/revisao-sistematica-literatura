@@ -123,6 +123,15 @@ sec <- subset(princ, !is.na(ci_mpa))
 sec$yi <- sec$ci_mpa
 res <- rbind(res, resumo("secundaria: ci_mpa (kg CO2-eq/MPa), principal com volume", ajusta(sec), sec))
 
+# F22 (Kie, 2026-10-16): ci_t = ci de Damineli / vida util de projecto, kg CO2-eq/(m3.MPa.ano),
+# so nos pares com vida util declarada pelo proprio artigo (QD). O vi segue a mesma regra do ci
+# (A3/A4): variancia relativa publicada x yi^2, ou hibrido por classe de resistencia.
+ct <- subset(princ, !is.na(ci_t))
+ct$yi <- ct$ci_t
+res <- rbind(res, resumo("ci_t (kg CO2-eq/(m3.MPa.ano)), principal com vida util", ajusta(ct, yi = "ci_t"), ct))
+ctci <- ct; ctci$yi <- ctci$ci
+res <- rbind(res, resumo("ci no mesmo subconjunto com vida util (comparacao com ci_t)", ajusta(ctci), ctci))
+
 write.csv(res, file.path(out_dir, "resumo_modelos.csv"), row.names = FALSE)
 
 # ----------------------------------------------------------------
