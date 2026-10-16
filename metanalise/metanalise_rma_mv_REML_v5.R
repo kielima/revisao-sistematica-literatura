@@ -47,7 +47,7 @@ cv_pub <- function(valor, tipo, media) {
 d$cv_fck <- cv_pub(d$ic_fck_valor, d$ic_fck_tipo, d$fck)
 d$cv_co2 <- cv_pub(d$ic_co2_valor, d$ic_co2_tipo, d$co2_kg_m3)
 n_or_1 <- function(n) ifelse(is.na(n) | n < 1, 1, n)
-# variancia relativa publicada (vi = yi^2 * relvar, metodo delta) — vale para ci e ci_mpa
+# variancia relativa publicada (vi = yi^2 * relvar, metodo delta) — vale para ci e ci_t
 d$relvar_pub <- with(d, ifelse(is.na(cv_fck) & is.na(cv_co2), NA_real_,
   ifelse(is.na(cv_fck), 0, cv_fck^2 / n_or_1(ic_fck_n)) +
   ifelse(is.na(cv_co2), 0, cv_co2^2 / n_or_1(ic_co2_n))))
@@ -117,11 +117,18 @@ port <- subset(princ, base_portland == "sim")
 res <- rbind(res, resumo("principal, so cimento Portland", ajusta(port), port))
 
 # ----------------------------------------------------------------
-# 6. Analise secundaria — ci_mpa (A6)
+# 6. ci_mpa — so descritivo, por escala do volume (F23, Kie 2026-10-16: «Pode tirar ci_mpa»)
 # ----------------------------------------------------------------
+# Sai do modelo: ci_mpa = ci x volume e 85% (provetes) a 98% (elementos/obras) da sua variacao
+# vem do volume, nao do material (F21-r). Fica uma tabela descritiva por escala.
 sec <- subset(princ, !is.na(ci_mpa))
-sec$yi <- sec$ci_mpa
-res <- rbind(res, resumo("secundaria: ci_mpa (kg CO2-eq/MPa), principal com volume", ajusta(sec), sec))
+desc <- do.call(rbind, lapply(split(sec, sec$escala_volume), function(s) {
+  q <- quantile(s$ci_mpa, c(0, .25, .5, .75, 1)); v <- quantile(s$vol_m3, c(0, .5, 1))
+  data.frame(escala = s$escala_volume[1], pares = nrow(s), estudos = length(unique(s$estudo)),
+             ci_mpa_min = q[1], ci_mpa_q1 = q[2], ci_mpa_mediana = q[3], ci_mpa_q3 = q[4], ci_mpa_max = q[5],
+             vol_min = v[1], vol_mediana = v[2], vol_max = v[3])
+}))
+write.csv(desc, file.path(out_dir, "ci_mpa_descritivo.csv"), row.names = FALSE)
 
 # F22 (Kie, 2026-10-16): ci_t = ci de Damineli / vida util de projecto, kg CO2-eq/(m3.MPa.ano),
 # so nos pares com vida util declarada pelo proprio artigo (QD). O vi segue a mesma regra do ci
