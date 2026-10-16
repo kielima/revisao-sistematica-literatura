@@ -117,19 +117,8 @@ port <- subset(princ, base_portland == "sim")
 res <- rbind(res, resumo("principal, so cimento Portland", ajusta(port), port))
 
 # ----------------------------------------------------------------
-# 6. ci_mpa — so descritivo, por escala do volume (F23, Kie 2026-10-16: «Pode tirar ci_mpa»)
+# 6. ci_t (F22). O ci_mpa foi removido do projecto (F23/F24, Kie 2026-10-16).
 # ----------------------------------------------------------------
-# Sai do modelo: ci_mpa = ci x volume e 85% (provetes) a 98% (elementos/obras) da sua variacao
-# vem do volume, nao do material (F21-r). Fica uma tabela descritiva por escala.
-sec <- subset(princ, !is.na(ci_mpa))
-desc <- do.call(rbind, lapply(split(sec, sec$escala_volume), function(s) {
-  q <- quantile(s$ci_mpa, c(0, .25, .5, .75, 1)); v <- quantile(s$vol_m3, c(0, .5, 1))
-  data.frame(escala = s$escala_volume[1], pares = nrow(s), estudos = length(unique(s$estudo)),
-             ci_mpa_min = q[1], ci_mpa_q1 = q[2], ci_mpa_mediana = q[3], ci_mpa_q3 = q[4], ci_mpa_max = q[5],
-             vol_min = v[1], vol_mediana = v[2], vol_max = v[3])
-}))
-write.csv(desc, file.path(out_dir, "ci_mpa_descritivo.csv"), row.names = FALSE)
-
 # F22 (Kie, 2026-10-16): ci_t = ci de Damineli / vida util de projecto, kg CO2-eq/(m3.MPa.ano),
 # so nos pares com vida util declarada pelo proprio artigo (QD). O vi segue a mesma regra do ci
 # (A3/A4): variancia relativa publicada x yi^2, ou hibrido por classe de resistencia.

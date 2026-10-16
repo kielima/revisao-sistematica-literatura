@@ -2,7 +2,7 @@
 
 Selecciona exactamente os mesmos pares do painel kielima.com/metanalise (usa as
 funcoes e filtros do metanalise-export.py) e acrescenta, por par, o que o modelo
-precisa: estudo, observacao, ci, ci_mpa, estrato E4, familia, base Portland,
+precisa: estudo, observacao, ci, estrato E4, familia, base Portland,
 idade, volume, vida util e a dispersao publicada (IC) do fck e do CO2.
 
 Saida: metanalise/dados_metanalise.csv (UTF-8). Correr da raiz do repo:
@@ -21,7 +21,7 @@ spec.loader.exec_module(mexp)
 
 SAIDA = 'metanalise/dados_metanalise.csv'
 COLS = ['obs_id', 'estudo', 'rotulo', 'material', 'fck', 'co2_kg_m3', 'ci', 'estrato', 'familia', 'base_portland',
-        'idade_dias', 'vol_m3', 'escala_volume', 'ci_mpa', 'vida_util', 'ci_t', 'ic_fck_valor', 'ic_fck_tipo', 'ic_fck_n',
+        'idade_dias', 'vol_m3', 'vida_util', 'ci_t', 'ic_fck_valor', 'ic_fck_tipo', 'ic_fck_n',
         'ic_co2_valor', 'ic_co2_tipo', 'ic_co2_n', 'co2_com_desconto', 'ci_com_desconto', 'sem_bruto', 'cimento_subfamilia']
 
 
@@ -44,14 +44,12 @@ def main():
             continue
         vol = mexp.tofloat(g(23))
         vida = mexp.tofloat(g(19))
-        ci_mpa = co2m3 * vol / fck if vol else None
         linhas.append({
             'obs_id': r, 'estudo': row_id, 'rotulo': mexp.short_label(g(4), g(5)),
             'material': str(g(7) or '')[:120], 'fck': fck, 'co2_kg_m3': co2m3, 'ci': co2m3 / fck,
             'estrato': estrato, 'familia': mexp.classify(row_id, g(7), g(3)),
             'base_portland': g(40) or 'misto', 'idade_dias': mexp.tofloat(g(10)), 'vol_m3': vol,
-            'escala_volume': (None if not vol else 'provete' if str(g(24) or '') in ('medido_ensaio', 'padrao_norma', 'norma_referencia') else 'elemento_ou_obra'),  # F23
-            'ci_mpa': ci_mpa, 'vida_util': vida,
+            'vida_util': vida,
             'ci_t': (co2m3 / fck / vida) if vida else None,  # F22: ci de Damineli / vida util
             'ic_fck_valor': mexp.tofloat(g(26)), 'ic_fck_tipo': g(27), 'ic_fck_n': mexp.tofloat(g(28)),
             'ic_co2_valor': mexp.tofloat(g(30)), 'ic_co2_tipo': g(31), 'ic_co2_n': mexp.tofloat(g(32)),
