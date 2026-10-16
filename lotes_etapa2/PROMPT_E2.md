@@ -1195,3 +1195,12 @@ Kie: «se e por viga ou por laje, se tiver as dimensoes do elemento da pra fazer
 ### F20 (Kie, 2026-10-15) — factor generico sem ACV propria do betao = Rejeitado em E2_co2
 
 Clarifica o ponto «Continua Aceito sem converter» da F18: o CO2 por kg/tonelada sem massa volumica so fica Aceito quando e um resultado **calculado pelo proprio estudo** para o seu betao/cimento. Se o unico CO2 do betao e um factor generico de base de dados (ICE, biblioteca do programa, literatura) multiplicado por uma massa, sem ACV propria e sem volume ou massa volumica impressos, e Rejeitado em `E2_co2` — mesmo que o factor tenha sido usado no calculo do edificio (precedentes 3069 JATIVA, 3917 UNGUREANU). Nao usar pesos proprios de outra parte do artigo (ex.: kN/m3 da carga permanente da laje) como massa volumica. Diferente da 4698 LI, que calcula o CO2 por m3 de cada classe a partir do proprio traco (Aceito). Casos: 4620 CHOI (ICE 0,141 kg/kg, sem massa volumica) e 3691 MITOULIS (ICE por kg + resultado so por tarefa de reparacao, tambem F18 A1). `lotes_elementos/aplicar_f20.py`.
+
+### F30 (Kie, 2026-10-16) — factor generico CITADO = Aceito em E2_co2 (supera o fundamento da F20)
+
+Kie: «Fator generico de EPD ou base de dados sem ACV entram sim, desde que descritos e citados.»
+
+- **Aceito em `E2_co2`**: o estudo usa um factor de emissao generico (EPD, base de dados nacional, ICE, Ecoinvent, literatura) para o seu betao/cimento e **descreve e cita a fonte** — mesmo sem ACV propria do traco.
+- **Rejeitado**: factor sem fonte identificada (ex.: biblioteca de software sem referencia, 3917 UNGUREANU) ou CO2 que nao se leva ao betao (F18).
+- A conversao continua a seguir a F18: factor por m3 entra no par; factor por kg/t sem massa volumica impressa = Aceito sem converter (NAO CONVERTIDO).
+- Repostos a Elegivel: 4930 OH (259 kg/m3, linhas trocadas na Tab.2), 4620 CHOI e 3069 JATIVA (sem par convertivel). `metanalise/perguntas_c/aplicar_f30_factor_citado.py`.
