@@ -19,9 +19,12 @@
   corpo de prova ou o elemento estrutural), quanto CO₂ esse lote específico
   carregava e quanta resistência ele entregou por esse CO₂" — não uma
   intensidade normalizada por 1 m³ hipotético.
-- **ci_t = kg CO₂-eq / (MPa·ano)** — dilui `ci_mpa` pela vida útil de
-  projecto (`vida_util_anos`), quando declarada. Continua a não ter volume
-  nenhum embutido.
+- **ci_t = kg CO₂-eq / (m³·MPa·ano)** — ⭐ **redefinido pela Kiê a 2026-10-16 (F22):** «Eu quero
+  um ci_t mas não a partir do ci_mpa e sim um ci_t a partir do ci de Damineli. kg CO2/(m³ MPa).»
+  `ci_t = ci ÷ vida_util_anos = (co2_kg_m3 ÷ fck) ÷ vida_util_anos`, quando a vida útil é
+  declarada pelo próprio artigo. Não depende do volume. *(A definição antiga, até 2026-10-15,
+  diluía o `ci_mpa` pela vida útil, em kg CO₂-eq/(MPa·ano); ficou abandonada.)* Coluna
+  `dados_fck` 39 renomeada para `cit_kgco2_m3_mpa_ano`, escrita por `recalcular_ci.py`.
 
 ## Por que `ci_mpa` não sai só de reescalar `ci_m3`
 

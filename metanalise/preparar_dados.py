@@ -21,7 +21,7 @@ spec.loader.exec_module(mexp)
 
 SAIDA = 'metanalise/dados_metanalise.csv'
 COLS = ['obs_id', 'estudo', 'rotulo', 'material', 'fck', 'co2_kg_m3', 'ci', 'estrato', 'familia', 'base_portland',
-        'idade_dias', 'vol_m3', 'ci_mpa', 'vida_util', 'ic_fck_valor', 'ic_fck_tipo', 'ic_fck_n',
+        'idade_dias', 'vol_m3', 'ci_mpa', 'vida_util', 'ci_t', 'ic_fck_valor', 'ic_fck_tipo', 'ic_fck_n',
         'ic_co2_valor', 'ic_co2_tipo', 'ic_co2_n', 'co2_com_desconto', 'ci_com_desconto', 'sem_bruto', 'cimento_subfamilia']
 
 
@@ -51,6 +51,7 @@ def main():
             'estrato': estrato, 'familia': mexp.classify(row_id, g(7), g(3)),
             'base_portland': g(40) or 'misto', 'idade_dias': mexp.tofloat(g(10)), 'vol_m3': vol,
             'ci_mpa': ci_mpa, 'vida_util': vida,
+            'ci_t': (co2m3 / fck / vida) if vida else None,  # F22: ci de Damineli / vida util
             'ic_fck_valor': mexp.tofloat(g(26)), 'ic_fck_tipo': g(27), 'ic_fck_n': mexp.tofloat(g(28)),
             'ic_co2_valor': mexp.tofloat(g(30)), 'ic_co2_tipo': g(31), 'ic_co2_n': mexp.tofloat(g(32)),
             # 2026-10-07: cenario com desconto (col 44; vazio = sem desconto declarado -> igual ao bruto)
