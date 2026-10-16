@@ -1,26 +1,26 @@
 
-Multivariate Meta-Analysis Model (k = 1122; method: REML)
+Multivariate Meta-Analysis Model (k = 1138; method: REML)
 
 Variance Components:
 
              estim    sqrt  nlvls  fixed         factor 
-sigma^2.1  24.6364  4.9635    298     no         estudo 
-sigma^2.2   3.3633  1.8339   1122     no  estudo/obs_id 
+sigma^2.1  25.2177  5.0217    305     no         estudo 
+sigma^2.2   3.4150  1.8480   1138     no  estudo/obs_id 
 
 Test for Heterogeneity:
-Q(df = 1121) = 2537949.9025, p-val < .0001
+Q(df = 1137) = 2537956.8734, p-val < .0001
 
 Model Results:
 
 estimate      se     zval    pval   ci.lb    ci.ub      
- 10.3036  0.3540  29.1028  <.0001  9.6097  10.9975  *** 
+ 10.4210  0.3545  29.3926  <.0001  9.7261  11.1159  *** 
 
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 R version 4.3.3 (2024-02-29)
 Platform: x86_64-pc-linux-gnu (64-bit)
-Running under: Ubuntu 24.04.4 LTS
+Running under: Ubuntu 24.04.5 LTS
 
 Matrix products: default
 BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
