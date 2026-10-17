@@ -144,3 +144,8 @@ Cada entrada diz se foi verificada por mim no PDF (`pessoal`) ou é leitura do s
 
 - Extracção dos estudos secundários (ONSONGO, NASIR, SCOPE…) — adiada pela Kiê (2026-10-04); `origem_dado` = `primario` em todas as linhas.
 - PDF da 2880 MESHRAM (a Kiê vai enviar).
+
+
+## F34 - Pergunta C4: mesmos numeros em artigos diferentes (Kie, 2026-10-17)
+- **2854 FILHO = 2744 FILHO:** marcada `Duplicado` da 2744 (tres pares identicos, mesmo edificio e autores). Elegiveis 468 -> 467; 3 pares e 1 estudo saem do painel (a aplicar quando o pipeline correr).
+- **TEH 4026/4027 e JANG 2694/2695:** em investigacao a pedido da Kie. Achados preliminares: TEH 4027 decompoe o mesmo impacto total do 4026 (mesmos dados de Teh et al. 2017), logo os totais coincidem por construcao; JANG 2694 e 2695 usam o mesmo factor da base nacional coreana de ICV / KEITI (414 kg/m3 para 24 MPa). Decisao pendente.
