@@ -1,0 +1,183 @@
+[
+ {
+  "row_id": 4792,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec. 2.1, p.3: 'The subject of the analysis was a four-storey reinforced concrete tower ... total height of building H = 21.0 m'; Sec.1/Abstract: 'multi-storey reinforced concrete structure'; pares = fundacoes (sapatas/placa) do edificio",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido (17 pp., incl. referencias). Nenhuma vida util declarada nem citada; ACV so A1-A3 (OneClick LCA), sem horizonte temporal. Tab.2 da fck 37 para C35/45 (o par gravado usa 35, valor da classe)."
+ },
+ {
+  "row_id": 4800,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Abstract/Sec.1: ligantes de presa rapida ensaiados em laboratorio para possivel 'application in 3D printing' de biocompositos de canhamo; Sec.4: 'magnesium and CSA HD biocomposites could be used as load-bearing materials' (aplicacao so prospectiva, ensaio de ligante puro em cubos 20 mm)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido (12 pp.). Nenhuma vida util/durabilidade em anos. ACV cradle-to-gate do ligante (1 m3)."
+ },
+ {
+  "row_id": 4806,
+  "declarada": {
+   "valor": 50,
+   "base": "norma",
+   "norma": "EN 1990:2002 (ref. [21])",
+   "citacao": "Sec.2, p.3: 'The design life of these columns is considered 50 years [21]'; Sec.6.1, p.10: 'T is the total studied period equal to 50 years herein'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec.2, p.3: 'The columns are designed in a one-storey building configuration'; Sec.4.1, p.6: 'height of each column is considered 3 m, which is the typical column height for a residential building'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (50) confirmado; a ref. [21] e a EN 1990:2002, por isso base = norma."
+ },
+ {
+  "row_id": 4815,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2.1-2.2: base de dados de 580 misturas AACM de terceiros (ensaios de laboratorio, cubos/cilindros), UF 1 m3, A1-A3; sem aplicacao estrutural declarada",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral do corpo lido (23 pp.; referencias percorridas). Nenhuma vida util declarada nem citada (cradle-to-gate)."
+ },
+ {
+  "row_id": 4820,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec.3.1: caso de estudo Mjostarnet, edificio alto de 18 pisos (escritorios, hotel, habitacao), Brumunddal, Noruega",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido (30 pp.). Nenhuma vida util em anos (so menciona 'lifetime of the building' qualitativamente na Sec.6.1). O par gravado e madeira GL30h (familia biobase), nao betao."
+ },
+ {
+  "row_id": 4822,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Sec.4, p.11: 'a standard dimensioned brick was produced ... compatibility of this material with existing precast applications and encourages the substitution of sand-rPC composites in place of existing precast concrete products'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido (19 pp.). Nenhuma vida util (cradle-to-gate, UF 1 cm3); so 'remains trapped within the brick for decades' (Sec.5), sem numero. Material e compositivo areia-policarbonato, nao betao."
+ },
+ {
+  "row_id": 4836,
+  "declarada": {
+   "valor": 30,
+   "base": "norma",
+   "norma": "Korea Corporate Tax Act (ref. [40]); Sec.4.4 cita tambem o Korea Housing Act (refs. [39,40]) como 'standard repair cycle'",
+   "citacao": "Sec.4.1, p.8: 'In terms of service life setting for a building, 30 years were set for a reinforced concrete structure in accordance with the Corporate Tax Act'; Tab.6 'Life cycle of 30 years'; Sec.4.4, p.10: 'useful life of the building, 30 years [39,40] were set according to a standard repair cycle'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec.4.1, Tab.5: edificio de 4 pisos em betao armado (Goyang-si), espacos comuns e habitacoes experimentais; Tab.1: produtos 'To form structural frame of reinforced concrete building'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (30) confirmado. A fonte e um regulamento legal (lei fiscal coreana), nao uma norma tecnica de projecto; classificado como norma por ser regulamento nacional. O Tab.1 menciona 'Long life span (high strength)' como tecnologia de reducao, sem valor em anos."
+ },
+ {
+  "row_id": 4837,
+  "declarada": {
+   "valor": 80,
+   "base": "modelo",
+   "norma": null,
+   "citacao": "Sec.5.2.1, p.7-8: 'concrete with a strength of 30 MPa or less may suffer from steel corrosion as carbonation may occur in the rebar inside the concrete within 80 years (the target service life)' (modelo de carbonatacao AIJ, Eq.1-2, Tab.4, Fig.4); Sec.5.2: 'life cycle extension, from 40 years in the reference case to 80 years in the alternative case'",
+   "sheet_rows": [
+    1812,
+    1813,
+    1814
+   ]
+  },
+  "declarada_por_par": [
+   {
+    "sheet_row": 1809,
+    "valor": 29,
+    "base": "modelo",
+    "citacao": "Fig.4, p.8: '24 MPa Life expectancy' = interseccao da curva de carbonatacao com o recobrimento de 20 mm a ~29 anos (leitura grafica, aprox.). No ACV (casos 1-2) o betao normal leva reparacao geral aos 40 anos (Tab.5; Sec.5.4: 'normal concrete ... generally requires normal repairs after approximately 40 years')"
+   },
+   {
+    "sheet_row": 1810,
+    "valor": 49,
+    "base": "modelo",
+    "citacao": "Fig.4, p.8: '27 MPa Life expectancy' ~49 anos (leitura grafica, aprox.)"
+   },
+   {
+    "sheet_row": 1811,
+    "valor": 80,
+    "base": "modelo",
+    "citacao": "Fig.4, p.8: '30 MPa Life expectancy' ~80 anos (leitura grafica; o texto diz que <=30 MPa pode corroer 'within 80 years')"
+   },
+   {
+    "sheet_row": 1812,
+    "valor": 80,
+    "base": "modelo",
+    "citacao": "Fig.4: a curva de 35 MPa fica em ~12,5 mm aos 100 anos (nao atinge o recobrimento de 20 mm); adoptada a vida alvo de 80 anos ('concrete with a minimum strength of 35 MPa should be used', Sec.5.2.1; Caso 3 'no repair is required over the target life cycle (80 years) with the use of 35 MPa')"
+   },
+   {
+    "sheet_row": 1813,
+    "valor": 80,
+    "base": "modelo",
+    "citacao": "Tab.5/Sec.5.2.2: casos 3-4 com 35/40/50 MPa sem reparacao durante a vida alvo de 80 anos; 40 MPa nao aparece na Fig.4 (>= 35 MPa)"
+   },
+   {
+    "sheet_row": 1814,
+    "valor": 80,
+    "base": "modelo",
+    "citacao": "Tab.5/Sec.5.2.2: casos 3-4 com 35/40/50 MPa sem reparacao durante a vida alvo de 80 anos; 50 MPa nao aparece na Fig.4 (>= 35 MPa)"
+   }
+  ],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec.4, Tab.1: bloco de apartamentos de 35 pisos em betao armado (Coreia do Sul), paredes portantes / pilar-viga",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido + Fig.4 renderizada a 300 dpi. O valor gravado 80 so vale como vida alvo para >=35 MPa; para 24/27/30 MPa o proprio modelo do estudo (Fig.4, recobrimento 20 mm) da ~29/~49/~80 anos, e no ACV esses betoes entram com reparacao aos 40 anos (premissa sem fonte explicita). 'valor' por par 24-30 MPa e leitura grafica aproximada."
+ },
+ {
+  "row_id": 4841,
+  "declarada": {
+   "valor": 50,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "Sec.2.1, p.2: 'the building lifespan was assumed to be 50 years as suggested by previous research [24]' (Abd Rashid & Yusoff 2012); Tab.2 'for a 50-year lifespan'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec.2.1: casa geminada (semi-detached) em Seri Kembangan, Selangor; 'The building frame structures were reinforced concrete with clay bricks'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (50) confirmado; fonte = estudo anterior dos proprios autores (ref. [24])."
+ },
+ {
+  "row_id": 4846,
+  "declarada": {
+   "valor": 150,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "Sec.3.2, p.11: 'maintenance was optimized to ensure that the bridge complied with all the performance requirements during its life-span of 150 years' (pontes seleccionadas da frente de Pareto de [44,45], Garcia-Segura et al. 2017); Sec.3.3.1: 'along the 150 years of service life'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "ponte",
+  "aplicacao_citacao": "Sec.3.2: 'two optimal post-tensioned concrete box-girder road bridges located in an eastern coastal region of Spain', vaos 35,2-44-35,2 m",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (150) confirmado; e premissa do desenho optimizado nas refs. [44,45] (sem norma citada). O estudo da tambem tempos de iniciacao da corrosao (modelo das refs.) de 10,45 anos (Sol.1, 35 MPa, 2 manutencoes) e 65,68 anos (Sol.2, 50 MPa, 1 manutencao) - nao sao vida util."
+ }
+]

@@ -1,0 +1,132 @@
+[
+ {
+  "row_id": 3598,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "p.3, Sec.2.2.1.2: 'The declared unit for this LCA is 1 m3 of concrete. A total of 108 unique concrete mixtures were analyzed' (misturas teoricas pelo metodo PCA; sem elemento nem obra; nao inclui armadura nem cofragem).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "O estudo declara explicitamente que nao define vida util: p.3 'some carbonation would also occur during the use (B1-B7) and end-of-life (C1-C4) stages, but this study does not define a service life for these mixtures' (carbonatacao toda no modulo D). Nenhum valor de vida util citado de outra fonte. fck 30/45 = resistencia de projecto da Tab.1, confere."
+ },
+ {
+  "row_id": 3602,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "p.5, Sec.3: ensaios em cilindros d=10 cm e vigas 55x15x15 cm de UHPC com fibras; Sec.5 so refere em geral 'thin-walled and material-optimized components' / 'primarily compression-stressed components' como perspectiva, sem aplicacao concreta.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "ACV so A1-A3 (Sec.4.1). Nenhuma vida util declarada nem citada; a unica referencia temporal e 'carbonation progress <0.1 mm even after several years' (Sec.2.1), que nao e vida util. fck da Tab.6 (143,0/133,6/114,4/106,4/105,2) confere com os pares."
+ },
+ {
+  "row_id": 3615,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "p.4-5, Sec.5: 'The compressive strength of concrete for all mixtures was unified at approximately 40 MPa'; misturas recolhidas da literatura (refs. [55-57]), UF 1 m3, sem obra/elemento. Sec.6.1.2 (p.7): os betoes alcali-activados 'are considered for precast applications where the mixing and curing could be controlled at the precast factories' (so como premissa da cura a vapor).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Artigo de revisao com ACV cradle-to-placement (Tab.2). Nenhuma vida util com numero; so menciona 'the NZ's service life and compressive strength levels reveal its environmental benefits' (Sec.3.2, Shahmansouri et al. [1]) sem valor, e 'in-service life' (Aiken et al.) sem valor. A premissa de cura em fabrica de pre-fabricados para AAS/AAFA nao identifica elemento corrente de edificio, por isso fica nao_definida."
+ },
+ {
+  "row_id": 3620,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Resumo e Sec.4.1 (p.6): habitacao rural em San Francisco Pichataro (Michoacan, Mexico); configuracao mais comum 'traditional brick walls, concrete slab roof, and firm cement floor'; Tab.1: 'Cement' para parede/cobertura/pavimento, resistencia mecanica 250 kg/cm2 (=24,52 MPa).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "UF = 1 m2 de cobertura/parede/pavimento (laje de betao 0,1 m). Nenhuma vida util declarada nem citada (so menciona qualitativamente que materiais de cimento sao percebidos como 'reliable and long-lasting' e que a resina 'extends the lifespan of the roof wood' na troje). fck 24,52 MPa = 250 kg/cm2 da Tab.1 (coluna Cement), confere."
+ },
+ {
+  "row_id": 3653,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pavimento",
+  "aplicacao_citacao": "Sec.2.2.2.4 (p.9): 'Most concrete used in pavement construction is graded with a minimum compressive strength of 20 MPa (i.e., N20 concrete) as per the Australian Standard'; Tab.10: '1 km long concrete pavement lane with a width of 3.5 m and thickness equal to 100 and 150 mm' (pavimento de betao continuamente armado).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "O estudo exclui explicitamente a vida util: Conclusoes (p.20) 'The pavement service life is excluded from the LCA scope, as it depends entirely on local traffic, climatic conditions, and maintenance interventions'. Sec.3.7 so diz qualitativamente que retirar a armadura 'may result in a shorter life span'. Nenhum valor citado. fck 20 MPa (N20) confere."
+ },
+ {
+  "row_id": 3657,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2.2 (p.4): provetes cilindricos 50x100 mm de NAC e RAC de 1a-3a geracao ensaiados em compressao triaxial; ACV 'cradle-to-cradle' por m3 com fases genericas de construcao/demolicao (Tab.4, valores de Gong et al.), sem obra nem elemento definido.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util declarada nem citada; a fase de uso e excluida por se assumir igual para NAC e RAC (Sec.2.3.2.1). Os fck gravados (50,3/48,5/47,2/45,3) sao a resistencia cubica aos 28 d da Tab.3; a resistencia uniaxial em cilindro 50x100 da Tab.5 e diferente (43,7/30,5/34,5/35,7) - so para registo, fora do ambito deste lote."
+ },
+ {
+  "row_id": 3661,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Resumo e Sec.3.5 (p.7): 'A typical 2-storey residential building ... comparing two construction techniques: conventionally reinforced concrete and precast concrete panels'; paineis de parede pre-fabricados de 100 mm (IBS) comparados com estrutura convencional betonada in situ.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sec.2.4 (p.3): uso e demolicao excluidos; 'the building is assumed to require no replacement precast concrete products during its entire service life' - sem numero de anos. Nenhum valor citado. Os fck 25/30/40 sao as classes genericas da Tab.6 (factor de emissao do betao), usadas tanto nos paineis pre-fabricados (IBS) como no portico convencional in situ do mesmo edificio residencial; se a familia do par for o betao in situ, a aplicacao seria 'edificio'."
+ },
+ {
+  "row_id": 3681,
+  "declarada": {
+   "valor": 60,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "Sec.3.1 (p.3): 'The service life is modelled as 60 years (Resch et al., 2022). Production activities occur in year 0, followed by the service life commencing at year 1 and spanning until year 60.' Resumo: 'uptake during the 60-year service life (0.13 kg CO2) ... in our baseline case'; Fig.1.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Sec.3.1 (p.3): 'The reference unit is 1 solid concrete block with dimensions 400 mm by 200 mm by 200 mm. Its volume is 0.016 m3'; o artigo refere-se a 'concrete building products whose life cycles outlive the service life of most buildings in which they are located' (Sec.2).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (60 anos) confirmado no PDF; fonte = Resch et al. (2022), por isso base 'literatura'. Fim de vida modelado de 60 a 1000 anos (aterro). Os autores dizem que a unidade de referencia (bloco macico) foi 'arbitrarily chosen for the case study'. fck 25 MPa do cenario base confere (Sec.3.4)."
+ },
+ {
+  "row_id": 3685,
+  "declarada": {
+   "valor": 100,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "Tab.6 'RC column characteristics' (p.8): 'Life span 100 years'; Sec.5.2/Tab.10: 'Expected values ... of CO2 emissions and costs for a single RC column over its 100-year life'. Sec.5.1: 'climate changes are considered over about 100 years (while the design life of a car park is typically 50 years)'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 50,
+    "base": "premissa_sem_fonte",
+    "fonte": "sem fonte citada (afirmacao dos autores sobre parques de estacionamento)",
+    "citacao": "Sec.5.1 (p.7): 'climate changes are considered over about 100 years (while the design life of a car park is typically 50 years)'.",
+    "preferido": true
+   }
+  ],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Resumo e Sec.5.1: 'a multi-story RC carpark ... internal RC columns' (pilares 0,4x0,6x3 m, classe 40 MPa, recobrimento 25 mm), em Londres, Paris e Marselha.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (100 anos, Tab.6) confirmado. Os 100 anos sao escolhidos de proposito para exagerar o efeito das alteracoes climaticas ('the impact of climate change is intentionally exaggerated in the case study'); o proprio artigo diz que a vida de projecto tipica de um parque e 50 anos (sem fonte), registada em citadas. O modelo de carbonatacao/corrosao (fib MC2010) calcula probabilidades de iniciacao e fendilhacao ao longo dos 100 anos, mas nao calcula uma vida util - por isso a base nao e 'modelo'. fck 40 MPa confere (Tab.6)."
+ },
+ {
+  "row_id": 3687,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2.1/2.2: UF 'one cubic meter of 3D printing material with a 28-day compressive strength of 30 MPa' (Tab.2, 31 MPa), cradle-to-gate A1-A3; Sec.4.5 so aponta como trabalho futuro 'several use cases such as structurally optimized beams, facades or lost formwork'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util declarada nem citada; o estudo diz que transporte, uso e fim de vida 'depend on each application' e ficam fora (Sec.2.1, Sec.4.5), e que a durabilidade ainda tem de ser ensaiada. fck 31 MPa (Tab.2) confere."
+ }
+]

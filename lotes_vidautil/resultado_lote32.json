@@ -1,0 +1,135 @@
+[
+ {
+  "row_id": 4481,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2.2.1: 'This study's functional unit and system scope can be described as cradle to gate, with the main processes of 1 m3 GPC from manufacturing and transportation to production' - estudo laboratorial de misturas GPC (Taguchi), sem aplicacao declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada para o betao; LCA cradle-to-gate por m3. Os unicos 'years' no texto sao contextuais (carbono neutro 2060)."
+ },
+ {
+  "row_id": 4483,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 50,
+    "valor_max": 70,
+    "base": "literatura",
+    "fonte": "[25] Martin, J. Long Term Performance of Rubber in Seismic and Non-Seismic Bearings: A Literature Review; NIST, 1999",
+    "citacao": "Sec.2.5.1 p.9: 'The usage stage of both retrofitted alternatives was supposed to have similar lifetimes: CWS has a design lifetime of 50-70 years and SIC has a design lifetime of 50-100 years [25]'",
+    "preferido": true
+   },
+   {
+    "valor": 50,
+    "valor_max": 100,
+    "base": "literatura",
+    "fonte": "[25] Martin, J. (NIST, 1999)",
+    "citacao": "Sec.2.5.1 p.9: '... SIC has a design lifetime of 50-100 years [25]'",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Resumo: 'A five-story reinforced concrete residential building was retrofitted with: Case 1: concrete wall strengthening (CWS)...' (betao das paredes/vigas de reforco sismico de edificio residencial).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Vida citada so para justificar excluir a fase de uso (LCA cradle-to-gate); nao e premissa de calculo. CORRECCAO a nota gravada (durabilidade_resumo da linha 573): as vidas uteis referem-se aos sistemas de reforco sismico CWS (concrete wall strengthening = paredes de betao armado) e SIC (seismic isolation columns), NAO aos telhados verdes. Preferido = CWS por ser o sistema em betao. A ref.[25] trata de apoios de borracha, pelo que o 50-70 do CWS e atribuido a [25] pelo artigo mas a fonte parece pouco especifica para betao."
+ },
+ {
+  "row_id": 4493,
+  "declarada": {
+   "valor": 80,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "p.3 Sec.2.1: 'The FU is thus defined as the entire bridge considering a service life of 80 years.'; p.6: 'Based on Lunser [19], the expected service life of the materials and bridges is assumed to be 80 years.'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "ponte",
+  "aplicacao_citacao": "p.3: 'On the building level, two variants of a pedestrian bridge are compared, one made from CC and the other made from SC.'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (80 anos) confirmado, vale para os dois pares (CC e SC). Fonte: Lunser, livro 'Okobilanzen im Bruckenbau' (Birkhauser 1999) - no texto aparece como [19], mas na lista de referencias Lunser e a [20] ([19] e Sameer et al. 2019); gralha de numeracao do artigo. SMA da ponte SC renovado 3x durante os 80 anos."
+ },
+ {
+  "row_id": 4497,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.4: 'The functional unit analyzed is 1 m3 for the concrete mix system... The scheme begins with the raw material extraction and ends with the concrete mixture produced.' - estudo laboratorial (cilindros 100x200), sem aplicacao declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada."
+ },
+ {
+  "row_id": 4498,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec.2.5 p.8: 'A typical ceiling panel with a span of 6 m was chosen to calculate and compare the variants... The constant floor live load q category A was considered, which means 1.50 kN/m2, and also moveable partitions' (laje de piso de edificio, EN 1992-1).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "LCA cradle-to-grave por 1 m2 de laje, mas sem vida util em anos. O artigo so descreve em termos gerais os Principios I/II (vida util variavel vs constante, refs [30-33]) sem valor numerico; recobrimento 20/35 mm definido pela carbonatacao (EN 12390-12), sem anos."
+ },
+ {
+  "row_id": 4500,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo de argamassas (CEM I, CEM III, +GP) com calorimetria e rede neuronal; LCA cradle-to-gate da producao do ligante (Fig.1), sem aplicacao declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada."
+ },
+ {
+  "row_id": 4502,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2 LCA: 'The functional unit for this study was the nonreinforced concrete sample of strength C25/30' - provetes de laboratorio, sem aplicacao declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada; durabilidade so mencionada qualitativamente."
+ },
+ {
+  "row_id": 4505,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2.3.2: 'The functional unit selected for this research is 1 m3 of fibre-reinforced concrete... widely used in civil engineering and construction.' - provetes de laboratorio; as aplicacoes listadas (pavimentos, lajes, pre-fabricados) sao usos gerais das fibras comerciais, nao do betao estudado.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada; LCA cradle-to-gate (fases de uso assumidas iguais entre alternativas, Sec.2.3.1)."
+ },
+ {
+  "row_id": 4510,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2: indicadores 'calculated with 1 m3 as the functional unit'; pastas AAM em laboratorio. A introducao so refere como motivacao 'emergency-repair engineering such as road repair and grouting reinforcement', sem a adoptar como aplicacao do estudo.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada."
+ },
+ {
+  "row_id": 4511,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.3.1.2: 'The first functional unit is 1 m3 of ready-mixed concrete' (betao pronto H-0/H-50 com RCA de blocos), sem aplicacao estrutural declarada; conclusoes sugerem 'non-structural applications' para RCA-CBWs de forma generica.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada; fases A4-C4 excluidas por serem assumidas iguais (Sec.3.1.1). Os blocos de betao sao a origem do residuo, nao a aplicacao do betao estudado."
+ }
+]

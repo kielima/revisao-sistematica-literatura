@@ -1,0 +1,177 @@
+[
+ {
+  "row_id": 4698,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Table (16 casos): 'Public rental house — Reinforced concrete frame shear wall construction'; Sec.4.1: 'the total carbon emission for the building in Case 1 is 471,742.79 kgCO2'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sec.4.1 (p.14): 'if it is evenly distributed over the design life cycle, the carbon emission per square area is 8.15 kgCO2/m2·year' — 407,42/8,15 implica ~50 anos, mas o numero de anos da vida de projecto nunca e escrito no artigo; nao gravado (regra: nao deduzir). Estudo da fase de construcao (cradle-to-construction) de 16 edificios em Fujian."
+ },
+ {
+  "row_id": 4705,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Sec.2.1.1: 'All the columns in this study were designed with the same load capacity of 8400 KN'; abstract: 'off-site construction using UHPC' (pilares pre-fabricados off-site; introducao enquadra no contexto de edificios em Xangai, 'building units ... assembly rate greater than 60%')",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "ACV cradle-to-site da producao de pilares; nenhuma vida util adoptada nem citada para o betao/pilar. Aplicacao podia tambem ler-se como 'edificio' (pilar de edificio); escolhido pre_fabricado_corrente porque o objecto e o pilar produzido off-site."
+ },
+ {
+  "row_id": 4709,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Abstract/Sec.2: misturas de betao autocurativo de base de dados de literatura, modelos preditivos 'for sustainable infrastructure design' sem aplicacao concreta declarada",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "So mencoes qualitativas ('service life is shortened dramatically', 'throughout their lifetime'); nenhum valor de vida util."
+ },
+ {
+  "row_id": 4716,
+  "declarada": {
+   "valor": 40,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "Sec.3 (p.7-8, antes da Tabela 4): 'The analysis period considered was of 40 years with minor rehabilitation (i.e., overlay of 75 mm) at the 20th year as estimated from the deterioration rate of the pavement structure and as identified by the AASHTO design equation.'; Sec.4: 'over the 40-year analysis period'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pavimento",
+  "aplicacao_citacao": "Titulo/abstract: 'Concrete Pavements' — 'pavement project representative of typical construction practices ... in Poland'; Sec.3: '203 mm PCC slab over a 150 mm granular base'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (40) confirmado. E um periodo de analise de ACV/LCCA, nao uma vida util explicitamente designada; a fonte AASHTO refere-se gramaticalmente a reabilitacao aos 20 anos (equacao de projecto AASHTO + taxa de deterioracao), por isso a base dos 40 anos ficou premissa_sem_fonte (alternativa defensavel: modelo/AASHTO)."
+ },
+ {
+  "row_id": 4724,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2.1: '1 m3 of RFA concrete was taken as the functional unit' (traços de literatura, refs [37]-[39]); Sec.2.2: 'recycled aggregates are mainly used for concrete elements in the scenarios of this study' — sem estrutura/aplicacao concreta",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Carbonatacao calculada pela equacao de profundidade da ref.[36] sem horizonte temporal escrito; 'Pade ... 100 year perspective' so aparece no titulo de uma referencia (nao conta)."
+ },
+ {
+  "row_id": 4731,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Introducao (p.1): 'Mass concrete has been used extensively ... for the construction of vital infrastructure, such as nuclear power plants, long-span bridges, coastal structures, and hydroelectric dams.' (estudo laboratorial de misturas de betao massa)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Estudo de laboratorio de misturas de betao massa; a aplicacao so e dada como classe generica (estruturas de betao massa de infraestrutura), sem obra concreta — alternativa: nao_definida. Nenhuma vida util adoptada nem citada."
+ },
+ {
+  "row_id": 4749,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Abstract: 'carbon emissions assessment in slurry shield tunnel construction'; Sec.3.2.2: 'reinforced concrete precast segment of the tunnel ... the factory produced 552 rings segments in 2012'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Avaliacao so da fase de construcao do tunel; 'maintenance' dos segmentos = cura a vapor na fabrica; 'service life' so referida aos equipamentos. Nenhuma vida util do tunel/betao."
+ },
+ {
+  "row_id": 4750,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pavimento",
+  "aplicacao_citacao": "Phase IV Interpretation (p.10): 'The proposed application of the concrete mix in the test is industrial floors'; Phase I: 'a concrete slab thickness of 20 cm was selected ... 20 cm-thick concrete slab on an area of 500 m2' (piso industrial)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Fase de exploracao: 'Floor repairs will be carried out periodically every five years throughout the service life' — a vida util do piso nunca e quantificada. Aplicacao = piso/pavimento industrial (laje sobre terreno), classificado como pavimento; alternativa: edificio."
+ },
+ {
+  "row_id": 4753,
+  "declarada": {
+   "valor": 100,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "Sec. use phase (p.11): 'we assumed a longer service life for the CRC façade panel than for the SRC façade panel: the CRC panel is expected to fill the wall for 100 years, and the SRC panel for 50 years (or 80 years) [10]' (ref.[10] Spelter et al. 2019, Appl. Sci. 9, 1651); Tabela 8 'Assumed Lifetime in Years': F1C3/F2C1 100, SRC1 (2.2) 50 / 80",
+   "sheet_rows": [
+    1740,
+    1741
+   ]
+  },
+  "declarada_por_par": [
+   {
+    "sheet_row": 1740,
+    "valor": 100,
+    "base": "literatura",
+    "citacao": "Tabela 8: 'F2C1 4.11 100'; p.11 'the CRC panel is expected to fill the wall for 100 years ... [10]'"
+   },
+   {
+    "sheet_row": 1741,
+    "valor": 100,
+    "base": "literatura",
+    "citacao": "Tabela 8: 'F1C3 4.96 100'; p.11 idem [10]"
+   },
+   {
+    "sheet_row": 1742,
+    "valor": 50,
+    "valor_max": 80,
+    "base": "literatura",
+    "citacao": "p.11: 'and the SRC panel for 50 years (or 80 years) [10]'; Tabela 8: 'SRC1 (2.2) 9.84 50 / 6.15 80'; abstract: 'Assuming a 50-year service life for the SRC façade panel'"
+   }
+  ],
+  "citadas": [
+   {
+    "valor": 100,
+    "base": "literatura",
+    "fonte": "[10] Spelter et al. 2019",
+    "citacao": "Sec.2 (p.4): 'CRC constructions can be designed ... for a service life of about 100 years compared to SRC, which is more often chosen for 40–50 years for high-rise constructions and 50–80 years for bridges [10]'",
+    "preferido": false
+   },
+   {
+    "valor": 40,
+    "valor_max": 50,
+    "base": "literatura",
+    "fonte": "[10] Spelter et al. 2019",
+    "citacao": "Sec.2 (p.4): 'SRC ... more often chosen for 40–50 years for high-rise constructions'",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Sec.3: painel de fachada ventilada 'produced on a tilting table in a precast concrete plant'; 'façade elements are currently the most sought-after prefabricated CRC components'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valores gravados confirmados (1740/1741 = 100; 1742 = 50). Para o SRC o artigo da 50 com 80 como alternativa ('or 80'), nao um intervalo propriamente dito; gravei valor 50 e valor_max 80. Base literatura (ref.[10] Spelter et al. 2019, estudo, nao norma)."
+ },
+ {
+  "row_id": 4756,
+  "declarada": {
+   "valor": 100,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "Sec.2.3 (p.5): 'The costs of the operational phase of reinforced concrete bridges are determined according to RVS 13.05.11 ... It is assumed that the bridge has a service life of 100 years with maintenance being carried out every 20 years.'; Tabela 4: '(span = 15 m, service life = 100 years)'; Conclusoes: 'integral road bridge with a span of 15 m and a service life of 100 years'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 100,
+    "base": "literatura",
+    "fonte": "nao especificada (frase de enquadramento)",
+    "citacao": "Sec.2.1 (p.3): 'lack of data for a typical service life of infrastructure buildings of up to 100 years'",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "ponte",
+  "aplicacao_citacao": "Titulo/Conclusoes: 'life cycle cost analysis of an integral road bridge with a span of 15 m'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (100) confirmado. A premissa aparece no paragrafo que aplica a RVS 13.05.11 (directriz austriaca de LCC de pontes), mas o artigo nao atribui explicitamente os 100 anos a essa directriz — por isso premissa_sem_fonte (alternativa: norma RVS 13.05.11)."
+ }
+]

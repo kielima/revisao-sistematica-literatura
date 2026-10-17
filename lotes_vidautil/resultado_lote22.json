@@ -1,0 +1,152 @@
+[
+ {
+  "row_id": 3727,
+  "declarada": {
+   "valor": 50,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "p.6 (6561), Sec.2.3 Case Study Application: 'A 50 year service life is assumed for the baseline scenario for both concrete and CLT (Figure 3)'; Sec.2.3.1: 'concrete disposal at the end of a service life within a building'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "p.6, Sec.2.3.1: 'inputs from raw material acquisition through concrete disposal at the end of a service life within a building (Table S1)'; Sec.2.3: 'Concrete was selected due to its ubiquity as the most widely used building material'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Confirma o valor gravado (50 anos, cenario baseline, sem fonte citada). Cenario de mitigacao (5)/'Combined' estende a fase de uso do betao para 80 anos ('an extended service life (80 years as opposed to 50 years)', Sec.3); o par 1082 e a mistura baseline, portanto 50."
+ },
+ {
+  "row_id": 3731,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo laboratorial de argamassas de cimento com quitosano (Sec.2; LCA cradle-to-gate, UF = 3130 kg de compósito = 1 m3); so refere genericamente 'sustainable and durable construction material' (Conclusoes).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util declarada nem citada; a introducao so diz qualitativamente 'A more durable cement or concrete requires less maintenance, has a longer life' (p.1)."
+ },
+ {
+  "row_id": 3732,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Introducao (p.2): 'ashes produced from rice hulls and straw are evaluated as an SCM for cement-based building materials'; ensaios em cilindros de argamassa 50x100 mm, sem aplicacao estrutural declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util declarada nem citada para o betao/argamassa. LCA cradle-to-gate por m3 de argamassa."
+ },
+ {
+  "row_id": 3752,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Methods/Experimental: duas misturas de betao (100% PC e 15% RHA) ensaiadas em cilindros e prismas; so contexto generico 'Concrete is the most widely used material for infrastructure and buildings' (p.1) e cloretos em zonas costeiras da California.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Os unicos periodos de anos no artigo sao economicos da central eletrica (Tabela 6 'Economic lifespan 30 years'; 'straight line 30-year depreciation'), nao do betao. Durabilidade so qualitativa (RCPT ASTM C1202, Fig.1c)."
+ },
+ {
+  "row_id": 3758,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo laboratorial de misturas com nano-silica e metacaulim; so sugestao nas conclusoes: 'MK-NS blended concrete is suitable for use in challenging situations, including bridges, composite structures, highways, marine infrastructure, and high-rise buildings' (Conclusions).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util declarada nem citada; durabilidade so por ensaios de acido/sulfato (perda de massa e resistencia)."
+ },
+ {
+  "row_id": 3777,
+  "declarada": {
+   "valor": 25,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "p.7, Sec.3.3.1 (Carbon emission model of operation phase): 'the total carbon emissions of the infrastructure operation phase of the project operation period (25 years) are about: 464391005.8236 x 1.246 = 578631193.2562 kg'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "ponte",
+  "aplicacao_citacao": "Titulo/Resumo: 'carbon emission calculation of reinforced concrete bridge ... taking the bridge on Yanchong Expressway in Hebei Province as an example'; Sec.3.2: pontes da linha principal (vigas mistas aco-betao, pilares, fundacoes por estacas).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Os 25 anos sao o 'project operation period' da autoestrada usado para a fase de operacao (energia de portagens, areas de servico, iluminacao), sem fonte; nao e uma vida util de projecto da estrutura justificada por norma. Aplica-se igualmente as 5 classes C20-C50. Texto extraido com simbolos corrompidos nas formulas e a lista de referencias cortada na ref.7 (so referencias), corpo lido na integra."
+ },
+ {
+  "row_id": 3786,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Introducao/Metodos: argamassas PC e alcali-ativadas ensaiadas em laboratorio; 'environmental impacts from the construction, use, and end of life of the mixtures were considered outside the scope of this research'; so exemplo hipotetico 'design for use in an axially loaded member'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util declarada nem citada. LCA cradle-to-gate com UF por volume e normalizadas por resistencia."
+ },
+ {
+  "row_id": 3802,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pavimento",
+  "aplicacao_citacao": "Sec. LCA (p.9): 'a case study on a production plant in Yazd, Iran producing 20 x 20 x 6 cm CPBs for sidewalk construction'; UF = '1 m2 of CPB pavement (i.e. 25 blocks)'; Resumo: 'sustainable solutions in pedestrian pavement construction'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Confirma a nota gravada: 'a lifetime of twenty years was estimated' refere-se a fabrica de producao dos blocos, nao ao CPB. Fases de uso/manutencao/fim de vida excluidas (cradle-to-gate). Durabilidade so por ensaios (absorcao, abrasao, 28 ciclos gelo-degelo)."
+ },
+ {
+  "row_id": 3817,
+  "declarada": {
+   "valor": 50,
+   "base": "modelo",
+   "norma": null,
+   "citacao": "Sec.7.1.3 e Tabela 7: vida util da viga de bordadura calculada pelo proprio estudo (difusao de cloretos + modelo de fissuracao por corrosao): 'For the basic design PL1 ... the service life, Teb, was about 50 years'; Tabela 7 Teb: PL1 50, PL2 44, FRC1 97, FRC2 79, FRC3 102, FRC4 127 anos. Sec.7.3: 'The annual total GWP of each design within the service life of the edge beam Teb is compared in Figure 18'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 45,
+    "base": "literatura",
+    "fonte": "Mattsson, Sundquist & Silfwerbrand (2007), levantamento de pontes suecas",
+    "citacao": "Resumo e Sec.1: 'the average age of 135 edge beams which needed replacement was only 45 years, with a standard deviation of 11 years'",
+    "preferido": true
+   },
+   {
+    "valor": 100,
+    "base": "norma",
+    "fonte": "fib Model Code 2010 (International Federation for Structural Concrete, 2010)",
+    "citacao": "Sec.1: 'structures of greater importance should be designed to have a service life of over 100 years'",
+    "preferido": false
+   },
+   {
+    "valor": 100,
+    "base": "norma",
+    "fonte": "Boverket (2019), requisitos nacionais suecos (classe XD3)",
+    "citacao": "Sec.2: 'the allowable crack width in XD3 is even stricter: 0.15 mm for a design life of 100 years, and 0.20 mm for a design life of 50 years'",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "ponte",
+  "aplicacao_citacao": "Titulo e Sec.2: viga de bordadura (edge beam) de ponte rodoviaria sueca em betao armado/hibrido C40, exposicao XD3 com sais de degelo.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "VALOR GRAVADO PROVAVELMENTE ERRADO: os 120 anos gravados sao a vida de projecto da PONTE (T = 80 ou 120 anos, sem fonte, Sec.5.2: 'Two different lifespans T, of 80 and 120 years, were considered'), usada so na LCCA para o intervalo de substituicao. A LCA anualiza o GWP pela vida util da propria viga Teb calculada pelo modelo (Sec.7.3, Fig.18). Declarada = 50 anos do desenho base PL1 (RC tradicional); se o par 1102 corresponder a um desenho hibrido, usar o Teb respectivo da Tabela 7 (FRC1 97, FRC2 79, FRC3 102, FRC4 127; PL2 44). O par unico nao identifica o desenho - verificar."
+ },
+ {
+  "row_id": 3818,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec.3.1, Objective 2: 'the functional units include a frame unit [28] and a circle house unit [37] ... adopted ECC as the main structural components (columns and beams in the frame unit, walls and roof in the circle house unit) for load-bearing' (construcao modular integrada, MiC).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util declarada nem citada; as conclusoes dizem que o ambito da LCA deveria 'be further extended by taking into account the lifecycle of construction and building maintenance'. LCA so de producao/construcao (por m3 e por unidade impressa)."
+ }
+]

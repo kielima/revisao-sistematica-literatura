@@ -1,0 +1,150 @@
+[
+ {
+  "row_id": 3203,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Resumo: 'treatment of ladle slag to be applied as a cement substitute in the manufacturing of cement products'; Sec.4: 'The research was conducted at a laboratory scale' (argamassas EN 196-1, provetes 4x4x16 cm, sem aplicacao estrutural definida).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada. Os '50 anos' (Sec.2.3.3, Sec.3.5, Tab.6, Fig.11) sao um ensaio acelerado de carbonatacao: 'The samples underwent CO2 exposure equivalent to 50 years of outdoor atmospheric conditions' - duracao simulada do ensaio, nao vida util do material/estrutura. LCA cradle-to-gate com UF = 1 provete 4x4x16 cm. Introducao so diz 'durability for prolonged service life' sem numero."
+ },
+ {
+  "row_id": 3206,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pavimento",
+  "aplicacao_citacao": "Resumo: 'This study focuses on optimizing concrete pavements through the incorporation of steel and carbon fibers with GGBS'; Sec.1: 'specimens intended for use in concrete pavements'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada (so 'longevity' generico no resumo). Emissoes so de producao (materiais, producao, transporte, Tab.7). Fora do ambito da vida util: o fck de 36,4 MPa gravado para G40C0.5 (linha 917) e o valor aos 90 dias (Sec.3.2, paragrafo dos 90 d, '+10,97% vs controlo'), enquanto 30,1 MPa de G50S1.5 (linha 916) e aos 28 d - idades misturadas."
+ },
+ {
+  "row_id": 3207,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo laboratorial de UHSFRC (cubos 150 mm). Sec.1 so menciona de forma generica: 'UHSFRC ... is a potential material for laminated slabs' e 'promoting the application of UHSFRC in structures' - sem aplicacao do estudo definida.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada. Emissoes por m3 (Eq.9, Tab.11) so de materiais. A introducao diz que SF 'extending the life cycle of concrete' sem numero."
+ },
+ {
+  "row_id": 3212,
+  "declarada": {
+   "valor": 100,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "p.11, Sec.4.2.4 'Service': 'This project has a design service life of 100 years, and an inspection frequency of once a year during its operation period' (tambem Sec.4.1: 'over its 100-year lifespan'; Eq.6 usa e = design service life). Vida util de projecto da obra real (tunel imerso Shenzhen-Zhongshan), sem norma nem estudo citado.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Sec.3.1: 'the eastern artificial island and mainline weir tunnel of the Shenzhen-Zhongshan Expressway is selected as the study case' - tunel submarino/ilha artificial (obra maritima de transporte); betoes C20-C50 'all watertight'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (100 anos) confirmado. Base: e a vida util de projecto declarada para o proprio projecto, sem fonte normativa citada -> premissa_sem_fonte (poderia tratar-se de exigencia de norma chinesa, mas o artigo nao a cita). A seccao 4.2.4 esta na p.11 do PDF (a nota antiga diz p.12; a frase continua na p.12)."
+ },
+ {
+  "row_id": 3216,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.1: 'this study explores the environmental impacts of structural concrete mixes utilising all products generated from the concrete recycling process'; Sec.2.1: 'the durability requirements for concrete vary depending on the intended application' - betao estrutural generico (C35/45-C50/60), sem aplicacao definida.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada. Sec.2.1 so: 'The durability of structural concrete is a major concern as it directly affects the service life of the structure', sem numero. LCA cradle-to-gate A1-A3, UF 1 m3."
+ },
+ {
+  "row_id": 3218,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo laboratorial (cilindros 150x300) + ML; Sec.5: 'This study has the potential to promote the use of RCP concrete in both structural and non-structural reinforced concrete components' - sem aplicacao definida.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada. LCA de producao de 1 m3 (Tab.9/10)."
+ },
+ {
+  "row_id": 3219,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pavimento",
+  "aplicacao_citacao": "Titulo/Resumo: 'high early-strength pavement concrete' para 'rapid pavement repair'; Sec.4.1.1: 'The functional unit selected is a concrete pavement designed for heavy traffic, measuring 1 km in length, 20 m in width, and 20 cm in thickness, in compliance with ... JTGD40-2011'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada. A fronteira do LCA inclui 'maintenance' (Sec.4.1.1, Fig.17) mas nenhum periodo de servico/anos e declarado; os unicos tempos sao de cura (6 h, 14-21 dias de manutencao antes da abertura ao trafego, Sec.1)."
+ },
+ {
+  "row_id": 3221,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2.2: 'The functional unit in this study is 1 m3 ready-mixed concrete' (base de 440 tracos C30-C80 da China); sem aplicacao definida.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada. Sec.2.1: 'the construction, maintenance, disposal and recycle of concrete are excluded from the system boundary'."
+ },
+ {
+  "row_id": 3222,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo laboratorial de UHPC com rejeito de molibdenio como agregado fino; nenhuma aplicacao declarada (so 'ensuring safety for buildings and human health' a proposito da lixiviacao).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util adoptada nem citada. LCA (Sec.3.2.12) so por indicadores dos materiais."
+ },
+ {
+  "row_id": 3225,
+  "declarada": {
+   "valor": null,
+   "base": "modelo",
+   "norma": null,
+   "citacao": "Sec.3.1 e 4.5.2, Tab.9 e Tab.10: 'expected repair time' calculado pelo proprio estudo (Fick, Eq.5, com Dc medido, recobrimento 30 mm, Cs 2%, Ccrit 0,566%; e Richards/COMSOL para permeacao de agua em segmento de 0,3 m sob 140 m de coluna de agua). Sec.4.5.3: 'The annual carbon emissions ... are derived from the total carbon emissions divided by the expected repair time' ('lifetime before expected repair time'). Cloretos (Tab.9): PC 1,30; AAS 2,37; CSA 0,50; CSA-C 0,91; LC3 28,46 anos. Agua (Tab.10): PC 3,56; AAS 1,37; CSA 0,93; CSA-C 0,60; LC3 2,41 anos.",
+   "sheet_rows": [
+    935
+   ],
+   "valores_por_material": {
+    "cloretos": {
+     "PC": 1.3,
+     "AAS": 2.37,
+     "CSA": 0.5,
+     "CSA-C": 0.91,
+     "LC3": 28.46
+    },
+    "agua": {
+     "PC": 3.56,
+     "AAS": 1.37,
+     "CSA": 0.93,
+     "CSA-C": 0.6,
+     "LC3": 2.41
+    }
+   }
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 100,
+    "base": "literatura",
+    "fonte": "Heede et al. [25] (betao com cinza volante e escoria em ambiente marinho, RCM + LCA)",
+    "citacao": "Sec.1: 'Heede et al. [25] analyzed the durability of fly ash and slag concrete in marine environment ... such concrete performs comparably to conventional concrete over a 100-year service life'",
+    "preferido": true
+   }
+  ],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Sec.4.5: 'a comprehensive life cycle analysis of the mortar in a marine environment was conducted ... For the water permeation, mortar segments in submarine tunnel components were taken into consideration, with a water head pressure of 140 m ... design thickness for the tunnel lining's mortar segments is established at 0.3 m' (cenario de cloretos: 'a mortar member with the cover thickness of 30 mm').",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "O estudo calcula a vida util (tempo ate a primeira reparacao) por modelo de durabilidade e usa-a como 'lifetime' das emissoes anuais -> base 'modelo'. Nao ha valor unico: a linha 935 agrega as 5 argamassas e ha dois cenarios (cloretos / agua), por isso valor=null e os 10 valores em valores_por_material. Desdobrar a linha por argamassa permitiria atribuir o valor a cada par. A nota gravada ('nao declarada como premissa') ja tinha os mesmos numeros."
+ }
+]

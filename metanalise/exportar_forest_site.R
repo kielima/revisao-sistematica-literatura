@@ -6,7 +6,7 @@
 # O painel tem filtros (estrato, base do ligante, cenario do CO2) e o botao ci / ci_t; para o
 # forest mostrar sempre o modelo do subconjunto que esta no ecra, o modelo e ajustado em cada
 # combinacao: estrato {p, s, ps} x base {todos, portland} x CO2 {sem, com} x indicador {ci, cit}
-# = 24 cenarios. Em cada um: modelo sem moderadores (media global, IC95, IP95, I2) e modelo com
+# = 24 cenarios (60 desde a F33: o indicador ci_t tem 4 formas de vida util). Em cada um: modelo sem moderadores (media global, IC95, IP95, I2) e modelo com
 # a familia como moderador sem intercepto (media por familia, IC95) — o mesmo da secao 7 do v5.
 # Mesmo vi e mesmo ajuste do v5 (metanalise/funcoes_modelo.R).
 #
@@ -27,8 +27,17 @@ d <- read.csv("metanalise/dados_metanalise.csv", encoding = "UTF-8", stringsAsFa
 d$estudo <- factor(d$estudo)
 d$obs_id <- factor(d$obs_id)
 d <- prepara_base(d)
-# ci_t com desconto (o painel divide o CO2 do cenario pela vida util)
-d$ci_t_com <- ifelse(is.na(d$vida_util) | d$vida_util <= 0, NA_real_, d$ci_com_desconto / d$vida_util)
+# F33 (Kie, 2026-10-17): ci_t em todos os pares. Indicadores: ci, cit (vida pela hierarquia: declarada >
+# citada > norma pela aplicacao > 50 anos) e, como sensibilidade, citf (vida media por familia, valores dos
+# estudos), citm (so os de base «modelo») e citn (so os de base «norma» ou a norma pela aplicacao).
+# Cada um tem a versao sem desconto (ci_t*) e com desconto (ci_t*_com).
+vida_ind <- list(cit = "vida_util", citf = "vida_fam", citm = "vida_fam_modelo", citn = "vida_fam_norma")
+for (k in names(vida_ind)) {
+  v <- d[[vida_ind[[k]]]]
+  ok <- !(is.na(v) | v <= 0)
+  d[[paste0("y_", k, "_sem")]] <- ifelse(ok, d$ci / v, NA_real_)
+  d[[paste0("y_", k, "_com")]] <- ifelse(ok, d$ci_com_desconto / v, NA_real_)
+}
 
 subconjunto <- function(estrato, base, co2, ind) {
   dd <- d
@@ -37,7 +46,7 @@ subconjunto <- function(estrato, base, co2, ind) {
   if (base == "portland") dd <- subset(dd, base_portland == "sim")
   if (co2 == "sem") dd <- subset(dd, sem_bruto == 0)          # F9
   col <- if (ind == "ci") (if (co2 == "sem") "ci" else "ci_com_desconto") else
-    (if (co2 == "sem") "ci_t" else "ci_t_com")
+    paste0("y_", ind, "_", co2)
   dd$yi <- dd[[col]]
   dd <- subset(dd, !is.na(yi))
   droplevels(dd)
@@ -71,7 +80,7 @@ um_cenario <- function(estrato, base, co2, ind) {
 }
 
 grade <- expand.grid(estrato = c("ps", "p", "s"), base = c("todos", "portland"), co2 = c("sem", "com"),
-                     ind = c("ci", "cit"), stringsAsFactors = FALSE)
+                     ind = c("ci", "cit", "citf", "citm", "citn"), stringsAsFactors = FALSE)
 res <- parallel::mclapply(seq_len(nrow(grade)), function(i) {
   g <- grade[i, ]
   t0 <- Sys.time()
