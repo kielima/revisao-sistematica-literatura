@@ -147,5 +147,8 @@ Cada entrada diz se foi verificada por mim no PDF (`pessoal`) ou é leitura do s
 
 
 ## F34 - Pergunta C4: mesmos numeros em artigos diferentes (Kie, 2026-10-17)
-- **2854 FILHO = 2744 FILHO:** marcada `Duplicado` da 2744 (tres pares identicos, mesmo edificio e autores). Elegiveis 468 -> 467; 3 pares e 1 estudo saem do painel (a aplicar quando o pipeline correr).
-- **TEH 4026/4027 e JANG 2694/2695:** em investigacao a pedido da Kie. Achados preliminares: TEH 4027 decompoe o mesmo impacto total do 4026 (mesmos dados de Teh et al. 2017), logo os totais coincidem por construcao; JANG 2694 e 2695 usam o mesmo factor da base nacional coreana de ICV / KEITI (414 kg/m3 para 24 MPa). Decisao pendente.
+- **2854 FILHO = 2744 FILHO:** `Duplicado` da 2744 (tres pares identicos, mesmo edificio e autores). Kie: «Pode marcar como duplicado.»
+- **TEH 4027 = 4026 (Kie: «Pode seguir a recomendacao nos dois»):** a 4027 (J. Econ. Struct. 7:15) decompoe o mesmo inventario hibrido da 4026 (mesmos dados de Teh et al. 2017); os totais 517/363 kg CO2/m3 coincidem por construcao -> `Duplicado` da 4026 (canonica).
+- **JANG 2694 / 2695:** o par repetido (24 MPa, 414 kg CO2/m3) vem do mesmo factor da base coreana KEITI/LCI DB; conta-se uma so vez, na 2694. A linha 655 de `dados_fck` (2695) sai do painel; o artigo 2695 fica Elegivel.
+- Script: `metanalise/perguntas_c/aplicar_f34.py`. Efeito: Elegiveis 468 -> 466 (362 principal + 104 sensibilidade), E2 542, E3 524, painel 1.499 pares, 398 estudos.
+- **Mapa de citacoes (pergunta da Kie):** as fontes comuns NAO estao ligadas. O mapa so liga artigos com DOI do Crossref entre si. A 4026 cita o relatorio UNSW de Teh & Wiedmann 2017 (versao previa da 4027) sem DOI, logo sem ligacao 4026 -> 4027; a 2695 cita a KEITI LCI DB e Park 2014 sem DOI, e a 2694 o relatorio coreano de 2020; nenhum dos dois cita o outro. Bases de dados e relatorios institucionais nao sao estudos do painel. Por decidir: acrescentar ligacoes manuais ou uma camada de «fontes de dados».
