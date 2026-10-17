@@ -1,0 +1,174 @@
+[
+ {
+  "row_id": 2580,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Resumo: 'In the present study, experimental, microstructural, and statistical analysis along with life cycle assessment...' — estudo laboratorial (provetes/vigas 500x100x100 mm para carbonatacao acelerada), sem aplicacao declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util (adoptada ou citada) para o betao; a durabilidade e tratada so como profundidade de carbonatacao acelerada (Tabela 3). Fronteira gate-to-gate (Fig.14)."
+ },
+ {
+  "row_id": 2582,
+  "declarada": {
+   "valor": 50,
+   "base": "norma",
+   "norma": "NBR 15575-1",
+   "citacao": "Sec. 3.1.2.2 Funcao e unidade funcional, p.54-55: 'No Brasil, estruturas sao projetadas para uma vida util de no minimo 50 anos, segundo a NBR 15575-1 ... argamassas para aplicacao de projetos com vida util de no minimo 50 anos'; p.55: unidade funcional '1 MPa ... aos 28 dias para utilizacao em uma estrutura com vida util de 50 anos'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec. 3.1.2.2, p.54: 'a funcao dos objetos serem argamassas para aplicacao de projetos com vida util de no minimo 50 anos' — nao diz se e argamassa de revestimento, assentamento ou estrutural (essas aplicacoes so aparecem na revisao bibliografica, p.18).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (50) confirmado. read_file_content truncou a dissertacao (~126 mil caracteres, parou no capitulo de resultados, sem conclusoes nem referencias — armadilha n.7); lida na integra por download + pdftotext (99 p.). Nenhuma outra vida util no resto do texto."
+ },
+ {
+  "row_id": 2599,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec. 2, p.4: 'Such mortar with high PC concentration and strength is often used in repair works and as filament in important steel or reinforced concrete design elements.' — uso tipico generico; o estudo e ACV cradle-to-gate de 1 m3 de argamassa.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Artigo de 10 p. sem qualquer mencao a vida util/durabilidade."
+ },
+ {
+  "row_id": 2606,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Sec. 2.2: 'Concrete: CFA-based concrete for the structural applications and other'; Tabela 7: betao usado em 'Precast columns' e 'Precast beams' de um modelo a escala 1/3 de habitacao pre-fabricada (Sec. 5.3, Tab.3 fase D).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem vida util. Alternativa: 'edificio' (pilares/vigas pre-fabricados de casa residencial)."
+ },
+ {
+  "row_id": 2608,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Resumo: 'In this experimental study, recycled sand was used to fabricate ultra-high performance concrete...' — sem aplicacao estrutural declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem vida util adoptada nem citada; 'durability' so em termos genericos."
+ },
+ {
+  "row_id": 2611,
+  "declarada": {
+   "valor": 50,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "Sec. 6.3.2 'Considering the special environment', p.13: 'Gourley and Johnson have shown that OPC concrete with a service life of 50 years loses 25% of its mass after 80 immersions in a pH=1 H2SO4 solution ... Theoretically, geopolymer concrete can serve 18 cycles if 50 years are taken as a period in a sulfuric acid environment' (Gourley, 2005).",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 50,
+    "base": "literatura",
+    "fonte": "Gourley (2005)",
+    "citacao": "Sec. 6.3.2, p.13: 'OPC concrete with a service life of 50 years' (betao OPC em ambiente de acido sulfurico)",
+    "preferido": true
+   },
+   {
+    "valor": 900,
+    "base": "literatura",
+    "fonte": "Gourley (2005)",
+    "citacao": "Sec. 6.3.2, p.13: 'GPC's service life is 18 times that of OPC concrete, which is 900 years' (so geopolimero, nao os pares OPC)",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec. 3.1: 'This study uses CO2-E of 1 m3 C30, C40 and C50 concrete in the whole life cycle'; cast-in-place, ready-mixed e precast genericos; a Fig.4 refere 'the construction phase of the building' sem definir elemento/aplicacao.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "ATENCAO: a analise principal (Sec. 6.3.1, Fig.8/9, de onde vem o CO2 por m3) exclui explicitamente a vida util: 'the life cycle estimates of geopolymer CO2-E in this paper do not take service life into account'. Os 50 anos so sao adoptados como periodo do cenario especial de acido sulfurico (6.3.2, Tab.14), citando Gourley 2005. Se o par for da analise principal, tratar como vida citada."
+ },
+ {
+  "row_id": 2624,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Lajes compostas madeira-betao (TCC floor); Sec. 2 (Eq. de vibracao): 'Q is the live load, assuming residential occupancy'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Unica vida util no artigo: p.7 'expected service life of CLT panels is taken as equal to 50 years, according to the reference EPD [31]' — so madeira CLT, nao conta para o betao C30/37 (confirma a nota ja gravada)."
+ },
+ {
+  "row_id": 2641,
+  "declarada": {
+   "valor": 57,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "Sec. 3.2, p.3: 'the time is the actual age of the structure, that is, the difference between the deconstruction (e.g. 2024) and construction (e.g. 1967) years, i.e. 57 years'; Tab.5: 'removals by carbonation during the first service life (1967-2024)'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 50,
+    "base": "literatura",
+    "fonte": "sem fonte no artigo (a versao de revista, row 2650, atribui-o ao periodo de referencia sueco e ao Level(s))",
+    "citacao": "Sec. 4.1, p.5: 'the remaining time in years is not affected by carbonation or would be much longer than a reference study period of 50 years, as shown in Table 3'",
+    "preferido": true
+   },
+   {
+    "valor": 50,
+    "base": "literatura",
+    "fonte": "estudos nao identificados",
+    "citacao": "Sec. 3.2, p.3: 'In some studies, the time is assumed to be a reference period for the service life of structures (e.g. 50, 60, or 70 years) or predicted up to a 100-year perspective.'",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Sec. 3.3: bloco residencial de 1967 em Helsingborg com 154 elementos pre-fabricados de betao (84 lajes, 64 paredes interiores, 6 exteriores), sistema de grandes paineis.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "O valor gravado (50) e so o 'reference study period' usado como termo de comparacao para a vida residual, nao a premissa do estudo. A primeira vida util e a idade real (57 anos). O estudo calcula por modelo (carbonatacao EN 16757, dc=k*sqrt(t)) a vida residual por elemento (Tab.3): -3,49 / -4,47 / -1,05 / 897 anos / 'not affected' (entre parenteses, com k do CEN TR 17310: 304,5 / 176,5 / 304,5). O CO2 do par e A1-A3 de betao pre-fabricado novo (Boverket), para o qual nao ha vida util propria. Alternativa: 'edificio'."
+ },
+ {
+  "row_id": 2650,
+  "declarada": {
+   "valor": 50,
+   "base": "norma",
+   "norma": "periodo de estudo de referencia sueco (declaracoes climaticas) e quadro Level(s) da Comissao Europeia [105]",
+   "citacao": "Sec. 4.4, p.14: 'CO2 uptake was calculated for the first service life and a potential subsequent service life of 50 years. The latter is the reference study period used in Sweden, as well as in the Level(s) framework [105]'; Tab.6: 'next service life (2027-2077)'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 100,
+    "base": "literatura",
+    "fonte": "ref. [42]",
+    "citacao": "Sec. 3.3, p.6: 'Previous studies have assigned time as a reference period for the service life of structures, such as 70 years and an additional 30 years after demolition and crushing, predicting uptake in a 100-year perspective [42]'",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Sec. 3.4: edificio de apartamentos de 1967 (Drottninghog, Helsingborg) com estrutura de paredes transversais em betao pre-fabricado, 450 elementos (252 lajes, 186 paredes interiores, 12 exteriores).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (50) confirmado como premissa para a vida subsequente (2027-2077), que e a vida do betao novo no cenario de demolicao + construcao nova (Fig.8a). A primeira vida util e a idade real: 57 anos (1967-2024). O estudo tambem calcula por modelo de carbonatacao a vida residual por elemento (Tab.3, k da EN 16757: 140,8 / -30,8 / -33,1 / -10,5 / -14,5 / 1349,2 anos; Tab.4, k contextual: 140,8 / 43,9 / 294,6 / 1779,7 / 81,4 / 568 / 1349 anos). Ref. [105] = European Commission, Level(s), 2022 (quadro, nao norma tecnica). Alternativa de aplicacao: 'edificio'."
+ },
+ {
+  "row_id": 2653,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Sec. 2.2.1: 'The analysed blocks are used for walls construction'; UF = 1 m2 de blocos (50 blocos 20x10x4 cm) com 40 MPa; Sec. 2.1: 'common building blocks'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem vida util adoptada nem citada; ACV so da producao dos blocos."
+ }
+]

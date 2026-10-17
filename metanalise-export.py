@@ -8,8 +8,12 @@ Saida: {"pairs": [...], "unit_stats": [...]}.
 
 `pairs`: cada ponto e [fck_MPa, co2_kg_m3, categoria_1_letra, estrato_1_letra,
 citacao_curta_ou_null, base_portland, co2_com_desconto_ou_null, sem_bruto, subfamilia_cimento_ou_null,
-vida_util_anos_ou_null].
-O 10.o (2026-10-16, F25): vida util de projecto declarada pelo proprio artigo (dados_fck col 19), para o
+vida_util_anos_ou_null, fonte_vida_util].
+F33 (2026-10-17, Kie): o 10.o passa a ser a vida util do ci_t pela hierarquia aprovada (dados_fck col 52:
+declarada pelo estudo > citada pelo estudo > norma pela aplicacao > 50 anos), em todos os pares; o 11.o diz
+de onde vem ('d' declarada, 'c' citada, 'n' norma pela aplicacao, 'p' norma sem aplicacao). `vida_familia`
+(fora de `pairs`) da as medias por familia dos tres cenarios de sensibilidade -- ver medias_vida_familia().
+Antes da F33: O 10.o (2026-10-16, F25): vida util de projecto declarada pelo proprio artigo (dados_fck col 19), para o
 botao ci / ci_t do forest por familia (ci_t = ci / vida util, F22); null = sem vida util.
 O 9.o (2026-10-11, F12): subfamilia do cimento comercial dos pares da familia opc (dados_fck col 48,
 escrita por lotes_cimento/aplicar.py); null nas outras familias. Os dois anteriores
@@ -766,6 +770,46 @@ def short_label(autores, ano):
     return _finish_label(surname_of(tokens[0]), n_authors, has_et_al, ano, second_surname)
 
 
+FONTECODE = {'declarada': 'd', 'citada': 'c', 'norma_aplicacao': 'n', 'norma_padrao': 'p'}
+
+
+def medias_vida_familia(registos):
+    """F33 (Kie, 2026-10-17): vida util media por familia para os cenarios de sensibilidade do ci_t.
+
+    registos: dicts {estudo, cat, estudo_val, modelo_val, norma_val} (um por par do painel; cols 59/57/58).
+    Cada estudo pesa uma vez: media dos seus pares, depois media dos estudos da familia.
+      'fam' = valores vindos do proprio estudo (declarada ou citada, qualquer base)
+      'mod' = so os de base 'modelo' (durabilidade calculada por modelo/ensaio)
+      'nor' = base 'norma' (declarada/citada por norma) ou, sem ela, a norma pela aplicacao (EN 1990 / NBR 15575)
+    Familia sem nenhum valor de um tipo: media global desse tipo (por confirmar). Devolve
+    {cat: {'fam': x, 'mod': y, 'nor': z, 'n_fam': .., 'n_mod': .., 'n_nor': ..}, '_global': {...}}.
+    """
+    chaves = (('fam', 'estudo_val'), ('mod', 'modelo_val'), ('nor', 'norma_val'))
+    por = {}
+    for g in registos:
+        for k, campo in chaves:
+            v = g.get(campo)
+            if v:
+                por.setdefault((g['cat'], k, g['estudo']), []).append(v)
+    medias_estudo = {}
+    for (cat, k, est), vals in por.items():
+        medias_estudo.setdefault((cat, k), []).append(sum(vals) / len(vals))
+        medias_estudo.setdefault(('_global', k), []).append(sum(vals) / len(vals))
+    out = {}
+    cats = {g['cat'] for g in registos} | {'_global'}
+    for cat in cats:
+        out[cat] = {}
+        for k, _ in chaves:
+            vs = medias_estudo.get((cat, k), [])
+            out[cat]['n_' + k] = len(vs)
+            out[cat][k] = round(sum(vs) / len(vs), 2) if vs else None
+    for cat in cats:
+        for k, _ in chaves:
+            if out[cat][k] is None:
+                out[cat][k] = out['_global'][k]
+    return out
+
+
 def main():
     wb = openpyxl.load_workbook(BASE)
     ws = wb['dados_fck']
@@ -780,6 +824,7 @@ def main():
         status[i] = row[19]
 
     compact = []
+    vida_reg = []
     excluded = []
     unit_counts = {}  # (kind, cat) -> n
     for r in range(2, ws.max_row + 1):
@@ -849,17 +894,23 @@ def main():
         com = round(com, 2) if com is not None and CO2_MIN <= com <= CO2_MAX else None
         sem_bruto = 1 if str(ws.cell(r, 47).value or '') == 'nao' else 0
         sub = (ws.cell(r, 48).value or 'nao_declarado') if cat == 'opc' else None
-        vida = tofloat(ws.cell(r, 19).value)
+        # F33: vida util do ci_t pela hierarquia (col 52) e a sua fonte (col 53); sem col 52 (linha fora do
+        # painel quando lotes_vidautil/aplicar.py correu) cai na declarada (col 19)
+        vida = tofloat(ws.cell(r, 52).value) or tofloat(ws.cell(r, 19).value)
         vida = round(vida, 2) if vida else None
+        fonte = FONTECODE.get(ws.cell(r, 53).value) or ('d' if vida else None)
         compact.append([round(fck, 2), round(co2, 2), CATCODE[cat], TIERCODE[estrato], short_label(autores, ano), base,
-                        com, sem_bruto, sub, vida])
+                        com, sem_bruto, sub, vida, fonte])
+        vida_reg.append({'estudo': row_id, 'cat': CATCODE[cat], 'estudo_val': tofloat(ws.cell(r, 59).value),
+                         'modelo_val': tofloat(ws.cell(r, 57).value), 'norma_val': tofloat(ws.cell(r, 58).value)})
 
     unit_stats = [
         {'kind': kind, 'cat': ucat, 'n': n}
         for (kind, ucat), n in sorted(unit_counts.items())
     ]
 
-    json.dump({'pairs': compact, 'unit_stats': unit_stats, 'excluded': excluded}, sys.stdout, separators=(',', ':'))
+    json.dump({'pairs': compact, 'unit_stats': unit_stats, 'excluded': excluded,
+               'vida_familia': medias_vida_familia(vida_reg)}, sys.stdout, separators=(',', ':'))
 
 
 if __name__ == '__main__':

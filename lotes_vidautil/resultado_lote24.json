@@ -1,0 +1,182 @@
+[
+ {
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util em todo o artigo (8 pp.). UF 1 m3 de betao, cradle-to-gate (materiais). Vida util gravada vazia confirmada.",
+  "row_id": 3883,
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec. 2.1 (p.2): 'Every mixture was tested and can be classified as C20/25 ... These concretes can be used in monolithic constructions, perimeter walls, columns, ceiling structures.'"
+ },
+ {
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util mencionada (8 pp.). Estudo de variabilidade de impacto cradle-to-gate por 1 m3.",
+  "row_id": 3894,
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec. 2 (p.2): betao pronto (ready-mix) de 34 centrais brasileiras, classes 25-40 MPa, cradle-to-gate; 'in Brazil ready-mix concrete is usually requested by the strength class specified in the structural design' - sem aplicacao estrutural especifica."
+ },
+ {
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem valor numerico de vida util: p.3 so 'uncertainty associated with long lifespan of a residential house' (qualitativo). Confirma a nota de 2026-09-19.",
+  "row_id": 3896,
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Abstract/Sec. 2.2 (p.2-3): 'production of the final product, an external wall of a residential structure'; 'The functional unit (FU) considered is one vertical square meter of an external load-bearing wall.'"
+ },
+ {
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util do betao/edificio novo declarada nem citada; o edificio demolido e 'dos anos 1970' (agradecimentos), nao e vida util. UF 1 m3 C25/30, fronteira EoL-to-gate.",
+  "row_id": 3904,
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec. 2.1 (p.2): 'The town hall building in the city of Korbach (Germany) ... will be rebuilt ... The new concrete structure will be built with recycled aggregates from the old building.'"
+ },
+ {
+  "declarada": {
+   "valor": 100,
+   "base": "norma",
+   "norma": "Norwegian Public Road Administration, Manual N400 - Bridge design (2015) [26]",
+   "citacao": "Sec. 2.4 (p.5): 'The Norwegian Public Road Authority sets the service-life for bridges to 100 years [26]. Consequently, we assume that the lifetime of an UHPC bridge is 200 years, i.e. ... for one UHPC bridge it requires two NSC bridges.'",
+   "sheet_rows": [
+    1138
+   ]
+  },
+  "declarada_por_par": [
+   {
+    "sheet_row": 1138,
+    "valor": 100,
+    "base": "norma",
+    "norma": "Norwegian Public Road Administration, Manual N400 - Bridge design (2015) [26]",
+    "citacao": "Sec. 2.4 (p.5): 'The Norwegian Public Road Authority sets the service-life for bridges to 100 years [26]' (ponte NSC C30/37)."
+   },
+   {
+    "sheet_row": 1139,
+    "valor": 200,
+    "base": "literatura",
+    "citacao": "Sec. 2.4 (p.5): 'the lifetime of UHPC is considered to be at least two times longer than for normal strength concrete [10] (Randl et al. 2014)... we assume that the lifetime of an UHPC bridge is 200 years'; Sec. 4.1: 'The functional unit of this study uses a 200-year time period'."
+   }
+  ],
+  "citadas": [
+   {
+    "valor": 100,
+    "base": "literatura",
+    "fonte": "Bouhaya et al. 2008 [14]",
+    "citacao": "Introducao (p.2): 'The UHPC portion of the bridge deck was found to be maintenance free for 100 years (or more)'.",
+    "preferido": false
+   },
+   {
+    "valor": 100,
+    "base": "literatura",
+    "fonte": "Thorstensen et al. 2016 [17]",
+    "citacao": "Sec. 4.1 (p.8): 'The life-time was set to 100 years' (passarela NSC vs UHPC).",
+    "preferido": false
+   },
+   {
+    "valor": 100,
+    "base": "norma",
+    "fonte": "Norwegian Public Road Administration, Manual R762 (2014) [27]",
+    "citacao": "Sec. 4.2 (p.8): 'The Norwegian Public Road Administration assumes that a bridge design will last for a 100-year time period before being demolished [27]'.",
+    "preferido": false
+   }
+  ],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valores gravados (100 NSC / 200 UHPC) confirmados. Base diferente por par: NSC = norma (N400 da autoridade rodoviaria norueguesa); UHPC = 2x NSC apoiado em Randl et al. [10].",
+  "row_id": 3911,
+  "aplicacao": "ponte",
+  "aplicacao_citacao": "Sec. 2.1 (p.3): 'A comparative study of a pedestrian bridge is carried out ... designed to cross a 4-lane highway, has a total length of 40 m'."
+ },
+ {
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem vida util total declarada: p.3 'All quantities are calculated for the whole lifetime defined by the problem designer' sem valor; Tabela 2 (p.5) so lista reparacoes aos 20/40/60 anos (ultima intervencao aos 60 anos, nao declarada como vida util). Texto do corpo lido na integra; o conector cortou so o fim da lista de referencias (a partir da ref. [14]).",
+  "row_id": 3915,
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Sec. 3.1 (p.3): 'Our optimization problem concerns a utility tunnel ... shotcrete corresponding to concrete with a strength class of C25/30'."
+ },
+ {
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util mencionada (6 pp.). UF 1 m3 de argamassa.",
+  "row_id": 3924,
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec. 2.1 (p.2): argamassas de laboratorio (CEM I 42.5 R + areia, prismas 40x40x160 mm) com cinza de lodo de ETAR; conclusao fala genericamente em 'concrete and cement industry'."
+ },
+ {
+  "declarada": {
+   "valor": 100,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "Tabela 4 (p.7): 'Service life of girders year 100 100' e 'Service life of bridge year 100 100' (UHPC e NC). Texto: indicadores quantitativos 'determined based on data from each construction alternative design and execution as well as bridge construction standards'; Sec. 4: 'there are no regulations or data on the UHPC project in Vietnam, so some criteria ... are considered the same for the two alternatives, such as \"Service life of girders\"'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (100) confirmado na Tabela 4. Classificado premissa_sem_fonte porque o artigo so remete genericamente para 'bridge construction standards' sem nomear norma; se se aceitar essa mencao generica, seria 'norma' (nao especificada). Periodo de manutencao 30 anos (Tab.4) nao e vida util.",
+  "row_id": 3928,
+  "aplicacao": "ponte",
+  "aplicacao_citacao": "Sec. 3.3.1 (p.4): 'An Thuong Bridge crosses irrigation channel in An Tao District, Hung Yen City ... 2 alternatives ... one using the UHPC girders system and another using the NC girders system'."
+ },
+ {
+  "declarada": {
+   "valor": 60,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "Abstract: 'with a projected 60-year life span'; Sec. 3.2 (p.5): 'the functional equivalent is introduced as the square meter size of residential areas with a 60-year life span according to the Athena Sustainable Materials Institute (2016)'; Tabela 3 (p.7): 'Service life 60 Years' (betao estrutural e aco).",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (60) confirmado. Fonte: relatorio Athena Sustainable Materials Institute 2016 [15] (nao e norma) -> base literatura.",
+  "row_id": 3930,
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec. 3.3 (p.6): 'The case study is a residential building in New Cairo. It consists of a ground and 5 floors ... solid slab concrete structural system'."
+ },
+ {
+  "declarada": {
+   "valor": 50,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "Sec. 2.1.2 (p.5-6): 'in certain instances, the durable lifespan of asphalt concrete roads has been estimated to be 50 years, and an LCC analysis was conducted based on this estimation (Korea Expressway Corporation 2014). This study assumed the durable lifespan of the trackbed to be 50 years, referencing maintenance for roads'; Sec. 2.2.1 (p.9): 'assuming a service life of 50 years for the railway tracks'; Tab.9 manutencao do trackbed de betao '(50 years)'; Conclusao: 'setting it at 50 years'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 60,
+    "base": "literatura",
+    "fonte": "Tabela 1 (compilacao: Won et al. 2012; Xiao et al. 2021; Yang et al. 2016)",
+    "citacao": "Tabela 1 (p.3), Alemanha Berlin-Hanover (ATD, Sato, Walter, Getrac): 'The lifetime of the solid railway trackbed has been estimated to be around 60 years.'",
+    "preferido": true
+   }
+  ],
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (50) confirmado; a vida util de 50 anos e aplicada a ambos os trackbeds (asfalto e betao). Base literatura: transposta do estudo de LCC rodoviario da Korea Expressway Corporation (2014) e Lee et al. (2014). Os 40/60/80 anos de Lee et al. 2009 sao horizontes de carbonatacao, nao vida util. Texto completo lido (55.568 car.) a partir de copia no scratchpad, titulo conferido.",
+  "row_id": 3932,
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Abstract/Sec. 1: 'cement concrete trackbed' de via ferroviaria urbana na Coreia do Sul (1.820 m3 de betao por km de via)."
+ }
+]
