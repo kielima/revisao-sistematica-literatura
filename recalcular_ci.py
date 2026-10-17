@@ -16,7 +16,7 @@ vida_util_anos.
 import openpyxl
 
 BASE = 'meta_analysis_base.xlsx'
-C = dict(fck=8, vida=19, co2_kg_m3=37, ci=38, cit=39)
+C = dict(fck=8, vida=19, vida_ci_t=52, co2_kg_m3=37, ci=38, cit=39)  # F33: ci_t usa a vida da hierarquia (col 52)
 
 
 def num(v):
@@ -42,7 +42,7 @@ def main():
     for r in range(2, ws.max_row + 1):
         co2 = num(ws.cell(r, C['co2_kg_m3']).value)
         fck = num(ws.cell(r, C['fck']).value)
-        vida = num(ws.cell(r, C['vida']).value)
+        vida = num(ws.cell(r, C['vida_ci_t']).value) or num(ws.cell(r, C['vida']).value)
         ci = cit = None
         if co2 is not None and fck:
             ci = co2 / fck

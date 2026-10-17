@@ -1,0 +1,135 @@
+[
+ {
+  "row_id": 3105,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2-4: pastas/argamassas de escoria granulada artificial (AS) activada com baixo Na2O, ensaio laboratorial; LCA so da fase A1 (Sec.2, p.5: 'this study focuses exclusively on the A1 - Raw Material Supply phase'). Na discussao (p.17) so sugere usos possiveis ('can be perfectly applied to prestigious constructions ... non-structural building products, such as concrete building bricks and traffic barriers'), nenhum adoptado.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma mencao a vida util, durabilidade em anos ou 'service life' no texto (A1 cradle-to-gate). Valores gravados (null) correctos."
+ },
+ {
+  "row_id": 3112,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 30,
+    "valor_max": 50,
+    "base": "literatura",
+    "fonte": "sem referencia especifica na frase (Introducao)",
+    "citacao": "Sec.1 Introducao (p.1): 'Concrete pavements built with cement have a service life of 30-50 years and are durable without the need to repair or patch the surface.'",
+    "preferido": true
+   },
+   {
+    "valor": 0.5,
+    "valor_max": 1.5,
+    "base": "literatura",
+    "fonte": "Shill et al., 2018a",
+    "citacao": "Sec.1 (p.2, texto em duas colunas entrelacado): 'The frequency of rehabilitation for the military airbases due to aviation oil spillage during aircraft maintenance and the lifespan of concrete pavements typically range from six to eighteen months at most (Shill et al., 2018a).'",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "pavimento",
+  "aplicacao_citacao": "Titulo/Sec.1/Conclusoes: 'geopolymer concrete for pavements on military airbases'; 'Mix M3 stood out as the optimal choice for airfield pavements'; Mixes M3/M4 'meeting UFC 3-260-02 pavement requirements'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Declarada: nenhuma - Sec.2.5.1 (p.3) 'the lifespan of all geopolymer concretes used in the study are assumed equal to conventional concrete (McLellan et al., 2011)' sem numero de anos; LCA cradle-to-gate. Citadas: (1) 30-50 anos para pavimentos de betao de cimento, frase sem referencia propria (a frase seguinte cita PCA 2017 sobre consumo de cimento) - marcado preferido por ser a unica 'service life' de pavimento de betao corrente; (2) 6-18 meses (Shill et al., 2018a) = frequencia de reabilitacao/vida de pavimentos de betao em bases aereas militares sob derrame de oleos de aviacao (aplicacao exacta do estudo, mas descreve a degradacao do betao OPC nessas condicoes, nao uma vida util de projecto). Intervalos: valor = limite inferior, valor_max = superior. Valores gravados (null) correctos."
+ },
+ {
+  "row_id": 3114,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2.3.2: 'this study aims to analyse the environmental properties inherent in the material itself at the design stage and, as concrete has many uses, different ... depending on the selected application'; UF 1 m3 de betao C35/C40-S3-Dmax20-X0, fronteira ate a producao do betao.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sec.2.3.2: fases de construcao, uso/manutencao e demolicao excluidas; 'they are assumed to achieve equal performances, so no differences will appear during their lifespans' - sem numero de anos. Nenhum valor de vida util citado. Valores gravados (null) correctos."
+ },
+ {
+  "row_id": 3115,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2-3: argamassas leves (LWCM) com cenosferas e nano-aditivos ensaiadas em laboratorio; Conclusoes: 'LWCM is a potential sustainable material for producing lightweight cement concrete and blocks for building and construction components' - potencial, nao aplicacao adoptada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Unica mencao a 'lifespan' e sobre o equipamento de ultrassons no inventario (Vauchel et al.); limitacoes (Sec.5) dizem que a durabilidade e o fim de vida nao foram considerados. Nenhum valor de vida util. Valores gravados (null) correctos."
+ },
+ {
+  "row_id": 3117,
+  "declarada": {
+   "valor": 50,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "Sec.2.1 (p.3-4): 'A 50-year service life is considered, considering that the chosen retrofitting option will allow a new helpful life in compliance with seismic regulations.'; Sec.2.2.1: 'the chosen functional unit was a reinforced concrete column retrofitted to ensure the structural safety of buildings over a service life of 50 years.'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec.2.1: pilar central do primeiro piso de edificios de betao armado de 4, 7 e 10 pisos em Portoviejo/Manabi (Equador), reforco sismico por encamisamento RC, aco ou CFRP; UF (Sec.2.2.1): 'a reinforced concrete column retrofitted to ensure the structural safety of buildings over a service life of 50 years'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (50) confirmado nos tres pares (mesma vida util para 4, 7 e 10 pisos). Nenhuma norma nem estudo citado como fonte dos 50 anos (Salgado et al., 2020 e citado so para a igualdade de vida util entre alternativas); a NEC 2015 e citada para o projecto sismico, nao para a vida util -> premissa_sem_fonte. Tambem 'This study considers a zero-discount rate, considering future emissions from the EoL stage in 50 years' (Sec.2.2.1) e 'The study assumes a helpful life of 50 years starting from the incorporation of retrofitting' (Conclusoes)."
+ },
+ {
+  "row_id": 3118,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.3.3.2: 'The functional unit was 1 m3 of ready-mixed mortar' (cradle-to-gate); argamassas de laboratorio com cinza volante de biomassa (prismas 40x40x160 mm), sem elemento/obra de destino.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Ensaio de carbonatacao acelerada (Tabela 8, constantes em mm/min^0.5) sem conversao para vida util em anos nem tempo de iniciacao da corrosao. Nenhum valor de vida util. Valores gravados (null) correctos."
+ },
+ {
+  "row_id": 3120,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pre_fabricado_corrente",
+  "aplicacao_citacao": "Sec.1/Sec.5: blocos de terra comprimida (e taipa) estabilizados para alvenaria portante de edificios; Sec.4: prismas de alvenaria 'suitable for a wide range of loadbearing wall applications'; Sec.5: GWP 'per linear metre of wall' com blocos de 230 mm e juntas de 10 mm. O par gravado e o bloco de terra comprimida alcali-activado.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "LCA so de materiais e cura (sem fase de uso). Unica mencao a anos: 'research on cement stabilised earth materials over the past 50 years [1,2]' (Introducao) - nao e vida util. Tabelas no fim do manuscrito (versao de autor, Univ. Bath) sem vida util. Valores gravados (null) correctos."
+ },
+ {
+  "row_id": 3132,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.3.2: 'The study's functional unit is one cubic metre (1 m3) of 25, 30 and 40 MPa concrete strength grades', fronteira cradle-to-site; usos por classe so por remissao a norma [69] ('reinforced concrete in structural elements (C 25 and C 30) and as special concrete and construction (C 40)'), sem obra/elemento proprio.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma mencao a vida util ou durabilidade em anos no texto. Valores gravados (null) correctos."
+ },
+ {
+  "row_id": 3139,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2-4: misturas de UHPC leve com vidro expandido ensaiadas em laboratorio; Introducao so refere o uso do UHPC 'in construction and rehabilitation of bridge girders and decks [2]' na America do Norte e Sec.4.3 sugere uso em edificios para isolamento termico - nenhuma aplicacao adoptada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Analise de ciclo de vida limitada a custo, CO2 e energia por m3 (Figs.19-21), sem fase de uso. Nenhum valor de vida util. Valores gravados (null) correctos."
+ },
+ {
+  "row_id": 3146,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Resumo/Sec.3: betao de resistencia normal (NSC) com mucilagem de Opuntia ficus-indica ensaiado em laboratorio; UF (Sec.4.5.1): '1 Cubic meter of concrete produced' e '56-day compressive strength of 30 MPa'. A Introducao refere o uso tradicional em casas de taipa (mud and wattle) do Quenia, que nao e a aplicacao do betao estudado.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Mencoes a anos so contextuais ('in the next 50 years, the building sector alone will add at least 230 billion cubic meters of floor area [1]'; ettringite estavel ate 1 ano). Durabilidade (absorcao, gelo-degelo) sem conversao para anos. Nenhum valor de vida util. Valores gravados (null) correctos."
+ }
+]

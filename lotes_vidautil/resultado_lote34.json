@@ -1,0 +1,151 @@
+[
+ {
+  "row_id": 4578,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo laboratorial de betao geopolimerico FA-GGBFS com areia de residuo de silicato de sodio; so menciona genericamente (Introducao) 'GPC is often the best choice for precast industries' e (Conclusao) uso da construcao para betao leve, sem aplicacao declarada para as misturas ensaiadas.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhum valor de vida util no artigo. Unica mencao proxima: Ng et al. 2012 (sec. LCA) sobre 'design life' de pontes/muros em GPC, sem numero de anos."
+ },
+ {
+  "row_id": 4584,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 40,
+    "base": "literatura",
+    "fonte": "[13] Gan et al. 2017 (J. Clean. Prod. 161) e [14] Nadoushani & Akbarnezhad 2015 (Energy Build. 102)",
+    "citacao": "Sec.1 Introducao, p.2: 'the life span of buildings or structures is more than 40 years [13,14]'",
+    "preferido": true
+   }
+  ],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec.3: 'The evaluated cases of this study are two commercial buildings located in Seoul' - lajes macicas vs. lajes alveoladas (Caso 1 pisos acima do solo, Caso 2 estacionamento subterraneo).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Fronteira cradle-to-pre-operation (materiais ate construcao), sem vida util adoptada. O valor citado e generico ('more than 40 years', limite inferior) para edificios/estruturas em geral, nao especifico das lajes de betao; usar com cautela."
+ },
+ {
+  "row_id": 4599,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Resumo: 'The optimization of the cost and CO2 emissions in earth-retaining walls is of relevance, since these structures are often used in civil engineering' - muro de contencao com contrafortes, exposicao IIa (EHE).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Optimizacao heuristica de custo/CO2 de muros de contencao; nenhum valor de vida util nem de durabilidade (so classe de exposicao IIa da EHE-08)."
+ },
+ {
+  "row_id": 4600,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 50,
+    "valor_max": 100,
+    "base": "sem_fonte",
+    "fonte": "nenhuma - afirmacao do proprio estudo na discussao, sem norma nem referencia",
+    "citacao": "Sec.3/4 (p.12-13): 'a considerable amount more can be saved each year of use. Over a 50- to 100-year lifespan, this can be considerable (i.e., up to 100 times more)'; Conclusoes: 'multiplying effect (between 50 and 100 times) over the lifetime of the building'",
+    "preferido": true
+   }
+  ],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Tab.3: 'Ready-mix concrete (28-35 MPa) - 100% Portland cement (CEM I) 772.79 m3 ... Reinforced concrete for foundations, beams, columns, slabs, stairs' de uma moradia (domestic building) em Dammam, Arabia Saudita.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "A ACV e cradle-to-gate + transporte (sem horizonte temporal); a faixa de 50-100 anos de vida do edificio so aparece na discussao como ilustracao das poupancas anuais da fase de uso, sem fonte e sem entrar no calculo. Registada em 'citadas' (base sem_fonte) e nao como premissa declarada; decidir se conta como declarada (premissa_sem_fonte)."
+ },
+ {
+  "row_id": 4604,
+  "declarada": {
+   "valor": 100,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "Sec.3 (p.6): 'In all cases, it was considered that the materials will not be substituted throughout the service life of the structure (that is, 100 years)'; Sec.6 (p.17): 'Repair of 10% of the volume of concrete and steel every 25 years, throughout a service life of 100 years'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 100,
+    "base": "literatura",
+    "fonte": "[10] Younis, Ebead & Judd 2018 (Constr. Build. Mater. 175)",
+    "citacao": "Introducao (p.2): 'at the end of its 100-year service life, it could have a residual resistance of 70% over the initial [10] resistance' (betao com armadura GFRP)",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Caixao do quebra-mar do Porto de Valencia e coroamento do quebra-mar de Escombreras: 'Concrete caissons and/or breakwater crowns for vertical breakwaters' (obra maritima).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (100 anos) correcto, mas a localizacao principal e p.6 (Sec.3), alem de p.17. Nenhuma norma citada para os 100 anos (o 100-year aparece tambem na intro citando [10], ligado a resistencia residual do GFRP). Alem disso o estudo correu o Life-365 (modelo, ref.[38]) para o caixao com armadura de aco: vida util ate inicio de corrosao 14,9 anos com betao convencional e 21,3 anos no melhor caso (cimento com 70% de escoria); coroamento 22,8 anos - usados so para definir ciclos de reparacao (cada 25 anos) no cenario hipotetico de manutencao, nao como horizonte da ACV, que e 100 anos para os tres pares."
+ },
+ {
+  "row_id": 4605,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Titulo/Resumo: 'Eco-Friendly Design of Reinforced Concrete Retaining Walls' - muros de contencao de betao armado com contrafortes (contencao).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhum valor de vida util; so mencoes genericas a 'long-term usage' e durabilidade na Introducao."
+ },
+ {
+  "row_id": 4608,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Resumo: 'validated by its application in the structural concrete of an office building located in Germany'; Sec.3: 'load-bearing structure consisting of a frame of beams and pillars made of concrete'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Impactos so cradle-to-gate (A1-A3) a partir de EPDs; nenhuma vida util (nem RSL das EPD) no artigo. Os pares sao EPDs de betao pronto (Tab.3/Tab.6) aplicadas ao caso de estudo do edificio de escritorios."
+ },
+ {
+  "row_id": 4609,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "pavimento",
+  "aplicacao_citacao": "Sec.3: 'construction materials used in the drainage, pavement, and auxiliary tasks, which are the representative tasks of road construction, were analyzed'; pontes e tuneis excluidos; Tab.2/3: tres projectos rodoviarios (National road 86, 33, Northern arterial road).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhum valor de vida util. O betao pronto entra nas obras rodoviarias (drenagem, pavimento e trabalhos auxiliares), sem distinguir o elemento; classificado como pavimento (rodoviario) - poderia ser lido como infraestrutura rodoviaria."
+ },
+ {
+  "row_id": 4613,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 30,
+    "base": "literatura",
+    "fonte": "[19] Korea Institute of Civil Engineering and Building Technology 2014; [28] Ministry of Environment (Coreia) 2015",
+    "citacao": "Sec.2 (p.4): 'the reconstruction period has recently been shortened from 40 to 30 years for row houses and apartment buildings [19,28]'",
+    "preferido": true
+   }
+  ],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Conclusoes: 'The quantities of the 167 types of construction waste were estimated for a multi-family housing construction site'.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "O valor citado e o periodo legal de reconstrucao (elegibilidade para reconstrucao) de moradias em banda e edificios de apartamentos na Coreia (antes 40, agora 30 anos), nao uma vida util de projecto do betao; usar com cautela."
+ },
+ {
+  "row_id": 4623,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo laboratorial de argamassas com cinza volante de biomassa (BFA) em substituicao do cimento; sem aplicacao declarada (so referencia generica a 'construction practice').",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhum valor de vida util; so mencao generica a preocupacoes com 'service life' dos cimentos substituidos (Sec.2.4)."
+ }
+]

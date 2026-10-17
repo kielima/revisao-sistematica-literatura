@@ -1,0 +1,177 @@
+[
+ {
+  "row_id": 3403,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 70,
+    "base": "literatura",
+    "fonte": "Austrian Federal Railways (OeBB), sem referencia bibliografica no artigo",
+    "citacao": "p.10, sec.4.2.3: 'According to the Austrian Federal Railways, the life cycle of a steel bridge is approximately 100 year or rather 70 years in case of a concrete bridge.'",
+    "preferido": true
+   }
+  ],
+  "aplicacao": "ponte",
+  "aplicacao_citacao": "sec.4.2 / Fig.8 (p.7-9): 'Functional unit - superstructure of a pedestrian bridge with a span length of approximately 15.0 m'; B1-CCB C70/85 deck e paredes, B2-RCB deck C50/60 e paredes C30/37",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "ACV cradle-to-gate; fases de uso e fim de vida excluidas (sec.2.1 e 4.2.3). Nenhuma vida util adoptada como premissa. Os 70 anos sao atribuidos aos Caminhos de Ferro Austriacos sem fonte citada (nao e norma). O 100 anos refere-se a ponte de aco (nao conta)."
+ },
+ {
+  "row_id": 3404,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "sec.2.2.2 (p.3): 'The synthesis conditions for the AAMs are defined at laboratory scale'; sec.2.2.1: 'It is assumed that the scenarios will have similar applications with similar service life' (sem aplicacao nomeada). A mencao a 'precast applications' (p.2) e generica sobre AAB two-part, nao do estudo.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Confirmado: nenhum valor de vida util no artigo inteiro; uso e fim de vida excluidos (sec.2.2.1). Nenhuma vida util citada para argamassas/betoes alcali-activados."
+ },
+ {
+  "row_id": 3413,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "sec.2.1/2.3: argamassas de laboratorio (UNE EN 196-1, prismas 4x4x16), UF '1 m3 mortar in a cradle to gate approach'; nenhuma aplicacao declarada",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Cradle-to-gate; nenhuma vida util declarada nem citada (so mencoes qualitativas a durabilidade de AAM)."
+ },
+ {
+  "row_id": 3414,
+  "declarada": {
+   "valor": 40,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "p.3 (sec.2) e sec.2.4: 'Desirable service life for PCC noise barrier is averagely 40 years (Environmental Protection Department Highways Department, 2003; Parker, 2006)... 40 years of service life is assumed for all scenarios in this paper'; 'Service life of geopolymer composite was assumed to be 40 years same as PCC'.",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 12,
+    "valor_max": 45,
+    "base": "modelo",
+    "fonte": "Amorim Junior et al. (2021)",
+    "citacao": "p.3: vida util de geopolimero de metacaulim por difusao de cloretos 'estimated in the range 12-13 years and 39-45 years' (coef. de idade 0,4 e 0,6)",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "p.1-3: 'a 20 m low-height noise barrier (LHNB)... situated in the railway track of the city of Lappeenranta in Finland'; modulos pre-fabricados (S0-S2) e impressos 3D (S3-S4)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (40) confirmado. Base 'literatura': as fontes sao um documento do Environmental Protection Department/Highways Department (2003) e Parker (2006), nao normas de projecto. Sensibilidade 10-40 anos so para S1-S4 (geopolimero); caso-base fixo 40 para todos. Aplicacao: barreira acustica ferroviaria (obra de infraestrutura de transporte, em modulos pre-fabricados) - classificada como infraestrutura; alternativa seria pre_fabricado_corrente."
+ },
+ {
+  "row_id": 3416,
+  "declarada": {
+   "valor": 75,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "sec.5.2.2 (p.10): 'the type and frequency of maintenance... are consistent with normal structures in bridge applications based on historic data, as elaborated in reference (Dong, 2018). The investigated life span of the beam was 75 years.'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "sec.4 (p.6): 'flexural testing of four full-scale beams commonly used in buildings'; a manutencao segue porem 'normal structures in bridge applications' (Dong, 2018)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (75) confirmado para as duas vigas (SHCC e betao convencional). A base pode ser lida como 'literatura' (o calendario de manutencao e a vida util vem do enquadramento de Dong 2018) ou 'premissa_sem_fonte' (a frase dos 75 anos nao tem citacao directa). Os 40 anos do resumo sao o ponto de equilibrio de custo, nao vida util. Nota: a aplicacao das vigas e edificio, mas o horizonte de manutencao e de pontes."
+ },
+ {
+  "row_id": 3419,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "sec.3.1.9 (p.6): 'assumption of using them in low stress applications in the construction industry'; sem elemento ou obra declarada (betao de 25 MPa, escala laboratorial)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "sec.3.1.9: 'aspects such as product life span, durability and stability are not considered'; uso e fim de vida fora da fronteira (sec.3.1.1). Nenhuma vida util citada."
+ },
+ {
+  "row_id": 3424,
+  "declarada": {
+   "valor": 50,
+   "valor_max": 100,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "Resumo e sec.4.1 (p.6): 'a Functional Unit (FU) corresponding to the wall itself was selected with a service life varying from 50 years up to 100 years according to four different scenarios' (Cenarios 1/3 = 50 anos; 2/4 = 100 anos; frequencia de manutencao calculada por modelos de corrosao - Fick, 50 um/ano, pite hemisferico)",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 100,
+    "base": "literatura",
+    "fonte": "Van den Heede et al. (2018)",
+    "citacao": "p.2: estudo anterior com UF 'a slab... with a service life of 100 years' (betao com SAP)",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "sec.2 (p.2): 'two earth-retaining walls intended to replicate tunnel segment elements' (Bruges, 14 m x 2,75 m x 0,80 m)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Intervalo 50-100 anos: valor = limite inferior (50, igual ao gravado), valor_max = 100. Nao ha cenario-base unico; os anos sao horizontes de analise escolhidos pelos autores (sem norma citada); os modelos de durabilidade definem so a frequencia das reparacoes dentro do horizonte. Mesmos cenarios para Wall_Ref (C35/45) e Wall_SAP (C30/37)."
+ },
+ {
+  "row_id": 3439,
+  "declarada": {
+   "valor": 25,
+   "base": "literatura",
+   "norma": null,
+   "citacao": "sec.3.3 (p.6): 'During the use stage, a 25-year service life is considered (Stehly and Duffy, 2021)'; sensibilidade da vida nominal na sec.5 (Fig.11, ate 100 anos)",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 20,
+    "base": "literatura",
+    "fonte": "Gervasio et al. (2014); Rebelo et al. (2014)",
+    "citacao": "p.2: torres de aco, betao e hibridas de 80-150 m com 'initial 20-year lifespan'",
+    "preferido": false
+   }
+  ],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Resumo/sec.3.1: torres eolicas de 140 m (7,5 MW) em San Gorgonio, California",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (25) confirmado para 1006/1007. A premissa de 25 anos aplica-se as quatro torres, incluindo a 3D Cast cujo nucleo e o betao pronto de 35 MPa (sheet_row 1999, hoje sem vida util gravada) - deve receber tambem 25 anos (literatura, Stehly and Duffy 2021). Discussao (sec.6) menciona 50 anos so como hipotese de extensao."
+ },
+ {
+  "row_id": 3443,
+  "declarada": null,
+  "declarada_por_par": [
+   {
+    "sheet_row": 1009,
+    "valor": 215,
+    "base": "modelo",
+    "citacao": "sec.3.2.2 (p.8) e Table 4 (p.9): projecto tradicional com 'Concrete of 30 MPa... for the entire structure' e recobrimento minimo 4 cm -> SL = 215 anos pelo modelo de carbonatacao+propagacao da EHE-08 (Eq.3, Tuutti)"
+   }
+  ],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Titulo/sec.2.1: 'three-dimensional reinforced concrete frame building structures' (portico de betao armado com fundacoes, ACI 318-14)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "A vida util e uma SAIDA do modelo do proprio estudo (Eq.3, EHE-08), calculada por solucao e nao por classe: tradicional 215 anos (toda a estrutura em 30 MPa, unica solucao atribuivel a uma so classe); solucoes optimizadas 1.420-1.640 anos misturam classes 30-45 MPa por elemento, logo nao atribuiveis aos pares 1010-1012. Nao e premissa de vida util de projecto; registo o 215 so para a Kie decidir (a decisao de 2026-09-30 manteve QD=0)."
+ },
+ {
+  "row_id": 3449,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "sec.2.2/2.4.2: 'load-bearing floor system for a housing or office building constructed today in Switzerland'; caso de estudo: lajes de edificio de escritorios em Genebra",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Confirmado: nenhuma vida util em anos; uso e fim de vida da nova estrutura excluidos (B1-7, C1-4); so 'designed for the same expected service duration' (sec.2.4.2 e 4.2). Detalhe: na analise parametrica o comparador e laje C25-30 (sec.2.4.2); C30/37 so no caso de estudo (sec.3.3.2)."
+ }
+]

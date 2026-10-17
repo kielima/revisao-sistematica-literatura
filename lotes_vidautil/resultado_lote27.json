@@ -1,0 +1,127 @@
+[
+ {
+  "row_id": 4098,
+  "declarada": {
+   "valor": 50,
+   "base": "norma",
+   "norma": "NBR 15575 / NBR 8681",
+   "citacao": "p.4 (Methodology): 'The minimum expected durability of reinforced concrete structure project is 50 years ... as estimated by NBR 15575 (ABNT, 2013) in reference to NBR 8681 (ABNT, 1984)'; all functional units considered with similar service life",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Structural models for an eight-story building (abstract/methodology)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado (50) confere."
+ },
+ {
+  "row_id": 4099,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Misturas de CAA em laboratorio; so menciona elementos estruturais em ambiente de agressividade III (NBR 12655), sem aplicacao concreta",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem qualquer vida util no artigo; UF = 1 m3."
+ },
+ {
+  "row_id": 4106,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "15-storey RC residential building, Belo Horizonte; pilares (Sec. 2.1)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem vida util; '100 years' so refere projeccao de urbanizacao. LCA cradle-to-gate. Nota: fck gravado dos pares ok (30/40/50)."
+ },
+ {
+  "row_id": 4110,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Argamassa AAM resistente a altas temperaturas para reparo/reforco (TRM) de estruturas existentes e pre-fabricacao (Conclusions); sem categoria definida",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem vida util; UF = 1 m3 de argamassa."
+ },
+ {
+  "row_id": 4138,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo de material LC2 em laboratorio; 'structural applications' so em termos gerais",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem anos: Fchlor e proxy adimensional de vida util por cloretos (Sec. sustainability indices), sem valor em anos; so menciona 'prolonging the service lives' genericamente."
+ },
+ {
+  "row_id": 4142,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Argamassa/betao com palm oil clinker em laboratorio; FU = 1 m3 com resistencia 28 d",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Autores afirmam que durabilidade nao foi incluida na FU (exposicao nao agressiva assumida). Sem vida util."
+ },
+ {
+  "row_id": 4144,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Bloco de habitacao social em Sevilha, estrutura de betao armado de 2 pisos (Estudo de caso)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem vida util declarada nem citada."
+ },
+ {
+  "row_id": 4145,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Betao convencional 21 MPa 'concreto en masa', Medellin; edificacoes citadas so no contexto",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem vida util; unidade funcional por m3 / eco-eficiencia."
+ },
+ {
+  "row_id": 4160,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Argamassa de alta resistencia em laboratorio",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Sem vida util no artigo."
+ },
+ {
+  "row_id": 4161,
+  "declarada": {
+   "valor": 100,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "p.48: 'The functional unit in case study 2 is \"A concrete column ... serves under the exposure class XF4 for 100 years\"'; case study 3 idem para laje",
+   "sheet_rows": [
+    1212,
+    1213
+   ]
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Case studies 2/3: coluna (4 m, 3000 kN) e laje (vao 5 m) sem edificio/aplicacao especifica; EN 206 DK NA / Eurocode 2 citados para projecto",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valores gravados (100) conferem; 100 anos definido na UF sem norma nem estudo citado para o valor. Case study 1 usa FU por MPa, sem anos."
+ }
+]

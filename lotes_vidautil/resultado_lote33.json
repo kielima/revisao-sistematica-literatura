@@ -1,0 +1,133 @@
+[
+ {
+  "row_id": 4512,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Estudo de laboratorio de argamassa 3D impressa com fRA; so refere genericamente 'sufficient for structural applications' (Sec. 3 e conclusoes), sem aplicacao concreta declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util (propria ou citada) no artigo; texto completo (24 pp.) lido."
+ },
+ {
+  "row_id": 4516,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Pasta de cimento com cinza de lama sinterizada em laboratorio; so 'building material utilization of dredged sludge' (resumo), sem aplicacao estrutural declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util no artigo; a unica mencao a 100 anos e o horizonte do GWP100 (Sec. LCA), nao conta."
+ },
+ {
+  "row_id": 4518,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Sec. 4.1.1 (LCA): 'use of MRA and BBA ... in the manufacture of cement mortar and concrete as construction and building materials for concrete slabs in buildings.'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util do betao/estrutura. A unica 'useful life' e a da maquinaria (10.000 h, Sec. 5.1.2, custos O&M), que nao conta. ISO 15686-5 citada so para a definicao de custo de ciclo de vida [96]. ACV cradle-to-gate, UF 1 m3."
+ },
+ {
+  "row_id": 4521,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Pastas de vidro alcali-activado em laboratorio; aplicacoes so como hipotese: 'road applications for the lowest performance, other applications for higher strength' e '60 MPa (180 days) would be widely conceivable for structural applications' (Sec. 3.1).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util no artigo. 'Long-term' refere-se a resistencia ate 360 dias."
+ },
+ {
+  "row_id": 4522,
+  "declarada": {
+   "valor": 50,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "p.14 (Sec. 4, parametros da Eq.12, profundidade de carbonatacao xc usada no CO2 absorvido C5 da ACV): 't-the carbonation time (day); t is taken as 50 years for the calculation of the designed service life for this research.'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 20,
+    "valor_max": 90,
+    "base": "modelo",
+    "fonte": "Chen, L.; Su, R.K.L. Service Life Modelling of Carbonated Reinforced Concrete with Supplementary Cementitious Materials [37]",
+    "citacao": "p.3 (Introducao): 'Chen et al. established a service life assessment model for carbonated reinforced concrete with supplementary cementitious materials and found that the service life could be extended from less than 20 years to more than 90 years by considering early corrosion propagation [37].'",
+    "preferido": true
+   }
+  ],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "So intencao geral: p.3 'it is essential to investigate their potential for effective reuse in building engineering'; conclusoes 'can be effectively utilized in construction engineering'. Nenhum elemento/estrutura concreta declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado 50 confirmado, mas a frase esta na p.14 (nao p.15 como gravado). Os 50 anos sao uma premissa do proprio estudo (sem norma nem estudo citado) usada como tempo de carbonatacao para o CO2 absorvido. Aplicacao marcada nao_definida por cautela; se se aceitar 'building engineering' como declaracao, seria edificio."
+ },
+ {
+  "row_id": 4537,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Betao e pasta de geopolimero com CDWC em laboratorio; nenhuma aplicacao declarada (so 'concrete is still the most widely used building material', introducao).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util no artigo (13 pp. lidas na integra)."
+ },
+ {
+  "row_id": 4549,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Argamassas 3D impressas/moldadas com borracha de pneu em laboratorio; aplicacoes so sugeridas: 'favoring possible applications (non-structural) ... lightweight, heat insulation, and noise abatement' (p.10) e 'wall elements'/'building partition walls' (Sec. 2.1, citando [34],[35]).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util. 'Thirty-year studies on rubberized concrete' (introducao) refere-se a 30 anos de investigacao, nao a vida util."
+ },
+ {
+  "row_id": 4557,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Betao com po de calcario em laboratorio; nenhuma aplicacao declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util nem durabilidade estimada no artigo."
+ },
+ {
+  "row_id": 4560,
+  "declarada": {
+   "valor": 120,
+   "base": "norma",
+   "norma": "regulamentacao espanhola (a frase diz 'the regulations' sem a nomear; os codigos citados no artigo sao EHE-08 [25] e IAP-11 [26])",
+   "citacao": "p.7, Sec. 4.3.1 Use and Maintenance: 'the bridge needs one maintenance period of 2 days to satisfy with the regulations during its 120 years of service life.'",
+   "sheet_rows": null
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "ponte",
+  "aplicacao_citacao": "p.3, Sec. 4.1: 'The bridge studied is a single span prestressed concrete precast bridge of 40 m' (ponte rodoviaria, IAP-11).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Valor gravado 120 (p.7) confirmado. A norma da vida util nao e nomeada na frase; se a Kie preferir, pode ser tratada como premissa_sem_fonte."
+ },
+ {
+  "row_id": 4573,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Optimizacao de dosagem de betao (Fcu,k C30/C40/C70) por modelo substituto; nenhuma aplicacao declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Nenhuma vida util no artigo."
+ }
+]

@@ -22,7 +22,8 @@ spec.loader.exec_module(mexp)
 SAIDA = 'metanalise/dados_metanalise.csv'
 COLS = ['obs_id', 'estudo', 'rotulo', 'material', 'fck', 'co2_kg_m3', 'ci', 'estrato', 'familia', 'base_portland',
         'idade_dias', 'vol_m3', 'vida_util', 'ci_t', 'ic_fck_valor', 'ic_fck_tipo', 'ic_fck_n',
-        'ic_co2_valor', 'ic_co2_tipo', 'ic_co2_n', 'co2_com_desconto', 'ci_com_desconto', 'sem_bruto', 'cimento_subfamilia']
+        'ic_co2_valor', 'ic_co2_tipo', 'ic_co2_n', 'co2_com_desconto', 'ci_com_desconto', 'sem_bruto', 'cimento_subfamilia',
+        'vida_fonte', 'vida_fam', 'vida_fam_modelo', 'vida_fam_norma']
 
 
 def main():
@@ -43,7 +44,8 @@ def main():
         if not (mexp.FCK_MIN <= fck <= mexp.FCK_MAX and mexp.CO2_MIN <= co2m3 <= mexp.CO2_MAX):
             continue
         vol = mexp.tofloat(g(23))
-        vida = mexp.tofloat(g(19))
+        # F33: vida util do ci_t pela hierarquia (col 52; sem ela, a declarada da col 19)
+        vida = mexp.tofloat(g(52)) or mexp.tofloat(g(19))
         linhas.append({
             'obs_id': r, 'estudo': row_id, 'rotulo': mexp.short_label(g(4), g(5)),
             'material': str(g(7) or '')[:120], 'fck': fck, 'co2_kg_m3': co2m3, 'ci': co2m3 / fck,
@@ -58,7 +60,15 @@ def main():
             'ci_com_desconto': (mexp.tofloat(g(44)) if mexp.tofloat(g(44)) is not None else co2m3) / fck,
             'sem_bruto': 1 if str(g(47) or '') == 'nao' else 0,
             'cimento_subfamilia': g(48) or '',
+            'vida_fonte': g(53) or ('declarada' if vida else ''),
+            '_reg': {'estudo': row_id, 'cat': mexp.classify(row_id, g(7), g(3)), 'estudo_val': mexp.tofloat(g(59)),
+                     'modelo_val': mexp.tofloat(g(57)), 'norma_val': mexp.tofloat(g(58))},
         })
+    # F33: vida util media por familia (cenarios de sensibilidade do ci_t), a mesma do painel
+    medias = mexp.medias_vida_familia([l['_reg'] for l in linhas])
+    for l in linhas:
+        m = medias.get(l.pop('_reg')['cat']) or medias['_global']
+        l['vida_fam'], l['vida_fam_modelo'], l['vida_fam_norma'] = m['fam'], m['mod'], m['nor']
     os.makedirs('metanalise', exist_ok=True)
     with open(SAIDA, 'w', newline='', encoding='utf-8') as f:
         w = csv.DictWriter(f, fieldnames=COLS)

@@ -1,0 +1,126 @@
+[
+ {
+  "row_id": 3514,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2.1/2.3.1: argamassas de laboratorio (cubos curados a 40 C / banho a 23 C); ACV cradle-to-gate com 'declared unit of 1 m3 of mortar', gate 'presumed to be the ready-mix or precast concrete producer'; 'This study did not include the phases of use, maintenance, and end-of-life of the material.'",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral (63,9 mil caracteres) lido: nenhuma vida util declarada nem citada; o artigo so diz que a durabilidade das argamassas AAB fica por estudar (Conclusoes). Sem aplicacao estrutural declarada."
+ },
+ {
+  "row_id": 3519,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Resumo: 'Cementitious composite that has short molding time and high mechanical performance is favorable in pre-cast concrete industry'; Sec.5: 'Life cycle assessment of the developed composites in laboratory scale', FU 1 m3 of produced material. Conclusoes: 'opens possibility to increase the productivity of pre-cast fiber reinforced alkali-activated materials' (perspectiva, sem elemento concreto).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido: nenhuma vida util declarada nem citada. Compositos de laboratorio; a industria de pre-fabricados e so motivacao generica, sem elemento/aplicacao definida (por isso nao_definida e nao pre_fabricado_corrente)."
+ },
+ {
+  "row_id": 3529,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.2: argamassas de alta resistencia em prismas 4x4x16 cm (TS EN 196-1), ensaios a 400/600/800 C; ACV por m3 de argamassa (Eq.1), sem aplicacao declarada.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido: nenhuma vida util declarada nem citada (o artigo nao tem fase de uso nem durabilidade em anos)."
+ },
+ {
+  "row_id": 3539,
+  "declarada": {
+   "valor": 50,
+   "base": "premissa_sem_fonte",
+   "norma": null,
+   "citacao": "Sec.3.1 (p.6): 'The second scenario was assumed to be used for reinforced applications subjecting N to change based on the resistance of each alternative to carbonation for a required service life of 50 years'; Sec.5.2 (p.11): 'The second scenario on the other hand is assuming a 50-year-old building service life for reinforced concrete.'",
+   "sheet_rows": []
+  },
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.3.1/5.1: os pares gravados (Tab.6) sao do Scenario 1, 'assuming a plain concrete application' / 'benchmark for the GWP and cost of each strength class of plain concrete', sem elemento definido. (O Scenario 2, nao gravado, e betao armado de edificio: Sec.5.2 'assuming a 50-year-old building service life for reinforced concrete'.)",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "A vida util de 50 anos e premissa propria do estudo mas SO para o Scenario 2 (betao armado, edificio; Sec.3.1 'required service life of 50 years' e Sec.5.2 'assuming a 50-year-old building service life'), sem norma nem estudo citado para o numero (o EN 1992-1-1 e citado so para o calculo do recobrimento). Os pares gravados (sheet_rows 457-463) sao do Scenario 1, betao simples, onde 'N is assumed as 1 because the concrete is expected to sustain its service life (Garcia-Segura et al., 2013)' sem numero de anos -- por isso declarada.sheet_rows = [] (nao se aplica a nenhum par gravado). Confirma a nota de 2026-09-19 em vida_util_fonte_no_pdf. Decidir se os 50 anos do cenario 2 devem ou nao ser usados para estes pares."
+ },
+ {
+  "row_id": 3559,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Resumo/Sec.3.2: betao pesado (heavyweight) HC1 (barita, dados da literatura) e HC2 (escoria EAF), FU 1 m3 'of placed and compacted heavyweight concrete', sem aplicacao do betao pesado declarada. Intro: ACV 'assuming that the outputs would be implemented in actual infrastructure' (frase generica para os tres produtos: pavimento industrial, betao pesado, blocos permeaveis).",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido (8 pp.): nenhuma vida util declarada nem citada; ACV cradle-to-gate 'not the use and final disposal of the product'. Os pares gravados (HC1/HC2) sao o betao pesado; o artigo nao diz para que serve (nao foi deduzido blindagem). Os outros produtos (pavimento industrial IP, blocos PB) nao estao gravados."
+ },
+ {
+  "row_id": 3565,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Resumo: mix design de LC3 segundo IS 10262 'leading to higher quality and more predictable performance in structural applications'; Sec.4.1: ACV cradle-to-gate do cimento/betao, sem elemento ou obra definida.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido (78,6 mil caracteres): nenhuma vida util declarada nem citada para o betao (os unicos 'years'/'lifetime' referem-se a fabrica de cimento e combustiveis). Aplicacao estrutural so generica."
+ },
+ {
+  "row_id": 3568,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [
+   {
+    "valor": 20,
+    "base": "literatura",
+    "fonte": "Crawford RH [10], Life cycle energy and greenhouse emissions analysis of wind turbines..., Renew Sustain Energy Rev 2009",
+    "citacao": "Sec.6 (p.613): 'Over a 20 year period the gross avoided emissions from energy output of a 3.0 MW onshore wind turbine was calculated to be 128.5 x 10^3 tonnes CO2-e [10]. This equates to 6425 tonnes CO2-e/year.'",
+    "preferido": true
+   }
+  ],
+  "aplicacao": "infraestrutura",
+  "aplicacao_citacao": "Titulo/Resumo e Sec.4.1: betao estrutural de fundacoes de gravidade de turbinas eolicas onshore ('Onshore turbines are commonly supported by massive spread foundations'); Tab.3 classes 32/35/40 MPa.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral lido (7 pp.): nenhuma vida util adoptada pelo estudo (Sec.6 so diz 'provided that other properties such as durability are adequate for the site conditions and design life', sem numero). O unico periodo em anos e o de 20 anos de producao de energia da turbina de 3,0 MW de Crawford [10], usado para as emissoes evitadas -- e periodo de operacao da turbina, nao vida util declarada da fundacao; registado como citada por ser a unica referencia, a avaliar."
+ },
+ {
+  "row_id": 3576,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Fim da Sec.1 e Sec.2.2: 'concrete mixtures with fresh and hardened properties typically used in construction industry to produce reinforced concrete'; FU '1 m3 of concrete with the average compressive strength of 40MPa ... commonly prescribed by designers for load bearing concrete members' (New York City), sem obra/elemento definido.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral obtido (64,4 mil caracteres) e pesquisado por vida util/lifespan/design life/anos + metodos lidos: nenhuma vida util do betao declarada nem citada (os '60 years' sao do periodo de operacao de uma central de reciclagem de RCD em Lisboa, Coelho e Brito 2013 -- nao conta)."
+ },
+ {
+  "row_id": 3582,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "edificio",
+  "aplicacao_citacao": "Resumo/Sec.2.3: 'The town hall building in the German city of Korbach was selected as a case study, which was selectively demolished and rebuilt with RC-concrete'; Sec.2.2: C25/30 XC1 ('interior building elements') e XC2 ('foundation or exterior walls elements').",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral obtido (91,2 mil caracteres) e pesquisado + metodos lidos: nenhuma vida util declarada nem citada; ACV cradle-to-gate (C1-C3 + A1-A3), sem fase de uso. Os unicos '100 years' sao o horizonte do GWP100."
+ },
+ {
+  "row_id": 3584,
+  "declarada": null,
+  "declarada_por_par": [],
+  "citadas": [],
+  "aplicacao": "nao_definida",
+  "aplicacao_citacao": "Sec.1/2: misturas UHPC de laboratorio com OSFA e escoria; a Introducao so cita usos tipicos de UHPC na literatura ('UHPC has been used in bridges..., connections and joints..., jackets for columns'), sem aplicacao declarada para as misturas do estudo.",
+  "texto_completo_lido": true,
+  "texto_truncado": false,
+  "nota": "Texto integral obtido (73 mil caracteres) e pesquisado: nenhuma vida util declarada nem citada (os '100 years' referem-se a reservas de cinza volante aterrada, nao a vida util)."
+ }
+]
