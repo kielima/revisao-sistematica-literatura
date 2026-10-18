@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 3872,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "GWP A1-A3 237,22 kg CO2e/m3 da EPD Velde (NEPD-2508-1250); a EPD declara fronteira A1-A4 mas o valor usado e A1-A3 (Fig.3, Sec.3)",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "So os agregados naturais dizem 'production and transport' (25,80 kg CO2e/m3, NEPD-4200-3429-NO); transporte das restantes materias-primas na EPD nao e descrito",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "lorry >32 t EURO6 (so transporte de residuos 5 km ate aterro e 50 m interno)",
+   "factor": "0,1 kg CO2e/t.km (so residuos)"
+  },
+  "base_dados_processos": "EPD Norge NEPD-2508-1250 (betao C35/45 Velde); NEPD-4200-3429-NO (agregados); EPD S-P-01105 (Re-Con Zero Evo); ecoinvent 'Transport, freight, lorry >32 metric tonne, EURO6 {RER}| ... | Cut-off, S' e 'Inert waste, for final disposal {RoW}'",
+  "por_par": [],
+  "citacao": "Sec.2.3: 'encompass the A1-A4 life cycle stages'; Sec.3: 'GWP calculated for concrete production (A1-A3) is 237.22 kg CO2e/m3'; 'GWP for production and transport of natural aggregates is 25.80'; Tab.1",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF decodificado, pdftotext) ; paginas 4 e 6 (PDF) renderizadas e vistas: as figuras sao fotos do processo e grafico de barras de EPD, sem diagrama de fronteira. Fronteira da EPD (A1-A4) e valor usado (A1-A3) divergem no texto."
+ },
+ {
+  "row_id": 3218,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Tab.7 lista um factor de 78 g CO2/(t.km) para veiculos diesel mas nenhuma distancia nem fluxo de transporte",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "diesel vehicles",
+   "camiao": "",
+   "factor": "78 g CO2/(t.km)"
+  },
+  "base_dados_processos": "Ecoinvent (versao nao indicada); ReCiPe2016 midpoint (H)",
+  "por_par": [],
+  "citacao": "Sec.4 'The environmental data ... sourced from ... Ecoinvent'; Tab.7 'CO2 emission factor of diesel vehicles 78 g CO2/(t.km)'; nenhuma fronteira ('cradle-to-gate' so aparece em referencias)",
+  "texto_completo_lido": true,
+  "nota": "Download recusado (15 MB > 10 MB limite do Drive); lido por read_file_content (texto completo, 91 mil caracteres, funcionou). FIGURAS NAO VISTAS (PDF nao descarregavel); o texto nao refere nenhum diagrama de fronteira (Fig.14 = grafico de resultados)."
+ },
+ {
+  "row_id": 4785,
+  "fronteira": "outra",
+  "fronteira_texto": "'cradle to gate' (Sec.2.4): producao do OPC e transporte, areia de quartzo, transporte do residuo de toner, agua; vazamento, uso, demolicao e fim de vida excluidos",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Incluido: transporte do OPC (Olavarria->Bahia Blanca, 298 km, camiao) e do residuo de toner (9 km); nao descrito para areia nem agua",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": 298,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "",
+   "factor": "0,124 kg CO2/t.km (Tab.2)"
+  },
+  "base_dados_processos": "Factores da literatura: OPC 896 kg/t, areia 14 kg/t [Flower & Sanjayan 2007], agua 9 kg/t, camiao 0,124 kg/t.km [Puliafito & Castesana 2010] (Tab.2); sem software/ecoinvent",
+  "por_par": [],
+  "citacao": "Sec.2.4: 'ECO2 considers the production processes of the OPC and its transport ... 298 km using trucks ... transport of TW ... 9 km'; 'casting, use, demolition ... not taken into account'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF + pdftotext). Figuras do artigo (SEM, Frattini, ensaios) nao incluem diagrama de fronteira (conferido pelas legendas)."
+ },
+ {
+  "row_id": 3363,
+  "fronteira": "outra",
+  "fronteira_texto": "Fig.5: caixa solida = extracao/producao das materias-primas, transporte ate a central de betao, producao do betao (separacao, producao, cura); tracejados = agua, superplastificante, transporte para obra, construcao/uso, fim de vida",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Fig.5 e Tab.9: transporte de todos os materiais principais ate a central incluido (agregado de rio 100 km barcaca; RCA 20 km; cimento 100; cinza 50; NaOH 25; Na2SiO3 15 km; camioes 16-32 t); agua e superplastificante fora da fronteira (tracejados; SP desprezado <0,15 % da massa)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "barcaca 10.000 t / camiao 16-32 t",
+   "camiao": "",
+   "factor": "ecoinvent transport, lorry 16-32t, EURO3/tkm/RER; transport, barge/tkm/RER"
+  },
+  "base_dados_processos": "Ecoinvent V2.0 (EU average) para combustiveis, NaOH, Na2SiO3, transporte; dados industriais Servia para agregados",
+  "por_par": [],
+  "citacao": "Sec.4.3: 'Transport to construction site, construction, and use phases were omitted'; Fig.5 (renderizada e vista); Tab.9",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content. Fig.5 (pag. 7 do PDF) renderizada e vista: diagrama de fronteira confirma o texto."
+ },
+ {
+  "row_id": 4792,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'only A1-A3 stages were taken into consideration' (Sec.3)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Valores de GWP da Tab.4 sao de uma base de EPD (One Click LCA, filtro Poland) A1-A3; o artigo nao descreve o transporte das materias-primas",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "One Click LCA v0.30.0, Database 7.6, EN 15804+A2, Level(s); EPDs europeus (base ate maio 2024), filtro 'Poland' [ref. 51]",
+  "por_par": [],
+  "citacao": "Sec.3: 'only A1-A3 stages were taken into consideration in the LCA analysis. However, additional analysis incorporating ... construction works (A5 stage) is worth considering'; Tab.4",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF decodificado). Pagina 11 renderizada e vista (Tab.4/texto). Nao ha diagrama de fronteira; Fig.1-10 sao modelo estrutural e graficos de resultados. Texto com camada dupla (pdftotext confuso), confirmado visualmente."
+ },
+ {
+  "row_id": 3179,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "A palavra 'transport' nao aparece no artigo",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "Tab.8 factores em t CO2-e/ton: PC 0,82; areia 0,0139; NCA 0,43; RCA 0,1478; cinza alto Ca 0,007; SF 0,010; NaOH 0,70; Na2SiO3 1,514"
+  },
+  "base_dados_processos": "Factores da literatura [67-71] (Tab.8); sem software",
+  "por_par": [],
+  "citacao": "Sec.3.5 e Tab.8-10: so factores de emissao por material, sem fronteira nem transporte",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content. Figuras (XRD, ensaios, curvas) sem diagrama de fronteira (legendas conferidas)."
+ },
+ {
+  "row_id": 3117,
+  "fronteira": "outra",
+  "fronteira_texto": "Estudo declara 'cradle-to-grave' (Sec.2.1) e 'cradle-to-gate' (conclusoes); 4 etapas (Fig.1): fabrico (producao dos materiais e transporte ate a obra), construcao, utilizacao/manutencao, fim de vida",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Transporte das materias-primas ate a central/fabrica nao descrito (so ecoinvent); declarado transporte dos materiais produzidos ate a obra",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 9.3,
+   "dist_betao_km": 9.3,
+   "modal": "camiao; CFRP 3800 km aviao + 36,8 km terrestre",
+   "camiao": "",
+   "factor": "ecoinvent 'Concrete, 30-32 MPa'; 'Reinforcing steel'"
+  },
+  "base_dados_processos": "Ecoinvent (openLCA); BEDEC para maquinaria",
+  "por_par": [],
+  "citacao": "Sec.2.2.1: 'manufacturing stage covered all processes of producing the necessary materials and their transportation to the construction site ... 9.3 km for concrete and 43.4 km for steel'; 'all transportation processes necessary for the respective stages were also modeled'",
+  "texto_completo_lido": true,
+  "nota": "Lido por read_file_content (texto completo, 89 mil caracteres); download falhou (MCP fechou ligacao, >4 MB). FIGURAS NAO VISTAS (Fig.1 diagrama das etapas descrito so em texto). Valor de CO2 por par (Fig.2d) abrange provavelmente todas as etapas (inclui manutencao e EoL) - nao confirmado visualmente."
+ },
+ {
+  "row_id": 2745,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'(A1) raw material acquisition, (A2) transportation and (A3) processing and manufacturing ... cradle-to-gate'; modulo D incluido; montagem/construcao desconsiderados",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 incluida: distancia de transporte fixada em 100 km para todos os materiais (camiao 16-32 t)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": 100,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "lorry 16-32 t euro5",
+   "factor": "ecoinvent market"
+  },
+  "base_dados_processos": "Ecoinvent v3.7.1 (SimaPro): 'Transport, freight, lorry 16-32 metric ton, euro5 {RER} market for'; EPD Hjulsbro (aco de pre-esforco); EN 15804+A2 method",
+  "por_par": [],
+  "citacao": "Sec.2.2.1: 'transportation distances were fixed at 100 km [46]'; 'in our research, only the A1-A3 stages were accounted for'; 'construction/assembly stages ... disregarded'",
+  "texto_completo_lido": true,
+  "nota": "Lido por read_file_content (texto completo); download nao tentado de novo (5,9 MB, MCP caiu em tamanho semelhante). FIGURAS NAO VISTAS (Fig.2 esquema de cenarios de reutilizacao). O par 179 (DRB) pode incluir beneficios do modulo D conforme cenario - nao se sabe qual valor foi gravado."
+ },
+ {
+  "row_id": 3568,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "Nao ha fronteira explicita; factores de Flower & Sanjayan (Melbourne) para constituintes do betao, 'cradle to gate' so citado para a base ICE na comparacao",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Os factores de emissao (Tab.1) 'include emissions associated with average metropolitan transportation distances to a typical construction site' (transporte dos constituintes, factores de segunda mao); agua e aditivos desprezados",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "Tab.1 t CO2-e/t: OPC 0,820; FA 0,027; BFS 0,143; areia 0,0139; brita 0,0459; RCA 0,004"
+  },
+  "base_dados_processos": "Flower & Sanjayan 2007 [23] (Melbourne); RCA [34]; ICE [26] so como comparacao",
+  "por_par": [],
+  "citacao": "Sec.2: 'These figures include emissions associated with average metropolitan transportation distances to a typical construction site'; 'wind farms will typically be located beyond metropolitan distances and may require the use of a concrete batch plant on site'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content. Fig.1 (fundacao), Fig.2 (volumes), Fig.3-6 (barras) por legenda: nenhuma e diagrama de fronteira. O transporte e do material ate ao local da obra segundo factores de terceiros; nao e claro se inclui o betao pronto."
+ },
+ {
+  "row_id": 2786,
+  "fronteira": "outra",
+  "fronteira_texto": "Declara 'cradle-to-gate' (Sec.2.2) mas lista S1-S7: materias-primas, transporte ate ao armazem da pre-fabricacao, fabrico, transporte dos paineis ate a montagem, montagem, retrabalho, EoL; depois exclui montagem em obra e demolicao no EoL",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "S2 'transportation of raw materials to the prefabrication warehouse'; betao de AusLCI 'Concrete 40 MPa, 30% fly ash, at the batching plant' com transporte medio da central ao armazem de 50 km",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 50,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "AusLCI e Ecoinvent 3.5 (SimaPro 9.1.1.1); 'Concrete 40 MPa, 30% fly ash, at the batching plant' (AusLCI)",
+  "por_par": [],
+  "citacao": "Sec.2.2: S1-S7; Sec.2.4.2: 'assuming that the average transportation distance of concrete to the precast panel production warehouse is 50 km'",
+  "texto_completo_lido": true,
+  "nota": "Lido por read_file_content (texto completo, 85 mil caracteres); download falhou (9 MB). FIGURAS NAO VISTAS (Fig.2 fronteira do sistema so em texto). Texto contraditorio: 'cradle-to-gate' vs S4-S7; nao e certo se o CO2 gravado (betao 40 MPa) inclui os 50 km; so uma das duas leituras pode estar certa."
+ }
+]
