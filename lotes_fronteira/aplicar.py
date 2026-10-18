@@ -10,7 +10,14 @@ Colunas novas:
   66 fronteira_citacao     pagina/tabela/figura + frase
   67 fronteira_nota        notas do leitor (inclui o aviso de «figura nao vista»)
   68 leitura_fronteira     texto+figuras | so_texto | nao_lido  (derivado da nota)
-  69 a4_no_valor           sim | nao | incerto  (por confirmar: derivado de col 63; ver DECISOES F37)
+  69 a4_no_valor           sim | nao | incerto  = o A4 ja esta no valor gravado (revisao -> inverso de a4_somavel; resto: derivado de col 63, por confirmar)
+  70 local_fronteira       «p.N, Tab./Fig./Sec.» (so os 48 estudos revistos; nos outros o local esta na citacao, col 66)
+  71 local_transporte_materiais
+  72 local_transporte_a4
+  73 local_valor_gravado
+  74 valor_gravado_inclui  so_A1-A3 | A1-A3+A4 | ciclo_completo | incerto   (revistos)
+  75 a4_somavel            sim | nao | incerto  (pode-se somar o A4 do grafico a este par sem contar duas vezes?)
+  76 fronteira_revisao     2026-10-18 nos 48 estudos revistos (19 nao lidos + 29 duvidosos)
 Por par: `por_par` do lote sobrepoe o estudo (campos iguais). Uso: python3 lotes_fronteira/aplicar.py [--seco]
 """
 import glob
@@ -23,7 +30,9 @@ import openpyxl
 BASE = 'meta_analysis_base.xlsx'
 NOVAS = {60: 'fronteira', 61: 'fronteira_texto', 62: 'transporte_materiais', 63: 'transporte_betao_a4',
          64: 'transporte_dados', 65: 'base_processos', 66: 'fronteira_citacao', 67: 'fronteira_nota',
-         68: 'leitura_fronteira', 69: 'a4_no_valor'}
+         68: 'leitura_fronteira', 69: 'a4_no_valor', 70: 'local_fronteira',
+         71: 'local_transporte_materiais', 72: 'local_transporte_a4', 73: 'local_valor_gravado',
+         74: 'valor_gravado_inclui', 75: 'a4_somavel', 76: 'fronteira_revisao'}
 
 
 def clean(s, n=1500):
@@ -57,6 +66,11 @@ def main():
     for f in sorted(glob.glob('lotes_fronteira/resultado_lote*.json')):
         for r in json.load(open(f, encoding='utf-8')):
             res[int(r['row_id'])] = r
+    rev = {}
+    for f in sorted(glob.glob('lotes_fronteira/resultado_rev*.json')):
+        for r in json.load(open(f, encoding='utf-8')):
+            rev[int(r['row_id'])] = r
+    res.update(rev)
     wb = openpyxl.load_workbook(BASE)
     ws = wb['dados_fck']
     for c, n in NOVAS.items():
@@ -76,11 +90,19 @@ def main():
                    63: a4, 64: clean(dados(p.get('transporte_dados')), 600), 65: clean(p.get('base_dados_processos'), 800),
                    66: clean(p.get('citacao'), 900), 67: clean(f"{r.get('transporte_materiais_nota') or ''} | {r.get('nota') or ''}", 1500),
                    68: leitura(r), 69: {'incluido': 'sim', 'excluido': 'nao'}.get(a4, 'incerto')}
+            if rid in rev:
+                som = p.get('a4_somavel') or 'incerto'
+                val.update({69: {'sim': 'nao', 'nao': 'sim'}.get(som, 'incerto'), 70: clean(r.get('local_fronteira'), 300),
+                            71: clean(r.get('local_transporte_materiais'), 300), 72: clean(r.get('local_transporte_a4'), 300),
+                            73: clean(r.get('local_valor_gravado'), 400), 74: p.get('valor_gravado_inclui'), 75: som,
+                            76: '2026-10-18', 68: 'texto+figuras' if r.get('texto_completo_lido') else 'nao_lido'})
+            else:
+                val.update({75: {'incluido': 'nao', 'excluido': 'sim'}.get(a4, 'incerto')})
             for c, v in val.items():
                 ws.cell(row, c).value = v
             n_par += 1
         n_est += 1
-    print(f'{n_est} estudos, {n_par} linhas de dados_fck')
+    print(f'{n_est} estudos ({len(rev)} revistos), {n_par} linhas de dados_fck')
     if not seco:
         wb.save(BASE)
         print('gravado', BASE)
