@@ -18,3 +18,9 @@ Aprendido em 2026-10-18 (sessão Metanálise na nuvem + sessões locais no Claud
 - Local → nuvem funciona via SendMessage com o ID da sessão na nuvem (no prompt do cartão). A mensagem fica retida se o modo de permissão for diferente; com o padrão «Aceitar edições» (bypass desativado nas definições do app) chega sem retenção.
 - Eu não escolho o modo da sessão nova; vem das definições do app.
 - Nada é dado como aplicado na dissertação sem resposta da sessão local ou confirmação da Kiê. Feedback à Anthropic sobre isto já foi enviado pela Kiê (`FEEDBACK_ANTHROPIC_MENSAGENS_ENTRE_SESSOES.md`).
+
+**Testes 3 e 4 (2026-10-18) — sessões locais entre si e arquivamento**
+- Teste 3: mensagens para sessões locais ficaram retidas (modo diferente) e nenhuma respondeu por SendMessage; três arquivadas mesmo assim por outra via.
+- Teste 4 (sessão em «Aceitar edições»): 3 mensagens entregues e respondidas sem retenção; as sessões antigas responderam só em texto no chat; concluídas foram arquivadas pela sessão local (que tem ferramenta de arquivar).
+- Endereçamento: enviar à sessão na nuvem pelo ID `session_...` falhou («No agent named … is reachable»); pelo NOME da sessão («Metanálise») funcionou. Usar o nome nos prompts dos cartões.
+- Resultado da edição de teste: 3 tracked changes na Introdução do `DISSERTAÇÃO_KIÊ_v20.docx` (relato da sessão local; Kiê confirma no Word). A cópia `_TESTE_TRACKED` foi um engano do 1.º cartão e pode ser apagada.
