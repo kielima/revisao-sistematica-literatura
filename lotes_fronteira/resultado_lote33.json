@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 3507,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave (EN 15978), A1-A5 + C1-C4 (+reciclagem), sem B1-B5",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Texto: materiais cobrem A1, processamento e transporte ate as fabricas de lajes (A2); distancias Tab.8: cimenticios 100 km, agregados 38 km. Nao ha como saber se a linha 'Manufacturing' da Tab.11 (provavel fonte do par) inclui A2 ou se este esta na linha 'Transportation' (13,18 kg/m2 no caso 8 m/3 kN/m2).",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 100,
+   "dist_betao_km": 155,
+   "modal": "camiao",
+   "camiao": "camiao diesel 20 t",
+   "factor": "0,15 kg CO2e/t.km (Tab.6)"
+  },
+  "base_dados_processos": "Tab.5 (coeficientes de carbono incorporado de materiais, nao nomes de processos); Tab.6 transporte",
+  "por_par": [],
+  "citacao": "p.3 'also includes the transportations between each life cycle stage (A2, A4, C2)'; Tab.8 'Precast units to construction site 155 km'",
+  "texto_completo_lido": true,
+  "nota": "Fronteira ate ao fim de vida; par em kg CO2e/m2 de laje, ambiguidade sobre qual linha da Tab.11 foi gravada. download_file_content falhou (>10 MB, sem figuras); read_file_content (texto) funcionou; figuras nao vistas."
+ },
+ {
+  "row_id": 4822,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate; exclui uso e fim de vida",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Nenhum transporte modelado; o artigo diz que transporte e logistica serao incluidos em trabalho futuro. Concretos de referencia vem de USLCI + literatura (nao se sabe se com transporte).",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "USLCI; literatura [48-53]",
+  "por_par": [],
+  "citacao": "Sec.2.2.1 'cradle-to-gate'; Discussao: 'inclusion of transportation ... will make CED more relevant' / trabalho futuro",
+  "texto_completo_lido": true,
+  "nota": "Pagina 4 renderizada: so texto, sem diagrama de fronteira. download_file_content funcionou (PDF renderizado com pymupdf)."
+ },
+ {
+  "row_id": 3932,
+  "fronteira": "outra",
+  "fronteira_texto": "LCA com 'Material phase (raw material, plant production, transportation) + construction + use & maintenance' (Fig.8); fim de vida fora da caixa",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Fig.8: fase de materiais inclui 'Transportation'; nao se distingue transporte de materiais a central de A4. Dados LCI coreanos (KEITI).",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "betoneira 15 t (ida e volta), 6 m3 (concreto); basculante 24 t (asfalto)",
+   "factor": "tempo de transporte 1 h"
+  },
+  "base_dados_processos": "Korea LCI Database (KEITI 2022); IPCC 2006 para combustiveis",
+  "por_par": [],
+  "citacao": "Fig.8 (p.9) e Tab.12 linha 'Transportation (Round trip) Mixer Truck 15t 4,862 / 13,612'",
+  "texto_completo_lido": true,
+  "nota": "Par = trilho de concreto (total 782,5 tCO2e/km, Tab.15), que inclui transporte por betoneira e creditos de reabsorcao 4,06 %. download_file_content funcionou (PDF renderizado com pymupdf)."
+ },
+ {
+  "row_id": 2653,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "analisado: SSS pre-tratada, secagem, mistura, cura com CO2 (Fig.3); sem termo cradle-to-gate",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Transporte da escoria (SSS) a planta de carbonatacao EXCLUIDO explicitamente; areia e agua sem transporte indicado; sem caixas de transporte na Fig.3.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent 3.3 (absorcao quimica de CO2); sem nomes de processo de transporte",
+  "por_par": [],
+  "citacao": "Sec.2.2.2 'No transport of the SSS to the mineral carbonation plant is considered'; Fig.3 sem transporte",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (PDF renderizado com pymupdf). Fig.3 vista."
+ },
+ {
+  "row_id": 4028,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "emissoes = materiais + transporte + mistura (Eq.1)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Eq.1: CO2-e = CO2-eM + CO2-eT + CO2-eP, 'transport' incluido; o artigo nao imprime distancias nem valor de CO2-eT, so factores dos componentes (Tab.1, Yang et al. 2015). Nao ha como saber se o par gravado e o total ou so CO2-eM.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "factores de Yang et al. 2015 (Tab.1)",
+  "por_par": [],
+  "citacao": "Sec.2.1.1 'total CO2 emissions of HVS concrete include ... materials, transportation, and mixing'",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>10 MB, sem figuras); read_file_content (texto) funcionou; figuras nao vistas. Artigo de optimizacao sem diagrama de fronteira."
+ },
+ {
+  "row_id": 5086,
+  "fronteira": "outra",
+  "fronteira_texto": "A1-A3 + A4 + A5 + B2-B5 + C1-C4 + D (EN 15978); exclui B1, B6-B7",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte de aco, betao pre-fabricado e madeira de fabricas ate central/distribuidor/obra incluido (ex.: aco Asturias-Almeria 989,5 km).",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 989.5,
+   "dist_betao_km": 27.9,
+   "modal": "camiao",
+   "camiao": "16 t e 32 t (C16, C32)",
+   "factor": "ecoinvent 'transport, lorry 16 t/32 t'"
+  },
+  "base_dados_processos": "ecoinvent v2 (transport lorry 16 t / 32 t)",
+  "por_par": [],
+  "citacao": "Sec.5 'transport of each building material from the factory to the site (A4)'; Tab.4 rotas e distancias",
+  "texto_completo_lido": true,
+  "nota": "Par provavelmente = GWP de ciclo de vida por m2/ano (UF), nao A1-A3. download_file_content funcionou (PDF renderizado com pymupdf)."
+ },
+ {
+  "row_id": 3099,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte de todos os materiais ate a fabrica de blocos incluido por camiao/barca (Tab.4): cimento 30 km, areia/brita 52,1 km, cinza 163 km, reagentes importados 2300 km de barca.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "1,28e-4 kg CO2e/(kg.km)"
+  },
+  "base_dados_processos": "CML-IA; bases nao nomeadas por processo (LCIs de Hong & Li 2011, Hong et al. 2014)",
+  "por_par": [],
+  "citacao": "Sec.2.2.4 e Tab.4; Fig.2 sem caixas de transporte mas texto inclui",
+  "texto_completo_lido": true,
+  "nota": "A4 excluido por ser cradle-to-gate. download_file_content funcionou (PDF renderizado com pymupdf). Fig.2 vista."
+ },
+ {
+  "row_id": 4458,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "extraccao, producao de ingredientes e transporte de materiais (sem rotulo cradle-to-gate)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "CO2 total = transporte + soma dos componentes (Eq.9); factor 1,28e-4 kg CO2e/kg.km (Tab.2). Distancias nao impressas.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "1,28e-4 kg CO2-eq/(kg.km)"
+  },
+  "base_dados_processos": "modelo proprio baseado em Gursel [61], contexto australiano; ref. [60]",
+  "por_par": [],
+  "citacao": "Sec.3.2 'extraction of raw materials, production of ingredients, and materials transportation'; Tab.2; Eq.9",
+  "texto_completo_lido": true,
+  "nota": "Argamassa LC3 (5 pares identicos quanto a fronteira). download_file_content falhou (>10 MB, sem figuras); read_file_content (texto) funcionou; figuras nao vistas."
+ },
+ {
+  "row_id": 2681,
+  "fronteira": "outra",
+  "fronteira_texto": "convencional: cradle-to-grave; circular: cradle-to-cradle (Fig.3); variante 'C2gate' tambem calculada",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte de cimento (Abyek), agregados, SF e GGBFS ao local-alvo em Teerao por camiao, distancias via Google Maps (Fig.4, nao legivel em texto).",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "nao nomeados no texto (IMPACT 2002+)",
+  "por_par": [],
+  "citacao": "Sec.4.4 'transportation distances are identified using google map ... Cement is manufactured at Abyek and transported to the target location'",
+  "texto_completo_lido": true,
+  "nota": "Distancias estao na Fig.4, nao acessivel (so texto). A4 nao declarado: 'target location' parece ser o ponto de producao. Pares: ref. convencional e circular. download_file_content falhou (>10 MB, sem figuras); read_file_content (texto) funcionou; figuras nao vistas."
+ },
+ {
+  "row_id": 2946,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "modelo linear vs circular, 1 m3 de betao; sem rotulo de fronteira",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Incluido so o transporte do filler (natural 82 km; cinza de cal 23 km) e do residuo ao aterro (1,5 km); transporte de cimento, agregados e aditivos nao declarado.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 82,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "nao nomeados; modelo cut-off",
+  "por_par": [],
+  "citacao": "Sec.5.1 'transport of natural filler from the producer to the precast concrete producer (82 km) (Table 5)'; Tab.7 lime ash 23 km",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>10 MB, sem figuras); read_file_content (texto) funcionou; figuras nao vistas. Fig.1 (12 passos) nao vista."
+ }
+]
