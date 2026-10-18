@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 3155,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (p.10-12)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "GreenConcrete LCA: todos os materiais (materias-primas do cimento, gesso, cimento, agregados, aditivo, SCM, cartao moido) transportados por camiao Classe 8b (Tab.4); cartao: 100 km recolha->processamento e 100 km processamento->central, Euro III. Distancias dos restantes materiais nao impressas.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": "cartao 100+100; restantes nao impressas",
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "Class 8b; cartao heavy-duty Euro III, 8,7 L/100 km",
+   "factor": "Australian National Greenhouse Accounts Factors 2022"
+  },
+  "base_dados_processos": "GreenConcrete LCA (UC Berkeley) + SimaPro 8.0 Australian LCA databases (PP fibras)",
+  "por_par": [],
+  "citacao": "p.10 'from raw material extraction to ready-made concrete (cradle-to-gate)'; p.11 distancias de 100 km; Tab.4 'Transportation processes ... Truck Class 8b'",
+  "texto_completo_lido": true,
+  "nota": "Lido via read_file_content (texto completo, 82616 car.); download_file_content falhou (PDF 13 MB > limite 10 MB), por isso Fig.12-15 (fluxogramas) NAO vistas, so legendas/texto."
+ },
+ {
+  "row_id": 4142,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-batching plant: producao de cimento, areia, gravilha, POC e transporte ate a central; betonagem, transporte a obra, uso e fim de vida excluidos (Fig.4)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Fig.4: 'Transport to batching plant' dentro da fronteira. Tab.4: cimento 70 km, areia/gravilha 50 km, POC 110 km (cenario 1; x2 ida e volta); cenario 2 distancias iguais 100 km.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "cenario 1: 140/100/220 (ida e volta); cenario 2: 200 cada",
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "16-32 t, EURO3",
+   "factor": "Ecoinvent (transporte, global); producao de cimento/areia/gravilha MY-LCID"
+  },
+  "base_dados_processos": "MY-LCID (cimento, areia, gravilha); Ecoinvent (CPO, transporte); ReCiPe2016",
+  "por_par": [],
+  "citacao": "Fig.4 (pag.5, vista como imagem): 'Transport to construction site' a tracejado = 'Not included in LCA'; resumo: 'Only production of cement, sand, gravel, POC and transportation were included'; Tab.4",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF 20 pag.) + pdftotext; Fig.4 vista. Nota: texto da p.7 diz distancias 'to the construction site' (Tab.4) mas a Fig.4 poe o transporte ate a central; ha dois cenarios (1 e 2) e os pares nao distinguem qual foi gravado."
+ },
+ {
+  "row_id": 4207,
+  "fronteira": "A1-A4",
+  "fronteira_texto": "cradle to construction-site-gate, A1-A4, A5 excluido (p.3, Fig.2)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 'transportation of these materials to processing facilities' incluido no escopo; EPDs A1-A4.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "EPDs do EC3 / One Click LCA; nao se imprime nome de processo",
+  "por_par": [],
+  "citacao": "p.3: 'A1... A2... A3... A4... A5 excluded'; Fig.2 (vista): raw material transportation to factory + transportation of finished goods to site; texto: 'A1-A3 emissions for 1 m3 of this concrete are 238 kg CO2e/m3' vs Tab.2/3 A1-A4 (244,75 kg CO2e/m3)",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + pdftotext. ATENCAO: o artigo da os dois valores (A1-A3 = 238; A1-A4 = 244,75 kg/m3); a fronteira do par depende de qual foi gravado na linha 1225. Distancias nao impressas para o betao."
+ },
+ {
+  "row_id": 3995,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (resumo, 3.3.1)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Cimento: transporte ate ao porto de Singapura (70-100 kg CO2-eq/t por pais); agregados e escoria de cobre: transporte maritimo + camiao; Fig.3 mostra 'Transportation to concrete plant' do CS.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "navio (granel) + camiao",
+   "camiao": "heavy-duty trucks",
+   "factor": "GreenConcrete LCA tool"
+  },
+  "base_dados_processos": "GreenConcrete LCA tool [3] (sem nomes de processos)",
+  "por_par": [],
+  "citacao": "3.3.1: 'relevant life-cycle phases of raw materials extraction, transportation, and production'; 3.3.2(1): 'transportation of cement to Singapore causes 70 kg CO2-eq for China...'; Fig.3 vista; p. 'overseas transportation was found to be the major source'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + pdftotext; Fig.3 vista (fluxo do CS: transporte do estaleiro, lavagem, transporte a central). Distancias nao impressas; so se transcreve o transporte para Singapura."
+ },
+ {
+  "row_id": 4349,
+  "fronteira": "A1-A3+C+D",
+  "fronteira_texto": "cradle-to-grave: A1-A3, A4, B2-B5, C2-C4, D; A5, C1, B1 excluidos (2.1.1, Fig.1)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Fig.1 (vista) destaca A2 Transportation; Tally usa EPDs Sphera para A1-A3. O artigo nao descreve o A2 separadamente.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 40,
+   "modal": "camiao (betao 40 km); madeira macica: camiao 799 km, barco 6482 km, comboio 1127 km",
+   "camiao": "",
+   "factor": "Tally defaults para o aco e restantes"
+  },
+  "base_dados_processos": "Tally / Sphera database; EPDs",
+  "por_par": [],
+  "citacao": "2.1.1: 'system boundary was cradle to grave (A–C, plus D), including Modules A1–A3, A4, B2–B5, C2–C4, and D'; 'transportation distance for concrete was assumed to be 40 km'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + pdftotext (19 pag.); Fig.1 vista. O valor gravado (linha 1301) e de sistema completo; se for so A1-A3 ou o total depende de como foi extraido; A4 do betao e modulo separado (40 km)."
+ },
+ {
+  "row_id": 4483,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate, so fase de producao (2.5.1) + transporte dos materiais ate ao edificio",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "'the system boundary included the production of materials ... and transportation of these materials to the building site': 50 km brita/areia/perlite, 100 km cimento e CWA, 200 km aco/plastificante/cinza volante/CBA/FAA.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": "50 / 100 / 200 (ate ao local da obra)",
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "Lorry 22 t, Euro 0-4 mix",
+   "factor": "1 tkm, Ecoinvent v3.2"
+  },
+  "base_dados_processos": "Ecoinvent v3.2 / SimaPro 9.1: 'Gravel, crushed, at mine/CH U', 'Portland cement, strength class Z 42.5, at plant/CH U', 'Lorry transport, Euro 0, 1, 2, 3, 4 mix, 22 t total weight, 17.3 t'",
+  "por_par": [],
+  "citacao": "2.5.1 'cradle-to-gate LCA in the production stage only'; 2.5.2 'transportation distance from the producer/supplier to the retrofitted building was posited as 50 km ...'; Tab.8",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + pdftotext; nao ha diagrama de fronteira no artigo. O transporte e ate a obra (nao a uma central), nao e separavel em A2/A4; as misturas vem de Turk [16] e o CO2 gravado pode derivar do calculo do proprio artigo."
+ },
+ {
+  "row_id": 3993,
+  "fronteira": "outra",
+  "fronteira_texto": "'production phase' do betao, 1 m3 (Fig.2)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Fig.2 (vista): no 'Transport' dentro da fronteira, alimentado por diesel (3 km/L, 2,68 kg CO2-e/L); 2.2.1: combustivel do transporte das materias-primas. Distancias nao impressas.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "veiculo a diesel",
+   "camiao": "",
+   "factor": "3,0 km/L; 2,680 kg CO2-e/L (Australia 2013)"
+  },
+  "base_dados_processos": "Factores da Tab.3 (Mexico 2004/2014/2015, Australia 2013); sem base de dados nomeada",
+  "por_par": [],
+  "citacao": "2.2.1: 'vehicle fuel consumption for the transportation of the materials'; Fig.2; Tab.3",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (6 pag.); Fig.2 vista."
+ },
+ {
+  "row_id": 4578,
+  "fronteira": "outra",
+  "fronteira_texto": "soma de energia e CO2-e das materias do betao (7.2-7.3); sem fronteira declarada",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "'CO2-e for material transportation is not involved in the current study' e 'This work does not involve energy requirements ... for material transportation'.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Factores de literatura (Hammond & Jones 2011; Alsalman 2021; Turner & Collins 2013), sem base de dados",
+  "por_par": [],
+  "citacao": "7.3: 'CO2-e for material transportation is not involved in the current study.'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + pdftotext. Figs.20-23 sao graficos de barras (nao diagramas de fronteira)."
+ },
+ {
+  "row_id": 4033,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (p.5; Fig.2 'System boundary of LCA model')",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O texto nao menciona transporte; a Fig.2 (diagrama da fronteira) NAO foi vista.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "GaBi software database + literatura",
+  "por_par": [],
+  "citacao": "p.5: 'The system boundaries of the cradle-to-gate LCA model are shown in Fig. 2'",
+  "texto_completo_lido": true,
+  "nota": "Lido so via read_file_content (texto completo, 82011 car.); download_file_content falhou duas vezes (PDF 7,9 MB: ligacao ao conector fechada), por isso Fig.2 NAO vista - a resposta sobre transporte pode estar na figura; rever se necessario."
+ },
+ {
+  "row_id": 4623,
+  "fronteira": "outra",
+  "fronteira_texto": "'production stage' da argamassa, 1 t (Goal and Scope)",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Cinza de biomassa: coleta, armazenamento e transporte ate a central, 70 km, camiao de 20 t (Tab.4 'Lorry transport, 22t'); transporte do cimento e dos restantes materiais nao declarado (processos Ecoinvent 'Cement production', 'Gravel crushed').",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 70,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "20 t / Lorry 22 t",
+   "factor": "Tab.4: 70 km"
+  },
+  "base_dados_processos": "Ecoinvent v3.5 / SimaPro 8.5: 'Cement production', 'Gravel crushed', 'Lorry transport, 22t', 'Tap water'",
+  "por_par": [],
+  "citacao": "Boundary Conditions: 'transport distances up to 70 km by using lorries with a loading capacity of 20 t'; LCI: 'material collection, storage, and transportation to the concrete plant'; Tab.4",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + pdftotext; nao ha diagrama de fronteira no artigo."
+ }
+]
