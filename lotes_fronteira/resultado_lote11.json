@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 3485,
+  "fronteira": "nao_lido",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_lido",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_lido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF KHAN et al., 2024 (11,1 MB) > 10 MB, o Drive recusa download_file_content (limite 10 MB); figuras nao renderizaveis"
+ },
+ {
+  "row_id": 2599,
+  "fronteira": "nao_lido",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_lido",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_lido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF BUMANIS et al., 2022 (14,3 MB) > 10 MB, o Drive recusa download_file_content (limite 10 MB); figuras nao renderizaveis"
+ },
+ {
+  "row_id": 4806,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave (Sec.4.1, Fig.2): producao, transporte, construcao, manutencao, fim de vida; producao+transporte+construcao = 'cradle-to-site' (etapa inicial)",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "Os 420,2 kg/m3 gravados somam so a Producao da Tab.4 (cimento 0,951 + areias/brita 0,001 kg CO2/kg). O transporte dos ingredientes do betao (5,7 km) e do tubo (32,9 km) ate a obra e etapa separada (0,12 kg CO2 no CFST), fora do valor do betao. Transporte das materias-primas ate a central nao descrito.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 5.7,
+   "dist_betao_km": null,
+   "modal": "camiao diesel medio",
+   "camiao": "medium-sized diesel truck, distancias do Google Maps",
+   "factor": "0,166 kg CO2/t.km [33]"
+  },
+  "base_dados_processos": "factores da literatura [30] cimento 0,951 kg CO2/kg; agregados 1,06E-3 kg CO2/kg; sem ecoinvent",
+  "por_par": [],
+  "citacao": "p.6 Sec.4.1 e Fig.2 (caixa 'Transportation: Transporting ingredients'); p.7 Sec.5.1 'ingredients ... transported by a medium-sized diesel truck from local suppliers to the construction site'; Tab.4 p.8 linha Transportation 'Materials for concrete (5.7 km) 0.75 t.km 0.166'",
+  "texto_completo_lido": true,
+  "nota": "Betao produzido em obra (betoneira electrica); A4 = ingredientes ate a obra, nao betao pronto. Valor gravado (A1-A3 do betao) nao inclui transporte."
+ },
+ {
+  "row_id": 3207,
+  "fronteira": "nao_lido",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_lido",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_lido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF ZHANG et al., 2024b (23,0 MB) > 10 MB, o Drive recusa download; figuras nao renderizaveis"
+ },
+ {
+  "row_id": 2801,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'berço ao portão (cradle to gate)': extracao de materia-prima ate a saida do produto pelos portoes da fabrica; exclui uso/descarte",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Concreto C20/25 vem do processo GaBi 'DE: Concrete C20/25 PE' (base GaBi, Alemanha); o texto nao diz se o transporte das materias-primas do concreto esta nesse processo.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 0,
+   "modal": "camiao",
+   "camiao": "GLO: Truck-trailer PE; diesel mix at refinery (BR)",
+   "factor": "processos GaBi"
+  },
+  "base_dados_processos": "GaBi 6 Education / PE International: 'DE: Concrete C20/25 PE', 'GLO: Truck-trailer PE', 'BR: Diesel mix at refinery PE'; bloco ceramico via SimaPro 8.0 Demo",
+  "por_par": [],
+  "citacao": "p.73 'a fronteira considerada engloba da extracao de materia prima ate a saida do produto pelos portoes da fabrica'; Tab.12 p.82 'concreto Riacho Fundo-DF -> Riacho Fundo-DF 0 km' ('O concreto e produzido no canteiro de obras'); Fig.24 p.83 (concreto -> Truck-trailer -> Montagem do painel)",
+  "texto_completo_lido": true,
+  "nota": "Distancia do betao 0 km (central no canteiro) mas o processo de transporte consta no modelo; 'transporte dos materiais por caminhao da origem ate o canteiro' vem do banco GaBi. Fronteira A1-A3 do painel; o transporte aqui e o dos insumos ao painel."
+ },
+ {
+  "row_id": 3911,
+  "fronteira": "outra",
+  "fronteira_texto": "fase de producao de materiais + fase de construcao (so transporte); sem manutencao nem fim de vida; ciclo de 200 anos (2 pontes NSC = 1 UHPC)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Fase de producao 'extracao de materias-primas e distribuicao'; transporte considerado da extracao ate a central de betao proxima de Arendal; UHPC pre-ensacado transportado da Franca; aco da China.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "camiao 16-32 t e navio-tanque (tr.oc. tanker)",
+   "camiao": "Transport, lorry 16-32 t; Transport, tr.oc. tanker",
+   "factor": "ecoinvent 3.1; Tab.2: 1,28 / 38,82 t.km (camiao NSC/UHPC) e 54,01 t.km (navio UHPC)"
+  },
+  "base_dados_processos": "ecoinvent 3.1 em SimaPro 8.1; EPD europeia para o acelerador; ReCiPe 2008",
+  "por_par": [],
+  "citacao": "Sec.2.4 p.5: 'The construction phase ... only includes transportation of materials ... transport of concrete from the mixing plant to construction site'; Tab.2 p.6 (Transport, lorry/tanker); Fig.5 p.7 barra 'Transport' 7,3 t (NSC) e 9,1 t (UHPC) dentro dos 81,7 / 68,6 t gravados",
+  "texto_completo_lido": true,
+  "nota": "O CO2 gravado e o total do ciclo de vida da ponte (inclui transporte, aco, outros); nao e A1-A3 puro."
+ },
+ {
+  "row_id": 2747,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (Fig.4: extracao de materia-prima, fabrico e distribuicao)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O par gravado e o ligante OPC 32.5 de referencia (Tab.9, 807 kg CO2-eq), modelado com dados embebidos GaBi 'OPC 32.5' e agua (Tab.6, de Wei et al. 2010); o artigo nao descreve transporte para o OPC. O transporte (CDW 15 km, camiao 10 t; activadores 10 km, pick-up) aplica-se so ao geopolimero de CDW.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 15,
+   "dist_betao_km": null,
+   "modal": "camiao e pick-up (so geopolimero CDW)",
+   "camiao": "CDW: 10 t, 20 L/100 km; activadores: 0,5 t, 12 L/100 km",
+   "factor": "consumo de diesel, GaBi"
+  },
+  "base_dados_processos": "GaBi (Sphera), TRACI; 'OPC 32.5' e 'tap water' europeus por falta de dados turcos",
+  "por_par": [],
+  "citacao": "Fig.4 p.5 'Cradle-to-gate analysis' com bloco Transport (Truck) do geopolimero; Tab.3 p.5; Sec.3.2 p.4 'The European data for OPC 32.5 and tap water is used'; Tab.9 p.7",
+  "texto_completo_lido": true,
+  "nota": "Ligante (pasta), nao betao; o artigo nao declara transporte do OPC."
+ },
+ {
+  "row_id": 3241,
+  "fronteira": "outra",
+  "fronteira_texto": "'cradle-cradle' (ciclo de vida completo do edificio, com compensacao de carbono por reutilizacao de residuos); materializacao = producao de materiais + transporte de materiais + construcao",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "Os 295 / 340 kgCO2e/m3 (C30 / C40) sao factores de emissao por m3 de betao (Tab.3/4); o transporte e linha separada: 'Material transportation' 979,18 t x 0,104 kgCO2e/t.km (CJC = soma Mi.Fi + Mi.Di.Ti). Distancias medias nao impressas.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "veiculo",
+   "camiao": "factor 0,104 kgCO2e/(t.km)",
+   "factor": "0,104 kgCO2e/t.km; betao transportado ao local por veiculo com bombagem"
+  },
+  "base_dados_processos": "factores de emissao por m3/t (norma chinesa de calculo de carbono de edificios, 2019); sem ecoinvent",
+  "por_par": [],
+  "citacao": "Sec.3.2.2 p.5 (Eq. CJC com Di e Ti); Tab.3 p.8 linha 'Material transportation 979,18 t 0,104 kgCO2e/t.km'; Sec.4.2 'concrete was transported to the construction site by vehicle pumping'",
+  "texto_completo_lido": true,
+  "nota": "Linha de transporte agregada (todos os materiais) sem separar o betao; A4 dado como incluido no total do edificio mas nao no factor por m3."
+ },
+ {
+  "row_id": 4099,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'berco ao portal (grade-to-gate)', fases de extracao, transporte, fabricacao, montagem, desmontagem e desconstrucao (Fig.3)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Declarado so nominalmente (texto e Fig.3, etapa 'Transporte'); sem distancias nem factor de transporte: o inventario (Tab.3) usa apenas factores por kg de material (cimento 0,93; areias 0,0051; brita 0,0048; aditivo 0,60 kg CO2/kg) de Hammond & Jones e outros.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Hammond & Jones (2011), Mithun & Narasimhan (2016), Palankar et al. (2016), Paz (2020), Oliveira & John (2022); sem ecoinvent",
+  "por_par": [],
+  "citacao": "p.4 'ACVE e ACVCO2 do berco ao portal ... considerando as fases de extracao, transporte, fabricacao, montagem...'; Fig.3 p.5 caixa 'ETAPAS: Extracao, Transporte, Fabricacao, Montagem, Desmontagem e Desconstrucao'; Tab.3 p.5",
+  "texto_completo_lido": true,
+  "nota": "A lista de etapas parece generica; nao ha dado de transporte no inventario, por isso a inclusao real e incerta."
+ },
+ {
+  "row_id": 4090,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "Avaliacao do Ciclo de Vida Atribucional 'do berco ao portao' (excluindo uso e descarte)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte das materias-primas ate a central de mistura incluido (Tab.6); nao inclui transporte do betao nem da laje.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 300,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "Tab.6: cimento 300 km, superplastificante 500 km (lorry 7,5-16 t), brita 50 km, areia 70 km (lorry 16-32 t), residuo de borracha 5 km",
+   "factor": "ecoinvent/GaBi: RER transport lorry >32 t EURO5; 16-32 t EURO5; 7.5-16 t EURO5"
+  },
+  "base_dados_processos": "GaBi com ecoinvent v2.01: CH portland cement Z 42.5 at plant; CH gravel crushed at mine; CH sand at mine; RER synthetic rubber at plant; RER polycarboxylates; CP V ARI inserido manualmente",
+  "por_par": [],
+  "citacao": "p.4 'do berco ao portao'; Fig.2/3 p.5 (caixa Transporte entre agregados/cimento e Mistura de Concreto); Tab.6 p.6 'Dados de transporte dos materiais ate a central de mistura'",
+  "texto_completo_lido": true,
+  "nota": "Fronteira acaba no betao (Uso e Descarte fora)."
+ }
+]
