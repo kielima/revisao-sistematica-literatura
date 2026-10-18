@@ -1,0 +1,218 @@
+[
+ {
+  "row_id": 3843,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "LCI 'raw material acquisition and processing through concrete batching' (GreenConcrete LCA tool, Berkeley); sem diagrama de fronteira no artigo",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "cimento por camiao, cinza volante por comboio (importada de Wyoming), agregados por camiao (producao local); distancias/modos no material suplementar apendice E (nao acessivel)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "camiao (cimento, agregados); comboio (cinza volante)",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "GreenConcrete LCA tool (UC Berkeley); producao na area da Baia de SF",
+  "por_par": [],
+  "citacao": "Sec.2.2.2 p.6: 'raw material acquisition and processing through concrete batching were assessed... Transportation for cement was considered to be by truck and FA by rail'; Sec.3.1: GWP do cimento 5-35x o do transporte",
+  "texto_completo_lido": true,
+  "nota": "A4 excluido porque o LCI termina na central ('through concrete batching'); nao ha referencia a entrega. Figuras vistas: Fig.1/2 sao graficos de GWP, nao ha diagrama de fronteira."
+ },
+ {
+  "row_id": 2755,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF 14,6 MB, download_file_content do Drive falha (resposta demasiado grande/ligacao fechada); figuras de fronteira nao vistas"
+ },
+ {
+  "row_id": 4841,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave (pre-use, construction, use, end-of-life), Fig.2 vista; GWP do betao (340 kg CO2eq/m3, Tab.7) inclui transporte do betao ao local",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "distancia fabricante->obra 300 km para todos os materiais e 50 km para betao pronto; transporte materias-primas->central de betao nao descrito em separado; bases (MYLCID/ecoinvent) 'considered... manufacturing, transportation'",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 300,
+   "dist_betao_km": 50,
+   "modal": "rodoviario",
+   "camiao": "16 t (materiais), 24 t betoneira (betao)",
+   "factor": "0,84822 kg CO2/tkm (16 t); 0,93854 kg CO2/tkm (24 t)"
+  },
+  "base_dados_processos": "SimaPro 7.3.3; MYLCID (Malasia) + ecoinvent adaptado",
+  "por_par": [],
+  "citacao": "Sec.2.2.1 p.4 (pre-use phase assumptions); Tab.7 p.10: Total 340 kg CO2eq = cimento 282 (83%) + transporte do betao 34 (10%) + restante 32 (9%); Fig.2 p.3 'Transportation to Site' na pre-use phase",
+  "texto_completo_lido": true,
+  "nota": "Valor de betao da linha 1815 inclui A4 (transporte do betao 10%): risco de contagem dupla se se somar A4."
+ },
+ {
+  "row_id": 3620,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF 23,3 MB, download do Drive falha; figuras de fronteira nao vistas"
+ },
+ {
+  "row_id": 4753,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "cradle-to-grave / cradle-to-cradle, 'modules A1-D of EN 15804' (producao, uso com um transporte, EoL); Fig.3 vista (dimensoes, sem diagrama de fronteira)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "camioes diesel: 100 km para cada constituinte do betao (Tab.1/2 'Truck 100 km'); opcao 3 (C50/60 GaBi 'A1-A3', variante F1C3) e processo caixa-preta, transporte interno nao detalhado",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 100,
+   "dist_betao_km": 250,
+   "modal": "camiao diesel",
+   "camiao": "GLO: Truck, euro4, 28-32 t / 22 t payload",
+   "factor": "processo GaBi"
+  },
+  "base_dados_processos": "GaBi ts 10.6; ecoinvent 3.6; 'DE: Concrete C50/60 (A1-A3)'; 'EU-28: Concrete C35/45 (Ready-mix) (EN15804 A1-A3)'",
+  "por_par": [
+   {
+    "sheet_row": 1740,
+    "transporte_materiais_a1a3": "incluido",
+    "nota": "F2C1 = opcao 1 (CEM I 42.5), 100 km por constituinte"
+   },
+   {
+    "sheet_row": 1741,
+    "transporte_materiais_a1a3": "nao_declarado",
+    "nota": "F1C3 = C50/60 caixa-preta GaBi (A1-A3); transporte nao detalhado"
+   },
+   {
+    "sheet_row": 1742,
+    "transporte_materiais_a1a3": "incluido",
+    "nota": "SRC: processo EU-28 ready-mix A1-A3 + 100 km"
+   }
+  ],
+  "citacao": "Sec.3.1 p.6: 'transport between raw material (extraction) and use phase 250 km; further transport 100 km each'; uso: 'one transport from the manufacturer to the place of use' 250 km; p.9 'Concrete transports ... 100 km for each mix constituent'",
+  "texto_completo_lido": true,
+  "nota": "Valores dos pares sao totais do painel berco-ao-tumulo (A1-D), com A4 dentro; nao somar A4."
+ },
+ {
+  "row_id": 2758,
+  "fronteira": "outra",
+  "fronteira_texto": "'from raw material to the pre-operation stage' (cradle-to-pre-operation), Fig.3 vista: producao (materia-prima, transporte, fabrico) + construcao",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "valor gravado = factor 420 kg CO2eq/m3 do betao pronto (KLCI DB, Tab.2); transporte das materias-primas as fabricas calculado a parte (Eq.2; 110,07 e 127,80 kg no total da laje, Tab.3) e nao somado ao betao; se o factor KLCI ja o contem, nao declarado",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "National LCI DB (KLCI): 'Ready-mixed concrete (25-240-15)' 4,20E+02 kg CO2-eq/m3; ecoinvent 3.01 para materiais ausentes",
+  "por_par": [],
+  "citacao": "Tab.2 p.5; Tab.3/4/5 p.6: 'Transportation' linha separada de 'Ready-mixed concrete'; Tab.1: transporte de materiais ate ao local na fase construcao",
+  "texto_completo_lido": true,
+  "nota": "Transporte do betao ate a obra faz parte da fase de construcao (Tab.1), fora do valor gravado."
+ },
+ {
+  "row_id": 4749,
+  "fronteira": "outra",
+  "fronteira_texto": "fronteira de calculo (Sec.2.3) por processo: producao de materiais + transporte + maquinas; sem diagrama de fronteira (Figs.3-6 sao dados de equipamento)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "gravado = factor C60 447,4 kg CO2/m3 sem descricao da fronteira; Es = Em+Et+Ef+Ec (Eq.7) com transporte Et calculado a parte so para armadura (574 km, semi-reboque 30 t); betao 'self-made', sem transporte de betao",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 574,
+   "dist_betao_km": null,
+   "modal": "rodoviario (armadura)",
+   "camiao": "semi-reboque 30 t, 32,3 kg diesel/100 km",
+   "factor": "EF=C100*EFf/(100*L)"
+  },
+  "base_dados_processos": "factores IPCC; 447,4 kg CO2/m3 (C60) sem fonte de processo",
+  "por_par": [],
+  "citacao": "Sec.3.2.2 p.8: 'CO2 emissions factors of C60 and steel reinforcement are 447.4 kg CO2/m3 and 2.3 t CO2/t'; 'Since the concrete is self-made, there is no need to calculate the transportation distance of concrete'",
+  "texto_completo_lido": true,
+  "nota": "Transporte do betao nao aplicavel (fabrica propria); transporte das materias-primas do betao nao declarado."
+ },
+ {
+  "row_id": 2720,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF 5,7 MB, download do Drive falha (ligacao fechada); figuras nao vistas"
+ },
+ {
+  "row_id": 4080,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF 7,0 MB, download do Drive falha; figuras nao vistas"
+ },
+ {
+  "row_id": 3162,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF 8,7 MB, download do Drive falha; figuras nao vistas"
+ }
+]
