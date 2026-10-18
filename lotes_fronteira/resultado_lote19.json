@@ -1,0 +1,245 @@
+[
+ {
+  "row_id": 3602,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "GWP of life cycle phase A1 to A3 (A1: Raw Material Supply; A2: Transport; A3: Manufacturing)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Declarado so pela definicao da fase A1-A3 (A2 = Transport) e pelos factores 'GWP A1-A3' da Tab.8; sem distancias nem modal.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "Tab.8 (kg CO2e/kg A1-A3): cimento CEM I 52.5R 0,755 (EPD Holcim, ref.126); micro-silica 0,0061, areia fina 0,0385, fibras de aco 2,09, linho 0,31 (One Click LCA, ref.127); quartzo 0,0181 (ref.128); SP 1,88 (ref.129); bambu 0,38 (ref.130); coco 0,45 (ref.131)"
+  },
+  "base_dados_processos": "EPD (EN 15804+A1) e One Click LCA; processos ecoinvent nao nomeados",
+  "por_par": [],
+  "citacao": "Sec.4 p.14: 'This article focuses on the calculation of the GWP of the first life cycle phase A1 to A3 (A1: Raw Material Supply; A2: Transport; A3: Manufacturing)'; Tab.8 titulo 'Impact indicators ... for life cycle phase A1 to A3'.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>~2 MB: ligação MCP fecha) ou nao foi tentado; usei read_file_content (texto). Tex integral lido, titulo/autor (Joachim & Oettel, Materials 17, 3519) confirmados. PDF de 11,8 MB: figuras NAO vistas (Fig.10 e barras de GWP por componente; nao ha diagrama de fronteira no texto). Resposta incluido e fraca: assenta so na definicao A1-A3 do artigo."
+ },
+ {
+  "row_id": 4007,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "Athena Impact Estimator for Buildings v5.4; so elementos de betao e madeira; construcao em obra nao contabilizada; carbono armazenado na madeira excluido",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O artigo define cradle-to-gate e cradle-to-site na Introducao mas nao diz qual adoptou nos valores de Athena.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Athena IE4B v5.4 (base de dados Athena); sem nomes de processo",
+  "por_par": [],
+  "citacao": "Sec.2.2.3 (Table 3): 'embodied carbon content ... obtained from the LCA analysis using Athena Impact Estimator for Buildings by considering concrete and timber elements only ... on-site construction are not accounted'. Intro: definicoes genericas de cradle-to-gate / cradle-to-site.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>~2 MB: ligação MCP fecha) ou nao foi tentado; usei read_file_content (texto). download_file_content funcionou (1,5 MB, pdftotext). Texto integral lido, titulo/autor (Mirdad et al., Adv. Civil Eng. 2021) confirmados. Figs.1-7 vistas pela lista de legendas: nenhuma e diagrama de fronteira do sistema (sao esquemas estruturais e graficos de EC vs espessura). Pares sao EC em kg CO2e/m2 de sistema misto, nao de betao isolado."
+ },
+ {
+  "row_id": 3514,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate approach, ... through the production 'gate', presumed to be the ready-mix or precast concrete producer; use, maintenance and end-of-life excluded",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Fig.1: caixa 'Transport' dentro do 'System Boundary', antes de 'Batching'; GGBS por trem, cimento/agregado camiao/trem, activadores 3168 km camiao.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "rail + truck",
+   "camiao": "camiao (tipo/carga nao indicados)",
+   "factor": "Tab.2: camiao 8,7E-2 kg CO2e/ton-km (ref.39); trem 1,5E-2 kg CO2e/ton-km"
+  },
+  "base_dados_processos": "OpenConcrete (inventarios e rede electrica CA); ecoinvent 3 para activadores e superplastificante; nomes de processos nao transcritos",
+  "por_par": [],
+  "citacao": "Sec.2.2.1 p.3: PLC 130,6 km-ton por camiao; agregado fino 61 km camiao; GGBS 4500 km trem (Pennsylvania); activadores/SP 3168 km camiao. Sec.2.3.1: 'cradle-to-gate'. Sec.3 p.6: 'The curing process and raw material transportation (A2) ... Transportation of all constituents combined contributes between 13.3 kg and 57.6 kg of CO2-eq/m3'.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (2,0 MB, renderizada a Fig.1, diagrama de fronteira visto: Transport e Batching dentro da fronteira; Use e End of Life fora). Titulo/autor (Fan et al., J Build Eng 105, 112547) confirmados. Os 3 pares sao argamassas de controle (PC, KH, KC); distancias dos activadores/GGBS so se aplicam a AAB, PC-CRL usa 130,6 km (cimento) e 61 km (areia). Transporte = 3% do GWP de PC-CRL e 19-32% das AAB."
+ },
+ {
+  "row_id": 3413,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle to gate approach for the system boundaries, functional unit 1 m3 mortar",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O artigo nao menciona transporte em lado nenhum (0 ocorrencias de 'transport').",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent 3.6 (SimaPro 9.1, APOS,U): 'Cement, Portland {Europe without Switzerland}| market for | APOS, U'; 'Sand {RoW}| market for sand | APOS, U'; 'Tap water {Europe without Switzerland}| market for | APOS, U'; 'Sodium hydroxide, without water, in 50% solution state {RER}| chlor-alkali...'; 'Sodium silicate, solid {RER}| market for sodium silicate, solid | APOS, U'; 'Sodium sulfate, anhydrite {RER}| market for | APOS, U'",
+  "por_par": [],
+  "citacao": "Sec.2.2 'Goal and scope': 'functional unit was defined as 1 m3 mortar in a cradle to gate approach for the system boundaries'; Tab.3 LCI com nomes de processos ecoinvent 'market for'.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>~2 MB: ligação MCP fecha) ou nao foi tentado; usei read_file_content (texto). download_file_content FALHOU (2,4 MB, ligacao MCP fechou); read_file_content funcionou (texto integral). Titulo/autor (Batuecas et al., J Clean Prod 319, 128653) confirmados. Figuras NAO vistas (Figs.1-3 sao resultados mecanicos/GWP; pelas legendas nao ha diagrama de fronteira). Processos 'market for' (ecoinvent) costumam incluir transporte, mas o artigo nao o diz; nao interpretado."
+ },
+ {
+  "row_id": 4441,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "initial cradle-to-gate CO2e: raw material supply (A1), transportation (A2), manufacturing (A3); B1 (carbonatacao in situ) recuperavel; A4 e A5 excluidos",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 listado explicitamente na fronteira; sem distancias; calculo no software Athena IE4B.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Athena Impact Estimator for Buildings v5.2, 'User Defined Concrete Mix Design Library' (USA); sem nomes de processo",
+  "por_par": [],
+  "citacao": "Sec.2.3.1: 'The system boundary used for initial CO2e emissions was raw material supply (A1), transportation (A2), manufacturing (A3) ... The transportation stage (A4) and the construction stage (A5) were not included'; Sec.2.3.3: 'emissions associated with construction and transportation (A4 and A5) were not considered'.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>~2 MB: ligação MCP fecha) ou nao foi tentado; usei read_file_content (texto). download_file_content nao foi tentado (2,97 MB, risco de falha como BATUECAS); read_file_content funcionou. Titulo/autor (Ellingboe, Arehart, Srubar, Infrastructures 2019) confirmados. Figuras NAO vistas (Figs.1-4 sao graficos de resistencia, EC e sequestro; nao ha diagrama de fronteira). Misturas teoricas, A2 estimado pelo Athena sem dados impressos."
+ },
+ {
+  "row_id": 4439,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-gate LCA (Santoro e Kripka): aquisicao de materias-primas, transporte a central, producao, e transporte do betao a obra",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Segundo descricao do estudo-fonte (Santoro & Kripka): 'acquisition of raw materials, transport to the concrete plant, production in the concrete batch, and the concrete transport to the building site'; o artigo avaliado nao refaz o LCA, so usa os factores da Tab.2.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "Tab.2: concreto 30/45/50 MPa, Emission A 157,65/194,70/225,78 kg CO2/m3; Emission B 348,76/381,72/508,63"
+  },
+  "base_dados_processos": "Cenario A: levantamento in situ (Santoro & Kripka); Cenario B: SimaPro com Ecoinvent 3.5 e ReCiPe 2016, 'with adjustments in the processes and quantities'; nomes de processos nao dados",
+  "por_par": [
+   {
+    "sheet_row": 1356,
+    "fronteira": "outra",
+    "transporte_materiais_a1a3": "incluido",
+    "transporte_concreto_a4": "incluido",
+    "nota": "Cenario A (levantamento in situ): descricao do LCA-fonte inclui os dois transportes"
+   },
+   {
+    "sheet_row": 1357,
+    "fronteira": "outra",
+    "transporte_materiais_a1a3": "nao_declarado",
+    "transporte_concreto_a4": "nao_declarado",
+    "nota": "Cenario B (SimaPro/ecoinvent com ajustes): artigo nao detalha se os transportes foram mantidos"
+   },
+   {
+    "sheet_row": 1358,
+    "fronteira": "outra",
+    "transporte_materiais_a1a3": "incluido",
+    "transporte_concreto_a4": "incluido",
+    "nota": "Cenario A (levantamento in situ): descricao do LCA-fonte inclui os dois transportes"
+   },
+   {
+    "sheet_row": 1359,
+    "fronteira": "outra",
+    "transporte_materiais_a1a3": "nao_declarado",
+    "transporte_concreto_a4": "nao_declarado",
+    "nota": "Cenario B (SimaPro/ecoinvent com ajustes): artigo nao detalha se os transportes foram mantidos"
+   },
+   {
+    "sheet_row": 1360,
+    "fronteira": "outra",
+    "transporte_materiais_a1a3": "incluido",
+    "transporte_concreto_a4": "incluido",
+    "nota": "Cenario A (levantamento in situ): descricao do LCA-fonte inclui os dois transportes"
+   },
+   {
+    "sheet_row": 1361,
+    "fronteira": "outra",
+    "transporte_materiais_a1a3": "nao_declarado",
+    "transporte_concreto_a4": "nao_declarado",
+    "nota": "Cenario B (SimaPro/ecoinvent com ajustes): artigo nao detalha se os transportes foram mantidos"
+   }
+  ],
+  "citacao": "Sec.2.2.2 p.5: 'the authors performed a cradle-to-gate LCA of concretes ... the authors quantify the CO2 emissions, considering the acquisition of raw materials, transport to the concrete plant, production in the concrete batch, and the concrete transport to the building site.'",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>~2 MB: ligação MCP fecha) ou nao foi tentado; usei read_file_content (texto). download_file_content nao foi tentado; read_file_content (texto integral) funcionou. Titulo/autor (Tres Junior, Yepes, Medeiros, Kripka, Sustainability/Buildings 2023) confirmados. Figuras NAO vistas (Figs.1-10 sao algoritmo, geometria, Pareto; sem diagrama de fronteira). Descricao do transporte e de segunda mao (estudo citado) e vale explicitamente para o LCA de Santoro e Kripka; para o Cenario B o artigo so diz que os processos foram ajustados."
+ },
+ {
+  "row_id": 3419,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate process including acquisition of raw materials, production of the main product and transportation of materials (Fig.1); functional unit 1 m3 concreto",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Texto da Sec.3.1.1 e equacao 8 (emissoes de transporte = factor do combustivel x tempo x consumo x distancia ida e volta); so a distancia do residuo de copos (20 km) e impressa (Tab.2).",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 20,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "veiculo a combustivel fossil (nao especificado)",
+   "factor": ""
+  },
+  "base_dados_processos": "OpenLCA com base ecoinvent, CML baseline e ReCiPe midpoint; nomes de processos nao dados",
+  "por_par": [],
+  "citacao": "Sec.3.1.1: 'the system boundaries for the products involve a cradle-to-gate process including acquisition of raw materials, production of the main product and transportation of materials' (Fig.1). Tab.2: distancia 20 km (concreto, residuo substitui 10% da areia).",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>~2 MB: ligação MCP fecha) ou nao foi tentado; usei read_file_content (texto). download_file_content nao foi tentado (4,8 MB); read_file_content funcionou. Titulo/autor (Sandanayake, Bouras et al., J Clean Prod 339, 130498) confirmados. Fig.1 (fronteira) NAO vista: so o texto/legenda. Distancias das restantes materias-primas nao impressas."
+ },
+ {
+  "row_id": 4408,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "system boundaries ... from 'cradle to gate' to avoid any complications associated with post-use, transportation ...; 1 m3 de betao (extraccao, producao de materiais, preparacao e mistura)",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "Declarado: 'emissions from transportation were not considered in this research'.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "OpenLCA, CML-IA; so energia de moagem do CBWP (electricidade media tensao); restantes processos nao nomeados",
+  "por_par": [],
+  "citacao": "Sec.6 p.12: 'The system boundaries used for this research are from cradle to gate to avoid any complications associated with post-use, transportation ...'; 'As the CBWP could be collected from different places and the supply of the other raw materials varies, emissions from transportation were not considered'.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>~2 MB: ligação MCP fecha) ou nao foi tentado; usei read_file_content (texto). download_file_content nao foi tentado (5,8 MB); read_file_content funcionou. Titulo/autor (Nasr, Salman et al., Energies 16, 4587) confirmados. Figuras NAO vistas; as Figs.7-10 sao GWP e resultados (sem diagrama de fronteira no texto)."
+ },
+ {
+  "row_id": 3354,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "sem rotulo 'cradle-to-gate' para o proprio estudo; so impactos incorporados (EC/EE) de constituintes; comparacao de alto nivel, 'detailed LCA ... beyond the scope'",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Factores da Tab.2 (kg CO2/t): so o GGBS (52, fonte MPA: inclui transporte da escoria ate a moagem) e a SF (14, Doble 2009: inclui transporte da pasta ate ao UK) tem transporte mencionado; cimento, NHL5, agregado, SP e agua: nao declarado. Impactos da escoria e SF = so processamento secundario.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "Tab.2 kg CO2/t: CEMI 930; NHL5 635; GGBS 52; SF 14; agua 0,3; agregado 4; SP 220"
+  },
+  "base_dados_processos": "Factores de literatura (CESA 2006; EFCA 2006; Enviros 2009; MPA 2011; ELKEM 2013; Hammond & Jones 2009); sem processos ecoinvent",
+  "por_par": [],
+  "citacao": "Sec.1.2.3.1: 'GGBS has an EC of 52 kgCO2/t (MPA, 2011). This figure includes the CO2 associated with the secondary processes, namely granulation of the slag, transport to the slag grinding plant and CO2 derived from drying and grinding'. SF: 'This figure includes collection and secondary processing of the SF as well as transportation of the slurry to the UK'. Sec.2.2: 'only the impacts associated with the secondary processing of the aluminosilicate additions, GGBS and SF, were assumed'.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (0,73 MB, pdftotext). Titulo/autor (Grist, Paine, Heath, Norman, Pinder, J Clean Prod 93, 26-37, 2015) confirmados. Figuras (Figs.1-3: producao de silicio, resistencia, alocacao) vistas pelas legendas: nenhum diagrama de fronteira. Texto integral lido."
+ },
+ {
+  "row_id": 3151,
+  "fronteira": "outra",
+  "fronteira_texto": "'ground-to-gate' / cradle-to-gate descritos genericamente (Sec.2.1); Figs.1-3 chamadas 'cradle to grave system approach' para OPC, GPC e LC3; o calculo cobre producao de materiais e cura (GPC)",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Declarado excluido: 'The energy demand and CO2-e associated with transporting materials from the source to the destination are not considered in the present investigation'; mas os factores de literatura dos activadores alcalinos (NaOH, Na2SiO3) 'includes the emission associated with the transportation of goods' e o cimento 'comprise ... transporting them to the production unit'.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "Cimento 840 kg CO2/t; MK 0,33, GGBS 0,052, FA 0,004, SF 0,0014 t CO2/t; filler 4,8 kg CO2/t; SP 1880 kg CO2/t; NaOH 1915 kg CO2/t; Na2SiO3 1,514 (ou 1,222) t CO2/t; cura GPC 0,039 t CO2/t"
+  },
+  "base_dados_processos": "Factores de literatura (refs. 20, 92, 95, 97, 100, 101); sem processos de base de dados",
+  "por_par": [],
+  "citacao": "Sec.1 p.2: 'The energy demand and CO2-e associated with transporting materials from the source to the destination are not considered in the present investigation'; Sec.5.1: 'the emission value stated above includes the emission associated with the transportation of goods. The present investigation ... the emission involved in material transportation is excluded'.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>~2 MB: ligação MCP fecha) ou nao foi tentado; usei read_file_content (texto). download_file_content nao foi tentado (9,0 MB); read_file_content funcionou. Titulo/autor (Kanagaraj, Anand et al., Constr Build Mater 398, 132484) confirmados. Figs.1-3 (diagramas 'cradle to grave' de OPC/GPC/LC3) NAO vistas: so o texto. Marquei parcial porque a exclusao declarada contradiz o texto sobre os factores de literatura (ver transporte_materiais_nota)."
+ }
+]
