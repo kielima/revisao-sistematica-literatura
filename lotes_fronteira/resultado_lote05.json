@@ -1,0 +1,258 @@
+[
+ {
+  "row_id": 3576,
+  "fronteira": "outra",
+  "fronteira_texto": "Sem nome padrao; componentes do betao preparados e transportados ate a central (ready-mix); producao do betao na central, uso, demolicao e gestao de residuos excluidos por 'nao afectados' pelo tipo de agregado",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte de cimento, areia, agregado natural/reciclado ate a central de betao incluido (barge e camiao); RCD ate a estacao de transferencia (~6 km) e a central; transporte evitado de RCD a aterro creditado",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "camiao 16-32 t e barcaça (hidrovia)",
+   "camiao": "lorry 16-32 metric ton EURO4 (GLO)",
+   "factor": "distancia media RCD->estacao de transferencia ~6 km; demais distancias por localizacao geografica (centrais, pedreiras, fabricas)"
+  },
+  "base_dados_processos": "Ecoinvent 3.3: Cement, Portland (US) | production; Sand (RoW) | gravel and quarry operation; Tap water (RoW) | market for; Transport, freight, inland waterways, barge (RoW) | processing; Transport, freight, lorry 16-32 metric ton, EURO4 (GLO) | transformation; Inert material landfill (RoW) | construction; producao de agregado via Athena",
+  "por_par": [],
+  "citacao": "Sec.2 p.204-205: 'The CNA and CRA concrete systems contain the processes that are required for preparing and transporting concrete components to a concrete ready-mix plant'; 'impacts of producing concrete in a ready-mix plant ... not affected by the type of coarse aggregate' (nao contabilizados); Sec.3: 323 vs 310 kg CO2 eqv sem aterro evitado; Appendix A",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem. As linhas gravadas correspondem presumivelmente a 310/323 kg CO2-eq/m3 (sem credito de aterro evitado); nao verificado aqui qual valor esta gravado."
+ },
+ {
+  "row_id": 5052,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "'do berco a entrega' (cradle-to-delivery): etapa de produto + processo de construcao (A5: fundacao, superestrutura, cobertura, revestimento, pintura); uso e demolicao fora",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Inventario inclui o transporte dos materiais dos locais de extraccao/fabricacao/distribuicao ate o canteiro; o betao e o processo ecoinvent adaptado 'concrete production 25MPa, RNA only' (betao usinado) — a tese nao descreve o transporte das materias-primas ate a concreteira",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 15.2,
+   "modal": "rodoviario",
+   "camiao": "Transport, freight, lorry 7.5-16 metric ton, EURO5 (RoW) market for",
+   "factor": "Tabela 8: concreteira->canteiro 33,5 km (CB, CP1) e 15,2 km (CP2); fornecedores de materiais->canteiro 26,27 km (CB/CP1) e 1,30 km (CP2)"
+  },
+  "base_dados_processos": "Concrete, 25MPa {RoW}| concrete production 25MPa, RNA only | APOS, U (adaptado: matriz electrica, cimento, areia e brita por datasets brasileiros); transporte: Transport, freight, lorry 7.5-16 metric ton, EURO5 {RoW}| market for ... | APOS, U",
+  "por_par": [],
+  "citacao": "Sec. Fronteira do sistema p.74 e Fig.12 p.75 ('do berco a entrega'); Sec.3.3.2 p.76; Tabela 8 p.78; Tabela 10 p.80; apendice (Concreto C25 5,52 m3, linha de transporte em t.km)",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem. Valor da linha e a quota do concreto na etapa Fundacao do CP2; a quota inclui o betao (processo de producao) e, no calculo do cenario, o transporte concreteira->obra da Tabela 8 (nao confirmado se a quota gravada o soma). Transporte das materias-primas ate a concreteira: nao_declarado (so ha transporte dos materiais ao canteiro)."
+ },
+ {
+  "row_id": 4301,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate: da extraccao das materias-primas a producao do betao (Fig.1); construcao em diante excluida",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Incluido: cimento (40 km) e escoria de cobre (25 km) ate a central; agregados naturais assumidos proximos da central e transporte desprezado (negligible); escoria de cobre inclui producao de cobre ate reciclagem",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": 40,
+   "dist_betao_km": null,
+   "modal": "rodoviario",
+   "camiao": "Lorry 3.5-7.5 t (t.km: 12,059 / 11,814 / 11,531 / 11,211 por mistura)",
+   "factor": "cimento 40 km, escoria de cobre 25 km; agregados desprezados"
+  },
+  "base_dados_processos": "Ecoinvent v3.01 + SimaPro 9.2.01 (CML-IA baseline); processo de reciclagem da escoria de cobre inserido a partir de Kua (nao existe na base); Concrete Mixing Plant (u); Transport Lorry 3.5-7.5 t",
+  "por_par": [],
+  "citacao": "Sec.2.2.2 System Boundaries: 'cradle-to-gate ... Natural aggregates are assumed to be located close to the concrete mixing plant, and thus their transportation is considered negligible. The processes belonging to the construction phase and onwards are excluded'; Sec.2.2.3 (40 km / 25 km); Tabela do inventario FU",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem."
+ },
+ {
+  "row_id": 3105,
+  "fronteira": "outra",
+  "fronteira_texto": "Modulo A1 (Raw Material Supply) so, na perspectiva do produtor de betao; EN 15804/EN 16908; escorias sinteticas com carga zero",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "Transporte (A2) excluido: 'supplier-specific transportation impacts are excluded'; so extraccao e processamento das materias-primas e energia de fusao/arrefecimento da escoria sintetica",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Nao citam nomes de processos ecoinvent; referem 'ecoinvent, 2024' para NaOH (producao + vapor); dois cenarios de energia: Media da rede alema vs. mix renovavel dos Paises Baixos",
+  "por_par": [
+   {
+    "sheet_row": 1922,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1923,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1924,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1925,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1926,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1927,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1928,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1929,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1930,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1931,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   },
+   {
+    "sheet_row": 1932,
+    "transporte_materiais_a1a3": "excluido",
+    "transporte_concreto_a4": "excluido"
+   }
+  ],
+  "citacao": "Sec.2.x p.4-5: 'the analysis considers the information module A1 – Raw Material Supply ... additional inputs related to transportation, further manufacturing processes, or end-of-life phases would need to be incorporated ... this study focuses exclusively on the A1'; Sec.3.7 p.17",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem. Pares 'grid' e 'renew' diferem so no cenario de energia, nao no transporte."
+ },
+ {
+  "row_id": 4537,
+  "fronteira": "outra",
+  "fronteira_texto": "Sem nome padrao; ACV por eBalance/CLCD de 1 m3 de CDWGC/CDWGP: producao de materias-primas + transporte de materias-primas + preparacao do betao (Tabela 7)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Tabela 7 tem coluna propria 'Raw Materials Transportation' (28,72 kg CO2eq/m3 no betao; 76,24-77,58 na pasta), somada ao total; distancias nao impressas",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "eBalance (LCA software 3.0) com base de dados CLCD (chinesa); nomes de processos nao transcritos",
+  "por_par": [],
+  "citacao": "Sec.2.3.2 p.5 (eBalance + CLCD); Sec.3.4 Tabela 7 p.10: colunas 'Raw Materials Production | Raw Materials Transportation | Concrete Preparation | Total CO2 Emissions'",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem. O valor gravado nas linhas (CDWGC60/CDWGC20/CDWGP3) e o Total da Tabela 7 (inclui transporte). Cura termica/pre-tratamento em 'Concrete Preparation'."
+ },
+ {
+  "row_id": 3061,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'cradle-to-gate' (Brightway2); impressao, uso e fim de vida e infraestrutura de laboratorio excluidos; FU = 1 m3 de material de impressao 3D",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O artigo nao menciona transporte; detalhes do modelo remetidos a ref.[42] (nao lida)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Brightway2, EF 3.0 baseline 100 anos; nomes de processos nao impressos (ref.[42])",
+  "por_par": [],
+  "citacao": "Sec.2.2.1: 'The climate change score is calculated with a cradle-to-gate LCA model using Python software Brightway2. The printing, use phase, and end of life are excluded ... The functional unit is the production of 1 m3 of 3D printing material'; palavra 'transport' ausente do texto",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem. 'transport' tem zero ocorrencias no artigo."
+ },
+ {
+  "row_id": 2849,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "berco-ao-portao (cradle-to-gate), GaBi Professional; geografia: centro de distribuicao das materias-primas ate Pirassununga/SP, onde as pastas foram modeladas",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Incluidos no sistema: producao de MgO, silica ativa, superplastificante e o transporte das materias-primas ate o local de mistura (SF 230 km, MgO 205 km, SP 180 km)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": 205,
+   "dist_betao_km": null,
+   "modal": "rodoviario (caminhao)",
+   "camiao": "",
+   "factor": "SF 230 km; MgO 205 km; SP 180 km ate Pirassununga-SP"
+  },
+  "base_dados_processos": "Ecoinvent 3.8, dados RoW (2021); GaBi Professional; ReCiPe 2016 midpoint (H); FU 1 m3 de pasta; nomes de processos nao transcritos no texto",
+  "por_par": [],
+  "citacao": "Sec.5.2.2.7 p.45: 'foram incluidos no sistema produtivo das matrizes a producao de MgO, SA, superplastificante e o transporte das materias primas ate o local de mistura'; Sec.6.1.1.6 p.70 (distancias; Fig.25 com parcela 'transporte'); CC MSF80-20 = 1,31 t CO2-eq/m3, MSF70-30 = 1,15",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem. Documento do Drive truncado (~128 mil caracteres, termina em Fig.30 do cap. de resultados); as secoes de metodo da ACV (5.2.2.7) e de resultados da ACV (6.1.1.6) foram lidas. Pasta (nao betao): A4 nao se aplica; excluido pelo cradle-to-gate."
+ },
+ {
+  "row_id": 4437,
+  "fronteira": "outra",
+  "fronteira_texto": "Fronteira de medicao de emissoes de projectos de construcao ferroviaria em 3 fases (producao de materiais, transporte de materiais, construcao); factor do betao = producao das materias-primas + transporte das materias-primas + producao/processamento do betao",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "O factor C20-C60 (336,7-549,3 kg CO2/m3 conforme texto) soma explicitamente a etapa de transporte das materias-primas; transporte do material ate a obra e etapa separada (Sec.5.2) e nao entra no factor",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "rodoviario a diesel",
+   "camiao": "",
+   "factor": "2782,414e-4 kg CO2/(t.km) (ref.[54]); Tabela 9 do caso: areia 80 km, pedra 60,48, cimento 203,38, aco 206,5 (nao sao distancias do betao)"
+  },
+  "base_dados_processos": "Factores de ref.[57]/[58] (literatura chinesa) para cimento e betao; sem base de dados ACV nomeada",
+  "por_par": [],
+  "citacao": "Sec.3.2/4.3 'Concrete CEFs are the sum of raw material production stage CEFs, raw material transportation stage CEFs, and concrete production and processing stage CEFs'; Sec.5.1 e 5.2 (Building Materials Transportation Stage, formula separada)",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem. A4 'excluido' = nao incluido no factor do betao: o artigo trata o transporte dos materiais a obra em etapa propria."
+ },
+ {
+  "row_id": 3167,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'cradle-to-gate' com abordagem orientada ao processo, 1 m3 de argamassa; SimaPro9, CML 2001/BEES e IMPACT 2002+",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Producao inclui extraccao de materias-primas, transporte dos materiais a fabrica e producao dos ingredientes; transporte assumido igual para todos os materiais",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": 50,
+   "dist_betao_km": null,
+   "modal": "rodoviario",
+   "camiao": "dump truck 3,5-7 t, EURO4",
+   "factor": "50 km para todos os materiais; 0,0033 kg/m3 CO2 para producao+transporte de 1 m3 (valor impresso)"
+  },
+  "base_dados_processos": "SimaPro9 + Ecoinvent (processos nao nomeados no texto)",
+  "por_par": [],
+  "citacao": "Sec. LCA: 'Analysis was based on 1 m3 mortar by cradle-to-gate method ... raw materials extraction, transportation of materials to factory ... dump trucks with 3.5–7 tons ... EURO4 ... transport distance was considered 50 km for all materials'",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem. Material e argamassa geopolimerica, nao betao."
+ },
+ {
+  "row_id": 3190,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "Nao define fronteira; so 'embedded CO2' (E-CO2) como soma massa x factor (Eq.1) com factores de literatura (Tab.5: cimento 0,83 kg/kg etc.)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O artigo nao menciona transporte (zero ocorrencias); factores de refs.[1,54,55] sem descrever fronteira",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Sem base de dados; factores E-CO2/EE/custo da Tab.5 de estudos anteriores [1,54,55]",
+  "por_par": [],
+  "citacao": "Sec.4.5 e Tab.5 'Inventory of carbon footprint, embodied energy, and unit cost of raw materials'; Eq.(1) CF = soma das massas x factores",
+  "texto_completo_lido": true,
+  "nota": "Texto lido na integra via conector (extraccao de texto); figuras/diagramas de fronteira nao renderizados como imagem."
+ }
+]
