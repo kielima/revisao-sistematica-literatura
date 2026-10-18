@@ -1,6 +1,6 @@
 ---
 name: dissertacao-tracked-changes
-description: Passa para o texto da dissertação da Kiê (Word, na máquina local) o que se decide ou calcula na metanálise, como alterações controladas (tracked changes) no ficheiro original. Usar sempre que uma decisão, resultado, número, método ou figura da metanálise afetar o texto da dissertação — ou quando a Kiê pedir "passa isto para a dissertação".
+description: Escreve na dissertação da Kiê (Word) o que sai da metanálise, como alterações controladas (tracked changes) no ficheiro original. Usar sempre que uma decisão, resultado, número, método, figura ou correção da metanálise afete o texto da dissertação, e quando a Kiê disser "passa para a dissertação", "atualiza a dissertação", "escreve isso no texto" ou "registra na dissertação", mesmo sem citar tracked changes.
 ---
 
 # Dissertação: edição direta com tracked changes
