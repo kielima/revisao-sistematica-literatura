@@ -1,0 +1,375 @@
+[
+ {
+  "fronteira_texto": "cradle to gate (sec. 2.5.3): transportation, ball milling, calcination and preparation of the paste; Fig.6 system boundary",
+  "transporte_materiais_nota": "Fig.6: caixas 'Transport' para a lama (sludge) e para o cimento; Tab.6: cimento 13 km, lama 150 km, agua 0 km. Nao ha distancia dos agregados (e pasta, sem agregado).",
+  "transporte_dados": {
+   "dist_materiais_km": "cimento 13; lama (sludge) 150; agua 0",
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "nao declarado",
+   "factor": "nao impresso (SimaPro 9.4 / Ecoinvent + medicoes de energia)"
+  },
+  "base_dados_processos": "Ecoinvent database + medicao de energia eletrica; CML-IA baseline V3.05/EU25; SimaPro 9.4 (nomes de processos nao transcritos no artigo)",
+  "por_par": [],
+  "texto_completo_lido": true,
+  "nota": "Pasta (UF = 1 m3 de pasta SSC), nao betao. Valor gravado lido por pixel na Fig.8a (total da barra empilhada).",
+  "row_id": 4516,
+  "fronteira": "A1-A3",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_concreto_a4": "excluido",
+  "citacao": "p.5 sec.2.5.3 'system boundary from cradle to gate, including the transportation, ball milling, calcination, and preparation'; p.9 Fig.6; p.10 Tab.6 'Transportation distance (km) Cement 13 Sludge 150 Water 0'; p.11 Fig.8a barras empilhadas 'Production and transportation of cement / Transportation of sludge / Calcination / Ball milling'",
+  "valor_gravado_inclui": "so_A1-A3",
+  "a4_somavel": "sim",
+  "local_fronteira": "p.5, Sec.2.5.3; p.8-9, Fig.6",
+  "local_transporte_materiais": "p.9 Fig.6; p.10 Tab.6; p.11 Fig.8a (legenda)",
+  "local_transporte_a4": "p.5 Sec.2.5.3 (cradle to gate; nao ha A4 em Fig.6)",
+  "local_valor_gravado": "p.11, Fig.8a (barra total; 1303,7 / 1246,9 kg CO2 eq/m3)",
+  "mudou": true,
+  "mudanca": "Antes nao_lido (fronteira/transportes nao_declarado). Agora lido: A1-A3 cradle-to-gate; transporte de materias-primas INCLUIDO (cimento 13 km, lama 150 km); A4 excluido. Valor gravado = total da Fig.8a (so_A1-A3, inclui A2); A4 somavel.",
+  "pdf_usado": "TMP2 4516 reduzido.pdf"
+ },
+ {
+  "fronteira_texto": "LCA stage 'cradle-to-gate'; 'production phase of mortar' (sec.2); UF 1 m3 de argamassa",
+  "transporte_materiais_nota": "Sec.2: cimento a 160 km, MKW a 180 km, fosfogesso (PG) a 2 km; camiao 10-20 t EURO5, 80% LF, retorno vazio/GLO. Fig.3: 'All mortar components and their transportation are included in the material description'.",
+  "transporte_dados": {
+   "dist_materiais_km": "cimento 160; MKW 180; PG 2",
+   "dist_betao_km": null,
+   "modal": "road",
+   "camiao": "truck 10-20 t, EURO5, 80% LF, empty return/GLO Economic",
+   "factor": "nao impresso"
+  },
+  "base_dados_processos": "SimaPro 8 + Ecoinvent; 'Transport in a truck 10-20 t, EURO5, 80%LF, empty return/GLO Economic'; CML-IA baseline, CED, Ecosystem Damage Potential",
+  "por_par": [],
+  "texto_completo_lido": true,
+  "nota": "Gravado 685,7 = fossil 638,4 + biogenico 46,8 + uso do solo 0,5 da Tab.2 (Total 684,6 inclui CO2 uptake -1,1). Incluem transporte das materias-primas (A2) mas nao ha entrega a obra.",
+  "row_id": 2599,
+  "fronteira": "A1-A3",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_concreto_a4": "excluido",
+  "citacao": "p.3 'LCA stage cradle-to-gate'; p.4 'The PC ... located 160 km ... MKW ... 180 km ... Transport in a truck 10-20 t, EURO5'; p.5 'All mortar components and their transportation are included in the material description. The mixing process ... included'; p.6 Tab.2 Total 684,6 kg",
+  "valor_gravado_inclui": "so_A1-A3",
+  "a4_somavel": "sim",
+  "local_fronteira": "p.3, Sec.2 (cradle-to-gate)",
+  "local_transporte_materiais": "p.4 (distancias e camiao); p.5 Fig.3 e texto",
+  "local_transporte_a4": "p.3 Sec.2 (cradle-to-gate; entrega a obra nao mencionada)",
+  "local_valor_gravado": "p.6, Tab.2 (coluna 100% CEM Mortar)",
+  "mudou": true,
+  "mudanca": "Antes nao_lido. Agora lido: cradle-to-gate (A1-A3); transporte de materias-primas INCLUIDO (cimento 160 km, MKW 180 km, PG 2 km); A4 excluido; valor gravado so_A1-A3 (com A2).",
+  "pdf_usado": "TMP2 2599 reduzido.pdf"
+ },
+ {
+  "fronteira_texto": "",
+  "transporte_materiais_nota": "",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ECOINVENT database [68] e gerador de precos mexicano (fichas tecnicas); factores adaptados a 1 m2 de cobertura (espessura 0,1 m para lajes/pisos de betao)",
+  "por_par": [],
+  "texto_completo_lido": true,
+  "nota": "Artigo de analise multicriterio (habitacao rural): nao ha ACV propria, diagrama de fronteira, modulos EN 15804 nem qualquer mencao a transporte do cimento/betao nos indicadores. Sec. discussao so diz em termos gerais que o cimento exige 'transportation to distribution centers'. Texto completo lido (reduzido legivel); nao ha figura de fronteira.",
+  "row_id": 3620,
+  "fronteira": "nao_declarada",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_concreto_a4": "nao_declarado",
+  "citacao": "p.5 'The environmental indicators were taken from the ECOINVENT database [68] ... emission factors were adapted based on one square meter of coverage ... concrete and mosaic slabs and floors, 0.1 m'; p.4-5 Tab.1 linha Global warming Cement ROOF 16,8 kgCO2/m2",
+  "valor_gravado_inclui": "incerto",
+  "a4_somavel": "incerto",
+  "local_fronteira": "nao declarada (p.4-5 Sec.3, so 'ECOINVENT' e 1 m2 como UF)",
+  "local_transporte_materiais": "nao declarado",
+  "local_transporte_a4": "nao declarado",
+  "local_valor_gravado": "p.4, Tab.1 (Global warming, coluna Cement ROOF, 16,8 kgCO2/m2; /0,1 m = 168 kg/m3)",
+  "mudou": false,
+  "mudanca": "Lido agora: confirma nao_declarada/nao_declarado/nao_declarado. Valor gravado de origem sem fronteira declarada (incerto).",
+  "pdf_usado": "TMP2 3620 reduzido.pdf"
+ },
+ {
+  "fronteira_texto": "'LCA from gate to cradle' (sic, sec.2.8, p.12); Fig.3: mineracao/producao das materias-primas -> transporte -> central de betao (mixing, casting, curing) -> 1 m3 de betao. Eq.13 = producao das materias-primas + transporte das materias-primas + cura",
+  "transporte_materiais_nota": "Eq.13 termo ERawMatTrans = F_Trans x W_i x D_i; Fig.3 caixas 'Transport' para agregado grosso/fino, cinza volante, NaOH, silicato de sodio. Distancias D_i e factor F_Trans NAO impressos no artigo.",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "F_Trans em kgCO2/kg-km (simbolo; valor nao impresso)"
+  },
+  "base_dados_processos": "nao transcrito (referencias [136-139] para os factores)",
+  "por_par": [],
+  "texto_completo_lido": true,
+  "nota": "Fig.3 vista: a fronteira acaba no produto '1 m3 of concrete product' na central; nao ha caixa de entrega a obra, mas o texto nao fala de A4 -> nao_declarado. Distancias/factores nao impressos (nem no texto nem em tabela).",
+  "row_id": 4064,
+  "fronteira": "A1-A3",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_concreto_a4": "nao_declarado",
+  "citacao": "p.12 Sec.2.8: 'The CO2 emissions of concrete mixing and casting are assumed to be negligible' + Eq.(13) + Fig.3 (system boundary); p.19 Tab.7 CO2 160,86 / 134,08 kgCO2/m3",
+  "valor_gravado_inclui": "so_A1-A3",
+  "a4_somavel": "sim",
+  "local_fronteira": "p.12, Sec.2.8 e Fig.3",
+  "local_transporte_materiais": "p.12 Eq.13 + Fig.3; p.13 definicoes",
+  "local_transporte_a4": "nao declarado (Fig.3 termina em '1 m3 of concrete product')",
+  "local_valor_gravado": "p.19, Tab.7 (CO2 emissions, kgCO2/m3)",
+  "mudou": true,
+  "mudanca": "Fig.3 agora vista. Fronteira passa de 'outra' a A1-A3 (materias-primas + transporte das materias-primas + central + cura; sem A4). Transporte de materiais continua incluido; A4 continua nao_declarado. Valor gravado (Tab.7) = Eq.13 completa: so_A1-A3 com A2 e cura.",
+  "pdf_usado": "fileId original (15vPe_...)"
+ },
+ {
+  "fronteira_texto": "'cradle-to-grave' alinhado com EN 15804: A1-A4 + C1-C4 (EoL pela CFF); A5 e B1-B7 NAO incluidos (Fig.2, linhas tracejadas)",
+  "transporte_materiais_nota": "Modulo A2 incluido (Fig.2: caixas 'Transport' para betao, fibra de carbono e ancoragem); Tab.6/7 com tkm de transporte de aco etc.",
+  "transporte_dados": {
+   "dist_materiais_km": "nao resumido (varias entradas em tkm)",
+   "dist_betao_km": null,
+   "modal": "road",
+   "camiao": "DE: Diesel mix at refinery Sphera",
+   "factor": "tkm x processo Sphera"
+  },
+  "base_dados_processos": "Sphera/GaBi: 'DE: Concrete C50/60 (A1-A3)' (Verein Deutscher Zementwerke), 'DE: Diesel mix at refinery Sphera', 'EU-28: Construction waste dumping (EN15804 C4) Sphera'",
+  "por_par": [],
+  "texto_completo_lido": true,
+  "nota": "Valor gravado (456 kg/painel ÷ 0,576 m3 = 791,67 kg/m3) e o TOTAL DO CICLO DE VIDA da Tab.9 (A1-A4 + C1-C4 + credito de reciclagem do aco, D implicito na CFF), nao A1-A3. Os transportes A2+A4 pesam 9% do Climate Change (sec.7.3).",
+  "row_id": 2688,
+  "fronteira": "outra",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_concreto_a4": "incluido",
+  "citacao": "p.4: 'The system boundaries include ... module A1 ... transport to the production site (module A2) ... production of the facade panel and its transport to the construction site are included in modules A3 and A4'; p.5 Fig.2; p.8 Tab.9 'Climate change - total 4.56E+02 kg CO2 eq, Total life cycle'",
+  "valor_gravado_inclui": "ciclo_completo",
+  "a4_somavel": "nao",
+  "local_fronteira": "p.4 Sec.2/3; p.5 Fig.2",
+  "local_transporte_materiais": "p.5 Fig.2 (modulo A2); p.6-7 Tab.6/7",
+  "local_transporte_a4": "p.5 Fig.2 (modulo A4); p.4",
+  "local_valor_gravado": "p.8, Tab.9 (Climate change - total, Total life cycle)",
+  "mudou": false,
+  "mudanca": "Mesma resposta (fronteira outra; A2 e A4 incluidos). Duvida resolvida: o valor gravado e o total do ciclo (inclui A4 e C), logo A4 NAO somavel.",
+  "pdf_usado": "fileId original"
+ },
+ {
+  "fronteira_texto": "'boundary ... fabrication of the non-structural element ... in a prefabrication concrete plant' (Fig.2); 'Transportation is omitted in this study'",
+  "transporte_materiais_nota": "Texto: 'assumption is made that all material is ready at the precast concrete plant'. Fig.2 desenha setas 'Transport' e 'Energy' FORA da caixa azul da fronteira (coerente com a exclusao).",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "so exemplo hipotetico 337 g CO2/t km, 32 t, 500 km na discussao (nao entra nos valores)"
+  },
+  "base_dados_processos": "SimaPro 9.2, Ecoinvent (Tab.4 lista as entradas); ReCiPe 2016 midpoint",
+  "por_par": [],
+  "texto_completo_lido": true,
+  "nota": "A discussao (sec.4) calcula depois o efeito do transporte so como exercicio separado; nao altera os valores gravados.",
+  "row_id": 3182,
+  "fronteira": "A1-A3",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_concreto_a4": "excluido",
+  "citacao": "p.3: 'Transportation is omitted in this study as the assumption is made that all material is ready at the precast concrete plant'; p.4 Fig.2; p.6 Tab.5 Global warming 365,71/361,10/278,68/287,32 e Tab.6 GWP",
+  "valor_gravado_inclui": "so_A1-A3",
+  "a4_somavel": "sim",
+  "local_fronteira": "p.3 Sec.3.1; p.4 Fig.2",
+  "local_transporte_materiais": "p.3 Sec.3.1 (omitido); p.4 Fig.2",
+  "local_transporte_a4": "p.3 Sec.3.1 (omitido)",
+  "local_valor_gravado": "p.6, Tab.6 (coluna GWP, E1-E4); igual Tab.5",
+  "mudou": false,
+  "mudanca": "Sem mudanca: A1-A3, transporte de materias-primas excluido (A2 fora), A4 excluido. Fig.2 revista: a seta Transport fica fora da fronteira, o que dissolve a contradicao apontada. Valor gravado so_A1-A3 sem A2.",
+  "pdf_usado": "fileId original"
+ },
+ {
+  "fronteira_texto": "'cradle-to-gate plus carbonation': A1-A3 + B1 + C4 (sec.2.1.3, Fig.1); 'construction, use and end-of-life stage emissions have been omitted' (exceto carbonatacao)",
+  "transporte_materiais_nota": "Sec.3.2 (A2): cada materia-prima e transportada a central de betao pronto; cimento e agregados por National Ready Mix survey; cinza volante por distribuicoes de distancia e modo (camiao/mar); aditivo desprezado (<<1%).",
+  "transporte_dados": {
+   "dist_materiais_km": "distribuicoes estocasticas (Tab.1); cinza volante: breakeven 2655 km por camiao",
+   "dist_betao_km": null,
+   "modal": "truck e maritime",
+   "camiao": "factores kg CO2e por tonne-mile / tonne-km (Tab.1)",
+   "factor": "cimento transp. 11,3 kg CO2e/t; cinza volante 44,1 kg CO2e/t (medias, sec.4.1)"
+  },
+  "base_dados_processos": "inventario estocastico proprio (Tab.1): WBCSD, EPD, GREET/Transportation Fuel LCA, NRMCA survey; nao ecoinvent",
+  "por_par": [],
+  "texto_completo_lido": true,
+  "nota": "Valores 174,8 / 144,8 do texto = LIQUIDOS (A1-A3 + carbonatacao B1/C4). Os gravados em co2_kg_m3 (257 / 220) sao os brutos cradle-to-gate lidos por pixel na Fig.5 (caixa 'Cradle-to-Gate Impacts'): A1-A3 com A2, sem carbonatacao. Duvida resolvida: a parcela B1/C4 NAO esta no valor gravado.",
+  "row_id": 3399,
+  "fronteira": "outra",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_concreto_a4": "excluido",
+  "citacao": "p.2 Sec.2.1.3 'product stage (A1-A3), use stage (B1), end-of-life (C4) ... cradle-to-gate plus carbonation'; p.5 Sec.3.2 'Each raw material ... must be transported to a ready-mix plant'; p.8 Fig.5 'Cradle-to-Gate Impacts'; p.9 'net ... mean values of 174.8 and 144.8 kg CO2e per m3'",
+  "valor_gravado_inclui": "so_A1-A3",
+  "a4_somavel": "sim",
+  "local_fronteira": "p.2, Sec.2.1.3; p.3 Fig.1",
+  "local_transporte_materiais": "p.5, Sec.3.2 (A2); p.4 Tab.1",
+  "local_transporte_a4": "p.2 Sec.2.1.3 ('construction ... omitted')",
+  "local_valor_gravado": "p.8, Fig.5 (Cradle-to-Gate Impacts, Mix 1a/1b)",
+  "mudou": false,
+  "mudanca": "Mesma resposta (outra; A2 incluido; A4 excluido). Duvida resolvida: valor gravado = bruto cradle-to-gate (257/220), sem B1/C4; so_A1-A3; A4 somavel.",
+  "pdf_usado": "fileId original"
+ },
+ {
+  "fronteira_texto": "'a cradle-to-gate approach'; FU = 1 m3 de betao 'at the exit gate of the precast plant' (sec.3.1-3.2)",
+  "transporte_materiais_nota": "Tab.2: cimento ao precast 124 km, cinza volante 140, areia 130, brita 101, DRA 140, PRA 0 (reciclado no proprio local), fibra de aco 1500 km (comboio), aditivo 1311 km (comboio); materias-primas do cimento 70 km, gesso 70, cinza no cimento 52. Distancias incluem retorno.",
+  "transporte_dados": {
+   "dist_materiais_km": "cimento 124; cinza 140; areia 130; brita 101; DRA 140; PRA 0; fibra 1500 (comboio); aditivo 1311 (comboio)",
+   "dist_betao_km": null,
+   "modal": "road (Class 8b truck) e rail",
+   "camiao": "Class 8b truck; distancias de estrada incluem retorno",
+   "factor": "ferramenta GreenConcrete (nao impresso)"
+  },
+  "base_dados_processos": "ferramenta propria 'GreenConcrete' + inventarios do Apendice (Jiang 2021; Yang 2022); sem nomes de processos ecoinvent",
+  "por_par": [
+   {
+    "sheet_row": 506,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim"
+   },
+   {
+    "sheet_row": 507,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim"
+   },
+   {
+    "sheet_row": 508,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim"
+   },
+   {
+    "sheet_row": 509,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim"
+   },
+   {
+    "sheet_row": 510,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim"
+   },
+   {
+    "sheet_row": 511,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim"
+   },
+   {
+    "sheet_row": 512,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim"
+   },
+   {
+    "sheet_row": 513,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim"
+   },
+   {
+    "sheet_row": 514,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim"
+   }
+  ],
+  "texto_completo_lido": true,
+  "nota": "Fig.2 (p.7) mostra uma caixa 'Transport to Construction Site', mas o texto e o FU (portao da fabrica) excluem A4 e a Tab.2 nao tem distancia de entrega; prevalece o texto -> A4 excluido (com ressalva). Figura de baixa resolucao.",
+  "row_id": 3827,
+  "fronteira": "A1-A3",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_concreto_a4": "excluido",
+  "citacao": "p.6 Sec.3.1: 'the life cycle analysed included the production and transport of different concretes ... did not consider the environmental impacts resulting from the concrete's use at the construction site ... cradle-to-gate approach'; p.7 'one cubic meter of concrete at the exit gate of the precast plant'; p.8 Tab.2; p.12 Tab.4 CO2-eq",
+  "valor_gravado_inclui": "so_A1-A3",
+  "a4_somavel": "sim",
+  "local_fronteira": "p.6, Sec.3.1; p.7 Sec.3.2 e Fig.2",
+  "local_transporte_materiais": "p.8, Tab.2",
+  "local_transporte_a4": "p.6 Sec.3.1 (cradle-to-gate; sem distancia de entrega); p.7 Fig.2 (caixa 'Transport to Construction Site' - ambigua)",
+  "local_valor_gravado": "p.12, Tab.4 (coluna CO2-eq, casos 1-9)",
+  "mudou": true,
+  "mudanca": "Fronteira passa de 'outra' a A1-A3 (cradle-to-gate declarado, FU no portao). Transporte de materiais incluido (Tab.2); A4 excluido (mantido, com ressalva da Fig.2). Valor gravado (Tab.4) so_A1-A3 com A2; A4 somavel.",
+  "pdf_usado": "TMP2 3827 reduzido.pdf"
+ },
+ {
+  "fronteira_texto": "texto contraditorio (sec.2.4, p.8): 'LCA is conducted in a cradle-to-gate process. According to EN 15804, the stages accounted for are A1 to A5'; UF = 1 m2 de fachada",
+  "transporte_materiais_nota": "Fig.11 mostra UM no unico de transporte para a fachada inteira: '19.2 tkm Transport by lorry Euro 6' = 8,94% do GWP, ligado ao total da fachada (nao ao no '3D concrete'). Nao diz se e A2 ou A4, nem distancia/origem. Dentro do no '3D concrete' (59,6%) so ha cimento (56,9%: 75 kg cimento, clinquer, electricidade) e o resto da producao; nao ha transporte nele.",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "road",
+   "camiao": "lorry Euro 6",
+   "factor": "19,2 tkm (total da fachada, 315 kg betao + 31,5 argamassa + 12 gesso + 4 PU); factor nao impresso"
+  },
+  "base_dados_processos": "Ecoinvent v3.8 + dados do fabricante (3D CONCRETE) para o betao impresso; SimaPro 9.3; EF 3.0. Nomes: 'Transport by lorry Euro 6' (Fig.11)",
+  "por_par": [],
+  "texto_completo_lido": true,
+  "nota": "Gravado 463,1 kg/m3 = 0,596 x 116,56 / 0,15 m: so o no '3D concrete' (59,6%), SEM o no de transporte (8,94%), gesso, PU, argamassa nem tinta acrilica. Logo o valor gravado e so producao do material impresso (so_A1-A3); o transporte da fachada nao esta nele, e A4 nao se soma com dupla contagem.",
+  "row_id": 4185,
+  "fronteira": "A1-A5",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_concreto_a4": "nao_declarado",
+  "citacao": "p.8 Sec.2.4 'cradle-to-gate ... stages accounted for are A1 to A5'; p.9 'data on the 3D-printed concrete were acquired directly from the manufacturing company'; p.14 Fig.11 (no '19.2 tkm Transport by lorry Euro 6 8.94%'; no '3D concrete 59.6%'); p.16 Tab.7 Climate change 116,56 kg CO2 eq/m2",
+  "valor_gravado_inclui": "so_A1-A3",
+  "a4_somavel": "sim",
+  "local_fronteira": "p.8, Sec.2.4",
+  "local_transporte_materiais": "p.14, Fig.11 (no 'Transport by lorry Euro 6', 19,2 tkm)",
+  "local_transporte_a4": "nao declarado (Fig.11 nao distingue A2/A4)",
+  "local_valor_gravado": "p.14 Fig.11 (59,6%) x p.16 Tab.7 (116,56 kg CO2 eq/m2); espessura 0,15 m (Tab.3 p.5)",
+  "mudou": true,
+  "mudanca": "Figuras agora vistas. Transporte de materiais passa de nao_declarado a PARCIAL: ha um no 'Transport by lorry Euro 6, 19,2 tkm' (8,94% do total da fachada), sem fase (A2/A4) nem distancia. Fronteira mantida A1-A5 (texto auto-contraditorio cradle-to-gate vs A1-A5). Valor gravado (so no '3D concrete') nao inclui este transporte -> A4 somavel.",
+  "pdf_usado": "fileId original"
+ },
+ {
+  "fronteira_texto": "4 processos elementares: estrutura de concreto armado (materiais + usina), distribuicao do concreto a obra (transporte), fase de uso (so absorcao de CO2) e deposicao final em aterro (sec.5.5.9, Fig.12)",
+  "transporte_materiais_nota": "Cimento CP III 40 RS, Holcim Barroso -> usina de concreto 400 km; areia e brita -> usina 100 km; aco ArcelorMittal BH 450 km (transporte a cidade); madeira das formas 1956 km; materias-primas do cimento ate a fabrica incluidas (EPD do fabricante).",
+  "transporte_dados": {
+   "dist_materiais_km": "cimento 400; areia 100; brita 100; aco 450; madeira formas 1956",
+   "dist_betao_km": 60,
+   "modal": "road (caminhoes betoneira, bomba e apoio)",
+   "camiao": "US: Truck (apendice)",
+   "factor": "processos do software (apendice: 'US: Truck - ...')"
+  },
+  "base_dados_processos": "apendice (p.~210): 'US: Truck - ...' para transporte de cimento, brita, etc.; 'Deposicao final inert matter'; EDIP 1997/2003; EPD Holcim",
+  "por_par": [
+   {
+    "sheet_row": 51,
+    "valor_gravado_inclui": "so_A1-A3",
+    "a4_somavel": "sim",
+    "nota": "50,95 kg/m2 = brita 3,13 + areia 2,32 + cimento 45,5 (Fig.29): so os 3 materiais do betao; materias-primas e transporte do cimento (400 km) e agregados (100 km) incluidos nos processos; sem aco, formas de madeira, distribuicao do concreto (60 km), uso nem deposicao."
+   },
+   {
+    "sheet_row": 52,
+    "valor_gravado_inclui": "ciclo_completo",
+    "a4_somavel": "nao",
+    "nota": "Quadro 8: GWP total da estrutura (EDIP 1997, por m2 de unidade funcional): inclui betao + aco + formas de madeira (1956 km) + distribuicao do concreto a obra (60 km) + fase de uso (absorcao CO2 5%) + deposicao final em aterro."
+   },
+   {
+    "sheet_row": 53,
+    "valor_gravado_inclui": "ciclo_completo",
+    "a4_somavel": "nao",
+    "nota": "Quadro 8: GWP total da estrutura (EDIP 1997, por m2 de unidade funcional): inclui betao + aco + formas de madeira (1956 km) + distribuicao do concreto a obra (60 km) + fase de uso (absorcao CO2 5%) + deposicao final em aterro."
+   },
+   {
+    "sheet_row": 2081,
+    "valor_gravado_inclui": "ciclo_completo",
+    "a4_somavel": "nao",
+    "nota": "Quadro 8: GWP total da estrutura (EDIP 1997, por m2 de unidade funcional): inclui betao + aco + formas de madeira (1956 km) + distribuicao do concreto a obra (60 km) + fase de uso (absorcao CO2 5%) + deposicao final em aterro."
+   },
+   {
+    "sheet_row": 2082,
+    "valor_gravado_inclui": "ciclo_completo",
+    "a4_somavel": "nao",
+    "nota": "Quadro 8: GWP total da estrutura (EDIP 1997, por m2 de unidade funcional): inclui betao + aco + formas de madeira (1956 km) + distribuicao do concreto a obra (60 km) + fase de uso (absorcao CO2 5%) + deposicao final em aterro."
+   },
+   {
+    "sheet_row": 2083,
+    "valor_gravado_inclui": "ciclo_completo",
+    "a4_somavel": "nao",
+    "nota": "Quadro 8: GWP total da estrutura (EDIP 1997, por m2 de unidade funcional): inclui betao + aco + formas de madeira (1956 km) + distribuicao do concreto a obra (60 km) + fase de uso (absorcao CO2 5%) + deposicao final em aterro."
+   }
+  ],
+  "texto_completo_lido": true,
+  "nota": "Os 6 pares misturam dois tipos de valor: linha 51 = so os 3 materiais do betao da Fig.29; as outras 5 = total da estrutura (Quadro 8). Duvida resolvida por par (ver por_par).",
+  "row_id": 5041,
+  "fronteira": "outra",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_concreto_a4": "incluido",
+  "citacao": "p.105-106 Sec.5.5.9 'estrutura ... distribuicao do concreto a obra (transporte), fase de uso e deposicao final em aterro'; p.106-108 distancias; p.109 'Foi adotada a distancia maxima ... 60km'; p.123 Quadro 8; p.137 Fig.29 (3,13 / 2,32 / 45,5 / 37,1 / 26,9)",
+  "valor_gravado_inclui": "ciclo_completo",
+  "a4_somavel": "nao",
+  "local_fronteira": "p.105-106, Sec.5.5.9 e Fig.12 (p.106)",
+  "local_transporte_materiais": "p.106-108, Sec.5.5.9 (processos de cimento, aco, areia, brita, madeira)",
+  "local_transporte_a4": "p.109, Sec.5.5.9 'Processo elementar de distribuicao do concreto' (60 km)",
+  "local_valor_gravado": "p.123 Quadro 8 (GWP EDIP 1997, linhas C25-C50); p.137 Fig.29 (C25 por material)",
+  "mudou": false,
+  "mudanca": "Mesma resposta de estudo (outra; A2 e A4 incluidos). Duvida resolvida por par: linhas 52,53,2081-2083 = total da estrutura (ciclo_completo, A4 nao somavel); linha 51 = so os 3 materiais do betao (so_A1-A3 com A2, A4 somavel).",
+  "pdf_usado": "TMP2 5041 reduzido.pdf"
+ }
+]
