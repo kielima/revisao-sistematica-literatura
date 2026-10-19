@@ -1,0 +1,235 @@
+[
+ {
+  "row_id": 3189,
+  "fronteira": "",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido. NAO LIDO: PDF de 11 MB/14 MB recusado pelo Drive (download_file_content: limite de 10 MB); nao foi lido nenhum texto nem figura; nenhuma resposta dada."
+ },
+ {
+  "row_id": 3449,
+  "fronteira": "",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido. NAO LIDO: PDF de 11 MB/14 MB recusado pelo Drive (download_file_content: limite de 10 MB); nao foi lido nenhum texto nem figura; nenhuma resposta dada."
+ },
+ {
+  "row_id": 2999,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-gate, modulos A1, A2 e A3; A3 omitido por simplificacao (so A1+A2 nos valores de GWP)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 incluido: distancias da Tab.4, camiao 32 t; Tab.5 da GWP A1, A2 e A1+A2 por tonelada de materia-prima",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": {
+    "CEM I": 400,
+    "cinza volante": 50,
+    "escoria": 550,
+    "metacaulino": 900,
+    "superplastificante": 1100,
+    "agregado grosso": 100,
+    "areia": 200
+   },
+   "dist_betao_km": null,
+   "modal": "rodoviario",
+   "camiao": "camiao 32 t",
+   "factor": "Ecoinvent transport, freight, lorry >32 metric tonne, EURO4 {RoW}"
+  },
+  "base_dados_processos": "Ecoinvent v3.8 (Transport, freight, lorry > 32 metric tonne, EURO4 {RoW}| market for transport, freight, lorry > 32 metric tonne, EURO4 | Cut-off, U; gravel production, crushed {IN}; calcined clay {RoW}); EPD CEMBUREAU, Emineral, Kuwait cement; Hajek et al. (PCE)",
+  "por_par": [],
+  "citacao": "p.9-11 sec. LCA: 'The LCA is made from cradle-to-gate ... A1, A2, and A3. A3 ... is omitted for simplification'; 'information module 2 (transport of raw materials to Chennai) ... Table 4 ... 32-tonne truck'; Tab.3 e Tab.5",
+  "texto_completo_lido": true,
+  "nota": "Sem diagrama de fronteira no artigo (Fig.1-8 sao resultados/ensaios). Figuras nao relevantes para a fronteira."
+ },
+ {
+  "row_id": 4613,
+  "fronteira": "outra",
+  "fronteira_texto": "LCA da fase de producao do material (residuos de construcao tratados como producao desnecessaria); sem fronteira cradle-to-gate declarada",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "o artigo nao fala do transporte dos materiais no inventario",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "National LCI DB (Coreia; Ready-mixed concrete 25-240-15, Cement, Electric steel deformed bars); National environmental database; EPD",
+  "por_par": [],
+  "citacao": "Sec.5.2 p.10: 'impact ... calculated based on the production stage of the material'; Tab.4",
+  "texto_completo_lido": true,
+  "nota": "Estudo de residuos de obra; par 1646 = Tab.7, CO2 do residuo de betao armado 24 MPa. Sem figuras de fronteira (Figs 1-5 sao geracao de residuos/contribuicoes). Transporte nao declarado."
+ },
+ {
+  "row_id": 4463,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "valores gravados = Fig.2a (A1-A3); o estudo todo e cradle-to-grave (A1-A5, B, C) segundo EN 15804",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 modelado: distancias/modais na Tab.2 e Tab. A1/A2 (tkm)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": {
+    "areia/brita/grit": 39,
+    "cimento": 106,
+    "cinza volante": 100,
+    "plastificante": 100,
+    "quartzo areia/po": 150,
+    "silica fume": 700,
+    "fibras de aco": 230
+   },
+   "dist_betao_km": {
+    "betao pronto": 16.3,
+    "pre-moldado": 180
+   },
+   "modal": "camiao/comboio/navio (cimento 79,9/8,9/11,2%)",
+   "camiao": "camiao betoneira 0,48 L/km; pre-moldado 27 t",
+   "factor": "GaBi XIV EN15804 A4 transport processes"
+  },
+  "base_dados_processos": "GaBi XIV construction materials via openLCA; ecoinvent 3.1 (fibras de aco)",
+  "por_par": [],
+  "citacao": "Sec.2.2.1 'A2 life cycle stage represents the transport of concrete ingredients to the concrete plant'; Tab.2; sec.2.2.2 'LCI of the A4 life cycle stage ... 16.3 km'; Fig.1 (diagrama com caixas T nas materias-primas)",
+  "texto_completo_lido": true,
+  "nota": "Fig.1 vista (T nas materias-primas, A4 separado). Os pares gravados vem de A1-A3 (Fig.2a), A4 e modelado a parte e nao entra no valor."
+ },
+ {
+  "row_id": 5011,
+  "fronteira": "A1-A4",
+  "fronteira_texto": "berco-ao-portao / berco-ao-canteiro: fronteira encerra com o transporte do material ate ao ponto de uso (25 km)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Tab.8/9: transporte rodoviario de cimento, cal, aditivo, areia, brita, RBRO",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": {
+    "cimento": "150-350 (Tab.9)",
+    "cal": "550-700",
+    "RBRO/areia/brita": 50,
+    "aditivo": "900-1200",
+    "RBROTT": "150-500",
+    "areia p/clinquer": 50,
+    "argila": 5
+   },
+   "dist_betao_km": 25,
+   "modal": "rodoviario",
+   "camiao": "EURO3 16-32 t",
+   "factor": "Ecoinvent"
+  },
+  "base_dados_processos": "Ecoinvent via SimaPro 8.4.0.0 (caminhao EURO3 16-32 t); excluidos processos de infraestrutura",
+  "por_par": [],
+  "citacao": "sec.3.4.2 p.59: 'berco-ao-portao ou berco-ao-canteiro, onde a fronteira se encerra com o transporte do material ate o ponto de uso'; sec.3.7: 'valor de 25 km para o transporte do concreto, argamassa e blocos ate o ponto de uso'; Fig.11 (caixas T)",
+  "texto_completo_lido": true,
+  "nota": "Fig.11 vista (T em todos os componentes e no tracos). Par 31 (463 kg CO2eq/m3 = total materiais+producao+transporte) inclui transporte; alternativa 446 so materiais. Tese 161 p., texto completo lido por pdftotext."
+ },
+ {
+  "row_id": 4086,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle to gate; inclui transporte de materiais ate a central de producao em Porto Alegre e mistura (Fig.1: 'transporte de materiais ao canteiro de obra' na legenda)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2: Tab.1 distancias e modais; cimento 900 km ferrovia + 15 km camiao, etc.; camioes de 26 t",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": {
+    "cimento Apiai-Canoas": 900,
+    "cimento Canoas-POA": 15,
+    "agata": 225,
+    "areia": 10,
+    "brita": 100
+   },
+   "dist_betao_km": null,
+   "modal": "ferroviario (cimento) e rodoviario",
+   "camiao": "camiao 26 t",
+   "factor": "PE International 2014 (GaBi 6)"
+  },
+  "base_dados_processos": "GaBi Professional v.6 / PE International 2014 (dados adaptados ao Brasil)",
+  "por_par": [],
+  "citacao": "p.4 sec.2: 'Estao considerados ... o transporte de materiais ate o canteiro de obras'; 'materiais sao transportados ate a central de producao em caminhoes de 26 t'; Tabela 1; Fig.1",
+  "texto_completo_lido": true,
+  "nota": "Fig.1 vista: diagrama com caixa 'transporte' entre materias-primas e mistura. Texto e legenda falam de 'canteiro', mas o diagrama e a descricao indicam transporte ate a central; transporte betao central-obra nao declarado."
+ },
+ {
+  "row_id": 5018,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "cradle-to-handover (A1 a A5, BS EN 15978); valor do par = so producao do concreto (40,1% do GWP do processo 4)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Fig.15: caixa 'Transporte' dentro de A1-A3 (materias-primas); distancias/factor nao impressos",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": "36,8 km por viagem (Sorocaba-SP; Tab.16 Apend.E)",
+   "modal": "rodoviario",
+   "camiao": "camioes 16-32 t EURO6",
+   "factor": "Ecoinvent: transport, freight, lorry 16-32 metric ton, EURO6, RoW"
+  },
+  "base_dados_processos": "Ecoinvent 3.5 cut-off: 'concrete production 25MPa, RNA only, RoW'; transport, freight, lorry 16-32 metric ton, EURO6, RoW",
+  "por_par": [],
+  "citacao": "sec.4.x p.70-71 Fig.15 (A1-A3 com 'Transporte'; A4 'Transporte da fabrica ate a obra'); p.80: 'producao do concreto representa 40,1%'; 'transporte de concreto usinado ... da usina ate o canteiro' contado a parte; Quadro 10",
+  "texto_completo_lido": true,
+  "nota": "Fig.15 vista. Par 43 (214,9 = 40,1% x total) corresponde a producao do concreto, sem o transporte de concreto (A4), que e processo separado. Tese 175 p."
+ },
+ {
+  "row_id": 4518,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle to gate, i.e. product stage",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "'as the materials were available at the place of manufacture ... transport distances were not considered'",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Ecoinvent v3.8 (Cement, Portland (Europe without Switzerland), production, Cut off, U; cement, alternative constituents 6-20%; etc.) + dados primarios",
+  "por_par": [],
+  "citacao": "sec.4.1.1: 'system boundaries were established from cradle to gate ... transport distances were not considered'",
+  "texto_completo_lido": true,
+  "nota": "Lido pelo texto do conector (read_file_content), o PDF de 7 MB nao pode ser baixado; Figs.7/8 (diagramas de fronteira) NAO vistas como imagem. A frase do texto sobre transporte e explicita."
+ },
+ {
+  "row_id": 3915,
+  "fronteira": "outra",
+  "fronteira_texto": "fase de construcao (materias-primas, transporte, fabrico) + utilizacao/manutencao; fim de vida nao considerado",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "so mencao generica: 'exploitation of raw materials, transport, and manufacturing techniques'; sem distancias",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "GEMIS e refs. [15][16] (Tab.1: Concrete C25/30 362,29 kg/m3)",
+  "por_par": [],
+  "citacao": "sec.3.1.3(a) p.5: 'The construction process phase includes the exploitation of raw materials, transport, and manufacturing techniques ... table 1'",
+  "texto_completo_lido": true,
+  "nota": "Sem diagrama de fronteira (Figs 1-5 sao geometria/resultados); o transporte e so mencionado, de forma generica."
+ }
+]

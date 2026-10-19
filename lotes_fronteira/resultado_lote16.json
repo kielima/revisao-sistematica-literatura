@@ -1,0 +1,212 @@
+[
+ {
+  "row_id": 4766,
+  "fronteira": "A1-A3+C+D",
+  "fronteira_texto": "Sec.2/p.4: 'product stage (A1-A3), transportation-to-site (A4), end-of-life (C2-4), and beyond-life loads and benefits (D)'; A5 e C1 fora (Tally nao reporta); Revit+Tally, GaBi",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O artigo nao diz se o factor de concreto (NRMCA industry-wide EPD, via Tally) inclui o transporte das materias-primas; so se le que o concreto usa a EPD da NRMCA.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Tally / GaBi LCI; concrete = NRMCA industry-wide EPD (Fig.4)",
+  "por_par": [],
+  "citacao": "p.4: 'scope ... includes product stage (A1-3), transportation-to-site (A4)...'; Tab.3 A4 = 623,878 kg CO2eq (1% do total); Tab.1 'CO2 Emission (KgCO2/m3)' por elemento sem dizer que modulos cobre (A1-A3 presumivel, nao declarado); distancias/modal de A4 nao impressos",
+  "texto_completo_lido": true,
+  "nota": "Lido por read_file_content (texto) - download_file_content falhou (PDF 11,4 MB > 10 MB). Fig.1/Fig.3 (resumo de pressupostos como imagem) NAO vistas: sem PDF para renderizar; so o texto. O valor por m3 de Tab.1 nao diz que modulos inclui; A4 e contabilizado a parte na Tab.3."
+ },
+ {
+  "row_id": 3992,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "'cradle-to-gate' (p.5/p.15): 'material production, transportation, and construction phases'; Fig.2 (WBS): Materials manufacturing / Transport of Materials / Construction",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O EF do betao celular (0,221 t CO2eq/m3, Tab.6, fonte ref.48 Fantilli et al.) nao e descrito quanto a transporte de materias-primas. O ramo 'Transport of Materials' da Fig.2 e so distribuicao->obra.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 7.8,
+   "modal": "rodoviario",
+   "camiao": "betoneira 3 eixos 8 m3, 300 hp; carga 5 t camiao; basculante 10 m3",
+   "factor": "0,0019 t CO2eq/km (betoneira); 0,0015 (camiao 5 t); ida e volta; Google Maps"
+  },
+  "base_dados_processos": "EF de literatura (Tab.6: betao 0,221 t/m3 ref.48; aco 1,99 t/t ref.49; formwork ref.52); EF diesel/maquinas ref.30",
+  "por_par": [],
+  "citacao": "Tab.11: TRC betao 1049,26 m3, 262 viagens, 7,8 km, 2046,06 km; Tab.13 linha SW-01-02 'Transport of materials' separada de SW-01-01 'Materials manufacturing'; Fig.2 (vista, p.5) mostra os 3 ramos",
+  "texto_completo_lido": true,
+  "nota": "Lido por download_file_content + pdftotext/PyMuPDF; Fig.2 renderizada e vista. O par (linha 550) provavelmente usa o EF 221 kg/m3 (RCM), que e so fabrico; o transporte do betao a obra (TRC) e calculado a parte e nao esta nesse 221. Nao confirmado qual valor esta na linha 550."
+ },
+ {
+  "row_id": 2580,
+  "fronteira": "outra",
+  "fronteira_texto": "'Gate to Gate' LCA (Sec.3.5.1, Fig.14): materiais->transporte->mistura->colocacao em laboratorio; sem fim de vida",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte de cimento (5 km), agregados (28 km) e CBA (80 km) explicitamente no inventario (Tab.6 'Transport'), somado ao total.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "cimento 5; agregados 28; CBA 80",
+   "dist_betao_km": null,
+   "modal": "rodoviario",
+   "camiao": "Idemat2023 Truck+trailer 24 t (cimento, CBA); Tractor 240 pk (agregados)",
+   "factor": "0,091 kg CO2eq/tkm (camiao); 0,225 (tractor)"
+  },
+  "base_dados_processos": "Idemat 2023 (cimento CEM I 52.5 N 0,91 kg/kg, ELCD), Fast Track LCA/Sustainability Impact Metrics",
+  "por_par": [
+   {
+    "sheet_row": 78,
+    "transporte_materiais_a1a3": "incluido"
+   },
+   {
+    "sheet_row": 79,
+    "transporte_materiais_a1a3": "incluido",
+    "nota": "inclui tambem transporte da CBA 80 km"
+   }
+  ],
+  "citacao": "Sec.3.5.2 e Tab.6; texto: footprint total 379,22 (controlo) e 303,06 kg CO2eq (otimizado) com materiais 359,45/282,1 + transporte + energia; Fig.14 mostra 5 km, 28 km, 80 km e 'Use' fora da fronteira",
+  "texto_completo_lido": true,
+  "nota": "Lido por download_file_content + pdftotext; Fig.14 renderizada e vista. Betao entregue/transportado a obra nao modelado (gate-to-gate, fronteira no betao colocado no laboratorio). Se a linha 78/79 usa o subtotal de materiais (359,45/282,1) e nao o total, o transporte fica fora: verificar."
+ },
+ {
+  "row_id": 4689,
+  "fronteira": "outra",
+  "fronteira_texto": "'embedded CO2 ... full production cycle' (Sec.5), sem etiqueta cradle-to-gate; Fig.6 lista factores",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Cimento: factor inclui 'mining of raw materials, production and transportation-related emissions'; cinza volante: inclui transporte da central; agregados: so extraccao/britagem (sem transporte mencionado); RCA: limpeza, moagem, demolicao; TDA: trituracao.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Factores de literatura (Fig.6: cimento 0,82; cinza 0,027; areia fina 0,0139; E6 'Concrete batching, transport, placing and lying' 0,021 kgCO2e/kg)",
+  "por_par": [],
+  "citacao": "p.13 (Sec.5 e Fig.6): 'The embedded CO2 emission from cement includes the mining of raw materials, production and transportation-related emissions'; E6 'Concrete batching, transport, placing and lying: 0.021' kgCO2-e/kg, aplicado a todo o betao",
+  "texto_completo_lido": true,
+  "nota": "Lido por download_file_content + pdftotext; Fig.6 renderizada e vista. E6 (0,021 kg/kg ~ 50 kg/m3) engloba transporte do betao e colocacao num so factor, sem distancia. O valor bruto gravado nas linhas e o sem creditos ER1-ER4."
+ },
+ {
+  "row_id": 3025,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "GEI 'starting from the extraction of raw materials from the ground, transportation, refining, processing, to the ready-to-use final product' (Sec.2.2); 'cradle-to-gate' so mencionado na discussao",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Os GEIs de processo (AusLCI) do betao incluem 'Transport' como input da fase final (Fig.1); o hibrido EEIO acrescenta 'transport, postal and warehousing' a montante, mas as linhas gravadas sao os 'process GEIs'.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "AusLCI (Australian National LCI Database), matriz de processo; hibrido AusLCI+EEIO; Tab.B1 'Concrete 20 MPa (m3)' 320,52 (processo) / 368,58 (hibrido)",
+  "por_par": [],
+  "citacao": "Sec.2.2 p.2-3; Fig.1 (vista): caixa 'Transport' entre os inputs de 'Final-stage' do '40 MPa Concrete'; Tab.B1 ids 25-29",
+  "texto_completo_lido": true,
+  "nota": "Lido por download_file_content + pdftotext; Fig.1 renderizada e vista. Entrega do betao ao edificio nao descrita. Distancias nao impressas."
+ },
+ {
+  "row_id": 4381,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "'three-stage life cycle of component production, logistics transportation, and installation' (resumo; Sec.3-4)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O factor do betao C30 (321,3 kg CO2eq/m3, Tab.4) vem da base de dados LCA chinesa; o artigo nao descreve se inclui transporte das materias-primas. A 'transportation stage' e so do elemento prefabricado fabrica->obra.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 100,
+   "modal": "rodoviario",
+   "camiao": "camiao diesel medio 8 t (carga 5,83 t, 15 vigas), coef. vazio 0,67",
+   "factor": "0,15858 kg CO2eq/(km.t) diesel (Tab.1)"
+  },
+  "base_dados_processos": "'basic database of China's LCA' [37] (factores de coeficiente de emissao)",
+  "por_par": [],
+  "citacao": "Tab.4: 'C30 concrete 2.34 m3 321.3 kg CO2eq/m3'; Sec.5.2/Tab.5: transporte da viga 100 km; Sec.3.1: producao inclui transporte no local (on-site) e cura a vapor; Fig.2 vista",
+  "texto_completo_lido": true,
+  "nota": "Lido por download_file_content + pdftotext/PyMuPDF; Fig.2 vista (nao ha diagrama de fronteira, so fontes de emissao). 'excluido' refere-se ao factor C30 de 321,3: o transporte do componente (100 km) e etapa separada, nao a entrega de betao."
+ },
+ {
+  "row_id": 3827,
+  "fronteira": "outra",
+  "fronteira_texto": "'cradle-to-gate approach' (Sec.3.1); FU = 1 m3 de betao 'at the exit gate of the precast plant'",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Tab.2: transporte de materias-primas do cimento, gesso, cinza (52-70 km), cimento, cinza, areia, brita (101-140 km), aditivo (comboio 1311 km), fibra de aco (comboio 1500 km); PRA = 0 km.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "cimento 124; cinza 140; areia 130; brita natural 101; RA demolicao 140; fibra aco 1500 (comboio); aditivo 1311 (comboio); materias-primas cimento 70",
+   "dist_betao_km": null,
+   "modal": "camiao Class 8b (ida e volta); comboio",
+   "camiao": "Tab.C: Road class 8b 1,03 MJ/t/km; ferrovia 0,31 MJ/t/km (Gursel 2014; GB30510)",
+   "factor": ""
+  },
+  "base_dados_processos": "Ferramenta GreenConcrete (Yang et al. 2022); LCI no Apendice (Gursel 2014, Jiang 2021, Ghanbari 2018, GaBi software)",
+  "por_par": [],
+  "citacao": "Sec.3.1: 'life cycle analysed included the production and transport of different concretes and their ingredients'; Tab.2 distancias; FU no portao da fabrica",
+  "texto_completo_lido": true,
+  "nota": "Lido por download_file_content + pdftotext; Fig.2 renderizada e vista: a figura tem caixa 'Transport to Construction Site', mas o texto limita o estudo a cradle-to-gate (FU no portao) e nao ha distancia de entrega na Tab.2; por isso A4 marcado 'excluido' (ambiguidade)."
+ },
+ {
+  "row_id": 3200,
+  "fronteira": "outra",
+  "fronteira_texto": "'cradle-to-gate cycle ... extraction and production phases, excluding the transportation, use, and disposal phases' (Sec.4.4.1)",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "Texto explicito: ciclo cradle-to-gate exclui o transporte.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "OpenLCA com base ecoinvent v3 [68] (nomes de processos nao transcritos no artigo); FU 1 m3 FRC e 1 kg de fibra",
+  "por_par": [],
+  "citacao": "Sec.4.4.1 p.~12: 'The cradle-to-gate cycle involves the extraction and production phases, excluding the transportation, use, and disposal phases.'",
+  "texto_completo_lido": true,
+  "nota": "Lido por download_file_content + pdftotext. Sem diagrama de fronteira no artigo (so Figs.12-13 de resultados). Valor 1 m3 aco 0,25% = 382,3 kg CO2eq (Fig.13)."
+ },
+ {
+  "row_id": 3038,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "'materialization stage': tres subetapas component-production, transport-logistics, construction-installation (Sec.2.2.1)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Tab.3: factor de emissao do concreto C20-C50 (ex. C20 250,00 kg/m3) de 'literature survey of studies in China [39]' e GB/T 51366-2019; o artigo nao diz se inclui transporte das materias-primas. A subetapa transport-logistics e fabrica->obra dos paineis PCC.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "rodoviario (varios modais combustiveis)",
+   "camiao": "",
+   "factor": "Tab.5; factor de 'Eys' kgCO2/(t*km)"
+  },
+  "base_dados_processos": "GB/T 51366-2019 + literatura chinesa; CLCD para energia (Tab.3-5)",
+  "por_par": [],
+  "citacao": "Sec.2.2.1 (3 substages); Sec.2.3.1: 'selection of carbon emission factors of main building materials ... based on literature survey of studies in China [39] and referring to GBT 51366-2019'",
+  "texto_completo_lido": true,
+  "nota": "Lido por read_file_content (texto) - download_file_content falhou (PDF 7,1 MB, ligacao fechada por tamanho). Fig.1/Fig.2/Fig.3 (diagramas de fronteira/fontes) NAO vistas: sem PDF para renderizar. 'excluido' refere-se ao factor do betao C20-C50: o transporte do painel e etapa separada."
+ },
+ {
+  "row_id": 3219,
+  "fronteira": "outra",
+  "fronteira_texto": "'entire process: acquisition of raw materials, transportation, concrete preparation, pavement construction, and maintenance' (Sec.4.1.1, Fig.17)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Materias-primas a 100 km; fase 'collection and transportation of raw materials, and mixing of concrete' ~15% do CO2 da producao do betao (Sec.4.1.3).",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 100,
+   "dist_betao_km": 30,
+   "modal": "rodoviario",
+   "camiao": "dump truck BJ374 (materias-primas); betoneira ZLJ5251GJB2 (betao)",
+   "factor": "Tab.7: 35,4 kg CO2/h (dump truck), 53,1 kg CO2/h (betoneira) (IPCC 2006)"
+  },
+  "base_dados_processos": "GB/T 51366-2019 e literatura [43-45]; Tab.6 (PC42.5 866 kg CO2/t; BYC 369 kg CO2/t)",
+  "por_par": [],
+  "citacao": "Sec.4.1.2: 'The transportation distance for raw materials was set at 100 kilometres, and for concrete, at 30 kilometres'; Tab.6/7; Fig.17",
+  "texto_completo_lido": true,
+  "nota": "Lido por read_file_content (texto) - download_file_content falhou (PDF 8,8 MB, ligacao fechada). Fig.17 (diagrama de fronteira) NAO vista: sem PDF para renderizar. Nao e claro se o par da linha 931 usa so a fase de producao do betao (inclui transporte de materias-primas) ou o total do pavimento (inclui transporte do betao 30 km)."
+ }
+]

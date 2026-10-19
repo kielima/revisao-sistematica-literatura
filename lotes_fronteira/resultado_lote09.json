@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 4763,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF de 10,7 MB: o Drive recusa o download (limite de 10 MB)."
+ },
+ {
+  "row_id": 5038,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "Tese; usa custos ambientais unitarios da literatura (Tab.37/43: concreto 25 MPa = 224,34 kg CO2/m3 de Paya-Zaforteza 2009; GWP 256,88 kg CO2e/m3 de Ochsendorf 2011, 'impacto de pre-uso e de final de vida'); nenhum limite de sistema declarado para o concreto",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Fatores de terceiros, sem descrever o que inclui; transporte so mencionado em revisao geral (Fig.10, diagrama generico USEPA 2006)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Paya-Zaforteza et al. (2009) para CO2; Ochsendorf (2011) para GWP; Eco-Indicador 99 (Paya-Zaforteza 2008)",
+  "por_par": [],
+  "citacao": "Tab.37 e Tab.43 (pp.102 e 109 da tese): 'Os custos em termos de CO2 foram retirados do trabalho de Paya-Zaforteza et al. (2009)...'",
+  "texto_completo_lido": true,
+  "nota": "Texto completo (124 p.) lido por extracao + grep; unica figura de ciclo de vida (Fig.10) e generica e teorica, vista como pagina; pares 48 e 49 (fck 35 e 20 MPa, exemplos IX e X) usam o mesmo fator 224,34 kg CO2/m3 do concreto 25 MPa/20 MPa (Tab.40 e 43)."
+ },
+ {
+  "row_id": 4341,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "Product stage 'cradle to gate' A1-A3 (Eq.1: GHG_A2 = emissoes do veiculo no transporte dos materiais); o estudo tambem modela A4-A5, B e C; Fig.1 mostra 'Transport to batching plant' e 'Transport to site' dentro da fronteira",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 definido na Eq.1; Fig.1 'Transport to batching plant'; camiao de 32 t",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 50,
+   "modal": "road (camiao 32 t)",
+   "camiao": "standard 32-metric-tonnes truck",
+   "factor": "AusLCI/Ecoinvent v3, SimaPro 9.5; distancias de materiais ate a central nao impressas"
+  },
+  "base_dados_processos": "AusLCI + Ecoinvent v3, SimaPro 9.5, CML-IA baseline",
+  "por_par": [],
+  "citacao": "p.6 Eq.(1) 'GHG_A2 refers to ... vehicle during the transportation of materials'; p.9 '50 km ... batch plant to a construction site'; Fig.1 p.5; Tab.2 p.10 (GWP 303,1 / 272,0 kg CO2-eq ...)",
+  "texto_completo_lido": true,
+  "nota": "Fig.1 vista como imagem. A Tab.2 (GWP por classe, normal vs cura com CO2) nao diz por modulo se inclui A4 (50 km central-obra, que o modelo considera): classifiquei A4 como nao_declarado para os valores gravados; Fig.1 coloca 'Transport to site' dentro da fronteira do estudo. Os 14 pares tem a mesma resposta."
+ },
+ {
+  "row_id": 3055,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate, GreenConcrete LCA tool; termina no portao da central de betao",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "'transportation of materials' dentro do limite; GWP do transporte = 4-18% do total",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "camiao Class 8b (2005), barcaca, ferrovia",
+   "camiao": "Truck_Class 8b (Model 2005)",
+   "factor": "ferramenta GreenConcrete LCA (nao impresso)"
+  },
+  "base_dados_processos": "GreenConcrete LCA tool (ref.24); distancias na Tab.4: materias-primas do cimento 1 km, gesso 200, cimento 60, agregado fino 50, agregado grosso 1000 km barcaca + 10 km camiao, aditivo 1000, cinza volante 1000 km ferrovia, calcario 130",
+  "por_par": [],
+  "citacao": "p.62-63: 'the system boundary includes ... transportation of materials, mixing ... and ends at the gate of the concrete plant'; Tab.4 p.69; p.70 'Transportation of materials to the concrete batching plant is the second highest source ... 4% and 18%'",
+  "texto_completo_lido": true,
+  "nota": "Nao ha diagrama de fronteira (Fig.3 e o quadro generico de ACV, visto); resposta pelo texto + Tab.4. A4 excluido porque a fronteira acaba no portao da central. Os 13 pares: mesma resposta; distancias por material variam (ver Tab.4)."
+ },
+ {
+  "row_id": 3132,
+  "fronteira": "outra",
+  "fronteira_texto": "'cradle-to-site' = cradle-to-gate + transporte dos materiais ate ao local (laboratorio); Eq.9 GWP = (1+n) soma(mw x GWPc) + TiGWP",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "TiGWP somado ao GWP; Fig.4 'Production and transport' em todos os constituintes (agua 0 km)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": "PLC 62; VPA 17; FA 3,5; CA 81; agua 0",
+   "dist_betao_km": null,
+   "modal": "truck, road",
+   "camiao": "nao especificado",
+   "factor": "0,159 kgCO2-eq/tonne-km (camiao); 0,039 (ferrovia)"
+  },
+  "base_dados_processos": "ICE (Hammond & Jones) para GWPc; coeficientes de transporte Tab.7 (Fernando, Sandanayake, Keller, Pervez)",
+  "por_par": [],
+  "citacao": "p.4 sec.3.2 'The study's boundary is within cradle-to-site confine, encompassing cradle-to-site and material transportation'; Fig.4 p.4; Eq.(6) e (9); Tab.8 p.6",
+  "texto_completo_lido": true,
+  "nota": "Fig.4 vista como imagem. A distancia e de cada fonte ate ao laboratorio; transporte do betao (central-obra) nao existe no estudo. Wastage de 19% aplicado."
+ },
+ {
+  "row_id": 3681,
+  "fronteira": "outra",
+  "fronteira_texto": "Limite = modulos do ciclo de vida relacionados com a carbonatacao: producao do cimento, vida util (60 anos), fim de vida em aterro (940 anos); unidade de referencia: 1 bloco 400x200x200 mm (0,016 m3)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Producao = so o factor de emissao do cimento (kg/kg cimento); o artigo nao fala em transporte",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent v3.7 cut-off: 'cement, portland fly ash cement 6-20%' e 'cement, blast furnace slag 6-20%' (Tab.1: 0,69 e 0,71 kg CO2-eq/kg cimento)",
+  "por_par": [],
+  "citacao": "p.3 sec.3.1 'The system boundary includes the life cycle modules that relate to carbonation'; p.4 sec.3.3 e Tab.1; Fig.1 p.3",
+  "texto_completo_lido": true,
+  "nota": "Fig.1 vista como imagem (so fluxos de carbono: producao, vida util, fim de vida). Palavra 'transport' nao aparece no corpo do artigo."
+ },
+ {
+  "row_id": 3539,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "Nao declara fronteira; GWP por kg de OPC/SCM (media de revisao de literatura, Tab.2) e GWP por m3 dos mixes otimizados (Tab.6, Eq. ECO2)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Palavra 'transport' so aparece em referencia bibliografica; Fig.2 (producao de FA, GGBS, SF, LP, CC) vista: sem transporte",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "media de pesquisa de literatura [6,7,34-47] para OPC (0,87-0,896 kg CO2-eq/kg); alocacao economica 2/1/3% para FA/GGBS/SF",
+  "por_par": [],
+  "citacao": "p.4 sec.2.2.1 e Tab.2; Tab.6 p.11 (GWP 113,3 a 201,4 kg CO2 eq/m3)",
+  "texto_completo_lido": true,
+  "nota": "Figs.1 e 2 vistas como imagem; nenhuma e fronteira do sistema com transporte. 7 pares: mesma resposta."
+ },
+ {
+  "row_id": 4608,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'cradle to gate' (A1-A3, EN 15804) de EPDs de betao; estudo limitado ao estagio de producao; A4-A5, B e C-D excluidos ('Future works should consider integrating A4 to D')",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Pelo modulo A2 'Transport' dentro de A1-A3 na Fig.1 (EN 15804); o artigo nao descreve o transporte de cada EPD individual",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "EPDs (IBU, EPD-Norge, etc.; Tab.3, 6, 7); Ecoinvent so citado como alternativa generica",
+  "por_par": [],
+  "citacao": "p.8 'the study is limited to the impacts produced during the production phase (module A1-A3)'; p.21 'limited to embodied impacts from cradle to gate (including A1-A3)'; Fig.1 p.3: A1 raw material supply, A2 transport, A3 manufacture; Tab.4",
+  "texto_completo_lido": true,
+  "nota": "Fig.1 vista como imagem. A inclusao do transporte e inferida da definicao A1-A3 da norma mostrada no artigo, nao de uma frase sobre cada EPD. Os 17 pares: mesma resposta."
+ },
+ {
+  "row_id": 4516,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF de 6,8 MB: o download do Drive fechou a ligacao MCP (resposta demasiado grande) em duas tentativas."
+ },
+ {
+  "row_id": 4455,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "",
+  "por_par": [],
+  "citacao": "",
+  "texto_completo_lido": false,
+  "nota": "nao_lido: PDF de 8,4 MB: o download do Drive fechou a ligacao MCP (resposta demasiado grande) em duas tentativas."
+ }
+]

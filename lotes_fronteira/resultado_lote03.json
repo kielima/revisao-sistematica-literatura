@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 3331,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "cradle-to-grave declarado, mas so A1-A5 avaliados (uso e fim de vida omitidos)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Texto: A1-A3 = 'raw materials, transportation, and manufacturing'; sem distancias",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "Tab.5: concreto A1-A3 254,4 kgCO2e/m3; A4 14 kgCO2e/m3 (a parte)"
+  },
+  "base_dados_processos": "Nao identificada (coeficientes ECC/EEC de Tab.5, ref. De Wolf)",
+  "por_par": [],
+  "citacao": "Sec.2.6 p.6: 'material production... transportation, and manufacturing (modules A1-A3)'; 'construction phase, i.e., the transportation and assembly (A4-A5)'; Conclusoes: 'A4 contributed 14 kg CO2e/m3'",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). A4 e reportado a parte do A1-A3; confirmar qual dos valores esta gravado na linha 968 (193.859 kg/420,65 m3 = 460,8 nao coincide com 254,4 nem com A1-A5 = 306)."
+ },
+ {
+  "row_id": 3904,
+  "fronteira": "outra",
+  "fronteira_texto": "A (A1-A3) + C1-C3 do agregado reciclado (EoL to gate); EN 15804/EN 16757",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 = transporte dos constituintes ate a central; materiais incluidos para BAU e RC",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "agregados naturais 50; reciclado 30 (45 entre central de reciclagem e de betao no texto); cimento 140; cinza 100",
+   "dist_betao_km": null,
+   "modal": "camiao/trem/navio (cimento 80/9/11 %; agregados 88/2/10 %)",
+   "camiao": "fator de carga 50 %",
+   "factor": "GaBi"
+  },
+  "base_dados_processos": "GaBi Professional + GaBi Extension XIV Construction materials (2019, SP38) em openLCA; nomes de processos nao transcritos",
+  "por_par": [],
+  "citacao": "Sec.2.2 p.3: 'transport of the materials to the concrete plant (A2)'; Tab.2 p.4 distancias e modais",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). Fronteira nao inclui A4 (betao ate a obra). RC acrescenta C1-C3 da producao do agregado reciclado. Pares 1136 (BAU) e 2016 (RC)."
+ },
+ {
+  "row_id": 4836,
+  "fronteira": "outra",
+  "fronteira_texto": "LCCO2 do edificio: producao de materiais, construcao, operacao/manutencao, demolicao",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Fase de producao de materiais usa GWP de BD LCI (KLCI DB) por m3 de betao pronto; sem dizer se inclui transporte de materias-primas",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 10,
+   "modal": "",
+   "camiao": "betoneira",
+   "factor": "Tab.10: 6,74E-01 kgCO2/m3.km (betoneira, 10 km); camiao 2,5 t 30 km p/ outros materiais 0,146 kgCO2/t.km"
+  },
+  "base_dados_processos": "KLCI DB (Coreia); CFF (Korea) para o betao 25-50-600; ecoinvent 2005 citado",
+  "por_par": [],
+  "citacao": "Sec.3.1 Tab.3 e Tab.10 p.13: transporte de betao pronto na fase de construcao (62,4 % do transporte)",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). O A4 e calculado a parte, na fase de construcao, e nao esta no valor de GWP do betao da fase de producao."
+ },
+ {
+  "row_id": 3685,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "valores 'cradle-to-factory-gate' (Concrete Centre) para os constituintes",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "Tab.4: nao incluem transporte do fabricante dos materiais a central; transporte somado a parte (11 kg/t cimento, 7 kg/t SCM)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "A4: 8,4 kgCO2/t de betao entregue; 7 kgCO2/t armadura; materiais -> central 11 kg/t cimento, 7 kg/t SCM (Concrete Centre)"
+  },
+  "base_dados_processos": "Concrete Centre / Tab.4 (CEM I 860, GGBS 79,6, FA 0,1, agregado 2,6 kg/t)",
+  "por_par": [],
+  "citacao": "Sec.3 p.5: 'These are cradle-to-factory-gate values, i.e., they do not include CO2 emissions caused by transport... to the concrete plant'",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). Pares 2010-2012 sao 'so constituintes, A1-A3' = sem transporte. O transporte e um termo separado do modelo (E_CO2,P e E_CO2,C) e nao esta nestes pares."
+ },
+ {
+  "row_id": 2785,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate, modulos A1-A3",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 incluido: transporte de cimento e aditivos esta nas EPD; agregados com dados por t.km do ecoinvent 3.6",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "agregados: t.km do ecoinvent 3.6 (valor nao lido)"
+  },
+  "base_dados_processos": "EPD de cimento; ecoinvent 3.6 (SimaPro 9.1.1); IVE 2020",
+  "por_par": [],
+  "citacao": "Sec.2.1 p.4: 'cradle-to-gate approach, including the modules A1-A3, i.e., production of raw materials, transport, and manufacturing'; Sec.3.4 'Transport of raw materials'",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). A4 fora da fronteira cradle-to-gate (nao mencionado)."
+ },
+ {
+  "row_id": 4800,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate, so producao do ligante",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Nao menciona transporte; so producao dos ligantes (processos ecoinvent, MOC/MPC de estudo anterior, CSA adaptado da EPD Buzzi Unicem); carga de cargas de enchimento (cascas de canhamo) nao entra",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Ecoinvent 3 (SimaPro 8), IPCC 2013 GWP100a; CSA: processo novo adaptado do cimento + EPD Buzzi Unicem",
+  "por_par": [],
+  "citacao": "p.5: ''cradle-to-gate' system boundaries were used to take into account only the production process of the binders'",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). FU 1 m3 de ligante ou de biocomposto; enchimento de canhamo excluido do calculo; as linhas 595-597 sao pares de ligante/biocomposto."
+ },
+ {
+  "row_id": 3195,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-gate, da recolha de RCD ate a parede impressa 3D (fase de producao)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte de RCD (20 km), escoria (620 km), activadores incluidos; so 0,23 % do GWP",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": "RCD 20; escoria 620",
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "RCD 10 t, 20 L/100 km; escoria 10 t; activadores camioneta 0,5 t, 12 L/100 km",
+   "factor": "consumo de diesel por t (0,40 L/t RCD; 12,4 L/t escoria)"
+  },
+  "base_dados_processos": "Nao lido por processo (openLCA/ecoinvent nao confirmado)",
+  "por_par": [],
+  "citacao": "Sec.3.1 p.7 e inventario p.8: 'cradle-to-gate scope covering everything from the gathering of CDW through... 3DP of the final wall'; 'overall transportation effect... 0.23 % of GWP'",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). Impressao 3D e feita na propria fronteira, sem transporte do produto."
+ },
+ {
+  "row_id": 3477,
+  "fronteira": "A1-A4",
+  "fronteira_texto": "cradle-to-gate: extraccao, transporte, producao e distribuicao do betao ate a obra",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Distancia igual de 36 km para finos, graudos e cimento ate a central",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 36,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "",
+   "factor": "Tab.6 factores de emissao de transporte (Monte Carlo)"
+  },
+  "base_dados_processos": "Ecoinvent 3.8 em OpenLCA, ReCiPe 2016 H",
+  "por_par": [],
+  "citacao": "Sec.3.2.1: 'extraction, transportation, production, and distribution of the final concrete materials to a construction site'; Sec.3.2.4: 'equal transportation distance of 36 km... to the concrete batching plant'",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). A4 so afirmado na definicao da fronteira, sem distancia/processo proprio (confianca baixa). Pares gravados devem ser os da Tab.7 (GWP100) e nao os da analise Monte Carlo."
+ },
+ {
+  "row_id": 3497,
+  "fronteira": "outra",
+  "fronteira_texto": "pegada de CO2 dos materiais da mistura + preparacao e vazamento do betao; uso excluido",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Transporte incluido para cimento, cinza volante, RCA, TDA (via factores da literatura); agregados naturais so mineracao/britagem/crivagem; agua so energia de abastecimento",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "factores de emissao da literatura (refs. 146-153), nao reproduzidos; E6 inclui 'batching, carriage, placing and pouring'"
+  },
+  "base_dados_processos": "Nenhuma base citada; factores compilados da literatura",
+  "por_par": [],
+  "citacao": "Sec.4 p.13: cimento 'raw materials... manufacture, and emissions from transportation'; agregados 'mining, crushing and sorting'; E6 'concrete batching, carriage, placing and pouring'",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). Pares incluem creditos (ER1 evitado de aterro, ER2 TDA); o transporte do betao (carriage) e agregado ao termo E6 e nao e separavel."
+ },
+ {
+  "row_id": 2700,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "product stage, cradle to gate (extraccao, transporte, fabrico)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte de materias-primas por camiao e comboio ate a central, com distancias",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "14 a 201 (Tab.4, regioes de fornecimento)",
+   "dist_betao_km": null,
+   "modal": "camiao / comboio",
+   "camiao": "",
+   "factor": "BD LCI Coreia (camiao)"
+  },
+  "base_dados_processos": "LCI DB do Ministerio da Terra Coreano; ecoinvent para escoria, cinza volante e aditivo; sem nomes de processo",
+  "por_par": [],
+  "citacao": "Sec.3.1 p.4 e Fig.2: 'product stage... raw material extraction, transportation, and manufacturing'; Tab.4/Tab.6",
+  "texto_completo_lido": true,
+  "nota": "Texto completo lido via Drive; figuras de fronteira nao inspeccionadas como imagem (so a legenda/texto). Distribuicao ate a obra (opcional na Fig.2) fora do escopo; indicador do artigo e acidificacao/eutrofizacao, mas os pares gravados sao de GWP."
+ }
+]

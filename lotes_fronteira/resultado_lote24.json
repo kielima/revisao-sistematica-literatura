@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 3928,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "Nao declarada; LCA (CED, GWP) por 1 m3 de betao via OpenLCA + Ecoinvent; GWP da ponte com 'erection included' e 'operation' como indicadores separados (Tab.6)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O artigo nao menciona transporte de materiais no LCA; so somam-se impactos de cada componente do traco a partir do Ecoinvent.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "OpenLCA + Ecoinvent (processos nao nomeados)",
+  "por_par": [],
+  "citacao": "p.3 Sec.2.4: 'The environmental impact of 1m3 UHPC and 1m3 NC is calculated firstly by summarizing the environment impact data of each component... collected from the Ecoinvent database'; p.7 Sec.3.x: '1m3 NC 980 kg CO2 eq'. Figs.1-2 sao seccoes transversais da ponte, nao ha diagrama de fronteira.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content OK (PDF renderizado, figuras vistas). Par = M300 (NC) 980 kg CO2eq/m3."
+ },
+ {
+  "row_id": 2731,
+  "fronteira": "outra",
+  "fronteira_texto": "'cradle-to-gate' (sic) de ponte: 4 fases MPP, CON, OM, WD (modelo de exergia, nao A1-A3); Fig.1 e fluxograma conceptual sem modulo de transporte separado",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "No factor do cimento (Tab.A6/A7) incluem-se transporte das materias-primas (calcario, argila, gesso, escoria; 50-1477 km, ferrovia/via fluvial/estrada) e transporte do cimento (300 km). Para os factores de betao C20-C50 (Tab.A1, kJ/m3) o artigo nao descreve a composicao nem se ha transporte de agregados/betao.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 300,
+   "dist_betao_km": null,
+   "modal": "8% ferrovia, 14% via fluvial, 78% estrada (cimento)",
+   "camiao": "",
+   "factor": "diesel 0,00903 kg/kg + 0,00019 kWh/kg (transporte do cimento)"
+  },
+  "base_dados_processos": "Dados proprios dos autores (modelo de exergia ambiental) e normas chinesas; sem Ecoinvent",
+  "por_par": [],
+  "citacao": "p.7 Sec.2.2.1: 'raw material transportation information [30]... Portland cement transportation information [39]... three processes (raw material transportation, production process, and transportation process)'; Tab.A6 e A7 p.16; Tab.A1 p.13-14 (Concrete C20-C50).",
+  "texto_completo_lido": true,
+  "nota": "download_file_content OK (PDF renderizado, figuras vistas). CO2 dos 7 pares vem da exergia de aquecimento global na Tab.A1 (kJ/m3 / 4400 kJ/kg). Fig.1 vista (esquema de 4 fases, sem diagrama de fronteira detalhado)."
+ },
+ {
+  "row_id": 3404,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-gate do AAM (producao de materias-primas, tratamento de residuos e mistura); uso e fim de vida excluidos",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "'Transportation is excluded from this study as it is assumed all raw materials considered have similar transportation distances.'",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "GaBi 2019 (NaOH, areia, electricidade, agua); Ecoinvent EU-28 'Sodium silicate production, hydrothermal liquor, product in 48% solution state' e 'Sodium silicate production, spray powder, 80%'; CFA/GBFS/RHA/WG da literatura",
+  "por_par": [],
+  "citacao": "p.3 Sec.2.2.1: 'The system boundary (Fig. 3) ... cradle-to-gate AAM... Transportation is excluded from this study'; Fig.3 p.4 (caixa tracejada sem modulo de transporte); Tab.2 p.5.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content OK (PDF renderizado, figuras vistas). Fig.3 vista: so energia, emissoes, activadores, ligante, argamassa; sem transporte. S1-S4 iguais quanto a fronteira."
+ },
+ {
+  "row_id": 4671,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "Nao declarada; secao 'Sustainability analysis' calcula GHG por 1 m3 com factores kg CO2e/kg (Tab.6) x traco (Tab.7)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Factores por kg de OPC 0,78, areia 0,0051, fibra PP 1,9, agua 0,0008, RP 0, SF 0 (refs [74-76]); nenhuma mencao a transporte.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Sem base de dados de LCA; factores da literatura (Tab.6)",
+  "por_par": [],
+  "citacao": "Sec.4.2 e Tab.6/Tab.7: 'The specific CO2 emissions (kg CO2e/kg) for various mixture ingredients... OPC 0.780 ...'",
+  "texto_completo_lido": true,
+  "nota": "read_file_content (texto) funcionou; download_file_content falhou (ficheiro 24 MB, acima do limite de 10 MB), por isso as figuras NAO foram renderizadas. O texto termina nas referencias (completo). Sem diagrama de fronteira no texto."
+ },
+ {
+  "row_id": 3153,
+  "fronteira": "outra",
+  "fronteira_texto": "'cradle-to-grave LCA' (producao, transporte de ingredientes, construcao, fim de vida), Eq.10",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "CO2(Transportation) = soma ri.di.Eti, com Eti = 0,6 kg CO2e/t-km [80], termo separado de CO2(Production); distancias di nao impressas. Nao sei se o valor gravado e so a barra 'Production' (neste caso exclui transporte) ou o total.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "0,6 kg CO2e/t-km (materias-primas)"
+  },
+  "base_dados_processos": "Turner & Collins (2013) para constituintes; 0,016 kg CO2e/kg de betao [82,83]; Zhao et al. [80]",
+  "por_par": [],
+  "citacao": "p.15-16 Sec.3.5.1-3.5.3: 'cradle-to-grave LCA'; 'For the transportation of raw ingredients ... 0.6 kg-CO2-e/t-km'; 'CO2(Total)=CO2(Production)+CO2(Transportation)+CO2(Construction)+CO2(End life)'; Fig.25 (barras Production/Transportation/Construction/End-life). Conclusao p.17: comparacao 'does not have any influence on transportation and construction methods' (contraditorio).",
+  "texto_completo_lido": true,
+  "nota": "read_file_content (texto) funcionou; download_file_content falhou (ficheiro 30 MB > 10 MB), logo Fig.25 NAO vista e nao li valores das barras. Texto completo ate as referencias. Confirmar com a Fig.25 se o co2 gravado (linhas 869, 1934) e o 'Production' ou o total."
+ },
+ {
+  "row_id": 2803,
+  "fronteira": "A1-A4",
+  "fronteira_texto": "'A1-A4 cycle, from extraction of raw materials to the transport of the finished material to the construction site'",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Calculadora Circular Ecology: 'Transport of constituents' 12,9 kg CO2e/m3 (Fig.6).",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 50,
+   "modal": "",
+   "camiao": "",
+   "factor": "Calculadora Circular Ecology (ICE); distancias dos constituintes nao impressas"
+  },
+  "base_dados_processos": "Circular Ecology Embodied Carbon calculator (ICE); processos nao nomeados",
+  "por_par": [],
+  "citacao": "Resumo p.24: 'phases of the A1-A4 cycle'; p.32 Sec.2.3: 'average accepted route of transport of the finished mixture to the construction site equal to 50 km'; Fig.6 p.33: Transport of constituents 12.9; Transport to site 12.5; total 452 kg CO2e/m3.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content OK (PDF renderizado, figuras vistas). O total 452 inclui A4 (12,5) - se o grafico for A1-A3 puro, subtrair 12,5. Fig.5/Fig.6 vistas. Observacao: Fig.2 mostra ciclo de vida generico (EN 15804), nao fronteira especifica."
+ },
+ {
+  "row_id": 4869,
+  "fronteira": "outra",
+  "fronteira_texto": "Nao usa termo normalizado; produccion de componentes + preparacion + puesta en obra + transportes (Tab.2); estimativas dos autores (valores min/med/max), nao ACV formal",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Tab.2 separa transporte de cemento, arido, aditivos, aco e ferralha (total transportes 24,01 kg CO2/m3 med.; 7,11% do total).",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 30,
+   "modal": "estrada predominante",
+   "camiao": "auto-hormigonera",
+   "factor": "distancia 'mais frequente' ~30 km, maxima ~60 km; cimento ~200 km (max 400), aridos locais (<60 km), aditivos ~150 km (max 300), aco ~600 km (max 1200), ferralha ~100 km (max 200)"
+  },
+  "base_dados_processos": "Estudos previos dos autores (refs 14-18), dados de cementeiras espanholas; sem base de dados comercial",
+  "por_par": [],
+  "citacao": "Tab.2 p.7 (Caso n.1, HA-25 B, 50 kg aco/m3): 'Transporte de cemento 7,03; arido 5,81; aditivos 0,08; acero 2,66; ferralla 0,52; hormigon 7,93; Total transportes 24,01; TOTAL 337,67 kgCO2/m3'; Sec.3.2-3.3 sobre distancias.",
+  "texto_completo_lido": true,
+  "nota": "download_file_content OK (PDF renderizado, figuras vistas). O total de 337,67 (med.) inclui producao de aco (31,15) - se a linha 1826 gravou 337,67 contem aco e transportes; se gravou so betao, subtrair. Fig.1 e a arvore de requisitos da EHE-08, sem fronteira."
+ },
+ {
+  "row_id": 3034,
+  "fronteira": "A1-A4",
+  "fronteira_texto": "'Cradle-to-Use' (GREET building LCA module): A1-A3 + A4; excluidos construcao/instalacao (A5), manutencao, fim de vida; Fig.9 identifica A1-A4",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 'raw material transportation' = 2% das emissoes embodied do edificio (Fig.9); distancias dentro de 805 km (LEED MRc5), por defeito camiao 18,1 t, 161 km so ida.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "payload 18,1 t, 161 km so ida (quando sem dados)",
+   "factor": "distancias medias ponderadas por custo de fornecedores (LEED MRc5)"
+  },
+  "base_dados_processos": "GREET building LCA module; cimento GREET [36,42]; betao NRMCA LCA Benchmark; sem nomes de processos",
+  "por_par": [],
+  "citacao": "p.3 Sec.2.1: 'Cradle-to-Use LCA of CPL that includes manufacturing and transportation of building materials to the construction site'; Sec.2.5 p.5; Sec.3 p.8-9: 'raw material supply (27%), raw material transportation (2%), and transportation of finished products to the construction site (1%)'; Fig.9 (A1-A4).",
+  "texto_completo_lido": true,
+  "nota": "download_file_content OK (PDF renderizado, figuras vistas). Fig.1 e Fig.9 vistas. Valores por material (betao 0,17 kg CO2e/kg) agregam todas as fases; distancia especifica do betao nao impressa."
+ },
+ {
+  "row_id": 2804,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'cradle-to-gate' (extracao/processamento de materias-primas ate produzir a mistura de betao; Fig.2 termina em 'Mixed Load Out')",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "'all material transportations' dentro da fronteira; distancias de ida e volta ate a central: agregados 105 km, PC 209 km, FA 314 km, GGBS 439 km, todo por estrada.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 209,
+   "dist_betao_km": null,
+   "modal": "estrada",
+   "camiao": "",
+   "factor": "distancias ida e volta: agregados 105, PC 209, FA 314, GGBS 439 km (tipicas UK); factor nao impresso"
+  },
+  "base_dados_processos": "Ecoinvent 3.01 em SimaPro 8; processos nao nomeados no texto (Apendice A suplementar)",
+  "por_par": [],
+  "citacao": "p.849 Sec.2.4: 'Cement manufacture and aggregate extraction/processing... as are all material transportations'; Sec.2.5 (v): 'Average round trip transportation distances to the concrete plant are estimated to be 105 km for aggregate materials, 209 km for PC, 314 km for FA and 439 km for GGBS'; (vi) 'by road'; Fig.2 p.850.",
+  "texto_completo_lido": true,
+  "nota": "read_file_content (texto) funcionou; download_file_content falhou (ligacao MCP fechou: base64 de 7,5 MB excede o limite), logo Fig.2 so lida pelo texto extraido (rotulos: transportation energy em cada entrada, Mixed Load Out). Transporte do betao a obra nao e mencionado: fronteira termina na central. Nota: 'The system boundary does not include SCMs' mas inclui processamento+transporte de FA/GGBS (assuncao iv)."
+ },
+ {
+  "row_id": 4997,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'cradle-to-gate' (producao de cimento, operacao da fabrica, moagem da escoria, agregados, mistura; para geopolimero: metacaulim, silicato de sodio, NaOH, agregados)",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "'ignora o transporte e a extracao de materias-primas comum'; so o 'Transporte de clinquer' interno da fabrica (5.624,64 kJ/t cimento, Tab.3) e energia de processo.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Dados da literatura (Hammond & Jones 2008, Signoretti 2008, Paula 2009, EFCA 2002, Fawer 1999) em Umberto; sem Ecoinvent",
+  "por_par": [],
+  "citacao": "p.158 Sec.'Determinacao da unidade funcional e fronteiras': 'Esta analise do ciclo de vida ignora o transporte e a extracao de materias-primas comum, bem como as etapas de aplicacao do concreto (transporte, lancamento, compactacao e cura)'; Figs.3-4 p.161-162 (Umberto, sem modulos de transporte).",
+  "texto_completo_lido": true,
+  "nota": "download_file_content OK (PDF renderizado, figuras vistas). Figs.3 e 4 vistas: fluxogramas sem transporte. Pares: CP II 271,9 e geopolimerico 75,1 kg CO2/m3."
+ }
+]

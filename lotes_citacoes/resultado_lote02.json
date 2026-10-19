@@ -1,0 +1,366 @@
+[
+ {
+  "row_id": 5019,
+  "lista_refs_encontrada": true,
+  "n_refs": 136,
+  "ligacoes": [
+   {
+    "para": 5015,
+    "citacao": "SILVA, A. O. Estudo comparativo do ciclo de vida e de custo de pilar com diferentes traços de concreto. 2014. 165 f. Dissertação (Mestrado em Engenharia Civil) – Universidade Federal de Santa Maria",
+    "local": "Referências; citado no cap. 4 (dados de custo aproveitados dos estudos de Silva (2014) e Lamberti (2015))"
+   },
+   {
+    "para": 5043,
+    "citacao": "LAMBERTI, L. A. Análise do ciclo de vida e de custo de pilar com diferentes traços de concreto frente a carbonatação: do berço ao túmulo. 2015. 169 f. Dissertação (Mestrado em Engenharia Civil) – Universidade Federal de Santa Maria",
+    "local": "Referências"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "simapro_8_4",
+    "nome": "SimaPro 8.4 (software e banco de dados do programa)",
+    "tipo": "software",
+    "local": "Cap. 4.3.6 / 4.4 (ICV)",
+    "citacao": "utilizou-se ... o software SimaPro 8.4; os dados sobre a água, madeira e aditivo foram retirados do banco de dados do programa SimaPro 8.4; cinza de casca de arroz também do banco do SimaPro 8.4"
+   },
+   {
+    "id_fonte": "aco_brasil_sustentabilidade_2012",
+    "nome": "Relatório de Sustentabilidade do Aço 2012, Instituto Aço Brasil (2013)",
+    "tipo": "relatorio",
+    "local": "Cap. 4.4 (ICV)",
+    "citacao": "as informações relacionadas ao aço foram retiradas do Relatório de Sustentabilidade do Aço, 2012, do Instituto Aço Brasil (2013)"
+   },
+   {
+    "id_fonte": "dados_primarios_fabricas_santos2017",
+    "nome": "Dados primários de fábricas fornecedoras (cimento CP IV e CP V-ARI, agregados)",
+    "tipo": "relatorio",
+    "local": "Cap. 4.4 (ICV)",
+    "citacao": "dados do cimento CPIV e CPV-ARI obtidos diretamente com as fábricas fornecedoras"
+   }
+  ],
+  "nota": "Tese lida a partir de PDF completo (218 p.) via download + pdftotext; fck 25 MPa de projeto (Tab. 4.1), CO2 do software. Tabela de preços TCPO 2008 e SINAPI são só de custo (não registadas)."
+ },
+ {
+  "row_id": 5011,
+  "lista_refs_encontrada": true,
+  "n_refs": 121,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_3",
+    "nome": "Ecoinvent 3.3 (banco de dados de segundo plano)",
+    "tipo": "base_de_dados",
+    "local": "Cap. 3.5 (inventário) e nota 8",
+    "citacao": "Quando não for especificado no texto, o termo 'banco de dados' se refere ao Ecoinvent; utilizaram-se os dados mais atuais dentre os disponíveis no banco de dados do Ecoinvent"
+   },
+   {
+    "id_fonte": "simapro_8_4",
+    "nome": "SimaPro 8.4.0 (software)",
+    "tipo": "software",
+    "local": "Cap. 3 / Cap. 4",
+    "citacao": "software SimaPro v. 8.4.0"
+   },
+   {
+    "id_fonte": "uslci_2015",
+    "nome": "United States Life Cycle Inventory (USLCI, 2015)",
+    "tipo": "base_de_dados",
+    "local": "Cap. 3.5.1 (coque de petróleo)",
+    "citacao": "utilizou-se o banco de dados do United States Life Cycle Inventory (USLCI, 2015)"
+   },
+   {
+    "id_fonte": "mctic_inventario_nacional_2016",
+    "nome": "Inventário nacional de emissões (MCTIC, 2016)",
+    "tipo": "relatorio",
+    "local": "Cap. 3.5.1 (cimentos)",
+    "citacao": "inventário de emissões nacional (MCTIC, 2016); emissão de 0,571 kg CO2/kg clínquer"
+   },
+   {
+    "id_fonte": "snic_2018",
+    "nome": "SNIC (Sindicato Nacional da Indústria do Cimento) dados de produção",
+    "tipo": "relatorio",
+    "local": "Cap. 2 (contexto)",
+    "citacao": "a quantidade de cimento produzida no Brasil em 2016 foi de 57 milhões de toneladas (SNIC, 2018)"
+   }
+  ],
+  "nota": "Tese lida a partir de PDF completo (161 p.). Nenhuma ligação certa aos 466 alvos; os traços de concreto analisados vêm de artigos (Cap. 3) sem coincidência com o alvo."
+ },
+ {
+  "row_id": 5050,
+  "lista_refs_encontrada": true,
+  "n_refs": 65,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "gabi_educacional",
+    "nome": "Software e banco de dados GaBi (versão educacional)",
+    "tipo": "software",
+    "local": "Cap. 3 / Limitações",
+    "citacao": "A versão do software GaBi utilizado ... foi a educacional, que possui limitações quanto à abrangência do seu banco de dados"
+   },
+   {
+    "id_fonte": "epd_votorantim_concreto",
+    "nome": "DAP/EPD de concreto da Votorantim Cimentos (Brasil), 267 kgCO2-eq/m3",
+    "tipo": "epd",
+    "local": "Apêndice A",
+    "citacao": "MATERIAL: Concreto; ORIGEM DO DAP: Votorantim Cimentos (Brasil); FATOR GWP: 267 kgCO2-eq/m³"
+   },
+   {
+    "id_fonte": "ben_2017_epe",
+    "nome": "Balanço Energético Nacional 2017 (ano-base 2016), EPE",
+    "tipo": "relatorio",
+    "local": "Cap. 3 / Tabelas 9 e 10",
+    "citacao": "fatores de emissão ... obtidos em DAP's, artigos, ou através de dados oficiais do Balanço Energético Nacional (BRASIL, 2017); diesel 2,056 kgCO2-eq/L; eletricidade 0,04 kgCO2-eq/MJ"
+   }
+  ],
+  "nota": "Dissertação lida a partir de PDF completo (137 p.). Lista de referências localizada; nenhum dos 466 alvos citado."
+ },
+ {
+  "row_id": 5018,
+  "lista_refs_encontrada": true,
+  "n_refs": 134,
+  "ligacoes": [
+   {
+    "para": 2801,
+    "citacao": "SOMBRIO, C. M. O. ACV de painéis de blocos cerâmicos e concreto armado: um exercício de aplicação do manual do ILCD. Dissertação (Mestrado) – FAU, Universidade de Brasília, Brasília, 2015",
+    "local": "Referências"
+   },
+   {
+    "para": 5041,
+    "citacao": "BENTO, R.C. Análise do desempenho ambiental de estruturas de concreto armado: uso da avaliação do ciclo de vida (ACV) no processo decisório do dimensionamento. 2016. Tese (Doutorado). Universidade de São Paulo",
+    "local": "Referências"
+   },
+   {
+    "para": 2700,
+    "citacao": "KIM, T. H.; CHAE, C. U. Environmental impact analysis of acidification and eutrophication due to emissions from the production of concrete. Sustainability, v. 8, n. 6, p. 1–20, 2016",
+    "local": "Referências"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_5",
+    "nome": "Ecoinvent versão 3.5, alocação cut-off (EcoQuery)",
+    "tipo": "base_de_dados",
+    "local": "Cap. 3 / Apêndice F (Quadro 10)",
+    "citacao": "dados secundários obtidos da literatura e da base de dados do Ecoinvent, versão 3.5 cut-off allocation; empregados os dados do site EcoQuery"
+   },
+   {
+    "id_fonte": "bs_en_15978_2011",
+    "nome": "BS EN 15978:2011 Sustainability of construction works – assessment of environmental performance of buildings",
+    "tipo": "norma",
+    "local": "Cap. 2 / Cap. 3",
+    "citacao": "categorias de impacto e fases A1–A5 segundo a BS EN 15978:2011"
+   },
+   {
+    "id_fonte": "cml_method",
+    "nome": "Método CML (e CED)",
+    "tipo": "software",
+    "local": "Cap. 3",
+    "citacao": "métodos de avaliação de impacto escolhidos foram o CML e o Cumulative Energy Demand (CED)"
+   }
+  ],
+  "nota": "Dissertação lida a partir de PDF completo (175 p.); o estudo é Lean & Green (ecoeficiência) numa obra de edifício; fck/CO2 dos concretos dependem do Ecoinvent."
+ },
+ {
+  "row_id": 4144,
+  "lista_refs_encontrada": true,
+  "n_refs": 68,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_2017",
+    "nome": "Base de dados Ecoinvent (Swiss Centre for Life Cycle Inventories, 2017)",
+    "tipo": "base_de_dados",
+    "local": "Secção de metodologia (valores EE e CE)",
+    "citacao": "Los valores EE y CE se extrajeron de la base de datos Ecoinvent (Centro Suizo para Ciclo de Vida e Inventarios 2017), BEDEC (Instituto de Tecnología de la Construcción de Cataluña 2017)"
+   },
+   {
+    "id_fonte": "bedec_itec_2017",
+    "nome": "BEDEC – Banco de datos de construcción do ITeC (Cataluña, 2017)",
+    "tipo": "base_de_dados",
+    "local": "Secção de metodologia",
+    "citacao": "valores EE e CE extraídos da base de dados BEDEC (ITeC 2017)"
+   }
+  ],
+  "nota": "Artigo lido por completo via conector (56 000 caracteres, com secção REFERENCIAS). Nenhum alvo citado."
+ },
+ {
+  "row_id": 2582,
+  "lista_refs_encontrada": true,
+  "n_refs": 116,
+  "ligacoes": [
+   {
+    "para": 3372,
+    "citacao": "MADDALENA, R.; ROBERTS, J. J.; HAMILTON, A. Can Portland cement be replaced by low-carbon alternative materials? A study on the thermal properties and carbon emissions of innovative cements. Journal of Cleaner Production, v. 186, p. 933-942, 2018",
+    "local": "Referências; Cap. 2 (fabricação do cimento)"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "gabi_6_0",
+    "nome": "GaBi 6.0 (software)",
+    "tipo": "software",
+    "local": "Cap. 3.1 (escopo)",
+    "citacao": "Para o tratamento de dados utiliza-se o programa GaBi 6.0, a base de dados Ecoinvent 2.01"
+   },
+   {
+    "id_fonte": "ecoinvent_2_01",
+    "nome": "Ecoinvent 2.01",
+    "tipo": "base_de_dados",
+    "local": "Cap. 3.1.2.7",
+    "citacao": "Os dados de ICV utilizados foram obtidos de fontes secundárias, como o banco de dados do Ecoinvent 2.01 e dados da literatura"
+   },
+   {
+    "id_fonte": "fazzan_2017",
+    "nome": "Fazzan (2017) – resultados de resistência à compressão axial aos 28 dias (A-C 52,7; B15 48,4; B30 47,4 MPa)",
+    "tipo": "relatorio",
+    "local": "Cap. 3 / Figura 17",
+    "citacao": "resultado do ensaio de resistência à compressão axial aos 28 dias de cura (Adaptado de Fazzan (2017))"
+   },
+   {
+    "id_fonte": "damineli_2010",
+    "nome": "Damineli et al. (2010) – índice de ecoeficiência bi/ci (1 MPa por vida útil)",
+    "tipo": "relatorio",
+    "local": "Cap. 3.1.2.2",
+    "citacao": "unidade funcional ... 1 MPa de resistência à compressão axial aos 28 dias ... vida útil de 50 anos (Damineli et al., 2010)"
+   },
+   {
+    "id_fonte": "nbr_15575_1",
+    "nome": "ABNT NBR 15575-1 (vida útil de projeto mínima de 50 anos)",
+    "tipo": "norma",
+    "local": "Cap. 3.1.2.2",
+    "citacao": "estruturas projetadas para uma vida útil de no mínimo 50 anos, segundo a NBR 15575-1"
+   }
+  ],
+  "nota": "Dissertação lida a partir de PDF completo (99 p.)."
+ },
+ {
+  "row_id": 2837,
+  "lista_refs_encontrada": true,
+  "n_refs": 48,
+  "ligacoes": [
+   {
+    "para": 2801,
+    "citacao": "SOMBRIO, C. M. O. ACV de Painéis de Blocos Cerâmicos e Concreto Armado: Um Exercício de Aplicação do Manual do ILCD, 2015",
+    "local": "Referências"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "simapro_9_0",
+    "nome": "SimaPro 9.0 (software)",
+    "tipo": "software",
+    "local": "Cap. 4.1 / 4.5",
+    "citacao": "O software para modelagem empregado neste estudo será o SimaPro 9.0, que contempla a base de dados Ecoinvent v3.0"
+   },
+   {
+    "id_fonte": "ecoinvent_3_0",
+    "nome": "Ecoinvent v3.0 (nas conclusões o texto refere 'ecoinvent 9.0', incoerência do autor)",
+    "tipo": "base_de_dados",
+    "local": "Cap. 4.1 e Conclusões",
+    "citacao": "base de dados Ecoinvent v3.0; dados locais do Brasil para cimento/agregados/concreto, restantes do Ecoinvent"
+   },
+   {
+    "id_fonte": "cml_2002",
+    "nome": "Método CML 2002",
+    "tipo": "software",
+    "local": "Cap. 4.1",
+    "citacao": "O método de cálculo utilizado para a caracterização e normalização dos impactos será o CML 2002"
+   }
+  ],
+  "nota": "Dissertação lida a partir de PDF completo (93 p.); resistência dos concretos (32 MPa) ensaiada pela própria autora (cilindros 10x20 cm, 7 e 28 d)."
+ },
+ {
+  "row_id": 2722,
+  "lista_refs_encontrada": true,
+  "n_refs": 71,
+  "ligacoes": [
+   {
+    "para": 5038,
+    "citacao": "MEDEIROS, G. F. Método da busca harmônica aplicado na otimização de seções de pilares retangulares em concreto armado considerando custos econômicos e ambientais. 2012. Dissertação (PPG Engenharia) – Universidade de Passo Fundo",
+    "local": "Referências"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "tally_gabi",
+    "nome": "Plugin Tally (Revit) com base de dados GaBi, método TRACI 2.1",
+    "tipo": "software",
+    "local": "Cap. 3.3 (ACV)",
+    "citacao": "Os dados para quantificação do impacto ambiental são encontrados no próprio plugin Tally, que considera a base de dados GaBi e emprega o TRACI 2.1"
+   },
+   {
+    "id_fonte": "epd_arma_awc_aisc",
+    "nome": "EPDs ARMA, AWC e AISC incluídas no Tally (manta asfáltica, OSB, aço estrutural)",
+    "tipo": "epd",
+    "local": "Quadro 6",
+    "citacao": "SBS modified bitumen, ARMA - EPD; Oriented strandboard, AWC - EPD; Hot rolled structural steel, AISC - EPD"
+   },
+   {
+    "id_fonte": "sinapi",
+    "nome": "SINAPI (Caixa Econômica Federal/IBGE)",
+    "tipo": "base_de_dados",
+    "local": "Cap. 3.3 / 4.1.2",
+    "citacao": "custos retirados do SINAPI (apenas custo, não CO2)"
+   }
+  ],
+  "nota": "Dissertação lida a partir de PDF completo (125 p.); estudo de habitações unifamiliares (sem fck/CO2 de misturas próprias)."
+ },
+ {
+  "row_id": 5029,
+  "lista_refs_encontrada": true,
+  "n_refs": 79,
+  "ligacoes": [
+   {
+    "para": 2804,
+    "citacao": "TAIT, M. W.; CHEUNG, W. M. A comparative cradle-to-gate life cycle assessment of three concrete mix designs. International Journal of Life Cycle Assessment, v. 21, n. 6, p. 847–860, 2016",
+    "local": "Referências"
+   },
+   {
+    "para": 2699,
+    "citacao": "KIM, T. H.; TAE, S. H. Proposal of environmental impact assessment method for concrete in South Korea: An application in LCA. International Journal of Environmental Research and Public Health, v. 13, n. 11, 2016",
+    "local": "Referências"
+   },
+   {
+    "para": 5011,
+    "citacao": "MELLO, R. Z. Avaliação do ciclo de vida da utilização do resíduo do beneficiamento de rochas ornamentais em materiais de construção civil à base de cimento. Tese (Doutorado) – UFES, 2018",
+    "local": "Referências"
+   },
+   {
+    "para": 3394,
+    "citacao": "HASAN, U.; WHYTE, A.; AL JASSMI, H. Life cycle assessment of roadworks in United Arab Emirates: recycled construction waste, reclaimed asphalt pavement, warm mix asphalt and blast furnace slag use against traditional approach. Journal of Cleaner Production, v. 257, 120531, 2020",
+    "local": "Referências"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_6",
+    "nome": "Ecoinvent v3.6 (alocação cut-off by classification)",
+    "tipo": "base_de_dados",
+    "local": "Cap. 3 / 4 (inventário)",
+    "citacao": "caso não houvesse dados nacionais, seriam utilizados os dados da base da Ecoinvent v 3.6 (2019)"
+   },
+   {
+    "id_fonte": "openlca_1_10_2",
+    "nome": "openLCA v.1.10.2 (GreenDelta, 2019)",
+    "tipo": "software",
+    "local": "Cap. 3",
+    "citacao": "O programa computacional escolhido foi o openLCA v.1.10.2 (GREENDELTA, 2019)"
+   },
+   {
+    "id_fonte": "sicv_brasil",
+    "nome": "Banco Nacional de Inventários de Ciclo de Vida (SICV Brasil)",
+    "tipo": "base_de_dados",
+    "local": "Cap. 4 (inventário)",
+    "citacao": "Apenas dados da produção de cimento estão disponíveis no Banco Nacional de Inventários de Ciclo de Vida (SICV Brasil)"
+   },
+   {
+    "id_fonte": "sinapi_novacap",
+    "nome": "Composições do SINAPI utilizadas pela NOVACAP (Anexo E)",
+    "tipo": "relatorio",
+    "local": "Anexo E",
+    "citacao": "composições do SINAPI utilizadas pela NOVACAP nos projetos de ciclovia (dados de quantidades)"
+   }
+  ],
+  "nota": "Dissertação lida a partir de PDF completo (140 p.); fck 25 MPa de projeto recomendado para ciclovia."
+ }
+]
