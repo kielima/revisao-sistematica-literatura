@@ -1,0 +1,232 @@
+[
+ {
+  "row_id": 4481,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle to gate (raw material production, transportation, concrete production)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "CO2 do transporte das materias-primas (agregados 20 km, cinza volante e OPC 300 km, NaOH e silicato 60 km) somado ao CO2 da producao e das materias",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": {
+    "agregados": 20,
+    "cinza volante": 300,
+    "OPC": 300,
+    "NaOH": 60,
+    "silicato de sodio": 60
+   },
+   "dist_betao_km": null,
+   "modal": "rodoviario",
+   "camiao": "camiao diesel medio 8 t (agregados, cinza, OPC); camiao diesel leve 2 t (NaOH, silicato)",
+   "factor": "0,149 kg CO2/tkm (8 t); 0,212 kg CO2/tkm (2 t)"
+  },
+  "base_dados_processos": "Chinese Life Cycle Database (CLCD, eBalance)",
+  "por_par": [],
+  "citacao": "p.3 Sec.2.2.1 e Fig.1 (caixa 'Transportation of raw materials'); p.4 Tabela 2: 'CO2 emissions of the transportation of raw materials' incluidas; p.8 transporte = 8-11% do CO2",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF) + PyMuPDF; figuras renderizadas e vistas. Fig.1 vista: fluxo producao de materias-primas -> transporte -> processamento."
+ },
+ {
+  "row_id": 2950,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (extraction, processing and transportation of raw materials from the source to the concrete plant + mixing energy)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte de todas as materias da fonte a central, camiao 17,3 t, 6,57e-5 kg CO2/kg.km, retorno vazio 85%",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": {
+    "cimento": 398,
+    "areia natural": 455,
+    "NCA": 245,
+    "RCA": 3,
+    "superplastificante": 176,
+    "NWF": 0,
+    "agua": 0
+   },
+   "dist_betao_km": null,
+   "modal": "rodoviario",
+   "camiao": "camiao 17,3 t",
+   "factor": "6,57e-5 kg CO2 por kg.km; retorno vazio 85% do de ida"
+  },
+  "base_dados_processos": "Kurda et al. 2018 (GWP por kg: cimento 0,898; Tab.3); mistura 4,65 kg CO2/m3",
+  "por_par": [],
+  "citacao": "p.5 'Boundaries' e Tab.4",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF) + PyMuPDF; figuras renderizadas e vistas. Nao ha diagrama de fronteira no artigo (Fig.1 = granulometria, Fig.2 = fibra, Fig.3 = reciclagem NWF)."
+ },
+ {
+  "row_id": 3255,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate implicito: 'raw materials extraction or production, transport, and manufacturing processes' (Fig.1, para o betao geopolimerico GC)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O par e o betao convencional CC 20 MPa de comparacao: dataset ecoinvent 'mean data of the whole manufacturing process to produce ready-mixed concrete'; o artigo nao diz se inclui transporte. Para o GC o transporte e incluido (Tab.6: caulim 200 km, NaOH e silicato 150 km, areia 50 km).",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent (dataset de betao pronto 20 MPa, nome do processo nao transcrito); SimaPro; ELCD",
+  "por_par": [],
+  "citacao": "p.3 Sec.2.1 e Fig.1; p.5 Tab.6; p.6 Sec.3.1",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF) + PyMuPDF; figuras renderizadas e vistas. Fig.1 vista (so o sistema GC). A resposta aplica-se ao par CC (row 328)."
+ },
+ {
+  "row_id": 3559,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "artigo diz 'cradle to gate' mas a fronteira inclui transporte ate ao canteiro e colocacao (Fig.1)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte ao central de betao incluido (Fig.1 'Transport to concrete plant'); Tab.1: cimento 11,1 km, agregado calcario 18 km, barita 200 km (navio), escoria EAF 12,6 km, fibras 33,3 km",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": {
+    "cimento": 11.1,
+    "calcario": 18.0,
+    "barita": 200.0,
+    "escoria EAF": 12.6,
+    "fibras de aco": 33.3
+   },
+   "dist_betao_km": null,
+   "modal": "camiao silo 28 t / camiao basculante 28 t / navio graneleiro 5700 NRT (barita)",
+   "camiao": "camiao 28 t",
+   "factor": ""
+  },
+  "base_dados_processos": "SimaPro (bibliotecas) + dados de produtores locais; IPCC 2007 GWP 100a",
+  "por_par": [],
+  "citacao": "p.3 Fig.1 e Sec.2.1: 'concrete mixing, transportation and placement'; p.4 Tab.1; Tab.5 'kg CO2eq per m3 of placed and compacted heavyweight concrete' com linha 'Transportation'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF) + PyMuPDF; figuras renderizadas e vistas. Fig.1 vista: 'Transport to concrete plant' e 'Transport to construction site' + 'Placement' dentro da fronteira. A linha Transportation da Tab.5 (14,6 kg/m3 em HC1) mistura os dois transportes; nao e separavel."
+ },
+ {
+  "row_id": 2806,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Factores por componente de fontes [13] e [15]: cimento 718 kg CO2/t, escoria 445, cinza 388, agregado 17 (Tab.2)",
+  "por_par": [],
+  "citacao": "p.5 Tab.2 (so componentes, sem transporte); texto nao menciona fronteira nem transporte",
+  "texto_completo_lido": true,
+  "nota": "Texto lido por completo em download_file_content+PyMuPDF; sem figuras de fronteira (o artigo nao tem imagens, so tabelas)."
+ },
+ {
+  "row_id": 3087,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (Philippine setting); blocos de betao a saida da producao",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Processos de transporte rodoviario (lorry) e fluvial/maritimo (barge) das materias-primas dos fornecedores ate De La Salle University-Manila (Tab.4 P6/P11/P12; Tab.A9)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": {
+    "GGBS": "2920,6 barge + 7,1 lorry",
+    "cinza volante": "163 lorry",
+    "silicato de sodio": "1771 barge + 7,1 lorry",
+    "NaOH": "1378 barge + 16,8 lorry",
+    "areia e brita": "52,1 lorry",
+    "cimento": "30 lorry"
+   },
+   "dist_betao_km": null,
+   "modal": "camiao + barcaca",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent v3.7 e OzLCI2019 + literatura; OpenLCA 1.11.0; processos 'Transporation (Lorry) t*km', 'Transporation (Barge) t*km'",
+  "por_par": [],
+  "citacao": "p.3 Fig.1 (cradle-to-gate); p.5 Sec.2.3; p.7 texto sob Fig.4 e Tab.A9; Tab.4",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF) + PyMuPDF; figuras renderizadas e vistas. Fig.1 e Fig.4 vistas: Fig.4 nao desenha o transporte mas o texto e a Tab.4 incluem-no. Aplica-se tambem ao par OPCC (cimento 30 km lorry)."
+ },
+ {
+  "row_id": 4675,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'system boundaries started from the collection of their ingredients to their production' (Fig.1: Data collection -> Transportation -> Production)",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Transporte incluido para cimento, agregado grosso, agregado reciclado e areia (energia de transporte somada a de fabrico, Tab.3, distancias pelo Google Maps); para cinza volante, NaOH e silicato o artigo so diz que os dados vem da literatura/ecoinvent, sem declarar transporte",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent 3.7.1 (cutoff) para dados em falta; razao emissao/energia de literatura; OpenLCA CML 2001",
+  "por_par": [],
+  "citacao": "p.3 Sec.2.1 e Fig.1; p.4 Sec.2.5; p.8 Sec.3.1",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF) + PyMuPDF; figuras renderizadas e vistas. Fig.1 vista (caixa 'Transportation' entre recolha de dados e producao). Distancias nao impressas no texto."
+ },
+ {
+  "row_id": 3114,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle to gate; 'from raw materials extraction until the production of concrete'",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "So o transporte do cimento (75 km) e aditivos (100 km) as fabricas ate a central; agregados considerados locais; 'The only transportation that takes place is from the cement and chemical admixtures factories to the concrete plant'",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": {
+    "cimento": 75,
+    "aditivos": 100
+   },
+   "dist_betao_km": null,
+   "modal": "rodoviario",
+   "camiao": "camiao 16-32 t EURO5",
+   "factor": "Tab.2: 30,8 / 23,5 / 30,8 / 28,4 tkm por m3"
+  },
+  "base_dados_processos": "ecoinvent v3.01; SimaPro 8.0 ('Lorry 16-32t (EURO5)')",
+  "por_par": [],
+  "citacao": "p.3-4 Sec.2.3.2 e Fig.1 (transporte so entre aditivos/cimento e central; construcao, uso e demolicao fora); Tab.2; Sec.3.3",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content (PDF) + PyMuPDF; figuras renderizadas e vistas. Fig.1 vista: caixa Transport liga so cimento e aditivos a central."
+ },
+ {
+  "row_id": 2736,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O artigo refere apenas ecoinvent/OpenLCA e inventario de 1 m3 (Tab.2: cimento, brita, areia, diesel, electricidade...); nao ha transporte no inventario nem declaracao",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent (v3.9/3.10), OpenLCA 2.1 (nomes de processos nao transcritos)",
+  "por_par": [],
+  "citacao": "p.7 Fig.5 'LCI of the concrete production system boundary' (ver nota) e Tab.2",
+  "texto_completo_lido": true,
+  "nota": "Download do PDF falhou (conexao Drive fechada 2x: ficheiro 8 MB); fallback read_file_content (texto). Fig.5 (fronteira) NAO vista como imagem; so o texto/legenda lido, texto completo lido. Resposta pelo texto."
+ },
+ {
+  "row_id": 3146,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (Fig.15), limitado a producao do betao",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "'excluding environmental impact from material transportation' (ACV comparativa control vs Ofim-15)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ELCD (greendelta), OpenLCA",
+  "por_par": [],
+  "citacao": "Sec.3.9 (ACV): 'A cradle-to-gate system boundary was considered (Fig. 15)... excluding environmental impact from material transportation'",
+  "texto_completo_lido": true,
+  "nota": "Download do PDF falhou (conexao Drive fechada 2x: ficheiro 9,9 MB); fallback read_file_content (texto) funcionou. Fig.15 NAO vista como imagem; resposta pelo texto, explicita."
+ }
+]

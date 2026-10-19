@@ -1,0 +1,318 @@
+[
+ {
+  "row_id": 2580,
+  "lista_refs_encontrada": true,
+  "n_refs": 85,
+  "ligacoes": [
+   {
+    "para": 3497,
+    "citacao": "[54] Momotaz H, Rahman MM, Karim MR, Zhuge Y, Ma X, Levett P. Comparative study on properties of kerb concrete made from recycled materials and related carbon footprint. J Build Eng. 2023;72",
+    "local": "Referências [54]"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "idemat_2023",
+    "nome": "Idemat 2023 (Delft University of Technology, Sustainability Impact Metrics)",
+    "tipo": "base_de_dados",
+    "local": "Sec. LCA/eco-custos, p.153 e Tabela de inventário; ref. [52]",
+    "citacao": "The data sets compiled by Delft University of Technology were used to perform the LCA. Idemat 2023 database was referred for determining the eco impacts of various materials and processes [52]."
+   },
+   {
+    "id_fonte": "elcd",
+    "nome": "European reference Life Cycle Database (ELCD)",
+    "tipo": "base_de_dados",
+    "local": "Tabela de inventário LCA (cimento, água, transporte)",
+    "citacao": "Cimento: Idemat2023 / European reference Life Cycle Database (ELCD); água: ELCD."
+   },
+   {
+    "id_fonte": "ilcd_handbook",
+    "nome": "ILCD Handbook (European Commission JRC, 2010)",
+    "tipo": "relatorio",
+    "local": "Referência [85]",
+    "citacao": "European Commission-Joint Research Center. ILCD Handbook International Reference Life Cycle Data System. 2010."
+   }
+  ],
+  "nota": "Lido o PDF completo (read_file_content, 79k caracteres, lista [1]-[85] completa)."
+ },
+ {
+  "row_id": 2836,
+  "lista_refs_encontrada": true,
+  "n_refs": 52,
+  "ligacoes": [
+   {
+    "para": 3360,
+    "citacao": "TEH, Soo Huey et al. Hybrid life cycle assessment of greenhouse gas emissions from cement, concrete and geopolymer concrete in Australia. J Clean Prod, v.152, 2017",
+    "local": "REFERÊNCIAS / Apêndice B"
+   },
+   {
+    "para": 3363,
+    "citacao": "MARINKOVIĆ, Snežana et al. Environmental assessment of green concretes for structural use. J Clean Prod, v.154, 2017 (também fonte do traço CC-CPI, Tabela 2)",
+    "local": "REFERÊNCIAS; Tabela 2 nota b)"
+   },
+   {
+    "para": 4089,
+    "citacao": "GOMES, Kelly Cristiane et al. Carbon emissions associated with two types of foundations: CP-II Portland cement-based composite vs. geopolymer concrete. Matéria, v.24, 2019",
+    "local": "REFERÊNCIAS / Apêndice B"
+   },
+   {
+    "para": 3099,
+    "citacao": "GARCES, Jerome Ignatius T. et al. Life cycle assessment of self-healing geopolymer concrete. Cleaner Eng Technol, v.4, 2021",
+    "local": "REFERÊNCIAS / Apêndice B"
+   },
+   {
+    "para": 3071,
+    "citacao": "ALSALMAN, Ali et al. Energy and CO2 emission assessments of alkali-activated concrete and OPC concrete. Cleaner Environmental Systems, v.3, 2021",
+    "local": "REFERÊNCIAS / Apêndice B"
+   },
+   {
+    "para": 4481,
+    "citacao": "SHI, Xiaoshuang et al. Life cycle assessment and impact correlation analysis of fly ash geopolymer concrete. Materials, v.14, 2021",
+    "local": "REFERÊNCIAS / Apêndice B"
+   },
+   {
+    "para": 4675,
+    "citacao": "IMTIAZ, Lahiba et al. Life cycle impact assessment of recycled aggregate concrete, geopolymer concrete, and recycled aggregate-based geopolymer concrete. Sustainability, v.13, 2021",
+    "local": "REFERÊNCIAS / Apêndice B"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_6",
+    "nome": "ecoinvent v3.6 (cedido pelo grupo ACVamb)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4.3.1, p.44",
+    "citacao": "O banco de dados utilizado para essa pesquisa é o Ecoinvent 3.6, disponibilizado pelo grupo ACVamb."
+   },
+   {
+    "id_fonte": "openlca_2_0",
+    "nome": "openLCA 2.0",
+    "tipo": "software",
+    "local": "Sec. 4.3.1, p.44",
+    "citacao": "O software escolhido para a execução da pesquisa é o OpenLCA 2.0."
+   },
+   {
+    "id_fonte": "shi_qu_provis_2019",
+    "nome": "Shi, Qu & Provis (2019) Recent progress in low-carbon binders, Cem Concr Res 122",
+    "tipo": "relatorio",
+    "local": "Tabela 2 nota a) (traços CG-FA, CG-MK)",
+    "citacao": "Traços e resistência (52 e 58 MPa) vindos da literatura: a) SHI; QU; PROVIS, 2019."
+   },
+   {
+    "id_fonte": "collins_sanjayan_1999",
+    "nome": "Collins & Sanjayan (1999)",
+    "tipo": "relatorio",
+    "local": "Tabela 2 nota c) (traço CG-GGBFS, 50 MPa)",
+    "citacao": "c) COLLINS; SANJAYAN, 1999."
+   },
+   {
+    "id_fonte": "medeiros_junior_2014",
+    "nome": "Medeiros-Junior et al. (2014)",
+    "tipo": "relatorio",
+    "local": "Tabela 2 nota d) (traço CC-CPIII, 52 MPa)",
+    "citacao": "d) MEDEIROS-JUNIOR et al., 2014."
+   }
+  ],
+  "nota": "Tese UFES (85 p.), PDF completo via download+pdftotext (read_file_content truncava em ~125k chars). ~52 referências (contagem de blocos, aproximada). Ligações = referências com título completo coincidente; lista de 31 estudos do Apêndice B (revisão) não contada à parte. Shi 2019, Collins 1999 e Medeiros-Junior 2014 não estão no alvo (nota: Medeiros 2012/2016 do alvo são outras obras)."
+ },
+ {
+  "row_id": 2849,
+  "lista_refs_encontrada": true,
+  "n_refs": 82,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_8",
+    "nome": "ecoinvent v3.8 (RoW)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 5.2.2.7 (ACV), p.45",
+    "citacao": "O inventário de ciclo de vida (ICV) foi construído com base no banco de dados secundários Ecoinvent 3.8 ... Dados para o Resto do Mundo (RoW) foram escolhidos."
+   },
+   {
+    "id_fonte": "gabi_professional",
+    "nome": "GaBi Professional",
+    "tipo": "software",
+    "local": "Sec. 5.2.2.7, p.45",
+    "citacao": "ACV comparativa entre os traços utilizando o programa GaBi Professional."
+   },
+   {
+    "id_fonte": "rivm_recipe_2016_norm",
+    "nome": "Fatores de normalização ReCiPe 2016 (RIVM 2010)",
+    "tipo": "relatorio",
+    "local": "Sec. 5.2.2.7, p.45-46; ref. RIVM",
+    "citacao": "Fatores de normalização das categorias de impacto do ReCiPe 2016 ... disponíveis no site do Instituto Nacional de Saúde Pública e Ambiental (RIVM, 2010)."
+   }
+  ],
+  "nota": "Tese USP/FZEA (Sposito 2024), PDF completo (98 p., via download+pdftotext; read_file_content truncava). Lista de referências lida (~82 entradas, estimativa por contagem de blocos); nenhuma coincide com os 466 alvos (só ACV de MgO: Ruan & Unluer, Silva, Stafford, Tinoco - fora do alvo). Mesmo PDF das linhas 2849 e 2672."
+ },
+ {
+  "row_id": 3777,
+  "lista_refs_encontrada": true,
+  "n_refs": 8,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "jtg_t_3832_2018",
+    "nome": "Highway Engineering Budget Quota (JTG/T 3832-2018)",
+    "tipo": "norma",
+    "local": "Sec. 3.1 e 3.2 (quantidades de materiais e turnos de máquinas)",
+    "citacao": "Material consumption per unit length ... calculated according to the Highway Engineering Budget quota (JTG/T 3832-2018)."
+   }
+  ],
+  "nota": "PDF completo (conferência E3S, 8 referências, nenhuma é estudo do alvo). Os factores de emissão (Tabela 1, p.ex. cimento 735 kg CO2/t, aço 2050 kg CO2/t) não têm fonte nomeada no artigo."
+ },
+ {
+  "row_id": 5052,
+  "lista_refs_encontrada": true,
+  "n_refs": 121,
+  "ligacoes": [
+   {
+    "para": 5050,
+    "citacao": "BRAGA, N. K. M. Potencial de aquecimento global de paredes de concreto a partir da Avaliação do Ciclo de Vida. Dissertação (Mestrado), UnB, 2018",
+    "local": "Referências bibliográficas; citada no texto (BRAGA, 2018)"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_5",
+    "nome": "ecoinvent v3.5",
+    "tipo": "base_de_dados",
+    "local": "Sec. de inventário (dados secundários)",
+    "citacao": "Os dados secundários foram retirados de banco de dados Ecoinvent v. 3.5 e da literatura."
+   },
+   {
+    "id_fonte": "simapro_9_4",
+    "nome": "SimaPro v.9.4.0.2",
+    "tipo": "software",
+    "local": "Sec. de método",
+    "citacao": "O estudo foi desenvolvido com o apoio do software SimaPro v. 9.4.0.2."
+   },
+   {
+    "id_fonte": "sinapi",
+    "nome": "SINAPI (Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil, Caixa/IBGE)",
+    "tipo": "base_de_dados",
+    "local": "Sec. de inventário (quantidades de materiais por m2)",
+    "citacao": "Foram consultadas as tabelas de composição de materiais do SINAPI (CAIXA, 2021)."
+   }
+  ],
+  "nota": "Tese UNICAMP (151 p.), PDF completo via download+pdftotext. ~121 referências (contagem aproximada). Só Braga 2018 coincide com o alvo."
+ },
+ {
+  "row_id": 2803,
+  "lista_refs_encontrada": true,
+  "n_refs": 60,
+  "ligacoes": [
+   {
+    "para": 3372,
+    "citacao": "[5] R. Maddalena, J.J. Roberts, A. Hamilton, Can Portland cement be replaced by low-carbon alternative materials? ... J Clean Prod 186, 2018",
+    "local": "Referências [5]"
+   },
+   {
+    "para": 4328,
+    "citacao": "[46] S. Acosta-Calderon et al., Comparative evaluation of sisal and polypropylene fiber reinforced concrete properties, Fibers 10(4), 2022",
+    "local": "Referências [46]; Fig. 15-16"
+   },
+   {
+    "para": 4244,
+    "citacao": "[54] G. Guignone et al., Life cycle assessment of waste glass powder incorporation on concrete: a bridge retrofit study case, Appl Sci 12(7), 2022",
+    "local": "Referências [54]"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "circular_ecology_calc",
+    "nome": "Concrete Embodied Carbon Footprint Calculator (Circular Ecology)",
+    "tipo": "software",
+    "local": "Sec. 3 (LCA), ref. [39]",
+    "citacao": "The paper determined the carbon footprint based on statistical data and a calculator created by the consulting company Circular Ecology [39]; resultado 452 kg CO2e/m3 (A1-A4)."
+   }
+  ],
+  "nota": "PDF completo (52k chars; lista [1]-[60] completa). Resistência medida pelos autores (EN 12390-3)."
+ },
+ {
+  "row_id": 4455,
+  "lista_refs_encontrada": true,
+  "n_refs": 46,
+  "ligacoes": [
+   {
+    "para": 2599,
+    "citacao": "11. Bumanis, G.; Korjakins, A.; Bajare, D. Environmental Benefit of Alternative Binders in Construction Industry: Life Cycle Assessment. Environments 2022, 9, 6",
+    "local": "Referências 11"
+   },
+   {
+    "para": 3191,
+    "citacao": "46. Arruda Junior, E.S.; de Sales Braga, N.T.; Barata, M.S. Life Cycle Assessment to Produce LC3 Cements with Kaolinitic Waste from the Amazon Region, Brazil. Case Stud. Constr. Mater. 2023, 18, e01729",
+    "local": "Referências 46"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_nd",
+    "nome": "ecoinvent (versão não indicada)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 2.5 e Tabela 2",
+    "citacao": "The life cycle inventory is displayed in Table 2, including all data from the Ecoinvent database; gesso reciclado, fosfogesso e metacaulim adaptados de processos existentes."
+   }
+  ],
+  "nota": "PDF completo (59k chars, referências 1-46 completas). Software e método de impacto não nomeados no texto lido."
+ },
+ {
+  "row_id": 4942,
+  "lista_refs_encontrada": true,
+  "n_refs": 61,
+  "ligacoes": [
+   {
+    "para": 2658,
+    "citacao": "[40] D'Orazio M, Di Giuseppe E, Carosi M. Life Cycle Assessment of Mortars with Fine Recycled Aggregates from Industrial Waste: Evaluation of Transports Impact in the Italian Context. Sustainability 2023",
+    "local": "Referências [40]"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_7_1",
+    "nome": "ecoinvent v3.7.1 (RoW; eletricidade do Bangladesh)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 2.3 (premissas LCA), p.5",
+    "citacao": "The dataset from ecoinvent v3.7.1 was utilized for various processes involved in manufacturing cement mortar."
+   },
+   {
+    "id_fonte": "openlca_2_1_1",
+    "nome": "openLCA 2.1.1",
+    "tipo": "software",
+    "local": "Sec. 2.3.2, p.7; ref. [53]",
+    "citacao": "The information gathered in the inventory stage was inputted into the openLCA 2.1.1 program [53]; CML-IA baseline e CED."
+   }
+  ],
+  "nota": "PDF completo (50k chars; [1]-[61] completa)."
+ },
+ {
+  "row_id": 2672,
+  "lista_refs_encontrada": true,
+  "n_refs": 82,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_8",
+    "nome": "ecoinvent v3.8 (RoW)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 5.2.2.7 (ACV), p.45",
+    "citacao": "O inventário de ciclo de vida (ICV) foi construído com base no banco de dados secundários Ecoinvent 3.8 ... Dados para o Resto do Mundo (RoW) foram escolhidos."
+   },
+   {
+    "id_fonte": "gabi_professional",
+    "nome": "GaBi Professional",
+    "tipo": "software",
+    "local": "Sec. 5.2.2.7, p.45",
+    "citacao": "ACV comparativa entre os traços utilizando o programa GaBi Professional."
+   },
+   {
+    "id_fonte": "rivm_recipe_2016_norm",
+    "nome": "Fatores de normalização ReCiPe 2016 (RIVM 2010)",
+    "tipo": "relatorio",
+    "local": "Sec. 5.2.2.7, p.45-46; ref. RIVM",
+    "citacao": "Fatores de normalização das categorias de impacto do ReCiPe 2016 ... disponíveis no site do Instituto Nacional de Saúde Pública e Ambiental (RIVM, 2010)."
+   }
+  ],
+  "nota": "Tese USP/FZEA (Sposito 2024), PDF completo (98 p., via download+pdftotext; read_file_content truncava). Lista de referências lida (~82 entradas, estimativa por contagem de blocos); nenhuma coincide com os 466 alvos (só ACV de MgO: Ruan & Unluer, Silva, Stafford, Tinoco - fora do alvo). Mesmo PDF das linhas 2849 e 2672."
+ }
+]

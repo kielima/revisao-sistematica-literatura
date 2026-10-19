@@ -9,10 +9,15 @@ artigos dentro da mesma metanalise». Decisao F17-5 (Kie, 2026-10-14): os dois u
 - Ano: coluna `year`; mes do registo Crossref (`issued`) quando existe, so para ordenar dentro do ano.
 - Citacoes: `lotes_paises/crossref.json` (lista de referencias por DOI). Ligacao A -> B quando um DOI da lista
   de referencias de A e o DOI de outro Elegivel B. As teses da BDTD nao tem lista de referencias no Crossref.
+- Ligacoes extra (F35, Kie 2026-10-17: «todas as citacoes colocadas nesse mapa»): `lotes_paises/ligacoes_extra.csv`
+  (de, para, via, citacao: citacoes estudo -> estudo que o Crossref nao entrega, por titulo ou leitura do PDF) e
+  `lotes_paises/fontes_externas.csv` (bases de dados, relatorios e normas citados; mesmo `id_fonte` = fonte comum
+  a varios artigos). O export leva `externas` e, por artigo, `ext` (ids) e `via` (origem de cada ligacao extra).
 - «metanalise» = o artigo tem pelo menos um par no painel (mesmo filtro do `metanalise-export.py`).
 
 Uso: python3 metanalise-export-mapa.py > ../kielima-site/public/metanalise/dados/mapa.json
 """
+import csv
 import importlib.util
 import json
 import re
@@ -84,9 +89,26 @@ def main():
         a['cita'] = sorted(set(cita))
         a['refs'] = 1 if (w and w.get('ref_dois')) else 0
         del a['doi']
+    # ligacoes extra estudo -> estudo
+    for r in csv.DictReader(open('lotes_paises/ligacoes_extra.csv', encoding='utf-8')):
+        de, para = int(r['de']), int(r['para'])
+        if de in arts and para in arts and de != para and para not in arts[de]['cita']:
+            arts[de]['cita'].append(para)
+            arts[de]['cita'].sort()
+            arts[de]['refs'] = 1
+    # fontes externas (base de dados, relatorio, norma)
+    ext, ext_nomes = {}, {}
+    for r in csv.DictReader(open('lotes_paises/fontes_externas.csv', encoding='utf-8')):
+        ext_nomes[r['id_fonte']] = {'id': r['id_fonte'], 'nome': r['nome'], 'tipo': r['tipo']}
+        ext.setdefault(int(r['row_id']), set()).add(r['id_fonte'])
+    for a in arts.values():
+        a['ext'] = sorted(ext.get(a['id'], ()))
+        if a['ext']:
+            a['refs'] = 1
     out = sorted(arts.values(), key=lambda a: (a['ano'], a['mes'] or 0, a['id']))
     print(json.dumps({'gerado': 'metanalise-export-mapa.py', 'n': len(out), 'n_meta': len(meta),
-                      'sem_refs': sem_refs, 'artigos': out}, ensure_ascii=False, separators=(',', ':')))
+                      'sem_refs': sem_refs, 'externas': list(ext_nomes.values()),
+                      'artigos': out}, ensure_ascii=False, separators=(',', ':')))
     n_lig = sum(len(a['cita']) for a in out)
     n_lig_m = sum(1 for a in out for b in a['cita'] if a['meta'] and arts[b]['meta'])
     print(f'artigos {len(out)}, com par {len(meta)}, sem refs {sem_refs}, ligacoes {n_lig} (so metanalise {n_lig_m}), '

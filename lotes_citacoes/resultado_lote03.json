@@ -1,0 +1,414 @@
+[
+ {
+  "row_id": 5055,
+  "lista_refs_encontrada": false,
+  "n_refs": 0,
+  "ligacoes": [],
+  "externas": [],
+  "nota": "nao_lido: PDF de 10,6 MB (tese UFSM). read_file_content truncou o texto a ~358 mil caracteres (acaba no cap. 4, eq. 4.5; a lista de referencias nao foi alcancada) e download_file_content falhou ('File too large ... over limit of 10 MB'). Titulo e autor confirmados na capa. A unica coincidencia com o ALVO no texto lido (Tonon 2020, row 2837) vem do indice/capitulos iniciais, nao de uma referencia confirmada, por isso nao foi registada. Precisa do recorte por paginas via shrink-drive-pdf.yml (referencias e cap. 5-6)."
+ },
+ {
+  "row_id": 4142,
+  "lista_refs_encontrada": true,
+  "n_refs": 61,
+  "ligacoes": [
+   {
+    "para": 2804,
+    "citacao": "Tait, M W and Cheung, W M (2016). A comparative cradle-to-gate life cycle assessment of three concrete mix designs. The Int. J. Life Cycle Assessment, 21: 847-860.",
+    "local": "Referencias; Tabela 9 (comparacao com a literatura: 380 kg/m3, 32-40 MPa, 339 kg CO2 eq/m3)"
+   },
+   {
+    "para": 3363,
+    "citacao": "Marinkovic, S; Dragas, J; Ignjatovic, I and Tosic, N (2017). Environmental assessment of green concretes for structural use. J. Cleaner Production, 154: 633-649.",
+    "local": "Referencias (citado como Marinkovic et al., 2016 no corpo para a unidade funcional / lista)"
+   },
+   {
+    "para": 2757,
+    "citacao": "Onn, C C; Mo, K H; Radwan, M K H; Liew, W H; Ng, C G and Yusoff, S (2019). Strength, carbon footprint and cost considerations of mortar blends with high volume ground granulated blast furnace slag. Sustainability, 11: 7194.",
+    "local": "Inventory Analysis, p.156 ('Other studies have also used multiple LCI databases ... (Onn et al., 2019)'); Referencias"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "my_lcid",
+    "nome": "Malaysia Life Cycle Inventory Database (MY-LCID), SIRIM",
+    "tipo": "base_de_dados",
+    "local": "Inventory Analysis, p.155-156; Referencias (MY-LCID, 2020)",
+    "citacao": "MY-LCID (2020). Malaysia Life Cycle Inventory Database. http://mylcid.sirim.my/sirimlca/ - dados do inventario de cimento, areia, brita e transporte com representatividade geografica da Malasia"
+   },
+   {
+    "id_fonte": "ecoinvent",
+    "nome": "ecoinvent (versao nao indicada no texto)",
+    "tipo": "base_de_dados",
+    "local": "Fig. 3 (quadro metodologico) e Inventory Analysis, p.155-156",
+    "citacao": "Ecoinvent Database usado como complemento ao MY-LCID para os dados de inventario do CPO e processos sem dado local"
+   },
+   {
+    "id_fonte": "recipe_2016",
+    "nome": "ReCiPe 2016 (hierarchist, midpoint) - Huijbregts et al. 2016, RIVM",
+    "tipo": "relatorio",
+    "local": "Impact Assessment Methodology, p.156; Referencias",
+    "citacao": "Huijbregts, M A J et al. (2016). ReCiPe 2016: A Harmonized Life Cycle Impact Assessment Method at Midpoint and Endpoint Level. RIVM"
+   },
+   {
+    "id_fonte": "iso_14040",
+    "nome": "ISO 14040:2006 Principios e enquadramento da ACV",
+    "tipo": "norma",
+    "local": "Metodologia; Referencias (ISO 2006a)",
+    "citacao": "The LCA in this study followed ISO 14040 (2006a) and ISO 14044 (2006b)"
+   },
+   {
+    "id_fonte": "iso_14044",
+    "nome": "ISO 14044:2006 Requisitos e orientacoes da ACV",
+    "tipo": "norma",
+    "local": "Metodologia; Referencias (ISO 2006b)",
+    "citacao": "The LCA in this study followed ISO 14040 (2006a) and ISO 14044 (2006b)"
+   }
+  ],
+  "nota": "Lido o PDF completo (jopr.2020.0081, titulo e primeiro autor conferem). O texto extraido tem blocos do resumo e de varias referencias baralhados (maquetizacao da revista), por isso n_refs=61 e contagem aproximada. Table 9 cita tambem Tosic 2015, Kim 2016, Braga 2017, Mohammadi & South 2017, Ahmad 2017 e Kurda 2018, nenhum com correspondencia no ALVO (Kim, Tae & Chae 2016 'varying strength' nao e nenhum dos Kim 2016 do ALVO; Braga 2017 nao e o Braga 2018 row 5050)."
+ },
+ {
+  "row_id": 4080,
+  "lista_refs_encontrada": true,
+  "n_refs": 56,
+  "ligacoes": [
+   {
+    "para": 4232,
+    "citacao": "[29] ROH S., KIM R., PARK W.J., BAN H. Environmental evaluation of concrete containing recycled and by-product aggregates based on life cycle assessment. Appl Sci, 10 (21), 7503, 2020.",
+    "local": "Introducao (citacao [29], 'It is also very important to understand the environmental impact of such materials'); Referencias"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "chiaia_2014_eco_mech",
+    "nome": "Chiaia et al. 2014, Eco-mechanical index for structural concrete (fator de emissao do cimento e da agua)",
+    "tipo": "relatorio",
+    "local": "Tabela 5 (cimento Portland 0,83 kg/kg; agua 0,0003 kg/kg), ref. [41]",
+    "citacao": "Table 5. Carbon emission factor of raw materials per kilogram production: Portland cement 0.83 kg/kg [41]; Water 0.0003 kg/kg [41]"
+   },
+   {
+    "id_fonte": "adesina_2020",
+    "nome": "Adesina 2020, Recent advances in the concrete industry to reduce its carbon dioxide emissions (fatores NFA/NCA)",
+    "tipo": "relatorio",
+    "local": "Tabela 5 (NFA 0,0050; NCA 0,0062 kg/kg), ref. [42]",
+    "citacao": "NFA 0.0050 kg/kg [42]; NCA 0.0062 kg/kg [42]"
+   },
+   {
+    "id_fonte": "purnell_2013",
+    "nome": "Purnell 2013, The carbon footprint of reinforced concrete (fator da cinza volante)",
+    "tipo": "relatorio",
+    "local": "Tabela 5 (cinza volante 0,009 kg/kg), ref. [43]",
+    "citacao": "Fly ash 0.009 kg/kg [43]"
+   },
+   {
+    "id_fonte": "ali_2020_ppf",
+    "nome": "Ali, Qureshi & Kurda 2020, benefits of steel, glass and polypropylene fiber in JPCP (fator da fibra PP)",
+    "tipo": "relatorio",
+    "local": "Tabela 5 (PPF 1,85 kg/kg), ref. [44]",
+    "citacao": "PPF 1.85 kg/kg [44]"
+   },
+   {
+    "id_fonte": "shen_2015_cement_china",
+    "nome": "Shen et al. 2015, Quantifying CO2 emissions from China's cement industry (fatores do diesel e da eletricidade)",
+    "tipo": "relatorio",
+    "local": "Tabela 5 (diesel 2,764 kg/kg; eletricidade 0,9746 kg/kWh), ref. [45]",
+    "citacao": "Diesel 2.764 kg/kg [45]; Electricity 0.9746 kg/kWh [45]"
+   },
+   {
+    "id_fonte": "ali_2020_rac_pavement",
+    "nome": "Ali, Qureshi & Khan 2020, Flexural behavior of GFRRAC and its impact on cost and carbon footprint of concrete pavement (traco do betao convencional CC)",
+    "tipo": "relatorio",
+    "local": "Tabela 4 (nota: 'CC ... obtained from Ali et al. [36]'), ref. [36]",
+    "citacao": "CC: conventional concrete, the detail of the composition was obtained from Ali et al. [36]"
+   },
+   {
+    "id_fonte": "gb_t_50081",
+    "nome": "GB/T 50081 - norma chinesa de ensaio de betao (resistencia a compressao em cubos 150 mm)",
+    "tipo": "norma",
+    "local": "Mechanical Test Method / Test Procedure",
+    "citacao": "The compressive property of concrete cubes (150 x 150 x 150 mm) was tested according to local standard GB/T 50081"
+   },
+   {
+    "id_fonte": "jgj52_2006",
+    "nome": "JGJ52-2006 - norma chinesa para areia e brita de betao comum",
+    "tipo": "norma",
+    "local": "Raw Materials / Aggregate; ref. [35]",
+    "citacao": "With reference to the Chinese code JGJ52-2006 ... the main physical and mechanical properties of recycled aggregates are provided in Table 1"
+   }
+  ],
+  "nota": "Lido o PDF completo (pjoes-147185, titulo e primeiro autor conferem). Refs [28] Francesco et al. 2018 (Buildings 8(5):70), [31] Knoeri 2013, [32] Collins 2010, [33] Flower & Sanjayan 2007, [39] Marinkovic 2010, [54] O'Brien 2009 e [55] Panesar 2019 nao tem correspondencia no ALVO. O EXP (agente expansivo) tem fator 'calculated by the authors' / fornecido pelo fabricante."
+ },
+ {
+  "row_id": 2847,
+  "lista_refs_encontrada": false,
+  "n_refs": 0,
+  "ligacoes": [],
+  "externas": [],
+  "nota": "nao_lido: tese USP/UPV de 9,2 MB. read_file_content truncou o texto (~176 mil caracteres) ainda no indice (a pagina 'REFERENCIAS' da lista so aparece como entrada do indice, pag. 160) e download_file_content falhou (ligacao MCP fechada por mensagem demasiado grande). Titulo e autora confirmados na capa. As coincidencias com o ALVO (Schmidt 2015, Assuncao 2020, Almeida 2024) estao no indice/capitulos iniciais, nao em referencias confirmadas, por isso nao foram registadas."
+ },
+ {
+  "row_id": 4930,
+  "lista_refs_encontrada": true,
+  "n_refs": 11,
+  "ligacoes": [
+   {
+    "para": 3288,
+    "citacao": "[11] Oh, J.W., Park, K.S., Kim, H.S., Kim, I., Pang, S.J., Ahn, K.S., Oh, J.K. Comparative CO2 emissions of concrete and timber slabs with equivalent structural performance. Energy and Buildings, 281:112768, 2023.",
+    "local": "Sec. 3.3 Limitations ('This study has similar assumptions as previous studies [11]'); Referencias"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "keiti_epd",
+    "nome": "Korea Environmental Industry & Technology Institute (KEITI) - Environmental Product Declaration database, Ministry of Environment (greenproduct.go.kr/epd)",
+    "tipo": "epd",
+    "local": "Sec. 3.2 e Tabela 2 (aco 11.241; betao 3.532; vergalhao 259), ref. [10]",
+    "citacao": "The carbon emission data of steel and concrete materials were obtained from the database of the Ministry of Environment"
+   },
+   {
+    "id_fonte": "nifos_glt_lci",
+    "nome": "National Institute of Forest Science (Coreia) - DB de carga ambiental da madeira domestica (Chang, Chun, Shin 2021)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 3.2 e Tabela 2 (GLT 87,64 kgCO2-eq/m3), ref. [9]",
+    "citacao": "data for GLT was taken from the database of the Forest Science Institute, as there was no EPD database available in Korea"
+   },
+   {
+    "id_fonte": "kict_standard_estimate",
+    "nome": "KICT - Standard of Construction Estimate (densidades dos materiais)",
+    "tipo": "relatorio",
+    "local": "Sec. 2.2, ref. [8]",
+    "citacao": "The dead load was calculated using the density data from the Ministry of Land, Infrastructure, and Transport [8]"
+   },
+   {
+    "id_fonte": "ks_f_4009",
+    "nome": "KS F 4009 Ready-mixed Concrete (e KS F 3021, KS D 3515, KS D 3504) - classe C30 / fck 30 MPa de projecto",
+    "tipo": "norma",
+    "local": "Sec. 2.2 e Tabela 1 (RC C30, fck 30 MPa), refs. [4-7]",
+    "citacao": "the design was based on the KS standard [4-7]"
+   }
+  ],
+  "nota": "Lido o PDF completo (paper WCTE 2023, titulo e primeiro autor conferem). Lista de referencias com 11 itens; [2] Robertson 2012 e [3] Liang 2020 nao estao no ALVO. Vida util de 50 anos e pressuposto do proprio artigo."
+ },
+ {
+  "row_id": 4931,
+  "lista_refs_encontrada": true,
+  "n_refs": 32,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "athena_ie4b",
+    "nome": "Athena Impact Estimator for Buildings (IE4B) v.5, Athena Sustainable Materials Institute, com a sua base de inventario proprietaria",
+    "tipo": "software",
+    "local": "Sec. 3.2.6 e 3.2.7, ref. [25]",
+    "citacao": "The comparative cradle-to-grave LCA framework was applied using the Athena Impact Estimator for Buildings (IE4B). This IE4B tool draws upon a highly developed, proprietary life-cycle inventory (LCI) database"
+   },
+   {
+    "id_fonte": "traci_2_1",
+    "nome": "TRACI 2.1 - factores de normalizacao para EUA e Canada (Ryberg et al. 2014)",
+    "tipo": "relatorio",
+    "local": "Sec. 3.2.6, ref. [24]",
+    "citacao": "The environmental impacts associated with LCI outputs are aggregated following procedures developed in the TRACI methodology"
+   },
+   {
+    "id_fonte": "aci_318_19",
+    "nome": "ACI 318-19 Building Code Requirements for Structural Concrete",
+    "tipo": "norma",
+    "local": "Sec. 3.2.4, ref. [18]",
+    "citacao": "The wall was designed with 34.4 MPa (5000 psi) concrete ... in accordance with code provisions [18]"
+   },
+   {
+    "id_fonte": "asce_7_16",
+    "nome": "ASCE/SEI 7-16 Minimum Design Loads and Associated Criteria for Buildings",
+    "tipo": "norma",
+    "local": "Sec. 3.2.1 e 3.2.4 (cit. [19] no texto; na lista aparece numerado [20])",
+    "citacao": "relevant US building codes and standards were followed, including ACI 318-19 [18] and ASCE 7-16 [19]"
+   },
+   {
+    "id_fonte": "iso_21930",
+    "nome": "ISO 21930 Sustainability in buildings - Environmental declaration of building products",
+    "tipo": "norma",
+    "local": "Sec. 3.2.1 e 3.2.6",
+    "citacao": "This study follows the LCA framework developed in ISO 21930 [20]"
+   },
+   {
+    "id_fonte": "iso_14040",
+    "nome": "ISO 14040:2006 Principios e enquadramento da ACV",
+    "tipo": "norma",
+    "local": "Sec. 3.1-3.2, ref. [13]",
+    "citacao": "using an established LCA framework [13]"
+   },
+   {
+    "id_fonte": "worldsteel_lca_2011",
+    "nome": "World Steel Association - Life cycle assessment methodology report (taxas de reciclagem do aco)",
+    "tipo": "relatorio",
+    "local": "Sec. 3.2.6, ref. [26]",
+    "citacao": "percentages of material recycled are tabulated per [26], and the avoided burdens of steel manufacturing are added to the BBL stage"
+   }
+  ],
+  "nota": "Lido o PDF completo (paper WCTE 2023, titulo e primeiro autor conferem). Estudos de ACV de madeira massa citados ([14] Allan & Phillips 2021, [15] Chen et al. 2020, [16] Milaj 2017, [17] Robertson 2012) nao estao no ALVO. A lista impressa salta o numero [19] (ASCE 7-16 aparece como [20] e o texto cita [19]/[20]). Unico fck: betao de 34,4 MPa (5000 psi) por ACI 318-19; CO2 total (BOM x Athena) vem da ferramenta."
+ },
+ {
+  "row_id": 4993,
+  "lista_refs_encontrada": true,
+  "n_refs": 26,
+  "ligacoes": [
+   {
+    "para": 4463,
+    "citacao": "[12] Sameer, H., Weber, V., Mostert, C., Bringezu, S., Fehling, E., et al.: Environmental Assessment of Ultra-High-Performance Concrete Using Carbon, Material, and Water Footprint, Materials (12), 2019.",
+    "local": "Sec. 2.2.2 (LCA do UHPC) e Sec. 4.2.1, 4.3 (consumos e transporte do UHPC pre-fabricado, demolicao)"
+   },
+   {
+    "para": 4705,
+    "citacao": "[14] Ji, C., Wu, Y., Zhao, Z., Chen, C., and Yao, L.: Life Cycle Assessment of Off-Site Construction Using Ultra-High-Performance Concrete, Sustainability (14), 2022.",
+    "local": "Sec. 2.2.2 ('The results show that the environmental impacts of UHPC are much higher than of commonly used concrete related to a functional unit of 1 m3 [14]')"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "gabi_sphera",
+    "nome": "GaBi Software and Database for Life Cycle Engineering (Sphera Solutions)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 3.2.2 e 4.2.1",
+    "citacao": "For the assessment only GaBi Datasets with Germany as regional system boundary are considered ... the GaBi Software and Database for Life Cycle Engineering (GaBi) from Sphera Solutions was used"
+   },
+   {
+    "id_fonte": "oekobaudat",
+    "nome": "Ökobaudat (BMWSB, Sphera) - dataset Transportbeton C20/25, 2021; datasets GLT/CLT",
+    "tipo": "base_de_dados",
+    "local": "Sec. 3.2.2 e 4.2.2, refs. [20] e [25]",
+    "citacao": "similar to the dataset for ready-mixed concrete C20/25 of the Ökobaudat database [20]"
+   },
+   {
+    "id_fonte": "becke_2020_beton_epd",
+    "nome": "Becke, Reiners, Tuan Phan 2020, Beton Umweltproduktdeklarationen (GWP de 178 kg CO2-eq/m3 do C20/25)",
+    "tipo": "epd",
+    "local": "Sec. 2.2.2 e 4.1, ref. [15]",
+    "citacao": "For common German concrete C20/25, the cement production is responsible for 82 % of the global warming potential (178 kg CO2-eq./m3) [15]"
+   },
+   {
+    "id_fonte": "ruter_diederichs_2012",
+    "nome": "Rüter & Diederichs 2012, Ökobilanz-Basisdaten für Bauprodukte aus Holz (base dos datasets GLT/CLT do Ökobaudat)",
+    "tipo": "relatorio",
+    "local": "Sec. 4.2.2, ref. [25]",
+    "citacao": "These datasets are based on the findings of Rüter and Diederichs [25], who used GaBi for simulation"
+   },
+   {
+    "id_fonte": "oberndorfer_2021_uhpc",
+    "nome": "Oberndorfer, Hunger & Fischer 2021, Ultra High Performing Timber Walls (Fraunhofer IRB) - traco do UHPC e processo de producao",
+    "tipo": "relatorio",
+    "local": "Sec. 1, 2.1.2 e 4.2.1, ref. [1]",
+    "citacao": "The calculation of the environmental impacts of 1 m3 UHPC was based on a composition without reinforcing steel fibers, which has been used for the completed research project [1]"
+   },
+   {
+    "id_fonte": "din_en_15804",
+    "nome": "DIN EN 15804:2022-03 Declaracoes ambientais de produtos de construcao",
+    "tipo": "norma",
+    "local": "Sec. 3.2.2 e 3.4, ref. [18]",
+    "citacao": "As required in DIN EN 15804+A2 [18], the GWPtotal is separated into GWPfossil, GWPbiogenic and GWPluluc"
+   },
+   {
+    "id_fonte": "din_en_1992_1_1",
+    "nome": "DIN EN 1992-1-1:2011-01 Eurocodigo 2 (betao armado C25/30)",
+    "tipo": "norma",
+    "local": "Sec. 4.1 e Tabela 1, ref. [22]",
+    "citacao": "All reinforced concrete walls were calculated according to DIN EN 1992-1-1:2011-01 [22] ... Strength class: C 25/30"
+   }
+  ],
+  "nota": "Lido o PDF completo (paper WCTE 2023, titulo e primeiro autor conferem). [4] Kromoser & Holzhaider 2021 (laje mista madeira-betao) e [13] Randl et al. 2014 nao estao no ALVO. O fck do UHPC (132,5 MN/m2, Tabela 1) nao traz citacao directa; a ligacao a [1] decorre de o traco vir desse projecto."
+ },
+ {
+  "row_id": 4039,
+  "lista_refs_encontrada": true,
+  "n_refs": 23,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_8",
+    "nome": "ecoinvent v3.8 (via SimaPro)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 2.4, p.834 (Tabela 2: datasets de cimento CEM III, agua, plastificante, brita, areia)",
+    "citacao": "Data on the impacts generated by extraction/production of materials commonly used in concrete (i.e., cement, water, natural aggregates, and plasticizers) were obtained from the Ecoinvent 3.8 database available on the SimaPro software"
+   },
+   {
+    "id_fonte": "simapro_9_2",
+    "nome": "SimaPro 9.2",
+    "tipo": "software",
+    "local": "Sec. 2.4, p.833",
+    "citacao": "LCA analysis was carried out using Simapro 9.2 software in accordance with ISO 14040 standard series"
+   },
+   {
+    "id_fonte": "recipe_2016",
+    "nome": "ReCiPe 2016 (hierarchist, midpoint)",
+    "tipo": "relatorio",
+    "local": "Sec. 2.4, p.834",
+    "citacao": "The method used for the analysis is ReCiPe 2016 at the mid-point level in hierarchist (H) perspective, which addresses 18 impact categories"
+   },
+   {
+    "id_fonte": "iso_14040",
+    "nome": "ISO 14040:2006 Principios e enquadramento da ACV",
+    "tipo": "norma",
+    "local": "Sec. 2.4; Referencias",
+    "citacao": "ISO 14040 Environmental management - life cycle assessment - principles and framework, 2006"
+   },
+   {
+    "id_fonte": "en_12390_3",
+    "nome": "EN 12390-3 Testing hardened concrete: compressive strength of test specimens (2019)",
+    "tipo": "norma",
+    "local": "Sec. 2.3 (fck em cubos de 150 mm)",
+    "citacao": "Compressive strength was determined in accordance with the EN 12390-3 standard"
+   },
+   {
+    "id_fonte": "cti_imola_plant_data",
+    "nome": "Dados primarios da central de betao CTI (Imola, Italia) e credito por agregado natural evitado (Pantini et al. 2018)",
+    "tipo": "relatorio",
+    "local": "Sec. 1, 2.4 e Tabela 2",
+    "citacao": "All the input data for the LCA analysis have been kindly provided by CTI industrial plant ... a credit for the designed system has been considered (Pantini, Borghi and Rigamonti, 2018)"
+   }
+  ],
+  "nota": "Lido o PDF completo (Life-Cycle of Structures and Infrastructure Systems, titulo e primeiro autor conferem). Referencias sem correspondencia no ALVO (Masi et al. 2022 CBM 341, Bressi 2022, Shi 2018, Nandi 2021, Santos 2017, Vandewalle 2020, etc.). Unidade funcional 3,5 m3; GWP 7,71e2 / 7,33e2 kg CO2 eq."
+ },
+ {
+  "row_id": 4138,
+  "lista_refs_encontrada": true,
+  "n_refs": 37,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent",
+    "nome": "ecoinvent (versao nao indicada)",
+    "tipo": "base_de_dados",
+    "local": "Sec. Methodology and case parameters, p.14",
+    "citacao": "Primary data for the cement production was collected from an integrated cement plant in South India, near Nandyal, and secondary sources such as ecoinvent, EPA and IPCC were used for complementary data"
+   },
+   {
+    "id_fonte": "epa_ipcc",
+    "nome": "US EPA e IPCC (factores de emissao complementares, sem referencia especifica)",
+    "tipo": "base_de_dados",
+    "local": "Sec. Methodology and case parameters, p.14",
+    "citacao": "secondary sources such as ecoinvent, EPA and IPCC were used for complementary data"
+   },
+   {
+    "id_fonte": "gettu_2018_framework",
+    "nome": "Gettu et al. 2018, Sustainability-based decision support framework for choosing concrete mixture proportions (indices eics e A-index), ref. [9]",
+    "tipo": "relatorio",
+    "local": "Sec. Sustainability indices, p.15 e Tabela 3",
+    "citacao": "The analysis ... employs the indices and decision framework proposed previously in terms of energy consumed and CO2 emissions [9]"
+   },
+   {
+    "id_fonte": "is_516",
+    "nome": "IS 516 Methods of tests for strength of concrete (cubos de 100 mm)",
+    "tipo": "norma",
+    "local": "Sec. Assessment of concrete performance, p.14, ref. [12]",
+    "citacao": "Compressive strength was measured on 100 mm cubes ... in accordance with IS 516 [12]"
+   },
+   {
+    "id_fonte": "is_269",
+    "nome": "IS 269 Ordinary Portland cement specification (OPC 53)",
+    "tipo": "norma",
+    "local": "Sec. Materials, p.12, ref. [10]",
+    "citacao": "A commercially available ordinary portland cement (OPC, 53 grade ... conforming to IS 269 [10])"
+   }
+  ],
+  "nota": "Lido o PDF completo (RILEM Technical Letters 8:12-22, titulo e primeiro autor conferem) via download + pdftotext. A copia do Drive tem 11 paginas e acaba a meio da ref. [36]/[37] (pagina final da lista em falta no ficheiro), por isso n_refs=37 e as refs posteriores nao existem no PDF. Nenhuma das 37 refs visiveis coincide com o ALVO (Hafez 2021 [23] nao e o Hafez 2024 row 2684; Pillai 2019, Dhandapani 2018, Gettu 2018/2019, Muller 2014, Panesar 2017, Damineli 2010 nao estao no ALVO). Valores: OPC 930 kg CO2/t, LC2 260 kg CO2/t (Tabela 4, dados da fabrica de Nandyal / JSW Cements)."
+ }
+]

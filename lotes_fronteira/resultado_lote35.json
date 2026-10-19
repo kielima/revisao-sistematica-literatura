@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 4522,
+  "fronteira": "outra",
+  "fronteira_texto": "LCA do ciclo de vida do betao: C1 materias-primas (C1a producao + C1b transporte ao misturador), C2 producao, C3 transporte do betao a obra (=0, usado in situ), C4 construcao, C5 absorcao CO2, C6 demolicao+transporte; CL=CT-C5",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "C1b = transporte das materias-primas ate a central (Table 8: 2,4 kg CO2/m3 em todas as misturas); distancias si nao impressas no texto lido",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "dy, by_j, k'_j (Eq.5/7) sem valores no texto"
+  },
+  "base_dados_processos": "nao declarada; modelo de Xiao et al. [65]",
+  "por_par": [],
+  "citacao": "Sec.4, Table 6 Eq.(5) 'Transportation of raw materials to the mixing plant'; Table 8 C1b=2.4; texto: 'FARAC is used on-site after curing, so C3 is zero'. Nota: o CO2 gravado deve ser conferido (CT/CL incluem C4-C6, nao so A1-A3)",
+  "texto_completo_lido": true,
+  "nota": "download_file_content recusado (>10 MB); read_file_content (texto) funcionou; Fig.11 nao vista como imagem."
+ },
+ {
+  "row_id": 3283,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "calculos originais do engenheiro: so A1-3 (cradle to gate), elementos estruturais; A4/A5/C so como variantes de sensibilidade",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "coeficientes ICE (Hammond & Jones) 'A1-3'; o artigo nao diz se A2 esta incluido no coeficiente",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "A4 so em sensibilidade (Table 1/4, kgCO2/t km)"
+  },
+  "base_dados_processos": "Bath/BSRIA Inventory of Carbon and Energy (ICE), Hammond & Jones; RC25/30 +110 kg/m3 aco (0,198 kgCO2e/kg), precast RC40/50 (0,189)",
+  "por_par": [],
+  "citacao": "Sec.4: 'estimates... used standard UK references for embodied carbon coefficients for stages A1-3 from the ICE'; Sec.5.1: 'original calculations... only A1-3; A4 and A5 are the next most common stages'. Fig.1 so diagrama EN 15978 generico",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (1,7 MB); paginas com figuras renderizadas e vistas (Fig.1 generica EN 15978)."
+ },
+ {
+  "row_id": 2694,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "LCI DB nacional coreana (MOE/MOLIT), CML 2001; sem fronteira declarada",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "so diz que 'LCA results may vary depending on the transport of materials'",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "national LCI DB (Ministry of Environment), 'ready-mixed concrete 25-210-12' etc. (Table 2/4)",
+  "por_par": [],
+  "citacao": "Sec.4 e p.9: 'The LCA results may vary depending on the transport of materials...'",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (2,1 MB); Fig.1-3 sao fluxograma/conceitos, sem fronteira do sistema."
+ },
+ {
+  "row_id": 2687,
+  "fronteira": "outra",
+  "fronteira_texto": "restauracao/renovacao ponte, 3 niveis; o par (151,3 t CO2e, Fig.6) e o nivel 1 'only materials' (producao dos componentes)",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Fig.5 inclui 'Transportation' componentes->misturador e misturador->obra; Tabelas 5-8 dao distancias ate a central; mas o nivel 1 (151,3 t) e 'only materials' - nao e claro se inclui o transporte dos componentes (nivel 2 acrescenta transporte)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 8,
+   "modal": "truck/train/ship (Table 8)",
+   "camiao": "",
+   "factor": "Ecoinvent 3 freight"
+  },
+  "base_dados_processos": "Ecoinvent 3 (SimaPro 8.5), original system boundaries; IPCC 2013 GWP100",
+  "por_par": [],
+  "citacao": "Fig.5; Sec.3.2 'production and transportation of components were considered'; Sec.4 'first level only component production... second level... transportation'; Fig.6 caption 'only materials'; Table 3 betao 8 km",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (2,7 MB); Fig.5 e vista como imagem."
+ },
+ {
+  "row_id": 3565,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-gate do cimento (OPC/PPC/LC3), 1 m3 de betao; nao cradle-to-grave",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Fig.3: 'Transportation' das materias-primas/combustivel ate a clinquerizacao incluido (argila calcinada 150 km piloto); transporte dos ingredientes do betao a central nao declarado",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": 150,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "argila calcinada 150/60-150/<100 km (Table 2)"
+  },
+  "base_dados_processos": "coeficientes de emissao por ingrediente de Kanagaraj et al. 2022; IPCC2013 GWP100",
+  "por_par": [],
+  "citacao": "Sec.4.1 'stops at the halfway point (cradle to gate)'; Fig.3; Sec.5.2 OPC 362,9 / LC3 190,3 kg CO2/m3; Sec.4.4 sensibilidade a distancia de transporte",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (3,3 MB); pagina 6 renderizada e Fig.3 vista (diagrama de producao com 'Transportation' das materias-primas e do cimento ao uso)."
+ },
+ {
+  "row_id": 4815,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle to factory/ready-mix plant gate (modulos A1-A3, EN 15978)",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "fatores A1-A3 (Table 1) deterministas; transporte fabrica->central so entra como incerteza Monte Carlo (+-10-30% por material, +-38% global); distancias nao dadas",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "fatores de literatura (Table 1: NaOH 0,68; Na2SiO3 1,514; Ca(OH)2 0,76; agregados 0,01577/0,00747)",
+  "por_par": [],
+  "citacao": "Sec.2: 'emissions associated with the ready-mix plant to the construction site... are not accounted for'; Sec.2 Monte Carlo para 'transportation between manufacturing to the ready-mix plant'; Limitations: 'excludes emissions from transport to construction sites'",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (ficheiro >4 MB: ligacao MCP fechada); read_file_content (texto) funcionou; figuras de fronteira nao vistas como imagem."
+ },
+ {
+  "row_id": 2891,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "indicador de emissoes (I4) obtido de EPDs IBU de betao C30/37 e C35/45; sem fronteira declarada",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "EPD-IZB-20180102-IBG1-DE, EPD-IZB-20180098-IBG1-DE (refs 62-64)",
+  "por_par": [],
+  "citacao": "Sec.4.2: 'Indicators 3 and 4 were calculated using EPDs'; custos A1-A5 so para o indicador de custo, nao o CO2",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (5,1 MB); paginas com figuras nao renderizadas: nao ha diagrama de fronteira (so arvore de decisao/funcoes de valor)."
+ },
+ {
+  "row_id": 4500,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-gate da producao de cimento/argamassa (Fig.1 cradle-to-gate scope)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "inventario por kg de ligante (calcario, argila, energia); o artigo nao menciona transporte",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "inventario da literatura (refs 27-33,59,64) interpolado",
+  "por_par": [],
+  "citacao": "Fig.1 legenda: 'Basic process, cradle-to-gate scope and system limits'; Sec.3.1 Tabelas 4-6",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (ficheiro >4 MB: ligacao MCP fechada); read_file_content (texto) funcionou; figuras de fronteira nao vistas como imagem. Fig.1 nao vista."
+ },
+ {
+  "row_id": 4510,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "LCA ISO 14040, CML 2016, OpenLCA 2.0, ecoinvent 3.9.1, UF 1 m3",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent 3.9.1 (nomes dos processos nao transcritos no texto)",
+  "por_par": [],
+  "citacao": "Sec.2.4.3; Sec.3.3.1 Table 4 (GWP por kg de materia-prima)",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (ficheiro >4 MB: ligacao MCP fechada); read_file_content (texto) funcionou; figuras de fronteira nao vistas como imagem."
+ },
+ {
+  "row_id": 3416,
+  "fronteira": "outra",
+  "fronteira_texto": "nivel material: fabrico e transporte dos ingredientes (carbon footprint por ingrediente, Table 8); nivel viga acrescenta manutencao/reparo",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "declarado, sem distancias nem factor de transporte; factores unitarios de literatura (Table 8)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Stengel & Schiessl 2014; Pacheco-Torgal 2014; Van den Heede 2018; Paris 2016 (cimento 0,83 kgCO2/kg)",
+  "por_par": [],
+  "citacao": "Sec.5.1: 'considers the cost and carbon footprint of ingredients in the manufacturing and the transportation stages'; Sec.5.2 idem",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (ficheiro >4 MB: ligacao MCP fechada); read_file_content (texto) funcionou; figuras de fronteira nao vistas como imagem."
+ }
+]

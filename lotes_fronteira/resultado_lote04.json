@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 4251,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate scenario; end-of-life not included",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "'the transportation services required for the concrete ingredients were also taken into consideration'; Fig.3 inclui bloco Transport",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent 3.9.1: 'market for cement, Portland' (Europe without Switzerland); 'market for tap water'; areia/brita modeladas a partir de relatorio Crown Estate",
+  "por_par": [],
+  "citacao": "Sec.2.4.1 p.5: 'The considered system boundary corresponds to a cradle-to-gate scenario'; Sec.2.4.2 p.6; distancias nao impressas",
+  "texto_completo_lido": true,
+  "nota": "Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem. Residuos organicos modelados sem carga."
+ },
+ {
+  "row_id": 3958,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "ICE v3.0 A1-A3 + pre-fabrico; transporte excluido",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Factores ICE (A1-A3) trazem transporte dos constituintes ate ao portao da fabrica de cada constituinte; o transporte das materias-primas ao pre-fabricador e dos elementos a obra e excluido",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ICE v3.0 (Table 1)",
+  "por_par": [],
+  "citacao": "p.~9-10: 'We do not include the transportation of raw materials or finished sections due to the lack of reliable data'; 'ICE emission factors encompass Modules A1 to A3 ... transport constituent to the factory gate'",
+  "texto_completo_lido": true,
+  "nota": "Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem."
+ },
+ {
+  "row_id": 3377,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'from the cradle to the gate (LCAI)', funcao 1 t de argamassa",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Artigo nao menciona transporte nas fontes de inventario",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Inventarios de Dunlap 2003, Kellenger & Althaus 2003, Habert & Roussel 2005, Althaus 2007, Louise & Frank 2013, ECA 2017 e SimaPro databases 4.0",
+  "por_par": [],
+  "citacao": "Sec.3 (LCA): 'limits of the analysis were from the cradle to the gate'",
+  "texto_completo_lido": true,
+  "nota": "Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem. Subprodutos GGBS/FA com alocacao."
+ },
+ {
+  "row_id": 4185,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "'cradle-to-gate process. According to EN 15804, the stages accounted for are A1 to A5'",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Lista modulos A1-A5 mas nao descreve transporte nem distancias; texto contraditorio (cradle-to-gate vs A1-A5)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent (Data Availability), metodo EF v3",
+  "por_par": [],
+  "citacao": "Sec.LCA p.8: 'The LCA is conducted in a cradle-to-gate process. ... stages accounted for are A1 to A5'",
+  "texto_completo_lido": true,
+  "nota": "Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem. Ambiguidade da fronteira; nao assumido."
+ },
+ {
+  "row_id": 3282,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "stages A1-A3 and B1 (sequestracao); A4 e A5 excluidos",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Usa coeficientes ICE v2.0 cradle-to-gate; transporte das materias-primas nao descrito",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Univ. Bath ICE v2.0; EPDs quando faltavam",
+  "por_par": [],
+  "citacao": "Sec.2.2.1 p.3: 'Transportation to the construction site (A4) and construction (A5) are not included'; Fig.2; lista de limitacoes: 'construction and transportation were not considered'",
+  "texto_completo_lido": true,
+  "nota": "Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem."
+ },
+ {
+  "row_id": 3071,
+  "fronteira": "outra",
+  "fronteira_texto": "energia/emissoes da producao do betao; transporte excluido",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "Emissoes de transporte nao consideradas",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Parametros de literatura (Tabela 4 etc.); valor de Turner & Collins para silicato de sodio retirado a componente de transporte (0,292 t CO2/t)",
+  "por_par": [],
+  "citacao": "Introd. p.2: 'The emissions from transportation are not considered ... due to the variance and dependence on ... distance, type of engine, and raw materials location'; conclusoes: 'does not include the energy and emissions associated with transportation'",
+  "texto_completo_lido": true,
+  "nota": "Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem."
+ },
+ {
+  "row_id": 4305,
+  "fronteira": "outra",
+  "fronteira_texto": "fase de materializacao (producao + transporte + construcao)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "O factor C40 (361,8 kg CO2e/m3) vem da literatura [38,40,41] e usado na fase de producao; nao diz se inclui transporte de materias-primas",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 50,
+   "dist_betao_km": 50,
+   "modal": "camiao",
+   "camiao": "veiculo de pre-fabricados, motorlorry 1,5-40 t (Tab.3)",
+   "factor": "consumo L/100 km por veiculo, coeficiente de retorno vazio K=1,67 (Tab.3)"
+  },
+  "base_dados_processos": "Factores de literatura e quotas de subprojectos (Tab.1-3)",
+  "por_par": [],
+  "citacao": "Sec.2.2.2 p.7: 'average distance of 50 km'; Sec.2.1: 'the study's boundary is the building's materialization phase'",
+  "texto_completo_lido": true,
+  "nota": "Transporte da fabrica/central a obra e contabilizado a parte do factor de producao; o par grava so o factor de producao.  Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem."
+ },
+ {
+  "row_id": 3657,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-cradle (extraccao e transporte de materias-primas, preparacao e transporte do betao, construcao, demolicao, tratamento)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Etapa 'raw material extraction and transportation'",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 25,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "",
+   "factor": "Tab.4 / Tabelas S1-S2 (suplemento nao lido)"
+  },
+  "base_dados_processos": "CML 2001; inventarios Tabelas S1/S2; Gong 2012; Ding 2016; Xiao 2022b",
+  "por_par": [],
+  "citacao": "Sec.2.3.2.1 p.4: 'raw material extraction and transportation, concrete preparation and transportation, concrete construction and demolition'; Tab.4 nota: 25 km demolicao-aterro/reciclagem por camiao; Tab.10 GWP total",
+  "texto_completo_lido": true,
+  "nota": "GWP da Tab.10 (502,1 etc.) e do ciclo completo: inclui construcao (8,9) e demolicao (8,0 kg CO2/m3). Distancias dos materiais nas Tabelas S1/S2 nao lidas. Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem."
+ },
+ {
+  "row_id": 3120,
+  "fronteira": "outra",
+  "fronteira_texto": "apenas contribuicao dos materiais; fabricacao fora",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "LCA so da contribuicao dos materiais; transporte nao mencionado",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "EcoInvent (sem versao); valores locais para queima de tijolos [26]; FA/GGBS de Habert [28]",
+  "por_par": [],
+  "citacao": "Sec.3.5 p.19: 'In the analysis only the material contribution is presented as the contribution of the manufacturing process is very difficult to assess'",
+  "texto_completo_lido": true,
+  "nota": "Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem."
+ },
+ {
+  "row_id": 3176,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'through the four processes of cradle-to-gate'",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Nao menciona transporte",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "GaBi database (processos de fly ash, NaOH, Na2SiO3, carbon black, areia, agua, electricidade); CML 2016",
+  "por_par": [],
+  "citacao": "Sec.3 LCA p.6: 'four processes of cradle-to-gate ... GaBi database was used'",
+  "texto_completo_lido": true,
+  "nota": "Texto extraido lido na integra; figuras de fronteira nao renderizadas como imagem."
+ }
+]

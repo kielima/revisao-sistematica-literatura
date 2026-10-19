@@ -1,0 +1,173 @@
+[
+ {
+  "row_id": 5055,
+  "lista_refs_encontrada": true,
+  "n_refs": 353,
+  "ligacoes": [
+   {
+    "para": 5015,
+    "citacao": "SILVA, A. O. Estudo comparativo do ciclo de vida e de custo de pilar com diferentes traços de concreto. 2014. Dissertação (Mestrado em Engenharia) – UFSM",
+    "local": "Referências"
+   },
+   {
+    "para": 5043,
+    "citacao": "LAMBERTI, L. A. Análise do ciclo de vida e de custo de pilar com diferentes traços de concreto frente à carbonatação: Do berço ao túmulo. 2015. Dissertação (Mestrado) – UFSM",
+    "local": "Referências"
+   },
+   {
+    "para": 3055,
+    "citacao": "CELIK, K. et al. Mechanical properties, durability, and life-cycle assessment of self-consolidating concrete mixtures made with blended Portland cements containing fly ash and limestone powder. Cement and Concrete Composites, v. 56, p. 59-72, 2015",
+    "local": "Referências"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent",
+    "nome": "Ecoinvent (base de dados de inventário, via SimaPro)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4.7.1.1 e 4.7.2.1.3-4.7.2.2.6 (inventários de FC, CV, CH, aditivo, água, madeira, tinta); Apêndice B; Anexo A",
+    "citacao": "Como suporte ao programa SimaPro foi utilizado o banco de dados Ecoinvent ... O inventário do FC e da CV ... foi proveniente da base de dados do Ecoinvent: 'limestone, milled, loose' e 'fly ash dummy'"
+   },
+   {
+    "id_fonte": "simapro",
+    "nome": "SimaPro (software de ACV; método Eco-indicator 99)",
+    "tipo": "software",
+    "local": "Sec. 4.7.1.1, Cap. 6 (Tabelas 6.x), Apêndice B",
+    "citacao": "Para o processamento dos dados referente a ACV foi utilizado o programa SimaPro"
+   },
+   {
+    "id_fonte": "acv_modular_cbcs_2014",
+    "nome": "CBCS (2014) Avaliação de Ciclo de Vida Modular (ACV-m), Conselho Brasileiro de Construção Sustentável",
+    "tipo": "relatorio",
+    "local": "Sec. 4.7.1.2, 4.7.2.1.3, 6.1",
+    "citacao": "de acordo com a metodologia ACV-m (CBCS, 2014) ... cinco impactos ambientais principais"
+   },
+   {
+    "id_fonte": "ipcc_2007_ar4",
+    "nome": "IPCC (2007) Quarto Relatório de Avaliação (potenciais de aquecimento global)",
+    "tipo": "relatorio",
+    "local": "Sec. 6.1.1.4, tabela de GWP, 'Fonte: IPCC (2007)'",
+    "citacao": "Os gases apontados foram aqueles demonstrados no 'Quarto Relatório de Avaliação' (IPCC, 2007)"
+   },
+   {
+    "id_fonte": "damineli_2013_ic",
+    "nome": "Damineli (2013) Medindo a eficiência... Intensidade de CO2eq (IC) e Intensidade de Ligantes (IL), tese USP",
+    "tipo": "relatorio",
+    "local": "Sec. 4.4.1, 5.x (Tabelas 5.4, 6.2), 6.1.1.4.2",
+    "citacao": "Damineli et al. (2010) propuseram um indicador ... 'Intensidade de CO2eq' (IC); IL ... Damineli (2013)"
+   },
+   {
+    "id_fonte": "mct_2010_inventario_cimento",
+    "nome": "BRASIL. MCT (2010) Segundo inventário brasileiro de emissões e remoções antrópicas de GEE - Relatório de referência - Produção de cimento",
+    "tipo": "relatorio",
+    "local": "Referências; Sec. 2 (Tabela 2.2, emissão de CO2 por clínquer)",
+    "citacao": "segundo as técnicas de ACV (BRASIL, 2010; DAMINELI et al., 2010)"
+   },
+   {
+    "id_fonte": "conama_315_2002",
+    "nome": "CONAMA Resolução 315/2002 (PROCONVE) - fatores de emissão do óleo Diesel",
+    "tipo": "norma",
+    "local": "Sec. 4.7.2.2, Tabela 4.23",
+    "citacao": "Os fatores de emissões da queima do óleo Diesel, Tabela 4.23, foram obtidos da Resolução CONAMA 315/2002 (BRASIL, 2002)"
+   },
+   {
+    "id_fonte": "tcpo_2020",
+    "nome": "TCPO (2020) Tabela de Composições e Preços para Orçamentos",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4.7.2.x (consumos de obra, lavagem, pintura, demolição) e 6.x (custos)",
+    "citacao": "levantamento de dados referente a CCV, utilizando-se Tabela de Composição de Preços para Orçamento (TCPO, 2020)"
+   },
+   {
+    "id_fonte": "sinapi_2020",
+    "nome": "SINAPI (2020) Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4.7.1.2, Apêndice C (Tabela APC.1)",
+    "citacao": "Tabela de encargos sociais (RS) do SINAPI (2020)"
+   },
+   {
+    "id_fonte": "nbr_15575_1",
+    "nome": "ABNT NBR 15575-1 (2013) Edificações habitacionais - Desempenho, Parte 1: Requisitos gerais (vida útil de projeto)",
+    "tipo": "norma",
+    "local": "Sec. 5.2.3 (Determinação da vida útil), Tabela 5.16",
+    "citacao": "NBR 15575-1 versa sobre a vida útil de projeto mínima ... Este estudo adotou uma vida útil mínima de 50 anos ... máximo de 100 anos"
+   },
+   {
+    "id_fonte": "oconnor_2004_vida_edificios",
+    "nome": "O'Connor (2004) estudo de 227 edifícios demolidos numa cidade norte-americana (vida real de edifícios)",
+    "tipo": "relatorio",
+    "local": "Sec. 5.2.3",
+    "citacao": "tomou-se por base o estudo de O'Connor (2004) que verificou a razão pela qual 227 edifícios ... foram demolidos"
+   },
+   {
+    "id_fonte": "nbr_6118_2014",
+    "nome": "ABNT NBR 6118 (2014) Projeto de estruturas de concreto - Procedimento",
+    "tipo": "norma",
+    "local": "Sec. 4.7.3, Apêndice A (cobrimento 20 mm)",
+    "citacao": "Conforme recomendações da NBR 6118 (ABNT, 2014c)"
+   }
+  ],
+  "nota": "PDF reduzido confirmado na capa: Gustavo de Aguiar Isaia, UFSM, 2021, titulo coincide. Referencias (pdftotext, ~353 entradas). CO2 e fck sao proprios (ensaios + SimaPro/Ecoinvent); vida util 50-100 anos pela NBR 15575-1 e carbonatacao acelerada (Tabela 5.16), nao de fonte externa. Nenhuma outra referencia do ALVO_466 encontrada (varredura automatica por titulo e autor-ano + verificacao manual). n_refs aproximado."
+ },
+ {
+  "row_id": 2847,
+  "lista_refs_encontrada": true,
+  "n_refs": 104,
+  "ligacoes": [
+   {
+    "para": 2582,
+    "citacao": "ASSUNÇÃO, C. C. Avaliação do ciclo de vida de argamassas com substituição parcial de cimento Portland por cinza de bagaço de cana-de-açúcar. 2020. UNESP Ilha Solteira",
+    "local": "Referências; Sec. 2 (revisão ACV)"
+   },
+   {
+    "para": 3055,
+    "citacao": "CELIK, K. et al. Mechanical properties, durability, and life-cycle assessment of self-consolidating concrete mixtures made with blended portland cements containing fly ash and limestone powder. Cement and Concrete Composites, v. 56, p. 59-72, 2015",
+    "local": "Referências"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "ecoinvent_3_8",
+    "nome": "Ecoinvent 3.8 (dados de origem brasileira)",
+    "tipo": "base_de_dados",
+    "local": "Cap. ACV, p.80 e Sec. do software GaBi 6",
+    "citacao": "A ACV foi realizada através do software GaBi 6, utilizando o banco de dados do próprio software e do Ecoinvent 3.8"
+   },
+   {
+    "id_fonte": "gabi_6",
+    "nome": "GaBi 6 (software de ACV, incl. base de dados própria)",
+    "tipo": "software",
+    "local": "Figuras 17-20, Cap. ACV",
+    "citacao": "O software utilizado para a realização da ACV foi o GaBi 6"
+   },
+   {
+    "id_fonte": "recipe_2016",
+    "nome": "ReCiPe 2016 (Huijbregts et al.) - método de AICV, GWP100",
+    "tipo": "software",
+    "local": "Sec. 2 (Fig. 9), Tabelas 25-26",
+    "citacao": "O método utilizado nesta tese foi o Recipe 2016 ... para aquecimento global foi utilizado o efeito potencial para o tempo de 100 anos"
+   },
+   {
+    "id_fonte": "ilcd_ibict_2014",
+    "nome": "Manual do Sistema ILCD, IBICT (2014) / ILCD Handbook (EC-JRC 2010)",
+    "tipo": "relatorio",
+    "local": "Cap. ACV, p.80; Referências",
+    "citacao": "pelo Manual do Sistema ILCD do IBICT (IBICT, 2014)"
+   },
+   {
+    "id_fonte": "nbr_15575_1",
+    "nome": "ABNT NBR 15575-1 (2013) Edificações habitacionais - Desempenho, Parte 1",
+    "tipo": "norma",
+    "local": "Definição da unidade funcional (vida útil de 50 anos)",
+    "citacao": "estruturas em concreto armado são projetadas para uma durabilidade de no mínimo 50 anos, segundo a norma NBR 15575-1"
+   },
+   {
+    "id_fonte": "ipcc_2013_ar5",
+    "nome": "IPCC (2013) Climate Change 2013: The Physical Science Basis",
+    "tipo": "relatorio",
+    "local": "Referências",
+    "citacao": "IPCC. Climate change 2013 the physical science basis: Working Group I contribution to the ..."
+   }
+  ],
+  "nota": "PDF reduzido confirmado na capa: Gabriela Pitolli Lyra, USP/UPV, tese datada 2022 (banco: 2023), titulo coincide. Resistencia (unidade funcional 1 MPa) obtida em ensaios proprios; CO2 do ACV proprio (GaBi/Ecoinvent). Lista de referencias com ~104 entradas (contagem aproximada). Nenhuma outra referencia do ALVO_466 encontrada; ligacao a 2582 e 3055 confirmada por autor, titulo, ano e revista."
+ }
+]

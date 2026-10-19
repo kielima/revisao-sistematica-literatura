@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 4431,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave (ponte estaiada, 4 fases)",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "Pares = coeficientes GWP do betao C50/C40/C30 (Tab.1: 705/608/565 kg/m3); o transporte e modelado a parte (Sec.3.1.3, Tm): materias-primas do betao 120 km, betao comercial 30 km.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "120 (materias-primas do betao)",
+   "dist_betao_km": 30,
+   "modal": "rodoviario",
+   "camiao": "camioes 49 t/18 t/4 t; betoneira 12 m3 (30 km)",
+   "factor": "consumo de combustivel kg/km (Tab.2) x GWP diesel 4,62 kg/kg (Tab.1)"
+  },
+  "base_dados_processos": "openLCA 1.10.3 + Ecoinvent; coeficientes da Tab.1 de refs [29-31]; CML 2001",
+  "por_par": [],
+  "citacao": "p.8 Tab.1 (C50 705 kg/m3); p.8 Sec.3.1.3 'transportation distance of concrete raw materials was 120 km ... commercial concrete was 30 km'; Eq. ECm vs Tm separadas",
+  "texto_completo_lido": true,
+  "nota": "Atribuicao 'excluido' deduzida da estrutura do modelo (Tm separado do ECm); o artigo nao diz explicitamente que o coeficiente do betao exclui transporte. Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ },
+ {
+  "row_id": 3170,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Sem qualquer mencao a transporte.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Factores GHG-e de Samuvel et al. 2024 [23] (Tab.4, t-CO2/t)",
+  "por_par": [],
+  "citacao": "Sec.4.6.2 Tab.4 e Fig.10: GHG-e por constituinte; sem as palavras transport/boundary/cradle no artigo",
+  "texto_completo_lido": true,
+  "nota": "LCA so de GHG-e e energia por constituinte (factores de ref. [23]); fronteira nao descrita. Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ },
+ {
+  "row_id": 4724,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave: extraccao, transporte ao fabricante, fabrico, transporte a obra, construcao, demolicao (menos absorcao de CO2 por carbonatacao)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "CYY: materias-primas a central (cimento 20 km camiao; agregados natural/reciclado 10 km; brita 300/380 km navio graneleiro)",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": "cimento 20; agregado fino reciclado 10; agregado fino natural 10; agregado grosso natural 300; ligante 380 (Tab.2)",
+   "dist_betao_km": 20,
+   "modal": "camiao/navio graneleiro",
+   "camiao": "betoneira 20 km",
+   "factor": "0,111; 0,0134; 0,107 kg-CO2eq/(t.km); betao 0,26 kg-CO2eq/m3"
+  },
+  "base_dados_processos": "Factores de literatura [25,30-32] (Tab.2); sem base de dados nomeada",
+  "por_par": [],
+  "citacao": "p.6 Tab.2 'Transport distance/km 20 380 300 10 10'; Sec.2.3 'transported by concrete mixer truck with a transport distance of 20 km ... 0.26 kg-CO2eq/m3'; Eq.3 CLC = CYS+CYY+CZS+CZY+CZZ+CZC-CTH",
+  "texto_completo_lido": true,
+  "nota": "O valor do par e o CLC do ciclo de vida inteiro (ex.: 421,36 no caso 1 REF), nao A1-A3. Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ },
+ {
+  "row_id": 3451,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (extraccao, transporte, fabrico de betao permeavel)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Cimento 5 milhas; RCA 10 milhas; agregado natural 40 milhas; cinza volante e escoria 10 milhas; metacaulim 200 milhas (90% autoestrada); quimicos 20 milhas",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "5 mi cimento; 10 mi RCA/FA/GBFS; 40 mi agregado natural; 200 mi metacaulim; 20 mi quimicos",
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "camiao gasolina tier 2",
+   "factor": "GWP 9,83E-2 (cidade) / 6,89E-2 (autoestrada) kg CO2eq por t.km (EPA 2023, Tab.5)"
+  },
+  "base_dados_processos": "EPA 2023 (transporte); Braga et al. 2017 (fabrico, 4,65 kg CO2eq/m3); TRACI 2.1; literatura/EPD para materiais",
+  "por_par": [],
+  "citacao": "p.4-7 Sec.4.2 'cradle-to-gate'; Sec.4.3.2 distancias; Tab.5; Fig.6 fronteira 'raw material acquisition, transportation, and manufacturing'",
+  "texto_completo_lido": true,
+  "nota": "Betao do central a obra nao incluido (fronteira termina no fabrico). Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ },
+ {
+  "row_id": 2951,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (B1-B3) ate a central de betao",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "B2: transporte dos materiais refinados ate a central, ida e volta (1,85x ida); Tab.4: cimento 398 km, microssilica 176, agregado fino 455, grosso 245, SP 176",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "cimento 398; MS 176; agregado fino 455; agregado grosso 245; SP 176; fibra/agua 0",
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "lorry 17,3 t",
+   "factor": "6,57E-5 kg-CO2/(kg.km) (Kurda et al. 2018b); ida e volta = 1,85x"
+  },
+  "base_dados_processos": "Kurda et al. 2018b (GWP B1: cimento 0,898 kg/kg); Hajek 2011 (MS); B3 = 4,65 kg-CO2/m3",
+  "por_par": [],
+  "citacao": "p.62268-9 'Boundaries (B1-B3) ... cradle to gate'; 'B2 represents the EI of the transportation of refined materials to the concrete plant'; Tab.4",
+  "texto_completo_lido": true,
+  "nota": "Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ },
+ {
+  "row_id": 4255,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "fase de producao de materiais (Cprod); transporte, construcao e reciclagem calculados a parte",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Pares = factores CEF de producao do betao (Tab.A1: 285-416,76 kgCO2e/m3, ref. [49]); o artigo nao diz se o CEF inclui o transporte de materias-primas.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 40,
+   "modal": "rodoviario (gasolina)",
+   "camiao": "",
+   "factor": "0,104 kgCO2e/(t.km) gasolina (Tab.A2); outros materiais 500 km"
+  },
+  "base_dados_processos": "CEF de ref. [49] (Tab.A1); sem base nomeada",
+  "por_par": [],
+  "citacao": "p.7-8 Eq.1 Ctot = Cprod + Ctrans + Ccons - Crec; 'concrete having a transportation distance of 40 km'; Tab.A1",
+  "texto_completo_lido": true,
+  "nota": "Transporte da central a obra e etapa separada (Ctrans), fora do valor do par. Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ },
+ {
+  "row_id": 2822,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave (modulos A, C e D; Athena IE4B); A-C e A-D reportados",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Tab.4 define A2 'Transport' dentro de A1-A3; Athena inclui modulos A, C, D",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Athena IE4B LCI database / TRACI 2.1",
+  "por_par": [],
+  "citacao": "p.9 'The LCA included a cradle-to-grave assessment'; Tab.4 modulos EN 15804/15978; Tab.7 A1-A3 e A4&A5 separados",
+  "texto_completo_lido": true,
+  "nota": "Distancias nao impressas. Pair = betao C45 do edificio; valor do par derivado de totais do edificio. Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ },
+ {
+  "row_id": 4604,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "EN 15978 / EN 15804: A1-A3, A4 e A5 reportados (declared unit)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "A1-A3 de EPD/oneClick LCA; o artigo nao detalha o transporte de materias-primas.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "oneClick LCA (CML-IA 2012), EPDs espanholas (AIECA) ou genericos (cimento SR sueco/alemao)",
+  "por_par": [],
+  "citacao": "Tab.3/Tab.6: 'A1-A3 Construction Materials', 'A4 Transportation to site' (ex.: 4,55E4 kg CO2eq), A5; Tab.7 totais do ciclo de vida",
+  "texto_completo_lido": true,
+  "nota": "Valor do par = total Tab.7 (inclui A4, A5), nao A1-A3 isolado; distancias nao impressas. Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ },
+ {
+  "row_id": 4663,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave (EN 15804): producto, construcao, uso, fim de vida",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Construcao: 'transportation of all materials to the mixing plant was firstly considered' (Tab.5: FA 124 km, GGBFS 95, Na2SiO3 28, areia 7, agregados 50, cimento 95)",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": "FA 124; GGBFS 95; cenosferas 124; Na2SiO3 28; areia 7; agregados 50; cimento 95",
+   "dist_betao_km": 50,
+   "modal": "rodoviario",
+   "camiao": "",
+   "factor": "backhaul 60% da ida (Cooper 2008)"
+  },
+  "base_dados_processos": "SimaPro/IPCC GWP 100a e ReCiPe 2016; contexto australiano (processos nao nomeados)",
+  "por_par": [],
+  "citacao": "p.5 Sec.2.2 e Tab.5 'Transport distances'; 'To construction site 50'; GWP em kg CO2-eq (FL) com linha 'Transportation'",
+  "texto_completo_lido": true,
+  "nota": "Valor do par = GWP da vida funcional (inclui transporte); fim de vida separado. Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ },
+ {
+  "row_id": 3864,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-gate de central de betao pronto (RMC); fronteira exclui a porta da central",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "CO2-T: cada ingrediente 100 km ate a central (7,62E-5 kg/kg.km; SP 1,32E-5)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": 100,
+   "dist_betao_km": null,
+   "modal": "rodoviario",
+   "camiao": "",
+   "factor": "7,62E-5 kg-CO2/(kg.km) (ARAI Pune 2007)"
+  },
+  "base_dados_processos": "Factores de IEA/Sawwalakhe 2020 (cimento 0,59; agregados 0,009 kg/kg)",
+  "por_par": [],
+  "citacao": "Sec.4.1 'The system boundary is up to but not including the gate of ready-mixed concrete plant'; Sec.4.1.2 'assumed to be 100 km'; Tab.9",
+  "texto_completo_lido": true,
+  "nota": "Total (ex.: TR1 273,38 kg/m3) = materiais + transporte, menos reducao por cinza de lagoa. Texto completo obtido via Drive; leitura dirigida as passagens de fronteira/transporte; figuras do diagrama de fronteira nao renderizadas."
+ }
+]

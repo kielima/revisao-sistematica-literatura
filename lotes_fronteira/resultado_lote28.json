@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 3335,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate; ends at arrival of raw materials at the ready-mixed concrete plant",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte camiao/comboio das materias-primas ate a central (Fig.2, Tab.3); aditivos excluidos",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "cimento 208.2 camiao + 276.0 comboio; cinza volante 118.3; brita 85.4; areia 67.6 (Fig.2)",
+   "dist_betao_km": null,
+   "modal": "camiao e comboio (cimento)",
+   "camiao": "n/d",
+   "factor": "camiao 0.0003 e comboio 0.000026 MT CO2eq/MT/milha (EPA 2014, Tab.3)"
+  },
+  "base_dados_processos": "Factores proprios 2012 (PCA, US Census, USGS, EPA, EIA); sem base comercial",
+  "por_par": [],
+  "citacao": "p.25 Sec.3.1: 'boundaries ... included the elementary flows that contribute to the procurement, development, and transportation of the raw materials ... assessment was chosen to end at the arrival of the raw materials to the ready-mixed concrete plant'; Fig.1 (caixa Material Transport rail/truck) e Fig.2 vistas como imagem",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (pdftotext + figuras 1 e 2 renderizadas e vistas). A4 marcado excluido porque o artigo fixa o fim da fronteira na central."
+ },
+ {
+  "row_id": 4389,
+  "fronteira": "outra",
+  "fronteira_texto": "EN 15978: A1-A3, A4, A5, C1 (+C, D); sem fase de uso",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "A1-A3 com valores EPiC/AusLCI; o artigo nao diz se incluem A2",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 50,
+   "modal": "camiao",
+   "camiao": "15-18 t (texto); Tab. 'Truck (15-30 tonne)'",
+   "factor": "2.71 MJ/tkm e 0.203 kg CO2/tkm (AusLCI)"
+  },
+  "base_dados_processos": "EPiC database (A1-A3); AusLCI para o que falta",
+  "por_par": [],
+  "citacao": "Sec.2.4: 'life cycle stages from product production (A1-A3), transport to the site (A4) ...'; 'distance is assumed to be 50 km, round-trip'; Fig.4/5 de fronteira nao vistas (so texto)",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (>10 MB); read_file_content (texto) funcionou. Figuras nao vistas. O CO2 gravado do betao e provavelmente A1-A3 (EPiC) mas o artigo inclui A4 no sistema."
+ },
+ {
+  "row_id": 4789,
+  "fronteira": "A1-A3+C+D",
+  "fronteira_texto": "cradle-to-cradle (A1-A5, B nao, C1-C4, D)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A1-A3 de EPD; artigo define A2 como transporte das materias-primas e diz que as EPD cobrem A1-A3",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 20,
+   "modal": "camiao",
+   "camiao": "16-28 t (AusLCI); concreto: factor da EPD Hanson",
+   "factor": "E2=D*Mload*f; AusLCIv1.42"
+  },
+  "base_dados_processos": "EPD Australasia (media Boral, Barro, Adbri) para o betao; AusLCI",
+  "por_par": [],
+  "citacao": "Sec.2.1: 'Module A2 is the transport of raw materials'; 'covering Modules A1 through to A3'; Sec.2.2: 'For concrete, it was assumed a supplier was within 20 km of the build site'",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou; figuras sao graficos de resultados (sem diagrama de fronteira), paginas verificadas."
+ },
+ {
+  "row_id": 3073,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (raw material extraction through material manufacturing, including related transportation)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Frase generica, sem distancias",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "GaBi 9.2.1 / base GaBi 2020; CSA e PCE da literatura (Ren 2017, Braga 2017)",
+  "por_par": [],
+  "citacao": "Sec.2.2.3: 'A cradle-to-gate LCA ... raw material extraction through material manufacturing, including related transportation. The environmental impacts of the construction processes were not considered'",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou; sem diagrama de fronteira (figuras sao estrutura/resultados). A4 excluido: construcao fora do ambito."
+ },
+ {
+  "row_id": 4696,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (extraction of source material, transportation, production)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte e processo separado na Fig.8b (GWP GPM ~70-80, CM ~55 kg CO2-eq)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "GaBi Truck Euro 3, up to 7.5 t gross/2.7 t payload",
+   "factor": "processo GaBi"
+  },
+  "base_dados_processos": "GaBi 2020: 'Truck, Euro 3, up to 7.5 t gross weight/2.7 t payload capacity'; 'RER: Portland cement (CEM I ELCD/CEMBUREAU)'",
+  "por_par": [],
+  "citacao": "Sec.2 LCA: 'four processes of cradle-to-gate'; Tab.4 Transportation; Sec.3 'transportation process, where the material was transported to the site where it was going to be used'; Fig.8b vista",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou; Fig.8b renderizada e vista. Distancias nao impressas."
+ },
+ {
+  "row_id": 3191,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate do cimento (Fig.2); mistura clinquer/embalagem/transporte ao utilizador excluidos",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Inclui transporte das materias-primas (calcario, caulino, minerio de ferro, gesso) ate a fabrica de cimento; exclui transporte do cimento ao utilizador; argamassa (areia, agua) nao modelada",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "calcario 4(5); caulino 228; minerio de ferro 813; gesso 649 (ida; dobrada para ida e volta)",
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "extra-pesado 72 t (caulino, ferro, gesso); ate 45 t (calcario)",
+   "factor": "0.0114-0.01216 L diesel/t/km x 3.2 kg CO2/L (Tab.3)"
+  },
+  "base_dados_processos": "Ecoinvent v.3 e literatura brasileira",
+  "por_par": [],
+  "citacao": "Sec.2.2.1: 'Clinker mixing, cement packaging, and transportation to the end user were not included'; Sec.2.2.5 Transport; Tab.3; Fig.2 e Fig.3 vistas (Fig.2)",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou; Fig.2 renderizada e vista (transporte presente nas caixas de combustivel/materias-primas/argila calcinada). O par e argamassa mas o CO2 e do cimento."
+ },
+ {
+  "row_id": 3777,
+  "fronteira": "outra",
+  "fronteira_texto": "ciclo de vida completo da ponte: preparacao de materiais (producao+transporte), construcao, operacao/manutencao, demolicao",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "A Sec.2.5 define modelo de transporte (Eq.2) e diz que a preparacao inclui o transporte, mas o resultado da Tab.1 so da coeficiente x quantidade (producao), sem distancias nem valor de transporte",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "coeficientes de betao 228.8-371.7 kg CO2/m3 sem fonte indicada"
+  },
+  "base_dados_processos": "metodo do coeficiente de emissao; sem base nomeada",
+  "por_par": [],
+  "citacao": "Sec.2.3: 'preparation stage ... carbon emissions generated by the production and transportation of materials in the factory'; Tab.1 coeficientes de producao",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou; Fig.1/2 (quadro tecnico) vista, sem fronteira de materiais."
+ },
+ {
+  "row_id": 3731,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Artigo nao fala de transporte",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "OpenLCA, Ecoinvent 3.7 (areia de silica), perfil do cimento HE do Equador (Petroche 2022), chitosan segundo Riofrio; ReCiPe Midpoint H",
+  "por_par": [],
+  "citacao": "Environmental Modeling: 'modeled from a cradle-to-gate perspective'; UF 3130 kg (1 m3) de argamassa; palavra 'transport' ausente do texto",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou; Fig.7 e grafico de resultados (sem diagrama de fronteira)."
+ },
+ {
+  "row_id": 4092,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate: producao dos constituintes e o seu transporte ate a central; producao do betao, transporte e colocacao excluidos",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "GWP por kg + transporte por tkm x distancia (Tab.3)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "CEM I 59.1; po de calcario 93; agregados 93; superplastificante 539; agua 0",
+   "dist_betao_km": null,
+   "modal": "camiao",
+   "camiao": "large truck",
+   "factor": "0.309 kg CO2eq/tkm (Tab.3)"
+  },
+  "base_dados_processos": "Media de Ecoinvent e artigos publicados [39,65-67]; sem nome de processo",
+  "por_par": [],
+  "citacao": "Sec.2.3.1: 'Cradle-to-Gate scope ... includes all processes and emissions from the production of different concrete constituents and its transporting to the concrete batching plant'; transporte e colocacao do betao 'disregarded'; Tab.3 (TD)",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou duas vezes (ligacao MCP caiu, 7.7 MB); read_file_content (texto) funcionou. Fig.2 (fronteira) nao vista. O artigo e catalogo de 26 misturas de 6 estudos, com mesma fronteira para todos."
+ },
+ {
+  "row_id": 2650,
+  "fronteira": "A1-A5",
+  "fronteira_texto": "dados genericos Boverket A1-A3 + A4-A5 (precast, A5=0); carbonatacao B1, C3, D",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "A1-A3 = dados genericos Boverket; composicao do A1-A3 nao detalhada; A4 tratado a parte",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "A4 do Boverket por elemento (Tab.2)"
+  },
+  "base_dados_processos": "Boverket Klimatdatabas v02.05.000 (valores 'typical' de pre-fabricados)",
+  "por_par": [],
+  "citacao": "Sec.3: 'Generic data for Sweden include modules A1-A3 (Product stage) and A4-A5 (Construction process stage). A4 covers only the transport of products to the construction site'; Fig.2",
+  "texto_completo_lido": true,
+  "nota": "download_file_content falhou (ligacao MCP caiu, 9.4 MB); read_file_content (texto) funcionou. Fig.2 nao vista como imagem. Par gravado e provavelmente A1-A3."
+ }
+]

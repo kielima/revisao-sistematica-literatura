@@ -1,0 +1,453 @@
+[
+ {
+  "row_id": 5038,
+  "lista_refs_encontrada": true,
+  "n_refs": 80,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "paya_zaforteza_2009_co2",
+    "nome": "Paya-Zaforteza et al. (2009), CO2-Optimization of Reinforced Concrete Frames by Simulated Annealing, Engineering Structures 31:1501-1508",
+    "tipo": "relatorio",
+    "local": "Tabela 37 (exemplo VIII), p.102 e texto anterior",
+    "citacao": "Os custos em termos de CO2 foram retirados do trabalho de Paya-Zaforteza et al. (2009)"
+   },
+   {
+    "id_fonte": "ochsendorf_2011_mit",
+    "nome": "Ochsendorf et al. (2011), Methods, Impacts, and Opportunities in the Concrete Building Life Cycle, MIT",
+    "tipo": "relatorio",
+    "local": "Tabela 37 (exemplo VIII), p.102",
+    "citacao": "os custos em Potencial de Aquecimento Global (GWP) sao provenientes do trabalho de Ochsendorf (2011)"
+   },
+   {
+    "id_fonte": "paya_zaforteza_2008_ecoindicadores",
+    "nome": "Paya-Zaforteza et al. (2008), valores em Eco-Indicadores (Eco-Indicator 99) para concreto armado",
+    "tipo": "relatorio",
+    "local": "Tabela 37 (exemplo VIII), p.102",
+    "citacao": "os custos em Eco-indicadores tem como referencia o trabalho de Paya-Zaforteza et al. (2008)"
+   }
+  ],
+  "nota": "Dissertacao completa lida (lista de referencias ~80 entradas). Nenhum dos 466 alvos e citado. fck e parametro de projeto, sem fonte externa de resistencia."
+ },
+ {
+  "row_id": 5015,
+  "lista_refs_encontrada": true,
+  "n_refs": 85,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "simapro_8_0_2",
+    "nome": "SimaPro 8.0.2 (PRe Consultants), com bibliotecas de inventario e metodo Eco-indicator 99",
+    "tipo": "software",
+    "local": "Sec. 4.2, p.47 (inventarios de aditivos, madeira e agua)",
+    "citacao": "Os inventarios dos aditivos, da madeira e da agua, foram utilizados da base de dados do SimaPro"
+   },
+   {
+    "id_fonte": "ecoinvent_3_0",
+    "nome": "Banco de dados ecoinvent (compativel com SimaPro)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4.1, p.46",
+    "citacao": "O banco de dados Ecoinvent e compativel com o SimaPro"
+   },
+   {
+    "id_fonte": "aco_brasil_sustentabilidade_2013",
+    "nome": "Instituto Aco Brasil, Relatorio de Sustentabilidade (ano-base 2012)",
+    "tipo": "relatorio",
+    "local": "Sec. 4.2, p.47",
+    "citacao": "Os dados sobre o aco foram retirados do Relatorio de Sustentabilidade do Aco, ano base 2012, do Instituto Aco Brasil (2013)"
+   },
+   {
+    "id_fonte": "conama_315_2002",
+    "nome": "Resolucao CONAMA 315/2002 (fatores de emissao da queima de diesel)",
+    "tipo": "norma",
+    "local": "Sec. 4.2, Tabela 11, p.48",
+    "citacao": "Os fatores de emissoes da queima do oleo diesel foram obtidos da Resolucao CONAMA 315/2002"
+   },
+   {
+    "id_fonte": "ipcc_ar4_2007",
+    "nome": "IPCC, Quarto Relatorio de Avaliacao (2007), fatores de GWP",
+    "tipo": "relatorio",
+    "local": "Sec. 4.2, p.48",
+    "citacao": "fatores publicados no Quarto Relatorio de Avaliacao do IPCC (2007)"
+   },
+   {
+    "id_fonte": "eco_indicator_99",
+    "nome": "Eco-indicator 99 (V2.08 / Europe EI 99 E/A)",
+    "tipo": "software",
+    "local": "Sec. 4.1",
+    "citacao": "O metodo de avaliacao utilizado foi o Eco-Indicador 99"
+   },
+   {
+    "id_fonte": "tcpo_2010",
+    "nome": "TCPO - Tabela de Composicao de Precos para Orcamentos, 13a ed. (2010)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4 (custos)",
+    "citacao": "os indices fisicos foram extraidos da TCPO, 13a edicao (TCPO, 2010)"
+   }
+  ],
+  "nota": "Lista de ~85 refs lida; nenhum alvo citado. Dissertacao com dados primarios de cimenteira (Parana) e pedreira."
+ },
+ {
+  "row_id": 2801,
+  "lista_refs_encontrada": true,
+  "n_refs": 59,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "gabi_6_educational_db",
+    "nome": "Banco de dados do software GaBi 6 Education (processos de concreto, vergalhao de aco; dado alemao para concreto)",
+    "tipo": "base_de_dados",
+    "local": "Quadro de origem dos dados, p.82-84; Sec. 7 analise de sensibilidade p.108",
+    "citacao": "Processo produtivo do concreto: Banco de dados Gabi, secundario Alemanha; vergalhao de aco: Banco de dados Gabi, secundario Global"
+   },
+   {
+    "id_fonte": "gabi_6_educational",
+    "nome": "GaBi 6 Education",
+    "tipo": "software",
+    "local": "Sec. 5, p.~100",
+    "citacao": "O programa Gabi 6 Educational fornece como resultado os graficos"
+   },
+   {
+    "id_fonte": "simapro_secundario_global",
+    "nome": "Banco de dados SimaPro (secundario Global) para o bloco ceramico",
+    "tipo": "base_de_dados",
+    "local": "Quadro de origem dos dados, p.84",
+    "citacao": "Dados sobre fluxos do bloco ceramico: Banco de dados SimaPro secundario Global"
+   },
+   {
+    "id_fonte": "ilcd_handbook",
+    "nome": "ILCD Handbook (EC-JRC), manual de ACV aplicado como roteiro do estudo",
+    "tipo": "norma",
+    "local": "Titulo e todo o estudo",
+    "citacao": "Um Exercicio de Aplicacao do Manual do ILCD"
+   },
+   {
+    "id_fonte": "cml_2001",
+    "nome": "Metodo CML 2001 (nov. 2010)",
+    "tipo": "software",
+    "local": "Sec. 6, Figura 32, p.~97",
+    "citacao": "metodologia do CML 2001 - novembro de 2010"
+   }
+  ],
+  "nota": "Dissertacao UnB lida; lista de ~59 refs; nenhum alvo citado. Nao ha fck no estudo (blocos ceramicos x concreto armado)."
+ },
+ {
+  "row_id": 2841,
+  "lista_refs_encontrada": true,
+  "n_refs": 48,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "inventario_nacional_veiculos_2011",
+    "nome": "1o Inventario nacional de emissoes atmosfericas por veiculos automotores rodoviarios (MMA/Brasil, 2011)",
+    "tipo": "relatorio",
+    "local": "Sec. 3.4.1, p.69",
+    "citacao": "foi utilizado como referencia o 1o Inventario nacional de emissoes atmosfericas por veiculos automotores rodoviarios (BRASIL, 2011)"
+   },
+   {
+    "id_fonte": "carvalho_2002_cimento",
+    "nome": "Carvalho (2002), ACV dos cimentos Portland no Brasil (emissoes atmosfericas do cimento CP I)",
+    "tipo": "relatorio",
+    "local": "Tabela 14, p.~75",
+    "citacao": "As emissoes atmosfericas para a producao de cimento Portland ... possuem como referencia o trabalho de Carvalho (2002)"
+   },
+   {
+    "id_fonte": "marcos_2009_agregados",
+    "nome": "Marcos (2009) apud Lima (2010): emissoes atmosfericas da producao de agregados",
+    "tipo": "relatorio",
+    "local": "Tabela 15, p.~76",
+    "citacao": "Fonte: Adaptado de Marcos (2009) apud Lima (2010)"
+   },
+   {
+    "id_fonte": "krug_2011_fedumenti_2013_concretos",
+    "nome": "Krug (2011) e Fedumenti (2013): tracos e resistencia (fc 35 MPa) dos concretos com cinza de casca de arroz",
+    "tipo": "relatorio",
+    "local": "Tabela 13, p.73-74",
+    "citacao": "Fonte: Adaptado de Krug (2011) e Fedumenti (2013); concretos com fc de 35 MPa"
+   }
+  ],
+  "nota": "Dissertacao Unisinos lida; ~48 refs; nenhum alvo citado."
+ },
+ {
+  "row_id": 5016,
+  "lista_refs_encontrada": true,
+  "n_refs": 151,
+  "ligacoes": [
+   {
+    "para": 5015,
+    "citacao": "SILVA, A. O. Estudo comparativo do ciclo de vida e de custo de pilar com diferentes tracos de concreto. 2014. Dissertacao UFSM",
+    "local": "Referencias; corpo: Silva, A. (2014)"
+   },
+   {
+    "para": 5043,
+    "citacao": "LAMBERTI, L. A. Analise do ciclo de vida e de custo de pilar ... frente a carbonatacao: do berco ao tumulo. 2015. Dissertacao UFSM",
+    "local": "Referencias; corpo: Lamberti (2015)"
+   },
+   {
+    "para": 4997,
+    "citacao": "BORGES, P. H. R. et al. Estudo comparativo da analise de ciclo de vida de concretos geopolimericos e de concretos a base de cimento Portland composto (CP II). Ambiente Construido, v.14, n.2, 2014",
+    "local": "Referencias"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "simapro_8_0_2",
+    "nome": "SimaPro 8.0.2 (PRe Consultants), com bibliotecas de inventario e metodo Eco-indicator 99",
+    "tipo": "software",
+    "local": "Sec. 3.4, p.~93",
+    "citacao": "metodologia presente no software SimaPro 8.0.2 empregado"
+   },
+   {
+    "id_fonte": "simapro_biblioteca_aditivo_agua_madeira",
+    "nome": "Inventarios da biblioteca do SimaPro (polycarboxilates 40% at plant; tap water, at user; plywood outdoor use, at plant)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 3.4.2, p.~96-97",
+    "citacao": "Os inventarios de aditivos quimicos, agua e madeira utilizados foram os constantes no software SimaPro ... base de dados internacional"
+   },
+   {
+    "id_fonte": "aco_brasil_sustentabilidade_2013",
+    "nome": "Instituto Aco Brasil, Relatorio de Sustentabilidade (ano-base 2012)",
+    "tipo": "relatorio",
+    "local": "Sec. 3.4.2, p.~96",
+    "citacao": "dados do Relatorio de Sustentabilidade do Aco referentes ao ano de 2012, disponibilizados pelo Instituto Aco Brasil (2013)"
+   },
+   {
+    "id_fonte": "ipcc_ar4_2007",
+    "nome": "IPCC, Quarto Relatorio de Avaliacao (2007), fatores de GWP",
+    "tipo": "relatorio",
+    "local": "Sec. 3.4.3",
+    "citacao": "Fourth Assessment Report (IPCC, 2007)"
+   },
+   {
+    "id_fonte": "eco_indicator_99",
+    "nome": "Eco-indicator 99 (V2.08 / Europe EI 99 E/A)",
+    "tipo": "software",
+    "local": "Sec. 3.4.3",
+    "citacao": "Neste trabalho, foi utilizado o Eco-Indicador 99"
+   },
+   {
+    "id_fonte": "tcpo_2008",
+    "nome": "TCPO - Tabela de Composicao de Precos para Orcamentos (2008)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 3.5, custos",
+    "citacao": "Tabela de Composicao de Precos para Orcamentos (TCPO, 2008), para a elaboracao das fichas de custos unitarios"
+   },
+   {
+    "id_fonte": "abcp_ensaios_cimento_2013",
+    "nome": "ABCP, relatorio de ensaios dos cimentos (2013)",
+    "tipo": "relatorio",
+    "local": "Tabelas de caracterizacao do cimento, Sec. 3.3.1",
+    "citacao": "Fonte: adaptado do relatorio de ensaios da ABCP (2013)"
+   }
+  ],
+  "nota": "Texto do conector truncado; PDF completo obtido por download_file_content + pdftotext. ~151 refs. Mesma linha metodologica de Silva (2014) e Lamberti (2015)."
+ },
+ {
+  "row_id": 5043,
+  "lista_refs_encontrada": true,
+  "n_refs": 87,
+  "ligacoes": [
+   {
+    "para": 5015,
+    "citacao": "SILVA, A. O. Estudo comparativo do ciclo de vida e de custo de pilar com diferentes tracos de concreto. Dissertacao (Mestrado) UFSM, 2014",
+    "local": "Referencias; corpo: Silva (2014) coletou os dados de agregados e cimentos"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "simapro_8_0_2",
+    "nome": "SimaPro 8.0.2 (PRe Consultants), com bibliotecas de inventario e metodo Eco-indicator 99",
+    "tipo": "software",
+    "local": "Sec. 4, p.~100",
+    "citacao": "computacional SimaPro 8.0.2, software que foi utilizado na ACV"
+   },
+   {
+    "id_fonte": "ecoinvent_3_0",
+    "nome": "Banco de dados ecoinvent v3.0 (compativel com SimaPro; mais de 10.000 processos)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4 (software), p.~101",
+    "citacao": "compatibilidade com o banco de dados Ecoinvent v3.0, que cobre mais de 10.000 processos"
+   },
+   {
+    "id_fonte": "simapro_biblioteca_aditivo_agua_madeira",
+    "nome": "Inventarios da biblioteca do SimaPro 8.0.2 (aditivos, agua - tap water at user, madeira, querosene, tinta acrilica)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4, p.~104-106",
+    "citacao": "o inventario dos aditivos, agua e madeira foram obtidos no banco de dados do programa SimaPro 8.0.2"
+   },
+   {
+    "id_fonte": "aco_brasil_sustentabilidade_2013",
+    "nome": "Instituto Aco Brasil, Relatorio de Sustentabilidade (ano-base 2012)",
+    "tipo": "relatorio",
+    "local": "Sec. 4, p.~105",
+    "citacao": "Os dados sobre o aco de construcao foram obtidos no Relatorio de Sustentabilidade do Aco, ano de 2012, do Instituto Aco Brasil (2013)"
+   },
+   {
+    "id_fonte": "ipcc_ar4_2007",
+    "nome": "IPCC, Quarto Relatorio de Avaliacao (2007), fatores de GWP",
+    "tipo": "relatorio",
+    "local": "Sec. 4",
+    "citacao": "Fourth Assessment Report (IPCC, 2007b)"
+   },
+   {
+    "id_fonte": "eco_indicator_99",
+    "nome": "Eco-indicator 99 (V2.08 / Europe EI 99 E/A)",
+    "tipo": "software",
+    "local": "Sec. 4",
+    "citacao": "O metodo de avaliacao adotado Eco-indicator 99"
+   },
+   {
+    "id_fonte": "tcpo_2008",
+    "nome": "TCPO - Tabela de Composicao de Precos para Orcamentos (2008) e SINAPI",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4 (custos)",
+    "citacao": "da Tabela de Composicao de Precos para Orcamento (TCPO, 2008), a tabela do Sistema Nacional de Pesquisa de Custos (SINAPI)"
+   }
+  ],
+  "nota": "~87 refs. Lamberti nao cita Schmidt (posterior) nem Borges. Vida util calculada por modelos de carbonatacao do proprio estudo."
+ },
+ {
+  "row_id": 5040,
+  "lista_refs_encontrada": true,
+  "n_refs": 37,
+  "ligacoes": [],
+  "externas": [
+   {
+    "id_fonte": "simapro_8_0_faculty",
+    "nome": "SimaPro 8.0 licenca Faculty (PRe, 2013), disponibilizado pela ACV Brasil/PE International",
+    "tipo": "software",
+    "local": "Sec. 3.2, p.~57",
+    "citacao": "Para a modelagem do sistema estudado foi utilizado o software SimaPro 8.0 licenca Faculty (PRE, 2013)"
+   },
+   {
+    "id_fonte": "ecoinvent_2_0",
+    "nome": "Banco de dados Ecoinvent 2.0",
+    "tipo": "base_de_dados",
+    "local": "Sec. 3.2, p.~57; Tabelas de entradas (processos Ecoinvent)",
+    "citacao": "o adotado neste estudo foi o Ecoinvent 2.0 e o metodo ReCiPe Midpoint"
+   },
+   {
+    "id_fonte": "recipe_midpoint_h",
+    "nome": "ReCiPe Midpoint - World ReCiPe H",
+    "tipo": "software",
+    "local": "Sec. 3.2 e 3.5",
+    "citacao": "metodo ReCiPe Midpoint - World ReCiPe H"
+   },
+   {
+    "id_fonte": "sinapi_caixa_2016",
+    "nome": "SINAPI (CAIXA, 2016), composicoes analiticas para processos nao existentes no Ecoinvent",
+    "tipo": "base_de_dados",
+    "local": "Sec. 3.3, p.~58",
+    "citacao": "os processos foram modelados com base nas composicoes analiticas do SINAPI (CAIXA, 2016)"
+   },
+   {
+    "id_fonte": "ilcd_handbook",
+    "nome": "Manual ILCD (EC-JRC, 2010)",
+    "tipo": "norma",
+    "local": "Sec. 3.1",
+    "citacao": "segundo o manual ILCD (EC-JRC, 2010b)"
+   },
+   {
+    "id_fonte": "nbr_15575_2013",
+    "nome": "ABNT NBR 15575-1:2013 (vida util de projeto de 50 anos)",
+    "tipo": "norma",
+    "local": "Sec. 3.1, p.~54",
+    "citacao": "vida util de projeto de 50 anos (ABNT, 2013)"
+   }
+  ],
+  "nota": "Texto do conector truncado; PDF completo obtido por download + pdftotext. ~37 refs; nenhum alvo citado. Sem fck (sistemas construtivos)."
+ },
+ {
+  "row_id": 5041,
+  "lista_refs_encontrada": true,
+  "n_refs": 119,
+  "ligacoes": [
+   {
+    "para": 3843,
+    "citacao": "MILLER, S. A.; HORVATH, A.; MONTEIRO, P. J. M.; OSTERTAG, C. P. Greenhouse gas emissions from concrete can be reduce by using mix proportions, geometric aspects, and age as a design factors: Environmental Research Letters, 10, 1-12, 2015.",
+    "local": "11. Referencias"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "gabi_product_sustainability",
+    "nome": "GaBi Product Sustainability (PE International / thinkstep)",
+    "tipo": "software",
+    "local": "Sec. 6, p.~120",
+    "citacao": "fez-se o uso do software especifico, o GaBi Product Sustainability"
+   },
+   {
+    "id_fonte": "gabi_db_br",
+    "nome": "Banco de dados GaBi (processos BR; cimento, diesel, transporte) - Anexo 12.1",
+    "tipo": "base_de_dados",
+    "local": "Anexo 12.1, Fontes de dados do GaBi utilizadas na ACV",
+    "citacao": "Fontes de dados do GaBi utilizadas na ACV; BR: Diesel at refinery PE, 2011"
+   },
+   {
+    "id_fonte": "epd_holcim_cp3",
+    "nome": "Declaracao Ambiental do Produto (EPD) da Holcim, cimento CP III 40 RS, fabrica de Barroso (MG)",
+    "tipo": "epd",
+    "local": "Sec. 5.5.4, p.~107",
+    "citacao": "baseada em informacoes extraidas da Declaracao Ambiental do Produto, fornecida pela empresa"
+   },
+   {
+    "id_fonte": "finep_itqc_perdas_2011",
+    "nome": "FINEP/ITQC (2011), Alternativas para a Reducao de Desperdicio de Materiais nos Canteiros de Obras (perdas de 10%)",
+    "tipo": "relatorio",
+    "local": "Sec. 5.5.4, p.~107",
+    "citacao": "As perdas de concreto usinado e do aco foram baseadas no relatorio final do projeto (FINEP, 2011)"
+   },
+   {
+    "id_fonte": "ilcd_handbook",
+    "nome": "ILCD Handbook (JRC-IES, EC)",
+    "tipo": "norma",
+    "local": "Sec. 6 e Quadro 18",
+    "citacao": "Recomendacoes ILCD Handbook"
+   }
+  ],
+  "nota": "Lista de ~119 refs lida. Nota: fck por classes do proprio dimensionamento."
+ },
+ {
+  "row_id": 5012,
+  "lista_refs_encontrada": true,
+  "n_refs": 76,
+  "ligacoes": [
+   {
+    "para": 4997,
+    "citacao": "BORGES, P. H. R. et al. Estudo comparativo da avaliacao de ciclo de vida de concretos geopolimericos e de concretos a base de cimento Portland composto (CP II). Ambiente Construido, Porto Alegre, 2014",
+    "local": "Referencias; corpo: concreto de MAA conforme a literatura (BORGES et al., 2014); Sec. 11.1 p.45"
+   }
+  ],
+  "externas": [
+   {
+    "id_fonte": "simapro",
+    "nome": "SimaPro (software de ACV)",
+    "tipo": "software",
+    "local": "Sec. 4 (metodo), p.~30",
+    "citacao": "Software SimaPro integrado a base de dados do Ecoinvent"
+   },
+   {
+    "id_fonte": "ecoinvent_2013",
+    "nome": "Banco de dados Ecoinvent (2013)",
+    "tipo": "base_de_dados",
+    "local": "Sec. 4, p.~30; Conclusoes",
+    "citacao": "integrados a base de dados do Ecoinvent (2013) e utilizando o metodo IPCC 2013 GWP 100a"
+   },
+   {
+    "id_fonte": "ipcc_2013_gwp100",
+    "nome": "IPCC 2013 GWP 100a",
+    "tipo": "relatorio",
+    "local": "Sec. 4, p.~30",
+    "citacao": "metodo IPCC 2013 GWP 100a (IPCC, 2013)"
+   },
+   {
+    "id_fonte": "fawer_1999_silicato",
+    "nome": "Fawer, Concannon, Rieber (1999), Life Cycle Inventories for the Production of Sodium Silicates, Int. J. LCA 4(4)",
+    "tipo": "relatorio",
+    "local": "Sec. 7, resultados da fundacao, p.~41",
+    "citacao": "demanda energetica das etapas de fusao e dissolucao do silicato de sodio (FAWER et al., 1999)"
+   }
+  ],
+  "nota": "Lista de ~76 refs (numeradas + ABNT). fck 25 MPa aos 28 d segundo NBR 6118 (projeto)."
+ }
+]

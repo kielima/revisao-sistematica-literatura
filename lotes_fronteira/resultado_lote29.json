@@ -1,0 +1,202 @@
+[
+ {
+  "row_id": 3285,
+  "fronteira": "A1-A4",
+  "fronteira_texto": "Pre-use life cycle stages (A1-A4) EN 15804; A5 e demolicao excluidos",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2 'processing phase transport' incluido na fronteira (Sec. 2.4.4)",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "navio de contentores ate a Islandia + porto-obra",
+   "camiao": "",
+   "factor": "0.0327 kg CO2eq/t.km (Breidfjord) ; SimaPro 0.0115"
+  },
+  "base_dados_processos": "SimaPro 8.0.5.13 com ecoinvent 3.0 (principal); GaBi 6.108 (apoio); ReCiPe Midpoint",
+  "por_par": [],
+  "citacao": "p.4-5 Sec.2.4.4: 'Pre-use life cycle stages (A1-A4)... A2 processing phase transport... A4 transportation to the construction site'; Sec.3.1.1 transporte da origem a Islandia e porto-obra (A4)",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + PyMuPDF (texto completo; paginas de figuras renderizadas e vistas). Fig.1 (modelo LCA-LEED) nao e diagrama de fronteira; nao ha figura de fronteira. Resultado do edificio inteiro, cenario Con; nao e certo se o valor do par inclui A4."
+ },
+ {
+  "row_id": 2688,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave alinhado com EN 15804: A1-A4 + C1-C4 (A5 e B1-B7 excluidos; EoL com CFF)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "A2: concreto, fibra de carbono e ancoragem transportados 100 km (GaBi 'GLO: Truck, euro4, 28-32t, 22 t payload')",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 100,
+   "dist_betao_km": 250,
+   "modal": "camiao",
+   "camiao": "Truck euro4 28-32t gross / 22 t payload",
+   "factor": "dataset GaBi; fibras 100 km; painel acabado 250 km"
+  },
+  "base_dados_processos": "GaBi ts 10.6 (XIV Construction materials, XV, XXII Carbon composites) + Ecoinvent 3.6; 'DE: Concrete C50/60 (A1-A3)' VDZ; 'EU-28: Stainless steel sheet (EN15804 A1-A3) Sphera'",
+  "por_par": [],
+  "citacao": "p.5 Fig.2 'System boundaries' (A1,A2,A3,A4 incluidos; A5 e B tracejados) e texto Sec.5.1-5.2: 'transport... module A2... 100 km'; 'module A4... 250 km'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + PyMuPDF (texto completo; paginas de figuras renderizadas e vistas). Fig.2 renderizada e vista (A2 e A4 com caixas 'Transport' solidas). Total do ciclo 456 kg CO2eq/painel; nao e claro se o valor do par e A1-A3 ou total."
+ },
+ {
+  "row_id": 3068,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle to gate; ECO2eq por tonelada de ligante e por m3 de betao",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "So transporte interno nas fabricas/pedreiras incluido; 'emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included'",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": 333,
+   "dist_betao_km": null,
+   "modal": "camiao (unico modo)",
+   "camiao": "",
+   "factor": "0.124 kg ECO2eq/t.km"
+  },
+  "base_dados_processos": "OpenLCA com base propria (cimenteira e pedreira de Olavarria) + ICE; literatura para os restantes",
+  "por_par": [],
+  "citacao": "p.4 Sec. Sustainability assessment: 'The LCA was carried out from cradle to gate'; 'emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + PyMuPDF (texto completo; paginas de figuras renderizadas e vistas). Sem diagrama de fronteira (figuras sao graficos/mapa). Transporte de SCM tratado a parte como acrescimo (333/1100/1948/3105 km; Fig.4), nao esta nos valores base M1-M12."
+ },
+ {
+  "row_id": 3944,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "Quadro geral do ciclo de vida do edificio (construcao: producao de materiais, transporte de materiais, obra; operacao; demolicao); coeficientes CEC para materiais",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Fig.1 lista 'material transportation' como etapa generica, mas as Eqs.(2)-(4) so tem horas-homem, materiais e maquinas; nao diz se o coeficiente do betao (C20 239.19; C30 346.95 kgCO2/m3) inclui transporte",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Base CEC propria (180 coeficientes de CNKI + GB/T 51366-2019); Revit/GTJ2018",
+  "por_par": [],
+  "citacao": "p.3 Fig.1 e p.7 Eqs.1-4; Sec.4.3: 'carbon emission coefficient of C20 concrete is 239.19 kgCO2-eq/m3, C30 is 346.95'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + PyMuPDF (texto completo; paginas de figuras renderizadas e vistas). Fig.1 renderizada e vista: diagrama generico de composicao do ciclo de vida (nao fronteira de um processo concreto)."
+ },
+ {
+  "row_id": 3727,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave dinamico (D-CUBE): extracao, processamento, mistura, construcao, uso, demolicao/EoL",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "'emissions associated with maintenance in the use-phase and transportation emissions are excluded' (concreto e CLT); GHG de materias-primas/cimento via OpenConcrete",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "OpenConcrete LCA tool (Kim et al. 2022); Guggemos & Horvath 2005 para construcao/demolicao",
+  "por_par": [],
+  "citacao": "p.6560-6561 Sec.2.3: 'In both cases, emissions associated with maintenance in the use-phase and transportation emissions are excluded, given... high variability in transportation distances'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + PyMuPDF (texto completo; paginas de figuras renderizadas e vistas). Fig.3 renderizada e vista (estagios de vida, sem caixas de transporte). Quadro conceptual D-CUBE menciona transporte em geral, mas o estudo de caso exclui-o."
+ },
+ {
+  "row_id": 3424,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-gate declarado, mas cobre 'production and use stages' A1-B7 (EN 15804); fim de vida excluido",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Tabela 3 lista A2 como etapa EN 15804, mas o artigo nao diz se o transporte de materias-primas foi modelado; LCIs de ecoinvent 3.6 'market for' (gravel, cement, tap water)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Ecoinvent 3.6 APOS (ex.: 'Concrete, normal {CH}| unreinforced concrete production, with cement CEM II/A | APOS, U' sem os 'market for'; 'Gravel, round {CH}| market for gravel, round', 'Cement, alternative constituents 6-20% {CH}| market for'); EPDs FEICA; CML-IA",
+  "por_par": [],
+  "citacao": "p.6 Sec.4.1: 'cradle-to-gate system boundary... production and use stages that correspond to the A1-B7 stages' e Tabela 3; p.7 Sec.4.2.1 processos ecoinvent",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + PyMuPDF (texto completo; paginas de figuras renderizadas e vistas). Sem diagrama de fronteira (Tabela 3 so e tabela de modulos EN 15804). Unidade funcional = parede inteira (50-100 anos), nao 1 m3."
+ },
+ {
+  "row_id": 4416,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle to gate, modulos A1-A3 (A1 materias-primas, A2 transporte ate ao local de producao, A3 fabrico)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "'raw material supply (A1), transport to the production site (A2), and manufacturing process (A3)' - compilacao de 79 EPDs EN 15804",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Bases de fundo das EPDs: Ecoinvent ou GaBi (sem diferenca significativa)",
+  "por_par": [],
+  "citacao": "p.3 Sec.2.1: 'The modules covered are thus A1-A3: raw material supply (A1), transport to the production site (A2)...'; p.6 Sec.2.1.3 'embodied GWP (modules A1-A3) for ready-mixed concretes'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + PyMuPDF (texto completo; paginas de figuras renderizadas e vistas). Figuras sao graficos (box plot Fig.5); nao ha diagrama de fronteira. Fronteira e a das EPDs, nao verificada EPD a EPD."
+ },
+ {
+  "row_id": 3817,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "GWP so da etapa de producao de materiais (A1-A3) da viga de bordo; A4-A5, uso e EoL nao considerados",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "'material production stage (A1-A3) including raw material extraction, transport of raw materials and manufacturing' (EPD Svensk Betong 388 kg CO2/m3)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "EPDs EPD-Norge (Svensk Betong betao; Celsa/CARES/ArcelorMittal varao; Mapei fibra)",
+  "por_par": [],
+  "citacao": "p.11 Sec.6.1: 'The environmental impacts during the construction process stage A4-A5... were not considered'; 'only the GHG responsible for the GWP during the material production stage (A1-A3)'; Tabela 4 'EPD (A1-A3)'",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + PyMuPDF (texto completo; paginas de figuras renderizadas e vistas). Sem diagrama de fronteira (Fig.3 e fluxograma do caso de estudo). Titulo/autor (Chen, Gil Berrocal, Lofgren) confirmados na p.1-2. Nome do ficheiro CHEN, 2023i_1 difere do 'pdf' da worklist."
+ },
+ {
+  "row_id": 4750,
+  "fronteira": "outra",
+  "fronteira_texto": "Ciclo completo A1-C4 (Tabela 2 EN 15804); GWP total em 100 m3 de betao com vidro de automovel",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "'carbon footprint in the product phase covers... extraction of raw materials, their transport and the processes of their transformation'; transporte de todas as materias 100 km",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 100,
+   "dist_betao_km": 100,
+   "modal": "camiao",
+   "camiao": "20 t, 30 L/100 km, ~78 kg CO2/100 km",
+   "factor": "78 kg CO2/100 km"
+  },
+  "base_dados_processos": "Nao indicado (nenhuma base/software citado na Sec. LCA lida)",
+  "por_par": [],
+  "citacao": "Sec.Phase II (Inventory): 'The distance at which all transport of raw materials and other materials takes place was also assumed to be equal to 100 km'; Tabela 5 GWP 33.509 kg CO2eq",
+  "texto_completo_lido": true,
+  "nota": "Download falhou 2x (ligacao MCP fechada: ficheiro de 7,7 MB); lido por read_file_content (texto completo, 97.688 car.). NAO foi possivel renderizar/ver figuras (Fig.2 'Life cycle stages' so vista como texto). GWP 33.509 kg e do ciclo de vida inteiro; fronteira do valor do par incerta."
+ },
+ {
+  "row_id": 2696,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (A1-A3) com coeficientes da Concrete Centre (UK, jun 2020); cofragem fora da fronteira",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Diz que EN 15978 define A1-A3 como cradle-to-gate e A4 transporte, mas nao diz se os coeficientes (C30/37 230, C32/40 240 kgCO2e/m3) incluem transporte de materias-primas",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Concrete Centre 'cost and embodied carbon coefficients' (survey industria UK jun/2020); ICE (Hammond & Jones) citado",
+  "por_par": [],
+  "citacao": "p.12-13: 'cradle-to-gate (A1-A3) embodied carbon is reasonably sufficient'; 'Embodied carbon of formwork was not considered since the scope is focussed on A1-A3'; Tabela 1",
+  "texto_completo_lido": true,
+  "nota": "Lido via download_file_content + PyMuPDF (texto completo; paginas de figuras renderizadas e vistas). Sem diagrama de fronteira (so texto 'system boundaries'). A4 'excluido' por ficar fora do escopo declarado A1-A3."
+ }
+]

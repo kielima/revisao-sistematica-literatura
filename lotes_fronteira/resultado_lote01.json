@@ -1,0 +1,221 @@
+[
+ {
+  "row_id": 2902,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave (material production, transportation, construction, end of life; use phase not reported)",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "3DCP e 35 MPa de comparacao modelados com processos Ecoinvent 'market for'; o artigo nao diz se o transporte das materias-primas esta nelas. Excepcao: o betao convencional (EPD CalPortland) e cradle-to-gate e o EPD diz incluir transporte.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": 6.5,
+   "dist_betao_km": 6.5,
+   "modal": "road",
+   "camiao": "Kenworth W900 mixer truck / combination truck short-haul",
+   "factor": "Transport, combination truck, short-haul, diesel powered (USLCI)"
+  },
+  "base_dados_processos": "Cement, Portland {US}|market for; Silica sand {GLO}|market for; '35 MPa {GLO} market for|APOS, U'; EPD CalPortland NRMCAEPD 20035; USLCI; Industry data 2.0",
+  "por_par": [
+   {
+    "sheet_row": 790,
+    "transporte_materiais_a1a3": "nao_declarado",
+    "transporte_concreto_a4": "incluido",
+    "nota": "Table A3: ingredientes via Ecoinvent 'market for' + linha 'Transport tkm'; sem distancias"
+   },
+   {
+    "sheet_row": 791,
+    "transporte_materiais_a1a3": "nao_declarado",
+    "transporte_concreto_a4": "incluido",
+    "nota": "'35 MPa {GLO} market for|APOS, U'"
+   },
+   {
+    "sheet_row": 1862,
+    "transporte_materiais_a1a3": "incluido",
+    "transporte_concreto_a4": "incluido",
+    "nota": "EPD cradle-to-gate inclui transporte; A4 e do estagio de transporte do estudo (6.5 km)"
+   }
+  ],
+  "citacao": "Sec 3.2: 'cradle-to-grave ... material production, transportation, construction, and end of life'; Sec 3.3: EPD 'cradle-to-gate ... includes raw material supply, transportation, and manufacturing'; ready-mix plant 6.5 km from site; Table A3 'Transport tkm taken from concrete, 50 MPa {GLO}|market for'.",
+  "texto_completo_lido": true,
+  "nota": "Fronteira global e cradle-to-grave, mas os pares sao so o betao."
+ },
+ {
+  "row_id": 3529,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Eq.1 GWP = soma massa x [e_k + Lk x e_transport]; Lk na Tab.4 (PC 180 km, aditivo 500, areia 20; round trip); factor de transporte 0.128 kgCO2/t.km",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 180,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "0.128 kgCO2/t.km"
+  },
+  "base_dados_processos": "Tab.4 coeficientes de refs [23,24,35-39]: PC 896.6 kgCO2/t; sem nome de processo",
+  "por_par": [],
+  "citacao": "Methods, Eq.1 e Table 4 ('Lk values are calculated as round trip')",
+  "texto_completo_lido": true,
+  "nota": "Nao ha rotulo de fronteira nem etapa de entrega ao local; BT residual com GWP 0 mas Lk 180 km."
+ },
+ {
+  "row_id": 2966,
+  "fronteira": "outra",
+  "fronteira_texto": "cradle-to-grave (extraction to demolition; building case study)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "30 km cimento->central, 100 km precursores geopolimero, 30 km areia/brita, 20 km agregado reciclado, 300 km aco/escoria",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": "30-100",
+   "dist_betao_km": 40,
+   "modal": "road",
+   "camiao": "lorry 16-32 t EURO5",
+   "factor": "Transport, freight, lorry 16-32 metric tonne, EURO5 {GLO}|market for|Alloc Def, S"
+  },
+  "base_dados_processos": "market for cement, Portland {Europe without Switzerland}; market for reinforcing steel {GLO}; Ecoinvent 3.3; Impact 2002+",
+  "por_par": [],
+  "citacao": "Sec 3.1.3 'cradle-to-grave'; lista de distancias: '40 km from the concrete plant to the construction site'",
+  "texto_completo_lido": true,
+  "nota": "Par e de edificio completo (inclui aco 120 kg/m3, demolicao): o CO2 do par pode nao ser A1-A3 puro."
+ },
+ {
+  "row_id": 4930,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (product stage)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "'raw material extraction and processing, transportation, and manufacturing were considered' mas CO2 vem de factor EPD coreano (3,532 por unidade de betao) sem distancias",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "EPD Korea Ministry of Environment (greenproduct.go.kr); sem nome de processo",
+  "por_par": [],
+  "citacao": "Sec 3.1: 'system boundary was defined as cradle-to-gate (product stage), and only the environmental impacts during raw material extraction and processing, transportation, and manufacturing were considered (Figure 4)'; Limitations 2: excludes use and disposal",
+  "texto_completo_lido": true,
+  "nota": ""
+ },
+ {
+  "row_id": 4846,
+  "fronteira": "outra",
+  "fronteira_texto": "whole life-cycle: manufacturing, construction, use and maintenance, end of life (150 anos); UF 1 m de ponte",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "20 km agregados e 10 km cimento ate a central",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": "10-20",
+   "dist_betao_km": 20,
+   "modal": "road (aco 100 km)",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Ecoinvent (componentes separados), ReCiPe",
+  "por_par": [],
+  "citacao": "Sec 3.2: 'distances considered were: 20 km to transport the aggregates to the mixing factory, 10 km to transport the cement ..., 20 km to transport the concrete to the site, and 100 km ... steel'",
+  "texto_completo_lido": true,
+  "nota": "Camiao/factor nao impressos. Nao fica claro se o CO2 do par e so a fase de fabrico."
+ },
+ {
+  "row_id": 2704,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (product stage: raw material, transportation, manufacturing)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "estagio de transporte das materias-primas ate a central RMC (distancias por coordenadas lat/long, camioes 1-25.5 t ou comboio)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "truck or rail",
+   "camiao": "1-25.5 t trucks",
+   "factor": "National LCI DB Korea"
+  },
+  "base_dados_processos": "Korea LCI DB; ecoinvent para escoria, cinza, aditivos",
+  "por_par": [],
+  "citacao": "Sec 2: 'cradle to gate ... up to the point at which it leaves the manufacturer's premises ... three stages: raw material, transportation, and manufacturing'; 'transportation of raw materials to the RMC plant'",
+  "texto_completo_lido": true,
+  "nota": ""
+ },
+ {
+  "row_id": 4758,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (raw material extraction to concrete production)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "linha 'Transportation t x km' no inventario; distancias de Marceau et al. 2007 (PCA)",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "ecoinvent (Wernet 2016); Marceau 2007 distancias",
+  "por_par": [],
+  "citacao": "Sec 2.3: 'cradle-to-gate approach ... from raw material extraction (cradle) to concrete production (gate)'; 'transport distances were collected from the Life Cycle Inventory of Portland Cement Concrete'",
+  "texto_completo_lido": true,
+  "nota": "Valores de km nao lidos nas tabelas."
+ },
+ {
+  "row_id": 3883,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Transporte dos RCD fora da fronteira; transporte de cimento/agregados nao mencionado; transporte generico (camiao EURO 3, 20 t, 0.058 kgCO2/t.km) tratado a parte (Sec 3.4)",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "lorry",
+   "camiao": "EURO 3, 20 t",
+   "factor": "0.058 kg CO2 eq/tkm (GaBi generico)"
+  },
+  "base_dados_processos": "GaBi; ReCiPe 1.08",
+  "por_par": [],
+  "citacao": "Sec 3.4: 'Transportation of CDW was not included into the considered system borders'",
+  "texto_completo_lido": true,
+  "nota": "Mixturas C20/25 por 1 m3; energia de processamento nao considerada."
+ },
+ {
+  "row_id": 4691,
+  "fronteira": "outra",
+  "fronteira_texto": "raw material supply, transport to facility, ready-mix production, and end of life (EoL)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "transporte modelado 50 km, camiao EURO 3 ate 28 t",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 50,
+   "dist_betao_km": null,
+   "modal": "road",
+   "camiao": "truck trailer EURO 3, up to 28 t",
+   "factor": ""
+  },
+  "base_dados_processos": "GaBi, dados genericos; PEF 3.0",
+  "por_par": [],
+  "citacao": "Sec 2.5: 'transport of resources to the facility'; 'transport processes were modelled as transporting on a 50 km distance using a truck trailer (EURO 3, up to 28 t gross weight)'",
+  "texto_completo_lido": true,
+  "nota": "Transporte no EoL (deposito) e distinto de A4."
+ },
+ {
+  "row_id": 4855,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "processo termina com a producao de betao (sem rotulo cradle-to-gate)",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Incluido: RCD 10.3 km, agregado reciclado 4.4 km, agregado natural 54.5 km. Cimento e agua: distancia nao declarada. 'distance traveled by equipment ... and the transportation distance in concrete and aggregate production facilities are not taken into account'",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": "4.4-54.5",
+   "dist_betao_km": null,
+   "modal": "road",
+   "camiao": "lorry 17.3 t max payload",
+   "factor": "ReCiPe midpoint / openLCA; Tab.2: 222,899.6 t.km (RAC), 347,725.8 t.km (NAC)"
+  },
+  "base_dados_processos": "openLCA 2.0, ReCiPe Midpoint V1.13; 'Portland cement (CEM I)'",
+  "por_par": [],
+  "citacao": "Sec 2.1: 'Both processes end with concrete production'; Sec 2.2 Fig.4 e Table 2",
+  "texto_completo_lido": true,
+  "nota": "Figuras de fronteira (Fig.1/2) nao renderizadas; fonte: texto."
+ }
+]

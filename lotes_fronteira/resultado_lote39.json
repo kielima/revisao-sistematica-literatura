@@ -1,0 +1,182 @@
+[
+ {
+  "row_id": 2739,
+  "fronteira": "outra",
+  "fronteira_texto": "ciclo de vida completo em 4 fases (manufacturing, construction, use & maintenance, end of life); 'LCA from' ponte inteira",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Fig.2 (vista): bloco TRANSPORT entre cada matéria-prima (cimento, areia, brita, aditivos, adjuvantes) e a matriz de betão, antes da mistura; texto p.4: permite controlar a distância de cada matéria-prima até à fábrica de betão. Distâncias não impressas.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 30,
+   "modal": "",
+   "camiao": "",
+   "factor": "não impresso"
+  },
+  "base_dados_processos": "Ecoinvent v3.3; betão 30 MPa directo do Ecoinvent, betão 40 MPa criado como na Fig.2; ReCiPe 2008/H",
+  "por_par": [],
+  "citacao": "p.9 'the transport of the materials to the construction site has been considered, where the distances ... are 30 km for concrete and 150 km for both the structural and rebar steels'; Fig.3 'Transport of the materials to the construction site' na Manufacturing",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (PDF 22 p.); Figs.2 e 3 renderizadas e vistas. O CO2 gravado é do tabuleiro/ciclo completo; o A4 (30 km) está dentro da fase Manufacturing e não é separável do valor gravado. Não confirmado qual valor de CO2 foi gravado por par."
+ },
+ {
+  "row_id": 3187,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (inclui produção e transporte de cada ingrediente e a betonagem/mistura)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Sec.4.1 p.9: Table 4 lista CO2 'allocated to the production and transportation of each RCASCC ingredient as well as the batching'; transporte rodoviário excepto SP e fibras (ferroviário). Fig.A (distâncias; CRA 70 km vs PRA 2 km) e Tabelas B-D estão no Apêndice, que não consta do PDF (13 p.).",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "estrada (SP e fibras: ferrovia)",
+   "camiao": "",
+   "factor": "CO2 por kg de ingrediente já inclui transporte (Table 4); valores de transporte do Apêndice não vistos"
+  },
+  "base_dados_processos": "Table 4 inventário próprio (CO2-eq kg/kg: cimento 0,914; CRA 0,0204; PRA 0,0029...); Ecoinvent não citado",
+  "por_par": [],
+  "citacao": "p.9 'A cradle-to-gate system boundary is adopted'; 'CO2-eq ... allocated to the production and transportation of each RCASCC ingredient'",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (PDF 13 p.); p.9 renderizada e vista (tabela 4). A4 não mencionado: fronteira cradle-to-gate implica exclusão mas o artigo não o diz expressamente; Apêndice (Fig.A) ausente do PDF."
+ },
+ {
+  "row_id": 3288,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate (product stage), módulos A1-A3",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "p.3 Sec.2.1.3: 'A2 covers transportation of raw materials'; factores de emissão de betão e aço de EPD/base de dados do Ministério do Ambiente coreano. Distâncias não impressas.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "EPD / base de dados do Ministry of Environment [13] (betão, vergalhão); CLT: National Institute of Forest Science [14]",
+  "por_par": [],
+  "citacao": "p.3 Fig.3: fronteira do sistema só A1-A3 (A4 e A5 fora); limitação 4 p.5 'did not include the construction process, use, and end-of-life stage'",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (PDF 10 p.); Fig.3 renderizada e vista (caixa a tracejado só em A1-A3). Limitação 7: 'transportation methods and distances ... may vary'."
+ },
+ {
+  "row_id": 4064,
+  "fronteira": "outra",
+  "fronteira_texto": "modelo de CO2 'from gate to cradle' (sic): produção de matérias-primas + transporte de matérias-primas + cura; mistura e betonagem desprezadas",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Eq.(13): CO2 = ERawMatProd + ERawMatTrans + ECuring, com ERawMatTrans = Σ(FTrans × Wi × Di); distâncias Di fornecidas pelo utilizador, valores não encontrados no texto lido.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "FTrans em kgCO2/(kg·km), valor não encontrado no texto"
+  },
+  "base_dados_processos": "factores de emissão de refs [136-139]; sem processos Ecoinvent nomeados",
+  "por_par": [],
+  "citacao": "Sec.2.8 p.13 Eq.(13) 'ERawMatTrans is the CO2 emissions in the transport of concrete raw materials'; 'CO2 emissions of concrete mixing and casting are assumed to be negligible'",
+  "texto_completo_lido": false,
+  "nota": "download_file_content FALHOU 2x (ligação MCP fechada, resultado grande); usado read_file_content (texto, 26 p.). Fig.3 (system boundary) NÃO vista - só texto. Distâncias e factores estão provavelmente na Tabela/S-material, não confirmados. Valor 134,08/160,86 vem da Tab.7."
+ },
+ {
+  "row_id": 2624,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "nao_declarado",
+  "transporte_materiais_nota": "Só a Fig.1 genérica (EN 15978 reproduzida de [22]); o estudo usa Athena Impact Estimator for Buildings e uma EPD de CLT, sem descrever a fronteira nem o transporte.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": ""
+  },
+  "base_dados_processos": "Athena Impact Estimator for Buildings (AIE4B); EPD CLT [31]",
+  "por_par": [],
+  "citacao": "p.4 Fig.1 'Life-Cycle Assessment stages according to the ISO 14044 standard, reproduced from [22]' (esquemático, não do estudo); p.7-8 GWP de 1 m3 de betão C30/37 e CLT por AIE4B",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (PDF 19 p.); Fig.1 vista: diagrama genérico, não define a fronteira do estudo. Custos incluem transporte (Tab.4) mas isso é custo, não CO2."
+ },
+ {
+  "row_id": 4479,
+  "fronteira": "nao_declarada",
+  "fronteira_texto": "",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Só o transporte dos agregados: agregados naturais 30 km; agregado reciclado (blocos de pavimento) 60 km (recolha + entrega à central). Cimento, água e aditivos: transporte não declarado.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 30,
+   "dist_betao_km": null,
+   "modal": "",
+   "camiao": "",
+   "factor": "não impresso"
+  },
+  "base_dados_processos": "SimaPro 8.5 + Ecoinvent 3.5; IMPACT 2002+",
+  "por_par": [],
+  "citacao": "Sec.LCA: 'transportation distances for the natural aggregates were assumed to be 30 km'; 'material needs to be transported about 60 km'",
+  "texto_completo_lido": false,
+  "nota": "download_file_content FALHOU 1x (ligação MCP fechada); usado read_file_content (texto, MDPI Materials 2021). Figuras não vistas (só texto). Unidade funcional 1 m3; sem declaração de fronteira (A1-A3 etc.)."
+ },
+ {
+  "row_id": 4786,
+  "fronteira": "outra",
+  "fronteira_texto": "ciclo de vida do edifício: embodied (produção+transporte+construção), operacional, demolição",
+  "transporte_materiais_a1a3": "excluido",
+  "transporte_materiais_nota": "CP (produção de materiais) = M×EF; o transporte é um termo separado CT desde a unidade de produção até à obra. Transporte das matérias-primas até à central de betão não é considerado.",
+  "transporte_concreto_a4": "incluido",
+  "transporte_dados": {
+   "dist_materiais_km": null,
+   "dist_betao_km": 40,
+   "modal": "estrada",
+   "camiao": "camião diesel pesado",
+   "factor": "0,162 kgCO2/(t·km); 40 km (Nanjing) e 400 km (Jiangsu)"
+  },
+  "base_dados_processos": "base CPCD (China Products Carbon Footprint Factors Database); sem Ecoinvent",
+  "por_par": [],
+  "citacao": "Sec.2.3.2 p.5-6: C1 = CP + CT + CC; Eq.(4) CT = ΣMi×Ti×EFt 'from the production site to the construction site'; 3.1.2: transporte total 269,45 tCO2, C30 94,69 tCO2",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (PDF 19 p.); Figs.1-2 vistas (foto/modelo, sem diagrama de fronteira). O valor de CO2 por par é provavelmente CP (produção) do betão, sem o CT, que é calculado à parte; não confirmado qual valor foi gravado em cada par."
+ },
+ {
+  "row_id": 3896,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "'cradle-to-gate' (sistema A1-A5 desenhado na Fig.2, mas A4/A5 excluídos nos resultados principais)",
+  "transporte_materiais_a1a3": "parcial",
+  "transporte_materiais_nota": "Subprodutos: processamento + transporte do produtor primário até armazém metropolitano (Perth) incluídos (ex.: cinza volante 200 km camião 40 t); transporte do armazém à obra excluído nos resultados iniciais.",
+  "transporte_concreto_a4": "excluido",
+  "transporte_dados": {
+   "dist_materiais_km": 50,
+   "dist_betao_km": null,
+   "modal": "estrada",
+   "camiao": "camião 40 t (cinza volante)",
+   "factor": "sensibilidade: entrega a 50 km em Perth (Site 1); NaOH e aluminossilicatos Perth→Kalgoorlie +3,6 kgCO2eq (10%)"
+  },
+  "base_dados_processos": "OpenLCA 1.7.2, AusLCI v2.8 e Ecoinvent v3.4; EN 15804; cut-off",
+  "por_par": [],
+  "citacao": "p.4 'Transport from plant to site has been excluded in the initial results'; p.6 'relevant freight to Perth metropolitan has already been included, e.g. fly ash includes 200 km transport in a 40T truck'",
+  "texto_completo_lido": true,
+  "nota": "download_file_content funcionou (PDF 9 p.); Fig.2 renderizada e vista (A1-A5 no boundary, mas texto exclui o A4 nos resultados). Unidade funcional 1 m2 de parede."
+ },
+ {
+  "row_id": 3687,
+  "fronteira": "A1-A3",
+  "fronteira_texto": "cradle-to-gate, EN 15804 A1-A3 (raw materials supply, transportation, manufacturing)",
+  "transporte_materiais_a1a3": "incluido",
+  "transporte_materiais_nota": "Transporte dos constituintes até à central/laboratório incluído: cimento 223 km (QC), argila calcinada 2900 km (SK→Montreal; França 535 km), filler calcário 209 km; modos de frete na Tabela; variação em análise de sensibilidade.",
+  "transporte_concreto_a4": "nao_declarado",
+  "transporte_dados": {
+   "dist_materiais_km": 223,
+   "dist_betao_km": null,
+   "modal": "camião/ferrovia (Tab. Freight modes)",
+   "camiao": "",
+   "factor": "processos Ecoinvent de frete; valores por modo na tabela"
+  },
+  "base_dados_processos": "Ecoinvent 3.7 Cutoff (Brightway2/Activity Browser); EF 3.0 e ReCiPe 2016; versão QC e França",
+  "por_par": [],
+  "citacao": "Sec.2.1 'cradle-to-gate analysis, corresponding to the EN 15804 A1-A3 ... product stage (raw materials supply, transportation, manufacturing)'; Sec.4.5 'Cradle-to-gate limitations'",
+  "texto_completo_lido": false,
+  "nota": "download_file_content FALHOU 1x (ligação MCP fechada); usado read_file_content (texto, 86k chars, colunas misturadas). Figuras (Fig.1 inventário, Fig.4) NÃO vistas. Transporte da estrutura impressa fora da fronteira (texto garbled); A4 do betão não declarado explicitamente."
+ }
+]
