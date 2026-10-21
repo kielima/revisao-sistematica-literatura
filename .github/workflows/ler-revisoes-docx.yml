@@ -1,0 +1,114 @@
+name: Ler revisões (tracked changes) de um .docx do Google Drive
+
+# Busca um .docx do Drive pelo fileId com rclone (o conector MCP do Drive
+# recusa ficheiros acima de 10 MB e a exportação de texto não mostra
+# revisões), abre o word/document.xml e word/comments.xml e escreve no log
+# um resumo: contagem de inserções/remoções/comentários por autor e, para
+# o autor indicado (por omissão «Claude»), o texto de cada revisão com
+# data, truncado. O .docx NÃO é guardado no repositório nem reenviado ao
+# Drive; fica só no runner descartável. Pedido da Kiê, 2026-10-21, para
+# confirmar as edições feitas pela sessão local no DISSERTAÇÃO_KIÊ_v20.docx.
+# Reutiliza o secret RCLONE_CONFIG (ver push-to-drive.yml).
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_file_id:
+        description: "fileId do .docx no Drive (v20: 1_Xrh2eT1RkHP-p_48DQvpcElB4uLphKr)"
+        required: true
+        type: string
+      author:
+        description: "Autor das revisões cujo texto se quer listar"
+        required: false
+        default: "Claude"
+        type: string
+      max_chars:
+        description: "Máximo de caracteres de texto por revisão listada"
+        required: false
+        default: "400"
+        type: string
+
+jobs:
+  ler-revisoes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Instalar rclone
+        run: curl -s https://rclone.org/install.sh | sudo bash
+
+      - name: Configurar rclone
+        env:
+          RCLONE_CONFIG_CONTENT: ${{ secrets.RCLONE_CONFIG }}
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONFIG_CONTENT" > ~/.config/rclone/rclone.conf
+
+      - name: Descarregar o .docx por fileId
+        env:
+          FILE_ID: ${{ inputs.source_file_id }}
+        run: |
+          set -euo pipefail
+          rclone backend copyid drive: "$FILE_ID" /tmp/original.docx
+          ls -la /tmp/original.docx
+          unzip -l /tmp/original.docx | grep -E 'word/(document|comments)\.xml' || true
+
+      - name: Resumir as revisões
+        env:
+          AUTHOR: ${{ inputs.author }}
+          MAX_CHARS: ${{ inputs.max_chars }}
+        run: |
+          python3 - <<'PY'
+          import os, re, zipfile, collections
+          import xml.etree.ElementTree as ET
+          W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
+          autor = os.environ.get('AUTHOR', 'Claude')
+          mx = int(os.environ.get('MAX_CHARS', '400'))
+          z = zipfile.ZipFile('/tmp/original.docx')
+          doc = ET.fromstring(z.read('word/document.xml'))
+
+          def texto(el, tag):
+              return ''.join(t.text or '' for t in el.iter(W + tag))
+
+          cont = collections.Counter()
+          listadas = []
+          for el in doc.iter():
+              if el.tag in (W + 'ins', W + 'del'):
+                  tipo = 'inserção' if el.tag == W + 'ins' else 'remoção'
+                  au = el.get(W + 'author', '?')
+                  dt = el.get(W + 'date', '')
+                  # ignora marcas de parágrafo/formatação sem texto
+                  txt = texto(el, 't') if tipo == 'inserção' else texto(el, 'delText')
+                  if not txt.strip():
+                      continue
+                  cont[(au, tipo)] += 1
+                  if au == autor:
+                      listadas.append((dt, tipo, txt))
+
+          print('=== Revisões por autor e tipo (só as com texto) ===')
+          for (au, tipo), n in sorted(cont.items()):
+              print(f'{au}: {n} {tipo}(ões)')
+          print()
+
+          com = collections.Counter()
+          coms = []
+          if 'word/comments.xml' in z.namelist():
+              cx = ET.fromstring(z.read('word/comments.xml'))
+              for c in cx.iter(W + 'comment'):
+                  au = c.get(W + 'author', '?')
+                  com[au] += 1
+                  if au == autor:
+                      coms.append((c.get(W + 'date', ''), texto(c, 't')))
+          print('=== Comentários por autor ===')
+          for au, n in sorted(com.items()):
+              print(f'{au}: {n}')
+          print()
+
+          print(f'=== Revisões de «{autor}» (texto truncado a {mx} caracteres) ===')
+          for dt, tipo, txt in listadas:
+              print(f'[{dt}] {tipo}: {txt[:mx]}{"…" if len(txt) > mx else ""}')
+          print()
+          print(f'=== Comentários de «{autor}» ===')
+          for dt, txt in coms:
+              print(f'[{dt}] {txt[:mx]}{"…" if len(txt) > mx else ""}')
+          if not listadas and not coms:
+              print('(nenhuma revisão nem comentário deste autor)')
+          PY
