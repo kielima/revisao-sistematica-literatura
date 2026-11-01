@@ -1,6 +1,6 @@
 # Releitura com recortes (F39, fase 1b)
 
-Contexto: `lotes_etapas/PROMPT.md` (versão 2) define a extração do CO2 por etapa EN 15804 (A1–A4). Os estudos de `recorteNN.json` ficaram na 1ª passagem com `refazer_com_recorte: true` (PDF >10 MB ou ligação do conector caída; figuras não vistas). Cada entrada traz `nota_anterior` (o que faltou ver) e `pares` (sheet_row, co2 gravado).
+Contexto: `lotes_etapas/PROMPT.md` (versão 2) define a extração do CO2 por etapa EN 15804 (A1–A4). Os estudos de `recorteNN.json ou recorteBNN.json` ficaram na 1ª passagem com `refazer_com_recorte: true` (PDF >10 MB ou ligação do conector caída; figuras não vistas). Cada entrada traz `nota_anterior` (o que faltou ver) e `pares` (sheet_row, co2 gravado).
 
 Tarefa por estudo: 
 1. Ler `nota_anterior` e o resultado anterior em `resultado_loteNN.json` (campo `resultado_anterior`) para o row_id.

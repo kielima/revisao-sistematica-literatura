@@ -1,0 +1,252 @@
+[
+ {
+  "row_id": 2611,
+  "autor": "Cong, Peiliang and Du, Ruyan and Gao, Huanlin and Chen, Zhihui",
+  "titulo": "Comparison and assessment of carbon dioxide emissions between\nalkali-activated materials and OPC cement concrete",
+  "pdf": "CONG et al., 2024 - j.jtte.2023.07.011.pdf",
+  "fileId": "1hbOEI9yF7UtjKir1xbNU6udKBk0bzo8m",
+  "resultado_anterior": "lotes_etapas/resultado_lote35.json",
+  "nota_anterior": "Texto completo lido; figuras nao renderizadas. Fig.8 pode ter decomposicao por etapa: reler com recorte.",
+  "pares": [
+   {
+    "sheet_row": 88,
+    "material": "OPC-A (OPC concreto convencional, 30 MPa)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 365,
+    "co2_original": "364.185 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (Tabela 14, coluna \"OC (kg/m3)\") -- valor nao alterado]",
+    "co2_original_local": "Tabela 14 - Average life cycle CO2-E in the sulfuric acid environment (kg/m3 por ciclo de 50 anos, GPC tem 18 ciclos equivalentes a vida util do OPC)"
+   },
+   {
+    "sheet_row": 91,
+    "material": "OPC-B (OPC concreto convencional, 40 MPa)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 352.31,
+    "co2_original": "351.496 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (Tabela 14, coluna \"OC (kg/m3)\") -- valor nao alterado]",
+    "co2_original_local": "Tabela 14 - Average life cycle CO2-E in the sulfuric acid environment (kg/m3 por ciclo de 50 anos, GPC tem 18 ciclos equivalentes a vida util do OPC)"
+   },
+   {
+    "sheet_row": 94,
+    "material": "OPC-C (OPC concreto convencional, 50 MPa)",
+    "fck_mpa": 50,
+    "co2_kg_m3": 375.9,
+    "co2_original": "375.088 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de concreto (Tabela 14, coluna \"OC (kg/m3)\") -- valor nao alterado]",
+    "co2_original_local": "Tabela 14 - Average life cycle CO2-E in the sulfuric acid environment (kg/m3 por ciclo de 50 anos, GPC tem 18 ciclos equivalentes a vida util do OPC)"
+   }
+  ]
+ },
+ {
+  "row_id": 2822,
+  "autor": "Zhang, Xiaoyue and Huang, Wanru and Khajehpour, Mehdi and Asgari, Mehrdad and Ta",
+  "titulo": "Seismic Performance and LCA Comparison between Concrete and Timber–Concrete Hybrid Buildings",
+  "pdf": "ZHANG et al., 2023c - buildings13071714.pdf",
+  "fileId": "1-voX7V0K2Jl6XM5GIJqXA5AR09g3KVyo",
+  "resultado_anterior": "lotes_etapas/resultado_lote39.json",
+  "nota_anterior": "Rever Fig.8/Fig.9 (pp.10-11) por recorte: pode haver barras por modulo A1-A3/A4-A5/C/D do edificio de betao; o texto nao da valores absolutos.",
+  "pares": [
+   {
+    "sheet_row": 706,
+    "material": "Concreto armado C45 - edificio de 9 pisos + subsolo (comparacao sismica e ACV vs hibrido madeira-concreto)",
+    "fck_mpa": 45,
+    "co2_kg_m3": 528.38,
+    "co2_original": "1,79E6 kg CO2 eq (GWP do edificio de betao inteiro; texto rotula erradamente /m2)",
+    "co2_original_local": "Tabela 6 (LEED LCA cradle to grave), linha GWP, coluna Concrete Building; volume na Tabela 5 p.10"
+   }
+  ]
+ },
+ {
+  "row_id": 3102,
+  "autor": "Menna Barreto, M. F. F. and Timm, J. F. G. and Passuello, A. and Dal\nMolin, D. C",
+  "titulo": "Life cycle costs and impacts of massive slabs with varying concrete\ncover",
+  "pdf": "MENNA BARRETO, 2021 - j.clet.2021.100256.pdf",
+  "fileId": "1mv3r9Vj8dviAD8MIoo7Z1bIyKQeWHCjt",
+  "resultado_anterior": "lotes_etapas/resultado_lote42.json",
+  "nota_anterior": "Cradle-to-grave por EN 15978; so ha etapas agregadas (A1-A3, A4-A5, B, C) por laje na Tab. C.2. Figuras nao renderizadas (PDF 10,6 MB).",
+  "pares": [
+   {
+    "sheet_row": 841,
+    "material": "laje macica de concreto armado (4x4m, 12cm), cobrimento de armadura variavel (15/20/25/30mm)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 557.13,
+    "co2_original": "897 kg CO2 eq por laje completa (cobrimento 15 mm; FU = laje armada 4x4 m x 12 cm)",
+    "co2_original_local": "Tabela de resultados, linha Climate change - GWP100, coluna Total"
+   },
+   {
+    "sheet_row": 1852,
+    "material": "laje macica de concreto armado (4x4m, 12cm), cobrimento de armadura 20mm",
+    "fck_mpa": 30,
+    "co2_kg_m3": 566.63,
+    "co2_original": "907 kg CO2 eq por laje 4x4 m x 12 cm (Climate change GWP100; concreto+aco+espacadores+fim de vida)",
+    "co2_original_local": "Tabela de resultados (GWP100); volume constante 1,92 m3 na sec.2 Methods p.4"
+   },
+   {
+    "sheet_row": 1853,
+    "material": "laje macica de concreto armado (4x4m, 12cm), cobrimento de armadura 25mm",
+    "fck_mpa": 30,
+    "co2_kg_m3": 598.68,
+    "co2_original": "954 kg CO2 eq por laje 4x4 m x 12 cm (Climate change GWP100; concreto+aco+espacadores+fim de vida)",
+    "co2_original_local": "Tabela de resultados (GWP100); volume constante 1,92 m3 na sec.2 Methods p.4"
+   },
+   {
+    "sheet_row": 1854,
+    "material": "laje macica de concreto armado (4x4m, 12cm), cobrimento de armadura 30mm",
+    "fck_mpa": 30,
+    "co2_kg_m3": 602.69,
+    "co2_original": "955 kg CO2 eq por laje 4x4 m x 12 cm (Climate change GWP100; concreto+aco+espacadores+fim de vida)",
+    "co2_original_local": "Tabela de resultados (GWP100); volume constante 1,92 m3 na sec.2 Methods p.4"
+   }
+  ]
+ },
+ {
+  "row_id": 3105,
+  "autor": "Abdel-Gawwad, Hamdy A. and Hirsch, Tamino and Mancke, Raoul and Firdous,\nRafia a",
+  "titulo": "Performance, thermodynamic modelling, and global warming potential of\nlow sodium-activated artificial granulated slag substituted with quartz\nand limestone fillers",
+  "pdf": "ABDEL-GAWWAD et al., 2025 - j.clet.2024.100861.pdf",
+  "fileId": "1cgeoGd8KtjrXoK1gXF58oyDbovSb-N32",
+  "resultado_anterior": "lotes_etapas/resultado_lote42.json",
+  "nota_anterior": "Ligante alcali-ativado; ACV so A1 (cradle-to-gate parcial). Fig. 21 (valores por mistura) nao renderizada; PDF 22 MB. Unidade da Fig. 21 e kg CO2-eq/m3 segundo o dossie; confirmar no recorte.",
+  "pares": [
+   {
+    "sheet_row": 1922,
+    "material": "ASS/N3 (100% AS, 3% Na2O) - rede",
+    "fck_mpa": 73.2,
+    "co2_kg_m3": 1080,
+    "co2_original": "1080 (MPa / kg CO2eq/m3)",
+    "co2_original_local": "Fig.15a/b; Fig.21 painel LP"
+   },
+   {
+    "sheet_row": 1923,
+    "material": "ASS-Q50/N3 grid / renew",
+    "fck_mpa": 65.2,
+    "co2_kg_m3": 625,
+    "co2_original": "{'grid': 625, 'renew': 375} (idem)",
+    "co2_original_local": "Fig.15a; Fig.21 QP"
+   },
+   {
+    "sheet_row": 1924,
+    "material": "ASS-Q50/N1 grid / renew",
+    "fck_mpa": 30.3,
+    "co2_kg_m3": 606,
+    "co2_original": "{'grid': 606, 'renew': 350} (idem)",
+    "co2_original_local": "Fig.15a; Fig.21 QP"
+   },
+   {
+    "sheet_row": 1925,
+    "material": "ASS-Q25/N3 grid / renew",
+    "fck_mpa": 72.3,
+    "co2_kg_m3": 888,
+    "co2_original": "{'grid': 888, 'renew': 563} (idem)",
+    "co2_original_local": "Fig.15a; Fig.21 QP"
+   },
+   {
+    "sheet_row": 1926,
+    "material": "ASS-Q50/N2 grid / renew",
+    "fck_mpa": 68.6,
+    "co2_kg_m3": 613,
+    "co2_original": "{'grid': 613, 'renew': 363} (idem)",
+    "co2_original_local": "Fig.15a; Fig.21 QP"
+   },
+   {
+    "sheet_row": 1927,
+    "material": "ASS-Q75/N3 grid / renew",
+    "fck_mpa": 22.1,
+    "co2_kg_m3": 331,
+    "co2_original": "{'grid': 331, 'renew': 213} (idem)",
+    "co2_original_local": "Fig.15a; Fig.21 QP"
+   },
+   {
+    "sheet_row": 1928,
+    "material": "ASS-L50/N1 grid / renew",
+    "fck_mpa": 34.8,
+    "co2_kg_m3": 580,
+    "co2_original": "{'grid': 580, 'renew': 340} (idem)",
+    "co2_original_local": "Fig.15b; Fig.21 LP"
+   },
+   {
+    "sheet_row": 1929,
+    "material": "ASS-L50/N2 grid / renew",
+    "fck_mpa": 67.7,
+    "co2_kg_m3": 613,
+    "co2_original": "{'grid': 613, 'renew': 367} (idem)",
+    "co2_original_local": "Fig.15b; Fig.21 LP"
+   },
+   {
+    "sheet_row": 1930,
+    "material": "ASS-L25/N3 grid / renew",
+    "fck_mpa": 85,
+    "co2_kg_m3": 867,
+    "co2_original": "{'grid': 867, 'renew': 513} (idem)",
+    "co2_original_local": "Fig.15b; Fig.21 LP"
+   },
+   {
+    "sheet_row": 1931,
+    "material": "ASS-L50/N3 grid / renew",
+    "fck_mpa": 61.8,
+    "co2_kg_m3": 620,
+    "co2_original": "{'grid': 620, 'renew': 380} (idem)",
+    "co2_original_local": "Fig.15b; Fig.21 LP"
+   },
+   {
+    "sheet_row": 1932,
+    "material": "ASS-L75/N3 grid / renew",
+    "fck_mpa": 35.9,
+    "co2_kg_m3": 360,
+    "co2_original": "{'grid': 360, 'renew': 233} (idem)",
+    "co2_original_local": "Fig.15b; Fig.21 LP"
+   }
+  ]
+ },
+ {
+  "row_id": 3120,
+  "autor": "Narayanaswamy, Abhilash Holur and Walker, Peter and Reddy, B. V.\nVenkatarama and",
+  "titulo": "Mechanical and thermal properties, and comparative life-cycle impacts,\nof stabilised earth building products",
+  "pdf": "NARAYANASWAMY et al., 2020.pdf",
+  "fileId": "1al1oKkrerU9rB04GahZJyL_yd9oP_Xxb",
+  "resultado_anterior": "lotes_etapas/resultado_lote42.json",
+  "nota_anterior": "GWP por parede com Ecoinvent, so materiais e cura; sem etapas EN 15804.",
+  "pares": [
+   {
+    "sheet_row": 320,
+    "material": "[MODERADOR UCS] Bloco de terra comprimida alcali-ativado (12M NaOH + 15% cinza volante), agregado PGBS, ~200 dias",
+    "fck_mpa": 27.9,
+    "co2_kg_m3": 184.8,
+    "co2_original": "42.5 kg CO2-eq/m2 de parede (leitura da Fig.10 em LOTE_23; nao 44,7)",
+    "co2_original_local": "Fig.10 (p.29 do manuscrito)"
+   }
+  ]
+ },
+ {
+  "row_id": 3132,
+  "autor": "Oyebisi, Solomon and Alomayri, Thamer",
+  "titulo": "Cement-based concrete modified with Vitellaria Paradoxa ash: A lifecycle assessment",
+  "pdf": "OYEBISI et al., 2022.pdf",
+  "fileId": "1aSawF_Z66z3F1ZIIFiXKQxjG6cWoGxmm",
+  "resultado_anterior": "lotes_etapas/resultado_lote42.json",
+  "nota_anterior": "Coeficientes ICE; GWP total = soma dos materiais x (1+19% desperdicio) + transporte. Fig. 6 pode ter TiGWP por mistura; reler com recorte.",
+  "pares": [
+   {
+    "sheet_row": 847,
+    "material": "concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)",
+    "fck_mpa": 29.1,
+    "co2_kg_m3": 381.8,
+    "co2_original": "353 kg CO2 eq/m3",
+    "co2_original_local": "Texto, sec.4.4 (p.8), paragrafo 1, GWP"
+   },
+   {
+    "sheet_row": 848,
+    "material": "concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)",
+    "fck_mpa": 34.5,
+    "co2_kg_m3": 427.2,
+    "co2_original": "398 kg CO2 eq/m3",
+    "co2_original_local": "Texto, sec.4.4 (p.8), paragrafo 1, GWP"
+   },
+   {
+    "sheet_row": 849,
+    "material": "concreto de cimento composto com cinza de Vitellaria Paradoxa (VPA) - mistura de controlo (V0, 100% PLC)",
+    "fck_mpa": 45.9,
+    "co2_kg_m3": 540.6,
+    "co2_original": "511 kg CO2 eq/m3",
+    "co2_original_local": "Texto, sec.4.4 (p.8), paragrafo 1, GWP"
+   }
+  ]
+ }
+]

@@ -1,0 +1,249 @@
+[
+ {
+  "row_id": 4431,
+  "autor": "Zhou, ZhiWu and Alcala, Julian and Yepes, Victor",
+  "titulo": "Bridge Carbon Emissions and Driving Factors Based on a Life-Cycle\nAssessment Case Study: Cable-Stayed Bridge over Hun He River in\nLiaoning, China",
+  "pdf": "ZHOU et al., 2020.pdf",
+  "fileId": "13nVZRp0U1PippK-YcpWSi2tD2ijJcwbL",
+  "resultado_anterior": "lotes_etapas/resultado_lote56.json",
+  "nota_anterior": "Texto completo lido via conector (ficheiro de 10 MB, nao descarregavel); Figs.7-9 (contribuicao por fase da ponte inteira) nao renderizadas; nao dao valores por m3 de betao.",
+  "pares": [
+   {
+    "sheet_row": 1346,
+    "material": "concreto C50 (ponte estaiada, Liaoning, China)",
+    "fck_mpa": 50,
+    "co2_kg_m3": 705,
+    "co2_original": "705 kg CO2eq/m3",
+    "co2_original_local": "Table 1, p.8: coluna GWP para 'C50' = 705.00 (kg/m3 de concreto, Ecoinvent-based)"
+   },
+   {
+    "sheet_row": 1347,
+    "material": "concreto C40 (ponte estaiada, Liaoning, China)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 608,
+    "co2_original": "608 kg CO2eq/m3",
+    "co2_original_local": "Table 1, p.8: coluna GWP para 'C40' = 608.00 kg/m3"
+   },
+   {
+    "sheet_row": 1348,
+    "material": "concreto C30 (ponte estaiada, Liaoning, China)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 565,
+    "co2_original": "565 kg CO2eq/m3",
+    "co2_original_local": "Table 1, p.8: coluna GWP para 'C30' = 565.00 kg/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 4498,
+  "autor": "Pavlu, Tereza and Pesta, Jan and Vlach, Tomas and Fortova, Kristina",
+  "titulo": "Environmental Impact of Concrete Slab Made of Recycled Aggregate\nConcrete Based on Limit States of Load-Bearing Capacity and\nServiceability-LCA Case Study",
+  "pdf": "PAVLU et al., 2023.pdf",
+  "fileId": "1WWZOLI6cSd7hooBKkorOBGXW9wg6_CXb",
+  "resultado_anterior": "lotes_etapas/resultado_lote58.json",
+  "nota_anterior": "Texto lido na integra; Figs. 4/5 (pp.12-13) nao renderizadas: reler com recorte para ver se as barras sao empilhadas por processo/etapa.",
+  "pares": [
+   {
+    "sheet_row": 1459,
+    "material": "Concreto referencia com agregado natural (NAC IA)",
+    "fck_mpa": 33.2,
+    "co2_kg_m3": 331,
+    "co2_original": "~457 kg CO2 eq por painel (Fig.4 'Steel C I/C II', barra '1 ...')",
+    "co2_original_local": "Fig.4 p.12 (eixo numerico 0-600, rotulos % por barra)"
+   },
+   {
+    "sheet_row": 1460,
+    "material": "Concreto com agregado fino reciclado de alvenaria (fRMAC IA)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 303,
+    "co2_original": "~472 kg CO2 eq por painel (Fig.4 'Steel C I/C II', barra '1 ...')",
+    "co2_original_local": "Fig.4 p.12 (eixo numerico 0-600, rotulos % por barra)"
+   },
+   {
+    "sheet_row": 1461,
+    "material": "Concreto com agregado fino reciclado de concreto (fRCAC1 IA)",
+    "fck_mpa": 34.4,
+    "co2_kg_m3": 226,
+    "co2_original": "~353 kg CO2 eq por painel (Fig.4 'Steel C I/C II', barra '1 ...')",
+    "co2_original_local": "Fig.4 p.12 (eixo numerico 0-600, rotulos % por barra)"
+   },
+   {
+    "sheet_row": 1462,
+    "material": "Concreto referencia com agregado natural (NAC IIA) - alta dosagem",
+    "fck_mpa": 44.9,
+    "co2_kg_m3": 366,
+    "co2_original": "~483 kg CO2 eq por painel (Fig.4 'Steel C I/C II', barra '1 ...')",
+    "co2_original_local": "Fig.4 p.12 (eixo numerico 0-600, rotulos % por barra)"
+   },
+   {
+    "sheet_row": 1463,
+    "material": "Concreto com agregado fino reciclado de alvenaria (fRMAC IIA) - alta dosagem",
+    "fck_mpa": 38,
+    "co2_kg_m3": 338,
+    "co2_original": "~507 kg CO2 eq por painel (Fig.4 'Steel C I/C II', barra '1 ...')",
+    "co2_original_local": "Fig.4 p.12 (eixo numerico 0-600, rotulos % por barra)"
+   },
+   {
+    "sheet_row": 1464,
+    "material": "Concreto com agregado fino reciclado de concreto (fRCAC1 IIA) - alta dosagem",
+    "fck_mpa": 42.9,
+    "co2_kg_m3": 265,
+    "co2_original": "~398 kg CO2 eq por painel (Fig.4 'Steel C I/C II', barra '1 ...')",
+    "co2_original_local": "Fig.4 p.12 (eixo numerico 0-600, rotulos % por barra)"
+   }
+  ]
+ },
+ {
+  "row_id": 4756,
+  "autor": "Huber, Tobias and Grasl, Philipp and Kleiser, Michael and Kromoser,\nBenjamin and",
+  "titulo": "Holistic life cycle cost analysis of road bridges with non-metallic\nreinforcement",
+  "pdf": "HUBER et al., 2024 - j.dibe.2024.100533.pdf",
+  "fileId": "1BErlRh21XgCS0qlVb1NosuQGUAPbiMCf",
+  "resultado_anterior": "lotes_etapas/resultado_lote62.json",
+  "nota_anterior": "Lido o texto extraido do Drive com foco em Tab.1, Tab.8, secoes 2.4/3.1; nao li 100% nem renderizei figuras/Tab.8. Etapas so por Tab.8 (A1-A3, A4 etc.); co2 gravado vem de Tab.1.",
+  "pares": [
+   {
+    "sheet_row": 590,
+    "material": "Concreto C25/30 (usado na subestrutura/fundacao da ponte, variante aco)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 199.92,
+    "co2_original": "0,0833 kg CO2-eq/kg (Concrete C25/30), com a nota impressa (200 kg/m3)",
+    "co2_original_local": "Tabela 1 p.4"
+   },
+   {
+    "sheet_row": 591,
+    "material": "Concreto C30/37 (usado na superestrutura da ponte, variantes GFRP/BFRP/CFRP)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 219.12,
+    "co2_original": "0,0913 kg CO2-eq/kg (Concrete C30/37), com a nota impressa (220 kg/m3)",
+    "co2_original_local": "Tabela 1 p.4"
+   }
+  ]
+ },
+ {
+  "row_id": 4766,
+  "autor": "Ma, Lijian and Azari, Rahman and Elnimeiri, Mahjoub",
+  "titulo": "A Building Information Modeling-Based Life Cycle Assessment of the\nEmbodied Carbon and Environmental Impacts of High-Rise Building\nStructures: A Case Study",
+  "pdf": "MA, 2024.pdf",
+  "fileId": "1FPwjZXcJig4LFeZc6rrNo1JhN9mw7Hm2",
+  "resultado_anterior": "lotes_etapas/resultado_lote62.json",
+  "nota_anterior": "Texto completo lido; figuras 5-9 (Tally, por etapa/material) nao renderizadas, sem rotulos por m3 de betao previstos.",
+  "pares": [
+   {
+    "sheet_row": 1758,
+    "material": "Concreto estrutural — Slabs on Grade (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck_mpa": 37.9,
+    "co2_kg_m3": 305.81,
+    "co2_original": "305.81 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5"
+   },
+   {
+    "sheet_row": 1759,
+    "material": "Concreto estrutural — Walls and Footings (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck_mpa": 34.5,
+    "co2_kg_m3": 288.23,
+    "co2_original": "288.23 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5"
+   },
+   {
+    "sheet_row": 1760,
+    "material": "Concreto estrutural — Slabs on Steel Deck (mesh reinforced) (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck_mpa": 34.5,
+    "co2_kg_m3": 353.21,
+    "co2_original": "353.21 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5"
+   },
+   {
+    "sheet_row": 1762,
+    "material": "Concreto estrutural — Columns (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck_mpa": 68.9,
+    "co2_kg_m3": 344.04,
+    "co2_original": "344.04 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5"
+   },
+   {
+    "sheet_row": 1763,
+    "material": "Concreto estrutural — Shear Walls (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck_mpa": 82.7,
+    "co2_kg_m3": 412.84,
+    "co2_original": "412.84 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5"
+   },
+   {
+    "sheet_row": 1764,
+    "material": "Concreto estrutural — Grade Beams (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck_mpa": 55.2,
+    "co2_kg_m3": 318.81,
+    "co2_original": "318.81 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5"
+   },
+   {
+    "sheet_row": 1765,
+    "material": "Concreto estrutural — Pier Caps (edificio alto hibrido aco-concreto, Chicago, 60 andares)",
+    "fck_mpa": 41.4,
+    "co2_kg_m3": 270.64,
+    "co2_original": "270.64 kg CO2eq/m3 (A-D, cradle-to-grave, base GaBi/NRMCA EPD via Tally)",
+    "co2_original_local": "Tabela 1 ('Concrete takeoff for the case study in Revit'), p.5"
+   }
+  ]
+ },
+ {
+  "row_id": 5055,
+  "autor": "Isaia, Gustavo de Aguiar",
+  "titulo": "Concretos com altos teores de filer calcário em misturas binárias e ternárias com cinza volante: resistência à compressão mecânica, microestrutura e sustentabilidade",
+  "pdf": "ISAIA, 2021.pdf",
+  "fileId": "1fO24uzF8q7-inNnwX3dLxdTz6I-7VnWs",
+  "resultado_anterior": "lotes_etapas/resultado_lote65.json",
+  "nota_anterior": "Tese truncada pelo conector (~358k caracteres, ate ~Cap.4.4); PDF 10,6 MB. Cap.4.7 (ACV MCC, fronteira berco ao portao), Tab.6.5 e Anexo A nao lidos. Pares gravados nao tratados.",
+  "pares": [
+   {
+    "sheet_row": 65,
+    "material": "Concreto REF (referencia s/ filler calcario)",
+    "fck_mpa": 118.1,
+    "co2_kg_m3": 597.24,
+    "co2_original": "597.24 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa"
+   },
+   {
+    "sheet_row": 67,
+    "material": "Concreto FC50 (50% filler calcario)",
+    "fck_mpa": 80.1,
+    "co2_kg_m3": 377.41,
+    "co2_original": "377.41 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa"
+   },
+   {
+    "sheet_row": 69,
+    "material": "Concreto FC60 (60% filler calcario)",
+    "fck_mpa": 56.3,
+    "co2_kg_m3": 325.09,
+    "co2_original": "325.09 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa"
+   },
+   {
+    "sheet_row": 71,
+    "material": "Concreto FC60CH10 (60% filler + 10% cal hidratada)",
+    "fck_mpa": 70.2,
+    "co2_kg_m3": 361.27,
+    "co2_original": "361.27 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa"
+   },
+   {
+    "sheet_row": 73,
+    "material": "Concreto FC70CV10 (70% filler + 10% cinza volante)",
+    "fck_mpa": 28,
+    "co2_kg_m3": 212.83,
+    "co2_original": "212.83 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa"
+   },
+   {
+    "sheet_row": 75,
+    "material": "Concreto FC70CV10CH10 (70% filler + 10% CV + 10% CH)",
+    "fck_mpa": 31.3,
+    "co2_kg_m3": 250.3,
+    "co2_original": "250.3 kgCO2eq/m3",
+    "co2_original_local": "[CO2 2026-09-22] Tabela 6.5 - Composicao do indice de impacto ambiental (MCC), linha 8 - Emissao de CO2eq, ISAIA 2021.pdf p.288 impressa"
+   }
+  ]
+ }
+]

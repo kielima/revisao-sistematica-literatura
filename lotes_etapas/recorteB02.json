@@ -1,0 +1,260 @@
+[
+ {
+  "row_id": 3153,
+  "autor": "Kanagaraj, Balamurali and Anand, N. and Jerry, Rohith and Raj, R.\nSamuvel and Lu",
+  "titulo": "Axial compressive behaviour and physical characteristics of high\nstrength self-compacting geopolymer concrete (HSGC) columns exposed to\nelevated temperature",
+  "pdf": "KANAGARAJ, 2023 - j.conbuildmat.2023.132866.pdf",
+  "fileId": "1ljWHDSKpf8JluRlRSvUrdchAjMgcNTl2",
+  "resultado_anterior": "lotes_etapas/resultado_lote43.json",
+  "nota_anterior": "Fig.25 (barras empilhadas Production/Transportation/Construction/End-life) sem rotulos numericos no texto extraido; Transportation = materias-primas (A2) e Construction/End-life nao sao A3/A4 rotulados; total gravado 412/438 (sic t-CO2/m3). Figura nao vista: PDF 30 MB, refazer com recorte pp.16-17.",
+  "pares": [
+   {
+    "sheet_row": 869,
+    "material": "betao geopolimerico auto-compactavel de alta resistencia (HSGC), colunas — FA/FG/FM",
+    "fck_mpa": 57.06,
+    "co2_kg_m3": 412,
+    "co2_original": "412 (CO2-e (t-CO2/m3) [sic])",
+    "co2_original_local": "Fig.25 (total empilhado: Production+Transportation+Construction+End-life)"
+   },
+   {
+    "sheet_row": 1934,
+    "material": "OPC (referencia, Tab.7)",
+    "fck_mpa": 58.7,
+    "co2_kg_m3": 438,
+    "co2_original": "438 (idem)",
+    "co2_original_local": "Fig.25"
+   }
+  ]
+ },
+ {
+  "row_id": 3439,
+  "autor": "Jones, Kathryn E. S. and Li, Mo",
+  "titulo": "Life cycle assessment of ultra-tall wind turbine towers comparing\nconcrete additive manufacturing to conventional manufacturing",
+  "pdf": "JONES, 2023 - j.jclepro.2023.137709.pdf",
+  "fileId": "1lCB4sP2SN9U3a1HY4g2o0gLfI8ZmaNv5",
+  "resultado_anterior": "lotes_etapas/resultado_lote48.json",
+  "nota_anterior": "Fronteira cradle-to-grave da torre; sem valores por etapa A1-A4 por m3 de betao no texto. Fig.7 por ver.",
+  "pares": [
+   {
+    "sheet_row": 1006,
+    "material": "Torre eolica de concreto impresso em 3D (35-MPa, resistencia normal)",
+    "fck_mpa": 35,
+    "co2_kg_m3": 400,
+    "co2_original": "400 (idem)",
+    "co2_original_local": "Fig.7"
+   },
+   {
+    "sheet_row": 1007,
+    "material": "Torre eolica de concreto impresso em 3D (78-MPa, alta resistencia)",
+    "fck_mpa": 78,
+    "co2_kg_m3": 979,
+    "co2_original": "979 (idem)",
+    "co2_original_local": "Fig.7"
+   },
+   {
+    "sheet_row": 1999,
+    "material": "Betao pronto convencional 35 MPa (ready-mix)",
+    "fck_mpa": 35,
+    "co2_kg_m3": 361,
+    "co2_original": "361 (GWP in kg CO2 eq. per m3 of material)",
+    "co2_original_local": "Fig.7"
+   }
+  ]
+ },
+ {
+  "row_id": 3456,
+  "autor": "Driessen, Emiel and Gronlund, Erik",
+  "titulo": "Circular concrete scenarios and their environmental impacts: A life\ncycle assessment modelled after a Swedish city",
+  "pdf": "DRIESSEN, 2024_24144348 - j.jclepro.2024.144348.pdf",
+  "fileId": "1qu7EhmbbaMeXPgKnpSypbJuMmWBv-QGR",
+  "resultado_anterior": "lotes_etapas/resultado_lote48.json",
+  "nota_anterior": "Cradle-to-grave; categorias do artigo nao mapeaveis a A1-A4 sem assumir.",
+  "pares": [
+   {
+    "sheet_row": 1015,
+    "material": "Concreto circular, cenario BAU (business-as-usual, 30 MPa)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 322,
+    "co2_original": "~322 kg CO2 eq (por m3, UF)",
+    "co2_original_local": "Fig.8 p.7 (leitura do eixo 0-350)"
+   },
+   {
+    "sheet_row": 2001,
+    "material": "Betao cenario BP (70% CEM I + 25% SCMs + 5% calcario, 30% RCA) - Ostersund",
+    "fck_mpa": 30,
+    "co2_kg_m3": 248,
+    "co2_original": "~248 kg CO2 eq/m3",
+    "co2_original_local": "Fig.8 p.7; texto p.7 '-23%' face ao BAU"
+   },
+   {
+    "sheet_row": 2002,
+    "material": "Betao cenario CIRC (LC3-50, 100% RCA grosso) - Ostersund",
+    "fck_mpa": 30,
+    "co2_kg_m3": 211,
+    "co2_original": "~211 kg CO2 eq/m3",
+    "co2_original_local": "Fig.8 p.7; texto p.7 '-35%' face ao BAU"
+   }
+  ]
+ },
+ {
+  "row_id": 3497,
+  "autor": "Momotaz, H. and Rahman, M. M. and Karim, M. R. and Zhuge, Y. and Ma, X.\nand Leve",
+  "titulo": "Comparative study on properties of kerb concrete made from recycled\nmaterials and related carbon footprint",
+  "pdf": "MOMOTAZ et al., 2023.pdf",
+  "fileId": "1_z3sVakkZDxarSy_ZMdnTbk1m098_v8u",
+  "resultado_anterior": "lotes_etapas/resultado_lote48.json",
+  "nota_anterior": "Pegada por componentes, sem modulos EN 15804; Fig.19/20 nao renderizadas.",
+  "pares": [
+   {
+    "sheet_row": 425,
+    "material": "concreto de meio-fio (kerb) com agregado natural (NA) e agregado de pneu triturado (TDA) 0-20%, mistura CC-25 (controlo, 100% NA, 0% TDA)",
+    "fck_mpa": 25.93,
+    "co2_kg_m3": 234,
+    "co2_original": "234 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulos numericos impressos sobre os pontos do grafico, confirmado por renderizacao)"
+   },
+   {
+    "sheet_row": 426,
+    "material": "concreto de meio-fio, NA + 5% TDA (CTr-c05-25)",
+    "fck_mpa": 27.85,
+    "co2_kg_m3": 276.1,
+    "co2_original": "238 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)"
+   },
+   {
+    "sheet_row": 427,
+    "material": "concreto de meio-fio, NA + 10% TDA (CTr-c10-25)",
+    "fck_mpa": 25.23,
+    "co2_kg_m3": 317.8,
+    "co2_original": "244 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)"
+   },
+   {
+    "sheet_row": 428,
+    "material": "concreto de meio-fio, NA + 15% TDA (CTr-c15-25)",
+    "fck_mpa": 27.68,
+    "co2_kg_m3": 347.7,
+    "co2_original": "236 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)"
+   },
+   {
+    "sheet_row": 429,
+    "material": "concreto de meio-fio, NA + 20% TDA (CTr-c20-25)",
+    "fck_mpa": 27.33,
+    "co2_kg_m3": 377.5,
+    "co2_original": "228 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)"
+   },
+   {
+    "sheet_row": 430,
+    "material": "concreto de meio-fio, 100% agregado reciclado (RCA), 0% TDA (R100C-25)",
+    "fck_mpa": 26.55,
+    "co2_kg_m3": 222.4,
+    "co2_original": "65.7 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)"
+   },
+   {
+    "sheet_row": 431,
+    "material": "concreto de meio-fio, RCA + 5% TDA (RTr-c05-25)",
+    "fck_mpa": 28.15,
+    "co2_kg_m3": 275.1,
+    "co2_original": "88.3 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)"
+   },
+   {
+    "sheet_row": 432,
+    "material": "concreto de meio-fio, RCA + 10% TDA (RTr-c10-25)",
+    "fck_mpa": 28.51,
+    "co2_kg_m3": 324,
+    "co2_original": "109 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)"
+   },
+   {
+    "sheet_row": 433,
+    "material": "concreto de meio-fio, RCA + 15% TDA (RTr-c15-25)",
+    "fck_mpa": 27.72,
+    "co2_kg_m3": 354.9,
+    "co2_original": "110 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)"
+   },
+   {
+    "sheet_row": 434,
+    "material": "concreto de meio-fio, RCA + 20% TDA (RTr-c20-25)",
+    "fck_mpa": 28.12,
+    "co2_kg_m3": 385.8,
+    "co2_original": "111 kg CO2eq/m3",
+    "co2_original_local": "Fig.20, p.14 (rotulo impresso)"
+   }
+  ]
+ },
+ {
+  "row_id": 3519,
+  "autor": "Hoang Nguyen and Kaas, Alexandra and Kinnunen, Paivo and Carvelli,\nValter and Mo",
+  "titulo": "Fiber reinforced alkali-activated stone wool composites fabricated by\nhot-pressing technique",
+  "pdf": "NGUYEN et al., 2020b - j.matdes.2019.108315.pdf",
+  "fileId": "1AXIdEAogqFbXDPPbQlHJq0l4V9yyPRmr",
+  "resultado_anterior": "lotes_etapas/resultado_lote49.json",
+  "nota_anterior": "Sem etapas EN 15804; so contribuicoes por componente. Fig.14a nao vista como imagem.",
+  "pares": [
+   {
+    "sheet_row": 1036,
+    "material": "Compositos alcali-ativados de la mineral (stone wool) reforcados com fibra PVA — curado em forno (oven-cured, 24h)",
+    "fck_mpa": 38.8,
+    "co2_kg_m3": 353.8,
+    "co2_original": "353.8 kg CO2-eq/m3 material (Fig.14a, rotulo impresso)",
+    "co2_original_local": "Fig.14a, p.12, rotulo impresso no topo da barra 'Oven-cured material' Total = 353.8"
+   },
+   {
+    "sheet_row": 1037,
+    "material": "Compositos alcali-ativados de la mineral (stone wool) reforcados com fibra PVA — prensado a quente (hot-pressed 100 C, 2h)",
+    "fck_mpa": 33.3,
+    "co2_kg_m3": 284.4,
+    "co2_original": "284.4 kg CO2-eq/m3 material (Fig.14a, rotulo impresso)",
+    "co2_original_local": "Fig.14a, p.12, rotulo impresso na barra 'Hot-pressed material', grupo 2h = 284.4"
+   },
+   {
+    "sheet_row": 1038,
+    "material": "Compositos alcali-ativados de la mineral (stone wool) reforcados com fibra PVA — prensado a quente (hot-pressed 100 C, 3h)",
+    "fck_mpa": 38.1,
+    "co2_kg_m3": 288.5,
+    "co2_original": "288.5 kg CO2-eq/m3 material (Fig.14a, rotulo impresso)",
+    "co2_original_local": "Fig.14a, p.12, rotulo impresso na barra 'Hot-pressed material', grupo 3h = 288.5"
+   },
+   {
+    "sheet_row": 2099,
+    "material": "Compositos alcali-ativados de la mineral (stone wool) reforcados com fibra PVA — prensado a quente (hot-pressed 120 C, 2h)",
+    "fck_mpa": 35.5,
+    "co2_kg_m3": 284.4,
+    "co2_original": "284.4 kg CO2-eq/m3 material (Fig.14a, rotulo impresso)",
+    "co2_original_local": "Fig.14a, p.12, rotulo impresso na barra 'Hot-pressed material', grupo 2h = 284.4"
+   },
+   {
+    "sheet_row": 2100,
+    "material": "Compositos alcali-ativados de la mineral (stone wool) reforcados com fibra PVA — prensado a quente (hot-pressed 120 C, 3h)",
+    "fck_mpa": 36.9,
+    "co2_kg_m3": 288.5,
+    "co2_original": "288.5 kg CO2-eq/m3 material (Fig.14a, rotulo impresso)",
+    "co2_original_local": "Fig.14a, p.12, rotulo impresso na barra 'Hot-pressed material', grupo 3h = 288.5"
+   }
+  ]
+ },
+ {
+  "row_id": 3620,
+  "autor": "Lopez-Sosa, Luis Bernardo and Oseguera-Rivera, Andrea Yamileth and\nMorales-Maxim",
+  "titulo": "Multivariate analysis of materials used in rural housing in Mexico\nconsidering sustainability indicators: Towards suitable house\nconstruction",
+  "pdf": "LOPEZ-SOSA et al., 2025.pdf",
+  "fileId": "1waU72blyRuPwiWJETt_TigydTR_Pcg4x",
+  "resultado_anterior": "lotes_etapas/resultado_lote50b.json",
+  "nota_anterior": "Texto lido por extraccao do Drive (131 mil car.) com pesquisa dirigida a etapas/GWP/Tab.1, nao 100%; PDF 23 MB, figuras nao renderizadas. Nenhuma etapa EN15804 publicada nas partes lidas.",
+  "pares": [
+   {
+    "sheet_row": 1067,
+    "material": "cimento/concreto (elemento de parede e cobertura, comparativo multi-material de habitacao rural no Mexico)",
+    "fck_mpa": 24.52,
+    "co2_kg_m3": 168,
+    "co2_original": "16,8 kgCO2/m2",
+    "co2_original_local": "Tabela 1 p.4, Global warming (kgCO2/m2), coluna Cement (ROOF)"
+   }
+  ]
+ }
+]
