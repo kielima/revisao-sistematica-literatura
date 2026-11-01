@@ -1,0 +1,173 @@
+[
+ {
+  "row_id": 4161,
+  "pares": [
+   {
+    "sheet_row": 1212,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 414,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.52, Fig.3 (GWP100a, componentes); p.48, Sec.2 (fronteira); p.49 (LCI do processo de fabrico do betao)",
+    "citacao": "The \"cradle-to-gate\" approach is used in all case studies... extraction of raw materials to the manufacturing of the product.",
+    "nota": "Fronteira cradle-to-gate que inclui o processo de fabrico do betao (central) = equivalente a A1-A3, mas o artigo NAO usa a nomenclatura de modulos EN 15804; a equivalencia A1-A3 e nossa leitura. A Fig.3 decompoe por COMPONENTE (cimento, areia, brita, agua, SP, AEA, processo de fabrico), nao por etapa; sem rotulos numericos; sem transporte do betao. Uso, manutencao e fim de vida excluidos. Valor 414 = o gravado (10,34 kg/UF de 0,025 m3, ja convertido; nao reconfirmado a unidade UF m3/MPa). A1,A2,A3,A4 nao publicados."
+   },
+   {
+    "sheet_row": 1213,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 435,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.52, Fig.3 (GWP100a, componentes)",
+    "citacao": "",
+    "nota": "Idem 1212 (SAP: ~9,56 kg/UF de 0,022 m3 -> 435 gravado). Decomposicao so por componente; SAP contribui 2-4% do GWP (texto p.51). Etapas nao publicadas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Artigo sem nomenclatura A1-A4; so total cradle-to-gate por componente. Nenhuma etapa publicada."
+ },
+ {
+  "row_id": 4185,
+  "pares": [
+   {
+    "sheet_row": 564,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9 (fronteira 'stages A1 to A5'); p.14, Fig.11 (Sankey por processo); p.16, Tab.7",
+    "citacao": "The LCA is conducted in a cradle-to-gate process. According to EN 15804, the stages accounted for are A1 to A5.",
+    "nota": "Artigo declara etapas A1-A5 mas NAO apresenta valores por etapa: a Fig.11 e Sankey por processo/material (3D concrete 59,6%, cimento 56,9%, transporte por camiao 19,2 tkm = 8,94% do total da fachada, etc.), e a Tab.7 so da o total por m2 (116,56 kg CO2-eq/m2). O transporte (8,94% da fachada inteira) nao e rotulado A2/A4 nem e so do betao -> nao atribuido. Valor gravado 463,1 = 116,56 x 59,6% / 0,15 m (derivado anterior); mistura processos de varias etapas. Contradicao fronteira: texto diz 'cradle-to-gate' e 'A1 a A5'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem valores por etapa; A1-A5 so declarado."
+ },
+ {
+  "row_id": 4201,
+  "pares": [
+   {
+    "sheet_row": 1221,
+    "co2_a1": 761,
+    "co2_a2": 25,
+    "co2_a3": 5,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado (A1) + lido_figura (A2, A3)",
+    "soma_confere": "nao",
+    "local": "p.6 Sec.3.2.1 (761); p.7, Fig.3A (barras A1/A2/A3 sem rotulos); Tab.2 (FU 1,00 m3-eq)",
+    "citacao": "The climate footprint of the PC-ref. material production amounts to 761 kg CO2-eq./m3",
+    "nota": "A1 = 761 publicado no texto (material production, A1 na Fig.3). A2 e A3 lidos por pixel da Fig.3A (render 400 dpi; eixo 0-900; ~0,78 px/unidade): topo A1 ~760, A2 ~785, A3 ~791 -> A2 ~25 e A3 ~5, incerteza +-5 kg (A3 e uma fatia de poucos pixeis). A4 = 0: artigo diz que A4-A5 foram negligenciados (fronteira A1-A3). Soma A1+A2+A3 ~791 vs gravado 761: diferenca ~3,9% porque o valor gravado so inclui A1. O artigo chama A1 a 'material production' e diz que inclui A1-A3 dos materiais (ecoinvent); apesar de a etapa ser rotulada A1/A2/A3 na figura."
+   },
+   {
+    "sheet_row": 1222,
+    "co2_a1": 545.6,
+    "co2_a2": 39.6,
+    "co2_a3": 3.3,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado + lido_figura",
+    "soma_confere": "nao",
+    "local": "p.6 Sec.3.2.1 (496 kg/m3-eq); Tab.2 (FU 1,10); p.7 Fig.3A",
+    "citacao": "Material production for AAM concretes amounts to 383 CO2-eq./m3-eq (M3) up to 496 CO2-eq./m3-eq (M2).",
+    "nota": "Valores por m3-eq convertidos a kg/m3 com FU=1,10 (mesma regra do gravado 496x1,10=545,6). A1 = 496x1,10 (derivado; texto). A2 ~36/m3-eq e A3 ~3/m3-eq lidos por pixel da Fig.3A (+-5 / +-3), x1,10 = 39,6 e 3,3. A4=0 (A4-A5 negligenciados). Soma ~588 vs gravado 545,6: +7,9% (gravado so A1). Em m3-eq: A1 496, A2 ~36, A3 ~3."
+   },
+   {
+    "sheet_row": 1223,
+    "co2_a1": 459.6,
+    "co2_a2": 42,
+    "co2_a3": 2.4,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado + lido_figura",
+    "soma_confere": "nao",
+    "local": "p.6 Sec.3.2.1 (383 kg/m3-eq); Tab.2 (FU 1,20); p.7 Fig.3A",
+    "citacao": "...383 CO2-eq./m3-eq (M3)",
+    "nota": "A1 = 383x1,20 = 459,6 (derivado). A2 ~35/m3-eq e A3 ~2/m3-eq por pixel (+-5 / +-3), x1,20 = 42 e 2,4. A4=0 (negligenciado). Soma ~504 vs gravado 459,6: +9,7% (gravado so A1). Em m3-eq: A1 383, A2 ~35, A3 ~2."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "A2/A3 lidos de figura sem rotulos (A3 muito incerto). Gravado = so A1 nos 3 pares. M1/M4 nao estao no lote."
+ },
+ {
+  "row_id": 4207,
+  "pares": [
+   {
+    "sheet_row": 1225,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 6.48,
+    "co2_a1a3_agregado": 238,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.7, Tab.3 (A1-A3 5.480; A4 149; total 5.629 kg CO2e para 23 m3); p.7 Sec.4.1.1 (238 kg CO2e/m3); p.6 Tab.2 (244,75)",
+    "citacao": "The A1-A3 emissions for 1 m3 of this concrete are 238 kg CO2 e/m3.",
+    "nota": "A1-A3 = 238 publicado no texto (Tab.3: 5.480/23 = 238,3). A4 = 149/23 = 6,48 kg/m3 derivado (Tab.3, coluna 'Carbon footprint (A4)'; A4 = transporte dos produtos acabados ate a obra, Sec.1/Fig.2). A1, A2, A3 separados nao publicados. Soma 238+6,48 = 244,5 vs gravado 244,75 (Tab.2 A1-A4): confere. Concreto de fundacao reforcado com aco no titulo do par, mas o valor e o do betao 20 MPa (sem aco)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tab.3 renderizada e confirmada."
+ },
+ {
+  "row_id": 4232,
+  "pares": [
+   {
+    "sheet_row": 1229,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9 Sec.3 (GWP padrao 3,58x10^2 kg CO2eq/m3); Tab. de LCI (fronteira 'Cradle to Gate' por material)",
+    "citacao": "The GWP, AP, and EP of the standard mixture were evaluated to be 3.58 x 10^2 kg-CO2eq/m3",
+    "nota": "Total cradle-to-gate da mistura padrao (358); o artigo so cita fronteira 'Cradle to Gate' por material (KICT LCI DB), sem nomenclatura de modulos, sem separar transporte (A2/A4) nem fabrico/mistura do betao (A3). Nao ha tabela/figura por etapa. Nao atribuido a A1 (regra 2). Outras misturas (F-R30 315, F-S30 347, F-B30 386, F-W30 324, C-R30 298, C-B30 334) so total."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido via conector; PDF nao descarregado/renderizado (sem figuras por etapa no texto; apenas tabelas de totais por categoria). Nenhuma etapa publicada."
+ },
+ {
+  "row_id": 4251,
+  "pares": [
+   {
+    "sheet_row": 1238,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5-6 Sec.2.4.1 (cradle-to-gate, Fig.3 fronteira); p.8-9 Fig.5, Fig.6; Tab.S6 (suplemento, nao lido)",
+    "citacao": "The considered system boundary corresponds to a cradle-to-gate scenario.",
+    "nota": "Fronteira cradle-to-gate incluindo transporte dos ingredientes e producao do betao, mas sem valores por etapa: Fig.5 so por ingrediente (% do betao tradicional), Fig.6 total GWP por m3 sem rotulos. Sem nomenclatura A1-A3. valor_gravado_nao_localizado: o texto nao imprime 320 nem 334,1 (Fig.6 e Tab.S6 do suplemento nao verificaveis); nota: o GWP inclui credito de carbono biogenico (resultado liquido) - cenario bruto nao publicado no texto. Tipo de cenario: com desconto biogenico."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Ficheiro 10,4 MB: download_file_content fez cair a ligacao; texto completo lido por read_file_content, figuras NAO vistas (Fig.3, 5, 6, 7 por rever; improvavel trazer etapas)."
+ }
+]

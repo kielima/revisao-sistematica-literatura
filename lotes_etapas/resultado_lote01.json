@@ -1,0 +1,212 @@
+[
+ {
+  "row_id": 2582,
+  "pares": [
+   {
+    "sheet_row": 3,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.24 p.69 (sem rotulos); Tab.5 p.67",
+    "citacao": "",
+    "nota": "Traco B-30. Valor por m3 gravado = valor por MPa x massa especifica fresca (Tab.4); etapas nao publicadas."
+   },
+   {
+    "sheet_row": 80,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.24 p.69 (sem rotulos); Tab.5 p.67",
+    "citacao": "",
+    "nota": "Traco C. Valor por m3 gravado = valor por MPa x massa especifica fresca (Tab.4); etapas nao publicadas."
+   },
+   {
+    "sheet_row": 81,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.24 p.69 (sem rotulos); Tab.5 p.67",
+    "citacao": "",
+    "nota": "Traco B-15. Valor por m3 gravado = valor por MPa x massa especifica fresca (Tab.4); etapas nao publicadas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.24 (p.69 do impresso) mostra a contribuicao por processo (cimento ARI, areia, CBC, producao argamassas, transporte cimento/areia/CBC) em kg CO2-eq/(m3.MPa), sem rotulos numericos; unidade por MPa, segmentos pequenos. Nao atribuido a A1-A4 (regras 2/3/9). Total por MPa so em Tab.5 p.67. Texto lido pelo conector e PDF baixado; paginas da Fig.24 e Tab.5 vistas."
+ },
+ {
+  "row_id": 2599,
+  "pares": [
+   {
+    "sheet_row": 613,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.6 Tab.2; Fig.3 p.5 (entradas SimaPro); Fig.4/5 sem etapas",
+    "citacao": "",
+    "nota": "Fronteira cradle-to-gate; transporte de materiais (PC a 160 km, MKW a 180 km) e mistura incluidos no total 684,6 (Tab.2) mas sem decomposicao por etapa. Nada atribuivel a A1-A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Texto completo lido (conector). PDF 14,3 MB: Drive nao serve por download (>10 MB); figuras (Fig.3 entradas SimaPro, Fig.4/5) nao vistas. O texto nao da decomposicao por etapa; refazer com recorte so para confirmar que a Fig.3 nao traz CO2 por processo."
+ },
+ {
+  "row_id": 2608,
+  "pares": [
+   {
+    "sheet_row": 139,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.16a p.18 (radar)",
+    "citacao": "",
+    "nota": "Radar normalizado, so total de climate change; cradle-to-gate, transporte de RS e NS fixado em 200 km igual, sem separar A2. Sem etapas."
+   },
+   {
+    "sheet_row": 140,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.16a p.18 (radar)",
+    "citacao": "",
+    "nota": "Idem; so total, sem etapas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Texto completo lido (conector, 66.953 car.). download_file_content do PDF (8,9 MB) derrubou a ligacao do conector: figura radar (Fig.16) nao vista. Texto nao da CO2 por etapa; refazer com recorte (pp.17-18) para confirmar."
+ },
+ {
+  "row_id": 2641,
+  "pares": [
+   {
+    "sheet_row": 629,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 107.9,
+    "co2_a1a3_agregado": 417.1,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "Tab.5 (Totals) p.7; Sec.4.2 (253 m3)",
+    "citacao": "A1-3 105528; Max. A4 27297; A5 0; total 132825",
+    "nota": "A1-A3 = 105.528/253 = 417,1; A4 = 27.297/253 = 107,9 (coluna 'Transport Max. A4', transporte dos produtos, dado Boverket 0,045 kg/kg); A5 = 0. 417,1+107,9 = 525,0 vs 525 gravado: sim. A1-A3 so agregado. Inclui armadura. Carbonatacao B1 (-4973 kg) nao descontada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido; valores da Tab.5 (tabela de texto). Figuras nao renderizadas (nao necessarias)."
+ },
+ {
+  "row_id": 2650,
+  "pares": [
+   {
+    "sheet_row": 630,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 108.0,
+    "co2_a1a3_agregado": 417.8,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "Tab.6 (Totals) p.16; Tab.2 (734,06 m3; A5=0)",
+    "citacao": "A4 covers only the transport of products to the construction site ... zero value for the A5 stage",
+    "nota": "A1-A3 = 306.679,4/734,06 = 417,8; coluna publicada 'A4-5' = 79.278,5; como A5 = 0 (Tab.2 e texto), A4 = 79.278,5/734,06 = 108,0. Soma 525,8 = gravado: sim. A1-A3 so agregado. Inclui armadura; carbonatacao nao descontada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido (122.619 car.). Valores de tabelas; PDF 9,4 MB nao baixado, figuras nao vistas (nao necessarias para estas tabelas)."
+ },
+ {
+  "row_id": 2658,
+  "pares": [
+   {
+    "sheet_row": 631,
+    "co2_a1": 335.5,
+    "co2_a2": 3.6,
+    "co2_a3": 24.2,
+    "co2_a4": 11.9,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "Tab.7/8 p.10-12 (medias Monte Carlo, kg CO2/L); Fig.2 p.9; Sec.3.3.1-3.3.5",
+    "citacao": "",
+    "nota": "REF1, cenario A (50 km): derivado de kg CO2/L x1000. A1 = cimento 0.33213+areia 0.00333 (Sec.3.3.1); A2 = transporte de cimento 0.00357 (areia 0 km, Tab.1); A3 = embalagem+electricidade media tensao+correia+maquina (Sec.3.3.3) = 0.02424; A4 = 'Transport to construction site' 0.01192. Fora das colunas: A5 electricidade rede (mistura, Sec.3.3.5) 42.8 e agua 0.1. A1+A2+A3+A4=375.2 difere do gravado 420 (-10%) porque o total do artigo (0,42 kg/L, Fig.2) inclui A5; com A5 e agua soma 418.1 (~0,5%). Tabelas 7/8 sao medias de simulacao MC, mas conferem com a Fig.2 para as referencias."
+   },
+   {
+    "sheet_row": 632,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.2a p.9; Tab.7 p.10",
+    "citacao": "",
+    "nota": "DELTA: Tab.7 da 'Transport of DELTA waste' 0,05035 kg/L mas Fig.2a mostra ~0,005 e a conta kg x km da ~0,006: contradicao tabela/figura; total das tabelas (0,351) nao bate com a Fig.2a (~0,31). Etapas nao derivadas. valor_gravado_nao_localizado: gravado 418 vs 0,31 kg/L (=310 kg/m3) no artigo."
+   },
+   {
+    "sheet_row": 633,
+    "co2_a1": 335.5,
+    "co2_a2": 3.6,
+    "co2_a3": 24.3,
+    "co2_a4": 11.9,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "Tab.7/8 p.10-12 (medias Monte Carlo, kg CO2/L); Fig.2 p.9; Sec.3.3.1-3.3.5",
+    "citacao": "",
+    "nota": "REF2, cenario A (50 km): derivado de kg CO2/L x1000. A1 = cimento 0.332134+areia 0.003334 (Sec.3.3.1); A2 = transporte de cimento 0.003571 (areia 0 km, Tab.1); A3 = embalagem+electricidade media tensao+correia+maquina (Sec.3.3.3) = 0.02425; A4 = 'Transport to construction site' 0.011923. Fora das colunas: A5 electricidade rede (mistura, Sec.3.3.5) 42.8 e agua 0.1. A1+A2+A3+A4=375.2 difere do gravado 420 (-10%) porque o total do artigo (0,42 kg/L, Fig.2) inclui A5; com A5 e agua soma 418.1 (~0,5%). Tabelas 7/8 sao medias de simulacao MC, mas conferem com a Fig.2 para as referencias."
+   },
+   {
+    "sheet_row": 634,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.2b p.9; Tab.8 p.12",
+    "citacao": "",
+    "nota": "HP: Tab.8 da 'Transport of HP waste' 0,018666 mas Fig.2b mostra ~0,005 (0,3 kg x 150 km ~ 0,006); soma das tabelas 0,395 vs 0,385 da Fig.2b. Etapas nao derivadas. valor_gravado_nao_localizado: gravado 420,2 vs 0,385 kg/L = 385 kg/m3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Declarado em L (x1000 = m3). Fronteira A1-A5 (inclui A5 mistura; beneficios de nao-deposicao em aterro, negativos, fora de A1-A4). Cenario A (50 km) e o do total gravado; cenario B (500 km) nao gravado. REF1/REF2 derivados; DELTA/HP nao, por contradicao tabela/figura. PDF baixado e Fig.2 vista."
+ }
+]

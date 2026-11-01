@@ -1,0 +1,264 @@
+[
+ {
+  "row_id": 4364,
+  "pares": [
+   {
+    "sheet_row": 1320,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 243.5,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.13, Tab.8 e Fig.16",
+    "citacao": "cradle to gate ... extraction phase, transport, drying, crushing, grinding ... and concrete production",
+    "nota": "Tab.8 so da CO2 por material (FA 1.894; OPC 36.39; NaOH 27.45; Na2SiO3 164.7; agua 0.026; areia 3.22; brita 9.79; soma 243.47). Fronteira cradle-to-gate declarada com transporte incluido sem separar; A1/A2/A3 nao publicados. A4 nao mencionado (nao dito como excluido)."
+   },
+   {
+    "sheet_row": 1322,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 377.8,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.13, Tab.8 e Fig.16",
+    "citacao": "cradle to gate",
+    "nota": "Tab.8: OPC 363.9; agua 0.110; areia 3.09; brita 9.37; soma 376.5 vs 377.8 impresso (diferenca 0.3%, arredondamento/ordem de grandeza). Etapas nao separadas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem valores por etapa; so total cradle-to-gate. Figuras 14-17 nao renderizadas (Fig.16 repete 243.5/377.8 no texto; Fig.17 so contribuicao % do silicato)."
+ },
+ {
+  "row_id": 4365,
+  "pares": [
+   {
+    "sheet_row": 1323,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 239,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.11 Sec.2.5.2; p.21 Tab.12 e Tab.13",
+    "citacao": "cradle-to-gate ... extraction of raw materials ... transportation of materials to the concrete plant and their mixing",
+    "nota": "GWP100 CC-Ref-R0 = 2.39e2 nos dois cenarios (Tab.12/13). Cenarios 1 e 2 diferem so no transporte do agregado reciclado, nao afecta a referencia. Sem decomposicao A1/A2/A3 publicada; A2 esta incluido no agregado. Transporte do betao a obra (A4) fora da fronteira (nao tem rotulo A4; fronteira so ate ao portao)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.16 (GWP brita vs RCA, transporte) nao e por etapa do betao. Ficheiro de 16 MB lido via read_file_content sem falhas."
+ },
+ {
+  "row_id": 4381,
+  "pares": [
+   {
+    "sheet_row": 1328,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.8 Tab.4; p.9 Tab.6; p.10 Sec.6.1",
+    "citacao": "C30 concrete 2.34 m3 321.3 kg CO2eq/m3 751.84",
+    "nota": "321.3 e coeficiente de emissao (base LCA China) do betao C30, sem decomposicao A1-A3 publicada; nao atribuido a A1 (regra 2). Transporte da viga: 186.05 kg para 15 vigas/100 km (camiao diesel 8 t) e da viga completa (betao+aco), nao por m3 de betao: nao convertido (regra 9/7). Instalacao 283.71 kg = grua, A5. Producao 1975.19 kg inclui aco, combustivel e electricidade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Estudo de viga pre-fabricada com etapas producao/transporte/instalacao totais por elemento; sem CO2 do betao por etapa. Conclusao imprime '1044.85 g por m3' (provavel erro de unidade, nao usado)."
+ },
+ {
+  "row_id": 4416,
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   },
+   {
+    "sheet_row": 1337,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   },
+   {
+    "sheet_row": 1338,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   },
+   {
+    "sheet_row": 1339,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   },
+   {
+    "sheet_row": 1340,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   },
+   {
+    "sheet_row": 1341,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   },
+   {
+    "sheet_row": 1342,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   },
+   {
+    "sheet_row": 1343,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   },
+   {
+    "sheet_row": 1344,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   },
+   {
+    "sheet_row": 1345,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Texto do PDF nao extraivel (read_file_content devolveu vazio; ficheiro precisa de OCR/recorte). Nao verificado. Pelos dados do par, valor e media de caixa de EPDs (Fig.5), fronteira A1-A3 agregada; sem etapas separadas esperadas."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "read_file_content devolveu conteudo vazio (PDF cifrado/imagem; ja OCR-izado na conferencia de 2026-08-31). Refazer com recorte/OCR."
+ },
+ {
+  "row_id": 4418,
+  "pares": [
+   {
+    "sheet_row": 570,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 295,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.8, Tab.2 (e Sec.3.1.2, ~p.7-8)",
+    "citacao": "M (materials) corresponds to life cycle modules A1-A3 and B4",
+    "nota": "295 kgCO2eq/m3 e factor de C30 betao armado de norma chinesa (ref.[52]), usado para A1-A3; sem etapas separadas. A4-A5 explicitamente excluidos do estudo (A4 nao reportado, mantido em branco porque o factor nao e do artigo para A4). Edificio de estacao ferroviaria."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Resultados do artigo sao em kgCO2eq/m2.a por modulo A1-A3, B4, B6 para o edificio inteiro, nao por m3 de betao."
+ },
+ {
+  "row_id": 4441,
+  "pares": [
+   {
+    "sheet_row": 1362,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 659,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.8-9 Sec.2.3.1 e Sec.3.1, Fig.2",
+    "citacao": "raw material supply (A1), transportation (A2), manufacturing (A3) ... The transportation stage (A4) and the construction stage (A5) were not included",
+    "nota": "A4 excluida (0 por declaracao do artigo). 659 = total A1-A3 (Athena IE4B) para w/c 0.25, porosidade 15%, agregado 9.54 mm (confirmar tamanho pelo par); A1, A2, A3 nao separados. B1 (recuperavel por carbonatacao) nao incluido. Mistura teorica da Tab.1 com cimento 572 kg/m3 (9.54 mm)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.2 so tem totais A1-A3 por mistura. Nao tem etapas."
+ }
+]

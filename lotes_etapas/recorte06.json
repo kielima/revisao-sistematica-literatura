@@ -1,0 +1,252 @@
+[
+ {
+  "row_id": 3802,
+  "autor": "Dehghani, Omid and Eslami, Abolfazl and Mahdavipour, Mohammad Ali and\nMostofinej",
+  "titulo": "Ceramic waste powder as a cement replacement in concrete paving blocks:\nmechanical properties and environmental assessment",
+  "pdf": "DEHGHANI et al., 2024.pdf",
+  "fileId": "1liPvoudLPwDkhXXn7x7U_hv-4ME6p2Ag",
+  "resultado_anterior": "lotes_etapas/resultado_lote19.json",
+  "nota_anterior": "Tabelas 5 e 6 lidas no texto (valores por etapa por m2, convertidos por 0,06 m3/m2). download_file_content derrubou a ligacao do Drive, figuras (Fig.10-11, fronteira) nao vistas; dados ja completos nas tabelas.",
+  "pares": [
+   {
+    "sheet_row": 1096,
+    "material": "Blocos de pavimento prensados (CPB), mistura de referencia W22-R (0% CWP, w/c=0.22)",
+    "fck_mpa": 51.2,
+    "co2_kg_m3": 471.62,
+    "co2_original": "28,2969 kg CO2 eq/m2 de pavimento CPB (FU = 1 m2, 25 blocos; W22-R)",
+    "co2_original_local": "Tabela 5, p.22 (cenario 1), coluna Total, Climate change EN15804+A2"
+   },
+   {
+    "sheet_row": 1097,
+    "material": "Blocos de pavimento prensados (CPB), W22-T20 (20% CWP substituindo cimento, w/c=0.22)",
+    "fck_mpa": 65.7,
+    "co2_kg_m3": 380.62,
+    "co2_original": "22,8042 kg CO2 eq/m2 de pavimento CPB (FU = 1 m2, 25 blocos; W22-T20)",
+    "co2_original_local": "Tabela 6, p.23 (cenario 2), coluna Total, Climate change EN15804+A2"
+   }
+  ]
+ },
+ {
+  "row_id": 4251,
+  "autor": "Bertoldo, Nicolas and Qureshi, Tanvir and Simpkins, Dylan and Arrigoni,\nAlessand",
+  "titulo": "Concrete with Organic Waste Materials as Aggregate Replacement",
+  "pdf": "BERTOLDO et al., 2024.pdf",
+  "fileId": "1_BD22iRwNHt02_IY2Uh-aB4uTlb8AXyE",
+  "resultado_anterior": "lotes_etapas/resultado_lote24.json",
+  "nota_anterior": "Ficheiro 10,4 MB: download_file_content fez cair a ligacao; texto completo lido por read_file_content, figuras NAO vistas (Fig.3, 5, 6, 7 por rever; improvavel trazer etapas).",
+  "pares": [
+   {
+    "sheet_row": 1238,
+    "material": "Concreto com cinza de casca de arroz (rice husk ash, RHA) 10% substituicao de agregado fino",
+    "fck_mpa": 20.7,
+    "co2_kg_m3": 334.1,
+    "co2_original": "320 kg CO2eq/m3 (DU=1m3, EF v3.1 EN15804, categoria climate change)",
+    "co2_original_local": "Fig.6, p.9 — leitura herdada da avaliacao E2 2026-08-25 LOTE_73 (renderizada), nao re-confirmada por render de imagem nesta sessao"
+   }
+  ]
+ },
+ {
+  "row_id": 4416,
+  "autor": "Asdrubali, Francesco and Grazieschi, Gianluca and Gandola, Dante Maria",
+  "titulo": "The Role of Environmental Product Declarations in the Decarbonization of\nBuilding Materials and Components",
+  "pdf": "ASDRUBALI, 2025.pdf",
+  "fileId": "1vVrMj1N3EuAoB4gbN2JrhHLvSXJfpFVn",
+  "resultado_anterior": "lotes_etapas/resultado_lote26.json",
+  "nota_anterior": "read_file_content devolveu conteudo vazio (PDF cifrado/imagem; ja OCR-izado na conferencia de 2026-08-31). Refazer com recorte/OCR.",
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 20 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 20,
+    "co2_kg_m3": 185,
+    "co2_original": "185.0 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   },
+   {
+    "sheet_row": 1337,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 25 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 205.9,
+    "co2_original": "205.9 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   },
+   {
+    "sheet_row": 1338,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 30 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 204.5,
+    "co2_original": "204.5 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   },
+   {
+    "sheet_row": 1339,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 37 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 37,
+    "co2_kg_m3": 237,
+    "co2_original": "237.0 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   },
+   {
+    "sheet_row": 1340,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 40 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 319.6,
+    "co2_original": "319.6 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   },
+   {
+    "sheet_row": 1341,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 45 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 45,
+    "co2_kg_m3": 326.1,
+    "co2_original": "326.1 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   },
+   {
+    "sheet_row": 1342,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 50 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 50,
+    "co2_kg_m3": 356.4,
+    "co2_original": "356.4 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   },
+   {
+    "sheet_row": 1343,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 55 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 55,
+    "co2_kg_m3": 385.4,
+    "co2_original": "385.4 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   },
+   {
+    "sheet_row": 1344,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 60 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 60,
+    "co2_kg_m3": 265.6,
+    "co2_original": "265.6 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   },
+   {
+    "sheet_row": 1345,
+    "material": "concreto pronto (ready-mixed concrete), classe cubica de resistencia 75 MPa (compilacao de 79 EPDs europeias, Eurocode 2)",
+    "fck_mpa": 75,
+    "co2_kg_m3": 292.6,
+    "co2_original": "292.6 kg CO2-eq/m3 (media da caixa, Fig.5 p.16)",
+    "co2_original_local": "Figura 5, p.16 'Box plot of fossil GWP for ready-mixed concretes against their cubic compression resistance' - eixo Y 'GWP [kgCO2/m3]', eixo X 'MPa'."
+   }
+  ]
+ },
+ {
+  "row_id": 4493,
+  "autor": "Mostert, Clemens and Bock, Jannik and Sameer, Husam and Bringezu, Stefan",
+  "titulo": "Environmental Assessment of Carbon Concrete Based on Life-Cycle Wide\nClimate, Material, Energy and Water Footprints",
+  "pdf": "MOSTERT, 2022.pdf",
+  "fileId": "1VRjghfFgUVHHXHXF-VnhpMoA9aYMXHo7",
+  "resultado_anterior": "lotes_etapas/resultado_lote28.json",
+  "nota_anterior": "Reler Fig.2 (p.8) para ver se tem rotulos % por fase (A1-A3, A4-A5, B, C) do CC e do SC; se sim, derivar A1-A3 agregado = % x total (so_agregado+derivado).",
+  "pares": [
+   {
+    "sheet_row": 1452,
+    "material": "Carbon concrete (CC) - concreto fino de alta resistencia C70/85 com reforco de fibra de carbono (27.01 kg/m3)",
+    "fck_mpa": 70,
+    "co2_kg_m3": 1390,
+    "co2_original": "1390 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 2 (p.7): Climate Footprint (GWI, indicador GWP100/IPCC AR5), linha 'carbon concrete' = 1390 kg CO2-eq/m3 (ciclo de vida completo A1-C3); confirmado no texto: 'The climate footprint of CC amounts to 1390 kg CO2-eq. per m3'"
+   },
+   {
+    "sheet_row": 1453,
+    "material": "Steel-reinforced concrete (SC) - concreto C35/45 com reforco de aco (69.16 kg/m3)",
+    "fck_mpa": 35,
+    "co2_kg_m3": 611,
+    "co2_original": "611 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 2 (p.7): Climate Footprint (GWI), linha 'steel-reinforced concrete' = 611 kg CO2-eq/m3 (ciclo de vida completo A1-C3)"
+   }
+  ]
+ },
+ {
+  "row_id": 4505,
+  "autor": "Los Santos-Ortega, Jorge and Fraile-Garcia, Esteban and\nFerreiro-Cabello, Javier",
+  "titulo": "Mechanical and Environmental Assessment of Lathe Waste as an Addiction\nto Concrete Compared to the Use of Commercial Fibres",
+  "pdf": "LOS SANTOS-ORTEGA et al., 2023 - ma16175740.pdf",
+  "fileId": "1qwZv-KgbcM6WtjZGamHtS5Jl37GQD5F1",
+  "resultado_anterior": "lotes_etapas/resultado_lote28.json",
+  "nota_anterior": "Texto cita contribuicao por componente (cimento etc.) em Fig.8 so para lathe waste; nao ha etapas EN 15804. Fig.7/8 nao renderizadas.",
+  "pares": [
+   {
+    "sheet_row": 1473,
+    "material": "Concreto referencia (CR) sem fibras - CEM II 42.5 (w/c=0.55)",
+    "fck_mpa": 35.51,
+    "co2_kg_m3": 239.5,
+    "co2_original": "~239.5 kg CO2 eq/m3 (derivado)",
+    "co2_original_local": "Fig.7 p.16 + texto p.16-17 (38 kg = 14,39%)"
+   },
+   {
+    "sheet_row": 1474,
+    "material": "Concreto com fibra aco (CFS) dosagem minima - CEM II 42.5 (w/c=0.55)",
+    "fck_mpa": 33.85,
+    "co2_kg_m3": 252.2,
+    "co2_original": "~252.2 kg CO2 eq/m3 (derivado)",
+    "co2_original_local": "Fig.7 p.16 + texto p.16-17 (38 kg = 14,39%)"
+   },
+   {
+    "sheet_row": 1475,
+    "material": "Concreto com fibra residuo tornejo/lathe (CFLW) dosagem minima - CEM II 42.5",
+    "fck_mpa": 28.26,
+    "co2_kg_m3": 240,
+    "co2_original": "~225.8 kg CO2 eq/m3 (derivado)",
+    "co2_original_local": "Fig.7 p.16 + texto p.16-17 (38 kg = 14,39%)"
+   },
+   {
+    "sheet_row": 2068,
+    "material": "CFG12_MIN - fibra de vidro 12 mm 2,83 kg/m3",
+    "fck_mpa": 32.46,
+    "co2_kg_m3": 264.1,
+    "co2_original": "~264.1 kg CO2 eq/m3 (derivado)",
+    "co2_original_local": "Fig.7 p.16 + texto p.16-17 (38 kg = 14,39%)"
+   },
+   {
+    "sheet_row": 2069,
+    "material": "CFG36_MIN - fibra de vidro 36 mm 2,83 kg/m3",
+    "fck_mpa": 29.12,
+    "co2_kg_m3": 264.1,
+    "co2_original": "~264.1 kg CO2 eq/m3 (derivado)",
+    "co2_original_local": "Fig.7 p.16 + texto p.16-17 (38 kg = 14,39%)"
+   },
+   {
+    "sheet_row": 2070,
+    "material": "CFP_MIN - fibra de poliolefina 2,78 kg/m3",
+    "fck_mpa": 24.13,
+    "co2_kg_m3": 245.9,
+    "co2_original": "~245.9 kg CO2 eq/m3 (derivado)",
+    "co2_original_local": "Fig.7 p.16 + texto p.16-17 (38 kg = 14,39%)"
+   }
+  ]
+ },
+ {
+  "row_id": 4511,
+  "autor": "Los Santos-Ortega, Jorge and Fraile-Garcia, Esteban and\nFerreiro-Cabello, Javier",
+  "titulo": "Environmental and Economic Viability of Using Concrete Block Wastes from\na Concrete Production Plant as Recycled Coarse Aggregates",
+  "pdf": "LOS SANTOS-ORTEGA et al., 2024.pdf",
+  "fileId": "1qQEwOegl0WahkmU5NaGnlCVo6KFMKgVB",
+  "resultado_anterior": "lotes_etapas/resultado_lote28.json",
+  "nota_anterior": "Reler Fig.6 (p.14): se tiver rotulos numericos por componente, A1(+A2) poderia ser derivado; hoje nao publicado.",
+  "pares": [
+   {
+    "sheet_row": 1478,
+    "material": "Concreto H-0 (referencia, 0% substituicao de agregado natural por RCA-CBW)",
+    "fck_mpa": 39.54,
+    "co2_kg_m3": 300.41,
+    "co2_original": "300.41 kg CO2/m3",
+    "co2_original_local": "p.14, texto (secao 4.1, discussao GWP): 'for every 1 m3 of H-0 concrete produced, of the 300.41 kg of total CO2 emitted, 274.67 kg of CO2 is contributed by the cement'"
+   },
+   {
+    "sheet_row": 1479,
+    "material": "Concreto H-50 (50% substituicao de agregado natural grosso por RCA-CBW)",
+    "fck_mpa": 31.21,
+    "co2_kg_m3": 296.99,
+    "co2_original": "H-0 = 300,41 kg CO2/m3 e reducao liquida de 3,42 kg CO2/m3 do H-50 face ao H-0 (sem valor absoluto proprio para H-50)",
+    "co2_original_local": "p.13, texto secao 4.1"
+   }
+  ]
+ }
+]

@@ -1,0 +1,188 @@
+[
+ {
+  "row_id": 2599,
+  "autor": "Bumanis, Girts and Korjakins, Aleksandrs and Bajare, Diana",
+  "titulo": "Environmental Benefit of Alternative Binders in Construction Industry:\nLife Cycle Assessment",
+  "pdf": "BUMANIS et al., 2022 - environments9010006.pdf",
+  "fileId": "1KapzmD-P4OINktbCfsJmKoSBngA_cZX2",
+  "resultado_anterior": "lotes_etapas/resultado_lote01.json",
+  "nota_anterior": "Texto completo lido (conector). PDF 14,3 MB: Drive nao serve por download (>10 MB); figuras (Fig.3 entradas SimaPro, Fig.4/5) nao vistas. O texto nao da decomposicao por etapa; refazer com recorte so para confirmar que a Fig.3 nao traz CO2 por processo.",
+  "pares": [
+   {
+    "sheet_row": 613,
+    "material": "argamassa 100% cimento Portland (controle)",
+    "fck_mpa": 80,
+    "co2_kg_m3": 685.7,
+    "co2_original": "684,6 kg CO2 por 1 m3 de argamassa",
+    "co2_original_local": "Tab.2 p.6"
+   }
+  ]
+ },
+ {
+  "row_id": 2608,
+  "autor": "Choi, Donguk and Hong, Kyungchan and Ochirbud, Munkhtuvshin and\nMeiramov, Didar ",
+  "titulo": "Mechanical Properties of Ultra-High Performance Concrete (UHPC) and\nUltra-High Performance Fiber-Reinforced Concrete (UHPFRC) with Recycled\nSand",
+  "pdf": "CHOI et al., 2023.pdf",
+  "fileId": "1oTfTZNxOA1V-9We0N-s2GrTSciIZmfa4",
+  "resultado_anterior": "lotes_etapas/resultado_lote01.json",
+  "nota_anterior": "Texto completo lido (conector, 66.953 car.). download_file_content do PDF (8,9 MB) derrubou a ligacao do conector: figura radar (Fig.16) nao vista. Texto nao da CO2 por etapa; refazer com recorte (pp.17-18) para confirmar.",
+  "pares": [
+   {
+    "sheet_row": 139,
+    "material": "UHPC com areia reciclada, RS-U-20 (W/B=0,20)",
+    "fck_mpa": 86.3,
+    "co2_kg_m3": 1100,
+    "co2_original": "1100 kg CO2-eq/m3 [ALERTA ETAPA4: valor lido de eixo numerado (0/5/10/15, x10^2 kg CO2 eq) do grafico radar Fig.16a renderizado, p.18 — nao impresso em texto/tabela]",
+    "co2_original_local": "Fig. 16a (p.18), comparacao RS-U-20 vs NS-U-20"
+   },
+   {
+    "sheet_row": 140,
+    "material": "UHPC com areia natural, referencia (NS-U-20, W/B=0,20)",
+    "fck_mpa": 90.1,
+    "co2_kg_m3": 1170,
+    "co2_original": "1170 kg CO2-eq/m3 [ALERTA ETAPA4: valor lido de eixo numerado do grafico radar Fig.16a renderizado, p.18]",
+    "co2_original_local": "Fig. 16a (p.18)"
+   }
+  ]
+ },
+ {
+  "row_id": 2714,
+  "autor": "Kul, Anil and Ozel, Behlul Furkan and Ozcelikci, Emircan and Gunal,\nMuhammed Far",
+  "titulo": "Characterization and life cycle assessment of geopolymer mortars with\nmasonry units and recycled concrete aggregates assorted from\nconstruction and demolition waste",
+  "pdf": "KUL et al., 2023 - j.jobe.2023.107546.pdf",
+  "fileId": "1QO85DvZmILcvDcK5q7VVP5IHPEUmZPu2",
+  "resultado_anterior": "lotes_etapas/resultado_lote03.json",
+  "nota_anterior": "PDF >10 MB: figuras nao vistas. Reler pagina da Fig. 13 (contribuicao) com shrink-drive-pdf.yml. Transporte (CDW ate laboratorio, Tab. 7) e processo/cura podem aparecer com rotulos numericos.",
+  "pares": [
+   {
+    "sheet_row": 670,
+    "material": "Argamassa geopolimerica CDW (precursor telha britada RT, cura 115C) - mistura RT-C-10-0.45",
+    "fck_mpa": 45.5,
+    "co2_kg_m3": 178.7,
+    "co2_original": "178.7 kg CO2 eq/m3",
+    "co2_original_local": "Tabela 10, p.14-15 do ficheiro (grupo 'Molarity', coluna GWP)"
+   },
+   {
+    "sheet_row": 671,
+    "material": "Argamassa geopolimerica CDW (precursor telha britada RT, cura 115C) - mistura RT-C-15-0.45",
+    "fck_mpa": 66.2,
+    "co2_kg_m3": 251.4,
+    "co2_original": "251.4 kg CO2 eq/m3",
+    "co2_original_local": "Tabela 10, p.14-15 do ficheiro (grupo 'Molarity', coluna GWP)"
+   },
+   {
+    "sheet_row": 672,
+    "material": "Argamassa geopolimerica CDW (precursor telha britada RT, cura 115C) - mistura RT-C-19-0.45",
+    "fck_mpa": 61.9,
+    "co2_kg_m3": 302.8,
+    "co2_original": "302.8 kg CO2 eq/m3",
+    "co2_original_local": "Tabela 10, p.14-15 do ficheiro (grupo 'Molarity', coluna GWP)"
+   }
+  ]
+ },
+ {
+  "row_id": 2757,
+  "autor": "Onn, Chiu Chuen and Mo, Kim Hung and Radwan, Mohammed K. H. and Liew,\nWen Hong a",
+  "titulo": "Strength, Carbon Footprint and Cost Considerations of Mortar Blends with\nHigh Volume Ground Granulated Blast Furnace Slag",
+  "pdf": "ONN et al., 2019.pdf",
+  "fileId": "14nbblvZ7MWpQS9WxA_tjjb1oIHEKaRvr",
+  "resultado_anterior": "lotes_etapas/resultado_lote04.json",
+  "nota_anterior": "PDF de 13 MB: Drive recusa o download (>10 MB); so leitura de texto. Figs.5-6 (contribuicao por processo, A0/B0) e Fig.12 nao vistas; recorte pp.9-10 e 17 recomendado. Improvavel que mudem o resultado (contribuicao % por processo, nao por etapa).",
+  "pares": [
+   {
+    "sheet_row": 192,
+    "material": "argamassa com 0% de GGBFS como substituicao de cimento, w/b=0.45, mistura A0",
+    "fck_mpa": 48.41,
+    "co2_kg_m3": 574.033,
+    "co2_original": "574.033 kg CO2-eq/m3 (Tabela 4, w/b=0.45, 0% GGBFS)",
+    "co2_original_local": "Tabela 4, p.8 (midpoint impact assessment A0/B0), linha Global warming potential"
+   },
+   {
+    "sheet_row": 199,
+    "material": "argamassa com 70% de GGBFS como substituicao de cimento, w/b=0.45, mistura A7",
+    "fck_mpa": 35.61,
+    "co2_kg_m3": 209,
+    "co2_original": "209 kg CO2-eq/m3 (Fig.12, extremo A0-A7, w/b=0.45, 70% GGBFS)",
+    "co2_original_local": "Texto p.17, secao 4.4 (extremos A7/B7 do Fig.12)"
+   },
+   {
+    "sheet_row": 200,
+    "material": "argamassa com 0% de GGBFS como substituicao de cimento, w/b=0.65, mistura B0",
+    "fck_mpa": 38.29,
+    "co2_kg_m3": 573.209,
+    "co2_original": "573.209 kg CO2-eq/m3 (Tabela 4, w/b=0.65, 0% GGBFS)",
+    "co2_original_local": "Tabela 4, p.8 (midpoint impact assessment A0/B0), linha Global warming potential"
+   },
+   {
+    "sheet_row": 207,
+    "material": "argamassa com 70% de GGBFS como substituicao de cimento, w/b=0.65, mistura B7",
+    "fck_mpa": 26.05,
+    "co2_kg_m3": 207,
+    "co2_original": "207 kg CO2-eq/m3 (Fig.12, extremo B0-B7, w/b=0.65, 70% GGBFS)",
+    "co2_original_local": "Texto p.17, secao 4.4 (extremos A7/B7 do Fig.12)"
+   }
+  ]
+ },
+ {
+  "row_id": 2800,
+  "autor": "Soltanzadeh, Fatemeh and Behbahani, Ali E. and Hosseinmostofi, Kasra and\nTeixeir",
+  "titulo": "Assessment of the Sustainability of Fibre-Reinforced Concrete by\nConsidering Both Environmental and Mechanical Properties",
+  "pdf": "SOLTANZADEH et al., 2022.pdf",
+  "fileId": "1EFGivZLNjsDPG6HhZhdM0tcGJ9GaBUE7",
+  "resultado_anterior": "lotes_etapas/resultado_lote05.json",
+  "nota_anterior": "Texto lido na integra. Fig.8 (GWP por processo, p.17, com eixo ate 800) nao foi vista; pode ter rotulos por mistura que permitam A2 de cada traco. Reler com recorte pp.16-17.",
+  "pares": [
+   {
+    "sheet_row": 230,
+    "material": "betao autocompactavel reforcado 100% com fibras de aco INDUSTRIAIS (referencia)",
+    "fck_mpa": 58.1,
+    "co2_kg_m3": 518,
+    "co2_original": "518 kg CO2-eq/m3 (GWP 100 anos)",
+    "co2_original_local": "Tabela 7, p.16 (Environmental impacts of developing 1m3 FRSCCs), coluna GWP (100 Years), linha corrigida para FRSCCR0-I90 -- ver observacoes sobre o erro de rotulo do artigo"
+   },
+   {
+    "sheet_row": 231,
+    "material": "betao autocompactavel reforcado 45% fibras de aco recicladas + 45% industriais",
+    "fck_mpa": 55.54,
+    "co2_kg_m3": 491,
+    "co2_original": "491 kg CO2-eq/m3 (GWP 100 anos)",
+    "co2_original_local": "Tabela 7, p.16 (Environmental impacts of developing 1m3 FRSCCs), coluna GWP (100 Years), linha corrigida para FRSCCR45-I45 -- ver observacoes sobre o erro de rotulo do artigo"
+   },
+   {
+    "sheet_row": 232,
+    "material": "betao autocompactavel reforcado 60% fibras de aco recicladas + 30% industriais",
+    "fck_mpa": 55.12,
+    "co2_kg_m3": 482,
+    "co2_original": "482 kg CO2-eq/m3 (GWP 100 anos)",
+    "co2_original_local": "Tabela 7, p.16 (Environmental impacts of developing 1m3 FRSCCs), coluna GWP (100 Years), linha corrigida para FRSCCR60-I30 -- ver observacoes sobre o erro de rotulo do artigo"
+   },
+   {
+    "sheet_row": 233,
+    "material": "betao autocompactavel reforcado 90% com fibras de aco RECICLADAS",
+    "fck_mpa": 52.03,
+    "co2_kg_m3": 466,
+    "co2_original": "466 kg CO2-eq/m3 (GWP 100 anos)",
+    "co2_original_local": "Tabela 7, p.16 (Environmental impacts of developing 1m3 FRSCCs), coluna GWP (100 Years), linha corrigida para FRSCCR90-I0 -- ver observacoes sobre o erro de rotulo do artigo"
+   }
+  ]
+ },
+ {
+  "row_id": 2803,
+  "autor": "Starczyk-Kolbyk, Anna",
+  "titulo": "Analysis of the life cycle concrete with the addition of polypropylene\nfibers",
+  "pdf": "STARCZYK-KOLBYK, 2024.pdf",
+  "fileId": "1CaOQ2Zl9ZXDdzz8tSzro-yOBF5pmGAGG",
+  "resultado_anterior": "lotes_etapas/resultado_lote05.json",
+  "nota_anterior": "Texto lido na integra; possivel A1-A4 por etapa nas Figs.5-6 (p.32-33, imagens sem texto extraido). Reler com recorte pp.32-33.",
+  "pares": [
+   {
+    "sheet_row": 235,
+    "material": "betao de pavimento (piso) com fibras de polipropileno recicladas (banding tapes), CEM I 52,5R",
+    "fck_mpa": 71.07,
+    "co2_kg_m3": 452,
+    "co2_original": "452 kg CO2e/m3",
+    "co2_original_local": "p.32 (texto, secao 2.3): 'the emissivity of 1 m3 of the designed concrete at the level of 452 kg CO2e'; Fig.5/6 (p.32-33)"
+   }
+  ]
+ }
+]

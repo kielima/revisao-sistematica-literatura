@@ -1,0 +1,316 @@
+[
+ {
+  "row_id": 3479,
+  "pares": [
+   {
+    "sheet_row": 1017,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10-11, Sec.5.1-5.3, Tab.10, Fig.11",
+    "citacao": "",
+    "nota": "Artigo cradle-to-gate (A1-A3) sem decomposicao por etapa: so ha contribuicao por materia-prima/processo (cimento 237-243 kg/m3 de W0 a W10; agregados 27-23 kg/m3; texto p.10-11) e percentagens na Fig.11b, que nao foi vista. Resultado por material nao e resultado por etapa (regra 2). Transporte de materias-primas em tkm (Tab.10) sem CO2. A4 excluido: 'no further information about transport to site' (p.10). Valor gravado 285.5 (W2) nao localizado no texto extraido; a Fig.11a/tabela de dados nao esta no texto: valor_gravado_nao_localizado (por verificar com recorte)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "PDF 9 MB: download_file_content fez cair a ligacao; so texto via read_file_content. Refazer p.10-11 (Fig.11a/b) com recorte."
+ },
+ {
+  "row_id": 3485,
+  "pares": [
+   {
+    "sheet_row": 1018,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.12, Tab.12; Sec.2.2.4.2",
+    "citacao": "",
+    "nota": "Cradle-to-gate ate a saida da central (sem A4). Tab.12 so da o total (703.154). Contribuicao por componente (Figs.16/17), nao por etapa; nao vista."
+   },
+   {
+    "sheet_row": 1019,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.12, Tab.12",
+    "citacao": "",
+    "nota": "Idem; total 571.332 (Tab.12). Contribuicao por componente (Fig.17), nao por etapa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "PDF 11 MB, acima do limite do Drive; so texto. Figs.15-17 (contribuicao por componente) por rever com recorte, mas provavelmente sem etapas A."
+ },
+ {
+  "row_id": 3493,
+  "pares": [
+   {
+    "sheet_row": 1023,
+    "co2_a1": 397.24,
+    "co2_a2": 0,
+    "co2_a3": 0,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.15, Tab.5; Sec.4 (fronteira)",
+    "citacao": "The system boundary was limited at raw material extraction and processing since the transport of raw materials and the manufacturing process ... were considered identical",
+    "nota": "Fronteira declarada = extracao e processamento das materias-primas, logo total GWP = A1 (derivado: total = unica etapa incluida). A2 e A3 excluidas do calculo (considerados identicos entre misturas); 0 = 'excluida'. Fig.10/11 nao vistas."
+   },
+   {
+    "sheet_row": 1024,
+    "co2_a1": 479.22,
+    "co2_a2": 0,
+    "co2_a3": 0,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.15, Tab.5; Sec.4",
+    "citacao": "",
+    "nota": "Idem ISFRC; A2/A3 excluidas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "PDF 8,8 MB: download fez cair a ligacao; so texto. Fig.10 (fronteira) por confirmar visualmente; o texto e inequivoco."
+ },
+ {
+  "row_id": 3504,
+  "pares": [
+   {
+    "sheet_row": 435,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 475 lido por pixel na Fig.12."
+   },
+   {
+    "sheet_row": 436,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 457 lido por pixel na Fig.12."
+   },
+   {
+    "sheet_row": 437,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 439 lido por pixel na Fig.12."
+   },
+   {
+    "sheet_row": 438,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 422 lido por pixel na Fig.12."
+   },
+   {
+    "sheet_row": 439,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 407 lido por pixel na Fig.12."
+   },
+   {
+    "sheet_row": 440,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 371 lido por pixel na Fig.12."
+   },
+   {
+    "sheet_row": 441,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 337 lido por pixel na Fig.12."
+   },
+   {
+    "sheet_row": 442,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 370 lido por pixel na Fig.12."
+   },
+   {
+    "sheet_row": 443,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 335 lido por pixel na Fig.12."
+   },
+   {
+    "sheet_row": 444,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.12; p.5, Fig.4",
+    "citacao": "",
+    "nota": "Fig.12 p.10 (barras empilhadas PC, NZ, GGBFS, filler, agua, brita, areia, SP, 'Transportation'; sem rotulos numericos por segmento, segmentos finos). Fig.4: transporte de materias-primas ate a central (100-450 km) = A2 em sentido, mas o segmento nao e rotulado A2 e nao ha leitura por pixel inequivoca; nao preenchido. Transporte a obra tracejado (fora). Cimento >85 por cento do total (texto). Total gravado 300 lido por pixel na Fig.12."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Etapas nao publicadas. Texto p.10 cita ZS30=352 e S40=356 kg CO2-eq, diferentes dos valores gravados (335 e 337, Fig.12 / FU): contradicao interna; seguir figura com escala. Fronteira declarada 'cradle to grave' mas resultados mostrados so produto+transporte de materias."
+ },
+ {
+  "row_id": 3514,
+  "pares": [
+   {
+    "sheet_row": 1033,
+    "co2_a1": 373.5,
+    "co2_a2": 12.45,
+    "co2_a3": 29.05,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.7, Fig.3(a) (percentagens) x 415 da Fig.2a/Sec.3.1.1",
+    "citacao": "Raw material acquisition (A1) / Raw material transportation (A2) / Batching and curing (A3)",
+    "nota": "90/3/7 por cento x 415; percentagens arredondadas (+-0.5 pp = +-2 kg). Texto: curing 27.4 kg no PC (dentro de A3=29.05) e transporte 3 por cento do total. A4 fora (cradle-to-gate na central)."
+   },
+   {
+    "sheet_row": 1034,
+    "co2_a1": 144.21,
+    "co2_a2": 55.66,
+    "co2_a3": 53.13,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.7, Fig.3(b) x 253",
+    "citacao": "",
+    "nota": "57/22/21 por cento x 253; arredondamento +-1.3 kg. Texto: transporte ate 57.6 kg/m3 (coerente com 55.7)."
+   },
+   {
+    "sheet_row": 1035,
+    "co2_a1": 197.12,
+    "co2_a2": 58.52,
+    "co2_a3": 52.36,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.7, Fig.3(c) x 308",
+    "citacao": "",
+    "nota": "64/19/17 por cento x 308; arredondamento +-1.5 kg."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Valores em kg CO2-eq/m3 de argamassa. Fig.3 so mostra PC-CRL, KH-CRL, KC-CRL e ANDSHL100; as 3 linhas do lote estao cobertas."
+ },
+ {
+  "row_id": 3559,
+  "pares": [
+   {
+    "sheet_row": 1043,
+    "co2_a1": 886.1,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "sim",
+    "local": "p.6, Tab.5 (HC1)",
+    "citacao": "",
+    "nota": "Linha 'Materials' = producao dos materiais (texto: 'Material production'). Transportation 14.6 mistura transporte a central e a obra (Fig.1 tem ambos) sem separar: A2/A4 em branco (regra 8). Production/Construction 2.3 = mistura+colocacao (A3+A5): A3 em branco. Soma 886.1+14.6+2.3 = 903.0."
+   },
+   {
+    "sheet_row": 1044,
+    "co2_a1": 494.6,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "sim",
+    "local": "p.6, Tab.5 (HC2)",
+    "citacao": "",
+    "nota": "Transportation 6.1 (A2+A4 sem separar), Production/Construction 2.3 (A3+A5). Soma 494.6+6.1+2.3 = 503.0."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fronteira A1-A5 (inclui colocacao). Fig.1 so lida como texto. Os pares de pavimento e blocos usam m2 (fora do lote)."
+ }
+]

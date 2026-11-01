@@ -1,0 +1,354 @@
+[
+ {
+  "row_id": 4089,
+  "autor": "Gomes, Kelly Cristiane and Carvalho, Monica and Diniz, Daniel de Paula\nand Costa",
+  "ano": "MATERIA-RIO DE JANEIRO",
+  "titulo": "Carbon emissions associated with two types of foundations: CP-II\nPortland cement-based composite vs. geopolymer concrete",
+  "pdf": "GOMES, 2019i.pdf",
+  "fileId": "1xwYl-z1ZJzh5atiDYwjEBUy7m18pBcsx",
+  "fileSize": "307953",
+  "fronteira": "A1-A3",
+  "pares": [
+   {
+    "sheet_row": 1182,
+    "material": "Concreto convencional CPII-E -- fundacao isolada, 40 MPa @28d, 1 m3 (Joao Pessoa, PB, Brasil)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 418.783,
+    "co2_original": "418.783 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 3, p.5 do ficheiro: Total = 418.783 kg CO2-eq/m3 (Cimento 392.00 = 93.6% do total)"
+   },
+   {
+    "sheet_row": 1183,
+    "material": "Concreto geopolimerico (metacaulino + ativador alcalino) -- fundacao isolada, mesma resistencia de projeto 40 MPa @28d, 1 m3 (comparador simetrico)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 239.816,
+    "co2_original": "239.816 kg CO2-eq/m3",
+    "co2_original_local": "Tabela 4, p.5 do ficheiro: Total = 239.816 kg CO2-eq/m3 (Metacaulino 36.5% + solucao alcalina 58.2% do total)"
+   }
+  ]
+ },
+ {
+  "row_id": 4090,
+  "autor": "de Azevedo Sampaio, Daniel Oliveira and Zanardo Rufato, Thassia Dias and\nAssunca",
+  "ano": "MATERIA-RIO DE JANEIRO",
+  "titulo": "Life cycle assessment of lattice girder slabs with tire rubber residue\naddition",
+  "pdf": "DE AZEVEDO SAMPAIO et al., 2022.pdf",
+  "fileId": "1uhKRvmzHtU_96l3A4HYfAsgVDguveGfX",
+  "fileSize": "853283",
+  "fronteira": "A1-A3",
+  "pares": [
+   {
+    "sheet_row": 1184,
+    "material": "Concreto convencional para laje trelicada (capa CPII-Z32 + sapatas CPV-ARI) - Ilha Solteira, Brasil",
+    "fck_mpa": 27.82,
+    "co2_kg_m3": 304.9,
+    "co2_original": "Nao publicado em numero (autores so dao diferenca ~5% e graficos sem escala); calculado 27,2 kg CO2-eq por laje convencional",
+    "co2_original_local": "Tabela 3 (massas, p.6) x Tabela 7 (GWP100/kg, p.7-8)"
+   },
+   {
+    "sheet_row": 1185,
+    "material": "Concreto com residuo de borracha de pneu para laje trelicada (capa CPII-Z32 + sapatas CPV-ARI) - Ilha Solteira, Brasil",
+    "fck_mpa": 28.73,
+    "co2_kg_m3": 324,
+    "co2_original": "Nao publicado como total: 28,83 kg CO2-eq/laje (arredondado 28,9) calculado pela extracao = capa 24,39 + sapata 4,45 kg (massas Tab.4 x GWP100/kg Tab.7), laje COM residuo de borracha",
+    "co2_original_local": "Tabela 4 p.6 (massas) x Tabela 7 p.7-8 (GWP/kg); volume de concreto por laje 89,21 L no texto p.4"
+   }
+  ]
+ },
+ {
+  "row_id": 4092,
+  "autor": "Radovic, Andrija and Hafez, Hisham and Tosic, Nikola and Marinkovic,\nSnezana and",
+  "ano": "JOURNAL OF BUILDING ENGINEERING",
+  "titulo": "ECO2 framework assessment of limestone powder concrete slabs\nand columns",
+  "pdf": "RADOVIC et al., 2022 - j.jobe.2022.104928.pdf",
+  "fileId": "1AEum-W3FlY5-0SGYiqtbocP1oGbFYsfE",
+  "fileSize": "7726768",
+  "fronteira": "A1-A3",
+  "pares": [
+   {
+    "sheet_row": 555,
+    "material": "Catalogo de 26 misturas de betao com e sem po de calcario (compiladas de 6 estudos da literatura), aplicadas a lajes e pilares",
+    "fck_mpa": 64.7,
+    "co2_kg_m3": 364.2,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2023,
+    "material": "RS-0%-330 - betao com/sem po de calcario (Radovic 2021 (proprio)); traco kg/m3 Table 1",
+    "fck_mpa": 49.5,
+    "co2_kg_m3": 373.9,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2024,
+    "material": "RS-30%-230 - betao com/sem po de calcario (Radovic 2021 (proprio)); traco kg/m3 Table 1",
+    "fck_mpa": 50,
+    "co2_kg_m3": 315.7,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2025,
+    "material": "RS-45%-180 - betao com/sem po de calcario (Radovic 2021 (proprio)); traco kg/m3 Table 1",
+    "fck_mpa": 45.4,
+    "co2_kg_m3": 279.6,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2026,
+    "material": "RS-55%-150 - betao com/sem po de calcario (Radovic 2021 (proprio)); traco kg/m3 Table 1",
+    "fck_mpa": 46.4,
+    "co2_kg_m3": 256.7,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2027,
+    "material": "DE-35%-244 (Tab.2: DE-35%-208) - betao com/sem po de calcario (Palm 2016/Neufert 2014); traco kg/m3 Table 1",
+    "fck_mpa": 50.1,
+    "co2_kg_m3": 315.8,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2028,
+    "material": "DE-50%-190 - betao com/sem po de calcario (Palm 2016/Neufert 2014); traco kg/m3 Table 1",
+    "fck_mpa": 61.8,
+    "co2_kg_m3": 285,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2029,
+    "material": "IT-0%-300 - betao com/sem po de calcario (Lollini 2014); traco kg/m3 Table 1",
+    "fck_mpa": 56.5,
+    "co2_kg_m3": 345,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2030,
+    "material": "IT-15%-212 - betao com/sem po de calcario (Lollini 2014); traco kg/m3 Table 1",
+    "fck_mpa": 52.3,
+    "co2_kg_m3": 276.4,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2031,
+    "material": "IT-15%-255 - betao com/sem po de calcario (Lollini 2014); traco kg/m3 Table 1",
+    "fck_mpa": 43.7,
+    "co2_kg_m3": 310.6,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2032,
+    "material": "IT-30%-210 - betao com/sem po de calcario (Lollini 2014); traco kg/m3 Table 1",
+    "fck_mpa": 58,
+    "co2_kg_m3": 285.3,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2033,
+    "material": "IT-30%-245 - betao com/sem po de calcario (Lollini 2014); traco kg/m3 Table 1",
+    "fck_mpa": 55.1,
+    "co2_kg_m3": 313.4,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2034,
+    "material": "IT2-0%-400 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1",
+    "fck_mpa": 64,
+    "co2_kg_m3": 438.8,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2035,
+    "material": "IT2-0%-350 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1",
+    "fck_mpa": 53.6,
+    "co2_kg_m3": 392.4,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2036,
+    "material": "IT2-0%-300 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1",
+    "fck_mpa": 43,
+    "co2_kg_m3": 347.8,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2037,
+    "material": "IT2-15%-340 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1",
+    "fck_mpa": 53.9,
+    "co2_kg_m3": 392,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2038,
+    "material": "IT2-15%-297 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1",
+    "fck_mpa": 45,
+    "co2_kg_m3": 351.3,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2039,
+    "material": "IT2-15%-255 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1",
+    "fck_mpa": 36.9,
+    "co2_kg_m3": 313,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2040,
+    "material": "IT2-25%-300 - betao com/sem po de calcario (Collepardi 2004); traco kg/m3 Table 1",
+    "fck_mpa": 50.6,
+    "co2_kg_m3": 361.6,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2041,
+    "material": "CH-0%-335 - betao com/sem po de calcario (Leemann 2015); traco kg/m3 Table 1",
+    "fck_mpa": 58.7,
+    "co2_kg_m3": 380.5,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2042,
+    "material": "CH-0%-315 - betao com/sem po de calcario (Leemann 2015); traco kg/m3 Table 1",
+    "fck_mpa": 47.2,
+    "co2_kg_m3": 361.5,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2043,
+    "material": "CH-15%-270 (Tab.1 CEM I=280) - betao com/sem po de calcario (Leemann 2015); traco kg/m3 Table 1",
+    "fck_mpa": 49.7,
+    "co2_kg_m3": 337.2,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2044,
+    "material": "CH-15%-264 - betao com/sem po de calcario (Leemann 2015); traco kg/m3 Table 1",
+    "fck_mpa": 42.4,
+    "co2_kg_m3": 321.6,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2045,
+    "material": "GB-0-355 - betao com/sem po de calcario (Dhir 2007/Meddah 2014); traco kg/m3 Table 1",
+    "fck_mpa": 47.5,
+    "co2_kg_m3": 395.6,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2046,
+    "material": "GB-15%-302 - betao com/sem po de calcario (Dhir 2007/Meddah 2014); traco kg/m3 Table 1",
+    "fck_mpa": 43.2,
+    "co2_kg_m3": 355.1,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   },
+   {
+    "sheet_row": 2047,
+    "material": "GB-25%-266 - betao com/sem po de calcario (Dhir 2007/Meddah 2014); traco kg/m3 Table 1",
+    "fck_mpa": 35.6,
+    "co2_kg_m3": 327.6,
+    "co2_original": "nao publicado por mistura (so score ECO2 normalizado); calculado pela Eq.6 do proprio artigo",
+    "co2_original_local": "Table 1 p.4 (traco kg/m3) x Table 3 p.8 (GWP por kg e por tkm, distancias)"
+   }
+  ]
+ },
+ {
+  "row_id": 4099,
+  "autor": "Souza, Régis Marciano de and Ortigara, Yuri Vilas Boas and Gomes, Carlos Eduardo",
+  "ano": "Ambiente Construído",
+  "titulo": "Ecoeficiência de concretos autoadensáveis com resíduo de louça sanitária",
+  "pdf": "SOUZA et al., 2024.pdf",
+  "fileId": "1houainHr6A2_jnSr-rJXeEm0bxUkUVdY",
+  "fileSize": "687399",
+  "fronteira": "A1-A3",
+  "pares": [
+   {
+    "sheet_row": 1194,
+    "material": "CAA de referencia (CAA_REF, 0% RLS) - 436 kg CP-V ARI/m3, w/c=239.36/436=0.55, cil. 100x200mm - Brasil",
+    "fck_mpa": 32.4,
+    "co2_kg_m3": 416.13,
+    "co2_original": "416.13 kg CO2 eq/m3 (total: cimento+agregados+agua+aditivo)",
+    "co2_original_local": "Tabela 6, p.7 impressa (Atividade ambiental das emissoes de dioxido de carbono das dosagens), linha CAA_REF, coluna Total"
+   }
+  ]
+ },
+ {
+  "row_id": 4106,
+  "autor": "Bacelar, Bruno Athaíde and Dias, Thalita Cardoso and Ludvig, Péter",
+  "ano": "Revista {IBRACON} de Estruturas e Materiais",
+  "titulo": "Reduction of the environmental impacts of reinforced concrete columns by increasing the compressive strength: a life cycle approach",
+  "pdf": "BACELAR, 2022.pdf",
+  "fileId": "1t1Nfyw5pzCARXDTBr3cPeqIJsPz8kzlc",
+  "fileSize": "2964193",
+  "fronteira": "A1-A3",
+  "pares": [
+   {
+    "sheet_row": 1196,
+    "material": "Concreto armado C30 - pilar RC (edificio 15 andares, Belo Horizonte MG) - classe de projeto, cimento Portland (Ecoinvent RoW)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 347.4,
+    "co2_original": "11,58 kg CO2eq/MPa (eco-eficiencia, 'Table 8. Cement efficiency', classe C30)",
+    "co2_original_local": "Tabela 8 p.7 impressa"
+   },
+   {
+    "sheet_row": 1197,
+    "material": "Concreto armado C40 - pilar RC (edificio 15 andares, Belo Horizonte MG) - classe de projeto, cimento Portland (Ecoinvent RoW)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 388.4,
+    "co2_original": "9,71 kg CO2eq/MPa (eco-eficiencia, 'Table 8. Cement efficiency', classe C40)",
+    "co2_original_local": "Tabela 8 p.7 impressa"
+   },
+   {
+    "sheet_row": 1198,
+    "material": "Concreto armado C50 - pilar RC (edificio 15 andares, Belo Horizonte MG) - classe de projeto, cimento Portland (Ecoinvent RoW)",
+    "fck_mpa": 50,
+    "co2_kg_m3": 424,
+    "co2_original": "8,48 kg CO2eq/MPa (eco-eficiencia, 'Table 8. Cement efficiency', classe C50)",
+    "co2_original_local": "Tabela 8 p.7 impressa"
+   }
+  ]
+ },
+ {
+  "row_id": 4138,
+  "autor": "Basavaraj, Anusha S. and Muni, Hareesh and Dhandapani, Yuvaraj and Gettu, Ravind",
+  "ano": "RILEM Technical Letters",
+  "titulo": "Limestone-Calcined Clay (LC2) as a supplementary cementitious material for concrete",
+  "pdf": "BASAVARAJ et al., 2023.pdf",
+  "fileId": "1tsz2C4qw2eYq3krM0VagystztjCFiIdR",
+  "fileSize": "970531",
+  "fronteira": "A1-A3",
+  "pares": [
+   {
+    "sheet_row": 1200,
+    "material": "Concreto com LC2 (limestone calcined clay, 45% substituicao de clinquer) -- mix de maior binder content (450 kg/m3, w/b<=0.45), IIT Madras, India",
+    "fck_mpa": 40,
+    "co2_kg_m3": 370,
+    "co2_original": "370 kg CO2/m3 (aproximado, leitura de eixo com escala impressa)",
+    "co2_original_local": "Fig.7a, p.8 do ficheiro (p.19 impressa) -- eixo Y 'CO2 Emissions (kgCO2/m3)' de 200 a 450, marcas de 50; ponto LC2 (diamante verde) no binder content mais alto (~450 kg/m3)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,290 @@
+[
+ {
+  "row_id": 3582,
+  "pares": [
+   {
+    "sheet_row": 1053,
+    "co2_a1": 295,
+    "co2_a2": 14,
+    "co2_a3": 4,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "lido_figura",
+    "soma_confere": "sim",
+    "local": "p.7, Fig.4(A), barras RC-m1 empilhadas A1/A2/A3",
+    "citacao": "",
+    "nota": "Fig.4(A) sem rotulos numericos; lido por pixel (400 dpi) contra eixo 0-350, +-3 (A1) e +-2 (A2,A3). Soma 313 vs 308 publicado (+1,6%, dentro da incerteza de leitura). Legenda: A1 Material Production, A2 Material Transport, A3 Concrete Production. Cradle-to-gate, sem A4. Total 308 publicado no texto p.6."
+   },
+   {
+    "sheet_row": 1054,
+    "co2_a1": 298,
+    "co2_a2": 14,
+    "co2_a3": 4,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "lido_figura",
+    "soma_confere": "sim",
+    "local": "p.7, Fig.4(A), barras RC-m2",
+    "citacao": "",
+    "nota": "Lido por pixel, +-3 (A1), +-2 (A2,A3). Soma 316 vs 315 publicado (+0,3%). Sem A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Confirmado: Mostert et al. 2021 RCR 174, 105767. Fronteira A1-A3; sem A4 (A4 da EN 15804 so aparece nos processos GaBi do fim de vida, Tab.A1)."
+ },
+ {
+  "row_id": 3615,
+  "pares": [
+   {
+    "sheet_row": 1063,
+    "co2_a1": 262,
+    "co2_a2": 54,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.5, Fig.4 (tabela de inventario por m3: materiais, transporte de materias-primas, batching, curing, transporte do produto final, placement); p.6-7 Sec.6.1.1-6.1.3",
+    "citacao": "Transportation was considered for both raw materials and final product transfer.",
+    "nota": "A1 derivado = soma das linhas de materiais da tabela (3+2+257) = 262; A2 = linha 'Raw materials transportation' = 54 (100 km). A3 nao atribuido: o artigo nao rotula etapas EN 15804; batching 3 + curing 1 ficam aqui, e placement 9 (A5, excluido). 'Final product transportation' (30 km, 18) NAO atribuido a A4 (regra 7: nao rotulado como A4 nem como transporte do betao a obra). Soma A1+A2 nao fecha o total 347: faltam batching, curing, transporte final, placement. A1+A2+batching+curing+transporte final+placement = total publicado 347 (confere)."
+   },
+   {
+    "sheet_row": 1064,
+    "co2_a1": 58,
+    "co2_a2": 58,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.5, Fig.4 (tabela de inventario por m3: materiais, transporte de materias-primas, batching, curing, transporte do produto final, placement); p.6-7 Sec.6.1.1-6.1.3",
+    "citacao": "Transportation was considered for both raw materials and final product transfer.",
+    "nota": "A1 derivado = soma das linhas de materiais da tabela (3+2+18+17+18) = 58; A2 = linha 'Raw materials transportation' = 58 (100 km). A3 nao atribuido: o artigo nao rotula etapas EN 15804; batching 3 + curing 23 ficam aqui, e placement 9 (A5, excluido). 'Final product transportation' (30 km, 18) NAO atribuido a A4 (regra 7: nao rotulado como A4 nem como transporte do betao a obra). Soma A1+A2 nao fecha o total 169: faltam batching, curing, transporte final, placement. A1+A2+batching+curing+transporte final+placement = total publicado 169 (confere)."
+   },
+   {
+    "sheet_row": 1065,
+    "co2_a1": 113,
+    "co2_a2": 68,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.5, Fig.4 (tabela de inventario por m3: materiais, transporte de materias-primas, batching, curing, transporte do produto final, placement); p.6-7 Sec.6.1.1-6.1.3",
+    "citacao": "Transportation was considered for both raw materials and final product transfer.",
+    "nota": "A1 derivado = soma das linhas de materiais da tabela (3+2+1+39+68) = 113; A2 = linha 'Raw materials transportation' = 68 (100 km). A3 nao atribuido: o artigo nao rotula etapas EN 15804; batching 3 + curing 23 ficam aqui, e placement 9 (A5, excluido). 'Final product transportation' (30 km, 18) NAO atribuido a A4 (regra 7: nao rotulado como A4 nem como transporte do betao a obra). Soma A1+A2 nao fecha o total 234: faltam batching, curing, transporte final, placement. A1+A2+batching+curing+transporte final+placement = total publicado 234 (confere)."
+   },
+   {
+    "sheet_row": 1066,
+    "co2_a1": 153,
+    "co2_a2": 60,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.5, Fig.4 (tabela de inventario por m3: materiais, transporte de materias-primas, batching, curing, transporte do produto final, placement); p.6-7 Sec.6.1.1-6.1.3",
+    "citacao": "Transportation was considered for both raw materials and final product transfer.",
+    "nota": "A1 derivado = soma das linhas de materiais da tabela (3+3+134+13) = 153; A2 = linha 'Raw materials transportation' = 60 (100 km). A3 nao atribuido: o artigo nao rotula etapas EN 15804; batching 3 + curing 1 ficam aqui, e placement 9 (A5, excluido). 'Final product transportation' (30 km, 19) NAO atribuido a A4 (regra 7: nao rotulado como A4 nem como transporte do betao a obra). Soma A1+A2 nao fecha o total 245: faltam batching, curing, transporte final, placement. A1+A2+batching+curing+transporte final+placement = total publicado 245 (confere)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Fig.4 e uma tabela (texto extraido); Figs.5-8 (diagramas de fronteira) nao vistas como imagem: download 8,4 MB derrubou o conector. Valores batem com os totais (347/169/234/245) pela soma das linhas."
+ },
+ {
+  "row_id": 3602,
+  "pares": [
+   {
+    "sheet_row": 485,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 709.9,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "n/a",
+    "local": "Tab.3 p.6 x Tab.8 p.14; Sec.4.1 p.14-15",
+    "citacao": "GWP of the first life cycle phase A1 to A3 (A1: Raw Material Supply; A2: Transport; A3: Manufacturing)",
+    "nota": "So A1-A3 agregado, via composicao (Tab.3) x factores A1-A3 por componente (Tab.8); total nao impresso (valor gravado ja derivado). Fig.10 (GWP por componente, nao por etapa) nao vista como imagem. Etapas separadas nao publicadas."
+   },
+   {
+    "sheet_row": 486,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 914.72,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "n/a",
+    "local": "Tab.3 p.6 x Tab.8 p.14; Sec.4.1 p.14-15",
+    "citacao": "GWP of the first life cycle phase A1 to A3 (A1: Raw Material Supply; A2: Transport; A3: Manufacturing)",
+    "nota": "So A1-A3 agregado, via composicao (Tab.3) x factores A1-A3 por componente (Tab.8); total nao impresso (valor gravado ja derivado). Fig.10 (GWP por componente, nao por etapa) nao vista como imagem. Etapas separadas nao publicadas."
+   },
+   {
+    "sheet_row": 487,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 713.7,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "n/a",
+    "local": "Tab.3 p.6 x Tab.8 p.14; Sec.4.1 p.14-15",
+    "citacao": "GWP of the first life cycle phase A1 to A3 (A1: Raw Material Supply; A2: Transport; A3: Manufacturing)",
+    "nota": "So A1-A3 agregado, via composicao (Tab.3) x factores A1-A3 por componente (Tab.8); total nao impresso (valor gravado ja derivado). Fig.10 (GWP por componente, nao por etapa) nao vista como imagem. Etapas separadas nao publicadas."
+   },
+   {
+    "sheet_row": 488,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 716.65,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "n/a",
+    "local": "Tab.3 p.6 x Tab.8 p.14; Sec.4.1 p.14-15",
+    "citacao": "GWP of the first life cycle phase A1 to A3 (A1: Raw Material Supply; A2: Transport; A3: Manufacturing)",
+    "nota": "So A1-A3 agregado, via composicao (Tab.3) x factores A1-A3 por componente (Tab.8); total nao impresso (valor gravado ja derivado). Fig.10 (GWP por componente, nao por etapa) nao vista como imagem. Etapas separadas nao publicadas."
+   },
+   {
+    "sheet_row": 489,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 715.48,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "n/a",
+    "local": "Tab.3 p.6 x Tab.8 p.14; Sec.4.1 p.14-15",
+    "citacao": "GWP of the first life cycle phase A1 to A3 (A1: Raw Material Supply; A2: Transport; A3: Manufacturing)",
+    "nota": "So A1-A3 agregado, via composicao (Tab.3) x factores A1-A3 por componente (Tab.8); total nao impresso (valor gravado ja derivado). Fig.10 (GWP por componente, nao por etapa) nao vista como imagem. Etapas separadas nao publicadas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "PDF 11,7 MB: download recusado pelo Drive; so texto lido. Fig.10 e por componente, nao por etapa; provavelmente nada a ganhar, mas figura nao vista."
+ },
+ {
+  "row_id": 3661,
+  "pares": [
+   {
+    "sheet_row": 1073,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Tab.2 p.5, Tab.6 p.6-7, Figs.1-2 p.3",
+    "citacao": "",
+    "nota": "Intensidade ECO2-e (hibrida, kg/kg de betao, Tab.6) nao decompoe por etapa; valor gravado = intensidade x densidade, so materiais (cimento, agregado, agua) com desperdicio de 5%. Tab.2 imprime operacao da central de pre-fabricados 18,459 kg CO2-e/m3 e transporte de betao 0,133 (ida)+0,098 (volta) kg CO2-e/m3/km (30 km misto central-obra, ver texto) mas o artigo nao os soma ao betao por grau nem os rotula A3/A4, e o transporte dos paineis pre-fabricados tem distancia nao dada: nao atribuidos (regras 2, 7, 8)."
+   },
+   {
+    "sheet_row": 1074,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Tab.2 p.5, Tab.6 p.6-7, Figs.1-2 p.3",
+    "citacao": "",
+    "nota": "Intensidade ECO2-e (hibrida, kg/kg de betao, Tab.6) nao decompoe por etapa; valor gravado = intensidade x densidade, so materiais (cimento, agregado, agua) com desperdicio de 5%. Tab.2 imprime operacao da central de pre-fabricados 18,459 kg CO2-e/m3 e transporte de betao 0,133 (ida)+0,098 (volta) kg CO2-e/m3/km (30 km misto central-obra, ver texto) mas o artigo nao os soma ao betao por grau nem os rotula A3/A4, e o transporte dos paineis pre-fabricados tem distancia nao dada: nao atribuidos (regras 2, 7, 8)."
+   },
+   {
+    "sheet_row": 1075,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Tab.2 p.5, Tab.6 p.6-7, Figs.1-2 p.3",
+    "citacao": "",
+    "nota": "Intensidade ECO2-e (hibrida, kg/kg de betao, Tab.6) nao decompoe por etapa; valor gravado = intensidade x densidade, so materiais (cimento, agregado, agua) com desperdicio de 5%. Tab.2 imprime operacao da central de pre-fabricados 18,459 kg CO2-e/m3 e transporte de betao 0,133 (ida)+0,098 (volta) kg CO2-e/m3/km (30 km misto central-obra, ver texto) mas o artigo nao os soma ao betao por grau nem os rotula A3/A4, e o transporte dos paineis pre-fabricados tem distancia nao dada: nao atribuidos (regras 2, 7, 8)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Figs.1-2 (fronteira) vistas: sem separacao por etapas EN 15804."
+ },
+ {
+  "row_id": 3685,
+  "pares": [
+   {
+    "sheet_row": 2010,
+    "co2_a1": 316.0,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "Tab.4 p.6 x Tab.7 p.8; Sec.3.2 p.6-7",
+    "citacao": "These are 'cradle-to-factory-gate' values, i.e., they do not include CO2 emissions caused by transport from the place of manufacture of the materials to the concrete plant.",
+    "nota": "A1 derivado: 362 kg CEM I x 0,860 + 1800 kg agregado x 0,0026 = 311,32+4,68. Factores Tab.4 sao cradle-to-factory-gate (sem transporte) -> A1; igual ao valor gravado (a fronteira 'A1-A3' do ficheiro de lote e na pratica so A1). A2/A3/A4 sem valor por mistura: o artigo cita medias genericas (11 kg/t cimento, 7 kg/t SCM; 8,4 kg/t betao entregue; batching 9 e colocacao 3,3 kg/m3) mas nao as aplica nem imprime resultado por mistura; nao atribuidos. Agua e aco da armadura sem contribuicao nestes pares."
+   },
+   {
+    "sheet_row": 2011,
+    "co2_a1": 249.8,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "Tab.4 p.6 x Tab.7 p.8; Sec.3.2 p.6-7",
+    "citacao": "These are 'cradle-to-factory-gate' values, i.e., they do not include CO2 emissions caused by transport from the place of manufacture of the materials to the concrete plant.",
+    "nota": "A1 derivado: 285x0,860 + 154x0,0001 + 1800x0,0026 = 245,10+0,015+4,68. Factores Tab.4 sao cradle-to-factory-gate (sem transporte) -> A1; igual ao valor gravado (a fronteira 'A1-A3' do ficheiro de lote e na pratica so A1). A2/A3/A4 sem valor por mistura: o artigo cita medias genericas (11 kg/t cimento, 7 kg/t SCM; 8,4 kg/t betao entregue; batching 9 e colocacao 3,3 kg/m3) mas nao as aplica nem imprime resultado por mistura; nao atribuidos. Agua e aco da armadura sem contribuicao nestes pares."
+   },
+   {
+    "sheet_row": 2012,
+    "co2_a1": 132.61,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "Tab.4 p.6 x Tab.7 p.8; Sec.3.2 p.6-7",
+    "citacao": "These are 'cradle-to-factory-gate' values, i.e., they do not include CO2 emissions caused by transport from the place of manufacture of the materials to the concrete plant.",
+    "nota": "A1 derivado: 127x0,860 + 235x0,0796 + 1800x0,0026 = 109,22+18,71+4,68. Factores Tab.4 sao cradle-to-factory-gate (sem transporte) -> A1; igual ao valor gravado (a fronteira 'A1-A3' do ficheiro de lote e na pratica so A1). A2/A3/A4 sem valor por mistura: o artigo cita medias genericas (11 kg/t cimento, 7 kg/t SCM; 8,4 kg/t betao entregue; batching 9 e colocacao 3,3 kg/m3) mas nao as aplica nem imprime resultado por mistura; nao atribuidos. Agua e aco da armadura sem contribuicao nestes pares."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Figuras do artigo sao curvas de probabilidade/custo, nao CO2 por etapa; nao renderizadas (download via base64 grande); texto e tabelas lidos por inteiro."
+ },
+ {
+  "row_id": 3687,
+  "pares": [
+   {
+    "sheet_row": 1080,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 251,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.9 Tab.6 e texto Sec.3.1/Sec.4; Fig.4 p.7 (contribuicao por processo)",
+    "citacao": "cradle-to-gate analysis, corresponding to the EN 15804 A1-A3",
+    "nota": "So A1-A3 agregado (251 kg CO2-eq/m3, modelo CA-QC). Fig.4 mostra contribuicao por processo/componente (incl. transporte por componente), nao vista como imagem; A2 nao separavel sem ela."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "PDF 8,2 MB; so texto lido. Reler Fig.4 (p.7-8) e Fig.10 com recorte para ver se ha rotulos numericos de transporte."
+ }
+]

@@ -1,0 +1,110 @@
+[
+ {
+  "row_id": 4997,
+  "autor": "Borges, Paulo Henrique Ribeiro and Lourenço, Thuany Marra de Figueiredo and Four",
+  "ano": "Ambiente Construído",
+  "titulo": "Estudo comparativo da análise de ciclo de vida de concretos geopoliméricos e de concretos à base de cimento Portland composto ({CP} {II})",
+  "pdf": "BORGES, 2014.pdf",
+  "fileId": "1oH1bkbob4ShAHE5RtZUjKhP-N9_QV-WZ",
+  "fileSize": "915635",
+  "fronteira": "A1-A3",
+  "pares": [
+   {
+    "sheet_row": 28,
+    "material": "Concreto de cimento Portland CP II (referencia)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 271.9,
+    "co2_original": "271.9 kg CO2/m3",
+    "co2_original_local": "Borges et al. 2014, texto: \"...reduz a emissao de CO2 em 72,4% (75,1 kg CO2/m3) quando comparado ao concreto tradicional de cimento Portland (271,9 kg CO2/m3)\" - valor do concreto Portland CPII referencia"
+   },
+   {
+    "sheet_row": 29,
+    "material": "Concreto geopolimero (metacaulim + ativador alcalino NaOH/Na2SiO3)",
+    "fck_mpa": 40,
+    "co2_kg_m3": 75.1,
+    "co2_original": "75.1 kg CO2/m3",
+    "co2_original_local": "mesma passagem do texto - valor do concreto geopolimerico"
+   }
+  ]
+ },
+ {
+  "row_id": 5011,
+  "autor": "Mello, Robson Zulcão",
+  "ano": null,
+  "titulo": "Avaliação do ciclo de vida da utilização do resíduo do beneficiamento de rochas ornamentais em materiais de construção civil à base de cimento",
+  "pdf": "MELLO, 2018.pdf",
+  "fileId": "1o14OvydMHgfhf7eJZcn8aW81_k4VuCL-",
+  "fileSize": "3739759",
+  "fronteira": "A1-A4",
+  "pares": [
+   {
+    "sheet_row": 31,
+    "material": "Argamassa com RBRO (residuo de beneficiamento de rocha ornamental) - substituicao parcial areia",
+    "fck_mpa": 32,
+    "co2_kg_m3": 463,
+    "co2_original": "463 kg CO2eq/m3 (total materiais+producao+transporte, IPCC 2013 100a)",
+    "co2_original_local": "Apendice D, coluna \"Total\": 463 kg CO2eq/m3 (alternativa: 446 so materiais)"
+   }
+  ]
+ },
+ {
+  "row_id": 5012,
+  "autor": "Figueiredo, Camilla Furtado de",
+  "ano": null,
+  "titulo": "Aplicação da avaliação do ciclo de vida como critério de seleção para materiais utilizados em construções sustentáveis",
+  "pdf": "FIGUEIREDO, 2017.pdf",
+  "fileId": "1DtDEav4rO9NJQhWbdUl-H-Mj5qg1ENPd",
+  "fileSize": "14886566",
+  "fronteira": "A1-A3",
+  "pares": [
+   {
+    "sheet_row": 32,
+    "material": "Concreto base cimento Portland vs concreto AAM (material ativado alcalinamente)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 286.37,
+    "co2_original": "286.37 kg CO2-eq/m3 (concreto tradicional CPII-Z, cradle-to-gate)",
+    "co2_original_local": "Tabela 2, p.115: Total kg CO2-eq/m3 = 286,37 (Tradicional) / 217,11 (Geopolimerico, nao usado aqui)"
+   }
+  ]
+ },
+ {
+  "row_id": 5018,
+  "autor": "Rezende, Marilia de Oliveira",
+  "ano": null,
+  "titulo": "Um modelo lean \\& green para a ecoeficiência em processos produtivos da construção civil",
+  "pdf": "REZENDE, 2019.pdf",
+  "fileId": "1h4ylxuMkqAy1hD9fylHgrvv28ejxmuj9",
+  "fileSize": "5588621",
+  "fronteira": "A1-A5",
+  "pares": [
+   {
+    "sheet_row": 43,
+    "material": "Estrutura de concreto armado (ECA) vs light steel framing (ELSF)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 214.9,
+    "co2_original": "40,1% x 48.485,13 kg CO2-eq (betao 25 MPa, texto p.96)",
+    "co2_original_local": "texto p.96 + total da estrutura"
+   }
+  ]
+ },
+ {
+  "row_id": 5052,
+  "autor": "de, 1993- Lara, Beatriz Leão Evangelista",
+  "ano": null,
+  "titulo": "Prevenção de resíduos da construção civil : análise dos benefícios no contexto das habitações de interesse social",
+  "pdf": "LARA, 2024.pdf",
+  "fileId": "1_Uahl_goIkKiG3H0upyoX9_eYfycBFDw",
+  "fileSize": "1396512",
+  "fronteira": "A1-A5",
+  "pares": [
+   {
+    "sheet_row": 2084,
+    "material": "Concreto C25 - quota do concreto na etapa Fundacao CP2 (radier)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 295,
+    "co2_original": "4,99E+01 kg CO2 eq./m2 (Fundacao); concreto ~77% do GWP da etapa (Fig.22)",
+    "co2_original_local": "Tabela 18, p.96; Figura 22, p.99 (barra GWP: brita ~0-1,5%, aco ~1,5-21%, concreto ~21-98,5%)"
+   }
+  ]
+ }
+]

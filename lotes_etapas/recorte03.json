@@ -1,0 +1,220 @@
+[
+ {
+  "row_id": 3155,
+  "autor": "Mahdi, S. and Xie, T. and Venkatesan, S. and Gravina, R. J.",
+  "titulo": "Mechanical characterisation and small-scale life-cycle assessment of\npolypropylene macro-fibre blended recycled cardboard concrete",
+  "pdf": "MAHDI, 2023 - j.conbuildmat.2023.133902.pdf",
+  "fileId": "10gW7z08gQ9xqx5X6AgaERUBRL5uPiq6G",
+  "resultado_anterior": "lotes_etapas/resultado_lote10.json",
+  "nota_anterior": "Reler Fig.16 (a)/(b) e Fig.17 (p.13) com shrink-drive-pdf.yml; pode haver contribuicao por etapa com rotulos.",
+  "pares": [
+   {
+    "sheet_row": 870,
+    "material": "concreto leve com fibra de papelao reciclado (cardboard) e macro-fibra de polipropileno — mistura W00 (controlo, sem cardboard)",
+    "fck_mpa": 52.9,
+    "co2_kg_m3": 253,
+    "co2_original": "253 kg CO2-eq/m3 (unidade nao confirmada visualmente nesta sessao — herdada de leitura de figura anterior)",
+    "co2_original_local": "Fig. 17 (p.13), 'Comparative evaluation on the estimated global warming potential' — rotulos impressos sobre as barras, per extracao anterior (E2 2026-08-24), nao re-confirmado visualmente nesta sessao"
+   },
+   {
+    "sheet_row": 871,
+    "material": "concreto leve com fibra de papelao reciclado (cardboard) e macro-fibra de polipropileno — mistura W06 (6 kg/m3 cardboard)",
+    "fck_mpa": 29.8,
+    "co2_kg_m3": 267,
+    "co2_original": "267 kg CO2-eq/m3 (unidade nao confirmada visualmente nesta sessao — herdada de leitura de figura anterior)",
+    "co2_original_local": "Fig. 17 (p.13), 'Comparative evaluation on the estimated global warming potential' — rotulos impressos sobre as barras, per extracao anterior (E2 2026-08-24), nao re-confirmado visualmente nesta sessao"
+   },
+   {
+    "sheet_row": 872,
+    "material": "concreto leve com fibra de papelao reciclado (cardboard) e macro-fibra de polipropileno — mistura W12 (12 kg/m3 cardboard)",
+    "fck_mpa": 20.7,
+    "co2_kg_m3": 268,
+    "co2_original": "268 kg CO2-eq/m3 (unidade nao confirmada visualmente nesta sessao — herdada de leitura de figura anterior)",
+    "co2_original_local": "Fig. 17 (p.13), 'Comparative evaluation on the estimated global warming potential' — rotulos impressos sobre as barras, per extracao anterior (E2 2026-08-24), nao re-confirmado visualmente nesta sessao"
+   }
+  ]
+ },
+ {
+  "row_id": 3162,
+  "autor": "Spagnuolo, Simone and Meda, Alberto",
+  "titulo": "Precast CSA-based concrete tunnel lining segments reinforced with GFRP\nbars: Challenges and opportunities",
+  "pdf": "SPAGNUOLO et al., 2024 - j.conbuildmat.2024.136007.pdf",
+  "fileId": "1f1b1JihIwmWTJaFYvdK-8MQmtVRex398",
+  "resultado_anterior": "lotes_etapas/resultado_lote11.json",
+  "nota_anterior": "Reler Fig.16 (p.12) e Tab.9 com recorte: ver se a figura separa A1/A2/A3/A4 por componente do segmento.",
+  "pares": [
+   {
+    "sheet_row": 1935,
+    "material": "Aduela CSA/GFRP - so a coluna 'Concrete' (betao A-CSA-CEM II, sem armadura)",
+    "fck_mpa": 57,
+    "co2_kg_m3": 289.5,
+    "co2_original": "385 kg CO2eq/segmento (coluna Concrete)",
+    "co2_original_local": "Tabela 9 (p.12)"
+   },
+   {
+    "sheet_row": 1936,
+    "material": "Aduela OPC/Steel - so a coluna 'Concrete' (betao CEM IV pozolanico, sem armadura)",
+    "fck_mpa": 48,
+    "co2_kg_m3": 297.7,
+    "co2_original": "396 kg CO2eq/segmento (coluna Concrete)",
+    "co2_original_local": "Tabela 9 (p.12)"
+   }
+  ]
+ },
+ {
+  "row_id": 3178,
+  "autor": "Luo, Wenjie and Liu, Shu and Jiang, Yuan and Guan, Xiwen and Hu, Yunfeng\nand Hu,",
+  "titulo": "Utilisation of dewatered extracted soil in concrete blocks produced with\nPortland cement or alkali-activated slag: Engineering properties and\nsustainability",
+  "pdf": "LUO et al., 2021 - j.cscm.2021.e00760.pdf",
+  "fileId": "19Vtis9-VavIi3yMtYNHLI4A3mdzXwPEZ",
+  "resultado_anterior": "lotes_etapas/resultado_lote11.json",
+  "nota_anterior": "Fig.14 (p.12) deve dar GWP por fase I/II/III de OPCCB (C30) e AASCB (A20); reler com recorte.",
+  "pares": [
+   {
+    "sheet_row": 887,
+    "material": "bloco de concreto com solo extraido de escavacao (DES) substituindo areia, ligante OPC (OPCCB), traco optimo C30 (30% DES)",
+    "fck_mpa": 21.94,
+    "co2_kg_m3": 559.6894,
+    "co2_original": "25,51 kg CO2-eq/(m3.MPa) (indice CII, OPCCB C30)",
+    "co2_original_local": "p.13, Tabela 5 (Intensity indices), coluna OPCCB (C30), linha CII"
+   },
+   {
+    "sheet_row": 888,
+    "material": "bloco de concreto com solo extraido de escavacao (DES) substituindo areia, ligante alcali-ativado de escoria (AASCB), traco optimo A20 (20% DES)",
+    "fck_mpa": 50.13,
+    "co2_kg_m3": 483.2532,
+    "co2_original": "9,64 kg CO2-eq/(m3.MPa) (indice CII, AASCB A20)",
+    "co2_original_local": "p.13, Tabela 5 (Intensity indices), coluna AASCB (A20), linha CII"
+   }
+  ]
+ },
+ {
+  "row_id": 3187,
+  "autor": "Yu, Yong and Zhao, Xinyu and Xie, Tianyu and Wang, Xiaolu",
+  "titulo": "Eco-, economic- and mechanical- efficiencies of using precast rejects as\ncoarse aggregates in self-compacting concrete",
+  "pdf": "YU et al., 2022 - j.cscm.2022.e01591.pdf",
+  "fileId": "1ml8lShLzHIzaqy-umZloi-Xzl9ax8tR6",
+  "resultado_anterior": "lotes_etapas/resultado_lote12.json",
+  "nota_anterior": "Download do PDF fez cair a ligacao do Drive; lido por read_file_content (texto completo). Fig.5 e apendice (Tabelas B-D) nao vistos; refazer so para confirmar se Fig.5 separa transporte.",
+  "pares": [
+   {
+    "sheet_row": 896,
+    "material": "betao auto-compactavel (SCC) com agregado graudo reciclado de rejeitados de pre-fabricacao (PRA/CRA) e fly ash, mistura M1 (N0.3-0-0.3-20-C, w/b=0.3, 100%NCA)",
+    "fck_mpa": 53.5,
+    "co2_kg_m3": 440.5,
+    "co2_original": "440.5 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de betao (Tabela 3, \"for producing 1 m3 concrete\") -- valor nao alterado]",
+    "co2_original_local": "p.7, Tabela 3, coluna CO2-eq (Abs), linha M1 (N0.3-0-0.3-20-C, w/b=0.3, 100%NCA)"
+   },
+   {
+    "sheet_row": 897,
+    "material": "betao auto-compactavel (SCC) com agregado graudo reciclado de rejeitados de pre-fabricacao (PRA/CRA) e fly ash, mistura M2 (N0.4-0-0.3-20-C, w/b=0.4, 100%NCA)",
+    "fck_mpa": 44.3,
+    "co2_kg_m3": 411.6,
+    "co2_original": "411.6 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de betao (Tabela 3, \"for producing 1 m3 concrete\") -- valor nao alterado]",
+    "co2_original_local": "p.7, Tabela 3, coluna CO2-eq (Abs), linha M2 (N0.4-0-0.3-20-C, w/b=0.4, 100%NCA)"
+   },
+   {
+    "sheet_row": 898,
+    "material": "betao auto-compactavel (SCC) com agregado graudo reciclado de rejeitados de pre-fabricacao (PRA/CRA) e fly ash, mistura M19 (P0.4-0.5-0-20-C, sem fly ash)",
+    "fck_mpa": 48.3,
+    "co2_kg_m3": 543.6,
+    "co2_original": "543.6 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de betao (Tabela 3, \"for producing 1 m3 concrete\") -- valor nao alterado]",
+    "co2_original_local": "p.7, Tabela 3, coluna CO2-eq (Abs), linha M19 (P0.4-0.5-0-20-C, sem fly ash)"
+   },
+   {
+    "sheet_row": 899,
+    "material": "betao auto-compactavel (SCC) com agregado graudo reciclado de rejeitados de pre-fabricacao (PRA/CRA) e fly ash, mistura M22 (P0.4-0.5-0.6-20-C, 60% fly ash)",
+    "fck_mpa": 23,
+    "co2_kg_m3": 248.3,
+    "co2_original": "248.3 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de betao (Tabela 3, \"for producing 1 m3 concrete\") -- valor nao alterado]",
+    "co2_original_local": "p.7, Tabela 3, coluna CO2-eq (Abs), linha M22 (P0.4-0.5-0.6-20-C, 60% fly ash)"
+   },
+   {
+    "sheet_row": 900,
+    "material": "betao auto-compactavel (SCC) com agregado graudo reciclado de rejeitados de pre-fabricacao (PRA/CRA) e fly ash, mistura M25 (P0.4-0.5-0.3-90-C, cura 90 C)",
+    "fck_mpa": 52.4,
+    "co2_kg_m3": 422.3,
+    "co2_original": "422.3 kg CO2-eq/m3 [RELABEL 2026-09-13: unidade original ja e por 1m3 de betao (Tabela 3, \"for producing 1 m3 concrete\") -- valor nao alterado]",
+    "co2_original_local": "p.7, Tabela 3, coluna CO2-eq (Abs), linha M25 (P0.4-0.5-0.3-90-C, cura 90 C)"
+   }
+  ]
+ },
+ {
+  "row_id": 3212,
+  "autor": "Wu, Huanyu and Zhou, Wenwen and Bao, Zhikang and Long, Wujian and Chen,\nKunyang ",
+  "titulo": "Life cycle assessment of carbon emissions for cross-sea tunnel: A case\nstudy of Shenzhen-Zhongshan Bridge and Tunnel in China",
+  "pdf": "WU et al., 2024 - j.cscm.2024.e03502.pdf",
+  "fileId": "1f23EEi0ZF57J2_sWVgvD-E60zEaP1cIA",
+  "resultado_anterior": "lotes_etapas/resultado_lote12.json",
+  "nota_anterior": "Fig.5(a) (transporte por material) nao vista; pode conter A4 do betao no total do projecto, ainda assim nao por classe.",
+  "pares": [
+   {
+    "sheet_row": 924,
+    "material": "concreto classe C50 (norma chinesa GB) usado na estrutura do tunel submarino",
+    "fck_mpa": 50,
+    "co2_kg_m3": 403.38,
+    "co2_original": "58.0 kilotons CO2eq (classe C50, projecto inteiro)",
+    "co2_original_local": "texto p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 kilotons CO2eq, 0.35 ..., 32.7 ..., 10.8 ..., 1.3 ... and 1.7 kilotons CO2eq, respectively'"
+   },
+   {
+    "sheet_row": 1986,
+    "material": "betao classe C40 (GB/T, estanque) do tunel imerso Shenzhen-Zhongshan - fase de materializacao",
+    "fck_mpa": 40,
+    "co2_kg_m3": 322.14,
+    "co2_original": "0.35 kilotons CO2eq (classe C40, projecto inteiro)",
+    "co2_original_local": "texto p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 kilotons CO2eq, 0.35 ..., 32.7 ..., 10.8 ..., 1.3 ... and 1.7 kilotons CO2eq, respectively'"
+   },
+   {
+    "sheet_row": 1987,
+    "material": "betao classe C35 (GB/T, estanque) do tunel imerso Shenzhen-Zhongshan - fase de materializacao",
+    "fck_mpa": 35,
+    "co2_kg_m3": 292.45,
+    "co2_original": "32.7 kilotons CO2eq (classe C35, projecto inteiro)",
+    "co2_original_local": "texto p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 kilotons CO2eq, 0.35 ..., 32.7 ..., 10.8 ..., 1.3 ... and 1.7 kilotons CO2eq, respectively'"
+   },
+   {
+    "sheet_row": 1988,
+    "material": "betao classe C30 (GB/T, estanque) do tunel imerso Shenzhen-Zhongshan - fase de materializacao",
+    "fck_mpa": 30,
+    "co2_kg_m3": 273.29,
+    "co2_original": "10.8 kilotons CO2eq (classe C30, projecto inteiro)",
+    "co2_original_local": "texto p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 kilotons CO2eq, 0.35 ..., 32.7 ..., 10.8 ..., 1.3 ... and 1.7 kilotons CO2eq, respectively'"
+   },
+   {
+    "sheet_row": 1989,
+    "material": "betao classe C25 (GB/T, estanque) do tunel imerso Shenzhen-Zhongshan - fase de materializacao",
+    "fck_mpa": 25,
+    "co2_kg_m3": 243.04,
+    "co2_original": "1.3 kilotons CO2eq (classe C25, projecto inteiro)",
+    "co2_original_local": "texto p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 kilotons CO2eq, 0.35 ..., 32.7 ..., 10.8 ..., 1.3 ... and 1.7 kilotons CO2eq, respectively'"
+   },
+   {
+    "sheet_row": 1990,
+    "material": "betao classe C20 (GB/T, estanque) do tunel imerso Shenzhen-Zhongshan - fase de materializacao",
+    "fck_mpa": 20,
+    "co2_kg_m3": 211.45,
+    "co2_original": "1.7 kilotons CO2eq (classe C20, projecto inteiro)",
+    "co2_original_local": "texto p.10: 'C50, C40, C35, C30, C25, and C20 concrete contribute 58.0 kilotons CO2eq, 0.35 ..., 32.7 ..., 10.8 ..., 1.3 ... and 1.7 kilotons CO2eq, respectively'"
+   }
+  ]
+ },
+ {
+  "row_id": 3225,
+  "autor": "Zhilu Jiang and Kuan Lu and Mok Limdevit and Chuanqing Fu and Yifeng Ling and Bi",
+  "titulo": "Influence of durability properties on life-cycle carbon reduction of low-carbon mortar with similar compressive strength",
+  "pdf": "JIANG et al., 2025 - j.cscm.2025.e04558.pdf",
+  "fileId": "1yXvpcEi2KLs3LQ1LptmZyzGM6xx4Dd-Q",
+  "resultado_anterior": "lotes_etapas/resultado_lote13.json",
+  "nota_anterior": "Download do PDF (7 MB) fez cair a ligacao do Drive; Tab.8 e Fig.14 lidas so no texto extraido. Refazer com recorte (Tab.8 p.17, Fig.14) para confirmar colunas e decidir A2 (12,7 de transporte de materiais cimenticios).",
+  "pares": [
+   {
+    "sheet_row": 935,
+    "material": "argamassa de baixo carbono (PC, CSA, LC3, CSA-C, AAS) selecionadas para igual classe de resistencia",
+    "fck_mpa": "~65 (classe alvo declarada para as 5 misturas na selecao; valores medidos individuais estao na Fig.3, nao lidos)",
+    "co2_kg_m3": 611.7,
+    "co2_original": "PC:611.7; CSA:513.4; LC3:385.2; CSA-C:338.3; AAS:176.7 kgCO2eq/m3 de argamassa",
+    "co2_original_local": "p.14-15, Tabela 8"
+   }
+  ]
+ }
+]

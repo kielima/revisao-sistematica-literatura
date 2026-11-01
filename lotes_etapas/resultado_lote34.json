@@ -1,0 +1,125 @@
+[
+ {
+  "row_id": 4997,
+  "pares": [
+   {
+    "sheet_row": 28,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 271.9,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.155-162 (Sec. Unidade funcional e fronteiras; Fig.7 e texto p.162)",
+    "citacao": "Esta analise do ciclo de vida ignora o transporte e a extracao de materias-primas comum, bem como as etapas de aplicacao do concreto (transporte, lancamento, compactacao e cura)",
+    "nota": "Cradle-to-gate: producao de cimento (CP II-E), operacao da fabrica, moagem da escoria, agregados e mistura = A1-A3 agregado (271,9; igual ao valor gravado). A4 = 0 (excluida: transporte do concreto declarado fora). A2 deixado em branco: o texto exclui 'transporte e extracao de materias-primas comum' aos dois concretos, sem dizer se o transporte do cimento esta fora (ambiguo). Fig.7 e grafico de barras por processo sem rotulos legiveis na extracao (so 9,3 visivel); nao mapeado a etapas."
+   },
+   {
+    "sheet_row": 29,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 75.1,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.155-162 (Sec. Unidade funcional e fronteiras; Fig.8 e texto p.162)",
+    "citacao": "o concreto geopolimerico emite um total de 75,1 kg de CO2/m3",
+    "nota": "Mesma fronteira cradle-to-gate: metacaulim, NaOH, silicato de sodio, agregados e mistura = A1-A3 agregado (75,1). A4 = 0 (excluida). A2 em branco (ambiguo, ver par 28). Fig.8 por processo sem rotulos numericos utilizaveis."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Artigo Ambiente Construido 14(2) 2014 (o 'Title' interno da revista e lixo de gabarito; corpo confere). Figuras 5-8 nao renderizadas como imagem; sem etapas numericas por A1/A2/A3."
+ },
+ {
+  "row_id": 5011,
+  "pares": [
+   {
+    "sheet_row": 31,
+    "co2_a1": 446,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "n/a",
+    "local": "Apendice D (p.157), tabela 'Argamassa de alta resistencia', traco 10% SAND [2], coluna Total (materiais) = 446; Total (materiais+producao+transporte) = 463",
+    "citacao": "Materiais sem impacto do transporte para consumo final (cabecalho Apendice D)",
+    "nota": "A1 = 446 kg CO2eq/m3: impacto dos materiais (extracao+producao) sem transporte, IPCC 2013 100a. Os restantes 17 kg (463-446; 3,7%) juntam producao na fabrica de argamassa industrializada + transporte dos materiais ate a fabrica + transporte da argamassa 25 km ate ao ponto de uso, sem separar A2/A3/A4 por traco: ficam em branco. O Apendice D da fator de producao 10,69 kg CO2eq/m3 de argamassa industrializada (nao atribuido a A3 por ser fator generico do material, nao resultado do traco). ATENCAO: material e argamassa de alta resistencia (nao concreto) e o texto da fronteira diz 'berco-ao-portao ou berco-ao-canteiro'. Gravado 463 = total das tres parcelas (bate com Apendice D)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tese UFES 2018; read_file_content truncou, lido por download+pdftotext integral. Apendice D lido por texto da tabela."
+ },
+ {
+  "row_id": 5012,
+  "pares": [
+   {
+    "sheet_row": 32,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 286.37,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.115, Tab.2 (artigo anexo; Tab.2/3 da tese p.~38) e Sec. 3.1 Determinacao do Tipo de ACV",
+    "citacao": "foram desconsideradas as etapas de extracao de materias-primas e seu transporte, bem como o transporte, lancamento, compactacao e cura do concreto",
+    "nota": "Total por constituinte (cimento 272,00; areia 2,20; brita 8,91; aditivo 3,16; agua 0,10 = 286,37, soma conferida). Por constituinte nao e por etapa (regra 2): fica como A1-A3 agregado (producao dos materiais+mistura, cradle-to-gate). A2 = 0 e A4 = 0 por exclusao explicita do transporte de materias-primas e do transporte do concreto. Valor com a extracao de materias-primas tambem desconsiderada, segundo o texto. Contradicao menor: Sec. 1 diz que ACV cobre extracao, transporte e aplicacao 'de forma igualitaria', logo dispensaveis."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Dissertacao UFPB (14,9 MB) lida via read_file_content (257k chars); tabelas em texto, figuras nao vistas."
+ },
+ {
+  "row_id": 5018,
+  "pares": [
+   {
+    "sheet_row": 43,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.91-98 Tab.5, Fig.17 e Fig.24; texto Sec. Resultados GWP; Tab.16 Apendice E",
+    "citacao": "a producao de concreto usinado 25 MPa contribui com 40,1% dos impactos",
+    "nota": "Artigo da cradle-to-handover (A1-A5, BS EN 15978). So ha total da estrutura (48.485,13 kg CO2eq) e contribuicao por material em Fig.17 (concreto usinado 40,1%, aco, madeira, transporte sem rotulos numericos), nao por etapa A1-A4. O valor gravado 214,9 = 40,1% x 48.485,13 / ~90,5 m3: 40,1% x 48.485,13 = 19.442,5 kg e o divisor de ~90,5 m3 nao foi localizado (soma do concreto usinado nos 6 processos = 98,0 m3 daria 198,4, -7,7%): valor_gravado_nao_localizado quanto ao divisor. O 40,1% e do concreto usinado (producao+insumos), transporte do concreto (t.km) e insumo separado (A4-A5) mas sem valor impresso. Pares do concreto incluem aco/formas no total da estrutura."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Dissertacao UFSCar; read_file_content truncou no cap.3; lido por download+pdftotext integral. Fig.17 sem rotulos numericos legiveis em texto."
+ },
+ {
+  "row_id": 5052,
+  "pares": [
+   {
+    "sheet_row": 2084,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.96 Tab.18; p.99 Fig.22; Sec. Fronteira do sistema (Fig.12)",
+    "citacao": "A fronteira do sistema deste estudo e do berco a entrega",
+    "nota": "Fronteira berco-a-entrega (A1-A5). Resultados so por etapa construtiva (fundacao 49,9 kg CO2eq/m2) e por material (Fig.22: concreto 65% a 77%, aco 31%), nao por modulo A1-A4. Transporte dos materiais incluido (Ecoinvent market + transportes ate ao canteiro) mas nao separado. Valor gravado 295 derivado (quota do concreto/area/volume) nao verificavel por etapas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Dissertacao Unicamp; texto integral lido; Fig.22 e grafico de contribuicao por material sem rotulos numericos."
+ }
+]

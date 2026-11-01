@@ -1,0 +1,29 @@
+[
+{"row_id":4847,"pares":[
+{"sheet_row":1819,"co2_a1":325.74,"co2_a2":38.57,"co2_a3":0.67,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"publicado","soma_confere":"sim","local":"p.12, Tab.6, case 2 (24 MPa), coluna This Study","citacao":"","nota":"raw material=A1, transportation=A2 (Eq.2: transporte das materias-primas ate a central, 3.4.2), manufacturing=A3. Soma 364.98 vs total 364.99/364.9 gravado. A4 fora da fronteira (cradle-to-gate). Tabela extraida em texto: coluna COOL (raw 364.15, manuf 0.12) nao usada."},
+{"sheet_row":1820,"co2_a1":324.81,"co2_a2":39.21,"co2_a3":1.34,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"publicado","soma_confere":"sim","local":"p.12, Tab.6, case 3 (30 MPa), coluna This Study","citacao":"","nota":"Soma 365.36 vs gravado 365.4. A2 = transporte das materias-primas; A4 nao incluido."}
+],"texto_completo_lido":true,"figuras_vistas":false,"refazer_com_recorte":false,"nota_estudo":"Tab.6 da leitura de texto; Fig.6 (barras) nao renderizada mas a Tab.6 da os valores numericos."},
+{"row_id":4849,"pares":[
+{"sheet_row":1821,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"p.10-11, Tab.6","citacao":"","nota":"Tab.6 so da GWP100 total (345). Distancias/transporte so em Monte Carlo (media control 358.24 materiais+transporte; transporte medio SFMKPMB 3.94), outro valor e outra base - nao usados. Fronteira descrita como incluindo distribuicao ao local da obra mas total nao separado."},
+{"sheet_row":1822,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"p.10-11, Tab.6","citacao":"","nota":"Idem; total 315 sem etapas."},
+{"sheet_row":1823,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"p.10-11, Tab.6","citacao":"","nota":"Idem; total 304. Transporte medio MC 3.94 kg/m3 (p.15 conclusoes) e simulacao, nao etapa do valor gravado."}
+],"texto_completo_lido":true,"figuras_vistas":false,"refazer_com_recorte":true,"nota_estudo":"Figs.9 e 11 (barras material/transporte MC) nao vistas; mesmo vistas seriam simulacao, nao o valor da Tab.6."},
+{"row_id":4855,"pares":[
+{"sheet_row":1824,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"p.9-10, Figs.5-6","citacao":"","nota":"Tab.3 so da total GWP20 (902.72 kg para 3411.38 m3). Figs.5/6 dao contribuicao percentual por processo (cimento, transporte, diesel...) sem rotulos numericos; nao e divisao por etapas EN 15804. Valor gravado 264.62 = 902.72x1000/3411.38 (suspeita de escala dos autores)."},
+{"sheet_row":1825,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"p.9-10, Fig.6","citacao":"","nota":"Idem NAC (931.91)."}
+],"texto_completo_lido":true,"figuras_vistas":false,"refazer_com_recorte":false,"nota_estudo":"Sem valores por etapa; so percentagens em figuras de empilhado por processo."},
+{"row_id":4930,"pares":[
+{"sheet_row":1835,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"p.4, Tab.2","citacao":"","nota":"Factor unico de EPD coreana (cradle-to-gate/product stage) sem separacao por etapa. Valor gravado 259 e o da linha 'Rebar' (linhas Concrete 3,532 / Rebar 259 estao trocadas, segundo nota anterior) - sem verificacao figura; unidade da Tab.2 nao totalmente legivel (kg CO2-eq/m3 vs t)."}
+],"texto_completo_lido":true,"figuras_vistas":false,"refazer_com_recorte":false,"nota_estudo":"Sem etapas A1-A4 separadas."},
+{"row_id":4942,"pares":[
+{"sheet_row":599,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"p.11, Tab.4","citacao":"","nota":"Tab.4 so GWP100 total (x10^2). Transporte so discutido qualitativamente (Fig. de efeito da distancia sem rotulos lidos)."},
+{"sheet_row":600,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"p.11, Tab.4","citacao":"","nota":"Idem."},
+{"sheet_row":601,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"p.11, Tab.4","citacao":"","nota":"Idem."}
+],"texto_completo_lido":true,"figuras_vistas":false,"refazer_com_recorte":false,"nota_estudo":"Cradle-to-gate, sem decomposicao numerica por etapa."},
+{"row_id":4989,"pares":[
+{"sheet_row":23,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"Fig.3 (p.6020)","citacao":"","nota":"Fig.3 inclui transporte central-obra (120 tkm, 50 km, Sec.3.3) mas o texto nao da valores por etapa; so ler por pixel se a figura tiver segmentos por etapa EN 15804 (nao verificado)."},
+{"sheet_row":24,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"Fig.3","citacao":"","nota":"Idem."},
+{"sheet_row":25,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"Fig.3","citacao":"","nota":"Idem."},
+{"sheet_row":26,"co2_a1":null,"co2_a2":null,"co2_a3":null,"co2_a4":null,"co2_a1a3_agregado":null,"etapas_tipo":"nao_publicado","soma_confere":"n/a","local":"Fig.3","citacao":"","nota":"Idem."}
+],"texto_completo_lido":true,"figuras_vistas":false,"refazer_com_recorte":true,"nota_estudo":"Texto completo lido; A4 existe no modelo (50 km) mas Fig.3 nao vista - reler com recorte p.6020 para ver se ha segmento de transporte legivel."}
+]

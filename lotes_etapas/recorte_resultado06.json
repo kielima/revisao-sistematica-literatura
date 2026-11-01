@@ -1,0 +1,355 @@
+[
+ {
+  "row_id": 3802,
+  "pares": [
+   {
+    "sheet_row": 1096,
+    "co2_a1": 449.8,
+    "co2_a2": 6.785,
+    "co2_a3": 14.48,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.22, Tab.5, coluna Climate change EN15804+A2 (e Sec. LCA p.21: A1-A3); Fig.10-11 p.9-10 (fronteira) vistas",
+    "citacao": "cradle-to-gate analysis covering A1 (Raw material), A2 (Transport), and A3 (Manufacturing)",
+    "nota": "Tabela em kg CO2 eq por m2 de pavimento (25 blocos 200x200x60 mm = 0,06 m3); convertido dividindo por 0,06 m3/m2 (mesma conta do valor gravado 28,2969/0,06=471,6). Colunas da tabela: Raw material supply=A1, Transport to Factory=A2, Manufacturing=A3 (texto: 'A1 (Raw material), A2 (Transport), A3 (Manufacturing)'). Coluna extra 'Landfilling of ceramic waste' = 0.0329 kg/m2 (0.55 kg/m3) nao e A1-A3 e fica fora das colunas. Soma A1+A2+A3 = 471,07 vs gravado 471,62 (o gravado e o total incl. landfill). A4 nao incluido (cradle-to-gate A1-A3). Recorte relido (Fig.10-11 e Tab.5-6 renderizadas): Tab.5/6 confirmam colunas Raw material supply / Transport to Factory / Manufacturing; Fig.11 mostra so transporte de materias-primas (cimento 65,4 km, agregados 18,7 km, CWP 42,3 km) e nao transporte do betao a obra, logo A4 em branco."
+   },
+   {
+    "sheet_row": 1097,
+    "co2_a1": 359.53,
+    "co2_a2": 6.613,
+    "co2_a3": 14.48,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.23, Tab.6, coluna Climate change EN15804+A2 (e Sec. LCA p.21: A1-A3); Fig.10-11 p.9-10 (fronteira) vistas",
+    "citacao": "cradle-to-gate analysis covering A1 (Raw material), A2 (Transport), and A3 (Manufacturing)",
+    "nota": "Tabela em kg CO2 eq por m2 de pavimento (25 blocos 200x200x60 mm = 0,06 m3); convertido dividindo por 0,06 m3/m2 (mesma conta do valor gravado 28,2969/0,06=471,6). Colunas da tabela: Raw material supply=A1, Transport to Factory=A2, Manufacturing=A3 (texto: 'A1 (Raw material), A2 (Transport), A3 (Manufacturing)'). Coluna extra 'Landfilling of ceramic waste' = -0.0329 kg/m2 (-0.55 kg/m3) nao e A1-A3 e fica fora das colunas. Total da tabela 22,8042/0,06=380,07; o gravado 380,62 = A1+A2+A3 (sem o credito de landfill evitado -0,0329). Inconsistencia de tratamento entre os dois pares, so assinalada. A4 nao incluido (cradle-to-gate A1-A3). Recorte relido (Fig.10-11 e Tab.5-6 renderizadas): Tab.5/6 confirmam colunas Raw material supply / Transport to Factory / Manufacturing; Fig.11 mostra so transporte de materias-primas (cimento 65,4 km, agregados 18,7 km, CWP 42,3 km) e nao transporte do betao a obra, logo A4 em branco."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tab.5 e 6 e Fig.10-11 renderizadas no recorte; valores por m2 convertidos por 0,06 m3/m2; sem A4 (cradle-to-gate)."
+ },
+ {
+  "row_id": 4251,
+  "pares": [
+   {
+    "sheet_row": 1238,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5-6 Fig.3; p.8 Fig.5; p.9 Fig.6-7",
+    "citacao": "The considered system boundary corresponds to a cradle-to-gate scenario.",
+    "nota": "Recorte p.5-11 renderizado (Fig.3 fronteira, Fig.5, Fig.6, Fig.7). Fig.3: fronteira cradle-to-gate sem rotulos A1-A3; Fig.5: barra empilhada por ingrediente (climate change ~87% cimento, ~8% agregado grosso, ~5% fino; sem rotulos numericos, so material). Fig.6 e Fig.7: GWP total por m3 sem rotulos por etapa. Etapas EN 15804 nao publicadas; contribuicao por material nao e etapa (regra 2). valor_gravado_nao_localizado: Fig.6 (sem rotulos) mostra o ponto da mistura tradicional ~335 e o da RHA ~318 kg CO2-eq/m3 por pixel; o gravado 334,1 parece corresponder ao ponto do betao tradicional, nao ao da RHA (a conferir pela E2). Resultado com credito de carbono biogenico (liquido)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Figuras 3, 5, 6 e 7 vistas: nenhuma traz valores por etapa A1-A4; so contribuicao por ingrediente."
+ },
+ {
+  "row_id": 4416,
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 185,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   },
+   {
+    "sheet_row": 1337,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 205.9,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   },
+   {
+    "sheet_row": 1338,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 204.5,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   },
+   {
+    "sheet_row": 1339,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 237,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   },
+   {
+    "sheet_row": 1340,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 319.6,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   },
+   {
+    "sheet_row": 1341,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 326.1,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   },
+   {
+    "sheet_row": 1342,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 356.4,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   },
+   {
+    "sheet_row": 1343,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 385.4,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   },
+   {
+    "sheet_row": 1344,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 265.6,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   },
+   {
+    "sheet_row": 1345,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 292.6,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.2.1 (dados extraidos dos EPD: GWP modulos A1-A3); p.16 Fig.5",
+    "citacao": "the embodied GWP (modules A1-A3), the biogenic carbon, and the EoL GWP (modules C3-C4)",
+    "nota": "Valor = media (ponto branco) da caixa da Fig.5 do GWP fossil por classe de resistencia cubica, compilacao de EPDs europeias que declaram GWP dos modulos A1-A3 (so agregado). Sem A1, A2, A3, A4 separados. Fig.5 renderizada: box plot sem etapas. co2_a1a3_agregado = co2_kg_m3 gravado; fica por confirmar que cada EPD da amostra e A1-A3 (o artigo diz-o na Sec.2 de forma geral)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.10-20 lido (texto extraivel) e Fig.5 renderizada; EPDs agregam A1-A3, sem etapas."
+ },
+ {
+  "row_id": 4493,
+  "pares": [
+   {
+    "sheet_row": 1452,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 1181.5,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "n/a",
+    "local": "p.8 Fig.2 (Climate Footprint GWI, anel interior: A1-A3 85%, A4-A5 1%, B1-B4 4%, C1-C3 10%); p.7 Tab.2",
+    "citacao": "The production phase (A1 to A3) has a significantly higher percentage contribution of over 80%.",
+    "nota": "Derivado: 85% (Fig.2, rotulo) x 1390 kg CO2-eq/m3 = 1181,5; A1-A3 agregado. A4-A5 = 1% aparece agregado (A4+A5), nunca A4 isolado, logo A4 em branco (regra 7). Total gravado 1390 e A1-C3 (ciclo completo); soma das percentagens 85+1+4+10=100%."
+   },
+   {
+    "sheet_row": 1453,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7 Tab.2",
+    "citacao": "",
+    "nota": "Valor gravado 611 e A1-C3. So total na Tab.2; percentagens por fase do SC nao impressas no texto (apenas Fig.2, nao vista). A4-A5 agrupados. Fig.2 so mostra o carbon concrete; Fig.3 (p.9) mostra totais por ponte (SCB 15.605 kg) com camadas A1-A3/A4-A5/B/C sem rotulos numericos por m3: nada publicado para SC."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.2 (rotulos %) permitiu A1-A3 agregado do CC; SC sem percentagens por fase; Fig.3 so totais por ponte."
+ },
+ {
+  "row_id": 4505,
+  "pares": [
+   {
+    "sheet_row": 1473,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9 Fig.4; p.16 Fig.7",
+    "citacao": "",
+    "nota": "Cradle-to-gate (Fig.4 p.9): producao de cimento, agregados, agua e fibras; sem transporte nem outras etapas descritas. Resultado so como GWP total por m3 (Fig.7 p.16, sem rotulos por etapa); sem A1/A2/A3/A4 publicados. Valores gravados sao derivados de % do texto (38 kg = 14,39%). Recorte pp.14-19 renderizado: Fig.7 e percentagens relativas (CR=100%) por categoria, sem valores absolutos nem etapas; Fig.8 (lathe waste) so contribuicao por material (cimento, agua, agregados, fibras). Sem etapas EN 15804."
+   },
+   {
+    "sheet_row": 1474,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9 Fig.4; p.16 Fig.7",
+    "citacao": "",
+    "nota": "Cradle-to-gate (Fig.4 p.9): producao de cimento, agregados, agua e fibras; sem transporte nem outras etapas descritas. Resultado so como GWP total por m3 (Fig.7 p.16, sem rotulos por etapa); sem A1/A2/A3/A4 publicados. Valores gravados sao derivados de % do texto (38 kg = 14,39%). Recorte pp.14-19 renderizado: Fig.7 e percentagens relativas (CR=100%) por categoria, sem valores absolutos nem etapas; Fig.8 (lathe waste) so contribuicao por material (cimento, agua, agregados, fibras). Sem etapas EN 15804."
+   },
+   {
+    "sheet_row": 1475,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.16 Fig.7",
+    "citacao": "",
+    "nota": "Cradle-to-gate (Fig.4 p.9): producao de cimento, agregados, agua e fibras; sem transporte nem outras etapas descritas. Resultado so como GWP total por m3 (Fig.7 p.16, sem rotulos por etapa); sem A1/A2/A3/A4 publicados. Valores gravados sao derivados de % do texto (38 kg = 14,39%). ATENCAO: valor_gravado_nao_localizado: gravado 240, co2_original diz ~225,8. Recorte pp.14-19 renderizado: Fig.7 e percentagens relativas (CR=100%) por categoria, sem valores absolutos nem etapas; Fig.8 (lathe waste) so contribuicao por material (cimento, agua, agregados, fibras). Sem etapas EN 15804."
+   },
+   {
+    "sheet_row": 2068,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.16 Fig.7",
+    "citacao": "",
+    "nota": "Cradle-to-gate (Fig.4 p.9): producao de cimento, agregados, agua e fibras; sem transporte nem outras etapas descritas. Resultado so como GWP total por m3 (Fig.7 p.16, sem rotulos por etapa); sem A1/A2/A3/A4 publicados. Valores gravados sao derivados de % do texto (38 kg = 14,39%). Recorte pp.14-19 renderizado: Fig.7 e percentagens relativas (CR=100%) por categoria, sem valores absolutos nem etapas; Fig.8 (lathe waste) so contribuicao por material (cimento, agua, agregados, fibras). Sem etapas EN 15804."
+   },
+   {
+    "sheet_row": 2069,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.16 Fig.7",
+    "citacao": "",
+    "nota": "Cradle-to-gate (Fig.4 p.9): producao de cimento, agregados, agua e fibras; sem transporte nem outras etapas descritas. Resultado so como GWP total por m3 (Fig.7 p.16, sem rotulos por etapa); sem A1/A2/A3/A4 publicados. Valores gravados sao derivados de % do texto (38 kg = 14,39%). Recorte pp.14-19 renderizado: Fig.7 e percentagens relativas (CR=100%) por categoria, sem valores absolutos nem etapas; Fig.8 (lathe waste) so contribuicao por material (cimento, agua, agregados, fibras). Sem etapas EN 15804."
+   },
+   {
+    "sheet_row": 2070,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.16 Fig.7",
+    "citacao": "",
+    "nota": "Cradle-to-gate (Fig.4 p.9): producao de cimento, agregados, agua e fibras; sem transporte nem outras etapas descritas. Resultado so como GWP total por m3 (Fig.7 p.16, sem rotulos por etapa); sem A1/A2/A3/A4 publicados. Valores gravados sao derivados de % do texto (38 kg = 14,39%). Recorte pp.14-19 renderizado: Fig.7 e percentagens relativas (CR=100%) por categoria, sem valores absolutos nem etapas; Fig.8 (lathe waste) so contribuicao por material (cimento, agua, agregados, fibras). Sem etapas EN 15804."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.7 e 8 renderizadas: sem etapas A1-A4, so por material/percentagem."
+ },
+ {
+  "row_id": 4511,
+  "pares": [
+   {
+    "sheet_row": 1478,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5 Sec.3.1.3; p.14 Sec.4.1 e Fig.6",
+    "citacao": "for every 1 m3 of H-0 concrete produced, of the 300.41 kg of total CO2 emitted, 274.67 kg of CO2 is contributed by the cement.",
+    "nota": "Boundary (Sec.3.1.3 p.5, Fig.1): A1 extraccao das materias-primas, A2 transporte interno, A3 producao do betao, mas resultados nao sao dados por estas etapas: so GWP total e a contribuicao do cimento (274,67 de 300,41 kg CO2 em H-0; 91,4%), que e resultado por material e nao A1 (regra 2). Fig.6 (percentagens por materia-prima, incluindo transporte e mistura, relativas a H-0=100%) nao renderizada. Recorte pp.12-16 renderizado: Fig.6 traz percentagens por materia-prima (cimento 91,4% do GWP em H-0; agregados; RCA; agua; mixing) relativas a H-0=100%, nao etapas EN 15804; transporte nao separado. Contribuicao por material nao e A1 (regra 2)."
+   },
+   {
+    "sheet_row": 1479,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13 Sec.4.1",
+    "citacao": "",
+    "nota": "Boundary (Sec.3.1.3 p.5, Fig.1): A1 extraccao das materias-primas, A2 transporte interno, A3 producao do betao, mas resultados nao sao dados por estas etapas: so GWP total e a contribuicao do cimento (274,67 de 300,41 kg CO2 em H-0; 91,4%), que e resultado por material e nao A1 (regra 2). Fig.6 (percentagens por materia-prima, incluindo transporte e mistura, relativas a H-0=100%) nao renderizada. Valor gravado 296,99 e derivado (300,41 - 3,42); artigo nao da valor absoluto proprio para H-50. Recorte pp.12-16 renderizado: Fig.6 traz percentagens por materia-prima (cimento 91,4% do GWP em H-0; agregados; RCA; agua; mixing) relativas a H-0=100%, nao etapas EN 15804; transporte nao separado. Contribuicao por material nao e A1 (regra 2)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.6 vista: contribuicao por material em %, sem etapas; nao publicado."
+ }
+]
