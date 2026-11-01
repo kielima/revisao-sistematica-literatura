@@ -215,3 +215,9 @@ Cada entrada diz se foi verificada por mim no PDF (`pessoal`) ou é leitura do s
 - **Achados para a E2 (valores do banco que não batem)**: ALSALMAN 3071 l.298 (108 → 222 na Tab.4; l.300/303 Tab.4 incoerente), DI SARNO 3348 l.365 (413,83 é o controlo; 348,09), HABERT 3053 (`co2_kg_m3` 334,9 é só A1; A1+A2+A3 = 357,0), D'ORAZIO 2658 (420 inclui A5 e é por m³ de argamassa), AMITANI 3947 (242/391 não publicados), TOSIC 4625 (F27), KONTRA 4931/CEJUELA 4604/ZAHABI 4349 (totais com armadura — manter só em `concreto_armado`), DEHGHANI 3802 l.1096 vs 1097 (aterro do resíduo).
 - **Por confirmar**: mapeamentos nossos de colunas para etapas (YAHYAEE, PAIK «E1», ZHAO 4716, BERTOLA «Fabrication» = A1–A3), KANAGARAJ 574 (Fig.22 por ver), HAFEZ 2684 (factor da gravilha 4/8 usado para outras fracções).
 - Estudos ainda com figuras por ver (`refazer_com_recorte`): RESTREPO 4145, GUIGNONE 4244, 4521, 4670, 4691 e os marcados nas listas anteriores.
+
+## F39 — releitura das últimas figuras por ver (2026-11-02)
+- 5 estudos relidos com recortes e figuras renderizadas (`recorteC01`, `recorte_resultadoC01.json`): RESTREPO 4145, GUIGNONE 4244, 4521, BERTOLA 4670, 4691. Nenhum publica A1–A4: ficam `nao_publicado`. Nenhuma leitura por pixel.
+- Unidades: 4244 é m³ de laje alveolar (elemento); **4521 é m³ de pasta, não de betão** (o valor 64 do sc10 confirma-se pelo rótulo da Fig.8, mas fica fora da metanálise por unidade); 4145 e 4691 são m³ de betão.
+- BERTOLA 4670 mantém A1–A3 agregado = 190,2 (Fabricação 4.755 ÷ 25 m³; sem transporte), com a leitura «Fabricação = A1–A3» como inferência nossa (**por confirmar**); transporte 582 kg só em nota.
+- Com isto não resta nenhum estudo F39 com `refazer_com_recorte`.
