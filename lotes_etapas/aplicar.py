@@ -25,4 +25,25 @@ for e in est.values():
             if v in (None, '') or cell.value not in (None, ''): continue
             cell.value = v; c[NOVAS[i]] += 1
 print('estudos', len(est), 'colunas a partir de', col0, dict(c), 'erros de linha', erros)
+# Retiradas apos revisao (2026-11-01): campos cujo conteudo nao e o que o nome diz.
+LIMPAR = {
+ (4292,'co2_a1a3_agregado'):'e A1-A4 agregado (Tab.5), nao A1-A3',
+ (3911,'co2_a1a3_agregado'):'e A1+A2 e inclui aco, nao A1-A3 do betao',
+ (4098,'co2_a1a3_agregado'):'e A1-A4 agregado (inclui transporte do betao a obra)',
+ (4785,'co2_a1a3_agregado'):'e so A1+A2 de uma argamassa',
+ (4297,'co2_a4'):'A4 calculado com factor/distancia nao confirmados como impressos no artigo',
+}
+for k in ('co2_a1','co2_a2','co2_a3','co2_a4','co2_a1a3_agregado'):
+    LIMPAR[(3657,k)]='derivado de percentagens inteiras da Fig.8b x valor gravado (que nao bate com o artigo); nao fiavel'
+nl=0
+for r in range(2, ws.max_row+1):
+    rid=ws.cell(r,1).value
+    for (i,k),mot in LIMPAR.items():
+        if rid==i:
+            cell=ws.cell(r,col0+NOVAS.index(k))
+            if cell.value not in (None,''):
+                cell.value=None; nl+=1
+                nt=ws.cell(r,col0+NOVAS.index('etapas_nota'))
+                nt.value=((nt.value or '')+f' [retirado {k}: {mot}]').strip()
+print('campos retirados',nl)
 if gravar: wb.save('meta_analysis_base.xlsx'); print('gravado')

@@ -1,0 +1,212 @@
+[
+ {
+  "row_id": 4846,
+  "pares": [
+   {
+    "sheet_row": 1817,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13 Tab.2 (GWP Manufacturing 3589,85 kg CO2 eq/m de ponte); p.5 Fig.1 e p.11 Sec.3.2 (20 km de transporte do betao ate a obra); p.12 Tab.1",
+    "citacao": "",
+    "nota": "Etapas EN 15804 NAO publicadas. O estagio 'Manufacturing' (3589,85 kg/m de ponte; /(0,674 m3/m2 x 11,8 m)=451,4 kg/m3, bate com o gravado) cobre producao de materiais + transporte das materias-primas + mistura + transporte do betao a obra (Fig.1: 'Concrete mix in place') e inclui o aco passivo e activo, portanto A1-A4 misturados e com aco: co2_a1a3_agregado deixado vazio por incluir A4 e aco. Fig.10 (p.16) so tem pizza de percentagens sem rotulos numericos (cimento, aco passivo, aco activo, transporte, outros): nao lida. 'Construction' (1453,67) = maquinaria (A5); Use and Maintenance e EoL (-807,73, fixacao de CO2) fora de A1-A4."
+   },
+   {
+    "sheet_row": 1818,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.14 Tab.3 (GWP Manufacturing 4413,77 kg CO2 eq/m de ponte); p.5 Fig.1; p.11 Sec.3.2; p.12 Tab.1",
+    "citacao": "",
+    "nota": "Idem 1817 (Solucao 2, 50 MPa): 4413,77/(0,67x11,8)=558,3 kg/m3 bate com o gravado. Manufacturing inclui aco e transporte do betao (20 km); etapas separadas nao publicadas; agregado deixado vazio por incluir A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido o texto integral (21 pp.; refs apenas passadas) e renderizadas Fig.1 (p.5) e Figs.10-12 (p.16). Figs.8/9/13/14 (percentagens por categoria) nao renderizadas, sem valores por etapa A1-A4 em kg/m3."
+ },
+ {
+  "row_id": 4869,
+  "pares": [
+   {
+    "sheet_row": 1826,
+    "co2_a1": 273.17,
+    "co2_a2": 12.92,
+    "co2_a3": 0.46,
+    "co2_a4": 7.93,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.7 Tabla 2 (valores 'Med', kg CO2/m3 HA-25 B com 50 kg aco/m3)",
+    "citacao": "Tabla 2: Total 337,67 (Med); aco (producao 31,15 + ferralla 0,95 + transp. aco 2,66 + transp. ferralla 0,52) = 35,28",
+    "nota": "Derivado a partir dos valores 'Med' da Tabla 2 EXCLUINDO o aco (o gravado 302,39 = 337,67 - 35,28). A1 = cimento 265,84 + aridos 4,14 + aditivos 3,19 = 273,17 ('Producao de componentes' sem aco). A2 = transporte cimento 7,03 + aridos 5,81 + aditivos 0,08 = 12,92. A3 = 'Preparacion del hormigon' 0,46. A4 = 'Transporte de hormigon' 7,93 (betao fresco, mais frequente 30 km). Soma A1-A4 = 294,48 vs gravado 302,39 (-2,6%): a diferenca 7,93 e a 'Puesta en obra' (A5), que o gravado inclui por so retirar o aco. Valores medios dentro de intervalos Min-Max (ex.: A4 3,96-15,86). Estudo nao declara EN 15804; mapeamento por rotulo dos processos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido o texto integral (10 pp. + refs). Unica figura e a Fig.1 (arvore de requisitos EHE), sem resultados de CO2; nao renderizada. Tabla 3 (casos T3.1-T3.5) so da totais por cimento/aco, sem etapas."
+ },
+ {
+  "row_id": 4931,
+  "pares": [
+   {
+    "sheet_row": 1858,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 578.4,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "nao",
+    "local": "p.1014 Fig.7 (rotulo Production 4,5E+04 da barra RC Wall); p.1011 Fig.3 (Production = A1-A3); p.1012 Tab.4 (72,6+5,2 m3)",
+    "citacao": "Fig.3: Production = A1 extraction, A2 transport to factory, A3 manufacturing; Construction = A4 transport to site + A5 installation",
+    "nota": "Production (A1-A3, explicito na Fig.3) do sistema RC completo = 4,5E+04 kg CO2-eq (2 alg. sig.) / 77,8 m3 de betao = 578,4 kg/m3; inclui aco (5454+2560+228+86 kg) e fundacao. Construction 3,5E+03 = A4+A5 agregados (nao separaveis, ~45 kg/m3), por isso A4 vazio. EoL 2,2E+03 e BBL (D) +2,2E+03 (total 5,25E+04 com BBL). Total sem BBL (Fig.5) 5,0E+04 /77,8 = 642,67 (gravado); A1-A3 ficam -10% porque o gravado inclui construcao e fim de vida. Rotulos com 2 algarismos significativos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido o texto integral (8 pp.); renderizadas pp.3,5,6 (Figs.3,5,6,7,8). Figs.1,2,4 (fotografia/detalhes estruturais) nao renderizadas, irrelevantes."
+ },
+ {
+  "row_id": 5040,
+  "pares": [
+   {
+    "sheet_row": 50,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.85 Tab.10/11; pp.73-75 Tabs.3-4; p.70 Fig.18 (fronteira)",
+    "citacao": "",
+    "nota": "Etapas EN 15804 nao publicadas. Fronteira cradle-to-gate ate a construcao (producao dos materiais Ecoinvent + transporte do betao 15 km da central e do aco 510 km + formas); resultado so por sistema (Fundacao 265.770,17 + Superestrutura 546.362,25 kg CO2 eq; /(630+989,21 m3)=501,56 kg/m3 bate com o gravado) e por processo em graficos de barras sem rotulos numericos (Figs.23-24). Inclui aco CA-50 e formas. Nao se separa A1/A2/A3/A4 numericamente; nao atribuido."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tese de 122 pp.: lidos integralmente os caps. 3 (metodo, inventario Tabs.3-9) e 4 (resultados, Tabs.10-11, CO2) e as conclusoes/sensibilidade; revisao bibliografica (caps. 1-2) apenas pesquisada por palavras-chave, e figuras nao renderizadas."
+ },
+ {
+  "row_id": 5041,
+  "pares": [
+   {
+    "sheet_row": 51,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 7.27,
+    "co2_a1a3_agregado": 224.6,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "nao",
+    "local": "p.136 (impressa) Fig.29 (pedra britada 3,13; areia 2,32; cimento 45,5 kg CO2-eq/m2); p.135 Fig.28 (Distribuicao Concreto 1,65; Estrutura concreto 1,15E+02); p.115 Quadro 2 (471,4 m3, 0,23 m3/m2); p.98 (2.078 m2)",
+    "citacao": "Cap.5.5.9: 'distribuicao do concreto a obra (transporte)', 60 km (p.108)",
+    "nota": "A1-A3 agregado: soma dos materiais do betao da Fig.29 = 3,13+2,32+45,5 = 50,95 kg/m2 /(471,4/2078=0,2268 m3/m2) = 224,6 kg/m3 (= gravado); o processo 'estrutura de concreto' inclui extracao+transporte das materias-primas e fabricacao do betao (Fig.12, p.105-107), sem separar A1/A2/A3, e exclui aco e formas. A4 = Distribuicao Concreto 1,65 kg/m2 / 0,2268 = 7,27 kg/m3 (transporte do betao a obra, 60 km). Soma 231,9 vs gravado 224,6 (+3,2%): o gravado nao inclui A4. Atencao: Quadro 8 da 117 kg CO2-eq/m2 para a estrutura C25 completa (aco+formas), mas o gravado desta linha e so o betao (50,95), enquanto as linhas C30-C50 usam o total da estrutura/volume de betao: bases diferentes entre linhas. GWP EDIP 1997 inclui absorcao de CO2 (~5% do CO2 do cimento) sem valor separado."
+   },
+   {
+    "sheet_row": 52,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.122 Quadro 8",
+    "citacao": "",
+    "nota": "So ha repartição por processo/material (Figs.28-29) para a classe C25; para C40 so o total da estrutura (111 kg CO2-Equiv./m2, Quadro 8). Etapas nao publicadas."
+   },
+   {
+    "sheet_row": 53,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.122 Quadro 8",
+    "citacao": "",
+    "nota": "So ha repartição por processo/material (Figs.28-29) para a classe C25; para C50 so o total da estrutura (114 kg CO2-Equiv./m2, Quadro 8). Etapas nao publicadas."
+   },
+   {
+    "sheet_row": 2081,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.122 Quadro 8",
+    "citacao": "",
+    "nota": "So ha repartição por processo/material para C25; para C30 so o total (120 kg/m2, Quadro 8). Etapas nao publicadas."
+   },
+   {
+    "sheet_row": 2082,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.122 Quadro 8",
+    "citacao": "",
+    "nota": "So ha repartição por processo/material para C25; para C35 so o total (114 kg/m2, Quadro 8). Etapas nao publicadas."
+   },
+   {
+    "sheet_row": 2083,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.122 Quadro 8",
+    "citacao": "",
+    "nota": "So ha repartição por processo/material para C25; para C45 so o total (112 kg/m2, Quadro 8). Etapas nao publicadas."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tese de 217 pp.: lidos escopo/fronteira (cap.5.5), ICV (Quadros 2-7), resultados de aquecimento global (Quadro 8, Figs.27-29) e Quadro 15; revisao bibliografica e demais categorias apenas por pesquisa de palavras-chave. Renderizadas Figs.28-29 (pdf pp.136-137)."
+ },
+ {
+  "row_id": 5050,
+  "pares": [
+   {
+    "sheet_row": 62,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 2.75,
+    "co2_a1a3_agregado": 267,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.78 Tabela 16 (concreto 25 MPa 0,179 m3/m2 x 267 kgCO2-eq/m3, fonte EPD = 47,756); p.82 Tabela 22 (ETi concreto 0,492 kgCO2-eq/m2; 20,5 km); pp.59-60 Fig.15 e Tab.6; p.116 Apendice A",
+    "citacao": "Tab.6: Etapa de Producao (EP) = manufatura (extracao e processamento de materias-primas); Etapa de Transporte Inicial (ETi) = transporte do ponto fabril ao local da obra",
+    "nota": "co2_a1a3_agregado = fator EPD (Votorantim) 267 kg/m3 aplicado na etapa EP, que a tese define como fase de producao (manufatura + transporte + fornecimento de materias-primas, Fig.15); a tese nao diz quais modulos EN 15804 a EPD cobre, o mapeamento A1-A3 assenta na definicao de EP da propria tese. A4 = ETi do concreto 0,492 kg/m2 / 0,179 m3/m2 = 2,75 kg/m3 (transporte da central, 20,5 km, a obra). A1-A3 = gravado; com A4 269,75 (+1,0%)."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Dissertacao de 137 pp.: lidos integralmente escopo/fronteira (cap.3), inventario, resultados EP/ETi (Tabs.16-24) e Apendices A-B; revisao bibliografica apenas por palavras-chave; figuras nao renderizadas."
+ }
+]

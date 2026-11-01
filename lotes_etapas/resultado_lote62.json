@@ -1,0 +1,290 @@
+[
+ {
+  "row_id": 4756,
+  "pares": [
+   {
+    "sheet_row": 590,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.4, Tab.1; Tab.8 sem linha C25/30",
+    "citacao": "",
+    "nota": "valor_gravado_nao_localizado em Tab.8: Tab.8 so tem linhas C30/37 (B3 e cap B7); C25/30 so aparece na Tab.1 como factor unico 0,0833 kg/kg (200 kg/m3) de Kromoser 2021, sem etapas. Fronteira do estudo e cradle-to-grave com Tab.8 por fase, mas nao para C25/30."
+   },
+   {
+    "sheet_row": 591,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 203.9,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "nao",
+    "local": "p.8, Tab.8, linha C30/37 B3 (A1-A3 Guteverband Transportbeton)",
+    "citacao": "A4: 20 km via truck",
+    "nota": "Tab.8 (colunas garbled na extraccao de texto; leitura confirmada pela soma 203,9+8,2+1,1+21,1=234,3): A1-A3=203,9; A4=8,2 (camiao 20 km, rotulado A4 na Tab.8, mas NAO posto em co2_a4 porque o valor gravado 219,12 vem do factor da Tab.1 (0,0913 kg/kg, 220 kg/m3) e nao de Tab.8; bases diferentes). A4 da Tab.8 = 8,2 kg/m3 para registo; A5=1,1; C1-C4=21,1; D=-6,9. Nao e certo que a linha B3 seja o betao da superestrutura; o cap B7 tem A1-A3 236,3. valor_gravado_nao_localizado. Tabela nao vista como imagem."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Lido o texto extraido do Drive com foco em Tab.1, Tab.8, secoes 2.4/3.1; nao li 100% nem renderizei figuras/Tab.8. Etapas so por Tab.8 (A1-A3, A4 etc.); co2 gravado vem de Tab.1."
+ },
+ {
+  "row_id": 4757,
+  "pares": [
+   {
+    "sheet_row": 592,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.8, Tab.1",
+    "citacao": "",
+    "nota": "Factor unico C30 321,30 kg/m3 (Tab.1, ref.43, IPCC) sem etapas; o texto diz que emissoes de material de producao cobrem 'upstream processes' sem atribuir a A1 explicitamente nem separar transporte do betao. Transporte so calculado para solos/resíduos."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lidas secoes de metodo, fronteiras, Tab.1-3; leitura nao integral; figuras nao renderizadas."
+ },
+ {
+  "row_id": 4766,
+  "pares": [
+   {
+    "sheet_row": 1758,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.1",
+    "citacao": "",
+    "nota": "Tab.1 da so kg CO2/m3 sem etapa; nao ha A1-A4 por m3 de betao. Etapas so a nivel do edificio (Tab.3: A1-A3 46,69e6; A4 623.878 kg CO2eq) incluindo aco e todos os materiais; nao se divide por volume sem assumir. Rotulo A-D do valor gravado nao confirmado pelo texto."
+   },
+   {
+    "sheet_row": 1759,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.1",
+    "citacao": "",
+    "nota": "Tab.1 da so kg CO2/m3 sem etapa; nao ha A1-A4 por m3 de betao. Etapas so a nivel do edificio (Tab.3: A1-A3 46,69e6; A4 623.878 kg CO2eq) incluindo aco e todos os materiais; nao se divide por volume sem assumir. Rotulo A-D do valor gravado nao confirmado pelo texto."
+   },
+   {
+    "sheet_row": 1760,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.1",
+    "citacao": "",
+    "nota": "Tab.1 da so kg CO2/m3 sem etapa; nao ha A1-A4 por m3 de betao. Etapas so a nivel do edificio (Tab.3: A1-A3 46,69e6; A4 623.878 kg CO2eq) incluindo aco e todos os materiais; nao se divide por volume sem assumir. Rotulo A-D do valor gravado nao confirmado pelo texto."
+   },
+   {
+    "sheet_row": 1762,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.1",
+    "citacao": "",
+    "nota": "Tab.1 da so kg CO2/m3 sem etapa; nao ha A1-A4 por m3 de betao. Etapas so a nivel do edificio (Tab.3: A1-A3 46,69e6; A4 623.878 kg CO2eq) incluindo aco e todos os materiais; nao se divide por volume sem assumir. Rotulo A-D do valor gravado nao confirmado pelo texto."
+   },
+   {
+    "sheet_row": 1763,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.1",
+    "citacao": "",
+    "nota": "Tab.1 da so kg CO2/m3 sem etapa; nao ha A1-A4 por m3 de betao. Etapas so a nivel do edificio (Tab.3: A1-A3 46,69e6; A4 623.878 kg CO2eq) incluindo aco e todos os materiais; nao se divide por volume sem assumir. Rotulo A-D do valor gravado nao confirmado pelo texto."
+   },
+   {
+    "sheet_row": 1764,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.1",
+    "citacao": "",
+    "nota": "Tab.1 da so kg CO2/m3 sem etapa; nao ha A1-A4 por m3 de betao. Etapas so a nivel do edificio (Tab.3: A1-A3 46,69e6; A4 623.878 kg CO2eq) incluindo aco e todos os materiais; nao se divide por volume sem assumir. Rotulo A-D do valor gravado nao confirmado pelo texto."
+   },
+   {
+    "sheet_row": 1765,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.1",
+    "citacao": "",
+    "nota": "Tab.1 da so kg CO2/m3 sem etapa; nao ha A1-A4 por m3 de betao. Etapas so a nivel do edificio (Tab.3: A1-A3 46,69e6; A4 623.878 kg CO2eq) incluindo aco e todos os materiais; nao se divide por volume sem assumir. Rotulo A-D do valor gravado nao confirmado pelo texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Texto completo lido; figuras 5-9 (Tally, por etapa/material) nao renderizadas, sem rotulos por m3 de betao previstos."
+ },
+ {
+  "row_id": 4768,
+  "pares": [
+   {
+    "sheet_row": 594,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Tab.11, sec.3-4",
+    "citacao": "",
+    "nota": "Resultado por pavimento (kg CO2 eq/km/ano); sem separacao por etapa nem por material no betao PQC. Nenhuma divisao A1-A4 publicada; valor gravado e derivado de total/km."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lidas metodologia, inventario e resultados; nao integral; figuras nao renderizadas."
+ },
+ {
+  "row_id": 4774,
+  "pares": [
+   {
+    "sheet_row": 1771,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.18, Tab.A1",
+    "citacao": "",
+    "nota": "Factor externo de emissao por m3 (ref.23), sem etapas. Estagios do artigo (materiais, materializacao, transporte, tuneleamento) sao proprios, nao A1-A4."
+   },
+   {
+    "sheet_row": 1772,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.18, Tab.A1",
+    "citacao": "",
+    "nota": "Idem C40: factor externo 222,3 sem etapas."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lidos sistema/fronteira, resultados e Tab.A1; leitura nao integral."
+ },
+ {
+  "row_id": 4785,
+  "pares": [
+   {
+    "sheet_row": 1777,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 489.7,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.11, Tab.7 (coluna Total) e sec.2.4",
+    "citacao": "",
+    "nota": "Argamassa, nao betao. Cradle-to-gate: producao do OPC + transporte do cimento 298 km (A2) dentro da coluna OPC (nao separavel: massa de cimento por m3 nao impressa), areia, agua, transporte do toner 9 km. Total 489.7 = A1+A2 agregados; sem A3 nem A4. OPC/areia/agua/TW = 466,5/21,0/2,3/0,00."
+   },
+   {
+    "sheet_row": 1778,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 478.1,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.11, Tab.7 (coluna Total) e sec.2.4",
+    "citacao": "",
+    "nota": "Argamassa, nao betao. Cradle-to-gate: producao do OPC + transporte do cimento 298 km (A2) dentro da coluna OPC (nao separavel: massa de cimento por m3 nao impressa), areia, agua, transporte do toner 9 km. Total 478.1 = A1+A2 agregados; sem A3 nem A4. OPC/areia/agua/TW = 454,8/21,0/2,3/0,01."
+   },
+   {
+    "sheet_row": 1779,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 466.4,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.11, Tab.7 (coluna Total) e sec.2.4",
+    "citacao": "",
+    "nota": "Argamassa, nao betao. Cradle-to-gate: producao do OPC + transporte do cimento 298 km (A2) dentro da coluna OPC (nao separavel: massa de cimento por m3 nao impressa), areia, agua, transporte do toner 9 km. Total 466.4 = A1+A2 agregados; sem A3 nem A4. OPC/areia/agua/TW = 443,2/21,0/2,3/0,03."
+   },
+   {
+    "sheet_row": 1780,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 443.1,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.11, Tab.7 (coluna Total) e sec.2.4",
+    "citacao": "",
+    "nota": "Argamassa, nao betao. Cradle-to-gate: producao do OPC + transporte do cimento 298 km (A2) dentro da coluna OPC (nao separavel: massa de cimento por m3 nao impressa), areia, agua, transporte do toner 9 km. Total 443.1 = A1+A2 agregados; sem A3 nem A4. OPC/areia/agua/TW = 419,8/21,0/2,3/0,06."
+   },
+   {
+    "sheet_row": 1781,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 419.8,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.11, Tab.7 (coluna Total) e sec.2.4",
+    "citacao": "",
+    "nota": "Argamassa, nao betao. Cradle-to-gate: producao do OPC + transporte do cimento 298 km (A2) dentro da coluna OPC (nao separavel: massa de cimento por m3 nao impressa), areia, agua, transporte do toner 9 km. Total 419.8 = A1+A2 agregados; sem A3 nem A4. OPC/areia/agua/TW = 396,5/21,0/2,3/0,08."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lidos metodo LCA, Tab.2, Tab.7 e discussao; leitura nao integral."
+ }
+]

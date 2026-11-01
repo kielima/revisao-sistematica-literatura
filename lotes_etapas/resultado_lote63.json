@@ -1,0 +1,290 @@
+[
+ {
+  "row_id": 4786,
+  "pares": [
+   {
+    "sheet_row": 1782,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 14.26,
+    "co2_a1a3_agregado": 237.32,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "citacao": "CP = soma(Mi x EFi), EFi 'carbon emission factor for the production of the i-th building material'",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a A1-A3 e leitura nossa. A4 derivado: transporte do betao ate ao estaleiro (Nanjing, 40 km, camiao 0.162 kgCO2/(t.km)), rotulo da Fig.5 9.23 tCO2 / 647.37 m3 = 14.26 kg/m3; todos os betoes da obra ~14.25 kg/m3 (coerente). Fig.5 chama-lhe 'transport of building materials' (nao A4); atribuido a A4 por ser o transporte do proprio betao ate a obra. Construcao (CC, maquinas) so a nivel de edificio (126.4 tCO2), nao por betao. Valor 237.32/266.18/295/362.6/511 e fator tabelado, nao ensaio."
+   },
+   {
+    "sheet_row": 1783,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 14.25,
+    "co2_a1a3_agregado": 266.18,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "citacao": "CP = soma(Mi x EFi), EFi 'carbon emission factor for the production of the i-th building material'",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a A1-A3 e leitura nossa. A4 derivado: transporte do betao ate ao estaleiro (Nanjing, 40 km, camiao 0.162 kgCO2/(t.km)), rotulo da Fig.5 8.83 tCO2 / 619.74 m3 = 14.25 kg/m3; todos os betoes da obra ~14.25 kg/m3 (coerente). Fig.5 chama-lhe 'transport of building materials' (nao A4); atribuido a A4 por ser o transporte do proprio betao ate a obra. Construcao (CC, maquinas) so a nivel de edificio (126.4 tCO2), nao por betao. Valor 237.32/266.18/295/362.6/511 e fator tabelado, nao ensaio."
+   },
+   {
+    "sheet_row": 1784,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 14.26,
+    "co2_a1a3_agregado": 295,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "citacao": "CP = soma(Mi x EFi), EFi 'carbon emission factor for the production of the i-th building material'",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a A1-A3 e leitura nossa. A4 derivado: transporte do betao ate ao estaleiro (Nanjing, 40 km, camiao 0.162 kgCO2/(t.km)), rotulo da Fig.5 94.69 tCO2 / 6642.35 m3 = 14.26 kg/m3; todos os betoes da obra ~14.25 kg/m3 (coerente). Fig.5 chama-lhe 'transport of building materials' (nao A4); atribuido a A4 por ser o transporte do proprio betao ate a obra. Construcao (CC, maquinas) so a nivel de edificio (126.4 tCO2), nao por betao. Valor 237.32/266.18/295/362.6/511 e fator tabelado, nao ensaio."
+   },
+   {
+    "sheet_row": 1785,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 14.24,
+    "co2_a1a3_agregado": 362.6,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "citacao": "CP = soma(Mi x EFi), EFi 'carbon emission factor for the production of the i-th building material'",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a A1-A3 e leitura nossa. A4 derivado: transporte do betao ate ao estaleiro (Nanjing, 40 km, camiao 0.162 kgCO2/(t.km)), rotulo da Fig.5 0.34 tCO2 / 23.88 m3 (rotulo com 2 casas, incerteza ~+-0.2) = 14.24 kg/m3; todos os betoes da obra ~14.25 kg/m3 (coerente). Fig.5 chama-lhe 'transport of building materials' (nao A4); atribuido a A4 por ser o transporte do proprio betao ate a obra. Construcao (CC, maquinas) so a nivel de edificio (126.4 tCO2), nao por betao. Valor 237.32/266.18/295/362.6/511 e fator tabelado, nao ensaio."
+   },
+   {
+    "sheet_row": 1786,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 14.26,
+    "co2_a1a3_agregado": 511,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "citacao": "CP = soma(Mi x EFi), EFi 'carbon emission factor for the production of the i-th building material'",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a A1-A3 e leitura nossa. A4 derivado: transporte do betao ate ao estaleiro (Nanjing, 40 km, camiao 0.162 kgCO2/(t.km)), rotulo da Fig.5 12.18 tCO2 / 854.46 m3 = 14.26 kg/m3; todos os betoes da obra ~14.25 kg/m3 (coerente). Fig.5 chama-lhe 'transport of building materials' (nao A4); atribuido a A4 por ser o transporte do proprio betao ate a obra. Construcao (CC, maquinas) so a nivel de edificio (126.4 tCO2), nao por betao. Valor 237.32/266.18/295/362.6/511 e fator tabelado, nao ensaio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido texto integral e Figs.3-5 renderizadas. Etapas so a nivel de edificio (producao 7050.28, transporte 269.45, construcao 126.4 tCO2); por betao so fator de producao e transporte derivado da Fig.5."
+ },
+ {
+  "row_id": 4789,
+  "pares": [
+   {
+    "sheet_row": 1787,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.8 Fig.1a e Fig.2a (totais do edificio); p.7 Tab.2 (volumes)",
+    "citacao": "",
+    "nota": "valor_gravado_nao_localizado como valor por m3 de betao: 446 = 1,595,052 kgCO2e / 3576 m3 de betao (93+2293+674+516, Tab.2). Mas 1,595,052 (Fig.1a, A1-A3) e o total do EDIFICIO de betao (betao + aco de armadura + paredes de gesso, montantes, espuma), nao so betao; o artigo nao publica A1-A3 do betao isolado (so cita EPDs Boral/Barro/Adbri sem valores). Transporte A4 (Fig.2a: 15,994 kgCO2e) e construcao/A5 (Fig.2b: 53,243) tambem so do edificio inteiro, nao por betao. Nenhuma etapa por m3 de betao atribuivel; o par gravado deve ser revisto (mistura betao+armadura+acabamentos)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido texto integral e Figs.1-2 renderizadas (rotulos 1,595,052 e 15,994/53,243). Estudo A1-A3+A4+A5+C+D mas so em totais de edificio."
+ },
+ {
+  "row_id": 4806,
+  "pares": [
+   {
+    "sheet_row": 1792,
+    "co2_a1": 420.2,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.8 Tab.4 (CFST: Cement 25.31 + Fine 0.04 + Coarse 0.07 = 25.42 kgCO2); p.5 Tab.3 (145.18 kg, 2400 kg/m3)",
+    "citacao": "first stage considers the production of the structural components, which includes the extrusion of sand and stone chips and the production of cement",
+    "nota": "A1 derivado = 25.42 kgCO2 / 145.18 kg x 2400 kg/m3 = 420.2 kg/m3 (producao dos materiais do betao: cimento, areia, brita; agua e aditivos nao contabilizados), igual ao valor gravado. Transporte dos ingredientes do betao ate ao local de obra (5.7 km, 0.12 kg por 145.18 kg => 1.98 kg/m3) deixado em A2/A4 em branco por ambiguidade (betao feito/lancado em obra, estagio chamado 'transportation'). Mistura/lancamento em obra (0.016 kg/kg => 2.32 kg por coluna = 38.4 kg/m3) e A5, nao A3, nao atribuido. Figs.3 so totais por estagio da coluna inteira (aco/aluminio incluidos). Valor de CFST; CFAT usa o mesmo betao (24.59 kg cimento p/134.13 kg, mesma razao)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido texto integral e Fig.3 renderizada. Estagios do artigo: producao, transporte, construcao, manutencao, fim de vida (nao EN 15804)."
+ },
+ {
+  "row_id": 4836,
+  "pares": [
+   {
+    "sheet_row": 1805,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 92,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.4 Tab.2 (Tab.2 A; Tab.4 (E product 9.20x10)); p.6 Tab.4 (fase 'Material production phase'); p.5 Tab.3",
+    "citacao": "Material production phase: process of manufacturing and processing of raw materials",
+    "nota": "Valor por m3 de betao pronto-misturado de produto de baixo carbono (rotulagem de pegada de carbono coreana, CFF/KLCI). Tab.4 classifica estes fatores na 'Material production phase' (Tab.3: fabrico e processamento de materias-primas), transporte em 'Construction phase'; nao ha A1/A2/A3 separados: a_a1a3 = leitura nossa da fase de producao. A4 do betao so ao nivel do edificio (Tab.10: 6.74 kg/m3 para betonagem, 10 km, camiao betoneira; 7083.7 kg em 1051 m3), nao ligado a estes produtos (Tab.2); nao atribuido. Tab.4 traz unidades inconsistentes (kg em vez de m3) para estes produtos; usei o valor de Tab.2 (kg CO2 eq/unidade, unidade funcional 1 m3). Base de comparacao: referencia 375/417/539/320 kg/m3."
+   },
+   {
+    "sheet_row": 1806,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 145,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.4 Tab.2 (Tab.2 B; Tab.4 (D product 1.45x10^2)); p.6 Tab.4 (fase 'Material production phase'); p.5 Tab.3",
+    "citacao": "Material production phase: process of manufacturing and processing of raw materials",
+    "nota": "Valor por m3 de betao pronto-misturado de produto de baixo carbono (rotulagem de pegada de carbono coreana, CFF/KLCI). Tab.4 classifica estes fatores na 'Material production phase' (Tab.3: fabrico e processamento de materias-primas), transporte em 'Construction phase'; nao ha A1/A2/A3 separados: a_a1a3 = leitura nossa da fase de producao. A4 do betao so ao nivel do edificio (Tab.10: 6.74 kg/m3 para betonagem, 10 km, camiao betoneira; 7083.7 kg em 1051 m3), nao ligado a estes produtos (Tab.2); nao atribuido. Tab.4 traz unidades inconsistentes (kg em vez de m3) para estes produtos; usei o valor de Tab.2 (kg CO2 eq/unidade, unidade funcional 1 m3). Base de comparacao: referencia 375/417/539/320 kg/m3."
+   },
+   {
+    "sheet_row": 1807,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 149,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.4 Tab.2 (Tab.2 C (Non-cement Concrete)); p.6 Tab.4 (fase 'Material production phase'); p.5 Tab.3",
+    "citacao": "Material production phase: process of manufacturing and processing of raw materials",
+    "nota": "Valor por m3 de betao pronto-misturado de produto de baixo carbono (rotulagem de pegada de carbono coreana, CFF/KLCI). Tab.4 classifica estes fatores na 'Material production phase' (Tab.3: fabrico e processamento de materias-primas), transporte em 'Construction phase'; nao ha A1/A2/A3 separados: a_a1a3 = leitura nossa da fase de producao. A4 do betao so ao nivel do edificio (Tab.10: 6.74 kg/m3 para betonagem, 10 km, camiao betoneira; 7083.7 kg em 1051 m3), nao ligado a estes produtos (Tab.2); nao atribuido. Tab.4 traz unidades inconsistentes (kg em vez de m3) para estes produtos; usei o valor de Tab.2 (kg CO2 eq/unidade, unidade funcional 1 m3). Base de comparacao: referencia 375/417/539/320 kg/m3."
+   },
+   {
+    "sheet_row": 1808,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 253.6,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.4 Tab.2 (Tab.2 E; Tab.4 (R product 2.54x10^2)); p.6 Tab.4 (fase 'Material production phase'); p.5 Tab.3",
+    "citacao": "Material production phase: process of manufacturing and processing of raw materials",
+    "nota": "Valor por m3 de betao pronto-misturado de produto de baixo carbono (rotulagem de pegada de carbono coreana, CFF/KLCI). Tab.4 classifica estes fatores na 'Material production phase' (Tab.3: fabrico e processamento de materias-primas), transporte em 'Construction phase'; nao ha A1/A2/A3 separados: a_a1a3 = leitura nossa da fase de producao. A4 do betao so ao nivel do edificio (Tab.10: 6.74 kg/m3 para betonagem, 10 km, camiao betoneira; 7083.7 kg em 1051 m3), nao ligado a estes produtos (Tab.2); nao atribuido. Tab.4 traz unidades inconsistentes (kg em vez de m3) para estes produtos; usei o valor de Tab.2 (kg CO2 eq/unidade, unidade funcional 1 m3). Base de comparacao: referencia 375/417/539/320 kg/m3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido texto integral; Fig.1 (fronteira) renderizada. Edificio: producao 487,383, construcao 11,352, operacao 1,890,285, demolicao 33,984 kgCO2 (30 anos); por betao so o fator de producao."
+ },
+ {
+  "row_id": 4837,
+  "pares": [
+   {
+    "sheet_row": 1809,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 329.37,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.7 Tab.3 (fator unitario kg-CO2/m3 por resistencia); p.9 Tab.6; p.11 Tab.9 (Production/Transportation/Construction)",
+    "citacao": "building material production off the site ('Production')",
+    "nota": "Fator unitario por m3 de betao (BD de intensidade CO2 por resistencia, integracao individual) aplicado na fase 'Production' (producao de materiais fora do estaleiro, Fig.5/Tab.9) com transporte (7.39 kg/m2) e construcao (10.96 kg/m2) separados e so ao nivel do edificio, sem desagregar por material. Nao rotula A1/A2/A3; a_a1a3 = leitura nossa de 'Production' = valor gravado. A4 nao atribuivel a betao. Fatores e nao ensaio proprio."
+   },
+   {
+    "sheet_row": 1810,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 353.02,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.7 Tab.3 (fator unitario kg-CO2/m3 por resistencia); p.9 Tab.6; p.11 Tab.9 (Production/Transportation/Construction)",
+    "citacao": "building material production off the site ('Production')",
+    "nota": "Fator unitario por m3 de betao (BD de intensidade CO2 por resistencia, integracao individual) aplicado na fase 'Production' (producao de materiais fora do estaleiro, Fig.5/Tab.9) com transporte (7.39 kg/m2) e construcao (10.96 kg/m2) separados e so ao nivel do edificio, sem desagregar por material. Nao rotula A1/A2/A3; a_a1a3 = leitura nossa de 'Production' = valor gravado. A4 nao atribuivel a betao. Fatores e nao ensaio proprio."
+   },
+   {
+    "sheet_row": 1811,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 383.77,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.7 Tab.3 (fator unitario kg-CO2/m3 por resistencia); p.9 Tab.6; p.11 Tab.9 (Production/Transportation/Construction)",
+    "citacao": "building material production off the site ('Production')",
+    "nota": "Fator unitario por m3 de betao (BD de intensidade CO2 por resistencia, integracao individual) aplicado na fase 'Production' (producao de materiais fora do estaleiro, Fig.5/Tab.9) com transporte (7.39 kg/m2) e construcao (10.96 kg/m2) separados e so ao nivel do edificio, sem desagregar por material. Nao rotula A1/A2/A3; a_a1a3 = leitura nossa de 'Production' = valor gravado. A4 nao atribuivel a betao. Fatores e nao ensaio proprio."
+   },
+   {
+    "sheet_row": 1812,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 406.71,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.7 Tab.3 (fator unitario kg-CO2/m3 por resistencia); p.9 Tab.6; p.11 Tab.9 (Production/Transportation/Construction)",
+    "citacao": "building material production off the site ('Production')",
+    "nota": "Fator unitario por m3 de betao (BD de intensidade CO2 por resistencia, integracao individual) aplicado na fase 'Production' (producao de materiais fora do estaleiro, Fig.5/Tab.9) com transporte (7.39 kg/m2) e construcao (10.96 kg/m2) separados e so ao nivel do edificio, sem desagregar por material. Nao rotula A1/A2/A3; a_a1a3 = leitura nossa de 'Production' = valor gravado. A4 nao atribuivel a betao. Fatores e nao ensaio proprio."
+   },
+   {
+    "sheet_row": 1813,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 429.65,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.7 Tab.3 (fator unitario kg-CO2/m3 por resistencia); p.9 Tab.6; p.11 Tab.9 (Production/Transportation/Construction)",
+    "citacao": "building material production off the site ('Production')",
+    "nota": "Fator unitario por m3 de betao (BD de intensidade CO2 por resistencia, integracao individual) aplicado na fase 'Production' (producao de materiais fora do estaleiro, Fig.5/Tab.9) com transporte (7.39 kg/m2) e construcao (10.96 kg/m2) separados e so ao nivel do edificio, sem desagregar por material. Nao rotula A1/A2/A3; a_a1a3 = leitura nossa de 'Production' = valor gravado. A4 nao atribuivel a betao. Fatores e nao ensaio proprio."
+   },
+   {
+    "sheet_row": 1814,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 508.39,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.7 Tab.3 (fator unitario kg-CO2/m3 por resistencia); p.9 Tab.6; p.11 Tab.9 (Production/Transportation/Construction)",
+    "citacao": "building material production off the site ('Production')",
+    "nota": "Fator unitario por m3 de betao (BD de intensidade CO2 por resistencia, integracao individual) aplicado na fase 'Production' (producao de materiais fora do estaleiro, Fig.5/Tab.9) com transporte (7.39 kg/m2) e construcao (10.96 kg/m2) separados e so ao nivel do edificio, sem desagregar por material. Nao rotula A1/A2/A3; a_a1a3 = leitura nossa de 'Production' = valor gravado. A4 nao atribuivel a betao. Fatores e nao ensaio proprio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido texto integral; Tab.6 e Fig.5 renderizadas (Fig.5 sem rotulos). Edificio Caso 1: producao 1381.52, transporte 7.39, construcao 10.96 kg/m2."
+ },
+ {
+  "row_id": 4841,
+  "pares": [
+   {
+    "sheet_row": 1815,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 43.28,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.10 Tab.7 (concreto da subestrutura: total 340, cimento 282, 'transportation of concrete' 34, restante 32 kgCO2e/m2 GFA, GWP100); p.9 texto (359 kg cimento e 2.34 kg agregados por m3)",
+    "citacao": "In the production of concrete, cement was identified as the highest contributor, followed by transportation of concrete to the site",
+    "nota": "Valor da Tab.7 e por m2 de GFA (unidade diferente do par). Divisor derivado do proprio artigo: 282 kg/m2 / 359 kg/m3 = 0.7855 m3 de betao por m2 (= 0.748 m3/m2 da Tab.1 x 1.05 de desperdicio); 340/0.7855 = 432.8 = valor gravado. A4 = transporte de betao pronto ate a obra (50 km, camiao de 24 t) = 34/0.7855 = 43.28 kg/m3 (derivado). A1/A2/A3 nao separaveis: cimento 359 kg/m3 (producao, MYLCID) e agregados 2.34 kg/m3 so em nota (componentes, rule 2); 'remaining process' 32 kg/m2 (=40.7 kg/m3) nao definido. Inconsistencia: 282+34+32 = 348 != total 340 (percentagens somam 102%); por isso soma_confere=nao. Betao grade 25 da subestrutura e das restantes pecas; fck gravado 25."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido texto integral; Fig.2 (fronteira) renderizada. Fases do artigo: pre-uso, construcao, uso, fim de vida (nao EN 15804)."
+ }
+]
