@@ -1,0 +1,186 @@
+[
+ {
+  "row_id": 3894,
+  "pares": [
+   {
+    "sheet_row": 1131,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 196,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.3, Tab.1 (GWP, 25 MPa)",
+    "citacao": "Cradle-to-gate impact results for ready-mix concrete production",
+    "nota": "So A1-A3 agregado (cradle-to-gate, CML baseline); o artigo nao separa A1/A2/A3 em nenhuma tabela ou figura (Fig.1 = intervalos relativos a media=1,0, so para variabilidade). A2 esta incluido no agregado mas com distancias aproximadas (media de fabricantes de blocos), nao publicadas. A4 = 0 por cradle-to-gate (combustivel dos camioes-betoneira nao incluido, Sec.2). Amostra media de 34 centrais, 2017."
+   },
+   {
+    "sheet_row": 1132,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 220,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.3, Tab.1 (GWP, 30 MPa)",
+    "citacao": "Cradle-to-gate impact results for ready-mix concrete production",
+    "nota": "So A1-A3 agregado (cradle-to-gate, CML baseline); o artigo nao separa A1/A2/A3 em nenhuma tabela ou figura (Fig.1 = intervalos relativos a media=1,0, so para variabilidade). A2 esta incluido no agregado mas com distancias aproximadas (media de fabricantes de blocos), nao publicadas. A4 = 0 por cradle-to-gate (combustivel dos camioes-betoneira nao incluido, Sec.2). Amostra media de 34 centrais, 2017."
+   },
+   {
+    "sheet_row": 1133,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 248,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.3, Tab.1 (GWP, 35 MPa)",
+    "citacao": "Cradle-to-gate impact results for ready-mix concrete production",
+    "nota": "So A1-A3 agregado (cradle-to-gate, CML baseline); o artigo nao separa A1/A2/A3 em nenhuma tabela ou figura (Fig.1 = intervalos relativos a media=1,0, so para variabilidade). A2 esta incluido no agregado mas com distancias aproximadas (media de fabricantes de blocos), nao publicadas. A4 = 0 por cradle-to-gate (combustivel dos camioes-betoneira nao incluido, Sec.2). Amostra media de 34 centrais, 2017."
+   },
+   {
+    "sheet_row": 1134,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 295,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.3, Tab.1 (GWP, 40 MPa)",
+    "citacao": "Cradle-to-gate impact results for ready-mix concrete production",
+    "nota": "So A1-A3 agregado (cradle-to-gate, CML baseline); o artigo nao separa A1/A2/A3 em nenhuma tabela ou figura (Fig.1 = intervalos relativos a media=1,0, so para variabilidade). A2 esta incluido no agregado mas com distancias aproximadas (media de fabricantes de blocos), nao publicadas. A4 = 0 por cradle-to-gate (combustivel dos camioes-betoneira nao incluido, Sec.2). Amostra media de 34 centrais, 2017."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.1 so tem intervalos relativos; sem split por etapa; texto lido por read_file_content, figura nao renderizada."
+ },
+ {
+  "row_id": 3896,
+  "pares": [
+   {
+    "sheet_row": 1135,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5-6, Fig.3 (A1-3, kg CO2eq/m2 so em % do tijolo duplo) e p.6, Fig.4; texto p.6 (3,6 kg = 10%)",
+    "citacao": "Transport from plant to site has been excluded in the initial results",
+    "nota": "Unidade do artigo = kg CO2eq por m2 de parede (UF 1 m2, espessura 300 mm), nao por m3 (regra 9: nao convertido aqui; o valor gravado 120 = ~36/0,3 foi derivacao anterior). Fig.3 diz explicitamente 'modules A1-3 only' (so em % relativo, sem rotulos numericos). Fig.4 (RBC_AA, sem rotulos numericos, lido por pixel +-2 kg/m2): Site 1 Perth: aluminossilicatos ~16, NaOH ~19-20, RBC ~2 (soma materiais ~37,5), 'delivery to site - truck' (50 km) ~1,5-2 kg/m2 (total ~39); Kalgoorlie (i) ~43, (ii) ~65. O texto da p.6 diz que transportar estabilizantes a Kalgoorlie soma 3,6 kg = 10%, logo A1-A3 ~36 kg/m2 (derivado do texto). O 'delivery to site' da Fig.4 e cenario de sensibilidade (A4 so como cenario, nao baseline); no resultado base A4 = 0 (excluido). Nao e possivel separar A1/A2/A3: o frete a Perth esta embutido nos materiais (ex.: 200 km cinza volante). Soma nao testavel por unidade diferente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Figs.3 e 4 renderizadas (pp.5-6)."
+ },
+ {
+  "row_id": 3947,
+  "pares": [
+   {
+    "sheet_row": 1147,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": 1.23,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "nao",
+    "local": "p.4, Tab.1 (Batching 1,23 kg CO2-eq/m3 de betao) e Fig.1; p.5 Tab.2 (distancias); p.11, Fig.5",
+    "citacao": "Batching 1.23 x 10^0 (b: factor per cubic meter of concrete)",
+    "nota": "O artigo NAO publica CO2 total nem por etapa para estas misturas teoricas (Fig.5c so da intervalos por barras; so o teor de PC e rotulado por figura). So publica factores (Tab.1) e distancias (Tab.2), mas nao as massas de agregados/SP/agua destas misturas, por isso A1 e A2 nao sao calculaveis. co2_a3 = factor de 'Batching' (Fig.1 'Manufacturing of concrete'), valido por m3 de qualquer mistura; mapeamento batching->A3 e leitura nossa (Fig.1). A4 = 0: escopo cradle-to-gate (Fig.1, Sec.2.1), uso/EoL fora. valor_gravado_nao_localizado: o gravado 242 = teor de PC (255 kg/m3) x 0,949 kg/kg (so o cimento, ~A1 parcial), NAO o total da mistura nem A1; o total real inclui agregados, SP, batching 1,23 e transportes. soma_confere = nao por isso."
+   },
+   {
+    "sheet_row": 1148,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": 1.23,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "nao",
+    "local": "p.4, Tab.1 (Batching 1,23 kg CO2-eq/m3 de betao) e Fig.1; p.5 Tab.2 (distancias); p.11, Fig.5",
+    "citacao": "Batching 1.23 x 10^0 (b: factor per cubic meter of concrete)",
+    "nota": "O artigo NAO publica CO2 total nem por etapa para estas misturas teoricas (Fig.5c so da intervalos por barras; so o teor de PC e rotulado por figura). So publica factores (Tab.1) e distancias (Tab.2), mas nao as massas de agregados/SP/agua destas misturas, por isso A1 e A2 nao sao calculaveis. co2_a3 = factor de 'Batching' (Fig.1 'Manufacturing of concrete'), valido por m3 de qualquer mistura; mapeamento batching->A3 e leitura nossa (Fig.1). A4 = 0: escopo cradle-to-gate (Fig.1, Sec.2.1), uso/EoL fora. valor_gravado_nao_localizado: o gravado 391 = teor de PC (412 kg/m3) x 0,949 kg/kg (so o cimento, ~A1 parcial), NAO o total da mistura nem A1; o total real inclui agregados, SP, batching 1,23 e transportes. soma_confere = nao por isso."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.1 e Fig.5 renderizadas; gravado = so PC x factor."
+ },
+ {
+  "row_id": 3958,
+  "pares": [
+   {
+    "sheet_row": 1150,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": 34.38,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 253.44,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.13, Tab.1 (Table 1: CO2 emissions inventory to produce 1 m3 of concrete); p.14 texto (factores ICE A1-A3; transporte excluido); p.12 (escopo)",
+    "citacao": "The ICE emission factors encompass Modules A1 to A3 ... We do not include the transportation of raw materials or finished sections",
+    "nota": "Tab.1: CEM I 204,29 + areia 6,21 + brita 8,42 + agua 0,05 + aco 155,00 + pre-fabricacao ('Pre-casting', betonagem/vibracao) 34,38; total 408,44 (soma das linhas = 408,35, diferenca 0,09 por arredondamento). co2_a3 = linha Pre-casting (publicado). co2_a1a3_agregado = 408,44 - 155,00 (aco) = 253,44 (derivado; soma sem aco 253,35, bate o gravado 253,44 a 0,04%). Os factores ICE cobrem A1-A3 (incluem transporte ate a porta da fabrica), por isso o CO2 dos materiais (218,97 sem aco) nao e A1 puro (regra 2) e A2 nao e separavel. A4 = 0: transporte de materias-primas e de barreiras acabadas explicitamente excluido. Incerteza +20,19 (Monte Carlo) na tabela. O par exclui o aco; o artigo inclui armadura no total 408,44."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tab.1 lida em texto; artigo sem figuras de etapas."
+ },
+ {
+  "row_id": 3992,
+  "pares": [
+   {
+    "sheet_row": 550,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.6, Tab.6 (EF 0,221 t CO2eq/m3, ref.[48]); p.8, Tab.13 (RCM 1049,26 m3 x 0,220 = 231,89 t); p.10 Sec.3",
+    "citacao": "cradle-to-gate approach, focusing on the material production, transportation, and construction phases",
+    "nota": "O valor 221 kg/m3 e um factor de emissao do material (concreto celular 20,3 MPa) tirado de ref.[48], sem etapa declarada; Tab.13 chama-lhe 'Materials manufacturing' (0,220 t/m3) mas nao o rotula A1 ou A1-A3 (regra 2/6: nao mapeado). Os resultados do artigo sao totais do edificio (599,7 t; materiais 98%) com transporte e construcao como actividades em toneladas por edificio e misturando aco e formas, sem valor por m3 de betao; nao ha rotulos A1-A4. A2/A4 ambiguos (transporte de materiais inclui betao e aco): deixado em branco. Pequena inconsistencia Tab.6 0,221 vs Tab.13 0,220 t/m3. Fronteira A1-A5 do ficheiro de entrada nao e usada pelo artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tabelas lidas em texto; Tab.13 (inventario do edificio) nao da valor por m3."
+ },
+ {
+  "row_id": 3995,
+  "pares": [
+   {
+    "sheet_row": 1160,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9, Fig.5 (GWP dos agregados, sem cimento, kg CO2-eq/m3); p.10, Fig.9 (GWP total, eixo direito)",
+    "citacao": "cradle-to-gate perspective, consisting of relevant life-cycle phases of raw materials extraction, transportation, and production processes",
+    "nota": "valor_gravado 774 lido da linha 'Total GWP' da Fig.9 (sem rotulo; eixo 760-800, ~774 para 0%S-100%CS). O artigo nao da A1/A2/A3 para o betao completo: o cimento (570 kg/m3) so aparece em tabelas do material suplementar (A.2, nao incluido no PDF), e a Fig.5 exclui o cimento. Fig.5, mistura 0%S-100%CS, sem rotulos (lido por pixel, +-2 kg/m3): total agregados ~48,5; producao brita ~4 + escoria de cobre ~2 (~6); transporte brita ~32; transporte da escoria ~10,5; logo transporte de agregados ~42,5. Isto e A1+A2 SO dos agregados, nao do betao, por isso nao grava em co2_a2. A4 = 0 por cradle-to-gate (fronteira ate a central de betao). Cimento: 1,1-1,3 t CO2-eq/t na producao + 32-100 kg/t de transporte (texto p.6), mas sem split por m3 impresso."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Figs.5 e 9 renderizadas; tabelas A.* so no suplemento."
+ }
+]
