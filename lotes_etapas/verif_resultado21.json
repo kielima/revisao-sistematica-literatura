@@ -1,0 +1,116 @@
+[
+ {
+  "row_id": 3331,
+  "pares": [
+   {
+    "sheet_row": 968,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.5 (texto, p.12-13): concreto A1-A3 254,4 e A4 14 kg CO2e/m3 (coluna ECC, linha 'Concrete (m3)'); A5 37,6 nao gravado. Bate com gravado. Fig.10a nao renderizada (Drive indisponivel para PDF inteiro); percentagens da nota batem com a Tab.5."
+   }
+  ]
+ },
+ {
+  "row_id": 3359,
+  "pares": [
+   {
+    "sheet_row": 1998,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.6 (p.1047): GWP concreto 2,48E+02 kg CO2-eq por m3; texto Sec.3.4 repete 248 kg. Fase 'Production' = extraccao, processamento e mistura; transporte e mistura/betonagem em obra sao elementos separados (nao incluidos no factor). A1-A3 agregado aceitavel, A2/A4 nao declarados = vazio. Figuras nao renderizadas."
+   }
+  ]
+ },
+ {
+  "row_id": 3403,
+  "pares": [
+   {
+    "sheet_row": 984,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.3 (p.7): C30/37 = 232 kg CO2eq/m3, EPD IZB cradle-to-gate (A1-A3, inclui transporte de materias-primas a central); sem A4."
+   },
+   {
+    "sheet_row": 985,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.3: C50/60 = 335 kg CO2eq/m3, EPD IZB cradle-to-gate."
+   },
+   {
+    "sheet_row": 986,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.3: C70/85 = 431 kg CO2eq/m3, valor EXTRAPOLADO pelos autores (nota b) a partir das EPD; stage A1-A3 agregado correcto."
+   }
+  ]
+ },
+ {
+  "row_id": 3404,
+  "pares": [
+   {
+    "sheet_row": 987,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Unidade funcional = 1 m3 de ARGAMASSA alcali-activada (traco com areia 1445 kg/m3, sem brita), nao betao (Sec.2.2.1, Tab.1). Valores/etapas coerentes (fronteira cradle-to-gate, transporte excluido; S3/S4 62% abaixo de S1 = 72,4/190,6) mas nao e m3 de betao."
+   },
+   {
+    "sheet_row": 988,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Unidade funcional = 1 m3 de ARGAMASSA alcali-activada (traco com areia 1445 kg/m3, sem brita), nao betao (Sec.2.2.1, Tab.1). Valores/etapas coerentes (fronteira cradle-to-gate, transporte excluido; S3/S4 62% abaixo de S1 = 72,4/190,6) mas nao e m3 de betao."
+   },
+   {
+    "sheet_row": 989,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Unidade funcional = 1 m3 de ARGAMASSA alcali-activada (traco com areia 1445 kg/m3, sem brita), nao betao (Sec.2.2.1, Tab.1). Valores/etapas coerentes (fronteira cradle-to-gate, transporte excluido; S3/S4 62% abaixo de S1 = 72,4/190,6) mas nao e m3 de betao."
+   },
+   {
+    "sheet_row": 990,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Unidade funcional = 1 m3 de ARGAMASSA alcali-activada (traco com areia 1445 kg/m3, sem brita), nao betao (Sec.2.2.1, Tab.1). Valores/etapas coerentes (fronteira cradle-to-gate, transporte excluido; S3/S4 62% abaixo de S1 = 72,4/190,6) mas nao e m3 de betao."
+   }
+  ]
+ },
+ {
+  "row_id": 3419,
+  "pares": [
+   {
+    "sheet_row": 1001,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.4 (p.8): GWP100a 1 m3 de betao, referencia 4,46E+02 kg CO2-eq; fronteira cradle-to-gate com aquisicao, producao e transporte de materiais ate a central (A1-A3 agregado); sem etapas separadas."
+   },
+   {
+    "sheet_row": 1002,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.4: GWP100a 3,98E+02 kg CO2-eq/m3 (30% de areia substituida por po de copos de cafe)."
+   }
+  ]
+ },
+ {
+  "row_id": 3477,
+  "pares": [
+   {
+    "sheet_row": 420,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Texto Sec.4.2/Fig.5 (p.7): controlo 335,8 kg CO2-eq/m3 = extraccao e fabrico dos materiais (sem producao nem transporte dos compositos); total Tab.7 = 370. A1 correcto. Fig.5 lida pelo texto, nao renderizada."
+   },
+   {
+    "sheet_row": 421,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Texto Fig.5: SFKF5 = 319,01 (A1 dos materiais). Ressalva: a fibra de cartao (KF) esta EXCLUIDA deste A1 'due to uncertainty', logo A1 e parcial nas misturas com fibra; valor e etapa batem com o artigo."
+   },
+   {
+    "sheet_row": 422,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Texto Fig.5: SFKF105 = 285,43 (A1 dos materiais, sem KF). Mesma ressalva de A1 parcial."
+   }
+  ]
+ }
+]

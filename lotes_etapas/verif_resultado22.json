@@ -1,0 +1,92 @@
+[
+ {
+  "row_id": 3559,
+  "pares": [
+   {
+    "sheet_row": 1043,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.6 (visto no texto extraido da pagina): HC1 Materials 886,1 / Transportation 14,6 / Production-Construction 2,3 / Total 903,0 kg CO2eq/m3 de betao pesado colocado e compactado. A1=886,1 correcto (producao de materiais); A2/A4 e A3 correctamente vazios (transporte e construcao agregam A2+A4 e A3+A5).",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1044,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.6: HC2 Materials 494,6 / Transportation 6,1 / Production-Construction 2,3 / Total 503,0 kg CO2eq/m3. A1=494,6 correcto; resto vazio por agregar etapas.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3598,
+  "pares": [
+   {
+    "sheet_row": 1059,
+    "veredito": "confirma",
+    "motivo": "Sec.3.1.1 p.5 do PDF: 'Type I 30 MPa ... 360 kg CO2e/m3'; Sec.2.2.1.2 p.3: A1-A3 = fornecimento de materias-primas, transporte e fabrico, UF 1 m3 de betao; A1-A3 so agregado, a1a3=360 correcto; modulo D fora do valor.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1060,
+    "veredito": "confirma",
+    "motivo": "Sec.3.1.1: 'Type I 45 MPa ... 505 kg CO2e/m3', A1-A3 agregado (Fig.1 sem separacao por etapa); a1a3=505 correcto.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3687,
+  "pares": [
+   {
+    "sheet_row": 1080,
+    "veredito": "retirar",
+    "motivo": "251 kg CO2-eq/m3 confirmado no texto (Sec.4.1) e A1-A3 agregado (cradle-to-gate EN 15804), mas o material e uma ARGAMASSA de impressao 3D (Tab.2 'Reference mortar composition 31 MPa': ligante 165+132+362 kg, areia/ligante 2, sem brita; o artigo diz 'one cubic meter of the reference mortar'). Nao e m3 de betao.",
+    "unidade_m3_betao": false
+   }
+  ]
+ },
+ {
+  "row_id": 3817,
+  "pares": [
+   {
+    "sheet_row": 1102,
+    "veredito": "confirma",
+    "motivo": "Tab.4 p.10: 'EPD (A1-A3) ... Concrete 388 kg CO2/m3 Svensk Betong'; Sec.6.1: so A1-A3 considerados, A4-A5 nao considerados (iguais nos dois sistemas). a1a3=388 correcto, sem separacao A1/A2/A3.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3831,
+  "pares": [
+   {
+    "sheet_row": 1112,
+    "veredito": "confirma",
+    "motivo": "Tab.4 p.7 total A1 RC=352 (soma das linhas 344,813+0,078+1,950+3,439+1,648=351,93); Tab.5 p.8 total A2=11,1 (Tab.6 transporte 11,10). Fronteira A1-A2 (SS-EN 15978); A3 igual entre alternativas e nao quantificada: vazio correcto. UF 1 m3 de betao.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1113,
+    "veredito": "confirma",
+    "motivo": "Tab.4 total RAC50=349 (A1); A2 depende do cenario (Tab.5/6/7), vazio aceitavel. UF 1 m3.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1114,
+    "veredito": "confirma",
+    "motivo": "Tab.4 total RAC100=348 (A1); A2 depende do cenario (Sc.1 12,1 / Sc.2 5,4), vazio aceitavel. UF 1 m3.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3864,
+  "pares": [
+   {
+    "sheet_row": 531,
+    "veredito": "confirma",
+    "motivo": "Tab.9 p.9 do PDF (visto): material e producao 255,632 + transporte ate a central 17,751 = 273,383 kg CO2/m3 (UF 1 m3 de SCC, Tab.10 273,38). Fronteira 'up to but not including the gate of the RMC plant' (Sec.4.1.1): a1=255,632 e a2=17,751 correctos; A3 e A4 fora da fronteira (A3/A4 nao classificados como 0 pelo artigo em termos EN 15804, vazio mantido).",
+    "unidade_m3_betao": true
+   }
+  ]
+ }
+]
