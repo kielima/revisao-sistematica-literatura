@@ -1,0 +1,164 @@
+[
+ {
+  "row_id": 4993,
+  "pares": [
+   {
+    "sheet_row": 27,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 560,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5 (impressa 971), Fig.7; fronteira p.3 (Sec.3.2.2)",
+    "citacao": "The LCA covers the manufacturing stage A1-3 (A4-5 is neglected because of lacking data)",
+    "nota": "560 = GWPfossil (nao GWPtotal) de 1 m3 UHPC, modulos A1-A3 agregados, rotulo impresso na Fig.7 (barra unica, sem decomposicao por etapa). A4 'neglected because of lacking data' (excluido; deixado em branco por ser uma exclusao de fronteira do estudo de parede, nao um zero medido). UHPC modelado pelos autores com GaBi + dados de Sameer et al. 2019; transporte de materias-primas e energia da central estao incluidos mas nao separados. Texto inconsistente: diz UHPC 'nearly 60% higher' que C25/30 (215), mas 560/215 = 2,6x. Valor gravado coincide com o impresso."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Artigo curto (9 pp.), lido na integra + Figs. 7, 8, 9 vistas. Figs. 8/9 sao por m2 de parede (nao por m3 de betao), sem relevancia para o par. Sem A1/A2/A3/A4 separados para o UHPC."
+ },
+ {
+  "row_id": 3384,
+  "pares": [
+   {
+    "sheet_row": 976,
+    "co2_a1": null,
+    "co2_a2": 13.5,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "n/a",
+    "local": "p.7, Fig.3 (painel GWP), segmento 'Transport' no topo da barra; fronteira p.3-4, Sec.2.1 e Fig.1; p.8 texto",
+    "citacao": "it is assumed the different concrete types were locally produced within a distance of 100 km between raw material production and concrete production",
+    "nota": "A2 lido por pixel (render 500 dpi, escala 0-500 kg CO2-eq/m3): segmento 'Transport' ~13-14 kg/m3 (+-1,5), igual em todas as misturas, coerente com o texto 'Transportation was constant'. Total da barra ~350 bate com o gravado. Fig.3 so decompoe por material/processo (cimento, silicato, fibras, cura...) sem rotulos numericos: A1 e A3 (cura termica) nao separaveis sem assumir; nao atribuido. Fronteira cradle-to-gate de 1 m3; A4, uso e fim de vida excluidos. O texto da Sec.2.1 diz que o transporte de materias-primas foi omitido, mas a Fig.3 e o texto da Sec.3.1 mostram-no incluido (100 km): contradicao do artigo; seguiu-se a figura. A soma das etapas nao verificavel (so A2 lido)."
+   },
+   {
+    "sheet_row": 977,
+    "co2_a1": null,
+    "co2_a2": 13.5,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "n/a",
+    "local": "p.7, Fig.3 (painel GWP), segmento 'Transport' no topo da barra; fronteira p.3-4, Sec.2.1 e Fig.1; p.8 texto",
+    "citacao": "it is assumed the different concrete types were locally produced within a distance of 100 km between raw material production and concrete production",
+    "nota": "A2 lido por pixel (render 500 dpi, escala 0-500 kg CO2-eq/m3): segmento 'Transport' ~13-14 kg/m3 (+-1,5), igual em todas as misturas, coerente com o texto 'Transportation was constant'. Total da barra ~450 bate com o gravado. Fig.3 so decompoe por material/processo (cimento, silicato, fibras, cura...) sem rotulos numericos: A1 e A3 (cura termica) nao separaveis sem assumir; nao atribuido. Fronteira cradle-to-gate de 1 m3; A4, uso e fim de vida excluidos. O texto da Sec.2.1 diz que o transporte de materias-primas foi omitido, mas a Fig.3 e o texto da Sec.3.1 mostram-no incluido (100 km): contradicao do artigo; seguiu-se a figura. A soma das etapas nao verificavel (so A2 lido)."
+   },
+   {
+    "sheet_row": 978,
+    "co2_a1": null,
+    "co2_a2": 13.5,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "n/a",
+    "local": "p.7, Fig.3 (painel GWP), segmento 'Transport' no topo da barra; fronteira p.3-4, Sec.2.1 e Fig.1; p.8 texto",
+    "citacao": "it is assumed the different concrete types were locally produced within a distance of 100 km between raw material production and concrete production",
+    "nota": "A2 lido por pixel (render 500 dpi, escala 0-500 kg CO2-eq/m3): segmento 'Transport' ~13-14 kg/m3 (+-1,5), igual em todas as misturas, coerente com o texto 'Transportation was constant'. Total da barra ~186 bate com o gravado. Fig.3 so decompoe por material/processo (cimento, silicato, fibras, cura...) sem rotulos numericos: A1 e A3 (cura termica) nao separaveis sem assumir; nao atribuido. Fronteira cradle-to-gate de 1 m3; A4, uso e fim de vida excluidos. O texto da Sec.2.1 diz que o transporte de materias-primas foi omitido, mas a Fig.3 e o texto da Sec.3.1 mostram-no incluido (100 km): contradicao do artigo; seguiu-se a figura. A soma das etapas nao verificavel (so A2 lido)."
+   },
+   {
+    "sheet_row": 979,
+    "co2_a1": null,
+    "co2_a2": 13.5,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "n/a",
+    "local": "p.7, Fig.3 (painel GWP), segmento 'Transport' no topo da barra; fronteira p.3-4, Sec.2.1 e Fig.1; p.8 texto",
+    "citacao": "it is assumed the different concrete types were locally produced within a distance of 100 km between raw material production and concrete production",
+    "nota": "A2 lido por pixel (render 500 dpi, escala 0-500 kg CO2-eq/m3): segmento 'Transport' ~13-14 kg/m3 (+-1,5), igual em todas as misturas, coerente com o texto 'Transportation was constant'. Total da barra ~167 bate com o gravado. Fig.3 so decompoe por material/processo (cimento, silicato, fibras, cura...) sem rotulos numericos: A1 e A3 (cura termica) nao separaveis sem assumir; nao atribuido. Fronteira cradle-to-gate de 1 m3; A4, uso e fim de vida excluidos. O texto da Sec.2.1 diz que o transporte de materias-primas foi omitido, mas a Fig.3 e o texto da Sec.3.1 mostram-no incluido (100 km): contradicao do artigo; seguiu-se a figura. A soma das etapas nao verificavel (so A2 lido)."
+   },
+   {
+    "sheet_row": 980,
+    "co2_a1": null,
+    "co2_a2": 13.5,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "n/a",
+    "local": "p.7, Fig.3 (painel GWP), segmento 'Transport' no topo da barra; fronteira p.3-4, Sec.2.1 e Fig.1; p.8 texto",
+    "citacao": "it is assumed the different concrete types were locally produced within a distance of 100 km between raw material production and concrete production",
+    "nota": "A2 lido por pixel (render 500 dpi, escala 0-500 kg CO2-eq/m3): segmento 'Transport' ~13-14 kg/m3 (+-1,5), igual em todas as misturas, coerente com o texto 'Transportation was constant'. Total da barra ~180 bate com o gravado. Fig.3 so decompoe por material/processo (cimento, silicato, fibras, cura...) sem rotulos numericos: A1 e A3 (cura termica) nao separaveis sem assumir; nao atribuido. Fronteira cradle-to-gate de 1 m3; A4, uso e fim de vida excluidos. O texto da Sec.2.1 diz que o transporte de materias-primas foi omitido, mas a Fig.3 e o texto da Sec.3.1 mostram-no incluido (100 km): contradicao do artigo; seguiu-se a figura. A soma das etapas nao verificavel (so A2 lido)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Lido o texto completo (conector) e PDF descarregado; vistas Fig.3 (render 500 dpi). Fig.1 (fronteira) nao renderizada, so o texto. A2 por pixel e aproximado (+-1,5); curar a 85C (86,4 MJ) e A3 mas sem valor separado. Supplementary information (que traz os resultados por processo) nao esta no PDF."
+ },
+ {
+  "row_id": 4800,
+  "pares": [
+   {
+    "sheet_row": 595,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 3060,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.7 texto Sec.3 (Preliminary LCA) e p.8 Fig.4 (painel 'GWP of 1 m3 of binder')",
+    "citacao": "'cradle-to-gate' system boundaries were used to take into account only the production process of the binders",
+    "nota": "Valor por m3 de LIGANTE (nao de betao), cradle-to-gate de producao do ligante (A1-A3 agregado); sem etapas. Rotulo impresso 3060,0 na Fig.4. Transporte e outras etapas nao separados; a fonte do impacto (KH2PO4) e apenas qualitativa."
+   },
+   {
+    "sheet_row": 596,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 1550,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.7 texto Sec.3 (Preliminary LCA) e p.8 Fig.4 (painel 'GWP of 1 m3 of binder')",
+    "citacao": "'cradle-to-gate' system boundaries were used to take into account only the production process of the binders",
+    "nota": "Valor por m3 de LIGANTE, cradle-to-gate (A1-A3 agregado), rotulo 1550,0 na Fig.4; sem etapas. Texto indica MgO como principal fonte (MgCl2 ~4%), sem valor em etapas EN 15804."
+   },
+   {
+    "sheet_row": 597,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 1030,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.7 texto Sec.3 (Preliminary LCA) e p.8 Fig.4 (painel 'GWP of 1 m3 of binder')",
+    "citacao": "'cradle-to-gate' system boundaries were used to take into account only the production process of the binders",
+    "nota": "Valor gravado 1030 vem do texto (p.7); a Fig.4 imprime 1020,0 para CSA (diferenca 1%). Texto tambem troca MPC/CSA ('1550 and 1030 kg, respectively' para MOC e 'MPC'); lido como CSA. Valor por m3 de LIGANTE, cradle-to-gate, sem etapas. Registar co2_a1a3_agregado=1030 (gravado); alternativa impressa 1020."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Lido o texto completo e vista a Fig.4 (rotulos numericos). Estudo so de producao do ligante: nao ha A2/A4 nem decomposicao. Os pares sao por m3 de ligante (e nao de betao): ver rotulos 'GWP of 1 m3 of binder'; os valores de biocompositos HD/LD (1240/761/589/93,1 e 417/257/172/29,4 kg CO2 eq/m3) existem mas nao estao nos pares fornecidos."
+ },
+ {
+  "row_id": 4080,
+  "pares": [
+   {
+    "sheet_row": 1178,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10 do ficheiro (impressa 3938), Tab.8 e Tab.5/6 (p.3933-3934); Fig.7 (p.3937) = contribuicao por material",
+    "citacao": "The carbon emission per unit volume of concrete was calculated from emissions associated with its raw materials as given in Table 5",
+    "nota": "Fronteira nao declarada em termos de etapas. Tab.8 (RAC-EXP9-PPF, kg CO2/m3): cimento 240,7 + cinza volante 0,621 + RFA 3,053 + RCA 2,283 + agua 0,048 + EXP 0,0058 + fibra PP 17,067 = 263,778 (soma confere com o total gravado). Resultado por MATERIAL, nao por etapa (regra 2): nao atribuido a A1. Os agregados reciclados incluem energia de britagem/peneiracao/transporte no local (Tab.6) e o factor da cinza volante 'considera o transporte' (0,009 kg/kg), logo A1, A2 e A3 estao misturados nos componentes; nenhum A4. Nada publicado por etapa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto completo lido via read_file_content (ficheiro 7 MB; download recusado/ligacao ao Drive caiu), por isso as figuras NAO foram vistas (Fig.7 = pizza de contribuicao por material, Fig.8 = energia dos agregados reciclados; nao sao etapas EN 15804 segundo as legendas). Titulo e primeiro autor (Zhang Y.) confirmados. Valor gravado 263,778 confirmado em Tab.8."
+ }
+]
