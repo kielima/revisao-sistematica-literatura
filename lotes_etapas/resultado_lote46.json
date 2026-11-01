@@ -1,0 +1,342 @@
+[
+ {
+  "row_id": 3305,
+  "pares": [
+   {
+    "sheet_row": 344,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.6, Tab.3",
+    "citacao": "",
+    "nota": "Artigo cradle-to-grave por coluna composta (kg CO2-eq por coluna, nao por m3 de betao), com fases Production/Transportation/Construction/Maintenance/End-of-life que nao sao rotuladas A1-A4; a fase Production inclui tubo de aco/FRP e armadura. Sem volume de betao impresso nem etapas por m3: nao convertido (regra 9). CFST: Production 970,64; Transportation 44,75; Construction 28,15; Maintenance 939,18; End-of-life 12,61; total 1995,33 kg CO2-eq/coluna."
+   },
+   {
+    "sheet_row": 345,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.6, Tab.3",
+    "citacao": "",
+    "nota": "Artigo cradle-to-grave por coluna composta (kg CO2-eq por coluna, nao por m3 de betao), com fases Production/Transportation/Construction/Maintenance/End-of-life que nao sao rotuladas A1-A4; a fase Production inclui tubo de aco/FRP e armadura. Sem volume de betao impresso nem etapas por m3: nao convertido (regra 9). CFFT: Production 410,96; Transportation 18,58; Construction 13,81; Maintenance 177,34; End-of-life 25,15; total 645,85 kg CO2-eq/coluna."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem etapas A1-A4 publicadas em kg/m3 de betao."
+ },
+ {
+  "row_id": 3309,
+  "pares": [
+   {
+    "sheet_row": 346,
+    "co2_a1": 349.9,
+    "co2_a2": 9.1,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.3 Tab.1 (traco); p.9-10 Tab.5 (factores) e Tab.6 (distancias)",
+    "citacao": "a cradle-to-gate assessment was performed to estimate the CO2-eq emissions arising from the production of the beams",
+    "nota": "Derivado por nos: A1 = massas Tab.1 x factores Tab.5 (cimento 0,7634; areia 0,0028; brita 0,0039 kg/kg) = 349.95; A2 = massas x distancias Tab.6 (cimento 40 km, areia 32 km, brita 32 km, estrada) x 12,8e-5 kg CO2-eq/(kg.km) = 9.10. Soma 359.1 reproduz o valor gravado 359.1 (diferenca <0,1). A3 nao publicado (factores incluem energia/combustiveis mas sem etapa separada); agua sem factor; sem A4 (cradle-to-gate). Mapeamento de A1/A2 e nosso: o artigo nao usa a nomenclatura EN 15804."
+   },
+   {
+    "sheet_row": 1993,
+    "co2_a1": 363.5,
+    "co2_a2": 8.9,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.3 Tab.1 (traco); p.9-10 Tab.5 (factores) e Tab.6 (distancias)",
+    "citacao": "a cradle-to-gate assessment was performed to estimate the CO2-eq emissions arising from the production of the beams",
+    "nota": "Derivado por nos: A1 = massas Tab.1 x factores Tab.5 (cimento 0,7634; areia 0,0028; brita 0,0019 kg/kg) = 363.53; A2 = massas x distancias Tab.6 (cimento 40 km, areia 32 km, brita 34 km, estrada) x 12,8e-5 kg CO2-eq/(kg.km) = 8.94. Soma 372.5 reproduz o valor gravado 372.5 (diferenca <0,1). A3 nao publicado (factores incluem energia/combustiveis mas sem etapa separada); agua sem factor; sem A4 (cradle-to-gate). Mapeamento de A1/A2 e nosso: o artigo nao usa a nomenclatura EN 15804."
+   },
+   {
+    "sheet_row": 1994,
+    "co2_a1": 326.5,
+    "co2_a2": 8.5,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.3 Tab.1 (traco); p.9-10 Tab.5 (factores) e Tab.6 (distancias)",
+    "citacao": "a cradle-to-gate assessment was performed to estimate the CO2-eq emissions arising from the production of the beams",
+    "nota": "Derivado por nos: A1 = massas Tab.1 x factores Tab.5 (cimento 0,7634; areia 0,0028; brita 0,0019 kg/kg) = 326.46; A2 = massas x distancias Tab.6 (cimento 40 km, areia 32 km, brita 34 km, estrada) x 12,8e-5 kg CO2-eq/(kg.km) = 8.52. Soma 335.0 reproduz o valor gravado 335.0 (diferenca <0,1). A3 nao publicado (factores incluem energia/combustiveis mas sem etapa separada); agua sem factor; sem A4 (cradle-to-gate). Mapeamento de A1/A2 e nosso: o artigo nao usa a nomenclatura EN 15804."
+   },
+   {
+    "sheet_row": 1995,
+    "co2_a1": 342.0,
+    "co2_a2": 8.4,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.3 Tab.1 (traco); p.9-10 Tab.5 (factores) e Tab.6 (distancias)",
+    "citacao": "a cradle-to-gate assessment was performed to estimate the CO2-eq emissions arising from the production of the beams",
+    "nota": "Derivado por nos: A1 = massas Tab.1 x factores Tab.5 (cimento 0,7634; areia 0,0028; brita 0,0019 kg/kg) = 341.96; A2 = massas x distancias Tab.6 (cimento 40 km, areia 32 km, brita 34 km, estrada) x 12,8e-5 kg CO2-eq/(kg.km) = 8.43. Soma 350.4 reproduz o valor gravado 350.4 (diferenca <0,1). A3 nao publicado (factores incluem energia/combustiveis mas sem etapa separada); agua sem factor; sem A4 (cradle-to-gate). Mapeamento de A1/A2 e nosso: o artigo nao usa a nomenclatura EN 15804."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Etapas derivadas dos inputs impressos; o artigo nao imprime CO2 por m3."
+ },
+ {
+  "row_id": 3348,
+  "pares": [
+   {
+    "sheet_row": 364,
+    "co2_a1": 360.56,
+    "co2_a2": 11.98,
+    "co2_a3": 37.81,
+    "co2_a4": 3.48,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.12, Tab.5",
+    "citacao": "",
+    "nota": "Tab.5 do controlo: cimento 346,56 + agua 0,05 + agregados 13,95 = A1 360,56 (derivado); 'Transport of constituents' 11,98 = A2; 'With mixing waste' 3,73 + 'Precasting' 34,08 = A3 37,81 (derivado); 'Transport to site' 3,48 = A4. Soma 413,83 confere. Rotulos A1-A4 sao nossos; o artigo nao cita EN 15804."
+   },
+   {
+    "sheet_row": 365,
+    "co2_a1": 294.82,
+    "co2_a2": 11.98,
+    "co2_a3": 37.81,
+    "co2_a4": 3.48,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.12, Tab.5, coluna 'Control mix + Loose Hemp Fiber'",
+    "citacao": "",
+    "nota": "valor_gravado_nao_localizado: o co2_kg_m3 gravado (413,83) e o do controlo; o resultado da mistura com canhamo na Tab.5 e 348,09 (tambem em co2_original). Etapas lidas da coluna do canhamo: A1 = 346,56+0,05+13,95-65,74 (fibra, credito de absorcao de -1,73 kg/kg) = 294,82 (sem o credito seria 360,56); A2 11,98; A3 37,81; A4 3,48; soma 348,09 confere com a Tab.5 mas nao com o gravado (diferenca 65,74 = credito do canhamo). Sugere-se corrigir o gravado para 348,09 (bruto 413,83 sem credito de fibra nao se aplica a mistura de canhamo)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.17 (barras) nao renderizada; valores da Tab.5."
+ },
+ {
+  "row_id": 3354,
+  "pares": [
+   {
+    "sheet_row": 368,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7-8, Tab.12",
+    "citacao": "",
+    "nota": "Tab.12 da o CO2 embebido (EC) por m3 sem decomposicao por etapas; o artigo nao separa A1-A4 (so menciona factory gate para a SF, sem fronteira EN 15804). Nao publicado."
+   },
+   {
+    "sheet_row": 369,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7-8, Tab.12",
+    "citacao": "",
+    "nota": "Tab.12 da o CO2 embebido (EC) por m3 sem decomposicao por etapas; o artigo nao separa A1-A4 (so menciona factory gate para a SF, sem fronteira EN 15804). Nao publicado."
+   },
+   {
+    "sheet_row": 370,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7-8, Tab.12",
+    "citacao": "",
+    "nota": "Tab.12 da o CO2 embebido (EC) por m3 sem decomposicao por etapas; o artigo nao separa A1-A4 (so menciona factory gate para a SF, sem fronteira EN 15804). Nao publicado."
+   },
+   {
+    "sheet_row": 371,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7-8, Tab.12",
+    "citacao": "",
+    "nota": "Tab.12 da o CO2 embebido (EC) por m3 sem decomposicao por etapas; o artigo nao separa A1-A4 (so menciona factory gate para a SF, sem fronteira EN 15804). Nao publicado."
+   },
+   {
+    "sheet_row": 372,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7-8, Tab.12",
+    "citacao": "",
+    "nota": "Tab.12 da o CO2 embebido (EC) por m3 sem decomposicao por etapas; o artigo nao separa A1-A4 (so menciona factory gate para a SF, sem fronteira EN 15804). Nao publicado."
+   },
+   {
+    "sheet_row": 373,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7-8, Tab.12",
+    "citacao": "",
+    "nota": "Tab.12 da o CO2 embebido (EC) por m3 sem decomposicao por etapas; o artigo nao separa A1-A4 (so menciona factory gate para a SF, sem fronteira EN 15804). Nao publicado."
+   },
+   {
+    "sheet_row": 374,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7-8, Tab.12",
+    "citacao": "",
+    "nota": "Tab.12 da o CO2 embebido (EC) por m3 sem decomposicao por etapas; o artigo nao separa A1-A4 (so menciona factory gate para a SF, sem fronteira EN 15804). Nao publicado."
+   },
+   {
+    "sheet_row": 375,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7-8, Tab.12",
+    "citacao": "",
+    "nota": "Tab.12 da o CO2 embebido (EC) por m3 sem decomposicao por etapas; o artigo nao separa A1-A4 (so menciona factory gate para a SF, sem fronteira EN 15804). Nao publicado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem etapas."
+ },
+ {
+  "row_id": 3359,
+  "pares": [
+   {
+    "sheet_row": 1998,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 248,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.1047, Tab.6; Sec.2 (fases do ciclo de vida, Fig.4)",
+    "citacao": "The production stage includes all upstream activities ... excavation of the raw materials as well as their processing (e.g., crushing, grinding and mixing)",
+    "nota": "Factor por m3 de betao (Tab.6) corresponde ao estagio 'Production' (extraccao, processamento e mistura), logo A1-A3 agregado; o transporte dos componentes ate ao local da obra e estagio separado e nao e dado por m3 de betao (A2/A4 ambiguo, regra 8: em branco). Identificacao do factor Tab.6 como so-producao e inferencia nossa (por confirmar)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": ""
+ },
+ {
+  "row_id": 3363,
+  "pares": [
+   {
+    "sheet_row": 376,
+    "co2_a1": 231.8,
+    "co2_a2": 24.2,
+    "co2_a3": 4.7,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "Tab.13 (GWP %, Cenario 2, alocacao economica); Tab.12; fronteiras Sec.4.3 e Tab.9",
+    "citacao": "Transport to construction site, construction, and use phases were omitted from the assessment",
+    "nota": "Derivado: percentagem da Tab.13 x valor gravado (260.4). A1 = cimento+agregados (NA+RCA)+cinza volante+activador = 89.0%; A2 = 'Transport' (materias-primas ate a central, Tab.9) = 9.3%; A3 = 'Concrete' (producao/cura a vapor na central) = 1.8%. Percentagens arredondadas a 0,1% (erro ~+-0,3 kg/m3). Sem A4 (transporte a obra excluido). Rotulos A1-A3 sao nossos. Valor gravado e Tab.12 / FU (m3) do cenario 2."
+   },
+   {
+    "sheet_row": 377,
+    "co2_a1": 169.7,
+    "co2_a2": 23.1,
+    "co2_a3": 4.1,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "Tab.13 (GWP %, Cenario 2, alocacao economica); Tab.12; fronteiras Sec.4.3 e Tab.9",
+    "citacao": "Transport to construction site, construction, and use phases were omitted from the assessment",
+    "nota": "Derivado: percentagem da Tab.13 x valor gravado (197.1). A1 = cimento+agregados (NA+RCA)+cinza volante+activador = 86.1%; A2 = 'Transport' (materias-primas ate a central, Tab.9) = 11.7%; A3 = 'Concrete' (producao/cura a vapor na central) = 2.1%. Percentagens arredondadas a 0,1% (erro ~+-0,3 kg/m3). Sem A4 (transporte a obra excluido). Rotulos A1-A3 sao nossos. Valor gravado e Tab.12 / FU (m3) do cenario 2."
+   },
+   {
+    "sheet_row": 378,
+    "co2_a1": 71.1,
+    "co2_a2": 20.4,
+    "co2_a3": 42.5,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "Tab.13 (GWP %, Cenario 2, alocacao economica); Tab.12; fronteiras Sec.4.3 e Tab.9",
+    "citacao": "Transport to construction site, construction, and use phases were omitted from the assessment",
+    "nota": "Derivado: percentagem da Tab.13 x valor gravado (134.2). A1 = cimento+agregados (NA+RCA)+cinza volante+activador = 53.0%; A2 = 'Transport' (materias-primas ate a central, Tab.9) = 15.2%; A3 = 'Concrete' (producao/cura a vapor na central) = 31.7%. Percentagens arredondadas a 0,1% (erro ~+-0,3 kg/m3). Sem A4 (transporte a obra excluido). Rotulos A1-A3 sao nossos. Valor gravado e Tab.12 / FU (m3) do cenario 2."
+   },
+   {
+    "sheet_row": 379,
+    "co2_a1": 239.9,
+    "co2_a2": 22.1,
+    "co2_a3": 4.3,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "Tab.13 (GWP %, Cenario 2, alocacao economica); Tab.12; fronteiras Sec.4.3 e Tab.9",
+    "citacao": "Transport to construction site, construction, and use phases were omitted from the assessment",
+    "nota": "Derivado: percentagem da Tab.13 x valor gravado (266.3). A1 = cimento+agregados (NA+RCA)+cinza volante+activador = 90.1%; A2 = 'Transport' (materias-primas ate a central, Tab.9) = 8.3%; A3 = 'Concrete' (producao/cura a vapor na central) = 1.6%. Percentagens arredondadas a 0,1% (erro ~+-0,3 kg/m3). Sem A4 (transporte a obra excluido). Rotulos A1-A3 sao nossos. Valor gravado e Tab.12 / FU (m3) do cenario 2."
+   },
+   {
+    "sheet_row": 380,
+    "co2_a1": 170.4,
+    "co2_a2": 22.0,
+    "co2_a3": 4.1,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "Tab.13 (GWP %, Cenario 2, alocacao economica); Tab.12; fronteiras Sec.4.3 e Tab.9",
+    "citacao": "Transport to construction site, construction, and use phases were omitted from the assessment",
+    "nota": "Derivado: percentagem da Tab.13 x valor gravado (196.5). A1 = cimento+agregados (NA+RCA)+cinza volante+activador = 86.7%; A2 = 'Transport' (materias-primas ate a central, Tab.9) = 11.2%; A3 = 'Concrete' (producao/cura a vapor na central) = 2.1%. Percentagens arredondadas a 0,1% (erro ~+-0,3 kg/m3). Sem A4 (transporte a obra excluido). Rotulos A1-A3 sao nossos. Valor gravado e Tab.12 / FU (m3) do cenario 2."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tab.13 em percentagem; figuras nao renderizadas."
+ }
+]
