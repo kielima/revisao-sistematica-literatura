@@ -1,0 +1,186 @@
+[
+ {
+  "row_id": 3263,
+  "pares": [
+   {
+    "sheet_row": 950,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 291,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.118, Tab.5 (Approach 1, PA, Concrete C25/30, A1-A3 Excluding fly ash emissions)",
+    "citacao": "",
+    "nota": "Fronteira A1-A3 declarada (cradle-to-gate, Sec.3.2); so o total A1-A3 e publicado, sem A1/A2/A3 separados. Valor gravado coincide (291). Aprox.2/3 trazem carbonatacao e D, nao usados. A4 nao incluido."
+   },
+   {
+    "sheet_row": 951,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 326,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.118, Tab.5 (Approach 1, PA, C35/45)",
+    "citacao": "",
+    "nota": "Idem; A1-A3 agregado 326; A4 nao incluido."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido. Resultados de betao em tabela (Tab.5); sem figuras por etapa relevantes; PDF nao renderizado como imagem."
+ },
+ {
+  "row_id": 3282,
+  "pares": [
+   {
+    "sheet_row": 335,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 694,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.6 (p.306 impressa), Sec.4 texto; Fig.2 (fronteira); Fig.4",
+    "citacao": "Maximum initial embodied carbon observed for 1 m3 of concrete was 694 kg CO2e",
+    "nota": "Fronteira A1-A3 (+B1 sequestro, nao incluido aqui). Valor 694 = A1-A3 total, sem split por etapa. A4 e A5 explicitamente excluidos (Sec.2.2)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido; Fig.4 (barras por mistura) nao inspecionada visualmente; sem A1/A2/A3 separados no texto/tabelas."
+ },
+ {
+  "row_id": 3283,
+  "pares": [
+   {
+    "sheet_row": 336,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 475.2,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.6, Tab.2 nota a (coef. 0,198 kgCO2e/kg x 2400 kg/m3)",
+    "citacao": "",
+    "nota": "Coeficiente Hammond&Jones ICE (RC25/30 + 110 kg/m3 armadura) = A1-A3 (cradle-to-gate). 475,2 = 0,198x2400 (derivacao ja do par). A4 so e publicado a nivel de edificio (Tab.3/4, tCO2e por sistema), nao por m3 de betao: nao atribuido."
+   },
+   {
+    "sheet_row": 337,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 432,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.6, Tab.2 notas c,d",
+    "citacao": "",
+    "nota": "valor_gravado_nao_localizado como coeficiente impresso: RC40/50 precast nao impresso; 432 = 0,18 x 2400 nao impresso (impressos 0,189 hibrido e 0,198). A1-A3 agregado; sem etapas separadas; A4 so ao nivel do edificio."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido. A4 calculado por sistema estrutural (Tab.3), nao por m3 de betao; A1-A3 so agregado."
+ },
+ {
+  "row_id": 3285,
+  "pares": [
+   {
+    "sheet_row": 338,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5-8, Sec.2.4.4, 3.1.1; Fig.3-5",
+    "citacao": "",
+    "nota": "Fronteira A1-A4 declarada, mas o CO2 por etapa nao e publicado por sistema Structures em tabela; A4 'transportation' inclui navio desde pais de origem ate Islandia (tipo A2) e porto-obra (A4): ambiguidade A2/A4 (regra 8), ambos em branco. Texto so diz transporte >15% do CC no cenario Wood. Valor gravado e lido por pixel na Fig.3 (sem rotulo). Figuras 3-5 nao inspecionadas visualmente (so texto)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Sem valores por etapa no texto; so figuras (3,4,5) sem rotulos numericos, nao vistas: recorte das paginas 7-9 para ver se Fig.4/5 permitem separar transporte do sistema Structures."
+ },
+ {
+  "row_id": 3288,
+  "pares": [
+   {
+    "sheet_row": 342,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 258.58,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.4, Tab.2; p.3 Sec.2.1.3",
+    "citacao": "cradle-to-gate (product stage), including modules A1-A3",
+    "nota": "Factor EPD coreano 258,58 kg CO2-eq/m3 e A1-A3 agregado; sem split. Estudo nao inclui A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido; figuras 6-11 sao totais por m2 de laje, irrelevantes para etapas do betao."
+ },
+ {
+  "row_id": 3321,
+  "pares": [
+   {
+    "sheet_row": 958,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 323,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.? Sec.3.1 e conclusoes; Fig.4",
+    "citacao": "",
+    "nota": "Texto sec.3.1: valores 'without transportation'. Autores descrevem 'initial LCA covering stages A1 and A2' mas A2 e transporte, excluido neste caso: rotulo contraditorio, por isso nao atribuido a A1 e guardado como agregado. Transporte (A2 pelas definicoes do artigo, raw materials to plant) varia por caso A-D (+10%, +2,7%, +5,8%, +7,4% para C100-S0-RA0) e e publicado so em graficos Fig.5-8 sem rotulos: nao derivado. A4 nao incluido."
+   },
+   {
+    "sheet_row": 959,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 296,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "Sec.3.1; Fig.4",
+    "citacao": "",
+    "nota": "Texto sec.3.1: valores 'without transportation'. Autores descrevem 'initial LCA covering stages A1 and A2' mas A2 e transporte, excluido neste caso: rotulo contraditorio, por isso nao atribuido a A1 e guardado como agregado. Transporte (A2 pelas definicoes do artigo, raw materials to plant) varia por caso A-D (+10%, +2,7%, +5,8%, +7,4% para C100-S0-RA0) e e publicado so em graficos Fig.5-8 sem rotulos: nao derivado. A4 nao incluido."
+   },
+   {
+    "sheet_row": 960,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 306,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "Sec.3.1; Fig.4",
+    "citacao": "",
+    "nota": "Texto sec.3.1: valores 'without transportation'. Autores descrevem 'initial LCA covering stages A1 and A2' mas A2 e transporte, excluido neste caso: rotulo contraditorio, por isso nao atribuido a A1 e guardado como agregado. Transporte (A2 pelas definicoes do artigo, raw materials to plant) varia por caso A-D (+10%, +2,7%, +5,8%, +7,4% para C100-S0-RA0) e e publicado so em graficos Fig.5-8 sem rotulos: nao derivado. A4 nao incluido."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido; Fig.4-8 sem rotulos nao inspecionadas."
+ }
+]
