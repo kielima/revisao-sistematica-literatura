@@ -1,0 +1,394 @@
+[
+ {
+  "row_id": 3026,
+  "pares": [
+   {
+    "sheet_row": 811,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7, Tab.3",
+    "citacao": "",
+    "nota": "314 kg/m3 e o factor Ecoinvent 3.2 'OPC Concrete (m3)' usado como input, nao resultado por etapa. O artigo da GWP por parede (FU 1 m2, cradle-to-grave, modulos A,B,C) e nao por m3 de betao; sem A1-A4 do betao por m3."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fronteira cradle-to-grave por parede; sem decomposicao A1-A4 por m3 de betao. Figuras nao renderizadas."
+ },
+ {
+  "row_id": 3053,
+  "pares": [
+   {
+    "sheet_row": 821,
+    "co2_a1": 334.9,
+    "co2_a2": 18.38,
+    "co2_a3": 3.74,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.7, Tab.4 (coluna Concrete C30/37): Constituent production, Constituent transport, Fabrication/Ready mix plant; 53 m3 na Tab.2",
+    "citacao": "the production and transport of constituents from their production plants to the ready mix plant",
+    "nota": "Tab.4 e para a obra inteira (Log Cezsoski, 53 m3 de betao). A1 = (cimento 17222+areia 88+brita 241+agua 2+plastificante 195)/53 = 334.9 (exclui aco de armadura 6700, betume, asfalto). A2 = transporte dos constituintes ao ready-mix (cimento 250+areia 285+brita 438+plastificante 1 = 974)/53 = 18.38. A3 = Ready mix plant 198/53 = 3.74 (3.7/m3 impresso). Linha 'Concrete' 134 em Constituent transport (1e-4 per kg.km) nao rotulada pelo artigo como transporte a obra: A4 deixado em branco (134/53=2.53 por m3 se fosse). Soma A1-A3 = 357.0 vs gravado 334.9 (+6.6%): o gravado e so A1 dos constituintes do betao. Fig.5b (p.7, sem rotulos por etapa) da ~450 kg/m3 total para o sistema Concrete/WPM. Fronteira: producao+transporte de materiais, demolicao, disposal; nao rotulada em modulos EN 15804."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Pag.7 renderizada (Tab.4 e Fig.5). Etapas derivadas por divisao por 53 m3."
+ },
+ {
+  "row_id": 3066,
+  "pares": [
+   {
+    "sheet_row": 304,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9, Fig.9; Sec.2 (GWP calc.), Tab.A2/A3",
+    "citacao": "",
+    "nota": "Fronteira nao declarada em modulos. Artigo da so GWP total por mistura (Fig.9 sem rotulos); sem decomposicao por etapa. Escorias e oleo residual com cut-off (zero emissoes). Valor gravado 326 e reconstrucao aproximada, nao impresso; 553 de referencia CEM I tambem lido de grafico."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem resultados por etapa. Figura 9 nao renderizada."
+ },
+ {
+  "row_id": 3068,
+  "pares": [
+   {
+    "sheet_row": 285,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 399.8,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 286,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 350.2,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 287,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 355.8,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 288,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 378.6,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 289,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 322,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 290,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 279.5,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 291,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 380.6,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 292,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 323.5,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 293,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 280.7,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 294,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 322.6,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 295,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 341.7,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   },
+   {
+    "sheet_row": 296,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 350.5,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.5, Tab.3; Sec.LCA (cradle-to-gate)",
+    "citacao": "emissions from the transportation of materials from production/extraction plants to the ready-mix concrete plant or casting site were not included",
+    "nota": "Cradle-to-gate; total = soma dos materiais componentes (cimento, SCM, agregados, agua). A2 (transporte ate central) excluido -> 0; casting/construcao excluidos. Transporte interno nas fabricas de materiais incluido nos factores. Nao ha A3 nem A4 separados; so total agregado. Transporte de SCM e analise de sensibilidade a parte (Fig.4, p.7), nao incluida no valor gravado, nao atribuida a A2/A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tab.3 lida; Fig.4 (transporte SCM) nao renderizada, so sensibilidade."
+ },
+ {
+  "row_id": 3071,
+  "pares": [
+   {
+    "sheet_row": 297,
+    "co2_a1": 395,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.7, Tab.4 (Total Emission kg-CO2/m3); Sec. Discussion",
+    "citacao": "the present research does not include the energy and emissions associated with transportation",
+    "nota": "Transporte excluido explicitamente (A2 e A4 = 0): 'emissions from transportation are not considered'. Total = producao dos materiais (OPC, SCM, agregados, aditivos, activador); A3 nao separado. A1 = total publicado (derivado: nao rotulado A1 no artigo; inclui eventual mistura)."
+   },
+   {
+    "sheet_row": 298,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7, Tab.4",
+    "citacao": "",
+    "nota": "Transporte excluido explicitamente (A2 e A4 = 0): 'emissions from transportation are not considered'. Total = producao dos materiais (OPC, SCM, agregados, aditivos, activador); A3 nao separado. valor_gravado_nao_localizado: gravado 108 = 2.7 x 40; Tab.4 da Total Emission 222 kg-CO2/m3 para AAC 40 MPa (e 2.7 kg-CO2/MPa incoerente com 222/40=5.55). Seguindo a tabela, total=222 mas nao gravado/alterado; etapas A1/A3 nao atribuidas."
+   },
+   {
+    "sheet_row": 299,
+    "co2_a1": 435,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.7, Tab.4 (Total Emission kg-CO2/m3); Sec. Discussion",
+    "citacao": "the present research does not include the energy and emissions associated with transportation",
+    "nota": "Transporte excluido explicitamente (A2 e A4 = 0): 'emissions from transportation are not considered'. Total = producao dos materiais (OPC, SCM, agregados, aditivos, activador); A3 nao separado. A1 = total publicado (derivado: nao rotulado A1 no artigo; inclui eventual mistura)."
+   },
+   {
+    "sheet_row": 300,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7, Tab.4; Tab.A5",
+    "citacao": "",
+    "nota": "Transporte excluido explicitamente (A2 e A4 = 0): 'emissions from transportation are not considered'. Total = producao dos materiais (OPC, SCM, agregados, aditivos, activador); A3 nao separado. valor_gravado_nao_localizado em Tab.4: gravado 259 (Tab.A5 soma 0.259 t) vs Tab.4 AAC 58.5 MPa = 512 kg-CO2/m3. Contradicao no artigo; sem atribuir A1."
+   },
+   {
+    "sheet_row": 301,
+    "co2_a1": 247,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.7, Tab.4 (Total Emission kg-CO2/m3); Sec. Discussion",
+    "citacao": "the present research does not include the energy and emissions associated with transportation",
+    "nota": "Transporte excluido explicitamente (A2 e A4 = 0): 'emissions from transportation are not considered'. Total = producao dos materiais (OPC, SCM, agregados, aditivos, activador); A3 nao separado. A1 = total publicado (derivado: nao rotulado A1 no artigo; inclui eventual mistura)."
+   },
+   {
+    "sheet_row": 302,
+    "co2_a1": 174,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.7, Tab.4 (Total Emission kg-CO2/m3); Sec. Discussion",
+    "citacao": "the present research does not include the energy and emissions associated with transportation",
+    "nota": "Transporte excluido explicitamente (A2 e A4 = 0): 'emissions from transportation are not considered'. Total = producao dos materiais (OPC, SCM, agregados, aditivos, activador); A3 nao separado. A1 = total publicado (derivado: nao rotulado A1 no artigo; inclui eventual mistura)."
+   },
+   {
+    "sheet_row": 303,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7, Tab.4; Tab.A6",
+    "citacao": "",
+    "nota": "Transporte excluido explicitamente (A2 e A4 = 0): 'emissions from transportation are not considered'. Total = producao dos materiais (OPC, SCM, agregados, aditivos, activador); A3 nao separado. valor_gravado_nao_localizado em Tab.4: gravado 313 (Tab.A6 soma 0.313 t) vs Tab.4 AAC-II = 639 kg-CO2/m3. Contradicao no artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tabelas A1-A6 so dao emissao por constituente; Figs.6-9 nao renderizadas. Transporte excluido."
+ },
+ {
+  "row_id": 3095,
+  "pares": [
+   {
+    "sheet_row": 839,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.9a e tabela sob a figura",
+    "citacao": "",
+    "nota": "Unidade e kg CO2-eq por m3 de LIGANTE (1212), nao de betao: regra 9, nao convertido. Cradle-to-gate do ligante (extraccao, processamento, transporte de materiais); Fig.10/11 dao contribuicoes percentuais (transporte de materias-primas 5.4% no C-II/B/C-IV/B; electricidade 2.9%), sem etapas EN 15804 nem por m3 de betao."
+   },
+   {
+    "sheet_row": 2122,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.9a e tabela sob a figura",
+    "citacao": "",
+    "nota": "Unidade e kg CO2-eq por m3 de LIGANTE (1193), nao de betao: regra 9, nao convertido. Cradle-to-gate do ligante (extraccao, processamento, transporte de materiais); Fig.10/11 dao contribuicoes percentuais (transporte de materias-primas 5.4% no C-II/B/C-IV/B; electricidade 2.9%), sem etapas EN 15804 nem por m3 de betao."
+   },
+   {
+    "sheet_row": 2123,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.9a e tabela sob a figura",
+    "citacao": "",
+    "nota": "Unidade e kg CO2-eq por m3 de LIGANTE (895), nao de betao: regra 9, nao convertido. Cradle-to-gate do ligante (extraccao, processamento, transporte de materiais); Fig.10/11 dao contribuicoes percentuais (transporte de materias-primas 5.4% no C-II/B/C-IV/B; electricidade 2.9%), sem etapas EN 15804 nem por m3 de betao."
+   },
+   {
+    "sheet_row": 2124,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.9a e tabela sob a figura",
+    "citacao": "",
+    "nota": "Unidade e kg CO2-eq por m3 de LIGANTE (458), nao de betao: regra 9, nao convertido. Cradle-to-gate do ligante (extraccao, processamento, transporte de materiais); Fig.10/11 dao contribuicoes percentuais (transporte de materias-primas 5.4% no C-II/B/C-IV/B; electricidade 2.9%), sem etapas EN 15804 nem por m3 de betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Valores por m3 de ligante, fora da base do par."
+ }
+]

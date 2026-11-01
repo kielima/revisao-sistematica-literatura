@@ -1,0 +1,198 @@
+[
+ {
+  "row_id": 5055,
+  "pares": [
+   {
+    "sheet_row": 65,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Nao avaliado: o texto devolvido pelo conector (tese ~300 p.) vem truncado antes do Cap.4.7 (MCC) e da Tab.6.5 (p.288); sem leitura dessas seccoes nao se atribui nenhuma etapa. Refazer com recorte (paginas do Cap.4.7, Anexo A e Cap.6.1.1.4)."
+   },
+   {
+    "sheet_row": 67,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Nao avaliado: o texto devolvido pelo conector (tese ~300 p.) vem truncado antes do Cap.4.7 (MCC) e da Tab.6.5 (p.288); sem leitura dessas seccoes nao se atribui nenhuma etapa. Refazer com recorte (paginas do Cap.4.7, Anexo A e Cap.6.1.1.4)."
+   },
+   {
+    "sheet_row": 69,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Nao avaliado: o texto devolvido pelo conector (tese ~300 p.) vem truncado antes do Cap.4.7 (MCC) e da Tab.6.5 (p.288); sem leitura dessas seccoes nao se atribui nenhuma etapa. Refazer com recorte (paginas do Cap.4.7, Anexo A e Cap.6.1.1.4)."
+   },
+   {
+    "sheet_row": 71,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Nao avaliado: o texto devolvido pelo conector (tese ~300 p.) vem truncado antes do Cap.4.7 (MCC) e da Tab.6.5 (p.288); sem leitura dessas seccoes nao se atribui nenhuma etapa. Refazer com recorte (paginas do Cap.4.7, Anexo A e Cap.6.1.1.4)."
+   },
+   {
+    "sheet_row": 73,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Nao avaliado: o texto devolvido pelo conector (tese ~300 p.) vem truncado antes do Cap.4.7 (MCC) e da Tab.6.5 (p.288); sem leitura dessas seccoes nao se atribui nenhuma etapa. Refazer com recorte (paginas do Cap.4.7, Anexo A e Cap.6.1.1.4)."
+   },
+   {
+    "sheet_row": 75,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "",
+    "citacao": "",
+    "nota": "Nao avaliado: o texto devolvido pelo conector (tese ~300 p.) vem truncado antes do Cap.4.7 (MCC) e da Tab.6.5 (p.288); sem leitura dessas seccoes nao se atribui nenhuma etapa. Refazer com recorte (paginas do Cap.4.7, Anexo A e Cap.6.1.1.4)."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Tese truncada pelo conector (~358k caracteres, ate ~Cap.4.4); PDF 10,6 MB. Cap.4.7 (ACV MCC, fronteira berco ao portao), Tab.6.5 e Anexo A nao lidos. Pares gravados nao tratados."
+ },
+ {
+  "row_id": 5067,
+  "pares": [
+   {
+    "sheet_row": 605,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 230,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "nao",
+    "local": "p.8, Tab.4 (CE1, CE2, CE4, CM) e Sec.3.1 p.5",
+    "citacao": "At the material manufacture stage, the boundary of carbon emissions is defined from raw material to the final product, including energy use, transportation, and manufacturing process.",
+    "nota": "CE1=230 kg/m3 = fabrico (materias-primas, transporte das materias-primas e energia, ate ao produto final) = A1-A3 agregado; CE2=8.847 (transporte do material da fabrica a obra; nao rotulado A4 e fronteira nao declara betao pronto, ambiguo -> A2/A4 em branco) e CE4=8.847 (transporte dos residuos para aterro, fase C, excluida). Gravado 247.695 = CM = CE1+CE2+CE4 (soma 230+8.847+8.847=247.694), diferenca de A1-A3 para o gravado ~7% porque este inclui CE2 e CE4. Factor composto normativo da Jiangsu (CE1 de Gong 2004), nao ACV do betao. Valor 'Reinforced concrete' incl. perdas nao detalhadas. Fig.3 (resultados do caso) nao renderizada."
+   },
+   {
+    "sheet_row": 606,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 250,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "nao",
+    "local": "p.8, Tab.4 (CE1, CE2, CE4, CM) e Sec.3.1 p.5",
+    "citacao": "At the material manufacture stage, the boundary of carbon emissions is defined from raw material to the final product, including energy use, transportation, and manufacturing process.",
+    "nota": "CE1=250 kg/m3 = fabrico (materias-primas, transporte das materias-primas e energia, ate ao produto final) = A1-A3 agregado; CE2=8.847 (transporte do material da fabrica a obra; nao rotulado A4 e fronteira nao declara betao pronto, ambiguo -> A2/A4 em branco) e CE4=8.847 (transporte dos residuos para aterro, fase C, excluida). Gravado 267.695 = CM = CE1+CE2+CE4 (soma 230+8.847+8.847=247.694), diferenca de A1-A3 para o gravado ~7% porque este inclui CE2 e CE4. Factor composto normativo da Jiangsu (CE1 de Gong 2004), nao ACV do betao. Valor 'Reinforced concrete' incl. perdas nao detalhadas. Fig.3 (resultados do caso) nao renderizada."
+   },
+   {
+    "sheet_row": 607,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 270,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "nao",
+    "local": "p.8, Tab.4 (CE1, CE2, CE4, CM) e Sec.3.1 p.5",
+    "citacao": "At the material manufacture stage, the boundary of carbon emissions is defined from raw material to the final product, including energy use, transportation, and manufacturing process.",
+    "nota": "CE1=270 kg/m3 = fabrico (materias-primas, transporte das materias-primas e energia, ate ao produto final) = A1-A3 agregado; CE2=8.847 (transporte do material da fabrica a obra; nao rotulado A4 e fronteira nao declara betao pronto, ambiguo -> A2/A4 em branco) e CE4=8.847 (transporte dos residuos para aterro, fase C, excluida). Gravado 287.695 = CM = CE1+CE2+CE4 (soma 230+8.847+8.847=247.694), diferenca de A1-A3 para o gravado ~7% porque este inclui CE2 e CE4. Factor composto normativo da Jiangsu (CE1 de Gong 2004), nao ACV do betao. Valor 'Reinforced concrete' incl. perdas nao detalhadas. Fig.3 (resultados do caso) nao renderizada."
+   },
+   {
+    "sheet_row": 608,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 290,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "nao",
+    "local": "p.8, Tab.4 (CE1, CE2, CE4, CM) e Sec.3.1 p.5",
+    "citacao": "At the material manufacture stage, the boundary of carbon emissions is defined from raw material to the final product, including energy use, transportation, and manufacturing process.",
+    "nota": "CE1=290 kg/m3 = fabrico (materias-primas, transporte das materias-primas e energia, ate ao produto final) = A1-A3 agregado; CE2=8.847 (transporte do material da fabrica a obra; nao rotulado A4 e fronteira nao declara betao pronto, ambiguo -> A2/A4 em branco) e CE4=8.847 (transporte dos residuos para aterro, fase C, excluida). Gravado 307.695 = CM = CE1+CE2+CE4 (soma 230+8.847+8.847=247.694), diferenca de A1-A3 para o gravado ~7% porque este inclui CE2 e CE4. Factor composto normativo da Jiangsu (CE1 de Gong 2004), nao ACV do betao. Valor 'Reinforced concrete' incl. perdas nao detalhadas. Fig.3 (resultados do caso) nao renderizada."
+   },
+   {
+    "sheet_row": 609,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 310,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "nao",
+    "local": "p.8, Tab.4 (CE1, CE2, CE4, CM) e Sec.3.1 p.5",
+    "citacao": "At the material manufacture stage, the boundary of carbon emissions is defined from raw material to the final product, including energy use, transportation, and manufacturing process.",
+    "nota": "CE1=310 kg/m3 = fabrico (materias-primas, transporte das materias-primas e energia, ate ao produto final) = A1-A3 agregado; CE2=8.847 (transporte do material da fabrica a obra; nao rotulado A4 e fronteira nao declara betao pronto, ambiguo -> A2/A4 em branco) e CE4=8.847 (transporte dos residuos para aterro, fase C, excluida). Gravado 327.695 = CM = CE1+CE2+CE4 (soma 230+8.847+8.847=247.694), diferenca de A1-A3 para o gravado ~7% porque este inclui CE2 e CE4. Factor composto normativo da Jiangsu (CE1 de Gong 2004), nao ACV do betao. Valor 'Reinforced concrete' incl. perdas nao detalhadas. Fig.3 (resultados do caso) nao renderizada."
+   },
+   {
+    "sheet_row": 610,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 350,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "nao",
+    "local": "p.8, Tab.4 (CE1, CE2, CE4, CM) e Sec.3.1 p.5",
+    "citacao": "At the material manufacture stage, the boundary of carbon emissions is defined from raw material to the final product, including energy use, transportation, and manufacturing process.",
+    "nota": "CE1=350 kg/m3 = fabrico (materias-primas, transporte das materias-primas e energia, ate ao produto final) = A1-A3 agregado; CE2=8.847 (transporte do material da fabrica a obra; nao rotulado A4 e fronteira nao declara betao pronto, ambiguo -> A2/A4 em branco) e CE4=8.847 (transporte dos residuos para aterro, fase C, excluida). Gravado 367.695 = CM = CE1+CE2+CE4 (soma 230+8.847+8.847=247.694), diferenca de A1-A3 para o gravado ~7% porque este inclui CE2 e CE4. Factor composto normativo da Jiangsu (CE1 de Gong 2004), nao ACV do betao. Valor 'Reinforced concrete' incl. perdas nao detalhadas. Fig.3 (resultados do caso) nao renderizada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto integral lido via conector; figuras nao renderizadas (Fig.3 e a sem dados por betao). Sem etapas A1/A2/A3 separadas."
+ },
+ {
+  "row_id": 5086,
+  "pares": [
+   {
+    "sheet_row": 77,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 265.22,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "Sec.5 (p.10, fronteira A1-A3 cradle to gate) e Tab.5 (Inventory list, 'Concrete in beams')",
+    "citacao": "Manufacturing of the building products (A1-A3)... every unit process from cradle to gate is considered.",
+    "nota": "265.22 kg CO2-eq/m3 (Ecoinvent v2 'concrete, normal, at plant', CML2001 GWP100) e o factor usado para o fabrico = A1-A3; igual ao valor gravado. A4 do betao: transporte dado em kg CO2-eq/tkm (lorry 16 t 0.3202; 32 t 0.1663, Tab.5) com distancias da Tab.4, sem massa/m3 de betao impressa -> nao convertido para m3. Nao ha A1, A2, A3 separados para o betao."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lidas integralmente Sec.5-6 (LCA), Tab.3-5 e conclusoes por pesquisa dirigida e leitura das seccoes; restantes seccoes (FEM, custos) nao lidas linha a linha. Figuras nao renderizadas."
+ }
+]

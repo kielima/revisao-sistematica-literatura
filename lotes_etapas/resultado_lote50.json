@@ -1,0 +1,303 @@
+[
+ {
+  "row_id": 3584,
+  "pares": [
+   {
+    "sheet_row": 1055,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9, Sec.5.3, Eq.3, Tab.B4",
+    "citacao": "",
+    "nota": "Fronteira nao declarada. O CO2 e a soma massa x factor (Tab.B4, kg/kg) so de cimento, areia, HRWR, fibra de aco (agua e OSFA = 0; escoria 0,02): resultado por material, nao por etapa; sem transporte nem fabrico. Nao atribuido a A1 (regra 2). Conferencia: soma pela Tab.1 x Tab.B4 da ~1187 vs 1194 gravado (~0,6%), valor 1194 confirmado no texto (Sec.5.3)."
+   },
+   {
+    "sheet_row": 1056,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9, Sec.5.3",
+    "citacao": "",
+    "nota": "Idem; 942 kg/m3 confirmado no texto (OSFA 0 a 30%: 1194 a 942). Sem etapas."
+   },
+   {
+    "sheet_row": 1057,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9, Sec.5.3; p.13 Conclusao (5)",
+    "citacao": "",
+    "nota": "Sem etapas. Contradicao interna: texto Sec.5.3 diz 687 kg/m3 para OSFA20SL40, Conclusao (5) diz 651; gravado 651 (co2_original diz 687). Valor 651 e 687 ambos impressos; nenhum e por etapa. Fig. A9 (barras) nao vista."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto lido na integra (sem referencias). UHPC, factores Tab.B4 de Chiaia/Long/Wille; sem A1-A4 em nenhum lado. Figuras (Fig.5, A9) nao renderizadas; so mostram totais por mistura."
+ },
+ {
+  "row_id": 3598,
+  "pares": [
+   {
+    "sheet_row": 1059,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 360,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.4 Sec.3.1.1; p.3 Sec.2.2.1.2; Fig.1",
+    "citacao": "a Type I mixture with a 30 MPa compressive strength has embodied carbon emissions of 360 kg CO2/m3",
+    "nota": "A1-A3 so publicado como soma (cradle-to-gate, 'raw material supply, transport, and product manufacturing'); A1, A2, A3 nao separados. 360 kg CO2e/m3 impresso no texto (Type I, 30 MPa, 0% SCM). Modulo D (carbonatacao) nao incluido no valor."
+   },
+   {
+    "sheet_row": 1060,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 505,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.4 Sec.3.1.1; Fig.1",
+    "citacao": "Type I, 45 MPa, no SCMs ... 505 kg CO2e/m3",
+    "nota": "Idem; 505 kg CO2e/m3 (Type I, 45 MPa, 0% SCM). Soma A1-A3 apenas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto lido (sem referencias). Estudo teorico (108 misturas, ICE/EPD); LCA A1-A3 + D; valores gravados batem com o texto (confere por calculo: 380 kg PC x0,912+... =360). Fig.1 so da A1-A3 total. Sem desconto no valor gravado (D reportado a parte)."
+ },
+ {
+  "row_id": 3620,
+  "pares": [
+   {
+    "sheet_row": 1067,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.4 Tab.1, linha 'Global warming (kgCO2/m2)'",
+    "citacao": "",
+    "nota": "Sem etapas. Valor 16,8 kgCO2/m2 (Ecoinvent, UF 1 m2 de cobertura, laje 0,1 m) e total sem fronteira EN 15804 declarada; gravado 168 = 16,8/0,1 m. Na Tab.1 extraida pelo conector o 16,8 aparece nas colunas 'cement' (parede/cobertura) e piso; atribuicao a ROOF por confirmar na figura da tabela. Sem A1-A4."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido o texto completo extraido nas seccoes de metodo (criterios, UF, Ecoinvent), Tab.1-2 e conclusoes por varrimento; seccoes de conforto termico, social e referencias nao lidas linha a linha, logo texto_completo_lido=false. Nenhuma etapa de ciclo de vida no artigo (so indicadores de ACV por m2)."
+ },
+ {
+  "row_id": 3653,
+  "pares": [
+   {
+    "sheet_row": 1068,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20 Tab.10; p.18 Sec.3.7; Fig.12",
+    "citacao": "",
+    "nota": "Fronteira propria (ReCiPe/SimaPro/AusLCI, UF 1 km de faixa 3,5 m): materias-primas + 'mixing, transportation and placement (MTP)' + aco. Etapas EN 15804 nao rotuladas; Sec.3.7 so da percentagens em faixa (extraccao de materias-primas 18-20,1%, MTP 18,10-18,58%, cimento 61,8-63,4%) sem valor por pavimento; Fig.12 (barras) nao vista. MTP nao e A4. Total inclui armadura. ATENCAO: o gravado 349,37 = 122.280/350 m3 e o caso SEM reciclados 100 mm (Tab.10), nao o 'concreto com vidro reciclado' do rotulo (esse seria 121.655 kg, 347,59)."
+   },
+   {
+    "sheet_row": 2003,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20 Tab.10 sem reciclados 150mm",
+    "citacao": "",
+    "nota": "Fronteira propria (ReCiPe/SimaPro/AusLCI, UF 1 km de faixa 3,5 m): materias-primas + 'mixing, transportation and placement (MTP)' + aco. Etapas EN 15804 nao rotuladas; Sec.3.7 so da percentagens em faixa (extraccao de materias-primas 18-20,1%, MTP 18,10-18,58%, cimento 61,8-63,4%) sem valor por pavimento; Fig.12 (barras) nao vista. MTP nao e A4. Total inclui armadura. Valor total por pavimento (kg CO2 eq) / volume (350 ou 525 m3) = gravado."
+   },
+   {
+    "sheet_row": 2004,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20 Tab.10 20% RCG 100mm",
+    "citacao": "",
+    "nota": "Fronteira propria (ReCiPe/SimaPro/AusLCI, UF 1 km de faixa 3,5 m): materias-primas + 'mixing, transportation and placement (MTP)' + aco. Etapas EN 15804 nao rotuladas; Sec.3.7 so da percentagens em faixa (extraccao de materias-primas 18-20,1%, MTP 18,10-18,58%, cimento 61,8-63,4%) sem valor por pavimento; Fig.12 (barras) nao vista. MTP nao e A4. Total inclui armadura. Valor total por pavimento (kg CO2 eq) / volume (350 ou 525 m3) = gravado."
+   },
+   {
+    "sheet_row": 2005,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20 Tab.10 20% RCG 150mm",
+    "citacao": "",
+    "nota": "Fronteira propria (ReCiPe/SimaPro/AusLCI, UF 1 km de faixa 3,5 m): materias-primas + 'mixing, transportation and placement (MTP)' + aco. Etapas EN 15804 nao rotuladas; Sec.3.7 so da percentagens em faixa (extraccao de materias-primas 18-20,1%, MTP 18,10-18,58%, cimento 61,8-63,4%) sem valor por pavimento; Fig.12 (barras) nao vista. MTP nao e A4. Total inclui armadura. Valor total por pavimento (kg CO2 eq) / volume (350 ou 525 m3) = gravado."
+   },
+   {
+    "sheet_row": 2006,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20 Tab.10 100% RCS 100mm",
+    "citacao": "",
+    "nota": "Fronteira propria (ReCiPe/SimaPro/AusLCI, UF 1 km de faixa 3,5 m): materias-primas + 'mixing, transportation and placement (MTP)' + aco. Etapas EN 15804 nao rotuladas; Sec.3.7 so da percentagens em faixa (extraccao de materias-primas 18-20,1%, MTP 18,10-18,58%, cimento 61,8-63,4%) sem valor por pavimento; Fig.12 (barras) nao vista. MTP nao e A4. Total inclui armadura. Valor total por pavimento (kg CO2 eq) / volume (350 ou 525 m3) = gravado."
+   },
+   {
+    "sheet_row": 2007,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20 Tab.10 100% RCS 150mm",
+    "citacao": "",
+    "nota": "Fronteira propria (ReCiPe/SimaPro/AusLCI, UF 1 km de faixa 3,5 m): materias-primas + 'mixing, transportation and placement (MTP)' + aco. Etapas EN 15804 nao rotuladas; Sec.3.7 so da percentagens em faixa (extraccao de materias-primas 18-20,1%, MTP 18,10-18,58%, cimento 61,8-63,4%) sem valor por pavimento; Fig.12 (barras) nao vista. MTP nao e A4. Total inclui armadura. Valor total por pavimento (kg CO2 eq) / volume (350 ou 525 m3) = gravado."
+   },
+   {
+    "sheet_row": 2008,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20 Tab.10 20% RCG+100% RCS 100mm",
+    "citacao": "",
+    "nota": "Fronteira propria (ReCiPe/SimaPro/AusLCI, UF 1 km de faixa 3,5 m): materias-primas + 'mixing, transportation and placement (MTP)' + aco. Etapas EN 15804 nao rotuladas; Sec.3.7 so da percentagens em faixa (extraccao de materias-primas 18-20,1%, MTP 18,10-18,58%, cimento 61,8-63,4%) sem valor por pavimento; Fig.12 (barras) nao vista. MTP nao e A4. Total inclui armadura. Valor total por pavimento (kg CO2 eq) / volume (350 ou 525 m3) = gravado."
+   },
+   {
+    "sheet_row": 2009,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20 Tab.10 20% RCG+100% RCS 150mm",
+    "citacao": "",
+    "nota": "Fronteira propria (ReCiPe/SimaPro/AusLCI, UF 1 km de faixa 3,5 m): materias-primas + 'mixing, transportation and placement (MTP)' + aco. Etapas EN 15804 nao rotuladas; Sec.3.7 so da percentagens em faixa (extraccao de materias-primas 18-20,1%, MTP 18,10-18,58%, cimento 61,8-63,4%) sem valor por pavimento; Fig.12 (barras) nao vista. MTP nao e A4. Total inclui armadura. Valor total por pavimento (kg CO2 eq) / volume (350 ou 525 m3) = gravado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Texto lido (sem referencias). Sem CO2 por etapa; so percentagens agregadas em faixa no texto da Sec.3.7. Fig.12 pode ter contribuicao por componente com percentagens; reler com recorte pp.19 se a Kie quiser, mas as categorias (extraccao, MTP, cimento, aco) nao sao A1-A4."
+ },
+ {
+  "row_id": 3657,
+  "pares": [
+   {
+    "sheet_row": 1069,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.15 Tab.10; Sec.5.3.2; Tab.4",
+    "citacao": "",
+    "nota": "Fronteira 'cradle-to-cradle' propria (extraccao+transporte de materias-primas; preparacao+transporte do betao; construcao e demolicao; tratamento pos-demolicao), CML 2001. GWP Tab.10 e total do ciclo (inclui construcao 8,93 e demolicao 8,03 kg/m3, Tab.4, e aterro/credito RA) e NAO e A1-A3. Inventario por etapa so nas Tabelas S1/S2 (suplemento, nao no PDF). Fig.8(b) da so percentagens por etapa (texto: 'producao de cimento >80% do ciclo'). Rotulos propios nao mapeiam a A1-A4 de forma explicita (agrupam A2 com A1 e A4 com A3). Valor Tab.10 NAC 502,1 = gravado."
+   },
+   {
+    "sheet_row": 1070,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.15 Tab.10",
+    "citacao": "",
+    "nota": "Fronteira 'cradle-to-cradle' propria (extraccao+transporte de materias-primas; preparacao+transporte do betao; construcao e demolicao; tratamento pos-demolicao), CML 2001. GWP Tab.10 e total do ciclo (inclui construcao 8,93 e demolicao 8,03 kg/m3, Tab.4, e aterro/credito RA) e NAO e A1-A3. Inventario por etapa so nas Tabelas S1/S2 (suplemento, nao no PDF). Fig.8(b) da so percentagens por etapa (texto: 'producao de cimento >80% do ciclo'). Rotulos propios nao mapeiam a A1-A4 de forma explicita (agrupam A2 com A1 e A4 com A3). valor_gravado_nao_localizado: gravado 478 mas Tab.10 da 459,6 (RACI); 478 nao aparece no artigo."
+   },
+   {
+    "sheet_row": 1071,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.15 Tab.10",
+    "citacao": "",
+    "nota": "Fronteira 'cradle-to-cradle' propria (extraccao+transporte de materias-primas; preparacao+transporte do betao; construcao e demolicao; tratamento pos-demolicao), CML 2001. GWP Tab.10 e total do ciclo (inclui construcao 8,93 e demolicao 8,03 kg/m3, Tab.4, e aterro/credito RA) e NAO e A1-A3. Inventario por etapa so nas Tabelas S1/S2 (suplemento, nao no PDF). Fig.8(b) da so percentagens por etapa (texto: 'producao de cimento >80% do ciclo'). Rotulos propios nao mapeiam a A1-A4 de forma explicita (agrupam A2 com A1 e A4 com A3). valor_gravado_nao_localizado: gravado 477,8 mas Tab.10 da 441,2 (RACII)."
+   },
+   {
+    "sheet_row": 1072,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.15 Tab.10",
+    "citacao": "",
+    "nota": "Fronteira 'cradle-to-cradle' propria (extraccao+transporte de materias-primas; preparacao+transporte do betao; construcao e demolicao; tratamento pos-demolicao), CML 2001. GWP Tab.10 e total do ciclo (inclui construcao 8,93 e demolicao 8,03 kg/m3, Tab.4, e aterro/credito RA) e NAO e A1-A3. Inventario por etapa so nas Tabelas S1/S2 (suplemento, nao no PDF). Fig.8(b) da so percentagens por etapa (texto: 'producao de cimento >80% do ciclo'). Rotulos propios nao mapeiam a A1-A4 de forma explicita (agrupam A2 com A1 e A4 com A3). valor_gravado_nao_localizado: gravado 478,2 mas Tab.10 da 422,8 (RACIII)."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Lidas na integra as seccoes de LCA (2.3.2, 5.3), Tab.3, 4, 10, conclusoes; seccoes de ensaio triaxial/modelos (secs. 3-5.2, equacoes) nao lidas linha a linha, logo texto_completo_lido=false. Fig.8(b) (percentagens por etapa) por reler com recorte (pag. 15); mesmo assim as etapas nao seriam A1-A4. ATENCAO: 3 valores gravados (RACI-III) nao batem com a Tab.10."
+ },
+ {
+  "row_id": 3681,
+  "pares": [
+   {
+    "sheet_row": 1078,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.4 Sec.4.1 (texto); Fig.2; Sec.3.1",
+    "citacao": "baseline production impacts contribute 4.26 kg CO2-eq per reference unit",
+    "nota": "Producao (ano 0) = 4,26 kg CO2-eq por bloco 0,016 m3 (=266,25 kg/m3, bate com gravado); factores Ecoinvent v3.7 de cimento com 20% cinza volante, 0,69 kg/kg. O artigo so tem 'Production' e carbonatacao (servico/fim de vida) e nao rotula A1-A3; nao separa A1, A2, A3 nem A4. Baseline Class F fly ash 20%, 25 MPa, 381 kg cimento/m3. Carbonatacao -0,25 kg (6%) nao esta no valor gravado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto lido (sem referencias). Calculadora dinamica; sem EN 15804."
+ }
+]

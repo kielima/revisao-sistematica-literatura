@@ -1,0 +1,212 @@
+[
+ {
+  "row_id": 3195,
+  "pares": [
+   {
+    "sheet_row": 323,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9-10, Sec.4.1, Fig.7",
+    "citacao": "",
+    "nota": "Cradle-to-gate (Sec.3.1.2, Fig.6) so com GWP total e por processo/material (electricidade >61%, NaOH 137, Ca(OH)2 49,1); transporte de CDW+NaOH+Ca(OH)2 so em % (0,23% do GWP), sem rotulo A2/A4 e sem incluir a escoria (620 km). Nao ha valores por etapa EN 15804."
+   },
+   {
+    "sheet_row": 324,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Sec.4.2, Fig.9/11",
+    "citacao": "",
+    "nota": "Total 595,6; cimento 415 e areia 26%/70% por material, nao por etapa. Cradle-to-gate (Sec.3.1.2, Fig.6) so com GWP total e por processo/material (electricidade >61%, NaOH 137, Ca(OH)2 49,1); transporte de CDW+NaOH+Ca(OH)2 so em % (0,23% do GWP), sem rotulo A2/A4 e sem incluir a escoria (620 km). Nao ha valores por etapa EN 15804."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Cradle-to-gate (Sec.3.1.2, Fig.6) so com GWP total e por processo/material (electricidade >61%, NaOH 137, Ca(OH)2 49,1); transporte de CDW+NaOH+Ca(OH)2 so em % (0,23% do GWP), sem rotulo A2/A4 e sem incluir a escoria (620 km). Nao ha valores por etapa EN 15804."
+ },
+ {
+  "row_id": 3200,
+  "pares": [
+   {
+    "sheet_row": 912,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 382.3,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.12, Sec.4.4.1 e 4.4.3.2, Fig.13",
+    "citacao": "The cradle-to-gate cycle involves the extraction and production phases, excluding the transportation, use, and disposal phases.",
+    "nota": "Total = extracao+producao (A1+A3 nao separados); transporte excluido (excluida -> A2=0, A4=0). Cimento >92% do impacto. Escopo lido do texto; Fig.13 nao renderizada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fronteira cradle-to-gate sem transporte; so total agregado."
+ },
+ {
+  "row_id": 3206,
+  "pares": [
+   {
+    "sheet_row": 916,
+    "co2_a1": 212.98,
+    "co2_a2": 34.37,
+    "co2_a3": 19.24,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "sim",
+    "local": "p.13, Tab.7",
+    "citacao": "",
+    "nota": "Colunas da Tab.7: Raw Materials / Production / Transportation (CO2 kg/m3) mapeadas A1/A3/A2: Eq.3 calcula o transporte por materia-prima (distancias 327-557 km, Tab.6), logo e transporte de materias-primas = A2, nao A4; fronteira nao declarada como EN 15804 e mapeamento de colunas e nosso (por confirmar). 'Production' (19,2 kg/m3 ~constante) = fabrico (EFp x peso da amostra). Soma 212.98+19.24+34.37=266.59 vs total 266.59."
+   },
+   {
+    "sheet_row": 917,
+    "co2_a1": 281.96,
+    "co2_a2": 33.53,
+    "co2_a3": 19.22,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "sim",
+    "local": "p.13, Tab.7",
+    "citacao": "",
+    "nota": "Colunas da Tab.7: Raw Materials / Production / Transportation (CO2 kg/m3) mapeadas A1/A3/A2: Eq.3 calcula o transporte por materia-prima (distancias 327-557 km, Tab.6), logo e transporte de materias-primas = A2, nao A4; fronteira nao declarada como EN 15804 e mapeamento de colunas e nosso (por confirmar). 'Production' (19,2 kg/m3 ~constante) = fabrico (EFp x peso da amostra). Soma 281.96+19.22+33.53=334.71 vs total 334.72."
+   },
+   {
+    "sheet_row": 918,
+    "co2_a1": 389.71,
+    "co2_a2": 30.33,
+    "co2_a3": 19.21,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "sim",
+    "local": "p.13, Tab.7",
+    "citacao": "",
+    "nota": "Colunas da Tab.7: Raw Materials / Production / Transportation (CO2 kg/m3) mapeadas A1/A3/A2: Eq.3 calcula o transporte por materia-prima (distancias 327-557 km, Tab.6), logo e transporte de materias-primas = A2, nao A4; fronteira nao declarada como EN 15804 e mapeamento de colunas e nosso (por confirmar). 'Production' (19,2 kg/m3 ~constante) = fabrico (EFp x peso da amostra). Soma 389.71+19.21+30.33=439.25 vs total 439.26."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tab.7 da etapas por coluna; mapeamento A1/A2/A3 por confirmar."
+ },
+ {
+  "row_id": 3207,
+  "pares": [
+   {
+    "sheet_row": 919,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20-21, Tab.11, Fig.19",
+    "citacao": "",
+    "nota": "Tab.11 so da factores por material (cimento 0,83 kg/kg etc.) e Fig.19 so total por m3 sem rotulos; sem etapas nem fronteira declarada."
+   },
+   {
+    "sheet_row": 920,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20-21, Tab.11, Fig.19",
+    "citacao": "",
+    "nota": "Tab.11 so da factores por material (cimento 0,83 kg/kg etc.) e Fig.19 so total por m3 sem rotulos; sem etapas nem fronteira declarada."
+   },
+   {
+    "sheet_row": 921,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.20-21, Tab.11, Fig.19",
+    "citacao": "",
+    "nota": "Tab.11 so da factores por material (cimento 0,83 kg/kg etc.) e Fig.19 so total por m3 sem rotulos; sem etapas nem fronteira declarada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tab.11 so da factores por material (cimento 0,83 kg/kg etc.) e Fig.19 so total por m3 sem rotulos; sem etapas nem fronteira declarada."
+ },
+ {
+  "row_id": 3218,
+  "pares": [
+   {
+    "sheet_row": 930,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.18, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 so da GWP total por mistura; fronteira/escopo nao declarados no texto lido; sem etapas."
+   },
+   {
+    "sheet_row": 2095,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.18, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 so da GWP total por mistura; fronteira/escopo nao declarados no texto lido; sem etapas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tab.10 so da GWP total por mistura; fronteira/escopo nao declarados no texto lido; sem etapas."
+ },
+ {
+  "row_id": 3219,
+  "pares": [
+   {
+    "sheet_row": 931,
+    "co2_a1": 161.85,
+    "co2_a2": 29.25,
+    "co2_a3": 3.9,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.14, Sec.4.1.3, Fig.18a",
+    "citacao": "transport phase ... about 15%; mixing process ... 2%; ancillary materials ... 4%",
+    "nota": "Derivado: valor gravado 195 (BYCC) e lido do radar da Fig.18a/21 (nao impresso) x percentagens inteiras do texto p.14 Sec.4.1.3 (aux. materiais 4%, transporte 15%, mistura 2%, cimento = restante 79%): A2=0,15x195, A3=0,02x195, A1=(79+4)%x195. Transporte = recolha e transporte de materias-primas (A2), nao A4 (o transporte do betao 30 km pertence ao pavimento, nao ao m3). Baixa confianca (arredondamentos e base lida a olho); Fig.18 sem rotulos e nao renderizada. Valor PCC (400): so se sabe cimento 90%, restantes nao publicados. Soma=195 por construcao (percentagens somam 100)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Derivado: valor gravado 195 (BYCC) e lido do radar da Fig.18a/21 (nao impresso) x percentagens inteiras do texto p.14 Sec.4.1.3 (aux. materiais 4%, transporte 15%, mistura 2%, cimento = restante 79%): A2=0,15x195, A3=0,02x195, A1=(79+4)%x195. Transporte = recolha e transporte de materias-primas (A2), nao A4 (o transporte do betao 30 km pertence ao pavimento, nao ao m3). Baixa confianca (arredondamentos e base lida a olho); Fig.18 sem rotulos e nao renderizada. Valor PCC (400): so se sabe cimento 90%, restantes nao publicados."
+ }
+]

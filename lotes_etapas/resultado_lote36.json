@@ -1,0 +1,381 @@
+[
+ {
+  "row_id": 2681,
+  "pares": [
+   {
+    "sheet_row": 130,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9, texto GWP e Tab.4",
+    "citacao": "",
+    "nota": "Artigo so da totais cradle-to-gate e cradle-to-grave/cradle-to-cradle por mistura (Tab.3/4, p.9-10; GWP 380/297 cradle-to-gate); nenhum valor por etapa A1-A4 impresso."
+   },
+   {
+    "sheet_row": 131,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9, texto GWP e Tab.4",
+    "citacao": "",
+    "nota": "Artigo so da totais cradle-to-gate e cradle-to-grave/cradle-to-cradle por mistura (Tab.3/4, p.9-10; GWP 380/297 cradle-to-gate); nenhum valor por etapa A1-A4 impresso."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem etapas EN 15804. Fig.5 (contribuicao midpoint, transporte) nao tem rotulos numericos lidos no texto; figuras nao renderizadas."
+ },
+ {
+  "row_id": 2687,
+  "pares": [
+   {
+    "sheet_row": 1855,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9, Sec.4 e Fig.6",
+    "citacao": "100% stands for 151.3 t CO2eq",
+    "nota": "Valor gravado (636.8) = 151.3 t / 237.6 m3 de betao P-RC, so producao dos componentes (nivel 1: betao, aco, asfalto, etc.), nao por m3 de betao. Transporte e demolicao so em % normalizadas (Fig.7, 'transporte ~10%' do total sem rotulos). Nao atribuido a A1 porque o transporte nao e dado em valor absoluto (regra 2); candidato derivado A1=636.8 (valor_gravado coincide). Sem A2/A3/A4 absolutos."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem etapas EN 15804; Figs.6-8 normalizadas a Method 1, sem rotulos numericos em texto. Figuras nao renderizadas."
+ },
+ {
+  "row_id": 2688,
+  "pares": [
+   {
+    "sheet_row": 645,
+    "co2_a1": 720.4,
+    "co2_a2": 15.8,
+    "co2_a3": null,
+    "co2_a4": 47.5,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.10-11, Tab.9 (456 kg/painel) e Tab.11 (Climate Change: A1 91%, A2 2%, A3 <1%, A4 6%, C1 <1%, C2 1%, C3 <1%, C4 <1%)",
+    "citacao": "Tab.11 Contribution of life cycle stages",
+    "nota": "Derivado: percentagem (Tab.11, arredondada a 1 pp) x 791.67 kg/m3 (=456 kg/painel / 0.576 m3; 4.0x3.6x0.04 m). A1=0.91x791.67=720.4; A2=15.8; A4=47.5. A3 '<1%' (<7.9 kg/m3) nao quantificavel: deixado em branco. Incerteza de arredondamento ~+-0.5 pp (~+-4 kg/m3). O total gravado e ciclo de vida completo (cradle-to-grave, inclui C1-C4 ~3%); A1+A2+A4=99% do total, dentro de 2% -> sim."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Cradle-to-grave EN 15804; modulos A1-A4 e C1-C4 por percentagem na Tab.11. Pagina da Tab.11 lida em texto, nao renderizada."
+ },
+ {
+  "row_id": 2694,
+  "pares": [
+   {
+    "sheet_row": 651,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.? Tab.4",
+    "citacao": "",
+    "nota": "Tab.4 so da coeficiente GWP por m3 de betao pronto (base de dados LCI coreana, KEITI/MOLIT); sem decomposicao por etapas nem fronteira declarada em A1-A4."
+   },
+   {
+    "sheet_row": 652,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.? Tab.4",
+    "citacao": "",
+    "nota": "Tab.4 so da coeficiente GWP por m3 de betao pronto (base de dados LCI coreana, KEITI/MOLIT); sem decomposicao por etapas nem fronteira declarada em A1-A4."
+   },
+   {
+    "sheet_row": 653,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.? Tab.4",
+    "citacao": "",
+    "nota": "Tab.4 so da coeficiente GWP por m3 de betao pronto (base de dados LCI coreana, KEITI/MOLIT); sem decomposicao por etapas nem fronteira declarada em A1-A4."
+   },
+   {
+    "sheet_row": 654,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.? Tab.4",
+    "citacao": "",
+    "nota": "Tab.4 so da coeficiente GWP por m3 de betao pronto (base de dados LCI coreana, KEITI/MOLIT); sem decomposicao por etapas nem fronteira declarada em A1-A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fronteira nao declarada; Sec.5.1 menciona 420 de CO2 puro e 429 GWP final (ja corrigido no banco)."
+ },
+ {
+  "row_id": 2720,
+  "pares": [
+   {
+    "sheet_row": 162,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11-12, Tab.8",
+    "citacao": "",
+    "nota": "Tab.8 so da totais por 'FU 1 L'; limites do sistema incluem producao dos materiais, transporte (Tab.5/6, litros de combustivel) e mistura em laboratorio, mas sem CO2 por etapa. Unidade do par (1 m3 assumida pela equipa) nao permite atribuir etapas."
+   },
+   {
+    "sheet_row": 163,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11-12, Tab.8",
+    "citacao": "",
+    "nota": "Tab.8 so da totais por 'FU 1 L'; limites do sistema incluem producao dos materiais, transporte (Tab.5/6, litros de combustivel) e mistura em laboratorio, mas sem CO2 por etapa. Unidade do par (1 m3 assumida pela equipa) nao permite atribuir etapas."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem etapas A1-A4 publicadas."
+ },
+ {
+  "row_id": 2721,
+  "pares": [
+   {
+    "sheet_row": 675,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 676,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 677,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 678,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 679,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 680,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 681,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 682,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 683,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 684,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 685,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 686,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 687,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 688,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   },
+   {
+    "sheet_row": 689,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.10 e Eq.(10)",
+    "citacao": "",
+    "nota": "Tab.10 da CO2 por material (BA, NA, areia, PPF, agua, cimento) e total; Csc = 'carbon emission in the production stage of raw materials' (so producao dos materiais, sem transporte nem mistura, mas sem transporte em valor separado -> nao atribuido a A1 pela regra 2). Candidato: A1 = total gravado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem etapas EN 15804; fronteira = producao das materias-primas (cimento 98.9% do total). Fig.10 nao renderizada."
+ }
+]

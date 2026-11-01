@@ -1,0 +1,238 @@
+[
+ {
+  "row_id": 2580,
+  "pares": [
+   {
+    "sheet_row": 78,
+    "co2_a1": 367.5,
+    "co2_a2": 11.44,
+    "co2_a3": 0.28,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.12-13 (Sec.3.5.3) e Tab.6 (p.13, fator de impacto x quantidades)",
+    "citacao": "",
+    "nota": "Fast-track LCA gate-to-gate (Fig.14). Etapas derivadas por nos da Tab.6 (fator x quantidade): Materials=A1, Transport (materias-primas ate ao laboratorio)=A2, Energy use (mistura/vibracao) =A3. Controle: A1=395x0.91+732x0.002+1068x0.006+180x0.001=367.50; A2=50.04 tkm x0.225 (agregados)+1.975 tkm x0.091 (cimento)=11.44; A3=2.01 MJ x0.141=0.28; soma 379.22 = valor gravado. A4 nao aplicavel/nao declarado (gate-to-gate; end of life excluido). Fig.15 (valores por etapa) nao renderizada; valores recalculados da Tab.6 e conferem com o total e com 359.45/282.1 (cimento) do texto. Mapeamento Materials/Transport/Energy->A1/A2/A3 e nosso; o artigo nao usa a nomenclatura EN 15804."
+   },
+   {
+    "sheet_row": 79,
+    "co2_a1": 289.72,
+    "co2_a2": 12.31,
+    "co2_a3": 1.04,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.12-13 (Sec.3.5.3) e Tab.6 (p.13, fator de impacto x quantidades)",
+    "citacao": "",
+    "nota": "Fast-track LCA gate-to-gate (Fig.14). Etapas derivadas por nos da Tab.6 (fator x quantidade): Materials=A1, Transport (materias-primas ate ao laboratorio)=A2, Energy use (mistura/vibracao e moagem da CBA) =A3.  Otimizado: A1=282.1+1.034+6.408+0.18=289.72; A2=9.99 (agregados)+0.14 (cimento)+2.18 (CBA, 80 km)=12.31; A3=(2.01+5.364) MJ x0.141=1.04; soma 303.07 vs 303.06 gravado. A4 nao aplicavel/nao declarado (gate-to-gate; end of life excluido). Fig.15 (valores por etapa) nao renderizada; valores recalculados da Tab.6 e conferem com o total e com 359.45/282.1 (cimento) do texto. Mapeamento Materials/Transport/Energy->A1/A2/A3 e nosso; o artigo nao usa a nomenclatura EN 15804."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Total e Tab.6 lidos; figuras nao renderizadas (valores por etapa derivados da Tab.6)."
+ },
+ {
+  "row_id": 2606,
+  "pares": [
+   {
+    "sheet_row": 5,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13, Tab.11 e Sec.6.2",
+    "citacao": "GWP of CFA-based concrete ... 75.6 kgCO2 eq. ... inclusive of the energy required for mixing and the material transport",
+    "nota": "Concreto CFA = 75.6 kg CO2-eq para 465 kg de mistura (Tab.5/Tab.11 fase B) = 0.162 kg/kg; x 2342 kg/m3 = 379.4 kg/m3 (valor gravado). O valor inclui materiais+transporte de materias-primas+energia de mistura sem separacao; o transporte (fase T, 21.9 kg no total do sistema) nao e dado por produto. Sem A1/A2/A3 separados; fronteira cradle-to-site mas o A4 (32 km para obra) refere-se aos elementos pre-fabricados, nao ao concreto. valor_gravado confere."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido; figuras nao vistas (Fig.16 so percentagens por fase do sistema inteiro)."
+ },
+ {
+  "row_id": 2611,
+  "pares": [
+   {
+    "sheet_row": 88,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Tab.14 (p.14); Fig.3 (fronteira); Fig.8 (nao renderizada)",
+    "citacao": "",
+    "nota": "Fronteira: extracao e processamento das materias-primas, transporte ate a central e fabrico (Fig.3). O artigo da CO2-E total do ciclo de vida por m3 (Fig.8) e, em Tab.14, o valor medio de um ciclo de 50 anos em ambiente de acido sulfurico (OPC 364.185); o valor gravado e este. Nao ha tabela com CO2 por etapa A1/A2/A3 por mistura; so se poderia obter da Fig.8 (se for barra empilhada, nao verificado)."
+   },
+   {
+    "sheet_row": 91,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Tab.14 (p.14); Fig.3 (fronteira); Fig.8 (nao renderizada)",
+    "citacao": "",
+    "nota": "Fronteira: extracao e processamento das materias-primas, transporte ate a central e fabrico (Fig.3). O artigo da CO2-E total do ciclo de vida por m3 (Fig.8) e, em Tab.14, o valor medio de um ciclo de 50 anos em ambiente de acido sulfurico (OPC 351.496); o valor gravado e este. Nao ha tabela com CO2 por etapa A1/A2/A3 por mistura; so se poderia obter da Fig.8 (se for barra empilhada, nao verificado)."
+   },
+   {
+    "sheet_row": 94,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Tab.14 (p.14); Fig.3 (fronteira); Fig.8 (nao renderizada)",
+    "citacao": "",
+    "nota": "Fronteira: extracao e processamento das materias-primas, transporte ate a central e fabrico (Fig.3). O artigo da CO2-E total do ciclo de vida por m3 (Fig.8) e, em Tab.14, o valor medio de um ciclo de 50 anos em ambiente de acido sulfurico (OPC 375.088); o valor gravado e este. Nao ha tabela com CO2 por etapa A1/A2/A3 por mistura; so se poderia obter da Fig.8 (se for barra empilhada, nao verificado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Texto completo lido; figuras nao renderizadas. Fig.8 pode ter decomposicao por etapa: reler com recorte."
+ },
+ {
+  "row_id": 2624,
+  "pares": [
+   {
+    "sheet_row": 115,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.8, Tab.3",
+    "citacao": "",
+    "nota": "Tab.3 so da o GWP total do concreto C30/37 (478.3 kg CO2-eq/m3, AIE4B, inclui malha de aco segundo Tab.4 de custos; fronteira nao declarada em modulos). Sem decomposicao por etapa."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido; sem etapas."
+ },
+ {
+  "row_id": 2653,
+  "pares": [
+   {
+    "sheet_row": 116,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.4-8, Tab.3, Fig.3 e Fig.5",
+    "citacao": "",
+    "nota": "Fronteira cradle-to-gate (sem transporte da escoria, Fig.3). Resultados so em Fig.5 normalizados (% do maximo) por categoria, sem valores absolutos por etapa; o valor gravado e reconstruido (saldo/UF 0.008 m3). Sem A1-A4 publicados."
+   },
+   {
+    "sheet_row": 117,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.4-8, Tab.3, Fig.3 e Fig.5",
+    "citacao": "",
+    "nota": "Fronteira cradle-to-gate (sem transporte da escoria, Fig.3). Resultados so em Fig.5 normalizados (% do maximo) por categoria, sem valores absolutos por etapa; o valor gravado e reconstruido (saldo/UF 0.008 m3). Sem A1-A4 publicados."
+   },
+   {
+    "sheet_row": 118,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.4-8, Tab.3, Fig.3 e Fig.5",
+    "citacao": "",
+    "nota": "Fronteira cradle-to-gate (sem transporte da escoria, Fig.3). Resultados so em Fig.5 normalizados (% do maximo) por categoria, sem valores absolutos por etapa; o valor gravado e reconstruido (saldo/UF 0.008 m3). Sem A1-A4 publicados."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido; Fig.5 so percentagens normalizadas."
+ },
+ {
+  "row_id": 2680,
+  "pares": [
+   {
+    "sheet_row": 146,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.4 e Sec.3.1.1 (p.8)",
+    "citacao": "",
+    "nota": "CB: 196 kg CO2-eq/m2 cradle-to-grave. O artigo da CO2 por m2 de edificio por fase do ciclo de vida (manufacturing, construction, use, end-of-life; Fig.4), nao por m3 de concreto nem por modulos EN 15804. Unidade diferente do par: nao convertido. valor_gravado_nao_localizado (296-300 kg/m3 nao aparece no texto)."
+   },
+   {
+    "sheet_row": 147,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.4 e Sec.3.1.1 (p.8)",
+    "citacao": "",
+    "nota": "CM1: 282 kg CO2-eq/m2. O artigo da CO2 por m2 de edificio por fase do ciclo de vida (manufacturing, construction, use, end-of-life; Fig.4), nao por m3 de concreto nem por modulos EN 15804. Unidade diferente do par: nao convertido. valor_gravado_nao_localizado (296-300 kg/m3 nao aparece no texto)."
+   },
+   {
+    "sheet_row": 148,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.4 e Sec.3.1.1 (p.8)",
+    "citacao": "",
+    "nota": "CM2: 223 kg CO2-eq/m2. O artigo da CO2 por m2 de edificio por fase do ciclo de vida (manufacturing, construction, use, end-of-life; Fig.4), nao por m3 de concreto nem por modulos EN 15804. Unidade diferente do par: nao convertido. valor_gravado_nao_localizado (296-300 kg/m3 nao aparece no texto)."
+   },
+   {
+    "sheet_row": 149,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "Fig.4 e Sec.3.1.1 (p.8)",
+    "citacao": "",
+    "nota": "MSC: 131 kg CO2-eq/m2. O artigo da CO2 por m2 de edificio por fase do ciclo de vida (manufacturing, construction, use, end-of-life; Fig.4), nao por m3 de concreto nem por modulos EN 15804. Unidade diferente do par: nao convertido. valor_gravado_nao_localizado (296-300 kg/m3 nao aparece no texto)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto completo lido; Fig.4 nao renderizada, mas esta em kg/m2 de edificio (regra 9)."
+ }
+]

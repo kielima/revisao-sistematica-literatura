@@ -1,0 +1,264 @@
+[
+ {
+  "row_id": 3367,
+  "pares": [
+   {
+    "sheet_row": 397,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.470 Tab.9; p.468 Tab.6",
+    "citacao": "",
+    "nota": "Estudo de ACV so do cimento (cradle-to-gate, FU 1 kg cimento, CML 2001), nao do betao. Etapas do artigo = estagios de producao do cimento (1 preparo de materias-primas, 2 clinquer, 3 moagem/mistura), nao A1-A4 da EN 15804; Fig.6 da contribuicao por estagio so em percentagem (nao lida). Valor gravado = GWP por kg de cimento (Tab.9) x 400 kg (ou 350 kg) de ligante por m3 (Tab.6): so cimento, sem agregados/agua/mistura/transporte do betao. Nenhuma etapa A1-A4 publicada. 1,08x400=432 confere com o gravado."
+   },
+   {
+    "sheet_row": 398,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.470 Tab.9; p.468 Tab.6",
+    "citacao": "",
+    "nota": "Estudo de ACV so do cimento (cradle-to-gate, FU 1 kg cimento, CML 2001), nao do betao. Etapas do artigo = estagios de producao do cimento (1 preparo de materias-primas, 2 clinquer, 3 moagem/mistura), nao A1-A4 da EN 15804; Fig.6 da contribuicao por estagio so em percentagem (nao lida). Valor gravado = GWP por kg de cimento (Tab.9) x 400 kg (ou 350 kg) de ligante por m3 (Tab.6): so cimento, sem agregados/agua/mistura/transporte do betao. Nenhuma etapa A1-A4 publicada. 1,02x400=408."
+   },
+   {
+    "sheet_row": 399,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.470 Tab.9; p.468 Tab.6",
+    "citacao": "",
+    "nota": "Estudo de ACV so do cimento (cradle-to-gate, FU 1 kg cimento, CML 2001), nao do betao. Etapas do artigo = estagios de producao do cimento (1 preparo de materias-primas, 2 clinquer, 3 moagem/mistura), nao A1-A4 da EN 15804; Fig.6 da contribuicao por estagio so em percentagem (nao lida). Valor gravado = GWP por kg de cimento (Tab.9) x 400 kg (ou 350 kg) de ligante por m3 (Tab.6): so cimento, sem agregados/agua/mistura/transporte do betao. Nenhuma etapa A1-A4 publicada. 0,86x350=301."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto integral lido via conector (11 pp.); figuras nao renderizadas como imagem. Nao ha etapas EN 15804."
+ },
+ {
+  "row_id": 3399,
+  "pares": [
+   {
+    "sheet_row": 407,
+    "co2_a1": 227.3,
+    "co2_a2": 8.4,
+    "co2_a3": 21.3,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.4 Tab.1; p.8 Tab.2 e Tab.3 (Mistura 1a); p.9 texto",
+    "citacao": "mean values of 174.8 and 144.8 kg CO2e per m3 (liquido com carbonatacao)",
+    "nota": "Fronteira 'cradle-to-gate plus carbonation': A1-A3, B1, C4 (Sec.2.1.3, Fig.1). A4 fora da fronteira. Valores por etapa NAO impressos como numeros (Fig.3/5 so boxplots, texto so da o liquido 174,8/144,8 com carbonatacao); calculados por nos = soma das medianas por tonelada (Tab.2) x massas da Tab.3 (A1 cimento+areia fina+brita+aditivo; A2 transporte cimento+brita+areia; A3 = 9,5 kg/t x massa total do m3 da Tab.3; agua e beneficiacao da cinza omitidas pelo artigo por <1%). Soma de medianas, nao media de Monte Carlo. Valor gravado e o bruto cradle-to-gate (sem carbonatacao); o texto so imprime o liquido. Mistura 1a: A1=288x0,7737+807x0,0019+995x0,0029+0,085x1,1499=227,3; A2=288x0,0115+995x0,0028+807x0,0029=8,4; A3=2,245 t x 9,5=21,3; soma 257,1 vs gravado 257 (0,0%). A4 nao modelada (excluida da fronteira)."
+   },
+   {
+    "sheet_row": 408,
+    "co2_a1": 192.4,
+    "co2_a2": 9.1,
+    "co2_a3": 21.0,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.4 Tab.1; p.8 Tab.2 e Tab.3 (Mistura 1b); p.9 texto",
+    "citacao": "mean values of 174.8 and 144.8 kg CO2e per m3 (liquido com carbonatacao)",
+    "nota": "Fronteira 'cradle-to-gate plus carbonation': A1-A3, B1, C4 (Sec.2.1.3, Fig.1). A4 fora da fronteira. Valores por etapa NAO impressos como numeros (Fig.3/5 so boxplots, texto so da o liquido 174,8/144,8 com carbonatacao); calculados por nos = soma das medianas por tonelada (Tab.2) x massas da Tab.3 (A1 cimento+areia fina+brita+aditivo; A2 transporte cimento+brita+areia; A3 = 9,5 kg/t x massa total do m3 da Tab.3; agua e beneficiacao da cinza omitidas pelo artigo por <1%). Soma de medianas, nao media de Monte Carlo. Valor gravado e o bruto cradle-to-gate (sem carbonatacao); o texto so imprime o liquido. Mistura 1b: A1=243x0,7737+759x0,0019+995x0,0029+0,085x1,1499=192,4; A2=243x0,0115+995x0,0028+759x0,0029+61x0,0223=9,1 (inclui cinza volante, mediana 22,3 kg/t); A3=2,213 t x 9,5=21,0; soma 222,6 vs gravado 220 (+1,2%). A4 nao modelada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto integral lido via conector (12 pp.); figuras (boxplots Fig.2-6,9,10) nao renderizadas; os valores por etapa sao derivados das Tab.2/3, nao lidos de figura."
+ },
+ {
+  "row_id": 3404,
+  "pares": [
+   {
+    "sheet_row": 987,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 190.6,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.3 Sec.2.2.1 (fronteira); Fig.3 p.4; Fig.4 p.6",
+    "citacao": "Transportation is excluded from this study as it is assumed all raw materials considered have similar transportation distances.",
+    "nota": "A2=0 (excluida, dito no artigo); A4=0 (fronteira cradle-to-gate, uso/fim de vida/transporte excluidos). Fronteira cradle-to-gate (producao das materias-primas, tratamento de residuos e mistura); transporte EXCLUIDO (Sec.2.2.1), uso e fim de vida excluidos. A4 fora da fronteira. Nao ha divisao A1/A3 publicada (Fig.4 so por material/percentagem, nao lida por mim); co2_a1a3_agregado = valor gravado (nao revisto na figura)."
+   },
+   {
+    "sheet_row": 988,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 174.2,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.3 Sec.2.2.1 (fronteira); Fig.3 p.4; Fig.4 p.6",
+    "citacao": "Transportation is excluded from this study as it is assumed all raw materials considered have similar transportation distances.",
+    "nota": "A2=0 (excluida, dito no artigo); A4=0 (fronteira cradle-to-gate, uso/fim de vida/transporte excluidos). Fronteira cradle-to-gate (producao das materias-primas, tratamento de residuos e mistura); transporte EXCLUIDO (Sec.2.2.1), uso e fim de vida excluidos. A4 fora da fronteira. Nao ha divisao A1/A3 publicada (Fig.4 so por material/percentagem, nao lida por mim); co2_a1a3_agregado = valor gravado (nao revisto na figura)."
+   },
+   {
+    "sheet_row": 989,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 72.4,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.3 Sec.2.2.1 (fronteira); Fig.3 p.4; Fig.4 p.6",
+    "citacao": "Transportation is excluded from this study as it is assumed all raw materials considered have similar transportation distances.",
+    "nota": "A2=0 (excluida, dito no artigo); A4=0 (fronteira cradle-to-gate, uso/fim de vida/transporte excluidos). Fronteira cradle-to-gate (producao das materias-primas, tratamento de residuos e mistura); transporte EXCLUIDO (Sec.2.2.1), uso e fim de vida excluidos. A4 fora da fronteira. Nao ha divisao A1/A3 publicada (Fig.4 so por material/percentagem, nao lida por mim); co2_a1a3_agregado = valor gravado (nao revisto na figura)."
+   },
+   {
+    "sheet_row": 990,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 72.4,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.3 Sec.2.2.1 (fronteira); Fig.3 p.4; Fig.4 p.6",
+    "citacao": "Transportation is excluded from this study as it is assumed all raw materials considered have similar transportation distances.",
+    "nota": "A2=0 (excluida, dito no artigo); A4=0 (fronteira cradle-to-gate, uso/fim de vida/transporte excluidos). Fronteira cradle-to-gate (producao das materias-primas, tratamento de residuos e mistura); transporte EXCLUIDO (Sec.2.2.1), uso e fim de vida excluidos. A4 fora da fronteira. Nao ha divisao A1/A3 publicada (Fig.4 so por material/percentagem, nao lida por mim); co2_a1a3_agregado = valor gravado (nao revisto na figura)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto integral lido via conector (10 pp.); Figs.4-7 nao renderizadas. Valores do co2 gravado (leitura de barras) nao reverificados."
+ },
+ {
+  "row_id": 3414,
+  "pares": [
+   {
+    "sheet_row": 419,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.6 Fig.5 e texto Sec.3",
+    "citacao": "",
+    "nota": "O valor gravado e a fase 'LHNB production' da Fig.5 (leitura por pixel, 20 m de barreira): fronteira cradle-to-grave (Fig.2); a producao inclui extraccao/materiais, construcao (pre-fabrico/impressao 3D), utilidades e o transporte dos materiais 'dos fornecedores a fabrica e ao local de montagem' (Sec.2.1) - mistura A2 e A4 sem separacao numerica (so % de contribuicao no texto, p.6). Pela regra 8 (ambiguidade A2/A4) A2 e A4 ficam em branco; sem valores por etapa EN 15804. S0: cimento 90% do GWP da producao (percentagem do texto; transporte nao quantificado para S0)."
+   },
+   {
+    "sheet_row": 2136,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.6 Fig.5 e texto Sec.3",
+    "citacao": "",
+    "nota": "O valor gravado e a fase 'LHNB production' da Fig.5 (leitura por pixel, 20 m de barreira): fronteira cradle-to-grave (Fig.2); a producao inclui extraccao/materiais, construcao (pre-fabrico/impressao 3D), utilidades e o transporte dos materiais 'dos fornecedores a fabrica e ao local de montagem' (Sec.2.1) - mistura A2 e A4 sem separacao numerica (so % de contribuicao no texto, p.6). Pela regra 8 (ambiguidade A2/A4) A2 e A4 ficam em branco; sem valores por etapa EN 15804. S1: ativador 80%, transporte 16% do GWP da producao (percentagens do texto, sem base absoluta impressa; nao convertidas)."
+   },
+   {
+    "sheet_row": 2137,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.6 Fig.5 e texto Sec.3",
+    "citacao": "",
+    "nota": "O valor gravado e a fase 'LHNB production' da Fig.5 (leitura por pixel, 20 m de barreira): fronteira cradle-to-grave (Fig.2); a producao inclui extraccao/materiais, construcao (pre-fabrico/impressao 3D), utilidades e o transporte dos materiais 'dos fornecedores a fabrica e ao local de montagem' (Sec.2.1) - mistura A2 e A4 sem separacao numerica (so % de contribuicao no texto, p.6). Pela regra 8 (ambiguidade A2/A4) A2 e A4 ficam em branco; sem valores por etapa EN 15804. S2: ativador 70%, metacaulino 19% do GWP da producao (percentagens do texto)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto integral lido via conector (10 pp.); Figs.5-8 e o material suplementar (contribuicao por fase) nao vistos."
+ },
+ {
+  "row_id": 3416,
+  "pares": [
+   {
+    "sheet_row": 997,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.5.1-5.2.1, Tab.8",
+    "citacao": "",
+    "nota": "Valor gravado = 70 kg CO2e (SHCC, 0,149 m3) / 0,149 e 60 kg / 0,162 m3 (Sec.5.2.1), soma ingrediente x factor (Eq.2, Tab.8). O artigo diz que o nivel de material 'considers the cost and carbon footprint of ingredients of the mixtures in the manufacturing and the transportation stages' sem separar: so resultado por material/factor, sem etapas A1-A4 (regra 2/9). Fabricacao da viga e manutencao separadas apenas ao nivel da viga (Fig.14), nao por etapa EN 15804. Checagem: nenhuma mistura de ingredientes em kg/m3 do SHCC impressa na Sec.5, nao recalculado."
+   },
+   {
+    "sheet_row": 998,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10 Sec.5.1-5.2.1, Tab.7 e Tab.8",
+    "citacao": "",
+    "nota": "Valor gravado = 70 kg CO2e (SHCC, 0,149 m3) / 0,149 e 60 kg / 0,162 m3 (Sec.5.2.1), soma ingrediente x factor (Eq.2, Tab.8). O artigo diz que o nivel de material 'considers the cost and carbon footprint of ingredients of the mixtures in the manufacturing and the transportation stages' sem separar: so resultado por material/factor, sem etapas A1-A4 (regra 2/9). Fabricacao da viga e manutencao separadas apenas ao nivel da viga (Fig.14), nao por etapa EN 15804. Conferencia: 440x0,83+700x0,001+1050x0,002+167,2x0,001+4,4x0,72=371,3 vs gravado 370,4 (soma por ingrediente, nao por etapa)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto integral lido via conector (12 pp.); Figs.13-14 nao renderizadas."
+ },
+ {
+  "row_id": 3424,
+  "pares": [
+   {
+    "sheet_row": 1004,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9 Fig.8; p.6 Tab.3",
+    "citacao": "",
+    "nota": "Fronteira declarada 'A1-B7' (Tab.3, Sec.4.1) mas o texto diz tambem 'cradle-to-gate'; o valor gravado e um total A1-B7 da parede inteira (betao+aco+reparacoes, FU = parede, SL 50/100 anos) lido por pixel na Fig.8. Os resultados so aparecem como totais por cenario e contribuicao de SAP/cimento/armadura (Fig.8), nunca por etapa A1, A2, A3, A4 (a Tab.3 so lista as etapas). Sem etapas EN 15804 publicadas; valor por m3 nao separavel de B2-B5/aco."
+   },
+   {
+    "sheet_row": 1005,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.9 Fig.8; p.6 Tab.3",
+    "citacao": "",
+    "nota": "Fronteira declarada 'A1-B7' (Tab.3, Sec.4.1) mas o texto diz tambem 'cradle-to-gate'; o valor gravado e um total A1-B7 da parede inteira (betao+aco+reparacoes, FU = parede, SL 50/100 anos) lido por pixel na Fig.8. Os resultados so aparecem como totais por cenario e contribuicao de SAP/cimento/armadura (Fig.8), nunca por etapa A1, A2, A3, A4 (a Tab.3 so lista as etapas). Sem etapas EN 15804 publicadas; valor por m3 nao separavel de B2-B5/aco."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto integral lido via conector (14 pp.); Fig.8 nao renderizada."
+ }
+]

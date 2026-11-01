@@ -1,0 +1,277 @@
+[
+ {
+  "row_id": 4623,
+  "pares": [
+   {
+    "sheet_row": 1658,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.6-8 Sec.2.x/Tab.4 (LCI); p.13 Tab.8",
+    "citacao": "",
+    "nota": "Fronteira 'outra': analise simplificada 'during the production stage', UF 1 t de argamassa, Impact 2002+. O artigo so publica GWE (kg CO2/MPa, Tab.8) e Fig.4 de indicadores normalizados; nenhum CO2 por etapa A1-A4. Transporte de BFA 70 km e entrada do inventario, sem resultado separado."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido por pesquisa dirigida + leitura de secoes de metodo/resultados do texto extraido (nao 100%); figuras nao renderizadas. Sem decomposicao por etapa."
+ },
+ {
+  "row_id": 4663,
+  "pares": [
+   {
+    "sheet_row": 1677,
+    "co2_a1": 287.3,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.12 Tab.9 (por componente); p.6-8 Sec.2.2 (fronteira EN 15804, Fig.2/3)",
+    "citacao": "In the product stage, the extraction of raw materials ... cement production, and extraction of sand, natural aggregate ... were calculated.",
+    "nota": "A1 derivado = soma dos materiais da Tab.9 (fase 'product stage' do artigo): 158+85.9+30.5+12.80+0.108 = 287.3 kg/m3. Transportation FL 48.71 mistura transporte de materias-primas ate a central e do betao a obra (ambos em 'construction process') -> A2/A4 em branco (regra 8). Concrete plant (batching) 19.9 classificado pelo artigo na construction stage, nao atribuido a A3; bomba 0,704 e vibrador 0,0017 sao obra (A5). FL=357 confere com materiais+transporte+plant+bomba. co2_kg_m3 gravado 473 = FL 357 + EoL 116 (cradle-to-grave, inclui C: demolicao 17.9, residuos, transporte EoL 86.9); por isso a soma A1 nao se compara ao total. Tab.9 em kg CO2-eq para 1 m3 (mix da Tab.3)."
+   },
+   {
+    "sheet_row": 1678,
+    "co2_a1": 480.1,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.12 Tab.9 (por componente); p.6-8 Sec.2.2 (fronteira EN 15804, Fig.2/3)",
+    "citacao": "In the product stage, the extraction of raw materials ... cement production, and extraction of sand, natural aggregate ... were calculated.",
+    "nota": "A1 derivado = soma dos materiais da Tab.9 (fase 'product stage' do artigo): 468+8.72+3.33+0.0632 = 480.1 kg/m3. Transportation FL 59.86 mistura transporte de materias-primas ate a central e do betao a obra (ambos em 'construction process') -> A2/A4 em branco (regra 8). Concrete plant (batching) 23.2 classificado pelo artigo na construction stage, nao atribuido a A3; bomba 0,704 e vibrador 0,0017 sao obra (A5). FL=563 confere com materiais+transporte+plant+bomba. co2_kg_m3 gravado 699 = FL 563 + EoL 136 (cradle-to-grave, inclui C: demolicao 17.9, residuos, transporte EoL 101.0); por isso a soma A1 nao se compara ao total. Tab.9 em kg CO2-eq para 1 m3 (mix da Tab.3)."
+   },
+   {
+    "sheet_row": 1679,
+    "co2_a1": 518.7,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.12 Tab.9 (por componente); p.6-8 Sec.2.2 (fronteira EN 15804, Fig.2/3)",
+    "citacao": "In the product stage, the extraction of raw materials ... cement production, and extraction of sand, natural aggregate ... were calculated.",
+    "nota": "A1 derivado = soma dos materiais da Tab.9 (fase 'product stage' do artigo): 507+7.79+3.82+0.0620 = 518.7 kg/m3. Transportation FL 57.16 mistura transporte de materias-primas ate a central e do betao a obra (ambos em 'construction process') -> A2/A4 em branco (regra 8). Concrete plant (batching) 21.8 classificado pelo artigo na construction stage, nao atribuido a A3; bomba 0,704 e vibrador 0,0017 sao obra (A5). FL=598 confere com materiais+transporte+plant+bomba. co2_kg_m3 gravado 727 = FL 598 + EoL 129 (cradle-to-grave, inclui C: demolicao 17.9, residuos, transporte EoL 95.1); por isso a soma A1 nao se compara ao total. Tab.9 em kg CO2-eq para 1 m3 (mix da Tab.3)."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido por pesquisa dirigida + leitura de secoes de metodo/resultados do texto extraido (nao 100%); figuras nao renderizadas. Fig.2/3 (fronteiras) e Fig.12 (sensibilidade de transporte) nao vistas; Tab.9 lida integralmente."
+ },
+ {
+  "row_id": 4670,
+  "pares": [
+   {
+    "sheet_row": 1683,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11 Tab.4; p.7 Sec.3.2.1 (25 m3); p.10 Tab.3",
+    "citacao": "",
+    "nota": "Tab.4 (concreto do tabuleiro, 25 m3, C30/37 KBOB): Fabrication 4755, Transport 582, Total construction 5337 kg CO2eq -> por m3: fabricacao 190,2; transporte 23,28; total 213,48 (= valor gravado). O artigo nao usa modulos EN 15804: 'Fabrication' nao e rotulado como A1-A3 e 'Transport' (50 km, Tab.3, materiais ate a obra) nao e rotulado A4 nem A2 -> nada atribuido a etapas (regras 6, 7). Soma fabricacao+transporte = 213,48 confere com gravado."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido por pesquisa dirigida + leitura de secoes de metodo/resultados do texto extraido (nao 100%); figuras nao renderizadas. Fig.7 (fronteira) nao vista."
+ },
+ {
+  "row_id": 4671,
+  "pares": [
+   {
+    "sheet_row": 579,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.14-16 Sec.4.2, Tab.6-7",
+    "citacao": "",
+    "nota": "Fronteira nao declarada. Tab.7: CO2 = soma massa x fator (OPC 0,78; areia 0,005; fibra PP 1,9; agua 0,0008; RP e SF = 0) por 1 m3; nao ha etapas nem transporte. Nao se atribui a A1 (artigo nao diz cradle-to-gate)."
+   },
+   {
+    "sheet_row": 580,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.14-16 Sec.4.2, Tab.6-7",
+    "citacao": "",
+    "nota": "Fronteira nao declarada. Tab.7: CO2 = soma massa x fator (OPC 0,78; areia 0,005; fibra PP 1,9; agua 0,0008; RP e SF = 0) por 1 m3; nao ha etapas nem transporte. Nao se atribui a A1 (artigo nao diz cradle-to-gate)."
+   },
+   {
+    "sheet_row": 581,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.14-16 Sec.4.2, Tab.6-7",
+    "citacao": "",
+    "nota": "Fronteira nao declarada. Tab.7: CO2 = soma massa x fator (OPC 0,78; areia 0,005; fibra PP 1,9; agua 0,0008; RP e SF = 0) por 1 m3; nao ha etapas nem transporte. Nao se atribui a A1 (artigo nao diz cradle-to-gate)."
+   },
+   {
+    "sheet_row": 582,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.14-16 Sec.4.2, Tab.6-7",
+    "citacao": "",
+    "nota": "Fronteira nao declarada. Tab.7: CO2 = soma massa x fator (OPC 0,78; areia 0,005; fibra PP 1,9; agua 0,0008; RP e SF = 0) por 1 m3; nao ha etapas nem transporte. Nao se atribui a A1 (artigo nao diz cradle-to-gate)."
+   },
+   {
+    "sheet_row": 583,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.14-16 Sec.4.2, Tab.6-7",
+    "citacao": "",
+    "nota": "Fronteira nao declarada. Tab.7: CO2 = soma massa x fator (OPC 0,78; areia 0,005; fibra PP 1,9; agua 0,0008; RP e SF = 0) por 1 m3; nao ha etapas nem transporte. Nao se atribui a A1 (artigo nao diz cradle-to-gate)."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido por pesquisa dirigida + leitura de secoes de metodo/resultados do texto extraido (nao 100%); figuras nao renderizadas. Sem etapas; PDF de 24 MB lido via texto do conector sem problema."
+ },
+ {
+  "row_id": 4689,
+  "pares": [
+   {
+    "sheet_row": 584,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13-14 Fig.6/Fig.7, Tab.6",
+    "citacao": "",
+    "nota": "Fronteira 'outra'. Fig.7 (p.14) e Fig.6 (p.13): CO2 = massa de cada material x fator (E2 cimento 0,82; E6 'batching, transport, placing and laying' 0,021 kg/kg misturando A3/A4/A5) menos creditos ER; nao ha resultado por etapa EN 15804 e E6 junta etapas, nao se separa. CC-25: 11,57 kg/m (0,05 m3) = 231,4 kg/m3 sem creditos."
+   },
+   {
+    "sheet_row": 585,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13-14 Fig.6/Fig.7",
+    "citacao": "",
+    "nota": "Fronteira 'outra'. Fig.7 (p.14) e Fig.6 (p.13): CO2 = massa de cada material x fator (E2 cimento 0,82; E6 'batching, transport, placing and laying' 0,021 kg/kg misturando A3/A4/A5) menos creditos ER; nao ha resultado por etapa EN 15804 e E6 junta etapas, nao se separa. Valor gravado 222,4 e bruto sem credito ER1; publicado liquido 3,25 kg/m."
+   },
+   {
+    "sheet_row": 586,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13-14 Fig.6/Fig.7",
+    "citacao": "",
+    "nota": "Fronteira 'outra'. Fig.7 (p.14) e Fig.6 (p.13): CO2 = massa de cada material x fator (E2 cimento 0,82; E6 'batching, transport, placing and laying' 0,021 kg/kg misturando A3/A4/A5) menos creditos ER; nao ha resultado por etapa EN 15804 e E6 junta etapas, nao se separa. Gravado 377,5 bruto sem ER2+ER3; publicado liquido 11,28 kg/m."
+   },
+   {
+    "sheet_row": 587,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.13-14 Fig.6/Fig.7",
+    "citacao": "",
+    "nota": "Fronteira 'outra'. Fig.7 (p.14) e Fig.6 (p.13): CO2 = massa de cada material x fator (E2 cimento 0,82; E6 'batching, transport, placing and laying' 0,021 kg/kg misturando A3/A4/A5) menos creditos ER; nao ha resultado por etapa EN 15804 e E6 junta etapas, nao se separa. Gravado 385,8 bruto; publicado liquido 5,49 kg/m."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido por pesquisa dirigida + leitura de secoes de metodo/resultados do texto extraido (nao 100%); figuras nao renderizadas. Fig.6 e Fig.7 lidas como texto extraido (rotulos numericos presentes)."
+ },
+ {
+  "row_id": 4691,
+  "pares": [
+   {
+    "sheet_row": 1688,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7 Sec.2.5; p.15 Tab.7",
+    "citacao": "",
+    "nota": "Ficheiro MARIAKOVA et al. 2022 (Sustainability 14, 1732), titulo e autores conferem. EN 15804+A2, GaBi, PEF 3.0, 1 m3, fronteira: materias-primas, transporte 50 km, mistura, transporte a obra e fim de vida (EoL, landfill) -> Tab.7 'Climate Change-total' inclui EoL (C) e nao decompoe por etapa; valor gravado confere com a Tab.7 (classe II: 354/295/259). Sem A1-A4 publicados."
+   },
+   {
+    "sheet_row": 1689,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7 Sec.2.5; p.15 Tab.7",
+    "citacao": "",
+    "nota": "Ficheiro MARIAKOVA et al. 2022 (Sustainability 14, 1732), titulo e autores conferem. EN 15804+A2, GaBi, PEF 3.0, 1 m3, fronteira: materias-primas, transporte 50 km, mistura, transporte a obra e fim de vida (EoL, landfill) -> Tab.7 'Climate Change-total' inclui EoL (C) e nao decompoe por etapa; valor gravado confere com a Tab.7 (classe II: 354/295/259). Sem A1-A4 publicados."
+   },
+   {
+    "sheet_row": 1690,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7 Sec.2.5; p.15 Tab.7",
+    "citacao": "",
+    "nota": "Ficheiro MARIAKOVA et al. 2022 (Sustainability 14, 1732), titulo e autores conferem. EN 15804+A2, GaBi, PEF 3.0, 1 m3, fronteira: materias-primas, transporte 50 km, mistura, transporte a obra e fim de vida (EoL, landfill) -> Tab.7 'Climate Change-total' inclui EoL (C) e nao decompoe por etapa; valor gravado confere com a Tab.7 (classe II: 354/295/259). Sem A1-A4 publicados."
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Lido por pesquisa dirigida + leitura de secoes de metodo/resultados do texto extraido (nao 100%); figuras nao renderizadas. Fig.2 (fronteira) nao vista."
+ }
+]
