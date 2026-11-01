@@ -1,0 +1,129 @@
+[
+ {
+  "row_id": 4145,
+  "autor": "Restrepo-Ramirez, Andres Felipe and Rua-Machado, Carlos Andres and\nArias-Jaramil",
+  "titulo": "OPTIMIZATION IN THE DESIGN OF CONCRETE MIXES FOR THE SUSTAINABILITY OF A\nSOUTH AMERICAN METROPOLITAN AREA BY IMPLEMENTING MATERIAL LIFE CYCLE\nANALYSIS",
+  "pdf": "RESTREPO-RAMÍREZ et al., 2024.pdf",
+  "fileId": "17VYsyn9wnkjARXvC9N_S4U_62sUyXzxG",
+  "resultado_anterior": "lotes_etapas/resultado_reextr01.json",
+  "nota_anterior": "Lido via read_file_content (texto integral, 85k chars); PDF de 9 MB faz cair a ligacao do Drive no download, figuras nao renderizadas. Pares sao totais por mistura sem etapas; improvavel que as figuras tragam etapas.",
+  "pares": [
+   {
+    "sheet_row": 1207,
+    "material": "Concreto convencional 21 MPa (nao aireado, assentamento 50mm) -- caso menos otimizado (referencia) do estudo ACI 211, Medellin, Colombia",
+    "fck_mpa": 21,
+    "co2_kg_m3": 288.2,
+    "co2_original": "288.2 kg CO2-eq/m3",
+    "co2_original_local": "Texto, p.14 do ficheiro (p.57 impressa), secao anterior a Figura 12"
+   },
+   {
+    "sheet_row": 1208,
+    "material": "Concreto convencional 21 MPa otimizado (agregado graudo de maior dimensao, menor consumo de cimento) -- melhor caso do estudo ACI 211, Medellin, Colombia",
+    "fck_mpa": 21,
+    "co2_kg_m3": 243.7,
+    "co2_original": "243.7 kg CO2-eq/m3",
+    "co2_original_local": "Texto, p.14 do ficheiro (p.57 impressa)"
+   }
+  ]
+ },
+ {
+  "row_id": 4244,
+  "autor": "Guignone, Guilherme and Calmon, Joao Luiz and Vieira, Geilma and Zulcao,\nRobson ",
+  "titulo": "Life Cycle Assessment of Waste Glass Powder Incorporation on Concrete: A\nBridge Retrofit Study Case",
+  "pdf": "GUIGNONE, 2022.pdf",
+  "fileId": "1oIDMCjfUsOF4Kxhh2hyBP6a2nZDMgvuU",
+  "resultado_anterior": "lotes_etapas/resultado_reextr01.json",
+  "nota_anterior": "Lido via read_file_content (texto integral 89k chars); PDF de 13,6 MB excede o limite de download, figuras 14A/18/19 nao renderizadas (recorte pendente). O texto nao publica valores por etapa por m3.",
+  "pares": [
+   {
+    "sheet_row": 1230,
+    "material": "Concreto convencional (CTL, controle) para laje alveolar protendida — retrofit de ponte, Brasil",
+    "fck_mpa": 37.48,
+    "co2_kg_m3": 475,
+    "co2_original": "475 kg CO2eq/m3",
+    "co2_original_local": "p.20, texto e Fig.14A (IPCC GWP 100a): 'totaling 475 kg CO2 eq'"
+   },
+   {
+    "sheet_row": 1234,
+    "material": "Concreto com 20% de substituicao de cimento por po de vidro moido (GP2-20)",
+    "fck_mpa": 36.56,
+    "co2_kg_m3": 414,
+    "co2_original": "414 kg CO2eq/m3",
+    "co2_original_local": "p.20, texto e Fig.14A"
+   }
+  ]
+ },
+ {
+  "row_id": 4521,
+  "autor": "Lemesre, Louise and Idir, Rachida and Cyr, Martin",
+  "titulo": "Strength Development and Environmental Impact of Waste-Glass-Based\nCements Activated with Portland Cement, NaOH, Na-Silicate or\nNa-Carbonates at Ambient Temperature",
+  "pdf": "LEMESRE et al., 2024.pdf",
+  "fileId": "1svkKJ9CQS0GOyuvlKuKLWvpn4-T-SCFP",
+  "resultado_anterior": "lotes_etapas/resultado_reextr03.json",
+  "nota_anterior": "Lidas Sec.2 (LCA), 3.2.4, 4, 5 e conclusoes; resto das seccoes experimentais so por pesquisa de palavras-chave (sem A1-A4/transporte). PDF nao renderizado; Fig.8 pode ter rotulos mas nao verificado. Sem resultados por etapa no texto/tabelas.",
+  "pares": [
+   {
+    "sheet_row": 1494,
+    "material": "Pasta vidro alcali-ativada com 10% Na-carbonato (sc10) - a 360 dias (melhor desempenho tardio)",
+    "fck_mpa": 74,
+    "co2_kg_m3": 64,
+    "co2_original": "64 kg CO2eq/m3 (sc10)",
+    "co2_original_local": "Fig.8"
+   }
+  ]
+ },
+ {
+  "row_id": 4670,
+  "autor": "Bertola, Numa and Kuepfer, Celia and Kaelin, Edgar and Bruehwiler, Eugen",
+  "titulo": "Assessment of the Environmental Impacts of Bridge Designs Involving\nUHPFRC",
+  "pdf": "BERTOLA, 2021.pdf",
+  "fileId": "1BMZLB0eaKW7inwGgBaWfs4z37UjJ0jCA",
+  "resultado_anterior": "lotes_etapas/resultado_reextr03.json",
+  "nota_anterior": "Lidas Sec.3 (metodo, LCI, fronteira, Tab.1,3,4,5) e resultados; resto por palavras-chave. Fig.7 (fronteira) nao renderizada.",
+  "pares": [
+   {
+    "sheet_row": 1683,
+    "material": "Concreto C30/37 do tabuleiro da ponte convencional (comparacao)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 213.48,
+    "co2_original": "5337 kg CO2eq (GWP do concreto, fabricacao+transporte, tabuleiro inteiro de 25 m3)",
+    "co2_original_local": "Tabela 4 p.11 (total) + texto p.6 (25 m3)"
+   }
+  ]
+ },
+ {
+  "row_id": 4691,
+  "autor": "Mariakova, Diana and Mocova, Klara Anna and Pesta, Jan and Fortova,\nKristina and",
+  "titulo": "Ecotoxicity of Concrete Containing Fine-Recycled Aggregate: Effect on\nPhotosynthetic Pigments, Soil Enzymatic Activity and Carbonation Process",
+  "pdf": "MARIAKOVA et al., 2022.pdf",
+  "fileId": "1yesPzPkvzwKYj_5j6ArK0P2_xBPaRcK4",
+  "resultado_anterior": "lotes_etapas/resultado_reextr03.json",
+  "nota_anterior": "Lidas Sec.2.5, Tab.1, Tab.7 e 3.6; resto por palavras-chave. Verificar Fig.2 e figuras de contribuicao por etapa por recorte.",
+  "pares": [
+   {
+    "sheet_row": 1688,
+    "material": "Concreto com agregado natural (NAC-II, classe C25/30)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 354,
+    "co2_original": "354 kg CO2 eq/m3 (FU=1m3 de concreto, PEF 3.0, categoria Climate Change-total)",
+    "co2_original_local": "Tabela 7, p.15"
+   },
+   {
+    "sheet_row": 1689,
+    "material": "Concreto com agregado reciclado de alvenaria (RMAC-II, classe C25/30)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 295,
+    "co2_original": "295 kg CO2 eq/m3 (FU=1m3 de concreto, PEF 3.0, categoria Climate Change-total)",
+    "co2_original_local": "Tabela 7, p.15"
+   },
+   {
+    "sheet_row": 1690,
+    "material": "Concreto com agregado reciclado de concreto (RCAC-II, classe C25/30)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 259,
+    "co2_original": "259 kg CO2 eq/m3 (FU=1m3 de concreto, PEF 3.0, categoria Climate Change-total)",
+    "co2_original_local": "Tabela 7, p.15"
+   }
+  ]
+ }
+]
