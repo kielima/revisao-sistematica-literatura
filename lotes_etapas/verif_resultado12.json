@@ -1,0 +1,113 @@
+[
+ {
+  "row_id": 4098,
+  "pares": []
+ },
+ {
+  "row_id": 4207,
+  "pares": [
+   {
+    "sheet_row": 1225,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.3 p.6: betao 20 MPa 23 m3, A1-A3 5.480, A4 149, total 5.629; 5480/23=238,3 (texto Sec.4.1.1: 238 kg CO2e/m3); 149/23=6,48; Tab.2 244,75 = A1-A4 (5629/23=244,7). A4 = transporte dos produtos acabados a obra; A1/A2/A3 separados nao publicados. kg CO2e/m3 de betao."
+   }
+  ]
+ },
+ {
+  "row_id": 4255,
+  "pares": [
+   {
+    "sheet_row": 1239,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.A1 p.18 e Tab.2 p.7: factor de producao do betao C25 = 285.0 kg CO2e/m3 (A1-A3 agregado, nao dividido). A4: Tab.3 p.8 betao 27.488,19 t, 40 km, 114,351 tCO2e; volume total Tab.2 = 10.995,3 m3 (densidade 2,5 t/m3) => 10,40 kg/m3 (=0,104 x 40 x 2,5, Tab.A2 gasolina); transporte fabrica-obra. Derivado, igual para todas as classes."
+   },
+   {
+    "sheet_row": 1240,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.A1 p.18 e Tab.2 p.7: factor de producao do betao C30 = 295.0 kg CO2e/m3 (A1-A3 agregado, nao dividido). A4: Tab.3 p.8 betao 27.488,19 t, 40 km, 114,351 tCO2e; volume total Tab.2 = 10.995,3 m3 (densidade 2,5 t/m3) => 10,40 kg/m3 (=0,104 x 40 x 2,5, Tab.A2 gasolina); transporte fabrica-obra. Derivado, igual para todas as classes."
+   },
+   {
+    "sheet_row": 1241,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.A1 p.18 e Tab.2 p.7: factor de producao do betao C40 = 321.4 kg CO2e/m3 (A1-A3 agregado, nao dividido). A4: Tab.3 p.8 betao 27.488,19 t, 40 km, 114,351 tCO2e; volume total Tab.2 = 10.995,3 m3 (densidade 2,5 t/m3) => 10,40 kg/m3 (=0,104 x 40 x 2,5, Tab.A2 gasolina); transporte fabrica-obra. Derivado, igual para todas as classes."
+   },
+   {
+    "sheet_row": 1242,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.A1 p.18 e Tab.2 p.7: factor de producao do betao C50 = 385.0 kg CO2e/m3 (A1-A3 agregado, nao dividido). A4: Tab.3 p.8 betao 27.488,19 t, 40 km, 114,351 tCO2e; volume total Tab.2 = 10.995,3 m3 (densidade 2,5 t/m3) => 10,40 kg/m3 (=0,104 x 40 x 2,5, Tab.A2 gasolina); transporte fabrica-obra. Derivado, igual para todas as classes."
+   },
+   {
+    "sheet_row": 1243,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.A1 p.18 e Tab.2 p.7: factor de producao do betao C60 = 416.76 kg CO2e/m3 (A1-A3 agregado, nao dividido). A4: Tab.3 p.8 betao 27.488,19 t, 40 km, 114,351 tCO2e; volume total Tab.2 = 10.995,3 m3 (densidade 2,5 t/m3) => 10,40 kg/m3 (=0,104 x 40 x 2,5, Tab.A2 gasolina); transporte fabrica-obra. Derivado, igual para todas as classes."
+   }
+  ]
+ },
+ {
+  "row_id": 4297,
+  "pares": [
+   {
+    "sheet_row": 1264,
+    "veredito": "corrigir",
+    "valor_correto": {
+     "a1a3": 305,
+     "a4": 47.0
+    },
+    "unidade_m3_betao": true,
+    "motivo": "A1-A3 = 0,122 kg CO2/kg (Tab.6) x 2500 kg/m3 (nota Tab.3) = 305 confirmado (ecoinvent pre-cast C20/25, producao; fronteira so producao+transporte, Sec.2.3.2). A4 publicado como entrada: 50 km para betao (Sec.2.3.2) x 0,376 kg CO2/tkm (Tab.6) x 2,5 t/m3 = 47,0 kg/m3 derivavel, hoje gravado null. Nota: o factor ecoinvent e de betao pre-fabricado; unidade kg CO2/kg de betao -> m3 por densidade assumida pelo artigo."
+   }
+  ]
+ },
+ {
+  "row_id": 4349,
+  "pares": [
+   {
+    "sheet_row": 1301,
+    "veredito": "confirma",
+    "unidade_m3_betao": false,
+    "motivo": "Fig.7 p.15 (renderizada): cenario Concrete A1-A3 295,3 e A4 3,7 kg CO2e/m2 de piso (total 375,19 = Tab.4). x20.850 m2 / 11.752,58 m3 (Tab.2: 8283,98+1517,64+492,80+1458,16) = 523,9 e 6,56: contas batem. ATENCAO unidade: sao totais do EDIFICIO inteiro (aço, rebar, etc. via Tally) divididos pelo volume de betao, nao kg CO2/m3 de betao; so aceitavel como concreto_armado (F18). A4 = 40 km betao + defeitos Tally p/ aço."
+   }
+  ]
+ },
+ {
+  "row_id": 4408,
+  "pares": [
+   {
+    "sheet_row": 1331,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.8 p.15 (renderizada, kg CO2 eq/m3 de betao SCC): materiais 436,44+12,27+38,90+0,14+0+9,96 = 497.71 (A1, inclui moagem do CBWP, Sec.6); a barra 'Mixing' 0,78 = A3 (mistura); soma = Fig.7 (498,50/444,68/390,87/337,05/283,23). A2 e A4 = 0: Sec.6 p.11 declara cradle-to-gate e 'emissions from transportation were not considered'."
+   },
+   {
+    "sheet_row": 1332,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.8 p.15 (renderizada, kg CO2 eq/m3 de betao SCC): materiais 381,89+12,27+38,90+0,14+0,74+9,96 = 443.9 (A1, inclui moagem do CBWP, Sec.6); a barra 'Mixing' 0,78 = A3 (mistura); soma = Fig.7 (498,50/444,68/390,87/337,05/283,23). A2 e A4 = 0: Sec.6 p.11 declara cradle-to-gate e 'emissions from transportation were not considered'."
+   },
+   {
+    "sheet_row": 1333,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.8 p.15 (renderizada, kg CO2 eq/m3 de betao SCC): materiais 327,33+12,27+38,90+0,14+1,48+9,96 = 390.08 (A1, inclui moagem do CBWP, Sec.6); a barra 'Mixing' 0,78 = A3 (mistura); soma = Fig.7 (498,50/444,68/390,87/337,05/283,23). A2 e A4 = 0: Sec.6 p.11 declara cradle-to-gate e 'emissions from transportation were not considered'."
+   },
+   {
+    "sheet_row": 1334,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.8 p.15 (renderizada, kg CO2 eq/m3 de betao SCC): materiais 272,78+12,27+38,90+0,14+2,22+9,96 = 336.27 (A1, inclui moagem do CBWP, Sec.6); a barra 'Mixing' 0,78 = A3 (mistura); soma = Fig.7 (498,50/444,68/390,87/337,05/283,23). A2 e A4 = 0: Sec.6 p.11 declara cradle-to-gate e 'emissions from transportation were not considered'."
+   },
+   {
+    "sheet_row": 1335,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.8 p.15 (renderizada, kg CO2 eq/m3 de betao SCC): materiais 218,22+12,27+38,90+0,14+2,96+9,96 = 282.45 (A1, inclui moagem do CBWP, Sec.6); a barra 'Mixing' 0,78 = A3 (mistura); soma = Fig.7 (498,50/444,68/390,87/337,05/283,23). A2 e A4 = 0: Sec.6 p.11 declara cradle-to-gate e 'emissions from transportation were not considered'."
+   }
+  ]
+ }
+]

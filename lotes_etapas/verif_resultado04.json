@@ -1,0 +1,97 @@
+[
+ {
+  "row_id": 2705,
+  "pares": [
+   {
+    "sheet_row": 668,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.8 C-B-58: 1,12+3,71+2,49+62,83+1,23+63,21=134,59; Eq.1 (Sec.3.1) = raw material stage = A1; Fig.4 p.7 (renderizada) rotulo 139,4 = total A1-A3 (raw+transporte+fabrico), batem"
+   },
+   {
+    "sheet_row": 669,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.8 C-I-49: 196,44+1,12+3,81+2,42+43,04+1,00=247,83 = A1 (Eq.1); Fig.4 p.7 rotulo 252,0 = total A1-A3; kg CO2/m3 de RMC"
+   }
+  ]
+ },
+ {
+  "row_id": 2751,
+  "pares": [
+   {
+    "sheet_row": 1884,
+    "veredito": "confirma",
+    "motivo": "Tab.3 p.9 col.1: 4,58e4 kg CO2 / 65,160 m3 (Tab.1) = 702,9; fronteira = estagio de produto (Sec.2.3). Aviso: coluna inclui armadura (7,2 t), logo betao armado, nao so betao"
+   },
+   {
+    "sheet_row": 1885,
+    "veredito": "confirma",
+    "motivo": "Tab.3 col.2: 1,73e3/3,507 m3 = 493,3; A1-A3 agregado; inclui armadura (0,172 t)"
+   },
+   {
+    "sheet_row": 1886,
+    "veredito": "confirma",
+    "motivo": "Tab.3 col.3: 1,20e3/3,163 m3 = 379,4; A1-A3 agregado; inclui armadura (0,047 t)"
+   }
+  ]
+ },
+ {
+  "row_id": 2759,
+  "pares": [
+   {
+    "sheet_row": 210,
+    "veredito": "confirma",
+    "motivo": "Tab.6 p.11: 142.426 kg / 339,11 m3 (Tab.7 p.12) = 420,0 (= factor KLCI 4,20e2 kg/m3, Tab.2). E1 = materiais antes do transporte ao local (Sec.2.2); a leitura como A1-A3 de betao pronto e equivalencia nossa, o artigo nao usa a notacao EN 15804; sem A1/A2/A3 separados"
+   },
+   {
+    "sheet_row": 211,
+    "veredito": "confirma",
+    "motivo": "Tab.6: 154.135 kg / 366,99 m3 (Tab.7) = 420,0; mesma ressalva de etapa (E1 = A1-A3 por equivalencia, factor generico KLCI)"
+   }
+  ]
+ },
+ {
+  "row_id": 2760,
+  "pares": [
+   {
+    "sheet_row": 212,
+    "veredito": "confirma",
+    "motivo": "Tab.7 p.11: 120,9 kg/m2 / 0,28 m3/m2 = 431,8; Tab.8 1.631.735/(13.487x0,28)=432,1; E1 = fabrico de materiais (Sec.2.2), A1-A3 por equivalencia; nao separa A1/A2/A3"
+   },
+   {
+    "sheet_row": 213,
+    "veredito": "confirma",
+    "motivo": "Tab.7: 124,5/0,29 = 429,3; Tab.8 1.679.253/(13.487x0,29)=429,3"
+   },
+   {
+    "sheet_row": 214,
+    "veredito": "confirma",
+    "motivo": "Tab.7: 102,5/0,24 = 427,1; Tab.8 1.382.080/(13.487x0,24)=427,0"
+   }
+  ]
+ },
+ {
+  "row_id": 2766,
+  "pares": [
+   {
+    "sheet_row": 220,
+    "veredito": "confirma",
+    "motivo": "Tab.3 p.9 GWP A1-A3 CJE 20,1 kg x fraccao C25/30 no GWP da Fig.3 p.11 (barra medida por pixel 95,1%) / 0,040 m3 (Tab.2) = 477,9, dentro de 2% de 477,4; valor depende de leitura de grafico (+-1% = +-5 kg/m3); A4 explicitamente excluido (Sec.4.1.2), a4=0 correcto; A1/A2/A3 nao separados"
+   },
+   {
+    "sheet_row": 221,
+    "veredito": "confirma",
+    "motivo": "Tab.3 GWP A1-A3 CJI 40,6 kg x fraccao C25/30 Fig.4 p.12 (pixel 94,1%) / 0,079 m3 = 483,6, dentro de 2% de 483,1; leitura de grafico; A4 excluido, a4=0 correcto"
+   }
+  ]
+ },
+ {
+  "row_id": 2794,
+  "pares": [
+   {
+    "sheet_row": 228,
+    "veredito": "confirma",
+    "motivo": "Tab.4 p.8: 3,98+286+2,51+0,983 = 293,47 kg CO2 eq / 0,75 m3 (viga 5x0,5x0,3, Sec.3.1) = 391,3, aco (124) excluido. Fronteira (Sec.3.1 p.5-6, Fig.3 renderizada): extraccao e fabrico dos materiais via Gabi, sem transporte, sem mistura em central: A1 so; a2=0 correcto (transporte excluido). Nota: o texto exclui tambem o transporte ao local, logo a4 poderia ser 0 em vez de null"
+   }
+  ]
+ }
+]

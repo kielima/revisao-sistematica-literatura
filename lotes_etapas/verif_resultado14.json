@@ -1,0 +1,134 @@
+[
+ {
+  "row_id": 4663,
+  "pares": [
+   {
+    "sheet_row": 1677,
+    "veredito": "confirma",
+    "motivo": "Table 9 (texto do Drive, sem render de imagem): A1 = soma das linhas de materiais confere (158+85.9+30.5+12.80+0.108=287.3). Transportation FL mistura materias-primas->central e betao->obra: A2/A4 nao separaveis, vazio correcto. co2_kg_m3 gravado (473=357+116) e FL+EoL (cradle-to-grave), nao so A1-A3. Material G-FA e ARGAMASSA de geopolimero (o artigo diz 'geopolymer mortars'; FU 1 m3 de material): unidade nao e betao.",
+    "unidade_m3_betao": false
+   },
+   {
+    "sheet_row": 1678,
+    "veredito": "confirma",
+    "motivo": "Table 9 (texto do Drive, sem render de imagem): A1 = soma das linhas de materiais confere (468+8.72+3.33+0.0632=480.1). Transportation FL mistura materias-primas->central e betao->obra: A2/A4 nao separaveis, vazio correcto. co2_kg_m3 gravado (699=563+136) e FL+EoL (cradle-to-grave), nao so A1-A3. NAC = betao com agregado natural; FU 1 m3.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1679,
+    "veredito": "confirma",
+    "motivo": "Table 9 (texto do Drive, sem render de imagem): A1 = soma das linhas de materiais confere (507+7.79+3.82+0.0620=518.7). Transportation FL mistura materias-primas->central e betao->obra: A2/A4 nao separaveis, vazio correcto. co2_kg_m3 gravado (727) e FL+EoL (cradle-to-grave), nao so A1-A3. RAC = betao com agregado reciclado; FU 1 m3.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 4696,
+  "pares": [
+   {
+    "sheet_row": 1691,
+    "veredito": "confirma",
+    "motivo": "Fig.8b p.14 (render 200 dpi): barras GPM lidas por pixel: extraction ~105, transportation ~79, production ~20 (eixo 0-700, +-5); Fig.8a total ~206 vs 204 gravado. Mapeamento extraction->A1, production(mistura+cura)->A3 plausivel; 'transportation' = transporte do material ao local de uso (ambiguo A2/A4; o artigo nao diz). Material avaliado e ARGAMASSA de geopolimero (GPM) por 1.0 m3 de argamassa (conclusoes), cradle-to-gate: unidade nao e betao.",
+    "unidade_m3_betao": false
+   }
+  ]
+ },
+ {
+  "row_id": 4753,
+  "pares": [
+   {
+    "sheet_row": 1740,
+    "veredito": "confirma",
+    "motivo": "Tab.7 p.13 confere: CtG 382, uso(transporte) 29, EoL 31.5, total 442 (F2C1 dagger); /0.576 m3 (4,0x3,6x0,04 m) = 663.2 / 50.3 / 767.4. Fronteira A1-D declarada (p.6); transporte ao local de uso = A4. CtG inclui transporte de materias-primas (A2) nao separado. Unidade e m3 de PAINEL de betao reforcado com CFRP (inclui armadura), nao m3 de betao; co2 total inclui EoL.",
+    "unidade_m3_betao": false
+   },
+   {
+    "sheet_row": 1741,
+    "veredito": "confirma",
+    "motivo": "Tab.7: CtG 467, uso 29, EoL 31.5, total 527 (F1C3 dagger); /0.576 = 810.8 / 50.3 / 914.9. Mesmas ressalvas: unidade = m3 de painel armado, co2 inclui EoL.",
+    "unidade_m3_betao": false
+   },
+   {
+    "sheet_row": 1742,
+    "veredito": "confirma",
+    "motivo": "Tab.7 SRC 2.2: CtG 733, uso 59, EoL -299.9, total 492; /1.152 m3 (4,0x3,6x0,08 m) = 636.3 / 51.2 / 427.1. A1-A3 inclui aco; co2 427.1 e LIQUIDO do credito de reciclagem do aco (-299.9 kg/painel = -260 kg/m3), unidade = m3 de painel armado.",
+    "unidade_m3_betao": false
+   }
+  ]
+ },
+ {
+  "row_id": 4786,
+  "pares": [
+   {
+    "sheet_row": 1782,
+    "veredito": "confirma",
+    "motivo": "Tab.3 p.6: EFi do betao por m3 (C20 237.32, C25 266.18, C30 295, C35 362.6, C50 511) = valor gravado; A1-A3 e inferencia nossa (artigo so separa CP producao / CT transporte / CC construcao, sem rotular modulos EN 15804). A4: Fig.5 p.11 (render) tCO2/Amount da Tab.3: C30 94.69/6642.35=14.26; C50 12.18/854.46=14.25; C20 9.23/647.37=14.26; C25 8.83/619.74=14.25; C35 0.34/23.88=14.24 (40 km, 0.162 kgCO2/t.km, trucks) -> transporte ao local de obra = A4. Unidade m3 de betao.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1783,
+    "veredito": "confirma",
+    "motivo": "Tab.3 p.6: EFi do betao por m3 (C20 237.32, C25 266.18, C30 295, C35 362.6, C50 511) = valor gravado; A1-A3 e inferencia nossa (artigo so separa CP producao / CT transporte / CC construcao, sem rotular modulos EN 15804). A4: Fig.5 p.11 (render) tCO2/Amount da Tab.3: C30 94.69/6642.35=14.26; C50 12.18/854.46=14.25; C20 9.23/647.37=14.26; C25 8.83/619.74=14.25; C35 0.34/23.88=14.24 (40 km, 0.162 kgCO2/t.km, trucks) -> transporte ao local de obra = A4. Unidade m3 de betao.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1784,
+    "veredito": "confirma",
+    "motivo": "Tab.3 p.6: EFi do betao por m3 (C20 237.32, C25 266.18, C30 295, C35 362.6, C50 511) = valor gravado; A1-A3 e inferencia nossa (artigo so separa CP producao / CT transporte / CC construcao, sem rotular modulos EN 15804). A4: Fig.5 p.11 (render) tCO2/Amount da Tab.3: C30 94.69/6642.35=14.26; C50 12.18/854.46=14.25; C20 9.23/647.37=14.26; C25 8.83/619.74=14.25; C35 0.34/23.88=14.24 (40 km, 0.162 kgCO2/t.km, trucks) -> transporte ao local de obra = A4. Unidade m3 de betao.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1785,
+    "veredito": "confirma",
+    "motivo": "Tab.3 p.6: EFi do betao por m3 (C20 237.32, C25 266.18, C30 295, C35 362.6, C50 511) = valor gravado; A1-A3 e inferencia nossa (artigo so separa CP producao / CT transporte / CC construcao, sem rotular modulos EN 15804). A4: Fig.5 p.11 (render) tCO2/Amount da Tab.3: C30 94.69/6642.35=14.26; C50 12.18/854.46=14.25; C20 9.23/647.37=14.26; C25 8.83/619.74=14.25; C35 0.34/23.88=14.24 (40 km, 0.162 kgCO2/t.km, trucks) -> transporte ao local de obra = A4. Unidade m3 de betao.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1786,
+    "veredito": "confirma",
+    "motivo": "Tab.3 p.6: EFi do betao por m3 (C20 237.32, C25 266.18, C30 295, C35 362.6, C50 511) = valor gravado; A1-A3 e inferencia nossa (artigo so separa CP producao / CT transporte / CC construcao, sem rotular modulos EN 15804). A4: Fig.5 p.11 (render) tCO2/Amount da Tab.3: C30 94.69/6642.35=14.26; C50 12.18/854.46=14.25; C20 9.23/647.37=14.26; C25 8.83/619.74=14.25; C35 0.34/23.88=14.24 (40 km, 0.162 kgCO2/t.km, trucks) -> transporte ao local de obra = A4. Unidade m3 de betao.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 4792,
+  "pares": [
+   {
+    "sheet_row": 2085,
+    "veredito": "confirma",
+    "motivo": "Fig.10 p.13 (raster, medido a 400 dpi; 0-25000, ~30.4 kg/px): FOUNDATIONS barra A/F2 ~2.73 t vs 2.722 gravado; /9.6 m3 (4 sapatas 2,0x2,0x0,6, Tab.3) = 283.5. Fronteira so A1-A3 declarada (p.10). Unidade = m3 de fundacao de betao C35/45 + armadura, nao so betao.",
+    "unidade_m3_betao": false
+   },
+   {
+    "sheet_row": 2086,
+    "veredito": "confirma",
+    "motivo": "Fig.10 barra J (F1) ~1.46-1.52 t vs 1.505; /5.4 m3 = 278.7. Betao+armadura, A1-A3.",
+    "unidade_m3_betao": false
+   },
+   {
+    "sheet_row": 2087,
+    "veredito": "confirma",
+    "motivo": "Fig.10 barra M (PL1) ~7.84-7.90 t vs 7.892; /24.5 m3 (7,0x7,0x0,5) = 322.1. Betao+armadura, A1-A3.",
+    "unidade_m3_betao": false
+   },
+   {
+    "sheet_row": 2088,
+    "veredito": "confirma",
+    "motivo": "Fig.10 barra N (PL2) ~10.64-10.70 t vs 10.690; /34.3 m3 (7,0x7,0x0,7) = 311.7. Betao+armadura, A1-A3.",
+    "unidade_m3_betao": false
+   }
+  ]
+ },
+ {
+  "row_id": 4806,
+  "pares": [
+   {
+    "sheet_row": 1792,
+    "veredito": "confirma",
+    "motivo": "Tab.4 p.8: cimento 26.62 kg x0.951 = 25.31 + areia 0.04 + brita 0.07 = 25.42 kgCO2 (nucleo de betao do CFST); Tab.3: 145.18 kg, 0.06 m3, 2400 kg/m3 -> 25.42/145.18x2400 = 420.2 (0.8% de diferenca se /0.06 m3). A1 (materias-primas incl. cimento cradle-to-gate) defensavel; batching nao contabilizado na producao. Transporte dos ingredientes (5.7 km, 0.12 kg) ao local de obra nao gravado: ambiguo A2/A4, vazio ok. A2/A4 nao declarados excluidos. Unidade: m3 de betao (so betao, sem o tubo de aco).",
+    "unidade_m3_betao": true
+   }
+  ]
+ }
+]

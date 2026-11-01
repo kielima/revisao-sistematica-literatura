@@ -1,0 +1,128 @@
+[
+ {
+  "row_id": 4820,
+  "autor": "Ascione, Fabrizio and Esposito, Francesco and Iovane, Giacomo and\nFaiella, Diana",
+  "titulo": "Sustainable and Efficient Structural Systems for Tall Buildings:\nExploring Timber and Steel-Timber Hybrids through a Case Study",
+  "fileId": "1s48YjY1gs1PbxI4zlEzpeMekxDQLFBmM",
+  "pdf": "ASCIONE et al., 2024 - buildings14020524.pdf",
+  "pares": [
+   {
+    "sheet_row": 598,
+    "co2_kg_m3": 138.24,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 2.4,
+    "a1a3": 134.4,
+    "tipo": "so_agregado+derivado",
+    "local": "p.22, Tab.8 (fatores); p.9, Tab.3 (densidade)",
+    "nota": "Derivado: 0,28x480=134,4 (A1-A3, nao separado); 0,005x480=2,4 (coluna A4 rotulada na Tab.8). A5w 0,003x480=1,44 fora das colunas; A1-A3+A4+A5w=138,24 = valor gravado (A1-A3+A4 = 136,8, diferenca 1,0%). Carbono biogenico excluido de A1-A5."
+   }
+  ]
+ },
+ {
+  "row_id": 4841,
+  "autor": "Abd Rashid, Ahmad Faiz and Idris, Juferi and Yusoff, Sumiani",
+  "titulo": "Environmental Impact Analysis on Residential Building in Malaysia Using\nLife Cycle Assessment",
+  "fileId": "1tJHwWzsWnjnZC-k7k5-zhCWPon8x0hjX",
+  "pdf": "ABD RASHID, 2017.pdf",
+  "pares": [
+   {
+    "sheet_row": 1815,
+    "co2_kg_m3": 432.8,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 43.28,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.10 Tab.7 (concreto da subestrutura: total 340, cimento 282, 'transportation of concrete' 34, restante 32 kgCO2e/m2 GFA, GWP100); p.9 texto (359 kg cimento e 2.34 kg agregados por m3)",
+    "nota": "Valor da Tab.7 e por m2 de GFA (unidade diferente do par). Divisor derivado do proprio artigo: 282 kg/m2 / 359 kg/m3 = 0.7855 m3 de betao por m2 (= 0.748 m3/m2 da Tab.1 x 1.05 de desperdicio); 340/0.7855 = 432.8 = valor gravado. A4 = transporte de be"
+   }
+  ]
+ },
+ {
+  "row_id": 4869,
+  "autor": "Mel, J. and Gomez, D. and de la Cruz, P. and del Cano, A.",
+  "titulo": "Sensitivity analysis and critical study of the sustainability assessment\nmodel of the Spanish Structural Concrete Code",
+  "fileId": "1YWdVaWLm40Bvd8uKTNxOUMO_TI-s5YYq",
+  "pdf": "MEL, 2015.pdf",
+  "pares": [
+   {
+    "sheet_row": 1826,
+    "co2_kg_m3": 302.39,
+    "a1": 273.17,
+    "a2": 12.92,
+    "a3": 0.46,
+    "a4": 7.93,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.7 Tabla 2 (valores 'Med', kg CO2/m3 HA-25 B com 50 kg aco/m3)",
+    "nota": "Derivado a partir dos valores 'Med' da Tabla 2 EXCLUINDO o aco (o gravado 302,39 = 337,67 - 35,28). A1 = cimento 265,84 + aridos 4,14 + aditivos 3,19 = 273,17 ('Producao de componentes' sem aco). A2 = transporte cimento 7,03 + aridos 5,81 + aditivos "
+   }
+  ]
+ },
+ {
+  "row_id": 4931,
+  "autor": "Kontra, Steven and Barbosa, Andre R. and Sinha, Arijit and Araujo, Gustavo A.R. ",
+  "titulo": "DESIGN AND CRADLE-TO-GRAVE LIFE-CYCLE ASSESSMENT: FULL-SCALE SIX-STORY SHAKE-TABLE TEST BUILDING LATERAL SYSTEMS",
+  "fileId": "17bcUQTyUdZII1ELZNgJm3ApTgxabyI6m",
+  "pdf": "KONTRA et al., 2023.pdf",
+  "pares": [
+   {
+    "sheet_row": 1858,
+    "co2_kg_m3": 642.67,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 578.4,
+    "tipo": "so_agregado+derivado",
+    "local": "p.1014 Fig.7 (rotulo Production 4,5E+04 da barra RC Wall); p.1011 Fig.3 (Production = A1-A3); p.1012 Tab.4 (72,6+5,2 m3)",
+    "nota": "Production (A1-A3, explicito na Fig.3) do sistema RC completo = 4,5E+04 kg CO2-eq (2 alg. sig.) / 77,8 m3 de betao = 578,4 kg/m3; inclui aco (5454+2560+228+86 kg) e fundacao. Construction 3,5E+03 = A4+A5 agregados (nao separaveis, ~45 kg/m3), por iss"
+   }
+  ]
+ },
+ {
+  "row_id": 5012,
+  "autor": "Figueiredo, Camilla Furtado de",
+  "titulo": "Aplicação da avaliação do ciclo de vida como critério de seleção para materiais utilizados em construções sustentáveis",
+  "fileId": "1DtDEav4rO9NJQhWbdUl-H-Mj5qg1ENPd",
+  "pdf": "FIGUEIREDO, 2017.pdf",
+  "pares": [
+   {
+    "sheet_row": 32,
+    "co2_kg_m3": 286.37,
+    "a1": null,
+    "a2": 0,
+    "a3": null,
+    "a4": 0,
+    "a1a3": 286.37,
+    "tipo": "so_agregado+derivado",
+    "local": "p.115, Tab.2 (artigo anexo; Tab.2/3 da tese p.~38) e Sec. 3.1 Determinacao do Tipo de ACV; recorte pp.110-125 do PDF visto (pp.93-101 da tese)",
+    "nota": "Total por constituinte (cimento 272,00; areia 2,20; brita 8,91; aditivo 3,16; agua 0,10 = 286,37, soma conferida). Por constituinte nao e por etapa (regra 2): fica como A1-A3 agregado (producao dos materiais+mistura, cradle-to-gate). A2 = 0 e A4 = 0 "
+   }
+  ]
+ },
+ {
+  "row_id": 5041,
+  "autor": "Bento, Ricardo Couceiro",
+  "titulo": "Análise do desempenho ambiental de estruturas de concreto armado: uso da avaliação do ciclo de vida ({ACV}) no processo  decisório do dimensionamento",
+  "fileId": "1mZr2mNJalVEQkQJC287sfab-SRU9OK_A",
+  "pdf": "BENTO, 2016.pdf",
+  "pares": [
+   {
+    "sheet_row": 51,
+    "co2_kg_m3": 224.6,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 7.27,
+    "a1a3": 224.6,
+    "tipo": "so_agregado+derivado",
+    "local": "p.136 (impressa) Fig.29 (pedra britada 3,13; areia 2,32; cimento 45,5 kg CO2-eq/m2); p.135 Fig.28 (Distribuicao Concreto 1,65; Estrutura concreto 1,15E+02); p.115 Quadro 2 (471,4 m3, 0,23 m3/m2); p.98 (2.078 m2)",
+    "nota": "A1-A3 agregado: soma dos materiais do betao da Fig.29 = 3,13+2,32+45,5 = 50,95 kg/m2 /(471,4/2078=0,2268 m3/m2) = 224,6 kg/m3 (= gravado); o processo 'estrutura de concreto' inclui extracao+transporte das materias-primas e fabricacao do betao (Fig.12"
+   }
+  ]
+ }
+]

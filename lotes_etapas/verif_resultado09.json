@@ -1,0 +1,150 @@
+[
+ {
+  "row_id": 3251,
+  "pares": [
+   {
+    "sheet_row": 945,
+    "veredito": "confirma",
+    "motivo": "Fig.3 totais brutos (383.1/378.5/375.7/373.1/368.3); Fig.5 % por etapa x total reproduz A1/A2; A3=residuo 2.7 (Stage 3 mixing/curing); confere com Fig.6. kg CO2-eq/m3 (1 m3)."
+   },
+   {
+    "sheet_row": 946,
+    "veredito": "confirma",
+    "motivo": "Fig.3 totais brutos (383.1/378.5/375.7/373.1/368.3); Fig.5 % por etapa x total reproduz A1/A2; A3=residuo 2.7 (Stage 3 mixing/curing); confere com Fig.6. kg CO2-eq/m3 (1 m3)."
+   },
+   {
+    "sheet_row": 947,
+    "veredito": "confirma",
+    "motivo": "Fig.3 totais brutos (383.1/378.5/375.7/373.1/368.3); Fig.5 % por etapa x total reproduz A1/A2; A3=residuo 2.7 (Stage 3 mixing/curing); confere com Fig.6. kg CO2-eq/m3 (1 m3)."
+   },
+   {
+    "sheet_row": 948,
+    "veredito": "confirma",
+    "motivo": "Fig.3 totais brutos (383.1/378.5/375.7/373.1/368.3); Fig.5 % por etapa x total reproduz A1/A2; A3=residuo 2.7 (Stage 3 mixing/curing); confere com Fig.6. kg CO2-eq/m3 (1 m3)."
+   },
+   {
+    "sheet_row": 949,
+    "veredito": "confirma",
+    "motivo": "Fig.3 totais brutos (383.1/378.5/375.7/373.1/368.3); Fig.5 % por etapa x total reproduz A1/A2; A3=residuo 2.7 (Stage 3 mixing/curing); confere com Fig.6. kg CO2-eq/m3 (1 m3)."
+   }
+  ]
+ },
+ {
+  "row_id": 3309,
+  "pares": [
+   {
+    "sheet_row": 346,
+    "veredito": "confirma",
+    "motivo": "Recalculado: Tab.1 x Tab.5 (cimento 0,7634; areia 0,0028; brita 0,0039/0,0019) = A1; distancias Tab.6 (cimento 40, agregados 32/34 km, estrada) x 12,8e-5 = A2; somas 359,1/372,5/335,0/350,4 batem. Tab.6 extraida em texto desordenado mas coerente; PDF nao renderizado (ficheiro grande, so texto)."
+   },
+   {
+    "sheet_row": 1993,
+    "veredito": "confirma",
+    "motivo": "Recalculado: Tab.1 x Tab.5 (cimento 0,7634; areia 0,0028; brita 0,0039/0,0019) = A1; distancias Tab.6 (cimento 40, agregados 32/34 km, estrada) x 12,8e-5 = A2; somas 359,1/372,5/335,0/350,4 batem. Tab.6 extraida em texto desordenado mas coerente; PDF nao renderizado (ficheiro grande, so texto)."
+   },
+   {
+    "sheet_row": 1994,
+    "veredito": "confirma",
+    "motivo": "Recalculado: Tab.1 x Tab.5 (cimento 0,7634; areia 0,0028; brita 0,0039/0,0019) = A1; distancias Tab.6 (cimento 40, agregados 32/34 km, estrada) x 12,8e-5 = A2; somas 359,1/372,5/335,0/350,4 batem. Tab.6 extraida em texto desordenado mas coerente; PDF nao renderizado (ficheiro grande, so texto)."
+   },
+   {
+    "sheet_row": 1995,
+    "veredito": "confirma",
+    "motivo": "Recalculado: Tab.1 x Tab.5 (cimento 0,7634; areia 0,0028; brita 0,0039/0,0019) = A1; distancias Tab.6 (cimento 40, agregados 32/34 km, estrada) x 12,8e-5 = A2; somas 359,1/372,5/335,0/350,4 batem. Tab.6 extraida em texto desordenado mas coerente; PDF nao renderizado (ficheiro grande, so texto)."
+   }
+  ]
+ },
+ {
+  "row_id": 3348,
+  "pares": [
+   {
+    "sheet_row": 364,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.12 coluna controlo: A1=346,56+0,05+13,95; A2 11,98; A3 3,73+34,08; A4 transport to site 3,48; total 413,83 kg CO2e/m3."
+   },
+   {
+    "sheet_row": 365,
+    "veredito": "corrigir",
+    "motivo": "Etapas A1=294,82 (346,56+0,05+13,95-65,74 fibra), A2 11,98, A3 37,81, A4 3,48 confirmadas na coluna Control+Loose Hemp Fiber da Tab.5, mas o total dessa coluna e 348,09, nao 413,83 (controlo).",
+    "valor_correto": {
+     "co2_kg_m3": 348.09
+    }
+   }
+  ]
+ },
+ {
+  "row_id": 3363,
+  "pares": [
+   {
+    "sheet_row": 376,
+    "veredito": "confirma",
+    "motivo": "Tab.13 (Cenario 2, alocacao economica) % x Tab.12 GWP por FU (260,4; 216,8/1,1=197,1; 134,2; 292,9/1,1=266,3; 216,1/1,1=196,5): A1 materias-primas, A2 Transport (ate central, Tab.9), A3 Concrete. Sec.4.3: transporte a obra omitido (A4 excluido declarado; poderia ser 0)."
+   },
+   {
+    "sheet_row": 377,
+    "veredito": "confirma",
+    "motivo": "Tab.13 (Cenario 2, alocacao economica) % x Tab.12 GWP por FU (260,4; 216,8/1,1=197,1; 134,2; 292,9/1,1=266,3; 216,1/1,1=196,5): A1 materias-primas, A2 Transport (ate central, Tab.9), A3 Concrete. Sec.4.3: transporte a obra omitido (A4 excluido declarado; poderia ser 0)."
+   },
+   {
+    "sheet_row": 378,
+    "veredito": "confirma",
+    "motivo": "Tab.13 (Cenario 2, alocacao economica) % x Tab.12 GWP por FU (260,4; 216,8/1,1=197,1; 134,2; 292,9/1,1=266,3; 216,1/1,1=196,5): A1 materias-primas, A2 Transport (ate central, Tab.9), A3 Concrete. Sec.4.3: transporte a obra omitido (A4 excluido declarado; poderia ser 0)."
+   },
+   {
+    "sheet_row": 379,
+    "veredito": "confirma",
+    "motivo": "Tab.13 (Cenario 2, alocacao economica) % x Tab.12 GWP por FU (260,4; 216,8/1,1=197,1; 134,2; 292,9/1,1=266,3; 216,1/1,1=196,5): A1 materias-primas, A2 Transport (ate central, Tab.9), A3 Concrete. Sec.4.3: transporte a obra omitido (A4 excluido declarado; poderia ser 0)."
+   },
+   {
+    "sheet_row": 380,
+    "veredito": "confirma",
+    "motivo": "Tab.13 (Cenario 2, alocacao economica) % x Tab.12 GWP por FU (260,4; 216,8/1,1=197,1; 134,2; 292,9/1,1=266,3; 216,1/1,1=196,5): A1 materias-primas, A2 Transport (ate central, Tab.9), A3 Concrete. Sec.4.3: transporte a obra omitido (A4 excluido declarado; poderia ser 0)."
+   }
+  ]
+ },
+ {
+  "row_id": 3384,
+  "pares": [
+   {
+    "sheet_row": 976,
+    "veredito": "confirma",
+    "motivo": "Fig.3 GWP (render 400 dpi): totais ~351/451/186/168/180 batem; segmento Transport ~13,5 kg/m3 em todas. Sec.2.1 diz transporte omitido mas Sec.3.1 e legenda da Fig.3 incluem-no (100 km): contradicao do artigo; A2 lido da figura."
+   },
+   {
+    "sheet_row": 977,
+    "veredito": "confirma",
+    "motivo": "Fig.3 GWP (render 400 dpi): totais ~351/451/186/168/180 batem; segmento Transport ~13,5 kg/m3 em todas. Sec.2.1 diz transporte omitido mas Sec.3.1 e legenda da Fig.3 incluem-no (100 km): contradicao do artigo; A2 lido da figura."
+   },
+   {
+    "sheet_row": 978,
+    "veredito": "confirma",
+    "motivo": "Fig.3 GWP (render 400 dpi): totais ~351/451/186/168/180 batem; segmento Transport ~13,5 kg/m3 em todas. Sec.2.1 diz transporte omitido mas Sec.3.1 e legenda da Fig.3 incluem-no (100 km): contradicao do artigo; A2 lido da figura."
+   },
+   {
+    "sheet_row": 979,
+    "veredito": "confirma",
+    "motivo": "Fig.3 GWP (render 400 dpi): totais ~351/451/186/168/180 batem; segmento Transport ~13,5 kg/m3 em todas. Sec.2.1 diz transporte omitido mas Sec.3.1 e legenda da Fig.3 incluem-no (100 km): contradicao do artigo; A2 lido da figura."
+   },
+   {
+    "sheet_row": 980,
+    "veredito": "confirma",
+    "motivo": "Fig.3 GWP (render 400 dpi): totais ~351/451/186/168/180 batem; segmento Transport ~13,5 kg/m3 em todas. Sec.2.1 diz transporte omitido mas Sec.3.1 e legenda da Fig.3 incluem-no (100 km): contradicao do artigo; A2 lido da figura."
+   }
+  ]
+ },
+ {
+  "row_id": 3399,
+  "pares": [
+   {
+    "sheet_row": 407,
+    "veredito": "confirma",
+    "motivo": "Fig.5 (render 400 dpi): mediana cradle-to-gate 1a ~255, 1b ~219 = bate com 257/220. Tab.2 x Tab.3 reproduz A1 e A2; A3 = 9,5 x massa do betao (2,245 t) = 21,3 (entradas por m3 da Tab.1 dariam ~9,3/m3, mas a Fig.5 apoia 21): ressalva de unidade em A3. A4 fora da fronteira."
+   },
+   {
+    "sheet_row": 408,
+    "veredito": "confirma",
+    "motivo": "Fig.5 (render 400 dpi): mediana cradle-to-gate 1a ~255, 1b ~219 = bate com 257/220. Tab.2 x Tab.3 reproduz A1 e A2; A3 = 9,5 x massa do betao (2,245 t) = 21,3 (entradas por m3 da Tab.1 dariam ~9,3/m3, mas a Fig.5 apoia 21): ressalva de unidade em A3. A4 fora da fronteira."
+   }
+  ]
+ }
+]

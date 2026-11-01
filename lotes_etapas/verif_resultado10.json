@@ -1,0 +1,109 @@
+[
+ {
+  "row_id": 3451,
+  "pares": [
+   {
+    "sheet_row": 1014,
+    "veredito": "confirma",
+    "motivo": "Fig.9 p.8 (visto): MPC-NCA 90 MK/FA/GBFS + NCA sem rotulo + 182 solucao alcalina + 15 Transportation + 0 Manufacturing = 297 (Tab.7); A1=282 por diferenca (NCA ~10 sem rotulo). Fronteira cradle-to-gate: aquisicao de materias-primas, transporte, fabrico; A4 nao incluido, vazio correcto. Unidade funcional = 1 m3 de betao permeavel (20% porosidade).",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3493,
+  "pares": [
+   {
+    "sheet_row": 1023,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.15 GWP RSFRC 397.24 por 1 m3 de betao. Sec.4: fronteira limitada a extraccao/processamento de materias-primas; transporte e fabrico declarados identicos entre misturas e fora do calculo (Fig.10 p.13 caixa tracejada so Raw materials). A2=A3=0 admissivel (excluidas declaradas). Ressalva: texto diz 'considerados identicos', nao literalmente 'excluidos'.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1024,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.15 GWP ISFRC 479.22 por m3 de betao; mesma fronteira, A2/A3 excluidas.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3514,
+  "pares": [
+   {
+    "sheet_row": 1033,
+    "veredito": "retirar",
+    "motivo": "Valores batem (415 Fig.2a; Fig.3a 90/3/7%: 373.5/12.45/29.05) mas a Fig.2 diz 'Per Cubic Meter of MORTAR': unidade e m3 de argamassa (AAB mortars/PC mortar), nao de betao. Cradle-to-gate, A4 fora.",
+    "unidade_m3_betao": false
+   },
+   {
+    "sheet_row": 1034,
+    "veredito": "retirar",
+    "motivo": "Fig.3b 57/22/21% x 253 confere, mas unidade = m3 de argamassa (Fig.2).",
+    "unidade_m3_betao": false
+   },
+   {
+    "sheet_row": 1035,
+    "veredito": "retirar",
+    "motivo": "Fig.3c 64/19/17% x 308 confere, mas unidade = m3 de argamassa (Fig.2).",
+    "unidade_m3_betao": false
+   }
+  ]
+ },
+ {
+  "row_id": 3582,
+  "pares": [
+   {
+    "sheet_row": 1053,
+    "veredito": "confirma",
+    "motivo": "Texto p.7: 308 kg CO2-eq/m3 RC-concrete XC1 (C25/30), 1 m3 de betao. Fig.4A RC-m1 lida por pixel (400 dpi): A1~295, A2~14, A3~3.5 (soma ~312.5 vs 308, +1.5%). Sem A4 (producao + fim de vida; barras so A1-A3).",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1054,
+    "veredito": "confirma",
+    "motivo": "Texto p.7: 315 (XC2). Fig.4A RC-m2 por pixel: A1~298, A2~13, A3~3.5 (soma ~314.5). Valores gravados 298/14/4 dentro da incerteza de leitura.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3602,
+  "pares": [
+   {
+    "sheet_row": 485,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.3 (kg/m3) x Tab.8 (A1-A3): 709.90; Fig.10 p.14 (visto) rotula somas 710/915/714/717/715. So agregado A1-A3 (factores Tab.8 sao A1-A3 sem separacao). Unidade kg CO2e/m3 de UHPC.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 486,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.3 (kg/m3) x Tab.8 (A1-A3): 914.72; Fig.10 p.14 (visto) rotula somas 710/915/714/717/715. So agregado A1-A3 (factores Tab.8 sao A1-A3 sem separacao). Unidade kg CO2e/m3 de UHPC.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 487,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.3 (kg/m3) x Tab.8 (A1-A3): 713.70; Fig.10 p.14 (visto) rotula somas 710/915/714/717/715. So agregado A1-A3 (factores Tab.8 sao A1-A3 sem separacao). Unidade kg CO2e/m3 de UHPC.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 488,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.3 (kg/m3) x Tab.8 (A1-A3): 716.65; Fig.10 p.14 (visto) rotula somas 710/915/714/717/715. So agregado A1-A3 (factores Tab.8 sao A1-A3 sem separacao). Unidade kg CO2e/m3 de UHPC.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 489,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.3 (kg/m3) x Tab.8 (A1-A3): 715.48; Fig.10 p.14 (visto) rotula somas 710/915/714/717/715. So agregado A1-A3 (factores Tab.8 sao A1-A3 sem separacao). Unidade kg CO2e/m3 de UHPC.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3657,
+  "pares": []
+ }
+]
