@@ -1,0 +1,121 @@
+[
+ {
+  "row_id": 4989,
+  "pares": [
+   {
+    "sheet_row": 23,
+    "veredito": "corrigir",
+    "valor_correto": {
+     "a3": 5
+    },
+    "motivo": "Fig.3 p.6020 medida por pixel a 400 dpi (eixo 0-350): total e A1 batem (<1 por cento), mas o segmento vermelho do mixing plant mede ~4,6 kg (borda a borda), nao 7; incerteza do pixel +-1,5 kg"
+   },
+   {
+    "sheet_row": 24,
+    "veredito": "confirma",
+    "motivo": "total 213, A1 180, A3 ~5 conferem por pixel; A2/A4 nao separaveis (segmento Transport unico, inclui plant->obra)"
+   },
+   {
+    "sheet_row": 25,
+    "veredito": "corrigir",
+    "valor_correto": {
+     "a3": 5
+    },
+    "motivo": "Fig.3 p.6020 medida por pixel a 400 dpi (eixo 0-350): total e A1 batem (<1 por cento), mas o segmento vermelho do mixing plant mede ~5,2 kg (borda a borda), nao 7; incerteza do pixel +-1,5 kg"
+   },
+   {
+    "sheet_row": 26,
+    "veredito": "corrigir",
+    "valor_correto": {
+     "a3": 4
+    },
+    "motivo": "Fig.3 p.6020 medida por pixel a 400 dpi (eixo 0-350): total e A1 batem (<1 por cento), mas o segmento vermelho do mixing plant mede ~4,3 kg (borda a borda), nao 6; incerteza do pixel +-1,5 kg; A1 pixel ~290 vs 292 gravado (0,7 por cento, dentro da tolerancia)"
+   }
+  ]
+ },
+ {
+  "row_id": 3178,
+  "pares": [
+   {
+    "sheet_row": 887,
+    "veredito": "confirma",
+    "motivo": "Sec.4.4: 201,62/0,973=207,2; 59,39 por cento x 559,69=332,4; Fase II por diferenca (Fig.14 mostra transporte pequeno); fases I/II/III = aquisicao/transporte/fabrico, cradle-to-gate, UF 1 m3"
+   },
+   {
+    "sheet_row": 888,
+    "veredito": "confirma",
+    "motivo": "Sec.4.4: 89,92/0,911=98,7; 75,30 por cento x 483,25=363,9; Fase II por diferenca; 483,25/559,69 = -13,7 por cento como no texto"
+   }
+  ]
+ },
+ {
+  "row_id": 2803,
+  "pares": [
+   {
+    "sheet_row": 235,
+    "veredito": "confirma",
+    "motivo": "Fig.6 p.33: cimento 403,4+agua 0,1+aditivo 4,0+agregados 15,3=422,8; transp. constituintes 12,9; batching 1,9; transp. obra 12,5; total 452 kg CO2e/m3"
+   }
+  ]
+ },
+ {
+  "row_id": 3615,
+  "pares": [
+   {
+    "sheet_row": 1063,
+    "veredito": "confirma",
+    "motivo": "Tab.2: 3+2+257=262; transp. materias-primas 54; final 18; total 347"
+   },
+   {
+    "sheet_row": 1064,
+    "veredito": "confirma",
+    "motivo": "Tab.2: 3+2+18+17+18=58; transp. 58; final 18; total 169"
+   },
+   {
+    "sheet_row": 1065,
+    "veredito": "confirma",
+    "motivo": "Tab.2: 3+2+1+39+68=113; transp. 68; final 18; total 234"
+   },
+   {
+    "sheet_row": 1066,
+    "veredito": "confirma",
+    "motivo": "Tab.2: 3+3+134+13=153; transp. 60; final 19; total 245"
+   }
+  ]
+ },
+ {
+  "row_id": 3206,
+  "pares": [
+   {
+    "sheet_row": 916,
+    "veredito": "confirma",
+    "motivo": "Tab.7 p.13: G50S1.5 212,98/19,24/34,37=266,59; mapeamento Raw/Production/Transport->A1/A3/A2 e nosso (Eqs.1-3), fronteira nao rotulada EN 15804"
+   },
+   {
+    "sheet_row": 917,
+    "veredito": "confirma",
+    "motivo": "Tab.7: G40C0.5 281,96/19,22/33,53=334,72; mesmo mapeamento"
+   },
+   {
+    "sheet_row": 918,
+    "veredito": "confirma",
+    "motivo": "Tab.7: CPC 389,71/19,21/30,33=439,26; mesmo mapeamento"
+   }
+  ]
+ },
+ {
+  "row_id": 4039,
+  "pares": [
+   {
+    "sheet_row": 1167,
+    "veredito": "confirma",
+    "motivo": "Fig.3 CNAT GWP: cimento 88,62+agua 0,04+plast. 2,19+agregado 5,21=96,06 por cento; transporte 3,41; electricidade 0,54; x771 kg/3,5 m3 (Tab.4) = 211,61/7,51/1,19; total 220,29"
+   },
+   {
+    "sheet_row": 1168,
+    "veredito": "confirma",
+    "motivo": "sem etapas gravadas: correto (pie CRAP soma 93,9 por cento com credito -3,06 de agregado evitado); total 216,3 ~ bruto (733/0,9694/3,5=216,0), nao liquido 209,4"
+   }
+  ]
+ }
+]
