@@ -1,4 +1,4 @@
-"""F39: grava o CO2 por etapa EN 15804 em dados_fck (cols 77-87). So preenche celulas vazias.
+"""F39 (NAO voltar a correr sozinho: repoe celulas que aplicar_verif.py deixou vazias; correr sempre aplicar.py e a seguir aplicar_verif.py): grava o CO2 por etapa EN 15804 em dados_fck (cols 77-87). So preenche celulas vazias.
 Uso: python3 lotes_etapas/aplicar.py [--gravar]   (sem --gravar = ensaio, so conta)
 Fonte: resultado_lote*.json, sobrepostos por recorte_resultado*.json (por row_id)."""
 import glob, json, sys, collections
