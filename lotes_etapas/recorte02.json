@@ -1,0 +1,292 @@
+[
+ {
+  "row_id": 2847,
+  "autor": "Lyra, Gabriela Pitolli",
+  "titulo": "Aplicação das cinzas da indústria sucroalcooleira como biopozolanas e K-fertilizante: cana-de-açúcar e cana-energia",
+  "pdf": "LYRA, 2023i.pdf",
+  "fileId": "1k-ONSm8UDh--CBAUGcfMttdNvOyn1FP3",
+  "resultado_anterior": "lotes_etapas/resultado_lote06.json",
+  "nota_anterior": "read_file_content devolveu so ~76 paginas (176k car.; termina na revisao/metodologia); download_file_content (9,2 MB) fez cair a ligacao ao Drive. Recorte necessario com shrink-drive-pdf.yml para pp. do capitulo de ACV (Tab.25, p.138 impressa). Nota: o co2_original gravado (0,00272 kg CO2/MPa) e por MPa, nao por m3 — valores gravados 556.6 etc. sao derivados; verificar a base ao reler.",
+  "pares": [
+   {
+    "sheet_row": 763,
+    "material": "Argamassa de referencia (cimento Portland + areia)",
+    "fck_mpa": 40.18,
+    "co2_kg_m3": 556.6,
+    "co2_original": "0,00272 kg CO2 eq/MPa (UF = 1 MPa de resistencia aos 28 d)",
+    "co2_original_local": "Tabela 25 (p.138 impressa), ReCiPe 2016 midpoint, Mudancas climaticas"
+   },
+   {
+    "sheet_row": 764,
+    "material": "Argamassa com 10% silica ativa",
+    "fck_mpa": 33.82,
+    "co2_kg_m3": 554.6,
+    "co2_original": "0,00322 kg CO2 eq/MPa (UF = 1 MPa de resistencia aos 28 d)",
+    "co2_original_local": "Tabela 25 (p.138 impressa), ReCiPe 2016 midpoint, Mudancas climaticas"
+   },
+   {
+    "sheet_row": 765,
+    "material": "Argamassa com 5% cinza de cana-de-acucar lavada (CCAC-L)",
+    "fck_mpa": 33.57,
+    "co2_kg_m3": 531.7,
+    "co2_original": "0,00309 kg CO2 eq/MPa (UF = 1 MPa de resistencia aos 28 d)",
+    "co2_original_local": "Tabela 25 (p.138 impressa), ReCiPe 2016 midpoint, Mudancas climaticas"
+   },
+   {
+    "sheet_row": 766,
+    "material": "Argamassa com 10% cinza de cana-de-acucar lavada (CCAC-L)",
+    "fck_mpa": 39.51,
+    "co2_kg_m3": 491,
+    "co2_original": "0,0024 kg CO2 eq/MPa (UF = 1 MPa de resistencia aos 28 d)",
+    "co2_original_local": "Tabela 25 (p.138 impressa), ReCiPe 2016 midpoint, Mudancas climaticas"
+   },
+   {
+    "sheet_row": 767,
+    "material": "Argamassa com 20% cinza de cana-de-acucar lavada (CCAC-L)",
+    "fck_mpa": 34.08,
+    "co2_kg_m3": 442.6,
+    "co2_original": "0,00244 kg CO2 eq/MPa (UF = 1 MPa de resistencia aos 28 d)",
+    "co2_original_local": "Tabela 25 (p.138 impressa), ReCiPe 2016 midpoint, Mudancas climaticas"
+   },
+   {
+    "sheet_row": 768,
+    "material": "Argamassa com 5% cinza de cana-energia lavada (V5-L)",
+    "fck_mpa": 34.53,
+    "co2_kg_m3": 529.3,
+    "co2_original": "0,00295 kg CO2 eq/MPa (UF = 1 MPa de resistencia aos 28 d)",
+    "co2_original_local": "Tabela 25 (p.138 impressa), ReCiPe 2016 midpoint, Mudancas climaticas"
+   },
+   {
+    "sheet_row": 769,
+    "material": "Argamassa com 10% cinza de cana-energia lavada (V5-L)",
+    "fck_mpa": 41.16,
+    "co2_kg_m3": 490.5,
+    "co2_original": "0,00224 kg CO2 eq/MPa (UF = 1 MPa de resistencia aos 28 d)",
+    "co2_original_local": "Tabela 25 (p.138 impressa), ReCiPe 2016 midpoint, Mudancas climaticas"
+   },
+   {
+    "sheet_row": 770,
+    "material": "Argamassa com 20% cinza de cana-energia lavada (V5-L)",
+    "fck_mpa": 35.14,
+    "co2_kg_m3": 440.3,
+    "co2_original": "0,00221 kg CO2 eq/MPa (UF = 1 MPa de resistencia aos 28 d)",
+    "co2_original_local": "Tabela 25 (p.138 impressa), ReCiPe 2016 midpoint, Mudancas climaticas"
+   }
+  ]
+ },
+ {
+  "row_id": 2895,
+  "autor": "Sirico, Alice and Bernardi, Patrizia and Belletti, Beatrice and\nSciancalepore, C",
+  "titulo": "Environmental and mechanical analysis of low-carbon concrete with\nvitrified MSW incineration bottom ash as cement replacement",
+  "pdf": "SIRICO, 2024i - suco.202300615.pdf",
+  "fileId": "17m1vm1QmORwQ0EiltvIhT1Oqqr_TL2Vb",
+  "resultado_anterior": "lotes_etapas/resultado_lote07.json",
+  "nota_anterior": "Texto completo lido via read_file_content; download do PDF (7,2 MB) derrubou a ligacao do conector, figuras 15-18 nao vistas como imagem. Sem etapas em tabela; reler Figs.15-18 com recorte so para confirmar que nao ha rotulos por etapa.",
+  "pares": [
+   {
+    "sheet_row": 786,
+    "material": "Concreto V0 - 100% CEM (referencia, sem cinzas)",
+    "fck_mpa": 42.2,
+    "co2_kg_m3": 367,
+    "co2_original": "367 (Rc (MPa); CO2 de Tab.7/8 (kg CO2eq/m3))",
+    "co2_original_local": "Fig.10, 28 d, cubos 150 mm"
+   },
+   {
+    "sheet_row": 787,
+    "material": "Concreto V10 - 10% substituicao por cinzas de fundo vitrificadas",
+    "fck_mpa": 44.9,
+    "co2_kg_m3": 360,
+    "co2_original": "360 (nao-perigoso) / 273 (perigoso) (idem)",
+    "co2_original_local": "Fig.10, 28 d"
+   },
+   {
+    "sheet_row": 788,
+    "material": "Concreto V15 - 15% substituicao por cinzas de fundo vitrificadas",
+    "fck_mpa": 41.1,
+    "co2_kg_m3": 357,
+    "co2_original": "357 / 226 (idem)",
+    "co2_original_local": "Fig.10, 28 d"
+   },
+   {
+    "sheet_row": 789,
+    "material": "Concreto V20 - 20% substituicao por cinzas de fundo vitrificadas",
+    "fck_mpa": 39.1,
+    "co2_kg_m3": 353,
+    "co2_original": "353 / 180 (idem)",
+    "co2_original_local": "Fig.10, 28 d"
+   }
+  ]
+ },
+ {
+  "row_id": 3017,
+  "autor": "Cunningham, Patrick R. and Wang, Li and Kane, Seth and Kim, Alyson and\nJenkins, ",
+  "titulo": "Lifecycle implications and mechanical properties of carbonated biomass\nashes as carbon-storing supplementary cementitious materials",
+  "pdf": "CUNNINGHAM et al., 2025.pdf",
+  "fileId": "104LJMLiOKGZrsuWgAElVUzSZJe4LyePQ",
+  "resultado_anterior": "lotes_etapas/resultado_lote07.json",
+  "nota_anterior": "Texto completo lido via read_file_content; PDF (7,2 MB) nao descarregado (limite do conector) logo Fig.9 e Fig.2 nao vistas como imagem.",
+  "pares": [
+   {
+    "sheet_row": 259,
+    "material": "Argamassa 5%M-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck_mpa": 54.82,
+    "co2_kg_m3": 460.1,
+    "co2_original": "459.5 kg CO2-eq/m3 (leitura de grafico)",
+    "co2_original_local": "Fig.9 p.11"
+   },
+   {
+    "sheet_row": 2110,
+    "material": "Argamassa CTRL (100% cimento Portland, referencia)",
+    "fck_mpa": 48.89,
+    "co2_kg_m3": 482.2,
+    "co2_original": "482.2 kg CO2-eq/m3 (leitura de grafico)",
+    "co2_original_local": "Fig.9 p.11"
+   },
+   {
+    "sheet_row": 2111,
+    "material": "Argamassa 5%M-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck_mpa": 50.49,
+    "co2_kg_m3": 459.8,
+    "co2_original": "457.1 kg CO2-eq/m3 (leitura de grafico)",
+    "co2_original_local": "Fig.9 p.11"
+   },
+   {
+    "sheet_row": 2112,
+    "material": "Argamassa 5%C-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck_mpa": 45.55,
+    "co2_kg_m3": 459.9,
+    "co2_original": "456.3 kg CO2-eq/m3 (leitura de grafico)",
+    "co2_original_local": "Fig.9 p.11"
+   },
+   {
+    "sheet_row": 2113,
+    "material": "Argamassa 15%M-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck_mpa": 43.95,
+    "co2_kg_m3": 416.2,
+    "co2_original": "408.0 kg CO2-eq/m3 (leitura de grafico)",
+    "co2_original_local": "Fig.9 p.11"
+   },
+   {
+    "sheet_row": 2114,
+    "material": "Argamassa 15%C-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck_mpa": 26.54,
+    "co2_kg_m3": 416.2,
+    "co2_original": "405.3 kg CO2-eq/m3 (leitura de grafico)",
+    "co2_original_local": "Fig.9 p.11"
+   },
+   {
+    "sheet_row": 2115,
+    "material": "Argamassa 5%C-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck_mpa": 52.35,
+    "co2_kg_m3": 460.1,
+    "co2_original": "459.5 kg CO2-eq/m3 (leitura de grafico)",
+    "co2_original_local": "Fig.9 p.11"
+   },
+   {
+    "sheet_row": 2116,
+    "material": "Argamassa 15%M-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck_mpa": 53.95,
+    "co2_kg_m3": 416.1,
+    "co2_original": "414.4 kg CO2-eq/m3 (leitura de grafico)",
+    "co2_original_local": "Fig.9 p.11"
+   },
+   {
+    "sheet_row": 2117,
+    "material": "Argamassa 15%C-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "fck_mpa": 49.5,
+    "co2_kg_m3": 416.1,
+    "co2_original": "414.4 kg CO2-eq/m3 (leitura de grafico)",
+    "co2_original_local": "Fig.9 p.11"
+   }
+  ]
+ },
+ {
+  "row_id": 3112,
+  "autor": "Shaik Hussain and John Matthews and Sudhir Amritphale and Niloy Paul and Richard",
+  "titulo": "Performance and environmental life cycle assessment of ternary blended geopolymer concrete for pavements on military airbases",
+  "pdf": "HUSSAIN et al., 2025 - j.clwas.2025.100278.pdf",
+  "fileId": "1PNrbDR7Y_yh2BR1yjcZTxxjgUBvOBEAJ",
+  "resultado_anterior": "lotes_etapas/resultado_lote09.json",
+  "nota_anterior": "Ficheiro 13,5 MB: texto lido, figuras nao vistas; rever Fig.1 (fronteira) e Fig.13 com recorte para confirmar se ha rotulos por materia-prima/transporte.",
+  "pares": [
+   {
+    "sheet_row": 843,
+    "material": "concreto de cimento Portland de referencia (~35 MPa, pavimento de base aerea)",
+    "fck_mpa": 35,
+    "co2_kg_m3": 509,
+    "co2_original": "509 kg CO2 eq (concreto de cimento, texto do GWP/Fig.13)",
+    "co2_original_local": "texto, secao de discussao do GWP (Fig.13, 'Global Warming Potential'): 'Cement concrete constitutes 509 kg CO2 eq., whereas geopolymer mixes M3 and M4 contribute to only 192 kg CO2 eq.'"
+   },
+   {
+    "sheet_row": 2097,
+    "material": "concreto geopolimerico ternario FA+GGBS+MK, mistura M3",
+    "fck_mpa": 40.6,
+    "co2_kg_m3": 192,
+    "co2_original": "192 kg CO2 eq (valor comum de M3 e M4, texto do GWP/Fig.13)",
+    "co2_original_local": "texto, secao de discussao do GWP (Fig.13, 'Global Warming Potential'): 'Cement concrete constitutes 509 kg CO2 eq., whereas geopolymer mixes M3 and M4 contribute to only 192 kg CO2 eq.'"
+   },
+   {
+    "sheet_row": 2098,
+    "material": "concreto geopolimerico ternario FA+GGBS+MK, mistura M4",
+    "fck_mpa": 42.2,
+    "co2_kg_m3": 192,
+    "co2_original": "192 kg CO2 eq (valor comum de M3 e M4, texto do GWP/Fig.13)",
+    "co2_original_local": "texto, secao de discussao do GWP (Fig.13, 'Global Warming Potential'): 'Cement concrete constitutes 509 kg CO2 eq., whereas geopolymer mixes M3 and M4 contribute to only 192 kg CO2 eq.'"
+   }
+  ]
+ },
+ {
+  "row_id": 3115,
+  "autor": "Du, Yiying and Korjakins, Aleksandrs and Sinka, Maris and Pundienė, Ina",
+  "titulo": "Lifecycle Assessment and Multi-Parameter Optimization of Lightweight Cement Mortar with Nano Additives",
+  "pdf": "DU et al., 2024.pdf",
+  "fileId": "16Dxlw0ijFl9AJqvyWGDeNKSeu1pa8E6i",
+  "resultado_anterior": "lotes_etapas/resultado_lote10.json",
+  "nota_anterior": "Rever Fig.6 e Fig.10 (pp.12,15) com recorte para confirmar que nao ha rotulos por etapa.",
+  "pares": [
+   {
+    "sheet_row": 315,
+    "material": "NACM - argamassa de cimento com agregado natural (referencia, sem aditivos nano)",
+    "fck_mpa": 38.72,
+    "co2_kg_m3": 1200,
+    "co2_original": "1200 kg CO2 eq/m3 (aprox., valor citado como tal pelo proprio texto: 'approximately 1200 kg CO2 eq')",
+    "co2_original_local": "p.12 do ficheiro, sec.3.3.1, texto (Fig.6, GWP por mistura)"
+   },
+   {
+    "sheet_row": 316,
+    "material": "LWCM LT5S0 (argamassa leve com FAC + 0.05% MWCNTs, sem nanosilica) - melhor desempenho mecanico entre as LWCM",
+    "fck_mpa": 21.1,
+    "co2_kg_m3": 603.44,
+    "co2_original": "603.44 kg CO2 eq/m3",
+    "co2_original_local": "p.12 do ficheiro, sec.3.3.1, texto"
+   }
+  ]
+ },
+ {
+  "row_id": 3146,
+  "autor": "Lorika, Denis A. and Hamad, Bilal and Yehya, Alissar and Salam, Darine A.",
+  "titulo": "Evaluating the use of mucilage from opuntia ficus-indica as a bio-additive in production of sustainable concrete",
+  "pdf": "LORIKA et al., 2023 - j.conbuildmat.2023.132132.pdf",
+  "fileId": "10jT_J1sFkUt3iW69v1w3wgwdx5nCX9kK",
+  "resultado_anterior": "lotes_etapas/resultado_lote10.json",
+  "nota_anterior": "Download do PDF (9.9 MB) derrubou a ligacao; figuras nao vistas. Valores vem de tabela/texto; improvavel haver mais.",
+  "pares": [
+   {
+    "sheet_row": 859,
+    "material": "concreto com mucilagem de Opuntia ficus-indica (Ofim) como bio-aditivo — comparativo nivelado (APCR) Control (referencia, sem Ofim)",
+    "fck_mpa": 28,
+    "co2_kg_m3": 331.36,
+    "co2_original": "331.36 kg CO2 eq/m3",
+    "co2_original_local": "Tabela 11 (p.6), linha 'Climate change - GWP100'"
+   },
+   {
+    "sheet_row": 860,
+    "material": "concreto com mucilagem de Opuntia ficus-indica (Ofim) como bio-aditivo — comparativo nivelado (APCR) Ofim-15/10 (15% Ofim + 10% reducao de cimento)",
+    "fck_mpa": 29.1,
+    "co2_kg_m3": 298.844006,
+    "co2_original": "298.844006 kg CO2 eq/m3",
+    "co2_original_local": "Tabela 11 (p.6), linha 'Climate change - GWP100'"
+   }
+  ]
+ }
+]

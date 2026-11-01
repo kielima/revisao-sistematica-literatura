@@ -1,0 +1,138 @@
+[
+ {
+  "row_id": 4696,
+  "pares": [
+   {
+    "sheet_row": 1691,
+    "co2_a1": 106,
+    "co2_a2": 80,
+    "co2_a3": 21.6,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.14, Fig.8b (GWP por processo, GPM); texto p.15",
+    "citacao": "The scope was to study the four processes of cradle-to-gate ... extraction of source materials ... transportation ... production (mixing and curing)",
+    "nota": "Fig.8b sem rotulos numericos; valores lidos por pixel (eixo 0-700 com gridlines, +-5 kg): extraction of source material ~106, transportation ~80, production ~21.6; soma ~207.8 vs 204 gravado (1.9%). Mapeamento: extraction->A1, transportation->A2, production (mistura e cura a 80C) ->A3. O texto diz que o transporte e 'to the site where it was going to be used' mas o ambito e cradle-to-gate, por isso assumido A2 (ambiguidade; se fosse transporte ao local de uso seria A4). A4 nao publicado. A cura em estufa esta em A3. 204 gravado tambem lido por pixel da Fig.8a."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Argamassa, nao betao; UF 1 m3. Unico par: GPM M25 otimo."
+ },
+ {
+  "row_id": 4408,
+  "pares": [
+   {
+    "sheet_row": 1331,
+    "co2_a1": 497.71,
+    "co2_a2": 0,
+    "co2_a3": 0.78,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.15, Fig.8 (rotulos numericos por componente); p.11, Sec.6 (fronteira)",
+    "citacao": "The system boundaries ... 'cradle to gate' ... emissions from transportation were not considered in this research.",
+    "nota": "A1 = soma dos componentes materiais da Fig.8 (cimento 436.44 + agregado grosso 12.27 + fino 38.90 + agua 0.14 + CBWP 0 + superplastificante 9.96) = 497.71; o artigo diz que o ambito inclui extraccao, producao de materiais e preparacao (moagem do CBWP). A3 = componente 'Mixing' 0.78 (publicado). A2 = 0 e A4 = 0: transporte 'not considered' e fronteira cradle-to-gate (excluidas). A1+A3 = 498.49 vs total gravado 498.5 (Fig.7). Mapeamento Mixing->A3 e materiais->A1 e nosso, com base na descricao do ambito."
+   },
+   {
+    "sheet_row": 1332,
+    "co2_a1": 443.9,
+    "co2_a2": 0,
+    "co2_a3": 0.78,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.15, Fig.8 (rotulos numericos por componente); p.11, Sec.6 (fronteira)",
+    "citacao": "The system boundaries ... 'cradle to gate' ... emissions from transportation were not considered in this research.",
+    "nota": "A1 = soma dos componentes materiais da Fig.8 (cimento 381.89 + agregado grosso 12.27 + fino 38.90 + agua 0.14 + CBWP 0.74 + superplastificante 9.96) = 443.9; o artigo diz que o ambito inclui extraccao, producao de materiais e preparacao (moagem do CBWP). A3 = componente 'Mixing' 0.78 (publicado). A2 = 0 e A4 = 0: transporte 'not considered' e fronteira cradle-to-gate (excluidas). A1+A3 = 444.68 vs total gravado 444.68 (Fig.7). Mapeamento Mixing->A3 e materiais->A1 e nosso, com base na descricao do ambito."
+   },
+   {
+    "sheet_row": 1333,
+    "co2_a1": 390.08,
+    "co2_a2": 0,
+    "co2_a3": 0.78,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.15, Fig.8 (rotulos numericos por componente); p.11, Sec.6 (fronteira)",
+    "citacao": "The system boundaries ... 'cradle to gate' ... emissions from transportation were not considered in this research.",
+    "nota": "A1 = soma dos componentes materiais da Fig.8 (cimento 327.33 + agregado grosso 12.27 + fino 38.90 + agua 0.14 + CBWP 1.48 + superplastificante 9.96) = 390.08; o artigo diz que o ambito inclui extraccao, producao de materiais e preparacao (moagem do CBWP). A3 = componente 'Mixing' 0.78 (publicado). A2 = 0 e A4 = 0: transporte 'not considered' e fronteira cradle-to-gate (excluidas). A1+A3 = 390.86 vs total gravado 390.87 (Fig.7). Mapeamento Mixing->A3 e materiais->A1 e nosso, com base na descricao do ambito."
+   },
+   {
+    "sheet_row": 1334,
+    "co2_a1": 336.27,
+    "co2_a2": 0,
+    "co2_a3": 0.78,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.15, Fig.8 (rotulos numericos por componente); p.11, Sec.6 (fronteira)",
+    "citacao": "The system boundaries ... 'cradle to gate' ... emissions from transportation were not considered in this research.",
+    "nota": "A1 = soma dos componentes materiais da Fig.8 (cimento 272.78 + agregado grosso 12.27 + fino 38.90 + agua 0.14 + CBWP 2.22 + superplastificante 9.96) = 336.27; o artigo diz que o ambito inclui extraccao, producao de materiais e preparacao (moagem do CBWP). A3 = componente 'Mixing' 0.78 (publicado). A2 = 0 e A4 = 0: transporte 'not considered' e fronteira cradle-to-gate (excluidas). A1+A3 = 337.05 vs total gravado 337.05 (Fig.7). Mapeamento Mixing->A3 e materiais->A1 e nosso, com base na descricao do ambito."
+   },
+   {
+    "sheet_row": 1335,
+    "co2_a1": 282.45,
+    "co2_a2": 0,
+    "co2_a3": 0.78,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.15, Fig.8 (rotulos numericos por componente); p.11, Sec.6 (fronteira)",
+    "citacao": "The system boundaries ... 'cradle to gate' ... emissions from transportation were not considered in this research.",
+    "nota": "A1 = soma dos componentes materiais da Fig.8 (cimento 218.22 + agregado grosso 12.27 + fino 38.90 + agua 0.14 + CBWP 2.96 + superplastificante 9.96) = 282.45; o artigo diz que o ambito inclui extraccao, producao de materiais e preparacao (moagem do CBWP). A3 = componente 'Mixing' 0.78 (publicado). A2 = 0 e A4 = 0: transporte 'not considered' e fronteira cradle-to-gate (excluidas). A1+A3 = 283.23 vs total gravado 283.23 (Fig.7). Mapeamento Mixing->A3 e materiais->A1 e nosso, com base na descricao do ambito."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Dados por componente na Fig.8 com rotulos numericos; as 5 misturas somam o total da Fig.7 (<0.01%). Mix design e fck vindos de refs. [53]/[51] (nao verificado aqui)."
+ },
+ {
+  "row_id": 3245,
+  "pares": [
+   {
+    "sheet_row": 941,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.5 Sec.3.1; p.6 Sec.4.1, Fig.5 (a-c)",
+    "citacao": "For the REOS, it was assumed that the energy input was negligible due to the simplicity of the production process.",
+    "nota": "No texto so ha o total (824 kg/m3 REOS; 862 silica sand), dito cradle-to-gate do agregado. Fig.5a/b (fluxogramas do indicador de clima por processo) pode ter valores por material, mas o PDF (13 MB) excede o limite de 10 MB do Drive e as figuras NAO foram vistas; so o texto foi lido. Mesmo que haja valores, seriam por material/processo, nao por etapa EN 15804, e a fronteira nao e declarada em modulos. Valor gravado 824 localizado no texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Figuras nao vistas (ficheiro >10 MB). Reler Fig.5 se se quiser confirmar que nao ha etapas."
+ },
+ {
+  "row_id": 4350,
+  "pares": [
+   {
+    "sheet_row": 2065,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11 Sec.3 (fronteira); p.12 Sec.4.2",
+    "citacao": "all life cycle phases (materials production and transport, concrete manufacturing, deconstruction, and landfilling ...) cradle-to-grave",
+    "nota": "Artigo so imprime o total Climate Change por elemento de fundacao (705 kg CO2 eq para II C100F RA2); resultados por categoria so na Tabela Suplementar S1 (nao no PDF) e nao ha divisao por modulos. Fronteira cradle-to-grave (inclui demolicao/aterro), distancia de transporte 50 km. Gravado 287 kg/m3 = 705 ao volume do elemento (conversao nao reverificada aqui; volume nao localizado no texto lido). Tabela S1 pode ter mais detalhe."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Nao vi figuras (sem rotulos relevantes por etapa; resultados LCA so em tabela suplementar)."
+ }
+]

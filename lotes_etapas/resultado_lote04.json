@@ -1,0 +1,238 @@
+[
+ {
+  "row_id": 2744,
+  "pares": [
+   {
+    "sheet_row": 697,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 270.88,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10 (p.64 impressa), Tab.7, coluna 'A1-A3 GWP'",
+    "citacao": "",
+    "nota": "Factor One Click LCA Ready-mix concrete C30/37 por m3, rotulado so como A1-A3 agregado. A4 do betao nao e publicado por m3 (A4 so aparece ao nivel do edificio, Fig.7/8 em kg CO2/m2 de area bruta de piso, por sistema estrutural, nao por classe de betao). Soma n/a: so ha um agregado."
+   },
+   {
+    "sheet_row": 698,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 355.83,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10, Tab.7",
+    "citacao": "",
+    "nota": "Idem; C40/50, factor A1-A3 One Click LCA."
+   },
+   {
+    "sheet_row": 699,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 429.0,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.10, Tab.7",
+    "citacao": "",
+    "nota": "Idem; C50/60, factor A1-A3 One Click LCA."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Artigo cita explicitamente A1-A3 (A1 extraccao, A2 transporte materias-primas, A3 fabrico) e A4 como transporte ao local (cenarios One Click LCA), mas so publica o factor do betao como A1-A3 agregado. Figs.7-10 vistas: GWP por m2 de GFA e por parte estrutural, sem separar betao por m3. Nao ha A1, A2, A3 separados nem A4 por m3 de betao."
+ },
+ {
+  "row_id": 2745,
+  "pares": [
+   {
+    "sheet_row": 178,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.18 Tab.A2; p.8 Fig.3; Sec.2.1/2.2 pp.4-7",
+    "citacao": "",
+    "nota": "Escopo cradle-to-gate A1-A3 + modulo D (Sec.2.1, 'A1 raw material acquisition, A2 transportation, A3 processing'), mas os resultados vem por material/actividade, nao por etapa: betao Sand 0,241+Gravel 0,805+Filler 0,023+Cement 27,288+SP 0,713+Water 0,005 = 29,075; Concrete dosage plant 0,473 (A3 provavel mas nao rotulado); 'Transportation' unico 1,648 kg CO2/m de viga, para todos os materiais incl. aco (transporte 100 km fixo), sem separar o do betao. Pela regra 2 nao se atribui a A1/A2/A3. Valores em kg CO2-eq por m de viga; o par (351,76/m3) = 29,548/0,084 m3/m, derivado do total do betao."
+   },
+   {
+    "sheet_row": 179,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19 Tab.A3",
+    "citacao": "",
+    "nota": "Idem Tab.A2: por material. Betao DRB: Sand 0,241+Gravel 0,308+RCA 0,552+Filler 0,023+Cement 27,288+SP 0,713+Water 0,006 = 29,131; dosage plant 0,473; transporte unico 1,640 (+ 'Transportation natural aggregates' 0,436 e 'Transportation to landfill' 0,436 e 'Natural aggregates extraction' 0,446 no cenario de reuso). Nao atribuivel a etapas EN 15804 explicitamente."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.3 (contribuicao % por categoria) vista: segmenta por material/processo, nao por A1/A2/A3. Valor gravado confere com Tab.A2/A3 (351,76 e 352,43 = betao por m3). Sem A4 (cradle-to-gate)."
+ },
+ {
+  "row_id": 2747,
+  "pares": [
+   {
+    "sheet_row": 180,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7 Tab.8 (mistura B, 635 total) e Tab.9; Fig.5-6 p.6; Sec.3 fronteira",
+    "citacao": "",
+    "nota": "Valor 807 kg CO2-eq e por m3 de LIGANTE OPC 32.5 (1215,7 kg/m3, inventario Wei et al. 2010, Tab.6), nao por m3 de betao; FU = 1 m3 de ligante. O artigo separa so por entrada (electricidade, Ca(OH)2, diesel, NaOH, agua) e apenas para o geopolimero (mistura B); para o OPC so ha o total 807. Sem etapas A1-A4 rotuladas; fronteira cradle-to-gate com 'distribuicao' incluida; transporte do CDW e dos activadores incluido dentro do diesel (0,271 kg CO2) sem rotulo A2/A4 (ambiguo, regra 8). valor_gravado_ok: 807 = Tab.9."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.5 (pizza GWP: electricidade 65%, Ca(OH)2 19%, NaOH 16%) e Fig.6 vistas: por entrada, nao por etapa; so para o geopolimero B. Nada para o OPC."
+ },
+ {
+  "row_id": 2751,
+  "pares": [
+   {
+    "sheet_row": 1884,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 702.9,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.9 Tab.3, Global warming col.1; Sec.2.3 p.6",
+    "citacao": "construction materials (product stage for raw material supply, transport to the manufacturer, and manufacturing)",
+    "nota": "Fronteira = so estagio de produto (A1-A3, nao rotulado como tal; 'cradle-to-gate' p.7). 4,58e4 kg CO2 / 65,160 m3 betao = 702,9 (derivado, ja era a conta do co2_kg_m3). Inclui o aco de armadura (7,2 t), logo e betao armado, nao so betao. Sem A1/A2/A3 separados nem A4."
+   },
+   {
+    "sheet_row": 1885,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 493.3,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.9 Tab.3, col.2",
+    "citacao": "",
+    "nota": "1,73e3 / 3,507 m3 = 493,3; betao armado, A1-A3 agregado."
+   },
+   {
+    "sheet_row": 1886,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 379.4,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.9 Tab.3, col.3",
+    "citacao": "",
+    "nota": "1,20e3 / 3,163 m3 = 379,4; betao armado, A1-A3 agregado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.7 (arvore de dano SimaPro por elemento) e Figs.8-9 (por m2) vistas: por elemento da ponte, nao por etapa."
+ },
+ {
+  "row_id": 2757,
+  "pares": [
+   {
+    "sheet_row": 192,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 574.033,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.8 Tab.4; p.5 Sec.3.1 (fronteira) e Fig.2",
+    "citacao": "The system boundary does not include transportation.",
+    "nota": "Fronteira: extraccao e processamento de materias-primas ate a producao de cimento, areia, agua e electricidade; transporte EXCLUIDO -> A2=0 e A4=0 ('excluida'). O valor total e A1+A3 agregado (nao separados; Fig.5 mostra so contribuicao % por processo: cimento, areia, electricidade...). Argamassa, nao betao. Etiquetas A1/A3 nao usadas pelo artigo; mapeamento por nos."
+   },
+   {
+    "sheet_row": 199,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 209,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.17 Sec.4.4 (texto, extremo A7)",
+    "citacao": "",
+    "nota": "Transporte excluido (Sec.3.1). Valor de texto 209 (Fig.12 sem rotulos por barra); total, sem etapas."
+   },
+   {
+    "sheet_row": 200,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 573.209,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.8 Tab.4, coluna B0",
+    "citacao": "",
+    "nota": "Idem; transporte excluido."
+   },
+   {
+    "sheet_row": 207,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 207,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.17 Sec.4.4 (texto, extremo B7)",
+    "citacao": "",
+    "nota": "Idem; transporte excluido."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "PDF de 13 MB: Drive recusa o download (>10 MB); so leitura de texto. Figs.5-6 (contribuicao por processo, A0/B0) e Fig.12 nao vistas; recorte pp.9-10 e 17 recomendado. Improvavel que mudem o resultado (contribuicao % por processo, nao por etapa)."
+ },
+ {
+  "row_id": 2771,
+  "pares": [
+   {
+    "sheet_row": 222,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7 Fig.8 (fronteira); p.15 Fig.13; Sec.2.4",
+    "citacao": "",
+    "nota": "Valor 43.700 kg CO2-eq e total da alternativa 11 (fundacao inteira, estacas+vigas+aco), 100-year GWP lido da Fig.13 (ponto sem rotulo numerico; 672 kg/m3 = 43.700/65 m3, derivado). O artigo usa 4 fases proprias (raw material extraction, production, earthworks, construction), com transportes dentro de cada fase; nao as etapas EN 15804 e nao da GWP por fase. A4 (betao ate obra) nao separavel; terra/escavacao incluida. Nada atribuivel a A1-A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Figs.8, 10, 13 vistas. Fig.8 so lista elementos por fase; Fig.10 e relativa; Fig.13 e dispersao GWP x custo. Fronteira A1-A5 no ficheiro lote nao se aplica literalmente (excluidos uso e fim de vida; inclui construccao)."
+ }
+]

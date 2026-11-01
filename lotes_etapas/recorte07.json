@@ -1,0 +1,172 @@
+[
+ {
+  "row_id": 4516,
+  "autor": "Lv, Tong and Zhang, Jinrui and Zhao, Maoxi and Yang, Jiapeng and Hou, Dongshuai ",
+  "titulo": "Utilization of Sintered Sludge Ash with Different Mechanical–Thermal Activation Parameters as a Supplementary Cementitious Material: Mechanical Properties and Life Cycle Assessment of Cement-Based Pas",
+  "pdf": "LV et al., 2024.pdf",
+  "fileId": "1-aQjUCysRD3D8bVUyU-_pPULm7ZRfsFa",
+  "resultado_anterior": "lotes_etapas/resultado_lote29.json",
+  "nota_anterior": "Figuras nao renderizadas; Fig.8b (composicao por processo) nao mapeia para EN 15804, por isso o resultado deve manter-se nao_publicado mesmo apos recorte.",
+  "pares": [
+   {
+    "sheet_row": 1486,
+    "material": "Pasta cimento com 30% SSA calcinada a 800C/2h moida 1min (P-800/2/1) - otimo",
+    "fck_mpa": 57.92,
+    "co2_kg_m3": 1303.7,
+    "co2_original": "~1303.7 kg CO2 eq por 1 m3 de pasta SSC (leitura grafica)",
+    "co2_original_local": "Fig.8a p.11 (barra P-800/2/1; UF = 1 m3 de pasta, p.5)"
+   },
+   {
+    "sheet_row": 2089,
+    "material": "Pasta SSC 30% SSA 800C/2h, moagem 10 min (P-800/2/10) - optimo TOPSIS/radar",
+    "fck_mpa": 60.15,
+    "co2_kg_m3": 1303.7,
+    "co2_original": "~1303.7 kg CO2 eq por 1 m3 de pasta SSC (leitura grafica)",
+    "co2_original_local": "Fig.8a p.11 (barra P-800/2/10; UF = 1 m3 de pasta, p.5)"
+   },
+   {
+    "sheet_row": 2090,
+    "material": "Pasta de referencia P-20/0/1 (lama seca ao ar, 30%)",
+    "fck_mpa": 42.15,
+    "co2_kg_m3": 1246.9,
+    "co2_original": "~1246.9 kg CO2 eq por 1 m3 de pasta SSC (leitura grafica)",
+    "co2_original_local": "Fig.8a p.11 (barra P-20/0/1; UF = 1 m3 de pasta, p.5)"
+   }
+  ]
+ },
+ {
+  "row_id": 4549,
+  "autor": "Sambucci, Matteo and Biblioteca, Ilario and Valente, Marco",
+  "titulo": "Life Cycle Assessment (LCA) of 3D Concrete Printing and Casting\nProcesses for Cementitious Materials Incorporating Ground Waste Tire\nRubber",
+  "pdf": "SAMBUCCI et al., 2023.pdf",
+  "fileId": "1LpO5OxAzfLvc5Cj1B_r01aMQXGgu6Sgr",
+  "resultado_anterior": "lotes_etapas/resultado_lote29.json",
+  "nota_anterior": "Fig.2a nao renderizada; convem rever se a figura rotula contribuicoes em kg por processo (A3 impressao?).",
+  "pares": [
+   {
+    "sheet_row": 1504,
+    "material": "Argamassa cimenticia 3D-impressa (p-CTR, controle, sem borracha) - impressao 3D",
+    "fck_mpa": 53.6,
+    "co2_kg_m3": 742.69,
+    "co2_original": "742.69 kg CO2-eq/m3",
+    "co2_original_local": "Figura 2a (p.7, GWP results p-CTR) - rotulo 'Total 742.69' impresso na barra, confirmado por renderizacao visual em auditoria de 2026-08-28 e reconfirmado em 2026-09-06 (nao re-renderizado nesta sessao); FU=1m3 declarado no texto (secao 3.2)."
+   }
+  ]
+ },
+ {
+  "row_id": 4849,
+  "autor": "Haigh, Robert",
+  "titulo": "A Life Cycle Assessment of HDPE Plastic Milk Bottle Waste Within Concrete Composites and Their Potential in Residential Building and Construction Applications",
+  "pdf": "HAIGH, 2025.pdf",
+  "fileId": "1kj0S5EKjRvP0CMQ-b-LMJ648TBnIksMq",
+  "resultado_anterior": "lotes_etapas/resultado_lote33.json",
+  "nota_anterior": "Figs.9 e 11 (barras material/transporte MC) nao vistas; mesmo vistas seriam simulacao, nao o valor da Tab.6.",
+  "pares": [
+   {
+    "sheet_row": 1821,
+    "material": "concreto com substituicao parcial de cimento por HDPE reciclado (garrafas de leite) - traco Controle (0% HDPE)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 345,
+    "co2_original": "345 kg CO2-eq/m3 (GWP100, cradle-to-gate)",
+    "co2_original_local": "Tabela 6 (LCA results), p.10-11, linha GWP100, coluna Control: 3.45E+02"
+   },
+   {
+    "sheet_row": 1822,
+    "material": "concreto com HDPE reciclado + silica fume - traco SFPMB (10% cimento substituido, +2% silica fume sobre o residuo)",
+    "fck_mpa": 29,
+    "co2_kg_m3": 315,
+    "co2_original": "315 kg CO2-eq/m3 (GWP100, cradle-to-gate)",
+    "co2_original_local": "Tabela 6, p.10-11, linha GWP100, coluna SFPMB: 3.15E+02 (identico ao PMB - mesma massa de cimento retirada, so muda a modificacao superficial da fibra)"
+   },
+   {
+    "sheet_row": 1823,
+    "material": "concreto com HDPE reciclado + silica fume + metacaulim - traco SFMKPMB (10% cimento substituido por HDPE+SF, +5% metacaulim)",
+    "fck_mpa": 32,
+    "co2_kg_m3": 304,
+    "co2_original": "304 kg CO2-eq/m3 (GWP100, cradle-to-gate)",
+    "co2_original_local": "Tabela 6, p.10-11, linha GWP100, coluna SFMKPMB: 3.04E+02"
+   }
+  ]
+ },
+ {
+  "row_id": 4989,
+  "autor": "De Schepper, Mieke and Van den Heede, Philip and Van Driessche, Isabel and De Be",
+  "titulo": "Life Cycle Assessment of Completely Recyclable Concrete",
+  "pdf": "DESCHEPPER et al., 2014.pdf",
+  "fileId": "1p0DxjKN-_MNse7pf0AuG51NCWzMYZHOR",
+  "resultado_anterior": "lotes_etapas/resultado_lote33.json",
+  "nota_anterior": "Texto completo lido; A4 existe no modelo (50 km) mas Fig.3 nao vista - reler com recorte p.6020 para ver se ha segmento de transporte legivel.",
+  "pares": [
+   {
+    "sheet_row": 23,
+    "material": "Concreto completamente reciclavel (CRC1) - agregados calcario",
+    "fck_mpa": 65.1,
+    "co2_kg_m3": 316,
+    "co2_original": "316 kg CO2-eq/m3",
+    "co2_original_local": "Figura 3 \"Life Cycle impact Assessment of 1 m3 concrete\" (De Schepper et al. 2014, p.6020), subplot GWP100, barra CRC1 - leitura visual contra linhas de grade"
+   },
+   {
+    "sheet_row": 24,
+    "material": "Concreto completamente reciclavel (CRC2)",
+    "fck_mpa": 84.2,
+    "co2_kg_m3": 212,
+    "co2_original": "212 kg CO2-eq/m3",
+    "co2_original_local": "mesma Figura 3, barra CRC2 - leitura visual"
+   },
+   {
+    "sheet_row": 25,
+    "material": "Concreto tradicional referencia T(0.50) (a/c=0.50)",
+    "fck_mpa": 57.8,
+    "co2_kg_m3": 306,
+    "co2_original": "306 kg CO2-eq/m3",
+    "co2_original_local": "mesma Figura 3, barra T(0.50) - leitura visual"
+   },
+   {
+    "sheet_row": 26,
+    "material": "Concreto tradicional referencia T(0.45) (a/c=0.45)",
+    "fck_mpa": 69.3,
+    "co2_kg_m3": 322,
+    "co2_original": "322 kg CO2-eq/m3",
+    "co2_original_local": "mesma Figura 3, barra T(0.45) - leitura visual"
+   }
+  ]
+ },
+ {
+  "row_id": 5012,
+  "autor": "Figueiredo, Camilla Furtado de",
+  "titulo": "Aplicação da avaliação do ciclo de vida como critério de seleção para materiais utilizados em construções sustentáveis",
+  "pdf": "FIGUEIREDO, 2017.pdf",
+  "fileId": "1DtDEav4rO9NJQhWbdUl-H-Mj5qg1ENPd",
+  "resultado_anterior": "lotes_etapas/resultado_lote34.json",
+  "nota_anterior": "Dissertacao UFPB (14,9 MB) lida via read_file_content (257k chars); tabelas em texto, figuras nao vistas.",
+  "pares": [
+   {
+    "sheet_row": 32,
+    "material": "Concreto base cimento Portland vs concreto AAM (material ativado alcalinamente)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 286.37,
+    "co2_original": "286.37 kg CO2-eq/m3 (concreto tradicional CPII-Z, cradle-to-gate)",
+    "co2_original_local": "Tabela 2, p.115: Total kg CO2-eq/m3 = 286,37 (Tradicional) / 217,11 (Geopolimerico, nao usado aqui)"
+   }
+  ]
+ },
+ {
+  "row_id": 5018,
+  "autor": "Rezende, Marilia de Oliveira",
+  "titulo": "Um modelo lean \\& green para a ecoeficiência em processos produtivos da construção civil",
+  "pdf": "REZENDE, 2019.pdf",
+  "fileId": "1h4ylxuMkqAy1hD9fylHgrvv28ejxmuj9",
+  "resultado_anterior": "lotes_etapas/resultado_lote34.json",
+  "nota_anterior": "Dissertacao UFSCar; read_file_content truncou no cap.3; lido por download+pdftotext integral. Fig.17 sem rotulos numericos legiveis em texto.",
+  "pares": [
+   {
+    "sheet_row": 43,
+    "material": "Estrutura de concreto armado (ECA) vs light steel framing (ELSF)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 214.9,
+    "co2_original": "40,1% x 48.485,13 kg CO2-eq (betao 25 MPa, texto p.96)",
+    "co2_original_local": "texto p.96 + total da estrutura"
+   }
+  ]
+ }
+]

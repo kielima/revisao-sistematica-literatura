@@ -1,0 +1,342 @@
+[
+ {
+  "row_id": 4516,
+  "pares": [
+   {
+    "sheet_row": 1486,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11, Fig.8 e Tab.8 (p.14)",
+    "citacao": "",
+    "nota": "Fronteira cradle-to-gate (CML-IA, SimaPro, Ecoinvent). A Fig.8 divide o GWP por processo (producao e transporte do cimento / transporte da lama / moagem / calcinacao), nao por etapas EN 15804; 'producao e transporte do cimento' vem junto, logo nao se separa A1/A2. Tab.8 (P-800/2/10) so da valores normalizados (total 2.60E-10; cimento 2.39E-10; transporte lama 8.70E-12; moagem 1.34E-13; calcinacao 1.22E-11), nao em kg CO2-eq. Texto: SSA = 8,1% do GWP de P-800/2/10 (cimento ate 91,9%). Sem rotulos numericos em kg; nao atribuido a A1-A4."
+   },
+   {
+    "sheet_row": 2089,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11, Fig.8 e Tab.8 (p.14)",
+    "citacao": "",
+    "nota": "Fronteira cradle-to-gate (CML-IA, SimaPro, Ecoinvent). A Fig.8 divide o GWP por processo (producao e transporte do cimento / transporte da lama / moagem / calcinacao), nao por etapas EN 15804; 'producao e transporte do cimento' vem junto, logo nao se separa A1/A2. Tab.8 (P-800/2/10) so da valores normalizados (total 2.60E-10; cimento 2.39E-10; transporte lama 8.70E-12; moagem 1.34E-13; calcinacao 1.22E-11), nao em kg CO2-eq. Texto: SSA = 8,1% do GWP de P-800/2/10 (cimento ate 91,9%). Sem rotulos numericos em kg; nao atribuido a A1-A4."
+   },
+   {
+    "sheet_row": 2090,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11, Fig.8 e Tab.8 (p.14)",
+    "citacao": "",
+    "nota": "Fronteira cradle-to-gate (CML-IA, SimaPro, Ecoinvent). A Fig.8 divide o GWP por processo (producao e transporte do cimento / transporte da lama / moagem / calcinacao), nao por etapas EN 15804; 'producao e transporte do cimento' vem junto, logo nao se separa A1/A2. Tab.8 (P-800/2/10) so da valores normalizados (total 2.60E-10; cimento 2.39E-10; transporte lama 8.70E-12; moagem 1.34E-13; calcinacao 1.22E-11), nao em kg CO2-eq. Texto: SSA = 8,1% do GWP de P-800/2/10 (cimento ate 91,9%). Sem rotulos numericos em kg; nao atribuido a A1-A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Figuras nao renderizadas; Fig.8b (composicao por processo) nao mapeia para EN 15804, por isso o resultado deve manter-se nao_publicado mesmo apos recorte."
+ },
+ {
+  "row_id": 4518,
+  "pares": [
+   {
+    "sheet_row": 1487,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 475.78,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.19-20, Tab.17/18 e Sec.4.1.1",
+    "citacao": "system boundaries were established from cradle to gate, that is, at the product stage ... transport distances were not considered",
+    "nota": "Total GWP do estagio de produto (A1-A3 agregado, nao separado por etapa). A2 = 0 porque o artigo diz que as distancias de transporte nao foram consideradas (materiais disponiveis no local de fabrico). A4 nao publicado (cradle-to-gate). Inclui creditos de producao evitada de cimento/agregados na fronteira (Sec.4.1.1) - valor gravado e o do artigo."
+   },
+   {
+    "sheet_row": 1488,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 358.91,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.19-20, Tab.17/18 e Sec.4.1.1",
+    "citacao": "system boundaries were established from cradle to gate, that is, at the product stage ... transport distances were not considered",
+    "nota": "Total GWP do estagio de produto (A1-A3 agregado, nao separado por etapa). A2 = 0 porque o artigo diz que as distancias de transporte nao foram consideradas (materiais disponiveis no local de fabrico). A4 nao publicado (cradle-to-gate). Inclui creditos de producao evitada de cimento/agregados na fronteira (Sec.4.1.1) - valor gravado e o do artigo."
+   },
+   {
+    "sheet_row": 1489,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 360.21,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.19-20, Tab.17/18 e Sec.4.1.1",
+    "citacao": "system boundaries were established from cradle to gate, that is, at the product stage ... transport distances were not considered",
+    "nota": "Total GWP do estagio de produto (A1-A3 agregado, nao separado por etapa). A2 = 0 porque o artigo diz que as distancias de transporte nao foram consideradas (materiais disponiveis no local de fabrico). A4 nao publicado (cradle-to-gate). Inclui creditos de producao evitada de cimento/agregados na fronteira (Sec.4.1.1) - valor gravado e o do artigo."
+   },
+   {
+    "sheet_row": 1490,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 258.89,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.19-20, Tab.17/18 e Sec.4.1.1",
+    "citacao": "system boundaries were established from cradle to gate, that is, at the product stage ... transport distances were not considered",
+    "nota": "Total GWP do estagio de produto (A1-A3 agregado, nao separado por etapa). A2 = 0 porque o artigo diz que as distancias de transporte nao foram consideradas (materiais disponiveis no local de fabrico). A4 nao publicado (cradle-to-gate). Inclui creditos de producao evitada de cimento/agregados na fronteira (Sec.4.1.1) - valor gravado e o do artigo."
+   },
+   {
+    "sheet_row": 1491,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 229.43,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.19-20, Tab.17/18 e Sec.4.1.1",
+    "citacao": "system boundaries were established from cradle to gate, that is, at the product stage ... transport distances were not considered",
+    "nota": "Total GWP do estagio de produto (A1-A3 agregado, nao separado por etapa). A2 = 0 porque o artigo diz que as distancias de transporte nao foram consideradas (materiais disponiveis no local de fabrico). A4 nao publicado (cradle-to-gate). Inclui creditos de producao evitada de cimento/agregados na fronteira (Sec.4.1.1) - valor gravado e o do artigo."
+   },
+   {
+    "sheet_row": 1492,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 233.71,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.19-20, Tab.17/18 e Sec.4.1.1",
+    "citacao": "system boundaries were established from cradle to gate, that is, at the product stage ... transport distances were not considered",
+    "nota": "Total GWP do estagio de produto (A1-A3 agregado, nao separado por etapa). A2 = 0 porque o artigo diz que as distancias de transporte nao foram consideradas (materiais disponiveis no local de fabrico). A4 nao publicado (cradle-to-gate). Inclui creditos de producao evitada de cimento/agregados na fronteira (Sec.4.1.1) - valor gravado e o do artigo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Tab.16-18 dao so caracterizacao total por mistura; sem desagregacao A1/A3."
+ },
+ {
+  "row_id": 4549,
+  "pares": [
+   {
+    "sheet_row": 1504,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.6-7, Sec.2.2.1 e Fig.2a",
+    "citacao": "",
+    "nota": "Fig.2a: GWP total com rotulo 742.69 (nao reconferido nesta leitura); o texto diz que o ligante (cimento Portland) contribui ~90%, aditivos 0,7%, e que a linha de impressao 3D (CAD, bombeamento, braco robotico) vale 43.33 kg CO2-eq (molde plastico do c-CTR: 47.91). Decomposicao por ingrediente/processo, nao por etapas EN 15804, e em kg por FU sem mapeamento explicito para A1/A3; nao atribuido."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Fig.2a nao renderizada; convem rever se a figura rotula contribuicoes em kg por processo (A3 impressao?)."
+ },
+ {
+  "row_id": 4557,
+  "pares": [
+   {
+    "sheet_row": 1506,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   },
+   {
+    "sheet_row": 1507,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   },
+   {
+    "sheet_row": 1508,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   },
+   {
+    "sheet_row": 1509,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   },
+   {
+    "sheet_row": 1510,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   },
+   {
+    "sheet_row": 1511,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   },
+   {
+    "sheet_row": 1512,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   },
+   {
+    "sheet_row": 1513,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   },
+   {
+    "sheet_row": 1514,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   },
+   {
+    "sheet_row": 1515,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.19, Tab.10",
+    "citacao": "",
+    "nota": "Tab.10 decompoe o CO2e por m3 em cimento, po de calcario, agua, brita, areia, 'Transportation' (13.4, igual em todas) e 'Production' (17.7, igual). O artigo nao diz se 'Transportation' e transporte de materias-primas (A2) ou do betao a obra (A4), nem que 'Production' e o fabrico do betao (A3); nao atribuido a A1-A4 (regras 2, 7, 8). Soma dos materiais (cimento+calcario+agua+brita+areia) seria A1 so se a fronteira fosse declarada; nao e. Total gravado = Total CO2e kg da Tab.10."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fronteira nao declarada em termos EN 15804; Tab.10 inequivoca nos totais."
+ },
+ {
+  "row_id": 4560,
+  "pares": [
+   {
+    "sheet_row": 2071,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.8-10, Sec.2 'Manufacturing' e Tab.3",
+    "citacao": "The manufacturing phase includes the upstream processes of the products used in the bridge and the associated transport, from the acquisition of raw materials to materials that are ready to be used",
+    "nota": "Valor impresso: Manufacturing GWP = 1838.55 kg CO2 eq (Tab.3, media Monte Carlo, por unidade funcional da ponte, Tab.2 em m2 de tablier), inclui vigas pre-fabricadas, betao da laje e aco (armadura e pre-esforco) e o transporte dos materiais (pedreira-central 50 km, cimento 20 km) e central-obra 50 km do betao da laje. Unidade diferente do par (kg/m3) e com aco: nao convertido (regra 9); o 525.8 gravado nao foi localizado no artigo (valor_gravado_nao_localizado; conversao 1838.55/525.8=3.50 m2/m3? nao documentada). Fase Construction (267.85) mistura erecao, maquinaria e transporte das vigas (50 km) - nao e A4 isolado. A4 do betao da laje esta dentro de 'Manufacturing' e nao separado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fases do artigo (manufacturing/construction/use/EoL) nao coincidem com A1-A4."
+ },
+ {
+  "row_id": 4584,
+  "pares": [
+   {
+    "sheet_row": 1600,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 429,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "sim",
+    "local": "p.5, Tab.1; Sec.2.1 (E1/E2)",
+    "citacao": "GHG emissions ... from building materials before transporting them to the construction site (E1)",
+    "nota": "429 kg CO2-eq/m3 e o factor da base nacional coreana (KLCI) para betao pronto, correspondente a E1 (fabrico dos materiais, cradle-to-gate) = A1-A3 agregado; nao separado por etapas. E2 (transporte dos materiais ao estaleiro; betao: autobetoneira 25 km, Tab.2) so publicado em total do edificio para todos os materiais (Tab.5: ORC1 E1=243,280; E2 nao lido por m3 de betao), logo A4 em branco. E3 (equipamento em obra) = A5, excluido. Estudo secundario do factor: valor e factor generico citado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Totais E1-E3 por edificio incluem aco e cofragens; nao convertidos para m3 de betao."
+ }
+]

@@ -1,0 +1,238 @@
+[
+ {
+  "row_id": 3242,
+  "pares": [
+   {
+    "sheet_row": 940,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.8 Fig.5 e p.9 Fig.6 (recorte pp.8-9 visto 2026-11-01), Sec.4.4.3.2",
+    "citacao": "",
+    "nota": "Fig.5 (p.8) esta em 'Person equivalents (Per. EU)' normalizados (GWP ~8E-11 convencional, ~1.1E-10 BBSHC), SEM absolutos em kg CO2 eq: nao da o 453,3. Fig.6b (p.9, GWP x10^2 kg CO2 eq por componente: cimento ~3,3, resto <0,3) e por componente (cimento 71,9%, nitrato de calcio 7,3%, revestimento PVA 6,5%, PCSGs 4,6%, cimento adicional 7,8%), sem rotulos numericos e nao por etapa EN 15804; 'PCSGs transport' existe como barra minuscula sem valor (so dos PCSGs, nao do betao a obra). Nao atribuido a A1-A4. Texto: BBSHC +36,3% = +120 kg CO2 eq/m3 => convencional ~330,6 e BBSHC ~450,6 (derivado, nao gravado), perto mas nao igual ao gravado 453,3 (0,6%): valor_gravado_nao_localizado (provavelmente do SI ou da Fig.5b original)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.8-9 visto: Fig.5 normalizada e Fig.6 por componente sem rotulos; nenhuma etapa publicada."
+ },
+ {
+  "row_id": 3285,
+  "pares": [
+   {
+    "sheet_row": 338,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.8 Fig.3 e Fig.4; p.9 Fig.5 (recorte pp.7-9 visto 2026-11-01)",
+    "citacao": "",
+    "nota": "Fig.3 (p.8): barras empilhadas por sistema, sem rotulos (Structures Con ~1650 t, lido por pixel, e o valor gravado). Fig.4 (p.8): % do edificio inteiro 'Embodied (A1-A3)' vs 'Transportation (A4)' por cenario (Con ~94/6% em climate change, sem rotulos numericos), NAO por sistema Structures: nao permite separar o A4 das estruturas. Fig.5 (p.9) tem rotulos: Con 2666,3 t CO2 eq (edificio inteiro); A4 'Transportation' como DELTA em relacao a Con (OptCon +3,9; ConWood +10,3; Wood +95,6 t), nao valor absoluto e nao do sistema Structures. Ambiguidade A2/A4 (regra 8) mantida: o A4 do artigo inclui navio desde o pais de origem ate a Islandia. Nada atribuido a etapas do par gravado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.7-9 visto: A4 so no edificio inteiro (Fig.4 sem rotulos; Fig.5 so deltas); par do sistema Structures sem etapas publicadas."
+ },
+ {
+  "row_id": 3327,
+  "pares": [
+   {
+    "sheet_row": 961,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.12 Tab.3; p.13 Fig.14a e texto (vistos)",
+    "citacao": "",
+    "nota": "Recorte pp.11-14 visto 2026-11-01. Tab.3 (p.12) so da GWP100 total (A1-A3, Sec.2.5). Fig.14a (p.13): barras empilhadas por processo (cimento, areia, brita, agua, electricidade, 'Transport - RoW', central, outros) em escala 0-600 kg CO2-eq/m3, SEM rotulos numericos nos segmentos; os segmentos nao sao A1/A2/A3 EN 15804 (cimento = A1 mas 'Transport - RoW' sao mercados Ecoinvent produtor-consumidor: ambiguidade A2/A4, regra 8). Texto p.12-13: transporte (inclui FA e SF) = 4,55-5,51% do GWP100 nas misturas FA (18,54-20,33 kg/m3) e 4,67-5,95% nas SF (19,89-20,79), so como intervalo, sem atribuir valor a cada mistura nem ao controlo; outros processos (agregados, agua, electricidade, instalacoes) 4,25-5,44%. Nao atribuido por pixel (regra 3). "
+   },
+   {
+    "sheet_row": 962,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.12 Tab.3; p.13 Fig.14a e texto (vistos)",
+    "citacao": "",
+    "nota": "Recorte pp.11-14 visto 2026-11-01. Tab.3 (p.12) so da GWP100 total (A1-A3, Sec.2.5). Fig.14a (p.13): barras empilhadas por processo (cimento, areia, brita, agua, electricidade, 'Transport - RoW', central, outros) em escala 0-600 kg CO2-eq/m3, SEM rotulos numericos nos segmentos; os segmentos nao sao A1/A2/A3 EN 15804 (cimento = A1 mas 'Transport - RoW' sao mercados Ecoinvent produtor-consumidor: ambiguidade A2/A4, regra 8). Texto p.12-13: transporte (inclui FA e SF) = 4,55-5,51% do GWP100 nas misturas FA (18,54-20,33 kg/m3) e 4,67-5,95% nas SF (19,89-20,79), so como intervalo, sem atribuir valor a cada mistura nem ao controlo; outros processos (agregados, agua, electricidade, instalacoes) 4,25-5,44%. Nao atribuido por pixel (regra 3). "
+   },
+   {
+    "sheet_row": 963,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.12 Tab.3; p.13 Fig.14a e texto (vistos)",
+    "citacao": "",
+    "nota": "Recorte pp.11-14 visto 2026-11-01. Tab.3 (p.12) so da GWP100 total (A1-A3, Sec.2.5). Fig.14a (p.13): barras empilhadas por processo (cimento, areia, brita, agua, electricidade, 'Transport - RoW', central, outros) em escala 0-600 kg CO2-eq/m3, SEM rotulos numericos nos segmentos; os segmentos nao sao A1/A2/A3 EN 15804 (cimento = A1 mas 'Transport - RoW' sao mercados Ecoinvent produtor-consumidor: ambiguidade A2/A4, regra 8). Texto p.12-13: transporte (inclui FA e SF) = 4,55-5,51% do GWP100 nas misturas FA (18,54-20,33 kg/m3) e 4,67-5,95% nas SF (19,89-20,79), so como intervalo, sem atribuir valor a cada mistura nem ao controlo; outros processos (agregados, agua, electricidade, instalacoes) 4,25-5,44%. Nao atribuido por pixel (regra 3). "
+   },
+   {
+    "sheet_row": 964,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.12 Tab.3; p.13 Fig.14a e texto (vistos)",
+    "citacao": "",
+    "nota": "Recorte pp.11-14 visto 2026-11-01. Tab.3 (p.12) so da GWP100 total (A1-A3, Sec.2.5). Fig.14a (p.13): barras empilhadas por processo (cimento, areia, brita, agua, electricidade, 'Transport - RoW', central, outros) em escala 0-600 kg CO2-eq/m3, SEM rotulos numericos nos segmentos; os segmentos nao sao A1/A2/A3 EN 15804 (cimento = A1 mas 'Transport - RoW' sao mercados Ecoinvent produtor-consumidor: ambiguidade A2/A4, regra 8). Texto p.12-13: transporte (inclui FA e SF) = 4,55-5,51% do GWP100 nas misturas FA (18,54-20,33 kg/m3) e 4,67-5,95% nas SF (19,89-20,79), so como intervalo, sem atribuir valor a cada mistura nem ao controlo; outros processos (agregados, agua, electricidade, instalacoes) 4,25-5,44%. Nao atribuido por pixel (regra 3). "
+   },
+   {
+    "sheet_row": 965,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.12 Tab.3; p.13 Fig.14a e texto (vistos)",
+    "citacao": "",
+    "nota": "Recorte pp.11-14 visto 2026-11-01. Tab.3 (p.12) so da GWP100 total (A1-A3, Sec.2.5). Fig.14a (p.13): barras empilhadas por processo (cimento, areia, brita, agua, electricidade, 'Transport - RoW', central, outros) em escala 0-600 kg CO2-eq/m3, SEM rotulos numericos nos segmentos; os segmentos nao sao A1/A2/A3 EN 15804 (cimento = A1 mas 'Transport - RoW' sao mercados Ecoinvent produtor-consumidor: ambiguidade A2/A4, regra 8). Texto p.12-13: transporte (inclui FA e SF) = 4,55-5,51% do GWP100 nas misturas FA (18,54-20,33 kg/m3) e 4,67-5,95% nas SF (19,89-20,79), so como intervalo, sem atribuir valor a cada mistura nem ao controlo; outros processos (agregados, agua, electricidade, instalacoes) 4,25-5,44%. Nao atribuido por pixel (regra 3). "
+   },
+   {
+    "sheet_row": 966,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.12 Tab.3; p.13 Fig.14a e texto (vistos)",
+    "citacao": "",
+    "nota": "Recorte pp.11-14 visto 2026-11-01. Tab.3 (p.12) so da GWP100 total (A1-A3, Sec.2.5). Fig.14a (p.13): barras empilhadas por processo (cimento, areia, brita, agua, electricidade, 'Transport - RoW', central, outros) em escala 0-600 kg CO2-eq/m3, SEM rotulos numericos nos segmentos; os segmentos nao sao A1/A2/A3 EN 15804 (cimento = A1 mas 'Transport - RoW' sao mercados Ecoinvent produtor-consumidor: ambiguidade A2/A4, regra 8). Texto p.12-13: transporte (inclui FA e SF) = 4,55-5,51% do GWP100 nas misturas FA (18,54-20,33 kg/m3) e 4,67-5,95% nas SF (19,89-20,79), so como intervalo, sem atribuir valor a cada mistura nem ao controlo; outros processos (agregados, agua, electricidade, instalacoes) 4,25-5,44%. Nao atribuido por pixel (regra 3). "
+   },
+   {
+    "sheet_row": 967,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.12 Tab.3; p.13 Fig.14a e texto (vistos)",
+    "citacao": "",
+    "nota": "Recorte pp.11-14 visto 2026-11-01. Tab.3 (p.12) so da GWP100 total (A1-A3, Sec.2.5). Fig.14a (p.13): barras empilhadas por processo (cimento, areia, brita, agua, electricidade, 'Transport - RoW', central, outros) em escala 0-600 kg CO2-eq/m3, SEM rotulos numericos nos segmentos; os segmentos nao sao A1/A2/A3 EN 15804 (cimento = A1 mas 'Transport - RoW' sao mercados Ecoinvent produtor-consumidor: ambiguidade A2/A4, regra 8). Texto p.12-13: transporte (inclui FA e SF) = 4,55-5,51% do GWP100 nas misturas FA (18,54-20,33 kg/m3) e 4,67-5,95% nas SF (19,89-20,79), so como intervalo, sem atribuir valor a cada mistura nem ao controlo; outros processos (agregados, agua, electricidade, instalacoes) 4,25-5,44%. Nao atribuido por pixel (regra 3). "
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.11-14 visto: Tab.3 total A1-A3 e Fig.14a por processo sem rotulos; transporte so como intervalo; nenhuma etapa gravada."
+ },
+ {
+  "row_id": 3331,
+  "pares": [
+   {
+    "sheet_row": 968,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": 14,
+    "co2_a1a3_agregado": 254.4,
+    "etapas_tipo": "so_agregado+publicado",
+    "soma_confere": "sim",
+    "local": "p.12-13 Tab.5 (A1-A3 254.4; A4 14; A5 37.6) e Fig.10a p.13 (recorte vista)",
+    "citacao": "The transport phase (A4) contributed 14 kg CO2e/m3 ... for concrete",
+    "nota": "Fig.10a (p.13, pizza do carbono incorporado do betao): A(1-3) 83,09%, A4 4,57%, A5 12,34% — rotulos impressos. Confere com a Tab.5: 254,4+14+37,6 = 306,0; 14/306 = 4,58% e 254,4/306 = 83,1%. A1-A3 agregado 254,4 (= valor gravado, soma_confere sim); A4 = 14 publicado e rotulado A4; A5 37,6 fora das colunas. A1, A2, A3 separados nao publicados. Fig.11 (energia incorporada) nao e CO2. Valores de bases de dados genericas num caso de colunas de hotel."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.9-13 visto (Fig.10-13): Fig.10a confirma A4 4,57% e A1-A3 83,09% (coerente com Tab.5). Sem alteracoes de valores."
+ },
+ {
+  "row_id": 3451,
+  "pares": [
+   {
+    "sheet_row": 1014,
+    "co2_a1": 282,
+    "co2_a2": 15,
+    "co2_a3": 0,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.8 Fig.9 (MPC-NCA, barra de GWP por materia-prima e processo; recorte pp.8-10 visto) e Tab.7",
+    "citacao": "raw material transportation ... transportation distance from quarries to ready-mixed concrete plants",
+    "nota": "Fig.9 (rotulos impressos), MPC-NCA (297 na Tab.7): MK/FA/GBFS 90; solucao alcalina 182; NCA sem rotulo; Transportation 15; Manufacturing 0. Fronteira cradle-to-gate (materiais, transporte, fabrico). A2 = 15 (transporte das materias-primas ate a central, Sec.4.4.3-4.4.5: 'raw material transportation', 'quarries to ready-mixed concrete plants'). A3 = 0 (rotulo 0 do segmento Manufacturing; valor impresso, <0,5 por arredondamento). A1 = 282 DERIVADO = 297 (Tab.7) - 15 - 0, i.e. 90 + 182 + NCA ~10 (o segmento NCA nao tem rotulo; ~10 por diferenca, +-1 por arredondamento dos rotulos inteiros; PPC-NCA daria ~11 pela mesma conta). soma_confere sim por construcao do A1 (confirmado so pelos rotulos 90+182+15+0 = 287, falta o NCA). A4 nao existe (cradle-to-gate). Cenario bruto: o avoid landfill (-17) e preserved NCA (-6) so existem nas barras RCA, nao em NCA."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.8-10 visto: Fig.9 rotulada permite A2 e A3 por mistura; A1 derivado por diferenca ao total da Tab.7. Uma so linha gravada (MPC-NCA)."
+ },
+ {
+  "row_id": 3477,
+  "pares": [
+   {
+    "sheet_row": 420,
+    "co2_a1": 335.8,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "nao",
+    "local": "p.7 Fig.5 e texto Sec.4.2 (controlo); p.6 Tab.7",
+    "citacao": "",
+    "nota": "Controlo (fck 25). Recorte pp.6-9 visto 2026-11-01. Fig.5 (p.7) + texto: emissoes dos MATERIAIS constituintes (extraccao e fabrico dos materiais; SEM producao nem transporte dos compositos, SEM fibra de cartao 'due to uncertainty'): controlo 335,8, SFKF5 319,01, SFKF105 285,43 kg CO2-eq/m3 (valores impressos no texto) = A1 (materiais), publicado. Tab.7 (p.6) GWP 370/360/343 (= valor gravado) e o total do LCA que 'incluiu transporte dos materiais ate a central' mais o processamento da fibra; a diferenca Tab.7 - A1 (34,2 / 41,0 / 57,6) mistura transporte e producao de fibra e nao e A2: nao atribuida. Fig.6 (p.7) e MC: media 'transporte+materiais' 375,28/362,16/339,24 (material constante) — media estocastica que nao bate com a Tab.7 (370/360/343); a diferenca para A1 (39,5/43,2/53,8) seria o transporte medio de MC, mas e de outra base (10-150 km triangular) e nao do valor gravado: so em nota. Fig.8 (energia das maquinas: 525/897/871) e Totais 572/1023/997 nao sao A3 rotulado e ficam fora. Distancias totais de transporte de materiais: 108/145/181 km (Fig.7, texto). soma_confere nao: A1 335,8 vs total 370 (9,2% abaixo): A1 exclui transporte e fibra."
+   },
+   {
+    "sheet_row": 421,
+    "co2_a1": 319.01,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "nao",
+    "local": "p.7 Fig.5 e texto Sec.4.2 (SFKF5); p.6 Tab.7",
+    "citacao": "",
+    "nota": "SFKF5 (fck 20). A1 319,01 vs total 360 (11,4% abaixo): exclui transporte e producao da fibra. Recorte pp.6-9 visto 2026-11-01. Fig.5 (p.7) + texto: emissoes dos MATERIAIS constituintes (extraccao e fabrico dos materiais; SEM producao nem transporte dos compositos, SEM fibra de cartao 'due to uncertainty'): controlo 335,8, SFKF5 319,01, SFKF105 285,43 kg CO2-eq/m3 (valores impressos no texto) = A1 (materiais), publicado. Tab.7 (p.6) GWP 370/360/343 (= valor gravado) e o total do LCA que 'incluiu transporte dos materiais ate a central' mais o processamento da fibra; a diferenca Tab.7 - A1 (34,2 / 41,0 / 57,6) mistura transporte e producao de fibra e nao e A2: nao atribuida. Fig.6 (p.7) e MC: media 'transporte+materiais' 375,28/362,16/339,24 (material constante) — media estocastica que nao bate com a Tab.7 (370/360/343); a diferenca para A1 (39,5/43,2/53,8) seria o transporte medio de MC, mas e de outra base (10-150 km triangular) e nao do valor gravado: so em nota. Fig.8 (energia das maquinas: 525/897/871) e Totais 572/1023/997 nao sao A3 rotulado e ficam fora. Distancias totais de transporte de materiais: 108/145/181 km (Fig.7, texto). "
+   },
+   {
+    "sheet_row": 422,
+    "co2_a1": 285.43,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "nao",
+    "local": "p.7 Fig.5 e texto Sec.4.2 (SFKF105); p.6 Tab.7",
+    "citacao": "",
+    "nota": "SFKF105 (fck 21). A1 285,43 vs total 343 (16,8% abaixo): exclui transporte e producao da fibra. Recorte pp.6-9 visto 2026-11-01. Fig.5 (p.7) + texto: emissoes dos MATERIAIS constituintes (extraccao e fabrico dos materiais; SEM producao nem transporte dos compositos, SEM fibra de cartao 'due to uncertainty'): controlo 335,8, SFKF5 319,01, SFKF105 285,43 kg CO2-eq/m3 (valores impressos no texto) = A1 (materiais), publicado. Tab.7 (p.6) GWP 370/360/343 (= valor gravado) e o total do LCA que 'incluiu transporte dos materiais ate a central' mais o processamento da fibra; a diferenca Tab.7 - A1 (34,2 / 41,0 / 57,6) mistura transporte e producao de fibra e nao e A2: nao atribuida. Fig.6 (p.7) e MC: media 'transporte+materiais' 375,28/362,16/339,24 (material constante) — media estocastica que nao bate com a Tab.7 (370/360/343); a diferenca para A1 (39,5/43,2/53,8) seria o transporte medio de MC, mas e de outra base (10-150 km triangular) e nao do valor gravado: so em nota. Fig.8 (energia das maquinas: 525/897/871) e Totais 572/1023/997 nao sao A3 rotulado e ficam fora. Distancias totais de transporte de materiais: 108/145/181 km (Fig.7, texto). "
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.6-9 visto: A1 (materiais, sem fibra nem transporte) publicado no texto/Fig.5 para as 3 misturas; A2/A3 nao atribuidos (so media MC e residuos mistos)."
+ }
+]

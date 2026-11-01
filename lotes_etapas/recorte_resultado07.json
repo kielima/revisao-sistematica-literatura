@@ -1,0 +1,225 @@
+[
+ {
+  "row_id": 4516,
+  "pares": [
+   {
+    "sheet_row": 1486,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11 Fig.8a/b; p.14 Tab.8 (recorte visto)",
+    "citacao": "",
+    "nota": "Recorte pp.10-14 visto (Fig.8a/b, p.11). Fig.8 divide o GWP por processo (producao e transporte do cimento / transporte da lama / calcinacao / moagem), nao por etapas EN 15804; cimento (producao+transporte) vem junto, logo A1/A2 nao separaveis; barras sem rotulos numericos; lama e transporte da lama sao processos do SCM (nao A3 do betao). Tab.8 so normalizada. Nada atribuivel a A1-A4."
+   },
+   {
+    "sheet_row": 2089,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11 Fig.8a/b; p.14 Tab.8 (recorte visto)",
+    "citacao": "",
+    "nota": "Recorte pp.10-14 visto (Fig.8a/b, p.11). Fig.8 divide o GWP por processo (producao e transporte do cimento / transporte da lama / calcinacao / moagem), nao por etapas EN 15804; cimento (producao+transporte) vem junto, logo A1/A2 nao separaveis; barras sem rotulos numericos; lama e transporte da lama sao processos do SCM (nao A3 do betao). Tab.8 so normalizada. Nada atribuivel a A1-A4."
+   },
+   {
+    "sheet_row": 2090,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.11 Fig.8a/b; p.14 Tab.8 (recorte visto)",
+    "citacao": "",
+    "nota": "Recorte pp.10-14 visto (Fig.8a/b, p.11). Fig.8 divide o GWP por processo (producao e transporte do cimento / transporte da lama / calcinacao / moagem), nao por etapas EN 15804; cimento (producao+transporte) vem junto, logo A1/A2 nao separaveis; barras sem rotulos numericos; lama e transporte da lama sao processos do SCM (nao A3 do betao). Tab.8 so normalizada. Nada atribuivel a A1-A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte visto: Fig.8 por processo, nao por etapa EN 15804; mantido nao_publicado."
+ },
+ {
+  "row_id": 4549,
+  "pares": [
+   {
+    "sheet_row": 1504,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7 Fig.2a (recorte visto)",
+    "citacao": "",
+    "nota": "Fig.2a (p.7, recorte visto) tem rotulos numericos por componente e legenda Materials/Process: Cement 681.02, Sand 5.18, Water 0.1, Silica fume 0.38, Superplasticizer 4.34, Expansive agent 0.44 (soma materiais 691.46); Process: Drill mixing 7.91, CAD design 0.01, Pumping 33.32, Robotic arm 10 (soma 51.24); Total 742.69 (691.46+51.24=742.70, confere). Nao atribuido a etapas: 'Materials' nao e dito A1 (nao se diz se inclui transporte), e 'Process' mistura a mistura (drill mixing, A3) com a linha de impressao 3D (bombeamento, braco robotico, CAD) que o artigo nao classifica como A3/A5; atribuir seria assumir (regras 2 e 6). Valores originais ficam aqui para quem queira decidir."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Fig.2a rotula kg por componente (Materials vs Process) mas nao por etapa EN 15804; mantido nao_publicado, com a decomposicao na nota."
+ },
+ {
+  "row_id": 4849,
+  "pares": [
+   {
+    "sheet_row": 1821,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10-11 Tab.6; p.13-14 Figs.9-11 (recorte visto)",
+    "citacao": "",
+    "nota": "Recorte pp.10-16 visto. Figs.9 e 11 sao boxplots Monte Carlo (10.000 iteracoes, transporte 10-60 km, equipamento 60-300 min), outra base que a Tab.6: Fig.9 medias 'material + transporte' 358.24 (Control), 328.85 (PMB), 329.74 (SFPMB), 319.45 (SFMKPMB); Fig.10 equipamento 50-230; Fig.11 totais 568/1202/1202/1191 kg CO2-eq/m3 (nao batem com a Tab.6). Sem separacao A1/A2/A3/A4 do valor da Tab.6 (345/315/304) e transporte da Fig.9 mistura materiais+transporte. Nao usado."
+   },
+   {
+    "sheet_row": 1822,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10-11 Tab.6; p.13-14 Figs.9-11 (recorte visto)",
+    "citacao": "",
+    "nota": "Recorte pp.10-16 visto. Figs.9 e 11 sao boxplots Monte Carlo (10.000 iteracoes, transporte 10-60 km, equipamento 60-300 min), outra base que a Tab.6: Fig.9 medias 'material + transporte' 358.24 (Control), 328.85 (PMB), 329.74 (SFPMB), 319.45 (SFMKPMB); Fig.10 equipamento 50-230; Fig.11 totais 568/1202/1202/1191 kg CO2-eq/m3 (nao batem com a Tab.6). Sem separacao A1/A2/A3/A4 do valor da Tab.6 (345/315/304) e transporte da Fig.9 mistura materiais+transporte. Nao usado."
+   },
+   {
+    "sheet_row": 1823,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10-11 Tab.6; p.13-14 Figs.9-11 (recorte visto)",
+    "citacao": "",
+    "nota": "Recorte pp.10-16 visto. Figs.9 e 11 sao boxplots Monte Carlo (10.000 iteracoes, transporte 10-60 km, equipamento 60-300 min), outra base que a Tab.6: Fig.9 medias 'material + transporte' 358.24 (Control), 328.85 (PMB), 329.74 (SFPMB), 319.45 (SFMKPMB); Fig.10 equipamento 50-230; Fig.11 totais 568/1202/1202/1191 kg CO2-eq/m3 (nao batem com a Tab.6). Sem separacao A1/A2/A3/A4 do valor da Tab.6 (345/315/304) e transporte da Fig.9 mistura materiais+transporte. Nao usado."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Figs.9-11 vistas: simulacao Monte Carlo, base diferente da Tab.6; nao_publicado."
+ },
+ {
+  "row_id": 4989,
+  "pares": [
+   {
+    "sheet_row": 23,
+    "co2_a1": 285,
+    "co2_a2": null,
+    "co2_a3": 7,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "lido_figura",
+    "soma_confere": "sim",
+    "local": "p.6020 Fig.3, painel GWP100, barra CRC1 (recorte visto, 400 dpi)",
+    "citacao": "the transport from the concrete plant to the construction site is incorporated into the calculations",
+    "nota": "Lido por pixel (escala 0-350 calibrada pelos ticks; +-3 kg por segmento, o A3 por ser fino +-2). A1 = soma dos segmentos de materiais (cimento, areia e agregados, agua, cinza volante, filler, superplastificante) = ~285; A3 = segmento 'Operation of concrete mixing plant' ~7. Segmento 'Transport' (~28) mistura transporte de materias-primas (A2) e transporte central-obra 120 tkm/50 km (A4) sem separacao: A2 e A4 em branco (regra 8). Soma 320 vs gravado 316 (diferenca <=2%). Fronteira: A1-A4 (cradle-to-site), sem A5/B/C."
+   },
+   {
+    "sheet_row": 24,
+    "co2_a1": 180,
+    "co2_a2": null,
+    "co2_a3": 5,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "lido_figura",
+    "soma_confere": "sim",
+    "local": "p.6020 Fig.3, painel GWP100, barra CRC2 (recorte visto, 400 dpi)",
+    "citacao": "the transport from the concrete plant to the construction site is incorporated into the calculations",
+    "nota": "Lido por pixel (escala 0-350 calibrada pelos ticks; +-3 kg por segmento, o A3 por ser fino +-2). A1 = soma dos segmentos de materiais (cimento, areia e agregados, agua, cinza volante, filler, superplastificante) = ~180; A3 = segmento 'Operation of concrete mixing plant' ~5. Segmento 'Transport' (~28) mistura transporte de materias-primas (A2) e transporte central-obra 120 tkm/50 km (A4) sem separacao: A2 e A4 em branco (regra 8). Soma 213 vs gravado 212 (diferenca <=2%). Fronteira: A1-A4 (cradle-to-site), sem A5/B/C."
+   },
+   {
+    "sheet_row": 25,
+    "co2_a1": 273,
+    "co2_a2": null,
+    "co2_a3": 7,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "lido_figura",
+    "soma_confere": "sim",
+    "local": "p.6020 Fig.3, painel GWP100, barra T(0.50) (recorte visto, 400 dpi)",
+    "citacao": "the transport from the concrete plant to the construction site is incorporated into the calculations",
+    "nota": "Lido por pixel (escala 0-350 calibrada pelos ticks; +-3 kg por segmento, o A3 por ser fino +-2). A1 = soma dos segmentos de materiais (cimento, areia e agregados, agua, cinza volante, filler, superplastificante) = ~273; A3 = segmento 'Operation of concrete mixing plant' ~7. Segmento 'Transport' (~29) mistura transporte de materias-primas (A2) e transporte central-obra 120 tkm/50 km (A4) sem separacao: A2 e A4 em branco (regra 8). Soma 309 vs gravado 306 (diferenca <=2%). Fronteira: A1-A4 (cradle-to-site), sem A5/B/C."
+   },
+   {
+    "sheet_row": 26,
+    "co2_a1": 292,
+    "co2_a2": null,
+    "co2_a3": 6,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "lido_figura",
+    "soma_confere": "sim",
+    "local": "p.6020 Fig.3, painel GWP100, barra T(0.45) (recorte visto, 400 dpi)",
+    "citacao": "the transport from the concrete plant to the construction site is incorporated into the calculations",
+    "nota": "Lido por pixel (escala 0-350 calibrada pelos ticks; +-3 kg por segmento, o A3 por ser fino +-2). A1 = soma dos segmentos de materiais (cimento, areia e agregados, agua, cinza volante, filler, superplastificante) = ~292; A3 = segmento 'Operation of concrete mixing plant' ~6. Segmento 'Transport' (~28) mistura transporte de materias-primas (A2) e transporte central-obra 120 tkm/50 km (A4) sem separacao: A2 e A4 em branco (regra 8). Soma 326 vs gravado 322 (diferenca <=2%). Fronteira: A1-A4 (cradle-to-site), sem A5/B/C."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.9-13 (Fig.3 p.6020) visto e medido por pixel. A1 e A3 lidos; A2+A4 juntos (~28-29 kg/m3) nao separaveis. Sem rotulos numericos: tipo lido_figura."
+ },
+ {
+  "row_id": 5012,
+  "pares": [
+   {
+    "sheet_row": 32,
+    "co2_a1": null,
+    "co2_a2": 0,
+    "co2_a3": null,
+    "co2_a4": 0,
+    "co2_a1a3_agregado": 286.37,
+    "etapas_tipo": "so_agregado+derivado",
+    "soma_confere": "sim",
+    "local": "p.115, Tab.2 (artigo anexo; Tab.2/3 da tese p.~38) e Sec. 3.1 Determinacao do Tipo de ACV; recorte pp.110-125 do PDF visto (pp.93-101 da tese)",
+    "citacao": "foram desconsideradas as etapas de extracao de materias-primas e seu transporte, bem como o transporte, lancamento, compactacao e cura do concreto",
+    "nota": "Total por constituinte (cimento 272,00; areia 2,20; brita 8,91; aditivo 3,16; agua 0,10 = 286,37, soma conferida). Por constituinte nao e por etapa (regra 2): fica como A1-A3 agregado (producao dos materiais+mistura, cradle-to-gate). A2 = 0 e A4 = 0 por exclusao explicita do transporte de materias-primas e do transporte do concreto. Valor com a extracao de materias-primas tambem desconsiderada, segundo o texto. Contradicao menor: Sec. 1 diz que ACV cobre extracao, transporte e aplicacao 'de forma igualitaria', logo dispensaveis. Recorte visto: o artigo anexo so tem Tab.1 e Tab.2 (texto), sem figuras de resultados por etapa; nada novo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte visto: so tabelas em texto, as figuras (1-5) sao projecto arquitectonico/estrutural; resultado anterior mantido (A1-A3 agregado 286.37; A2=A4=0 por exclusao explicita)."
+ },
+ {
+  "row_id": 5018,
+  "pares": [
+   {
+    "sheet_row": 43,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.78 Fig.16; p.79 Fig.17; Tab.5 (recorte visto)",
+    "citacao": "",
+    "nota": "Recorte pp.89-100 visto. Fig.16 e so % de contribuicao por processo elementar (fundacao, pilares, vigas/lajes); Fig.17 e % por material em barras sem rotulos numericos (concreto usinado 25 MPa 40,1% do GWP no texto; Transporte do concreto ~10% lido a olho, nao usado). Sem valores em kg por etapa A1-A4; o divisor em m3 do valor gravado (214,9) continua nao localizado (valor_gravado_nao_localizado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Figs.16-17 vistas: percentagens sem rotulo por etapa; nao_publicado."
+ }
+]

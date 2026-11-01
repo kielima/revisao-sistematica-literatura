@@ -1,0 +1,199 @@
+[
+ {
+  "row_id": 3216,
+  "pares": [
+   {
+    "sheet_row": 928,
+    "co2_a1": 309.4,
+    "co2_a2": 21.0,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "lido_figura",
+    "soma_confere": "sim",
+    "local": "p.11, Fig.5a (cenario A-5, barra C40F10-0); total p.10 Fig.4a",
+    "citacao": "The portion of GWP attributed to transportation ... is approximately 6-7 %",
+    "nota": "Fig.5a so tem eixo (0-350), sem rotulos numericos: lido por pixel em render 400 dpi, +-1 kg. Barra C40F10-0: total ~330,6 (gravado 331); Production ~309,4 (azul), Transportation ~21,0 (laranja, 6,3%). Mapeamento: Production = producao das materias-primas (A1); Transportation = transporte das materias-primas ate as centrais hungaras (A2), conforme Sec.2.2.2/3.2. Fronteira cradle-to-gate declarada A1-A3 mas o artigo nao apresenta A3 (central) separado nem diz se esta incluido: A3 em branco. Transporte do betao a obra nao modelado (A4 nao publicado). Fig.4a tambem so com eixo."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Etapas publicadas so em Fig.5 sem rotulos (lido por pixel). Table 4 menciona transporte da central a obra apenas para fontes de literatura de CRA."
+ },
+ {
+  "row_id": 3221,
+  "pares": [
+   {
+    "sheet_row": 932,
+    "co2_a1": 226.92,
+    "co2_a2": 26.4,
+    "co2_a3": 1.79,
+    "co2_a4": 7.49,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "sim",
+    "local": "p.9, Fig.7a (Ematerial, Etran1); p.8 Tab.5 (Emanu 1,79) e Eq.8 (Etran2 7,49)",
+    "citacao": "Etran2 = 2.4 x 40 x 0.078 = 7.49 kgCO2e/m3; Average Emanu: 1.79 kgCO2e/m3",
+    "nota": "C30 media: A1 Ematerial 226,92 (86,4%); A2 Etran1 transporte de materias-primas 26,4; A3 Emanu 1,79 (media de 4 fontes, igual para todas as classes); A4 Etran2 = transporte do betao da central a obra 7,49 (40 km, igual para todas as classes). Soma 262,60 vs 262,61."
+   },
+   {
+    "sheet_row": 2096,
+    "co2_a1": 363.68,
+    "co2_a2": 28.81,
+    "co2_a3": 1.79,
+    "co2_a4": 7.49,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "sim",
+    "local": "p.9, Fig.7a; p.8 Tab.5 e Eq.8",
+    "citacao": "idem",
+    "nota": "C80 media: A1 363,68 (90,5%); A2 28,81; A3 1,79; A4 7,49. Soma 401,77 vs 401,78."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "4 etapas Ematerial/Etran1/Emanu/Etran2 = A1/A2/A3/A4. Resumo diz 262.21 mas texto/figura 262.61."
+ },
+ {
+  "row_id": 3225,
+  "pares": [
+   {
+    "sheet_row": 935,
+    "co2_a1": 563.2,
+    "co2_a2": 21.1,
+    "co2_a3": 0.2,
+    "co2_a4": 14.5,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "publicado",
+    "soma_confere": "sim",
+    "local": "p.17, Tab.8 (linha PC); Eq.12 p.~13; Tab.5 (distancias)",
+    "citacao": "Me = Mrm + Mt1 + Mp + Mt2 + Mt3",
+    "nota": "Par = argamassa PC (611,7). Colunas Tab.8 (leitura do texto extraido, tabela nao vista como imagem): raw materials 563,2 (A1); raw materials transportation 21,1 (A2); cementitious materials transportation 12,7 (transporte do ligante/clinquer, 120 km; o artigo nao diz explicitamente que e ate a central de argamassa - NAO incluido em A2, ver soma); mortar preparation 0,2 (A3); mortar transportation 14,5 (central-obra 40 km, A4); carbon absorption 0,00. Soma com os 12,7: 611,7 = total. Sem os 12,7 a soma de A1-A4 e 599,0. Outras misturas (AAS, CSA, CSA-C, LC3) tem a mesma estrutura de colunas na Tab.8 mas nao correspondem ao par gravado; para CSA-C ha absorcao 251,7 e emissao da cura 105,8 (liquido 338,3). Mortar e nao betao."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Download do PDF (7 MB) fez cair a ligacao do Drive; Tab.8 e Fig.14 lidas so no texto extraido. Refazer com recorte (Tab.8 p.17, Fig.14) para confirmar colunas e decidir A2 (12,7 de transporte de materiais cimenticios)."
+ },
+ {
+  "row_id": 3242,
+  "pares": [
+   {
+    "sheet_row": 940,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.8-9, Fig.5b e Fig.6b, Sec.4.4.3.2",
+    "citacao": "",
+    "nota": "Artigo da contribuicao por componente (cimento 71,9%, nitrato de calcio 7,3%, revestimento PVA 6,5%, PCSGs 4,6%, cimento adicional 7,8%) e nao por etapa EN 15804; fronteira cradle-to-gate (Fig.1). Transporte dos PCSGs Alemanha-UK so referido como nao significativo, sem valor. Absolutos so na Fig.5b (nao vista); texto: BBSHC +36,3% = +120 kg CO2 eq/m3. Valor gravado 453,3 nao localizado no texto (valor_gravado_nao_localizado)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "PDF de 9,4 MB nao descarregado (limite do Drive); figuras nao vistas. Sem etapas no texto; recorte so para Fig.5b/6b (confirmar o 453,3)."
+ },
+ {
+  "row_id": 3251,
+  "pares": [
+   {
+    "sheet_row": 945,
+    "co2_a1": 337.5,
+    "co2_a2": 42.9,
+    "co2_a3": 2.7,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.5, Fig.3 (totais brutos), Fig.5 (percentagens por etapa); Fig.6 confirma",
+    "citacao": "Stage 1: production of raw materials (incl. RCA); Stage 2: transportation of raw materials; Stage 3: mixing and curing",
+    "nota": "VC: co2_kg_m3 gravado (383.1) = total bruto sem absorcao (Fig.3), nao o liquido 'co2_original' (Tab.3, com absorcao). Etapas = percentagem impressa na Fig.5 x total bruto: A1 88.1% , A2 11.2%, A3 = residuo 0.7% (rotulo nao impresso na Fig.5; confere com Fig.6, onde stage 3 ~0,9% do liquido). Stage 1/2/3 = A1/A2/A3 (stage 2 = transporte de materias-primas, incl. RCA, ate a central). Absorcoes de CO2 (stage 1 e 3) excluidas. Valores A3 inferidos por diferenca; precisao ~0,1 kg."
+   },
+   {
+    "sheet_row": 946,
+    "co2_a1": 340.1,
+    "co2_a2": 35.7,
+    "co2_a3": 2.7,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.5, Fig.3 (totais brutos), Fig.5 (percentagens por etapa); Fig.6 confirma",
+    "citacao": "Stage 1: production of raw materials (incl. RCA); Stage 2: transportation of raw materials; Stage 3: mixing and curing",
+    "nota": "RC25: co2_kg_m3 gravado (378.5) = total bruto sem absorcao (Fig.3), nao o liquido 'co2_original' (Tab.3, com absorcao). Etapas = percentagem impressa na Fig.5 x total bruto: A1 89.85% , A2 9.43%, A3 = residuo 0.72% (rotulo nao impresso na Fig.5; confere com Fig.6, onde stage 3 ~0,9% do liquido). Stage 1/2/3 = A1/A2/A3 (stage 2 = transporte de materias-primas, incl. RCA, ate a central). Absorcoes de CO2 (stage 1 e 3) excluidas. Valores A3 inferidos por diferenca; precisao ~0,1 kg."
+   },
+   {
+    "sheet_row": 947,
+    "co2_a1": 342.8,
+    "co2_a2": 30.2,
+    "co2_a3": 2.7,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.5, Fig.3 (totais brutos), Fig.5 (percentagens por etapa); Fig.6 confirma",
+    "citacao": "Stage 1: production of raw materials (incl. RCA); Stage 2: transportation of raw materials; Stage 3: mixing and curing",
+    "nota": "RC50: co2_kg_m3 gravado (375.7) = total bruto sem absorcao (Fig.3), nao o liquido 'co2_original' (Tab.3, com absorcao). Etapas = percentagem impressa na Fig.5 x total bruto: A1 91.24% , A2 8.04%, A3 = residuo 0.72% (rotulo nao impresso na Fig.5; confere com Fig.6, onde stage 3 ~0,9% do liquido). Stage 1/2/3 = A1/A2/A3 (stage 2 = transporte de materias-primas, incl. RCA, ate a central). Absorcoes de CO2 (stage 1 e 3) excluidas. Valores A3 inferidos por diferenca; precisao ~0,1 kg."
+   },
+   {
+    "sheet_row": 948,
+    "co2_a1": 344.2,
+    "co2_a2": 26.2,
+    "co2_a3": 2.7,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.5, Fig.3 (totais brutos), Fig.5 (percentagens por etapa); Fig.6 confirma",
+    "citacao": "Stage 1: production of raw materials (incl. RCA); Stage 2: transportation of raw materials; Stage 3: mixing and curing",
+    "nota": "RC75: co2_kg_m3 gravado (373.1) = total bruto sem absorcao (Fig.3), nao o liquido 'co2_original' (Tab.3, com absorcao). Etapas = percentagem impressa na Fig.5 x total bruto: A1 92.25% , A2 7.02%, A3 = residuo 0.73% (rotulo nao impresso na Fig.5; confere com Fig.6, onde stage 3 ~0,9% do liquido). Stage 1/2/3 = A1/A2/A3 (stage 2 = transporte de materias-primas, incl. RCA, ate a central). Absorcoes de CO2 (stage 1 e 3) excluidas. Valores A3 inferidos por diferenca; precisao ~0,1 kg."
+   },
+   {
+    "sheet_row": 949,
+    "co2_a1": 345.9,
+    "co2_a2": 19.7,
+    "co2_a3": 2.7,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "sim",
+    "local": "p.5, Fig.3 (totais brutos), Fig.5 (percentagens por etapa); Fig.6 confirma",
+    "citacao": "Stage 1: production of raw materials (incl. RCA); Stage 2: transportation of raw materials; Stage 3: mixing and curing",
+    "nota": "RC100: co2_kg_m3 gravado (368.3) = total bruto sem absorcao (Fig.3), nao o liquido 'co2_original' (Tab.3, com absorcao). Etapas = percentagem impressa na Fig.5 x total bruto: A1 93.92% , A2 5.35%, A3 = residuo 0.73% (rotulo nao impresso na Fig.5; confere com Fig.6, onde stage 3 ~0,9% do liquido). Stage 1/2/3 = A1/A2/A3 (stage 2 = transporte de materias-primas, incl. RCA, ate a central). Absorcoes de CO2 (stage 1 e 3) excluidas. Valores A3 inferidos por diferenca; precisao ~0,1 kg."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Etapas por percentagem (Fig.5) x total bruto (Fig.3). Fig.6 em % do liquido; valores batem."
+ },
+ {
+  "row_id": 3255,
+  "pares": [
+   {
+    "sheet_row": 328,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 328,
+    "etapas_tipo": "so_agregado",
+    "soma_confere": "n/a",
+    "local": "p.7, Tab.9, coluna CC",
+    "citacao": "dataset Ecoinvent mean data of the whole manufacturing process to produce ready-mixed concrete",
+    "nota": "CC = dataset Ecoinvent de betao pronto classe 20 MPa; so GWP total 328 (cradle-to-gate, 'raw materials extraction or production, transport and manufacturing'): A1+A2+A3 agregado, sem decomposicao. Etapas por componente so para o betao geopolimerico (nao este par)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Sem etapas para o CC."
+ }
+]
