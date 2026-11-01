@@ -1,0 +1,180 @@
+[
+ {
+  "row_id": 3242,
+  "autor": "Justo-Reinoso, Ismael and Arena, Noemi and Reeksting, Bianca J. and\nGebhard, Sus",
+  "titulo": "Bacteria-based self-healing concrete- A life cycle assessment\nperspective",
+  "pdf": "JUSTO-REINOSO et al., 2023 - j.dibe.2023.100244.pdf",
+  "fileId": "184oebgwS7Uc441ihxfQhZneXztKFEM7E",
+  "resultado_anterior": "lotes_etapas/resultado_lote13.json",
+  "nota_anterior": "PDF de 9,4 MB nao descarregado (limite do Drive); figuras nao vistas. Sem etapas no texto; recorte so para Fig.5b/6b (confirmar o 453,3).",
+  "pares": [
+   {
+    "sheet_row": 940,
+    "material": "betao autorreparavel biologico (BBSHC, PCSGs+esporos bacterianos encapsulados) vs betao convencional",
+    "fck_mpa": "35-40 (intervalo da unidade funcional definida por resistencia equivalente aos 28 dias; sem valor unico medido impresso)",
+    "co2_kg_m3": 453.3,
+    "co2_original": "Absolutos nao impressos: BBSHC 36% maior que o betao convencional, diferenca absoluta 120 kg CO2 eq (por m3)",
+    "co2_original_local": "p.2 (resumo) e p.9 sec.5; absolutos so na Fig.5b (nao lida)"
+   }
+  ]
+ },
+ {
+  "row_id": 3285,
+  "autor": "Amiri, Ali and Emami, Nargessadat and Ottelin, Juudit and Sorvari, Jaana and Mar",
+  "titulo": "Embodied emissions of buildings - A forgotten factor in green building certificates",
+  "pdf": "AMIRI et al., 2021.pdf",
+  "fileId": "1nU4ODTbbq9GI0g--CHYSz3l0FIhi1XUq",
+  "resultado_anterior": "lotes_etapas/resultado_lote14.json",
+  "nota_anterior": "Sem valores por etapa no texto; so figuras (3,4,5) sem rotulos numericos, nao vistas: recorte das paginas 7-9 para ver se Fig.4/5 permitem separar transporte do sistema Structures.",
+  "pares": [
+   {
+    "sheet_row": 338,
+    "material": "Edificio Veroeld (Reykjavik), cenario Con - sistema Structures em betao armado (30-32 MPa 2.780 m3 + 50 MPa 38 m3, armadura, serralharia, EPS, madeira)",
+    "fck_mpa": 31,
+    "co2_kg_m3": 585.5,
+    "co2_original": "~1.650 t CO2 eq (Fig.3 p.8, barra «Structures» do cenario Con, sem rotulo; leitura por pixel)",
+    "co2_original_local": "Fig.3 p.8; Fig.5 p.9 (verificacao); Tabela 1 p.3 (volumes)"
+   }
+  ]
+ },
+ {
+  "row_id": 3327,
+  "autor": "Yaseen, Noor and Alcivar-Bastidas, Stefany and Irfan-ul-Hassan, Muhammad\nand Pet",
+  "titulo": "Concrete incorporating supplementary cementitious materials: Temporal\nevolution of compressive strength and environmental life cycle\nassessment",
+  "pdf": "YASEEN et al., 2024 - j.heliyon.2024.e25056.pdf",
+  "fileId": "1Qga0DRiM2XuwoyKDLxMLsiCj65iFUQiN",
+  "resultado_anterior": "lotes_etapas/resultado_lote15.json",
+  "nota_anterior": "Tipo: so A1-A3 agregado (valor total ja gravado); sem A1/A2/A3/A4 publicados por mistura. download_file_content (9 MB) derrubou a ligacao do Drive: Fig.14a nao vista; refazer com recorte da Fig.14 so se se quiser tentar ler barras (sem rotulos provaveis).",
+  "pares": [
+   {
+    "sheet_row": 961,
+    "material": "concreto OPC controle (w/b=0.54)",
+    "fck_mpa": 29.3,
+    "co2_kg_m3": 466.77,
+    "co2_original": "466.77 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): Global Warming Potential - GWP100, coluna Control = 466.77 kg CO2-Eq"
+   },
+   {
+    "sheet_row": 962,
+    "material": "concreto com 10% cinza volante (FA10)",
+    "fck_mpa": 27.9,
+    "co2_kg_m3": 423,
+    "co2_original": "423 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna FA10 = 423.0 kg CO2-Eq"
+   },
+   {
+    "sheet_row": 963,
+    "material": "concreto com 20% cinza volante (FA20)",
+    "fck_mpa": 26.3,
+    "co2_kg_m3": 380.09,
+    "co2_original": "380.09 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna FA20 = 380.09 kg CO2-Eq"
+   },
+   {
+    "sheet_row": 964,
+    "material": "concreto com 30% cinza volante (FA30)",
+    "fck_mpa": 25.1,
+    "co2_kg_m3": 336.33,
+    "co2_original": "336.33 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna FA30 = 336.33 kg CO2-Eq"
+   },
+   {
+    "sheet_row": 965,
+    "material": "concreto com 5% silica fume (SF05)",
+    "fck_mpa": 26.9,
+    "co2_kg_m3": 445.32,
+    "co2_original": "445.32 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna SF05 = 445.32 kg CO2-Eq"
+   },
+   {
+    "sheet_row": 966,
+    "material": "concreto com 10% silica fume (SF10)",
+    "fck_mpa": 28.2,
+    "co2_kg_m3": 423.86,
+    "co2_original": "423.86 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna SF10 = 423.86 kg CO2-Eq"
+   },
+   {
+    "sheet_row": 967,
+    "material": "concreto com 15% silica fume (SF15)",
+    "fck_mpa": 24.4,
+    "co2_kg_m3": 401.55,
+    "co2_original": "401.55 kg CO2-Eq/m3",
+    "co2_original_local": "Tabela 3 (Result of life cycle evaluation impact categories for 1 m3 of ready-mixed concrete): GWP100, coluna SF15 = 401.55 kg CO2-Eq"
+   }
+  ]
+ },
+ {
+  "row_id": 3331,
+  "autor": "Mohammad S.M. Almulhim and Haidar Ali Alammar and Yassin Shaher Sallam",
+  "titulo": "Influence of steel-to-concrete ratio on sustainable column design in Saudi Arabia",
+  "pdf": "ALMULHIM et al., 2024b - j.heliyon.2024.e40261.pdf",
+  "fileId": "1yhY5VD-2NN7--vkjPxIhZd7sGlWU2rRV",
+  "resultado_anterior": "lotes_etapas/resultado_lote15.json",
+  "nota_anterior": "Tipo: A1-A3 agregado + A4 publicado (14 kg/m3); A5 37.6 em nota. Ficheiro 10,4 MB (>10 MB): so read_file_content; Fig.10/11 nao vistas (tabela 5 ja da os valores).",
+  "pares": [
+   {
+    "sheet_row": 968,
+    "material": "concreto armado (colunas de hotel - Arabia Saudita)",
+    "fck_mpa": 30,
+    "co2_kg_m3": 254.4,
+    "co2_original": "254.4 kg CO2e/m3 (fase A1-A3)",
+    "co2_original_local": "Tabela 5 (Bill of quantity and cost for different stages): 'A1-A3 Concrete (m3) ECC=254.4 EEC=1672'; texto: 'the ECC and EEC for stage A1-A3 for concrete are 254.4 kgCO2e/m3 and 1672 MJ/m3'"
+   }
+  ]
+ },
+ {
+  "row_id": 3451,
+  "autor": "Huang, Wei and Wang, Hao",
+  "titulo": "Comprehensive assessment of engineering and environmental attributes of\ngeopolymer pervious concrete with natural and recycled aggregate",
+  "pdf": "HUANG et al., 2024c - j.jclepro.2024.143138.pdf",
+  "fileId": "195Wm_SRtB1dk5hYYwLEHjJU4QeDIXdGL",
+  "resultado_anterior": "lotes_etapas/resultado_lote16.json",
+  "nota_anterior": "Ficheiro 22 MB; Fig.8/9 (decomposicao por material/processo, possivelmente com transporte) por rever com recorte (first_page/last_page ~p.8-9).",
+  "pares": [
+   {
+    "sheet_row": 1014,
+    "material": "Concreto pervio geopolimerico de metacaulim + agregado natural (MPC+NCA, pavimento)",
+    "fck_mpa": 21,
+    "co2_kg_m3": 297,
+    "co2_original": "297 kg CO2 eq/m3",
+    "co2_original_local": "p.8, Tabela 7 (LCA results of conventional or geopolymer based pervious concrete): linha MPC, coluna NCA, GWP=297"
+   }
+  ]
+ },
+ {
+  "row_id": 3477,
+  "autor": "Haigh, Robert and Sandanayake, Malindu and Bouras, Yanni and Vrcelj,\nZora",
+  "titulo": "A life cycle assessment of cardboard waste in low stress grade concrete\napplications",
+  "pdf": "HAIGH, 2024b.pdf",
+  "fileId": "10p-f6-XC04eSqj7HjH58B2zQacLpti-o",
+  "resultado_anterior": "lotes_etapas/resultado_lote16.json",
+  "nota_anterior": "Rever Fig.5 (rotulos), Fig.6 e Fig.9 com recorte (pp.6-8) para confirmar A1 (material) e A2 (transporte) por mistura.",
+  "pares": [
+   {
+    "sheet_row": 420,
+    "material": "betao de controlo (sem fibra kraft, alvo 25 MPa de projecto para betao de baixa tensao)",
+    "fck_mpa": 25,
+    "co2_kg_m3": 370,
+    "co2_original": "370 kg CO2-eq/m3 (GWP100)",
+    "co2_original_local": "Tab.7 (p.6), linha Global warming potential"
+   },
+   {
+    "sheet_row": 421,
+    "material": "betao SFKF5 (5% fibra kraft de cartao reciclado, modificada com silica de fumo)",
+    "fck_mpa": 20,
+    "co2_kg_m3": 360,
+    "co2_original": "360 kg CO2-eq/m3 (GWP100)",
+    "co2_original_local": "Tab.7 (p.6), linha Global warming potential"
+   },
+   {
+    "sheet_row": 422,
+    "material": "betao SFKF105 (10% fibra kraft de cartao reciclado + 5% metacaulino, modificada com silica de fumo)",
+    "fck_mpa": 21,
+    "co2_kg_m3": 343,
+    "co2_original": "343 kg CO2-eq/m3 (GWP100)",
+    "co2_original_local": "Tab.7 (p.6), linha Global warming potential"
+   }
+  ]
+ }
+]
