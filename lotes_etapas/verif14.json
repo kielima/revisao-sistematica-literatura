@@ -1,0 +1,260 @@
+[
+ {
+  "row_id": 4663,
+  "autor": "Tang, Weixin and Pignatta, Gloria and Sepasgozar, Samad M. E.",
+  "titulo": "Life-Cycle Assessment of Fly Ash and Cenosphere-Based Geopolymer\nMaterial",
+  "fileId": "1LSpo4UBwzKkcJVJzcUgK75SCO9g-Yk9Y",
+  "pdf": "TANG, 2021.pdf",
+  "pares": [
+   {
+    "sheet_row": 1677,
+    "co2_kg_m3": 473,
+    "a1": 287.3,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.12 Tab.9 (por componente); p.6-8 Sec.2.2 (fronteira EN 15804, Fig.2/3)",
+    "nota": "A1 derivado = soma dos materiais da Tab.9 (fase 'product stage' do artigo): 158+85.9+30.5+12.80+0.108 = 287.3 kg/m3. Transportation FL 48.71 mistura transporte de materias-primas ate a central e do betao a obra (ambos em 'construction process') -> A2"
+   },
+   {
+    "sheet_row": 1678,
+    "co2_kg_m3": 699,
+    "a1": 480.1,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.12 Tab.9 (por componente); p.6-8 Sec.2.2 (fronteira EN 15804, Fig.2/3)",
+    "nota": "A1 derivado = soma dos materiais da Tab.9 (fase 'product stage' do artigo): 468+8.72+3.33+0.0632 = 480.1 kg/m3. Transportation FL 59.86 mistura transporte de materias-primas ate a central e do betao a obra (ambos em 'construction process') -> A2/A4 e"
+   },
+   {
+    "sheet_row": 1679,
+    "co2_kg_m3": 727,
+    "a1": 518.7,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.12 Tab.9 (por componente); p.6-8 Sec.2.2 (fronteira EN 15804, Fig.2/3)",
+    "nota": "A1 derivado = soma dos materiais da Tab.9 (fase 'product stage' do artigo): 507+7.79+3.82+0.0620 = 518.7 kg/m3. Transportation FL 57.16 mistura transporte de materias-primas ate a central e do betao a obra (ambos em 'construction process') -> A2/A4 e"
+   }
+  ]
+ },
+ {
+  "row_id": 4696,
+  "autor": "Rabie, Mohamed and Irshidat, Mohammad R. and Al-Nuaimi, Nasser",
+  "titulo": "Ambient and Heat-Cured Geopolymer Composites: Mix Design Optimization\nand Life Cycle Assessment",
+  "fileId": "1fNxgv-M3Xx7Q7RfY2sy7jWIeJHw-X5QD",
+  "pdf": "RABIE et al., 2022.pdf",
+  "pares": [
+   {
+    "sheet_row": 1691,
+    "co2_kg_m3": 204,
+    "a1": 106,
+    "a2": 80,
+    "a3": 21.6,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.14, Fig.8b (GWP por processo, GPM); texto p.15",
+    "nota": "Fig.8b sem rotulos numericos; valores lidos por pixel (eixo 0-700 com gridlines, +-5 kg): extraction of source material ~106, transportation ~80, production ~21.6; soma ~207.8 vs 204 gravado (1.9%). Mapeamento: extraction->A1, transportation->A2, pro"
+   }
+  ]
+ },
+ {
+  "row_id": 4753,
+  "autor": "Backes, Jana Gerta and Schmidt, Laura and Bielak, Jan and Del Rosario,\nPamela an",
+  "titulo": "Comparative Cradle-to-Grave Carbon Footprint of a CFRP-Grid Reinforced\nConcrete Facade Panel",
+  "fileId": "1KvZsj2SFHaLUKC2igYfxMGo7AnE2-I9I",
+  "pdf": "BACKES et al., 2023 - su151511548.pdf",
+  "pares": [
+   {
+    "sheet_row": 1740,
+    "co2_kg_m3": 767.4,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 50.3,
+    "a1a3": 663.2,
+    "tipo": "so_agregado+derivado",
+    "local": "p.13, Tab.7 (cradle-to-gate, use phase transport, EoL); p.6 (fronteira A1-D); dimensoes do painel em Materials and Methods",
+    "nota": "Valores por painel (kg CO2e): cradle-to-gate 382 (inclui transporte das materias-primas, nao separado), 'use phase (transport)' 29, EoL 31.5, total 442 (cenario † 100% aterro). Divididos pelo volume do painel 0.576 m3 (4,0x3,6x0,04 m): A1-A3 = 663.2;"
+   },
+   {
+    "sheet_row": 1741,
+    "co2_kg_m3": 914.9,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 50.3,
+    "a1a3": 810.8,
+    "tipo": "so_agregado+derivado",
+    "local": "p.13, Tab.7 (cradle-to-gate, use phase transport, EoL); p.6 (fronteira A1-D); dimensoes do painel em Materials and Methods",
+    "nota": "Valores por painel (kg CO2e): cradle-to-gate 467 (inclui transporte das materias-primas, nao separado), 'use phase (transport)' 29, EoL 31.5, total 527 (cenario † 100% aterro). Divididos pelo volume do painel 0.576 m3 (4,0x3,6x0,04 m): A1-A3 = 810.8;"
+   },
+   {
+    "sheet_row": 1742,
+    "co2_kg_m3": 427.1,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 51.2,
+    "a1a3": 636.3,
+    "tipo": "so_agregado+derivado",
+    "local": "p.13, Tab.7 (cradle-to-gate, use phase transport, EoL); p.6 (fronteira A1-D); dimensoes do painel em Materials and Methods",
+    "nota": "Valores por painel (kg CO2e): cradle-to-gate 733, use phase (transport) 59, EoL -299.9 (credito de reciclagem do aco), total 492. Divididos pelo volume 1.152 m3 (4,0x3,6x0,08 m): A1-A3 = 636.3; A4 = 51.2. A1-A3 inclui armadura de aco e transporte das"
+   }
+  ]
+ },
+ {
+  "row_id": 4786,
+  "autor": "Zhao, Li and Guo, Cheng and Chen, Leduan and Qiu, Liping and Wu, Weiwei\nand Wang",
+  "titulo": "Using BIM and LCA to Calculate the Life Cycle Carbon Emissions of\nInpatient Building: A Case Study in China",
+  "fileId": "1HiTMuHadiRjdQWUMm-eogfVywDMphlpa",
+  "pdf": "ZHAO, 2024.pdf",
+  "pares": [
+   {
+    "sheet_row": 1782,
+    "co2_kg_m3": 237.32,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 14.26,
+    "a1a3": 237.32,
+    "tipo": "so_agregado+derivado",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a "
+   },
+   {
+    "sheet_row": 1783,
+    "co2_kg_m3": 266.18,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 14.25,
+    "a1a3": 266.18,
+    "tipo": "so_agregado+derivado",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a "
+   },
+   {
+    "sheet_row": 1784,
+    "co2_kg_m3": 295,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 14.26,
+    "a1a3": 295,
+    "tipo": "so_agregado+derivado",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a "
+   },
+   {
+    "sheet_row": 1785,
+    "co2_kg_m3": 362.6,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 14.24,
+    "a1a3": 362.6,
+    "tipo": "so_agregado+derivado",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a "
+   },
+   {
+    "sheet_row": 1786,
+    "co2_kg_m3": 511,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 14.26,
+    "a1a3": 511,
+    "tipo": "so_agregado+derivado",
+    "local": "p.6 Tab.3 (EFi do betao); p.6 Eq.2-4 e p.11 Fig.5 (transporte por material); p.10 Fig.3",
+    "nota": "co2_a1a3_agregado = fator de emissao de producao do betao (GB/T 51366, Tab.3) = valor gravado; o artigo separa 'production of building materials' (CP) de transporte (CT) e construcao (CC) mas nao rotula A1/A2/A3 nem desagrega o fator: equivalencia a "
+   }
+  ]
+ },
+ {
+  "row_id": 4792,
+  "autor": "Studzinski, Robert and Scigallo, Jacek and Ratajczak, Maria and\nCiesielczyk, Kat",
+  "titulo": "Impact of Heterogeneous Soil Conditions on the Life Cycle Assessment of\na Multi-Storey Reinforced Concrete Structure",
+  "fileId": "1_9SijQTao1pCfzKGVW7Ku4VNeEO2bHct",
+  "pdf": "STUDZINSKI et al., 2024.pdf",
+  "pares": [
+   {
+    "sheet_row": 2085,
+    "co2_kg_m3": 283.5,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 283.5,
+    "tipo": "so_agregado+derivado",
+    "local": "p.11, Sec.3 (LCA); p.13, Fig.10",
+    "nota": "Valor = co2_kg_m3 gravado (A1-A3 do segmento FOUNDATIONS lido na Fig.10, convertido por nos para kg/m3, inclui aco). Etapas nao separadas."
+   },
+   {
+    "sheet_row": 2086,
+    "co2_kg_m3": 278.7,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 278.7,
+    "tipo": "so_agregado+derivado",
+    "local": "p.11, Sec.3 (LCA); p.13, Fig.10",
+    "nota": "Valor = co2_kg_m3 gravado (A1-A3 do segmento FOUNDATIONS lido na Fig.10, convertido por nos para kg/m3, inclui aco). Etapas nao separadas."
+   },
+   {
+    "sheet_row": 2087,
+    "co2_kg_m3": 322.1,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 322.1,
+    "tipo": "so_agregado+derivado",
+    "local": "p.11, Sec.3 (LCA); p.13, Fig.10",
+    "nota": "Valor = co2_kg_m3 gravado (A1-A3 do segmento FOUNDATIONS lido na Fig.10, convertido por nos para kg/m3, inclui aco). Etapas nao separadas."
+   },
+   {
+    "sheet_row": 2088,
+    "co2_kg_m3": 311.7,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 311.7,
+    "tipo": "so_agregado+derivado",
+    "local": "p.11, Sec.3 (LCA); p.13, Fig.10",
+    "nota": "Valor = co2_kg_m3 gravado (A1-A3 do segmento FOUNDATIONS lido na Fig.10, convertido por nos para kg/m3, inclui aco). Etapas nao separadas."
+   }
+  ]
+ },
+ {
+  "row_id": 4806,
+  "autor": "Ali, Shafayat Bin and Kamaris, George S. and Gkantou, Michaela and\nHuang, Yue",
+  "titulo": "Comparative Study of Life-Cycle Environmental and Cost Performance of\nAluminium Alloy-Concrete Composite Columns",
+  "fileId": "1oCRJw_QNnqI0UwR-aJzcYfx5DjgY81H-",
+  "pdf": "ALI, 2024.pdf",
+  "pares": [
+   {
+    "sheet_row": 1792,
+    "co2_kg_m3": 420.2,
+    "a1": 420.2,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.8 Tab.4 (CFST: Cement 25.31 + Fine 0.04 + Coarse 0.07 = 25.42 kgCO2); p.5 Tab.3 (145.18 kg, 2400 kg/m3)",
+    "nota": "A1 derivado = 25.42 kgCO2 / 145.18 kg x 2400 kg/m3 = 420.2 kg/m3 (producao dos materiais do betao: cimento, areia, brita; agua e aditivos nao contabilizados), igual ao valor gravado. Transporte dos ingredientes do betao ate ao local de obra (5.7 km, "
+   }
+  ]
+ }
+]

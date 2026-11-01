@@ -1,0 +1,101 @@
+[
+ {
+  "row_id": 3685,
+  "pares": [
+   {
+    "sheet_row": 2010,
+    "veredito": "confirma",
+    "motivo": "362x0,860+1800x0,0026=316,0 kg/m3. Tab.4 (factores cradle-to-factory-gate, p.6) x Tab.7 (traco kg/m3, p.8): conta refeita bate; transporte nao declarado excluido, logo A2/A3/A4 vazios; A1=materiais; unidade m3 de betao (traco por m3)."
+   },
+   {
+    "sheet_row": 2011,
+    "veredito": "confirma",
+    "motivo": "285x0,860+154x0,0001+1800x0,0026=249,8. Tab.4 (factores cradle-to-factory-gate, p.6) x Tab.7 (traco kg/m3, p.8): conta refeita bate; transporte nao declarado excluido, logo A2/A3/A4 vazios; A1=materiais; unidade m3 de betao (traco por m3)."
+   },
+   {
+    "sheet_row": 2012,
+    "veredito": "confirma",
+    "motivo": "127x0,860+235x0,0796+1800x0,0026=132,6. Tab.4 (factores cradle-to-factory-gate, p.6) x Tab.7 (traco kg/m3, p.8): conta refeita bate; transporte nao declarado excluido, logo A2/A3/A4 vazios; A1=materiais; unidade m3 de betao (traco por m3)."
+   }
+  ]
+ },
+ {
+  "row_id": 3802,
+  "pares": [
+   {
+    "sheet_row": 1096,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.22: raw 26,9881 / transporte a fabrica 0,4071 / fabrico 0,8688 (+aterro residuo 0,0329) kg CO2eq por m2 (25 blocos 200x200x60 = 0,06 m3); /0,06 = 449,8 / 6,785 / 14,48 (A1/A2/A3 ok; ordem das colunas confirmada pelo sinal negativo do aterro na Tab.6). Cradle-to-gate: A4 fora da fronteira (declaravel como 0). Unidade m3 de betao via espessura 0,06 m. Nota: co2_kg_m3 471,62 inclui o aterro (0,55); A1+A2+A3=471,07, diferenca 0,1%, dentro da tolerancia, mas inconsistente com a linha 1097."
+   },
+   {
+    "sheet_row": 1097,
+    "veredito": "confirma",
+    "motivo": "Tab.6 p.23: 21,5715/0,3968/0,8688 /0,06 = 359,53/6,613/14,48; co2 380,62 = A1+A2+A3 (exclui aterro evitado -0,0329). Cradle-to-gate. m3 via 0,06 m3/m2."
+   }
+  ]
+ },
+ {
+  "row_id": 3835,
+  "pares": [
+   {
+    "sheet_row": 1116,
+    "veredito": "confirma",
+    "motivo": "Tab.9 30 MPa x Tab.8: 330x0,832+140x0,000149+(750+1245)x0,00438+3,3x1,88=289,52. So betao (sem armadura/fibras), A1-A3 agregado, unidade m3 de betao. A4 nao publicado por m3, vazio."
+   },
+   {
+    "sheet_row": 1118,
+    "veredito": "confirma",
+    "motivo": "Tab.9 40 MPa: 400x0,832+0,021+(700+1230)x0,00438+4,0x1,88=348,79. A1-A3 agregado, m3 de betao."
+   },
+   {
+    "sheet_row": 1120,
+    "veredito": "confirma",
+    "motivo": "Tab.9 50 MPa: 450x0,832+0,021+(660+1230)x0,00438+4,5x1,88=391,16. A1-A3 agregado, m3 de betao."
+   }
+  ]
+ },
+ {
+  "row_id": 3911,
+  "pares": []
+ },
+ {
+  "row_id": 3958,
+  "pares": [
+   {
+    "sheet_row": 1150,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.13: cimento 204,29+areia 6,21+brita 8,42+agua 0,05+pre-fabricacao 34,38 = 253,35 (gravado 253,44 = 408,44-155,00, diferenca 0,04%). A3=34,38 publicado; A4=0 correto: p.12 declara explicitamente que o transporte de materiais e barreiras nao e incluido. Factores ICE A1-A3. Unidade 1 m3 de betao (sem aco)."
+   }
+  ]
+ },
+ {
+  "row_id": 4012,
+  "pares": [
+   {
+    "sheet_row": 1162,
+    "veredito": "confirma",
+    "motivo": "Tab.2 p.7 factor kg/m3 de betao (C50 510,94) = A1-A3 agregado (estagio production EN 15978, nao separavel); A4 = Tab.3 betao Mixer diesel 50 km 68,87 t / 3549,61 m3 = 19,40 kg/m3 (soma dos volumes Tab.2 = 3549,61 confere); unidade m3 de betao."
+   },
+   {
+    "sheet_row": 1880,
+    "veredito": "confirma",
+    "motivo": "Tab.2 p.7 factor kg/m3 de betao (C20 201,38) = A1-A3 agregado (estagio production EN 15978, nao separavel); A4 = Tab.3 betao Mixer diesel 50 km 68,87 t / 3549,61 m3 = 19,40 kg/m3 (soma dos volumes Tab.2 = 3549,61 confere); unidade m3 de betao."
+   },
+   {
+    "sheet_row": 1881,
+    "veredito": "confirma",
+    "motivo": "Tab.2 p.7 factor kg/m3 de betao (C25 250,54) = A1-A3 agregado (estagio production EN 15978, nao separavel); A4 = Tab.3 betao Mixer diesel 50 km 68,87 t / 3549,61 m3 = 19,40 kg/m3 (soma dos volumes Tab.2 = 3549,61 confere); unidade m3 de betao."
+   },
+   {
+    "sheet_row": 1882,
+    "veredito": "confirma",
+    "motivo": "Tab.2 p.7 factor kg/m3 de betao (C30 306,78) = A1-A3 agregado (estagio production EN 15978, nao separavel); A4 = Tab.3 betao Mixer diesel 50 km 68,87 t / 3549,61 m3 = 19,40 kg/m3 (soma dos volumes Tab.2 = 3549,61 confere); unidade m3 de betao."
+   },
+   {
+    "sheet_row": 1883,
+    "veredito": "confirma",
+    "motivo": "Tab.2 p.7 factor kg/m3 de betao (C40 391,03) = A1-A3 agregado (estagio production EN 15978, nao separavel); A4 = Tab.3 betao Mixer diesel 50 km 68,87 t / 3549,61 m3 = 19,40 kg/m3 (soma dos volumes Tab.2 = 3549,61 confere); unidade m3 de betao."
+   }
+  ]
+ }
+]

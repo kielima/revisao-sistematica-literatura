@@ -1,0 +1,62 @@
+[
+ {
+  "row_id": 4820,
+  "pares": [
+   {
+    "sheet_row": 598,
+    "veredito": "retirar",
+    "motivo": "Aritmetica confere (Tab.8 p.22: timber frame A1-A3 0,28 e A4 0,005 kgCO2e/kg x 480 kg/m3 do GL30h, Tab.3 p.9 = 134,4 e 2,4; A5w 1,44 fora das colunas; 134,4+2,4+1,44=138,24). Mas a unidade e m3 de madeira lamelada colada (factor por kg de madeira x massa volumica), nao m3 de betao; carbono biogenico excluido de A1-A5. Retirar das etapas de betao (manter so se a familia biobase for aceite)."
+   }
+  ]
+ },
+ {
+  "row_id": 4841,
+  "pares": [
+   {
+    "sheet_row": 1815,
+    "veredito": "confirma",
+    "motivo": "Tab.7 p.10 (imagem vista): GWP100 betao 3,40E+02 total, cimento 2,82E+02 (83%), transporte do betao 3,40E+01 (10%), restante 3,20E+01 (9%), por unidade funcional 1 m2 GFA. Divisor: 282/359 = 0,7855 m3/m2 = 0,748 (Tab.1, 184,03 m3/246 m2) x 1,05 (5% desperdicio, Sec.2.2.1). Texto p.9: os 359 kg sao CO2 do cimento por m3 (nao massa de cimento), mas a conta fecha igual. 340/0,7855=432,8 e 34/0,7855=43,28 batem. A4 = betao pronto 50 km ate a obra (declarado). A2 nao separado (dentro do restante) = vazio correcto. Unidade m3 de betao (grau 25 da subestrutura); incerteza menor: se o 'Concrete' da Tab.6 incluisse o betao de limpeza grau 7 o divisor mudava, mas o ajuste exacto 282/359 vs 0,748x1,05 indica so o grau 25."
+   }
+  ]
+ },
+ {
+  "row_id": 4869,
+  "pares": [
+   {
+    "sheet_row": 1826,
+    "veredito": "confirma",
+    "motivo": "Tabla 2 p.7 (valores Med, kg CO2/m3 HA-25 B): 302,39 = 337,67 - 35,28 (acero 31,15 + ferralla 0,95 + transp. acero 2,66 + transp. ferralla 0,52 = 35,28, soma conferida). A1 = cimento 265,84 + aridos 4,14 + aditivos 3,19 = 273,17; A2 = 7,03+5,81+0,08 = 12,92; A3 = preparacion del hormigon 0,46; A4 = transporte de hormigon 7,93. Todos batem. 'Puesta en obra' 7,93 e A5, incluida no 302,39 (273,17+12,92+0,46+7,93=294,48; resto 7,91 = puesta en obra). Unidade m3 de betao armado HA-25 com o aco excluido do valor."
+   }
+  ]
+ },
+ {
+  "row_id": 4931,
+  "pares": [
+   {
+    "sheet_row": 1858,
+    "veredito": "retirar",
+    "motivo": "Numeros conferem: Fig.7 p.1014 (imagem vista) Production RC wall 4,5E+04 kgCO2eq; Fig.3 p.1011 Production = A1-A3; Tab.4 p.1012 betao 72,6+5,2 = 77,8 m3; 4,5E4/77,8 = 578,4. Construction 3,5E+03 = A4+A5 agregados, nao separavel (a4 vazio correcto). Mas o numerador e o sistema RC completo (betao + 8,3 t de aco + fundacao, Athena IE4B), dividido pelo volume de betao: a unidade nao e m3 de betao (e elemento/sistema com aco). Propor retirar das etapas; so manter se a regra concreto_armado do total do sistema se aplicar tambem as etapas."
+   }
+  ]
+ },
+ {
+  "row_id": 5012,
+  "pares": [
+   {
+    "sheet_row": 32,
+    "veredito": "confirma",
+    "motivo": "Sec.3.1 do artigo anexo: 'foram desconsideradas as etapas de extracao de materias-primas e seu transporte, bem como o transporte, lancamento, compactacao e cura do concreto' -> A2=0 e A4=0 declarados. Tab.2 (texto): cimento 272,00 + areia 2,20 + brita 8,91 + aditivo 3,16 + agua 0,10 = 286,37 kgCO2-eq por m3 de concreto (calculado 'para 1 m3 de cada concreto'). Soma conferida. Por constituinte, nao por etapa: A1-A3 agregado (cradle-to-gate, sem extracao). Unidade m3 de betao (traco tradicional)."
+   }
+  ]
+ },
+ {
+  "row_id": 5041,
+  "pares": [
+   {
+    "sheet_row": 51,
+    "veredito": "confirma",
+    "motivo": "Fig.29 p.136 (imagem vista, C25, GWP100 por unidade funcional = m2 de estrutura): brita 3,13 + areia 2,32 + cimento 45,5 = 50,95 kgCO2/m2; Fig.28 p.135: distribuicao do concreto 1,65, estrutura concreto 1,15E+02 (cimento 45,5 = 39,5% -> 115, coerente). Volume Quadro 2 p.114: 471,4 m3/2.078 m2 (p.98) = 0,2268 m3/m2 -> 224,6 (A1-A3) e 7,27 (A4; 1,65/0,2268). Com 0,23 arredondado do Quadro daria 221,5 e 7,17 (-1,4%, dentro dos 2%). Sec.5.5.9 p.104: 'distribuicao do concreto a obra (transporte)' 60 km = A4; processos de materiais incluem transporte das materias-primas a usina (A2 dentro de A1-A3). Fig.29 omite agua/energia da usina (A3 pequena), por isso 'A1-A3 agregado' e aproximado. Formas e aco excluidos do valor. Unidade m3 de betao via divisor de volume."
+   }
+  ]
+ }
+]

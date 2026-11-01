@@ -1,0 +1,110 @@
+[
+ {
+  "row_id": 5050,
+  "pares": [
+   {
+    "sheet_row": 62,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Tab.16 p.78 (pdf p.88): concreto 25 MPa, 0,179 m3/m2 x 267 kgCO2-eq/m3 (fonte EPD) = 47,756; 267 e A1-A3 agregado: a tese so define a Etapa de Producao EP como manufatura+transporte+materias-primas (Tab.6 p.60) e nao diz que modulos a EPD cobre. A4 2,75 = 0,492 kgCO2-eq/m2 (Tab.22 p.82, ETi = transporte do ponto fabril ao local da obra, concreto 20,5 km) / 0,179 m3/m2 = 2,749 (conta nossa por divisao de valores impressos, dentro de 2%). Unidade: m3 de betao (a quantidade e o factor sao por m3 de betao 25 MPa)."
+   }
+  ]
+ },
+ {
+  "row_id": 2684,
+  "pares": [
+   {
+    "sheet_row": 135,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Valor lido na Fig.5 p.6 (barra OPC ~312, sem rotulo numerico) e reproduzido pela conta Tab.2 (massas x factores A1-A2, gravilha 8/16 e 16/32 com o factor da 4/8 = 2,65E-02): 311,8 (0,06%). Fig.2 p.4 mostra 'Concrete transportation to site' fora do ambito (A4-A5 out of scope), logo a4=0 e declarado. Etapas A1/A2/A3 nao publicadas separadamente (o factor A1-A2 inclui 50 km de transporte das materias-primas, sec. 2.4.2). Total por m3 de betao (eixo Fig.5)."
+   },
+   {
+    "sheet_row": 136,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Fig.5 ~387 (OPC-SF); conta Tab.2 com factores A1-A2 = 385,0 (0,4%). a4=0 declarado fora do ambito (Fig.2)."
+   },
+   {
+    "sheet_row": 137,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Fig.5 ~218 (LC3); conta = 216,9 (0,9%). a4=0 declarado fora do ambito (Fig.2)."
+   },
+   {
+    "sheet_row": 138,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Fig.5 ~290 (LC3-SF); conta = 289,0 (0,6%). a4=0 declarado fora do ambito (Fig.2)."
+   }
+  ]
+ },
+ {
+  "row_id": 2696,
+  "pares": [
+   {
+    "sheet_row": 656,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Tab.1 (manuscrito p.12/13): Concrete C30/37 230 kgCO2e/m3; texto: 'scope is focussed on A1-A3 life cycle stages', cradle-to-gate, formwork fora. Sem etapas separadas; a2/a4 vazios correctos (nao declarados excluidos individualmente)."
+   },
+   {
+    "sheet_row": 657,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Tab.1: Concrete C32/40 240 kgCO2e/m3, A1-A3 agregado."
+   }
+  ]
+ },
+ {
+  "row_id": 2699,
+  "pares": [
+   {
+    "sheet_row": 150,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Tab.8 p.11 (pdf p.11): Raw material 3,05x10^2 (A1), Transportation 5,95x10^-1 (A2, materias-primas ate a central, sec.4.2.2), Manufacture 2,95 (A3, sec.4.2.3), Total 3,09x10^2 kg-CO2eq/m3; soma 308,55 (0,1%). Cradle-to-gate (sec.5.1). Por m3 de betao 24 MPa."
+   }
+  ]
+ },
+ {
+  "row_id": 2704,
+  "pares": [
+   {
+    "sheet_row": 666,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Tab.8 p.15: Conventional input method Materials 332,4 / Transportation 5,7 / Manufacture 2,8 / Total 340,9 kg-CO2/m3; cradle-to-gate (sec.2, ISO 21930). Mapeamento A1/A2/A3 e nosso mas coerente com as definicoes das etapas."
+   },
+   {
+    "sheet_row": 667,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Tab.8 Optimization CO2 Prioritized 221,8/1,2/2,8 = 225,8 (texto p.15) e 225,7 (conclusoes p.17); diferenca 0,04%."
+   }
+  ]
+ },
+ {
+  "row_id": 2744,
+  "pares": [
+   {
+    "sheet_row": 697,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Tab.7 p.10 (p.64 impressa): Ready-mix concrete C30/37, m3, A1-A3 GWP 270,88 (One Click LCA). Agregado A1-A3, sem etapas separadas."
+   },
+   {
+    "sheet_row": 698,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Tab.7: C40/50, 355,83 kg CO2eq/m3 A1-A3."
+   },
+   {
+    "sheet_row": 699,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Confirma. Tab.7: C50/60, 429,00 kg CO2eq/m3 A1-A3."
+   }
+  ]
+ }
+]

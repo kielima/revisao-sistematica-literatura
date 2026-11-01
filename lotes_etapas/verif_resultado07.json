@@ -1,0 +1,147 @@
+[
+ {
+  "row_id": 3071,
+  "pares": [
+   {
+    "sheet_row": 297,
+    "veredito": "confirma",
+    "motivo": "Tab.4 OPCC 40 MPa = 395 kg CO2/m3; Tab.4 p.7 total confere; transporte excluido pelo artigo ('emissions from transportation are not considered'), A1=total de producao dos materiais"
+   },
+   {
+    "sheet_row": 298,
+    "veredito": "corrigir",
+    "motivo": "108 = 2,7 x 40 (kg CO2/MPa x MPa) nao e o total; Tab.4 AAC 40 MPa Total Emission = 222 kg CO2/m3; unidade funcional m3",
+    "valor_correto": {
+     "co2_kg_m3": 222,
+     "a1": 222
+    }
+   },
+   {
+    "sheet_row": 299,
+    "veredito": "confirma",
+    "motivo": "Tab.4 OPCC 65 MPa = 435; Tab.A5 soma 0.435 t; Tab.4 p.7 total confere; transporte excluido pelo artigo ('emissions from transportation are not considered'), A1=total de producao dos materiais"
+   },
+   {
+    "sheet_row": 300,
+    "veredito": "corrigir",
+    "motivo": "259 confere com Tab.A5 (soma dos componentes AAC 60 MPa = 0.259 t; Tab.4 traz 512, incoerente com o apendice). Total e producao de materiais sem transporte, logo a1=259 como nas linhas irmas",
+    "valor_correto": {
+     "a1": 259
+    }
+   },
+   {
+    "sheet_row": 301,
+    "veredito": "confirma",
+    "motivo": "Tab.4 OPCC 105 MPa = 247; Tab.A6 soma 0.247 t"
+   },
+   {
+    "sheet_row": 302,
+    "veredito": "confirma",
+    "motivo": "Tab.4 AAC-I 106 MPa = 174; Tab.A6 soma 0.174 t"
+   },
+   {
+    "sheet_row": 303,
+    "veredito": "corrigir",
+    "motivo": "313 confere com Tab.A6 (soma AAC-II 0.313 t; Tab.4 traz 639, incoerente com o apendice). Total de materiais sem transporte, a1=313",
+    "valor_correto": {
+     "a1": 313
+    }
+   }
+  ]
+ },
+ {
+  "row_id": 3091,
+  "pares": [
+   {
+    "sheet_row": 306,
+    "veredito": "confirma",
+    "motivo": "Tab.12 coluna Optimum: Materials 307,7361 (cimento 295,75+agua 0,0811+NCA 8,125+NFA 1,28+RCA 2,55); Transport 9,9595 = 9,1054+0,1389+0,7152 (materias-primas ate a central, A2); UF 1 m3; bloco Use (eletricidade) nao incluido em a1/a2"
+   }
+  ]
+ },
+ {
+  "row_id": 3092,
+  "pares": [
+   {
+    "sheet_row": 310,
+    "veredito": "confirma",
+    "motivo": "Tab.4 70-30-0: C 232,5+FA 5,29+CAgg 2,47+FAgg 1,72+SP 24,15=266,13; TR 6,28 (Tab.3 6,28); MB 1,41; total 273,81 no texto; ACV A1-A3"
+   },
+   {
+    "sheet_row": 311,
+    "veredito": "confirma",
+    "motivo": "Tab.4 75-0-25: A1 279,87; TR 4,39; MB 1,41; soma 285,67 vs 287,90 impresso no texto (0,8%, dentro da tolerancia)"
+   },
+   {
+    "sheet_row": 312,
+    "veredito": "confirma",
+    "motivo": "Tab.4 100-0-0: A1 493,94; TR 3,48; MB 1,41; total 498,87 no texto"
+   }
+  ]
+ },
+ {
+  "row_id": 3102,
+  "pares": [
+   {
+    "sheet_row": 841,
+    "veredito": "confirma",
+    "motivo": "Tab.C.2 GWP100 Materials Production (A1-A3) 693 kg CO2-eq/laje / 1,64 m3 (Tab.4 Concrete volume) = 422.6; inclui aco e espacadores, nao so betao (so_agregado); A4-A5 agregados"
+   },
+   {
+    "sheet_row": 1852,
+    "veredito": "confirma",
+    "motivo": "Tab.C.2 GWP100 Materials Production (A1-A3) 709 kg CO2-eq/laje / 1,64 m3 (Tab.4 Concrete volume) = 432.3; inclui aco e espacadores, nao so betao (so_agregado); A4-A5 agregados"
+   },
+   {
+    "sheet_row": 1853,
+    "veredito": "confirma",
+    "motivo": "Tab.C.2 GWP100 Materials Production (A1-A3) 761 kg CO2-eq/laje / 1,64 m3 (Tab.4 Concrete volume) = 464.0; inclui aco e espacadores, nao so betao (so_agregado); A4-A5 agregados"
+   },
+   {
+    "sheet_row": 1854,
+    "veredito": "confirma",
+    "motivo": "Tab.C.2 GWP100 Materials Production (A1-A3) 768 kg CO2-eq/laje / 1,64 m3 (Tab.4 Concrete volume) = 468.3; inclui aco e espacadores, nao so betao (so_agregado); A4-A5 agregados"
+   }
+  ]
+ },
+ {
+  "row_id": 3152,
+  "pares": [
+   {
+    "sheet_row": 867,
+    "veredito": "confirma",
+    "motivo": "Tab.11: cimento 254 + agregado fino 9,56 + agua 0,056 = 263,616 (A1, sec.3.4.2); Mixing Production 6,14 (A3); total 270 = Tab.12 M_REF; unidade 1 m3 de argamassa (nao betao), assinalar"
+   }
+  ]
+ },
+ {
+  "row_id": 3187,
+  "pares": [
+   {
+    "sheet_row": 896,
+    "veredito": "confirma",
+    "motivo": "Tab.3 M1 CO2-eq 440,5 kg/m3 (1 m3); batching 2,3 kg/m3 Tab.4 = A3; A1+A2 nao separaveis"
+   },
+   {
+    "sheet_row": 897,
+    "veredito": "confirma",
+    "motivo": "Tab.3 M2 411,6; batching 2,3 (Tab.4)"
+   },
+   {
+    "sheet_row": 898,
+    "veredito": "confirma",
+    "motivo": "Tab.3 M19 543,6; batching 2,3 (Tab.4)"
+   },
+   {
+    "sheet_row": 899,
+    "veredito": "confirma",
+    "motivo": "Tab.3 M22 248,3; batching 2,3 (Tab.4)"
+   },
+   {
+    "sheet_row": 900,
+    "veredito": "confirma",
+    "motivo": "Tab.3 M25 (90 C) 422,3; A3 = batching 2,3 + cura 90 C 26,4 = 28,7 (Tab.4)"
+   }
+  ]
+ }
+]

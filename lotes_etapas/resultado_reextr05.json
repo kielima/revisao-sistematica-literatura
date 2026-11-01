@@ -1,0 +1,24 @@
+[
+ {
+  "row_id": 5040,
+  "pares": [
+   {
+    "sheet_row": 50,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.70 Fig.18 (fronteira); p.86 Tab.10 (totais Fundacao 265.770,17 + Superestrutura 546.362,25 kg CO2 eq); p.87 Tab.11 e Fig.23 (contribuicao por processo); p.98 Fig.37 (sensibilidade ao transporte)",
+    "citacao": "Foi considerada uma abordagem de fronteira de Berco ao Portao (Cradle-to-gate), incluindo os potenciais impactos desde a extracao da materia prima, producao dos materiais ate a construcao do edificio.",
+    "nota": "Artigo nao separa A1/A2/A3/A4. Tab.10 so da o total por sistema (Fundacao+Superestrutura = 812.132,42 kg CO2 eq, valor gravado bate: 265.770,17+546.362,25). Fig.23 (Superestrutura, por unidade funcional 1 m2) so tem barras por processo ecoinvent (Clinker ~68, Pig iron ~11, Diesel ~9, Eletricidade ~4,5, restantes ~32 kg CO2 eq/m2) sem rotulos numericos e por processo, nao por etapa: nao atribuido a A1 (regra 2/3). Transporte do betao (15 km concreteira-obra, Tab.3/4) e transporte do aco (510 km) entram no inventario mas o CO2 nao e publicado isolado; Fig.37 e sensibilidade normalizada em %. Total inclui aco CA-50, formas de madeira e transporte (familia concreto armado). Nada em A5/B/C/D."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Dissertacao UFMT (122 pp.) lida na integra via download_file_content + pdftotext (4226 linhas); renderizadas pp.70 e 87. Titulo/autora confirmados na capa. Sem CO2 por etapa EN 15804."
+ }
+]

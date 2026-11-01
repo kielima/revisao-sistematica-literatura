@@ -1,0 +1,200 @@
+[
+ {
+  "row_id": 2580,
+  "autor": "Ankur, Nitin and Singh, Navdeep",
+  "titulo": "An investigation on optimizing the carbonation resistance of coal bottom ash concrete with its carbon footprints and eco-costs",
+  "fileId": "1n9Xh5TerlgEC8vDu1XmR2bbjkqma8ti7",
+  "pdf": "ANKUR et al., 2024 - resm2023.825ma0719.pdf",
+  "pares": [
+   {
+    "sheet_row": 78,
+    "co2_kg_m3": 379.22,
+    "a1": 367.5,
+    "a2": 11.44,
+    "a3": 0.28,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.12-13 (Sec.3.5.3) e Tab.6 (p.13, fator de impacto x quantidades)",
+    "nota": "Fast-track LCA gate-to-gate (Fig.14). Etapas derivadas por nos da Tab.6 (fator x quantidade): Materials=A1, Transport (materias-primas ate ao laboratorio)=A2, Energy use (mistura/vibracao) =A3. Controle: A1=395x0.91+732x0.002+1068x0.006+180x0.001=367"
+   },
+   {
+    "sheet_row": 79,
+    "co2_kg_m3": 303.06,
+    "a1": 289.72,
+    "a2": 12.31,
+    "a3": 1.04,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.12-13 (Sec.3.5.3) e Tab.6 (p.13, fator de impacto x quantidades)",
+    "nota": "Fast-track LCA gate-to-gate (Fig.14). Etapas derivadas por nos da Tab.6 (fator x quantidade): Materials=A1, Transport (materias-primas ate ao laboratorio)=A2, Energy use (mistura/vibracao e moagem da CBA) =A3.  Otimizado: A1=282.1+1.034+6.408+0.18=28"
+   }
+  ]
+ },
+ {
+  "row_id": 2641,
+  "autor": "Dervishaj, Arlind and Gudmundsson, Kjartan and Malmqvist, Tove",
+  "titulo": "Digital workflow to support the reuse of precast concrete and estimate the climate benefit",
+  "fileId": "15NIkDx4nNCflXnWF8aeIOV_eu-1z88FU",
+  "pdf": "DERVISHAJ et al., 2024b - 1755-1315-1402-1-012026.pdf",
+  "pares": [
+   {
+    "sheet_row": 629,
+    "co2_kg_m3": 525,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 107.9,
+    "a1a3": 417.1,
+    "tipo": "so_agregado+derivado",
+    "local": "Tab.5 (Totals) p.7; Sec.4.2 (253 m3)",
+    "nota": "A1-A3 = 105.528/253 = 417,1; A4 = 27.297/253 = 107,9 (coluna 'Transport Max. A4', transporte dos produtos, dado Boverket 0,045 kg/kg); A5 = 0. 417,1+107,9 = 525,0 vs 525 gravado: sim. A1-A3 so agregado. Inclui armadura. Carbonatacao B1 (-4973 kg) nao"
+   }
+  ]
+ },
+ {
+  "row_id": 2650,
+  "autor": "Dervishaj, Arlind and Malmqvist, Tove and Silfwerbrand, Johan and\nGudmundsson, K",
+  "titulo": "A digital workflow for assessing lifespan, carbonation, and embodied\ncarbon of reusing concrete in buildings",
+  "fileId": "1iec2TEAXlkvk2UvdkjUJ9DLGFff2W4xU",
+  "pdf": "DERVISHAJ et al., 2024 - j.jobe.2024.110536.pdf",
+  "pares": [
+   {
+    "sheet_row": 630,
+    "co2_kg_m3": 525.8,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": 108,
+    "a1a3": 417.8,
+    "tipo": "so_agregado+derivado",
+    "local": "Tab.6 (Totals) p.16; Tab.2 (734,06 m3; A5=0)",
+    "nota": "A1-A3 = 306.679,4/734,06 = 417,8; coluna publicada 'A4-5' = 79.278,5; como A5 = 0 (Tab.2 e texto), A4 = 79.278,5/734,06 = 108,0. Soma 525,8 = gravado: sim. A1-A3 so agregado. Inclui armadura; carbonatacao nao descontada."
+   }
+  ]
+ },
+ {
+  "row_id": 2658,
+  "autor": "D'Orazio, Marco and Di Giuseppe, Elisa and Carosi, Marta",
+  "titulo": "Life Cycle Assessment of Mortars with Fine Recycled Aggregates from\nIndustrial Waste: Evaluation of Transports Impact in the Italian Context",
+  "fileId": "1XrCbA2LLo260bCO6jRohDYV5unmiziq5",
+  "pdf": "D'ORAZIO et al., 2023 - su15043221.pdf",
+  "pares": [
+   {
+    "sheet_row": 631,
+    "co2_kg_m3": 420,
+    "a1": 335.5,
+    "a2": 3.6,
+    "a3": 24.2,
+    "a4": 11.9,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "Tab.7/8 p.10-12 (medias Monte Carlo, kg CO2/L); Fig.2 p.9; Sec.3.3.1-3.3.5",
+    "nota": "REF1, cenario A (50 km): derivado de kg CO2/L x1000. A1 = cimento 0.33213+areia 0.00333 (Sec.3.3.1); A2 = transporte de cimento 0.00357 (areia 0 km, Tab.1); A3 = embalagem+electricidade media tensao+correia+maquina (Sec.3.3.3) = 0.02424; A4 = 'Transp"
+   },
+   {
+    "sheet_row": 633,
+    "co2_kg_m3": 420,
+    "a1": 335.5,
+    "a2": 3.6,
+    "a3": 24.3,
+    "a4": 11.9,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "Tab.7/8 p.10-12 (medias Monte Carlo, kg CO2/L); Fig.2 p.9; Sec.3.3.1-3.3.5",
+    "nota": "REF2, cenario A (50 km): derivado de kg CO2/L x1000. A1 = cimento 0.332134+areia 0.003334 (Sec.3.3.1); A2 = transporte de cimento 0.003571 (areia 0 km, Tab.1); A3 = embalagem+electricidade media tensao+correia+maquina (Sec.3.3.3) = 0.02425; A4 = 'Tra"
+   }
+  ]
+ },
+ {
+  "row_id": 2693,
+  "autor": "Inman, Marianne and Thorhallsson, Eythor Rafn and Azrague, Kamal",
+  "titulo": "A Mechanical and Environmental Assessment and Comparison of Basalt Fibre Reinforced Polymer (BFRP) Rebar and Steel Rebar in Concrete Beams",
+  "fileId": "17DLKFrffYXrAbCkguIoSxo05MhosIOQf",
+  "pdf": "INMAN et al., 2017 - j.egypro.2017.03.005.pdf",
+  "pares": [
+   {
+    "sheet_row": 646,
+    "co2_kg_m3": 285,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 285,
+    "tipo": "so_agregado+derivado",
+    "local": "p.36 Tab.3 (Climate change por viga); Sec.3.2 (93,7% betao BFRP; 56,2% betao viga aco); Sec.2 cradle-to-gate",
+    "nota": "So A1-A3 (product stage, cradle-to-gate; A4, uso e fim de vida nao avaliados). Valor do betao = GWP da viga (Tab.3) x percentagem do betao / volume; coincide com o co2_kg_m3 gravado. Sem A1/A2/A3 separados. Texto diz 14,7 para viga BFRP 1200, Tab.3 1"
+   },
+   {
+    "sheet_row": 647,
+    "co2_kg_m3": 284.6,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 284.6,
+    "tipo": "so_agregado+derivado",
+    "local": "p.36 Tab.3 (Climate change por viga); Sec.3.2 (93,7% betao BFRP; 56,2% betao viga aco); Sec.2 cradle-to-gate",
+    "nota": "So A1-A3 (product stage, cradle-to-gate; A4, uso e fim de vida nao avaliados). Valor do betao = GWP da viga (Tab.3) x percentagem do betao / volume; coincide com o co2_kg_m3 gravado. Sem A1/A2/A3 separados. Texto diz 14,7 para viga BFRP 1200, Tab.3 1"
+   },
+   {
+    "sheet_row": 648,
+    "co2_kg_m3": 284.6,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 284.6,
+    "tipo": "so_agregado+derivado",
+    "local": "p.36 Tab.3 (Climate change por viga); Sec.3.2 (93,7% betao BFRP; 56,2% betao viga aco); Sec.2 cradle-to-gate",
+    "nota": "So A1-A3 (product stage, cradle-to-gate; A4, uso e fim de vida nao avaliados). Valor do betao = GWP da viga (Tab.3) x percentagem do betao / volume; coincide com o co2_kg_m3 gravado. Sem A1/A2/A3 separados. Texto diz 14,7 para viga BFRP 1200, Tab.3 1"
+   },
+   {
+    "sheet_row": 649,
+    "co2_kg_m3": 284.6,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 284.6,
+    "tipo": "so_agregado+derivado",
+    "local": "p.36 Tab.3 (Climate change por viga); Sec.3.2 (93,7% betao BFRP; 56,2% betao viga aco); Sec.2 cradle-to-gate",
+    "nota": "So A1-A3 (product stage, cradle-to-gate; A4, uso e fim de vida nao avaliados). Valor do betao = GWP da viga (Tab.3) x percentagem do betao / volume; coincide com o co2_kg_m3 gravado. Sem A1/A2/A3 separados. Texto diz 14,7 para viga BFRP 1200, Tab.3 1"
+   },
+   {
+    "sheet_row": 650,
+    "co2_kg_m3": 281.9,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 281.9,
+    "tipo": "so_agregado+derivado",
+    "local": "p.36 Tab.3 (Climate change por viga); Sec.3.2 (93,7% betao BFRP; 56,2% betao viga aco); Sec.2 cradle-to-gate",
+    "nota": "So A1-A3 (product stage, cradle-to-gate; A4, uso e fim de vida nao avaliados). Valor do betao = GWP da viga (Tab.3) x percentagem do betao / volume; coincide com o co2_kg_m3 gravado. Sem A1/A2/A3 separados. Texto diz 14,7 para viga BFRP 1200, Tab.3 1"
+   }
+  ]
+ },
+ {
+  "row_id": 2700,
+  "autor": "Kim, Tae Hyoung and Chae, Chang U.",
+  "titulo": "Environmental Impact Analysis of Acidification and Eutrophication Due to\nEmissions from the Production of Concrete",
+  "fileId": "1fAY18_otIjAXocMrIRH0ZnOFyC419OAN",
+  "pdf": "KIM et al., 2016c - su8060578.pdf",
+  "pares": [
+   {
+    "sheet_row": 660,
+    "co2_kg_m3": 299,
+    "a1": 300.8,
+    "a2": 0.79,
+    "a3": 0.12,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.12, Fig. 4 (serie Global warming por item: OPC 277, GGBS 0.17, G 4.06, S 1.33, W 17.9, AE 0.34, Transport 0.79, Manufacture 0.12, Total 299); fronteira p.9 Sec.5.1",
+    "nota": "A1 = soma dos 6 itens de materias-primas (277+0.17+4.06+1.33+17.9+0.34=300.8), derivado: o artigo define fronteira cradle-to-gate com Raw material / Transport / Manufacture separados. A2 = item 'Transport' (transporte das materias-primas das regioes "
+   }
+  ]
+ }
+]

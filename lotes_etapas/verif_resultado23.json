@@ -1,0 +1,97 @@
+[
+ {
+  "row_id": 3872,
+  "pares": [
+   {
+    "sheet_row": 1126,
+    "veredito": "confirma",
+    "motivo": "Tab.2 p.8 (PDF p.9) 'GWP in year zero' (kg CO2e/m3 betao C35/45; texto p.7: A1-A3 do traco de referencia = 237.22). 237.38 confere; a1a3 sem separacao A1/A2/A3 e A4 nao atribuido (EPD base cobre A1-A4 mas os resultados sao dados como A1-A3).",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1127,
+    "veredito": "confirma",
+    "motivo": "Tab.2: 227.67 (a1a3 gravado correto); co2_kg_m3=227.79 difere 0,05% (dentro da tolerancia, sugerir 227.67). Unidade m3 de betao.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1128,
+    "veredito": "confirma",
+    "motivo": "Tab.2: 217.35 (a1a3 correto); co2_kg_m3=217.47 difere 0,06% (dentro da tolerancia, sugerir 217.35). Unidade m3 de betao.",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3894,
+  "pares": [
+   {
+    "sheet_row": 1131,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.3 GWP kg CO2 eq por 1 m3 de betao pronto (CML). Valor confere; cradle-to-gate explicito e combustivel dos camioes-betoneira excluido, logo A4=0 declarado; A1-A3 nao separadas. (25 MPa 196)",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1132,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.3 GWP kg CO2 eq por 1 m3 de betao pronto (CML). Valor confere; cradle-to-gate explicito e combustivel dos camioes-betoneira excluido, logo A4=0 declarado; A1-A3 nao separadas. (30 MPa 220)",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1133,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.3 GWP kg CO2 eq por 1 m3 de betao pronto (CML). Valor confere; cradle-to-gate explicito e combustivel dos camioes-betoneira excluido, logo A4=0 declarado; A1-A3 nao separadas. (35 MPa 248)",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1134,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.3 GWP kg CO2 eq por 1 m3 de betao pronto (CML). Valor confere; cradle-to-gate explicito e combustivel dos camioes-betoneira excluido, logo A4=0 declarado; A1-A3 nao separadas. (40 MPa 295)",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3896,
+  "pares": [
+   {
+    "sheet_row": 1135,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "UF = 1 m2 de parede de taipa (300 mm), nao m3 de betao; material e taipa (terra), nao betao. Fig.3 so em % do tijolo duplo, sem rotulos numericos; unico numero absoluto e 3,6 kg = 10% (~36 kg/m2, texto p.6). O 120 gravado (~36/0,3) e derivacao nossa. Fig.2 declara modulos A1-5, Fig.3 'A1-3 only'; transporte ao local excluido nos resultados iniciais (A4=0 declarado, mas irrelevante)."
+   }
+  ]
+ },
+ {
+  "row_id": 3904,
+  "pares": []
+ },
+ {
+  "row_id": 3915,
+  "pares": [
+   {
+    "sheet_row": 1140,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.5 linha (a) Concrete C25/30 = 362.29 kg/m3 (GEMIS) confere; fase (a) = extracao, transporte, fabrico, sem detalhe: a1a3 e leitura aproximada (artigo nao escreve 'A1-A3'; A4 nao atribuido, correto). Unidade m3 de betao (aço separado: 2.537 kg/kg).",
+    "unidade_m3_betao": true
+   }
+  ]
+ },
+ {
+  "row_id": 3947,
+  "pares": [
+   {
+    "sheet_row": 1147,
+    "veredito": "confirma",
+    "motivo": "Batching 1,23 kg CO2-eq/m3 de betao (Tab.1 p.4, nota b: factor por m3) confere e e A3; A4=0 ok (cradle-to-gate, Fig.1). Ressalva: co2_kg_m3 nao e numero publicado, so intervalos em barras na Fig.5c p.11 (40 MPa: ~200-395); 242/391 caem dentro das barras mas nao ha rotulo, e A1/A2 nao publicados; o A3 e factor constante a todas as misturas.",
+    "unidade_m3_betao": true
+   },
+   {
+    "sheet_row": 1148,
+    "veredito": "confirma",
+    "motivo": "Batching 1,23 kg CO2-eq/m3 de betao (Tab.1 p.4, nota b: factor por m3) confere e e A3; A4=0 ok (cradle-to-gate, Fig.1). Ressalva: co2_kg_m3 nao e numero publicado, so intervalos em barras na Fig.5c p.11 (40 MPa: ~200-395); 242/391 caem dentro das barras mas nao ha rotulo, e A1/A2 nao publicados; o A3 e factor constante a todas as misturas.",
+    "unidade_m3_betao": true
+   }
+  ]
+ }
+]
