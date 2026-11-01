@@ -1,0 +1,296 @@
+[
+ {
+  "row_id": 2800,
+  "autor": "Soltanzadeh, Fatemeh and Behbahani, Ali E. and Hosseinmostofi, Kasra and\nTeixeir",
+  "titulo": "Assessment of the Sustainability of Fibre-Reinforced Concrete by\nConsidering Both Environmental and Mechanical Properties",
+  "fileId": "1EFGivZLNjsDPG6HhZhdM0tcGJ9GaBUE7",
+  "pdf": "SOLTANZADEH et al., 2022.pdf",
+  "pares": [
+   {
+    "sheet_row": 230,
+    "co2_kg_m3": 518,
+    "a1": null,
+    "a2": 12.4,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.16-17, Sec.3.2, texto sobre Fig.8; Tab.7",
+    "nota": "Derivado: 2,4% (road transport, referencia FRSCC R0-I90, texto) x 518 = 12,4 kg CO2-eq/m3; incerteza de arredondamento ~+-0,3. 'Road transport' = transporte das materias-primas ate a central LEST (Tab.5, fronteira inclui 'transporting the materials')"
+   }
+  ]
+ },
+ {
+  "row_id": 2801,
+  "autor": "Sombrio, Catarina Moraes de Oliveira",
+  "titulo": "{ACV} de painéis de blocos cerâmicos e concreto armado : um exercício de aplicação do manual do {ILCD}",
+  "fileId": "1Q-zXLFuojUAsvintbG9nu0LokIHyutM3",
+  "pdf": "SOMBRIO, 2015.pdf",
+  "pares": [
+   {
+    "sheet_row": 234,
+    "co2_kg_m3": 239.4,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 239.4,
+    "tipo": "so_agregado+derivado",
+    "local": "p.88 Tab.15 (22,5 kg CO2 eq, 70,09%); p.79 Tab.11 (0,094 m3 concreto C20); p.73 fronteira",
+    "nota": "Derivado: 22,5 kg CO2 eq (processo 'producao do concreto CA20/CA25' do GaBi, fronteira berco-ao-portao) / 0,094 m3 = 239,4 kg/m3. So A1-A3 agregado (nao ha divisao). Transporte do concreto: Tab.12 da distancia 0 km (central e obra em Riacho Fundo-DF)"
+   }
+  ]
+ },
+ {
+  "row_id": 2828,
+  "autor": "Zhang, Xiaocun and Zhang, Xueqi",
+  "titulo": "Design of low-carbon and cost-efficient concrete frame buildings: a\nhybrid optimization approach based on harmony search",
+  "fileId": "14G-mhPBe1JtLDVpqoteWTVcS4hq5E1sz",
+  "pdf": "ZHANG et al., 2023f - 13467581.2022.2145202.pdf",
+  "pares": [
+   {
+    "sheet_row": 708,
+    "co2_kg_m3": 747.8,
+    "a1": 700,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.9 (2168), Tab.4 coluna Framed structure; Tab.3 (quantidades de betao, p.8)",
+    "nota": "Derivado: Producao 426,99 tCO2e / 610,0 m3 de betao (100,8+151,0+254,7+62,0+41,5 da Tab.3) = 700,0 kg/m3; mesma base do valor gravado (456,16 t / 610 m3 = 747,8). 'Production' = producao dos materiais da estrutura (betao, armadura, cofragem), mapeado"
+   }
+  ]
+ },
+ {
+  "row_id": 2832,
+  "autor": "Zheng, Yi and Li, Qian and Zhou, Ling and Gao, Fei and Deng, Zuiliang\nand Wang, ",
+  "titulo": "Lifecycle Assessment and Lifecycle Cost Analysis of Sustainable Concrete\nIncorporating Recycled Aggregates",
+  "fileId": "1B0cs8L6skNWBB7_3x9fw6apyBLWRKKBa",
+  "pdf": "ZHENG et al., 2025 - su17051779.pdf",
+  "pares": [
+   {
+    "sheet_row": 709,
+    "co2_kg_m3": 488,
+    "a1": 442.2,
+    "a2": 35.1,
+    "a3": 10.7,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 0-0. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central na"
+   },
+   {
+    "sheet_row": 710,
+    "co2_kg_m3": 486,
+    "a1": 441.9,
+    "a2": 33.9,
+    "a3": 10.2,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 0-30. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central n"
+   },
+   {
+    "sheet_row": 711,
+    "co2_kg_m3": 485,
+    "a1": 442.2,
+    "a2": 32,
+    "a3": 10.8,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 0-60. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central n"
+   },
+   {
+    "sheet_row": 712,
+    "co2_kg_m3": 483,
+    "a1": 441.9,
+    "a2": 30.2,
+    "a3": 10.9,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 0-100. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central "
+   },
+   {
+    "sheet_row": 713,
+    "co2_kg_m3": 473,
+    "a1": 445.1,
+    "a2": 17,
+    "a3": 10.9,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 75-0. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central n"
+   },
+   {
+    "sheet_row": 714,
+    "co2_kg_m3": 471,
+    "a1": 445.1,
+    "a2": 15.4,
+    "a3": 10.5,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 75-30. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central "
+   },
+   {
+    "sheet_row": 715,
+    "co2_kg_m3": 470,
+    "a1": 444.7,
+    "a2": 14.2,
+    "a3": 11.1,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 75-60. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central "
+   },
+   {
+    "sheet_row": 716,
+    "co2_kg_m3": 467,
+    "a1": 444.2,
+    "a2": 12.6,
+    "a3": 10.2,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 75-100. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central"
+   },
+   {
+    "sheet_row": 717,
+    "co2_kg_m3": 468,
+    "a1": 445.6,
+    "a2": 11.5,
+    "a3": 10.9,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 100-0. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central "
+   },
+   {
+    "sheet_row": 718,
+    "co2_kg_m3": 466,
+    "a1": 445.3,
+    "a2": 10.2,
+    "a3": 10.5,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 100-30. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central"
+   },
+   {
+    "sheet_row": 719,
+    "co2_kg_m3": 465,
+    "a1": 445.6,
+    "a2": 8.3,
+    "a3": 11.1,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 100-60. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a central"
+   },
+   {
+    "sheet_row": 720,
+    "co2_kg_m3": 462,
+    "a1": 445.3,
+    "a2": 6.6,
+    "a3": 10.1,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.13, Fig.4 (GWP, barras empilhadas, eixo 400-520 truncado); total Tab.7",
+    "nota": "Mistura 100-100. Lido por pixel (+-0.5 kg) na Fig.4 (sem rotulos): A1 = soma dos segmentos de materiais (cimento+agua+NCA+RCA+areia+RFA) = topo do ultimo segmento; A2 = segmento 'transportation' (transporte de materias-primas, distancias ate a centra"
+   }
+  ]
+ },
+ {
+  "row_id": 2849,
+  "autor": "Sposito, Felipe de Almeida",
+  "titulo": "Painéis de partículas de cimento magnesiano e madeira Pinus spp. residual com adição de sílica ativa",
+  "fileId": "1m836fCUlMHm2fmR75JeNKqFxoT-7Ckvz",
+  "pdf": "SPOSITO, 2024i.pdf",
+  "pares": [
+   {
+    "sheet_row": 771,
+    "co2_kg_m3": 1308.47,
+    "a1": 1275.3,
+    "a2": 33.2,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.71 (impressa), Tab.6 total CC + Fig.25 (barra % por processo, categoria CC); Sec.5.2.2.7 p.45-46 para a fronteira",
+    "nota": "Fig.25 e % por processo (SP, MgO, SA producao, Transporte) sem rotulos; transporte CC lido por pixel ~2.5% (+-0.3 pp, ~+-4 kg). A2 = 2.5% x total Tab.6; A1 = producao de MgO+SA+SP = total - A2 (derivado). Sem fase de mistura/central: A3 nao incluido;"
+   },
+   {
+    "sheet_row": 772,
+    "co2_kg_m3": 1154.5,
+    "a1": 1115.1,
+    "a2": 39.4,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "lido_figura+derivado",
+    "local": "p.71 (impressa), Tab.6 total CC + Fig.25 (barra % por processo, categoria CC); Sec.5.2.2.7 p.45-46 para a fronteira",
+    "nota": "Fig.25 e % por processo (SP, MgO, SA producao, Transporte) sem rotulos; transporte CC lido por pixel ~3.4% (+-0.3 pp, ~+-4 kg). A2 = 3.4% x total Tab.6; A1 = producao de MgO+SA+SP = total - A2 (derivado). Sem fase de mistura/central: A3 nao incluido;"
+   }
+  ]
+ },
+ {
+  "row_id": 2902,
+  "autor": "Jones, Kathryn E. S. and Li, Mo",
+  "titulo": "Life Cycle Assessment of Additively Manufactured Foundations for\nUltratall Wind Turbine Towers",
+  "fileId": "1PI5ad6izQiqJ_GbVCz6G7TEeoqIUEDmr",
+  "pdf": "JONES, 2024d - we.2947.pdf",
+  "pares": [
+   {
+    "sheet_row": 790,
+    "co2_kg_m3": 983,
+    "a1": 983,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.12 (p.1438), Sec.6 texto; Sec.3 fronteira cradle-to-grave",
+    "nota": "983 kg/m3 e CO2 do estagio 'material production' do concreto impresso (SimaPro/Ecoinvent, estudo anterior ref.23); atribuido a A1 por ser producao de materiais; transporte (concreto 6,5 km, resto 148 km), construcao/impressao e fim de vida sao estagi"
+   },
+   {
+    "sheet_row": 791,
+    "co2_kg_m3": 405,
+    "a1": 405,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": null,
+    "tipo": "derivado",
+    "local": "p.12 (p.1438), Sec.6 texto",
+    "nota": "Igual a 790: valor de materiais por m3, atribuido a A1; demais etapas so por fundacao."
+   },
+   {
+    "sheet_row": 1862,
+    "co2_kg_m3": 364,
+    "a1": null,
+    "a2": null,
+    "a3": null,
+    "a4": null,
+    "a1a3": 364.1,
+    "tipo": "so_agregado+derivado",
+    "local": "p.1432 (EPD CalPortland, cradle-to-gate); Sec.6 p.1438 razao 2,7; Fig.8",
+    "nota": "364,1 = 983/2,7 (valor nao impresso). O EPD e cradle-to-gate (materias-primas, transporte, fabrico) = A1-A3 agregado; nao separa etapas."
+   }
+  ]
+ }
+]
