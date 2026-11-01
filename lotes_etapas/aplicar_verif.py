@@ -48,6 +48,7 @@ for r in range(2, ws.max_row + 1):
     for (i, k), mot in LIMPAR_CAMPOS.items():
         if rid == i and ws.cell(r, col(k)).value not in (None, ''):
             ws.cell(r, col(k)).value = None; nota(r, f'[retirado {k}: {mot}]'); cont['limpar_campo'] += 1
+    if rid == 4815 and ws.cell(r, col('co2_a1a3_agregado')).value not in (None, ''): ws.cell(r, col('co2_a4')).value = 0  # A4 excluido textualmente (Sec.2.3.1)
     # restaurar A4 do PUSHKAR 4297 (factor e distancia impressos no artigo, verificado)
     if rid == 4297 and r == 1264: ws.cell(r, col('co2_a4')).value = 47.0
 print(dict(cont)); print('ignorados', len(ignorados)); [print(' ', x) for x in ignorados[:20]]

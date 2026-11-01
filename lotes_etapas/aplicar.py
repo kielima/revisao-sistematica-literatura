@@ -5,7 +5,7 @@ import glob, json, sys, collections
 import openpyxl
 NOVAS = ['co2_a1','co2_a2','co2_a3','co2_a4','co2_a1a3_agregado','etapas_tipo','soma_confere','etapas_local','etapas_citacao','etapas_nota']
 est = {}
-for f in sorted(glob.glob('lotes_etapas/resultado_lote*.json')) + sorted(glob.glob('lotes_etapas/recorte_resultado*.json')):
+for f in sorted(glob.glob('lotes_etapas/resultado_lote*.json')) + sorted(glob.glob('lotes_etapas/recorte_resultado*.json')) + sorted(glob.glob('lotes_etapas/resultado_reextr*.json')):
     d = json.load(open(f)); d = d if isinstance(d, list) else d.get('estudos', d.get('studies', []))
     for e in d: est[e['row_id']] = e
 gravar = '--gravar' in sys.argv
@@ -19,6 +19,7 @@ for e in est.values():
     for p in e['pares']:
         r = p['sheet_row']
         if ws.cell(r, 1).value != e['row_id']: erros.append((e['row_id'], r)); continue
+        if ws.cell(r, col0 + 5).value == 'retirado': continue  # nao repor o que a verificacao retirou
         vals = [p.get(k) for k in ('co2_a1','co2_a2','co2_a3','co2_a4','co2_a1a3_agregado','etapas_tipo','soma_confere','local','citacao','nota')]
         for i, v in enumerate(vals):
             cell = ws.cell(r, col0 + i)
