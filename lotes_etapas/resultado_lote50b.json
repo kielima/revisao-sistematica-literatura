@@ -1,0 +1,85 @@
+[
+ {
+  "row_id": 3620,
+  "pares": [
+   {
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.4, Tab.1",
+    "citacao": "",
+    "nota": "Tab.1 so da GWP total em kgCO2/m2 (cimento cobertura 16,8) por elemento, sem etapas A1-A4 nem fronteira declarada; unidade por m2 de elemento, nao convertida aqui.",
+    "sheet_row": 1067
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "refazer_com_recorte": true,
+  "nota_estudo": "Texto lido por extraccao do Drive (131 mil car.) com pesquisa dirigida a etapas/GWP/Tab.1, nao 100%; PDF 23 MB, figuras nao renderizadas. Nenhuma etapa EN15804 publicada nas partes lidas."
+ },
+ {
+  "row_id": 3657,
+  "pares": [
+   {
+    "co2_a1": 451.9,
+    "co2_a2": 25.1,
+    "co2_a3": 5.0,
+    "co2_a4": 5.0,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.15, Fig.8(b), barra NAC",
+    "citacao": "",
+    "nota": "NAC: A1 90%, A2 5%, A3 1%, A4 1% x 502.1. A1-A4 somam 97% do total (restante = construcao+demolicao 4%), logo soma nao confere com o total. Fig.8(b) GWP (p.15): barras empilhadas normalizadas a 100% (raw materials extraction=A1; raw materials transportation=A2; concrete preparation=A3; concrete transportation=A4; concrete construction e demolition = etapas fora de A1-A4, 2% cada; credito de tratamento pos-demolicao em eixo a parte). Percentagens impressas como inteiros (incerteza +-0,5 pp: ate +-50% relativo nas etapas de 1%). Valor = percentagem x co2_kg_m3 gravado (base presumida da barra; nao confirmada porque Tab.10 da 459.6/441.2/422.8 liquidos de credito e o gravado e 478/477.8/478.2). Tabelas S1/S2 (inventario por etapa) estao no material suplementar, nao no PDF. Fronteira cradle-to-cradle; as percentagens somam 101% por arredondamento. ",
+    "sheet_row": 1069
+   },
+   {
+    "co2_a1": 449.3,
+    "co2_a2": 4.8,
+    "co2_a3": 4.8,
+    "co2_a4": 4.8,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.15, Fig.8(b), barra RACI",
+    "citacao": "",
+    "nota": "RACI: A1 94%, A2 1%, A3 1%, A4 1% x 478. A1-A4 somam 97% do total (restante = construcao+demolicao 4%), logo soma nao confere com o total. Fig.8(b) GWP (p.15): barras empilhadas normalizadas a 100% (raw materials extraction=A1; raw materials transportation=A2; concrete preparation=A3; concrete transportation=A4; concrete construction e demolition = etapas fora de A1-A4, 2% cada; credito de tratamento pos-demolicao em eixo a parte). Percentagens impressas como inteiros (incerteza +-0,5 pp: ate +-50% relativo nas etapas de 1%). Valor = percentagem x co2_kg_m3 gravado (base presumida da barra; nao confirmada porque Tab.10 da 459.6/441.2/422.8 liquidos de credito e o gravado e 478/477.8/478.2). Tabelas S1/S2 (inventario por etapa) estao no material suplementar, nao no PDF. Fronteira cradle-to-cradle; as percentagens somam 101% por arredondamento. ",
+    "sheet_row": 1070
+   },
+   {
+    "co2_a1": 449.1,
+    "co2_a2": 4.8,
+    "co2_a3": 4.8,
+    "co2_a4": 4.8,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.15, Fig.8(b), barra RACII",
+    "citacao": "",
+    "nota": "RACII: A1 94%, A2 1%, A3 1%, A4 1% x 477.8. A1-A4 somam 97% do total (restante = construcao+demolicao 4%), logo soma nao confere com o total. Fig.8(b) GWP (p.15): barras empilhadas normalizadas a 100% (raw materials extraction=A1; raw materials transportation=A2; concrete preparation=A3; concrete transportation=A4; concrete construction e demolition = etapas fora de A1-A4, 2% cada; credito de tratamento pos-demolicao em eixo a parte). Percentagens impressas como inteiros (incerteza +-0,5 pp: ate +-50% relativo nas etapas de 1%). Valor = percentagem x co2_kg_m3 gravado (base presumida da barra; nao confirmada porque Tab.10 da 459.6/441.2/422.8 liquidos de credito e o gravado e 478/477.8/478.2). Tabelas S1/S2 (inventario por etapa) estao no material suplementar, nao no PDF. Fronteira cradle-to-cradle; as percentagens somam 101% por arredondamento. ",
+    "sheet_row": 1071
+   },
+   {
+    "co2_a1": 449.5,
+    "co2_a2": 4.8,
+    "co2_a3": 4.8,
+    "co2_a4": 4.8,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "derivado",
+    "soma_confere": "nao",
+    "local": "p.15, Fig.8(b), barra RACIII",
+    "citacao": "",
+    "nota": "RACIII: A1 94%, A2 1%, A3 1%, A4 1% x 478.2. A1-A4 somam 97% do total (restante = construcao+demolicao 4%), logo soma nao confere com o total. Fig.8(b) GWP (p.15): barras empilhadas normalizadas a 100% (raw materials extraction=A1; raw materials transportation=A2; concrete preparation=A3; concrete transportation=A4; concrete construction e demolition = etapas fora de A1-A4, 2% cada; credito de tratamento pos-demolicao em eixo a parte). Percentagens impressas como inteiros (incerteza +-0,5 pp: ate +-50% relativo nas etapas de 1%). Valor = percentagem x co2_kg_m3 gravado (base presumida da barra; nao confirmada porque Tab.10 da 459.6/441.2/422.8 liquidos de credito e o gravado e 478/477.8/478.2). Tabelas S1/S2 (inventario por etapa) estao no material suplementar, nao no PDF. Fronteira cradle-to-cradle; as percentagens somam 101% por arredondamento. ",
+    "sheet_row": 1072
+   }
+  ],
+  "texto_completo_lido": false,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Texto lido em partes (LCA seccoes 2.3.2, 5.3, Tab.4, Tab.8-10) por grep, nao 100%; Fig.8 renderizada a 200 dpi e vista. Fronteira cradle-to-cradle; etapas so como % inteiras na Fig.8(b)."
+ }
+]
