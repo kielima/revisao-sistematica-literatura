@@ -1,0 +1,120 @@
+[
+ {
+  "row_id": 3995,
+  "pares": [
+   {
+    "sheet_row": 1160,
+    "veredito": "corrigir",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.9 (p.10 PDF): linha 'Total GWP' (eixo dto) ~774 kg CO2-eq/m3 para 0%S-100%CS, confere. Fronteira declarada cradle-to-gate (extracao, transporte, producao dos constituintes e betonagem) = total A1-A3; o valor esta no total, nao e 'nao_publicado'. A4=0 aceitavel (cradle-to-gate declarado).",
+    "valor_correto": {
+     "a1": null,
+     "a1a3": 774
+    }
+   }
+  ]
+ },
+ {
+  "row_id": 4076,
+  "pares": [
+   {
+    "sheet_row": 2106,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.3b (p.96) lida: barras ~250/311/222/246 kg CO2e/m3 (diferencas 28 e 65 do texto conferem). Escopo declarado 'limited to A1 to A3'; barra inclui cimento, SCM, agregados, agua e 'other' (transporte, batching, aditivos) = total A1-A3, bem em a1a3. Unidade m3 de betao (4005 m3 do projecto)."
+   },
+   {
+    "sheet_row": 2107,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.3b (p.96) lida: barras ~250/311/222/246 kg CO2e/m3 (diferencas 28 e 65 do texto conferem). Escopo declarado 'limited to A1 to A3'; barra inclui cimento, SCM, agregados, agua e 'other' (transporte, batching, aditivos) = total A1-A3, bem em a1a3. Unidade m3 de betao (4005 m3 do projecto)."
+   },
+   {
+    "sheet_row": 2108,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.3b (p.96) lida: barras ~250/311/222/246 kg CO2e/m3 (diferencas 28 e 65 do texto conferem). Escopo declarado 'limited to A1 to A3'; barra inclui cimento, SCM, agregados, agua e 'other' (transporte, batching, aditivos) = total A1-A3, bem em a1a3. Unidade m3 de betao (4005 m3 do projecto)."
+   },
+   {
+    "sheet_row": 2109,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.3b (p.96) lida: barras ~250/311/222/246 kg CO2e/m3 (diferencas 28 e 65 do texto conferem). Escopo declarado 'limited to A1 to A3'; barra inclui cimento, SCM, agregados, agua e 'other' (transporte, batching, aditivos) = total A1-A3, bem em a1a3. Unidade m3 de betao (4005 m3 do projecto)."
+   }
+  ]
+ },
+ {
+  "row_id": 4099,
+  "pares": [
+   {
+    "sheet_row": 1194,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.6 p.7: CAA_REF total 416,13 kg CO2/m3 (confere). Escopo berco ao portao (extracao, transporte, fabrico), UF 1 m3 de betao; so ha total, sem etapas por EN 15804 -> a1a3 correcto."
+   }
+  ]
+ },
+ {
+  "row_id": 4110,
+  "pares": [
+   {
+    "sheet_row": 1199,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Sec.3.4 p.18 (146 kg CO2eq confere), mas a UF declarada e '1 m3 of mortar' (argamassa alcali-ativada de escoria de ferroniquel, sem agregado graudo), nao betao."
+   }
+  ]
+ },
+ {
+  "row_id": 4142,
+  "pares": [
+   {
+    "sheet_row": 1201,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Tab.6 p.161: M-0 = 569, mas e argamassa (UF '1 m3 of mortar', 70 MPa); nao e betao."
+   },
+   {
+    "sheet_row": 1202,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Tab.6 p.161: M-40 = 536, mas e argamassa (UF 1 m3 of mortar); nao e betao."
+   },
+   {
+    "sheet_row": 1203,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.6 C-0 = 436 (1 m3 de betao). Tab.6 'nao inclui transporte' e mistura excluida (declarado, Sec.Goal and Scope/Fig.4) -> a1=436, a3=0 correctos. A2 em branco ok; A4 ambiguo (transporte do betao ao local excluido, mas transporte de materiais ao local modelado a parte) -> manter em branco."
+   },
+   {
+    "sheet_row": 1204,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.6 C-100C = 432 (433 alocacao massica); a1 e a3=0 como C-0."
+   },
+   {
+    "sheet_row": 1205,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.6 C-100F = 434; a1 e a3=0 como C-0."
+   }
+  ]
+ },
+ {
+  "row_id": 4161,
+  "pares": [
+   {
+    "sheet_row": 1212,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.3 GWP100a AEA ~10,35 kg CO2eq por UF (0,025 m3/MPa, Tab.2) = ~414 kg/m3 (confere). Cradle-to-gate incl. fabrico do betao (LCI ecoinvent de betao sem componentes) = A1-A3 (equivalencia nossa, artigo sem modulos EN 15804)."
+   },
+   {
+    "sheet_row": 1213,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Fig.3 GWP100a SAP ~9,6 kg por UF (0,022 m3) = ~436 kg/m3 (gravado 435, dentro de 2%). Mesma fronteira, a1a3."
+   }
+  ]
+ }
+]
