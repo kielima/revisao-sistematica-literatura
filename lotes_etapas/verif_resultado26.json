@@ -1,0 +1,192 @@
+[
+ {
+  "row_id": 4389,
+  "pares": [
+   {
+    "sheet_row": 1329,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.6 p.11 'Concrete (32 MPa) m3 412.00 kg CO2e', secao 'Construction (A)'; texto p.9-10 diz A1-A3 do EPiC/AusLCI. A4 incluido pelo estudo (tkm), logo a4 fica vazio."
+   }
+  ]
+ },
+ {
+  "row_id": 4416,
+  "pares": [
+   {
+    "sheet_row": 1336,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   },
+   {
+    "sheet_row": 1337,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   },
+   {
+    "sheet_row": 1338,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   },
+   {
+    "sheet_row": 1339,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   },
+   {
+    "sheet_row": 1340,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   },
+   {
+    "sheet_row": 1341,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   },
+   {
+    "sheet_row": 1342,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   },
+   {
+    "sheet_row": 1343,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   },
+   {
+    "sheet_row": 1344,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   },
+   {
+    "sheet_row": 1345,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Media (ponto branco) da Fig.5 p.16 lida em imagem 200 dpi, dentro de 2%; GWP fossil A1-A3 de EPD, sem etapas separadas; kg CO2/m3 de betao pronto."
+   }
+  ]
+ },
+ {
+  "row_id": 4418,
+  "pares": [
+   {
+    "sheet_row": 570,
+    "veredito": "corrigir",
+    "unidade_m3_betao": true,
+    "motivo": "Tab.2 p.8: 295 kg CO2eq/m3 (C30; aco listado em linha propria, logo so betao). Sec.3.1.1 p.7: fronteira M = A1-A3+B4 e 'construction process stage (A4-A5) ... excluded in this study' (exclusao textual), entao A4=0.",
+    "valor_correto": {
+     "a1a3": 295,
+     "a4": 0
+    }
+   }
+  ]
+ },
+ {
+  "row_id": 4437,
+  "pares": [
+   {
+    "sheet_row": 1349,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Sec.4.3(4) p.10 e tabela p.11: CEF do betao = producao de materias-primas + transporte das materias-primas + processamento, kg CO2/m3; valor bate. A4 nao declarado excluido no fator, fica vazio."
+   },
+   {
+    "sheet_row": 1350,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Sec.4.3(4) p.10 e tabela p.11: CEF do betao = producao de materias-primas + transporte das materias-primas + processamento, kg CO2/m3; valor bate. A4 nao declarado excluido no fator, fica vazio."
+   },
+   {
+    "sheet_row": 1351,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Sec.4.3(4) p.10 e tabela p.11: CEF do betao = producao de materias-primas + transporte das materias-primas + processamento, kg CO2/m3; valor bate. A4 nao declarado excluido no fator, fica vazio."
+   },
+   {
+    "sheet_row": 1352,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Sec.4.3(4) p.10 e tabela p.11: CEF do betao = producao de materias-primas + transporte das materias-primas + processamento, kg CO2/m3; valor bate. A4 nao declarado excluido no fator, fica vazio."
+   },
+   {
+    "sheet_row": 1353,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Sec.4.3(4) p.10 e tabela p.11: CEF do betao = producao de materias-primas + transporte das materias-primas + processamento, kg CO2/m3; valor bate. A4 nao declarado excluido no fator, fica vazio."
+   },
+   {
+    "sheet_row": 1354,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Sec.4.3(4) p.10 e tabela p.11: CEF do betao = producao de materias-primas + transporte das materias-primas + processamento, kg CO2/m3; valor bate. A4 nao declarado excluido no fator, fica vazio."
+   },
+   {
+    "sheet_row": 1355,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Sec.4.3(4) p.10 e tabela p.11: CEF do betao = producao de materias-primas + transporte das materias-primas + processamento, kg CO2/m3; valor bate. A4 nao declarado excluido no fator, fica vazio."
+   }
+  ]
+ },
+ {
+  "row_id": 4441,
+  "pares": [
+   {
+    "sheet_row": 1362,
+    "veredito": "confirma",
+    "unidade_m3_betao": true,
+    "motivo": "Sec.2.3.1 p.7: fronteira A1-A3, 'A4 and A5 were not included' (A4=0 textual); p.8: 659 kg CO2e/m3 para w/c 0.25 e porosidade 15% (maximo); unidade 1 m3 de betao permeavel."
+   }
+  ]
+ },
+ {
+  "row_id": 4455,
+  "pares": [
+   {
+    "sheet_row": 1366,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Valor A1 confere com texto p.13 (508/380/333/318/296/293; 'only stage A1 was considered'), mas a unidade e 1 m3 de argamassa/compositos gesso-cimento-pozolana (traco com areia, sem agregado graudo; 'PC mortar'), nao betao."
+   },
+   {
+    "sheet_row": 1367,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Valor A1 confere com texto p.13 (508/380/333/318/296/293; 'only stage A1 was considered'), mas a unidade e 1 m3 de argamassa/compositos gesso-cimento-pozolana (traco com areia, sem agregado graudo; 'PC mortar'), nao betao."
+   },
+   {
+    "sheet_row": 1368,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Valor A1 confere com texto p.13 (508/380/333/318/296/293; 'only stage A1 was considered'), mas a unidade e 1 m3 de argamassa/compositos gesso-cimento-pozolana (traco com areia, sem agregado graudo; 'PC mortar'), nao betao."
+   },
+   {
+    "sheet_row": 1369,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Valor A1 confere com texto p.13 (508/380/333/318/296/293; 'only stage A1 was considered'), mas a unidade e 1 m3 de argamassa/compositos gesso-cimento-pozolana (traco com areia, sem agregado graudo; 'PC mortar'), nao betao."
+   },
+   {
+    "sheet_row": 1370,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Valor A1 confere com texto p.13 (508/380/333/318/296/293; 'only stage A1 was considered'), mas a unidade e 1 m3 de argamassa/compositos gesso-cimento-pozolana (traco com areia, sem agregado graudo; 'PC mortar'), nao betao."
+   },
+   {
+    "sheet_row": 2091,
+    "veredito": "retirar",
+    "unidade_m3_betao": false,
+    "motivo": "Valor A1 confere com texto p.13 (508/380/333/318/296/293; 'only stage A1 was considered'), mas a unidade e 1 m3 de argamassa/compositos gesso-cimento-pozolana (traco com areia, sem agregado graudo; 'PC mortar'), nao betao."
+   }
+  ]
+ }
+]
