@@ -33,6 +33,10 @@ LIMPAR = {
  (4785,'co2_a1a3_agregado'):'e so A1+A2 de uma argamassa',
  (4297,'co2_a4'):'A4 calculado com factor/distancia nao confirmados como impressos no artigo',
 }
+for k in ('co2_a1','co2_a2','co2_a3'):
+    LIMPAR[(3904,k)]='lido por pixel numa figura sem rotulos numericos (regra: so pixel com rotulos/escala clara)'
+for k in ('co2_a2','co2_a1a3_agregado'):
+    LIMPAR[(3153,k)]='lido por pixel numa figura sem rotulos (+-10); texto mistura materias-primas e fabrico'
 for k in ('co2_a1','co2_a2','co2_a3','co2_a4','co2_a1a3_agregado'):
     LIMPAR[(3657,k)]='derivado de percentagens inteiras da Fig.8b x valor gravado (que nao bate com o artigo); nao fiavel'
 nl=0
