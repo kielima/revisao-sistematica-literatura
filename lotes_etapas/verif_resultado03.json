@@ -1,0 +1,92 @@
+[
+ {
+  "row_id": 2580,
+  "pares": [
+   {
+    "sheet_row": 78,
+    "veredito": "confirma",
+    "motivo": "Tab.6 p.157 + texto p.156: transporte de agregados 50,04 tkm x0,225=11,259 (texto) + cimento 1,97x0,091=0,18 => A2=11,44; energia 0,283 (texto)=A3; total 379,22 (texto) => A1=367,5 por diferenca (=395x0,91+732x0,002+1068x0,006+180x0,001). kg CO2-eq por m3 de betao (quantidades por m3). Transporte e quarry/distribuidor ate laboratorio = A2; electricidade de mistura = A3 (derivado nosso)"
+   },
+   {
+    "sheet_row": 79,
+    "veredito": "confirma",
+    "motivo": "Texto p.156: A2 = 9,985 (agregados)+0,141 (cimento 1,55x0,091)+2,178 (CBA 23,94x0,091)=12,30; A3=1,0393 (mistura+moagem CBA); total 303,06; A1=289,72 (=282,1+1,034+6,408+0,18) bate. Etapas atribuidas por nos, coerentes com Fig.14/Tab.6"
+   }
+  ]
+ },
+ {
+  "row_id": 2641,
+  "pares": [
+   {
+    "sheet_row": 629,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.7 (imagem/texto): A1-3 105.528 e A4 27.297 kg CO2e; volume 253 m3 (soma Tab.2: 13,06+86,6+149,42+3,67=252,75). 417,1 e 107,9 conferem; A5=0; soma 525,0. A4 = transporte ate obra (Boverket 0,045 kg/kg x peso 606.600 kg). Valores incluem armadura (produtos pre-fabricados Boverket); carbonatacao B1 nao incluida"
+   }
+  ]
+ },
+ {
+  "row_id": 2650,
+  "pares": [
+   {
+    "sheet_row": 630,
+    "veredito": "confirma",
+    "motivo": "Tab.6 p.16 (texto extraido do PDF via conector; PDF binario nao descarregavel por tamanho): A1-3 306.679,4; A4-5 79.278,5; Tab.2 volume 734,06 m3; texto: A5=0 em produtos pre-fabricados e A4 so transporte para a obra. 417,8 + 108,0 = 525,8 confere. Inclui armadura. Figuras/paginas nao renderizadas em imagem para este artigo"
+   }
+  ]
+ },
+ {
+  "row_id": 2658,
+  "pares": [
+   {
+    "sheet_row": 631,
+    "veredito": "confirma",
+    "motivo": "Tab.7 p.11 (medias MC, kg CO2eq/L): cimento 0,33213+areia 0,00333=335,5; transporte cimento 0,00357=3,6 (areia 0 km, Tab.1); embalagem 0,01045+elec. media tensao 0,01374+correia 0,00004+maquina 0,00001=24,2; transporte a obra 50 km 0,01192=11,9. Etapas bem atribuidas (Sec.3.3.1-3.3.4). Aviso: o total 420 (Fig.2a, REF1-A ~0,42) inclui tambem A5 (elec. grid mix 0,04277+agua) = ~43; A1+A2+A3+A4 somam 375,2, nao 420. Unidade e kg por L de argamassa x1000 (m3 de argamassa, nao betao)"
+   },
+   {
+    "sheet_row": 633,
+    "veredito": "confirma",
+    "motivo": "Tab.8 p.12: cimento 0,332134+areia 0,003334=335,5; transporte cimento 0,003571; A3=0,010452+0,013741+0,000043+0,000016=0,024252; A4=0,011923. Confere. Mesmo aviso: 420 total inclui A5 (~43) e unidade e argamassa por m3"
+   }
+  ]
+ },
+ {
+  "row_id": 2693,
+  "pares": [
+   {
+    "sheet_row": 646,
+    "veredito": "confirma",
+    "motivo": "Tab.3 p.36: viga BFRP 1200 = 14,6 kg CO2eq (texto diz 14,7) x93,7% betao / 0,048 m3 (1,2x0,2x0,2; Tab.1 arredonda 0,05) = 285,0. Cradle-to-gate (Sec.2.2, A1-A3 EN 15804); A1/A2/A3 nao separados"
+   },
+   {
+    "sheet_row": 647,
+    "veredito": "confirma",
+    "motivo": "BFRP 2000: 24,3x0,937/0,08=284,6 confere; so A1-A3, betao apenas"
+   },
+   {
+    "sheet_row": 648,
+    "veredito": "confirma",
+    "motivo": "BFRP 2700: 32,8x0,937/0,108=284,6 confere; so A1-A3"
+   },
+   {
+    "sheet_row": 649,
+    "veredito": "confirma",
+    "motivo": "BFRP 3860: 46,9x0,937/0,1544=284,6 confere; so A1-A3"
+   },
+   {
+    "sheet_row": 650,
+    "veredito": "confirma",
+    "motivo": "Viga aco 1250x200x189: 23,7x0,562/0,04725=281,9 confere; so A1-A3, betao apenas (56,2% do GWP)"
+   }
+  ]
+ },
+ {
+  "row_id": 2700,
+  "pares": [
+   {
+    "sheet_row": 660,
+    "veredito": "confirma",
+    "motivo": "Fig.4 p.12 (rotulos lidos por posicao no PDF): OPC 277, GGBS 0,17, G 4,06, S 1,33, W 17,9, AE 0,34, Transport 0,79, Manufacture 0,12, Total 299 kg CO2-eq/m3. Raw material (A1)=300,8, Transport (A2, fornecedores 14-201 km ate fabrica)=0,79, Manufacture (A3)=0,12; fronteira cradle-to-gate (Sec.5.1). Aviso: a soma das barras (301,7) excede o total impresso (299) em 0,9%; valores individuais conferem com o impresso"
+   }
+  ]
+ }
+]
