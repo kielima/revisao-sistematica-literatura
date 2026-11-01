@@ -1,0 +1,253 @@
+[
+ {
+  "row_id": 2688,
+  "pares": [
+   {
+    "sheet_row": 645,
+    "veredito": "confirma",
+    "motivo": "Tab.9 total 456 kg CO2-eq/painel; 4,0x3,6x0,04=0,576 m3 -> 791,67; Tab.11 A1 91%, A2 2%, A4 6% conferem (A3 <1% nao quantificavel). Atencao: percentagens arredondadas e total liquido de creditos, FU inclui fibra e aco."
+   }
+  ]
+ },
+ {
+  "row_id": 4201,
+  "pares": [
+   {
+    "sheet_row": 1221,
+    "veredito": "confirma",
+    "motivo": "A1 (761 texto; 496x FU) confere; A2/A3 lidos na Fig.3A sem rotulos, plausiveis (topo ~790 PC-ref; ~535 M2) mas incerteza de figura; A4=0 (A4-A5 negligenciados, p.4)."
+   },
+   {
+    "sheet_row": 1222,
+    "veredito": "confirma",
+    "motivo": "A1 (761 texto; 496x FU) confere; A2/A3 lidos na Fig.3A sem rotulos, plausiveis (topo ~790 PC-ref; ~535 M2) mas incerteza de figura; A4=0 (A4-A5 negligenciados, p.4)."
+   },
+   {
+    "sheet_row": 1223,
+    "veredito": "confirma",
+    "motivo": "A1 (761 texto; 496x FU) confere; A2/A3 lidos na Fig.3A sem rotulos, plausiveis (topo ~790 PC-ref; ~535 M2) mas incerteza de figura; A4=0 (A4-A5 negligenciados, p.4)."
+   }
+  ]
+ },
+ {
+  "row_id": 3003,
+  "pares": [
+   {
+    "sheet_row": 250,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.30: CO2-M 249..519 e CO2-T 20 (transporte fabrica->obra, 30 km = A4) conferem; totais 269..539."
+   },
+   {
+    "sheet_row": 251,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.30: CO2-M 249..519 e CO2-T 20 (transporte fabrica->obra, 30 km = A4) conferem; totais 269..539."
+   },
+   {
+    "sheet_row": 252,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.30: CO2-M 249..519 e CO2-T 20 (transporte fabrica->obra, 30 km = A4) conferem; totais 269..539."
+   },
+   {
+    "sheet_row": 253,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.30: CO2-M 249..519 e CO2-T 20 (transporte fabrica->obra, 30 km = A4) conferem; totais 269..539."
+   },
+   {
+    "sheet_row": 254,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.30: CO2-M 249..519 e CO2-T 20 (transporte fabrica->obra, 30 km = A4) conferem; totais 269..539."
+   },
+   {
+    "sheet_row": 255,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.30: CO2-M 249..519 e CO2-T 20 (transporte fabrica->obra, 30 km = A4) conferem; totais 269..539."
+   },
+   {
+    "sheet_row": 256,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.30: CO2-M 249..519 e CO2-T 20 (transporte fabrica->obra, 30 km = A4) conferem; totais 269..539."
+   },
+   {
+    "sheet_row": 257,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.30: CO2-M 249..519 e CO2-T 20 (transporte fabrica->obra, 30 km = A4) conferem; totais 269..539."
+   },
+   {
+    "sheet_row": 258,
+    "veredito": "confirma",
+    "motivo": "Tab.1 p.30: CO2-M 249..519 e CO2-T 20 (transporte fabrica->obra, 30 km = A4) conferem; totais 269..539."
+   }
+  ]
+ },
+ {
+  "row_id": 4090,
+  "pares": [
+   {
+    "sheet_row": 1184,
+    "veredito": "corrigir",
+    "motivo": "Valor confere (Tab.3/4 x Tab.7 / 89,21 L: 305,0 e 323,3) mas Tab.7 e producao + transporte ate a central (A1+A2); energia de mistura (A3) nao entra. Reatribuir a A1+A2, nao A1-A3.",
+    "valor_correto": {
+     "a1a3": null,
+     "a1a2": 304.9
+    }
+   },
+   {
+    "sheet_row": 1185,
+    "veredito": "corrigir",
+    "motivo": "Valor confere (Tab.3/4 x Tab.7 / 89,21 L: 305,0 e 323,3) mas Tab.7 e producao + transporte ate a central (A1+A2); energia de mistura (A3) nao entra. Reatribuir a A1+A2, nao A1-A3.",
+    "valor_correto": {
+     "a1a3": null,
+     "a1a2": 323.3
+    }
+   }
+  ]
+ },
+ {
+  "row_id": 4092,
+  "pares": [
+   {
+    "sheet_row": 555,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2023,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2024,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2025,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2026,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2027,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2028,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2029,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2030,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2031,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2032,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2033,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2034,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2035,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2036,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2037,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2038,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2039,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2040,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2041,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2042,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2043,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2044,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2045,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2046,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   },
+   {
+    "sheet_row": 2047,
+    "veredito": "confirma",
+    "motivo": "Recalculado Tab.1 x Tab.3 (producao + transporte 0,309 kg/tkm x TD): A1 e A2 batem ao decimal; transporte de constituintes ate a central = A2; A3/A4 fora do escopo (producao excluida, cradle-to-gate)."
+   }
+  ]
+ },
+ {
+  "row_id": 3225,
+  "pares": [
+   {
+    "sheet_row": 935,
+    "veredito": "corrigir",
+    "motivo": "Tab.8 linha PC: A1 563,2, A3 0,2, A4 14,5 conferem; mas A2 omite o transporte de materiais cimenticios (12,7): raw materials transport 21,1 + cementitious 12,7 = 33,8; soma total 611,7 so fecha com ambos.",
+    "valor_correto": {
+     "a2": 33.8
+    }
+   }
+  ]
+ }
+]

@@ -1,0 +1,368 @@
+[
+ {
+  "row_id": 3153,
+  "pares": [
+   {
+    "sheet_row": 869,
+    "co2_a1": null,
+    "co2_a2": 87,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 300,
+    "etapas_tipo": "lido_figura+so_agregado",
+    "soma_confere": "nao",
+    "local": "p.18, Fig.25 (HSGC)",
+    "citacao": "CO2(Transportation) = sum ri.di.Eti ... transportation of raw ingredients",
+    "nota": "Fig.25 vista como imagem (p.18; barras empilhadas Production/Transportation/Construction/End-life, sem rotulos numericos, escala 0-500 'CO2-e (t-CO2/m3)' [sic], total = valor gravado em kg/m3). Sec.3.5.3 (p.16-17) define Production = CO2 do fabrico das materias-primas (sum ri.Eri) e Transportation = transporte das materias-primas ate ao local de producao do betao; Construction e End-life nao correspondem a A3/A4 (A5/C). Lido por pixel/olho, +-10: HSGC Production ~300, Transportation ~87, total ~413. Producao nao e A1 puro: o texto usa 0,016 kg CO2-e por kg de betao no fabrico, pelo que Production fica como A1-A3 agregado possivel (A1, talvez A3), nao A1. A4 nao publicado. Construction+End-life = restante ate ao total (~25)."
+   },
+   {
+    "sheet_row": 1934,
+    "co2_a1": null,
+    "co2_a2": 89,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": 325,
+    "etapas_tipo": "lido_figura+so_agregado",
+    "soma_confere": "nao",
+    "local": "p.18, Fig.25 (OPC)",
+    "citacao": "CO2(Transportation) = sum ri.di.Eti ... transportation of raw ingredients",
+    "nota": "Fig.25 vista como imagem (p.18; barras empilhadas Production/Transportation/Construction/End-life, sem rotulos numericos, escala 0-500 'CO2-e (t-CO2/m3)' [sic], total = valor gravado em kg/m3). Sec.3.5.3 (p.16-17) define Production = CO2 do fabrico das materias-primas (sum ri.Eri) e Transportation = transporte das materias-primas ate ao local de producao do betao; Construction e End-life nao correspondem a A3/A4 (A5/C). Lido por pixel/olho, +-10: OPC Production ~325, Transportation ~89, total ~437. Producao nao e A1 puro: o texto usa 0,016 kg CO2-e por kg de betao no fabrico, pelo que Production fica como A1-A3 agregado possivel (A1, talvez A3), nao A1. A4 nao publicado. Construction+End-life = restante ate ao total (~25)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.15-18 renderizado; Fig.25 vista. A2 lido por pixel (+-10); Production so como agregado A1(+A3?) lido por pixel; A1, A3, A4 nao publicados separadamente. Soma de Production+Transportation nao fecha o total (Construction e End-life ~25 fora de A1-A4)."
+ },
+ {
+  "row_id": 3439,
+  "pares": [
+   {
+    "sheet_row": 1006,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.7",
+    "citacao": "",
+    "nota": "Fig.7 vista como imagem (p.10): barras horizontais com so o GWP total por m3 de material (35-MPa ready mix ~361, 35-MPa impresso ~400, 78-MPa impresso ~979), sem separacao por etapas nem rotulos numericos. Sec.5 diz so que a etapa de materiais e >90% do GWP da torre (nao por m3). Nenhuma etapa A1-A4 por m3 publicada."
+   },
+   {
+    "sheet_row": 1007,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.7",
+    "citacao": "",
+    "nota": "Fig.7 vista como imagem (p.10): barras horizontais com so o GWP total por m3 de material (35-MPa ready mix ~361, 35-MPa impresso ~400, 78-MPa impresso ~979), sem separacao por etapas nem rotulos numericos. Sec.5 diz so que a etapa de materiais e >90% do GWP da torre (nao por m3). Nenhuma etapa A1-A4 por m3 publicada."
+   },
+   {
+    "sheet_row": 1999,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.10, Fig.7",
+    "citacao": "",
+    "nota": "Fig.7 vista como imagem (p.10): barras horizontais com so o GWP total por m3 de material (35-MPa ready mix ~361, 35-MPa impresso ~400, 78-MPa impresso ~979), sem separacao por etapas nem rotulos numericos. Sec.5 diz so que a etapa de materiais e >90% do GWP da torre (nao por m3). Nenhuma etapa A1-A4 por m3 publicada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.8-12 renderizado; Fig.7 vista: so totais. Fig.5/6 (por etapa/categoria) sao da torre inteira, nao por m3 de betao."
+ },
+ {
+  "row_id": 3456,
+  "pares": [
+   {
+    "sheet_row": 1015,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7, Fig.8",
+    "citacao": "",
+    "nota": "Fig.8 vista como imagem (p.7): barras empilhadas sem rotulos numericos (Cement, SCMs, Processing & other materials, Transport, Disposal); categorias por componente, nao por modulos EN 15804; 'Transport' junta transporte de materias-primas e de residuos de demolicao/RCA, Disposal e fase C. Texto do recorte (pp.5-9) confirma que as categorias foram escolhidas para reflectir 'aspects of the life cycle of concrete', nao modulos. Sem mapeamento explicito a A1-A4; nada atribuido."
+   },
+   {
+    "sheet_row": 2001,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7, Fig.8",
+    "citacao": "",
+    "nota": "Fig.8 vista como imagem (p.7): barras empilhadas sem rotulos numericos (Cement, SCMs, Processing & other materials, Transport, Disposal); categorias por componente, nao por modulos EN 15804; 'Transport' junta transporte de materias-primas e de residuos de demolicao/RCA, Disposal e fase C. Texto do recorte (pp.5-9) confirma que as categorias foram escolhidas para reflectir 'aspects of the life cycle of concrete', nao modulos. Sem mapeamento explicito a A1-A4; nada atribuido."
+   },
+   {
+    "sheet_row": 2002,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.7, Fig.8",
+    "citacao": "",
+    "nota": "Fig.8 vista como imagem (p.7): barras empilhadas sem rotulos numericos (Cement, SCMs, Processing & other materials, Transport, Disposal); categorias por componente, nao por modulos EN 15804; 'Transport' junta transporte de materias-primas e de residuos de demolicao/RCA, Disposal e fase C. Texto do recorte (pp.5-9) confirma que as categorias foram escolhidas para reflectir 'aspects of the life cycle of concrete', nao modulos. Sem mapeamento explicito a A1-A4; nada atribuido."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.5-9 renderizado; Fig.8 vista. Valores totais gravados (322/248/211) conferem com a altura das barras."
+ },
+ {
+  "row_id": 3497,
+  "pares": [
+   {
+    "sheet_row": 425,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   },
+   {
+    "sheet_row": 426,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   },
+   {
+    "sheet_row": 427,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   },
+   {
+    "sheet_row": 428,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   },
+   {
+    "sheet_row": 429,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   },
+   {
+    "sheet_row": 430,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   },
+   {
+    "sheet_row": 431,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   },
+   {
+    "sheet_row": 432,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   },
+   {
+    "sheet_row": 433,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   },
+   {
+    "sheet_row": 434,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "pp.13-14, Fig.19 e Fig.20",
+    "citacao": "",
+    "nota": "Fig.19 e Fig.20 vistas como imagem (pp.13-14). Fig.19 da factores de emissao por kg por componente/processo (E1 electricidade agua, E2 cimento 0,82, E3 cinza volante, E4 areia, E5 superplastificante, E6 betonagem, E7 pedreira, E8-E9 RCA, E10 pneus; creditos ER1-ER3 = reducoes por reciclagem) e a formula do total liquido; Fig.20 so tem o total liquido por mistura (rotulos 234/238/244/236/228 NA; 65.7/88.3/109/110/111 RCA). Nao ha valores por mistura por componente nem fronteira EN 15804; E6 (betonagem) mistura A3/A5 sem rotulo. Nada atribuido a A1-A4 (regra 2). Valores gravados 276,1 etc. diferem dos rotulos impressos por correccao previa (ver co2_conversao)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.12-16 renderizado; Fig.19/20 vistas. Sem etapas por mistura."
+ },
+ {
+  "row_id": 3519,
+  "pares": [
+   {
+    "sheet_row": 1036,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.12, Fig.14a",
+    "citacao": "",
+    "nota": "Fig.14a vista como imagem (p.12): grafico 3D de barras por componente (Total, Portland cement, NaOH, PVA fibre, Mineral wool, Superplasticizer, Curing, FS, Water) x tecnica (OPC-ECC, oven-cured, hot-pressed 2 h/3 h); so os totais tem rotulo (646.1 ECC OPC adoptado da ref.[47]; 353.8, 284.4, 288.5), restantes barras sem rotulo. Decomposicao por componente, nao por etapa EN 15804; fronteira de laboratorio por m3 sem transporte nem modulos. Nada atribuido a A1-A4."
+   },
+   {
+    "sheet_row": 1037,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.12, Fig.14a",
+    "citacao": "",
+    "nota": "Fig.14a vista como imagem (p.12): grafico 3D de barras por componente (Total, Portland cement, NaOH, PVA fibre, Mineral wool, Superplasticizer, Curing, FS, Water) x tecnica (OPC-ECC, oven-cured, hot-pressed 2 h/3 h); so os totais tem rotulo (646.1 ECC OPC adoptado da ref.[47]; 353.8, 284.4, 288.5), restantes barras sem rotulo. Decomposicao por componente, nao por etapa EN 15804; fronteira de laboratorio por m3 sem transporte nem modulos. Nada atribuido a A1-A4."
+   },
+   {
+    "sheet_row": 1038,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.12, Fig.14a",
+    "citacao": "",
+    "nota": "Fig.14a vista como imagem (p.12): grafico 3D de barras por componente (Total, Portland cement, NaOH, PVA fibre, Mineral wool, Superplasticizer, Curing, FS, Water) x tecnica (OPC-ECC, oven-cured, hot-pressed 2 h/3 h); so os totais tem rotulo (646.1 ECC OPC adoptado da ref.[47]; 353.8, 284.4, 288.5), restantes barras sem rotulo. Decomposicao por componente, nao por etapa EN 15804; fronteira de laboratorio por m3 sem transporte nem modulos. Nada atribuido a A1-A4."
+   },
+   {
+    "sheet_row": 2099,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.12, Fig.14a",
+    "citacao": "",
+    "nota": "Fig.14a vista como imagem (p.12): grafico 3D de barras por componente (Total, Portland cement, NaOH, PVA fibre, Mineral wool, Superplasticizer, Curing, FS, Water) x tecnica (OPC-ECC, oven-cured, hot-pressed 2 h/3 h); so os totais tem rotulo (646.1 ECC OPC adoptado da ref.[47]; 353.8, 284.4, 288.5), restantes barras sem rotulo. Decomposicao por componente, nao por etapa EN 15804; fronteira de laboratorio por m3 sem transporte nem modulos. Nada atribuido a A1-A4."
+   },
+   {
+    "sheet_row": 2100,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.12, Fig.14a",
+    "citacao": "",
+    "nota": "Fig.14a vista como imagem (p.12): grafico 3D de barras por componente (Total, Portland cement, NaOH, PVA fibre, Mineral wool, Superplasticizer, Curing, FS, Water) x tecnica (OPC-ECC, oven-cured, hot-pressed 2 h/3 h); so os totais tem rotulo (646.1 ECC OPC adoptado da ref.[47]; 353.8, 284.4, 288.5), restantes barras sem rotulo. Decomposicao por componente, nao por etapa EN 15804; fronteira de laboratorio por m3 sem transporte nem modulos. Nada atribuido a A1-A4."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "Recorte pp.9-13 renderizado; Fig.14a vista. Componentes, nao etapas."
+ },
+ {
+  "row_id": 3620,
+  "pares": [
+   {
+    "sheet_row": 1067,
+    "co2_a1": null,
+    "co2_a2": null,
+    "co2_a3": null,
+    "co2_a4": null,
+    "co2_a1a3_agregado": null,
+    "etapas_tipo": "nao_publicado",
+    "soma_confere": "n/a",
+    "local": "p.4, Tab.1; p.9, Fig.4",
+    "citacao": "",
+    "nota": "Estudo de materiais de habitacao rural (Pichataro, Mexico), unidade funcional m2, nao m3. Tab.1 (p.4, vista como imagem) da so GWP total em kgCO2/m2 por material (cimento de cobertura 16,8; piso de cimento 16,8; tijolo industrial 27,98 etc.) de fontes [4],[68]; sem etapas A1-A4 nem fronteira. Fig.4 (radar multicriterio, p.9) so pontuacoes normalizadas. Unidade diferente do par (regra 9): nao convertida."
+   }
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "refazer_com_recorte": false,
+  "nota_estudo": "PDF completo (19 pp.) lido em texto; grep por CO2/GWP/stage/A1-A4 so encontra Tab.1 e o resumo (0-55,1 kgCO2/m2). Paginas 4 (Tab.1) e 9 (Fig.4) vistas como imagem; Figs.2,3,5-10 nao sao de CO2 (diagnostico, termografia, validacao) e nao foram vistas uma a uma."
+ }
+]
