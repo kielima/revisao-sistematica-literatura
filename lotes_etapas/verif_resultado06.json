@@ -1,0 +1,298 @@
+[
+ {
+  "row_id": 2950,
+  "pares": [
+   {
+    "sheet_row": 798,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.50277: totais 484,6/565,0 conferidos; concrete production 4,65 (p.50273 Boundaries) = A3; restante = extraccao+transporte ate central (A1+A2 nao separaveis) = total-4,65."
+   },
+   {
+    "sheet_row": 799,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.50277: totais 484,6/565,0 conferidos; concrete production 4,65 (p.50273 Boundaries) = A3; restante = extraccao+transporte ate central (A1+A2 nao separaveis) = total-4,65."
+   },
+   {
+    "sheet_row": 800,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.50277: totais 484,6/565,0 conferidos; concrete production 4,65 (p.50273 Boundaries) = A3; restante = extraccao+transporte ate central (A1+A2 nao separaveis) = total-4,65."
+   }
+  ]
+ },
+ {
+  "row_id": 2951,
+  "pares": [
+   {
+    "sheet_row": 801,
+    "veredito": "confirma",
+    "motivo": "Tab.5 p.62276: CM 628,5 (525,24+36,96+61,60+0,07+4,65); B3=4,65 no texto (p.62269-70); B1+B2 = 623,85 nao separaveis."
+   }
+  ]
+ },
+ {
+  "row_id": 2952,
+  "pares": [
+   {
+    "sheet_row": 802,
+    "veredito": "corrigir",
+    "motivo": "CO2 358,4/361,8 recalculados (Tab.4 x Tab.6) e conferidos (390x0,83+65x0,091+195x0,008+1070x0,01+23x0,72=358,4; BFS 361,8). Mas o artigo diz que o transporte NAO foi considerado: a2 deve ser null (nao incluido), nao 0.",
+    "valor_correto": {
+     "a2": null
+    }
+   },
+   {
+    "sheet_row": 803,
+    "veredito": "corrigir",
+    "motivo": "CO2 358,4/361,8 recalculados (Tab.4 x Tab.6) e conferidos (390x0,83+65x0,091+195x0,008+1070x0,01+23x0,72=358,4; BFS 361,8). Mas o artigo diz que o transporte NAO foi considerado: a2 deve ser null (nao incluido), nao 0.",
+    "valor_correto": {
+     "a2": null
+    }
+   }
+  ]
+ },
+ {
+  "row_id": 2999,
+  "pares": [
+   {
+    "sheet_row": 249,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1903,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1904,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1905,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1906,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1907,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1908,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1909,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1910,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1911,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1912,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1913,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1914,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1915,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1916,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1917,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1918,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1919,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1920,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   },
+   {
+    "sheet_row": 1921,
+    "veredito": "corrigir",
+    "motivo": "A1 e A2 recalculados (Tab.2 x Tab.5 A1/A2 por tonelada; agua 1,1 FW/0,5 SW x 162 kg) batem com todos os 20 valores e totais Fig.7. Mas A3 foi omitido pelos autores (sec. LCA p.10): a3 deve ser null, nao 0.",
+    "valor_correto": {
+     "a3": null
+    }
+   }
+  ]
+ },
+ {
+  "row_id": 3053,
+  "pares": [
+   {
+    "sheet_row": 821,
+    "veredito": "confirma",
+    "motivo": "Tab.4 p.7 coluna C30/37: A1=(17222+88+241+2+195)/53=334,9; A2=(250+285+438+1)/53=18,38; A3 ready mix plant 198/53=3,74. Aviso: o co2_kg_m3 gravado 334,9 e so A1 (A1+A2+A3 = 357,0)."
+   }
+  ]
+ },
+ {
+  "row_id": 3055,
+  "pares": [
+   {
+    "sheet_row": 260,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 261,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 262,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 263,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 264,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 265,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 266,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 267,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 268,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 269,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 270,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 271,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   },
+   {
+    "sheet_row": 272,
+    "veredito": "confirma",
+    "motivo": "Fig.9/Tab.11 (total), Fig.10-12 renderizadas: A1=cimento+cinza+calcario+agregados+SP, A2=Transportation to Concrete Plant, A3=Mixing and Batching 1,5; soma bate com o total (<=1,5% vs Tab.11)."
+   }
+  ]
+ }
+]
