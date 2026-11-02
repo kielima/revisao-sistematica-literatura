@@ -1,0 +1,52 @@
+[
+ {
+  "row_id": 5018,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "camiao de frete (Tabela 16: 'N° de caminhões' por processo elementar); datasets Ecoinvent 'transport, freight, lorry 16-32 metric ton, EURO6, RoW' para o concreto (Quadro 10, Apend. F); o artigo nao diz 'betoneira' para o transporte modelado (so refere caminhao-betoneira na descricao do canteiro, Sec. MFV)",
+  "distancia_km_declarada": "36,8 km por camiao (Sorocaba-SP, usina->obra) nos processos com 1 camiao (CA 1, 3, 5; LSF 1); a coluna 'Distancia (km)' soma n x 36,8 nos processos com varios camioes (4 camioes = 147,2; 3 camioes = 110,4). Ida ou ida-e-volta NAO e dito para o valor 36,8; so a definicao generica da metrica 'Caminhoes de entrega' (Quadro 5) diz 'distancia total percorrida ... entre ida e volta partindo da origem'",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao. O valor gravado (214,9 kg/m3) = 40,1% x 15.810,37 kg CO2 (GWP do processo elementar 4) / 29,50 m3, isto e so a producao do concreto (A1-A3); o transporte do concreto e contado a parte (Tab. 4 'Transporte de concreto (t.km)'; texto: 'o transporte de concreto usinado considera o frete ... desde a usina ate o canteiro', contribuicao 27,6% so no ODP). Fronteira A1-A5 com A4 'Transporte da fabrica ate a obra' separado (Fig.15). Confirma a4_somavel=sim / a4_no_valor=nao. Unidade do valor gravado: m3 de betao (derivado nosso: CO2 do betao do processo 4 / 29,50 m3 de concreto usinado 25 MPa da Tab.4).",
+  "citacao": "Fig.15 p.71 (A1-A3 / A4 / A5, vista como imagem); Sec. fronteira (iv) p.~70: 'transporte de materiais por caminhoes de frete, da fabrica ate o canteiro (fases A4-A5)', Tabela 16 no Apendice E (p.154-156); Quadro 5 p.51 (metrica 'Caminhoes de entrega'); Quadro 9/10 Apend. F p.157-158; Tab.4 p.74 (concreto m3 e t.km)",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Dissertacao (UFSCar Sorocaba, 2019). read_file_content truncou o texto a meio (~p.63, armadilha 7); o resto (p.47-175 incl. Apendices) foi lido por 3 recortes do shrink-drive-pdf.yml (pp.64-110, 111-160, 161-230 do PDF; recortes TMP_L26_* a mover para o lixo). Fig.15 e a pagina da Tabela 16 vistas como imagem. Tabela 16 (concreto 25 MPa): CA1 1 camiao, 36,8 km, 19,20 t, 706,56 t.km; CA2 4 camioes, 147,2 km, 74,40 t, 10.951,68 t.km; CA3 1, 36,8, 10,80, 397,44; CA4 4, 147,2, 70,80, 10.421,76; CA5 1, 36,8, 10,80, 397,44; CA6 3, 110,4, 49,20, 5.431,68. ATENCAO: ton.km = massa total x distancia somada (ex.: 74,40 x 147,2 = 10.951,68), o que multiplica por n de camioes; com 4 camioes de ~18,6 t a 36,8 km o t.km fisico seria 74,4 x 36,8 = 2.738. So o processo com 1 camiao (36,8 x massa) e coerente. Se 36,8 km e ida-e-volta ou so ida nao esta declarado."
+  ,
+  "pares": [
+   {
+    "sheet_row": 43,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "declarada: 'Concreto usinado 25 MPa ... Massa especifica 2400 kg/m3, fonte NBR 6120 (ABNT, 1980)' (betao, nao argamassa). Coerente com Tab.12/Tab.16: 8,00 m3 x 2400 = 19.200 kg = 19,20 t",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Quadro 9, Apendice F p.157; Tab.4 p.74 (8,00 m3 no processo 1)",
+    "citacao": "Quadro 9: 'Concreto usinado 25 MPa | Perdas 3% | Massa especifica 2400 kg/m3 | NBR 6120'",
+    "nota": "Par = so producao do concreto (A1-A3) do processo 4 (29,50 m3). Unidade do valor gravado: kg CO2/m3 de betao. Massa de betao transportada no processo 4: 70,80 t (4 camioes, 147,2 km, Tab.16)."
+   }
+  ]
+ },
+ {
+  "row_id": 5041,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "caminhoes betoneira, caminhoes bomba e veiculos de apoio ('distancia equivalente percorrida'); processo do software 'US: Truck' (apendice, GaBi); o apendice descreve processo de transporte rodoviario usado para brita, areia, aco, madeira, concreto e residuos",
+  "distancia_km_declarada": "60 km ('distancia maxima, baseada em dados primarios fornecidos pela empresa de producao do concreto'), valor unico; nao e dito se e ida ou ida-e-volta. Outras distancias: cimento fabrica->usina 400 km; areia e brita ->usina 100 km; aco 450 km; madeira de formas 1956 km; aterro ate 100 km",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao. O valor gravado 224,6 kg CO2/m3 = (brita 3,13 + areia 2,32 + cimento 45,5 = 50,95 kg CO2/m2, Fig.29 p.136) x 2078 m2 / 471,4 m3 = so materiais do betao (A1-A3). A distribuicao do concreto e processo elementar separado ('Distribuicao Concreto' na Fig.28, valor ~1,65 kg CO2/m2) e nao esta no valor gravado. Confirma a4_somavel=sim. Unidade do valor gravado: m3 de betao (derivado nosso por area/volume 2078/471,4), nao a unidade funcional do artigo (kg CO2/m2 de area estrutural; GWP C25 = 117 kg CO2/m2).",
+  "citacao": "Sec. 5.5.9 p.105-109 (fronteira com 'distribuicao do concreto a obra (transporte)' como processo elementar; 'Processo elementar de distribuicao do concreto: Foi adotada a distancia maxima ... 60km ... equivalente percorrida por caminhoes betoneira, caminhoes bomba e veiculos de apoio'); Fig.12 p.105 (fluxograma, vista como imagem); Fig.28/29 p.135-136; Apendice de processos (US: Truck, BR: Diesel)",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Tese (UFMG?, 2016). Texto extraido com 360.937 caracteres terminando no apendice de processos GaBi (completo, sem truncamento visivel). Fig.12 (fluxograma) vista como imagem; os graficos Fig.28/29 lidos pelos rotulos numericos extraidos do texto (3,13; 2,32; 45,5; 37,1; 26,9) e nao renderizados individualmente. Nao ha massa por viagem nem numero de viagens impressos. Unidade funcional: edificio de 2078 m2 de area estrutural; 6 classes (C25-C50); concreto C25 = 471,4 m3 (Quadro 2)."
+  ,
+  "pares": [
+   {
+    "sheet_row": 51,
+    "densidade_betao_kg_m3": 2290,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec. 5.5.4.1 p.101-102, 'Classe 25 para cada m3 de concreto'",
+    "citacao": "Cimento 310 kg + areia 870 kg + brita 930 kg + agua 180 kg = 2290 kg por m3 de concreto (betao, nao argamassa)",
+    "nota": "Densidade do betao por soma do traco de C25 (a usina), nao impressa como massa volumica. Unidade do valor gravado: kg CO2/m3 de betao (derivado)."
+   }
+  ]
+ }
+]
