@@ -1,0 +1,386 @@
+[
+ {
+  "row_id": 2720,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "nao declarado o veiculo; so combustivel (L) por material (Tab.6) e, para a cinza MSWI, transporte a petroleo 0,00027 L (Tab.5)",
+  "distancia_km_declarada": "15 km apenas para a cinza MSWI (Tab.5, coluna Distance); nenhuma distancia impressa para cimento, areia e brita (so litros de combustivel: cimento 2,3875 L ordinario / 1,91 L com cinza; areia 3,36 L; brita 1,71 L; cinza 0,38 L). Ida ou ida-e-volta nao declarado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma ausencia de A4 do betao: a fronteira (Sec.3.1) e producao das materias-primas, transporte das materias-primas e mistura em laboratorio; o betao e feito em laboratorio e nao ha transporte do betao a obra. O transporte incluido e o das materias-primas (A2).",
+  "citacao": "Sec.3.1 p.10; Tab.5 e Tab.6 p.11; Tab.7 p.11",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (extracao do conector Drive); nao renderizei as figuras (nenhuma das 13 figuras traz distancias, modos ou massas segundo as legendas). Inconsistencia no artigo: Tab.5 da 0,00027 L de petroleo e 15 km para a cinza, Tab.6 da 0,38 L para a mesma cinza. UF impressa '1 L' (Sec.3.1) e erro ja assumido como 1 m3.",
+  "pares": [
+   {
+    "sheet_row": 162,
+    "densidade_betao_kg_m3": 2357,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3, w/b 0,40, dosagem 0%: agua 170 + cimento 425 + areia 777 + brita 985",
+    "citacao": "Tab.3 p.4; nota 'Explanation: The water is the sum of water consumption and water reducer'",
+    "nota": "Soma = 2357 kg/m3 porque a nota da Tab.3 diz que a agua ja inclui o redutor; se o redutor (2,5 kg) fosse somado a parte seria 2359,5."
+   },
+   {
+    "sheet_row": 163,
+    "densidade_betao_kg_m3": 2357,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3, w/b 0,40, dosagem 20%: agua 170 + cimento 340 + cinza 85 + areia 777 + brita 985",
+    "citacao": "Tab.3 p.4",
+    "nota": "Soma = 2357 (2359,9 se o redutor, 2,9 kg, fosse somado a parte). Mesma nota da Tab.3."
+   }
+  ]
+ },
+ {
+  "row_id": 2744,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "Concrete mixer truck, approx. 8 m3, 100% fill rate (Tab.4); factor 0,13 kg CO2eq/t.km (Tab.8, LIPASTO/One Click LCA); aco e madeira em camiao-reboque 40 t",
+  "distancia_km_declarada": "60 km para 'Reinforced concrete' (Tab.4); unico valor; ida ou ida-e-volta nao declarado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Contradiz que A4 esteja no valor gravado: os 270,88 / 355,83 / 429,00 kg CO2eq/m3 sao os factores A1-A3 de ready-mix da One Click LCA (Tab.7, coluna A1-A3 GWP); o A4 do edificio e calculado a parte (modulo A4 nos resultados por m2 de area, Figs.7-8). Compativel com a_somavel=sim para somar A4 por fora.",
+  "citacao": "Tab.4 p.9 (Reinforced concrete: Concrete mixer truck, appr. 8 m3, 100% fill rate, 60 km); Tab.8 p.11 (0,13 kg CO2eq/t.km); Tab.7 p.10",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido; nao renderizei as figuras 7-10 (resultados em kg CO2eq/m2 de area bruta, sem distancias). O artigo diz 'prefabricated reinforced concrete frame' mas o transporte listado para 'Reinforced concrete' e betoneira, por isso classifiquei betao_fresco; a coluna Tab.8 esta rotulada 'A1A3 GWP' para factores de transporte (erro de rotulo, a unidade e kg CO2eq/t.km).",
+  "pares": [
+   {
+    "sheet_row": 697,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "",
+    "nota": "Massa volumica nao impressa para este betao (Tab.7 so da kg CO2eq/m3)."
+   },
+   {
+    "sheet_row": 698,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "",
+    "nota": "Massa volumica nao impressa para este betao (Tab.7 so da kg CO2eq/m3)."
+   },
+   {
+    "sheet_row": 699,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "",
+    "nota": "Massa volumica nao impressa para este betao (Tab.7 so da kg CO2eq/m3)."
+   }
+  ]
+ },
+ {
+  "row_id": 2745,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Transport, freight, lorry 16-32 metric ton, euro5 {RER}, market for (ecoinvent v3.7.1, Tab.2)",
+  "distancia_km_declarada": "100 km, fixa para todas as materias (Sec.2.2.2, ref.[46]); ida ou ida-e-volta nao declarado. Factor da Tab.A1: 0,1664 kg CO2eq/t.km",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma ausencia de A4: escopo A1-A3 + modulo D (cradle-to-gate), a viga e prefabricada e o transporte da viga a obra nao e modelado; o transporte incluido (A2) e o dos materiais ate a central.",
+  "citacao": "Sec.2.2.1 p.4 (escopo); Sec.2.2.2 p.5 e Tab.2 p.6 (100 km, lorry 16-32 t); Tab.A1 p.16",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido incluindo apendices A1-A5; nao renderizei as figuras 1-9. Aviso: os co2_kg_m3 gravados (351,76 e 352,43) nao se reproduzem com Tab.A2/A3 (CC 54,496 e 63,580 kg CO2eq por 1 m de viga; com seccao 0,14x0,60 = 0,084 m3/m daria 648,8 e 756,9 kg/m3). Verificar a origem do valor gravado.",
+  "pares": [
+   {
+    "sheet_row": 178,
+    "densidade_betao_kg_m3": 2387,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": 200.51,
+    "volume_betao_elemento_m3": 0.084,
+    "local": "Tab.1, ORB, concreto (1 m de viga 14x60 cm): areia 51,02 + brita 0/12 36,21 + brita 8/15 58,43 + filler 8,23 + cimento 31,27 + SP 0,54 + agua 14,81 = 200,51 kg; volume = 0,14x0,60x1 m = 0,084 m3 (dimensoes impressas)",
+    "citacao": "Tab.1 p.5; FU 'beam with section 140x600 mm' Sec.2.2.1 p.5",
+    "nota": "Densidade = 200,51/0,084 = 2387 kg/m3 (calculo nosso a partir de massas e dimensoes impressas, nao impressa como tal). Massa do elemento e so do betao; aco a parte (12,36 kg)."
+   },
+   {
+    "sheet_row": 179,
+    "densidade_betao_kg_m3": 2328,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": 195.57,
+    "volume_betao_elemento_m3": 0.084,
+    "local": "Tab.1, DRB: areia 51,02 + brita 0/12 36,21 + RCA 8/16 52,42 + filler 8,23 + cimento 31,27 + SP 0,54 + agua 15,88 = 195,57 kg; volume 0,084 m3",
+    "citacao": "Tab.1 p.5",
+    "nota": "Densidade = 195,57/0,084 = 2328 kg/m3 (calculo nosso). Aco a parte (17,44 kg: 9,44 + 8,00)."
+   }
+  ]
+ },
+ {
+  "row_id": 2751,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado",
+  "distancia_km_declarada": "nao declarada",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma ausencia de A4: fronteira = fase de produto (materias-primas, transporte ao fabricante, fabrico), cradle-to-gate; nao ha dados de transporte a obra nem distancias.",
+  "citacao": "Sec.2.3 p.7 (system boundaries)",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido; nao renderizei as figuras (1-9 sao fotos, cortes e graficos de dano sem distancias). Nota: os co2 gravados por elemento (702,9; 493,3; 379,4) tem origem nas colunas 1-3 da Tab.3 (kg CO2eq) e incluem armadura; linhas 185/186 sem co2 gravado.",
+  "pares": [
+   {
+    "sheet_row": 185,
+    "densidade_betao_kg_m3": 2507,
+    "densidade_origem": "massa_dividida_por_volume_Tab1",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "betao C30/37 total da ponte WCB: 162,900+8,767+7,908+43,180+10,430 = 233,185 t / (65,160+3,507+3,163+17,100+4,100 = 93,030 m3)",
+    "citacao": "Tab.1 p.3 (massa em t e volume em m3 de cada elemento)",
+    "nota": "Razao massa/volume dos valores impressos; nao e densidade impressa como tal."
+   },
+   {
+    "sheet_row": 186,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "massa_dividida_por_volume_Tab1",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "betao C30/37 total da ponte SCB (sem o 'Concrete' 1,932 m3/4,250 t da camada de topo): 77,523+32,915+7,908+42,003+12,870 = 173,219 t / (31,009+13,166+3,163+16,801+5,148 = 69,287 m3)",
+    "citacao": "Tab.1 p.3 (massa em t e volume em m3 de cada elemento)",
+    "nota": "Razao massa/volume dos valores impressos."
+   },
+   {
+    "sheet_row": 1884,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "massa_dividida_por_volume_Tab1",
+    "massa_elemento_kg": 162900,
+    "volume_betao_elemento_m3": 65.16,
+    "local": "Abutments and piers WCB: 162,900 t / 65,160 m3",
+    "citacao": "Tab.1 p.3 (massa em t e volume em m3 de cada elemento)",
+    "nota": "Massa e volume so do betao (armadura 7,2 t / 0,917 m3 a parte)."
+   },
+   {
+    "sheet_row": 1885,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "massa_dividida_por_volume_Tab1",
+    "massa_elemento_kg": 8767,
+    "volume_betao_elemento_m3": 3.507,
+    "local": "Capping beam WCB: 8,767 t / 3,507 m3",
+    "citacao": "Tab.1 p.3 (massa em t e volume em m3 de cada elemento)",
+    "nota": "Razao 2,4999; armadura 0,172 t a parte."
+   },
+   {
+    "sheet_row": 1886,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "massa_dividida_por_volume_Tab1",
+    "massa_elemento_kg": 7908,
+    "volume_betao_elemento_m3": 3.163,
+    "local": "Abutment wall WCB: 7,908 t / 3,163 m3",
+    "citacao": "Tab.1 p.3 (massa em t e volume em m3 de cada elemento)",
+    "nota": "Razao 2,5002; armadura 0,047 t a parte."
+   }
+  ]
+ },
+ {
+  "row_id": 2757,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado",
+  "distancia_km_declarada": "nao declarada",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma: 'The system boundary does not include transportation' (Sec.3.1); cradle-to-gate, UF 1 m3 de argamassa; nenhum transporte, nem de materias-primas, nem do produto.",
+  "citacao": "Sec.3.1 p.5; Sec.3 p.4 (UF 1 m3, cradle-to-gate)",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (incluindo analise de custos e conclusoes); nao renderizei as figuras (Fig.2 fronteira do sistema, Figs.3-14 inventario/resultados; o texto e a legenda da Fig.2 nao mencionam transporte). Material e argamassa (sem brita), nao betao.",
+  "pares": [
+   {
+    "sheet_row": 192,
+    "densidade_betao_kg_m3": 2343,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie A (w/b 0,45): cimento+GGBFS = 540, areia 1560, agua 243 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em A0-A7 (540+1560+243)."
+   },
+   {
+    "sheet_row": 193,
+    "densidade_betao_kg_m3": 2343,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie A (w/b 0,45): cimento+GGBFS = 540, areia 1560, agua 243 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em A0-A7 (540+1560+243)."
+   },
+   {
+    "sheet_row": 194,
+    "densidade_betao_kg_m3": 2343,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie A (w/b 0,45): cimento+GGBFS = 540, areia 1560, agua 243 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em A0-A7 (540+1560+243)."
+   },
+   {
+    "sheet_row": 195,
+    "densidade_betao_kg_m3": 2343,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie A (w/b 0,45): cimento+GGBFS = 540, areia 1560, agua 243 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em A0-A7 (540+1560+243)."
+   },
+   {
+    "sheet_row": 196,
+    "densidade_betao_kg_m3": 2343,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie A (w/b 0,45): cimento+GGBFS = 540, areia 1560, agua 243 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em A0-A7 (540+1560+243)."
+   },
+   {
+    "sheet_row": 197,
+    "densidade_betao_kg_m3": 2343,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie A (w/b 0,45): cimento+GGBFS = 540, areia 1560, agua 243 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em A0-A7 (540+1560+243)."
+   },
+   {
+    "sheet_row": 198,
+    "densidade_betao_kg_m3": 2343,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie A (w/b 0,45): cimento+GGBFS = 540, areia 1560, agua 243 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em A0-A7 (540+1560+243)."
+   },
+   {
+    "sheet_row": 199,
+    "densidade_betao_kg_m3": 2343,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie A (w/b 0,45): cimento+GGBFS = 540, areia 1560, agua 243 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em A0-A7 (540+1560+243)."
+   },
+   {
+    "sheet_row": 200,
+    "densidade_betao_kg_m3": 2161,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie B (w/b 0,65): cimento+GGBFS = 540, areia 1270, agua 351 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em B0-B7 (540+1270+351)."
+   },
+   {
+    "sheet_row": 201,
+    "densidade_betao_kg_m3": 2161,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie B (w/b 0,65): cimento+GGBFS = 540, areia 1270, agua 351 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em B0-B7 (540+1270+351)."
+   },
+   {
+    "sheet_row": 202,
+    "densidade_betao_kg_m3": 2161,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie B (w/b 0,65): cimento+GGBFS = 540, areia 1270, agua 351 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em B0-B7 (540+1270+351)."
+   },
+   {
+    "sheet_row": 203,
+    "densidade_betao_kg_m3": 2161,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie B (w/b 0,65): cimento+GGBFS = 540, areia 1270, agua 351 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em B0-B7 (540+1270+351)."
+   },
+   {
+    "sheet_row": 204,
+    "densidade_betao_kg_m3": 2161,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie B (w/b 0,65): cimento+GGBFS = 540, areia 1270, agua 351 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em B0-B7 (540+1270+351)."
+   },
+   {
+    "sheet_row": 205,
+    "densidade_betao_kg_m3": 2161,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie B (w/b 0,65): cimento+GGBFS = 540, areia 1270, agua 351 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em B0-B7 (540+1270+351)."
+   },
+   {
+    "sheet_row": 206,
+    "densidade_betao_kg_m3": 2161,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie B (w/b 0,65): cimento+GGBFS = 540, areia 1270, agua 351 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em B0-B7 (540+1270+351)."
+   },
+   {
+    "sheet_row": 207,
+    "densidade_betao_kg_m3": 2161,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, serie B (w/b 0,65): cimento+GGBFS = 540, areia 1270, agua 351 kg/m3",
+    "citacao": "Tab.2 p.3",
+    "nota": "Soma identica em B0-B7 (540+1270+351)."
+   }
+  ]
+ },
+ {
+  "row_id": 2766,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado",
+  "distancia_km_declarada": "nao declarada",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma: 'The A4 stage ... is not considered, as it is not possible to define the methods of transportation, nor the distance travelled by the products in a theoretical case study'; fronteira A1-A3 + A5 (o A2 'transportation to factory' vem dos EPD/ecoinvent, sem distancias impressas).",
+  "citacao": "Sec.4.1.2 p.6",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido; nao renderizei as figuras 1-6 (esquemas e contribuicoes relativas). Valores gravados de CO2 (477,4 e 483,1) nao se leem diretamente: Tab.3 da GWP A1-A3 20,1 e 40,6 kg CO2eq por solucao (incluindo aco), conferir a derivacao.",
+  "pares": [
+   {
+    "sheet_row": 220,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": 99.0,
+    "volume_betao_elemento_m3": 0.04,
+    "local": "Tab.2, CJE: concrete C25/30 0,040 m3, total 99,00 kg",
+    "citacao": "Tab.2 p.9",
+    "nota": "Massa e volume do betao do encamisamento (inclui 10% de perdas segundo Sec.5.1). Razao 99,00/0,040 = 2475 kg/m3, mas o volume vem arredondado a 3 casas (0,0396 daria 2500); nao gravei densidade."
+   },
+   {
+    "sheet_row": 221,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": 198.0,
+    "volume_betao_elemento_m3": 0.079,
+    "local": "Tab.2, CJI: concrete C25/30 0,079 m3, total 198,0 kg",
+    "citacao": "Tab.2 p.9",
+    "nota": "Razao 198,0/0,079 = 2506 kg/m3, volume arredondado; nao gravei densidade."
+   }
+  ]
+ }
+]
