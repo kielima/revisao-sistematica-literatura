@@ -221,3 +221,17 @@ Cada entrada diz se foi verificada por mim no PDF (`pessoal`) ou é leitura do s
 - Unidades: 4244 é m³ de laje alveolar (elemento); **4521 é m³ de pasta, não de betão** (o valor 64 do sc10 confirma-se pelo rótulo da Fig.8, mas fica fora da metanálise por unidade); 4145 e 4691 são m³ de betão.
 - BERTOLA 4670 mantém A1–A3 agregado = 190,2 (Fabricação 4.755 ÷ 25 m³; sem transporte), com a leitura «Fabricação = A1–A3» como inferência nossa (**por confirmar**); transporte 582 kg só em nota.
 - Com isto não resta nenhum estudo F39 com `refazer_com_recorte`.
+
+## F40 — Factores SIDAC do transporte (A4) e plano da comparação (2026-11-02)
+Kiê enviou as 4 fichas do SIDAC (`sidac.org.br/produtos/{35,32,29,31}`, versão 22.04.27, «Genérico», unidade **t·km**, «incluindo consumo de combustível e emissão de CO₂»). **Registados tal como impressos (2 casas decimais):**
+
+| Modo (SIDAC) | CO₂ (kg/t·km) | Energia primária (MJ/t·km) | Capacidade impressa |
+|---|---|---|---|
+| Caminhão betoneira | 0,10 | 1,48 | 8 m³ / 15,8 t |
+| Caminhão truck (3 eixos), basculante | 0,07 | 1,05 | 14 t |
+| Carreta (4 eixos) | 0,07 | 1,01 | 33 t |
+| Carreta (5 eixos) | 0,06 | 0,94 | 41,5 t |
+
+- Notas: (i) o CO₂ vem arredondado a 0,01 (erro relativo até ~8% em 0,06–0,07); a energia tem 3 algarismos — pedir ao SIDAC mais casas se disponível; (ii) a ficha não diz se o t·km inclui o regresso em vazio — **por confirmar** em «Conteúdo técnico»; (iii) 15,8 t ÷ 8 m³ = 1.975 kg/m³, abaixo da massa volúmica real do betão: com betão a ~2.400 kg/m³ o limite é o peso (~6,6 m³).
+- Ordem de grandeza (betão a 2.400 kg/m³, 100 km): betoneira 24,0; truck e carreta 4 eixos 16,8; carreta 5 eixos 14,4 kg CO₂/m³ (≈ 5–8% de um A1–A3 de ~300).
+- **Decisão (Kiê, 2026-11-02): avaliar o A4 com os 4 modos, de forma a comparação ser a mais completa e realista possível; extrair mais dados dos artigos se necessário.** Plano em fases (por aprovar a fase 2): (1) classificar o que é transportado em cada par (betão fresco em betoneira / elemento pré-fabricado em plataforma / pré-mistura seca) a partir dos campos de fronteira já extraídos; (2) extrair por estudo a massa volúmica do betão (só se impressa ou somando o traço impresso), a distância e o modo declarados, e se o regresso em vazio está contado; (3) motor de cálculo A4 = factor × massa (t/m³) × distância (km), grelha 0–300 km × 4 modos + cenário com a distância/modo declarados; (4) validação contra os 187 pares com A4 publicado (`co2_a4`); (5) saídas no painel (superfície distância × modo → CO₂ total e `ci`) e sensibilidade no modelo; (6) decisões QH e pares «prováveis» (F37/F38).
