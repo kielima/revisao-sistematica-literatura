@@ -1,0 +1,257 @@
+[
+ {
+  "row_id": 4244,
+  "o_que_e_transportado": "elemento_prefabricado",
+  "modo_declarado": "camiao rodoviario EURO 3, 16-32 t (ecoinvent) para lajes alveolares protendidas; materiais da laje por estrada; cada camiao leva 2 lajes",
+  "distancia_km_declarada": "Tab.8: laje (central) -> ponte 21,5 km; materiais: clinquer->cimento 160 km, filler 170 km, gesso 1700 km, GP 6,5 km, areia/brita 5 km, aco 20 km. Sec.2.6.7: 3 viagens/semana de 40 km ida-e-volta cada, total 11.520 km em 2 anos (diverge dos 21,5 km da Tab.8; 40 km ~ ida-e-volta de ~20 km).",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Contradiz a inclusao: os 475/414 kg CO2-eq (Sec.3.2, texto) sao 'por 1 m3 de laje alveolar fabricada' (materiais + transporte dos materiais + fabricacao); o transporte laje->ponte e a fase 'Construcao' (Sec.2.6.7), contabilizada so no total da ponte (Sec.3.3). Logo A4 fora do valor gravado (coerente com 'excluido').",
+  "unidade_valor_gravado_m3_de_betao": "parcial: m3 de laje protendida (1 m3 de betao + 51,48 kg cordoalha 12,7 mm + 3,44 kg cordoalha 6,5 mm, Tab.1), nao m3 de betao simples",
+  "citacao": "Tab.1 p.6; Sec.2.6.7 p.15; Tab.8 p.18; Sec.3.2 p.19-20",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (referencias incluidas); figuras nao renderizadas (valores 475/414 lidos no texto; Fig.14A nao inspecionada). Massa da laje nao impressa; 1 laje = 5 m3 de betao (534 lajes = 2670 m3). Inconsistencia 21,5 km (Tab.8) vs 40 km ida-e-volta (Sec.2.6.7).",
+  "pares": [
+   {
+    "sheet_row": 1230,
+    "densidade_betao_kg_m3": 2492.8,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 5,
+    "local": "Tab.1 p.6 (cimento 302.85 + GP 0.00 + brita 1133 + areia 875,24 + agua 181,71 por m3 de betao; exclui cordoalha)",
+    "citacao": "Tab.1 p.6; 5 m3 de betao por laje: Sec.2.3 p.6",
+    "nota": "CTL; soma dos componentes do betao calculada por nos; densidade medida (ASTM C143, Tab.3) nao tem valor impresso"
+   },
+   {
+    "sheet_row": 1231,
+    "densidade_betao_kg_m3": 2487.29,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 5,
+    "local": "Tab.1 p.6 (cimento 272.57 + GP 24.77 + brita 1133 + areia 875,24 + agua 181,71 por m3 de betao; exclui cordoalha)",
+    "citacao": "Tab.1 p.6; 5 m3 de betao por laje: Sec.2.3 p.6",
+    "nota": "GP1-10; soma dos componentes do betao calculada por nos; densidade medida (ASTM C143, Tab.3) nao tem valor impresso"
+   },
+   {
+    "sheet_row": 1232,
+    "densidade_betao_kg_m3": 2481.8,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 5,
+    "local": "Tab.1 p.6 (cimento 242.28 + GP 49.57 + brita 1133 + areia 875,24 + agua 181,71 por m3 de betao; exclui cordoalha)",
+    "citacao": "Tab.1 p.6; 5 m3 de betao por laje: Sec.2.3 p.6",
+    "nota": "GP1-20; soma dos componentes do betao calculada por nos; densidade medida (ASTM C143, Tab.3) nao tem valor impresso"
+   },
+   {
+    "sheet_row": 1233,
+    "densidade_betao_kg_m3": 2487.29,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 5,
+    "local": "Tab.1 p.6 (cimento 272.57 + GP 24.77 + brita 1133 + areia 875,24 + agua 181,71 por m3 de betao; exclui cordoalha)",
+    "citacao": "Tab.1 p.6; 5 m3 de betao por laje: Sec.2.3 p.6",
+    "nota": "GP2-10; soma dos componentes do betao calculada por nos; densidade medida (ASTM C143, Tab.3) nao tem valor impresso"
+   },
+   {
+    "sheet_row": 1234,
+    "densidade_betao_kg_m3": 2481.8,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 5,
+    "local": "Tab.1 p.6 (cimento 242.28 + GP 49.57 + brita 1133 + areia 875,24 + agua 181,71 por m3 de betao; exclui cordoalha)",
+    "citacao": "Tab.1 p.6; 5 m3 de betao por laje: Sec.2.3 p.6",
+    "nota": "GP2-20; soma dos componentes do betao calculada por nos; densidade medida (ASTM C143, Tab.3) nao tem valor impresso"
+   }
+  ]
+ },
+ {
+  "row_id": 4251,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma exclusao de A4: fronteira berco-ao-portao (Sec.2.4.1, Fig.3); so transporte dos ingredientes, sem modo nem distancia impressos; sem transporte do betao a obra.",
+  "unidade_valor_gravado_m3_de_betao": "sim (declared unit 1 m3 de betao, Sec.2.4.1)",
+  "citacao": "Sec.2.4.1 p.5; Sec.2.4.2 p.6",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido; figuras (Fig.4-7) nao renderizadas, valores de CO2 gravados nao reconferidos na Fig.6. Cubos 100 mm, ensaio aos 14 d. Nenhum dado de transporte (modo, distancia, massa) impresso; ecoinvent 3.9.1 'market for cement' e areia/brita do Reino Unido.",
+  "pares": [
+   {
+    "sheet_row": 1237,
+    "densidade_betao_kg_m3": 2438,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: 316 cimento + 142 agua + 1276 brita + 704 areia (+0 residuo) = 2438; RHA: 316+142+1276+634+70 = 2438",
+    "citacao": "Tab.1 p.4",
+    "nota": "Traditional; soma por nos. Nota: agua 142 kg/m3 (w/c 0,45)"
+   },
+   {
+    "sheet_row": 1238,
+    "densidade_betao_kg_m3": 2438,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: 316 cimento + 142 agua + 1276 brita + 704 areia (+0 residuo) = 2438; RHA: 316+142+1276+634+70 = 2438",
+    "citacao": "Tab.1 p.4",
+    "nota": "Concrete with organic waste (RHA 70 kg); soma por nos. Nota: agua 142 kg/m3 (w/c 0,45)"
+   }
+  ]
+ },
+ {
+  "row_id": 4255,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "transporte rodoviario a gasolina (default GB/T 51366-2019); factor 0,104 kgCO2e/(t.km) (Tab.A2)",
+  "distancia_km_declarada": "betao 40 km (valor por defeito da norma, Sec.3.2 p.8); outros materiais 500 km. Nao diz se e ida ou ida-e-volta.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma exclusao: os 285,0-416,8 kg CO2e/m3 sao factores de producao (Tab.A1, 'production stage'); o transporte e etapa separada (Eq.3, Tab.3: 27.488,19 t x 40 km x 0,104 = 114,351 tCO2e).",
+  "unidade_valor_gravado_m3_de_betao": "sim (kgCO2e/m3 de betao, Tab.A1)",
+  "citacao": "Sec.2.2 Eq.3 p.5; Sec.3.2 p.8 e Tab.3; Tab.A1-A2 p.16",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (corpo e apendices; lista de referencias nao lida); figuras nao renderizadas. Massa de betao transportada 27.488,19 t para 10.995,276 m3 (soma das classes C25-C60 da Tab.2). Gravado 285,02 vs 285,00 da Tab.A1 (C25): diferenca pequena. Edificio super-alto, Nanjing.",
+  "pares": [
+   {
+    "sheet_row": 1239,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "razao_massa_total_e_volume_total_impressos_(todas_as_classes)",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 massa de betao 27.488,19 t / soma dos volumes da Tab.2 (279,871+4138,175+1280,100+1564,172+3732,958 = 10.995,276 m3) = 2,5000 t/m3",
+    "citacao": "Tab.2 e Tab.3 p.7-8",
+    "nota": "C25: densidade nao impressa por classe; razao global exacta 2500 aplicada a todas por nos (so vale se o software usou o mesmo valor para todas). Descartar se a regra exigir valor por mistura."
+   },
+   {
+    "sheet_row": 1240,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "razao_massa_total_e_volume_total_impressos_(todas_as_classes)",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 massa de betao 27.488,19 t / soma dos volumes da Tab.2 (279,871+4138,175+1280,100+1564,172+3732,958 = 10.995,276 m3) = 2,5000 t/m3",
+    "citacao": "Tab.2 e Tab.3 p.7-8",
+    "nota": "C30: densidade nao impressa por classe; razao global exacta 2500 aplicada a todas por nos (so vale se o software usou o mesmo valor para todas). Descartar se a regra exigir valor por mistura."
+   },
+   {
+    "sheet_row": 1241,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "razao_massa_total_e_volume_total_impressos_(todas_as_classes)",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 massa de betao 27.488,19 t / soma dos volumes da Tab.2 (279,871+4138,175+1280,100+1564,172+3732,958 = 10.995,276 m3) = 2,5000 t/m3",
+    "citacao": "Tab.2 e Tab.3 p.7-8",
+    "nota": "C40: densidade nao impressa por classe; razao global exacta 2500 aplicada a todas por nos (so vale se o software usou o mesmo valor para todas). Descartar se a regra exigir valor por mistura."
+   },
+   {
+    "sheet_row": 1242,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "razao_massa_total_e_volume_total_impressos_(todas_as_classes)",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 massa de betao 27.488,19 t / soma dos volumes da Tab.2 (279,871+4138,175+1280,100+1564,172+3732,958 = 10.995,276 m3) = 2,5000 t/m3",
+    "citacao": "Tab.2 e Tab.3 p.7-8",
+    "nota": "C50: densidade nao impressa por classe; razao global exacta 2500 aplicada a todas por nos (so vale se o software usou o mesmo valor para todas). Descartar se a regra exigir valor por mistura."
+   },
+   {
+    "sheet_row": 1243,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "razao_massa_total_e_volume_total_impressos_(todas_as_classes)",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 massa de betao 27.488,19 t / soma dos volumes da Tab.2 (279,871+4138,175+1280,100+1564,172+3732,958 = 10.995,276 m3) = 2,5000 t/m3",
+    "citacao": "Tab.2 e Tab.3 p.7-8",
+    "nota": "C60: densidade nao impressa por classe; razao global exacta 2500 aplicada a todas por nos (so vale se o software usou o mesmo valor para todas). Descartar se a regra exigir valor por mistura."
+   }
+  ]
+ },
+ {
+  "row_id": 4284,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "camiao diesel (factor de combustivel 0,002275 MJ/kg.km x 0,07 kg CO2-e/MJ, Yan et al.); paineis de alvenaria pre-fabricados mencionados no texto de montagem mas sem modo/distancia proprios",
+  "distancia_km_declarada": "obra num raio de 80 km do local de origem dos materiais (Sec.4 p.15); sem distincao ida/ida-e-volta, sem valor por material",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Contradiz 'incluido': 361 kg CO2-e/m3 e o coeficiente GHGEE do grout 25 MPa (EPiC, Tab.4), um coeficiente de materia-prima; o transporte (GHGET, Eq.4-5) e somado a parte (Tab.6: 'Onsite Transport' 0,5-1,6 t CO2-e/casa, identico em prefab e convencional). O texto (p.14) diz que o transporte entra na 'fase de producao', mas o valor gravado nao o contem.",
+  "unidade_valor_gravado_m3_de_betao": "nao: m3 de grout de injecao (argamassa fluida / calda de preenchimento, 25 MPa), nao betao",
+  "citacao": "Sec.4 p.14-16; Tab.4 p.15; Tab.5-6 p.17",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (corpo; lista de referencias nao lida); figuras nao renderizadas (Fig.13 nao contem parametros de transporte). Estudo de paredes de alvenaria pre-fabricada; o grout so enche nucleos (tipo 4, RM). Massa especifica 2400 kg/m3 do grout e valor EPiC.",
+  "pares": [
+   {
+    "sheet_row": 1252,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa_Tab.4_EPiC",
+    "densidade_de": "argamassa/grout (calda de preenchimento 25 MPa), nao betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 p.15: Grout (25 MPa) 2400 kg/m3, 2581 MJ/m3, 361 kg CO2-e/m3",
+    "citacao": "Tab.4 p.15",
+    "nota": "Densidade de grout, nao de betao"
+   }
+  ]
+ },
+ {
+  "row_id": 4301,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "camiao 'Lorry 3.5-7.5 t' (ecoinvent); cimento e escoria de cobre ate a central de betao",
+  "distancia_km_declarada": "cimento 40 km; escoria de cobre 25 km (fornecedores filipinos -> central, Sec.2.2.3 p.6); agregados considerados proximos da central, transporte desprezado (Sec.2.2.2); t.km Tab.11: 12,059 / 11,814 / 11,531 / 11,211 (confere: 286,40 kg x 40 km + 14,32 kg x 25 km = 11,814 t.km no CS5). Ida/ida-e-volta nao declarado.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma exclusao de A4: berco-ao-portao, fase de construcao e seguintes excluidas (Sec.2.2.1-2.2.2); transporte do betao da central a obra nao existe. O 'transporte' do inventario so e de materias-primas ate a central.",
+  "unidade_valor_gravado_m3_de_betao": "sim (FU = 1 m3 de betao 20,7 MPa produzido em central, Sec.2.2.1; 293,75 kg CO2-eq p.14)",
+  "citacao": "Sec.2.2.1-2.2.3 p.4-6; Tab.11 p.10; Sec.4.2 p.14",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (corpo; lista de referencias nao lida); figuras (Fig.1-4, 7-10) nao renderizadas, o valor 293,75 foi lido no texto (p.14). Gravado 293,75 e para FC20.7CS5.",
+  "pares": [
+   {
+    "sheet_row": 1268,
+    "densidade_betao_kg_m3": 2311.61,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3/Tab.11: FC20.7CS5 cimento 286,40 + CS 14,32 + agua 205,00 + brita 1122,55 + areia 683,34 por m3",
+    "citacao": "Tab.3 p.4; Tab.11 p.10",
+    "nota": "soma por nos; peso unitario da mistura nao impresso"
+   }
+  ]
+ },
+ {
+  "row_id": 4381,
+  "o_que_e_transportado": "elemento_prefabricado",
+  "modo_declarado": "camiao diesel medio de 8 t de carga (0,1663 kg CO2eq/(km.t)); alternativas hipoteticas: camiao a gasolina 0,1034, electrico 0,0109 (Tab.1, Tab.6)",
+  "distancia_km_declarada": "100 km entre fabrica e obra (uma viagem, Sec.5 e Tab.5); 15 vigas por viagem (5,8275 t); 1 viagem",
+  "regresso_em_vazio": "incluido",
+  "a4_dentro_do_valor_gravado": "Contradiz que esteja em 321,3: este e o coeficiente de C30 (Tab.4, 2,34 m3 x 321,3 = 751,84 kg, etapa de producao); o transporte (186,05 kg diesel) e etapa separada (Eq.3, Tab.6). Confirma 'excluido'.",
+  "unidade_valor_gravado_m3_de_betao": "sim (kg CO2eq por m3 de betao C30, Tab.4)",
+  "citacao": "Eq.3 p.6; Sec.5 p.7; Tab.4 p.8; Tab.5-6 p.9; Tab.1 p.5",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (corpo e referencias); figuras nao renderizadas. Regresso em vazio incluido via Eq.3: CT = Ts x D x (W1 + Tb x W2), W1=5,8275 t (carga real), W2=8 t (carga plena), Tb=0,67; confere 0,1663 x 100 x (5,8275 + 0,67 x 8) = 186,05 kg. A conclusao cita '1044,85 g/m3' (unidade incoerente, provavel erro).",
+  "pares": [
+   {
+    "sheet_row": 1328,
+    "densidade_betao_kg_m3": 2360,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao (C30)",
+    "massa_elemento_kg": 388.5,
+    "volume_betao_elemento_m3": 0.156,
+    "local": "Sec.5.1 e Tab.3 p.8: C30 2360 kg/m3, 0,156 m3, 368,16 kg; viga completa (betao+aco) 388,5 kg e 2450 kg/m3 (Tab.5 p.9); aco 20,356 kg",
+    "citacao": "Tab.3 p.8; Tab.5 p.9",
+    "nota": "massa_elemento = viga de betao armado (inclui 20,356 kg de aco); betao so: 368,16 kg"
+   }
+  ]
+ }
+]
