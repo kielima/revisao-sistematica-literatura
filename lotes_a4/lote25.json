@@ -1,0 +1,128 @@
+[
+ {
+  "row_id": 4847,
+  "autor": "Kim, Taehyoung and Lee, Sanghyo and Chae, Chang U. and Jang, Hyoungjae\nand Lee, ",
+  "titulo": "Development of the CO2 Emission Evaluation Tool for the Life\nCycle Assessment of Concrete",
+  "pdf": "KIM et al., 2017.pdf",
+  "fileId": "15Mj4BW5qaRJJuruFR2uWWNVU_G7hw6Rc",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: camiao (ate 'same fuel vehicles') e comboio; cimento por comboio + camiao; camiao: camiao/comboio genericos; carga Lt, eficiencia e [km/L] na Eq.(2); distancias especificas por origem do mix report (Tabela 4: 'Specific materials transport route'); factor: Unit TCO2eq por L de combustivel (Eq.2); LCI nacional coreano 'Transportation: Truck, Train'",
+  "pares": [
+   {
+    "sheet_row": 1819,
+    "material": "concreto (producao real, canteiro em Seongnam, Coreia do Sul, 24 MPa)",
+    "co2_kg_m3": 364.9,
+    "fck_mpa": 24
+   },
+   {
+    "sheet_row": 1820,
+    "material": "concreto (producao real, canteiro em Seongnam, Coreia do Sul, 30 MPa)",
+    "co2_kg_m3": 365.4,
+    "fck_mpa": 30
+   }
+  ]
+ },
+ {
+  "row_id": 4855,
+  "autor": "Kocak, Ahmet Burak and Soyluk, Asena and Aycam, Idil",
+  "titulo": "The Environmental Impact of Reusing Post-Earthquake Demolition Waste:\nİskenderun Case Study",
+  "pdf": "KOCAK, 2024i_1.pdf",
+  "fileId": "1c80ALYxsy46XwU8GkhYvEJL1w1lckHYN",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: 4.4-54.5; modal: road; camiao: lorry 17.3 t max payload; factor: ReCiPe midpoint / openLCA; Tab.2: 222,899.6 t.km (RAC), 347,725.8 t.km (NAC)",
+  "pares": [
+   {
+    "sheet_row": 1824,
+    "material": "concreto C25 com agregado reciclado (RAC) de resíduos de demolição pós-terremoto (İskenderun)",
+    "co2_kg_m3": 264.62,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 1825,
+    "material": "concreto C25 com agregado natural (NAC) - comparativo do mesmo estudo",
+    "co2_kg_m3": 273.18,
+    "fck_mpa": 25
+   }
+  ]
+ },
+ {
+  "row_id": 4930,
+  "autor": "Oh, Jae-Won and Pang, Sung-Jun and Ahn, Kyung-Sun and Oh, Jung-Kwon",
+  "titulo": "A STRUCTURAL-MEMBER LEVEL ASSESSMENT OF THE ENVIRONMENTAL IMPACT OF TIMBER, REINFORCED CONCRETE AND STEEL IN BUILDING CONSTRUCTION",
+  "pdf": "OH et al., 2023.pdf",
+  "fileId": "1aN30n1dYwUcengJgwXTv1hxOnjRUbRfp",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 1835,
+    "material": "concreto armado C30 — viga dimensionada, comparada com madeira laminada colada (GLT) e aço",
+    "co2_kg_m3": 259,
+    "fck_mpa": 30
+   }
+  ]
+ },
+ {
+  "row_id": 4993,
+  "autor": "Wagner, Anna and Winter, Klara and Nestmann, Anna and Ott, Stephan and Winter, S",
+  "titulo": "COMPARATIVE LIFE CYCLE ASSESSMENT OF TIMBER-CONCRETE-COMPOSITE WALLS WITH CONCRETE AND CLT-WALL ELEMENTS",
+  "pdf": "WAGNER, 2023d.pdf",
+  "fileId": "1O3mQYdIVRIKENxj6joaOT0HvfqhfCGv8",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 27,
+    "material": "UHPC (Ultra High Performance Concrete) em lamelas de parede hibrida CLT-UHPC",
+    "co2_kg_m3": 560,
+    "fck_mpa": 132.5
+   }
+  ]
+ },
+ {
+  "row_id": 4997,
+  "autor": "Borges, Paulo Henrique Ribeiro and Lourenço, Thuany Marra de Figueiredo and Four",
+  "titulo": "Estudo comparativo da análise de ciclo de vida de concretos geopoliméricos e de concretos à base de cimento Portland composto ({CP} {II})",
+  "pdf": "BORGES, 2014.pdf",
+  "fileId": "1oH1bkbob4ShAHE5RtZUjKhP-N9_QV-WZ",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 28,
+    "material": "Concreto de cimento Portland CP II (referencia)",
+    "co2_kg_m3": 271.9,
+    "fck_mpa": 40
+   },
+   {
+    "sheet_row": 29,
+    "material": "Concreto geopolimero (metacaulim + ativador alcalino NaOH/Na2SiO3)",
+    "co2_kg_m3": 75.1,
+    "fck_mpa": 40
+   }
+  ]
+ },
+ {
+  "row_id": 5012,
+  "autor": "Figueiredo, Camilla Furtado de",
+  "titulo": "Aplicação da avaliação do ciclo de vida como critério de seleção para materiais utilizados em construções sustentáveis",
+  "pdf": "FIGUEIREDO, 2017.pdf",
+  "fileId": "1DtDEav4rO9NJQhWbdUl-H-Mj5qg1ENPd",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 32,
+    "material": "Concreto base cimento Portland vs concreto AAM (material ativado alcalinamente)",
+    "co2_kg_m3": 286.37,
+    "fck_mpa": 25
+   }
+  ]
+ }
+]

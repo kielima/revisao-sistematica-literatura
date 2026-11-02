@@ -1,0 +1,254 @@
+[
+ {
+  "row_id": 2720,
+  "autor": "Li, Hanghang and Shi, Dongsheng and Li, Hao and Ren, Dongdong",
+  "titulo": "Experimental study on municipal solid waste incineration ash\nmicro-powder as concrete admixture",
+  "pdf": "LI et al., 2024b.pdf",
+  "fileId": "1gRMKumgo-kFatOqWNn3YhzFB-JRHoyOU",
+  "fronteira": "outra",
+  "transporte_betao_a4": "nao_declarado",
+  "transporte_dados": "factor: combustivel (L) por material, Tab.6: cimento 2,3875; areia 3,36; brita 1,71; (MSWI 0,38)",
+  "pares": [
+   {
+    "sheet_row": 162,
+    "material": "Betao convencional, referencia (w/b=0,4, 0% cinza MSWI)",
+    "co2_kg_m3": 449.06,
+    "fck_mpa": 59.18
+   },
+   {
+    "sheet_row": 163,
+    "material": "Betao com cinza MSWI (w/b=0,4, 20%)",
+    "co2_kg_m3": 325.07,
+    "fck_mpa": 56.71
+   }
+  ]
+ },
+ {
+  "row_id": 2744,
+  "autor": "Matias de Paula Filho, Jose Humberto and D'Antimo, Marina and Charlier,\nMarion a",
+  "titulo": "Life-Cycle Assessment of an Office Building: Influence of the Structural\nDesign on the Embodied Carbon Emissions",
+  "pdf": "MATIAS DE PAULA FILHO et al., 2024 - modelling5010004.pdf",
+  "fileId": "1iey7QXsBBICPalIZh-bPV-4AY094Rl46",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "betao km: 60; modal: estrada; camiao: betoneira ~8 m3, 100% de enchimento; factor: 0,13 kg CO2e/t.km (betoneira); 0,0383 (camiao 40 t)",
+  "pares": [
+   {
+    "sheet_row": 697,
+    "material": "Concreto pronto pre-fabricado (estrutura de escritorio, aco/betao/madeira) - classe Eurocodigo C30/37",
+    "co2_kg_m3": 270.88,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 698,
+    "material": "Concreto pronto pre-fabricado (estrutura de escritorio, aco/betao/madeira) - classe Eurocodigo C40/50",
+    "co2_kg_m3": 355.83,
+    "fck_mpa": 40
+   },
+   {
+    "sheet_row": 699,
+    "material": "Concreto pronto pre-fabricado (estrutura de escritorio, aco/betao/madeira) - classe Eurocodigo C50/60",
+    "co2_kg_m3": 429,
+    "fck_mpa": 50
+   }
+  ]
+ },
+ {
+  "row_id": 2745,
+  "autor": "Menegatti, Lucas Caon and Castrillon Fernandez, Leticia Ikeda and\nCaldas, Lucas ",
+  "titulo": "Environmental Performance of Deconstructable Concrete Beams Made with\nRecycled Aggregates",
+  "pdf": "MENEGATTI et al., 2022.pdf",
+  "fileId": "1cnYd4BUBsXQ4nCcxFEYVyoBiyxudessa",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: 100; modal: camiao; camiao: lorry 16-32 t euro5; factor: ecoinvent market",
+  "pares": [
+   {
+    "sheet_row": 178,
+    "material": "Viga de betao com agregado reciclado, desconstruivel (ORB, 'ordinary reinforced beam')",
+    "co2_kg_m3": 351.76,
+    "fck_mpa": 60
+   },
+   {
+    "sheet_row": 179,
+    "material": "Viga de betao com agregado reciclado, desconstruivel (DRB, 'deconstructable reinforced beam', ecoinvent+EPD do aco)",
+    "co2_kg_m3": 352.43,
+    "fck_mpa": 60
+   }
+  ]
+ },
+ {
+  "row_id": 2751,
+  "autor": "Mitterpach, Jozef and Fojtík, Roman and Machovčáková, Eva and Kubíncová, Lenka",
+  "titulo": "Life Cycle Assessment of a Road Transverse Prestressed Wooden–Concrete Bridge",
+  "pdf": "MITTERPACH et al., 2023.pdf",
+  "fileId": "1acIfwJXnyGXF-RBBVDeyIC-49DZ1oO28",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 185,
+    "material": "betao C30/37 armado, ponte madeira-betao pre-esforcada transversalmente (WCB)",
+    "co2_kg_m3": null,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 186,
+    "material": "betao C30/37 armado, ponte aco-betao (SCB, comparador)",
+    "co2_kg_m3": null,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 1884,
+    "material": "Encontros e pilares (abutments and piers) em betao armado C30/37 da ponte madeira-betao WCB (elemento so de betao armado: 65,160 m3 betao + 7,2 t de armadura B500B)",
+    "co2_kg_m3": 702.9,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 1885,
+    "material": "Vigas de coroamento (capping beam) em betao armado C30/37, ponte WCB (3,507 m3 betao + 0,172 t armadura)",
+    "co2_kg_m3": 493.3,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 1886,
+    "material": "Muros de testa (abutment wall) em betao armado C30/37, ponte WCB (3,163 m3 betao + 0,047 t armadura)",
+    "co2_kg_m3": 379.4,
+    "fck_mpa": 30
+   }
+  ]
+ },
+ {
+  "row_id": 2757,
+  "autor": "Onn, Chiu Chuen and Mo, Kim Hung and Radwan, Mohammed K. H. and Liew,\nWen Hong a",
+  "titulo": "Strength, Carbon Footprint and Cost Considerations of Mortar Blends with\nHigh Volume Ground Granulated Blast Furnace Slag",
+  "pdf": "ONN et al., 2019.pdf",
+  "fileId": "14nbblvZ7MWpQS9WxA_tjjb1oIHEKaRvr",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 192,
+    "material": "argamassa com 0% de GGBFS como substituicao de cimento, w/b=0.45, mistura A0",
+    "co2_kg_m3": 574.033,
+    "fck_mpa": 48.41
+   },
+   {
+    "sheet_row": 193,
+    "material": "argamassa com 10% de GGBFS como substituicao de cimento, w/b=0.45, mistura A1",
+    "co2_kg_m3": null,
+    "fck_mpa": 47.87
+   },
+   {
+    "sheet_row": 194,
+    "material": "argamassa com 20% de GGBFS como substituicao de cimento, w/b=0.45, mistura A2",
+    "co2_kg_m3": null,
+    "fck_mpa": 46.98
+   },
+   {
+    "sheet_row": 195,
+    "material": "argamassa com 30% de GGBFS como substituicao de cimento, w/b=0.45, mistura A3",
+    "co2_kg_m3": null,
+    "fck_mpa": 46.78
+   },
+   {
+    "sheet_row": 196,
+    "material": "argamassa com 40% de GGBFS como substituicao de cimento, w/b=0.45, mistura A4",
+    "co2_kg_m3": null,
+    "fck_mpa": 45.86
+   },
+   {
+    "sheet_row": 197,
+    "material": "argamassa com 50% de GGBFS como substituicao de cimento, w/b=0.45, mistura A5",
+    "co2_kg_m3": null,
+    "fck_mpa": 43.92
+   },
+   {
+    "sheet_row": 198,
+    "material": "argamassa com 60% de GGBFS como substituicao de cimento, w/b=0.45, mistura A6",
+    "co2_kg_m3": null,
+    "fck_mpa": 39.07
+   },
+   {
+    "sheet_row": 199,
+    "material": "argamassa com 70% de GGBFS como substituicao de cimento, w/b=0.45, mistura A7",
+    "co2_kg_m3": 209,
+    "fck_mpa": 35.61
+   },
+   {
+    "sheet_row": 200,
+    "material": "argamassa com 0% de GGBFS como substituicao de cimento, w/b=0.65, mistura B0",
+    "co2_kg_m3": 573.209,
+    "fck_mpa": 38.29
+   },
+   {
+    "sheet_row": 201,
+    "material": "argamassa com 10% de GGBFS como substituicao de cimento, w/b=0.65, mistura B1",
+    "co2_kg_m3": null,
+    "fck_mpa": 36.8
+   },
+   {
+    "sheet_row": 202,
+    "material": "argamassa com 20% de GGBFS como substituicao de cimento, w/b=0.65, mistura B2",
+    "co2_kg_m3": null,
+    "fck_mpa": 34.36
+   },
+   {
+    "sheet_row": 203,
+    "material": "argamassa com 30% de GGBFS como substituicao de cimento, w/b=0.65, mistura B3",
+    "co2_kg_m3": null,
+    "fck_mpa": 32.56
+   },
+   {
+    "sheet_row": 204,
+    "material": "argamassa com 40% de GGBFS como substituicao de cimento, w/b=0.65, mistura B4",
+    "co2_kg_m3": null,
+    "fck_mpa": 32.71
+   },
+   {
+    "sheet_row": 205,
+    "material": "argamassa com 50% de GGBFS como substituicao de cimento, w/b=0.65, mistura B5",
+    "co2_kg_m3": null,
+    "fck_mpa": 32.7
+   },
+   {
+    "sheet_row": 206,
+    "material": "argamassa com 60% de GGBFS como substituicao de cimento, w/b=0.65, mistura B6",
+    "co2_kg_m3": null,
+    "fck_mpa": 29.39
+   },
+   {
+    "sheet_row": 207,
+    "material": "argamassa com 70% de GGBFS como substituicao de cimento, w/b=0.65, mistura B7",
+    "co2_kg_m3": 207,
+    "fck_mpa": 26.05
+   }
+  ]
+ },
+ {
+  "row_id": 2766,
+  "autor": "Pedroso, Pedro Frazao and Correia, Joao R. and Silvestre, Jose D. and\nFirmo, Joa",
+  "titulo": "Environmental and Economic LCA Comparison of Flexural Strengthening\nSolutions for a Reinforced Concrete Beam",
+  "pdf": "PEDROSO et al., 2024.pdf",
+  "fileId": "17azX49Oy6ByW6_fzNCX1Y8rSDUZtm_Ga",
+  "fronteira": "outra",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 220,
+    "material": "betao C25/30 existente + reforco por encamisamento de betao mantendo seccao (concrete jacketing, CJE)",
+    "co2_kg_m3": 477.4,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 221,
+    "material": "betao C25/30 existente + reforco por encamisamento de betao aumentando altura da seccao (concrete jacketing, CJI)",
+    "co2_kg_m3": 483.1,
+    "fck_mpa": 25
+   }
+  ]
+ }
+]

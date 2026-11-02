@@ -1,0 +1,338 @@
+[
+ {
+  "row_id": 2937,
+  "autor": "Abdelaal, Mohamed A. and Seif, Samer M. and El-Tafesh, Menna M. and Bahnas, Noha",
+  "titulo": "Sustainable assessment of concrete structures using BIM–LCA–AHP integrated approach",
+  "pdf": "ABDELAAL, 2024b - s10668-023-03701-3.pdf",
+  "fileId": "1eSfQ1aQ5aXcali9aG4i5TPMWQqUSkcuN",
+  "fronteira": "outra",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 795,
+    "material": "Concreto OPC convencional para garagem multipiso (Egipto), Cast in Situ 25/30",
+    "co2_kg_m3": 366.3,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 796,
+    "material": "Concreto com 30% cinza volante (FA) para garagem multipiso, Cast in Situ 25/30",
+    "co2_kg_m3": 304.4,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 797,
+    "material": "Concreto com 50% GGBFS para garagem multipiso, Cast in Situ 25/30",
+    "co2_kg_m3": 230.3,
+    "fck_mpa": 25
+   }
+  ]
+ },
+ {
+  "row_id": 2951,
+  "autor": "Ali, Babar and Azab, Marc and Kurda, Rawaz and Kahla, Nabil Ben and\nAtig, Miniar",
+  "titulo": "A multi-criteria evaluation and optimization of sustainable\nfiber-reinforced concrete developed with nylon waste fibers and\nmicro-silica",
+  "pdf": "ALI, 2023i - s11356-023-26492-6.pdf",
+  "fileId": "1nqZ3ZxDA7CWFH684wP168sSJLZoutXj3",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: cimento 398; MS 176; agregado fino 455; agregado grosso 245; SP 176; fibra/agua 0; modal: camiao; camiao: lorry 17,3 t; factor: 6,57E-5 kg-CO2/(kg.km) (Kurda et al. 2018b); ida e volta = 1,85x",
+  "pares": [
+   {
+    "sheet_row": 801,
+    "material": "HSC controle/referencia (CM), sem fibra NWF, sem microssilica (MS)",
+    "co2_kg_m3": 628.5,
+    "fck_mpa": 71.3
+   }
+  ]
+ },
+ {
+  "row_id": 3017,
+  "autor": "Cunningham, Patrick R. and Wang, Li and Kane, Seth and Kim, Alyson and\nJenkins, ",
+  "titulo": "Lifecycle implications and mechanical properties of carbonated biomass\nashes as carbon-storing supplementary cementitious materials",
+  "pdf": "CUNNINGHAM et al., 2025.pdf",
+  "fileId": "104LJMLiOKGZrsuWgAElVUzSZJe4LyePQ",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: {'cimento': 146, 'cinza': 43, 'agregado_fino': 61, 'cinza_ate_instalacao_de_carbonatacao': 150}; modal: camiao; factor: modelado com a ferramenta OpenConcrete [43]; factores no SI (nao lido)",
+  "pares": [
+   {
+    "sheet_row": 259,
+    "material": "Argamassa 5%M-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "co2_kg_m3": 460.1,
+    "fck_mpa": 54.82
+   },
+   {
+    "sheet_row": 2110,
+    "material": "Argamassa CTRL (100% cimento Portland, referencia)",
+    "co2_kg_m3": 482.2,
+    "fck_mpa": 48.89
+   },
+   {
+    "sheet_row": 2111,
+    "material": "Argamassa 5%M-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "co2_kg_m3": 459.8,
+    "fck_mpa": 50.49
+   },
+   {
+    "sheet_row": 2112,
+    "material": "Argamassa 5%C-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "co2_kg_m3": 459.9,
+    "fck_mpa": 45.55
+   },
+   {
+    "sheet_row": 2113,
+    "material": "Argamassa 15%M-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "co2_kg_m3": 416.2,
+    "fck_mpa": 43.95
+   },
+   {
+    "sheet_row": 2114,
+    "material": "Argamassa 15%C-WSA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "co2_kg_m3": 416.2,
+    "fck_mpa": 26.54
+   },
+   {
+    "sheet_row": 2115,
+    "material": "Argamassa 5%C-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "co2_kg_m3": 460.1,
+    "fck_mpa": 52.35
+   },
+   {
+    "sheet_row": 2116,
+    "material": "Argamassa 15%M-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "co2_kg_m3": 416.1,
+    "fck_mpa": 53.95
+   },
+   {
+    "sheet_row": 2117,
+    "material": "Argamassa 15%C-RHA (cinza de biomassa: WSA palha de trigo / RHA casca de arroz; M moida, C moida e tratada com CO2)",
+    "co2_kg_m3": 416.1,
+    "fck_mpa": 49.5
+   }
+  ]
+ },
+ {
+  "row_id": 3038,
+  "autor": "Li, Xiaojuan and Xie, Wanjun and Yang, Ting and Lin, Chengxin and Jim,\nC. Y.",
+  "titulo": "Carbon emission evaluation of prefabricated concrete composite plates\nduring the building materialization stage",
+  "pdf": "LI, 2023 - j.buildenv.2023.110045.pdf",
+  "fileId": "1QB6If1WOsENpyY97URO2brn5kmjIwqmF",
+  "fronteira": "A1-A5",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: rodoviario (varios modais combustiveis); factor: Tab.5; factor de 'Eys' kgCO2/(t*km)",
+  "pares": [
+   {
+    "sheet_row": 815,
+    "material": "Concreto classe C20 (fator de emissao de carbono, Tabela 3, banco de dados chines) - usado no calculo de placas PCC pre-fabricadas",
+    "co2_kg_m3": 250,
+    "fck_mpa": 20
+   },
+   {
+    "sheet_row": 816,
+    "material": "Concreto classe C25 (fator de emissao de carbono, Tabela 3, banco de dados chines) - usado no calculo de placas PCC pre-fabricadas",
+    "co2_kg_m3": 267.7,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 817,
+    "material": "Concreto classe C30 (fator de emissao de carbono, Tabela 3, banco de dados chines) - usado no calculo de placas PCC pre-fabricadas",
+    "co2_kg_m3": 287.7,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 818,
+    "material": "Concreto classe C35 (fator de emissao de carbono, Tabela 3, banco de dados chines) - usado no calculo de placas PCC pre-fabricadas",
+    "co2_kg_m3": 307.7,
+    "fck_mpa": 35
+   },
+   {
+    "sheet_row": 819,
+    "material": "Concreto classe C40 (fator de emissao de carbono, Tabela 3, banco de dados chines) - usado no calculo de placas PCC pre-fabricadas",
+    "co2_kg_m3": 327.7,
+    "fck_mpa": 40
+   },
+   {
+    "sheet_row": 820,
+    "material": "Concreto classe C50 (fator de emissao de carbono, Tabela 3, banco de dados chines) - usado no calculo de placas PCC pre-fabricadas",
+    "co2_kg_m3": 367.7,
+    "fck_mpa": 50
+   }
+  ]
+ },
+ {
+  "row_id": 3055,
+  "autor": "Celik, Kemal and Meral, Cagla and Gursel, A. Petek and Mehta, P. Kumar\nand Horva",
+  "titulo": "Mechanical properties, durability, and life-cycle assessment of\nself-consolidating concrete mixtures made with blended portland cements\ncontaining fly ash and limestone powder",
+  "pdf": "CELIK, 2015.pdf",
+  "fileId": "1OR6Mhz_fBnhSgFlemUGdquQB68UEUky0",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: camiao Class 8b (2005), barcaca, ferrovia; camiao: Truck_Class 8b (Model 2005); factor: ferramenta GreenConcrete LCA (nao impresso)",
+  "pares": [
+   {
+    "sheet_row": 260,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 100-0-0 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 569,
+    "fck_mpa": 53.9
+   },
+   {
+    "sheet_row": 261,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 85-0-15 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 487,
+    "fck_mpa": 43.2
+   },
+   {
+    "sheet_row": 262,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 75-0-25 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 434,
+    "fck_mpa": 33.6
+   },
+   {
+    "sheet_row": 263,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 70-30-0 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 412,
+    "fck_mpa": 51
+   },
+   {
+    "sheet_row": 264,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 50-50-0 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 311,
+    "fck_mpa": 41.6
+   },
+   {
+    "sheet_row": 265,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 55-30-15 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 333,
+    "fck_mpa": 37.5
+   },
+   {
+    "sheet_row": 266,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 45-40-15 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 282,
+    "fck_mpa": 33.9
+   },
+   {
+    "sheet_row": 267,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 35-50-15 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 232,
+    "fck_mpa": 26
+   },
+   {
+    "sheet_row": 268,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 25-60-15 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 183,
+    "fck_mpa": 20.6
+   },
+   {
+    "sheet_row": 269,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 55-20-25 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 332,
+    "fck_mpa": 36.3
+   },
+   {
+    "sheet_row": 270,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 45-30-25 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 281,
+    "fck_mpa": 31.5
+   },
+   {
+    "sheet_row": 271,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 35-40-25 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 231,
+    "fck_mpa": 28.9
+   },
+   {
+    "sheet_row": 272,
+    "material": "Betao autocompactavel (SCC), mistura C-F-L 25-50-25 (cimento-cinza volante-filer calcario, % em massa)",
+    "co2_kg_m3": 182,
+    "fck_mpa": 20.6
+   }
+  ]
+ },
+ {
+  "row_id": 3068,
+  "autor": "Gisela Cordoba and Manuel Barquero and Viviana Bonavetti and Edgardo F. Irassar",
+  "titulo": "Sustainability of concretes with binary and ternary blended cements considering performance parameters",
+  "pdf": "CORDOBA et al., 2023.pdf",
+  "fileId": "1MxyK4IiyXgqsMqQKZ9yYgl5Lhj0Eh6vn",
+  "fronteira": "outra",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: 333; modal: camiao (unico modo); factor: 0.124 kg ECO2eq/t.km",
+  "pares": [
+   {
+    "sheet_row": 285,
+    "material": "Betao com cimento binario/ternario blendado, mistura M1 (w/b=0.50, 0% SCM, OPC puro)",
+    "co2_kg_m3": 399.8,
+    "fck_mpa": 32.4
+   },
+   {
+    "sheet_row": 286,
+    "material": "Betao com cimento binario/ternario blendado, mistura M2 (w/b=0.50, 25% cinza volante calcinada de baixo carbono LKC)",
+    "co2_kg_m3": 350.2,
+    "fck_mpa": 37.4
+   },
+   {
+    "sheet_row": 287,
+    "material": "Betao com cimento binario/ternario blendado, mistura M3 (w/b=0.50, 25% cinza de casca de arroz RIC)",
+    "co2_kg_m3": 355.8,
+    "fck_mpa": 28.3
+   },
+   {
+    "sheet_row": 288,
+    "material": "Betao com cimento binario/ternario blendado, mistura M4 (w/b=0.4, 20% fíler calcario LF + 7.5% pozolana natural calcinada OIC)",
+    "co2_kg_m3": 378.6,
+    "fck_mpa": 47.1
+   },
+   {
+    "sheet_row": 289,
+    "material": "Betao com cimento binario/ternario blendado, mistura M5 (w/b=0.5, 20% fíler calcario LF + 7.5% pozolana natural calcinada OIC)",
+    "co2_kg_m3": 322,
+    "fck_mpa": 38.5
+   },
+   {
+    "sheet_row": 290,
+    "material": "Betao com cimento binario/ternario blendado, mistura M6 (w/b=0.6, 20% fíler calcario LF + 7.5% pozolana natural calcinada OIC)",
+    "co2_kg_m3": 279.5,
+    "fck_mpa": 28
+   },
+   {
+    "sheet_row": 291,
+    "material": "Betao com cimento binario/ternario blendado, mistura M7 (w/b=0.4, 12.4% fíler calcario LF + 12.6% pozolana natural NP)",
+    "co2_kg_m3": 380.6,
+    "fck_mpa": 45
+   },
+   {
+    "sheet_row": 292,
+    "material": "Betao com cimento binario/ternario blendado, mistura M8 (w/b=0.5, 12.4% fíler calcario LF + 12.6% pozolana natural NP)",
+    "co2_kg_m3": 323.5,
+    "fck_mpa": 35.4
+   },
+   {
+    "sheet_row": 293,
+    "material": "Betao com cimento binario/ternario blendado, mistura M9 (w/b=0.6, 12.4% fíler calcario LF + 12.6% pozolana natural NP)",
+    "co2_kg_m3": 280.7,
+    "fck_mpa": 23.1
+   },
+   {
+    "sheet_row": 294,
+    "material": "Betao com cimento binario/ternario blendado, mistura M10 (w/b=0.5, 6% fíler calcario LF + 22% escoria granulada GGBS)",
+    "co2_kg_m3": 322.6,
+    "fck_mpa": 32.8
+   },
+   {
+    "sheet_row": 295,
+    "material": "Betao com cimento binario/ternario blendado, mistura M11 (w/b=0.5, 11% fíler calcario LF + 11% escoria granulada GGBS)",
+    "co2_kg_m3": 341.7,
+    "fck_mpa": 32.6
+   },
+   {
+    "sheet_row": 296,
+    "material": "Betao com cimento binario/ternario blendado, mistura M12 (w/b=0.5, 20% escoria granulada GGBS)",
+    "co2_kg_m3": 350.5,
+    "fck_mpa": 34.1
+   }
+  ]
+ }
+]

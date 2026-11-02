@@ -1,0 +1,164 @@
+[
+ {
+  "row_id": 4244,
+  "autor": "Guignone, Guilherme and Calmon, Joao Luiz and Vieira, Geilma and Zulcao,\nRobson ",
+  "titulo": "Life Cycle Assessment of Waste Glass Powder Incorporation on Concrete: A\nBridge Retrofit Study Case",
+  "pdf": "GUIGNONE, 2022.pdf",
+  "fileId": "1oIDMCjfUsOF4Kxhh2hyBP6a2nZDMgvuU",
+  "fronteira": "outra",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: 5; betao km: 21.5; modal: road; camiao: EURO 3, 16-32 t (ecoinvent); factor: ecoinvent 3.3; Tab.8: laje->ponte 21,5 km (construcao); areia e brita 5 km",
+  "pares": [
+   {
+    "sheet_row": 1230,
+    "material": "Concreto convencional (CTL, controle) para laje alveolar protendida — retrofit de ponte, Brasil",
+    "co2_kg_m3": 475,
+    "fck_mpa": 37.48
+   },
+   {
+    "sheet_row": 1231,
+    "material": "Concreto com 10% de substituicao de cimento por po de vidro nao-moido (GP1-10)",
+    "co2_kg_m3": null,
+    "fck_mpa": 35.7
+   },
+   {
+    "sheet_row": 1232,
+    "material": "Concreto com 20% de substituicao de cimento por po de vidro nao-moido (GP1-20)",
+    "co2_kg_m3": null,
+    "fck_mpa": 34.24
+   },
+   {
+    "sheet_row": 1233,
+    "material": "Concreto com 10% de substituicao de cimento por po de vidro moido (GP2-10)",
+    "co2_kg_m3": null,
+    "fck_mpa": 38.06
+   },
+   {
+    "sheet_row": 1234,
+    "material": "Concreto com 20% de substituicao de cimento por po de vidro moido (GP2-20)",
+    "co2_kg_m3": 414,
+    "fck_mpa": 36.56
+   }
+  ]
+ },
+ {
+  "row_id": 4251,
+  "autor": "Bertoldo, Nicolas and Qureshi, Tanvir and Simpkins, Dylan and Arrigoni,\nAlessand",
+  "titulo": "Concrete with Organic Waste Materials as Aggregate Replacement",
+  "pdf": "BERTOLDO et al., 2024.pdf",
+  "fileId": "1_BD22iRwNHt02_IY2Uh-aB4uTlb8AXyE",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 1237,
+    "material": "Concreto tradicional (traco 1:2:4, w/c=0,45, controle/DU) — sem substituicao de agregado",
+    "co2_kg_m3": 335,
+    "fck_mpa": null
+   },
+   {
+    "sheet_row": 1238,
+    "material": "Concreto com cinza de casca de arroz (rice husk ash, RHA) 10% substituicao de agregado fino",
+    "co2_kg_m3": 334.1,
+    "fck_mpa": 20.7
+   }
+  ]
+ },
+ {
+  "row_id": 4255,
+  "autor": "Gao, Jiangjun and Shen, Zhengliang and Shao, Zerui and Pan, Xinyu and\nTang, Desh",
+  "titulo": "Carbon Emission Analysis of RC Core Wall-Steel Frame Structures",
+  "pdf": "GAO et al., 2024 - app14177727.pdf",
+  "fileId": "1uJpxgpTm7QoKPQaddI8SLaFSV9_az_Xb",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "betao km: 40; modal: rodoviario (gasolina); factor: 0,104 kgCO2e/(t.km) gasolina (Tab.A2); outros materiais 500 km",
+  "pares": [
+   {
+    "sheet_row": 1239,
+    "material": "Concreto estrutural C25 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "co2_kg_m3": 285.02,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 1240,
+    "material": "Concreto estrutural C30 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "co2_kg_m3": 295,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 1241,
+    "material": "Concreto estrutural C40 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "co2_kg_m3": 321.4,
+    "fck_mpa": 40
+   },
+   {
+    "sheet_row": 1242,
+    "material": "Concreto estrutural C50 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "co2_kg_m3": 385,
+    "fck_mpa": 50
+   },
+   {
+    "sheet_row": 1243,
+    "material": "Concreto estrutural C60 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "co2_kg_m3": 416.76,
+    "fck_mpa": 60
+   }
+  ]
+ },
+ {
+  "row_id": 4284,
+  "autor": "Thamboo, Julian and Zahra, Tatheer and Navaratnam, Satheeskumar and Asad, Mohamm",
+  "titulo": "Prospects of Developing Prefabricated Masonry Walling Systems in Australia",
+  "pdf": "THAMBOO et al., 2021.pdf",
+  "fileId": "14xzB9CbUY24yZzXInny40Gt3piof49uq",
+  "fronteira": "outra",
+  "transporte_betao_a4": "incluido",
+  "transporte_dados": "materiais km: obra num raio de 80 km do local de origem dos materiais; modal: camiao diesel; factor: 0,002275 MJ/kg.km x 0,07 kg CO2-e/MJ",
+  "pares": [
+   {
+    "sheet_row": 1252,
+    "material": "Grout de injecao Portland (f'cg=25 MPa) - sistema de alvenaria pre-fabricada com armadura pos-tensionada (Tipo 4, PT com grout) e armada convencional (Tipo 3), Australia",
+    "co2_kg_m3": 361,
+    "fck_mpa": 25
+   }
+  ]
+ },
+ {
+  "row_id": 4301,
+  "autor": "de Pedro, John Paul Q. and Lagao, Jil Andrew T. and Ongpeng, Jason\nMaximino C.",
+  "titulo": "Life Cycle Assessment of Concrete Using Copper Slag as a Partial Cement\nSubstitute in Reinforced Concrete Buildings",
+  "pdf": "DE PEDRO et al., 2023.pdf",
+  "fileId": "1gBHd_-_3TCv87ULS0L7ycw54A3h4uO1p",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: 40; modal: rodoviario; camiao: Lorry 3.5-7.5 t (t.km: 12,059 / 11,814 / 11,531 / 11,211 por mistura); factor: cimento 40 km, escoria de cobre 25 km; agregados desprezados",
+  "pares": [
+   {
+    "sheet_row": 1268,
+    "material": "Concreto FC20.7CS5 (fc=20,7 MPa via ACI 211-09, 5% de cimento substituido por escoria de cobre — CS) — mix de projeto proprio das Filipinas",
+    "co2_kg_m3": 293.75,
+    "fck_mpa": 20.7
+   }
+  ]
+ },
+ {
+  "row_id": 4381,
+  "autor": "Xu, Kaitong and Kang, Haibo and Wang, Wei and Jiang, Ping and Li, Na",
+  "titulo": "Carbon Emission Estimation of Assembled Composite Concrete Beams during\nConstruction",
+  "pdf": "XU, 2021.pdf",
+  "fileId": "1060vzkmYdQroF8jKcUc8_ZSZqUyKxIG1",
+  "fronteira": "A1-A5",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "betao km: 100; modal: rodoviario; camiao: camiao diesel medio 8 t (carga 5,83 t, 15 vigas), coef. vazio 0,67; factor: 0,15858 kg CO2eq/(km.t) diesel (Tab.1)",
+  "pares": [
+   {
+    "sheet_row": 1328,
+    "material": "concreto C30 (viga composta pré-fabricada CG-2, Fujian, China)",
+    "co2_kg_m3": 321.3,
+    "fck_mpa": 30
+   }
+  ]
+ }
+]

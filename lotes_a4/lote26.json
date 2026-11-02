@@ -1,0 +1,38 @@
+[
+ {
+  "row_id": 5018,
+  "autor": "Rezende, Marilia de Oliveira",
+  "titulo": "Um modelo lean \\& green para a ecoeficiência em processos produtivos da construção civil",
+  "pdf": "REZENDE, 2019.pdf",
+  "fileId": "1h4ylxuMkqAy1hD9fylHgrvv28ejxmuj9",
+  "fronteira": "A1-A5",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "betao km: 36,8 km por viagem (Sorocaba-SP; Tab.16 Apend.E); modal: rodoviario; camiao: camioes 16-32 t EURO6; factor: Ecoinvent: transport, freight, lorry 16-32 metric ton, EURO6, RoW",
+  "pares": [
+   {
+    "sheet_row": 43,
+    "material": "Estrutura de concreto armado (ECA) vs light steel framing (ELSF)",
+    "co2_kg_m3": 214.9,
+    "fck_mpa": 25
+   }
+  ]
+ },
+ {
+  "row_id": 5041,
+  "autor": "Bento, Ricardo Couceiro",
+  "titulo": "Análise do desempenho ambiental de estruturas de concreto armado: uso da avaliação do ciclo de vida ({ACV}) no processo  decisório do dimensionamento",
+  "pdf": "BENTO, 2016.pdf",
+  "fileId": "1mZr2mNJalVEQkQJC287sfab-SRU9OK_A",
+  "fronteira": "outra",
+  "transporte_betao_a4": "incluido",
+  "transporte_dados": "materiais km: cimento 400; areia 100; brita 100; aco 450; madeira formas 1956; betao km: 60; modal: road (caminhoes betoneira, bomba e apoio); camiao: US: Truck (apendice); factor: processos do software (apendice: 'US: Truck - ...')",
+  "pares": [
+   {
+    "sheet_row": 51,
+    "material": "Concreto armado classe C25",
+    "co2_kg_m3": 224.6,
+    "fck_mpa": 25
+   }
+  ]
+ }
+]

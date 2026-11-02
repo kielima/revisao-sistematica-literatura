@@ -1,0 +1,188 @@
+[
+ {
+  "row_id": 3835,
+  "autor": "Asare, Gideon Osei and Barnett, Stephanie and Awinda, Kenneth and Martinson, Bre",
+  "titulo": "Life cycle assessment of steel fibre-reinforced concrete beams",
+  "pdf": "ASARE, 2024d.pdf",
+  "fileId": "1eNW6Oy4gvZOr_JliQcOt6YzXIZiDSV9t",
+  "fronteira": "outra",
+  "transporte_betao_a4": "incluido",
+  "transporte_dados": "betao km: 50 (central -> obra, camiao betoneira >17 t; vergalhao >33 t); modal: estrada; camiao: betoneira rigida >17 t; articulado >33 t; factor: DEFRA/BEIS 2022 (greenhouse gas reporting: conversion factors 2022)",
+  "pares": [
+   {
+    "sheet_row": 1116,
+    "material": "Concreto armado (RC), viga com fck=30 MPa",
+    "co2_kg_m3": 289.5,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 1117,
+    "material": "Concreto reforcado com fibra de aco (SFRC), viga com fck=30 MPa",
+    "co2_kg_m3": null,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 1118,
+    "material": "Concreto armado (RC), viga com fck=40 MPa",
+    "co2_kg_m3": 348.8,
+    "fck_mpa": 40
+   },
+   {
+    "sheet_row": 1119,
+    "material": "Concreto reforcado com fibra de aco (SFRC), viga com fck=40 MPa",
+    "co2_kg_m3": null,
+    "fck_mpa": 40
+   },
+   {
+    "sheet_row": 1120,
+    "material": "Concreto armado (RC), viga com fck=50 MPa",
+    "co2_kg_m3": 391.2,
+    "fck_mpa": 50
+   },
+   {
+    "sheet_row": 1121,
+    "material": "Concreto reforcado com fibra de aco (SFRC), viga com fck=50 MPa",
+    "co2_kg_m3": null,
+    "fck_mpa": 50
+   }
+  ]
+ },
+ {
+  "row_id": 3843,
+  "autor": "Miller, Sabbie A. and Horvath, Arpad and Monteiro, Paulo J. M. and\nOstertag, Cla",
+  "titulo": "Greenhouse gas emissions from concrete can be reduced by using mix\nproportions, geometric aspects, and age as design factors",
+  "pdf": "MILLER, 2015i.pdf",
+  "fileId": "14ruOW40iUdNVGkypJSbHzr_GEax0rAZv",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: camiao (cimento, agregados); comboio (cinza volante)",
+  "pares": [
+   {
+    "sheet_row": 1123,
+    "material": "Concreto Mix 5 (w/b=0.38, 0% cinza volante, maior teor de cimento=507 kg/m3)",
+    "co2_kg_m3": 520,
+    "fck_mpa": 56.4
+   }
+  ]
+ },
+ {
+  "row_id": 3864,
+  "autor": "Badgujar, Smita and Dwivedi, Arun Kumar",
+  "titulo": "Economical and environment friendly self-compacting concrete",
+  "pdf": "BADGUJAR, 2023.pdf",
+  "fileId": "1YLLo8-lDEynxHBuY3j1Z3hPR_3CtRCPy",
+  "fronteira": "outra",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: 100; modal: rodoviario; factor: 7,62E-5 kg-CO2/(kg.km) (ARAI Pune 2007)",
+  "pares": [
+   {
+    "sheet_row": 531,
+    "material": "TR1: concreto autoadensavel (SCC) com 0% de agregado fino substituido por cinza de lagoa (pond ash)",
+    "co2_kg_m3": 273.38,
+    "fck_mpa": 41.51
+   },
+   {
+    "sheet_row": 532,
+    "material": "TR2: concreto autoadensavel (SCC) com 10% de agregado fino substituido por cinza de lagoa (pond ash)",
+    "co2_kg_m3": 272.42,
+    "fck_mpa": 39.24
+   },
+   {
+    "sheet_row": 533,
+    "material": "TR3: concreto autoadensavel (SCC) com 15% de agregado fino substituido por cinza de lagoa (pond ash)",
+    "co2_kg_m3": 271.93,
+    "fck_mpa": 41.36
+   },
+   {
+    "sheet_row": 534,
+    "material": "TR4: concreto autoadensavel (SCC) com 20% de agregado fino substituido por cinza de lagoa (pond ash)",
+    "co2_kg_m3": 271.45,
+    "fck_mpa": 43.29
+   },
+   {
+    "sheet_row": 535,
+    "material": "TR5: concreto autoadensavel (SCC) com 25% de agregado fino substituido por cinza de lagoa (pond ash)",
+    "co2_kg_m3": 270.96,
+    "fck_mpa": 40.86
+   },
+   {
+    "sheet_row": 536,
+    "material": "TR6: concreto autoadensavel (SCC) com 30% de agregado fino substituido por cinza de lagoa (pond ash)",
+    "co2_kg_m3": 270.48,
+    "fck_mpa": 38.29
+   }
+  ]
+ },
+ {
+  "row_id": 3872,
+  "autor": "Rønning, A. and Engelsen, C.J. and Norman, S.-H. and Mooselu, M.G. and Døssland,",
+  "titulo": "Beneficial use of recycled aggregates from concrete sludge using a new dry washing technology",
+  "pdf": "RØNNING, 2024.pdf",
+  "fileId": "1kSdO8AZ6aKMqM7w7Y8zQluY27YfuSoSD",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: camiao; camiao: lorry >32 t EURO6 (so transporte de residuos 5 km ate aterro e 50 m interno); factor: 0,1 kg CO2e/t.km (so residuos)",
+  "pares": [
+   {
+    "sheet_row": 1126,
+    "material": "Concreto pronto C35/45, mistura de referência (100% agregado virgem, EPD Velde)",
+    "co2_kg_m3": 237.38,
+    "fck_mpa": 35
+   },
+   {
+    "sheet_row": 1127,
+    "material": "Concreto C35/45 com 40% agregado reciclado (dry washing technology, Re-Con Zero)",
+    "co2_kg_m3": 227.79,
+    "fck_mpa": 35
+   },
+   {
+    "sheet_row": 1128,
+    "material": "Concreto C35/45 com 100% agregado reciclado (dry washing technology)",
+    "co2_kg_m3": 217.47,
+    "fck_mpa": 35
+   }
+  ]
+ },
+ {
+  "row_id": 3896,
+  "autor": "Meek, A. H. and Elchalakani, M.",
+  "titulo": "Life cycle assessment of rammed earth made using alkaline activated\nindustrial by-products",
+  "pdf": "MEEK, 2019.pdf",
+  "fileId": "1sUHheDCJNQIISxKbFdvhTVrSH_7MtmBz",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: 50; modal: estrada; camiao: camião 40 t (cinza volante); factor: sensibilidade: entrega a 50 km em Perth (Site 1); NaOH e aluminossilicatos Perth→Kalgoorlie +3,6 kgCO2eq (10%)",
+  "pares": [
+   {
+    "sheet_row": 1135,
+    "material": "Rammed earth alcalino-ativado com agregado reciclado de tijolo/concreto (RBC_AA) — fly ash+GGBFS+silica fume+NaOH, Australia Ocidental",
+    "co2_kg_m3": 120,
+    "fck_mpa": 24.1
+   }
+  ]
+ },
+ {
+  "row_id": 3904,
+  "autor": "Mostert, C. and Sameer, H. and Glanz, D. and Bringezu, S.",
+  "titulo": "Urban Mining for Sustainable Cities: Environmental Assessment of Recycled Concrete",
+  "pdf": "MOSTERT, 2020.pdf",
+  "fileId": "1jSceVMzpyiK2qzI4GucvWA6YVg1SlPJK",
+  "fronteira": "outra",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: agregados naturais 50; reciclado 30 (45 entre central de reciclagem e de betao no texto); cimento 140; cinza 100; modal: camiao/trem/navio (cimento 80/9/11 %; agregados 88/2/10 %); camiao: fator de carga 50 %; factor: GaBi",
+  "pares": [
+   {
+    "sheet_row": 1136,
+    "material": "Concreto convencional C25/30 (BAU-scenario) com agregados primários",
+    "co2_kg_m3": 260,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 2016,
+    "material": "Betao C25/30 RC (40% dos agregados reciclados do antigo edificio, 625 kg/m3; mesmo cimento)",
+    "co2_kg_m3": 250,
+    "fck_mpa": 25
+   }
+  ]
+ }
+]

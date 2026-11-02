@@ -1,0 +1,158 @@
+[
+ {
+  "row_id": 3251,
+  "autor": "Huang, Xianjia and Ouyang, Yisong and Zhang, Dawei and Yu, Huayang",
+  "titulo": "Greenhouse gas emission of recycled concrete production for pavement\nconstruction considering carbon uptake",
+  "pdf": "HUANG et al., 2025 - j.dibe.2025.100646.pdf",
+  "fileId": "1WpBKUPMdxmLlaeF2yOu4rwLRfLPwgWz_",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: {'cimento': '15-20', 'areia': 100, 'brita': 100, 'RCA': 17.5}; modal: camiao; factor: 0,11 kg/(t.km) cimento; 0,24 areia/brita/RCA (IPCC 2019, GB/T 51366-2019)",
+  "pares": [
+   {
+    "sheet_row": 945,
+    "material": "concreto reciclado (RCA 0%, virgem - VC)",
+    "co2_kg_m3": 383.1,
+    "fck_mpa": 35
+   },
+   {
+    "sheet_row": 946,
+    "material": "concreto reciclado (RCA 25% - RC25)",
+    "co2_kg_m3": 378.5,
+    "fck_mpa": 35
+   },
+   {
+    "sheet_row": 947,
+    "material": "concreto reciclado (RCA 50% - RC50)",
+    "co2_kg_m3": 375.7,
+    "fck_mpa": 35
+   },
+   {
+    "sheet_row": 948,
+    "material": "concreto reciclado (RCA 75% - RC75)",
+    "co2_kg_m3": 373.1,
+    "fck_mpa": 35
+   },
+   {
+    "sheet_row": 949,
+    "material": "concreto reciclado (RCA 100% - RC100)",
+    "co2_kg_m3": 368.3,
+    "fck_mpa": 35
+   }
+  ]
+ },
+ {
+  "row_id": 3276,
+  "autor": "Galan-Marin, C. and Rivera-Gomez, C. and Garcia-Martinez, A.",
+  "titulo": "Embodied energy of conventional load-bearing walls versus natural\nstabilized earth blocks",
+  "pdf": "GALÁN-MARÍN et al., 2015.pdf",
+  "fileId": "148BW2EPkgexSomrSxipQW2kz7ZB4oTD3",
+  "fronteira": "outra",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "camiao: Transport, lorry 32 t (Ecoinvent), distancias medias por material, obra urbana; factor: 0,17 kg CO2e/tkm (Tab.3)",
+  "pares": [
+   {
+    "sheet_row": 331,
+    "material": "Parede de concreto armado (RC - reinforced concrete wall) - sistema principal (concreto/UHPC de baixo carbono)",
+    "co2_kg_m3": 265.22,
+    "fck_mpa": 25
+   }
+  ]
+ },
+ {
+  "row_id": 3282,
+  "autor": "Souto-Martinez, Adriana and Arehart, Jay H. and Srubar, Wil V.",
+  "titulo": "Cradle-to-gate CO2e emissions vs. in situ CO2 sequestration of structural concrete elements",
+  "pdf": "SOUTO-MARTINEZ et al., 2018.pdf",
+  "fileId": "1_Fh2l9BnCQJ0o_LSqdZDBWInH6iVqLPH",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 335,
+    "material": "Concreto Cimento Branco (White cement), 45 MPa, sem SCM (0%)",
+    "co2_kg_m3": 694,
+    "fck_mpa": 45
+   }
+  ]
+ },
+ {
+  "row_id": 3283,
+  "autor": "Moncaster, A. M. and Pomponi, F. and Symons, K. E. and Guthrie, P. M.",
+  "titulo": "Why method matters: Temporal, spatial and physical variations in LCA and\ntheir impact on choice of structural system",
+  "pdf": "MONCASTER et al., 2018.pdf",
+  "fileId": "15sMFMv3RmM72rxpgKnN4O5jGGwPMXoOn",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "factor: A4 so em sensibilidade (Table 1/4, kgCO2/t km)",
+  "pares": [
+   {
+    "sheet_row": 336,
+    "material": "Concreto armado in situ RC25/30 (pilares/lajes do 'Concrete Frame' e paredes internas do 'Steel Frame')",
+    "co2_kg_m3": 475.2,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 337,
+    "material": "Concreto pre-fabricado precast RC40/50 (laje hibrida precast/in-situ do 'Load-bearing Masonry' e do 'Steel Frame')",
+    "co2_kg_m3": 432,
+    "fck_mpa": 40
+   }
+  ]
+ },
+ {
+  "row_id": 3285,
+  "autor": "Amiri, Ali and Emami, Nargessadat and Ottelin, Juudit and Sorvari, Jaana and Mar",
+  "titulo": "Embodied emissions of buildings - A forgotten factor in green building certificates",
+  "pdf": "AMIRI et al., 2021.pdf",
+  "fileId": "1nU4ODTbbq9GI0g--CHYSz3l0FIhi1XUq",
+  "fronteira": "A1-A4",
+  "transporte_betao_a4": "incluido",
+  "transporte_dados": "modal: navio + camiao; factor: navio para Islandia 0,0327 kg CO2eq/t.km (so ida); porto->obra",
+  "pares": [
+   {
+    "sheet_row": 338,
+    "material": "Edificio Veroeld (Reykjavik), cenario Con - sistema Structures em betao armado (30-32 MPa 2.780 m3 + 50 MPa 38 m3, armadura, serralharia, EPS, madeira)",
+    "co2_kg_m3": 585.5,
+    "fck_mpa": 31
+   },
+   {
+    "sheet_row": 339,
+    "material": "Edificio residencial na Islandia - cenario OptCon (betao otimizado, 30% reducao de armadura/aco)",
+    "co2_kg_m3": null,
+    "fck_mpa": 31
+   },
+   {
+    "sheet_row": 340,
+    "material": "Edificio residencial na Islandia - cenario ConWood (hibrido betao armado + CLT nas paredes)",
+    "co2_kg_m3": null,
+    "fck_mpa": 31
+   },
+   {
+    "sheet_row": 341,
+    "material": "Edificio residencial na Islandia - cenario Wood (predominantemente madeira/CLT)",
+    "co2_kg_m3": null,
+    "fck_mpa": null
+   }
+  ]
+ },
+ {
+  "row_id": 3288,
+  "autor": "Oh, Jae -Won and Park, Keum-Sung and Kim, Hyeon Soo and Kim, Ik and\nPang, Sung -",
+  "titulo": "Comparative CO2 emissions of concrete and timber slabs with equivalent\nstructural performance",
+  "pdf": "OH et al., 2023b.pdf",
+  "fileId": "13Hj8EPzCfIYYY0fH5FIEDU5JV6JKNcsz",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 342,
+    "material": "Concreto armado (RC) em laje comparativa com CLT e TCC, mesmo desempenho estrutural (vao/carga variaveis)",
+    "co2_kg_m3": 258.58,
+    "fck_mpa": 27
+   }
+  ]
+ }
+]

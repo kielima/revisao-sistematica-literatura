@@ -1,0 +1,194 @@
+[
+ {
+  "row_id": 2696,
+  "autor": "Jayasinghe, Amila and Orr, John and Ibell, Tim and Boshoff, William P.",
+  "titulo": "Comparing the embodied carbon and cost of concrete floor solutions",
+  "pdf": "JAYASINGHE et al., 2021 - j.jclepro.2021.129268.pdf",
+  "fileId": "1au3IXzZk3WIsWlVm7NhImk56GZ5lmTKd",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 656,
+    "material": "Concreto (elementos de laje/coluna) - classe Eurocodigo C30/37",
+    "co2_kg_m3": 230,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 657,
+    "material": "Concreto (elementos de laje/coluna) - classe Eurocodigo C32/40",
+    "co2_kg_m3": 240,
+    "fck_mpa": 32
+   }
+  ]
+ },
+ {
+  "row_id": 2699,
+  "autor": "Kim, Tae Hyoung and Tae, Sung Ho",
+  "titulo": "Proposal of Environmental Impact Assessment Method for Concrete in South\nKorea: An Application in LCA (Life Cycle Assessment)",
+  "pdf": "KIM et al., 2016b.pdf",
+  "fileId": "1lhqYeAu-4dhAuh36yD1PpdvQ6ttJachK",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: camiao (truck); factor: National LCI Korea (truck, train)",
+  "pares": [
+   {
+    "sheet_row": 150,
+    "material": "Betao de 24 MPa (caso de estudo CLAS, Coreia do Sul), traco de referencia",
+    "co2_kg_m3": 309,
+    "fck_mpa": 24
+   }
+  ]
+ },
+ {
+  "row_id": 2700,
+  "autor": "Kim, Tae Hyoung and Chae, Chang U.",
+  "titulo": "Environmental Impact Analysis of Acidification and Eutrophication Due to\nEmissions from the Production of Concrete",
+  "pdf": "KIM et al., 2016c - su8060578.pdf",
+  "fileId": "1fAY18_otIjAXocMrIRH0ZnOFyC419OAN",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: 14 a 201 (Tab.4, regioes de fornecimento); modal: camiao / comboio; factor: BD LCI Coreia (camiao)",
+  "pares": [
+   {
+    "sheet_row": 660,
+    "material": "Concreto convencional 24 MPa (fabricante A, Coreia) - mistura de referencia (Plain)",
+    "co2_kg_m3": 299,
+    "fck_mpa": 24
+   },
+   {
+    "sheet_row": 661,
+    "material": "Concreto 24 MPa com GGBS 0% (analise de sensibilidade acidificacao/eutrofizacao)",
+    "co2_kg_m3": 331,
+    "fck_mpa": 24
+   },
+   {
+    "sheet_row": 662,
+    "material": "Concreto 24 MPa com GGBS 10% (analise de sensibilidade acidificacao/eutrofizacao)",
+    "co2_kg_m3": 300,
+    "fck_mpa": 24
+   },
+   {
+    "sheet_row": 663,
+    "material": "Concreto 24 MPa com GGBS 20% (analise de sensibilidade acidificacao/eutrofizacao)",
+    "co2_kg_m3": 269,
+    "fck_mpa": 24
+   },
+   {
+    "sheet_row": 664,
+    "material": "Concreto 24 MPa com GGBS 30% (analise de sensibilidade acidificacao/eutrofizacao)",
+    "co2_kg_m3": 239,
+    "fck_mpa": 24
+   }
+  ]
+ },
+ {
+  "row_id": 2703,
+  "autor": "Kim, Tae Hyoung and Tae, Sung Ho and Chae, Chang U. and Choi, Won Young",
+  "titulo": "The Environmental Impact and Cost Analysis of Concrete Mixing Blast\nFurnace Slag Containing Titanium Gypsum and Sludge in South Korea",
+  "pdf": "KIM et al., 2016e.pdf",
+  "fileId": "1EG2Ed-CNvzBCFzK_L_-x1vFY_OOYAYfi",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: truck; factor: BFS 5 km; WA: 89/93/169 km (por kg)",
+  "pares": [
+   {
+    "sheet_row": 151,
+    "material": "Betao 100% OPC, medido fisicamente (Type 1)",
+    "co2_kg_m3": null,
+    "fck_mpa": 29.6
+   },
+   {
+    "sheet_row": 152,
+    "material": "Betao OPC+BFS (30%), medido fisicamente (Type 2)",
+    "co2_kg_m3": null,
+    "fck_mpa": 33.2
+   },
+   {
+    "sheet_row": 153,
+    "material": "Betao OPC+W-BFS (30%, aditivo residuo), medido fisicamente (Type 3)",
+    "co2_kg_m3": null,
+    "fck_mpa": 38.6
+   },
+   {
+    "sheet_row": 154,
+    "material": "Betao 100% OPC, Caso 1 da analise ambiental (classe de projeto)",
+    "co2_kg_m3": 342.28,
+    "fck_mpa": 29.6
+   },
+   {
+    "sheet_row": 155,
+    "material": "Betao 90%OPC+10%W-BFS, Caso 2 (classe de projeto)",
+    "co2_kg_m3": 315.94,
+    "fck_mpa": 24
+   },
+   {
+    "sheet_row": 156,
+    "material": "Betao 90%OPC+10%BFS, Caso 3 (classe de projeto)",
+    "co2_kg_m3": 314.57,
+    "fck_mpa": 24
+   },
+   {
+    "sheet_row": 157,
+    "material": "Betao 70%OPC+30%W-BFS, Caso 4 (classe de projeto)",
+    "co2_kg_m3": 263.24,
+    "fck_mpa": 38.6
+   },
+   {
+    "sheet_row": 158,
+    "material": "Betao 70%OPC+30%BFS, Caso 5 (classe de projeto)",
+    "co2_kg_m3": 259.14,
+    "fck_mpa": 33.2
+   }
+  ]
+ },
+ {
+  "row_id": 2704,
+  "autor": "Kim, Tae Hyoung and Tae, Sung Ho and Suk, Sung Joon and Ford, George and\nYang, K",
+  "titulo": "An Optimization System for Concrete Life Cycle Cost and Related\nCO2 Emissions",
+  "pdf": "KIM et al., 2016f - su8040361.pdf",
+  "fileId": "1SCKWOdIwS6kiijTMAicTcGpmsT6GpY2H",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: truck or rail; camiao: 1-25.5 t trucks; factor: National LCI DB Korea",
+  "pares": [
+   {
+    "sheet_row": 666,
+    "material": "Concreto RMC 24 MPa ('25-24-150', usina da Coreia) - metodo convencional de mistura (input real da usina)",
+    "co2_kg_m3": 340.9,
+    "fck_mpa": 24
+   },
+   {
+    "sheet_row": 667,
+    "material": "Concreto RMC 24 MPa ('25-24-150', usina da Coreia) - optimizado pelo sistema CLAS, priorizando CO2",
+    "co2_kg_m3": 225.7,
+    "fck_mpa": 24
+   }
+  ]
+ },
+ {
+  "row_id": 2705,
+  "autor": "Kim, Tae Hyoung and Chae, Chang U. and Kim, Gil Hwan and Jang, Hyoung\nJae",
+  "titulo": "Analysis of CO2 Emission Characteristics of Concrete Used at\nConstruction Sites",
+  "pdf": "KIM et al., 2016g - su8040348.pdf",
+  "fileId": "1VaUpxQqg9N2UKZu_UAdRaApgbVrg9QaZ",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: camiao e comboio (Tabela 2); camiao: nº de veiculos pela carga; consumo km/L (valores nao impressos); factor: Korea National LCI DB (camiao, comboio)",
+  "pares": [
+   {
+    "sheet_row": 668,
+    "material": "Concreto RMC 30 MPa, projecto C-B-58 (Busan, 30 MPa-500mm slump)",
+    "co2_kg_m3": 134.59,
+    "fck_mpa": 30
+   },
+   {
+    "sheet_row": 669,
+    "material": "Concreto RMC 30 MPa, projecto C-I-49 (Incheon, 30 MPa-500mm slump)",
+    "co2_kg_m3": 247.83,
+    "fck_mpa": 30
+   }
+  ]
+ }
+]

@@ -1,0 +1,224 @@
+[
+ {
+  "row_id": 3321,
+  "autor": "Sabau, Marian and Bompa, V, Dan and Silva, Luis F. O.",
+  "titulo": "Comparative carbon emission assessments of recycled and natural\naggregate concrete: Environmental influence of cement content",
+  "pdf": "SABAU et al., 2021 - j.gsf.2021.101235.pdf",
+  "fileId": "1mQT4LVOzCvK6G-wC9L_8DQB_u2IJZygS",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: cimento 11,1-76,3; cinza volante 15,1-504; agregado natural 2-86,5 (casos A-D); RCA ate 17,1 do central; entulho cidade-reciclagem 7,3-26,7; modal: camiao 16-32 t (agregados), >32 t (cimento e SCM); camiao: camiao 16-32 t / >32 t; factor: Ecoinvent 3.6",
+  "pares": [
+   {
+    "sheet_row": 957,
+    "material": "concreto NAC (C75-S25-RA0-L-Ref)",
+    "co2_kg_m3": null,
+    "fck_mpa": 31.5
+   },
+   {
+    "sheet_row": 958,
+    "material": "concreto NAC (C100-S0-RA0-H-F36, cimento apenas, agregado natural; Aiello & Leuzzi 2010)",
+    "co2_kg_m3": 323,
+    "fck_mpa": 36.6
+   },
+   {
+    "sheet_row": 959,
+    "material": "concreto com 25% SCM, agregado natural (C75-S25-R0-H-F36; Jau et al. 2004)",
+    "co2_kg_m3": 296,
+    "fck_mpa": 36.3
+   },
+   {
+    "sheet_row": 960,
+    "material": "concreto reciclado RAC 50% (C75-S25-R50-H-F36*, interpolado; Dimitriou et al. 2018)",
+    "co2_kg_m3": 306,
+    "fck_mpa": 36.5
+   }
+  ]
+ },
+ {
+  "row_id": 3327,
+  "autor": "Yaseen, Noor and Alcivar-Bastidas, Stefany and Irfan-ul-Hassan, Muhammad\nand Pet",
+  "titulo": "Concrete incorporating supplementary cementitious materials: Temporal\nevolution of compressive strength and environmental life cycle\nassessment",
+  "pdf": "YASEEN et al., 2024 - j.heliyon.2024.e25056.pdf",
+  "fileId": "1Qga0DRiM2XuwoyKDLxMLsiCj65iFUQiN",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: tipos e distancias medias do Ecoinvent",
+  "pares": [
+   {
+    "sheet_row": 961,
+    "material": "concreto OPC controle (w/b=0.54)",
+    "co2_kg_m3": 466.77,
+    "fck_mpa": 29.3
+   },
+   {
+    "sheet_row": 962,
+    "material": "concreto com 10% cinza volante (FA10)",
+    "co2_kg_m3": 423,
+    "fck_mpa": 27.9
+   },
+   {
+    "sheet_row": 963,
+    "material": "concreto com 20% cinza volante (FA20)",
+    "co2_kg_m3": 380.09,
+    "fck_mpa": 26.3
+   },
+   {
+    "sheet_row": 964,
+    "material": "concreto com 30% cinza volante (FA30)",
+    "co2_kg_m3": 336.33,
+    "fck_mpa": 25.1
+   },
+   {
+    "sheet_row": 965,
+    "material": "concreto com 5% silica fume (SF05)",
+    "co2_kg_m3": 445.32,
+    "fck_mpa": 26.9
+   },
+   {
+    "sheet_row": 966,
+    "material": "concreto com 10% silica fume (SF10)",
+    "co2_kg_m3": 423.86,
+    "fck_mpa": 28.2
+   },
+   {
+    "sheet_row": 967,
+    "material": "concreto com 15% silica fume (SF15)",
+    "co2_kg_m3": 401.55,
+    "fck_mpa": 24.4
+   }
+  ]
+ },
+ {
+  "row_id": 3331,
+  "autor": "Mohammad S.M. Almulhim and Haidar Ali Alammar and Yassin Shaher Sallam",
+  "titulo": "Influence of steel-to-concrete ratio on sustainable column design in Saudi Arabia",
+  "pdf": "ALMULHIM et al., 2024b - j.heliyon.2024.e40261.pdf",
+  "fileId": "1yhY5VD-2NN7--vkjPxIhZd7sGlWU2rRV",
+  "fronteira": "A1-A5",
+  "transporte_betao_a4": "incluido",
+  "transporte_dados": "",
+  "pares": [
+   {
+    "sheet_row": 968,
+    "material": "concreto armado (colunas de hotel - Arabia Saudita)",
+    "co2_kg_m3": 254.4,
+    "fck_mpa": 30
+   }
+  ]
+ },
+ {
+  "row_id": 3335,
+  "autor": "Smith, Scott H. and Durham, Stephan A.",
+  "titulo": "A cradle to gate LCA framework for emissions and energy reduction in concrete pavement mixture design",
+  "pdf": "SMITH, 2016.pdf",
+  "fileId": "1CKuhvEUWQfb-z4lD7QrRYsPP1S1som6N",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: cimento 208.2 camiao + 276.0 comboio; cinza volante 118.3; brita 85.4; areia 67.6 (Fig.2); modal: camiao e comboio (cimento); camiao: n/d; factor: camiao 0.0003 e comboio 0.000026 MT CO2eq/MT/milha (EPA 2014, Tab.3)",
+  "pares": [
+   {
+    "sheet_row": 353,
+    "material": "betao de pavimento OPC (mistura in-situ/controlo do GDOT, ja com 20% cinza volante)",
+    "co2_kg_m3": 314.1,
+    "fck_mpa": 34.7
+   },
+   {
+    "sheet_row": 354,
+    "material": "betao de pavimento com 25% de substituicao de cimento por cinza volante Classe F",
+    "co2_kg_m3": 296.1,
+    "fck_mpa": 38.3
+   },
+   {
+    "sheet_row": 355,
+    "material": "betao de pavimento com 30% de substituicao de cimento por cinza volante Classe F",
+    "co2_kg_m3": 278,
+    "fck_mpa": 36.5
+   },
+   {
+    "sheet_row": 356,
+    "material": "betao de pavimento com 40% de substituicao de cimento por cinza volante Classe F",
+    "co2_kg_m3": 241.8,
+    "fck_mpa": 31.7
+   }
+  ]
+ },
+ {
+  "row_id": 3359,
+  "autor": "Zastrow, Phillip and Molina-Moreno, Francisca and Garcia-Segura, Tatiana\nand Mar",
+  "titulo": "Life cycle assessment of cost-optimized buttress earth-retaining walls:\nA parametric study",
+  "pdf": "ZASTROW et al., 2017.pdf",
+  "fileId": "1T1cniYsZ1B6F3Rx2cY4ODYSqyWBiPxBl",
+  "fronteira": "outra",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: cimento fabrica->obra: 20 km camiao 16-32 t e 80 km comboio (Tab.2, ordem dos valores incerta no PDF); modal: camiao 16-32 t; comboio",
+  "pares": [
+   {
+    "sheet_row": 391,
+    "material": "betao 25 MPa (classe declarada, muro de contrafortes de 7m optimizado)",
+    "co2_kg_m3": null,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 392,
+    "material": "betao 25 MPa (classe declarada, muro em consola)",
+    "co2_kg_m3": null,
+    "fck_mpa": 25
+   },
+   {
+    "sheet_row": 393,
+    "material": "muro de pedra natural (comparador simetrico nao-cimenticio)",
+    "co2_kg_m3": null,
+    "fck_mpa": null
+   },
+   {
+    "sheet_row": 1998,
+    "material": "betao 25 MPa (unico betao do estudo; 250 kg/m3 cimento, 165 agua, 940 brita, 1050 areia) - factor de impacto por m3",
+    "co2_kg_m3": 248,
+    "fck_mpa": 25
+   }
+  ]
+ },
+ {
+  "row_id": 3363,
+  "autor": "Marinković, Snežana and Dragaš, Jelena and Ignjatović, Ivan and Tošić, Nikola",
+  "titulo": "Environmental assessment of green concretes for structural use",
+  "pdf": "MARINKOVIC, 2017.pdf",
+  "fileId": "1zi-TiIJI4ZJXirPma6lh70sQfL-tmScW",
+  "fronteira": "outra",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "modal: barcaca 10.000 t / camiao 16-32 t; factor: ecoinvent transport, lorry 16-32t, EURO3/tkm/RER; transport, barge/tkm/RER",
+  "pares": [
+   {
+    "sheet_row": 376,
+    "material": "NAC (betao de agregado natural, mistura de referencia)",
+    "co2_kg_m3": 260.4,
+    "fck_mpa": 40.5
+   },
+   {
+    "sheet_row": 377,
+    "material": "NAC_FA (betao de agregado natural, 35% cinza volante)",
+    "co2_kg_m3": 197.1,
+    "fck_mpa": 42
+   },
+   {
+    "sheet_row": 378,
+    "material": "NAC_AAFA (betao de agregado natural, cinza volante alcali-activada, cura elevada)",
+    "co2_kg_m3": 134.2,
+    "fck_mpa": 40.7
+   },
+   {
+    "sheet_row": 379,
+    "material": "RAC (betao de agregado reciclado)",
+    "co2_kg_m3": 266.3,
+    "fck_mpa": 42.1
+   },
+   {
+    "sheet_row": 380,
+    "material": "RAC_FA (betao de agregado reciclado, 35% cinza volante)",
+    "co2_kg_m3": 196.5,
+    "fck_mpa": 40.5
+   }
+  ]
+ }
+]
