@@ -1,0 +1,356 @@
+[
+ {
+  "row_id": 4779,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "camiao 3,5-7,5 t EURO4 (MK, fibra de vidro, agregados; Ecoinvent 3.7); camiao 16-62 t (OPC, só no cenário de referência 3DCM); sensibilidade: 16-32 t EURO6",
+  "distancia_km_declarada": "Transporte de MATERIAIS ao laboratorio: MK 535 km, PSS 504 km, fibra de vidro 700 km, cimento 50 km, agregados 30 km; wollastonite do Mexico (sem km); sensibilidade 500 -> 50 km. Nada sobre transporte da argamassa a obra.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma exclusao: fronteira cradle-to-gate; 'GP applications are not considered, and consequently, neither are transportation, use, and end-of-life'. O transporte contado e A2 de materias-primas, nao A4. Unidade do valor gravado: m3 de argamassa geopolimerica (FU 'producing 1 m3 of geopolymer mortar'), nao m3 de betao.",
+  "citacao": "Sec.2.3.1 System boundaries e 2.3.2 (Transportation of the matrix components); Sec.3.3 Fig.10; Sec.4.1 Fig.12",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto extraido pelo conector lido por seccoes (metodo, inventario, resultados 3.2-3.3, discussao 4.1) e pesquisa por palavras-chave; nao lido palavra a palavra e figuras (Fig.3-4 fluxogramas, Fig.7, 9, 10, 12) NAO renderizadas, por isso flags false. Valores 316 (M50S50Sa191) confirmados no texto; 1165 e 528 estao em figuras (Fig.5/7) nao vistas.",
+  "pares": [
+   {
+    "sheet_row": 1773,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa para a matriz pura M50S50",
+    "citacao": "Tab.4 so traz GP-GfW, GP-S, GP-SE, 3DCM",
+    "nota": "Densidade da matriz pura nao impressa; nao ha traco em kg/m3."
+   },
+   {
+    "sheet_row": 1774,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa para M60S40Sa60",
+    "citacao": "Tab.4 nao inclui este mix",
+    "nota": "Densidade nao impressa; so quantidade de areia em Fig.7b."
+   },
+   {
+    "sheet_row": 1775,
+    "densidade_betao_kg_m3": 1903.6,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": "",
+    "local": "Tab.4, coluna GP-S (M50S50Sa191): MK 327,4 + PSS 327,4 + areia 1248,8 kg/m3",
+    "citacao": "Tab.4, Sec.3.3",
+    "nota": "Densidade de ARGAMASSA (nao betao); soma dos componentes por m3 com PSS ja como solucao; alinhamento de colunas da tabela extraido do texto, convem conferir visualmente."
+   },
+   {
+    "sheet_row": 1776,
+    "densidade_betao_kg_m3": 2009.9,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4, coluna GP-SE (M50S50Sa66E34): MK 505 + PSS 505 + areia 666,6 + terra 333,3 kg/m3",
+    "citacao": "Tab.4, Sec.3.3",
+    "nota": "Densidade de ARGAMASSA (nao betao); co2 gravado e null nesta linha; mesma ressalva de alinhamento da tabela."
+   }
+  ]
+ },
+ {
+  "row_id": 4785,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "camioes (generico); factor 0,124 kg CO2/t.km",
+  "distancia_km_declarada": "Cimento Olavarria -> Bahia Blanca 298 km (nao diz ida ou ida-e-volta); residuo de toner das graficas ate as centrais de betao 9 km medio. Nada sobre transporte da argamassa.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma exclusao de A4: 'cradle to gate; casting, use, demolition... not taken into account'. Os 298 km e 9 km sao transporte de materias-primas (A2). Unidade do valor gravado: m3 de ARGAMASSA (ECO2 per m3 of mortar), nao betao.",
+  "citacao": "Sec.2.4 e Tab.2; Tab.7",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Lidas integralmente as seccoes 2 (materiais/metodos), 2.4, 3.3 e Tab.7 e pesquisa por palavras-chave no restante; nao lido palavra a palavra, figuras nao renderizadas. Traco de argamassa: 1350 g areia + 450 g ligante + 225 g agua (provetes 4x4x16), sem massa volumica da argamassa nem quantidades por m3.",
+  "pares": [
+   {
+    "sheet_row": 1777,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Sec.2.3 (traco em gramas por amassadura) e Sec.3.3",
+    "nota": "Densidade da argamassa nao impressa e Tab.7 so da ECO2 por componente (OPC 466,5/ areia 21,0/ agua 2,3 kg CO2/m3 em T0), nao as massas por m3; nao reconstruido."
+   },
+   {
+    "sheet_row": 1778,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Sec.2.3 (traco em gramas por amassadura) e Sec.3.3",
+    "nota": "Densidade da argamassa nao impressa e Tab.7 so da ECO2 por componente (OPC 466,5/ areia 21,0/ agua 2,3 kg CO2/m3 em T0), nao as massas por m3; nao reconstruido."
+   },
+   {
+    "sheet_row": 1779,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Sec.2.3 (traco em gramas por amassadura) e Sec.3.3",
+    "nota": "Densidade da argamassa nao impressa e Tab.7 so da ECO2 por componente (OPC 466,5/ areia 21,0/ agua 2,3 kg CO2/m3 em T0), nao as massas por m3; nao reconstruido."
+   },
+   {
+    "sheet_row": 1780,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Sec.2.3 (traco em gramas por amassadura) e Sec.3.3",
+    "nota": "Densidade da argamassa nao impressa e Tab.7 so da ECO2 por componente (OPC 466,5/ areia 21,0/ agua 2,3 kg CO2/m3 em T0), nao as massas por m3; nao reconstruido."
+   },
+   {
+    "sheet_row": 1781,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Sec.2.3 (traco em gramas por amassadura) e Sec.3.3",
+    "nota": "Densidade da argamassa nao impressa e Tab.7 so da ECO2 por componente (OPC 466,5/ areia 21,0/ agua 2,3 kg CO2/m3 em T0), nao as massas por m3; nao reconstruido."
+   }
+  ]
+ },
+ {
+  "row_id": 4792,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado",
+  "distancia_km_declarada": "nao declarada",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma exclusao: 'only A1-A3 stages were taken into consideration'; A5 fica para analise futura; A4 nem e mencionado. Unidade: factores de GWP da Tab.4 sao por m3 de betao pronto (cabecalho 'eqkgCO2/kg' no artigo e erro evidente: 140-337 para betao, 0,64-2,43 para aco); os valores gravados 278,7-322,1 das linhas 2085-2088 sao derivados da estrutura (betao+armadura) - a unidade por m3 depende de como a conversao foi feita, nao impressa.",
+  "citacao": "Sec.3 (LCA, p.11), Tab.4",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Lidas as secoes de LCA, resultados e conclusoes e pesquisa por palavras-chave de transporte/densidade/GWP; nao lido palavra a palavra; Figs.8-11 nao renderizadas. Densidade do betao armado nao impressa (rho da Tab.1 e de solos).",
+  "pares": [
+   {
+    "sheet_row": 1788,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3/kN/m3 sem resultado para o betao",
+    "nota": "co2 null nesta linha"
+   },
+   {
+    "sheet_row": 1789,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3/kN/m3 sem resultado para o betao",
+    "nota": "co2 null nesta linha"
+   },
+   {
+    "sheet_row": 1790,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3/kN/m3 sem resultado para o betao",
+    "nota": "co2 null nesta linha"
+   },
+   {
+    "sheet_row": 2085,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3/kN/m3 sem resultado para o betao",
+    "nota": "Fundacao betao+aco; massa e volume nao impressos no texto (dimensoes 4x2,0x2,0x0,6 m seriam calculo nosso)"
+   },
+   {
+    "sheet_row": 2086,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3/kN/m3 sem resultado para o betao",
+    "nota": "idem"
+   },
+   {
+    "sheet_row": 2087,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3/kN/m3 sem resultado para o betao",
+    "nota": "idem"
+   },
+   {
+    "sheet_row": 2088,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3/kN/m3 sem resultado para o betao",
+    "nota": "idem"
+   }
+  ]
+ },
+ {
+  "row_id": 4800,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado",
+  "distancia_km_declarada": "nao declarada",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma exclusao: cradle-to-gate, 'only the production process of the binders'. Unidade do valor gravado: m3 de LIGANTE (pasta/binder, FU '1 m3 of binder'), NAO m3 de betao nem de biocompósito. Texto atribui 1550 e 1030 a 'MOC e MPC' mas MPC e 3060: gralha, pela ordem da Fig.4 serao MOC 1550 e CSA 1030.",
+  "citacao": "Sec.2 Preliminary LCA (FU e fronteira, p.5) e Sec.3 (p.7)",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto completo lido (12 p., artigo curto). Figuras 2, 4 e 5 NAO renderizadas (valores de CO2 vem do texto). Massas de ligante cru por m3 de ligante: MPC 1979,9; MOC 1627,6; CSA 1477,3; BG 1306,9 kg (impresso).",
+  "pares": [
+   {
+    "sheet_row": 595,
+    "densidade_betao_kg_m3": 2450,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": "",
+    "local": "Tab.4: fresh binder density MPC 2450 ± 20 (hardened 2146 ± 14)",
+    "citacao": "Tab.4, p.5",
+    "nota": "Densidade de LIGANTE/PASTA (nao betao); o CO2 gravado e por m3 de ligante."
+   },
+   {
+    "sheet_row": 596,
+    "densidade_betao_kg_m3": 1890,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4: fresh binder density MOC 1890 ± 10 (hardened 1774 ± 11)",
+    "citacao": "Tab.4, p.5",
+    "nota": "Densidade de LIGANTE/PASTA (nao betao)."
+   },
+   {
+    "sheet_row": 597,
+    "densidade_betao_kg_m3": 1910,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4: fresh binder density CSA 1910 ± 10 (hardened 1812 ± 5)",
+    "citacao": "Tab.4, p.5",
+    "nota": "Densidade de LIGANTE/PASTA (nao betao)."
+   }
+  ]
+ },
+ {
+  "row_id": 4815,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado (so incerteza de transporte de materias-primas por Monte Carlo, ±10-30%)",
+  "distancia_km_declarada": "nao declarada",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma exclusao: 'The emissions associated with the ready-mix plant to the construction site ... are not accounted for'; limitacoes: 'excludes emissions from transport to construction sites'. Unidade: kgCO2eq/m3 de betao (AACM) A1-A3.",
+  "citacao": "Sec.2.3.1 (p.5-6) e limitacoes (p.13)",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Lidas as seccoes de metodo (2.1-2.3), resultados 3.x citados e limitacoes; pesquisa por palavras-chave no resto; nao lido palavra a palavra; figuras nao renderizadas. Dataset de terceiros (580 misturas); so binder (630 e 400 kg/m3) impresso para os dois pares, nao a massa total por m3.",
+  "pares": [
+   {
+    "sheet_row": 1798,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Sec.3 (p.9) so da binder 630 kg/m3, A/B 0,11",
+    "nota": "Sem soma do traco impressa."
+   },
+   {
+    "sheet_row": 1799,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Sec.3 (p.9) so binder 400 kg/m3, A/B>0,25",
+    "nota": "Sem soma do traco impressa."
+   }
+  ]
+ },
+ {
+  "row_id": 4837,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "nao declarado",
+  "distancia_km_declarada": "nao declarada; a estagio 'Transportation' da obra e um agregado de 7,39 kg-CO2/m2 de area de piso, igual em todos os casos, sem distancias",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma exclusao do A4 no valor por m3: Tab.3 da o factor de betao (329,37...508,39 kg-CO2/m3) como 'Production'; o transporte de materiais ate a obra e rubrica a parte (7,39 kg-CO2/m2). Unidade: m3 de betao (Tab.3 coluna Unit = m3).",
+  "citacao": "Tab.3 (p.7); Sec.5.2.3 e Fig.5 (p.9)",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Lidas as seccoes de metodo, Tab.3 e 5.2.3 e pesquisa por palavras-chave; nao lido palavra a palavra; Fig.5 (construcao/transporte/producao) nao renderizada. O 50 MPa (linha 1814) nao aparece no extracto da Tab.3 lido.",
+  "pares": [
+   {
+    "sheet_row": 1809,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3 sem resultado para o betao",
+    "nota": "Sem massa volumica."
+   },
+   {
+    "sheet_row": 1810,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3 sem resultado para o betao",
+    "nota": "Sem massa volumica."
+   },
+   {
+    "sheet_row": 1811,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3 sem resultado para o betao",
+    "nota": "Sem massa volumica."
+   },
+   {
+    "sheet_row": 1812,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3 sem resultado para o betao",
+    "nota": "Sem massa volumica."
+   },
+   {
+    "sheet_row": 1813,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3 sem resultado para o betao",
+    "nota": "Sem massa volumica."
+   },
+   {
+    "sheet_row": 1814,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Nao impressa",
+    "citacao": "Pesquisa por density/kg/m3 sem resultado para o betao",
+    "nota": "Sem massa volumica."
+   }
+  ]
+ }
+]
