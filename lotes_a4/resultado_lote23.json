@@ -1,0 +1,389 @@
+[
+ {
+  "row_id": 4662,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "camiao rodoviario HGV (>17 t de capacidade); factor 2,0027e-4 kg CO2eq/(km.kg) do GHG Protocol cross-sectoral tool (Sec.2.3.2 p.5; Sec.4.5.3 p.14)",
+  "distancia_km_declarada": "Tab.1 p.7, distancias de IDA-E-VOLTA (roundtrip) por zona dos Emirados (S1/S2/S3/S4 = Zona 1-4): RA 368/555/583/632 km; NA 723/275/193/1232 km; aditivos (fibras, cinza volante, escoria, microsilica, superplastificante) 424/220/304/822 km. Distancias medias de um camiao de uma central de betao (marcada com x na Fig.3) a obras da zona (Sec.2.3.2). Cimento, areia de duna e agua NAO sao transportados no modelo (disponiveis nas centrais, Sec.2.4/4.5.3). Distancia central->obra do betao fresco nao e dada como parametro.",
+  "regresso_em_vazio": "incluido (distancia ida-e-volta x factor por kg carregado; verificado: 100RA-1SF Zona 1 = (1090+78) kg x 2,0027e-4 x 368 km = 86,1 kg CO2eq, Tab.10)",
+  "a4_dentro_do_valor_gravado": "Confirma 'excluido': o valor gravado e o GWP da Tab.7 = soma (factor Tab.2 x proporcao Tab.5), ex. 100RA-1SF = 480x0,898+1090x0,000667+180x0,01258+4,8x1,88+78x0,771 = 503,2 (Sec.4.5.1 p.12). O transporte (Tab.10) e somado a parte (Total ** = Tab.7 + transporte dos componentes) e refere-se a materiais ate a central, nao a betao fresco da central a obra. Citacao: Sec.4.5.1 p.12; nota ** Tab.10 p.15.",
+  "unidade_valor_gravado_m3_de_betao": "sim: UF = 1 m3 de betao (Sec.2.1 p.3; Sec.4.5.1 p.12); mas a Tab.5 imprime volumes de 1,00-1,05 m3 por traco e o GWP nao e normalizado por esse volume",
+  "citacao": "Sec.2.1-2.3.2 pp.3-5; Tab.1 p.7; Sec.4.5.3 p.14; Tab.10 p.15",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Texto integral lido (26 pp.; referencias apenas percorridas). Renderizadas pp.6-7 (Fig.2 linha de producao de RA, Fig.3 mapa das zonas com centrais de betao, Tab.1); Figs.5-8 nao inspeccionadas (sem dados de transporte alem das Tabs.10). Tab.10 da o GWP total por zona (producao + transporte dos componentes), a nao confundir com A4 do betao.",
+  "pares": [
+   {
+    "sheet_row": 1668,
+    "densidade_betao_kg_m3": 2617,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.11 (densidade do betao endurecido aos 28 d, ASTM C642, mistura Control)",
+    "citacao": "Tab.6 p.11; Sec.3.4 p.10; traco Tab.5 p.9",
+    "nota": "Soma dos componentes do traco (Tab.5, kg/m3) = 2450 kg/m3 (volume impresso na Tab.5 = 1,00-1,05 m3); nao e a densidade impressa, so registo. GWP gravado (Tab.7) e calculado sobre as proporcoes kg/m3 da Tab.5, sem normalizar pelo volume."
+   },
+   {
+    "sheet_row": 1669,
+    "densidade_betao_kg_m3": 2560,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.11 (densidade do betao endurecido aos 28 d, ASTM C642, mistura 30RA-0SF)",
+    "citacao": "Tab.6 p.11; Sec.3.4 p.10; traco Tab.5 p.9",
+    "nota": "Soma dos componentes do traco (Tab.5, kg/m3) = 2375 kg/m3 (volume impresso na Tab.5 = 1,00-1,05 m3); nao e a densidade impressa, so registo. GWP gravado (Tab.7) e calculado sobre as proporcoes kg/m3 da Tab.5, sem normalizar pelo volume."
+   },
+   {
+    "sheet_row": 1670,
+    "densidade_betao_kg_m3": 2527,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.11 (densidade do betao endurecido aos 28 d, ASTM C642, mistura 70RA-1SF)",
+    "citacao": "Tab.6 p.11; Sec.3.4 p.10; traco Tab.5 p.9",
+    "nota": "Soma dos componentes do traco (Tab.5, kg/m3) = 2423 kg/m3 (volume impresso na Tab.5 = 1,00-1,05 m3); nao e a densidade impressa, so registo. GWP gravado (Tab.7) e calculado sobre as proporcoes kg/m3 da Tab.5, sem normalizar pelo volume."
+   },
+   {
+    "sheet_row": 1671,
+    "densidade_betao_kg_m3": 2600,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.11 (densidade do betao endurecido aos 28 d, ASTM C642, mistura 100RA-3SF)",
+    "citacao": "Tab.6 p.11; Sec.3.4 p.10; traco Tab.5 p.9",
+    "nota": "Soma dos componentes do traco (Tab.5, kg/m3) = 2643.6 kg/m3 (volume impresso na Tab.5 = 1,00-1,05 m3); nao e a densidade impressa, so registo. GWP gravado (Tab.7) e calculado sobre as proporcoes kg/m3 da Tab.5, sem normalizar pelo volume."
+   },
+   {
+    "sheet_row": 1672,
+    "densidade_betao_kg_m3": 2450,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.11 (densidade do betao endurecido aos 28 d, ASTM C642, mistura 100RA-1SF)",
+    "citacao": "Tab.6 p.11; Sec.3.4 p.10; traco Tab.5 p.9",
+    "nota": "Soma dos componentes do traco (Tab.5, kg/m3) = 2482.8 kg/m3 (volume impresso na Tab.5 = 1,00-1,05 m3); nao e a densidade impressa, so registo. GWP gravado (Tab.7) e calculado sobre as proporcoes kg/m3 da Tab.5, sem normalizar pelo volume."
+   },
+   {
+    "sheet_row": 1673,
+    "densidade_betao_kg_m3": 2378,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.11 (densidade do betao endurecido aos 28 d, ASTM C642, mistura 100RA-Cem)",
+    "citacao": "Tab.6 p.11; Sec.3.4 p.10; traco Tab.5 p.9",
+    "nota": "Soma dos componentes do traco (Tab.5, kg/m3) = 2440.6 kg/m3 (volume impresso na Tab.5 = 1,00-1,05 m3); nao e a densidade impressa, so registo. GWP gravado (Tab.7) e calculado sobre as proporcoes kg/m3 da Tab.5, sem normalizar pelo volume."
+   },
+   {
+    "sheet_row": 1674,
+    "densidade_betao_kg_m3": 2390,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.11 (densidade do betao endurecido aos 28 d, ASTM C642, mistura 100RA-MS)",
+    "citacao": "Tab.6 p.11; Sec.3.4 p.10; traco Tab.5 p.9",
+    "nota": "Soma dos componentes do traco (Tab.5, kg/m3) = 2394.5 kg/m3 (volume impresso na Tab.5 = 1,00-1,05 m3); nao e a densidade impressa, so registo. GWP gravado (Tab.7) e calculado sobre as proporcoes kg/m3 da Tab.5, sem normalizar pelo volume."
+   },
+   {
+    "sheet_row": 1675,
+    "densidade_betao_kg_m3": 2375,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.11 (densidade do betao endurecido aos 28 d, ASTM C642, mistura 100RA-FA)",
+    "citacao": "Tab.6 p.11; Sec.3.4 p.10; traco Tab.5 p.9",
+    "nota": "Soma dos componentes do traco (Tab.5, kg/m3) = 2360 kg/m3 (volume impresso na Tab.5 = 1,00-1,05 m3); nao e a densidade impressa, so registo. GWP gravado (Tab.7) e calculado sobre as proporcoes kg/m3 da Tab.5, sem normalizar pelo volume."
+   },
+   {
+    "sheet_row": 1676,
+    "densidade_betao_kg_m3": 2395,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.11 (densidade do betao endurecido aos 28 d, ASTM C642, mistura 100RA-Slag)",
+    "citacao": "Tab.6 p.11; Sec.3.4 p.10; traco Tab.5 p.9",
+    "nota": "Soma dos componentes do traco (Tab.5, kg/m3) = 2340 kg/m3 (volume impresso na Tab.5 = 1,00-1,05 m3); nao e a densidade impressa, so registo. GWP gravado (Tab.7) e calculado sobre as proporcoes kg/m3 da Tab.5, sem normalizar pelo volume."
+   }
+  ]
+ },
+ {
+  "row_id": 4756,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "camiao (3,5-40 t), 85,10 g CO2/t.km; comboio 5 g/tkm e navio 41,3 g/tkm indicados como pressupostos gerais (Tab.8, nota a, p.8). Betao C30/37: 'A4: 20 km via truck'. Barras Schock Combar: 650 km por camiao; Solidian: 600 km por camiao.",
+  "distancia_km_declarada": "20 km para o betao C30/37 (A4, Tab.8 p.8; nao diz se ida ou ida-e-volta; a conta 8,2 kg = 2,4 t x 20 km x 0,0851 x 2 sugere ida-e-volta, inferencia nossa). Nenhuma distancia de transporte dada para o C25/30. Armaduras FRP 600-650 km.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma 'excluido': 199,92 e 219,12 = factor A1-A3 da Tab.1 (0,0833 e 0,0913 kg CO2/kg x 2400 kg/m3, Kromoser 2021), sem A4. O A4 (8,2 kg/m3) aparece so na Tab.8 (p.8) e no LCCO2-tool. Nota: Tab.8 A1-A3 do C30/37 = 203,9, nao 219,1.",
+  "unidade_valor_gravado_m3_de_betao": "sim: kg CO2eq por m3 de betao (Tab.1 'kg CO2-eq./kg' com equivalente kg/m3 entre parenteses; Tab.8 kg CO2-eq./m3)",
+  "citacao": "Tab.1 p.4; Tab.8 e nota a p.8; Sec.2.6 p.7",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Texto integral lido (12 pp. + apendices A/B; referencias percorridas). Renderizadas pp.7-9 (Tab.8, Fig.5-6); Fig.1-4, 7-8 nao inspeccionadas (sem parametros de transporte). Tab.1 lida so pelo texto extraido (p.4 nao renderizada; valores 2400 kg/m3 e GWP confirmam-se aritmeticamente com 199,92 e 219,12).",
+  "pares": [
+   {
+    "sheet_row": 590,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4, linha rho = 2400 kg/m3 (colunas Concrete C25/30 e C30/37; fonte b: EN 1992-1-1)",
+    "citacao": "Tab.1 p.4; Tab.8 p.8",
+    "nota": "Valor gravado = C25/30 (0,0833 kg CO2/kg x 2400 kg/m3 = 199,9; A1-A3, Tab.1). Tab.8 (p.8) da para C30/37 A1-A3 = 203,9 e A4 = 8,2 kg CO2eq/m3 (e 236,3 para 'Bridge cap C30/37 B7'), diferente dos 219,1 da Tab.1; nao resolvido no artigo. Aritmetica: A4 8,2 = 2,4 t/m3 x 20 km x 2 x 0,0851 kg/tkm (= 8,17), logo o A4 do artigo parece contar 40 km (ida e volta) - inferencia nossa, nao declarada."
+   },
+   {
+    "sheet_row": 591,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4, linha rho = 2400 kg/m3 (colunas Concrete C25/30 e C30/37; fonte b: EN 1992-1-1)",
+    "citacao": "Tab.1 p.4; Tab.8 p.8",
+    "nota": "Valor gravado = C30/37 (0,0913 kg CO2/kg x 2400 kg/m3 = 219,1; A1-A3, Tab.1). Tab.8 (p.8) da para C30/37 A1-A3 = 203,9 e A4 = 8,2 kg CO2eq/m3 (e 236,3 para 'Bridge cap C30/37 B7'), diferente dos 219,1 da Tab.1; nao resolvido no artigo. Aritmetica: A4 8,2 = 2,4 t/m3 x 20 km x 2 x 0,0851 kg/tkm (= 8,17), logo o A4 do artigo parece contar 40 km (ida e volta) - inferencia nossa, nao declarada."
+   }
+  ]
+ },
+ {
+  "row_id": 4758,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado; a Tab.3 (p.6) so da um factor generico 'Transportation' = 0,19 kg CO2eq/(t.km) (ecoinvent)",
+  "distancia_km_declarada": "nao impressa; o artigo diz que as distancias de transporte vieram do 'Life Cycle Inventory of Portland Cement Concrete' (ref.[64]) e nao as reproduz (Sec.2.2.3 p.5)",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma 'excluido' (A1-A3, cradle-to-gate Sec.2.2.2): os 12 valores gravados reproduzem-se com a Tab.3 SEM o termo de transporte: C0-R = 400x0,88 + 734,6x0,035 + 1060,3x0,01 + 180x0,00043 + 4,7 (producao de betao/m3) = 393,09. Nos traços com RCA o gravado excede esta soma em 8,64 (C50) e 17,28 (C100) kg, ou seja 0,0108 kg CO2/kg de RCA = 10,8 kg/t de absorcao de CO2 (Sec.2.2.3 p.6), logo a diferenca nao e transporte (nota: o gravado parece usar factor RCA +0,0043 em vez de -0,0065 da Tab.3).",
+  "unidade_valor_gravado_m3_de_betao": "sim: UF = 1 m3 de betao (Sec.2.2.2 p.5)",
+  "citacao": "Sec.2.2.2-2.2.3 pp.5-6; Tab.3 p.6; Tab.1 p.4",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (corpo e conclusoes, 26 pp.; lista de referencias so percorrida com busca de palavras-chave). PDF nao renderizado: figuras (fluxo, rankings MCDM) nao inspeccionadas, sem relacao com transporte. Os tracos sao de literatura (Tab.1) e nao ensaiados.",
+  "pares": [
+   {
+    "sheet_row": 1745,
+    "densidade_betao_kg_m3": 2374.9,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C0-R = 2374.9",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1746,
+    "densidade_betao_kg_m3": 2374.9,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C0-F = 2374.9",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1747,
+    "densidade_betao_kg_m3": 2374.9,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C0-G = 2374.9",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1748,
+    "densidade_betao_kg_m3": 2374.9,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C0-S = 2374.9",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1749,
+    "densidade_betao_kg_m3": 2277.6,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C50-R = 2277.6",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1750,
+    "densidade_betao_kg_m3": 2277.6,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C50-F = 2277.6",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1751,
+    "densidade_betao_kg_m3": 2277.6,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C50-G = 2277.6",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1752,
+    "densidade_betao_kg_m3": 2277.6,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C50-S = 2277.6",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1753,
+    "densidade_betao_kg_m3": 2180.2,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C100-R = 2180.2",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1754,
+    "densidade_betao_kg_m3": 2180.2,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C100-F = 2180.2",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1755,
+    "densidade_betao_kg_m3": 2180.2,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C100-G = 2180.2",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   },
+   {
+    "sheet_row": 1756,
+    "densidade_betao_kg_m3": 2180.2,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: soma de OPC+FA+GGBFS+SF+FNA+CNA+FRCA+CRCA+agua (kg/m3) do traco C100-S = 2180.2",
+    "citacao": "Tab.1 p.4",
+    "nota": "Soma calculada por nos; o artigo nao imprime densidade. Pasta = 30% e agregado = 70% do volume (Sec.2.1 p.4), assumpcao do proprio artigo (traco de literatura, nao ensaiado)."
+   }
+  ]
+ },
+ {
+  "row_id": 4763,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado no texto principal; a Fig.12a mostra uma barra 'Transportation' sem especificar o que se transporta; detalhes remetidos para material suplementar (Sec.2.4, 2.5)",
+  "distancia_km_declarada": "nao impressa",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Inconclusivo/nao confirmavel. A Fig.12a (p.18, GWP kg CO2-e/m3) e um gráfico de barras empilhadas 'Materials production / Transportation / Energy consumption'; o valor gravado 238 (cura 60 C, 20% BFS) inclui por isso um segmento de transporte (leitura visual ~20 kg CO2e/m3, tambem na barra do betao convencional), mas o artigo nao diz se e transporte de materias-primas a unidade de producao ou de betao a obra. O LCI inclui 'extraction of raw materials, transportation, and manufacturing' (Sec.2.4 p.4). Fronteira da Fig.2 (p.5) = berco-a-portao, sem etapa de obra.",
+  "unidade_valor_gravado_m3_de_betao": "parcial: FU declarado '1 m3 of concrete' (Sec.2.4), mas o material ensaiado e pasta/composite geopolimerico (zeolita + BFS + ativadores) sem agregado, em cilindros 50x100 mm (Sec.2.3); o 'concreto' convencional comparado e de 354 kg CO2-e/m3 (ref.[67])",
+  "citacao": "Sec.2.4 p.4; Fig.2 p.5; Fig.12a p.18",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Texto integral lido (23 pp., referencias percorridas). Renderizadas pp.4-5 (Figs.1-2) e 17-18 (Figs.11-12); Figs.3-10 (XRD, SEM, resistencia, retracao) nao inspeccionadas, sem relacao com transporte. Sem material suplementar (nao acessivel).",
+  "pares": [
+   {
+    "sheet_row": 1757,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "densidade_de": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "",
+    "nota": "Nem densidade nem traco em kg/m3 impressos no texto principal (so razoes: BFS/solido 20%, solido/liquido 1,3, NaOH/silicato 3,5, agua/solido 7,7%, Sec.2.3); nao ha soma do traco por m3. Se se calculasse, seria densidade de pasta, nao de betao."
+   }
+  ]
+ },
+ {
+  "row_id": 4768,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "nao declarado; o transporte de materias-primas da planta de processamento ate a obra NAO e considerado (Sec.3.1 p.3)",
+  "distancia_km_declarada": "nenhuma para materiais; so 100 km do local de demolicao a central de reciclagem no cenario de melhoria (fim de vida, Sec.3.1 p.3-4)",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma 'excluido': 'The transportation of raw materials from the processing plant to the road construction location has not been considered' (Sec.3.1, p.3, fronteira Fig.1-2). Nota: o valor gravado 383,4 kg/m3 nao e impresso; reconstitui-se como GWP de construcao do pavimento rigido 46.962 kg CO2eq/km/ano x 20 anos (Tab.11) / (7000 m2 x 0,35 m = 2450 m3 de DLC 0,10 m + PQC 0,25 m) = 383,4, ou seja inclui cimento, aco, agregados da GSB, maquinaria etc. do pavimento por km, nao so o betao PQC M20.",
+  "unidade_valor_gravado_m3_de_betao": "nao: kg CO2eq do sistema pavimento rigido (1 km, 7 m de largura, camadas DLC+PQC+GSB, aco 20,44 t, maquinaria, tintas) dividido pelo volume de betao DLC+PQC (calculo nosso a partir de Tab.11 e Fig.4/Sec.3.2)",
+  "citacao": "Sec.3.1 p.3; Sec.3.2 p.5; Tab.2 p.7; Tab.11 p.14",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (20 pp.; referencias percorridas). PDF nao renderizado: Figs.1-4 (fronteiras e seccoes transversais) e Figs.5-15 nao inspeccionadas; as espessuras DLC 100 mm e PQC 250 mm e a area 7000 m2 vem do texto (Sec.3.2, Sec.3.3).",
+  "pares": [
+   {
+    "sheet_row": 594,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.3.3 p.10: 'concrete density assumed to be 2,400 kg/m3' (usada no calculo de carbonatacao do pavimento rigido de betao)",
+    "citacao": "Sec.3.3 p.10",
+    "nota": "Densidade assumida pelo artigo para o betao do pavimento rigido (nao especifica M20 vs M15); o par gravado tem unidade que nao e m3 de betao simples (ver nota_estudo)."
+   }
+  ]
+ },
+ {
+  "row_id": 4774,
+  "o_que_e_transportado": "elemento_prefabricado",
+  "modo_declarado": "Tab.A4 p.19 (consumo por anel): camiao Steyr a gasolina 331,20 L (transferencia dos segmentos pre-fabricados do local de prefabricacao ate a obra do tunel), delivery truck 6,08 L, double-ended lorry 0,81 L, lorry 5,79 L (gasolina), 'concrete mixing carrier' (betoneira) diesel 5,51 L por anel; factor gasolina 2,938 (unidade 'kg/t' em Tab.A1) e diesel 2,655 kg/L",
+  "distancia_km_declarada": "nenhuma distancia em km impressa; transporte calculado a partir do combustivel por anel e horas de trabalho (Eq.2, Sec.2.3.2 p.6); texto diz apenas que os locais de prefabricacao e de obra sao separados ('lengthened distance')",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma 'excluido': o valor gravado e o factor de emissao do betao C40 (288,9) e C60 (222,3 kg/m3) da Tab.A1 (refs.[23],[26]), um factor de material. O transporte e calculado a parte: 'segment transfer' = 973,08 kgCO2 por anel (Tab.A8 p.22-23; 331,2 L x 2,938 = 973,07) e total de transporte 986-1064 kgCO2/anel (1,45% do total, Tab.2 p.9).",
+  "unidade_valor_gravado_m3_de_betao": "sim: kg CO2/m3 de betao (Tab.A1 'kg/m3')",
+  "citacao": "Sec.2.1 p.4; Sec.2.3.2 p.6; Tab.A1 p.18; Tab.A4 p.19; Tab.A8 p.22",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (25 pp., incluindo apendices A1-A9; referencias percorridas). PDF nao renderizado: Figs.1-13 (fronteira do sistema, graficos por anel) nao inspeccionadas. Os 288,9 e 222,3 kg/m3 sao factores de referencia citados, sem traco impresso; transporte de segmentos por anel: 41 aneis de 1001. Unidades da gasolina (kg/t vs L) inconsistentes no artigo, a conta bate com por litro.",
+  "pares": [
+   {
+    "sheet_row": 1771,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "densidade_de": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 58.6,
+    "local": "Tab.A2 p.18 / Tab.3 p.13: 58,6 m3 de betao do segmento (aduela) por anel, aco 10.507 kg (179,3 kg/m3); outras pecas: molde 9,37 m3, flue sheet 20,12 m3, pavimento 4,7 m3",
+    "citacao": "Tab.A2 p.18-19; Tab.3 p.13",
+    "nota": "O factor gravado 288,9 kg/m3 (C40, Tab.A1) e generico (ref.[23]); mas nos segmentos usa-se C60 (222,3). Volume de betao por anel impresso, massa do elemento nao impressa; densidade nao impressa."
+   },
+   {
+    "sheet_row": 1772,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "densidade_de": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 58.6,
+    "local": "Tab.A2 p.18 / Tab.3 p.13: 58,6 m3 de betao (C60 pelo calculo Tab.A6: 58,6 x 222,3 + 10.507 x 2,364 = 37.866 kgCO2) por anel",
+    "citacao": "Tab.A2; Tab.3; Tab.A6 p.20",
+    "nota": "O 'C60' do segmento e deduzido por nos da reconstituicao de Tab.A6 (37.865), nao dito explicitamente; densidade e massa nao impressas."
+   }
+  ]
+ }
+]
