@@ -1,0 +1,232 @@
+[
+ {
+  "row_id": 3251,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Transporte das materias-primas (cimento, areia, brita, RCA) ate a central: 'trucks and other vehicles' (texto, Sec.3.1); sem tipo/capacidade de camiao; factores 0,11 kg/(t.km) cimento e 0,24 areia/brita/RCA (Tab.2)",
+  "distancia_km_declarada": "cimento 15 km (Tab.2) mas 20 km no texto (Sec.2, p.4: 'transportation distances of 20 km for cement, 100 km for sand, 100 km for crushed stone, and 17.5 km for RCA'); areia 100; brita 100; RCA 17.5; agua 0. Cenario unico. Nao e dito se ida ou ida-e-volta. Nenhuma distancia central-obra.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma a4_somavel=excluido: fronteira cradle-to-gate 'up to the factory gate', 3 estagios (producao de materias-primas, transporte de materias-primas = A2, mistura/cura). O 'Stage 2' (~11,2% no VC, Fig.5) e transporte de materias-primas a central, nao betao a obra. Equipamento de pavimentacao e fim de vida omitidos (Conclusions).",
+  "citacao": "Sec.2 (p.3-4), Tab.1, Tab.2 (p.4), Figs.3-6 (p.5), Conclusions p.7",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "UF 1 m3 betao C35 (JGJ/T 443-2018): unidade do valor gravado = m3 de betao (nao argamassa/pasta/elemento): SIM. Valor gravado 383,1 etc. = Fig.3 (bruto, sem absorcao de carbono; liquido seria 313,4 Tab.3). Cimento 15 km (Tab.2) vs 20 km (texto) e contradicao interna. Lista de referencias nao lida em detalhe.",
+  "unidade_valor_gravado_m3_betao": true,
+  "pares": [
+   {
+    "sheet_row": 945,
+    "densidade_betao_kg_m3": 2358,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 (p.3), kg/m3 cimento+areia+brita+RCA+agua",
+    "citacao": "Soma: 389+618+1176+0+175 = 2358 kg/m3 (soma de componentes incl. agua; densidade nao impressa)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 946,
+    "densidade_betao_kg_m3": 2358,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 (p.3), kg/m3 cimento+areia+brita+RCA+agua",
+    "citacao": "Soma: 389+618+882+294+175 = 2358 kg/m3 (soma de componentes incl. agua; densidade nao impressa)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 947,
+    "densidade_betao_kg_m3": 2362,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 (p.3), kg/m3 cimento+areia+brita+RCA+agua",
+    "citacao": "Soma: 391+618+588+588+177 = 2362 kg/m3 (soma de componentes incl. agua; densidade nao impressa)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 948,
+    "densidade_betao_kg_m3": 2364,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 (p.3), kg/m3 cimento+areia+brita+RCA+agua",
+    "citacao": "Soma: 392+618+294+882+178 = 2364 kg/m3 (soma de componentes incl. agua; densidade nao impressa)",
+    "nota": ""
+   },
+   {
+    "sheet_row": 949,
+    "densidade_betao_kg_m3": 2367,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 (p.3), kg/m3 cimento+areia+brita+RCA+agua",
+    "citacao": "Soma: 394+618+0+1176+179 = 2367 kg/m3 (soma de componentes incl. agua; densidade nao impressa)",
+    "nota": ""
+   }
+  ]
+ },
+ {
+  "row_id": 3276,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "'Transport, lorry 32 t' (Ecoinvent V.2), 0,17 kg CO2-Eq/tkm (Tab.3); inclui transporte fabrica-obra e obra-aterro",
+  "distancia_km_declarada": "'medium distances for each material, assuming an urban construction site' (Sec.5, p.4, metodo de Garcia [52]); nenhum valor em km impresso. Apenas tkm agregados por edificio (Tab.4): RC 5.100,9 (1 piso), 15.282,8 (2), 15.302,8 (3) tkm, todos os materiais do muro (aco, cofragem, madeira, betao).",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma excluido: 265,22 e o factor unitario Ecoinvent 'Concrete, normal, at plant' (Tab.3, p.5), ou seja gate/at plant; o transporte aparece como processo separado (Transport 0,17 kg/tkm) no inventario do muro.",
+  "citacao": "Sec.5 p.4; Tab.3 p.5; Tab.4 p.6; Tab.2 p.4; Figs.2-7",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Fronteira 'outra': ciclo de vida do muro (fabrico, construcao, manutencao, demolicao). Unidade do valor gravado = m3 de betao normal (Ecoinvent): SIM, mas e factor generico de base de dados, nao traco do estudo. Nao ha traco impresso (sem soma). Betao do muro RC: 18,54 / 55,62 / 55,62 m3 (1/2/3 pisos, Tab.4); massa total do muro 130.996 kg (Tab.2, 'Total wall mass', ambigua; inclui armadura? nao dito) — nao usada. Figs.2-7 so GWP/energia, sem distancias. Bibliografia nao lida em detalhe.",
+  "unidade_valor_gravado_m3_betao": true,
+  "pares": [
+   {
+    "sheet_row": 331,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "impresso_outro_material",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (p.4), coluna Density do muro RC: 2.50 (rotulada 'g/cm2', provavel g/cm3 = 2500 kg/m3)",
+    "citacao": "Tab.2 p.4",
+    "nota": "Densidade da parede RC (betao armado), nao da mistura Ecoinvent 'normal'; valor com unidade rotulada erradamente."
+   }
+  ]
+ },
+ {
+  "row_id": 3282,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma excluido: 'Transportation to the construction site (A4) and construction (A5) are not included' (Sec.2.2.1, p.3, Fig.2); so A1-A3 + B1; ICE v2.0 sem factores de transporte.",
+  "citacao": "Sec.2.2.1 p.3; Sec.2.2.4 p.5 ('Lifecycle phases outside of A1-A3 and B1, including construction and transportation were not considered')",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "UF declarada 1 m3 de betao + coluna 3 m (funcional): valor gravado e o de 1 m3 -> unidade = m3 de betao: SIM. 694 = Fig.4 (maximo) e confere com Tab.1+Tab.3 (641 kg x 1,07 + agua + agregados). Sem distancias nem modos de transporte em lado nenhum.",
+  "unidade_valor_gravado_m3_betao": true,
+  "pares": [
+   {
+    "sheet_row": 335,
+    "densidade_betao_kg_m3": 2319,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 (p.3), coluna 45 MPa 0% SCM",
+    "citacao": "Soma 641+118+1013+547 = 2319 kg/m3 (cimento branco, agua, brita, areia; densidade nao impressa)",
+    "nota": "Elemento (coluna) tem volume 0,20 m3 (Tab.2) mas o valor gravado e por m3."
+   }
+  ]
+ },
+ {
+  "row_id": 3283,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "Nenhum modo do estudo de caso. Revisao de literatura: coeficientes A4 em kgCO2/kg MAT ou kgCO2/t.km (Tab.1, p.4); sem modo (Tab.3)",
+  "distancia_km_declarada": "So em analise de sensibilidade (A4 NAO esta no valor gravado): betao 50 km (Tab.1, 'Assumed distance', adaptado de Pomponi & Moncaster 2017); alvenaria 50 km; aco 250 km (Port Talbot-centro de Inglaterra); madeira 1500 km (Austria-Inglaterra). Nao e dito se ida/ida-e-volta. Coeficientes t.km: inferior 0,032, superior 0,32 kgCO2/t.km (0,0133 kgCO2/kg para betao). Confere: 0,032x50x1440 t = 2,30 tCO2e (Tab.3).",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma excluido: A1-A3 pelo engenheiro (ICE, 'structural elements only, A1-3'); A4 so em sensibilidade (Tab.3, Tab.6) com valores de literatura, nao do edificio WYNG Gardens real.",
+  "citacao": "Sec.3.2 p.3, Tab.1 p.4, Tab.2 p.6, Tab.3 p.7, Tab.6 p.8",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Unidade do valor gravado = m3 de betao? PARCIAL/NAO PURO: 475,2 = 0,198 kgCO2e/kg x 2400 kg/m3 (Tab.2); nota (a) da Tab.2 diz 'RC25/30 + 110 kg/m3 reinforcement', ou seja o coeficiente e de betao armado (inclui armadura), nao de betao simples. 432 (pre-fabricado RC40/50) NAO esta impresso: Tab.2 so da 0,189 para o betao da laje 'hybrid precast/in-situ' (nota d: media de 'in situ' e 'precast'); 432 = 0,180 x 2400 deduzido por nos (2x0,189-0,198 = 0,180) — por confirmar. Volumes: 600 m3 betao in situ (CF), 400 m3 betao hibrido (LBM e SF), 400 m3 betao no SF (Tab.2). Bibliografia nao lida em detalhe.",
+  "unidade_valor_gravado_m3_betao": false,
+  "pares": [
+   {
+    "sheet_row": 336,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impresso",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 600,
+    "local": "Tab.2 (p.6): Densities 2400 kg/m3, 600 m3 concrete frame (CF)",
+    "citacao": "Tab.2 p.6",
+    "nota": "Betao armado in situ RC25/30 + 110 kg/m3 de armadura (nota a); coef. 0,198 kgCO2e/kg."
+   },
+   {
+    "sheet_row": 337,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impresso_outro_material",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 400,
+    "local": "Tab.2 (p.6): 2400 kg/m3 para os 400 m3 de betao 'hybrid precast/in-situ' (LBM/SF)",
+    "citacao": "Tab.2 p.6, notas c e d",
+    "nota": "Densidade e volume sao do betao 'hibrido' (media in situ/precast), nao so do precast; precast RC40/50 e coef. 0,18 deduzido, nao impresso."
+   }
+  ]
+ },
+ {
+  "row_id": 3285,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Navio (containership) da origem a Islandia: 0,0327 kg CO2eq/t.km (Breidfjord [59]; SimaPro container ship 0,0115); depois 'from the seaport to the construction site' sem modo nem factor declarados (Sec.3.1.1)",
+  "distancia_km_declarada": "Nenhuma distancia impressa (pais de origem -> Islandia e porto -> obra nao quantificadas no texto, tabelas ou figuras). 'Only a one-way trip was considered'.",
+  "regresso_em_vazio": "excluido",
+  "a4_dentro_do_valor_gravado": "Confirma a4_somavel=incluido para o edificio: A1-A4 (EN 15804) incluidas (Sec.2.4.4); transporte = ~7% do clima da Con (Fig.4, leitura grafica), 15% no Wood. Mas o valor gravado 585,5 NAO esta impresso: = ~1650 t CO2e (barra 'Structures' da Con, Fig.3, leitura grafica) / 2818 m3 (2780+38 m3, Tab.1) = 585,5 kg/m3. Total Con = 2666,3 t (Fig.5) = 664,42 kg/m2 x 4013 m2 (Tab.4). O A4 especifico das estruturas nao e separavel.",
+  "citacao": "Sec.2.4.4 p.5-6; Sec.3.1.1 p.7; Fig.3-5 pp.8-9; Tab.1 p.3-4; Tab.4 p.7",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Unidade do valor gravado = m3 de betao? NAO: e CO2 do sistema 'Structures' inteiro (betao 2.780 m3 30-32 MPa + 38 m3 50 MPa + 285.000 kg armadura + 37.007 kg aco + EPS 3.387 kg + madeira) dividido por m3 de betao (rate total/volume), valor por leitura de grafico (Fig.3). UF do estudo = 1 m2 de area bruta (4013 m2). Linhas 339-341 (OptCon/ConWood/Wood) sem co2_kg_m3 gravado: totais por m2 na Tab.4: 672,99 / 562,09 / 379,16 kg CO2eq/m2; volumes de betao de OptCon (parte C20) e ConWood nao impressos. Densidade do betao nao impressa. Bibliografia nao lida em detalhe.",
+  "unidade_valor_gravado_m3_betao": false,
+  "pares": [
+   {
+    "sheet_row": 338,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 2818,
+    "local": "Tab.1 p.3: 2780 m3 (30-32 MPa) + 38 m3 (50 MPa) = 2818 m3 de betao (a soma e nossa)",
+    "citacao": "Tab.1",
+    "nota": "Sem densidade impressa; volume do elemento = volume total de betao do edificio."
+   },
+   {
+    "sheet_row": 339,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "Tab.4 p.7",
+    "nota": "Sem co2_kg_m3 gravado; betao C30-32 + C20 (volumes nao impressos)."
+   },
+   {
+    "sheet_row": 340,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "Tab.4 p.7",
+    "nota": "Sem co2_kg_m3 gravado; hibrido, volumes nao impressos."
+   },
+   {
+    "sheet_row": 341,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "Tab.4 p.7",
+    "nota": "Sem co2_kg_m3 nem fck; CLT, fundacao/subsolo de betao so."
+   }
+  ]
+ },
+ {
+  "row_id": 3288,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "Nao declarado: A2 'transportation of raw materials' esta dentro dos EPD coreanos (Ministry of Environment [13]); sem modo, distancia ou factor",
+  "distancia_km_declarada": "Nenhuma. Limitacao 7 (p.5): 'transportation methods and distances ... may vary in other regions'.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma excluido: fronteira 'cradle-to-gate (product stage), modules A1-A3' (Sec.2.1.3); 'did not include the construction process, use, and end-of-life stage' (Limitacao 4). A2 so de materias-primas dentro do EPD.",
+  "citacao": "Sec.2.1.3 p.3; Sec.2.4.1 p.3-4; Tab.2 p.4; Sec.2.5 p.5",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Unidade do valor gravado = m3 de betao: SIM (Tab.2: 258,58 kg CO2-eq/m3, EPD generico coreano 'Concrete', fck 27 MPa, nao traco do estudo). Armadura (3.562,60, unidade omitida) e CLT (87,64) a parte. UF do estudo = 1 m2 de laje (espessura 70-385 mm, Tab.3; quantidades Tab.3 por vao x 1 m de largura). Nenhuma informacao de transporte do betao.",
+  "unidade_valor_gravado_m3_betao": true,
+  "pares": [
+   {
+    "sheet_row": 342,
+    "densidade_betao_kg_m3": 2300,
+    "densidade_origem": "impresso",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: concrete density 2.300 kg/m3 (fck 27 MPa)",
+    "citacao": "Tab.1 p.4",
+    "nota": "Volume de betao por m2 de laje varia com o vao e a carga (espessura 70-385 mm; Tab.3 'Concrete [m3]' e por vao x 1 m de largura) — nao ha um unico valor."
+   }
+  ]
+ }
+]
