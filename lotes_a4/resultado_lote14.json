@@ -1,0 +1,226 @@
+[
+ {
+  "row_id": 3565,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "nao declarado (so 'transportation of raw materials'; Table 2 so da distancia da argila calcinada)",
+  "distancia_km_declarada": "argila calcinada ate a fabrica de cimento: 150 km (piloto), 60-150 km (industrial), <100 km (BAT) - Table 2; sem indicar ida/ida-e-volta",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA exclusao: o LCA e cradle-to-gate (Sec. 4.1, 'stops at the halfway point (C-GE)'), so cimento/materias-primas; o transporte do betao a obra nao e considerado. O valor 190,3 kg CO2/m3 (Sec. 5.2, Fig. 6) e por m3 de betao (OPC concrete 362,9 vs LC3 190,3), calculado com coeficientes por ingrediente (Kanagaraj et al. 2022), sem A4.",
+  "citacao": "Sec. 4.1 p.6; Table 2 p.7; Sec. 5.2 p.7-8; Fig. 6 p.8",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade do valor gravado: m3 de betao (sim). Figs. 3-6 nao renderizadas (so o texto). Texto extraido via Drive read_file_content; nao foi possivel descarregar/renderizar o PDF nesta sessao.",
+  "pares": [
+   {
+    "sheet_row": 1046,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "Table 3 p.7 (traco M40 LC3: OPC 206, CA 1324, MS 645, SP 4,12, LS 123,6, CC 61,8, gesso 20,6 kg/m3 = 2385,1 sem agua)",
+    "nota": "Sem densidade: a agua nao esta na Table 3 e o exemplo do texto (Bc=443 kg/m3, agua 155-186) nao coincide com a Table 3 (ligante 412). Soma sem agua 2385,1 kg/m3 nao e densidade. Densidade seria de betao se houvesse."
+   }
+  ]
+ },
+ {
+  "row_id": 3582,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "camiao (GaBi 'Truck EN15804 A4, Euro 5, 20-26 t gross, 17,3 t payload'; 'Road train 34-40 t / 27 t payload'); fator de carga 50% (C2, entulho); cimento e aditivos: dados medios da Alemanha (Becke 2014, BTB 2007)",
+  "distancia_km_declarada": "A2: RA ate a central 39 km; agregado natural (NA) 50 km; entulho demolicao->reciclagem 41 km (C2, 100% ida e 0% regresso); cenarios: 2 km (in situ) e 98 km (fixa); Monte Carlo: NA 65 km, cimento 140 km, RA 0-100 km. Nenhuma distancia central->obra.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA exclusao: fronteira cradle-to-gate A1-A3 (Sec. 2.2) + EoL C1-C3; A2 so ate a central de betao. 308/315 kg CO2e/m3 (Sec. 3.2, Fig. 4) sao por m3 de betao, sem entrega a obra.",
+  "citacao": "Sec. 2.2 p.3-4; Sec. 2.4.2 p.5-6 (A2); Table 3 p.7; Sec. 3.2 p.6",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade: m3 de betao (sim, FU 1 m3 C25/30). Lidas integralmente Sec. 1.2-4 (menos parte da introducao e apendices A1/A2/Fig. A1). Fig. 4 nao renderizada; 308/315 vem do texto. Texto extraido via Drive read_file_content; nao foi possivel descarregar/renderizar o PDF nesta sessao.",
+  "pares": [
+   {
+    "sheet_row": 1053,
+    "densidade_betao_kg_m3": 2281,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 2, coluna RC-m1",
+    "citacao": "Table 2 p.5: 770+279+754+335+140+3 = 2281 (Total impresso 2.281 kg/m3)",
+    "nota": "Densidade de betao (m3 de betao fresco, inclui agua e aditivos). Cimento 335 kg/m3."
+   },
+   {
+    "sheet_row": 1054,
+    "densidade_betao_kg_m3": 2271,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 2, coluna RC-m2",
+    "citacao": "Table 2 p.5: 618+421+745+345+140+2 = 2271 (Total impresso 2.271 kg/m3)",
+    "nota": "Densidade de betao. Cimento 345 kg/m3."
+   }
+  ]
+ },
+ {
+  "row_id": 3602,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado (so factores GWP A1-A3 por kg de componente, Table 8)",
+  "distancia_km_declarada": "nao declarada",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA exclusao: LCA limitado a A1-A3 (Sec. 4.1); A4-A5 so mencionadas como fases do ciclo de vida. GWP = massa de cada componente (Table 3) x factor (Table 8); sem transporte a obra.",
+  "citacao": "Sec. 4 p.13; Sec. 4.1 p.14; Table 8",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade: m3 de betao (UHPC kg/m3, Table 3). Lidas integralmente introducao, estado da arte, ensaios de compressao, LCA e conclusoes; resultados de flexao/Tabelas 6-7 e referencias nao lidos em detalhe (pesquisa por palavras-chave sem referencias a transporte). Fig. 10 (GWP) nao renderizada. Texto extraido via Drive read_file_content; nao foi possivel descarregar/renderizar o PDF nesta sessao.",
+  "pares": [
+   {
+    "sheet_row": 485,
+    "densidade_betao_kg_m3": 2357,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 3, coluna S1",
+    "citacao": "Table 3 p.6: soma dos componentes (kg/m3) = 2357",
+    "nota": "Densidade de UHPC (betao fino com farinha de quartzo e areia 0/0,5 mm; nao argamassa convencional), inclui agua e superplastificante."
+   },
+   {
+    "sheet_row": 486,
+    "densidade_betao_kg_m3": 2455,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 3, coluna S2",
+    "citacao": "Table 3 p.6: soma dos componentes (kg/m3) = 2455",
+    "nota": "Densidade de UHPC (betao fino com farinha de quartzo e areia 0/0,5 mm; nao argamassa convencional), inclui agua e superplastificante."
+   },
+   {
+    "sheet_row": 487,
+    "densidade_betao_kg_m3": 2367,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 3, coluna S3",
+    "citacao": "Table 3 p.6: soma dos componentes (kg/m3) = 2367",
+    "nota": "Densidade de UHPC (betao fino com farinha de quartzo e areia 0/0,5 mm; nao argamassa convencional), inclui agua e superplastificante."
+   },
+   {
+    "sheet_row": 488,
+    "densidade_betao_kg_m3": 2372,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 3, coluna S4",
+    "citacao": "Table 3 p.6: soma dos componentes (kg/m3) = 2372",
+    "nota": "Densidade de UHPC (betao fino com farinha de quartzo e areia 0/0,5 mm; nao argamassa convencional), inclui agua e superplastificante."
+   },
+   {
+    "sheet_row": 489,
+    "densidade_betao_kg_m3": 2375,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 3, coluna S5",
+    "citacao": "Table 3 p.6: soma dos componentes (kg/m3) = 2375",
+    "nota": "Densidade de UHPC (betao fino com farinha de quartzo e areia 0/0,5 mm; nao argamassa convencional), inclui agua e superplastificante."
+   }
+  ]
+ },
+ {
+  "row_id": 3685,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "camiao de betao (implicito); factor de uma recomendacao anterior do Concrete Centre, sem modo nem distancia; materiais->central: 11 kg CO2/t cimento e 7 kg CO2/t SCM",
+  "distancia_km_declarada": "nao declarada (so factor 8,4 kg CO2/t de betao entregue; 7 kg CO2/t de armadura entregue; betonagem+colocacao 3,3 kg CO2/m3; mistura 9 kg CO2/m3)",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONTRADIZ para 1079 (E_CO2,C inclui transporte de betao 8,4 kg/t, Sec. 3.2 p.5-6 e Table 10 'Initial ECO2' da coluna, 297,55 kg): o valor da coluna nao e por m3 e inclui A4. CONFIRMA exclusao para 2010-2012 (A1-A3 so constituintes, Table 4 'cradle-to-factory-gate', sem transporte ao central e sem A4): 316 = 362x0,860 + 1800x0,0026 etc.",
+  "citacao": "Sec. 3.2 p.5-6; Table 4; Table 6-7 p.7; Table 10 p.9",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade: 2010-2012 sao kg CO2/m3 de betao (so constituintes); a linha 1079 e uma coluna de betao armado (0,4x0,6x3 m = 0,72 m3, 1,5% aco) - Initial ECO2 = 297,55/250,63/164,82 kg POR COLUNA, nao por m3 (co2_kg_m3 gravado null). Parametros: 8,4 kg CO2/t betao entregue (A4 incluido no 'initial ECO2' da coluna). Lidas integralmente Sec. 3-5.2 e discussoes; modelos de carbonatacao/corrosao (Sec. 2) apenas por pesquisa de termos. Texto extraido via Drive read_file_content; nao foi possivel descarregar/renderizar o PDF nesta sessao.",
+  "pares": [
+   {
+    "sheet_row": 1079,
+    "densidade_betao_kg_m3": 2438,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 0.72,
+    "local": "Table 7 FA/35; Table 6 (0,4x0,6x3 m)",
+    "citacao": "Table 7 p.7: 285+154+1800+199 = 2438; Table 6",
+    "nota": "Linha ambigua quanto a mistura: gravada como 'FA' (FA/35). Volume de betao da coluna 0,72 m3 por calculo das dimensoes impressas (nao impresso como volume). Aco 1,5%."
+   },
+   {
+    "sheet_row": 2010,
+    "densidade_betao_kg_m3": 2361,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 7 PC",
+    "citacao": "Table 7 p.7: 362+0+1800+199 = 2361",
+    "nota": "Betao (agregado total 1800 sem separar fino/grosso)."
+   },
+   {
+    "sheet_row": 2011,
+    "densidade_betao_kg_m3": 2438,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 7 FA/35",
+    "citacao": "Table 7 p.7: 285+154+1800+199 = 2438",
+    "nota": ""
+   },
+   {
+    "sheet_row": 2012,
+    "densidade_betao_kg_m3": 2361,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 7 GGBS/65",
+    "citacao": "Table 7 p.7: 127+235+1800+199 = 2361",
+    "nota": ""
+   }
+  ]
+ },
+ {
+  "row_id": 3687,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "comboio (Wood Mountain SK->Montreal, cenario QC, argila calcinada) / camiao (cenario FR, argila 535 km); cimento e calcario filler por camiao (processos ecoinvent)",
+  "distancia_km_declarada": "cimento GUbSF 223 km; argila calcinada 2900 km (QC, comboio) ou 535 km (FR, camiao); calcario 209 km; Table 4: outras origens (lorry 68/207/203/20 km; train 2800/1660 km; cargo 2088/2014 km) - todas ate o ponto de impressao, sentido unico",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA exclusao: cradle-to-gate A1-A3 (Sec. 1/2.1); 'distribution phase ... need to be considered' em trabalho futuro (Sec. 4.5). 251 kg CO2-eq/m3 e o cenario CA-QC (Sec. 3.3).",
+  "citacao": "Sec. 2.2-2.5 p.3-4; Table 4 p.6; Sec. 3.1; Sec. 4.5",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade: m3 de material de impressao 3D (argamassa de 30-31 MPa, areia <2,5 mm) - nao e 'betao' stricto sensu; FU 1 m3. Lidas Sec. 2-4 integralmente; introducao e referencias por pesquisa. Fig. 1,4,10 nao renderizadas. Texto extraido via Drive read_file_content; nao foi possivel descarregar/renderizar o PDF nesta sessao.",
+  "pares": [
+   {
+    "sheet_row": 1080,
+    "densidade_betao_kg_m3": 2214,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Table 2 (cimento 165, argila 132, calcario 362 kg; a/l 0,35; areia/ligante 2; SP/ligante 0,01)",
+    "citacao": "Table 2 p.4: ligante 659 -> areia 1318, agua 230,65, SP 6,59 => 2214,2 kg/m3",
+    "nota": "DENSIDADE DE ARGAMASSA (material de impressao 3D), derivada por mim das razoes impressas (nao impressa no artigo)."
+   }
+  ]
+ },
+ {
+  "row_id": 3727,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado",
+  "distancia_km_declarada": "nao declarada",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA exclusao: 'emissions associated with maintenance in the use-phase and transportation emissions are excluded' (Sec. 2.3, p.6). 334 kg CO2e/m3 e o ciclo de vida cumulativo (GWP100) incluindo construcao (28%) e demolicao, com carbonatacao; fase de construcao de Guggemos & Horvath 2005 (detalhe no SI, nao disponivel).",
+  "citacao": "Sec. 2.3 p.6; Sec. 3 p.7",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade: m3 de betao (sim, FU 1 m3 de betao C25, 28 d). Valor 334 inclui construcao+demolicao e absorcao por carbonatacao (nao e A1-A3). Detalhes dos fluxos no Supporting Information (nao lido). Texto extraido via Drive read_file_content; nao foi possivel descarregar/renderizar o PDF nesta sessao.",
+  "pares": [
+   {
+    "sheet_row": 1082,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "",
+    "nota": "Traco/densidade apenas no SI (Tabela S1), nao acessivel."
+   }
+  ]
+ }
+]
