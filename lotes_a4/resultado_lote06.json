@@ -1,0 +1,366 @@
+[
+ {
+  "row_id": 3071,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma a4 fora do valor: 'The emissions from transportation are not considered in the evaluation due to the variance and dependence on other influencing factors such as distance, type of engine, and raw materials location' (Sec.1, p.2); repetido na Sec.5.2 (p.9) e na Sec.2.2 (valor de silicato de sodio com a parcela de transporte 0,292 t/t retirada). Nenhuma componente de transporte nas Figs.2, 4-9 nem nas Tabelas A4-A6.",
+  "citacao": "Sec.1 p.2; Sec.2.2 p.6; Sec.5.2 p.9; Figs.4-9",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Sem modo, distancia, massa ou factor de transporte. Calculo a partir de factores da literatura (nao e ACV). Figuras 1-2, 4, 5, 8, 9 vistas como imagem (so barras/pizzas por componente, sem transporte). Divergencia interna: a Tab.4 imprime CO2 de 222 (AAC 40), 512 (AAC 60) e 639 (AAC-II) kg/m3, mas a Fig.5a (0,107 t), a Fig.9 (0,313 t) e as Tabelas A4-A6 (0,259 t) dao valores diferentes dos da Tab.4 para estas tres misturas; os valores gravados (108, 259, 313) coincidem com as figuras/apendice, nao com a Tab.4. As misturas AAC/OPCC sao de outros artigos (Nath & Sarker 2014, Pouhet & Cyr 2016, Assi 2016b, Liu 2020, ACI 363).",
+  "pares": [
+   {
+    "sheet_row": 297,
+    "densidade_betao_kg_m3": 2380,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 (p.3)",
+    "citacao": "OPCC 40 MPa: 460 OPC + 622 areia + 1105 brita + 193 agua = 2380",
+    "nota": "Soma dos componentes impressos na tabela do traco (kg/m3), sem dado de densidade medida."
+   },
+   {
+    "sheet_row": 298,
+    "densidade_betao_kg_m3": 2420,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 (p.3)",
+    "citacao": "AAC 40 MPa: 340 FA + 60 GGBFS + 651 + 1209 + 45,7 NaOH sol. + 114,3 silicato = 2420",
+    "nota": "Soma dos componentes impressos na tabela do traco (kg/m3), sem dado de densidade medida."
+   },
+   {
+    "sheet_row": 299,
+    "densidade_betao_kg_m3": 2421.3,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (p.3)",
+    "citacao": "OPCC 60/65 MPa: 505+60+630+1030+195+1,3 = 2421,3",
+    "nota": "Soma dos componentes impressos na tabela do traco (kg/m3), sem dado de densidade medida."
+   },
+   {
+    "sheet_row": 300,
+    "densidade_betao_kg_m3": 2407.6,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (p.3)",
+    "citacao": "AAC 58,5 MPa: 289 MK + 796,3 + 1055,3 + 3,9 agua + 24,2 NaOH + 238,9 silicato = 2407,6",
+    "nota": "Soma dos componentes impressos na tabela do traco (kg/m3), sem dado de densidade medida."
+   },
+   {
+    "sheet_row": 301,
+    "densidade_betao_kg_m3": 2637.6,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 (p.4)",
+    "citacao": "OPCC 100 MPa: 228+308+45+800+1110+131+15,6 = 2637,6",
+    "nota": "Soma dos componentes impressos na tabela do traco (kg/m3), sem dado de densidade medida."
+   },
+   {
+    "sheet_row": 302,
+    "densidade_betao_kg_m3": 2337.9,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 (p.4)",
+    "citacao": "AAC-I: 474+46,2+793+793+163+7,125+61,6 = 2337,9",
+    "nota": "Soma dos componentes impressos na tabela do traco (kg/m3), sem dado de densidade medida."
+   },
+   {
+    "sheet_row": 303,
+    "densidade_betao_kg_m3": 2266,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 (p.4)",
+    "citacao": "AAC-II: 172+688+45+905+97+45+314 = 2266 (a tabela nao lista agregado graudo; agua de 97 nao inclui a do silicato)",
+    "nota": "Soma dos componentes impressos na tabela do traco (kg/m3), sem dado de densidade medida. Soma baixa porque o traco impresso nao tem brita e a agua exclui a do silicato."
+   }
+  ]
+ },
+ {
+  "row_id": 3073,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma a4 fora do valor: 'A cradle-to-gate LCA was performed that includes raw material extraction through material manufacturing, including related transportation. The environmental impacts of the construction processes were not considered' (Sec.2.2.3, p.5). O transporte so e mencionado como parte generica da fronteira; nenhuma distancia, modo, massa ou factor impresso; nao ha transporte do betao a obra.",
+  "citacao": "Sec.2.2.3 p.5; Sec.2.2.4 p.5; Fig.2 p.6",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Estudo de betao impresso 3D (KCSC); par gravado = Mix-1, GWP 6,0 kg CO2/MPa x 35,9 MPa = 215,4 (Fig.2B p.6, vista como imagem). Traco impresso apenas em % em massa (26,67 CSA / 0 caulinite / 73,33 areia; Tab.4), sem agua nem kg/m3; sem massa volumica nem massa de elemento impressa para Mix-1. Parede de 1,5x6,0 m com espessuras da Tab.5 (23-26,7 cm) so e usada na analise de elementos, nao ha massa nem volume por elemento impresso.",
+  "pares": [
+   {
+    "sheet_row": 305,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "",
+    "nota": "Nao ha densidade nem soma de traco em kg/m3 (traco so em % massa, sem agua)."
+   }
+  ]
+ },
+ {
+  "row_id": 3092,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Camiao classe 8b (modelo 2005, diesel; HGV) para cimento, gesso, agregados, aditivo e calcario; comboio (rail) para cinza volante. A ferramenta Green Concrete web LCA admite classes 2b, 5, 8b, rail e barca.",
+  "distancia_km_declarada": "Tab.2 (por viagem, ida; rotas mais curtas do Google Maps arredondadas por excesso): materias-primas do cimento->fabrica de cimento 38 km; gesso->fabrica 97 km; cimento->central de betao 35 km; areia 6 km; brita 6 km; aditivo 161 km; cinza volante (rail) 222 km; calcario 129 km. Totais: 343 km (mistura so cimento) e 694 km (mistura C-F-L completa). O texto da Sec.4.3 diz 'maior distancia 138 km (FA, rail)' e 'menor 3,7 km (cimento-central)', contradizendo a Tab.2 (222 e 35 km).",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma a4 fora do valor: fronteira A1-A3 (BS EN 15978; Sec.3.4 p.4-5); 'TR' nas Figs.5/Tab.4 e 'Transportation to the Concrete Plant' = A2 (materiais ate a central; 3,48 a 10,39 kg CO2e/m3, Tab.3/Tab.4). A Fig.2 (vista) mostra 'Transportation to construction site' como seta fora do sistema. Nao ha transporte do betao a obra.",
+  "citacao": "Sec.3.4-3.5 p.4-5; Fig.2 e Fig.3 p.5; Tab.2-4 p.8-9; Fig.5 p.7",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Distancias reais da Tab.2 (e Fig.3: 38 min / 21,5 milhas = ~35 km cimento->central) diferem do transporte_dados gravado ('3,7 a 138'), que vem do texto e esta inconsistente com a tabela; sugere-se usar a Tab.2. Fig.2 (fluxo do inventario) e Fig.3 (mapa) vistas; Fig.5 (barras CO2 por actividade incl. TR) vista. Dataset de resistencia e das misturas de Celik et al. 2015 (13 misturas); so 3 gravadas. Factor de emissao do transporte nao impresso (ferramenta web). Massa transportada por material nao impressa, so as razoes e CM/C/CR na Tab.1 (agregados como razao 2,00+2,00 sobre o ligante, a=4:1, a/c 0,35, SP em %).",
+  "pares": [
+   {
+    "sheet_row": 310,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4",
+    "citacao": "",
+    "nota": "Tab.1 so da massa de ligante (CM 453, C 317, CR 136 kg/m3) e razoes dos agregados; kg de agregado/agua e unidade do SP (%) nao impressos em kg/m3; densidade nao declarada."
+   },
+   {
+    "sheet_row": 311,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4",
+    "citacao": "",
+    "nota": "Idem: CM 456, C 342, CR 114 kg/m3; sem massa volumica."
+   },
+   {
+    "sheet_row": 312,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4",
+    "citacao": "",
+    "nota": "Idem: CM 461, C 461 kg/m3 (100-0-0); sem massa volumica."
+   }
+  ]
+ },
+ {
+  "row_id": 3099,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Camiao (lorry freight) para fornecedores locais; barca (barge) para reagentes importados (4,4'-MDI, de Shanghai) e para o tolueno e outros (arquipelago das Filipinas). Factor de emissao do transporte nao impresso no artigo.",
+  "distancia_km_declarada": "Tab.4 (por material; ida; a fabrica de blocos esta 'in the same spot as the university'): lorry cimento 30 km; cinza volante 163 km; areia 52,1 km; brita 52,1 km; silicato de sodio 37,3 km; NaOH 31,1 km; tolueno 7,3 km (+37,34 km barca); Span 85, POEDO, MDI, dibutilestanho: 7,3 km lorry + 2300 km barca.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma a4 fora do valor: cradle-to-gate (Sec.2.1, Fig.2 p.3: o sistema termina na producao dos blocos de betao; 'Transportation inventory ... distances from local suppliers of the materials needed'). O transporte e A2 (materias-primas ate a fabrica); nao ha transporte do bloco a obra.",
+  "citacao": "Sec.2.1 p.2-3; Fig.2 p.3; Sec.2.2.4 p.5; Tab.4 p.5; Fig.8 p.7",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Alerta: o transporte_dados gravado cita 'factor: 1,28e-4 kg CO2e/(kg.km)'; esse valor NAO existe no texto, tabelas nem figuras do PDF (o unico '1,28' e o ODP dos microcapsulas, 1,28E-7 kg CFC-11 eq., Tab.5). Fig.2 (fronteiras), Fig.6-8 (contribuicoes, 'Transport' pequeno) vistas. Par gravado e o SHGPC (GWP100 417,16, Tab.5); fck 50 MPa e o alvo de dosagem (Pavithra 2016), nao ensaio.",
+  "pares": [
+   {
+    "sheet_row": 840,
+    "densidade_betao_kg_m3": 2296.07,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4",
+    "citacao": "SHGPC: 1274,20 brita + 311,16 areia + 37,27 agua + 490 cinza volante + 142,86 silicato (48%) + 19,88 NaOH + 20,70 microcapsulas",
+    "nota": "Soma dos componentes impressos (blocos de betao; 'concrete blocks'). Para comparacao: OPCC = 1398,19+339,98+200+490 = 2428,17; GPC = 2275,37 (nao gravados)."
+   }
+  ]
+ },
+ {
+  "row_id": 3105,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma a4 fora do valor: 'the analysis considers the information module A1 - Raw Material Supply'; 'supplier-specific transportation impacts are excluded'; 'this study focuses exclusively on the A1 phase' (Sec.2.5 p.4-5, Sec.3.7 p.17). Se um produtor de betao quisesse avaliar o betao, teria de acrescentar transporte e outros modulos (p.5).",
+  "citacao": "Sec.2.5 p.4-5; Sec.3.7 p.15-17; Fig.4 p.5",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto integral lido (inclui Tab.1-4, Sec.2.5 e 3.7). PDF tem mais de 10 MB e nao foi possivel descarrega-lo para renderizar as figuras (Fig.4 = modulos EN 15804; Fig.21 = barras de CO2-eq/m3 grid/renew), por isso figuras_vistas=false; o texto diz que a fronteira e so A1. Estudo de pastas (moldes 20 mm cubicos e 40x40x160), nao de betao; fck = pasta. Fig.21 nao verificada visualmente. Escoria artificial alocada sem carga. Mistura ASS/N3 com CO2 'grid' > referencia CEM I (+6%).",
+  "pares": [
+   {
+    "sheet_row": 842,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "",
+    "nota": "Linha legada de faixa (105 MPa aos 90 d = ASS/N3; 75 MPa = escoria+filler); mistura nao inequivoca, densidade nao atribuida (ver linha 1922 para ASS/N3)."
+   },
+   {
+    "sheet_row": 1922,
+    "densidade_betao_kg_m3": 1962.2,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS/N3: 1414,3+491,5+56,4 = 1962.2",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1923,
+    "densidade_betao_kg_m3": 1984.5,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-Q50/N3: 779,6+704,6+441,6+58,7 = 1984.5",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1924,
+    "densidade_betao_kg_m3": 1982.1,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-Q50/N1: 794,3+718,0+449,9+19,9 = 1982.1",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1925,
+    "densidade_betao_kg_m3": 1992.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-Q25/N3: 1136,1+342,3+456,4+57,6 = 1992.4",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1926,
+    "densidade_betao_kg_m3": 1983.3,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-Q50/N2: 786,9+711,2+445,7+39,5 = 1983.3",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1927,
+    "densidade_betao_kg_m3": 1957.5,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-Q75/N3: 393,9+1068,2+436,8+58,6 = 1957.5",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1928,
+    "densidade_betao_kg_m3": 1978.7,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-L50/N1: 779,4+719,0+460,2+20,1 = 1978.7",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1929,
+    "densidade_betao_kg_m3": 1980.3,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-L50/N2: 772,2+712,4+455,9+39,8 = 1980.3",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1930,
+    "densidade_betao_kg_m3": 1975.0,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-L25/N3: 1105,0+339,8+471,2+59,0 = 1975.0",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1931,
+    "densidade_betao_kg_m3": 1981.8,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-L50/N3: 765,1+705,8+451,7+59,2 = 1981.8",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   },
+   {
+    "sheet_row": 1932,
+    "densidade_betao_kg_m3": 1970.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.4",
+    "citacao": "ASS-L75/N3: 390,3+1080,1+441,7+58,3 = 1970.4",
+    "nota": "Soma dos componentes da Tab.2 (kg/m3 de PASTA: escoria artificial + po de quartzo/calcario + agua + NaOH); sem agregado: o estudo e de pasta/ligante alcali-ativado, nao de betao."
+   }
+  ]
+ },
+ {
+  "row_id": 3114,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Lorry 16-32 t (EURO5), do inventario Ecoinvent v3.01 (Tab.2); so cimento e aditivos da fabrica a central de betao.",
+  "distancia_km_declarada": "Cimento 75 km e aditivos 100 km (Sec.2.3.2 p.3), por viagem, ida ('normal distances between the concrete plant facilities and suppliers'). Tab.2: 30,8 / 23,5 / 30,8 / 28,4 tkm por m3 (ACI/EMV/BOLCON/BOLEMV) = 409x75+1,3x100, etc. (confere). Distancia dos agregados nao dada e nao incluida.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma a4 fora do valor: cradle-to-gate; 'The only transportation that takes place is from the cement and chemical admixtures factories to the concrete plant, since the construction, maintenance, and demolition phases are not included' (Sec.3.3.1 p.6; Fig.1 p.4 vista, 'Transport' liga fabricas de cimento/aditivos a central e a seta para 'Construction' esta a tracejado, fora do sistema).",
+  "citacao": "Sec.2.3.2 p.3; Tab.2 p.4; Sec.3.1 p.5; Sec.3.3.1 p.6; Fig.1 p.4",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Fig.1 e Tab.2 vistas como imagem; Figs.2-3 (contribuicoes %) vistas so no texto/legendas (transporte <1% mas nao lido pixel a pixel). GWP gravados 403/316/410/381 conferem com Tab.3. Transporte a obra nao incluido; transporte de agregados nao declarado. Massa volumica real diverge da soma dos componentes em 5-7%.",
+  "pares": [
+   {
+    "sheet_row": 844,
+    "densidade_betao_kg_m3": 2010,
+    "densidade_origem": "declarada_artigo_por_mistura",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.3",
+    "citacao": "ACI: Real density 2010 kg/m3",
+    "nota": "Massa volumica 'Real density' impressa na Tab.1 (p.3); o artigo nao diz se e fresca ou endurecida. Para comparacao, soma dos componentes da Tab.2: 184+409+752+786+1,3 = 2132,3."
+   },
+   {
+    "sheet_row": 2092,
+    "densidade_betao_kg_m3": 2145,
+    "densidade_origem": "declarada_artigo_por_mistura",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.3",
+    "citacao": "EMV: Real density 2145 kg/m3",
+    "nota": "Massa volumica 'Real density' impressa na Tab.1 (p.3); o artigo nao diz se e fresca ou endurecida. Para comparacao, soma dos componentes da Tab.2: 140+311+998+782+2,2 = 2233,2."
+   },
+   {
+    "sheet_row": 2093,
+    "densidade_betao_kg_m3": 2309,
+    "densidade_origem": "declarada_artigo_por_mistura",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.3",
+    "citacao": "BOLCON: Real density 2309 kg/m3",
+    "nota": "Massa volumica 'Real density' impressa na Tab.1 (p.3); o artigo nao diz se e fresca ou endurecida. Para comparacao, soma dos componentes da Tab.2: 184+409+1881+1,5 = 2475,5."
+   },
+   {
+    "sheet_row": 2094,
+    "densidade_betao_kg_m3": 2303,
+    "densidade_origem": "declarada_artigo_por_mistura",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.3",
+    "citacao": "BOLEMV: Real density 2303 kg/m3",
+    "nota": "Massa volumica 'Real density' impressa na Tab.1 (p.3); o artigo nao diz se e fresca ou endurecida. Para comparacao, soma dos componentes da Tab.2: 169+376+1673+235+2,1 = 2455,1."
+   }
+  ]
+ }
+]
