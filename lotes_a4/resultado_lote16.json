@@ -1,0 +1,301 @@
+[
+ {
+  "row_id": 3835,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "Betão pronto entregue por veículo rígido >17 t (betoneira); varões de aço em veículo articulado >33 t; factor DEFRA/BEIS 2022 (Tab.7: 'Road, UK'), factor numérico não impresso",
+  "distancia_km_declarada": "50 km da central à obra (por viagem; não se diz se é ida ou ida-e-volta) — pressuposto a partir do IStructE (Gibbons & Orr 2020); resíduos CDW também 50 km. Eq.20: A4 = massa × factor × distância",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONTRADIZ para o valor gravado: A4 está incluído no estudo (A4–A5, Sec.2.2.2.2, Eq.20), mas os resultados são WLEC em kgCO2e/kN·m/m (Tab.11), não por m3; o co2_kg_m3 gravado (289,5/348,8/391,2) reproduz-se exactamente com Tab.9 x Tab.8 = só A1–A3 do betão por m3, sem A4.",
+  "citacao": "Sec.2.2.2.2 p.14; Eq.20; Tab.7 p.12; Tab.8; Tab.9 p.13; Tab.11 p.15",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "unidade_m3_betao": "sim (os 289,5/348,8/391,2 são kg CO2e por m3 de betão, A1–A3, calculados da Tab.9; o resultado publicado do artigo, em kgCO2e/kN·m/m, não é por m3)",
+  "nota_estudo": "Texto lido integralmente (exceto lista de referências); figuras 1–18 não renderizadas (não há dados de transporte em figuras; Fig.11/12 são fronteiras). Os valores gravados não estão impressos no artigo: foram reconstruídos da Tab.9 e Tab.8 (batem a 0,1). Aço (vergalhão) e fibras não entram no valor por m3. Factor de transporte DEFRA não é impresso.",
+  "pares": [
+   {
+    "sheet_row": 1116,
+    "densidade_betao_kg_m3": 2468.3,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.9 p.13 (cimento+agua+areia+brita+SP por m3, fck 30)",
+    "citacao": "Tab.9; Tab.3 p.8 (densidade 2500 kg/m3 do betao C30, propriedade da biblioteca do software SCIA)",
+    "nota": "Soma de Tab.9 = 2468.3 kg/m3 (sem ar). O artigo imprime tambem 2500 kg/m3 (Tab.3, propriedade FE do betao) mas nao e medida. O co2_kg_m3 gravado (289.5) reproduz-se exactamente com Tab.9 x Tab.8 (289.52): e A1-A3 do betao por m3, sem A4."
+   },
+   {
+    "sheet_row": 1117,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "impressa_tabela_software",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 p.8 (C30/..-5D65/60BG: density 2500 kg/m3)",
+    "citacao": "Tab.4",
+    "nota": "Densidade do SFRC e propriedade da biblioteca SCIA, nao medida. Traco do SFRC nao impresso (so o traco base Tab.9 + fibras 20-40 kg/m3), logo sem soma do traco. Linha sem co2_kg_m3 gravado."
+   },
+   {
+    "sheet_row": 1118,
+    "densidade_betao_kg_m3": 2474.0,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.9 p.13 (cimento+agua+areia+brita+SP por m3, fck 40)",
+    "citacao": "Tab.9; Tab.3 p.8 (densidade 2500 kg/m3 do betao C40, propriedade da biblioteca do software SCIA)",
+    "nota": "Soma de Tab.9 = 2474.0 kg/m3 (sem ar). O artigo imprime tambem 2500 kg/m3 (Tab.3, propriedade FE do betao) mas nao e medida. O co2_kg_m3 gravado (348.8) reproduz-se exactamente com Tab.9 x Tab.8 (348.79): e A1-A3 do betao por m3, sem A4."
+   },
+   {
+    "sheet_row": 1119,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "impressa_tabela_software",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 p.8 (C40/..-5D65/60BG: density 2500 kg/m3)",
+    "citacao": "Tab.4",
+    "nota": "Densidade do SFRC e propriedade da biblioteca SCIA, nao medida. Traco do SFRC nao impresso (so o traco base Tab.9 + fibras 20-40 kg/m3), logo sem soma do traco. Linha sem co2_kg_m3 gravado."
+   },
+   {
+    "sheet_row": 1120,
+    "densidade_betao_kg_m3": 2484.5,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.9 p.13 (cimento+agua+areia+brita+SP por m3, fck 50)",
+    "citacao": "Tab.9; Tab.3 p.8 (densidade 2500 kg/m3 do betao C50, propriedade da biblioteca do software SCIA)",
+    "nota": "Soma de Tab.9 = 2484.5 kg/m3 (sem ar). O artigo imprime tambem 2500 kg/m3 (Tab.3, propriedade FE do betao) mas nao e medida. O co2_kg_m3 gravado (391.2) reproduz-se exactamente com Tab.9 x Tab.8 (391.16): e A1-A3 do betao por m3, sem A4."
+   },
+   {
+    "sheet_row": 1121,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "impressa_tabela_software",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 p.8 (C50/..-5D65/60BG: density 2500 kg/m3)",
+    "citacao": "Tab.4",
+    "nota": "Densidade do SFRC e propriedade da biblioteca SCIA, nao medida. Traco do SFRC nao impresso (so o traco base Tab.9 + fibras 20-40 kg/m3), logo sem soma do traco. Linha sem co2_kg_m3 gravado."
+   }
+  ]
+ },
+ {
+  "row_id": 3843,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Cimento por camião; cinza volante (Wyoming→Califórnia) por comboio; agregado por camião (local)",
+  "distancia_km_declarada": "Não impressa no PDF: remete para 'supplementary material: appendix E' (modos, distâncias). Betão 'batched locally in the San Francisco Bay area'; nenhuma distância central–obra.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: inventário 'raw material acquisition and processing through concrete batching'; só transporte de constituintes (A2) — 'GWP from cement 5 to 35 times higher than GWP from transportation'. Nenhum transporte do betão à obra.",
+  "citacao": "Sec.2.2.2 p.6–7; Sec.3.1 p.7; Fig.1",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "unidade_m3_betao": "sim (Sec.3.1/Fig.1: GWP por m3 de betão; o valor 520 vem da Fig.1, não rendida)",
+  "nota_estudo": "Texto lido na íntegra (PDF principal). Apêndices A–E (distâncias, modos) são material suplementar fora do PDF. Fig.1 (de onde sairia o 520 para Mix 5) não foi vista/ rendida; valor não confirmado por mim. fck 56,4 = Tab.2 aos 28 d ✓.",
+  "pares": [
+   {
+    "sheet_row": 1123,
+    "densidade_betao_kg_m3": 2363,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4 Mix 5 (0.38-0): cimento 507 + água 195 + areia 565 + brita 1096 + SP 0",
+    "citacao": "Tab.1",
+    "nota": "Soma = 2363 kg/m3. Não é densidade medida."
+   }
+  ]
+ },
+ {
+  "row_id": 3864,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Transporte rodoviário (veículos; factor 7,62E-5 kg CO2/kg·km, ARAI Pune 2007); SP 1,32E-5",
+  "distancia_km_declarada": "100 km de cada ingrediente à central de betão pronto (RMC) (por viagem; ida/volta não declarado). Nenhuma distância central–obra.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: 'system boundary is up to but not including the gate of the ready-mixed concrete plant'; só A2 materiais→central (Eq.2, Tab.9).",
+  "citacao": "Sec.4.1.1–4.1.2 p.7; Eq.2; Tab.9 p.8",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "unidade_m3_betao": "sim (UF = 1 m3 de betão, Sec.4.1.1; Tab.9 kg/FU)",
+  "nota_estudo": "Texto lido; o texto devolvido pelo conector termina no início da Tab.B1 do apêndice (possível truncatura final, só apêndice de dosagem). ACHADO: co2_kg_m3 gravados para TR2–TR6 (272,42; 271,93; 271,45; 270,96; 270,48) não são os impressos na Tab.10 e Fig.4 (271,45; 270,48; 269,51; 268,54; 267,57); só TR1 273,38 coincide. Os gravados parecem interpolados. Também nota: Tab.9 'CO2-P' (redução por cinza) aparece na Eq.3 mas vale 0. Fig.3–6 não renderizadas.",
+  "pares": [
+   {
+    "sheet_row": 531,
+    "densidade_betao_kg_m3": 2529.77,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.6 (água 200 + cimento 405 + cinza volante 70 + pond ash 0 + areia 1076.19 + brita 777,38 + SP 1,2)",
+    "citacao": "Tab.6",
+    "nota": "Soma do traço da Tab.6 (SCC, betão). Tab.9 (cálculo de CO2) usa SP 5,7 kg/m3 em vez de 1,2 da Tab.6; com 5,7 a soma sobe 4,5 kg/m3. co2_kg_m3 gravado 273,38 (coincide) NÃO coincide com a Tab.10/Fig.4 do artigo (TR2..TR6 = 271,45; 270,48; 269,51; 268,54; 267,57)."
+   },
+   {
+    "sheet_row": 532,
+    "densidade_betao_kg_m3": 2529.77,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.6 (água 200 + cimento 405 + cinza volante 70 + pond ash 107.6 + areia 968.59 + brita 777,38 + SP 1,2)",
+    "citacao": "Tab.6",
+    "nota": "Soma do traço da Tab.6 (SCC, betão). Tab.9 (cálculo de CO2) usa SP 5,7 kg/m3 em vez de 1,2 da Tab.6; com 5,7 a soma sobe 4,5 kg/m3. co2_kg_m3 gravado 272,42 NÃO coincide com a Tab.10/Fig.4 do artigo (TR2..TR6 = 271,45; 270,48; 269,51; 268,54; 267,57)."
+   },
+   {
+    "sheet_row": 533,
+    "densidade_betao_kg_m3": 2529.77,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.6 (água 200 + cimento 405 + cinza volante 70 + pond ash 161.43 + areia 914.76 + brita 777,38 + SP 1,2)",
+    "citacao": "Tab.6",
+    "nota": "Soma do traço da Tab.6 (SCC, betão). Tab.9 (cálculo de CO2) usa SP 5,7 kg/m3 em vez de 1,2 da Tab.6; com 5,7 a soma sobe 4,5 kg/m3. co2_kg_m3 gravado 271,93 NÃO coincide com a Tab.10/Fig.4 do artigo (TR2..TR6 = 271,45; 270,48; 269,51; 268,54; 267,57)."
+   },
+   {
+    "sheet_row": 534,
+    "densidade_betao_kg_m3": 2529.77,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.6 (água 200 + cimento 405 + cinza volante 70 + pond ash 215.24 + areia 860.95 + brita 777,38 + SP 1,2)",
+    "citacao": "Tab.6",
+    "nota": "Soma do traço da Tab.6 (SCC, betão). Tab.9 (cálculo de CO2) usa SP 5,7 kg/m3 em vez de 1,2 da Tab.6; com 5,7 a soma sobe 4,5 kg/m3. co2_kg_m3 gravado 271,45 NÃO coincide com a Tab.10/Fig.4 do artigo (TR2..TR6 = 271,45; 270,48; 269,51; 268,54; 267,57)."
+   },
+   {
+    "sheet_row": 535,
+    "densidade_betao_kg_m3": 2529.77,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.6 (água 200 + cimento 405 + cinza volante 70 + pond ash 269 + areia 807.19 + brita 777,38 + SP 1,2)",
+    "citacao": "Tab.6",
+    "nota": "Soma do traço da Tab.6 (SCC, betão). Tab.9 (cálculo de CO2) usa SP 5,7 kg/m3 em vez de 1,2 da Tab.6; com 5,7 a soma sobe 4,5 kg/m3. co2_kg_m3 gravado 270,96 NÃO coincide com a Tab.10/Fig.4 do artigo (TR2..TR6 = 271,45; 270,48; 269,51; 268,54; 267,57)."
+   },
+   {
+    "sheet_row": 536,
+    "densidade_betao_kg_m3": 2529.77,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 p.6 (água 200 + cimento 405 + cinza volante 70 + pond ash 323 + areia 753.19 + brita 777,38 + SP 1,2)",
+    "citacao": "Tab.6",
+    "nota": "Soma do traço da Tab.6 (SCC, betão). Tab.9 (cálculo de CO2) usa SP 5,7 kg/m3 em vez de 1,2 da Tab.6; com 5,7 a soma sobe 4,5 kg/m3. co2_kg_m3 gravado 270,48 NÃO coincide com a Tab.10/Fig.4 do artigo (TR2..TR6 = 271,45; 270,48; 269,51; 268,54; 267,57)."
+   }
+  ]
+ },
+ {
+  "row_id": 3872,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "Só resíduos: camião >32 t EURO6 (ecoinvent, 0,1 kg CO2e/t·km) 5 km até aterro e 50 m internos; entrega do betão à obra não descrita (EPD Velde cobre A1–A4 mas só se usa A1–A3)",
+  "distancia_km_declarada": "5 km central→aterro (resíduos), 50 m transporte interno; nenhuma distância de entrega do betão",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido para o valor gravado: GWP 'A1–A3' (237,22 no texto/237,38 Tab.2 ano zero); A4 do EPD Velde não é quantificado no artigo.",
+  "citacao": "Sec.2.4 p.5–6; Sec.3 p.7; Tab.1; Tab.2 p.8",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "unidade_m3_betao": "sim (UF = 1 m3 de betão C35/45)",
+  "nota_estudo": "Texto lido na íntegra. Valores gravados (237,38; 227,79; 217,47) diferem 0,12 das Tab.2 impressa (227,67 e 217,35); referência 237,38 = Tab.2 (texto diz 237,22). Fig.3/4 não renderizadas. Sem traço impresso: só percentagens em massa do EPD (cimento 15,82%, agregados 76,89%, água 7,12%, químicos 0,17%).",
+  "pares": [
+   {
+    "sheet_row": 1126,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa_pressuposto_no_texto",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.3 p.7: 'sludge ... 0.01*2400 kg' por m3 de betão (e 0.01*2.4 t)",
+    "citacao": "Sec.3",
+    "nota": "2400 kg/m3 usado nos cálculos de lamas por m3 de betão; é um pressuposto, não densidade medida do traço. Traço não impresso."
+   },
+   {
+    "sheet_row": 1127,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa_pressuposto_no_texto",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.3 p.7: 'sludge ... 0.01*2400 kg' por m3 de betão (e 0.01*2.4 t)",
+    "citacao": "Sec.3",
+    "nota": "2400 kg/m3 usado nos cálculos de lamas por m3 de betão; é um pressuposto, não densidade medida do traço. Traço não impresso. Mesmo valor aplicado à mistura de referência; cenários com agregado reciclado sem densidade própria impressa."
+   },
+   {
+    "sheet_row": 1128,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa_pressuposto_no_texto",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.3 p.7: 'sludge ... 0.01*2400 kg' por m3 de betão (e 0.01*2.4 t)",
+    "citacao": "Sec.3",
+    "nota": "2400 kg/m3 usado nos cálculos de lamas por m3 de betão; é um pressuposto, não densidade medida do traço. Traço não impresso. Mesmo valor aplicado à mistura de referência; cenários com agregado reciclado sem densidade própria impressa."
+   }
+  ]
+ },
+ {
+  "row_id": 3896,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Cinza volante: camião 40 t, 200 km do local da central eléctrica até Perth (já incluído); escória: frete marítimo parcial; entrega na obra: camião não especificado",
+  "distancia_km_declarada": "Cenário Site 1: 50 km em Perth metropolitana para todos os materiais (pressuposto 'conservador'); Site 2 Kalgoorlie 600 km a leste de Perth (NaOH e aluminossilicatos de Perth: +3,6 kgCO2eq, 10%); se também o solo-base: +60%. Ida/volta não declarado.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: 'Transport from plant to site has been excluded in the initial results'; Fig.3 'modules A1-3 only'; o A4 só aparece na análise de sensibilidade (Fig.4), em kgCO2eq por m2 de parede.",
+  "citacao": "Sec.2.2 p.3; Sec.3 p.5–6; Fig.2, Fig.3 (legenda), Fig.4",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "unidade_m3_betao": "nao (UF = 1 m2 de parede externa vertical portante; o co2_kg_m3=120 gravado não é por m3 de betão e não está impresso no texto — deve vir de leitura da Fig.3/ conversão por m2→m3 não verificada)",
+  "nota_estudo": "Texto lido na íntegra; Fig.3 e Fig.4 (onde estariam os valores) não foram renderizadas. Não há espessura da parede nem massa volúmica no texto: sem base para converter m2→m3. É taipa (rammed earth) alcalino-ativada, não betão; traço só em percentagens de massa (Tab.1). UCS 28 d RBC_AA = 24,1 MPa ✓.",
+  "pares": [
+   {
+    "sheet_row": 1135,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "densidade_de": "nao_aplicavel (taipa/rammed earth)",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "",
+    "citacao": "Tab.1 p.3 (apenas % em massa); critério NCC '>220 kg/m2' para paredes de alta massa, não é densidade do material",
+    "nota": "Sem densidade nem espessura impressas. Traço em % de massa com água 7,8%."
+   }
+  ]
+ },
+ {
+  "row_id": 3904,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Camião/comboio/navio (Tab.2: agregados naturais 88/2/10%; reciclados 100% camião; cimento 80/9/11%; cinza 100% camião); factor de carga 50% (100% carregado, 0% no regresso); base de dados GaBi",
+  "distancia_km_declarada": "Tab.2 (km médios): agregados naturais 50; reciclados 30; cimento 140 (106–180 na fonte); cinza volante 100; reciclagem→central de betão 45 km no texto (30 km no Tab.2); obra→central de reciclagem 30 km (C2). Nenhuma distância central→obra.",
+  "regresso_em_vazio": "incluido (factor de carga 50%: viagem de ida carregada, regresso vazio, para os transportes de materiais e de entulho)",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: fronteira A1–A3 (+C1–C3 no cenário RC); A2 só materiais→central; A4 fora.",
+  "citacao": "Sec.2.2 p.3; Sec.2.3 p.4–5; Tab.2 p.5; Fig.1, Fig.2",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "unidade_m3_betao": "sim (UF = 1 m3 de betão C25/30)",
+  "nota_estudo": "Texto lido na íntegra. Os valores de GWI gravados (260 e 250) estão só na Fig.6 (não renderizada; não impressos no texto) — não verificados por mim. Inconsistência interna: recicladora→central 45 km (texto) vs 30 km (Tab.2).",
+  "pares": [
+   {
+    "sheet_row": 1136,
+    "densidade_betao_kg_m3": 2329,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4 BAU: cascalho 810 + brita 364 + areia 628 + cimento 290 + cinza 60 + aditivos 1 = 2153 (Total impresso) + 176 kg água (texto)",
+    "citacao": "Tab.1; Sec.2.3",
+    "nota": "2329 = 2153 + 176 de água; a coluna 'Total' impressa (2153) exclui a água."
+   },
+   {
+    "sheet_row": 2016,
+    "densidade_betao_kg_m3": 2235,
+    "densidade_origem": "soma_do_traco",
+    "densidade_de": "betao",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4 RC: cascalho 371 + brita 84 + areia 628 + reciclado 625 + cimento 290 + cinza 60 + aditivos 1 = 2059 (Total impresso) + 176 kg água",
+    "citacao": "Tab.1; Sec.2.3",
+    "nota": "2235 = 2059 + 176 de água; 'Total' impresso 2059 exclui a água."
+   }
+  ]
+ }
+]
