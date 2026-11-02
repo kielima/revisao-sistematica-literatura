@@ -1,0 +1,506 @@
+[
+ {
+  "row_id": 3200,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao_declarado",
+  "distancia_km_declarada": "nao_declarado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma excluido: ciclo cradle-to-gate 'excluding the transportation, use, and disposal phases' (Sec.4.4.1, p.11)",
+  "citacao": "Sec.4.4.1 p.11-12; Fig.13 (382,3 kg CO2-eq/m3 FRC aco 0,25%)",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Nenhum dado de transporte de betao no artigo. Transporte so como fase excluida. Figuras NAO renderizadas como imagem (so texto extraido pelo conector do Drive); figuras_vistas=false. Suplemento nao acessivel.",
+  "pares": [
+   {
+    "sheet_row": 912,
+    "densidade_betao_kg_m3": 2320,
+    "densidade_origem": "impresso_peso_unitario_fresco_faixa_todas_misturas",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.3.3 p.5",
+    "citacao": "'fresh unit weight ... 2320 +/- 35 kg/m3' (ASTM C138), faixa unica para todas as misturas, nao especifica a mistura com 0,25% aco",
+    "nota": "Valor medido mas generico (todas as misturas FRC e controlo). Traco por m3 (Sec.3.2/Tab.5): cimento 400+areia 702+agregado fino 611+grosso 407+agua ~200 (a/c 0,5)+fibra aco 19,63+HRWR 0,75% do cimento (3 kg) ~ 2343 kg/m3, dentro da faixa. Massa do elemento (viga 150x250x1200 mm) nao impressa."
+   }
+  ]
+ },
+ {
+  "row_id": 3203,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao_declarado",
+  "distancia_km_declarada": "nao_declarado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma excluido: LCA 'cradle-to-gate' SimaPro/Ecoinvent 3.9.1 (Sec.2.3.2.1, p.4); transporte so dentro dos processos de fundo (fabrica de cimento, escavacao de areia); nenhuma distancia ao local de uso",
+  "citacao": "Sec.2.3.2.1 p.4-5; Tab.4 p.14",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Argamassa de laboratorio (provetes 4x4x16 cm); nao ha betao nem transporte a obra. Conclusao cita 'transportation' apenas como custo de campo nao tratado (p.19). Figuras NAO renderizadas como imagem (so texto extraido pelo conector do Drive); figuras_vistas=false. Suplemento nao acessivel.",
+  "pares": [
+   {
+    "sheet_row": 915,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa. Linha agregada 4 cimentos x 4 dosagens."
+   },
+   {
+    "sheet_row": 1958,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1959,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1960,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1961,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1962,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1963,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1964,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1965,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1966,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1967,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1968,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1969,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1970,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1971,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1972,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1973,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1974,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1975,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1976,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1977,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1978,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1979,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1980,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1981,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1982,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1983,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1984,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   },
+   {
+    "sheet_row": 1985,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.2 Tab.1; Sec.3.1 Tab.3",
+    "citacao": "Tab.1 p.3; Tab.3 p.6",
+    "nota": "Sem massa volumica impressa para a argamassa; Tab.1 da massas em g por amassadura (cimento 450, areia 1350, agua 225, escoria 0-135 = 2025 g) sem volume da amassadura; Tab.3 so da massa volumica aparente dos materiais de entrada (cimentos 2,87-3,13; escoria 3,37-3,38 g/cm3). Unidade funcional LCA = 1 provete 4x4x16 cm (0,000256 m3); massa do provete nao impressa."
+   }
+  ]
+ },
+ {
+  "row_id": 3207,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao_declarado",
+  "distancia_km_declarada": "nao_declarado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma nao_declarado: fronteira nao declarada; CO2 = soma massa x factor (Eq.9, Tab.11: cimento, FA, SF, areia, fibra, agua); sem transporte nem distancias",
+  "citacao": "Sec.3.6 p.19-20 Tab.11; Sec.3.8",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Nenhuma ocorrencia de 'transport' no corpo. Fig.19/20 (CO2/energia) nao vistas como imagem. Mistura de laboratorio, cubos 150 mm.",
+  "pares": [
+   {
+    "sheet_row": 919,
+    "densidade_betao_kg_m3": 2607.6,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 p.3; Tab.3; Sec.2.2",
+    "citacao": "Tab.4 (cimento 1200, areia 1050, agua 216, SP 2,05%), Tab.3 (fibra 7800 kg/m3, 1,5 vol%)",
+    "nota": "Soma do traco Tab.4 (traco base 1,5 vol% fibra): cimento 1200 + areia 1050 + agua 216 + fibra de aco 117 (1,5% x 7800 kg/m3, Tab.3; derivado) + superplastificante 24,6 (2,05% da massa de ligante; derivado) = 2607,6 kg/m3. FA e SF substituem cimento em massa equivalente (Sec.2.2/2.3), logo a soma e igual nas tres misturas."
+   },
+   {
+    "sheet_row": 920,
+    "densidade_betao_kg_m3": 2607.6,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 p.3; Tab.3; Sec.2.2",
+    "citacao": "Tab.4 (cimento 1200, areia 1050, agua 216, SP 2,05%), Tab.3 (fibra 7800 kg/m3, 1,5 vol%)",
+    "nota": "Soma do traco Tab.4 (traco base 1,5 vol% fibra): cimento 1200 + areia 1050 + agua 216 + fibra de aco 117 (1,5% x 7800 kg/m3, Tab.3; derivado) + superplastificante 24,6 (2,05% da massa de ligante; derivado) = 2607,6 kg/m3. FA e SF substituem cimento em massa equivalente (Sec.2.2/2.3), logo a soma e igual nas tres misturas."
+   },
+   {
+    "sheet_row": 921,
+    "densidade_betao_kg_m3": 2607.6,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 p.3; Tab.3; Sec.2.2",
+    "citacao": "Tab.4 (cimento 1200, areia 1050, agua 216, SP 2,05%), Tab.3 (fibra 7800 kg/m3, 1,5 vol%)",
+    "nota": "Soma do traco Tab.4 (traco base 1,5 vol% fibra): cimento 1200 + areia 1050 + agua 216 + fibra de aco 117 (1,5% x 7800 kg/m3, Tab.3; derivado) + superplastificante 24,6 (2,05% da massa de ligante; derivado) = 2607,6 kg/m3. FA e SF substituem cimento em massa equivalente (Sec.2.2/2.3), logo a soma e igual nas tres misturas."
+   }
+  ]
+ },
+ {
+  "row_id": 3212,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "Cotv-10 m3 (veiculo de transporte de betao, 10 m3) - Tab.2; Eq.2 para camioes/navios em geral",
+  "distancia_km_declarada": "Betao 10 km (Shenzhen); cimento 240 km (Qingyuan); areia 106; pedra 163; ferro 110 (Tab.2); ida/ida-e-volta nao rotulado, mas Eq.2 aplica coeficiente de retorno em vazio beta=1,67 (distancia tratada como trajecto de ida)",
+  "regresso_em_vazio": "incluido",
+  "a4_dentro_do_valor_gravado": "Confirma excluido: o valor gravado e a etapa de 'materialization (A1-A3)' (58,0 kt C50 / 143 783,6 m3 = 403,4); o A4 e reportado a parte (71,7 kt para todos os materiais, nao por m3 de betao); perda de material delta e beta=1,67 na Eq.2",
+  "citacao": "Sec.3.2.2-3.2.3 Eq.2 p.5-6; Tab.2 p.8; Sec.4.2.1-4.2.2 p.8-11",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "A4 do estudo inclui areia/pedra, cimento, aco, betao. Factores por modo em Tab.A2 (suplemento, nao acessivel); factor em kgCO2eq/100 t.km. Distancias estimadas por script Amap API. Fig.5 (A4) nao vista como imagem. Figuras NAO renderizadas como imagem (so texto extraido pelo conector do Drive); figuras_vistas=false. Suplemento nao acessivel.",
+  "pares": [
+   {
+    "sheet_row": 924,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.7",
+    "citacao": "Volumes de betao da Tab.1 (C50 143 783,6 m3; C40 1086,5; C35 111 815,6; C30 39 518,9; C25 5348,9; C20 8039,7)",
+    "nota": "Sem densidade nem massa impressas (so volumes). Betao C50 etc. transportado por 'Cotv-10 m3' (veiculo de transporte de betao de 10 m3) da central em Shenzhen, 10 km (Tab.2). Massa/densidade do betao nao impressa no texto principal (Tab. A3/A4 no suplemento). CO2 gravado = materializacao A1-A3: ex. C50 58,0 kt / 143 783,6 m3 = 403,4."
+   },
+   {
+    "sheet_row": 925,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.7; Tab.2 p.8",
+    "citacao": "Cimento P.O.42.5R 117 281 920 kg (Tab.1); Qingyuan 240 km (Tab.2)",
+    "nota": "Linha do cimento (insumo, sem fck/CO2). Cimento transportado separadamente: 240 km desde Qingyuan; modo da Tab.2 para 'Cement' nao especificado na tabela. Sem densidade de betao."
+   },
+   {
+    "sheet_row": 1986,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.7",
+    "citacao": "Volumes de betao da Tab.1 (C50 143 783,6 m3; C40 1086,5; C35 111 815,6; C30 39 518,9; C25 5348,9; C20 8039,7)",
+    "nota": "Sem densidade nem massa impressas (so volumes). Betao C50 etc. transportado por 'Cotv-10 m3' (veiculo de transporte de betao de 10 m3) da central em Shenzhen, 10 km (Tab.2). Massa/densidade do betao nao impressa no texto principal (Tab. A3/A4 no suplemento). CO2 gravado = materializacao A1-A3: ex. C50 58,0 kt / 143 783,6 m3 = 403,4."
+   },
+   {
+    "sheet_row": 1987,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.7",
+    "citacao": "Volumes de betao da Tab.1 (C50 143 783,6 m3; C40 1086,5; C35 111 815,6; C30 39 518,9; C25 5348,9; C20 8039,7)",
+    "nota": "Sem densidade nem massa impressas (so volumes). Betao C50 etc. transportado por 'Cotv-10 m3' (veiculo de transporte de betao de 10 m3) da central em Shenzhen, 10 km (Tab.2). Massa/densidade do betao nao impressa no texto principal (Tab. A3/A4 no suplemento). CO2 gravado = materializacao A1-A3: ex. C50 58,0 kt / 143 783,6 m3 = 403,4."
+   },
+   {
+    "sheet_row": 1988,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.7",
+    "citacao": "Volumes de betao da Tab.1 (C50 143 783,6 m3; C40 1086,5; C35 111 815,6; C30 39 518,9; C25 5348,9; C20 8039,7)",
+    "nota": "Sem densidade nem massa impressas (so volumes). Betao C50 etc. transportado por 'Cotv-10 m3' (veiculo de transporte de betao de 10 m3) da central em Shenzhen, 10 km (Tab.2). Massa/densidade do betao nao impressa no texto principal (Tab. A3/A4 no suplemento). CO2 gravado = materializacao A1-A3: ex. C50 58,0 kt / 143 783,6 m3 = 403,4."
+   },
+   {
+    "sheet_row": 1989,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.7",
+    "citacao": "Volumes de betao da Tab.1 (C50 143 783,6 m3; C40 1086,5; C35 111 815,6; C30 39 518,9; C25 5348,9; C20 8039,7)",
+    "nota": "Sem densidade nem massa impressas (so volumes). Betao C50 etc. transportado por 'Cotv-10 m3' (veiculo de transporte de betao de 10 m3) da central em Shenzhen, 10 km (Tab.2). Massa/densidade do betao nao impressa no texto principal (Tab. A3/A4 no suplemento). CO2 gravado = materializacao A1-A3: ex. C50 58,0 kt / 143 783,6 m3 = 403,4."
+   },
+   {
+    "sheet_row": 1990,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.7",
+    "citacao": "Volumes de betao da Tab.1 (C50 143 783,6 m3; C40 1086,5; C35 111 815,6; C30 39 518,9; C25 5348,9; C20 8039,7)",
+    "nota": "Sem densidade nem massa impressas (so volumes). Betao C50 etc. transportado por 'Cotv-10 m3' (veiculo de transporte de betao de 10 m3) da central em Shenzhen, 10 km (Tab.2). Massa/densidade do betao nao impressa no texto principal (Tab. A3/A4 no suplemento). CO2 gravado = materializacao A1-A3: ex. C50 58,0 kt / 143 783,6 m3 = 403,4."
+   }
+  ]
+ },
+ {
+  "row_id": 3219,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Materias-primas: camiao basculante BJ374 (dump truck); betao: agitador de betao ZLJ5251GJB2 (Tab.7)",
+  "distancia_km_declarada": "Materias-primas 100 km; betao 30 km (Sec.4.1.2 p.12; fonte [46]); ida/ida-e-volta nao declarado; factores em kg CO2 por hora de equipamento (dump truck 35,4 kg/h; agitador 53,1 kg/h; 4912,8 h e 842,8 h), nao por t.km",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Provavelmente confirma excluido do A4 do betao (30 km), mas por INFERENCIA nossa, nao por texto: o CO2/m3 da Fig.18 (195) inclui 'Material transportation' ~15% (texto p.13). Dump truck 4912,8 h x 35,4 = 173,9 t / 5663 m3 (=2350 t cimento / 415 kg/m3) = 30,7 kg/m3 = ~15,7% de 195, coerente so com o transporte de materias-primas; o agitador (44,7 t = 7,9 kg/m3) levaria a ~20%. Por confirmar com a Fig.18",
+  "citacao": "Sec.4.1.2 p.12 Tab.6-7; Sec.4.1.3 p.13 Fig.18",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Incoerencia: unidade funcional = pavimento 1 km x 20 m x 0,20 m = 4000 m3, mas Tab.6 (2350 t cimento) / 415 kg/m3 = 5663 m3. Texto afirma que o 1 m3 cobre 'collection and transportation of raw materials, and mixing'. Figuras NAO renderizadas como imagem (so texto extraido pelo conector do Drive); figuras_vistas=false. Suplemento nao acessivel.",
+  "pares": [
+   {
+    "sheet_row": 931,
+    "densidade_betao_kg_m3": 2425.83,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 p.3",
+    "citacao": "Tab.4 (kg/m3): BYC 415 + areia 654 + agregado 1182 + agua 174 + redutor 0,83",
+    "nota": "Soma do traco BYCC = 2425,83 kg/m3; o PCC (PC42.5 415, restante igual) da a mesma soma. Cubos 100x100x100 mm, prismas 100x100x400 mm."
+   }
+  ]
+ },
+ {
+  "row_id": 3242,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Ferrovia + estrada (PCSGs Alemanha->UK); camiao (lorry) para PCSGs revestidos ate as centrais do Reino Unido; transportes locais calculados com Rome2rio (Tab.S3)",
+  "distancia_km_declarada": "PCSGs 1020,7 km (Alemanha->UK); demais distancias na Tab.S3 (suplemento, nao acessivel); ida/ida-e-volta nao declarado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma excluido: 'cradle-to-gate' (Fig.1, Sec.4.1) ate a central de betao de Londres; so transporte de insumos (PCSGs, agregados, quimicos); nenhum transporte do betao a obra",
+  "citacao": "Sec.4.1 p.3; Sec.4.2.2 p.4; Sec.5.3 p.12",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Citado Deloitte 2011 (62 gCO2/t.km estrada) so como exemplo de quimicos, nao como factor do estudo. Tabelas S1 (traco), S3, S24 no suplemento, nao acessiveis. Figuras NAO renderizadas como imagem (so texto extraido pelo conector do Drive); figuras_vistas=false. Suplemento nao acessivel.",
+  "pares": [
+   {
+    "sheet_row": 940,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.4.4.3 p.8-9",
+    "citacao": "Cimento 440 kg/m3 e PCSGs 45 kg/m3 por m3 BBSHC (texto); 25 kg de cimento adicional",
+    "nota": "Sem densidade impressa nem traco completo no texto principal (Tab.S1/S24 no suplemento). Valor CO2 gravado 453,3 ~ conv. 450,7 (= 120 kg / 36,3% + 120)."
+   }
+  ]
+ }
+]
