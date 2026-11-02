@@ -1,0 +1,366 @@
+[
+ {
+  "row_id": 2794,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nenhum (transporte excluido)",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao: A4 excluido. Sec.3.1: barras de aco/FRP assumidas importadas do mesmo pais, 'transporting the bars and the manufactured materials to the factory or the construction site was not included in the boundaries'; Sec.4.2.1-4.2.3: resultados 'without considering material transportation'. Fronteira cradle-to-gate.",
+  "citacao": "Sbahieh et al. 2023, Front. Built Environ. 10.3389/fbuil.2023.1194121, Sec.3.1 (p.5-6), Sec.4.2.1-4.2.3 (p.8-10)",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto extraido (conector) lido nas seccoes de metodo, resultados e conclusoes e pesquisado por transport/km/distance/density em todo o texto; introducao e referencias nao lidas linha a linha. Figuras/tabelas nao renderizadas como imagem. UF: viga 5x0,5x0,3 m (0,75 m3).",
+  "pares": [
+   {
+    "sheet_row": 228,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.3 (p.4): quantidades da viga: 416 kg cimento, 448 kg areia, 780 kg brita, 187 L agua - sao totais da viga de 0,75 m3 (nao por m3) e a viga tem armadura; so massas volumicas aparentes dos constituintes (areia 1550, brita 1350, cimento 1440, aco 7850 kg/m3)",
+    "citacao": "Sbahieh 2023, Sec.3 (p.4-5)",
+    "nota": "Sem massa volumica do betao impressa; soma 416+448+780+187=1831 kg na viga nao e traco por m3 (daria ~2441 kg/m3 sobre 0,75 m3, incoerente com betao+armadura) - deixado null, nao assumido"
+   }
+  ]
+ },
+ {
+  "row_id": 2832,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "camiao de 18 t (material transport vehicle: 18-ton truck)",
+  "distancia_km_declarada": "OPC fabrica->central 50 km; agregado grosso natural 200 km; areia natural 100 km; agregados reciclados (RCA/RFA) demolicao->central 20 km; sentido (ida / ida-e-volta) nao declarado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao: o transporte impresso e dos materiais ate a central (A2, dentro de A1-A3). Sec.4.1.1: cradle-to-gate 'extraction, transportation, and production of raw materials'; entrega do betao na obra nao modelada.",
+  "citacao": "Zheng et al. 2025, Sustainability 17, 1779, Sec.4.1.1-4.1.2 (p.7); Sec.5.1.2",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Lidas na integra as Sec.2 (misturas), 3, 4, 5.1-5.3 do texto extraido; introducao (Sec.1) e referencias nao lidas linha a linha; figuras nao renderizadas. Factor de emissao do camiao nao impresso (Tab.4 so lista inventario por m3). O CO2 do inventario (Tab.4) 478 vs GWP Tab.7 488: nao relevante para A4.",
+  "pares": [
+   {
+    "sheet_row": 709,
+    "densidade_betao_kg_m3": 2400.0,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 0-0): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 0 = 2400.0 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 710,
+    "densidade_betao_kg_m3": 2409.1,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 0-30): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 9.1 = 2409.1 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 711,
+    "densidade_betao_kg_m3": 2418.1,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 0-60): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 18.1 = 2418.1 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 712,
+    "densidade_betao_kg_m3": 2430.2,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 0-100): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 30.2 = 2430.2 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 713,
+    "densidade_betao_kg_m3": 2433.3,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 75-0): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 33.3 = 2433.3 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 714,
+    "densidade_betao_kg_m3": 2442.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 75-30): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 42.4 = 2442.4 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 715,
+    "densidade_betao_kg_m3": 2451.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 75-60): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 51.4 = 2451.4 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 716,
+    "densidade_betao_kg_m3": 2463.5,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 75-100): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 63.5 = 2463.5 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 717,
+    "densidade_betao_kg_m3": 2444.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 100-0): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 44.4 = 2444.4 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 718,
+    "densidade_betao_kg_m3": 2453.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 100-30): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 53.4 = 2453.4 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 719,
+    "densidade_betao_kg_m3": 2462.5,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 100-60): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 62.5 = 2462.5 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   },
+   {
+    "sheet_row": 720,
+    "densidade_betao_kg_m3": 2474.6,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (traco 100-100): agua de mistura 195,0 + cimento 487,5 + agregado grosso total 1167,9 + agregado fino total 549,6 + agua adicional 74.6 = 2474.6 kg/m3",
+    "citacao": "Sustainability 2025, 17, 1779, Tab.2 (p.5)",
+    "nota": "Agua de mistura (195,0) e cimento (487,5) so impressos na linha 0-0; o texto diz que o cimento e constante entre misturas, e os agregados totais fixos em 1167,9/549,6 kg/m3; agua de mistura assumida igual (celula agrupada) - verificar na figura da tabela"
+   }
+  ]
+ },
+ {
+  "row_id": 2847,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "rodoviario, camioes de 32 t (45 t para areia)",
+  "distancia_km_declarada": "cimento 500 km (cimenteira->fabrica de argamassa); cinzas de cana 153 km (usina->fabrica; mesma para cana-energia); areia 70 km; silica ativa 200 km; sentido nao declarado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao: A4 (entrega da argamassa na obra) nao incluido. Fronteira declarada 'cradle to grave' mas uso/pos-uso/fim de vida desconsiderados por serem iguais; so o transporte das materias-primas ate a argamassa entra (Sec.4.x ACV, p.82-89). Distancias vindas da literatura (Fairbain 2010, Souza & Sales 2012, Paula 2016).",
+  "citacao": "Lyra 2022 (tese USP/UPV), Cap. ACV, p.82-85 (pdf p.86-89), Tab.7 (fluxos de referencia por 1 MPa), Figs.13-20",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto completo da tese extraido (182 pp.) e pesquisado por transporte/distancia/densidade/massa especifica; lidos integralmente o capitulo de ACV (metodo e resultados de mudancas climaticas) e a secao de massa especifica; restantes capitulos (caracterizacao das cinzas etc.) nao lidos linha a linha; figuras (incl. Fig.55 e fluxogramas) nao renderizadas. UF e 1 MPa (nao 1 m3). Produto transportado e argamassa, nao betao.",
+  "pares": [
+   {
+    "sheet_row": 763,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Fig.55 (massa especifica 28 d da referencia) nao lida em imagem; texto so da '~2% acima de V5-L (1,96 g/cm3)'",
+    "citacao": "Lyra 2022, Sec.5.6.1 (p.133-134)",
+    "nota": "Valor da referencia nao impresso no texto; nao derivado"
+   },
+   {
+    "sheet_row": 764,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Texto: argamassa com silica ativa 'sendo 3% superior ao valor da referencia'; valor absoluto so na Fig.55 (nao vista)",
+    "citacao": "Lyra 2022, Sec.5.6.1",
+    "nota": "null"
+   },
+   {
+    "sheet_row": 765,
+    "densidade_betao_kg_m3": 2060,
+    "densidade_origem": "medida_argamassa_endurecida_28d",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.5.6.1: CCAC-L 5% = 2,06 g/cm3 (massa especifica aos 28 d)",
+    "citacao": "Lyra 2022, Sec.5.6.1 (p.133)",
+    "nota": "Argamassa endurecida, nao fresca"
+   },
+   {
+    "sheet_row": 766,
+    "densidade_betao_kg_m3": 2040,
+    "densidade_origem": "medida_argamassa_endurecida_28d",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.5.6.1: CCAC-L 10% = 2,04 g/cm3",
+    "citacao": "Lyra 2022, Sec.5.6.1 (p.133)",
+    "nota": "Argamassa endurecida"
+   },
+   {
+    "sheet_row": 767,
+    "densidade_betao_kg_m3": 2020,
+    "densidade_origem": "medida_argamassa_endurecida_28d",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.5.6.1: CCAC-L 20% = 2,02 g/cm3",
+    "citacao": "Lyra 2022, Sec.5.6.1 (p.133)",
+    "nota": "Argamassa endurecida"
+   },
+   {
+    "sheet_row": 768,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "V5-L: texto so da o minimo 'aproximadamente 1,96 g/cm3' sem dizer qual percentagem; restante na Fig.55 (nao vista)",
+    "citacao": "Lyra 2022, Sec.5.6.1",
+    "nota": "null por ambiguidade"
+   },
+   {
+    "sheet_row": 769,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "idem 768",
+    "citacao": "Lyra 2022, Sec.5.6.1",
+    "nota": "null"
+   },
+   {
+    "sheet_row": 770,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "idem 768",
+    "citacao": "Lyra 2022, Sec.5.6.1",
+    "nota": "null"
+   }
+  ]
+ },
+ {
+  "row_id": 2849,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "rodoviario, caminhao (capacidade nao declarada)",
+  "distancia_km_declarada": "silica ativa 230 km; MgO 205 km; superplastificante 180 km, ate Pirassununga-SP (local da mistura); sentido nao declarado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao: ACV cradle-to-gate (Sec.5.2.2.7) inclui producao de MgO, SA, superplastificante 'e o transporte das materias primas ate o local de mistura'; pasta nao e transportada para a obra.",
+  "citacao": "Sposito 2024 (tese USP), Sec.5.2.2.7 (p.45) e Sec.6.1.1.6 (p.69-71), Tab.6, Fig.25",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto completo da tese extraido por PyMuPDF (98 pp.) e pesquisado por transporte/distancia/densidade; lidos integralmente Sec.5.2.2.7, Sec.6.1.1.3-6.1.1.6 (propriedades fisicas e ACV). Outros capitulos (paineis de particulas) nao lidos linha a linha; figuras nao renderizadas. UF 1 m3 de pasta; CO2 1308,47 / 1154,5 confere com Tab.6.",
+  "pares": [
+   {
+    "sheet_row": 771,
+    "densidade_betao_kg_m3": 1426.67,
+    "densidade_origem": "medida_pasta_endurecida_28d",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3: densidade (kg/m3) MSF80-20 aos 28 d = 1426,67",
+    "citacao": "Sposito 2024, Tab.3 (p.58)",
+    "nota": "Pasta endurecida; nao e a densidade do modelo da ACV (1 m3 de pasta)"
+   },
+   {
+    "sheet_row": 772,
+    "densidade_betao_kg_m3": 1368.14,
+    "densidade_origem": "medida_pasta_endurecida_28d",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3: densidade (kg/m3) MSF70-30 aos 28 d = 1368,14",
+    "citacao": "Sposito 2024, Tab.3 (p.58)",
+    "nota": "Pasta endurecida"
+   }
+  ]
+ },
+ {
+  "row_id": 2879,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao: valor e GWP A1-A3 medio de EPDs (Tab.1). O artigo nao descreve transporte ate a obra para o betao; apenas refere que o betao A1-A3 e >=80% do GWP total.",
+  "citacao": "Boros 2023, ce/papers 6(5), Sec.3 (p.826-827), Tab.1",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto completo do artigo lido (9 pp.). Figuras 1-9 nao renderizadas como imagem (graficos de EPD/distribuicoes, sem dados de transporte pelo texto).",
+  "pares": [
+   {
+    "sheet_row": 777,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.3: factor de material = media de EPDs (kg CO2-eq/m3); nenhuma massa volumica de betao impressa",
+    "citacao": "Boros 2023, Tab.1 (p.827)",
+    "nota": "Quantidades da ponte em m3 (Tab.2), sem densidade"
+   }
+  ]
+ },
+ {
+  "row_id": 2895,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "(so transporte da cinza vitrificada: nao especificado)",
+  "distancia_km_declarada": "nao impressa no texto; so o trajecto da cinza: incinerador Vercelli -> Murano (Veneza, vitrificacao) -> Piacenza (moagem); distancias/modo em Data S1 (suplementar, nao acessivel)",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao: ACV cradle-to-gate, 'stops when the product is released on the market' (Sec.2.6.1); transporte do betao nao entra.",
+  "citacao": "Sirico et al. 2024, Structural Concrete 25(4), Sec.2.6.1 (p.6), Sec.3.3.1 (p.14-15), Figs.17-18",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto extraido pesquisado por transporte/km/densidade em todo o artigo; lidas Sec.2.2-2.3, 2.6, 3.3 e Tab.1/Tab.4/Tab.6; restantes seccoes (caracterizacao mecanica) nao lidas linha a linha; figuras nao renderizadas.",
+  "pares": [
+   {
+    "sheet_row": 786,
+    "densidade_betao_kg_m3": 2291,
+    "densidade_origem": "medida_fresco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 densidade no estado fresco V0 = 2291 (endurecido 2116); soma do traco Tab.1 = 2302,98",
+    "citacao": "Sirico 2024, Tab.4 e Tab.1",
+    "nota": "Soma dos componentes da Tab.1 (agua+cimento+areia+brita+plastificante) difere ~0,5% da densidade fresca medida"
+   },
+   {
+    "sheet_row": 787,
+    "densidade_betao_kg_m3": 2282,
+    "densidade_origem": "medida_fresco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 V10 fresco 2282 (endurecido 2109); soma Tab.1 = 2302,57",
+    "citacao": "Sirico 2024, Tab.4",
+    "nota": ""
+   },
+   {
+    "sheet_row": 788,
+    "densidade_betao_kg_m3": 2284,
+    "densidade_origem": "medida_fresco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 V15 fresco 2284 (endurecido 2088); soma Tab.1 = 2302,36",
+    "citacao": "Sirico 2024, Tab.4",
+    "nota": ""
+   },
+   {
+    "sheet_row": 789,
+    "densidade_betao_kg_m3": 2279,
+    "densidade_origem": "medida_fresco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.4 V20 fresco 2279 (endurecido 2086); soma Tab.1 = 2302,16",
+    "citacao": "Sirico 2024, Tab.4",
+    "nota": ""
+   }
+  ]
+ }
+]
