@@ -1,0 +1,176 @@
+[
+ {
+  "row_id": 4847,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Camiao (ate 'same fuel vehicles') e comboio; cimento por comboio da fabrica ate base de expedicao e depois camiao-cisterna a granel ate a central; demais materiais por camiao (Sec.3.4.2; Tab.2 LCI nacional Truck/Train; Tab.4 'Truck (limited to the same fuel vehicles)')",
+  "distancia_km_declarada": "Nao impressa em valor: Tab.4 diz apenas 'Distance (km): Specific materials transport route' (distancias calculadas a partir das origens do mix report; Sec.5.2). Sem valores numericos em km no artigo. Eq.(2): d unico por material (sentido nao especificado)",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: fronteira cradle-to-gate (Fig.1, Sec.3.2). O 'transportation' da Tab.6 (34,61/38,57/39,21 kg CO2eq/m3) e o transporte das materias-primas ate a central (A2), incluido no total 267,46/364,99/365,36; nao ha transporte do betao a obra.",
+  "citacao": "Sec.3.2(2) e Fig.1 p.4; Sec.3.4.2 Eq.2 p.5; Tab.4 p.11; Tab.6 p.12",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade do valor gravado: m3 de betao (UF = 1 m3 production of concrete, Tab.1 p.4; Tab.6 em kg-CO2eq/m3) = SIM. Figuras nao renderizadas (so texto extraido pelo conector); as Figs.1-6 nao trazem distancias nem massas de transporte alem do que o texto/tabelas dizem. Tab.4 mostra o campo Distance sem numeros.",
+  "pares": [
+   {
+    "sheet_row": 1819,
+    "densidade_betao_kg_m3": 2302.05,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.5 p.11, linha 24 MPa: OPC 336 + FA 0 + G 936 + S 453 + R/S 443 + AE 3,05 + W 131 + R/W 0 = 2302,05 kg/m3 (densidade do BETAO, nao de argamassa/pasta)",
+    "citacao": "Tab.5 p.11",
+    "nota": "A soma inclui R/S (agregado reciclado) e R/W (agua reciclada) como colunas do traco por m3; nao e densidade medida/impressa. Perdas de 2% (Sec.5.2) nao entram."
+   },
+   {
+    "sheet_row": 1820,
+    "densidade_betao_kg_m3": 2307.95,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.5 p.11, linha 30 MPa: OPC 334 + FA 59 + G 954 + S 393 + R/S 394 + AE 2,95 + W 103 + R/W 68 = 2307,95 kg/m3 (BETAO)",
+    "citacao": "Tab.5 p.11",
+    "nota": "Idem: soma inclui R/S e R/W; nao e densidade impressa."
+   }
+  ]
+ },
+ {
+  "row_id": 4855,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Camiao (Lorry, 17,3 t de carga maxima util) para agregados e residuos de demolicao; transporte do cimento nao modelado explicitamente na Tab.2",
+  "distancia_km_declarada": "RAC: entulho (CDW) campo de escombros -> deposito/central de triagem 10,3 km; agregado reciclado deposito -> central de betao 4,4 km. NAC: pedreira -> area de escombros/central 54,5 km (Sec.3, Fig.4). Totais Tab.2: 222.899,6 t.km (RAC) e 347.725,8 t.km (NAC). Sentido nao especificado (distancia unica)",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: fronteira cradle-to-gate; ambos os processos 'terminam na producao do betao' (Sec.2.1). O transporte em t.km e o dos agregados/CDW (A2). Nao ha transporte do betao a obra; o texto diz que a distancia percorrida pelo equipamento ate a area e o transporte dentro de instalacoes de betao/agregado nao sao considerados.",
+  "citacao": "Sec.2.1 p.4; Sec.2.2 p.6-7, Fig.4 e Tab.2 p.7",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade do valor gravado: m3 de betao = SIM, mas DERIVADA (Tab.3 imprime 902,7/931,9 'kg CO2-Eq' totais do cenario de 3.411,38 m3 de C25; 902.717/3.411,38 = 264,6 e 931.914/3.411,38 = 273,2 - coerente com o gravado; os totais impressos devem ser lidos em toneladas). Conferencia: 18.900 t x 10,3 km + 6.415,6 t x 4,4 km = 222.899 t.km (bate com RAC); 6.415,6 t x 54,5 km = 349.650 t.km vs 347.725,8 impresso (~0,6% de diferenca, nao explicada). Figuras 1-6 nao renderizadas (so texto).",
+  "pares": [
+   {
+    "sheet_row": 1824,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: 309 cimento + 210 l agua (~210 kg) + 602 areia + 1279 brita = 2400 kg/m3; o texto p.6 tambem imprime 'concrete density is assumed to be 2400 kg/m3' e 'Musbah: 1 m3 weighing 2400 kg' (BETAO C25)",
+    "citacao": "Tab.1 p.4; Sec.2.2 p.6",
+    "nota": "Densidade do betao C25 de referencia (Musbah 2019), assumida pelos autores tambem para o entulho de betao; no RAC os agregados naturais sao substituidos por RA com a mesma massa por m3 (traco mantido). A agua em litros foi tomada como 1 kg/l na soma."
+   },
+   {
+    "sheet_row": 1825,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.4: mesmo traco C25 (309+210+602+1279 = 2400)",
+    "citacao": "Tab.1 p.4",
+    "nota": "NAC usa as mesmas proporcoes do traco."
+   }
+  ]
+ },
+ {
+  "row_id": 4930,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: fronteira cradle-to-gate (modulos de producao); o artigo diz que considera so extracao de materia-prima, transporte e fabricacao (sec.3.1, Fig.4), mas o fator de betao vem diretamente de EPD coreano (Tab.2) sem modo nem distancia; nao ha transporte do betao a obra.",
+  "citacao": "Sec.3.1 e Fig.4 p.2; Sec.3.2 e Tab.2 p.2; Sec.3.3 limitacao 2 p.2-3",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade do valor gravado (259): a coluna de unidade da Tab.2 so aparece impressa na linha GLT (kgCO2-eq/m3); as linhas Steel 11.241 / Concrete 3.532 / Rebar 259 vem sem unidade na extracao de texto e com Concrete e Rebar aparentemente trocados (3.532 = 0,45 x 7.850 kg/m3 do aco; 259 = ~0,11 x 2.300 kg/m3 do betao), prova que ja consta da decisao F30 / Fig.9(a). Logo m3 de betao = SIM por inferencia (nao impressa na linha). Figuras (5-9) nao renderizadas; so texto.",
+  "pares": [
+   {
+    "sheet_row": 1835,
+    "densidade_betao_kg_m3": 2300,
+    "densidade_origem": "impresso_no_artigo",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.2: RC C30, densidade 2.300 kg/m3, fck 30 MPa, MOE 27.500 MPa (BETAO C30; SD400 vergalhao 7.850 e linha separada)",
+    "citacao": "Tab.1 p.2 (dados de densidade do MOLIT, ref.[8])",
+    "nota": "Densidade do betao simples C30; o betao armado da viga nao tem densidade propria impressa. Massa/volume da viga variam por vao e sobrecarga (Figs.5-9), sem valor unico."
+   }
+  ]
+ },
+ {
+  "row_id": 4993,
+  "o_que_e_transportado": "elemento_prefabricado",
+  "modo_declarado": "Camiao ('Truck transport' [tkm], Tab.2) das lamelas de UHPC/adesivo para a fabrica de CLT, dentro de A1-3; o transporte da parede a obra (A4) nao e considerado",
+  "distancia_km_declarada": "Nao impressa para A2. As distancias do transporte de 1 m3 de UHPC pre-fabricado foram tomadas de Sameer et al. [12] (sem valor no artigo). Unico valor impresso: 20 km demolicao -> tratamento de residuos (modulo C2), irrelevante para A4",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: 'A4-5 is neglected because of lacking data' (Sec.3.2.2 p.3). O 'truck transport' da Tab.2 e interno a A1-3 (lamelas UHPC -> fabrica de CLT).",
+  "citacao": "Sec.3.2.2 p.3; Tab.2 p.5; Sec.4.2.1 p.5; Sec.4.3 p.6",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade do valor gravado (560): m3 de UHPC = SIM em principio (Fig.7 'GWPfossil results for 1 m3 UHPC'), mas o numero 560 so existe na Fig.7, que NAO foi renderizada (so texto extraido) e o texto nao o imprime (so diz que o GWPfossil do UHPC e ~60% superior ao do C25/30); portanto o valor gravado nao pode ser confirmado por mim. Quimica: o UHPC modelado e sem fibras, composicao da referencia Oberndorfer [1] (nao impressa), e GWP fossil, nao total.",
+  "pares": [
+   {
+    "sheet_row": 27,
+    "densidade_betao_kg_m3": 2500,
+    "densidade_origem": "impresso_no_artigo",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.4.2.1 p.5: 'UHPC (raw density of 2.500 kg/m3)' (UHPC; a densidade e do betao, nao de pasta)",
+    "citacao": "Sec.4.2.1 p.5",
+    "nota": "Lamela de UHPC contínua, espessura 20/40/80 mm por m2 de parede, logo massa por m2 = 0,02/0,04/0,08 x 2500 = 50/100/200 kg/m2 (calculo meu, nao impresso). Massa/volume do elemento nao impressos como valores unicos; a espessura da lamela varia com a carga (Fig.8)."
+   }
+  ]
+ },
+ {
+  "row_id": 4997,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: 'Esta analise do ciclo de vida ignora o transporte e a extracao de materias-primas comum, bem como as etapas de aplicacao do concreto (transporte, lancamento, compactacao e cura)' (Sec. Determinacao da unidade funcional e fronteiras, p.158-159). Nem A2 nem A4 estao no valor.",
+  "citacao": "Metodologia, p.158-159; Tab.3 p.159-160",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade do valor gravado: m3 de betao = SIM (UF = 1 m3 de concreto; CO2 em kg/m3; Figs.7-8 e Conclusoes: 271,9 e 75,1 kg CO2/m3). Figuras 3-8 (fluxogramas Umberto e graficos) nao renderizadas; so texto - as Figs.7/8 so aparecem como numeros soltos (127,9; 133,6; 9,3; 271,9; 1,2) sem rotulos.",
+  "pares": [
+   {
+    "sheet_row": 28,
+    "densidade_betao_kg_m3": 2396.1,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.159: cimento 422 + areia 730 + brita 1048 + agua 193 + aditivo 3,1 = 2396,1 kg/m3 (impresso 'Total 2.396'; cabecalho diz 'densidade de 2.400 kg/m3') - BETAO CP II E-40",
+    "citacao": "Tab.1 p.159",
+    "nota": "O artigo imprime 2.400 no cabecalho e 2.396 como total do traco; ambos referem-se ao betao."
+   },
+   {
+    "sheet_row": 29,
+    "densidade_betao_kg_m3": 2300,
+    "densidade_origem": "impresso_no_artigo",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.160: 'Concreto geopolimerico (densidade de 2.300 kg/m3)'; soma metacaulim 353 + areia 611 + brita 877 + solucao 459 = 2.300 kg/m3 (BETAO fresco)",
+    "citacao": "Tab.2 p.160; texto p.159 ('densidade desse tipo de concreto quando fresco, ou seja, 2.300 kg/m3')",
+    "nota": "Densidade impressa para betao fresco; soma do traco confere."
+   }
+  ]
+ },
+ {
+  "row_id": 5012,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA a4_somavel=nao/excluido: 'foram desconsideradas as etapas de extracao de materias-primas e seu transporte, bem como o transporte, lancamento, compactacao e cura do concreto' (Anexo XIII, Sec.3.1, p.~98); mesma afirmacao na Sec.9.3 da dissertacao (transporte tratado como etapa comum 'dispensavel'). Nem A2 nem A4.",
+  "citacao": "Dissertacao Sec.9.3 p.24-25; Anexo XIII (artigo) Sec.3.1 p.~97-98; Tab.3 p.37",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Unidade do valor gravado (286,37): m3 de betao = SIM (Tab.3 'Emissoes de kg CO2-eq por m3', concreto tradicional, traco para ~25 MPa; Anexo XIII Tab.2 repete 286,37 e 217,11). INCOERENCIA a assinalar: Tab.7 (coberta, p.41) usa 398 kg CO2-eq/m3 para a 'Laje de Concreto' (e 299 para a laje de MAA), diferente do 286,37 (e 217,11) da Tab.3, sem explicacao no texto. Texto integral lido (118 p., termina nas referencias); os Anexos V/VI (cadeias do SimaPro) sao imagens nao renderizadas, logo o traco por m3 nao e legivel; a dissertacao nao imprime o traco em kg/m3.",
+  "pares": [
+   {
+    "sheet_row": 32,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Densidade/traco em kg/m3 nao impressos no texto (so dizem que os quantitativos de areia, brita e agua variam com o fck e que o m3 foi calculado 'em funcao da densidade' sem dar valores)",
+    "citacao": "Tab.3 p.37; texto p.41",
+    "nota": "Sem densidade nem soma de traco legivel; Anexos V/VI sao imagens. Volume do betao da estrutura impresso (44,81 m3, Tab.2; 69,71 m3 no artigo do Anexo XIII) mas nao e volume de elemento pre-fabricado."
+   }
+  ]
+ }
+]
