@@ -1,0 +1,286 @@
+[
+ {
+  "row_id": 3115,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "nao declarado",
+  "distancia_km_declarada": "nao declarada (so se diz que o inventario inclui 'transportation of materials' e que 'transportation of raw materials per unit product to the mixing site' esta na fronteira; sem km, sem modo)",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA nao_declarado/sem A4: cradle-to-gate, FU 1 m3 de argamassa; transporte so de materias-primas ate ao local de mistura (A2). Custos de transporte excluidos (Sec.2.6, 3.3.2). Nada de entrega da argamassa em obra.",
+  "citacao": "Sec.2.5.1 p.6 (Fig.2 fronteira); Sec.2.5.2 p.7; Sec.2.6 p.8",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota_estudo": "Texto lido do inicio ao fim (exceto lista de referencias). Figuras/tabelas nao renderizadas como imagem (so texto extraido): Fig.2 (fronteira) nao vista. Tab.2 da massa por m3; soma NACM 2687,5 kg contradiz o 'NACM 1700 kg' do texto (Sec.3.3.2) e a densidade 1970.",
+  "pares": [
+   {
+    "sheet_row": 315,
+    "densidade_betao_kg_m3": 1970,
+    "densidade_origem": "impresso (media NACM, Sec.2.3 p.6)",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.2.3 p.6",
+    "citacao": "'average density of LWCM approx 1120 kg/m3, around half that of NACM (1970 kg/m3)'",
+    "nota": "Soma Tab.2 da NACM NT0S0 = 1171,88+656,25+859,34 = 2687,47 kg/m3 (nao bate com 1970 nem com os 1700 kg do texto Sec.3.3.2). Densidade impressa e media das amostras endurecidas."
+   },
+   {
+    "sheet_row": 316,
+    "densidade_betao_kg_m3": 1212.3,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 p.5 e matriz D eq.3 p.17 (TMC LT5S0 = 1212,30)",
+    "citacao": "527,34+295,31+386,72+2,66+0,27 = 1212,30",
+    "nota": "Densidade impressa so como media das LWCM (~1120 kg/m3) e '58,05% da NACM' para LT5S0 (~1144 se NACM=1970); valor medido nao impresso para esta mistura. 1212,30 e a soma dos componentes (inclui agua)."
+   }
+  ]
+ },
+ {
+  "row_id": 3118,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "nao declarado (processos de transporte ecoinvent v3, sem tipo de veiculo)",
+  "distancia_km_declarada": "km nao impressos; so t.km por m3 (Tab.5): REF cimento 229 t.km (561 kg), areia 74 t.km (1401 kg); misturas com cinza: cimento 125, areia 81, CFA 73, BFA 71, HL ate 6, SP 0,1-0,4 t.km",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA excluido: FU 1 m3 de argamassa pronta, cradle-to-gate termina 'at the mortar plant with the final product ready to be used'; transporte so de materiais para a central (A2).",
+  "citacao": "Sec.3.3.2 p.4; Sec.3.3.3 p.4-5; Tab.5 p.5",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Lido o corpo quase todo (saltei ~2,5k caracteres entre Tab.9 e Tab.11 e a lista de referencias); figuras nao renderizadas. Inconsistencia: Tab.4 da REF cimento 300 kg/m3 mas Tab.5 561 kg/m3 (o CO2 566 corresponde ao inventario Tab.5); Tab.7 densidades frescas das misturas com cinza ~3400 kg/m3 (implausivel).",
+  "pares": [
+   {
+    "sheet_row": 845,
+    "densidade_betao_kg_m3": 2232,
+    "densidade_origem": "impresso (densidade fresca, Tab.7)",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.7 p.5",
+    "citacao": "REF q = 2232 kg/m3, Vv 2,8%",
+    "nota": "Soma Tab.5 REF = 561+1401+280 = 2242 kg/m3 (coerente com 2232). Nao confundir com Tab.4 (cimento 300)."
+   }
+  ]
+ },
+ {
+  "row_id": 3151,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nao declarado",
+  "distancia_km_declarada": "nao declarada",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONTRADIZ o rotulo nao_declarado no sentido de que o artigo declara EXCLUIDO: 'energy demand and CO2-e associated with transporting materials from the source to the destination are not considered' / 'emission involved in material transportation is excluded' (fronteira ground-to-gate). Sem A2 nem A4.",
+  "citacao": "Sec.1 p.2; Sec.2.1; Sec.5.2 p.8; Sec.6.1.2 p.10; limitacoes (conclusoes)",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Revisao: lidas integralmente as Sec.5-6 (tracos, Tab.1, resultados) e as passagens sobre transporte por busca (restante da revisao bibliografica nao lida linha a linha). Figuras nao renderizadas. Valores CO2 356/373/313/346/183/268 no texto da Sec.6.2 (fatores de literatura, nao ACV propria).",
+  "pares": [
+   {
+    "sheet_row": 861,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.9",
+    "citacao": "Tab.1: quantidades kg/m3 sem agua",
+    "nota": "Soma dos componentes impressos (sem agua, nao listada) OPC M40 = 412+1234+648+4,12 = 2298,12; densidade nao calculavel sem agua."
+   },
+   {
+    "sheet_row": 862,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.9",
+    "citacao": "Tab.1: quantidades kg/m3 sem agua",
+    "nota": "Soma sem agua OPC M70 = 428+27+1219+589+2,67 = 2265,67."
+   },
+   {
+    "sheet_row": 863,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.9",
+    "citacao": "Tab.1: quantidades kg/m3 sem agua",
+    "nota": "Soma sem agua GPC M40 = 80+200+1250+650+147+58,8 = 2385,8 (agua nao listada)."
+   },
+   {
+    "sheet_row": 864,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.9",
+    "citacao": "Tab.1: quantidades kg/m3 sem agua",
+    "nota": "Soma sem agua GPC M70 = 300+500+1250+650+134+89,28 = 2923,28."
+   },
+   {
+    "sheet_row": 865,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.9",
+    "citacao": "Tab.1: quantidades kg/m3 sem agua",
+    "nota": "Soma sem agua LC3 M40 = 206+1324+645+4,12+123,6+61,8+20,6 = 2385,12."
+   },
+   {
+    "sheet_row": 866,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.9",
+    "citacao": "Tab.1: quantidades kg/m3 sem agua",
+    "nota": "Soma sem agua LC3 M70 = 255+1294+579+5,10+153+77+26 = 2389,10."
+   }
+  ]
+ },
+ {
+  "row_id": 3152,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "camiao (lorry >32 t, EURO 6; peso total 23,5 t, carga 23 t, diesel); SimaPro 'Transport, freight, lorry >32 metric ton, EURO 6 {RER}'",
+  "distancia_km_declarada": "areia fina 20 km; cimento 200 km (media; 50-400); borracha (CR) 100 km ate a central (Logrono) + 80 km ELT->reciclagem; ida/ida-e-volta nao indicado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA excluido: LCA cradle-to-gate 'extraction of raw materials ... to obtain the raw materials necessary to produce mortar'; A2 (transporte ate a fabrica) incluido, A4 listado na figura EN 15804 mas fora da fronteira; sem transporte da argamassa para obra.",
+  "citacao": "Sec.3.3 p.3-4; Sec.3.4.3 p.5-6; Tab.7 e Tab.8 p.6",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Lidas as secoes de materiais, tracos, fronteira, A2 e conclusoes sobre transporte (busca + leitura de blocos); nao li linha a linha resultados de categorias de impacto. Figuras nao renderizadas. Tab.7/8 dao massas em t (areia 25,04 t, CR 23,64 t) incompativeis com o traco por m3 (1535 kg areia; 144,9 kg CR) - escala do lote nao explicada.",
+  "pares": [
+   {
+    "sheet_row": 867,
+    "densidade_betao_kg_m3": 2100.25,
+    "densidade_origem": "impresso (Tab.1)",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.3",
+    "citacao": "M_REF densidade 2100,25 kg/m3",
+    "nota": "Soma 250,85+312,62+1535,20 = 2098,67 (+SP 1,59 l)."
+   },
+   {
+    "sheet_row": 868,
+    "densidade_betao_kg_m3": 2014.55,
+    "densidade_origem": "impresso (Tab.1)",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.1 p.3",
+    "citacao": "M_10 densidade 2014,55 kg/m3",
+    "nota": "Soma 250,85+312,62+1304,50+144,90 = 2012,87 (+SP)."
+   }
+  ]
+ },
+ {
+  "row_id": 3162,
+  "o_que_e_transportado": "elemento_prefabricado",
+  "modo_declarado": "nao declarado (so 'trucks' no texto geral, Sec.1: 'Transporting the segments by trucks')",
+  "distancia_km_declarada": "OPC/Steel: fabrica->565 km->central de pre-fabricacao->47 km->obra; CSA/GFRP: fabrica->248 km->obra (segmento fabricado em obra). Sentido ida/ida-e-volta nao indicado; nao se diz o que cada troco transporta (armadura/materiais vs segmentos)",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONTRADIZ para 1935/1936: o A4 vem em coluna propria (Tab.9 Transport: 37,7 e 9,71 kg CO2eq/segmento); os valores gravados (289,5 e 297,7 = coluna Concrete 385 e 396 / 1,33 m3) NAO incluem A4. O total por segmento (760 e 498) inclui A1-A4. A linha 873 nao tem CO2 gravado.",
+  "citacao": "Sec.6 p.11; Tab.8 p.11 (nota c: volume do segmento 1,33 m3); Tab.9 p.12",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Lidos integralmente Tab.1, Sec.6, Tab.8-9, conclusoes e passagens de transporte; restantes secoes estruturais (ensaios, FLAC) so por busca. Fig.16 (CO2 por etapa) nao vista. Massa do segmento nao impressa; 'incidence' do aco 132 kg/segmento (Tab.8).",
+  "pares": [
+   {
+    "sheet_row": 873,
+    "densidade_betao_kg_m3": 2384,
+    "densidade_origem": "impresso (Tab.1, traco A-CSA-CEM II)",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 1.33,
+    "local": "Tab.1 p.3; Tab.8 nota c p.11",
+    "citacao": "Densidade 2384 kg/m3; volume do segmento 1,33 m3",
+    "nota": "Massa do segmento nao impressa (nao calculada)."
+   },
+   {
+    "sheet_row": 1935,
+    "densidade_betao_kg_m3": 2384,
+    "densidade_origem": "impresso (Tab.1)",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 1.33,
+    "local": "Tab.1 p.3; Tab.8 nota c",
+    "citacao": "idem",
+    "nota": "Valor co2 289,5 = 385/1,33; exclui coluna Transport."
+   },
+   {
+    "sheet_row": 1936,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 1.33,
+    "local": "Tab.8 nota c; texto 'mix design constituents are the same for both solutions as reported in Table 1'",
+    "citacao": "Tab.1 e Sec.6",
+    "nota": "Densidade do traco CEM IV nao impressa; o artigo diz que os constituintes sao os mesmos da Tab.1 (2384 seria o valor por analogia - decisao para a Kie). Co2 297,7 = 396/1,33; exclui A4."
+   }
+  ]
+ },
+ {
+  "row_id": 3167,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "dump truck 3,5-7 t, EURO4 (processos Ecoinvent)",
+  "distancia_km_declarada": "50 km para todos os materiais (ref.[64]); ida/ida-e-volta nao indicado",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "CONFIRMA excluido: cradle-to-gate, 1 m3 de argamassa; transporte so de materiais para a fabrica. Ambiguidade textual: a lista de etapas diz 'materials transfer to project site' e a frase seguinte 'transportation of materials to factory' - interpretado como A2. Factor '0,0033 kg/m3 CO2' para 'production and transportation' (unidade incoerente).",
+  "citacao": "Sec.4 p.11 (LCA)",
+  "texto_completo_lido": false,
+  "figuras_vistas": false,
+  "nota_estudo": "Lidas integralmente Sec.2 (materiais/traco), Sec.4 LCA e Tab.11-12; ensaios mecanicos por busca. Figuras nao renderizadas. Fibras nao entram no LCA (6 tracos sem fibra).",
+  "pares": [
+   {
+    "sheet_row": 874,
+    "densidade_betao_kg_m3": 2251,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.3",
+    "citacao": "570+1425+183+73",
+    "nota": "Soma dos componentes impressos (FA+GGBS+areia+Na2SiO3+NaOH, sem fibras); agua de areia SSD e ar nao entram (Tab.3 nota)."
+   },
+   {
+    "sheet_row": 875,
+    "densidade_betao_kg_m3": 2285,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.3",
+    "citacao": "444+111+1425+218+87",
+    "nota": "Soma dos componentes impressos (FA+GGBS+areia+Na2SiO3+NaOH, sem fibras); agua de areia SSD e ar nao entram (Tab.3 nota)."
+   },
+   {
+    "sheet_row": 876,
+    "densidade_betao_kg_m3": 2353,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.3",
+    "citacao": "265+265+1425+284+114",
+    "nota": "Soma dos componentes impressos (FA+GGBS+areia+Na2SiO3+NaOH, sem fibras); agua de areia SSD e ar nao entram (Tab.3 nota)."
+   },
+   {
+    "sheet_row": 877,
+    "densidade_betao_kg_m3": 2614,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.3",
+    "citacao": "570+1788+183+73",
+    "nota": "Soma dos componentes impressos (FA+GGBS+areia+Na2SiO3+NaOH, sem fibras); agua de areia SSD e ar nao entram (Tab.3 nota)."
+   },
+   {
+    "sheet_row": 878,
+    "densidade_betao_kg_m3": 2648,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.3",
+    "citacao": "444+111+1788+218+87",
+    "nota": "Soma dos componentes impressos (FA+GGBS+areia+Na2SiO3+NaOH, sem fibras); agua de areia SSD e ar nao entram (Tab.3 nota)."
+   },
+   {
+    "sheet_row": 879,
+    "densidade_betao_kg_m3": 2716,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.3",
+    "citacao": "265+265+1788+284+114",
+    "nota": "Soma dos componentes impressos (FA+GGBS+areia+Na2SiO3+NaOH, sem fibras); agua de areia SSD e ar nao entram (Tab.3 nota)."
+   }
+  ]
+ }
+]
