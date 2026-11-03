@@ -15,3 +15,10 @@ __pycache__/
 # Ficheiros de trabalho temporarios dos subagentes da Etapa 2 (PDFs baixados,
 # figuras renderizadas para leitura) — nao sao entregaveis, regeneram-se por lote.
 lotes_etapa2/scratchpad/
+
+# Backups e versões antigas — NÃO versionar (o próprio Git já guarda o histórico).
+# Os 330 backups até 2026-11-02 estão na Release "arquivo-backups-2026-11-02".
+02_ARQUIVOS ANTERORES/
+_relay_tmp/
+*_backup_*.xlsx
+*_backup_*.csv

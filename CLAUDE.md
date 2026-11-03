@@ -499,20 +499,14 @@ Nenhum — o relatório de 2026-06-04 foi removido em 2026-08-03 (todas as suas 
 
 ## Regra de arquivamento — backups e versões obsoletas
 
-**Manter na raiz APENAS os arquivos ativos e mais atualizados.**
+> **Atualizado em 2026-11-02 (limpeza de armazenamento).** O Git já é o backup: cada commit guarda a versão anterior de cada arquivo. Cópias `*_backup_*.xlsx` dentro do repositório só duplicavam espaço (~840 MB em 326 cópias + ~600 MB de histórico de `.xlsx`, repo chegou a 1,6 GB).
 
-Sempre que surgir um arquivo obsoleto, backup, ou versão anterior, mover imediatamente para:
+**Regras:**
 
-```
-07_ANÁLISES DE DADOS/REVISÃO SISTEMÁTICA DE LITERATURA/02_ARQUIVOS ANTERORES/
-```
-
-### O que vai para 02_ARQUIVOS ANTERORES
-
-- Backups automáticos gerados por scripts (`*_backup_*.xlsx`, `*_backup_*.csv`)
-- Versões anteriores de planilhas (`articles_final_new.xlsx` → `articles_final_old.xlsx`)
-- Arquivos corrompidos ou descartados
-- Qualquer arquivo com sufixo `_old`, `_bak`, `_backup`, `_pre-*`, `_v[0-9]*` que não seja a versão corrente
+1. **NÃO commitar backups.** Antes de uma operação arriscada, faça um commit do estado atual — esse commit É o backup (para recuperar: `git log -- articles_final.xlsx` + `git checkout <commit> -- articles_final.xlsx`).
+2. Se um script gerar `*_backup_*`, `*_new_*`, `_old`, `_bak`, `_pre-*`, grave-o em `02_ARQUIVOS ANTERORES/` — a pasta está no `.gitignore` e serve só de rascunho local da sessão.
+3. **Commits de planilhas `.xlsx`: agrupar.** Cada commit de um `.xlsx` guarda o arquivo inteiro (~6 MB). Commitar no fim de cada lote/etapa, não a cada linha alterada.
+4. Os backups antigos (330 arquivos, até 2026-11-02) estão preservados na Release pública [`arquivo-backups-2026-11-02`](https://github.com/kielima/revisao-sistematica-literatura/releases/tag/arquivo-backups-2026-11-02) (`02_ARQUIVOS_ANTERORES_2026-11-02.zip`). Referências a `02_ARQUIVOS ANTERORES/<arquivo>` em documentos antigos apontam para dentro desse zip.
 
 ### O que fica na raiz
 
@@ -520,14 +514,8 @@ Sempre que surgir um arquivo obsoleto, backup, ou versão anterior, mover imedia
 |---|---|
 | `articles_final.xlsx` | Banco de triagem ativo (todas as 5.093 entradas, PDFs linkados) |
 | `GRÁFICOS DA RSL.xlsx` | Gráficos da meta-análise |
-| `BANCO DE DADOS DA RSL.xlsx` | Banco principal da RSL (já na pasta 02_ARQUIVOS ANTERORES — versão de trabalho migrou para o Excel do vault) |
+| `BANCO DE DADOS DA RSL.xlsx` | Banco principal da RSL (arquivado — está no zip da Release; versão de trabalho migrou para o Excel do vault) |
 | Scripts `.py` | Scripts de análise ativos |
-
-### Convenção de nomenclatura ao arquivar
-
-Ao mover, renomear descritivamente se necessário:
-- `articles_final_new.xlsx` → `articles_final_old.xlsx` (arquivado em 2026-05-28)
-- `*_backup_YYYYMMDD_HHMMSS.xlsx` → manter nome original
 
 ---
 

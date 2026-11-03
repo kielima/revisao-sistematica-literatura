@@ -31,8 +31,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 # Planilhas activas na raiz -> abas que tem de existir. So estas sao validadas:
-# as ~110 xlsx de "02_ARQUIVOS ANTERORES" sao backups congelados (ver CLAUDE.md,
-# "Regra de arquivamento"), centenas de MB que nao ha valor em reabrir a cada push.
+# backups nao sao versionados (02_ARQUIVOS ANTERORES/ esta no .gitignore desde
+# 2026-11-02; os antigos estao na Release arquivo-backups-2026-11-02 — ver CLAUDE.md,
+# "Regra de arquivamento").
 ACTIVE_WORKBOOKS = {
     "articles_final.xlsx": ["Articles", "Critérios"],
     "meta_analysis_base.xlsx": ["dados_fck", "LEGENDA"],
