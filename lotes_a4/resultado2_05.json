@@ -1,0 +1,416 @@
+[
+ {
+  "row_id": 4584,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "Betão pronto: 6 m3 concrete mixer (Tab.2); varões 11,5 ton lorry; chapa/steel decking, void formers e formas 4,5 ton lorry",
+  "distancia_km_declarada": "Betão pronto 25 km (Tab.2); o artigo não diz se é ida ou ida-e-volta (Eq.3 usa Dm = distância fabricante-obra, sem factor 2). Varões 380 km, steel decking 110 km, void formers 40 km, formas 30 km.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma que o valor gravado não contém A4: 429 kg CO2-eq/m3 é o factor E1 do ready-mixed concrete da KLCI DB (Tab.1, unidade m3), multiplicado pelo volume (Eq.1). O transporte é E2 à parte (Eq.2-4, Tab.2), somado só nos totais da Tab.5 sem separar o betão (E2 total 12.123 kg para ORC1, todos os materiais). Fica por dizer se o 429 da KLCI DB inclui transporte de matérias-primas (o artigo não o descreve).",
+  "citacao": "Tab.1 p.5; Eq.1-4 pp.5-6; Tab.2 p.6; Tab.5 p.9",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Segunda passagem: texto integral (19 pp., corpo lido do início às conclusões; lista de referências só percorrida) e páginas 6 e 14 renderizadas (Tab.2, Tab.10); Figs.1-5 são esquemas/gráficos sem dados de transporte. Unidade do valor gravado: m3 de betão (factor 4,29x10^2 kg CO2-eq por m3 de betão pronto, Tab.1). Eficiência de combustível (km/L), capacidade de carga e consumo da betoneira não são impressos; os valores de E2 por material não são impressos. Sem apêndices. Confirma a primeira passagem; acrescenta que o artigo não esclarece ida/ida-e-volta.",
+  "pares": [
+   {
+    "sheet_row": 1600,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Densidade do betão não impressa; Tab.1/Tab.4 sem traço (fck 24 MPa apenas)",
+    "citacao": "Pesquisa integral por density/kg/m3/weight sem resultado; Tab.1, Tab.4",
+    "nota": "Betão de classe fck 24 MPa (Tab.4). Quantidades de betão por m3 só em custos/GHG por elemento; massa nunca impressa."
+   }
+  ]
+ },
+ {
+  "row_id": 4600,
+  "o_que_e_transportado": "betao_fresco",
+  "modo_declarado": "HGV diesel (factores DEFRA/BEIS freighting goods + WTT, kgCO2e/t.km, carga média); o modelo prevê também vans, ferrovia, voos de carga e navios, mas o artigo só diz que os materiais são entregues localmente a partir de fabricantes da Arábia Saudita, excepto cerâmica, granito e mármore (Itália).",
+  "distancia_km_declarada": "Nenhuma distância em km é impressa para o betão (nem para outro material); só 'delivered locally from manufacturers in Saudi Arabia'.",
+  "regresso_em_vazio": "excluido",
+  "a4_dentro_do_valor_gravado": "Confirma que o valor gravado não contém transporte: 357,3 kg CO2e/m3 = 287.434 kg CO2e (Tab.4/Tab.6, 'Ready-mix concrete 100% Portland cement (CEM I)', cradle-to-gate Stage 1, ICE v2.0) ÷ (31,57 + 772,79 = 804,36 m3 de Tab.3) = 357,35; o mesmo valor serve às duas classes (25-30 e 28-35 MPa). O transporte (Stage 2, gate-to-grave) é 75.118 kgCO2e para todos os materiais, e inclui entrega à obra E eliminação em fim de vida (todos os materiais menos aço são depostos), por isso não é A4 puro. Fig.7 (lida) dá ao betão pronto cerca de 27.000 kg (freighting) + ~6.500 (WTT) dentro desse total, sem separar entrega e deposição.",
+  "citacao": "Sec.2.1.2 p.5; Tab.3 pp.9-10; Tab.4 pp.10-11; Tab.6 p.12; Sec.3.2 p.12 ('Return of transport to its base has not been included ... otherwise ... twofold and be 150,236 kgCO2e'); Figs.6-7 p.13",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Segunda passagem: texto integral lido (24 pp.; referências e a matriz de resiliência Tab.11 apenas percorridas) e Figs.6-7 renderizadas (p.13). Correcções face à 1.ª passagem: (a) o 357,3 é total ÷ volume (derivação confirmada), não um factor por kg x densidade; (b) o transporte gate-to-grave inclui a deposição, logo mistura A4 e C2; (c) o que se transporta para o betão é betão fresco pronto (e não genericamente 'materiais separados'). Unidade do valor gravado: m3 de betão (soma dos dois traços pronto 25-30 e 28-35 MPa); o artigo não diz quantos km nem que camião. O outro par (1611) tem co2 null.",
+  "pares": [
+   {
+    "sheet_row": 1611,
+    "densidade_betao_kg_m3": 2410,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.9: betão pronto 25-30 MPa (100% CEM I), 31,57 m3 = 76.084 kg; 76.084/31,57 = 2410 (betão, não argamassa)",
+    "citacao": "Tab.3",
+    "nota": "Densidade derivada da razão de duas quantidades impressas (massa e volume do próprio betão). A coluna de kg não leva nota de fonte da densidade (a nota 1,2 da Tab.3 só marca outras linhas), logo a origem do kg não está declarada. co2_kg_m3 do par é null."
+   },
+   {
+    "sheet_row": 1612,
+    "densidade_betao_kg_m3": 2420,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10: betão pronto 28-35 MPa (100% CEM I), 772,79 m3 = 1.870.152 kg; 1.870.152/772,79 = 2420 (betão, não argamassa)",
+    "citacao": "Tab.3",
+    "nota": "Idem, derivada. A argamassa de cimento (Tab.3: 130,13 m3 = 247.247 kg, 1900 kg/m3) é linha à parte e não entra aqui."
+   }
+  ]
+ },
+ {
+  "row_id": 4608,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "Não declarado para os betões analisados: os 14 EPD são cradle-to-gate (A1-A3). Só exemplo ilustrativo: um EPD pode declarar A4 de 25 km com veículo Euro 4 de 30 t, enquanto o caso real pode ser 200 km, Euro 3, 15 t.",
+  "distancia_km_declarada": "Nenhuma para os betões. Só o exemplo ilustrativo 25 km (Euro 4, 30 t) vs 200 km (Euro 3, 15 t), na Sec.1.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma que o valor gravado não contém A4: Tab.4 'Results of LCA of 1 m3 of concrete ... cradle to gate (stages A1-A3)'; estudo limitado a A1-A3 por falta de dados A4-D (Sec.2.2.2), a integrar em trabalho futuro. Unidade: m3 de betão.",
+  "citacao": "Sec.1.3 pp.2-3 (exemplo A4 25 vs 200 km); Sec.2.2.2 p.9; Tab.3 p.10; Tab.4 p.11; Conclusões",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Segunda passagem: texto integral lido (24 pp.; referências só percorridas) e p.10 (Tab.3) renderizada; Figs.1-12 são esquemas e gráficos de variabilidade sem distâncias nem massas. Confirma a 1.ª passagem. Observações: (i) caso de estudo (edifício de escritórios hipotético na Alemanha) dá só volumes totais de betão (fundação 11.401,85 m3 na Fig.4, 11.410,85 m3 no texto; superestrutura 6.321,76 m3), sem massa; (ii) 14 EPD, 17 linhas (EPD6 tem 5 classes); densidades 2000-2600 para EPD7/EPD8 são intervalo.",
+  "pares": [
+   {
+    "sheet_row": 1625,
+    "densidade_betao_kg_m3": 2332,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD1: betão pronto de EPD (2332 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1626,
+    "densidade_betao_kg_m3": 2380,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD2: betão pronto de EPD (2380 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1627,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD3: betão pronto de EPD (2400 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1628,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD4: betão pronto de EPD (2400 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1629,
+    "densidade_betao_kg_m3": 2300,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD5: betão pronto de EPD (2300 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1630,
+    "densidade_betao_kg_m3": 2300,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD6 25/30: betão pronto de EPD (2300 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1631,
+    "densidade_betao_kg_m3": 2300,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD6 30/37: betão pronto de EPD (2300 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1632,
+    "densidade_betao_kg_m3": 2300,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD6 35/45: betão pronto de EPD (2300 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1633,
+    "densidade_betao_kg_m3": 2300,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD6 40/50: betão pronto de EPD (2300 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1634,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10: densidade impressa como intervalo '2000-2600' kg/m3; não é valor único",
+    "citacao": "Tab.3",
+    "nota": "Intervalo impresso; deixado null (não se escolhe ponto médio). Betão pronto, não argamassa."
+   },
+   {
+    "sheet_row": 1635,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10: densidade impressa como intervalo '2000-2600' kg/m3; não é valor único",
+    "citacao": "Tab.3",
+    "nota": "Intervalo impresso; deixado null (não se escolhe ponto médio). Betão pronto, não argamassa."
+   },
+   {
+    "sheet_row": 1636,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD9: betão pronto de EPD (2400 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1637,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD10: betão pronto de EPD (2400 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1638,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD11: betão pronto de EPD (2400 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1639,
+    "densidade_betao_kg_m3": 2386,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD12: betão pronto de EPD (2386 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1640,
+    "densidade_betao_kg_m3": 2400,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD13: betão pronto de EPD (2400 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   },
+   {
+    "sheet_row": 1641,
+    "densidade_betao_kg_m3": 2385,
+    "densidade_origem": "impressa",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.3 p.10 coluna Density, EPD14: betão pronto de EPD (2385 kg/m3), FU 1 m3 (Tab.4)",
+    "citacao": "Tab.3; Tab.4",
+    "nota": "Casado com o GWP da Tab.4 e a classe de resistência. A Tab.6 usa outra numeração dos EPD (subconjunto IBU) mas as densidades coincidem por produto."
+   }
+  ]
+ },
+ {
+  "row_id": 4609,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "Não declarado. O estudo só cobre o estágio de produção (A1-A3); a Fig.3 (ISO 21930, infra-estruturas) mostra A1-A3 como obrigatório e B1 'Transport to road site' fora do âmbito. A LCI DB nacional (MOTIE/ME e MOLIT) inclui apenas transporte de matérias-primas.",
+  "distancia_km_declarada": "Nenhuma para o betão. Os km impressos (5,36; 21,00; 6,52) são o comprimento das estradas dos 3 projectos (Tab.2), não distância de transporte.",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma que o valor gravado não contém A4: 410/420/415/430 kg CO2-eq/m3 são o coeficiente GWP da LCI DB para ready-mixed concrete 25-21-12/25-21-15/25-24-12/25-24-15 (Tab.7, unidade m3), que inclui matérias-primas, transporte das matérias-primas e fabrico; o transporte para a obra não faz parte do âmbito.",
+  "citacao": "Sec.3.2-3.3 pp.5-6; Fig.3 p.6; Tab.2 p.6; Tab.4 p.7; Tab.7 p.11",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Segunda passagem: texto integral lido (18 pp.; referências só percorridas) e pp.5-6 renderizadas (Fig.2, Fig.3, Tab.2). Confirma a 1.ª passagem. Unidade do valor gravado: m3 de betão pronto (4,29x10^2 para o 25-240-15 também aparece na Sec.4.2). A Tab.3 dá quantidades de betão pronto em toneladas (40.572; 165.618; 37.411,8) e o texto diz que o 'unit weight' vem de 'standard data of the estimates', mas nenhum valor de peso unitário nem volume em m3 é impresso, logo não há razão massa/volume.",
+  "pares": [
+   {
+    "sheet_row": 1642,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Densidade não impressa; Tab.3 só tem toneladas sem volume correspondente",
+    "citacao": "Sec.3.3 p.6; Tab.3 p.7",
+    "nota": "Betão pronto identificado pelo código '25-fck-slump' da LCI DB (Tab.4). Sem densidade."
+   },
+   {
+    "sheet_row": 1643,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Densidade não impressa; Tab.3 só tem toneladas sem volume correspondente",
+    "citacao": "Sec.3.3 p.6; Tab.3 p.7",
+    "nota": "Betão pronto identificado pelo código '25-fck-slump' da LCI DB (Tab.4). Sem densidade."
+   },
+   {
+    "sheet_row": 1644,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Densidade não impressa; Tab.3 só tem toneladas sem volume correspondente",
+    "citacao": "Sec.3.3 p.6; Tab.3 p.7",
+    "nota": "Betão pronto identificado pelo código '25-fck-slump' da LCI DB (Tab.4). Sem densidade."
+   },
+   {
+    "sheet_row": 1645,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Densidade não impressa; Tab.3 só tem toneladas sem volume correspondente",
+    "citacao": "Sec.3.3 p.6; Tab.3 p.7",
+    "nota": "Betão pronto identificado pelo código '25-fck-slump' da LCI DB (Tab.4). Sem densidade."
+   }
+  ]
+ },
+ {
+  "row_id": 4625,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Camião 16-32 t EURO5 (cimento, agregado britado, agregado reciclado, central de reciclagem móvel); barcaça 10.000 t (areia de rio). Ecoinvent 'transport, lorry 16-32 t, EURO5/tkm/RER' e 'transport, barge/tkm/RER'.",
+  "distancia_km_declarada": "Tab.2 (ida x2): areia de rio 100x2 (barcaça), brita 100x2, cimento 100x2 e agregado reciclado 20x2 (camião) até à central de betão; central de reciclagem móvel 50x2 até ao local de demolição, por campanha de 2500 t (planta de 20 t). O texto diz que o RCA percorre no máximo 20 km. Nenhuma distância betão-central até à obra.",
+  "regresso_em_vazio": "incluido",
+  "a4_dentro_do_valor_gravado": "Confirma que o valor gravado não contém A4: 'cradle-to-gate ... to the production of concrete at a ready-mix plant' (Sec.3.1); Fig.8 (renderizada) tem o bloco Transport só entre componentes e produção de betão, e Construction depois sem transporte. Os km da Tab.2 são A2 (componentes até à central). Armadura, plastificante e água excluídos.",
+  "citacao": "Sec.3.1 p.11-12; Fig.8 p.12; Tab.2 p.13; Tab.3 p.14; Tab.4 p.15",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Segunda passagem: texto integral lido (22 pp.; referências só percorridas) e pp.11-13 renderizadas (Fig.8, Tab.1, Tab.2). Confirma a 1.ª passagem. Unidade do valor gravado: GWP da Tab.4 impresso 'g CO2-eq' por FU de 1 m2 de laje de 0,2 m (= 0,2 m3 de betão), lido em kg pela decisão F27 e dividido por 0,2 para dar kg/m3 (68,5 -> 342,5; 69,6 -> 348; 69,2 -> 346; 74,7 -> 373,5; 74,6 -> 373; 72,9 -> 364,5): unidade final m3 de betão; o 'g' impresso é a ressalva. Valores são médias de 22-32 traços de literatura por classe (não um traço único).",
+  "pares": [
+   {
+    "sheet_row": 1659,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": 0.2,
+    "local": "Tab.1 p.13 dá só cimento + agregado fino + agregado grosso (sem água nem plastificante) em médias de 22-32 traços da literatura: 340+744+1077=2161 (NAC C25/30)",
+    "citacao": "Tab.1 p.13; Sec.3.1 p.12 (FU)",
+    "nota": "Sem densidade impressa e a soma dos componentes impressos não é massa por m3 (falta a água; w/c efectivo é média de traços diferentes). Soma seca dada só como informação. volume_betao_elemento_m3 = 0,2: FU = 1 m2 de laje de 0,2 m de altura (impresso), logo 0,2 m3 de betão por FU; massa do elemento não impressa."
+   },
+   {
+    "sheet_row": 1660,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": 0.2,
+    "local": "Tab.1 p.13 dá só cimento + agregado fino + agregado grosso (sem água nem plastificante) em médias de 22-32 traços da literatura: 359+743+523+501=2126 (RAC50 C25/30)",
+    "citacao": "Tab.1 p.13; Sec.3.1 p.12 (FU)",
+    "nota": "Sem densidade impressa e a soma dos componentes impressos não é massa por m3 (falta a água; w/c efectivo é média de traços diferentes). Soma seca dada só como informação. volume_betao_elemento_m3 = 0,2: FU = 1 m2 de laje de 0,2 m de altura (impresso), logo 0,2 m3 de betão por FU; massa do elemento não impressa."
+   },
+   {
+    "sheet_row": 1661,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": 0.2,
+    "local": "Tab.1 p.13 dá só cimento + agregado fino + agregado grosso (sem água nem plastificante) em médias de 22-32 traços da literatura: L-RAC100 C25/30: metade inferior RAC100 (364+717+1012=2093) e metade superior NAC (2161) por volume",
+    "citacao": "Tab.1 p.13; Sec.3.1 p.12 (FU)",
+    "nota": "Sem densidade impressa e a soma dos componentes impressos não é massa por m3 (falta a água; w/c efectivo é média de traços diferentes). Soma seca dada só como informação. volume_betao_elemento_m3 = 0,2: FU = 1 m2 de laje de 0,2 m de altura (impresso), logo 0,2 m3 de betão por FU; massa do elemento não impressa."
+   },
+   {
+    "sheet_row": 1662,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": 0.2,
+    "local": "Tab.1 p.13 dá só cimento + agregado fino + agregado grosso (sem água nem plastificante) em médias de 22-32 traços da literatura: 374+730+1050=2154 (NAC C30/37)",
+    "citacao": "Tab.1 p.13; Sec.3.1 p.12 (FU)",
+    "nota": "Sem densidade impressa e a soma dos componentes impressos não é massa por m3 (falta a água; w/c efectivo é média de traços diferentes). Soma seca dada só como informação. volume_betao_elemento_m3 = 0,2: FU = 1 m2 de laje de 0,2 m de altura (impresso), logo 0,2 m3 de betão por FU; massa do elemento não impressa."
+   },
+   {
+    "sheet_row": 1663,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": 0.2,
+    "local": "Tab.1 p.13 dá só cimento + agregado fino + agregado grosso (sem água nem plastificante) em médias de 22-32 traços da literatura: 381+728+521+484=2114 (RAC50 C30/37)",
+    "citacao": "Tab.1 p.13; Sec.3.1 p.12 (FU)",
+    "nota": "Sem densidade impressa e a soma dos componentes impressos não é massa por m3 (falta a água; w/c efectivo é média de traços diferentes). Soma seca dada só como informação. volume_betao_elemento_m3 = 0,2: FU = 1 m2 de laje de 0,2 m de altura (impresso), logo 0,2 m3 de betão por FU; massa do elemento não impressa."
+   },
+   {
+    "sheet_row": 1664,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": 0.2,
+    "local": "Tab.1 p.13 dá só cimento + agregado fino + agregado grosso (sem água nem plastificante) em médias de 22-32 traços da literatura: L-RAC100 C30/37: metade inferior RAC100 (380+743+947=2070) e metade superior NAC (2154) por volume",
+    "citacao": "Tab.1 p.13; Sec.3.1 p.12 (FU)",
+    "nota": "Sem densidade impressa e a soma dos componentes impressos não é massa por m3 (falta a água; w/c efectivo é média de traços diferentes). Soma seca dada só como informação. volume_betao_elemento_m3 = 0,2: FU = 1 m2 de laje de 0,2 m de altura (impresso), logo 0,2 m3 de betão por FU; massa do elemento não impressa."
+   }
+  ]
+ },
+ {
+  "row_id": 4627,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "Camião de 30 t, consumo médio 5 km/L de diesel (Egipto); 1 L diesel = 38,29 MJ; factor IPCC 74.100 kg CO2/TJ (CH4 e N2O com GWP 25 e 298). O A4 é de 'materiais de construção do fabricante à obra' em geral; para o betão não diz se é betão fresco. O 'Concrete Mix Truck 10 m3' da Tab.2 é equipamento de obra (A5: 5 L/h, 40 m3/h), não transporte.",
+  "distancia_km_declarada": "Nenhuma distância numérica impressa (nem para betão, nem para outros materiais); o texto diz só que a distância 'is usually doubled to take into consideration the return cycle'.",
+  "regresso_em_vazio": "incluido",
+  "a4_dentro_do_valor_gravado": "Confirma que o valor gravado não contém A4: 255 e 335 kg CO2-eq/m3 são a Tab.1 'Modules A1 to A3' (médias de EPD; intervalos 249-257 e 307-341). A Fig.11 (renderizada) confirma: A1-A3 de 'PC foundation concrete' 19,61 t / 76,904 m3 = 255; 'RC foundation concrete' 72,70 t / 217,02 m3 = 335; SOG 57,89/172,8 = 335; RC floor 77,08/230,1 = 335. O A4 vem em coluna separada (ex. 0,63 t para o PC foundation concrete; 1,52 t para o RC foundation).",
+  "citacao": "Sec.3.2 p.6; Tab.1 p.7; Sec.4.1.2 p.8; Sec.4.2.1 p.9; Tab.2 p.9; Tab.4 p.13; Fig.9 p.14; Fig.11 p.16",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "Segunda passagem: texto integral lido (21 pp.; referências só percorridas) e pp.9, 16 renderizadas (Tab.2; Fig.11 com as tabelas A1-A3/A4). Confirma a 1.ª passagem; acrescenta a verificação A1-A3 ÷ volume pela Fig.11. Unidade do valor gravado: m3 de betão (255 = classe 20 MPa simples; 335 = 30 MPa armado; o betão armado do artigo exclui o aço, que vai em linhas à parte). Observação: o A4 por m3 de betão não é uniforme entre itens (ex. 0,63 t/76,9 m3 = 8,2 kg/m3 no PC; 1,52 t/217 m3 = 7,0 no RC), e como o artigo não imprime distância nem massa por viagem, nenhum parâmetro de A4 é recuperável.",
+  "pares": [
+   {
+    "sheet_row": 576,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Densidade do betão não impressa",
+    "citacao": "Tab.1, Tab.4",
+    "nota": "Betão simples 20 MPa; não há massa nem densidade impressa."
+   },
+   {
+    "sheet_row": 577,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Densidade do betão não impressa",
+    "citacao": "Tab.1, Tab.4",
+    "nota": "Betão 30 MPa; não há massa nem densidade impressa."
+   },
+   {
+    "sheet_row": 578,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": "",
+    "volume_betao_elemento_m3": null,
+    "local": "Edifício RCC inteiro; co2_kg_m3 do par é null",
+    "citacao": "Tab.4 p.13",
+    "nota": "Sistema completo (betão + aço + alvenaria). Soma impressa dos volumes de betão do RCC na Tab.4: 76,904+217,02+172,8+230,1+211,7 = 908,524 m3 (derivada, só informação); massa não impressa."
+   }
+  ]
+ }
+]
