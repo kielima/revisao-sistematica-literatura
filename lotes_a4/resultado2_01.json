@@ -1,0 +1,412 @@
+[
+ {
+  "row_id": 2580,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "Idemat2023 'Truck+trailer 24 tons net' (cimento e cinza de fundo CBA; factor 0,091 kg CO2e/tkm) e 'Tractor (240 pk)' (agregados; 0,225 kg CO2e/tkm); sem transporte de betao",
+  "distancia_km_declarada": "cimento 5 km (distribuidor ao laboratorio); agregados 28 km (britadeira ao laboratorio); CBA 80 km (central termica de Ropar ao laboratorio); cenario unico; tkm = kg x km x 0,001, sem mencao a ida/ida-e-volta nem a regresso",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma a4_somavel=excluido: LCA 'Gate to Gate' (Fig.14: fronteira acaba no betao 'Use'/colocacao e vibracao no laboratorio); o transporte da Tab.6 e so de materiais (A2) e a electricidade de mistura; nao ha entrega do betao. Valores gravados 379,22 e 303,06 kg CO2e/m3 = totais da Fig.15/Tab.6.",
+  "citacao": "Sec.3.5.1-3.5.3 (p.153-156), Fig.14 (p.155), Tab.6 (p.157), Fig.15 (p.159)",
+  "unidade_valor_gravado_e_m3_de_betao": "sim - unidade funcional '1 m3 of concrete' (Sec.3.5.1, p.153); valores por m3 de betao",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "2.a passagem: texto lido do inicio ao fim (excepto lista de referencias); renderizadas p.155 (Fig.14, fronteira), p.156 e Tab.6 (p.157); Fig.15 (barras) lida via texto extraido dos rotulos e confirmada pelo texto (359,45/282,1 kg nos materiais; totais 379,223 e 303,0653). Confirma a 1.a passagem. Divergencia interna mantida: o texto diz 310 kg de CBA transportados 80 km; a Tab.6 diz 299,28 kg (23,942 tkm). Tab.6: cimento 310 kg na mistura optimizada (21,51% GCBA de 395 kg = 85 kg de GCBA, que nao e listado a parte).",
+  "pares": [
+   {
+    "sheet_row": 2,
+    "densidade_betao_kg_m3": null,
+    "densidade_origem": "",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 (G10C50: PC 355,5; GCBA 39,5; NFA 366; CBA 366; NCA 1068 kg/m3)",
+    "citacao": "Tab.2 p.140",
+    "nota": "Soma sem agua = 2195 kg/m3; a agua so e impressa na Tab.6 (180 kg) para controlo e mistura optimizada, nao para G10C50; densidade nao impressa. Este traco nao tem LCA no artigo (co2 null)."
+   },
+   {
+    "sheet_row": 78,
+    "densidade_betao_kg_m3": 2375,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 (coluna Control Mix)",
+    "citacao": "Tab.6 p.157: cimento 395 + areia 732 + brita 1068 + agua 180 = 2375 kg/m3",
+    "nota": "Densidade de betao (nao argamassa). Sem aditivos."
+   },
+   {
+    "sheet_row": 79,
+    "densidade_betao_kg_m3": 2374.3,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.6 (coluna Optimized CBA Concrete)",
+    "citacao": "Tab.6 p.157: cimento 310 + areia 517 + brita 1068 + agua 180 + CBA/GCBA 299,28 = 2374,3 kg/m3",
+    "nota": "Betao. Com 310 kg de CBA (texto) seria 2385; a Tab.6 imprime 299,28 kg e o texto 21,51% GCBA + 29,82% CBA (215 kg de areia substituida + 85 kg de GCBA = ~300 kg)."
+   }
+  ]
+ },
+ {
+  "row_id": 2608,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "'trucking' (camiao), so para a areia (RS e NS); sem factor de emissao impresso; LCI SimaPro 9.0 (Tab.13)",
+  "distancia_km_declarada": "200 km para RS e NS (iguais); sentido nao declarado; nenhuma distancia para OPC, SF, QP; cenario unico",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao ha A4: fronteira 'cradle-to-gate' (Sec.5.3, p.17); so transporte da areia. Sem entrega do betao. Os valores gravados (1100/1170) sao leituras do eixo 'Climate change [10^2 kg CO2 eq]' do radar da Fig.16 (p.18), sem valor em texto/tabela.",
+  "citacao": "Sec.5.3 p.17; Tab.13 p.17; Fig.16 p.18",
+  "unidade_valor_gravado_e_m3_de_betao": "NAO CONFIRMADO - o artigo nao declara unidade funcional nem 'por m3' em nenhum ponto da LCA (so ISO 14040, categorias, base de dados); o eixo da Fig.16 e 'kg CO2 eq' sem base. Assumir m3 de UHPC e hipotese nossa. Alem disso as legendas da Fig.16 estao trocadas face as legendas (a): 'RS-U-20 vs. NS-U-20' mas a legenda diz RS-U-20-Alt.; (b) o inverso.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "2.a passagem: texto completo lido (excepto referencias; tabelas numericas de empacotamento lidas por texto); renderizadas como imagem Tab.8 (p.9), Fig.7 + Tab.10 (p.10), Tab.13 + texto LCA (p.17) e Fig.16 (p.18) via recorte shrink-drive-pdf (pp.9-18). Corrige a 1.a passagem em: (i) a densidade medida (ASTM C642, endurecido seco) existe na Fig.7 e foi agora lida (RS-U-20 2241; NS-U-20 2372; RS-F-17-2.0 2458 kg/m3); (ii) a unidade funcional da LCA NAO esta declarada. UHPC = pasta+areia fina, sem agregado graudo.",
+  "pares": [
+   {
+    "sheet_row": 139,
+    "densidade_betao_kg_m3": 2391.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.8 (RS-U-20): OPC 818+FA 72,1+SF 80,1+QP 95,6+RS 1084+W 199+SP 42,6",
+    "citacao": "Tab.8 p.9 (cabecalho 'Mix design (kg/m3)')",
+    "nota": "Soma dos constituintes por m3 (betao fresco, inclui agua e SP). Densidade MEDIDA endurecida seca (ASTM C642): 2241 kg/m3 (Fig.7a e texto p.10), valor diferente por nao incluir a agua evaporada."
+   },
+   {
+    "sheet_row": 140,
+    "densidade_betao_kg_m3": 2478.2,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.8 (NS-U-20): OPC 891+SF 39,3+QP 141+NS 1150+W 214+SP 42,9",
+    "citacao": "Tab.8 p.9",
+    "nota": "Idem. Densidade medida endurecida seca: 2372 kg/m3 (Fig.7a)."
+   },
+   {
+    "sheet_row": 141,
+    "densidade_betao_kg_m3": 2576.9,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.8 (RS-F-17-2.0): OPC 832+FA 73,4+SF 81,5+QP 97,2+RS 1104+W 184+SP 48,8+SSF 156",
+    "citacao": "Tab.8 p.9",
+    "nota": "Inclui 156 kg/m3 de fibra de aco (2% vol). Densidade medida endurecida seca: 2458 kg/m3 (Fig.7b). CO2 null: este traco nao tem LCA."
+   }
+  ]
+ },
+ {
+  "row_id": 2684,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "nao declarado (so distancia)",
+  "distancia_km_declarada": "50 km, materias-primas ate a central de betao (assumido); sentido nao declarado; cenario unico",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Confirma a4_somavel=excluido: Fig.2 mostra 'Concrete transportation to site' e 'casting and curing' a tracejado (fora do ambito); modulos A1-A3 apenas; A1-A2 inclui entrega das materias-primas a central (Sec.2.4.2). Gravados: valores de GWP por m3 da Fig.5.",
+  "citacao": "Sec.2.4.1-2.4.2 p.3-4; Fig.2 p.4; Fig.5 p.6",
+  "unidade_valor_gravado_e_m3_de_betao": "sim para os pares 135-138 (eixo da Fig.5: 'GWP (kgCO2eq/m3 of concrete)'); a UF do estudo e 1 m2 de laje (Tab.5), mas os valores gravados sao os por m3 de betao simples (sem aco). Par 13 sem CO2.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "2.a passagem: texto completo lido do inicio as referencias (extraccao em ordem de leitura); renderizadas p.4 (Fig.2 e Tab.2) e p.6 (Fig.5 e Tab.4). Confirma a 1.a passagem; correccao menor: a 1.a passagem listou 'w/b 0,75' para os tracos com fibra, mas 0,75 e o % em volume de fibra (w/b = 0,5 em todos, Tab.1). A densidade de 2500 kg/m3 e so a assumida para o peso proprio da laje no dimensionamento (Sec.2.3). SP da Tab.1 (2,3/0,5/2,5 % do ligante) nao bate com o SP da Tab.2 (0/6,9/1,5/7,5 kg/m3) - nao afecta A4.",
+  "pares": [
+   {
+    "sheet_row": 13,
+    "densidade_betao_kg_m3": 2241.5,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 coluna LC3",
+    "citacao": "Tab.2 p.4: 159+90+45+6+1,5+150+760+225+375+430",
+    "nota": "Mistura LC3 sem fibra (fck 49,12 +/- 1,82 MPa, Fig.3, cilindro 160x320 mm). Soma inclui agua e SP."
+   },
+   {
+    "sheet_row": 135,
+    "densidade_betao_kg_m3": 2255,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 coluna OPC",
+    "citacao": "Tab.2 p.4: 300+150+770+230+375+430 (SP 0)",
+    "nota": "Soma = 2255 kg/m3."
+   },
+   {
+    "sheet_row": 136,
+    "densidade_betao_kg_m3": 2306.9,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 coluna OPC-SF",
+    "citacao": "Tab.2 p.4: 300+6,9+150+60 (fibra aco)+760+225+375+430",
+    "nota": "Inclui 60 kg/m3 de fibra de aco."
+   },
+   {
+    "sheet_row": 137,
+    "densidade_betao_kg_m3": 2241.5,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 coluna LC3",
+    "citacao": "Tab.2 p.4",
+    "nota": "Mesmo traco que o par 13."
+   },
+   {
+    "sheet_row": 138,
+    "densidade_betao_kg_m3": 2287.5,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2 coluna LC3-SF",
+    "citacao": "Tab.2 p.4: 159+90+45+6+7,5+150+60+755+220+370+425",
+    "nota": "Inclui 60 kg/m3 de fibra de aco."
+   }
+  ]
+ },
+ {
+  "row_id": 2794,
+  "o_que_e_transportado": "nao_declarado",
+  "modo_declarado": "nenhum (transporte excluido)",
+  "distancia_km_declarada": "",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao: Sec.3.1 (p.5-6): 'transporting the bars and the manufactured materials to the factory or the construction site was not included in the boundaries'; Sec.4.2.1-4.2.3 'without considering material transportation'. Fig.3: fronteira so de producao.",
+  "citacao": "Sec.3.1 p.5-6; Fig.3 p.6; Sec.4.2 p.10",
+  "unidade_valor_gravado_e_m3_de_betao": "Derivado, nao impresso: 391,3 = (cimento 286 + agua dessalinizada 3,98 + brita 2,51 + areia 0,983 = 293,47 kg CO2e, Tab.4) / 0,75 m3 (viga 5x0,5x0,3 m, FU da Sec.3.1), SEM o aco (124 kg). O 0,75 m3 e o volume geometrico da viga (inclui o volume das varoes); o artigo nao da CO2 por m3 nem volume de betao.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "2.a passagem: texto lido do inicio as conclusoes (introducao incluida); renderizadas p.4 (Fig.1, traco) e p.6 (Fig.3, fronteira); Tabs.1-6 lidas no texto. Confirma a 1.a passagem. Corrige-a em: a soma dos constituintes por viga (416 cimento + 448 areia + 780 brita + 187 L agua = 1831 kg) dividida pelo volume impresso da viga (0,75 m3) da 2441 kg/m3 - passa a ser registada (com ressalva). Nota: o artigo diz 'f'c = 25 MPa' (Tab.2, mas a Tab.2 lista so as vigas FRP; para a viga de aco a resistencia vem de ACI 318 sem tabela propria).",
+  "pares": [
+   {
+    "sheet_row": 228,
+    "densidade_betao_kg_m3": 2441.3,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": 0.75,
+    "local": "Sec.2 (p.4): 'a specific amount of materials... 416 kg cement, 448 kg sand, 780 kg coarse aggregate, and 187 lite of... water' para a viga 5x0,5x0,3 m",
+    "citacao": "Sec.2 p.4; FU Sec.3.1 p.5",
+    "nota": "Derivado: (416+448+780+187)/0,75 = 2441,3 kg/m3; as quantidades sao por viga (nao por m3); o volume da viga inclui o das varoes; nao ha massa volumica do betao impressa. Massas volumicas aparentes impressas dos constituintes: areia 1550, brita 1350, cimento 1440, aco 7850 kg/m3 (nao sao a do betao). Usar com cautela ou ignorar."
+   }
+  ]
+ },
+ {
+  "row_id": 2832,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "camiao de 18 t ('material transport vehicle... 18-ton truck'); sem factor impresso",
+  "distancia_km_declarada": "OPC fabrica->central 50 km; NCA pedreira->central 200 km; NFA fornecedor 100 km; RCA e RFA demolicao->central 20 km; sentido nao declarado; cenario unico (analise de sensibilidade so no custo, Fig.11)",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao: cradle-to-gate 'extraction, transportation, and production of raw materials' (Sec.4.1.1); transporte e o das materias-primas ate a central (A2, dentro de A1-A3); entrega do betao nao modelada. Gravado: GWP da Tab.7.",
+  "citacao": "Sec.4.1.1-4.1.2 p.7-8; Tab.2 p.5; Tab.4 p.8; Tab.7 p.12",
+  "unidade_valor_gravado_e_m3_de_betao": "sim - UF '1 m3' de betao (Sec.4.1.1); GWP da Tab.7 (4,88x10^2 ... 4,62x10^2 kg CO2-eq, conferido na imagem) e por m3.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota_estudo": "2.a passagem: texto lido (linhas curtas de tabelas e fragmentos duplicados da extraccao saltados, tabelas lidas em imagem); renderizadas Tab.2 (p.5), Tab.3+Fig.1 (p.6), Tab.4+Tab.5 (p.8) e Tab.7+Fig.3 (p.12). Confirma a 1.a passagem. Nota: Tab.4 mostra CO2 de inventario 478..455 kg/m3 (emissao), diferente do GWP da Tab.7 (488..462). fck = cubo GB/T 50081 aos 28 d (Tab.3).",
+  "pares": [
+   {
+    "sheet_row": 709,
+    "densidade_betao_kg_m3": 2400.0,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 0-0: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 0.0",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 710,
+    "densidade_betao_kg_m3": 2409.1,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 0-30: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 9.1",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 711,
+    "densidade_betao_kg_m3": 2418.1,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 0-60: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 18.1",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 712,
+    "densidade_betao_kg_m3": 2430.2,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 0-100: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 30.2",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 713,
+    "densidade_betao_kg_m3": 2433.3,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 75-0: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 33.3",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 714,
+    "densidade_betao_kg_m3": 2442.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 75-30: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 42.4",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 715,
+    "densidade_betao_kg_m3": 2451.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 75-60: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 51.4",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 716,
+    "densidade_betao_kg_m3": 2463.5,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 75-100: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 63.5",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 717,
+    "densidade_betao_kg_m3": 2444.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 100-0: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 44.4",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 718,
+    "densidade_betao_kg_m3": 2453.4,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 100-30: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 53.4",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 719,
+    "densidade_betao_kg_m3": 2462.5,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 100-60: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 62.5",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   },
+   {
+    "sheet_row": 720,
+    "densidade_betao_kg_m3": 2474.6,
+    "densidade_origem": "soma_do_traco",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Tab.2, traco 100-100: agua de mistura 195 + cimento 487,5 + agregados totais 1167,9 (NCA+RCA) + 549,6 (NFA+RFA) + agua adicional 74.6",
+    "citacao": "Tab.2 p.5",
+    "nota": "Sem a agua adicional a soma e 2400,0 em todos; a agua adicional e a absorvida pelos agregados reciclados (Sec.2) e vem em coluna separada - se os agregados estiverem secos, a soma com ela e a massa fresca; o artigo nao diz se as massas de agregado sao secas ou SSD."
+   }
+  ]
+ },
+ {
+  "row_id": 2847,
+  "o_que_e_transportado": "materiais_separados",
+  "modo_declarado": "rodoviario em camioes: 32 t (cimento, cinzas, silica ativa), 45 t (areia); Ecoinvent 'transport, freight, lorry 16-32 metric ton' (Fig.20); sem factor impresso",
+  "distancia_km_declarada": "cimento 500 km (cimenteira->industria de argamassa, Paula 2016); cinzas de cana 153 km (usina->fabrica de argamassa, Fairbairn 2010; igual para cana-energia); areia 70 km (Souza e Sales 2012); silica ativa 200 km; sentido nao declarado; distancias da literatura, nao medidas",
+  "regresso_em_vazio": "nao_declarado",
+  "a4_dentro_do_valor_gravado": "Nao: so transporte das materias-primas ate a fabrica de argamassa (Sec.4.11.2 p.85; Figs.13-16, 20). Fronteira declarada 'cradle to grave' mas consumo/pos-uso/disposicao final desconsiderados por 'iguais' (Figs.13-14 mostram-nos a tracejado vermelho 'Processos desconsiderados'). Entrega da argamassa na obra nao modelada.",
+  "citacao": "Sec.4.11.2 p.81-85; Tab.7 p.82; Figs.13-16 p.83-84; Fig.20 p.89; Tab.25 p.138",
+  "unidade_valor_gravado_e_m3_de_betao": "NAO. A UF e '1 MPa de resistencia a compressao aos 28 d' de ARGAMASSA (traco 1:2,5:0,5 em massa, Sec.4.10.1) e a Tab.25 da Mudancas climaticas em kg CO2 eq/MPa (referencia 2,72E-03; silica 3,22E-03; CCAC-L 5/10/20% 3,09/2,40/2,44E-03; V5-L 5/10/20% 2,95/2,24/2,21E-03). O texto diz ainda 'por unidade de resistencia (MPa)... por volume de material (m3)' sem converter. Os 556,6 kg/m3 gravados (referencia) sao uma conversao nossa: 2,72E-03 x 40,18 MPa / (0,0111 kg de argamassa/MPa x 40,18) = 0,245 kg CO2/kg argamassa, que exige ~2271 kg/m3 de massa volumica (nao impressa; a massa especifica medida, endurecida e seca, e ~2000 kg/m3 -> 490). O valor gravado e de argamassa, nao de betao, e nao reproduzivel so com dados impressos.",
+  "texto_completo_lido": false,
+  "figuras_vistas": true,
+  "nota_estudo": "2.a passagem PARCIAL. read_file_content trunca a tese na p.76 (de 182). Lidas na integra, via recortes do shrink-drive-pdf, as pp.80-96 (4.10 argamassas, 4.11 ACV: escopo, UF, Tab.7, transporte, alocacao) e pp.135-165 (5.6, 5.7 ACV, ate 5.7.18 em texto filtrado); o texto das pp.1-76 foi so pesquisado por palavra-chave e as pp.97-134 e 166-182 nao foram lidas. Figuras vistas: 13, 14, 20, 55, Tab.24, Tab.25, p.139. Confirma a 1.a passagem (A4 excluido, distancias) e corrige-a em: (i) massas especificas: Fig.55 lida; (ii) UF/unidade: kg CO2 eq/MPa, nao m3. As densidades abaixo sao de ARGAMASSA endurecida seca (NBR 9778, 28 d), nao de betao.",
+  "pares": [
+   {
+    "sheet_row": 763,
+    "densidade_betao_kg_m3": 2000,
+    "densidade_origem": "medida_argamassa_endurecida_28d_derivada",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Fig.55: referencia ~2,0 g/cm3 (barra); texto: V5-L (~1,96) e 2% inferior a referencia e silica ativa 3% superior",
+    "citacao": "Lyra 2022, Sec.5.6.1 p.133-134 e Fig.55 p.133",
+    "nota": "Derivado de percentagens impressas (1,96/0,98 = 2,00) e conferido na barra da Fig.55; argamassa, nao betao."
+   },
+   {
+    "sheet_row": 764,
+    "densidade_betao_kg_m3": 2060,
+    "densidade_origem": "medida_argamassa_endurecida_28d_derivada",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Texto: '3% superior ao valor da referencia'; Fig.55 (barra ~2,07)",
+    "citacao": "Lyra 2022, Sec.5.6.1 p.133-134 e Fig.55 p.133",
+    "nota": "Derivado (2,00 x 1,03); argamassa."
+   },
+   {
+    "sheet_row": 765,
+    "densidade_betao_kg_m3": 2060,
+    "densidade_origem": "medida_argamassa_endurecida_28d",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.5.6.1: CCAC-L 5% = 2,06 g/cm3",
+    "citacao": "Lyra 2022, Sec.5.6.1 p.133-134 e Fig.55 p.133",
+    "nota": "Argamassa endurecida seca (apparent, NBR 9778)."
+   },
+   {
+    "sheet_row": 766,
+    "densidade_betao_kg_m3": 2040,
+    "densidade_origem": "medida_argamassa_endurecida_28d",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.5.6.1: CCAC-L 10% = 2,04 g/cm3",
+    "citacao": "Lyra 2022, Sec.5.6.1 p.133-134 e Fig.55 p.133",
+    "nota": "Argamassa."
+   },
+   {
+    "sheet_row": 767,
+    "densidade_betao_kg_m3": 2020,
+    "densidade_origem": "medida_argamassa_endurecida_28d",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.5.6.1: CCAC-L 20% = 2,02 g/cm3",
+    "citacao": "Lyra 2022, Sec.5.6.1 p.133-134 e Fig.55 p.133",
+    "nota": "Argamassa."
+   },
+   {
+    "sheet_row": 768,
+    "densidade_betao_kg_m3": 1960,
+    "densidade_origem": "medida_argamassa_endurecida_28d_aprox",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "Sec.5.6.1: V5-L 'aproximadamente 1,96 g/cm3' (menor valor, sem dizer qual teor); Fig.55 mostra as tres barras V5-L com a mesma letra (f), ~1,96-1,97",
+    "citacao": "Lyra 2022, Sec.5.6.1 p.133-134 e Fig.55 p.133",
+    "nota": "Aproximado; as tres V5-L nao diferem estatisticamente; argamassa."
+   },
+   {
+    "sheet_row": 769,
+    "densidade_betao_kg_m3": 1960,
+    "densidade_origem": "medida_argamassa_endurecida_28d_aprox",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "idem 768",
+    "citacao": "Lyra 2022, Sec.5.6.1 p.133-134 e Fig.55 p.133",
+    "nota": "Aproximado; argamassa."
+   },
+   {
+    "sheet_row": 770,
+    "densidade_betao_kg_m3": 1960,
+    "densidade_origem": "medida_argamassa_endurecida_28d_aprox",
+    "massa_elemento_kg": null,
+    "volume_betao_elemento_m3": null,
+    "local": "idem 768",
+    "citacao": "Lyra 2022, Sec.5.6.1 p.133-134 e Fig.55 p.133",
+    "nota": "Aproximado; argamassa."
+   }
+  ]
+ }
+]
