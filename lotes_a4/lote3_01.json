@@ -1,0 +1,104 @@
+[
+ {
+  "row_id": 2847,
+  "autor": "Lyra, Gabriela Pitolli",
+  "titulo": "Aplicação das cinzas da indústria sucroalcooleira como biopozolanas e K-fertilizante: cana-de-açúcar e cana-energia",
+  "pdf": "LYRA, 2023i.pdf",
+  "fileId": "1k-ONSm8UDh--CBAUGcfMttdNvOyn1FP3",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: {'cimento': 500, 'areia': 70, 'silica_ativa': 200, 'cinzas': 153}; modal: rodoviario; camiao: camioes de 32 t (45 t para areia); factor: processos ecoinvent 3.8 / GaBi 6 (nao impresso)",
+  "pares": [
+   {
+    "sheet_row": 763,
+    "material": "Argamassa de referencia (cimento Portland + areia)",
+    "co2_kg_m3": 556.6,
+    "fck_mpa": 40.18
+   },
+   {
+    "sheet_row": 764,
+    "material": "Argamassa com 10% silica ativa",
+    "co2_kg_m3": 554.6,
+    "fck_mpa": 33.82
+   },
+   {
+    "sheet_row": 765,
+    "material": "Argamassa com 5% cinza de cana-de-acucar lavada (CCAC-L)",
+    "co2_kg_m3": 531.7,
+    "fck_mpa": 33.57
+   },
+   {
+    "sheet_row": 766,
+    "material": "Argamassa com 10% cinza de cana-de-acucar lavada (CCAC-L)",
+    "co2_kg_m3": 491,
+    "fck_mpa": 39.51
+   },
+   {
+    "sheet_row": 767,
+    "material": "Argamassa com 20% cinza de cana-de-acucar lavada (CCAC-L)",
+    "co2_kg_m3": 442.6,
+    "fck_mpa": 34.08
+   },
+   {
+    "sheet_row": 768,
+    "material": "Argamassa com 5% cinza de cana-energia lavada (V5-L)",
+    "co2_kg_m3": 529.3,
+    "fck_mpa": 34.53
+   },
+   {
+    "sheet_row": 769,
+    "material": "Argamassa com 10% cinza de cana-energia lavada (V5-L)",
+    "co2_kg_m3": 490.5,
+    "fck_mpa": 41.16
+   },
+   {
+    "sheet_row": 770,
+    "material": "Argamassa com 20% cinza de cana-energia lavada (V5-L)",
+    "co2_kg_m3": 440.3,
+    "fck_mpa": 35.14
+   }
+  ]
+ },
+ {
+  "row_id": 3687,
+  "autor": "Jin, Willy and Roux, Charlotte and Ouellet-Plamondon, Claudiane and\nCaron, Jean-",
+  "titulo": "Life cycle assessment of limestone calcined clay concrete: Potential for\nlow-carbon 3D printing",
+  "pdf": "JIN, 2024i.pdf",
+  "fileId": "1bKrlh4zqtdWS3YcRBEkoYIGL3pS-XRdZ",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "excluido",
+  "transporte_dados": "materiais km: cimento GUbSF 223; argila calcinada 2900 (QC, comboio) / 535 (FR, camiao); calcario filler 209; modal: comboio/camiao conforme cenario QC/FR; factor: processos ecoinvent de transporte",
+  "pares": [
+   {
+    "sheet_row": 1080,
+    "material": "LC3 (limestone calcined clay) - mistura de referencia para impressao 3D de baixo carbono",
+    "co2_kg_m3": 251,
+    "fck_mpa": 31
+   }
+  ]
+ },
+ {
+  "row_id": 4064,
+  "autor": "Jiang, Peiling and Zhao, Diansheng and Jin, Cheng and Ye, Shan and Luan,\nChenche",
+  "titulo": "Compressive strength prediction and low-carbon optimization of fly ash\ngeopolymer concrete based on big data and ensemble learning",
+  "pdf": "JIANG et al., 2024 - journal.pone.0310422.pdf",
+  "fileId": "15vPe_YTjDiFqqQBCt-OiomkvuXJrTb6p",
+  "fronteira": "A1-A3",
+  "transporte_betao_a4": "nao_declarado",
+  "transporte_dados": "factor: F_Trans em kgCO2/kg-km (simbolo; valor nao impresso)",
+  "pares": [
+   {
+    "sheet_row": 1169,
+    "material": "Concreto geopolimerico de cinza volante (FAGC) -- mix por tentativa-e-erro (baseline, antes da otimizacao)",
+    "co2_kg_m3": 160.86,
+    "fck_mpa": 51.6
+   },
+   {
+    "sheet_row": 1170,
+    "material": "Concreto geopolimerico de cinza volante (FAGC) -- mix otimizado por machine learning + algoritmo genetico",
+    "co2_kg_m3": 134.08,
+    "fck_mpa": 50.7
+   }
+  ]
+ }
+]
