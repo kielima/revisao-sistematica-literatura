@@ -242,3 +242,8 @@ Kiê enviou as 4 fichas do SIDAC (`sidac.org.br/produtos/{35,32,29,31}`, versão
 - Classes: `betao_fresco_betoneira`, `elemento_prefabricado`, `pre_mistura_seca`, `indeterminado`. Confiança **declarado** (palavra-chave no material/fronteira/transporte do estudo) ou **provavel** (só pela `aplicacao` ou por A4 incluído) — os «prováveis» ficam à parte (F38).
 - Resultado: betão fresco 186 declarados + 441 prováveis; pré-fabricado 108 + 39; pré-mistura seca 8; **indeterminado 768**.
 - **Por confirmar (heurística minha):** as palavras-chave são regex simples e o «provável» assume betão de obra para edifício/infraestrutura/pavimento/ponte. Amostra de 18 declarados lida: coerente. A fase 2 (extrair massa volúmica, distância, modo, regresso em vazio) corrige e resolve os indeterminados; 4 dos 8 pré-mistura são da 4837 BAEK (a confirmar se a «premistura» é de betão ou de argamassa).
+
+## F43 — Massa volúmica do betão no A4: premissa aprovada (2026-11-09)
+**Decisão (Kiê, 2026-11-09, #0619, «Aceito»)**, em resposta à pergunta 1 do agente RSL de 08/11 (fase 2 do A4, F42): onde o artigo não declara a massa volúmica do betão, usa-se **a soma do traço impresso**; sem traço, **2.400 kg/m³** como premissa marcada «nossa» (a vida útil assumida da F33 segue o mesmo molde: premissa nossa, explícita na dissertação).
+- Hierarquia de atribuição: massa volúmica impressa no artigo > soma do traço impresso > 2.400 kg/m³ (premissa nossa). Cada par leva a fonte da massa volúmica numa coluna própria (a criar na gravação da fase 2).
+- Aplica-se à fase 2 (lotes de releitura de F42) e ao motor de cálculo da fase 3. Nada em `dados_fck` nem no painel mudou com este registo.
