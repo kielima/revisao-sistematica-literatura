@@ -1,0 +1,212 @@
+[
+ {
+  "row_id": 4471,
+  "pdf": "ELTANTAWI et al., 2024 - j.conbuildmat.2024.138819.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": "nao_declarado",
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 571,
+    "massa_volumica_kg_m3": 2249.64,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.11 (p.11), coluna SCUHPC [93] (traço de Deeb & Karihaloo): OPC 543,5 + GGBFS 311,5 + SF 214 + agregado fino 940 + água 188 + SP 52,64 = 2.249,64 kg/m3"
+   },
+   {
+    "sheet_row": 572,
+    "massa_volumica_kg_m3": 2450.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.11 (p.11) / Tab.9, coluna SCUHPGC: GGBFS 767 + FA 230 + SF 53 + agregado fino 922 + água extra 58 + SH 12 M 84 + SS 336 = 2.450 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.3 (p.4-5): provetes moldados no laboratório (prismas 40x40x160, cura ambiente); Sec.4 (p.10-12): energia e CO2-e de 1 m3 calculados só pela produção dos constituintes (Tab.12 GJ/t e Tab.13 tCO2-e/t, por material); nenhuma menção a transporte, betoneira, central ou obra em todo o texto.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Só laboratório (mistura em misturador de pá, sem obra). Inventário só de materiais (A1), sem qualquer transporte. Nenhuma massa volúmica impressa; usei a soma do traço da Tab.11. O traço SCUHPC (linha 571) é de fonte externa (Deeb & Karihaloo [93]). Figuras não vistas: ficheiro 8,4 MB (texto pelo conector, completo até às referências)."
+ },
+ {
+  "row_id": 2719,
+  "pdf": "LI et al., 2024 - ma17164113.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": "nao_declarado",
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 673,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sec.2.1-2.2 (p.3): só razões (areia/ligante = 3, água/ligante = 0,45); proporções em kg/m3 não impressas (a Tab.2 dá composição química, não traço)"
+   },
+   {
+    "sheet_row": 674,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sec.2.1-2.2 (p.3): argamassa OPC com areia/ligante = 3 e a/l = 0,45; sem traço em kg/m3 nem massa volúmica"
+   }
+  ],
+  "citacao": "Sec.2.5.1 (p.4): fronteira 'includes ... production and transport of AAM mortars'; Fig.1 (p.5): caixa 'Mortar Production' com 'Transport of Constituent', 'Mortar Manufacturing' e 'Transport & Placement' dentro da fronteira vermelha 'system boundary of this study'; Fig.4 (p.9): barra empilhada com categoria 'Transport' (sem valor rotulado); Sec.2.6 (p.6): transporte excluído só do custo.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Argamassa de laboratório (moldes 40x40x160). A Fig.1 inclui 'Transport & Placement' da argamassa na fronteira, mas o artigo não diz o que é transportado nem como, nem distância. A categoria 'Transport' da Fig.4 é pequena (~5-8 kg/m3 por leitura visual, sem rótulos) e não separa transporte de constituintes de transporte da argamassa — por isso a4_publicado = null. Totais publicados: AAM 258,9 e OPC 469,3 kg CO2-e/m3 (Sec.3.3). Distâncias de matérias-primas: não declaradas (Sec.2.6 só diz que as fábricas ficam no mesmo parque industrial, 'long-distance transport is rare')."
+ },
+ {
+  "row_id": 2952,
+  "pdf": "KINA, 2024b - s11356-024-32175-7.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": "nao_declarado",
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 802,
+    "massa_volumica_kg_m3": 2058.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.15132), MWTS10-FA: PC 390 + MWTS 65 + FA 195 + BFS 0 + areia 1070 + água 315 + SP 23 = 2.058 kg/m3"
+   },
+   {
+    "sheet_row": 803,
+    "massa_volumica_kg_m3": 2094.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.15132), MWTS10-BFS: PC 390 + MWTS 65 + FA 0 + BFS 195 + areia 1105 + água 315 + SP 24 = 2.094 kg/m3"
+   }
+  ],
+  "citacao": "p.15144: 'The cost and emission related to the transportation of the raw materials were not considered in the current study'; Eq.5 (p.15144): CO2 = soma ci*ri só dos materiais (Tab.6); p.15147: 'the supply of waste products should be limited to local'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Só laboratório (argamassas, cubos 40 mm e prismas 40x40x160). Sem qualquer transporte no inventário. A Fig.15 (p.15140, vista) traça a massa volúmica endurecida SSD por mistura sem rótulos numéricos (MWTS10-FA ~2,17 e MWTS10-BFS ~2,19 g/cm3 por leitura visual); só a MWTS10 tem valor impresso no texto (2,209 g/cm3) — por isso usei a soma do traço."
+ },
+ {
+  "row_id": 3146,
+  "pdf": "LORIKA et al., 2023 - j.conbuildmat.2023.132132.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": "nao_declarado",
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 859,
+    "massa_volumica_kg_m3": 2354.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.10 (p.11), Control: cimento 360 + areia 625 + agregado intermédio 446 + grosso 714 + água 209; linha 'Total 2354' impressa"
+   },
+   {
+    "sheet_row": 860,
+    "massa_volumica_kg_m3": 2318.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.10 (p.11), Ofim-15/10: cimento 324 + areia 625 + intermédio 446 + grosso 714 + água 177,65 + Ofim 31,35; linha 'Total 2318' impressa"
+   }
+  ],
+  "citacao": "Sec.4.5.1 (p.10-11): 'A cradle-to-gate system boundary was considered (Fig. 15) ... OpenLCA ... excluding environmental impact from material transportation'; Tab.10 (p.11): inventário só com materiais e energia da betoneira (0,5 kW durante 1,18 h).",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Só laboratório (AUB). Transporte explicitamente excluído. A Sec.3.2 (p.3) imprime também a premissa de dosagem ACI 211.1 '23.5 kN/m3 initial concrete unit weight' (≈2.396 kg/m3), valor de projecto, não medido; preferi o total do traço impresso na Tab.10. Figuras não vistas: ficheiro 9,9 MB (texto pelo conector, completo até às referências)."
+ },
+ {
+  "row_id": 3218,
+  "pdf": "MANAN, 2024 - j.cscm.2024.e04053.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": "nao_declarado",
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 930,
+    "massa_volumica_kg_m3": 2439.25,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.9 (p.18, inventário LCA de 1 m3), Mix 1: cimento 306 + químico orgânico 1,25 + brita 1180 + areia 787 + água 165 = 2.439,25 kg/m3 (o traço experimental da Tab.3, p.6, soma 340+680+1020+205 = 2.245)"
+   },
+   {
+    "sheet_row": 2095,
+    "massa_volumica_kg_m3": 2439.15,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.9 (p.18), Mix 4: cimento 260 + RCP 45,9 + químico 1,25 + brita 1180 + areia 787 + água 165 = 2.439,15 kg/m3 (Tab.3, p.6: 289+680+1020+205+51+6,8 = 2.251,8)"
+   }
+  ],
+  "citacao": "Tab.7 (p.17, inventário por 1 kg de cimento/RCP): 'CO2 emission factor of diesel vehicles 78 g CO2/(t.km)' sem distância; Tab.9 (p.18): inventário de 1 m3 sem linha de transporte do betão; Sec.2.1.2 (p.5): cilindros 150x300 moldados no laboratório.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Só laboratório. O artigo tem dois traços diferentes: o experimental (Tab.3, kg/m3 implícito) e o inventário LCA (Tab.9), que dá o CO2 da Tab.10 (410,01 / 359,8 kg CO2-eq); usei a Tab.9 por ser a base do CO2 — confirmar qual o motor deve usar. O factor de transporte diesel 78 g CO2/(t.km) da Tab.7 refere-se às matérias-primas (cimento/RCP), sem distância impressa. Figuras não vistas: ficheiro 15,1 MB (texto pelo conector, completo até às referências)."
+ },
+ {
+  "row_id": 3419,
+  "pdf": "SANDANAYAKE et al., 2022a - j.jclepro.2022.130498.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": "nao_declarado",
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1001,
+    "massa_volumica_kg_m3": 2400.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Sec.3.1.2 (p.3-4): controlo 'included 355.9 kg, 733.6 kg, 1100.5 kg and 210 kg of cement, sand, coarse aggregate and water respectively per cubic meter' = 2.400,0 kg/m3"
+   },
+   {
+    "sheet_row": 1002,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sec.3.1.2 (p.4): '10 percent volume equivalent of sand is then replaced ... using shredded coffee cup waste' — massa do plástico por m3 não impressa, traço completo não disponível"
+   }
+  ],
+  "citacao": "Fig.1 (p.4, vista): caixa 'Distribution of concrete from manufacturing plant to construction site' fica FORA do rectângulo tracejado 'System Boundary'; Sec.3.1.1 (p.3): cradle-to-gate 'including acquisition of raw materials, production of the main product and transportation of materials'; Tab.2 (p.5): 'Distance 20 km' para o resíduo de copos.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Produção só à escala de laboratório (Sec.3.1.9). A distribuição do betão à obra aparece na Fig.1 mas excluída da fronteira; não diz em que forma nem com que veículo. Distâncias de matérias-primas: 20 km para o resíduo de copos de café (Tab.2), transporte dos copos usados até à fábrica (Fig.1) e Eq.8 com 'd2 the two-way distance travelled by the vehicle' (ida-e-volta, para matérias-primas); a análise de sensibilidade (Fig.4) varia a distância de transporte das matérias-primas. O texto refere também +5% de betão para desperdício na moldagem."
+ },
+ {
+  "row_id": 3598,
+  "pdf": "JUNGCLAUS et al., 2024.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": "nao_declarado",
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1059,
+    "massa_volumica_kg_m3": 2393.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.2), Type I-V, 0% SCM, 30 MPa: PC 380 + água 205 + agregado grosso 924 + fino 884 + SCM 0 = 2.393 kg/m3"
+   },
+   {
+    "sheet_row": 1060,
+    "massa_volumica_kg_m3": 2417.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.2), Type I-V, 0% SCM, 45 MPa: PC 539 + água 205 + agregado grosso 924 + fino 749 + SCM 0 = 2.417 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.2.1.2 (p.3): módulos A1-A3 e D apenas; 'this analysis only includes the materials listed in Table 1. It does not include rebar, formwork, or any other materials that may be used to transport, install, or reinforce these concrete mixtures'; Sec.3.4 (p.11): 'Only life cycle modules A1-A3 and D were included'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Traços teóricos (método do volume absoluto da PCA), sem produção nem obra; o A4 está fora do âmbito. A A1-A3 inclui 'raw material supply, transport' mas sem distâncias (factores ICE por kg, Tab.2). Vi a Fig.1 (p.6). Incoerência irrelevante para o A4: a Tab.1 diz '60 % Slag' e a Fig.1 '50% Slag'."
+ }
+]
