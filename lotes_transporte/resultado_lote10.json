@@ -1,0 +1,182 @@
+[
+ {
+  "row_id": 3752,
+  "pdf": "RO et al., 2024.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1087,
+    "massa_volumica_kg_m3": 2261.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 7 (p.7), 100% PC: 411 cimento + 516 areia + 1141 brita + 193 agua = 2261 kg/m3 (sem aditivos: 'No chemical admixtures were used')"
+   },
+   {
+    "sheet_row": 1088,
+    "massa_volumica_kg_m3": 2237.6,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 7 (p.7), 15% RHA: 349 cimento + 61.6 RHA + 493 areia + 1141 brita + 193 agua = 2237.6 kg/m3"
+   }
+  ],
+  "citacao": "p.7 Methods: dois tracos feitos em laboratorio (cilindros 100x200 mm, camara de cura); LCA com UF de 1 kg por material (Ecoinvent 3.5/GaBi, CML 2001), sem etapa de transporte do betao; Fig.2 (p.5) 'Life cycle of rice hull ash generation' termina em 'Concrete mixture', sem entrega a obra. Agregados 'locally sourced from Esparto, CA' (p.6).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "So laboratorio: nao ha obra nem transporte do betao. A ACV e por kg de material (cimento, RHA, cinza volante); o CO2 por m3 nao e publicado pelo artigo. Massa volumica por par = soma do traco da Tabela 7 (massa volumica impressa nao existe). Distancias de materias-primas: nao declaradas (so origem: RHA da central Wadham em Williams CA, cimento Lehigh Stockton CA, agregados Esparto CA)."
+ },
+ {
+  "row_id": 3947,
+  "pdf": "AMITANI, 2024.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado (camiao so para constituintes ate a central)",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1147,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sec.3.2 (p.8): mistura teorica 0% SCM 40 MPa com 255 kg PC/m3 (dmax 30 mm, SP 2%); os restantes componentes do traco desta mistura optimizada nao sao impressos"
+   },
+   {
+    "sheet_row": 1148,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sec.3.2 (p.8): mistura teorica 0% SCM 40 MPa com 412 kg PC/m3 (dmax 5 mm, sem SP); traco completo nao impresso"
+   }
+  ],
+  "citacao": "Sec.2.1 (p.3): 'cradle-to-gate impacts, i.e. from raw material acquisition through concrete batching (see figure 1)'; Fig.1 (p.4): fronteira termina em 'Manufacturing of Concrete', 'Use' e 'End of Life' fora; Tabela 2 (p.5): distancias por camiao so dos constituintes ate a central.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Estudo de modelacao (OpenConcrete), sem obra nem transporte do betao fresco a obra. Os dois pares sao misturas teoricas optimizadas para 40 MPa cujo traco completo nao e impresso (so o teor de PC); as 117 misturas da Tabela A2.1 (Meddah et al.) nao correspondem a estes pares. Densidades dos constituintes na Tabela 3, mas nao a massa volumica do betao. Distancias de materias-primas (Tabela 2, camiao, ate a central): PC 146 km, calcario/pozolana/xisto/metacaulino 43 km, silica de fumo 146 km, areia 61 km, brita 43 km, SP 1000 km, agua 0; factor de transporte por camiao 1.69e-4 kg CO2-eq/tkm (Tabela 1)."
+ },
+ {
+  "row_id": 4160,
+  "pdf": "NASR et al., 2023 - msp-2023-0046.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1210,
+    "massa_volumica_kg_m3": 2194.8,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Fig.6 (p.48), rotulo da barra Control: 2194.8 kg/m3 ('Bulk density results', ASTM C642 aos 28 d, argamassa endurecida)"
+   },
+   {
+    "sheet_row": 1211,
+    "massa_volumica_kg_m3": 2164.1,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Fig.6 (p.48), rotulo da barra GT15CWP30: 2164.1 kg/m3 (ASTM C642, 28 d)"
+   }
+  ],
+  "citacao": "Sec.2.5 (p.46): 'system boundaries ... cradle to gate', 'The targeted product is 1 m3 of mortar'; argamassa misturada em laboratorio (Sec.2.3, misturador ASTM C109); Tabela 2 so da proporcoes relativas (areia 2.75 : ligante 1 : a/l 0.30 : SP 0.0186), sem kg/m3.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "So laboratorio (argamassa de alta resistencia), sem obra nem transporte. A massa volumica impressa e a 'dry bulk density' da argamassa endurecida (ASTM C642, provetes secos em estufa a 105 C), lida nos rotulos da Fig.6 - nao e a massa volumica fresca; o traco nao esta em kg/m3, pelo que a soma do traco nao e possivel. A camada de texto da p.1 do PDF tem sobreposta a de outro artigo (Hawryluk et al., ferramentas X153CrMoV12); a imagem da p.1 confirma titulo e autores correctos. Distancias de materias-primas: nao declaradas."
+ },
+ {
+  "row_id": 4161,
+  "pdf": "LI, 2020i - ncr-2020-0011.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1212,
+    "massa_volumica_kg_m3": 2293.4,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 1 (p.46), betao com AEA: 445.0 cimento + 164.7 agua + 711.9 areia + 965.6 brita + 0.9 plastificante + 2.9 SP + 2.4 AEA = 2293.4 kg/m3"
+   },
+   {
+    "sheet_row": 1213,
+    "massa_volumica_kg_m3": 2365.26,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 1 (p.46), betao com SAP: 451.8 cimento + 204.6 agua + 722.7 areia + 980.3 brita + 0.9 plastificante + 2.9 SP + 2.06 SAP = 2365.26 kg/m3"
+   }
+  ],
+  "citacao": "p.45: traco AEA fornecido pela 'Unicon A/S, the largest Nordic supplier of ready-mixed concrete'; p.48: LCI do processo de fabrico 'to produce ready-mixed concrete (concrete mixing factory...)'; p.48: 'The cradle-to-gate approach is used in all case studies ... from the extraction of raw materials to the manufacturing of the product'; so o transporte do varao de aco e modelado (1000 km, Noruega/Suecia).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Classificado betao_fresco_betoneira pela palavra 'ready-mixed' do proprio artigo (fornecedor e processo Ecoinvent de producao de betao pronto), mas o transporte do betao a obra NAO e modelado (cradle-to-gate) e nao ha distancia nem modo. Fig.3 (p.52) por contribuinte sem barra de transporte. A unica distancia impressa e a do aco de armadura (1000 km, fabrica->mercado), nao do betao nem de materias-primas do betao."
+ },
+ {
+  "row_id": 4450,
+  "pdf": "ESPARHAM et al., 2023.pdf",
+  "o_que_se_transporta": "nao_transportado_in_situ",
+  "massa_volumica_kg_m3": 2349.0,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "'Transportation, Cargo, Truck 16-32 Metric Tons' e 'Truck >32 Metric Tons' (Ecoinvent) - transporte de materiais, nao do betao",
+  "capacidade": "16-32 t e >32 t (classes de camiao da base de dados)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1363,
+    "massa_volumica_kg_m3": 2349.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 2 (p.5), geopolimero: 410 escoria + 120 silicato + 80 NaOH + 8 SP + 31 agua + 850 brita + 850 areia = 2349 (linha 'Total 2349' impressa)"
+   },
+   {
+    "sheet_row": 1364,
+    "massa_volumica_kg_m3": 2349.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 2 (p.5), convencional: 600 OPC + 25 SP + 180 agua + 1020 brita + 524 areia = 2349 (linha 'Total 2349' impressa)"
+   }
+  ],
+  "citacao": "p.4-5: 'evaluate the impact of transportation processes in a specific area (a construction workshop located 45 km from an Isfahan iron smelter in Isfahan Metropolis)'; p.7: 'the amount of electricity consumed on-site in cubic meters of concrete'; p.5: consumo do misturador 'concrete welter mixer' 0.75 kWh; Fig.1/Fig.2 (p.4): fronteira extraccao + producao (mistura -> cura), sem entrega; Tabelas 3-4 (p.9): colunas de camiao 16-32 t e >32 t (OPC: 3.62 e 1.42 kg CO2-eq).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Classe nao_transportado_in_situ apoiada na leitura literal de 'construction workshop' + 'electricity consumed on-site' (mistura na obra); o artigo nao diz expressamente que o betao nao e transportado - rever. Os transportes por camiao das Tabelas 3/4 sao de materias-primas (nao A4). Distancias de materias-primas: escoria da siderurgia de Isfahan a 45 km do estaleiro; restantes nao declaradas. Tabela 3 (geopolimero) tem colunas desalinhadas na impressao (Total e Sodium Hydroxide ambos 172.37), impossivel atribuir com seguranca o valor do camiao no geopolimero."
+ },
+ {
+  "row_id": 4475,
+  "pdf": "VITALE et al., 2021.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1382,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 4 (p.7), S-R32.5: 450 g cimento + 225 g agua + 1350 g areia = 2025 g por amassadura EN 196-1; volume da amassadura nao impresso, sem kg/m3"
+   },
+   {
+    "sheet_row": 1390,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 4 (p.7), SC-R32.5_12.8%_2-5: 394.4 g cimento + 225 g agua + 1350 g areia + 72 g CFRP = 2041.4 g por amassadura; volume nao impresso"
+   }
+  ],
+  "citacao": "Sec.2.5.1 (p.8): 'cement mortars produced in the laboratory in accordance with UNI EN 196-1', 'The functional unit corresponds to each single specimen, having size of 40 mm x 40 mm x 160 mm'; Sec.2.5.2 (p.9): fichas Ecoinvent do cimento e areia 'modified for transportation items, deleting all entries related the globalized market'; producao na Campania.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "So laboratorio (argamassa EN 196-1), sem obra nem transporte. Massa volumica nao impressa; o traco esta em gramas por amassadura e o artigo diz que a UF e cada provete (incoerente com 2025 g num prisma de 0.000256 m3) - converter exigiria assumir o volume da amassadura, nao feito. Distancias de materias-primas: nao declaradas (so 'All production sites are located in the Campania region'). Camada de texto do PDF tem duplicacao da versao de revisao; lido o texto integral e vistas Fig.1 e Fig.9."
+ }
+]
