@@ -1,0 +1,26 @@
+[
+ {
+  "row_id": 4696,
+  "pdf": "RABIE et al., 2022.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 3093,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "GaBi database 2020 Truck, Euro 3, up to 7.5 t gross weight/2.7 t payload capacity (transporte das matérias-primas, não da argamassa)",
+  "capacidade": "2,7 t de carga útil (camião até 7,5 t brutas) — processo usado para as matérias-primas",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1691,
+    "massa_volumica_kg_m3": 3093,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.4), mistura M25 (16 M, F/B 0,6, Na2SiO3/NaOH 1): cinza volante 711 + areia 1956 + solução NaOH 213 + solução Na2SiO3 213 = 3093 kg/m3 (soma fisicamente implausível para argamassa; ver nota)"
+   }
+  ],
+  "citacao": "Sec.2.3.4 (p.4): 'The scope was to study the four processes of cradle-to-gate of the production of GPM and CM'. Tabela 4 (p.5): 'Transportation — GaBi database 2020 Truck, Euro 3, up to 7.5 t gross weight/2.7 t payload capacity'. Sec.3.5 (p.15): 'a transportation process, where the material was transported to the site where it was going to be used ... applied to all other materials used in this study, e.g., sand, alkali activators, and cement production. The production process is related to the mixing and preparation of the final mortar'. Fig.8(b) (p.14): GWP por processo (Production / Transportation / Extraction of source material). Conclusão 6: '1.0 m3 of geopolymer mortar'. Massa volúmica não impressa; densidade só da cinza volante (2,23 g/cm3) e gravidade específica da areia (2,56).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Argamassa geopolimérica feita só em laboratório (cubos 50 mm, ASTM C109), sem obra: o que se transporta = indeterminado («só laboratório»). ACV cradle-to-gate (GaBi 9.2, CML 2016), UF 1,0 m3 de argamassa. A barra «Transportation» da Fig.8(b) (~80 kg CO2-eq GPM, ~55 CM, lida no gráfico, sem rótulo numérico) é o transporte das MATÉRIAS-PRIMAS até ao local de uso/mistura, não A4 do betão — por isso a4_publicado = null. Distâncias de matérias-primas: não impressas em lado nenhum (só o processo de camião da GaBi). Massa volúmica: a soma do traço da Tabela 3 dá 3093 kg/m3, valor fisicamente implausível para uma argamassa (~2.100–2.300 esperado); a Tabela 3 parece não estar normalizada a 1 m3 (proporções 1:2,75 e F/B 0,6 coerentes, mas o total excede o volume) — usar com cautela/decidir se cai para a premissa de 2.400. Texto completo lido (17 pp., até às referências, via pdftotext do PDF descarregado; o conector também devolveu 59 mil caracteres, sem truncamento). Figuras vistas: p.14 (Fig.8) renderizada; Tabelas 3 e 4 lidas no texto em layout."
+ }
+]

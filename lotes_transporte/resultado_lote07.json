@@ -1,0 +1,290 @@
+[
+ {
+  "row_id": 4328,
+  "pdf": "ACOSTA-CALDERON et al., 2022 - fib10040031.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2297.7,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 565,
+    "massa_volumica_kg_m3": 2297.7,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 p.4 (betão de referência sem fibras): cimento 300 + brita 895 + areia unificada 567 + areia 'shaken' 384 + água 149 + redutor de água 2,70 = 2297,7 kg/m3"
+   },
+   {
+    "sheet_row": 566,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.2 só dá o traço sem fibras; a massa de sisal (1% em volume, densidade ~1100 kg/m3, p.3–4) não é impressa em kg/m3 — traço completo não impresso"
+   },
+   {
+    "sheet_row": 567,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.2 só dá o traço sem fibras; p.4 diz 'small amount that is needed (0.6 kg/m3 of concrete)' de PP mas também '1% para ambos os designs' (incoerente) — traço completo do misto PP não impresso"
+   }
+  ],
+  "citacao": "Sec.2 p.4: betão amassado em laboratório (betoneira de 30 L), provetes cilíndricos 100x200; Sec.4 LCA p.13: 'functional unit ... 1 m3 of concrete', SimaPro/Ecoinvent, sem fronteira de transporte do betão nem distância à obra; Tab.7 p.14 GWP por m3 sem desdobramento de A4.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Só laboratório: ensaio mecânico + ACV por m3 sem descrição de transporte do betão (nem das matérias-primas). Tabelas impressas sem massa volúmica do betão. Fig.9 (contribuição por processo) vista: só cimento, brita, areia, fibras, superplastificante; nenhum transporte."
+ },
+ {
+  "row_id": 4942,
+  "pdf": "ISLAM et al., 2024 - j.sust.2024.000052.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 599,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sec.2.2 p.4: só proporção em massa 1 : 2,75 : 0,485 (cimento : agregado fino : água); quantidades por m3 de argamassa não impressas; Tab.3 dá só a baridade das areias (1348/1608/1649 kg/m3), não a da argamassa"
+   },
+   {
+    "sheet_row": 600,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sec.2.2 p.4: só proporção em massa 1 : 2,75 : 0,485 (cimento : agregado fino : água); quantidades por m3 de argamassa não impressas; Tab.3 dá só a baridade das areias (1348/1608/1649 kg/m3), não a da argamassa"
+   },
+   {
+    "sheet_row": 601,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sec.2.2 p.4: só proporção em massa 1 : 2,75 : 0,485 (cimento : agregado fino : água); quantidades por m3 de argamassa não impressas; Tab.3 dá só a baridade das areias (1348/1608/1649 kg/m3), não a da argamassa"
+   }
+  ],
+  "citacao": "Sec.2.3.1 p.5–6: cradle-to-gate, FU '1m3 of cement mortar in Bangladesh'; Fig.5 p.7: fronteira A1–A3 (transporte das matérias-primas até à 'Production of masonry mortar'); 'Construction stage' (comercialização, construção) fora da fronteira; Fig.16 p.13: efeito da distância das matérias-primas, em %, sem km.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Argamassa feita só em laboratório (cubos de 2 in), não betão; A4 fora da fronteira. Distâncias de matérias-primas: 'approximate distances were derived from Google Maps' (p.5), sem valores em km impressos; RFA de um prédio demolido em Dhaka, areia grossa de Jaflong/Sylhet, areia fina do rio Rupsha/Khulna; transporte genérico do ecoinvent."
+ },
+ {
+  "row_id": 2804,
+  "pdf": "TAIT et al., 2016 - s11367-016-1045-5.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2406,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 703,
+    "massa_volumica_kg_m3": 2406,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.851 Mix 1 CEM I: PC 380 + brita 10/20 615 + brita 4/10 413 + areia 0–4 806 + plastificante 2 + água 190 = TOTAL 2406 kg/m3 (total impresso)"
+   },
+   {
+    "sheet_row": 704,
+    "massa_volumica_kg_m3": 2379,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.851 Mix 2 CEM II/B-V: PC 247 + FA 133 + 606 + 407 + 794 + 2 + 190 = TOTAL 2379 kg/m3 (total impresso)"
+   },
+   {
+    "sheet_row": 705,
+    "massa_volumica_kg_m3": 2392,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.851 Mix 3 CEM III/B: PC 114 + GGBS 266 + 610 + 410 + 800 + 2 + 190 = TOTAL 2392 kg/m3 (total impresso)"
+   }
+  ],
+  "citacao": "Sec.2.4–2.5 p.854: cradle-to-gate 'up to producing the concrete mix'; FU 1 m3; transportes só de matérias-primas até à central; Sec.2.3: mistura 'placed by pump', RC32/40 S3; Fig.2 p.850 fronteira inclui 'Mixed Load Out' na central; sem transporte central→obra.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Figuras não vistas: ficheiro 7,6 MB (>6 MB); Fig.2 lida só pelo texto extraído. Betão de central ('concrete plant', 'concrete is sold on a volumetric basis', colocado por bomba), mas o artigo não diz que é entregue em camião betoneira e o A4 está fora da fronteira — deixado indeterminado. Distâncias de matérias-primas (ida e volta, até à central, 'typical for the UK'): agregados 105 km, PC 209 km, FA 314 km, GGBS 439 km; tudo por estrada. Massa volúmica: só o TOTAL do traço da Tab.1; 'yield checked ... within ±1%' (p.855)."
+ },
+ {
+  "row_id": 3132,
+  "pdf": "OYEBISI et al., 2022.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2432,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "truck, road (só matérias-primas até ao laboratório)",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 847,
+    "massa_volumica_kg_m3": 2432,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.4 C25 V0: PLC 312 + VPA 0 + FA 885 + CA 1045 + água 190 = 2432 kg/m3 (sem adjuvantes: 'no superplasticizer was used', p.5)"
+   },
+   {
+    "sheet_row": 848,
+    "massa_volumica_kg_m3": 2437,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.4 C30 V0: PLC 352 + FA 850 + CA 1045 + água 190 = 2437 kg/m3"
+   },
+   {
+    "sheet_row": 849,
+    "massa_volumica_kg_m3": 2449,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.4 C40 V0: PLC 452 + FA 762 + CA 1045 + água 190 = 2449 kg/m3"
+   }
+  ],
+  "citacao": "Sec.3.2 p.4: 'cradle-to-site'; Fig.4 p.4: fronteira = produção e transporte de cada constituinte até ao m3 de betão; Sec.3.4.1 p.5–6: 'All materials were transported by truck', Tab.8: distâncias 'from the manufacturer/producer to the laboratory'; Tab.7: truck 0,159 kgCO2-eq/t.km; nenhum transporte do betão.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Só laboratório (cubos 150 mm); o 'site' do cradle-to-site é o laboratório (Covenant University). Distâncias de matérias-primas (Tab.8 p.6, média, até ao laboratório): PLC Ibese 62,0 km; VPA Owode-Yewa 17,0 km; areia Ota 3,5 km; brita Abeokuta 81,0 km; água 0. Pares 847/848/849 identificados como C25/C30/C40 V0 pelo fck gravado (29,1/34,5/45,9)."
+ },
+ {
+  "row_id": 3139,
+  "pdf": "GUO et al., 2023 - j.conbuildmat.2023.130441.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2500,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 855,
+    "massa_volumica_kg_m3": 2500,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Sec.4.1.1 p.5 e Fig.5: densidade endurecida aos 28 d 'decreased from 2,500 kg/m3' (Control); soma do traço Tab.4 = 2508,5"
+   },
+   {
+    "sheet_row": 856,
+    "massa_volumica_kg_m3": 2286,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Sec.4.1.1 p.5 e Fig.5: GM20 '2,286 kg/m3' (endurecida, 28 d)"
+   },
+   {
+    "sheet_row": 857,
+    "massa_volumica_kg_m3": 2178,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Sec.4.1.1 p.5 e Fig.5: L0 '2,178 kg/m3' (endurecida, 28 d)"
+   }
+  ],
+  "citacao": "Sec.2.3 p.3: misturadora Hobart de 12 L (laboratório); Sec.5.2 p.10–11 eq.(3): CO2 = soma factor x massa dos ingredientes (Tab.5/Tab.6), sem transporte de nenhum tipo.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Só laboratório; inventório só de produção dos ingredientes, sem transporte. Massa volúmica impressa é a endurecida (cubos 51 mm, BS EN 12390-7). Água do L0 difere entre Tab.4 (225,1) e Tab.6 (227,9)."
+ },
+ {
+  "row_id": 3155,
+  "pdf": "MAHDI, 2023 - j.conbuildmat.2023.133902.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": 2530,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "Truck Class 8b (só matérias-primas até à central, GreenConcrete); central 'Mixer loading (truck mix)'",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 870,
+    "massa_volumica_kg_m3": 2530,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Sec.3.1 p.6: 'fresh and hardened average densities of the control mix, W00, were measured as 2530 kg/m3 and 2350 kg/m3'; soma do traço Tab.3 = 1959"
+   },
+   {
+    "sheet_row": 871,
+    "massa_volumica_kg_m3": 1974,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.4 W06: cimento 200 + GGBFS 100 + areia 594 + cartão 6 + brita 7 mm 300 + brita 14 mm 600 + água 165 + MRWR 4 + fibra PP 5 = 1974 kg/m3 (massa volúmica só na Fig.3(c), não vista)"
+   },
+   {
+    "sheet_row": 872,
+    "massa_volumica_kg_m3": 1989,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.4 W12: 200 + 100 + 588 + 12 + 300 + 600 + 180 + 4 + 5 = 1989 kg/m3 (massa volúmica só na Fig.3(c), não vista)"
+   }
+  ],
+  "citacao": "Sec.3.3.1 p.9–10: cradle-to-gate; Sec.3.3.2.3 p.12: 'A functional unit of 10 m3 of ready-mixed concrete was selected'; Tab.4 p.12: transportes só de matérias-primas 'to concrete plant' (Truck Class 8b); 'Concrete batching plant: Mixer loading (truck mix)'; nenhum transporte central→obra.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Figuras não vistas: ficheiro 13,2 MB (>6 MB) — Fig.3(c) (massa volúmica fresca/endurecida por mistura) e Figs.13–16 só pelo texto. Classificado betão fresco de betoneira só pela UF 'ready-mixed concrete' e 'truck mix' da central; os provetes foram feitos em laboratório (pan mixer 110 L) e o A4 está fora da fronteira. A soma do traço da Tab.3 (1959 kg no W00) é muito inferior à massa volúmica fresca medida (2530) — o traço impresso não parece fechar 1 m3. Distâncias de matérias-primas: cartão centro de recuperação→processamento e processamento→'concrete factory' 100 km cada (p.11, veículo pesado Euro III / 8,7 L/100 km); restantes distâncias da GreenConcrete não impressas."
+ },
+ {
+  "row_id": 3190,
+  "pdf": "ABDELLATIEF et al., 2023 - j.cscm.2022.e01724.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2584,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 907,
+    "massa_volumica_kg_m3": 2584,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Sec.4.1 p.6: 'the density of the control mix was 2584 kg/m3' (dry density, Fig.4); soma do traço Tab.3 = 2832"
+   },
+   {
+    "sheet_row": 908,
+    "massa_volumica_kg_m3": 2832,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.5 GGBS50: fibra 156 + água 166 + SP 24 + areia 1271 + QP 180 + GGBS 450 + SF 135 + PC 450 = 2832 kg/m3; texto p.6 só dá a faixa da série Mix-I '2510–2566 kg/m3' (valor por mistura só na Fig.4, não vista)"
+   },
+   {
+    "sheet_row": 909,
+    "massa_volumica_kg_m3": 2832,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.5 FA30: 156 + 166 + 24 + 1271 + 180 + FA 270 + SF 135 + PC 630 = 2832 kg/m3; texto p.6 só dá a faixa da série Mix-II '2500–2540 kg/m3' (valor por mistura só na Fig.4, não vista)"
+   }
+  ],
+  "citacao": "Sec.3.3 p.5: misturadora de laboratório, prismas 100x100x400; Sec.4.5.1 p.14 eq.(1): CF = soma E-CO2 x massa (Tab.5), sem transporte; nenhuma fronteira nem distância.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Figuras não vistas: ficheiro 8,3 MB (>6 MB). Só laboratório; inventário só de produção dos materiais, sem transporte. A massa volúmica impressa é 'dry density'; a soma do traço (2832) é a mesma nas 3 misturas e muito superior à densidade medida (2408–2584)."
+ },
+ {
+  "row_id": 3584,
+  "pdf": "DU et al., 2022.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2508.9,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1055,
+    "massa_volumica_kg_m3": 2508.9,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.3 Control: cimento 1133,1 + areia 953,2 + HRWR 5,8 + água 260,8 + fibra de aço 156,0 = 2508,9 kg/m3 (coluna 'Note' = dosagem de saturação, não é componente)"
+   },
+   {
+    "sheet_row": 1056,
+    "massa_volumica_kg_m3": 2378.1,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.3 OSFA30: 828,8 + OSFA 163,5 + 996,1 + 5,5 + 228,2 + 156,0 = 2378,1 kg/m3"
+   },
+   {
+    "sheet_row": 1057,
+    "massa_volumica_kg_m3": 2394.9,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.3 OSFA20SL40: 470,7 + OSFA 108,3 + escória 433,3 + 990,0 + 4,2 + 232,4 + 156,0 = 2394,9 kg/m3"
+   }
+  ],
+  "citacao": "Sec.3.1 p.3: misturadora Hobart de 19 L (laboratório); Sec.5.1/5.3 p.7–9 eq.(3): CO2 = soma factor (Tab.B4) x massa (Tab.1), sem transporte.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Só laboratório; inventário só de produção dos ingredientes, sem transporte. Massa volúmica do betão não impressa. Origem das matérias-primas citada sem distâncias: escória de uma central em New Jersey, OSFA de uma central eléctrica no Tennessee."
+ }
+]

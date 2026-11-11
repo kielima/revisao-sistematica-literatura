@@ -60,8 +60,9 @@ Regra: antes de uma frente nova, **ler esta tabela, correr o §8.1, e acrescenta
 | Frente | Id F | Tarefa | Ramo | Pasta | Ficheiros partilhados que vai escrever | Estado |
 |---|---|---|---|---|---|---|
 | A4 fase 2 — extracção por estudo (a4_somavel=sim) | F40 | — | `claude/f40-a4-extracao` | `lotes_a4/` | `dados_fck` (por gravar) | extracção feita (152 estudos + 35 relidos), **gravação em espera** |
-| A4 fases 1–3 — classificação/lotes/motor | F41–F43 | #0619 | `claude/rsl-619-*` | `lotes_transporte/`, `metanalise/` | `dados_fck` (por gravar) | F41–F43 no `main`; 14 lotes sem resultados |
-| _próximo id livre_ | **F44** | | | | | |
+| A4 fases 1–3 — classificação/lotes/motor | F41–F43 | #0619 | `claude/rsl-619-*` | `lotes_transporte/`, `metanalise/` | `dados_fck` (por gravar) | F41–F43 no `main` |
+| A4 fase 2 — leitura dos 86 estudos de `lotes_transporte/` que o F40 **não** cobre (os 60 em comum ficam à espera da pergunta 1 do §10) | F44 | #1805 | `claude/rsl-1805-a4-fase2-lotes` | `lotes_transporte/` (`restante_loteNN.json`, `resultado_loteNN.json`, `aplicar.py`) | `dados_fck` cols 87–97 (por gravar; só pelo integrador) | leitura em curso em 2026-11-11 (ver F44) |
+| _próximo id livre_ | **F45** | | | | | |
 
 Ids F-nn: reservar o seguinte na tabela **antes** de o usar em commit ou em `DECISOES_METANALISE.md` (evita duas frentes com o mesmo número).
 
