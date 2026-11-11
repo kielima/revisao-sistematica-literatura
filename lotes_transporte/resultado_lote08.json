@@ -1,0 +1,176 @@
+[
+ {
+  "row_id": 4502,
+  "pdf": "ANH et al., 2023.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2322,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para o betão (o transporte modelado é o dos materiais: 'transport, freight, lorry 16–32 metric ton, EURO4 RoW', Euro 4 trucks, 30 km)",
+  "capacidade": "lorry 16–32 t (dos materiais, não do betão)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1465,
+    "massa_volumica_kg_m3": 2322,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 p.7, coluna Base: cimento 463 + cinza 0 + água 232 + agregado 1627 = 2322 kg/m3 (o texto da p.5 dá água 231 L/m3 → 2321)"
+   },
+   {
+    "sheet_row": 1466,
+    "massa_volumica_kg_m3": 2322,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 p.7, coluna 10% Ash: cimento 417 + cinza 46 + água 232 + agregado 1627 = 2322 kg/m3"
+   },
+   {
+    "sheet_row": 1467,
+    "massa_volumica_kg_m3": 2322,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 p.7, coluna 10% Ash: cimento 417 + cinza 46 + água 232 + agregado 1627 = 2322 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.4 p.8: 'The system boundary considered was cradle to gate, where only material production and transportation to the site was considered. This study uses transport distances from cradle to gate as 30 km for traditional building materials'; 'a relatively short distance for material transportation is about 30 km for all materials... Euro 4 type trucks with a payload capacity of 16–32 tons was assumed for all materials'; Tab.5: 'market for transport, freight, lorry 16–32 metric ton, EURO4 RoW — 30 km'. Sec.3.2 p.12: transporte 2,68–3,54% do GWP; ensaio em laboratório (cubos 70 mm).",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "figuras não vistas: ficheiro 8,6 MB (>6 MB), só texto. Só laboratório (cubos 70×70×70 mm, Tab.1–4). Distâncias de matérias-primas: 30 km para todos os materiais (cimento, areias/agregados), camião Euro 4 16–32 t — o artigo fala de 'transportation to the site' dos MATERIAIS, sem dizer se o betão é feito em central ou em obra; não há transporte do betão declarado, por isso distancia_betao_km null. Transporte = 2,68–3,54% do GWP (Fig.10) e 3,17–2,71% nas misturas com cinza — é transporte de materiais, não A4 do betão. O par 1465 é descrito como 'areia de rio (quartz sand)'; a Tab.1 (SR, areia redonda) daria 415+207+1735 = 2357 kg/m3, mas o controlo da LCA das cinzas ('control sample recipe', 400 kg CO2-eq) usa a formulação base da Tab.4 (agregado de quartzo britado), por isso usei 2322; confirmar qual mistura corresponde ao par 1465."
+ },
+ {
+  "row_id": 4500,
+  "pdf": "BOUKHELF et al., 2023.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1468,
+    "massa_volumica_kg_m3": 2546.8,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.8, CEM I: areia 1795 + CEM I 500 + água 250 + superplastificante 1,8 = 2546,8 kg/m3"
+   },
+   {
+    "sheet_row": 1469,
+    "massa_volumica_kg_m3": 2389.5,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.8, CEM III: areia 1638 + CEM III 500 + água 250 + superplastificante 1,5 = 2389,5 kg/m3"
+   },
+   {
+    "sheet_row": 1470,
+    "massa_volumica_kg_m3": 2512.4,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.8, CEM I + GP: areia 1761 + CEM I 250 + GP 250 + água 250 + superplastificante 1,4 = 2512,4 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.1.2 p.7–8 e Tab.3 'Mix proportions of mortar (kg/m3)'; prismas 4×4×16 cm moldados em laboratório. Sec.3.1 p.12 e Fig.1 p.2: LCA 'cradle-to-gate' só da produção dos ligantes (inventário em kg/kg de ligante, Tab.4–6); nenhuma menção a transporte do betão/argamassa, distância ou modo.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "figuras não vistas: ficheiro 6,35 MB (>6 MB), só texto. Só laboratório (argamassas). A LCA é por kg de ligante, sem transporte nenhum declarado. O artigo diz que o superplastificante foi desprezado no cálculo ('its content was neglected'); incluí-o na soma conforme o brief (sem ele: 2545 / 2388 / 2511 kg/m3). A massa volúmica global não existe (difere por par), por isso massa_volumica_kg_m3 de topo = null."
+ },
+ {
+  "row_id": 4512,
+  "pdf": "SKIBICKI et al., 2024.pdf",
+  "o_que_se_transporta": "nao_transportado_in_situ",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para o betão (A2 das matérias-primas: 'lorry > 32 metric ton, euro6', 0,068 kgCO2eq/tkm)",
+  "capacidade": "32 t (das matérias-primas, não do betão)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1480,
+    "massa_volumica_kg_m3": 2178,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.3 p.15: oven-dry density R0 = 2178 kg/m3 (aos 28 d, cubos 40 mm). Soma do traço da Tab.2: 560+160+80+1266+0+225+2,2 = 2293,2 kg/m3"
+   },
+   {
+    "sheet_row": 1482,
+    "massa_volumica_kg_m3": 1994,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.3 p.15: oven-dry density R20 = 1994 kg/m3. Soma do traço da Tab.2: 448+160+80+1266+88+225+2,2 = 2269,2 kg/m3"
+   },
+   {
+    "sheet_row": 1485,
+    "massa_volumica_kg_m3": 1736,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.3 p.15: oven-dry density R50 = 1736 kg/m3. Soma do traço da Tab.2: 280+160+80+1266+220+225+2,2 = 2233,2 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.9 p.9: LCA cobre 'A1 (raw material production), A2 (transport of raw materials to production site), and A3 (production of the 3DPC mortars)'; A3 desprezado. Sec.3.7 p.16–17: 'we assumed that the 3D printable material production occurred in Szczecin (Poland)'; Tab.5 'Cost and global warming potential of transport from raw material production to the mixing and printing location. Information module A2' (cimento 480 km, cinza 55, sílica 570, areia 70, PCE 791, fRA 0, água 0). Tab.6: GWP A1+A2 = 487,3 (R0) … 253,6 (R50) kg CO2eq/m3; sem A4.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "figuras não vistas: ficheiro 14,6 MB (>6 MB), só texto. Classifiquei 'nao_transportado_in_situ' porque a Tab.5 trata a mistura e a impressão como o MESMO local ('mixing and printing location', Szczecin) e não há módulo A4 — mas o caso é hipotético e o ensaio é de laboratório (colunas impressas no laboratório da ZUT); por confirmar (alternativa: 'indeterminado'). Massa volúmica impressa é a SECA EM ESTUFA aos 28 d (Tab.3), bem abaixo da soma do traço (2293/2269/2233 kg/m3, citada por par) — se o motor preferir a massa fresca, usar a soma do traço. Distâncias de matérias-primas (A2): cimento 480 km (Chorula), cinza volante 55 km (Dolna Odra), sílica ativa 570 km (Warszawa), areia 70 km (Bielinek), PCE 791 km (Stuttgart), fRA e água 0 km; camião >32 t Euro 6. Sensibilidade (Fig.14) é sobre distância do fRA, não do betão."
+ },
+ {
+  "row_id": 4537,
+  "pdf": "LUO et al., 2023.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1500,
+    "massa_volumica_kg_m3": 2400.1,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 p.4, CDWGC60: FA 368 + CDWC 92 + brita 1200 + areia 540 + silicato de sódio 133,4 + NaOH 21,63 + água 45,07 = 2400,1 kg/m3"
+   },
+   {
+    "sheet_row": 1501,
+    "massa_volumica_kg_m3": 2400.1,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 p.4, CDWGC20: FA 368 + CDWC 92 + brita 1200 + areia 540 + silicato de sódio 133,4 + NaOH 21,63 + água 45,07 = 2400,1 kg/m3"
+   },
+   {
+    "sheet_row": 1502,
+    "massa_volumica_kg_m3": 2245.99,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.5 p.4, CDWGP3 (pasta): FA 1226,48 + CDWC 306,62 + silicato de sódio 444,60 + NaOH 72,09 + CaO 45,99 + água 150,21 = 2245,99 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.3.1 p.5: provetes de laboratório (cubos 100 mm; prismas 40×40×160 mm). Sec.3.4 p.10 e Tab.7 (vista na imagem da p.10): 'CO2 emissions of producing 1 m3 CDWGC or CDWGP' com colunas Raw Materials Production / Raw Materials Transportation / Concrete Preparation — transporte das matérias-primas 28,72 (CDWGC) e 76,24–77,58 (CDWGP) kg CO2eq/m3; nenhum transporte do betão à obra. eBalance + base CLCD.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Texto completo lido por pdftotext do ficheiro descarregado; Tab.7 vista em imagem (p.10). Só laboratório. O único transporte é 'Raw Materials Transportation' (A2: 28,72 kg CO2eq/m3 no betão, 76,24–77,58 na pasta), sem distâncias nem modo impressos — não é A4. A Tab.4 dá a molaridade do NaOH (12 mol/L) como coluna à parte, não somada. A soma do betão dá 2400,1 kg/m3 por coincidência com a premissa de 2.400 — é mesmo a soma do traço impresso. O par 1502 é pasta (sem agregado), por isso 2246 kg/m3."
+ },
+ {
+  "row_id": 2681,
+  "pdf": "HABIBI et al., 2024 - j.rser.2023.114237.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para o betão (SF e GGBFS 'come via lorries'; distâncias dos materiais só na Fig.4, não vista)",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 130,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.2 p.3, Conventional: areia 1031 + brita 844 + cimento 350 impressos; a agua so como w/b = 0,5 (nao impressa em kg) — soma incompleta 2225 kg/m3, nao usada (regra: nao deduzir) [revisao do integrador 2026-11-11]"
+   },
+   {
+    "sheet_row": 131,
+    "massa_volumica_kg_m3": 2370,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Sec.4.3 p.5: 'In every cycle, 948 kg of concrete is landfilled, while 1422 kg is recycled' por m3 de betao circular -> 948 + 1422 = 2370 kg/m3 impressos pelos autores; coerente com a Tab.2 (1031 + 814 + 245 + 35 + 70 = 2195 sem agua) [revisao do integrador 2026-11-11]"
+   }
+  ],
+  "citacao": "Sec.4.4 p.5: 'Both, conventional and circular mixes are produced in Tehran province, Iran and transportation distances are identified using google map. In the conventional concrete scenario, aggregates of Abali mine ... are transported to a target location in the center of Tehran. Cement is manufactured at Abyek in Qazvin province and transported to the target location which presented in Fig. 4... SF and GGBFS come via lorries from Semnan and Isfahan Provinces'. Sec.5.1: transporte é o 2.º maior contribuinte ('truck fuel emissions and long transportation distances'), sobretudo agregados. GWP 439/354 (fim de vida) e 380/297 kg CO2eq/m3 (cradle-to-gate), Sec.8.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "figuras não vistas: ficheiro 7,9 MB (>6 MB), só texto — as distâncias estão só na Fig.4 ('Transportation distance of binder materials and aggregates and locations of concrete recycling plant') e as fronteiras na Fig.3, ambas não vistas. Distâncias de matérias-primas: agregados da mina de Abali, cimento de Abyek (Qazvin), SF de Semnan, GGBFS de Isfahan, todos até um 'target location in the center of Tehran' (valores em km só na Fig.4). O texto não diz se o 'target location' é central de betão ou obra, nem que o betão é transportado; por isso indeterminado e distância null — ver a Fig.4 pode esclarecer. Agua nao impressa em kg: a soma do traco da mistura convencional fica nao_disponivel; a circular usa os 948 + 1422 kg/m3 impressos na Sec.4.3."
+ }
+]

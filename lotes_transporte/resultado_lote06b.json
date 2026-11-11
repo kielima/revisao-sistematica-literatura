@@ -1,0 +1,182 @@
+[
+ {
+  "row_id": 2582,
+  "pdf": "ASSUNCAO, 2020.pdf",
+  "o_que_se_transporta": "pre_mistura_seca",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado (sem transporte da argamassa ao uso; so transporte de materias-primas a fabrica de argamassa)",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 3,
+    "massa_volumica_kg_m3": 1950,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tabela 4 (p.66), Massa especifica em estado fresco, Traco B-30: 1,950E+03 kg/m3"
+   },
+   {
+    "sheet_row": 80,
+    "massa_volumica_kg_m3": 1996,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tabela 4 (p.66), Massa especifica em estado fresco, Traco C: 1,996E+03 kg/m3"
+   },
+   {
+    "sheet_row": 81,
+    "massa_volumica_kg_m3": 1998,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tabela 4 (p.66), Massa especifica em estado fresco, Traco B-15: 1,998E+03 kg/m3"
+   }
+  ],
+  "citacao": "Dissertacao UNESP Ilha Solteira (Camila Cassola Assuncao, 2020), confirmada pela folha de rosto. p.52 (3.1.2.1): 'sistema cradle to gate'; 'cadeia principal de argamassa industrial, ... conducao para empacotamento e empacotamento' (Fig.13, p.53: fronteira termina em 'Empacotamento' -> 'Argamassa'). p.62: transporte cimento ate a fabrica de argamassa 500 km, carga 32 t; areia 70 km/45 t; CBC 153 km (usina -> fabrica de cimento), 32 t. Fig.21 (p.63): 'Uso da argamassa' e 'descarte' ligados sem processo de transporte; p.62: 'processos de uso e descarte ... nao influenciam nos resultados finais para o sistema berco ao portao'. Tabela 4 p.66: massa especifica em estado fresco por traco. Tabela 5 p.67: so kg CO2-eq/(m3.MPa), sem A4.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Texto completo obtido por download_file_content + pdftotext local (99 p., ~199 mil caracteres, ate as referencias) - sem truncagem do conector. Argamassa, nao betao. 'pre_mistura_seca' porque o sistema descreve argamassa industrial empacotada (Fig.13); contradicao: o traco inclui agua (125 g/kg, Fig.16) e a massa volumica e em estado fresco, e os provetes sao de laboratorio (Fazzan 2017). Fronteira berco-ao-portao: nada transportado ate a obra; sem distancia nem A4. Distancias de materias-primas: cimento ARI -> fabrica de argamassa 500 km (32 t, Paula 2016); areia 70 km (45 t, Souza 2012; GaBi 'caminhao 7.5-16t'); CBC usina -> fabrica de cimento 153 km (32 t, Fairbairn 2010); transporte ao fabrico do cimento ARI: Ecoinvent, caminhoes 3,5-20 t. Massa volumica global do estudo varia por traco: ver por_par (1.950-1.998 kg/m3); campo massa_volumica_kg_m3 deixado null por diferir entre pares."
+ },
+ {
+  "row_id": 2749,
+  "pdf": "MIR et al., 2022.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para o geopolimero (Table 2: so transporte de materias-primas: CDW e SCM por 'Truck', ativadores por 'Pickup truck')",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 182,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Table 3 (p.4) Phase I: RBW 226 + RCT 904 + SS 249 + SH 510 = 1.889 kg/m3, mas a agua (W, na legenda e na Fig.3) nao tem coluna; soma incompleta"
+   },
+   {
+    "sheet_row": 183,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Table 3 (p.4) Phase II: RBW 117 + RCT 527 + FC 527 + SS 340 + SH 358 = 1.869 kg/m3, sem agua; soma incompleta"
+   },
+   {
+    "sheet_row": 184,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Table 3 (p.4) Phase III = Phase I: 1.889 kg/m3 sem agua; soma incompleta"
+   }
+  ],
+  "citacao": "p.2 'a cradle-to-gate LCA analysis following ISO 14040'; Fig.3 (p.4) fronteira termina em '1 m3 of product' apos a cura, sem transporte de saida; p.3 'Diesel is used as fuel for vehicles transporting the materials from the relevant site to the laboratory'; Table 2 (p.4) 'Transportation inventory data for material collection'; Table 6 (p.5) GWP 1800.98/1631.90/1811.14 kg CO2-eq por m3, sem A4.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Texto completo por download + pdftotext (8 p., ate referencias). So laboratorio (dados de Mahmoodi et al. 2021) + cenario industrial; sem obra nem entrega do produto. Distancias de materias-primas: CDW 20 km (truck, 10 t, 22 L/100 km), ativadores alcalinos 30 km (pickup, 0,5 t, 15 L/100 km), SCM 10 km (truck, 10 t) - todas ao laboratorio. Table 3 nao tem coluna de agua embora a legenda liste 'W: Water' e a Fig.3 mostre 'Water' como entrada; L/S = 0,3 fixo (p.2); nao ficou claro se SS/SH sao solucoes. Por isso massa volumica = nao_disponivel (soma das colunas impressas so na citacao)."
+ },
+ {
+  "row_id": 2806,
+  "pdf": "TEPLY et al., 2018.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 236,
+    "massa_volumica_kg_m3": 2272,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Table 1 (p.5) Concrete A: CEM I 389 + agregado 0-4 812 + agregado 8-15 910 + agua 161 = 2.272 kg/m3"
+   },
+   {
+    "sheet_row": 237,
+    "massa_volumica_kg_m3": 2388,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Table 1 (p.5) Concrete B: CEM I 290 + 812 + 910 + cinza volante 194 + agua 182 = 2.388 kg/m3"
+   },
+   {
+    "sheet_row": 238,
+    "massa_volumica_kg_m3": 2366,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Table 1 (p.5) Concrete C: CEM I 290 + 812 + 910 + escoria 194 + agua 160 = 2.366 kg/m3"
+   }
+  ],
+  "citacao": "Table 1 (p.5) 'Composition of mixtures' [kg/m3]; Table 2 (p.5-6) 'Carbon imprint': so cimento, escoria, cinza volante e agregados (factores por t), 'Total kg CO2/m3 of concrete 318 312 344' - nenhum transporte. Nenhuma mencao a central, obra, betoneira ou transporte do betao no artigo (7 p.).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Exemplo ilustrativo de metodologia (kTU), sem fronteira declarada nem obra; nada indica o que se transporta -> indeterminado. Massa volumica difere por par (ver por_par). Sem figuras no artigo; tabelas vistas renderizadas (p.5)."
+ },
+ {
+  "row_id": 3360,
+  "pdf": "TEH et al., 2017b.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado (so 'road transport' agregado nas CFIs, como despesa media nacional em transporte do sector)",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 394,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "traco remetido para a Table A2 do material suplementar (SI), nao impresso no artigo"
+   },
+   {
+    "sheet_row": 395,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "traco remetido para a Table A2 do SI, nao impresso no artigo"
+   },
+   {
+    "sheet_row": 396,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "'the same concrete mix-design for 1 m3 of concrete ... (refer to Table A2 in the SI)' (p.316); nao impresso no artigo"
+   }
+  ],
+  "citacao": "p.313: o sector IO original e 'Ready-mixed concrete and mortar', desagregado em nove tipos de betao; CFIs 'equivalent to cradle-to-shelf LCIs'; p.315: 'life-cycle GHGE from cradle to point-of-sale'; p.318 (4. Assumptions): 'The system boundary for this study is cradle-to-gate'; 'Road transport distance is calculated based on the national average distance. The IO table shows the national average spending of the concrete and cement industries on transport'. Fig.5 (p.315): categoria 'Road Transport' dentro da CFI, sem separar A4. GPC 90% FA 345, GPC 90% GGBFS 291 kg CO2-eq/m3.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Texto completo por download + pdftotext (9 p.). Fronteira contraditoria: 'cradle to point-of-sale' (p.315) vs 'cradle-to-gate' (p.318). Betao modelado como produto do sector IO 'Ready-mixed concrete and mortar', mas o artigo nao diz que se entrega/transporta betao fresco a obra -> indeterminado (o coordenador pode considerar betao_fresco_betoneira pelo nome do sector). Transporte rodoviario incluido como media nacional de despesa, sem km impressos; parcela 'Road transport' ~5% das CFIs dos GPC (p.317), sem distinguir materias-primas de entrega. Traco e precos so no SI (nao disponivel no PDF)."
+ },
+ {
+  "row_id": 3367,
+  "pdf": "GUTIERREZA, 2017.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 397,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Table 6 (p.468) mistura 1 PC: so binder 400 kg e w/b 0,44; agregados nao quantificados"
+   },
+   {
+    "sheet_row": 398,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Table 6 mistura 2 P-35: binder 400 kg, w/b 0,44; agregados nao quantificados"
+   },
+   {
+    "sheet_row": 399,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Table 6 mistura 3 PP-25: binder 350 kg, w/b 0,46; agregados nao quantificados"
+   }
+  ],
+  "citacao": "p.468: 'the scope of this study comprises the cement production stages in a cradle-to-gate perspective'; Fig.3 (p.469): fluxo termina em 'Cement packaging and storage'; p.468: minerais 'extracted from quarries in the vicinities of the cement plant'; Table 9 (p.470): GWP por kg de cimento (1,08/1,02/0,86). Table 6 (p.468): betao desenhado (ACI 211.1) so com ligante e w/b.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Texto completo por download + pdftotext (11 p., ate referencias). ACV de CIMENTO (Cementos Cienfuegos, Cuba), nao de betao; o betao e so uma dosagem teorica para estimar resistencia/durabilidade; nada sobre central, obra ou transporte. Unica referencia a distancia: pedreiras 'in the vicinities of the cement plant' (sem km). Massa volumica nao disponivel: Table 6 so da ligante e w/b, sem agregados."
+ }
+]
