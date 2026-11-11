@@ -1,0 +1,146 @@
+[
+ {
+  "row_id": 3188,
+  "pdf": "BEDIAKO, 2022 - j.cscm.2022.e01679.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2327.2,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado (só transporte das matérias-primas por truck)",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 901,
+    "massa_volumica_kg_m3": 2327.2,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 p.4, coluna 50%: cimento 206 + agregado grosso 963 + finos 769 + pozolana 206 + água 177 + adjuvante 6,2 = 2.327,2 kg/m3"
+   }
+  ],
+  "citacao": "p.5 §2.4: «In this work the boundary considered was cradle-to-gate ... until the concrete is ready to leave the final gate»; p.6: «The concrete was considered to occur in CSIR-Building and Road Research Institute, Kumasi» (central/laboratório de betonagem); Tab.3: «Transportation by truck 0.203 kgCO2eq/t-km» (Gursel and Horvath) aplicado só aos constituintes; Tab.4 coluna Transportation 112,523 kg CO2eq/m3 = transporte das matérias-primas (cimento 53,389; agregado grosso 5,278; finos 3,715; adjuvante 50,141), não A4.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Só laboratório (betoneira de ~0,5 m3, cubos de 100 mm); fronteira cradle-to-gate; não há transporte do betão à obra nem A4. Distâncias de matérias-primas (p.6): cimento de Tema 263 km por truck; agregado grosso de Asonomaso 26 km; areia de Juaben 18,3 km; superplastificante de Adjirigano/Accra 247 km — até ao local de betonagem. Figura vista: Fig.5 p.8 (emissões por constituinte, sem transporte do betão). Não há figura de fronteira do sistema."
+ },
+ {
+  "row_id": 3216,
+  "pdf": "DACIC, 2024 - j.cscm.2024.e03910.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2281.4,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para o betão (matérias-primas: «lorry, unspecified» Ecoinvent, 0,130 kgCO2eq/tkm)",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 928,
+    "massa_volumica_kg_m3": 2281.4,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.3, C40F10-0: OPC 416 + WPP 0 + RCP 0 + água 166 + CRA 388 + CNA 622 + FRA 58 + FNA 630 + SP 1,4 = 2.281,4 kg/m3"
+   }
+  ],
+  "citacao": "p.4 §2.2.1: «the system boundary adopted for concrete is cradle-to-gate and the functional unit adopted will be 1 m3 of concrete» (A1-A3); p.4 §2.2.2: distâncias das matérias-primas até às centrais de betão de 7 cidades húngaras; mistura na central excluída; p.9 §3.1.4: «lorry, unspecified» 1,30×10−1 kgCO2eq/tkm (Ecoinvent); Tab.7 p.9 distâncias; Fig.5 p.11 «Contribution of transportation» = transporte das matérias-primas (~6–7% do GWP).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Betão produzido em laboratório (agregados reciclados britados em laboratório, cubos 150 mm); LCA cradle-to-gate até à central, sem transporte central→obra nem A4. Distâncias de matérias-primas até à central (Tab.7, cenário médio/Győr/Szeged/Pécs/Debrecen): NA 30/15/60/45/30 km; RA+RCP 80/80/115/150/75 km; OPC 185/170/170/85/275 km; WPP 245/300/265/365/105 km. Tab.6: NA média 32,47 km e OPC média 183,36 km. A tabela de processos do CRA (Tab.4) menciona, para uma fonte de literatura (Portugal [3]), «Transportation from concrete plant to construction site», mas isso é inventário de outro estudo, não deste. Figuras vistas: pp.10–11 (Figs.4–5). Não vista: Fig.2/3 (mapas)."
+ },
+ {
+  "row_id": 3245,
+  "pdf": "KANG et al., 2024 - j.dibe.2024.100342.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 941,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.4: traço só em proporções relativas à massa de cimento (R_UHPC: cimento 1, SF 0,25, pó de sílica 0,25, escória 1,34, água 0,2, SP 0,068, fibra de aço 2% vol.); sem kg/m3 nem massa volúmica impressa"
+   }
+  ],
+  "citacao": "§3.1: «a comparison of the carbon emissions associated with fine aggregates (silica sand and REOS), including aggregates’ production process ... The dataset considered the entire cradle-to-gate process for silica sand production» (SimaPro 9.3, Ecoinvent 3, IMPACT World+); §4.1: UHPC com sílica 862 kg/m3 CO2, com REOS 824 kg/m3; §2.2: misturador planetário, moldes cúbicos e dog-bone (só laboratório).",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Só laboratório. Texto lido inteiro pelo conector (73 mil caracteres, até às referências). Figuras não vistas: ficheiro 13,1 MB (> 6 MB) — a Fig.5 (fluxograma do indicador de alterações climáticas) pode mostrar processos de transporte, mas não foi vista. O texto não menciona transporte do betão nem distâncias."
+ },
+ {
+  "row_id": 3731,
+  "pdf": "BAYKARA, 2024.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 3130,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1083,
+    "massa_volumica_kg_m3": 3130,
+    "massa_volumica_origem": "impressa",
+    "citacao": "p.2 Environmental Modeling: «The functional unit for the system was set as 3130 kg of cement composite, which was equivalent to 1 m3 of cement composite mortar» [SUSPEITO: valor implausivel, ver nota do estudo]"
+   }
+  ],
+  "citacao": "p.2: «The system was modeled from a cradle-to-gate perspective, with a focus on the impact of the materials used in the cement composite. The functional unit ... 3130 kg of cement composite, which was equivalent to 1 m3»; Tab.2 p.3 (C0): cimento HE 740 g + areia Ottawa 2035 g + água 355 g = 3130 g por amassadura.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Argamassa só de laboratório; cradle-to-gate, sem transporte nem A4. ATENÇÃO à massa volúmica: os 3.130 kg/m3 são impressos pelos autores como equivalentes a 1 m3, mas coincidem com a massa da amassadura em gramas (740+2035+355 = 3.130 g) ×1000 — fisicamente implausível para uma argamassa (seria >3.000 kg/m3); registada como impressa, por verificar. Figuras não vistas: ficheiro 6,17 MB (> 6 MB); texto lido inteiro pelo conector (56 mil caracteres, até às referências)."
+ },
+ {
+  "row_id": 3924,
+  "pdf": "PAVLIK, 2019.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2031,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1142,
+    "massa_volumica_kg_m3": 2031,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.1 p.3: RM ρb = 2031 kg/m3 (massa volúmica aparente seca, EN 1015-10, provetes secos em vácuo a 60 °C)"
+   }
+  ],
+  "citacao": "p.3 §3: «The range of the analysis was reduced to the intermediate stage of material processing, i.e., ... production and processing of the binders ... and mixing of the composite – mortar»; Fig.3 p.4: «Mortars production – outputs and inputs (per 1m3 of composite)»: raw material input 46,6 kg CO2, mixture formation 30,3 kg, composite production 10,6 kg; Fig.4: RM 253 kg CO2/m3.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Argamassa de laboratório (prismas 40×40×160 mm); fronteira até à mistura, sem transporte do material nem A4. A massa volúmica impressa é a aparente SECA do endurecido (não fresca). O bloco «Raw material input» da Fig.3 não diz se inclui transporte de matérias-primas. Figuras vistas: pp.3–4 (Figs.1–4)."
+ },
+ {
+  "row_id": 4026,
+  "pdf": "TEH et al., 2018 - s40008-018-0112-4.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para o betão («Road Transport» aparece como componente cradle-to-gate na Fig.8, sem especificar o quê)",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1163,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traço não impresso: §4 «The same concrete mix-designs for 1 m3 of concrete used in Teh et al. (2017, Supplementary Information, Table A.2) are applied»"
+   }
+  ],
+  "citacao": "§4 p.13: CFI «denote the cradle-to-gate life cycle amount of GHGE»; §3.1.2 p.8: os betões são desagregação do sector IO «Ready-mixed concrete and mortar» («100% OPC 50 MPa concrete», «90% FA/10% GGBFS Geopolymer 50 MPa concrete»); Fig.8 p.17: componentes incluem «Road Transport»; §4.2.1 p.18: «For NA, the IO system uses an average distance calculation to account for local road transportation».",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Modelo MU-hLCA (process+input-output) à escala da economia australiana, cradle-to-gate; não há obra nem transporte central→obra. O sector modelado chama-se «Ready-mixed concrete and mortar», o que sugere betão pronto, mas o artigo não diz que o betão é transportado à obra — deixado indeterminado. O transporte rodoviário da Fig.8 é de matérias-primas (NA por distância média no IO; GGBFS 80% importada do Japão, transporte internacional e local), sem distâncias impressas. Traço só no SI de Teh et al. 2017 (não impresso). Figuras vistas: pp.10 (Figs.3–4, MFA) e 17 (Fig.8)."
+ }
+]

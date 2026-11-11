@@ -1,0 +1,170 @@
+[
+ {
+  "row_id": 2736,
+  "pdf": "MANAN et al., 2025.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2245,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 170,
+    "massa_volumica_kg_m3": 2245,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 1 (p.4) 'Mix proportions of M30 grade concrete': Mix 4 = OPC 289 + F.A 680 + C.A 1020 + Water 205 + RCP 51 = 2245 kg/m3"
+   }
+  ],
+  "citacao": "Tabela 1 (p.4) 'Mix proportions of M30 grade concrete': Mix 4 = OPC 289 + F.A 680 + C.A 1020 + Water 205 + RCP 51 = 2245 kg/m3. Transporte do betao: nenhuma distancia, modo ou fronteira A4 no texto; LCA no OpenLCA/Ecoinvent com inventario generico de 'Concrete production 25-30 MPa' (Tabela 2: cimento 306, brita 1180, areia 787, agua 165 kg; diesel 'burned in building machine' 15,6 MJ) - processo de producao, sem modulo de transporte a obra. Provetes cilindricos ASTM C39 feitos em laboratorio (p.4).",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "So laboratorio (traco M30, provetes ASTM C39) + inventario generico Ecoinvent; o artigo nao diz o que e entregue nem como. Figuras nao vistas: ficheiro 8,0 MB (> 6 MB, regra do brief); a Fig.5 (fronteira do sistema LCI) nao foi inspeccionada - o texto nao menciona transporte do betao. O inventario Ecoinvent da Tabela 2 soma ~2438 kg (cimento+brita+areia+agua) mas e o processo generico, nao o Mix 4. A4 nao publicado."
+ },
+ {
+  "row_id": 2747,
+  "pdf": "MIR et al., 2022b.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 1823.5,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 180,
+    "massa_volumica_kg_m3": 1823.5,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 6 (p.6) 'Inventory data to produce 1 m3 of OPC binder' (de Wei et al., 2010): OPC-32.5 1215,7 + Tap water 607,8 = 1823,5 kg/m3 (pasta de cimento)"
+   }
+  ],
+  "citacao": "Tabela 6 (p.6) 'Inventory data to produce 1 m3 of OPC binder' (de Wei et al., 2010): OPC-32.5 1215,7 + Tap water 607,8 = 1823,5 kg/m3 (pasta de cimento). Fronteira: cradle-to-gate, UF 1 m3 de ligante geopolimero para impressao 3D (p.3, Fig.4); o OPC de referencia e so ligante (cimento+agua) modelado no GaBi. Sem transporte do produto a obra.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "So laboratorio (impressao 3D a escala laboratorial, Turquia); o par e a pasta OPC 32.5 de referencia (cimento+agua, sem agregados), por isso a massa e da pasta, nao de betao. Distancias de materias-primas: CDW por camiao 15 km (10 t, diesel 20 L/100 km) e activadores alcalinos por pickup 10 km (0,5 t) ate ao laboratorio (Tabela 3, p.5; Fig.4 'Transport (Truck)' 30,5 MJ/m3) - so para o geopolimero, nao para o OPC. Fig.4 (fronteira) vista: 3DP-Polymer -> '1 m3 of product', sem etapa de entrega. A4 nao publicado."
+ },
+ {
+  "row_id": 2785,
+  "pdf": "SANCHEZ-PANTOJA et al., 2023.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": 2300,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 226,
+    "massa_volumica_kg_m3": 2300,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Sec.2.3.4 (p.9) 'Concrete weight (kg/m3): According to data from EHE-08 [34], the average density of mass concrete is 2300 kg/m3'; 2.3.5: 'the amount of aggregate is deducted from the total weight of the mix subtracting the amounts of water, cement, and admixtures'"
+   }
+  ],
+  "citacao": "Titulo/resumo: 'ready-mixed concrete in Spain', UF 'declared unit is 1 m3 of each ready-mix concrete combination' (p.10). Sec.2.3.4 (p.9) 'Concrete weight (kg/m3): According to data from EHE-08 [34], the average density of mass concrete is 2300 kg/m3'; 2.3.5: 'the amount of aggregate is deducted from the total weight of the mix subtracting the amounts of water, cement, and admixtures'. Fronteira cradle-to-gate A1-A3 (p.5, Fig.1 vista: A1 materias-primas, A2 'Transport' das materias-primas, A3 'Central mix concrete' -> 'Ready mixed concretes'); A4 fora. Exclui 'concrete transport vehicles' (p.5).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Betao pronto (ready-mix) de central, mas o transporte a obra (A4) nao esta na fronteira; nenhuma distancia central->obra. A massa 2300 kg/m3 e a massa volumica media do EHE-08 usada pelos autores como peso total de cada traco (os agregados obtem-se por diferenca), portanto vale igual para todas as 1505 combinacoes. Distancias de materias-primas (A2): agregados 32,6 km, cimentos 134,5 km, acos 304,8 km (medias ANDECE, sec.3.4 p.12-13); transporte de agregados modelado com Ecoinvent 'Transport, freight, lorry 16-32 metric ton, EURO4 RER' (Tabela 3). Documento lido: versao post-print do repositorio UPV (48 p.). Nota do integrador: os 2.300 kg/m3 sao a premissa do proprio artigo (EHE-08), nao medida — impressa, mas de norma."
+ },
+ {
+  "row_id": 3066,
+  "pdf": "GRENGG, 2024.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 3038,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 304,
+    "massa_volumica_kg_m3": 3038,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 2 (p.3): A-SA = MK 303 + escoria 409 + waterglass 455 + agregado de escoria SA 1871 = 3038 kg/m3 (sem oleo) [SUSPEITO: valor implausivel, ver nota do estudo]"
+   }
+  ],
+  "citacao": "Tabela 2 (p.3): A-SA = MK 303 + escoria 409 + waterglass 455 + agregado de escoria SA 1871 = 3038 kg/m3 (sem oleo). Argamassas em prismas 40x40x160 mm feitas em misturador de laboratorio Hobart (sec.2.2 p.2); GWP com ecoinvent + EPD (sec.2.3.5 p.4), sem mencao a transporte do produto.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "So laboratorio. O par sheet_row 304 tem fck 94,4 MPa e CO2 326 da mistura A-SA (sem oleo, segundo as observacoes de dados_fck), embora o rotulo 'material' diga 'AAM-oleo'; usei o traco A-SA. Se fosse A-SA-O: 289+433+433+1783+43 = 2981 kg/m3. A soma alta reflecte o agregado de escoria BOF (3,88 g/cm3). O waterglass entra como solucao (inclui agua). A Tabela A2/A3 (inventario e traco do CEM I de referencia) esta em material suplementar nao incluido no PDF. Figuras nao vistas: ficheiro 6,5 MB (> 6 MB, regra do brief). A4 nao publicado. SUSPEITO: 3.038 kg/m3 e fisicamente implausivel para uma argamassa; a Tab.2 pode nao estar normalizada a 1 m3 — nao usar sem decisao da Kie (motor: tratar como nao_disponivel e aplicar a premissa F43)"
+ },
+ {
+  "row_id": 3091,
+  "pdf": "SHARMA et al., 2023.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2357.5,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 306,
+    "massa_volumica_kg_m3": 2357.5,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 11 (p.17) 'LCA inventory analysis for optimum mix': cimento 325 + agua 156 + NCA 812,5 + NFA 642 + RCA 255 = 2190,5 kg; + IS 167 kg (massa da linha de transporte 'IS ... 0.167 ton') = 2357,5 kg/m3"
+   }
+  ],
+  "citacao": "Tabela 11 (p.17) 'LCA inventory analysis for optimum mix': cimento 325 + agua 156 + NCA 812,5 + NFA 642 + RCA 255 = 2190,5 kg; + IS 167 kg (massa da linha de transporte 'IS ... 0.167 ton') = 2357,5 kg/m3. Fronteira 'gate-to-gate' (sec.3.8 p.5, Fig.4); UF 'one cubic meter of the concrete'. Transporte so das materias-primas ate ao 'concrete production site' (p.15).",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "So laboratorio (provetes de 100 mm; RCA de provetes velhos do laboratorio). Distancias de materias-primas ate ao local de producao do betao (Tabelas 9-11): agregados 28 km por 'Idemat2021 Tractor (240 pk)'; cimento 5 km por 'Truck trailer 24 tons net'; escoria IS 50 km por 'Truck trailer 24 tons net'. Nenhum transporte do betao a obra. Contradicao: a Tabela 1 da para R25I20L cimento 325 + agua 155 + NCA 270 + RCA 810 + NFA 176 + IS 702 = 2438 kg/m3, diferente do inventario da Tabela 11 (NCA 812,5 / RCA 255 / NFA 642) usado para o CO2 307,7361 do par; usei a Tabela 11 por ser o traco da ACV. A IS nao aparece nas linhas de materiais da Tabela 11 (carga ambiental zero), so na de transporte (0,167 t). Figuras nao vistas: ficheiro 8,1 MB (> 6 MB, regra do brief). A4 nao publicado."
+ },
+ {
+  "row_id": 4578,
+  "pdf": "KANAGARAJ et al., 2022 - j.jclepro.2022.134172.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2520.8,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 574,
+    "massa_volumica_kg_m3": 2520.8,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.5): 12SSW100 = FA 200 + GGBFS 200 + SSW 650 + CA 1250 + SH 88,32 + SS 132,48 = 2520,8 kg/m3"
+   }
+  ],
+  "citacao": "Tabela 3 (p.5): 12SSW100 = FA 200 + GGBFS 200 + SSW 650 + CA 1250 + SH 88,32 + SS 132,48 = 2520,8 kg/m3. Sec.7.3 (p.12): 'CO2-e for material transportation is not involved in the current study'; sec.7.2: 'This work does not involve energy requirements and cost-efficiency analysis for material transportation'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "So laboratorio (cilindros 150x300 mm). A soma do traco (2521) nao inclui a 'additional water' acrescentada a todas as misturas (sec.3.1, quantidade nao impressa) e e superior as massas volumicas medidas: o texto da 2136,7-1750,28 kg/m3 para todas as misturas aos 28 d (sec.5.4.1) e 2179,6-1806,1 kg/m3 para 8-16 M (sec.5.3.1); CC 12SSW00 = 2158,1 kg/m3 impressa. A massa volumica medida da 12SSW100 so esta nas Figs.6/11, nao vistas (ficheiro 6,3 MB > 6 MB, regra do brief) - vale a pena ler a Fig.6 se se quiser a impressa por par. Precast so mencionado como generalidade da introducao. A4 nao publicado."
+ },
+ {
+  "row_id": 3035,
+  "pdf": "SANDANAYAKE et al., 2022 - j.buildenv.2021.108702.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 814,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Nenhum traco por m3 impresso: 'Due to the commercial sensitivity of the geopolymer production process, the authors do not have permission to share ... the quantities of alkalis used in the mix design' (sec.2, p.2); nem massa volumica"
+   }
+  ],
+  "citacao": "Nenhum traco por m3 impresso: 'Due to the commercial sensitivity of the geopolymer production process, the authors do not have permission to share ... the quantities of alkalis used in the mix design' (sec.2, p.2); nem massa volumica. UF 'one cubic metre of cement mortar' (sec.3.4 p.4); fronteira Fig.1 (vista) termina em 'Obtained geopolymer paste'. Transporte modelado so da materia-prima (soil filter cake) de Middlesbrough para cidades/paises (sec.4.1-4.2, Fig.2, Tabela 4).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Producao laboratorial de pasta/argamassa geopolimerica (UK); nao ha transporte do betao a obra. Distancias de materias-primas (filter cake bruto exportado de Middlesbrough/Teesport): cidades UK/Irlanda da Fig.2 sem km impressos; maritimas Tabela 4: Nova Iorque 6193,09 km, Xangai 19757,14, Melbourne 20842,41, Calais 518,56, Singapura 15595,69 km; modos rail, HGV rigido/articulado (Tabela 3, <3,5 a >33 t) e navios bulk/general cargo/container (Tabela 2, factores por t.km). Para esse transporte de materia-prima: 'The analysis only considered one-way transportation, based on the assumption that ... the return journey is used to transport different material' (sec.3.6.2 p.4) - nao_contado para a materia-prima, mas nao se aplica ao betao, por isso regresso_vazio=nao_declarado. Figs.1-6 vistas."
+ }
+]
