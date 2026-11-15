@@ -1,5 +1,6 @@
 """F42/F43 (tarefa #1805): grava em dados_fck os dados do transporte A4 lidos por estudo
-(lotes_transporte/resultado_lote*.json). So preenche celulas vazias; idempotente.
+(lotes_transporte/resultado_lote*.json = F44, os 86 estudos; resultado_comum_lote*.json = F45, os 60
+em comum com o F40, relidos pelo mesmo prompt por decisao da Kie em #1828). So preenche celulas vazias; idempotente.
 Uso: python3 lotes_transporte/aplicar.py [--gravar]   (sem --gravar = ensaio, so conta)
 Colunas novas (a seguir a etapas_nota, col 86): ver NOVAS. A premissa de 2.400 kg/m3 (F43)
 NAO e gravada aqui: e do motor de calculo (#1806), que a aplica onde massa_volumica_origem = nao_disponivel.
@@ -10,10 +11,11 @@ import openpyxl
 NOVAS = ['a4_transporte_tipo', 'massa_volumica_kg_m3', 'massa_volumica_origem', 'massa_volumica_citacao',
          'a4_distancia_km', 'a4_modo', 'a4_capacidade', 'a4_regresso_vazio', 'a4_publicado_leitura',
          'a4_leitura_frente', 'a4_leitura_nota']
-est = {}
-for f in sorted(glob.glob('lotes_transporte/resultado_lote*.json')):
+est = {}; frente = {}
+for f in sorted(glob.glob('lotes_transporte/resultado_lote*.json')) + sorted(glob.glob('lotes_transporte/resultado_comum_lote*.json')):
     for e in json.load(open(f)):
         est[int(e['row_id'])] = e
+        frente[int(e['row_id'])] = 'F45 2026-11-15' if 'comum' in f else 'F44 2026-11-11'
 gravar = '--gravar' in sys.argv
 wb = openpyxl.load_workbook('meta_analysis_base.xlsx'); ws = wb['dados_fck']
 h = [c.value for c in ws[1]]
@@ -34,7 +36,7 @@ for rid, e in est.items():
         vals = [s(e.get('o_que_se_transporta')), s(mv), s(mo), s(p.get('citacao') or e.get('citacao')),
                 s(e.get('distancia_betao_km')), s(e.get('modo_transporte')), s(e.get('capacidade')),
                 s(e.get('regresso_vazio')), s(e.get('a4_publicado')),
-                'F42 2026-11-11 leitura integral' + ('' if e.get('texto_completo_lido') else ' (texto parcial)') + ('' if e.get('figuras_vistas') else ' (figuras nao vistas)'),
+                frente[rid] + ' leitura integral (prompt F42)' + ('' if e.get('texto_completo_lido') else ' (texto parcial)') + ('' if e.get('figuras_vistas') else ' (figuras nao vistas)'),
                 s(nota)]
         for i, v in enumerate(vals):
             cell = ws.cell(r, col0 + i)

@@ -61,8 +61,9 @@ Regra: antes de uma frente nova, **ler esta tabela, correr o §8.1, e acrescenta
 |---|---|---|---|---|---|---|
 | A4 fase 2 — extracção por estudo (a4_somavel=sim) | F40 | — | `claude/f40-a4-extracao` | `lotes_a4/` | `dados_fck` (por gravar) | extracção feita (152 estudos + 35 relidos), **gravação em espera** |
 | A4 fases 1–3 — classificação/lotes/motor | F41–F43 | #0619 | `claude/rsl-619-*` | `lotes_transporte/`, `metanalise/` | `dados_fck` (por gravar) | F41–F43 no `main` |
-| A4 fase 2 — leitura dos 86 estudos de `lotes_transporte/` que o F40 **não** cobre (os 60 em comum ficam à espera da pergunta 1 do §10) | F44 | #1805 | `claude/rsl-1805-a4-fase2-lotes` | `lotes_transporte/` (`restante_loteNN.json`, `resultado_loteNN.json`, `aplicar.py`) | `dados_fck` cols 87–97 (por gravar; só pelo integrador) | leitura em curso em 2026-11-11 (ver F44) |
-| _próximo id livre_ | **F45** | | | | | |
+| A4 fase 2 — leitura dos 86 estudos de `lotes_transporte/` que o F40 **não** cobre | F44 | #1805 | `claude/rsl-1805-a4-fase2-lotes` | `lotes_transporte/` (`restante_loteNN.json`, `resultado_loteNN.json`, `aplicar.py`) | `dados_fck` cols 87–97 (por gravar; só pelo integrador) | leitura concluída em 2026-11-11 (PRs #340/#341 em `main`; ver F44) |
+| A4 fase 2 — **lista única**: releitura dos 60 estudos em comum F40×F42 pelo prompt da F42 (decisão da Kiê, #1828, opção b — responde à pergunta 1 do §10) | F45 | #1805 | `claude/rsl-1805-a4-comum60` | `lotes_transporte/` (`comum_loteNN.json`, `resultado_comum_loteNN.json`, `aplicar.py`) | `dados_fck` cols 87–97 (por gravar; só pelo integrador, pergunta 4 do §10 / #1829) | leitura concluída em 2026-11-15 (60 estudos, 323 pares; ver F45) |
+| _próximo id livre_ | **F46** | | | | | |
 
 Ids F-nn: reservar o seguinte na tabela **antes** de o usar em commit ou em `DECISOES_METANALISE.md` (evita duas frentes com o mesmo número).
 
@@ -126,7 +127,7 @@ Resultados no ramo → decisão registada → `CLAUDE.md` (uma linha de estado) 
 
 ## 10. Por confirmar / perguntas à Kiê
 
-1. Quem fica com a **extracção A4**: manter os 152 estudos já lidos (F40) e usar o F42 só para os 86 estudos que o F40 não cobre, ou unificar numa única lista? (a recomendação está no chat.)
+1. ~~Quem fica com a **extracção A4**: manter os 152 estudos já lidos (F40) e usar o F42 só para os 86 estudos que o F40 não cobre, ou unificar numa única lista?~~ **Respondida pela Kiê em 2026-11-15 (#1828): opção b, lista única** — os 60 em comum são relidos pelo prompt da F42 (frente F45); a fase 2 do A4 em `lotes_transporte/` passa a cobrir os 146 estudos das 14 listas num só formato.
 2. **Máx. 2 frentes de escrita** em simultâneo — aceite?
 3. O registo da §4 vive neste ficheiro (PR pequeno por linha) — ou prefere que viva na tarefa do Supabase?
 4. Quem é o **integrador** por defeito do `meta_analysis_base.xlsx`: a sessão «Metanálise»?

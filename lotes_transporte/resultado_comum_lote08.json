@@ -1,0 +1,494 @@
+[
+ {
+  "row_id": 2704,
+  "pdf": "KIM et al., 2016f - su8040361.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado (para o betao; camiao/comboio so para materias-primas ate a central RMC)",
+  "capacidade": "nao_declarado (camioes de 1, 2.5, 3.5, 5, 8, 15, 18 e 25.5 t so para materias-primas)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 666,
+    "massa_volumica_kg_m3": 2353,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 9 (p.15), Conventional Input Method: C 314 + G 917 + S 902 + F/A 45 + W 173 + AE 2 = 2353 kg/m3"
+   },
+   {
+    "sheet_row": 667,
+    "massa_volumica_kg_m3": 2295.6,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 9 (p.15), Optimization System Method (CO2 prioritized): C 330 + G 924 + S 833 + F/A 34 + W 172 + AE 2.6 = 2295.6 kg/m3"
+   }
+  ],
+  "citacao": "Fig.1 (p.3): fronteira 'Cradle-to-gate' = Raw materials + Transportation + Manufacturing; 'Distribution' e 'Building site installation' fora da fronteira. p.3: 'the transportation stage looks at the CO2 emissions due to the transportation of raw materials to the RMC manufacturing plant'. Sec.5.1 (p.15): 'concrete ... actually produced by the RMC plant'. Tabela 8 (p.15): Transportation 5.7 (convencional) e 1.2 (optimizado) kg-CO2/m3 = transporte de materias-primas (Sec.5.2.2: 'transporting the raw materials to the RMC plants').",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Betao pronto (RMC) de uma central coreana, 24 MPa ('25-24-150'); ACV cradle-to-gate, sem A4. Os 5.7 / 1.2 kg CO2/m3 de transporte sao A2 (materias-primas -> central), nao A4; distancias de materias-primas nao impressas (calculadas por coordenadas no CLAS). Massa volumica nao impressa; soma do traco da Tabela 9 por par (2353 / 2295,6)."
+ },
+ {
+  "row_id": 3055,
+  "pdf": "CELIK, 2015.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado (para o betao; Truck Class 8b, comboio e barcaca so para materias-primas ate a central, Tabela 4)",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 260,
+    "massa_volumica_kg_m3": 2473,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 100-0-0: CM 461 kg/m3 (impresso) + areia 2,00x461 = 922 + brita 2,00x461 = 922 (proporcoes em massa relativas ao CM) + agua 0,35x461 = 161.3 (w/cm 0,35) + SP 1.43% x 461 = 6.6 -> 2473 kg/m3"
+   },
+   {
+    "sheet_row": 261,
+    "massa_volumica_kg_m3": 2457,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 85-0-15: CM 458 kg/m3 (impresso) + areia 2,00x458 = 916 + brita 2,00x458 = 916 (proporcoes em massa relativas ao CM) + agua 0,35x458 = 160.3 (w/cm 0,35) + SP 1.43% x 458 = 6.5 -> 2457 kg/m3"
+   },
+   {
+    "sheet_row": 262,
+    "massa_volumica_kg_m3": 2446,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 75-0-25: CM 456 kg/m3 (impresso) + areia 2,00x456 = 912 + brita 2,00x456 = 912 (proporcoes em massa relativas ao CM) + agua 0,35x456 = 159.6 (w/cm 0,35) + SP 1.32% x 456 = 6.0 -> 2446 kg/m3"
+   },
+   {
+    "sheet_row": 263,
+    "massa_volumica_kg_m3": 2430,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 70-30-0: CM 453 kg/m3 (impresso) + areia 2,00x453 = 906 + brita 2,00x453 = 906 (proporcoes em massa relativas ao CM) + agua 0,35x453 = 158.5 (w/cm 0,35) + SP 1.39% x 453 = 6.3 -> 2430 kg/m3"
+   },
+   {
+    "sheet_row": 264,
+    "massa_volumica_kg_m3": 2407,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 50-50-0: CM 449 kg/m3 (impresso) + areia 2,00x449 = 898 + brita 2,00x449 = 898 (proporcoes em massa relativas ao CM) + agua 0,35x449 = 157.1 (w/cm 0,35) + SP 1.14% x 449 = 5.1 -> 2407 kg/m3"
+   },
+   {
+    "sheet_row": 265,
+    "massa_volumica_kg_m3": 2418,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 55-30-15: CM 451 kg/m3 (impresso) + areia 2,00x451 = 902 + brita 2,00x451 = 902 (proporcoes em massa relativas ao CM) + agua 0,35x451 = 157.8 (w/cm 0,35) + SP 1.14% x 451 = 5.1 -> 2418 kg/m3"
+   },
+   {
+    "sheet_row": 266,
+    "massa_volumica_kg_m3": 2401,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 45-40-15: CM 448 kg/m3 (impresso) + areia 2,00x448 = 896 + brita 2,00x448 = 896 (proporcoes em massa relativas ao CM) + agua 0,35x448 = 156.8 (w/cm 0,35) + SP 1.03% x 448 = 4.6 -> 2401 kg/m3"
+   },
+   {
+    "sheet_row": 267,
+    "massa_volumica_kg_m3": 2391,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 35-50-15: CM 446 kg/m3 (impresso) + areia 2,00x446 = 892 + brita 2,00x446 = 892 (proporcoes em massa relativas ao CM) + agua 0,35x446 = 156.1 (w/cm 0,35) + SP 1.0% x 446 = 4.5 -> 2391 kg/m3"
+   },
+   {
+    "sheet_row": 268,
+    "massa_volumica_kg_m3": 2380,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 25-60-15: CM 444 kg/m3 (impresso) + areia 2,00x444 = 888 + brita 2,00x444 = 888 (proporcoes em massa relativas ao CM) + agua 0,35x444 = 155.4 (w/cm 0,35) + SP 1.0% x 444 = 4.4 -> 2380 kg/m3"
+   },
+   {
+    "sheet_row": 269,
+    "massa_volumica_kg_m3": 2419,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 55-20-25: CM 451 kg/m3 (impresso) + areia 2,00x451 = 902 + brita 2,00x451 = 902 (proporcoes em massa relativas ao CM) + agua 0,35x451 = 157.8 (w/cm 0,35) + SP 1.34% x 451 = 6.0 -> 2419 kg/m3"
+   },
+   {
+    "sheet_row": 270,
+    "massa_volumica_kg_m3": 2407,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 45-30-25: CM 449 kg/m3 (impresso) + areia 2,00x449 = 898 + brita 2,00x449 = 898 (proporcoes em massa relativas ao CM) + agua 0,35x449 = 157.1 (w/cm 0,35) + SP 1.14% x 449 = 5.1 -> 2407 kg/m3"
+   },
+   {
+    "sheet_row": 271,
+    "massa_volumica_kg_m3": 2396,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 35-40-25: CM 447 kg/m3 (impresso) + areia 2,00x447 = 894 + brita 2,00x447 = 894 (proporcoes em massa relativas ao CM) + agua 0,35x447 = 156.4 (w/cm 0,35) + SP 1.14% x 447 = 5.1 -> 2396 kg/m3"
+   },
+   {
+    "sheet_row": 272,
+    "massa_volumica_kg_m3": 2386,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 3 (p.62), C-F-L 25-50-25: CM 445 kg/m3 (impresso) + areia 2,00x445 = 890 + brita 2,00x445 = 890 (proporcoes em massa relativas ao CM) + agua 0,35x445 = 155.8 (w/cm 0,35) + SP 1.14% x 445 = 5.1 -> 2386 kg/m3"
+   }
+  ],
+  "citacao": "Sec.3.4 (p.63): 'The functional unit, measured in cubic meter of ready-mixed concrete ... the system boundary includes ... transportation of materials, mixing of concrete materials at the batching plant, and ends at the gate of the concrete plant with the final product being the concrete mixture ready to be used at the construction site'. Tabela 4 (p.64): distancias so ate a central (cimento 60 km, areia 50 km, brita 1000 km barcaca + 10 km camiao, adjuvante 1000 km, cinza 1000 km comboio, filer 130 km). Tabela 3 (p.62): CM em kg/m3 e agregados 2,00:2,00 em massa, w/cm 0,35.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "SCC de laboratorio avaliado com GreenConcrete LCA cradle-to-gate (portao da central); UF = 1 m3 de betao pronto, mas o transporte central->obra (A4) nao e modelado. 'Transportation to Concrete Plant' (Fig.11, 4-18% do total) e A2. Massa volumica nao impressa; soma do traco calculada explicitamente: so o CM esta em kg/m3, agregados (2,00x CM cada), agua (0,35x CM) e SP (% do CM) derivados das proporcoes impressas da Tabela 3 (aritmetica, sem premissa externa). Somas 2380-2473 kg/m3."
+ },
+ {
+  "row_id": 3493,
+  "pdf": "FRAZAO, 2022 - j.jobe.2021.103579.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1023,
+    "massa_volumica_kg_m3": 2328.8,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 1 (p.4), RSFRC: CEM 400 + FA 200 + W 173 L + FS 148 + CS 735 + CG1 597 + Cf 75.8 = 2328.8 kg/m3 (SP 7,2 L nao somado: dado em litros, sem massa volumica do SP)"
+   },
+   {
+    "sheet_row": 1024,
+    "massa_volumica_kg_m3": 2331.6,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 1 (p.4), ISFRC: CEM 400 + FA 200 + W 173 L + FS 148 + CS 735 + CG1 597 + Cf 78.6 = 2331.6 kg/m3 (SP 7,2 L nao somado: dado em litros, sem massa volumica do SP)"
+   }
+  ],
+  "citacao": "Sec.4.1 (p.11): 'The system boundary was limited at raw material extraction and processing since the transport of raw materials and the manufacturing process of the concretes were considered identical for the three concrete mixtures (see Fig. 10)'. Tabela 1: 'Mix proportions for 1 m3 of fiber reinforced concrete'. Sec. modelacao numerica: 'self-weight ... based on the material's density (gc = 2400 x 9.81 = 23.5 kN/m3)'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "PDF 8,8 MB: lido por read_file_content (texto completo, ate as referencias); figuras nao renderizadas. ACV so A1 (extraccao e processamento das materias-primas); transporte de materias-primas, fabrico e A4 excluidos. Betao autocompactavel de laboratorio (vigas ensaiadas); nada sobre entrega a obra. A unica massa volumica impressa e 2400 kg/m3 usada como premissa de peso proprio no modelo FEM (nao medida) — nao gravada; usada a soma do traco da Tabela 1 (2328,8 RSFRC / 2331,6 ISFRC, sem os 7,2 L de SP)."
+ },
+ {
+  "row_id": 4080,
+  "pdf": "ZHANG, 2022i - pjoes-147185.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2274,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1178,
+    "massa_volumica_kg_m3": 2274,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tabela 4 (p.3933, 'Mix design for 1 m3 concrete'), RAC-EXP9-PPF: agua 160 + cimento 290 + cinza volante 69 + RFA 737 + RCA 1018 = 2274 kg/m3; EXP (9% da massa do ligante) e PPF (0,4% da massa da mistura) so dados em %, nao somados"
+   }
+  ],
+  "citacao": "p.3933: 'The carbon emission per unit volume of concrete was calculated from emissions associated with its raw materials as given in Table 5'. Tabela 6: so energia de producao dos agregados reciclados ('Crushing, sieving, on-site transport and handling'). Tabela 8: parcelas Cement, Fly ash, NFA, NCA, RFA, RCA, Water, EXP, Fiber — sem transporte.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "PDF 7,0 MB: lido por read_file_content (texto completo ate as referencias); figuras nao renderizadas. Betao de laboratorio (cubos 150 mm); inventario so de materias-primas (A1); nenhum transporte de betao nem distancias declarados. Massa volumica do betao nao impressa (so densidades dos agregados reciclados na Tabela 1). Soma do traco exclui os aditivos dados em %."
+ },
+ {
+  "row_id": 4476,
+  "pdf": "FARIDMEHR, 2021.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1391,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 1; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1392,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 2; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1393,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 3; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1394,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 4; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1395,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 5; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1396,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 6; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1397,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 7; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1398,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 8; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1399,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 9; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1400,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 10; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1401,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 11; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1402,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 12; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1403,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 13; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1404,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 14; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1405,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 15; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1406,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 16; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1407,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 17; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1408,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 18; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1409,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 19; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1410,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 20; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1411,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 21; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1412,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 22; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1413,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 23; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1414,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 24; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1415,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 25; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1416,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 26; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1417,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 27; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1419,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 29; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1420,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 30; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1421,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 31; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1422,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 32; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1424,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 34; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1425,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 35; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1426,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 36; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1427,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 37; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1428,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 38; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1429,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 39; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1430,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 40; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1431,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 41; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   },
+   {
+    "sheet_row": 1432,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tabela 3 (p.7) so da fraccoes do ligante (FA/GBFS/WCP/POFA) do Mix 42; Sec.2.2 (p.3) so relacoes (ligante:agregado 1, solucao:ligante 0,4, NS/NaOH 0,75, 4M); nenhuma quantidade em kg/m3 nem massa volumica impressa (densidade gerada pela maquina de ensaio, nao reportada)"
+   }
+  ],
+  "citacao": "Sec.2.4 (p.5): 'the system boundary begins with the raw material acquisition (cradle) and ends at the factory gate, exclusive of the impacts associated with transportation, service or use life, and end-of-life'. Fig.2 (p.6): Cradle-to-gate e LCA modificada (fase de servico), sem transporte. Sec.2.2 (p.3): 'binder-to-aggregate ratio, and alkaline solution-to-binder ratio were determined as ... 1, and 0.4'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "42 argamassas alcali-ativadas de laboratorio (Malasia), ACV com factores ICE, transporte explicitamente excluido. Traco so em relacoes (ligante:areia 1, solucao:ligante 0,4) sem conteudo de ligante em kg/m3 -> massa volumica nao_disponivel em todos os 40 pares. Mixes 28 e 33 (duplicados do 6 e 15 na Tabela 3) nao estao na lista; sheet_rows ligados pelo numero da mistura."
+ },
+ {
+  "row_id": 4763,
+  "pdf": "AMARI, 2024.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1757,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sec.2.3 (p.3): traco so em relacoes de massa (BFS/solido 20%, agua/solido 7,7%, solido/liquido 1,3, NaOH/silicato 3,5); inventario por m3 so no material suplementar ('more detailed information available in the supplementary section', p.4); sem massa volumica impressa"
+   }
+  ],
+  "citacao": "Sec.2.4 (p.4): 'This LCI encompasses ... the extraction of raw materials, transportation, and manufacturing ... the functional unit for analysis is set at 1 cubic meter (1 m3) of concrete'. Sec.3.7 (p.17): 'geopolymer concrete generates between 205 and 240 kg CO2-e/m3 (Figure 12a)'. Sec.2.5: custos de 'batching, mixing, and placing concrete' assumidos iguais.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "PDF 10,7 MB: lido por read_file_content (texto completo ate as referencias); Figs.2 e 12a nao vistas. Geopolimero de laboratorio (cilindros 50x100 mm); o 'transportation' do LCI e das materias-primas (A2), sem distancia nem modo no texto principal (detalhe no material suplementar externo, nao lido). Nenhum A4 declarado."
+ },
+ {
+  "row_id": 4997,
+  "pdf": "BORGES, 2014.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 28,
+    "massa_volumica_kg_m3": 2400,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tabela 1 (p.158): 'Concreto com cimento Portland (densidade de 2.400 Kg/m3)'; soma do traco impressa = 2.396 (CP II E40 422 + areia 730 + brita 1.048 + agua 193 + aditivo 3,1)"
+   },
+   {
+    "sheet_row": 29,
+    "massa_volumica_kg_m3": 2300,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tabela 2 (p.159): 'Concreto geopolimerico (densidade de 2.300 kg/m3)'; texto p.158: 'calculada a partir da densidade desse tipo de concreto quando fresco, ou seja, 2.300 kg/m3'; total do traco 353+611+877+459 = 2.300"
+   }
+  ],
+  "citacao": "p.157-158: 'Esta analise do ciclo de vida ignora o transporte e a extracao de materias-primas comum, bem como as etapas de aplicacao do concreto (transporte, lancamento, compactacao e cura), uma vez que elas ocorrem para ambos os tipos de concreto'. p.158: traco do CP 'fornecida por uma concreteira da regiao metropolitana de Belo Horizonte'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "E um artigo da revista Ambiente Construido v.14 n.2 (2014), nao dissertacao; titulo e 1.o autor (Borges) conferem. ACV cradle-to-gate (Umberto); transporte do betao explicitamente excluido. Traco do CP vem de uma concreteira, mas o artigo nao modela a entrega -> indeterminado. Massas volumicas impressas: 2.400 (CP, soma 2.396) e 2.300 (geopolimero, fresco). Conclusao sugere uso do geopolimero em pre-fabricacao, so como perspectiva."
+ }
+]
