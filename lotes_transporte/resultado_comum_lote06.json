@@ -1,0 +1,362 @@
+[
+ {
+  "row_id": 2703,
+  "pdf": "KIM et al., 2016e.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 154,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.11 (p.12) da analise ambiental (24 MPa) so da percentagens de ligante e 'Same' para G/S/W/AE, sem kg/m3; nao ha traco em kg/m3 para os Casos 1-5 (o traco experimental da Tab.2 p.5 soma 168+340+857+936=2301 kg/m3 + AE 1%, mas e da campanha de ensaio, nao do Caso da ACV - ver nota)"
+   },
+   {
+    "sheet_row": 155,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.11 (p.12) da analise ambiental (24 MPa) so da percentagens de ligante e 'Same' para G/S/W/AE, sem kg/m3; nao ha traco em kg/m3 para os Casos 1-5 (o traco experimental da Tab.2 p.5 soma 168+340+857+936=2301 kg/m3 + AE 1%, mas e da campanha de ensaio, nao do Caso da ACV - ver nota)"
+   },
+   {
+    "sheet_row": 156,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.11 (p.12) da analise ambiental (24 MPa) so da percentagens de ligante e 'Same' para G/S/W/AE, sem kg/m3; nao ha traco em kg/m3 para os Casos 1-5 (o traco experimental da Tab.2 p.5 soma 168+340+857+936=2301 kg/m3 + AE 1%, mas e da campanha de ensaio, nao do Caso da ACV - ver nota)"
+   },
+   {
+    "sheet_row": 157,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.11 (p.12) da analise ambiental (24 MPa) so da percentagens de ligante e 'Same' para G/S/W/AE, sem kg/m3; nao ha traco em kg/m3 para os Casos 1-5 (o traco experimental da Tab.2 p.5 soma 168+340+857+936=2301 kg/m3 + AE 1%, mas e da campanha de ensaio, nao do Caso da ACV - ver nota)"
+   },
+   {
+    "sheet_row": 158,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.11 (p.12) da analise ambiental (24 MPa) so da percentagens de ligante e 'Same' para G/S/W/AE, sem kg/m3; nao ha traco em kg/m3 para os Casos 1-5 (o traco experimental da Tab.2 p.5 soma 168+340+857+936=2301 kg/m3 + AE 1%, mas e da campanha de ensaio, nao do Caso da ACV - ver nota)"
+   }
+  ],
+  "citacao": "p.7 Fig.4: 'system boundary was set to the product stage of concrete (Cradle to Gate)'; Distribution/Building installation fora da fronteira (Construction, Optional). p.9 Transportation Stage: so transporte do BFS ate a fabrica de W-BFS por camiao, 5 km (Tab.8), e aditivos 89/93/169 km (Tab.7) - nao e A4. Formula (3) GWPT = transporte de cimento/agregados/aditivo para 1 m3 (A2, sem distancia de betao).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Cradle-to-gate; sem A4. Distancias impressas (5 km BFS->fabrica W-BFS; 89/93/169 km titanio-gesso/lama/calcario) sao de materias-primas, nao do betao. Massa volumica nao impressa. Tab.2 (p.5, traco ensaiado, alvo 24 MPa, Tipos 1 OPC / 2 OPC+BFS 30% / 3 OPC+W-BFS 30%): W168 + C340 (ou C238+BFS102 ou C238+W-BFS102) + S857 + G936 = 2301 kg/m3 + AE 1% (sem kg); nao gravado porque a Tab.11 da ACV nao imprime kg/m3 e define casos 10% (2,3) que nao existem na Tab.2; ligacao Caso 1/4/5 <-> Tipo 1/3/2 seria deducao."
+ },
+ {
+  "row_id": 2720,
+  "pdf": "LI et al., 2024b.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 162,
+    "massa_volumica_kg_m3": 2359.5,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 (p.4) W/B 0,40 0%: agua 170 + redutor 2,5 + cimento 425 + cinza 0 + areia 777 + brita 985 = 2359,5 kg/m3 (a nota da tabela diz que a agua e a soma da agua e do redutor; somados todos os componentes impressos)"
+   },
+   {
+    "sheet_row": 163,
+    "massa_volumica_kg_m3": 2359.9,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 (p.4) W/B 0,40 20%: agua 170 + redutor 2,9 + cimento 340 + cinza 85 + areia 777 + brita 985 = 2359,9 kg/m3 (idem nota da tabela sobre agua+redutor)"
+   }
+  ],
+  "citacao": "p.11 Sec.3.1: 'preparing 1 L of each concrete type in the laboratory'; 'system boundaries ... include the production of various concrete mixing materials, transportation, and mixing in the laboratory'. Tab.6 (p.11) transporte de materias-primas em litros de combustivel; Tab.5 cinza MSWI 15 km. Nao ha transporte do betao.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Betao misturado em laboratorio; fronteira acaba na mistura (sem A4). 15 km (Tab.5) e o transporte da cinza MSWI, nao do betao. Tab.6 da combustivel (L) por material ate ao laboratorio (A2). Nota da Tab.3: 'The water is the sum of water consumption and water reducer' - a soma inclui agua e redutor tal como impressos (sem o redutor: 2357,0 / 2357,0)."
+ },
+ {
+  "row_id": 3017,
+  "pdf": "CUNNINGHAM et al., 2025.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 259,
+    "massa_volumica_kg_m3": 2231,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) linha 5%WSA/5%RHA: PC 534 + cinza 28 + areia 1405 + agua 264 = 2231 kg/m3 de argamassa (mesma linha para M- e C-, tabela diz 'All ashes are milled (M-)')"
+   },
+   {
+    "sheet_row": 2110,
+    "massa_volumica_kg_m3": 2239,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) CTRL: PC 564 + cinza 0 + areia 1410 + agua 265 = 2239 kg/m3 de argamassa"
+   },
+   {
+    "sheet_row": 2111,
+    "massa_volumica_kg_m3": 2231,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) linha 5%WSA/5%RHA: PC 534 + cinza 28 + areia 1405 + agua 264 = 2231 kg/m3 de argamassa (mesma linha para M- e C-, tabela diz 'All ashes are milled (M-)')"
+   },
+   {
+    "sheet_row": 2112,
+    "massa_volumica_kg_m3": 2231,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) linha 5%WSA/5%RHA: PC 534 + cinza 28 + areia 1405 + agua 264 = 2231 kg/m3 de argamassa (mesma linha para M- e C-, tabela diz 'All ashes are milled (M-)')"
+   },
+   {
+    "sheet_row": 2113,
+    "massa_volumica_kg_m3": 2217,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) linha 15%WSA/15%RHA: PC 475 + cinza 84 + areia 1396 + agua 262 = 2217 kg/m3 de argamassa (mesma linha para M- e C-)"
+   },
+   {
+    "sheet_row": 2114,
+    "massa_volumica_kg_m3": 2217,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) linha 15%WSA/15%RHA: PC 475 + cinza 84 + areia 1396 + agua 262 = 2217 kg/m3 de argamassa (mesma linha para M- e C-)"
+   },
+   {
+    "sheet_row": 2115,
+    "massa_volumica_kg_m3": 2231,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) linha 5%WSA/5%RHA: PC 534 + cinza 28 + areia 1405 + agua 264 = 2231 kg/m3 de argamassa (mesma linha para M- e C-, tabela diz 'All ashes are milled (M-)')"
+   },
+   {
+    "sheet_row": 2116,
+    "massa_volumica_kg_m3": 2217,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) linha 15%WSA/15%RHA: PC 475 + cinza 84 + areia 1396 + agua 262 = 2217 kg/m3 de argamassa (mesma linha para M- e C-)"
+   },
+   {
+    "sheet_row": 2117,
+    "massa_volumica_kg_m3": 2217,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) linha 15%WSA/15%RHA: PC 475 + cinza 84 + areia 1396 + agua 262 = 2217 kg/m3 de argamassa (mesma linha para M- e C-)"
+   }
+  ],
+  "citacao": "Sec.3.5.1 (p.4): 'cradle-to-gate system for mortar production ... raw material acquisition, transportation to production sites, and production emissions (boundary 2) ... functional unit was 1 m3 mortar. Later stages are outside of the model boundary.' Sec.3.5.2: transporte da cinza tratada ate ao 'concrete batching site' = media PCA de subprodutos, por camiao (OpenConcrete) - A2.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "PDF 7,25 MB: lido por read_file_content (texto completo ate as referencias), figuras nao renderizadas. Argamassas (cubos 51 mm ASTM C109); cradle-to-gate, sem A4. Distancias citadas (central de biomassa Wadham -> Cosumnes, no SI; cinza -> central de betao, media PCA) sao de materias-primas. Ligacao par<->linha da Tab.2 pela percentagem de substituicao (5%/15%), que a Tab.2 da numa linha comum a WSA e RHA."
+ },
+ {
+  "row_id": 3071,
+  "pdf": "ALSALMAN et al., 2021.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 297,
+    "massa_volumica_kg_m3": 2380,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.3) OPCC 40 MPa: OPC 460 + areia 622 + brita 1105 + agua 193 = 2380 kg/m3"
+   },
+   {
+    "sheet_row": 298,
+    "massa_volumica_kg_m3": 2420.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.3) AAC 40 MPa (Nath e Sarker 2014): FA 340 + GGBFS 60 + areia 651 + brita 1209 + NaOH sol. 45,7 + silicato sol. 114,3 = 2420 kg/m3 (sem agua adicional impressa)"
+   },
+   {
+    "sheet_row": 299,
+    "massa_volumica_kg_m3": 2421.3,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) OPCC 60 MPa: OPC 505 + FA 60 + areia 630 + brita 1030 + agua 195 + SP 1,3 = 2421,3 kg/m3"
+   },
+   {
+    "sheet_row": 300,
+    "massa_volumica_kg_m3": 2407.6,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.3) AAC 60 MPa (Pouhet e Cyr 2016): MK 289 + areia 796,3 + brita 1055,3 + agua adicional 3,9 + NaOH 24,2 + silicato sol. 238,9 = 2407,6 kg/m3"
+   },
+   {
+    "sheet_row": 301,
+    "massa_volumica_kg_m3": 2637.6,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 (p.4) OPCC 100 MPa (ACI 363): OPC 228 + GGBFS 308 + SF 45 + areia 800 + brita 1110 + agua 131 + SP 15,6 = 2637,6 kg/m3"
+   },
+   {
+    "sheet_row": 302,
+    "massa_volumica_kg_m3": 2337.92,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 (p.4) AAC-I 100 MPa (Assi et al. 2016b): FA 474 + SF 46,2 + areia 793 + brita 793 + agua 163 + SP 7,125 + NaOH 61,6 = 2337,9 kg/m3"
+   },
+   {
+    "sheet_row": 303,
+    "massa_volumica_kg_m3": 2266,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 (p.4) AAC-II 100 MPa (Liu et al. 2020): FA 172 + GGBFS 688 + SF 45 + areia 905 + agua 97 + NaOH 45 + silicato sol. 314 = 2266 kg/m3 (sem brita; nota a: agua nao inclui a da solucao de silicato)"
+   }
+  ],
+  "citacao": "p.2: 'The emissions from transportation are not considered in the evaluation due to the variance and dependence on other influencing factors such as distance, type of engine, and raw materials location.' p.5: emissao de transporte do silicato (0,292 t-CO2/t) omitida; Conclusoes: 'does not include the energy and emissions associated with transportation'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Estudo de energia/CO2 por m3 com tracos da literatura; transporte totalmente excluido (sem A4). Massa volumica nao impressa (so 'dry-rodded unit weight of coarse aggregate = 1602 kg/m3', que nao e do betao). Somas por traco das Tab.1-3."
+ },
+ {
+  "row_id": 3151,
+  "pdf": "KANAGARAJ et al., 2023 - j.conbuildmat.2023.132484.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 861,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.1 (p.10, analise de custo) imprime qtd. de FA/OPC/GGBS/SF/CA/MS/SS/SH/SP/LS/CC/gesso para OPC M40 mas NAO imprime agua nem relacao a/l; soma incompleta -> nao_disponivel (soma sem agua = 2298.12 kg/m3)"
+   },
+   {
+    "sheet_row": 862,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.1 (p.10, analise de custo) imprime qtd. de FA/OPC/GGBS/SF/CA/MS/SS/SH/SP/LS/CC/gesso para OPC M70 mas NAO imprime agua nem relacao a/l; soma incompleta -> nao_disponivel (soma sem agua = 2345.67 kg/m3)"
+   },
+   {
+    "sheet_row": 863,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.1 (p.10, analise de custo) imprime qtd. de FA/OPC/GGBS/SF/CA/MS/SS/SH/SP/LS/CC/gesso para GPC M40 mas NAO imprime agua nem relacao a/l; soma incompleta -> nao_disponivel (soma sem agua = 2605.8 kg/m3)"
+   },
+   {
+    "sheet_row": 864,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.1 (p.10, analise de custo) imprime qtd. de FA/OPC/GGBS/SF/CA/MS/SS/SH/SP/LS/CC/gesso para GPC M70 mas NAO imprime agua nem relacao a/l; soma incompleta -> nao_disponivel (soma sem agua = 2623.28 kg/m3)"
+   },
+   {
+    "sheet_row": 865,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.1 (p.10, analise de custo) imprime qtd. de FA/OPC/GGBS/SF/CA/MS/SS/SH/SP/LS/CC/gesso para LC3 M40 mas NAO imprime agua nem relacao a/l; soma incompleta -> nao_disponivel (soma sem agua = 2385.12 kg/m3)"
+   },
+   {
+    "sheet_row": 866,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.1 (p.10, analise de custo) imprime qtd. de FA/OPC/GGBS/SF/CA/MS/SS/SH/SP/LS/CC/gesso para LC3 M70 mas NAO imprime agua nem relacao a/l; soma incompleta -> nao_disponivel (soma sem agua = 2389.1 kg/m3)"
+   }
+  ],
+  "citacao": "Sec.1 (p.2): 'The energy demand and CO2-e associated with transporting materials from the source to the destination are not considered in the present investigation.' Sec.6: 'the energy demand for the transportation of mix ingredients is not considered'; sem transporte do betao.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "PDF 8,96 MB: lido por read_file_content (137 mil caracteres, chega ao fim das referencias), figuras nao renderizadas. Revisao; transporte excluido (sem A4). Tab.1 (custo) da quantidades por m3 sem agua; o texto extraido da Tab.1 vem desalinhado nas linhas LS/CC (valores 89,28/133,92 na coluna GPC parecem ser custos de SH/outros) - somas sem agua dadas so como referencia, nao gravadas."
+ },
+ {
+  "row_id": 3189,
+  "pdf": "AMRAN et al., 2022b - j.cscm.2022.e01688.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 902,
+    "massa_volumica_kg_m3": 2401,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) NC: OPC 460 + FA 0 + FPGC 0 + agua 203 + areia 850 + brita 888 = 2401 kg/m3"
+   },
+   {
+    "sheet_row": 903,
+    "massa_volumica_kg_m3": 2401,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) NCF: OPC 230 + FA 230 + FPGC 0 + agua 203 + areia 850 + brita 888 = 2401 kg/m3"
+   },
+   {
+    "sheet_row": 904,
+    "massa_volumica_kg_m3": 2428.6,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) NS6: OPC 230 + FA 230 + FPGC 27.6 + agua 203 + areia 850 + brita 888 = 2428.6 kg/m3"
+   },
+   {
+    "sheet_row": 905,
+    "massa_volumica_kg_m3": 2447,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) NS10: OPC 230 + FA 230 + FPGC 46 + agua 203 + areia 850 + brita 888 = 2447 kg/m3"
+   },
+   {
+    "sheet_row": 1949,
+    "massa_volumica_kg_m3": 2419.4,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) NS4: OPC 230 + FA 230 + FPGC 18.4 + agua 203 + areia 850 + brita 888 = 2419.4 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.1.3 (p.6): ACV so dos ligantes - 'aggregate, water, and mixing processes were excluded in the calculation'; Tab.4 (p.9) distancias de transporte OPC 345 km, FA 49 km, FPGC 5 km (materias-primas, camiao diesel 0,09 L/km, Tab.3). Sem transporte do betao.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "PDF 11,1 MB: lido por read_file_content (texto ate ao fim das referencias), figuras nao renderizadas. ACV de ligantes (transporte+producao+tratamento), sem A4. Distancias 345/49/5 km sao dos ligantes, nao do betao. Tab.3 imprime densidades do vidro (1024) e da cinza (1440 kg/m3), nao do betao. Agua 203 kg/m3 na Tab.2 (o texto diz w/b 0,44 e cimento 460)."
+ },
+ {
+  "row_id": 3384,
+  "pdf": "ABDULKAREEM et al., 2019 - j.jclepro.2019.07.076.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 976,
+    "massa_volumica_kg_m3": 2416,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.6) CC: cimento 360 + areia 598 + brita 1266 + agua 192 = 2416 kg/m3"
+   },
+   {
+    "sheet_row": 977,
+    "massa_volumica_kg_m3": 2458.64,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.6) SFRCC: cimento 360 + areia 598 + brita 1266 + SP 4 + agua 192 + fibra de aco 38,64 = 2458.64 kg/m3"
+   },
+   {
+    "sheet_row": 978,
+    "massa_volumica_kg_m3": 2420.92,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.6) S_1: FA 408 + NaOH 16,4 + silicato sol. 103 + areia 600 + brita 1248 + SP 10,2 + agua 16 + fibra de aco 19,32 = 2420.92 kg/m3"
+   },
+   {
+    "sheet_row": 979,
+    "massa_volumica_kg_m3": 2425.15,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.6) GF_5: cimento 39,43 + FA 354,87 + NaOH 14,38 + silicato sol. 101,39 + areia 554,4 + brita 1293,4 + SP 11,83 + agua 55,18 + fibra de vidro 0,268 = 2425.15 kg/m3"
+   },
+   {
+    "sheet_row": 980,
+    "massa_volumica_kg_m3": 2320.76,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.6) PP_4: FA 368,91 + NaOH 21,3 + silicato sol. 132,14 + areia 581,03 + brita 1171,29 + agua 31,9 + fibra PP 14,19 = 2320.76 kg/m3"
+   }
+  ],
+  "citacao": "Fig.1 (p.3): 'Transportation to construction site' a tracejado, fora da fronteira; p.4: 'unit processes will be limited to the production stage'; p.6 Sec.2.2: 'production stage (cradle to gate)'. p.7: transporte (diesel/camiao) 'locally produced within a distance of 100 km between raw material production and concrete production' (A2).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Cradle-to-gate, A4 excluido (Fig.1). 100 km e materias-primas -> central (A2); o texto da p.4 diz tambem que o transporte de materias-primas foi omitido, contradicao interna do artigo. Massa volumica nao impressa; somas da Tab.4 (tracos escolhidos para os cenarios)."
+ }
+]
