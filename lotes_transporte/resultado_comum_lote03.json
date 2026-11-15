@@ -1,0 +1,368 @@
+[
+ {
+  "row_id": 2580,
+  "pdf": "ANKUR et al., 2024 - resm2023.825ma0719.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2375.0,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 78,
+    "massa_volumica_kg_m3": 2375.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.6 (p.157), coluna Control Mix: cimento 395 + areia 732 + brita 1068 + agua 180 = 2.375 kg/m3 (Tab.2 p.139 confirma cimento/areia/brita; agua so na Tab.6)"
+   },
+   {
+    "sheet_row": 79,
+    "massa_volumica_kg_m3": 2374.28,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.6 (p.157), coluna Optimized CBA Concrete: cimento 310 + areia 517 + brita 1068 + agua 180 + CBA 299,28 (quantidade de CBA da linha de transporte da Tab.6; o texto da Sec.3.5.2 diz 310 kg) = 2.374,28 kg/m3; mistura otimizada 21,51% GCBA + 29,82% CBA"
+   }
+  ],
+  "citacao": "Fig.14 (p.155): fronteira 'Gate-to-Gate' termina em 'CBA based Concrete' -> 'Use', sem transporte para obra; Sec.3.5.2 (p.155): cimento transportado 5 km (distribuidor->laboratorio, Truck+trailer 24 t), agregados 28 km (britadora->laboratorio, Tractor 240 pk), CBA 80 km (central termica->laboratorio); Tab.6 'Quarry to Lab', 'Distributor to Lab', 'Power Plant to Lab'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Estudo de laboratorio; o unico transporte modelado e o das materias-primas ate ao laboratorio (cimento 5 km, agregados 28 km, CBA 80 km) - nao e A4. Nenhum transporte do betao para obra. Sem massa volumica impressa; soma do traco da Tab.6. Pequena incoerencia no CBA do traco otimizado (299,28 kg na Tab.6 vs 310 kg no texto). Paginas das Figs.14-15 renderizadas e vistas."
+ },
+ {
+  "row_id": 2599,
+  "pdf": "BUMANIS et al., 2022 - environments9010006.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2245.0,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 613,
+    "massa_volumica_kg_m3": 2245.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.1 (p.4), coluna 100% CEM: 'Density, kg/m3 2245' (CEM I 670 + SP 5 + agua 230 + areia 1340 = 2.245); Fig.3 legenda: 'Input data in SimaPro software for 1 m3 of mortar (2250 kg/m3)'"
+   }
+  ],
+  "citacao": "Sec.2 (p.3-4): 'cradle-to-gate'; fabrica de argamassa suposta em Kedainiai a 2 km do PG; PC a 160 km; MKW a 180 km; 'Transport in a truck 10-20 t, EURO5, 80%LF, empty return/GLO Economic was assumed' (transporte de materias-primas ate a fabrica). Sec.2 (p.5): 'All mortar components and their transportation are included'. Nada sobre entrega da argamassa a obra.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Argamassa (nao betao). Os transportes declarados (160 km PC, 180 km MKW, 2 km PG; camiao 10-20 t EURO5 com regresso vazio) sao de materias-primas ate a fabrica de argamassa - nao A4; regresso_vazio fica nao_declarado para o A4. Ficheiro 14,3 MB: texto completo pelo conector (ate as referencias), figuras nao vistas."
+ },
+ {
+  "row_id": 2847,
+  "pdf": "LYRA, 2023i.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 763,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Referencia: valor nao escrito; so na Fig.55 (p.134, barra ~2,00 g/cm3 sem rotulo) e no texto como relativo ('V5-L ... 1,96 g/cm3, sendo 2 % inferior a referencia'). Traco 1:2,5:0,5 so em massa relativa, sem kg/m3 (Sec.4.10.1 p.77)"
+   },
+   {
+    "sheet_row": 764,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Silica ativa 10%: valor nao escrito; texto (p.133) so diz '3 % superior ao valor da referencia'; Fig.55 barra ~2,08 g/cm3 sem rotulo"
+   },
+   {
+    "sheet_row": 765,
+    "massa_volumica_kg_m3": 2060.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "seca_endurecido; Sec.5.6.1 (p.133): CCAC-L 5%: 'Argamassas com adicao de CCAC-L variaram entre 2,06 para 5 %' g/cm3 (massa especifica aparente aos 28 d, NBR 9778, provetes secos em estufa a 105 C - Sec.4.10.1.1 p.77-78)"
+   },
+   {
+    "sheet_row": 766,
+    "massa_volumica_kg_m3": 2040.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "seca_endurecido; Sec.5.6.1 (p.133): CCAC-L 10%: '2,04 para 10 %' g/cm3 (massa especifica aparente aos 28 d, NBR 9778, provetes secos em estufa a 105 C - Sec.4.10.1.1 p.77-78)"
+   },
+   {
+    "sheet_row": 767,
+    "massa_volumica_kg_m3": 2020.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "seca_endurecido; Sec.5.6.1 (p.133): CCAC-L 20%: '2,02 para 20 %' g/cm3 (massa especifica aparente aos 28 d, NBR 9778, provetes secos em estufa a 105 C - Sec.4.10.1.1 p.77-78)"
+   },
+   {
+    "sheet_row": 768,
+    "massa_volumica_kg_m3": 1960.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "seca_endurecido; Sec.5.6.1 (p.133): 'As argamassas com substituicao parcial de cimento por V5-L, apresentaram o menor valor de massa especifica, aproximadamente 1,96 g/cm3' (valor unico para as tres; Fig.55 confirma ~1,96-1,97 para V5-L 5%); NBR 9778, secos em estufa"
+   },
+   {
+    "sheet_row": 769,
+    "massa_volumica_kg_m3": 1960.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "seca_endurecido; Sec.5.6.1 (p.133): 'As argamassas com substituicao parcial de cimento por V5-L, apresentaram o menor valor de massa especifica, aproximadamente 1,96 g/cm3' (valor unico para as tres; Fig.55 confirma ~1,96-1,97 para V5-L 10%); NBR 9778, secos em estufa"
+   },
+   {
+    "sheet_row": 770,
+    "massa_volumica_kg_m3": 1960.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "seca_endurecido; Sec.5.6.1 (p.133): 'As argamassas com substituicao parcial de cimento por V5-L, apresentaram o menor valor de massa especifica, aproximadamente 1,96 g/cm3' (valor unico para as tres; Fig.55 confirma ~1,96-1,97 para V5-L 20%); NBR 9778, secos em estufa"
+   }
+  ],
+  "citacao": "Sec.4.11.2 (p.82): fronteira 'Cradle to grave' mas uso, pos-uso e disposicao final 'foram desconsideradas'; Figs.13-16 (p.83-84): transporte so das materias-primas ate a 'Producao de Argamassa', 'Consumo' e 'Disposicao final' desconsiderados; p.85: 'O transporte das materias-primas ... ocorre pelas rodovias em caminhoes' - cinzas 153 km (32 t), areia 70 km (45 t), silica ativa 200 km (32 t), cimento 500 km (32 t) ate as industrias de argamassa.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Tese (182 p.). O read_file_content truncou na p.76 (~181 mil caracteres, antes da ACV); li o texto completo por download_file_content (8,7 MB funcionou) + pdftotext, ate as referencias. Argamassas de laboratorio; unidade funcional 1 MPa (Tab.7 fluxos em kg por MPa, nao por m3). Distancias declaradas sao de materias-primas -> fabrica de argamassa (nao A4); nada sobre entrega a obra. Massa especifica so SECA do endurecido (NBR 9778, estufa 105 C) - 'seca_endurecido', decisao #1831 pendente. Referencia e silica ativa sem valor escrito (so barras da Fig.55 e relativos no texto) -> nao_disponivel. Fig.55 e Fig.13-14 vistas."
+ },
+ {
+  "row_id": 3192,
+  "pdf": "SHOBEIRI et al., 2023 - j.cscm.2023.e01832.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 911,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco otimizado 'Min cement 150 kg' a fc 25 MPa so em graficos sem rotulos numericos (Fig.4 p.8: cimento ~215, cinza ~20, GGBFS ~60, areia ~860, brita ~1.230, agua ~100, SP ~0 kg/m3 por leitura de grafico); nenhum valor impresso em tabela no artigo (dados em material suplementar)"
+   }
+  ],
+  "citacao": "Sec.3 (p.4): 'This cradle-to-gate analysis includes emissions associated with all cycles of production of concrete materials' (Tab.2); Sec.4.1 cenario 3 (p.6): 'this study only considers the impact of emissions arising from material transportation to the factory gate before it is transported to the consumer'; Tab.2: fatores Road 0,128e-3 e Sea 0,017e-3 kgCO2-eq/kg-km (materias-primas); distancias min/max no Supplementary Material B. Cenarios 1-2 (onde esta o par de 25 MPa) 'ignore the role of materials transport'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Estudo de otimizacao por ANN/GA (sem betao fisico). A4 explicitamente excluido (so transporte de materiais ate ao portao da fabrica). Sem massa volumica impressa; traco so em grafico (Fig.4) -> nao_disponivel. Ficheiro 6,8 MB: download funcionou, Fig.4 vista."
+ },
+ {
+  "row_id": 3687,
+  "pdf": "JIN, 2024i.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2214.24,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1080,
+    "massa_volumica_kg_m3": 2214.24,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.4) 'Reference mortar composition 31 MPa (LC3)': cimento GUbSF 165 + argila calcinada 132 + calcario 362 = ligante 659; agua 0,35x659 = 230,65; areia 2x659 = 1.318; SP 0,01x659 = 6,59; total 2.214,24 kg/m3 (coerente com 'OPC ... 6.8 wt% of the mixture', p.5: 0,92x165/2.214 = 6,9%)"
+   }
+  ],
+  "citacao": "Sec.1-2 (p.3): 'cradle-to-gate analysis, corresponding to the EN 15804 A1-A3 product stage ... as the structure transportation, use phase and end of life after printing depend on each application'; Fig.1 (p.4): '3D printing', 'Structure transportation', 'Use phase', 'End of life' como 'Excluded stage'; Sec.4.5 (p.12): 'the printing process, distribution phase, use phase, and end of life need to be considered'. Distancias de materias-primas: cimento 223 km, argila calcinada 2.900 km (comboio, QC) / 535 km (camiao, FR), calcario 209 km.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Argamassa para impressao 3D; A4 (transporte da estrutura) explicitamente excluido. Distancias declaradas sao de materias-primas (nao A4). Sem massa volumica impressa; soma do traco calculada a partir das razoes da Tab.2 (agua, areia e SP por razao ao ligante = cimento+argila+calcario), confirmada pela fracao 6,8% de OPC escrita no texto. Ficheiro 8,2 MB: download funcionou; Fig.1 vista."
+ },
+ {
+  "row_id": 3732,
+  "pdf": "CUNNINGHAM, 2021.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1084,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1864,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1865,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1866,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1867,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1868,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1869,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1870,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1871,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1872,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1873,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1874,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1875,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1876,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1877,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1878,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   },
+   {
+    "sheet_row": 1879,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Traco so em razoes (areia/ligante 2,50; a/l 0,59; 15% de cinza em massa), sem kg/m3 nem massa volumica impressa (p.3678-3679, 'Mixture Proportions and Mortar Batching')"
+   }
+  ],
+  "citacao": "Fig.1 (p.3680): fronteira termina em 'Cement-based Material Batching' -> 'Later Stages' fora; p.3680: 'Stages after mortar production ... were not considered'; Tab.1 (p.3680): biomassa 30 km, materias-primas do cimento 25 km, 'cement/bioash to batching site 130 km', 'aggregates to concrete batching site 88 km', truck emissions NREL.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Argamassas de laboratorio; ACV por m3 de argamassa (cradle-to-gate da amassadura). Transportes declarados sao de materias-primas ate a central (nao A4). Sem traco em kg/m3 (so razoes) nem massa volumica -> nao_disponivel nos 17 pares. Fig.1 vista."
+ },
+ {
+  "row_id": 3864,
+  "pdf": "BADGUJAR, 2023.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": 2529.77,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 531,
+    "massa_volumica_kg_m3": 2529.77,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.6 (p.5), TR1: agua 200 + cimento 405 + cinza volante 70 + pond ash 0 + areia 1076.19 + brita 777,38 + SP 1,2 = 2529.77 kg/m3"
+   },
+   {
+    "sheet_row": 532,
+    "massa_volumica_kg_m3": 2529.77,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.6 (p.5), TR2: agua 200 + cimento 405 + cinza volante 70 + pond ash 107.6 + areia 968.59 + brita 777,38 + SP 1,2 = 2529.77 kg/m3"
+   },
+   {
+    "sheet_row": 533,
+    "massa_volumica_kg_m3": 2529.77,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.6 (p.5), TR3: agua 200 + cimento 405 + cinza volante 70 + pond ash 161.43 + areia 914.76 + brita 777,38 + SP 1,2 = 2529.77 kg/m3"
+   },
+   {
+    "sheet_row": 534,
+    "massa_volumica_kg_m3": 2529.77,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.6 (p.5), TR4: agua 200 + cimento 405 + cinza volante 70 + pond ash 215.24 + areia 860.95 + brita 777,38 + SP 1,2 = 2529.77 kg/m3"
+   },
+   {
+    "sheet_row": 535,
+    "massa_volumica_kg_m3": 2529.77,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.6 (p.5), TR5: agua 200 + cimento 405 + cinza volante 70 + pond ash 269 + areia 807.19 + brita 777,38 + SP 1,2 = 2529.77 kg/m3"
+   },
+   {
+    "sheet_row": 536,
+    "massa_volumica_kg_m3": 2529.77,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.6 (p.5), TR6: agua 200 + cimento 405 + cinza volante 70 + pond ash 323 + areia 753.19 + brita 777,38 + SP 1,2 = 2529.77 kg/m3"
+   }
+  ],
+  "citacao": "Sec.1 (p.2): 'LCA of SCC is done in terms of GWP by considering cradle to gate of ready-mix concrete (RMC) plant'; Sec.4.1.1 (p.6): 'The system boundary is up to but not including the gate of ready-mixed concrete plant'; Sec.4.1.2 (p.7): cada material 'transported from its production site to the RMC plant was assumed to be 100 km' (fator ARAI); Fig.3 (p.6): Usage/End of life/Recycling tracejados (fora).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Enquadrado como betao pronto (RMC), mas o A4 central->obra nao e modelado; os 100 km sao materias-primas -> central (nao A4). Massa volumica nao impressa; soma do traco da Tab.6 igual nas 6 misturas (pond ash substitui areia em massa). A Tab.9 usa SP 5,7 kg em vez de 1,2 da Tab.6 - usei a Tab.6. Fig.3 vista."
+ },
+ {
+  "row_id": 4521,
+  "pdf": "LEMESRE et al., 2024.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1494,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.3 (p.5): sc10 em gramas por amassadura (vidro 400 g + Na2CO3 40 g + agua 132 g), sem volume nem massa volumica da pasta impressa"
+   }
+  ],
+  "citacao": "Sec.2.3 (p.6) e Fig.1: fronteira = producao dos constituintes e seu transporte ate 'Alkali-activated materials production in a concrete plant'; Tab.4/p.7: 'Transport, lorry 16-32 t, EURO5/RER'; 'average distance between the production sites and the concrete plant ... about 100 km for glass and cement, 200 km for sodium hydroxide and 500 km for sodium silicate and carbonate'. Nada apos a central.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Pastas de laboratorio (cubos 20 mm); UF 1 m3 de pasta. Transporte declarado e de materias-primas ate a central (nao A4). Traco so em gramas por amassadura, sem massa volumica -> nao_disponivel. Paginas 6-7 (Fig.1, Tab.4, Fig.2) vistas."
+ }
+]
