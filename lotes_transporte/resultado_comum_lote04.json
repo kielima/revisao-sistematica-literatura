@@ -1,0 +1,308 @@
+[
+ {
+  "row_id": 2757,
+  "pdf": "ONN et al., 2019.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 192,
+    "massa_volumica_kg_m3": 2343,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 p.3 (Content kg/m3), A0: cimento 540 + GGBFS 0 + areia 1560 + agua 243 = 2343 kg/m3"
+   },
+   {
+    "sheet_row": 199,
+    "massa_volumica_kg_m3": 2343,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 p.3, A7: cimento 162 + GGBFS 378 + areia 1560 + agua 243 = 2343 kg/m3"
+   },
+   {
+    "sheet_row": 200,
+    "massa_volumica_kg_m3": 2161,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 p.3, B0: cimento 540 + GGBFS 0 + areia 1270 + agua 351 = 2161 kg/m3"
+   },
+   {
+    "sheet_row": 207,
+    "massa_volumica_kg_m3": 2161,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 p.3, B7: cimento 162 + GGBFS 378 + areia 1270 + agua 351 = 2161 kg/m3"
+   }
+  ],
+  "citacao": "Sec.3 p.4: 'LCA with cradle-to-gate analysis ... The functional unit for this LCA study was defined as 1 m3 of mortar'; Sec.3.1 p.5: 'The system boundary does not include transportation.' Tab.2 p.3 'Mix proportion for mortar blends' (kg/m3); Sec.2.2: cubos de 50 mm, ASTM C305/C109.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "PDF de 13 MB: download falhou (>10 MB), lido por read_file_content ate as referencias (texto completo); figuras nao renderizadas. Argamassas so de laboratorio; fronteira cradle-to-gate sem qualquer transporte (nem de materias-primas). Massa volumica nao impressa; usada a soma do traco da Tab.2. massa_volumica_kg_m3 do estudo fica null porque difere entre series A (2343) e B (2161)."
+ },
+ {
+  "row_id": 2951,
+  "pdf": "ALI, 2023i - s11356-023-26492-6.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2450,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para o betao (materias-primas: lorry de 17,3 t)",
+  "capacidade": "17,3 t (lorry das materias-primas, nao do betao)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 801,
+    "massa_volumica_kg_m3": 2450,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 p.6 (62267), NWF0 (CM): cimento 555 + MS 0 + areia 645 + brita 1075 + agua 172 + SP 3 + NWF 0 = 2450 kg/m3"
+   }
+  ],
+  "citacao": "p.62267 'Boundaries (B1-B3)': 'the EI for concrete was calculated from cradle to gate (B1-B3) ... B2 represents the EI of the transportation of refined materials to the concrete plant; B3 is related to the EI of concrete production'; 'The processed materials were supposed to be conveyed by a 17.3-ton lorry ... 6.57x10-5 kg-CO2/kg.km'; Eq.2 p.62269: 'round transportation of lorry from the source to concrete plant and then back to the source (B2)'; Tab.4 p.62269: distancias fonte->central (cimento 398, MS 176, areia 455, brita 245, SP 176 km). UF 1 m3 de betao.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Fronteira cradle-to-gate ('at the end of the concrete plant'); nao ha transporte do betao a obra nem A4. Regresso vazio e contado so para as materias-primas (B2, 'around 1.85 times of EI of a one-way'), nao para o betao. Distancias de materias-primas ate a central (Tab.4): cimento Mianwali 398 km; MS e SP DHA Lahore 176 km; areia Attock/Lawrancepur 455 km; brita Sargodha 245 km; NWF e agua 0 km (campus Sahiwal). Producao do betao (B3) 4,65 kg CO2/m3. Massa volumica nao impressa. Vistas Tab.2 (p.6) e Tab.4/Fig.9 (p.8)."
+ },
+ {
+  "row_id": 3167,
+  "pdf": "GHOLAMPOUR, 2025 - j.conbuildmat.2025.139960.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para a argamassa (materias-primas: dump trucks 3,5-7 t EURO4)",
+  "capacidade": "3,5-7 t (camioes das materias-primas)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 874,
+    "massa_volumica_kg_m3": 2251,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.3 (kg/m3), FA100NS: FA 570 + NS 1425 + Na2SiO3 183 + NaOH 73 = 2251 kg/m3 (agua so dentro das solucoes ativadoras; Tab.3: ar aprisionado nao considerado)"
+   },
+   {
+    "sheet_row": 875,
+    "massa_volumica_kg_m3": 2285,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.3 (kg/m3), FA80G20NS: FA 444 + GGBS 111 + NS 1425 + Na2SiO3 218 + NaOH 87 = 2285 kg/m3 (agua so dentro das solucoes ativadoras; Tab.3: ar aprisionado nao considerado)"
+   },
+   {
+    "sheet_row": 876,
+    "massa_volumica_kg_m3": 2353,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.3 (kg/m3), FA50G50NS: FA 265 + GGBS 265 + NS 1425 + Na2SiO3 284 + NaOH 114 = 2353 kg/m3 (agua so dentro das solucoes ativadoras; Tab.3: ar aprisionado nao considerado)"
+   },
+   {
+    "sheet_row": 877,
+    "massa_volumica_kg_m3": 2614,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.3 (kg/m3), FA100LS: FA 570 + LS 1788 + Na2SiO3 183 + NaOH 73 = 2614 kg/m3 (agua so dentro das solucoes ativadoras; Tab.3: ar aprisionado nao considerado)"
+   },
+   {
+    "sheet_row": 878,
+    "massa_volumica_kg_m3": 2648,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.3 (kg/m3), FA80G20LS: FA 444 + GGBS 111 + LS 1788 + Na2SiO3 218 + NaOH 87 = 2648 kg/m3 (agua so dentro das solucoes ativadoras; Tab.3: ar aprisionado nao considerado)"
+   },
+   {
+    "sheet_row": 879,
+    "massa_volumica_kg_m3": 2716,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 p.3 (kg/m3), FA50G50LS: FA 265 + GGBS 265 + LS 1788 + Na2SiO3 284 + NaOH 114 = 2716 kg/m3 (agua so dentro das solucoes ativadoras; Tab.3: ar aprisionado nao considerado)"
+   }
+  ],
+  "citacao": "Sec.4 p.12: 'Analysis was based on 1 m3 mortar by cradle-to-gate method'; 'encompassed ... raw materials extraction, basic ingredients production, materials transfer to project site, and mixtures production'; 'In the production stage, the considered processes were raw materials extraction, transportation of materials to factory ... dump trucks with 3.5-7 tons maximum capacity running on EURO4 fuel were considered, and the transport distance was considered 50 km for all materials [64]. The production and transportation stage of 1 m3 mortar was considered with 0.0033 kg/m3 CO2 emission factor.' Tab.3 p.3 'Proportions of mixture ingredients in kg/m3'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Argamassas geopolimericas de laboratorio. Texto ambiguo: fala em 'materials transfer to project site' mas o transporte modelado e o das materias-primas ate a fabrica (50 km, todos os materiais, camioes 3,5-7 t EURO4); o 'factor 0,0033 kg/m3 CO2' para 'production and transportation stage of 1 m3 mortar' tem unidade incoerente e nao e um A4 identificavel -> a4_publicado null, distancia_betao null. Massa volumica nao impressa; soma do traco da Tab.3 por mistura (2251-2716). PDF 6,4 MB descarregado com sucesso; vistas Tab.3 (p.3) e Sec.4/Tab.11-12 (p.12)."
+ },
+ {
+  "row_id": 3191,
+  "pdf": "ARRUDA JUNIOR et al., 2023 - j.cscm.2022.e01729.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para argamassa/cimento (materias-primas: camioes ate 45 t e extra-pesados de 72 t)",
+  "capacidade": "45 t (calcario) e 72 t (caulim) - materias-primas",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1950,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Cimento OPC: argamassa so descrita por razao massica 1:3 e a/c 0,48 (p.3, NBR 7215), sem kg/m3; UF da ACV = 1 t de cimento (Sec.2.2.3)"
+   },
+   {
+    "sheet_row": 1951,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Cimento PCC: argamassa so descrita por razao massica 1:3 e a/c 0,48 (p.3, NBR 7215), sem kg/m3; UF da ACV = 1 t de cimento (Sec.2.2.3)"
+   },
+   {
+    "sheet_row": 1952,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Cimento LC3-50 2:1: argamassa so descrita por razao massica 1:3 e a/c 0,48 (p.3, NBR 7215), sem kg/m3; UF da ACV = 1 t de cimento (Sec.2.2.3)"
+   },
+   {
+    "sheet_row": 1953,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Cimento LC3-50 1,5:1: argamassa so descrita por razao massica 1:3 e a/c 0,48 (p.3, NBR 7215), sem kg/m3; UF da ACV = 1 t de cimento (Sec.2.2.3)"
+   },
+   {
+    "sheet_row": 1954,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Cimento LC3-50 1:1: argamassa so descrita por razao massica 1:3 e a/c 0,48 (p.3, NBR 7215), sem kg/m3; UF da ACV = 1 t de cimento (Sec.2.2.3)"
+   },
+   {
+    "sheet_row": 1955,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Cimento LC3-35 2:1: argamassa so descrita por razao massica 1:3 e a/c 0,48 (p.3, NBR 7215), sem kg/m3; UF da ACV = 1 t de cimento (Sec.2.2.3)"
+   },
+   {
+    "sheet_row": 1956,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Cimento LC3-35 1,5:1: argamassa so descrita por razao massica 1:3 e a/c 0,48 (p.3, NBR 7215), sem kg/m3; UF da ACV = 1 t de cimento (Sec.2.2.3)"
+   },
+   {
+    "sheet_row": 1957,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Cimento LC3-35 1:1: argamassa so descrita por razao massica 1:3 e a/c 0,48 (p.3, NBR 7215), sem kg/m3; UF da ACV = 1 t de cimento (Sec.2.2.3)"
+   }
+  ],
+  "citacao": "p.3: 'mortars were produced with standard sand ... (ABNT NBR 7215) in a mass ratio of 1:3 and a water/cement ratio of 0.48'; Sec.2.2.3 p.4: '1 ton of cement produced was considered the most appropriate functional unit'; p.3: 'Clinker mixing, cement packaging, and transportation to the end user were not included in the study, so the analysis is from the cradle to the gate of the industry'; Sec.2.2.5 e Tab.3 p.7: transporte das materias-primas ate a fabrica de cimento (round trip considerado).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Produto da ACV e o cimento (1 t), nao o betao; expedicao ao utilizador excluida -> sem A4. Distancias de materias-primas ate a fabrica de cimento (Primavera, PA): calcario ~5 km; minerio de ferro Parauapebas 813 km; caulim FK Ipixuna 228 km; gesso Codo 649 km; round trip considerado para as materias-primas (p.7). Traco da argamassa so em razao massica -> massa volumica nao disponivel. Vistas Fig.1/Fig.2 (fronteira, p.4)."
+ },
+ {
+  "row_id": 3479,
+  "pdf": "MANSO-MORATO, 2025 - j.jenvman.2024.123995.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2420,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para o betao (materias-primas: diesel truck 16-32 t RER EURO4)",
+  "capacidade": "16-32 t (camiao das materias-primas)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1017,
+    "massa_volumica_kg_m3": 2420,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.8 p.5 'HD testing', W2: Hardened density 2,42 kg/dm3 (cubos 100 mm, 28 d; nao diz se seco). Soma do traco Tab.3 W2 = 320+128+1,07+2,13+764+544+377+271+25 = 2432,2 kg/m3; FD so em grafico (Fig.4a, ~2,43, sem rotulo)"
+   }
+  ],
+  "citacao": "Sec.5 p.10: 'An open loop cradle-to-gate system boundary (A1-A3) ... no further information about transport to site or casting is considered in the present study'; 'The transportation needed for 1 m3 of FRC is shown in Table 10 ... distances between the places of acquisition and extraction of the raw materials and the laboratory: CEM II/A-L 42.5 R ... (6.1 km); admixtures ... (6.8 km); aggregates ... (26.0 km). All materials were transported in diesel truck of 16-32 metric tons payload capacity (RER, EURO4).' Tab.8 p.5 massa volumica endurecida.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Betao de laboratorio, fronteira A1-A3, transporte a obra explicitamente excluido. Distancias de materias-primas ao laboratorio: cimento 6,1 km, adjuvantes 6,8 km, agregados 26,0 km (Tab.10 em tkm). Massa volumica gravada = endurecida aos 28 d impressa (Tab.8), nao a seca declarada; alternativa soma do traco 2432,2. PDF 8,7 MB descarregado com sucesso; vista Fig.4/Tab.8 (p.5)."
+ },
+ {
+  "row_id": 4201,
+  "pdf": "GLANZ et al., 2023.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado (A2 das materias-primas: medias do ecoinvent 'market activities')",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1221,
+    "massa_volumica_kg_m3": 2357,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.3, PC-ref: CEM I 801 + PCE 24 + silica fume 170 + areia quartzo 970 + po quartzo 193 + agua 199 = 2357 kg/m3 (o texto p.6 confirma 'direct material input of the PC-ref. is 2,357 kg/m3-eq', UF=1,00)"
+   },
+   {
+    "sheet_row": 1222,
+    "massa_volumica_kg_m3": 2392,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.3, M2: GGBFS 538 + SF 299 + waterglass K57 400 + areia quartzo 996 + po quartzo 159 = 2392 kg/m3 (sem agua adicional, '-')"
+   },
+   {
+    "sheet_row": 1223,
+    "massa_volumica_kg_m3": 2438,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.3, M3: GGBFS 571 + SF 317 + waterglass K57 324 + areia quartzo 1057 + po quartzo 169 = 2438 kg/m3 (sem agua adicional; o texto p.6 da 2034 kg por m3-eq porque a UF de M3 e 1,20 m3-eq)"
+   }
+  ],
+  "citacao": "Sec.2.2 p.4: 'The system boundaries include the cradle-to-gate product stage of concrete corresponding to modules A1-A3'; 'Differences in subsequent processes [transport and installation (A4-A5), use stage (B), and the end of life (C1-C4)] were neglected in this study'; 'The transportation of concrete materials (module A2) is extracted from ecoinvent market activities, using average distances and modes of transport'. Fig.1 p.3 (T = transporte so das materias-primas ate a central). Tab.1 p.3 traco em kg/m3.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "UHPC de laboratorio, A1-A3; A4 excluido. Sem distancias impressas (medias do ecoinvent). UF ajustada pela resistencia (Tab.2: M2 1,10; M3 1,20; PC-ref 1,00 m3-eq) - as massas por m3-eq do texto nao sao massa volumica. Somas do traco por m3 de mistura. Vista Tab.1/Fig.1 (p.3)."
+ },
+ {
+  "row_id": 4779,
+  "pdf": "ROUX et al., 2024.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para a argamassa (materias-primas: camioes EURO4 3,5-7,5 t)",
+  "capacidade": "3,5-7,5 t (materias-primas do GP); 16-62 t para o OPC",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1773,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Matriz M50S50: so a nomenclatura em massa (50% MK / 50% PSS, Sec.2.2.2 p.5); nao ha traco em kg/m3 nem massa volumica impressos no artigo (p.10 so diz 'the density of the matrix increases with the decreased proportion of PSS', sem valor); possivelmente no material suplementar S1"
+   },
+   {
+    "sheet_row": 1774,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "M60S40Sa60: 60 g de areia por 100 g de pasta (nomenclatura Sec.2.2.2 p.5; Fig.7c p.11); traco so em gramas por amassadura, sem kg/m3; Tab.4 p.12 so traz GP-S (M50S50Sa191) e GP-SE"
+   }
+  ],
+  "citacao": "Sec.2.3.1 p.6: functional unit 'producing 1 m3 of geopolymer mortar suitable for 3D printing'; 'The study is a cradle-to-gate assessment ... GP applications are not considered, and consequently, neither are transportation, use, and end-of-life'; p.7-8: 'EURO4 class for all transportation vehicles (trucks) ... MK: Clerac-Champs sur Marne: 535 km; PSS: Ludwigshafen-Champs sur Marne: 504 km ... 50 km ... from the cement factory to the lab ... about 30 km for the aggregates ... 3.5-7.5 T category ... 16-62 T lorries ... for OPC'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Argamassas de laboratorio (provetes 40x40x160), cradle-to-gate, transporte do produto excluido. Distancias de materias-primas ao laboratorio NAVIER: MK 535 km, PSS 504 km, fibra de vidro 700 km, cimento 50 km, agregados ~30 km; analise de sensibilidade reduz MK/PSS para 50 km. Para o comparador 3DCM o transporte vem incluido no processo ecoinvent 'market for concrete, 50 MPa' (nao e par deste lote). Tab.4 (GP-S M50S50Sa191: MK 327,4 + PSS 327,4 + areia 1248,8 = 1903,6 kg/m3) nao corresponde a nenhum dos dois pares. Vistas Fig.3 (fronteira, p.6) e Fig.7 (p.11)."
+ },
+ {
+  "row_id": 4855,
+  "pdf": "KOCAK, 2024i_1.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2400,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado para o betao (agregados: Lorry 17,3 t max. payload)",
+  "capacidade": "17,3 t (lorry dos agregados/RCD)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1824,
+    "massa_volumica_kg_m3": 2400,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.4 'Mix proportion of C25 concrete [28]', 1 m3: cimento 309 + agua 210 l (=210 kg) + agregado fino 602 + agregado grosso 1279 = 2400 kg/m3 (mesmo traco para RAC e NAC, p.4)"
+   },
+   {
+    "sheet_row": 1825,
+    "massa_volumica_kg_m3": 2400,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 p.4, NAC com as mesmas proporcoes: 309 + 210 + 602 + 1279 = 2400 kg/m3"
+   }
+  ],
+  "citacao": "p.4: 'RAC production includes ... (v) aggregate transportation to the concrete batching plant; and (vi) concrete production'; p.4: 'The distance traveled by the equipment while coming to the working area and the transportation distance in concrete and aggregate production facilities are not taken into account. Both processes end with concrete production.' p.6-7 e Fig.4: RCD 10,3 km ao parque; agregado reciclado 4,4 km do parque a central; agregado natural da pedreira 54,5 km; Tab.2: 'Lorry/ 17.3 t max. payload' (222.899,6 t.km RAC; 347.725,8 t.km NAC).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Cenario de producao de 3.411,38 m3 de C25; fronteira termina na producao do betao na central -> sem A4. Distancias (Fig.4/p.7) sao de RCD e agregados ate a central, nao do betao. A soma do traco da 2400 kg/m3; o artigo tambem ASSUME 2400 kg/m3 (Neville) para a densidade do betao demolido (p.6) - essa premissa e do entulho, nao foi usada aqui; o valor gravado vem so da soma da Tab.1 (traco citado de Musbah et al. [28]). Vistas Fig.1/2 (p.5) e Fig.4/Tab.2 (p.7)."
+ }
+]
