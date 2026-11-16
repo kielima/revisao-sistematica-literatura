@@ -1,0 +1,58 @@
+{
+ "fonte": "SIDAC, fichas sidac.org.br/produtos/{35,32,29,31}, versao 22.04.27, unidade t.km (F40, 2026-11-02)",
+ "regresso_em_vazio": "por confirmar (ficha nao legivel por script) — o motor nao aplica factor de regresso",
+ "massa_premissa_kg_m3": 2400.0,
+ "distancias_km": [
+  0,
+  10,
+  25,
+  50,
+  75,
+  100,
+  150,
+  200,
+  250,
+  300
+ ],
+ "modos": {
+  "betoneira": {
+   "nome": "Caminhao betoneira",
+   "produto": 35,
+   "co2_kg_tkm": 0.1,
+   "energia_mj_tkm": 1.48,
+   "capacidade_m3": 8.0,
+   "capacidade_t": 15.8
+  },
+  "truck_3e": {
+   "nome": "Caminhao truck (3 eixos), basculante",
+   "produto": 32,
+   "co2_kg_tkm": 0.07,
+   "energia_mj_tkm": 1.05,
+   "capacidade_m3": null,
+   "capacidade_t": 14.0
+  },
+  "carreta_4e": {
+   "nome": "Carreta (4 eixos)",
+   "produto": 29,
+   "co2_kg_tkm": 0.07,
+   "energia_mj_tkm": 1.01,
+   "capacidade_m3": null,
+   "capacidade_t": 33.0
+  },
+  "carreta_5e": {
+   "nome": "Carreta (5 eixos)",
+   "produto": 31,
+   "co2_kg_tkm": 0.06,
+   "energia_mj_tkm": 0.94,
+   "capacidade_m3": null,
+   "capacidade_t": 41.5
+  }
+ },
+ "modo_padrao_por_tipo": {
+  "betao_fresco_betoneira": "betoneira",
+  "elemento_prefabricado": "carreta_4e",
+  "pre_mistura_seca": "truck_3e",
+  "indeterminado": "betoneira",
+  "nao_transportado_in_situ": null
+ }
+}
