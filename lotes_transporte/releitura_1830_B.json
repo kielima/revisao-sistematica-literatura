@@ -1,0 +1,192 @@
+[
+ {
+  "row_id": 2836,
+  "pdf": "ALMEIDA, 2024.pdf",
+  "titulo_confirmado": true,
+  "veredito": "so_enquadramento",
+  "citacoes": [
+   {
+    "pagina": 43,
+    "local": "Sec. 4.2.1 (pag. impressa 43; PDF p.47)",
+    "texto": "A fronteira do sistema estudada é denominada do berço ao portão (cradle-to-gate) [...] Vale ressaltar que os transportes de todas as etapas são considerados até a usina concreteira."
+   },
+   {
+    "pagina": 43,
+    "local": "Sec. 4.2.1, Figura 17 (fluxo de produção)",
+    "texto": "[...] transportadas para suas respectivas fábricas [...] Na sequência são enviados até a central de concreto. — Figura 17 termina em 'Dosagem e Mistura' -> 'Concreto geopolímero', sem transporte a jusante."
+   },
+   {
+    "pagina": 34,
+    "local": "Sec. 4.1.2 Transporte (PDF p.38)",
+    "texto": "O cenário de transporte escolhido para essa ACV foi com base em cinco usinas concreteiras hipotéticas [...] O transporte das matérias-primas dos concretos avaliados será considerado apenas como rodoviário."
+   },
+   {
+    "pagina": 64,
+    "local": "Cap. 7 Sugestões (PDF p.68)",
+    "texto": "Expandir a fronteira da avaliação, para comparar a viabilidade durante o uso e pós uso do material."
+   }
+  ],
+  "distancia_betao_km": null,
+  "modo_transporte_betao": "",
+  "fronteira_declarada": "cradle-to-gate (extração, beneficiamento, fabricação do concreto); transportes só até a usina concreteira",
+  "paginas_renderizadas": [
+   40,
+   47
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Nunca diz como o concreto sai da usina nem para onde vai; sem caminhão-betoneira, entrega, canteiro ou A4. Distâncias são só de matérias-primas até a usina (Tabelas 3–7: ex. Serra cimento 10 km, cinza volante 2490 km; Belém NaOH 2038 km) com 'lorry 16-32 t EURO3' (Apêndice C); já conhecidas. Incoerência sem efeito no A4: p.33 chama as usinas de 'reais', p.34 e 42 de 'hipotéticas' (Apêndice A dá coordenadas da 'Usina Concreteira'). Apêndice D lista 'Construção da Usina' como processo, nenhum transporte de concreto."
+ },
+ {
+  "row_id": 2999,
+  "pdf": "RATHNARAJAN et al., 2025.pdf",
+  "titulo_confirmado": true,
+  "veredito": "so_enquadramento",
+  "citacoes": [
+   {
+    "pagina": 9,
+    "local": "Sec. 5 Life cycle assessment",
+    "texto": "The LCA is made from cradle-to-gate and the information modules [59] included are A1 (raw material production), A2 (transport of raw materials to production site), and A3. Life cycle stage A3 [...] is omitted for simplification"
+   },
+   {
+    "pagina": 10,
+    "local": "Sec. 5, texto ao lado da Tabela 4",
+    "texto": "The ready-mixed plant is located near a saltwater source and infrastructural needs to adapt the ready-mixed plant for saltwater were modelled, but its impacts are assumed to be negligible"
+   },
+   {
+    "pagina": 10,
+    "local": "Sec. 5 / Tabela 4",
+    "texto": "The information module 2 (transport of raw materials to Chennai) was determined based on the transport distances presented in Table 4 [...] transport was carried out by a 32-tonne truck."
+   }
+  ],
+  "distancia_betao_km": null,
+  "modo_transporte_betao": "",
+  "fronteira_declarada": "cradle-to-gate, A1+A2 (A3 omitido); EN 15804+A2",
+  "paginas_renderizadas": [
+   10,
+   11
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Ensaios feitos com betão produzido em laboratório (sem a palavra 'laboratory', mas é campanha experimental); a ACV modela uma 'ready-mixed plant' em Chennai. Nenhuma frase sobre entrega/camião betoneira/obra. Única menção a camiões de betão: p.2, introdução, 'washing water of trucks and equipment of ready-mixed concrete plants – e.g. EN 1008' (contexto de água reciclada, não do estudo). Distâncias da Tabela 4 são só de matérias-primas até Chennai (CEM I 400 km, cinza volante 50, escória 550, metacaulim 900, SP 1100, brita 100, areia 200; camião 32 t)."
+ },
+ {
+  "row_id": 2785,
+  "pdf": "SANCHEZ-PANTOJA et al., 2023.pdf",
+  "titulo_confirmado": true,
+  "veredito": "so_enquadramento",
+  "citacoes": [
+   {
+    "pagina": 5,
+    "local": "Sec. 2.1 Scope and system boundaries (PDF p.6)",
+    "texto": "The system boundary for this study follows a cradle-to-gate approach, including the modules A1-A3, i.e., production of raw materials, transport, and manufacturing (Figure 1)."
+   },
+   {
+    "pagina": 5,
+    "local": "Sec. 2.1 (PDF p.6)",
+    "texto": "this LCA excludes: (i) production and manufacture of concrete production equipment, concrete transport vehicles, earthmoving equipment, and laboratory equipment"
+   },
+   {
+    "pagina": 38,
+    "local": "Figure 1. System boundaries",
+    "texto": "Diagrama A1 | A2 'Transport' (só matérias-primas) | A3 'Central mix concrete' -> 'Ready mixed concretes'; nada a jusante da central."
+   },
+   {
+    "pagina": 13,
+    "local": "Sec. 3.4 Transport of raw materials (PDF p.14)",
+    "texto": "average distances from the provider to the concrete manufacturer's plant [...] 32.6 km for aggregates, 134.5 km for cements and 304.8 km for steels."
+   }
+  ],
+  "distancia_betao_km": null,
+  "modo_transporte_betao": "",
+  "fronteira_declarada": "cradle-to-gate A1–A3 (EN 15804+A2), terminando na central de betão pronto",
+  "paginas_renderizadas": [
+   33,
+   35,
+   38,
+   42
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Post-print de 48 p. lido até ao fim (texto, tabelas e figuras em anexo). 'Concrete transport vehicles' aparece só como bens de capital EXCLUÍDOS (fabrico dos veículos), não como transporte do betão à obra. A3 (Tabela 7, inventário Athena) inclui 'Diesel, burned in building machine 58.76 MJ' — consumo interno da central, não entrega. Nunca descreve entrega, camião betoneira, distância central→obra nem A4."
+ },
+ {
+  "row_id": 4512,
+  "pdf": "SKIBICKI et al., 2024.pdf",
+  "titulo_confirmado": true,
+  "veredito": "declarado_in_situ",
+  "citacoes": [
+   {
+    "pagina": 17,
+    "local": "Tabela 5 (legenda)",
+    "texto": "Cost and global warming potential of transport from raw material production to the mixing and printing location. Information module A2."
+   },
+   {
+    "pagina": 16,
+    "local": "Sec. 3.7",
+    "texto": "we assumed that the 3D printable material production occurred in Szczecin (Poland) [...] The fRA were assumed to be produced on site, and no transport distance has been attributed to them [...] transporting raw materials to the factory (information module A2)."
+   },
+   {
+    "pagina": 9,
+    "local": "Sec. 2.9",
+    "texto": "covering information modules A1 (raw material production), A2 (transport of raw materials to production site), and A3 (production of the 3DPC mortars) [...] Module A3 was disregarded"
+   },
+   {
+    "pagina": 9,
+    "local": "Sec. 3.1",
+    "texto": "R40 and R50 were found to be printable for less than 30 min, which is enough when the mixes are produced continuously before being printed."
+   }
+  ],
+  "distancia_betao_km": 0,
+  "modo_transporte_betao": "nenhum (mistura e impressão no mesmo local)",
+  "fronteira_declarada": "A1+A2 (A3 desprezado); o texto diz 'from the cradle to the grave' mas só cobre A1–A3",
+  "paginas_renderizadas": [
+   9,
+   17,
+   18
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Lido a partir da cópia comprimida 'SKIBICKI et al., 2024 - reduzido TEMP 1830.pdf' (fileId 1E8HZDw9shv61RQU1QG44N4QD78fM30HY; o original de 14,6 MB excede o limite de download); 24 p., texto completo. A Tabela 5 trata a mistura e a impressão como UM local ('the mixing and printing location', Szczecin), logo não há transporte do material fresco. Ressalvas: o mesmo local é também chamado 'factory'/'production site', e o artigo não diz se é obra ou fábrica de pré-fabricados, nem fala do transporte do elemento impresso; a campanha experimental é de laboratório ('All mixes were prepared under laboratory conditions', p.7). Contradição interna só na fronteira ('cradle to the grave' vs A1–A3). Distâncias de matérias-primas (já conhecidas?): cimento 480 km Chorula, cinza volante 55, sílica ativa 570, areia 70, PCE 791 Stuttgart; camião >32 t EURO6 0,068 kgCO2/t·km."
+ },
+ {
+  "row_id": 4450,
+  "pdf": "ESPARHAM et al., 2023.pdf",
+  "titulo_confirmado": true,
+  "veredito": "so_enquadramento",
+  "citacoes": [
+   {
+    "pagina": 5,
+    "local": "Sec. 2.2 (fim)",
+    "texto": "an attempt has been made to evaluate the impact of transportation processes in a specific area (a construction workshop located 45 km from an Isfahan iron smelter in Isfahan Metropolis)."
+   },
+   {
+    "pagina": 5,
+    "local": "Sec. 2.3",
+    "texto": "The time it takes to apply the concrete welter mix and the power consumed by the concrete welter mixer were used to calculate the power consumption in concrete construction (power consumption of concrete production 0.75 kwh)."
+   },
+   {
+    "pagina": 7,
+    "local": "Sec. 3.1",
+    "texto": "as well as the amount of electricity consumed on-site in cubic meters of concrete."
+   },
+   {
+    "pagina": 4,
+    "local": "Sec. 2.2 / Figuras 1 e 2",
+    "texto": "the study will focus on the production stage as well as the supply networks associated with resource extraction (Figure 1). — Fig.1: 'Resource extraction' + 'Production' = 'Core of the comparison'; Fig.2 termina em Mixing -> Mortar -> Curing -> Geopolymer concrete."
+   }
+  ],
+  "distancia_betao_km": null,
+  "modo_transporte_betao": "",
+  "fronteira_declarada": "extração de recursos + produção (Fig.1 'core of the comparison'); uso e fim de vida omitidos por serem comparáveis",
+  "paginas_renderizadas": [
+   4,
+   5,
+   7,
+   10
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Os indícios de mistura no local (o 'construction workshop' como destino do transporte de matérias-primas, a electricidade 'on-site' e a betoneira usada 'in concrete construction') são enquadramento. O artigo nunca afirma que o betão é misturado no local de aplicação nem que não há transporte do betão; também não fala de central nem de entrega. Os 45 km são entre a fundição (escória) e o workshop, logo distância de matéria-prima, não A4. As Tabelas 3/4 têm transporte 'Truck 16–32 t' e '>32 t' sem distâncias por material. A única menção a 'laboratory' (p.10) refere-se a outro estudo (Salas et al.)."
+ }
+]
