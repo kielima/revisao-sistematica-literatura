@@ -1,0 +1,214 @@
+[
+ {
+  "row_id": 2841,
+  "pdf": "RIGON, 2015.pdf",
+  "titulo_confirmado": true,
+  "veredito": "so_enquadramento",
+  "citacoes": [
+   {
+    "pagina": 59,
+    "local": "3.1.1.2 Limites do sistema estudado",
+    "texto": "Para a avaliação da aplicação da CCA como um coproduto para a produção do concreto (Limites do sistema 02), é inserida a fase de transporte da cinza até as Empresas de Serviços de Concretagem (ESC)."
+   },
+   {
+    "pagina": 59,
+    "local": "Figura 10 (e Figura 11, p.60) – diagrama da fronteira",
+    "texto": "Caixas: Transporte da biomassa → UTE → CCA → Transporte → ESC → Concreto (o diagrama termina em 'Concreto'; não há caixa de entrega à obra)."
+   },
+   {
+    "pagina": 58,
+    "local": "3.1.1.1 Unidade Funcional",
+    "texto": "A unidade funcional definida para esse estudo é de emissões de CO2eq/m3 de concreto."
+   },
+   {
+    "pagina": 70,
+    "local": "3.4.1 / Tabela 13",
+    "texto": "Os traços do concreto ... têm como base o estudo realizado por Krug (2011) ... Fedumenti (2013) ... classes de resistências características à compressão (fc) de 35 MPa."
+   },
+   {
+    "pagina": 96,
+    "local": "4.4.1 Concreto",
+    "texto": "Em 2017, as projeções indicam que a produção de concreto nas centrais dosadoras atingirá 72 milhões de m3 do produto (ABCP, 2015)."
+   }
+  ],
+  "distancia_betao_km": null,
+  "modo_transporte_betao": "",
+  "fronteira_declarada": "Transporte da casca + UTE (combustão) + transporte da CCA até as ESC (empresas de serviços de concretagem) + produção do concreto; termina no concreto na ESC. Instalação/construção excluídas ('Não foram considerados os dados ... da construção').",
+  "paginas_renderizadas": [
+   57,
+   59,
+   60,
+   91,
+   95
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Dissertação UNISINOS (124 pp.). O único transporte modelado até à central é o da CCA (100/200/300/400 km, caminhão pesado PBT>=15 t, 24 m3 por carga) e da casca (250 km) — matérias-primas, não A4. Nenhuma frase sobre saída do betão da ESC para a obra; os questionários do apêndice só perguntam pela logística da biomassa. Menções a caminhão-betoneira/entrega/canteiro: zero (as menções a 'canteiro de obras' e 'preparação na própria obra' estão na revisão bibliográfica, sobre Campos 2012 e Lima 2010, não sobre este estudo)."
+ },
+ {
+  "row_id": 3155,
+  "pdf": "MAHDI, 2023 - j.conbuildmat.2023.133902.pdf",
+  "titulo_confirmado": true,
+  "veredito": "contraditorio",
+  "citacoes": [
+   {
+    "pagina": 12,
+    "local": "3.3.2.3 Cement and concrete production",
+    "texto": "...to evaluate the environmental impacts of cement and concrete production from raw material extraction to ready-made concrete (cradle-to-gate)."
+   },
+   {
+    "pagina": 12,
+    "local": "Fig. 15 (diagrama, só na imagem)",
+    "texto": "Dentro da fronteira tracejada: 'Concrete mixing and batching' → 'Transportation' → saída 'Ready-mixed concrete' (caixa de transporte depois da mistura, sem destino indicado)."
+   },
+   {
+    "pagina": 12,
+    "local": "Table 4",
+    "texto": "Concrete batching plant: Mixer loading (truck mix); transportes listados só 'to cement plant' / 'to concrete plant' (Truck Class 8b)."
+   },
+   {
+    "pagina": 12,
+    "local": "texto, col. direita",
+    "texto": "A functional unit of 10 m3 of ready-mixed concrete was selected ... The use of screw pumps, fabric filters, and mixer loading trucks were assumed to convey materials, filter materials during transport, and handle batching, respectively."
+   },
+   {
+    "pagina": 13,
+    "local": "Fig. 16(b) legenda",
+    "texto": "Sub-processos: ... 'Transport to concrete plant', 'Mixing & batching' ... (nenhum transporte do betão para fora da central nos resultados)."
+   },
+   {
+    "pagina": 4,
+    "local": "2.2 Mixture design and casting",
+    "texto": "the concrete mixtures were prepared using a Matest pan mixer with a 110L capacity"
+   }
+  ],
+  "distancia_betao_km": null,
+  "modo_transporte_betao": "",
+  "fronteira_declarada": "cradle-to-gate, 'from raw material extraction to ready-made concrete' (GreenConcrete LCA); UF 10 m3 de ready-mixed concrete.",
+  "paginas_renderizadas": [
+   11,
+   12,
+   13
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Lido na cópia comprimida 'MAHDI, 2023 - reduzido TEMP 1830.pdf' (fileId 1yCj2xykTtzZNvc29hVH8j8UQuLKFANnF, 16 pp.); o original (13 MB) excede o limite de download. Contradição fraca: o fluxograma Fig.15 (copiado do GreenConcrete [85]) tem uma caixa 'Transportation' depois de 'Concrete mixing and batching' dentro da fronteira, mas o texto declara cradle-to-gate até ao betão pronto e os resultados (Fig.16b) não têm nenhuma parcela de transporte do betão. 'Mixer loading (truck mix)' é a tecnologia de dosagem da central (carga do camião-betoneira), não uma descrição de entrega à obra. Em nenhum lugar há destino (obra), distância ou A4 do betão. Se a Kiê preferir só o texto, cai em so_enquadramento. Betão do estudo produzido em laboratório (betoneira de 110 L). Distâncias de matérias-primas novas: cartão reciclado centro de recuperação→processamento→central 100 km, veículo ligeiro 8,7 L/100 km."
+ },
+ {
+  "row_id": 4138,
+  "pdf": "BASAVARAJ et al., 2023.pdf",
+  "titulo_confirmado": true,
+  "veredito": "so_enquadramento",
+  "citacoes": [
+   {
+    "pagina": 14,
+    "local": "3.1 Methodology and case parameters",
+    "texto": "The ground-to-gate (or cradle-to-gate) system has been adopted for the analysis [17,18]."
+   },
+   {
+    "pagina": 14,
+    "local": "3.1 Methodology and case parameters",
+    "texto": "OPC and LC2 are both considered to be made in the same plant at Nandyal and transported (about 400 km) to the RMC plant in Chennai. Coarse and fine aggregates are to be sourced from quarries that are 75 kms and 192 kms away, respectively."
+   },
+   {
+    "pagina": 14,
+    "local": "3.1",
+    "texto": "Fly ash was treated as waste and, consequently, only the impact due to transportation from a thermal plant situated 35 km away was considered."
+   },
+   {
+    "pagina": 15,
+    "local": "3.2 / Table 3",
+    "texto": "the apathy index combines CO2 emissions attributed to producing one m3 concrete with the durability parameter"
+   }
+  ],
+  "distancia_betao_km": null,
+  "modo_transporte_betao": "",
+  "fronteira_declarada": "ground-to-gate / cradle-to-gate; produção do betão modelada numa RMC plant em Chennai.",
+  "paginas_renderizadas": [
+   14,
+   15,
+   19
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Betões fabricados em laboratório (IIT Madras; cubos de 100 mm). As únicas distâncias são de matérias-primas até à central (cimento/LC2 ~400 km, agregados graúdos 75 km, miúdos 192 km, cinza volante 35 km) — não contam como A4. Nada sobre saída do betão da RMC plant, obra, camião ou entrega. Fig.7 (CO2 vs teor de ligante) sem decomposição por etapa."
+ },
+ {
+  "row_id": 4161,
+  "pdf": "LI, 2020i - ncr-2020-0011.pdf",
+  "titulo_confirmado": true,
+  "veredito": "so_enquadramento",
+  "citacoes": [
+   {
+    "pagina": 45,
+    "local": "2. Materials and methods",
+    "texto": "Unicon A/S, the largest Nordic supplier of ready-mixed concrete, has provided the mix design of frost-resistant concrete with AEA."
+   },
+   {
+    "pagina": 48,
+    "local": "2.2 Goal and scope",
+    "texto": "The \"cradle-to-gate\" approach is used in all case studies. It means that the system boundary includes the processes from the extraction of raw materials to the manufacturing of the product."
+   },
+   {
+    "pagina": 48,
+    "local": "Life cycle inventory (LCI) data",
+    "texto": "This LCI represents the entire production procedure of 1 m3 of concrete ... It includes the raw materials (cement, sand, tap water, etc.) and the manufacturing process to produce ready-mixed concrete (concrete mixing factory, energy consumption, etc.)."
+   },
+   {
+    "pagina": 44,
+    "local": "1. Introduction (genérico, não sobre o sistema modelado)",
+    "texto": "In addition, the transport, placement, and compaction of fresh concrete can affect the stability of the entrained air voids."
+   }
+  ],
+  "distancia_betao_km": null,
+  "modo_transporte_betao": "",
+  "fronteira_declarada": "cradle-to-gate (extração de matérias-primas até ao fabrico do produto); uso, manutenção e fim de vida excluídos.",
+  "paginas_renderizadas": [
+   48,
+   52
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Não há betão produzido nem em laboratório nem em obra: traço fornecido pela Unicon e resistência estimada pela fórmula de Bolomey. A frase da introdução sobre 'transport, placement' é observação genérica sobre o ar incorporado, não descrição do sistema. A única distância é das armaduras (1000 km, Noruega/Suécia → mercado), não do betão. Fig.3 só decompõe em 'Manufacturing process' e componentes; sem transporte do betão."
+ },
+ {
+  "row_id": 3173,
+  "pdf": "HOSSAIN et al., 2021 - j.cscm.2021.e00659.pdf",
+  "titulo_confirmado": true,
+  "veredito": "so_enquadramento",
+  "citacoes": [
+   {
+    "pagina": 4,
+    "local": "3.2 Mix-design, LCI, functional unit and system boundary",
+    "texto": "The system boundary was set as 'cradle-to-gate' with the functional units (FUs) of: (i) per 1 m3 concrete production ..."
+   },
+   {
+    "pagina": 4,
+    "local": "3.2",
+    "texto": "The average transport distances from the generation sites to the concrete batching plants were estimated for all materials (as the concrete batching plants are located at different places). The energy consumption for concrete batching in Hong Kong was collected from Zhang et al. [35]."
+   },
+   {
+    "pagina": 3,
+    "local": "Fig. 1",
+    "texto": "Ready mixed concrete production in Hong Kong [37]."
+   },
+   {
+    "pagina": 3,
+    "local": "3.1 (sobre a cinza vulcânica, não o betão)",
+    "texto": "...load the truck for transport to further processing or use on sites (e.g. concrete batching plants). ... The cradle-to-site system boundary with 1 kg of functional unit was considered for the studied SCMs"
+   }
+  ],
+  "distancia_betao_km": null,
+  "modo_transporte_betao": "",
+  "fronteira_declarada": "Betão: cradle-to-gate (1 m3 e por MPa). SCMs: cradle-to-site (1 kg) até às centrais de betão.",
+  "paginas_renderizadas": [
+   3,
+   4,
+   6,
+   7
+  ],
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "As distâncias estão nas Tabelas S1/S2 do material suplementar, que NÃO vem no PDF (o texto refere-o em linha, pela DOI). 'Cradle-to-site' e 'use on sites' referem-se à entrega dos SCMs às centrais de betão, não ao betão. Traços (Tabela 1) de ref.[46] 'batches were prepared'. Fig.5 decompõe em Cement/Aggregates/Processing/Admixture/SCM; nada sobre transporte do betão."
+ }
+]
