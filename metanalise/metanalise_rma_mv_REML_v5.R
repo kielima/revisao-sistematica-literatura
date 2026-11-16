@@ -64,11 +64,15 @@ port <- subset(princ, base_portland == "sim")
 res <- rbind(res, resumo("principal, so cimento Portland", ajusta(port), port))
 
 # ----------------------------------------------------------------
-# 6. ci_t (F22). O ci_mpa foi removido do projecto (F23/F24, Kie 2026-10-16).
+# 6. ci_t (F22, vida util pela F33). O ci_mpa foi removido do projecto (F23/F24, Kie 2026-10-16).
 # ----------------------------------------------------------------
-# F22 (Kie, 2026-10-16): ci_t = ci de Damineli / vida util de projecto, kg CO2-eq/(m3.MPa.ano),
-# so nos pares com vida util declarada pelo proprio artigo (QD). O vi segue a mesma regra do ci
-# (A3/A4): variancia relativa publicada x yi^2, ou hibrido por classe de resistencia.
+# F22 (Kie, 2026-10-16): ci_t = ci de Damineli / vida util, kg CO2-eq/(m3.MPa.ano).
+# F33 (Kie, 2026-10-17): a vida util vem da hierarquia declarada > citada > norma pela aplicacao > 50 anos
+# (dados_fck col 52, coluna ci_t de dados_metanalise.csv), por isso ci_t existe em TODOS os pares e o
+# subconjunto `ct` abaixo e, na pratica, o estrato principal inteiro (o filtro !is.na fica por seguranca).
+# Antes da F33 so entravam os pares com vida util declarada pelo proprio artigo (QD) -- comentario
+# corrigido em 2026-11-16 (F47). O vi segue a mesma regra do ci (A3/A4): variancia relativa publicada
+# x yi^2, ou hibrido por classe de resistencia.
 ct <- subset(princ, !is.na(ci_t))
 ct$yi <- ct$ci_t
 res <- rbind(res, resumo("ci_t (kg CO2-eq/(m3.MPa.ano)), principal com vida util", ajusta(ct, yi = "ci_t"), ct))
