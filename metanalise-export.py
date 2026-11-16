@@ -90,7 +90,12 @@ PORTLANDCODE = {'sim': 'P', 'nao': 'N', 'misto': 'M'}
 # Domínio "plausível" por m³ de material -- exclui totais de estrutura inteira
 # (edifício, ponte), que aparecem em kg absolutos muito acima da escala por m³
 # e não são a mesma unidade de análise dos demais pares.
-FCK_MIN, FCK_MAX = 1, 300
+# F47 (2026-11-16): FCK_MIN passou de 1 (so plausibilidade) a 20 -- o limiar de 20 MPa da Etapa 2 (#1332;
+# purga de linhas fck<20 de 2026-09-08, reaplicada a 2026-09-27 e na F14) passa a ser FILTRO estrutural do
+# painel e do modelo (preparar_dados.py e metanalise-export-mapa.py leem daqui), em vez de apagar linhas de
+# dados_fck (apagar desloca sheet_row, de que lotes_transporte/aplicar.py e outros lotes dependem). Fechou o
+# escape do par 3419 l.1002 (16,0 MPa, gravado em 2026-10-04 sem aplicar a purga; achado do Portfolios).
+FCK_MIN, FCK_MAX = 20, 300
 CO2_MIN, CO2_MAX = -1000, 5000
 
 # Overrides explicitos por (row_id, material) -- NAO pela linha da folha

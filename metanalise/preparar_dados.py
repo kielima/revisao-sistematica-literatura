@@ -52,7 +52,7 @@ def main():
             'estrato': estrato, 'familia': mexp.classify(row_id, g(7), g(3)),
             'base_portland': g(40) or 'misto', 'idade_dias': mexp.tofloat(g(10)), 'vol_m3': vol,
             'vida_util': vida,
-            'ci_t': (co2m3 / fck / vida) if vida else None,  # F22: ci de Damineli / vida util
+            'ci_t': (co2m3 / fck / vida) if vida else None,  # F22: ci de Damineli / vida util; F33: vida pela hierarquia
             'ic_fck_valor': mexp.tofloat(g(26)), 'ic_fck_tipo': g(27), 'ic_fck_n': mexp.tofloat(g(28)),
             'ic_co2_valor': mexp.tofloat(g(30)), 'ic_co2_tipo': g(31), 'ic_co2_n': mexp.tofloat(g(32)),
             # 2026-10-07: cenario com desconto (col 44; vazio = sem desconto declarado -> igual ao bruto)

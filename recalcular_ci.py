@@ -1,17 +1,22 @@
 """Recalcula as colunas ci e cit de dados_fck (meta_analysis_base.xlsx) a partir
 de co2_kg_m3 (a coluna-base de todos os graficos de emissoes, 2026-09-26).
 
-Definicoes (F22 e F24, Kie 2026-10-16):
+Definicoes (F22 e F24, Kie 2026-10-16; vida util do cit pela F33, Kie 2026-10-17):
     ci  [kg CO2-eq/(m3.MPa)]       = co2_kg_m3 / fck_mpa            (Damineli et al. 2010)
-    cit [kg CO2-eq/(m3.MPa.ano)]   = ci / vida_util_anos
-Sem vida util -> cit fica vazio; nunca se usa uma vida util convencionada.
+    cit [kg CO2-eq/(m3.MPa.ano)]   = ci / vida_util_ci_t (col 52)
+A vida util do cit segue a hierarquia da F33: (1) declarada pelo proprio estudo; (2) citada pelo
+estudo; (3) vida de projecto da norma conforme a aplicacao (EN 1990, NBR 15575-1); (4) sem aplicacao
+identificavel, 50 anos. Os casos (3) e (4) sao premissa nossa, explicita na dissertacao. A col 52 e
+escrita por lotes_vidautil/aplicar.py; se estiver vazia, usa-se a col 19 (vida declarada, criterio QD).
+Antes da F33 (F22 original) o cit so existia nos pares com vida util declarada pelo artigo e nunca se
+usava uma vida util convencionada -- comentario corrigido em 2026-11-16 (F47) para bater com o codigo.
 O antigo ci_mpa (co2_kg_m3 x volume / fck, kg CO2-eq/MPa) foi removido do projecto na
 F24 («Pode remover ci_mpa completamente, nao vou usar ele nem descritivo»); a col 38
 passou a guardar o ci de Damineli.
 
 Uso: python3 recalcular_ci.py   (grava por cima de meta_analysis_base.xlsx)
-Correr sempre depois de mexer em co2_kg_m3, fck_mpa, vol_corpo_prova_m3 ou
-vida_util_anos.
+Correr sempre depois de mexer em co2_kg_m3, fck_mpa, vol_corpo_prova_m3,
+vida_util_anos ou vida_util_ci_t.
 """
 import openpyxl
 
