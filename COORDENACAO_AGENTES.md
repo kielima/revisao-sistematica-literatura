@@ -66,7 +66,8 @@ Regra: antes de uma frente nova, **ler esta tabela, correr o §8.1, e acrescenta
 | A4 fase 2 — **gravação** da F44+F45 em `dados_fck` (integrador: agente RSL, decisão da Kiê em #1829, opção a) | F46 | #1805 | `claude/rsl-1805-gravar-a4-fase2` | `lotes_transporte/` (`aplicar.py`) | `meta_analysis_base.xlsx` `dados_fck` cols 87–97 (721 pares de 146 estudos; 36 pares com massa volúmica retida — #1831, #1832, RØNNING) | gravado em 2026-11-15 (ver F46) |
 | Limiar 20 MPa como filtro do painel/modelo (`FCK_MIN=20`); escape do par 3419 l.1002; docstrings F22→F33 (achado do Portfólios, 16/11) | F47 | — (chamado @Metanalise) | `claude/gifted-lovelace-3dbsge` | raiz, `metanalise/` | `meta_analysis_base.xlsx` `dados_fck` l.1002 col 13 (`observacoes`, só carimbo); `metanalise-export.py`; `metanalise/dados_metanalise.csv`; `metanalise/resultados/forest_site.json` | feito em 2026-11-16 (ver F47); por confirmar pela Kiê |
 | A4 fase 3 — **motor de cálculo** (grelha 0–300 km × 4 modos SIDAC, massa F43/F46), só leitura | F48 | #1806 | `claude/rsl-1806-motor-a4` | `metanalise/` | `metanalise/motor_a4.py`, `transporte_a4_motor.csv`, `transporte_a4_grelha.csv`, `transporte_a4_sidac.json` (novos; nenhum `.xlsx` tocado) | feito em 2026-11-16 (ver F48); pontos (a)–(c) por confirmar pela Kiê |
-| _próximo id livre_ | **F49** | | | | | |
+| A4 fase 4 — **validação** do motor contra os 140 pares com `co2_a4` publicado, só leitura | F49 | #1807 | `claude/rsl-1807-validar-a4` | `metanalise/` | `metanalise/validar_a4.py`, `transporte_a4_validacao.csv`, `VALIDACAO_A4_1807.md` (novos; nenhum `.xlsx` tocado) | feito em 2026-11-16 (ver F49); recomendação de sensibilidade de factor por confirmar pela Kiê |
+| _próximo id livre_ | **F50** | | | | | |
 
 Ids F-nn: reservar o seguinte na tabela **antes** de o usar em commit ou em `DECISOES_METANALISE.md` (evita duas frentes com o mesmo número).
 
