@@ -3,7 +3,9 @@
 em comum com o F40, relidos pelo mesmo prompt por decisao da Kie em #1828; resultado_fase2b_lote*.json = F51, tarefa
 #1860, os 124 estudos somaveis que ficaram fora das 14 listas). So preenche celulas vazias; idempotente.
 F51 (2026-11-17): na fase 2b a retencao da massa volumica e automatica, pela mesma regra da F46 — par cuja citacao
-comeca por 'SUSPEITO' fica a aguardar #1832; par com 'seca_endurecido' na citacao fica a aguardar #1831.
+comeca por 'SUSPEITO' fica a aguardar #1832; par com 'seca_endurecido' na citacao fica a aguardar #1831; par com
+'premissa_do_artigo' (valor assumido/tabelado pelos autores, nao medido) fica por confirmar como o RONNING. Campos de
+transporte podem vir por par em por_par (sobrepoem os do estudo).
 Uso: python3 lotes_transporte/aplicar.py [--gravar]   (sem --gravar = ensaio, so conta)
 Colunas novas (a seguir a etapas_nota, col 86): ver NOVAS. A premissa de 2.400 kg/m3 (F43)
 NAO e gravada aqui: e do motor de calculo (#1806), que a aplica onde massa_volumica_origem = nao_disponivel.
@@ -41,6 +43,8 @@ for f in (sorted(glob.glob('lotes_transporte/resultado_lote*.json')) + sorted(gl
                     RETIDOS.setdefault(int(p['sheet_row']), 'aguarda #1832 (soma do traco SUSPEITO, fase 2b F51)')
                 elif 'seca_endurecido' in cit:
                     RETIDOS.setdefault(int(p['sheet_row']), 'aguarda #1831 (massa volumica seca do endurecido, fase 2b F51)')
+                elif 'premissa_do_artigo' in cit:
+                    RETIDOS.setdefault(int(p['sheet_row']), 'por confirmar (F51): valor e premissa/tabela do proprio artigo, nao medicao (precedente RONNING, F45/F46)')
 gravar = '--gravar' in sys.argv
 wb = openpyxl.load_workbook('meta_analysis_base.xlsx'); ws = wb['dados_fck']
 h = [c.value for c in ws[1]]
@@ -63,8 +67,9 @@ for rid, e in est.items():
                 '2026-11-17 (F51)' if frente[rid].startswith('F51') else '2026-11-15 (F46)',
                 RETIDOS[r], mv, mo, p.get('citacao') or e.get('citacao'), nota)
             c['retidos'] += 1
-        vals = [s(e.get('o_que_se_transporta')), s(mv), s(mo), s(p.get('citacao') or e.get('citacao')),
-                s(e.get('distancia_betao_km')), s(e.get('modo_transporte')), s(e.get('capacidade')),
+        g = lambda k: p[k] if k in p else e.get(k)   # F51: por_par pode sobrepor os campos de transporte do estudo (SAMEER 4463)
+        vals = [s(g('o_que_se_transporta')), s(mv), s(mo), s(p.get('citacao') or e.get('citacao')),
+                s(g('distancia_betao_km')), s(g('modo_transporte')), s(g('capacidade')),
                 s(e.get('regresso_vazio')), s(e.get('a4_publicado')),
                 frente[rid] + ' leitura integral (prompt F42)' + ('' if e.get('texto_completo_lido') else ' (texto parcial)') + ('' if e.get('figuras_vistas') else ' (figuras nao vistas)'),
                 s(nota)]

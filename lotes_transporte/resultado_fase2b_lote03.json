@@ -284,7 +284,7 @@
  {
   "row_id": 4463,
   "pdf": "SAMEER, 2019.pdf",
-  "o_que_se_transporta": "betao_fresco_betoneira (M3Q, C35/45 ready-mix) / elemento_prefabricado (M2Q, C50/60 precast)",
+  "o_que_se_transporta": "betao_fresco_betoneira",
   "massa_volumica_kg_m3": null,
   "massa_volumica_origem": "soma_do_traco",
   "distancia_betao_km": "16.3 (ready-mix, M3Q e C35/45) / 180 (precast, M2Q e C50/60)",
@@ -297,31 +297,43 @@
     "sheet_row": 1377,
     "massa_volumica_kg_m3": 2476.5,
     "massa_volumica_origem": "soma_do_traco",
-    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: M3Q: CEM I 52.5 775 + areia de quartzo 946 + agua 183 + po de quartzo 193 + silica fume 164 + SP 23,5 + fibras de aco 192 = 2.476,5 kg/m3 (inclui fibras de aco)"
+    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: M3Q: CEM I 52.5 775 + areia de quartzo 946 + agua 183 + po de quartzo 193 + silica fume 164 + SP 23,5 + fibras de aco 192 = 2.476,5 kg/m3 (inclui fibras de aco)",
+    "o_que_se_transporta": "betao_fresco_betoneira",
+    "distancia_betao_km": 16.3,
+    "modo_transporte": "truck mixer (ready-mix, Tab.A6)"
    },
    {
     "sheet_row": 1378,
     "massa_volumica_kg_m3": 2536.4,
     "massa_volumica_origem": "soma_do_traco",
-    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: M2Q: CEM I 52.5 832 + areia de quartzo 975 + agua 166 + po de quartzo 207 + silica fume 135 + SP 29,4 + fibras de aco 192 = 2.536,4 kg/m3 (inclui fibras de aco)"
+    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: M2Q: CEM I 52.5 832 + areia de quartzo 975 + agua 166 + po de quartzo 207 + silica fume 135 + SP 29,4 + fibras de aco 192 = 2.536,4 kg/m3 (inclui fibras de aco)",
+    "o_que_se_transporta": "elemento_prefabricado",
+    "distancia_betao_km": 180,
+    "modo_transporte": "road train (precast, Tab.A7)"
    },
    {
     "sheet_row": 1379,
     "massa_volumica_kg_m3": 2377.8,
     "massa_volumica_origem": "soma_do_traco",
-    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: C35/45: CEM II/A 356 + areia 640 + gravel 806 + grit 362 + agua 165 + cinza volante 47 + plastificante 1,8 = 2.377,8 kg/m3"
+    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: C35/45: CEM II/A 356 + areia 640 + gravel 806 + grit 362 + agua 165 + cinza volante 47 + plastificante 1,8 = 2.377,8 kg/m3",
+    "o_que_se_transporta": "betao_fresco_betoneira",
+    "distancia_betao_km": 16.3,
+    "modo_transporte": "truck mixer (ready-mix, Tab.A6)"
    },
    {
     "sheet_row": 1380,
     "massa_volumica_kg_m3": 2427.6,
     "massa_volumica_origem": "soma_do_traco",
-    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: C50/60: CEM II/A 405 + areia 654 + gravel 827 + grit 371 + agua 141 + cinza volante 25 + plastificante 4,6 = 2.427,6 kg/m3"
+    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: C50/60: CEM II/A 405 + areia 654 + gravel 827 + grit 371 + agua 141 + cinza volante 25 + plastificante 4,6 = 2.427,6 kg/m3",
+    "o_que_se_transporta": "elemento_prefabricado",
+    "distancia_betao_km": 180,
+    "modo_transporte": "road train (precast, Tab.A7)"
    }
   ],
   "citacao": "Sec.2.2.2 (p.5): 'The ready-mix concrete is transported by a truck mixer from the concrete plant to the construction site... average fuel consumption of a truck mixer is 0.48 L/km... 16.3 km as the average transport distance for ready-mix concrete'; 'The transport of the precast concrete is modeled by using a truck with a total weight of 34-40 t and a capacity of 27 t... average distance of 180 km... utilization rate... 100% on the way to the construction site and 0% on the return'; Tab.A6/A7 (p.18-19): '2 way * 0.5 utilization * 16.3 km * 17.3 t = 281.99 tkm. Transport quantity: 17.3 t / 2.4 t/m3 = 7.5 m3' e '2 way * 0.5 utilization * 180 km * 27 t = 4860 tkm; 27 t / 2.4 t/m3 = 11 m3'.",
   "texto_completo_lido": true,
   "figuras_vistas": true,
-  "nota": "Transporte difere por par: 1377 (M3Q) e 1379 (C35/45) ready-mix por betoneira 16,3 km; 1378 (M2Q) e 1380 (C50/60) precast por road train 180 km; regresso vazio contado (2 way x 0,5) nos dois. Os autores usam 2,4 t/m3 para converter a carga do camiao (Tab.A6/A7), diferente das somas da Tab.1 (2.377,8-2.536,4). A4 nao publicado isolado: Fig.2(a) (p.9) junta 'A4-C3' numa so barra. Tab.1, Fig.1, Fig.2, Tabs.A4-A7 vistas."
+  "nota": "[F51: campos de transporte por par em por_par, porque M3Q/C35-45 sao ready-mix e M2Q/C50-60 precast] Transporte difere por par: 1377 (M3Q) e 1379 (C35/45) ready-mix por betoneira 16,3 km; 1378 (M2Q) e 1380 (C50/60) precast por road train 180 km; regresso vazio contado (2 way x 0,5) nos dois. Os autores usam 2,4 t/m3 para converter a carga do camiao (Tab.A6/A7), diferente das somas da Tab.1 (2.377,8-2.536,4). A4 nao publicado isolado: Fig.2(a) (p.9) junta 'A4-C3' numa so barra. Tab.1, Fig.1, Fig.2, Tabs.A4-A7 vistas."
  },
  {
   "row_id": 4792,
