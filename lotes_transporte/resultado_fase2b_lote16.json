@@ -118,7 +118,7 @@
   "pdf": "ASARE, 2024d.pdf",
   "o_que_se_transporta": "betao_fresco_betoneira",
   "massa_volumica_kg_m3": 2500.0,
-  "massa_volumica_origem": "impressa",
+  "massa_volumica_origem": "soma_do_traco",
   "distancia_betao_km": 50,
   "modo_transporte": "rigid type vehicle weighing more than 17 t (concrete mixing vehicle); varoes de aco em articulated vehicle (>33 t)",
   "capacidade": ">17 t (rigid, betoneira)",
@@ -127,45 +127,45 @@
   "por_par": [
    {
     "sheet_row": 1116,
-    "massa_volumica_kg_m3": 2500.0,
-    "massa_volumica_origem": "impressa",
-    "citacao": "premissa_do_artigo: Tab.3 (p.8) Properties of traditional concrete: 'Density 2500 kg/m3' (valor de projecto, igual para C30/37, C40/50, C50/60). Para comparacao, soma do traco base da Tab.9 (p.13) para 30 MPa: cimento 330 + agua 140 + areia 750 + brita 1245 + SP 3.3 = 2468.3 kg/m3"
+    "massa_volumica_kg_m3": 2468.3,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Soma do traco base da Tab.9 (p.13) para 30 MPa: cimento 330 + agua 140 + areia 750 + brita 1245 + SP 3.3 = 2468.3 kg/m3 [F51: o 'Density 2500 kg/m3' das Tabs.3-4 e premissa de projecto, nao medicao; usa-se a soma do traco impresso, como na leitura F40]"
    },
    {
     "sheet_row": 1117,
-    "massa_volumica_kg_m3": 2500.0,
-    "massa_volumica_origem": "impressa",
-    "citacao": "premissa_do_artigo: Tab.4 (p.8) Properties of steel fibre-reinforced concrete: 'Density 2500 kg/m3' (valor de projecto, igual para C30/37, C40/50, C50/60). Para comparacao, soma do traco base da Tab.9 (p.13) para 30 MPa: cimento 330 + agua 140 + areia 750 + brita 1245 + SP 3.3 = 2468.3 kg/m3 (sem as fibras de aco 20-40 kg/m3)"
+    "massa_volumica_kg_m3": 2468.3,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Soma do traco base da Tab.9 (p.13) para 30 MPa: cimento 330 + agua 140 + areia 750 + brita 1245 + SP 3.3 = 2468.3 kg/m3 (sem as fibras de aco 20-40 kg/m3) [F51: o 'Density 2500 kg/m3' das Tabs.3-4 e premissa de projecto, nao medicao; usa-se a soma do traco impresso, como na leitura F40]"
    },
    {
     "sheet_row": 1118,
-    "massa_volumica_kg_m3": 2500.0,
-    "massa_volumica_origem": "impressa",
-    "citacao": "premissa_do_artigo: Tab.3 (p.8) Properties of traditional concrete: 'Density 2500 kg/m3' (valor de projecto, igual para C30/37, C40/50, C50/60). Para comparacao, soma do traco base da Tab.9 (p.13) para 40 MPa: cimento 400 + agua 140 + areia 700 + brita 1230 + SP 4.0 = 2474.0 kg/m3"
+    "massa_volumica_kg_m3": 2474.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Soma do traco base da Tab.9 (p.13) para 40 MPa: cimento 400 + agua 140 + areia 700 + brita 1230 + SP 4.0 = 2474.0 kg/m3 [F51: o 'Density 2500 kg/m3' das Tabs.3-4 e premissa de projecto, nao medicao; usa-se a soma do traco impresso, como na leitura F40]"
    },
    {
     "sheet_row": 1119,
-    "massa_volumica_kg_m3": 2500.0,
-    "massa_volumica_origem": "impressa",
-    "citacao": "premissa_do_artigo: Tab.4 (p.8) Properties of steel fibre-reinforced concrete: 'Density 2500 kg/m3' (valor de projecto, igual para C30/37, C40/50, C50/60). Para comparacao, soma do traco base da Tab.9 (p.13) para 40 MPa: cimento 400 + agua 140 + areia 700 + brita 1230 + SP 4.0 = 2474.0 kg/m3 (sem as fibras de aco 20-40 kg/m3)"
+    "massa_volumica_kg_m3": 2474.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Soma do traco base da Tab.9 (p.13) para 40 MPa: cimento 400 + agua 140 + areia 700 + brita 1230 + SP 4.0 = 2474.0 kg/m3 (sem as fibras de aco 20-40 kg/m3) [F51: o 'Density 2500 kg/m3' das Tabs.3-4 e premissa de projecto, nao medicao; usa-se a soma do traco impresso, como na leitura F40]"
    },
    {
     "sheet_row": 1120,
-    "massa_volumica_kg_m3": 2500.0,
-    "massa_volumica_origem": "impressa",
-    "citacao": "premissa_do_artigo: Tab.3 (p.8) Properties of traditional concrete: 'Density 2500 kg/m3' (valor de projecto, igual para C30/37, C40/50, C50/60). Para comparacao, soma do traco base da Tab.9 (p.13) para 50 MPa: cimento 450 + agua 140 + areia 660 + brita 1230 + SP 4.5 = 2484.5 kg/m3"
+    "massa_volumica_kg_m3": 2484.5,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Soma do traco base da Tab.9 (p.13) para 50 MPa: cimento 450 + agua 140 + areia 660 + brita 1230 + SP 4.5 = 2484.5 kg/m3 [F51: o 'Density 2500 kg/m3' das Tabs.3-4 e premissa de projecto, nao medicao; usa-se a soma do traco impresso, como na leitura F40]"
    },
    {
     "sheet_row": 1121,
-    "massa_volumica_kg_m3": 2500.0,
-    "massa_volumica_origem": "impressa",
-    "citacao": "premissa_do_artigo: Tab.4 (p.8) Properties of steel fibre-reinforced concrete: 'Density 2500 kg/m3' (valor de projecto, igual para C30/37, C40/50, C50/60). Para comparacao, soma do traco base da Tab.9 (p.13) para 50 MPa: cimento 450 + agua 140 + areia 660 + brita 1230 + SP 4.5 = 2484.5 kg/m3 (sem as fibras de aco 20-40 kg/m3)"
+    "massa_volumica_kg_m3": 2484.5,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Soma do traco base da Tab.9 (p.13) para 50 MPa: cimento 450 + agua 140 + areia 660 + brita 1230 + SP 4.5 = 2484.5 kg/m3 (sem as fibras de aco 20-40 kg/m3) [F51: o 'Density 2500 kg/m3' das Tabs.3-4 e premissa de projecto, nao medicao; usa-se a soma do traco impresso, como na leitura F40]"
    }
   ],
   "citacao": "Sec.2.2.2.1 (p.12): 'The concrete used for the study was considered to be ready-mix concrete and not in situ ... steel fibres are added at the production stage of the concrete before the mix is transported to the site'; Sec.2.2.2.2 (p.13): 'the concrete is delivered to the construction site using a rigid type vehicle weighing more than 17 t (concrete mixing vehicle) ... The travel distance is assumed to be 50km from the production site to the construction site (IStructE, Gibbons & Orr 2020)'; Eq.(20) A4 = Qm x TEF x d; factor de transporte da BEIS 2022 (Tab.7).",
   "texto_completo_lido": true,
   "figuras_vistas": false,
-  "nota": "A4 calculado mas publicado so junto com A5 e em kgCO2e/kN.m/m (Tab.11), nunca em kg CO2-eq/m3. Massa volumica impressa 2500 kg/m3 e uma premissa de projecto (Tabs.3-4); a soma do traco base da Tab.9 da 2468,3 / 2474,0 / 2484,5 kg/m3 (30/40/50 MPa) - diferenca de ~1% registada na citacao. Regresso em vazio nao mencionado. Figuras de resultados nao renderizadas (valores em tabela)."
+  "nota": "[F51: massa por soma do traco da Tab.9; o 2500 impresso e premissa de projecto] A4 calculado mas publicado so junto com A5 e em kgCO2e/kN.m/m (Tab.11), nunca em kg CO2-eq/m3. Massa volumica impressa 2500 kg/m3 e uma premissa de projecto (Tabs.3-4); a soma do traco base da Tab.9 da 2468,3 / 2474,0 / 2484,5 kg/m3 (30/40/50 MPa) - diferenca de ~1% registada na citacao. Regresso em vazio nao mencionado. Figuras de resultados nao renderizadas (valores em tabela)."
  },
  {
   "row_id": 4142,

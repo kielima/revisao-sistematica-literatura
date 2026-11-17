@@ -307,15 +307,15 @@
   "por_par": [
    {
     "sheet_row": 1611,
-    "massa_volumica_kg_m3": null,
-    "massa_volumica_origem": "nao_disponivel",
-    "citacao": "nao_disponivel: Tab.3 (p.9) da 'Ready-mix concrete (25-30 MPa) 31.57 m3 / 76,084 kg' (razao implicita 2410 kg/m3, nao impressa como densidade nem como traco)"
+    "massa_volumica_kg_m3": 2410.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "DERIVADA (massa / volume impressos, regra total+divisor impresso, Kie 2026-08-28): Tab.3 (p.9) 'Ready-mix concrete (25-30 MPa) 31.57 m3 / 76,084 kg' -> 76.084 / 31,57 = 2.410 kg/m3 (nao impressa como densidade)"
    },
    {
     "sheet_row": 1612,
-    "massa_volumica_kg_m3": null,
-    "massa_volumica_origem": "nao_disponivel",
-    "citacao": "nao_disponivel: Tab.3 (p.9) da 'Ready-mix concrete (28-35 MPa) 772.79 m3 / 1,870,152 kg' (razao implicita 2420 kg/m3, nao impressa como densidade nem como traco)"
+    "massa_volumica_kg_m3": 2420.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "DERIVADA (massa / volume impressos, regra total+divisor impresso, Kie 2026-08-28): Tab.3 (p.9) 'Ready-mix concrete (28-35 MPa) 772.79 m3 / 1,870,152 kg' -> 1.870.152 / 772,79 = 2.420 kg/m3 (nao impressa como densidade)"
    }
   ],
   "citacao": "Tab.3 (p.9): 'Ready-mix concrete (25-30 MPa) ... 31.57 m3 76,084 kg' e '(28-35 MPa) ... 772.79 m3 1,870,152 kg'; Sec.3.2 (p.12): 'It has been presumed that most of the selected materials will be delivered locally from manufacturers in Saudi Arabia ... Return of transport to its base has not been included'; Figs.6-7 (p.13).",
