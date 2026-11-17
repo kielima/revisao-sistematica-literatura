@@ -26,8 +26,11 @@ Regras aplicadas (ver metanalise/DECISOES_METANALISE.md):
   F41  tipo transportado por palavra-chave (declarado) ou pela aplicacao (provavel); a fase 2 (col 87
        a4_transporte_tipo) tem precedencia quando nao e `indeterminado`.
   F43  massa volumica: impressa > soma do traco (col 88/89, F46) > 2.400 kg/m3 premissa nossa.
-  #1830 (por decidir): os `betao_fresco_betoneira` da fase 2 sao todos "so pelo enquadramento" (F44/F45) ->
-       marcados `enquadramento_1830`; `nao_transportado_in_situ` recebe coeficiente 0 e fica marcado.
+  F52  (#1830, decisao da Kie em 2026-11-17) tipo da fase 2 so pelo enquadramento ready-mix/central = confianca
+       `provavel` (os 8 estudos de ENQUADRAMENTO_1830; ESPARHAM 4450 passou a `indeterminado` em dados_fck);
+       SKIBICKI 4512 in situ `declarado_1830` (coeficiente 0). Restantes `betao_fresco_betoneira` da fase 2
+       (F45/F51): `declarado_F42` quando o artigo imprime a distancia central->obra (col 91) ou nomeia o veiculo
+       do betao (col 92); senao `provavel_F42` (mesmo criterio da #1830, generalizado — POR CONFIRMAR pela Kie).
 Uso (da raiz do repositorio):  /usr/bin/python3 metanalise/motor_a4.py
 """
 import collections
@@ -91,6 +94,23 @@ def tipo_fase1(material, fronteira_texto, transporte_dados, fronteira_nota, apli
     return 'indeterminado', 'nenhuma', ''
 
 
+# F52 (#1830, Kie 2026-11-17): os 8 estudos «betao de betoneira so pelo enquadramento» da F44 -> confianca `provavel`;
+# SKIBICKI in situ declarado. ESPARHAM 4450 ja e `indeterminado` em dados_fck (lotes_transporte/aplicar_1830.py).
+ENQUADRAMENTO_1830 = {2841, 3155, 4138, 4161, 3173, 2836, 2999, 2785}
+SKIBICKI_1830 = 4512
+VEICULO_BETAO = re.compile(r'betoneira|mixer|concrete truck|agitator|truck mixer|camiao[- ]betoneira|caminh[aã]o[- ]betoneira', re.I)
+NAO_ENTREGA = re.compile(r'nao[_ ]declarad|nao modelad|s[oó] mat[eé]rias|mat[eé]rias[- ]primas|nao indicad|texto geral|excluid', re.I)
+
+
+def entrega_declarada(dist_km, modo):
+    """F52: entrega central->obra declarada = distancia impressa (col 91) ou veiculo do betao nomeado (col 92)
+    sem ressalva de 'nao declarado'/'so materias-primas'."""
+    if mexp.tofloat(dist_km) is not None:
+        return True
+    m = str(modo or '')
+    return bool(VEICULO_BETAO.search(m)) and not NAO_ENTREGA.search(m)
+
+
 def grupo_a4(a4_somavel, fronteira):
     # F38: sim = soma-se; provavel = incerto com fronteira A1-A3 declarada (opcao a parte); nao = A4 ja no valor
     if a4_somavel == 'sim':
@@ -128,10 +148,17 @@ def main():
         tipo_f2 = g(87)
         if tipo_f2 and tipo_f2 != 'indeterminado':
             tipo = tipo_f2
-            if tipo == 'betao_fresco_betoneira':
-                conf, regra = 'enquadramento_1830', 'fase 2: so pelo enquadramento ready-mix/central (F44/F45; por decidir em #1830)'
+            if tipo == 'betao_fresco_betoneira' and row_id in ENQUADRAMENTO_1830:
+                conf, regra = 'provavel_1830', 'fase 2: so pelo enquadramento ready-mix/central (F44/F50); provavel por decisao da Kie em #1830 (F52)'
+            elif tipo == 'betao_fresco_betoneira':
+                if entrega_declarada(g(91), g(92)):
+                    conf, regra = 'declarado_F42', 'fase 2 (leitura integral, prompt F42): entrega central->obra com distancia ou veiculo do betao impressos'
+                else:
+                    conf, regra = 'provavel_F42', 'fase 2: ready-mix/central sem entrega a obra modelada (criterio da #1830 generalizado, F52; por confirmar)'
+            elif tipo == 'nao_transportado_in_situ' and row_id == SKIBICKI_1830:
+                conf, regra = 'declarado_1830', 'fase 2: in situ declarado (Tab.5 «mixing and printing location»; decisao da Kie em #1830, F52)'
             elif tipo == 'nao_transportado_in_situ':
-                conf, regra = 'enquadramento_1830', 'fase 2: in situ so pelo enquadramento (F44; por decidir em #1830)'
+                conf, regra = 'declarado_F42', 'fase 2 (leitura integral, prompt F42): uso no local declarado'
             else:
                 conf, regra = 'declarado_F42', 'fase 2 (leitura integral, prompt F42)'
         else:
