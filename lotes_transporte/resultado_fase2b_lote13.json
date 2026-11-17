@@ -1,0 +1,302 @@
+[
+ {
+  "row_id": 2782,
+  "pdf": "SAMEER et al., 2020.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 702,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: Tab.1 (p.3) da so massa por m2 e espessura do elemento ('Concrete C25/30 a 250 mm 581.0 kg/m2'); traco remetido para Becke et al. [35], nao impresso; sem massa volumica impressa; RC-concrete C25/30 CEM III 42.5: 250 mm, 558 kg/m2"
+   },
+   {
+    "sheet_row": 1887,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: Tab.1 (p.3) da so massa por m2 e espessura do elemento ('Concrete C25/30 a 250 mm 581.0 kg/m2'); traco remetido para Becke et al. [35], nao impresso; sem massa volumica impressa; Concrete C25/30: 250 mm, 581.0 kg/m2"
+   },
+   {
+    "sheet_row": 1888,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: Tab.1 (p.3) da so massa por m2 e espessura do elemento ('Concrete C25/30 a 250 mm 581.0 kg/m2'); traco remetido para Becke et al. [35], nao impresso; sem massa volumica impressa; RC-concrete C25/30 CEM III 42.5: 250 mm, 558 kg/m2"
+   },
+   {
+    "sheet_row": 1889,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: Tab.1 (p.3) da so massa por m2 e espessura do elemento ('Concrete C25/30 a 250 mm 581.0 kg/m2'); traco remetido para Becke et al. [35], nao impresso; sem massa volumica impressa; Concrete C25/30: 280 mm, 663.0 kg/m2"
+   },
+   {
+    "sheet_row": 1890,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: Tab.1 (p.3) da so massa por m2 e espessura do elemento ('Concrete C25/30 a 250 mm 581.0 kg/m2'); traco remetido para Becke et al. [35], nao impresso; sem massa volumica impressa; RC-concrete C25/30 CEM II 42.5: 280 mm, 626 kg/m2"
+   }
+  ],
+  "citacao": "Abstract/Sec.2.1 (p.1-2): 'assessed cradle-to-gate within the LCA boundaries'; FU = 1 m2 of building element; Tab.1 (p.3-4): quantidades em kg/m2 e espessura; nota a: 'concrete mixture is set according to Becke et al. [35]'. Nenhuma mencao a transporte do betao para a obra.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Artigo curto (7 p.), texto integral lido pelo conector. Cradle-to-gate (A1-A3), sem A4. Sem massa volumica nem traco impresso. Razao implicita kg/m2 / espessura (581/0,25=2324; 663/0,28=2368; 558/0,25=2232; 626/0,28=2236) NAO gravada por ser deducao nossa - fica so como informacao para a Kie decidir. Figuras sao graficos de resultados (nao vistas, irrelevantes para massa/transporte)."
+ },
+ {
+  "row_id": 3162,
+  "pdf": "SPAGNUOLO et al., 2024 - j.conbuildmat.2024.136007.pdf",
+  "o_que_se_transporta": "elemento_prefabricado",
+  "massa_volumica_kg_m3": 2384,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": "47 (OPC/Steel: precast plant -> construction site); CSA/GFRP: segmento feito na obra (manufacturing facility -> 248 km -> construction site)",
+  "modo_transporte": "trucks (p.2: 'Transporting the segments by trucks from the precast plant to the construction site'; Fig.2b camiao plataforma com aduelas)",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": "Tab.9 (p.12) e Fig.16: coluna 'Transport' 37.7 kg CO2eq/segmento (OPC/Steel) e 9.71 kg CO2eq/segmento (CSA/GFRP); segmento = 1.33 m3 (Tab.8 nota c); a coluna junta todos os transportes da Tab.8 (manufacturing facility -> precast plant -> site), nao so A4; nao publicado por m3",
+  "por_par": [
+   {
+    "sheet_row": 873,
+    "massa_volumica_kg_m3": 2384,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.1 (p.3) 'Density kg/m3 2384' da mistura A-CSA-CEM II (UNI EN 12350-6, betao fresco); soma do traco impresso 380+892+445+503+160 = 2380 kg/m3 + aditivo 0,7% do ligante"
+   },
+   {
+    "sheet_row": 1935,
+    "massa_volumica_kg_m3": 2384,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.1 (p.3) 'Density kg/m3 2384' da mistura A-CSA-CEM II (UNI EN 12350-6, betao fresco)"
+   },
+   {
+    "sheet_row": 1936,
+    "massa_volumica_kg_m3": 2380,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Sec.6 (p.11): 'mix design constituents are the same for both solutions as reported in Table 1' e p.4 'both concrete mix designs share the same particle size distribution curve, water content, and binder dosage (380 kg/m3)'; Tab.1: ligante 380 + areia 892 + rubble 445 + gravel 503 + agua 160 = 2380 kg/m3 (aditivo 0,7% do ligante nao somado); a densidade 2384 impressa e so da mistura CSA"
+   }
+  ],
+  "citacao": "Sec.6 (p.11): fronteira A1-A3 + A4 ('Transportation from the manufacturing facilities to the precast plant/construction-site'); Tab.8 (p.11) 'Transports: PC/Steel Manufacturing facility -> 565 km -> Precast Plant -> 47 km -> Construction site; CSA/GFRP Manufacturing facility -> 248 km -> Construction site'; p.11 'CSA/GFRP proposed solution, where the segment is directly realized on the construction-site'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Texto do conector completo (76 mil caracteres, sem truncar), lido por seccoes e pesquisa de termos; vistas p.3 (Tab.1, Fig.2) e p.12 (Fig.16, Tab.9) renderizadas. OPC/Steel = aduela prefabricada levada da fabrica de prefabricados a obra (47 km) por camiao; CSA/GFRP = aduela feita na obra (pares 873/1935 seriam nao_transportado_in_situ; o que viaja 248 km vem da 'manufacturing facility', nao betao). Modo do troco 47 km so pela frase da p.2 e foto Fig.2b. Por par: 873/1935 = CSA; 1936 = OPC (CEM IV), soma do traco declarado igual."
+ },
+ {
+  "row_id": 3331,
+  "pdf": "ALMULHIM et al., 2024b - j.heliyon.2024.e40261.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2400,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": "14 kg CO2e/m3 de betao (Tab.5 'A4 Concrete (m3) 14 217'; Conclusao p.16 'The transport phase (A4) contributed 14 kg CO2e/m3 and 217 MJ/m3 for concrete')",
+  "por_par": [
+   {
+    "sheet_row": 968,
+    "massa_volumica_kg_m3": 2400,
+    "massa_volumica_origem": "impressa",
+    "citacao": "premissa_do_artigo: Tab.2 (Design parameters) 'Concrete density (rhoC) 2400 kg/m3' - parametro de projecto estrutural, nao medicao; sem traco impresso"
+   }
+  ],
+  "citacao": "Abstract e Sec.2.6: 'production (A1-A3) and construction (A4-A5) stages'; Tab.5: ECC A4 concrete 14 kgCO2e/m3; Tab.2: 'Concrete density 2400 kg/m3'. Nenhuma distancia, veiculo ou tipo de entrega declarado.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Lida a copia comprimida (fileId_reduzido), texto integral pelo conector (63 mil caracteres). 2400 e premissa de dimensionamento (Tab.2), nao densidade medida. A4 publicado por m3 = 14 kg CO2e, sem fonte/distancia. Figuras (plantas, graficos de % por etapa) nao renderizadas."
+ },
+ {
+  "row_id": 3818,
+  "pdf": "YE, 2024i.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": "50 (assumida, T1-T4; sensibilidade 0-200 km)",
+  "modo_transporte": "Transport, freight, lorry >32 metric ton, EURO3 (Ecoinvent, Tab.3)",
+  "capacidade": ">32 t (classe do processo Ecoinvent)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1103,
+    "massa_volumica_kg_m3": 2053.5,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) 'Materials consumption by mass ... per 1 m3 (Unit: kg)' IBA-ECC: OPC 640 + FA 214 + SF 69 + GGBFS 333 + fine agg 254 + IBA 137 + additives 3.5 + water 386 + PE fibre 17 = 2053.5 kg/m3 (ECC sem agregado grosso)"
+   },
+   {
+    "sheet_row": 1104,
+    "massa_volumica_kg_m3": 2062.5,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) 'Materials consumption by mass ... per 1 m3 (Unit: kg)' CR-ECC: OPC 655 + FA 604 + SF 118 + fine agg 246 + CR 57 + additives 4.5 + water 363 + PE fibre 15 = 2062.5 kg/m3 (ECC sem agregado grosso)"
+   },
+   {
+    "sheet_row": 1105,
+    "massa_volumica_kg_m3": 1822,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) 'Materials consumption by mass ... per 1 m3 (Unit: kg)' LP-ECC: OPC 400 + SF 150 + GGBFS 150 + fine agg 500 + LP 360 + additives 12 + water 230 + PE fibre 20 = 1822 kg/m3"
+   },
+   {
+    "sheet_row": 1106,
+    "massa_volumica_kg_m3": 2541,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) 'Materials consumption by mass ... per 1 m3 (Unit: kg)' RC: OPC 328 + coarse agg 1242 + fine agg 781 + water 190 = 2541 kg/m3 (sem o steel rebar 710 kg que a tabela soma ao m3 de RC; com aco seria 3251)"
+   },
+   {
+    "sheet_row": 1107,
+    "massa_volumica_kg_m3": 2541,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.2 (p.6) 'Materials consumption by mass ... per 1 m3 (Unit: kg)' RC-0 (RC sem aco): OPC 328 + coarse agg 1242 + fine agg 781 + water 190 = 2541 kg/m3"
+   }
+  ],
+  "citacao": "Sec.3.2: 'A cradle-to-gate approach'; Sec.4.3 (p.6-7): 'The transportation distance involved in the scenarios (T1-T4) was assumed to be 50 km ... raw materials from the factory to the construction site (T1), facilities ... (T2), raw materials from the factory to the MiC factory (T3), and casted components from MiC factory to construction site (T4)'; Tab.3: lorry >32 t EURO3; Tab.5: indicadores por 1 m3 de material (so materias-primas, sem transporte).",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Texto do conector completo (68 mil caracteres). Pares = Tab.5 (nivel de material, 1 m3, so extracao das materias-primas, sem transporte). Nos cenarios estruturais: 3DCP mistura e imprime na obra (materias-primas T1 50 km); MC-RC = componentes moldados na fabrica MiC levados a obra (T4 50 km). Nenhuma massa volumica impressa. Somas dos ECC (1822-2063) baixas por nao terem agregado grosso, mas dentro de 1800-2800; sem densidade medida para comparar. No RC a Tab.2 inclui 710 kg de aco no m3 (valor anormalmente alto para 1,01% de armadura); a massa dada exclui o aco. Figuras (fronteiras, mapas) nao renderizadas."
+ },
+ {
+  "row_id": 4090,
+  "pdf": "DE AZEVEDO SAMPAIO et al., 2022.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1184,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: o par junta dois tracos com somas impressas diferentes - Tab.3 (p.6) traco convencional capa CP II Z 32: areia 884 + brita 1003 + cimento 342 + agua 192 = Total 2421,00 kg/m3 (73,1 L por laje); sapatas CP V ARI: 800 + 1172 + 280 + 185 = Total 2437,00 kg/m3 (16,1 L por laje); peso da laje 216,23 kg para 89,21 L"
+   },
+   {
+    "sheet_row": 1185,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: o par junta dois tracos com somas impressas diferentes - Tab.4 (p.6) traco com residuo capa CP II Z 32: areia 772,6 + brita 1197,1 + cimento 360 + agua 140,4 + SP 2,92 + borracha 36 = Total 2509,02 kg/m3; sapatas CP V ARI: 811 + 1204 + 310 + 148,8 + 1,66 + 37,6 = Total 2513,06 kg/m3; peso da laje 223,88 kg para 89,21 L"
+   }
+  ],
+  "citacao": "p.2: ACV 'do berco ao portao (excluindo as fases de uso e descarte)'; p.4-6: sistemas = producao do concreto incluindo 'o transporte e o processo de mistura'; Tab.6 (p.7): transporte so das materias-primas ate a central de mistura (cimentos 300 km, brita 50, areia 70, borracha 5, SP 500 km; lorry >32t / 16-32t / 7.5-16t EURO5). Nada sobre transporte do concreto/laje para a obra.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Texto integral lido pelo conector. Cradle-to-gate; sem A4. Distancias da Tab.6 sao A2 (materias-primas -> central), nao A4. Somas dos tracos impressas como 'Total' em kg/m3, mas cada par combina capa (CP II Z 32, 73,1 L) + sapatas (CP V ARI, 16,1 L) com totais diferentes - por isso nao_disponivel; a Kie pode escolher o total da capa ou a razao peso da laje / volume (216,23/0,08921 e 223,88/0,08921), que seria calculo nosso. Lajes sao 'pre-moldadas trelicadas' mas o artigo nao diz como chegam a obra. Figuras (fronteiras, graficos) nao renderizadas."
+ },
+ {
+  "row_id": 4416,
+  "pdf": "ASDRUBALI, 2025.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1336,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   },
+   {
+    "sheet_row": 1337,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   },
+   {
+    "sheet_row": 1338,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   },
+   {
+    "sheet_row": 1339,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   },
+   {
+    "sheet_row": 1340,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   },
+   {
+    "sheet_row": 1341,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   },
+   {
+    "sheet_row": 1342,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   },
+   {
+    "sheet_row": 1343,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   },
+   {
+    "sheet_row": 1344,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   },
+   {
+    "sheet_row": 1345,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: compilacao de 79 EPDs; a densidade foi recolhida de cada EPD (Sec.2.1.3) mas nao e impressa por classe nem por EPD; so 'No significant relationship was also found between the GWP and the density' (Sec.3.3)"
+   }
+  ],
+  "citacao": "Sec.2.1 (p.3): 'This study reviews EPD data about the cradle to gate fossil GWP ... The modules covered are thus A1-A3'; Sec.2.1.3 (p.6): '79 data points of embodied GWP (modules A1-A3) for ready-mixed concretes ... information extracted ... density'; Fig.5 (p.16) GWP por classe cubica.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "O conector devolveu texto vazio; PDF descarregado (4,8 MB) e extraido com pdftotext (texto presente, com camadas duplicadas da versao de revisao sobrepostas). Lidas as seccoes de metodo e de betao e pesquisados termos em todo o texto; p.16 (Fig.5) renderizada. So A1-A3; A4 fora. 'ready-mixed' e o unico indicio do que se entrega."
+ },
+ {
+  "row_id": 4627,
+  "pdf": "ABOUHAMAD, 2021.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "'typical 30-t transportation truck used in Egypt' (5 km/litro de gasoleo)",
+  "capacidade": "30 t",
+  "regresso_vazio": "contado",
+  "a4_publicado": "Nao por m3. Fig.11 (p.16), A4 em t CO2eq por item do edificio RCC: PC foundation concrete 0.63 (76.904 m3, Tab.4), RC foundation concrete 1.52 (217.02 m3), SOG 1.27 (172.8 m3), RC floor concrete 1.65 (230.1 m3), RC skeleton 1.52 (211.7 m3); A4 total RCC 21.41 t",
+  "por_par": [
+   {
+    "sheet_row": 576,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: factor de EPD por m3 por classe (Tab.1, 255 e 335 kg CO2eq/m3), sem traco nem massa volumica impressos - classe 20 MPa plain concrete"
+   },
+   {
+    "sheet_row": 577,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: factor de EPD por m3 por classe (Tab.1, 255 e 335 kg CO2eq/m3), sem traco nem massa volumica impressos - classe 30 MPa reinforced concrete"
+   },
+   {
+    "sheet_row": 578,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "nao_disponivel: factor de EPD por m3 por classe (Tab.1, 255 e 335 kg CO2eq/m3), sem traco nem massa volumica impressos - sistema RCC do edificio inteiro (volumes na Tab.4, sem massas)"
+   }
+  ],
+  "citacao": "Sec.4.2.1 (p.9): 'Module A4 includes the transportation of building materials from the manufacturers to the building site ... The transportation distance used in calculations is usually doubled to take into consideration the return cycle of the delivery trucks. The average fuel consumption of a typical 30-t transportation truck used in Egypt is equal to 5 km/liter'; Tab.2 (p.9, A5): 'Concrete Mix Truck 10 m3'; Fig.11 (p.16) A4 por item; distancias nao impressas (calculos no ficheiro suplementar 'Environmental impact calculations.xls').",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Texto integral do conector (73 mil caracteres) lido por seccoes e pesquisa de termos; p.16 (Fig.11) renderizada para confirmar as colunas A4/A5. Distancia nao declarada no artigo (so no suplementar). Regresso contado ('distance ... doubled ... return cycle'). Betao das lajes 'cast-in-situ' (p.5) e 'Concrete Mix Truck 10 m3' aparece como equipamento de A5, mas o A4 e descrito com camiao de 30 t generico - por isso o_que_se_transporta = indeterminado. A4 por m3 nao publicado (so totais por item)."
+ }
+]

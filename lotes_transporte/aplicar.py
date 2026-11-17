@@ -1,6 +1,11 @@
 """F42/F43 (tarefa #1805): grava em dados_fck os dados do transporte A4 lidos por estudo
 (lotes_transporte/resultado_lote*.json = F44, os 86 estudos; resultado_comum_lote*.json = F45, os 60
-em comum com o F40, relidos pelo mesmo prompt por decisao da Kie em #1828). So preenche celulas vazias; idempotente.
+em comum com o F40, relidos pelo mesmo prompt por decisao da Kie em #1828; resultado_fase2b_lote*.json = F51, tarefa
+#1860, os 124 estudos somaveis que ficaram fora das 14 listas). So preenche celulas vazias; idempotente.
+F51 (2026-11-17): na fase 2b a retencao da massa volumica e automatica, pela mesma regra da F46 — par cuja citacao
+comeca por 'SUSPEITO' fica a aguardar #1832; par com 'seca_endurecido' na citacao fica a aguardar #1831; par com
+'premissa_do_artigo' (valor assumido/tabelado pelos autores, nao medido) fica por confirmar como o RONNING. Campos de
+transporte podem vir por par em por_par (sobrepoem os do estudo).
 Uso: python3 lotes_transporte/aplicar.py [--gravar]   (sem --gravar = ensaio, so conta)
 Colunas novas (a seguir a etapas_nota, col 86): ver NOVAS. A premissa de 2.400 kg/m3 (F43)
 NAO e gravada aqui: e do motor de calculo (#1806), que a aplica onde massa_volumica_origem = nao_disponivel.
@@ -26,10 +31,20 @@ for r in (1126, 1127, 1128):                                         # RONNING: 
     RETIDOS[r] = 'por confirmar (F45): 2.400 kg/m3 e premissa do proprio artigo, nao medicao'
 MASSA = {'massa_volumica_kg_m3', 'massa_volumica_origem', 'massa_volumica_citacao'}
 est = {}; frente = {}
-for f in sorted(glob.glob('lotes_transporte/resultado_lote*.json')) + sorted(glob.glob('lotes_transporte/resultado_comum_lote*.json')):
+for f in (sorted(glob.glob('lotes_transporte/resultado_lote*.json')) + sorted(glob.glob('lotes_transporte/resultado_comum_lote*.json'))
+          + sorted(glob.glob('lotes_transporte/resultado_fase2b_lote*.json'))):
     for e in json.load(open(f)):
         est[int(e['row_id'])] = e
-        frente[int(e['row_id'])] = 'F45 2026-11-15' if 'comum' in f else 'F44 2026-11-11'
+        frente[int(e['row_id'])] = 'F51 2026-11-17' if 'fase2b' in f else ('F45 2026-11-15' if 'comum' in f else 'F44 2026-11-11')
+        if 'fase2b' in f:   # F51: retencao automatica (mesma regra da F46)
+            for p in e.get('por_par', []):
+                cit = (p.get('citacao') or '')
+                if cit.startswith('SUSPEITO'):
+                    RETIDOS.setdefault(int(p['sheet_row']), 'aguarda #1832 (soma do traco SUSPEITO, fase 2b F51)')
+                elif 'seca_endurecido' in cit:
+                    RETIDOS.setdefault(int(p['sheet_row']), 'aguarda #1831 (massa volumica seca do endurecido, fase 2b F51)')
+                elif 'premissa_do_artigo' in cit:
+                    RETIDOS.setdefault(int(p['sheet_row']), 'por confirmar (F51): valor e premissa/tabela do proprio artigo, nao medicao (precedente RONNING, F45/F46)')
 gravar = '--gravar' in sys.argv
 wb = openpyxl.load_workbook('meta_analysis_base.xlsx'); ws = wb['dados_fck']
 h = [c.value for c in ws[1]]
@@ -48,11 +63,13 @@ for rid, e in est.items():
             mv = e['massa_volumica_kg_m3']
         nota = '; '.join(x for x in (e.get('nota'), p.get('nota')) if x)
         if r in RETIDOS:
-            nota = 'MASSA VOLUMICA RETIDA na gravacao de 2026-11-15 (F46) - %s; valor lido %s, origem %s; citacao: %s. %s' % (
+            nota = 'MASSA VOLUMICA RETIDA na gravacao de %s - %s; valor lido %s, origem %s; citacao: %s. %s' % (
+                '2026-11-17 (F51)' if frente[rid].startswith('F51') else '2026-11-15 (F46)',
                 RETIDOS[r], mv, mo, p.get('citacao') or e.get('citacao'), nota)
             c['retidos'] += 1
-        vals = [s(e.get('o_que_se_transporta')), s(mv), s(mo), s(p.get('citacao') or e.get('citacao')),
-                s(e.get('distancia_betao_km')), s(e.get('modo_transporte')), s(e.get('capacidade')),
+        g = lambda k: p[k] if k in p else e.get(k)   # F51: por_par pode sobrepor os campos de transporte do estudo (SAMEER 4463)
+        vals = [s(g('o_que_se_transporta')), s(mv), s(mo), s(p.get('citacao') or e.get('citacao')),
+                s(g('distancia_betao_km')), s(g('modo_transporte')), s(g('capacidade')),
                 s(e.get('regresso_vazio')), s(e.get('a4_publicado')),
                 frente[rid] + ' leitura integral (prompt F42)' + ('' if e.get('texto_completo_lido') else ' (texto parcial)') + ('' if e.get('figuras_vistas') else ' (figuras nao vistas)'),
                 s(nota)]
