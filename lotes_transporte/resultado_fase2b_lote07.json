@@ -1,0 +1,236 @@
+[
+ {
+  "row_id": 2705,
+  "pdf": "KIM et al., 2016g - su8040348.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 668,
+    "massa_volumica_kg_m3": 2334.92,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.5 (p.8) C-B-58 (30 MPa-500 mm slump) Mix Design (kg/m3): Ordinary Cement not included + Water 160 + Coarse aggregate 929 + Fine aggregate 831 + Blast-furnace slag powder 308 + Admixture 4.92 + Flyash 102 = 2334.92 kg/m3"
+   },
+   {
+    "sheet_row": 669,
+    "massa_volumica_kg_m3": 2345.01,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.5 (p.8) C-I-49 (30 MPa-500 mm slump) Mix Design (kg/m3): Ordinary Cement 211 + Water 160 + Coarse aggregate 953 + Fine aggregate 806 + Blast-furnace slag powder 211 + Admixture 4.01 + Flyash not included = 2345.01 kg/m3"
+   }
+  ],
+  "citacao": "Sec.3 (p.3): 'The system boundary was selected as the product stage of concrete (cradle to gate)... transportation stage's CO2 emission occurs during the transportation of raw materials to the ready-mixed concrete manufacturing plant'; Fig.1 (p.3): Distribution e Building site installation (Construction process stage, Optional) fora do cradle-to-gate; Abstract/Sec.4: concreto RMC (ready-mixed concrete) comprado pelas obras; Sec.5 (p.11): seleccao da RMC company 'considering the distance between the RMC company and the site' so como proposta, sem distancia; Tab.8: 'Assessment method for material procurement location distance when selecting RMC company - not applied'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Cradle-to-gate na central de RMC; distribuicao para obra (A4) fora da fronteira (Fig.1). Transporte calculado so para materias-primas -> central (A2), por truck/train, sem distancias impressas. Nenhuma massa volumica impressa; soma do traco da Tab.5 (vista renderizada p.8). Texto pdftotext com sobreposicao de camadas; paginas 3, 8 e 9-14 lidas por imagem/pymupdf."
+ },
+ {
+  "row_id": 3073,
+  "pdf": "ABU-ENNAB et al., 2022.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 305,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.4 (p.5) Composition of KCSC mixtures (Zakira, 2022): Mix-1 CSA cement 26.67 wt.% + Kaolinite 0 + Sand 73.33 wt.% - traco so em % massica, sem agua nem PCE em kg/m3; nenhuma massa volumica impressa"
+   }
+  ],
+  "citacao": "Sec.2.2.3 (p.5): 'A cradle-to-gate LCA was performed that includes raw material extraction through material manufacturing, including related transportation. The environmental impacts of the construction processes were not considered'; Sec.2.2.4: GaBi 2020, dados de CSA e PCE da literatura; nenhuma distancia, modo ou A4.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Paredes impressas em 3D (KCSC); fronteira cradle-to-gate, processos de construcao excluidos. Traco apenas em percentagem massica (Tab.4), sem agua; massa volumica nao disponivel. Nao diz como o material chega a obra."
+ },
+ {
+  "row_id": 3276,
+  "pdf": "GAL\u00c1N-MAR\u00cdN et al., 2015.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2500.0,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "Transport, lorry 32 t (Ecoinvent 1943, tkm) para todos os materiais",
+  "capacidade": "32 t",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 331,
+    "massa_volumica_kg_m3": 2500.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.2 (p.149) RC (reinforced concrete-based wall): Compressive strength 25.00 MPa, Density 2.50 (unidade impressa 'g/cm2', gralha por g/cm3) = 2500 kg/m3; densidade da parede de betao armado, nao do betao simples"
+   }
+  ],
+  "citacao": "Sec.5 (p.149): 'Assembly and construction... The transportation of building materials from factory to site, and the placement of building products are also evaluated'; p.149: 'considering the distance from factory to site and from the site to landfill. Were considered medium distances for each material, assuming an urban construction site according to the method described by Garcia [52]' (distancias nao impressas); Tab.3 (p.150): Transport 1.943 'Transport, lorry 32 t' tkm 0.17 kg CO2-eq; Concrete 504 'Concrete, normal, at plant' m3; Tab.4 (p.151): RC Transport 5100.92 / 15282.78 / 15302.76 t km (1/2/3 pisos), agregado de todos os materiais.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Transporte fabrica->obra incluido mas so como t.km agregados de todos os materiais da parede RC (betao, aco, cofragem), sem distancia impressa nem A4 por m3 de betao. Densidade 2,50 da Tab.2 e da parede RC (betao armado) com unidade impressa g/cm2 (gralha); vista a Tab.2 renderizada. O que se transporta do betao nao e declarado (so 'Concrete, normal, at plant' + cofragem)."
+ },
+ {
+  "row_id": 3514,
+  "pdf": "FAN et al., 2025 - j.jobe.2025.112547.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1033,
+    "massa_volumica_kg_m3": 2174.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.4) PC-CRL (kg/m3): PLC 513 + Fine Aggregate 1412 + Water 249 = 2174 kg/m3 (argamassa)"
+   },
+   {
+    "sheet_row": 1034,
+    "massa_volumica_kg_m3": 2196.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.4) KH-CRL (kg/m3): GGBFS 520 + Fine Aggregate 1369 + KOH Solution (18.33 %) 307 (Water '-', agua so dentro da solucao) = 2196 kg/m3 (argamassa)"
+   },
+   {
+    "sheet_row": 1035,
+    "massa_volumica_kg_m3": 2175.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.4) KC-CRL (kg/m3): GGBFS 517 + Fine Aggregate 1360 + Water 233 + K2CO3 65 = 2175 kg/m3 (argamassa)"
+   }
+  ],
+  "citacao": "Sec.2.3.1 (p.3): 'this study adopted a cradle-to-gate approach... production gate, which was presumed to be the ready-mix or precast concrete producer'; Abstract: 'scope A1-A3'; Sec.2.2.1: transporte so de materias-primas (PLC 130.6 km-ton truck; areia 61 km truck quarry->batching site; GGBFS 4500 km rail; quimicos 3168 km truck); Sec.3.1.1 (p.8): 'raw material transportation (A2)... 13.3 kg and 57.6 kg of CO2-eq/m3'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Argamassas (declared unit 1 m3 de argamassa), fronteira A1-A3 ate ao produtor ready-mix ou precast (Fig.1 vista: Transport -> Batching -> Use fora). Sem A4 nem distancia a obra. Somas da Tab.1 (vista renderizada); valores de argamassa ~2.170-2.200 kg/m3 (sem agregado grosso), dentro de 1.800-2.800."
+ },
+ {
+  "row_id": 3958,
+  "pdf": "NEIMARK et al., 2024.pdf",
+  "o_que_se_transporta": "elemento_prefabricado",
+  "massa_volumica_kg_m3": 2423.0,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1150,
+    "massa_volumica_kg_m3": 2423.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "SUSPEITO: p.996 'M20 concrete is stipulated to have a density of 2,423 kg m3 (USDoD 2006)'; mas a Tab.1 (p.995) da Total 2423 kg incluindo Steel reinforcement 100 kg (CEM I 224 + Sand 831 + Crushed stones 1127 + Water 141 + Steel 100 = 2423) e o texto p.995 diz 'total mass of input materials consisting of aggregates, cement, water, and steel for a cubic metre of concrete is 2,432 kg (ICE 2019)'"
+   }
+  ],
+  "citacao": "p.4: T-wall 'transported to Baghdad from locally contracted concrete plants'; p.994 (Anatomy of a T-Wall): 'precast in 2.5 m lengths for installation in location... We do not include the transportation of raw materials or finished sections due to the lack of reliable data'; p.995: 'we do not include the transportation of the materials or finished concrete barriers in the analysis'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Elemento prefabricado (barreiras T-wall precast); transporte dos materiais e das seccoes acabadas explicitamente excluido, sem distancia. Massa volumica 2.423 impressa como a do M20 da USDoD, mas coincide com o total da Tab.1 que inclui 100 kg de aco de armadura; o texto da ainda 2.432 kg (ICE) - incoerencia interna, por isso SUSPEITO. Tab.1 vista renderizada (p.995)."
+ },
+ {
+  "row_id": 4301,
+  "pdf": "DE PEDRO et al., 2023.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": 2311.61,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1268,
+    "massa_volumica_kg_m3": 2311.61,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.3 (p.4) / Tab.11 (p.11) FC20.7 CS5 (kg por m3): Cement 286.40 + CS 14.32 + Water 205.00 + CA 1122.55 + FA 683.34 = 2311.61 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.2.1 (p.5): FU '1 cubic meter of 20.7 MPa concrete produced in a central mixing plant', cradle-to-gate; Sec.2.2.2: 'The processes belonging to the construction phase and onwards are excluded'; Sec.2.2.3 (p.6): cimento a 40 km e CS a 25 km da central (A2); Tab.11: Transport Lorry 3.5-7.5 metric tons 11.814 t-km (FC20.7CS5), so cimento e CS.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Fronteira cradle-to-gate na central de mistura (Fig.1 vista); fase de construcao excluida, sem A4 nem distancia central->obra. As distancias 40/25 km e o lorry 3.5-7.5 t sao de materias-primas para a central. Tab.1 da massas unitarias dos constituintes (nao do betao). Soma do traco da Tab.3 (vista renderizada)."
+ },
+ {
+  "row_id": 4522,
+  "pdf": "YAO et al., 2024.pdf",
+  "o_que_se_transporta": "nao_transportado_in_situ",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": "0 kg CO2/m3 (Tab.8 p.15, C3 = 'Transportation of FARAC to the usage site' = 0 em todas as misturas)",
+  "por_par": [
+   {
+    "sheet_row": 1495,
+    "massa_volumica_kg_m3": 2500.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.5) FA0C0F0 (kg/m3): OPC 488 + FA 0 + NCA 1181 + RCA 0 + NFA 636 + RFA 0 + Water 195 = 2500 kg/m3 (PS 1 % nao somado: base da percentagem nao impressa)"
+   },
+   {
+    "sheet_row": 1496,
+    "massa_volumica_kg_m3": 2500.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.5) FA10C0F0 (kg/m3): OPC 439 + FA 49 + NCA 1181 + RCA 0 + NFA 636 + RFA 0 + Water 195 = 2500 kg/m3 (PS 1 % nao somado)"
+   },
+   {
+    "sheet_row": 1497,
+    "massa_volumica_kg_m3": 2500.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.5) FA20C0F0 (kg/m3): OPC 390 + FA 98 + NCA 1181 + RCA 0 + NFA 636 + RFA 0 + Water 195 = 2500 kg/m3 (PS 1 % nao somado)"
+   },
+   {
+    "sheet_row": 1498,
+    "massa_volumica_kg_m3": 2501.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.5) FA10C50F15 (kg/m3): OPC 439 + FA 49 + NCA 591 + RCA 591 + NFA 541 + RFA 95 + Water 195 = 2501 kg/m3 (PS 1 % nao somado)"
+   }
+  ],
+  "citacao": "Sec.4 (p.15): 'FARAC is used on-site after curing in this research, so C3 is zero'; Tab.6 (p.13-14): C3 = transportation of FARAC to the usage site = (dy + by kj') sc M, sc nao impresso; C1b = transporte de materias-primas para a mixing plant (distancias si nao impressas); Tab.8 (p.15): C3 = 0 para todas as misturas.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Lido pela copia comprimida (fileId_reduzido). O artigo poe o transporte do betao ao local de uso (C3, equivalente A4) a zero por o FARAC ser 'used on-site after curing'; nao ha distancia nem modo. Massa volumica nao impressa (Tab.2/3 sao massas volumicas dos agregados); somas da Tab.4 sem o PS, que esta so em % sem base declarada. Tab.4 e Tab.8 vistas renderizadas."
+ },
+ {
+  "row_id": 4847,
+  "pdf": "KIM et al., 2017.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1819,
+    "massa_volumica_kg_m3": 2302.05,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.5 (p.11) 24 MPa (kg/m3): OPC 336 + FA 0 + G 936 + S 453 + R/S 443 + AE 3.05 + W 131 + R/W 0 = 2302.05 kg/m3"
+   },
+   {
+    "sheet_row": 1820,
+    "massa_volumica_kg_m3": 2307.95,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.5 (p.11) 30 MPa (kg/m3): OPC 334 + FA 59 + G 954 + S 393 + R/S 394 + AE 2.95 + W 103 + R/W 68 = 2307.95 kg/m3"
+   }
+  ],
+  "citacao": "Sec.3.2(2) (p.4): 'The production stage (cradle to gate) shown in Figure 1 was selected as the LCA range'; Fig.1: Distribution e Building site installation fora; Sec.3.4.2 (p.5): transporte de materias-primas ate 'a ready-mixed concrete plant using a bulk cement truck'; Sec.5.2 (p.10): 'concrete procured at a construction site in Seongnam City... waste disposal regulations for the ready-mixed concrete industry'; Tab.4: Truck, 'Distance (km): Specific materials transport route' (sem numeros); Tab.6: transportation 38.57 / 39.21 kg CO2eq/m3 = materias-primas (A2).",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Betao pronto (ready-mixed) comprado pela obra; fronteira cradle-to-gate, distribuicao para obra (A4) fora (Fig.1 vista). Transportation da Tab.6 e de materias-primas para a central, sem distancias impressas. Somas da Tab.5 (vista renderizada), agua W + agua reciclada R/W."
+ }
+]

@@ -1,0 +1,386 @@
+[
+ {
+  "row_id": 2672,
+  "pdf": "SPOSITO, 2024 - tde-30092024-135605.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado (camioes 32 t, Ecoinvent 'lorry >32 metric ton, EURO3', so para BFS/BLA/NaOH/Na2SiO3 ate a producao em Pirassununga)",
+  "capacidade": "nao_declarado (32 t so para materias-primas)",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 144,
+    "massa_volumica_kg_m3": 1790.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "SUSPEITO: <1800, mas e pasta alcali-ativada (nao betao). Tab.14 (p.94, Sec.4.1.6.1.3) bulk density BD (ASTM C948) aos 28 d, pasta endurecida, seca_endurecido: NH 1,79 g/cm3 = 1790 kg/m3"
+   },
+   {
+    "sheet_row": 145,
+    "massa_volumica_kg_m3": 1870.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.14 (p.94, Sec.4.1.6.1.3) bulk density BD (ASTM C948) aos 28 d, pasta endurecida, seca_endurecido: NH-SS1.5 1,87 g/cm3 = 1870 kg/m3 (par rotulado 'NH-SS1.5, 28d'; a descricao do par menciona cinza de bambu, mas NH-SS1.5 e activada por Na2SiO3)"
+   },
+   {
+    "sheet_row": 2101,
+    "massa_volumica_kg_m3": 1810.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.14 (p.94, Sec.4.1.6.1.3) bulk density BD (ASTM C948) aos 28 d, pasta endurecida, seca_endurecido: NH-SS1.0 1,81 g/cm3 = 1810 kg/m3"
+   },
+   {
+    "sheet_row": 2102,
+    "massa_volumica_kg_m3": 1860.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.14 (p.94, Sec.4.1.6.1.3) bulk density BD (ASTM C948) aos 28 d, pasta endurecida, seca_endurecido: NH-SS2.0 1,86 g/cm3 = 1860 kg/m3"
+   },
+   {
+    "sheet_row": 2103,
+    "massa_volumica_kg_m3": 1850.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.14 (p.94, Sec.4.1.6.1.3) bulk density BD (ASTM C948) aos 28 d, pasta endurecida, seca_endurecido: NH-BLA1.0 1,85 g/cm3 = 1850 kg/m3"
+   },
+   {
+    "sheet_row": 2104,
+    "massa_volumica_kg_m3": 1920.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.14 (p.94, Sec.4.1.6.1.3) bulk density BD (ASTM C948) aos 28 d, pasta endurecida, seca_endurecido: NH-BLA1.5 1,92 g/cm3 = 1920 kg/m3"
+   },
+   {
+    "sheet_row": 2105,
+    "massa_volumica_kg_m3": 1830.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "Tab.14 (p.94, Sec.4.1.6.1.3) bulk density BD (ASTM C948) aos 28 d, pasta endurecida, seca_endurecido: NH-BLA2.0 1,83 g/cm3 = 1830 kg/m3"
+   }
+  ],
+  "citacao": "Sec.4.1.2.2 (p.77): 'The cradle to gate approach was chosen'; Figs.20-22 (p.77-78): fronteira so ate 'AAs matrices production', transporte rodoviario so das materias-primas; Fig.23 (p.81-82): BFS 1135,9 km, BLA 213,4 km, NaOH e Na2SiO3 264 km ate Pirassununga, trucks 32 t; p.87: 'materials transportation process emits 72.4 kg CO2 eq for 1m3' (A2, nao A4). Tab.10 (p.79-80): traco so em razoes (w/b 0,25, NaOH 4 mol/kg, SiO2/Na2O), sem kg/m3.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Tese completa lida por pdftotext do PDF descarregado (135 p., 314 mil caracteres). Sem traco em kg/m3. A massa especifica fresca impressa na Sec.4.1.3.1 (p.84-85) e incoerente: '44.60, 44.86, 45.08, 45.28, 43.02, 42.89, 42.57 kg/m3' (unidade impossivel) - por isso usada a BD seca do endurecido aos 28 d da Tab.14 (ensaio ASTM C948). Pastas, nao betao: valores 1790-1920 sao esperados para pasta de escoria. Cradle-to-gate; nada sobre entrega ao uso (o produto final do Cap.5 sao paineis de fachada extrudidos, sem A4). Fig.20-22 vistas."
+ },
+ {
+  "row_id": 3003,
+  "pdf": "ZHANG et al., 2018.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": 30,
+  "modo_transporte": "concrete mixer truck (camiao betoneira)",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": "20 kg CO2/m3 (CO2-T, Tab.1 p.30, igual para todas as classes; = 0,674 kg CO2/m3.km x 30 km, Eq.3 p.29)",
+  "por_par": [
+   {
+    "sheet_row": 250,
+    "massa_volumica_kg_m3": 2380.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.30) Wi (kg/m3): C25: CEM I 32.5 260 + agregado 1955 + agua 165 = 2380 kg/m3"
+   },
+   {
+    "sheet_row": 251,
+    "massa_volumica_kg_m3": 2380.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.30) Wi (kg/m3): C35: CEM I 32.5 300 + agregado 1915 + agua 165 = 2380 kg/m3"
+   },
+   {
+    "sheet_row": 252,
+    "massa_volumica_kg_m3": 2380.0,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.30) Wi (kg/m3): C45: CEM I 32.5 340 + agregado 1875 + agua 165 = 2380 kg/m3"
+   },
+   {
+    "sheet_row": 253,
+    "massa_volumica_kg_m3": 2390.4,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.30) Wi (kg/m3): C80: CEM I 52.5 510 + agregado 1673 + agua 165 + silica fume 27 + SP 15,4 = 2390,4 kg/m3"
+   },
+   {
+    "sheet_row": 254,
+    "massa_volumica_kg_m3": 2390.4,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.30) Wi (kg/m3): C90: CEM I 52.5 580 + agregado 1600 + agua 165 + silica fume 30 + SP 15,4 = 2390,4 kg/m3"
+   },
+   {
+    "sheet_row": 255,
+    "massa_volumica_kg_m3": 2390.4,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.30) Wi (kg/m3): C100: CEM I 52.5 650 + agregado 1526 + agua 165 + silica fume 34 + SP 15,4 = 2390,4 kg/m3"
+   },
+   {
+    "sheet_row": 256,
+    "massa_volumica_kg_m3": 2214.2,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.30) Wi (kg/m3): C160: CEM I 52.5 790 + agregado 1016 + agua 185 + silica fume 195 + SP 28,2 = 2214,2 kg/m3"
+   },
+   {
+    "sheet_row": 257,
+    "massa_volumica_kg_m3": 2284.2,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.30) Wi (kg/m3): C170: CEM I 52.5 845 + agregado 1016 + agua 185 + silica fume 210 + SP 28,2 = 2284,2 kg/m3"
+   },
+   {
+    "sheet_row": 258,
+    "massa_volumica_kg_m3": 2354.2,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.30) Wi (kg/m3): C180: CEM I 52.5 900 + agregado 1016 + agua 185 + silica fume 225 + SP 28,2 = 2354,2 kg/m3"
+   }
+  ],
+  "citacao": "Sec.3.1.2 (p.29): 'Di is the transportation distance (from the concrete factory to the construction site) for 1 m3 of the freshly concrete. CO2-i(T) is the CO2 emission from the concrete mixer truck per cube concrete. It is assumed that the distance is 30 km from the concrete factory to the site. The CO2-i(T) for 1 m3 of the freshly produced concrete is 0.674 kg CO2/m3.km'; Tab.1 (p.30): CO2-T 20 kg CO2/m3 em todas as classes.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "A4 publicado e explicito (CO2-T = 20 kg CO2/m3, 30 km, betoneira). Regresso vazio nao mencionado. Massa por soma do traco da Tab.1 (sem massa volumica impressa; as regras SWRL usam 'Density' sem valor). Tab.1 lida no texto extraido (tabela limpa), sem renderizar."
+ },
+ {
+  "row_id": 3219,
+  "pdf": "SUN et al., 2025.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": 2425.83,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": 30,
+  "modo_transporte": "Concrete agitator ZLJ5251GJB2 (camiao betoneira) para o betao; dump truck BJ374 para materias-primas (100 km)",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 931,
+    "massa_volumica_kg_m3": 2425.83,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.4 (p.3) mix BYCC (kg/m3): BYC 415 + areia 654 + agregado 1182 + agua 174 + redutor de agua 0,83 = 2425,83 kg/m3 (PCC igual com PC42.5 no lugar de BYC)"
+   }
+  ],
+  "citacao": "Sec.4.1.2 (p.12): 'The transportation distance for raw materials was set at 100 kilometres, and for concrete, at 30 kilometres [46]'; Tab.7 (p.13): Transportation - Concrete agitator ZLJ5251GJB2, 842,8 h, 53,1 kg CO2/h (para o pavimento inteiro, 1 km x 20 m x 0,20 m); Fig.17 (p.12): fronteira inclui transporte producao->construcao; Fig.18 (p.14) por m3 so mostra 'Material transportation' agregado (materias-primas), sem A4 isolado.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "A4 nao publicado por m3: o transporte do betao so aparece em horas de betoneira para o pavimento inteiro (Tab.7) e agregado em 'Material transport' na Fig.19 (t, pavimento). Regresso vazio e capacidade nao declarados. Figs.17-19 vistas."
+ },
+ {
+  "row_id": 3403,
+  "pdf": "STOIBER et al., 2021 - j.jclepro.2020.124300.pdf",
+  "o_que_se_transporta": "indeterminado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "impressa",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 984,
+    "massa_volumica_kg_m3": 2399.8,
+    "massa_volumica_origem": "impressa",
+    "citacao": "DERIVADA de massa e volume impressos lado a lado: Tab.5 (p.8) quantidades da ponte em m3 (t): walls C30/37 12,48 m3 (29,95 t) -> 29.950/12,48 = 2.399,8 kg/m3"
+   },
+   {
+    "sheet_row": 985,
+    "massa_volumica_kg_m3": 2400.0,
+    "massa_volumica_origem": "impressa",
+    "citacao": "DERIVADA de massa e volume impressos lado a lado: Tab.5 (p.8) quantidades da ponte em m3 (t): deck C50/60 10,60 m3 (25,44 t) -> 25.440/10,60 = 2.400,0 kg/m3"
+   },
+   {
+    "sheet_row": 986,
+    "massa_volumica_kg_m3": 2415.6,
+    "massa_volumica_origem": "impressa",
+    "citacao": "DERIVADA de massa e volume impressos lado a lado: Tab.5 (p.8) quantidades da ponte em m3 (t): B1-CCB deck and walls C70/85 6,16 m3 (14,88 t) -> 14.880/6,16 = 2.415,6 kg/m3"
+   }
+  ],
+  "citacao": "Sec.3.2.5 (p.6): EPD InformationsZentrum Beton (Becke et al., 2014), cradle-to-gate de 1 m3; 'Average transport distances of raw materials to a manufacturing plant include 30-60 km for aggregate, around 180 km for cement and around 100 km for additives and fly ash' (A2); Tab.3: C70/85 extrapolado; Sec.5 (p.10): 'the conventional steel reinforced concrete bridge is to be built primarily on site', pontes CFRP com 'high potential level of prefabrication'; conclusao: 'This paper conducted a cradle-to-gate LCA'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Sem traco nem massa volumica impressa como tal; a Tab.5 imprime volume (m3) e massa (t) de cada elemento, de onde sai a razao (~2,40 t/m3, provavelmente premissa dos autores, nao dita). Marquei 'impressa' com citacao 'DERIVADA...' para o agente decidir; se nao for aceite, tratar como nao_disponivel. A4 fora (cradle-to-gate); o_que_se_transporta indeterminado: a ponte B2-RCB (C30/37, C50/60) e 'built primarily on site' sem dizer betao pronto; a B1-CCB (C70/85) so tem 'potencial' de prefabricacao."
+ },
+ {
+  "row_id": 3894,
+  "pdf": "SILVA, 2019.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado (betoneiras mencionadas, combustivel excluido)",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1131,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.2 (p.4) so da min/max de cada material para 25 MPa (34 centrais), sem traco medio nem massa volumica; nao ligavel ao CO2 medio da Tab.1"
+   },
+   {
+    "sheet_row": 1132,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.2 (p.4) so da min/max de cada material para 30 MPa (34 centrais), sem traco medio nem massa volumica; nao ligavel ao CO2 medio da Tab.1"
+   },
+   {
+    "sheet_row": 1133,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.2 (p.4) so da min/max de cada material para 35 MPa (34 centrais), sem traco medio nem massa volumica; nao ligavel ao CO2 medio da Tab.1"
+   },
+   {
+    "sheet_row": 1134,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Tab.2 (p.4) so da min/max de cada material para 40 MPa (34 centrais), sem traco medio nem massa volumica; nao ligavel ao CO2 medio da Tab.1"
+   }
+  ],
+  "citacao": "Resumo/Sec.2 (p.1-2): 'cradle-to-gate impact results for ready-mix concrete production'; Sec.2 (p.2): 'electricity and diesel for internal equipment (such as loaders; the fuel used for mixer trucks is not included)'; distancias so das materias-primas aproximadas por media de fabricantes de blocos [22]; Tab.2 (p.4): minimos e maximos de cimento, areia, brita, agua, aditivo por classe.",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "Betao pronto (ready-mix), cradle-to-gate: o combustivel das betoneiras foi excluido, sem distancia nem A4. Massa nao disponivel: so faixas min/max por material (somar min ou max nao corresponde a nenhuma mistura). Artigo de 9 p. lido inteiro (texto); Fig.1 so tem razoes relativas."
+ },
+ {
+  "row_id": 4244,
+  "pdf": "GUIGNONE, 2022.pdf",
+  "o_que_se_transporta": "elemento_prefabricado",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": 21.5,
+  "modo_transporte": "camiao rodoviario ('road vehicles'; Ecoinvent EURO 3 16-32 t para os transportes do estudo); cada camiao leva 2 lajes",
+  "capacidade": "2 lajes alveolares por camiao (5 m3 de betao por laje); classe 16-32 t (Ecoinvent)",
+  "regresso_vazio": "contado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1230,
+    "massa_volumica_kg_m3": 2492.8,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.6) material para 1 m3 de laje (so o betao, sem cordoalha): Control: cimento 302,85 + GP 0 + brita 1133 + areia 875,24 + agua 181,71 = 2.492,80 kg/m3"
+   },
+   {
+    "sheet_row": 1231,
+    "massa_volumica_kg_m3": 2487.29,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.6) material para 1 m3 de laje (so o betao, sem cordoalha): GP1-10: cimento 272,57 + GP 24,77 + brita 1133 + areia 875,24 + agua 181,71 = 2.487,29 kg/m3"
+   },
+   {
+    "sheet_row": 1232,
+    "massa_volumica_kg_m3": 2481.8,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.6) material para 1 m3 de laje (so o betao, sem cordoalha): GP1-20: cimento 242,28 + GP 49,57 + brita 1133 + areia 875,24 + agua 181,71 = 2.481,80 kg/m3"
+   },
+   {
+    "sheet_row": 1233,
+    "massa_volumica_kg_m3": 2487.29,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.6) material para 1 m3 de laje (so o betao, sem cordoalha): GP2-10: cimento 272,57 + GP 24,77 + brita 1133 + areia 875,24 + agua 181,71 = 2.487,29 kg/m3"
+   },
+   {
+    "sheet_row": 1234,
+    "massa_volumica_kg_m3": 2481.8,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.6) material para 1 m3 de laje (so o betao, sem cordoalha): GP2-20: cimento 242,28 + GP 49,57 + brita 1133 + areia 875,24 + agua 181,71 = 2.481,80 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.6.7 (p.15): 'from the exit of the prestressed slabs from the manufacturing site to the installation on the bridge... Each truck could carry 2 slabs; therefore, 3 trips were required per week, consisting of a 40 km round trip for each trip... 11,520 km'; Tab.8 (p.18): 'Concrete slab -> Bridge, Greater Vitoria-ES, 21.5 km'; Sec.2.6.9 (p.17): 'All transportation distances were performed using road vehicles... EURO 3 with a 16-32 t capacity'; Tab.7 (p.17): 'Construction-transport for installation on the bridge 11,520 km'; Fig.10 (p.11) fronteira inclui 'Transportation to the location of the slab installation'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Lido pela copia comprimida (fileId_reduzido) descarregada + pdftotext (28 p.). Laje alveolar pre-esforcada prefabricada (1 laje = 5 m3). Distancia: 21,5 km na Tab.8 vs '40 km round trip' na Sec.2.6.7 (ida e volta contada, ~20 km por sentido) - registei 21,5 (Tab.8). A densidade fresca foi medida (Tab.3, ASTM C143 'Density... At mixing') mas o valor nao e impresso no artigo. A4 nao publicado por m3: 'Installation' na Fig.18 e da ponte inteira (0,05% no IMPACT 2002+), sem valor por m3. Figs.10, 18, 19 vistas."
+ },
+ {
+  "row_id": 4463,
+  "pdf": "SAMEER, 2019.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira (M3Q, C35/45 ready-mix) / elemento_prefabricado (M2Q, C50/60 precast)",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "soma_do_traco",
+  "distancia_betao_km": "16.3 (ready-mix, M3Q e C35/45) / 180 (precast, M2Q e C50/60)",
+  "modo_transporte": "ready-mix: truck mixer modelado como camiao GaBi 'Truck (EN15804 A4)' + 0,13 L/km de diesel extra (0,48 vs 0,35 L/km); precast: 'Road train (EN15804 A4)', camiao 34-40 t",
+  "capacidade": "ready-mix: 17,3 t (= 7,5 m3 a 2,4 t/m3, Tab.A6); precast: 27 t (= 11 m3 a 2,4 t/m3, Tab.A7)",
+  "regresso_vazio": "contado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1377,
+    "massa_volumica_kg_m3": 2476.5,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: M3Q: CEM I 52.5 775 + areia de quartzo 946 + agua 183 + po de quartzo 193 + silica fume 164 + SP 23,5 + fibras de aco 192 = 2.476,5 kg/m3 (inclui fibras de aco)"
+   },
+   {
+    "sheet_row": 1378,
+    "massa_volumica_kg_m3": 2536.4,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: M2Q: CEM I 52.5 832 + areia de quartzo 975 + agua 166 + po de quartzo 207 + silica fume 135 + SP 29,4 + fibras de aco 192 = 2.536,4 kg/m3 (inclui fibras de aco)"
+   },
+   {
+    "sheet_row": 1379,
+    "massa_volumica_kg_m3": 2377.8,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: C35/45: CEM II/A 356 + areia 640 + gravel 806 + grit 362 + agua 165 + cinza volante 47 + plastificante 1,8 = 2.377,8 kg/m3"
+   },
+   {
+    "sheet_row": 1380,
+    "massa_volumica_kg_m3": 2427.6,
+    "massa_volumica_origem": "soma_do_traco",
+    "citacao": "Tab.1 (p.3) total impresso (kg/m3), conferido pela soma: C50/60: CEM II/A 405 + areia 654 + gravel 827 + grit 371 + agua 141 + cinza volante 25 + plastificante 4,6 = 2.427,6 kg/m3"
+   }
+  ],
+  "citacao": "Sec.2.2.2 (p.5): 'The ready-mix concrete is transported by a truck mixer from the concrete plant to the construction site... average fuel consumption of a truck mixer is 0.48 L/km... 16.3 km as the average transport distance for ready-mix concrete'; 'The transport of the precast concrete is modeled by using a truck with a total weight of 34-40 t and a capacity of 27 t... average distance of 180 km... utilization rate... 100% on the way to the construction site and 0% on the return'; Tab.A6/A7 (p.18-19): '2 way * 0.5 utilization * 16.3 km * 17.3 t = 281.99 tkm. Transport quantity: 17.3 t / 2.4 t/m3 = 7.5 m3' e '2 way * 0.5 utilization * 180 km * 27 t = 4860 tkm; 27 t / 2.4 t/m3 = 11 m3'.",
+  "texto_completo_lido": true,
+  "figuras_vistas": true,
+  "nota": "Transporte difere por par: 1377 (M3Q) e 1379 (C35/45) ready-mix por betoneira 16,3 km; 1378 (M2Q) e 1380 (C50/60) precast por road train 180 km; regresso vazio contado (2 way x 0,5) nos dois. Os autores usam 2,4 t/m3 para converter a carga do camiao (Tab.A6/A7), diferente das somas da Tab.1 (2.377,8-2.536,4). A4 nao publicado isolado: Fig.2(a) (p.9) junta 'A4-C3' numa so barra. Tab.1, Fig.1, Fig.2, Tabs.A4-A7 vistas."
+ },
+ {
+  "row_id": 4792,
+  "pdf": "STUDZINSKI et al., 2024.pdf",
+  "o_que_se_transporta": "betao_fresco_betoneira",
+  "massa_volumica_kg_m3": null,
+  "massa_volumica_origem": "nao_disponivel",
+  "distancia_betao_km": null,
+  "modo_transporte": "nao_declarado",
+  "capacidade": "nao_declarado",
+  "regresso_vazio": "nao_declarado",
+  "a4_publicado": null,
+  "por_par": [
+   {
+    "sheet_row": 1788,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sem traco nem massa volumica no artigo: GWP de 'ready-mix concrete' C25/30-C35/45 tirado de base de EPD (Tab.4, p.11, ref.[51]); Tab.2 so da E, nu, fck, ftk"
+   },
+   {
+    "sheet_row": 1789,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sem traco nem massa volumica no artigo: GWP de 'ready-mix concrete' C25/30-C35/45 tirado de base de EPD (Tab.4, p.11, ref.[51]); Tab.2 so da E, nu, fck, ftk"
+   },
+   {
+    "sheet_row": 1790,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sem traco nem massa volumica no artigo: GWP de 'ready-mix concrete' C25/30-C35/45 tirado de base de EPD (Tab.4, p.11, ref.[51]); Tab.2 so da E, nu, fck, ftk"
+   },
+   {
+    "sheet_row": 2085,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sem traco nem massa volumica no artigo: GWP de 'ready-mix concrete' C25/30-C35/45 tirado de base de EPD (Tab.4, p.11, ref.[51]); Tab.2 so da E, nu, fck, ftk"
+   },
+   {
+    "sheet_row": 2086,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sem traco nem massa volumica no artigo: GWP de 'ready-mix concrete' C25/30-C35/45 tirado de base de EPD (Tab.4, p.11, ref.[51]); Tab.2 so da E, nu, fck, ftk"
+   },
+   {
+    "sheet_row": 2087,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sem traco nem massa volumica no artigo: GWP de 'ready-mix concrete' C25/30-C35/45 tirado de base de EPD (Tab.4, p.11, ref.[51]); Tab.2 so da E, nu, fck, ftk"
+   },
+   {
+    "sheet_row": 2088,
+    "massa_volumica_kg_m3": null,
+    "massa_volumica_origem": "nao_disponivel",
+    "citacao": "Sem traco nem massa volumica no artigo: GWP de 'ready-mix concrete' C25/30-C35/45 tirado de base de EPD (Tab.4, p.11, ref.[51]); Tab.2 so da E, nu, fck, ftk"
+   }
+  ],
+  "citacao": "Sec.2.3/3.3 (p.10-11): 'For this reason, only A1-A3 stages were taken into consideration in the LCA analysis. However, additional analysis incorporating the effects of construction works (A5 stage) is worth considering'; 'a database (as of May 2024) with the Global Warming Potential (GWP) values for ready-mix concrete and reinforcement steel was prepared... limited by region (Poland)'; Tab.4 (p.11).",
+  "texto_completo_lido": true,
+  "figuras_vistas": false,
+  "nota": "So A1-A3 (A4 fora). O betao e descrito como 'ready-mix concrete' (EPD polacas). Nenhum traco, densidade ou peso proprio numerico impresso. A Tab.4 diz 'eqkgCO2/kg' mas os valores do betao (140-337) sao claramente por m3 - fora do ambito desta fase."
+ }
+]
