@@ -1,0 +1,224 @@
+[
+ {
+  "row_id": 3930,
+  "autor": "Morsi, Dalia M.A. and Ismaeel, Walaa S.E. and El-Hamed, A.E.",
+  "ano": 2020,
+  "titulo": "Life cycle assessment of a residential building in Egypt: A case study",
+  "doi": "10.1088/1757-899X/974/1/012028",
+  "pdf": "MORSI, 2020.pdf",
+  "fileId": "133Gm4nsqoKu7dN2CkccmfkxAZnFcPYAH",
+  "fileSize": 570582,
+  "pares": [
+   {
+    "sheet_row": 1145,
+    "material": "Concreto estrutural armado (laje solida, fundacoes, vigas, pilares) - edificio residencial, Cairo Novo, Egito",
+    "fck_mpa": 25,
+    "classe": "resistencia caracteristica ao cubo 25 N/mm2 (=25 MPa), betao Portland tipo I, conforme ESS 373/541",
+    "tipo_corpo_prova": "cubo (resistencia caracteristica cubica declarada no texto)",
+    "fonte_no_pdf": "p.6-7, texto: \"Reinforced concrete grade in the project is with cubic characteristics strength of 25 N/mm2\"",
+    "observacoes": "[RECUPERADO 2026-09-07, PDF reaberto integralmente] Linha legada nao tinha fck nem co2. Fck esta explicito no texto (25 N/mm2). CO2 do betao estrutural NAO vem publicado diretamente por m3 -- o artigo publica (a) GWP operacional do edificio (1,19 kgCO2eq/m2, nao aplicavel ao material) e (b) o GWP TO"
+   }
+  ]
+ },
+ {
+  "row_id": 3932,
+  "autor": "Jeong, Wonwoo and Park, HyeMin",
+  "ano": 2024,
+  "titulo": "Economic and environmental assessment of the Korea urban railway and its\ngreenhouse gas mi",
+  "doi": "10.1088/2515-7620/ad5a6b",
+  "pdf": "JEONG, 2024.pdf",
+  "fileId": "17uGiGCZZKwwvS2g4pBCUOjiT_fnRLfJI",
+  "fileSize": 2123739,
+  "pares": [
+   {
+    "sheet_row": 1146,
+    "material": "Concreto de cimento (cement concrete trackbed) - lastro de via ferroviaria urbana, Coreia do Sul",
+    "fck_mpa": 30,
+    "classe": "30 MPa (classe de referencia usada para a taxa de carbonatacao/reabsorcao de CO2 do trackbed)",
+    "tipo_corpo_prova": "nao informado",
+    "fonte_no_pdf": "p.10, texto: \"30 Mpa cement concrete reabsorbs 3.65%, 4.47%, and 5.18% of carbon based on 40-, 60-, and 80-year benchmarks\" -- FONTE EXTERNA da resistencia: Lee S H, Lee S B and Lee H S 2009, Journal of the Korea Concrete Institute (citada, nao ensaio proprio do artigo)",
+    "observacoes": "[RECUPERADO 2026-09-07 -- dado ja constava em 'observacoes' da linha legada mas nao tinha sido propagado para 'co2_valor'] Par fck+CO2 valido: JEONG conduz LCA/LCC propria (nao e revisao) comparando lastro ferroviario de concreto vs asfalto, usando a classe de resistencia 30MPa citada de Lee et al. "
+   }
+  ]
+ },
+ {
+  "row_id": 3958,
+  "autor": "Neimark, Benjamin and Belcher, Oliver and Ashworth, Kirsti a",
+  "ano": 2024,
+  "titulo": "Concrete Impacts: Blast Walls, Wartime Emissions, and the US Occupation\nof Iraq",
+  "doi": "10.1111/anti.13006",
+  "pdf": "NEIMARK et al., 2024.pdf",
+  "fileId": "1wP7FGsJpQ7LU1fNE7exK3czxFrx-Di87",
+  "fileSize": 1385761,
+  "pares": [
+   {
+    "sheet_row": 1150,
+    "material": "Concreto M20 (muros de protecao balistica / T-walls / blast walls) - especificacao militar dos EUA, Bagda, Iraque (2003-2008)",
+    "fck_mpa": 20,
+    "classe": "[CLASSE DE PROJETO] M20 (especificacao militar de resistencia minima a compressao 20 MPa, designacao usada nos documentos de projeto dos muros de protecao)",
+    "tipo_corpo_prova": "nao informado",
+    "fonte_no_pdf": "p.12-13, texto: especificacao militar exige betao com resistencia minima de 20 MPa a compressao, designado M20",
+    "observacoes": "[RECUPERADO 2026-09-07 -- dado ja constava no comentario E2 (lote_62, 2026-08-25) mas nao tinha sido propagado a dados_fck] Par fck+CO2 valido, calculo proprio do artigo (nao Regra 2): CO2 total = soma da Tabela 1 (p.13), aplicando fatores de inventario externos (ICE - Inventory of Carbon and Energy"
+   }
+  ]
+ },
+ {
+  "row_id": 4255,
+  "autor": "Gao, Jiangjun and Shen, Zhengliang and Shao, Zerui and Pan, ",
+  "ano": 2024,
+  "titulo": "Carbon Emission Analysis of RC Core Wall-Steel Frame Structures",
+  "doi": "10.3390/app14177727",
+  "pdf": "GAO et al., 2024 - app14177727.pdf",
+  "fileId": "1uJpxgpTm7QoKPQaddI8SLaFSV9_az_Xb",
+  "fileSize": 3429359,
+  "pares": [
+   {
+    "sheet_row": 1239,
+    "material": "Concreto estrutural C25 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck_mpa": 25,
+    "classe": "C25 (codigo chines GB/T51366-2019) [CLASSE DE PROJETO]",
+    "tipo_corpo_prova": "nao informado (classe de projeto, nao ensaio proprio)",
+    "fonte_no_pdf": "Tabela 2, p.7 (quantidade 279,871 m3 e emissao 79,763 tCO2e na fase de producao, C25 concrete)",
+    "observacoes": "[RECUPERADO 2026-09-07, PDF reaberto - dado ja identificado no E2 2026-08-25 LOTE_74 e no E4 2026-09-07 (Tabela 2 e Tabela 9 citadas), mas nunca propagado a dados_fck] Edificio real (super high-rise office, BIM+CEF, China). Tabela 2 (p.7) da a quantidade (m3) e emissao total (tCO2e) de cada classe d"
+   },
+   {
+    "sheet_row": 1240,
+    "material": "Concreto estrutural C30 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck_mpa": 30,
+    "classe": "C30 (codigo chines GB/T51366-2019) [CLASSE DE PROJETO]",
+    "tipo_corpo_prova": "nao informado (classe de projeto, nao ensaio proprio)",
+    "fonte_no_pdf": "Tabela 2, p.7 (quantidade 4138,175 m3 e emissao 1220,761 tCO2e) + Tabela 8, p.12 (fator confirmado: 295,00 kgCO2e/m3, concreto ordinario)",
+    "observacoes": "[RECUPERADO 2026-09-07, PDF reaberto - dado ja identificado no E2 2026-08-25 LOTE_74 e no E4 2026-09-07, nunca propagado a dados_fck] Ver nota completa na linha irma C25 desta mesma familia. [CLASSE DE PROJETO] GB/T51366-2019. Valor de CO2 bate exatamente com a Tabela 8 (295,00 kgCO2e/m3, 'Ordinary "
+   },
+   {
+    "sheet_row": 1241,
+    "material": "Concreto estrutural C40 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck_mpa": 40,
+    "classe": "C40 (codigo chines GB/T51366-2019) [CLASSE DE PROJETO]",
+    "tipo_corpo_prova": "nao informado (classe de projeto, nao ensaio proprio)",
+    "fonte_no_pdf": "Tabela 2, p.7 (quantidade 1280,100 m3 e emissao 411,424 tCO2e) + Tabela 8, p.12 (fator confirmado: 321,40 kgCO2e/m3, concreto ordinario)",
+    "observacoes": "[RECUPERADO 2026-09-07, PDF reaberto - dado ja identificado no E2 2026-08-25 LOTE_74 e no E4 2026-09-07, nunca propagado a dados_fck] Ver nota completa na linha irma C25 desta mesma familia. [CLASSE DE PROJETO] GB/T51366-2019. Valor de CO2 bate exatamente com a Tabela 8 (321,40 kgCO2e/m3, 'Ordinary "
+   },
+   {
+    "sheet_row": 1242,
+    "material": "Concreto estrutural C50 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck_mpa": 50,
+    "classe": "C50 (codigo chines GB/T51366-2019) [CLASSE DE PROJETO]",
+    "tipo_corpo_prova": "nao informado (classe de projeto, nao ensaio proprio)",
+    "fonte_no_pdf": "Tabela 2, p.7 (quantidade 1564,172 m3 e emissao 602,206 tCO2e) + Tabela 8, p.12 (fator confirmado: 385,00 kgCO2e/m3, concreto ordinario)",
+    "observacoes": "[RECUPERADO 2026-09-07, PDF reaberto - dado ja identificado no E2 2026-08-25 LOTE_74 e no E4 2026-09-07, nunca propagado a dados_fck] Ver nota completa na linha irma C25 desta mesma familia. [CLASSE DE PROJETO] GB/T51366-2019. Valor de CO2 bate exatamente com a Tabela 8 (385,00 kgCO2e/m3, 'Ordinary "
+   },
+   {
+    "sheet_row": 1243,
+    "material": "Concreto estrutural C60 (classe de projeto GB/T51366-2019, concreto ordinario, edificio real de escritorios super-alto)",
+    "fck_mpa": 60,
+    "classe": "C60 (codigo chines GB/T51366-2019) [CLASSE DE PROJETO]",
+    "tipo_corpo_prova": "nao informado (classe de projeto, nao ensaio proprio)",
+    "fonte_no_pdf": "Tabela 2, p.7 (quantidade 3732,958 m3 e emissao 1555,748 tCO2e) + Tabela 8, p.12 (fator confirmado: 416,76 kgCO2e/m3, concreto ordinario)",
+    "observacoes": "[RECUPERADO 2026-09-07, PDF reaberto - dado ja identificado no E2 2026-08-25 LOTE_74 e no E4 2026-09-07, nunca propagado a dados_fck] Ver nota completa na linha irma C25 desta mesma familia. [CLASSE DE PROJETO] GB/T51366-2019. Valor de CO2 bate exatamente com a Tabela 8 (416,76 kgCO2e/m3, 'Ordinary "
+   }
+  ]
+ },
+ {
+  "row_id": 4292,
+  "autor": "Hegeir, Osama Abdelfattah and Kvande, Tore and Stamatopoulos",
+  "ano": 2022,
+  "titulo": "Comparative Life Cycle Analysis of Timber, Steel and Reinforced Concrete\nPortal Frames: A ",
+  "doi": "10.3390/buildings12050573",
+  "pdf": "HEGEIR, 2022.pdf",
+  "fileId": "1LCCA9Ku5DBLnqka-3XJGMktjmw4c3qSh",
+  "fileSize": 3668616,
+  "pares": [
+   {
+    "sheet_row": 1263,
+    "material": "Concreto estrutural (portais e fundacoes de portico industrial), classe de projeto C30/37 (EN 206)",
+    "fck_mpa": 30,
+    "classe": "C30/37 (EN 206) - classe de projeto",
+    "tipo_corpo_prova": "nao informado (classe normativa, nao ensaio proprio)",
+    "fonte_no_pdf": "Texto, p.4: classe de projeto C30/37 (EN 206) declarada para os elementos de betao dos portais e fundacoes",
+    "observacoes": "[RECUPERADO 2026-09-07, dado ja extraido na avaliacao E2 anterior por leitura integral do PDF (LOTE_75, 2026-08-25), nunca propagado a dados_fck — nao foi necessario reabrir o PDF, conforme armadilha #4] Estudo teorico comparativo de porticos estruturais (madeira laminada colada, aco, betao armado) "
+   }
+  ]
+ },
+ {
+  "row_id": 4297,
+  "autor": "Pushkar, Svetlana and Halperin, Ido and Ribakov, Yuri",
+  "ano": 2022,
+  "titulo": "Life-Cycle Assessment of Contemporary and Classical Seismic Retrofitting\nApproaches Applie",
+  "doi": "10.3390/buildings12111854",
+  "pdf": "PUSHKAR et al., 2022.pdf",
+  "fileId": "1qoNxP9E8Cu-LOTVh_iXiI1oVBQxTp82D",
+  "fileSize": 2708190,
+  "pares": [
+   {
+    "sheet_row": 1264,
+    "material": "Betao estrutural de reforco sismico — colunas existentes C20 (EN 206, p.3, exatamente no limiar) e encamisamento/jacketing novo C30 (EN 206, p.6-7)",
+    "fck_mpa": 20,
+    "classe": "C30 (EN 206) - encamisamento (jacketing); tambem presente C20 (EN 206) nas colunas existentes, mesmo fator de GWP para ambos",
+    "tipo_corpo_prova": "nao informado",
+    "fonte_no_pdf": "p.6-7 (C30 jacketing/chevron braces); dataset Ecoinvent e C20/25 (Tab.5 p.11) - alternativa fck=20",
+    "observacoes": "[RECUPERADO 2026-09-07, dado ja extraido na retriagem/E2 anteriores (retriagem por PDF 2026-08-23; E2 por PDF LOTE_76, 2026-08-25) por leitura integral do PDF, nunca propagado a dados_fck — nao foi necessario reabrir] Edificio de Israel dos anos 1970, retrofit sismico (3 casos comparativos). ACV pro"
+   }
+  ]
+ },
+ {
+  "row_id": 4298,
+  "autor": "Tushar, Quddus and Zhang, Guomin and Bhuiyan, Muhammed A. A.",
+  "ano": 2022,
+  "titulo": "Retrofit of Building Facade Using Precast Sandwich Panel: An Integrated\nThermal and Enviro",
+  "doi": "10.3390/buildings12122098",
+  "pdf": "TUSHAR, 2022.pdf",
+  "fileId": "1rzxUpCAjQBNAgz31F93Hu4SFuWNHypnx",
+  "fileSize": 2020143,
+  "pares": [
+   {
+    "sheet_row": 1265,
+    "material": "Concreto pre-moldado (precast) para painel estrutural de piso, 5000 psi, 0% cinza volante, reforco 28 kg/m3",
+    "fck_mpa": 34.47,
+    "classe": "5000 psi (34,47 MPa; conversao 1 psi=0,00689476 MPa)",
+    "tipo_corpo_prova": "nao informado",
+    "fonte_no_pdf": "Tab.7 p.16 (psi convertido: 3000 psi=20,68 MPa; 5000 psi=34,47 MPa)",
+    "observacoes": "[CORRECAO+RECUPERADO 2026-09-07, PDF reaberto] Confirmado por reabertura da Tabela 7 (p.16, floor components): existem TRES mixes distintos com par fck+GWP proprio no mesmo estudo (BIM-based LCA de retrofit de fachada) — este e o precast panel a 5000psi. Ver linhas irmas desta mesma linha (mesmo row"
+   },
+   {
+    "sheet_row": 1266,
+    "material": "Concreto betonado in loco (cast-in-place) para piso, 3000 psi, 0% cinza volante, reforco baixo 43.62 kg/m3 — caso base/referencia do estudo",
+    "fck_mpa": 20.68,
+    "classe": "3000 psi (20,68 MPa; conversao 1 psi=0,00689476 MPa)",
+    "tipo_corpo_prova": "nao informado",
+    "fonte_no_pdf": "Tab.7 p.16 (psi convertido: 3000 psi=20,68 MPa; 5000 psi=34,47 MPa)",
+    "observacoes": "[RECUPERADO 2026-09-07, PDF reaberto] Caso base/referencia da comparacao da Tabela 7 (todas as percentagens de variacao das outras linhas sao calculadas contra este). Ver linhas irmas (mesmo row_id) para o precast 5000psi e o cast-in-place 5000psi do mesmo estudo. [REVISTO 2026-09-27, leitura integr"
+   },
+   {
+    "sheet_row": 1267,
+    "material": "Concreto betonado in loco (cast-in-place) para piso, 5000 psi, 0% cinza volante, reforco baixo 44.40 kg/m3",
+    "fck_mpa": 34.47,
+    "classe": "5000 psi (34,47 MPa; conversao 1 psi=0,00689476 MPa)",
+    "tipo_corpo_prova": "nao informado",
+    "fonte_no_pdf": "Tab.7 p.16 (psi convertido: 3000 psi=20,68 MPa; 5000 psi=34,47 MPa)",
+    "observacoes": "[RECUPERADO 2026-09-07, PDF reaberto] Mesma familia de mixes cast-in-place da linha base (3000psi), agora com resistencia elevada para 5000psi mantendo o metodo cast-in-place (contraste com o precast, que tambem usa 5000psi). Ver linhas irmas (mesmo row_id). [REVISTO 2026-09-27, leitura integral dos"
+   }
+  ]
+ },
+ {
+  "row_id": 4305,
+  "autor": "Huang, Yuan and Wang, Anqi",
+  "ano": 2023,
+  "titulo": "Research on Carbon Emission of Prefabricated Structure in China",
+  "doi": "10.3390/buildings13051348",
+  "pdf": "HUANG et al., 2023.pdf",
+  "fileId": "1R1Zhe07VVhPwhAF0oUOWguy061B2M6Qm",
+  "fileSize": 4560381,
+  "pares": [
+   {
+    "sheet_row": 1272,
+    "material": "Concreto C40 (classe unica usada no estudo, estrutura pre-fabricada China, dois cenarios de taxa de montagem 50%/80%)",
+    "fck_mpa": 40,
+    "classe": "C40 (classe de projeto, unica usada no estudo)",
+    "tipo_corpo_prova": "nao informado",
+    "fonte_no_pdf": "p.3 — 'C40 concrete'",
+    "observacoes": "[RECUPERADO 2026-09-07, dado ja extraido na avaliacao E2 anterior (LOTE_76, 2026-08-25) por leitura integral do PDF, nunca propagado a dados_fck — nao foi necessario reabrir] Estudo de caso chines de estrutura pre-fabricada (cenarios de taxa de montagem 50% e 80%). C40 e a unica classe de betao usad"
+   }
+  ]
+ }
+]
