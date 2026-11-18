@@ -1,0 +1,156 @@
+[
+ {
+  "row_id": 3930,
+  "pares": [
+   {
+    "sheet_row": 1145,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "sec.3.3.1.1 p.6-7: 'The concrete structural system was designed based on The Egyptian Code for Design and Executing Reinforced Concrete Structures' ... 'Reinforced concrete grade in the project is with cubic characteristics strength of 25 N/mm2'",
+    "nota": "VIA NORMA CITADA: codigo egipcio (ECP 203) citado no mesmo paragrafo da classe; nao escreve '28 d'. O texto nao imprime a sigla ECP 203 nem idade. A ACV (Tally) usa o material NRMCA 'Structural concrete, 3001-4000 psi' (Tab.3), nao o 25 N/mm2. Se a Kie preferir exigir a idade escrita, passar a null/classe_sem_idade."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Classe de projecto cubica; idade so pela norma citada (codigo egipcio)."
+ },
+ {
+  "row_id": 3932,
+  "pares": [
+   {
+    "sheet_row": 1146,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "sec.2.2.1 p.10: 'Over its service life, 30 Mpa cement concrete reabsorbs 3.65%, 4.47%, and 5.18% of carbon ... (Lee et al 2009)'",
+    "nota": "Notacao impressa: '30 Mpa'. Valor citado de Lee et al. 2009, sem idade. KS F 4009:2022 so e citada para o tempo de transporte do betao pronto (sec.2.2.3), nao para a classe. Tab.7 refere 'Ready-mix concrete 25-50' (base LCI coreana)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 3958,
+  "pares": [
+   {
+    "sheet_row": 1150,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "p.12 'Anatomy of a T-Wall': 'must meet a minimum compressive strength of 20 MPa, commonly referred to as M20 grade concrete. M20 is composed of a specific mix ... Section 03300 ... US Department of State Bureau of Overseas Buildings Operations (USDoD 2006)'",
+    "nota": "Notacao impressa: 'M20' (notacao do IS 456, mas a norma indiana nao e citada); a especificacao citada e a Section 03300 do USDoD/OBO, sem idade no texto."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4255,
+  "pares": [
+   {
+    "sheet_row": 1239,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "sec.3.1 p.6: 'the concrete grades range from C30 to C60' + 'The structural design of the building is based on relevant codes including [54,55]' ([55] = GB 50010-2010 Code for Design of Concrete Structures); Tab.2 p.7 'C25 concrete'",
+    "nota": "VIA NORMA CITADA: GB 50010-2010 (classe Cxx = resistencia caracteristica cubica aos 28 d); o artigo nao escreve '28 d'. C25 so aparece na Tab.2 (o texto diz 'C30 to C60'), mesmo projecto."
+   },
+   {
+    "sheet_row": 1240,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "sec.3.1 p.6: 'the concrete grades range from C30 to C60' + 'The structural design of the building is based on relevant codes including [54,55]' ([55] = GB 50010-2010 Code for Design of Concrete Structures); Tab.2 p.7 'C30 concrete'",
+    "nota": "VIA NORMA CITADA: GB 50010-2010 (classe Cxx = resistencia caracteristica cubica aos 28 d); o artigo nao escreve '28 d'."
+   },
+   {
+    "sheet_row": 1241,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "sec.3.1 p.6: 'the concrete grades range from C30 to C60' + 'The structural design of the building is based on relevant codes including [54,55]' ([55] = GB 50010-2010 Code for Design of Concrete Structures); Tab.2 p.7 'C40 concrete'",
+    "nota": "VIA NORMA CITADA: GB 50010-2010 (classe Cxx = resistencia caracteristica cubica aos 28 d); o artigo nao escreve '28 d'."
+   },
+   {
+    "sheet_row": 1242,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "sec.3.1 p.6: 'the concrete grades range from C30 to C60' + 'The structural design of the building is based on relevant codes including [54,55]' ([55] = GB 50010-2010 Code for Design of Concrete Structures); Tab.2 p.7 'C50 concrete'",
+    "nota": "VIA NORMA CITADA: GB 50010-2010 (classe Cxx = resistencia caracteristica cubica aos 28 d); o artigo nao escreve '28 d'."
+   },
+   {
+    "sheet_row": 1243,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "sec.3.1 p.6: 'the concrete grades range from C30 to C60' + 'The structural design of the building is based on relevant codes including [54,55]' ([55] = GB 50010-2010 Code for Design of Concrete Structures); Tab.2 p.7 'C60 concrete'",
+    "nota": "VIA NORMA CITADA: GB 50010-2010 (classe Cxx = resistencia caracteristica cubica aos 28 d); o artigo nao escreve '28 d'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": "Classes de projecto; idade via GB 50010 citada como codigo de projecto."
+ },
+ {
+  "row_id": 4292,
+  "pares": [
+   {
+    "sheet_row": 1263,
+    "idade_dias": 28,
+    "tipo": "classe_28d_declarada",
+    "citacao": "sec.2.2 p.4: 'The concrete used in reinforced concrete frames and the foundations of all frames is C30/C37 (30 MPa cylinder strength or 37 MPa cube strength)' + 'EN1992-1-1 [29] for concrete'",
+    "nota": "VIA NORMA CITADA: EN 1992-1-1 (projecto do betao) e notacao Cxx/yy; o artigo nao escreve '28 d'. EN 206 nao e citada (apenas EN 1992-1-1)."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4297,
+  "pares": [
+   {
+    "sheet_row": 1264,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "sec.2.1 p.3: 'Its first floor is open and consists of C20-concrete columns'; Tab.5 p.11: 'Pre-cast concrete, production mixture C 20/25/RER U' (EcoInvent v3.2); jacketing 'using C30 concrete' p.6-7",
+    "nota": "Notacao impressa: 'C20' (texto) e 'C 20/25' (dataset EcoInvent da Tab.5). Nenhuma idade e nenhuma norma (EN 206/EN 1992) citada a proposito da classe -> candidata a regra da notacao (Cxx/yy) pelo 'C 20/25'."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4298,
+  "pares": [
+   {
+    "sheet_row": 1265,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.7 p.16: 'Precast concrete structural panel; 5000 psi; ...'",
+    "nota": "Notacao impressa: '5000 psi'. Material da biblioteca Tally/ACV, sem ensaio nem idade; nenhuma norma de betao (ACI/ASTM/AS 3600) citada."
+   },
+   {
+    "sheet_row": 1266,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.7 p.16: 'Cast-in-place concrete; 3000 psi; 0% fly ash; ...'",
+    "nota": "Notacao impressa: '3000 psi'. Material da biblioteca Tally/ACV, sem ensaio nem idade; nenhuma norma de betao (ACI/ASTM/AS 3600) citada."
+   },
+   {
+    "sheet_row": 1267,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "Tab.7 p.16: 'Cast-in-place concrete; 5000 psi; 0% fly ash; ...'",
+    "nota": "Notacao impressa: '5000 psi'. Material da biblioteca Tally/ACV, sem ensaio nem idade; nenhuma norma de betao (ACI/ASTM/AS 3600) citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ },
+ {
+  "row_id": 4305,
+  "pares": [
+   {
+    "sheet_row": 1272,
+    "idade_dias": null,
+    "tipo": "classe_sem_idade",
+    "citacao": "sec.2.1 p.3: 'The building materials used were HRB400 grade longitudinal reinforcement, HPB300 stirrup, and C40 concrete.'",
+    "nota": "Notacao impressa: 'C40'. Normas citadas: Technical Regulations for Prefabricated Concrete Structures (JGJ, ref.25), GB 50009 (cargas), GB 50068 (fiabilidade), GB/T 51366 (carbono) - nenhuma define a classe aos 28 d; GB 50010 nao e citada."
+   }
+  ],
+  "texto_completo_lido": true,
+  "notas": ""
+ }
+]

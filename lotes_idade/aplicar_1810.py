@@ -23,7 +23,14 @@ LOTES = ['lotes_idade/resultado_lote20.json', 'lotes_idade/resultado_lote21.json
 COL_ROWID, COL_IDADE, COL_OBS = 1, 10, 13
 CARIMBO = '[idade 2026-11-18 (#1810): {tipo}; {cit}]'
 
-SOBREPOR = {}   # sheet_row -> (idade|None, tipo, citacao)
+# Auditoria pessoal (2026-11-18):
+#  - 4297 PUSHKAR l.1264: o artigo imprime «C 20/25» (dataset Ecoinvent, Tab.5) para os pilares «C20» -- notacao
+#    Cxx/yy da EN 206, que define a classe aos 28 d -> regra da notacao de norma (decisao da Kie, 2026-10-04,
+#    lotes_idade/aplicar_notacao.py). O subagente deixou classe_sem_idade por falta de norma citada.
+SOBREPOR = {   # sheet_row -> (idade|None, tipo, citacao)
+    1264: (28, 'classe_28d_notacao', 'Tab.5 p.11 dataset Ecoinvent «C 20/25» para os pilares C20 -- notacao Cxx/yy da EN 206, '
+                                     'regra da notacao de norma (Kie 2026-10-04); sem norma citada e sem «28 d» no texto'),
+}
 IGNORAR = set()
 
 
@@ -58,7 +65,7 @@ def main(gravar):
         if '[idade 2026-11-18 (#1810)' in obs:
             ja += 1
             continue
-        if idade is not None and tipo in ('ensaio', 'classe_28d_declarada'):
+        if idade is not None and tipo in ('ensaio', 'classe_28d_declarada', 'classe_28d_notacao'):
             ws.cell(r, COL_IDADE).value = int(idade)
             gravadas += 1
         else:
