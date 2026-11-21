@@ -54,6 +54,39 @@ CUNN_CIT = ('Tab.3 p.3682 (n = 5): "{mix}" 28 d {fck} ({dp}) MPa; "Values in par
 SOBREPOR = {}   # sheet_row -> dict com ic_fck_valor/tipo/n/citacao (leitura pessoal substitui a do subagente)
 IGNORAR = set()  # sheet_rows do lote que a auditoria rejeitou
 
+# ---------------------------------------------------------------- 2684 HAFEZ 2024b: fck de projecto -> medido aos 28 d
+# O fck gravado (40) e a classe de projecto C40/50 ("designed for a strength class of C40/50"); a Fig.3 p.5 da
+# "The 28-day compressive strength results" por mistura, n=3 ("Three specimens were tested for each concrete
+# mix"), e o texto confirma o LC3: "49.12 +/- 1.82 MPa". Precedente: fck de projecto trocado pelo medido
+# (ALI 2951, OYEBISI 3132, BAYKARA 3731, KIM 2703 - CLAUDE.md 29/09 e 04/10). Medias lidas por pixel a 300 dpi
+# (verificadas na imagem: 57 / 66 / 49 / 58), DP = meia-barra (a barra do LC3 medida 1,80 reproduz o 1,82 do texto).
+HAFEZ_FCK = {  # sheet_row -> (fck gravado, fck medido 28 d, DP, mistura)
+    135: (40, 56.8, 0.93, 'OPC'), 136: (40, 65.8, 0.29, 'OPC-SF'), 137: (40, 49.12, 1.82, 'LC3'), 138: (40, 57.9, 1.26, 'LC3-SF'),
+}
+HAFEZ_CIT = ('Fig.3 p.5 "Compressive strength results of unreinforced and steel fibre-reinforced OPC and LC3 concrete '
+             'mixes" (28 d; texto: "The 28-day compressive strength results (Fig. 3)"), media {fck} e meia-barra {dp} MPa '
+             'lidas por pixel a 300 dpi; n=3 ("Three specimens were tested for each concrete mix"); LC3 no texto: '
+             '"49.12 +/- 1.82 MPa"; o texto chama "standard deviation" a dispersao dos ensaios')
+
+# ---------------------------------------------------------------- 3187 YU 2022: DP contaminados de outro artigo
+# Os DP gravados em 896/897/900 (3,89/2,91/2,98) e as citacoes ("Table 7, FA0SF0 92.36 +/- 3.89" etc.) NAO existem
+# neste PDF (sem Tabela 7; 92.36/107.14/98.29 ausentes do texto) - conferido por mim no texto completo. Tabela 3
+# (p.7) da fc aos 28 d como media +/- X (X nao definido nas notas da tabela); n por idade nao declarado
+# ("720 cubes with a 100 mm edge length fabricated from 36 unique SCC mixes").
+YU_FCK = {  # sheet_row -> (fck gravado, DP gravado ou None, +/- da Tabela 3, mistura)
+    896: (53.5, 3.89, 3.6, 'M1 N0.3-0-0.3-20-C'), 897: (44.3, 2.91, 2.9, 'M2 N0.4-0-0.3-20-C'),
+    898: (48.3, None, 3.2, 'M19 P0.4-0.5-0-20-C'), 899: (23.0, None, 1.3, 'M22 P0.4-0.5-0.6-20-C (Fase III)'),
+    900: (52.4, 2.98, 3.7, 'M25 P0.4-0.5-0.3-90-C'),
+}
+YU_CIT = ('Tabela 3 p.7 "Workability, 28-days mechanical properties, and life cycle performance of SCC", coluna fc: '
+          '{mix} {fck} +/- {dp}; o "+/-" nao e definido no artigo; n por idade nao declarado (720 cubos de 100 mm / 36 misturas)')
+
+# ---------------------------------------------------------------- 2658 D'ORAZIO: texto numa coluna numerica
+DORAZIO_LIMPAR = (631, 632, 633, 634)  # ic_co2_valor = 'NAO_TRANSCRITO' com tipo desvio_padrao -> limpar (sem DP do GWP total)
+
+# ---------------------------------------------------------------- 3162 SPAGNUOLO 1935: tipo e n em falta
+SPAG = {1935: ('desvio_padrao', 3)}
+
 
 def main(gravar):
     res = {}
@@ -85,7 +118,7 @@ def main(gravar):
         log.append((r, '3732', 'ic_fck corrigido', f'{velho}->{novo}'))
     # lote
     for r, (rid, p) in sorted(res.items()):
-        if r in IGNORAR or rid == '3732':
+        if r in IGNORAR or rid in ('3732', '2684', '3187', '2658', '3162'):
             continue
         assert str(ws.cell(r, 1).value) == rid, (r, rid, ws.cell(r, 1).value)
         if p.get('ic_fck_valor') is not None and ws.cell(r, C_ICF).value in (None, ''):
@@ -103,6 +136,50 @@ def main(gravar):
             ws.cell(r, C_ICC_C).value = clean(f'[{HOJE} #1812] {p.get("ic_co2_citacao") or ""} | {p.get("nota") or ""}')[:900]
             n_c += 1
             log.append((r, rid, 'ic_co2', v))
+    # HAFEZ: fck de projecto -> medido + DP
+    for r, (velho, novo, dp, mix) in HAFEZ_FCK.items():
+        assert str(ws.cell(r, 1).value) == '2684' and float(ws.cell(r, 8).value) == velho, (r, ws.cell(r, 8).value)
+        ws.cell(r, 8).value = novo
+        ws.cell(r, C_ICF).value = dp
+        ws.cell(r, C_ICF_T).value = 'desvio_padrao'
+        ws.cell(r, C_ICF_N).value = 3
+        ws.cell(r, C_ICF_C).value = f'[{HOJE} #1812] ' + HAFEZ_CIT.format(fck=novo, dp=dp)
+        nota(ws, r, f'fck corrigido {HOJE} (#1812, por confirmar): {velho} era a classe de projecto C40/50; passa ao medido aos 28 d '
+                    f'da Fig.3 ({mix} {novo} MPa, n=3), precedente fck de projecto -> medido (ALI, OYEBISI, BAYKARA, KIM)')
+        log.append((r, '2684', 'fck corrigido', f'{velho}->{novo}', 'ic_fck', dp))
+        pco2 = res.get(r, (None, {}))[1]
+        if pco2.get('ic_co2_valor') is not None and ws.cell(r, C_ICC).value in (None, ''):
+            ws.cell(r, C_ICC).value = pco2['ic_co2_valor']
+            ws.cell(r, C_ICC_T).value = 'barra_erro_nao_definida'
+            ws.cell(r, C_ICC_N).value = None
+            ws.cell(r, C_ICC_C).value = clean(f'[{HOJE} #1812] {pco2.get("ic_co2_citacao") or ""}')[:900]
+            log.append((r, '2684', 'ic_co2', pco2['ic_co2_valor']))
+    # YU: substituir DP contaminados e preencher os 2 em falta
+    for r, (fck, velho, dp, mix) in YU_FCK.items():
+        assert str(ws.cell(r, 1).value) == '3187' and float(ws.cell(r, 8).value) == fck, (r, ws.cell(r, 8).value)
+        if velho is not None:
+            assert float(ws.cell(r, C_ICF).value) == velho, (r, ws.cell(r, C_ICF).value)
+            nota(ws, r, f'ic_fck corrigido {HOJE} (#1812): o {velho} e a citacao "Table 7 ..." nao existem neste artigo '
+                        f'(contaminacao de outro PDF); Tabela 3 da {fck} +/- {dp}')
+        ws.cell(r, C_ICF).value = dp
+        ws.cell(r, C_ICF_T).value = 'barra_erro_nao_definida'
+        ws.cell(r, C_ICF_N).value = None
+        ws.cell(r, C_ICF_C).value = f'[{HOJE} #1812] ' + YU_CIT.format(mix=mix, fck=fck, dp=dp)
+        log.append((r, '3187', 'ic_fck corrigido' if velho is not None else 'ic_fck', f'{velho}->{dp}' if velho is not None else dp))
+    # D'ORAZIO
+    for r in DORAZIO_LIMPAR:
+        assert str(ws.cell(r, 1).value) == '2658' and str(ws.cell(r, C_ICC).value) == 'NAO_TRANSCRITO', (r, ws.cell(r, C_ICC).value)
+        for c in (C_ICC, C_ICC_T, C_ICC_N, C_ICC_C):
+            ws.cell(r, c).value = None
+        nota(ws, r, f'ic_co2 limpo {HOJE} (#1812): a celula tinha o texto NAO_TRANSCRITO; o Monte Carlo do artigo so da '
+                    f'distribuicoes por processo (Tabelas 7-8), nao do GWP total da argamassa')
+        log.append((r, '2658', 'ic_co2 limpo', 'NAO_TRANSCRITO->vazio'))
+    # SPAGNUOLO
+    for r, (tipo, n) in SPAG.items():
+        assert str(ws.cell(r, 1).value) == '3162' and float(ws.cell(r, C_ICF).value) == 1.99
+        ws.cell(r, C_ICF_T).value = tipo
+        ws.cell(r, C_ICF_N).value = n
+        log.append((r, '3162', 'ic_fck tipo/n', f'{tipo}/{n}'))
     for l in log:
         print(*l)
     print(f'ic_fck novos: {n_f} | ic_co2 novos: {n_c} | corrigidos: {len(CUNN_CORRIGIR)}')
