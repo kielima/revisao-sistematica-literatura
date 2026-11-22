@@ -25,8 +25,9 @@ NOVAS = ['a4_transporte_tipo', 'massa_volumica_kg_m3', 'massa_volumica_origem', 
 RETIDOS = {}
 for r in (1691, 1083, 304, 316, 2091, *range(1937, 1949)):        # RABIE, BAYKARA, GRENGG, DU LT5S0, SAHMENKO GCP3, IRSHIDAT WCB
     RETIDOS[r] = 'aguarda #1832 (soma do traco SUSPEITO)'
-for r in (886, 139, 140, 765, 766, 767, 768, 769, 770, 1480, 1482, 1485, 1210, 1211, 1658, 1142):  # IRSHIDAT ctrl, CHOI, LYRA, SKIBICKI, NASR, FORT, PAVLIK
-    RETIDOS[r] = 'aguarda #1831 (massa volumica seca do endurecido)'
+RETIDOS[886] = 'aguarda #1832 (soma do traco SUSPEITO; era #1831 ate 2026-11-22)'          # IRSHIDAT ctrl (F55)
+for r in (139, 140, 765, 766, 767, 768, 769, 770, 1480, 1482, 1485, 1210, 1211, 1658, 1142):  # CHOI, LYRA, SKIBICKI, NASR, FORT, PAVLIK
+    RETIDOS[r] = 'decidida em #1831 (F55, 2026-11-22): celulas preenchidas por aplicar_1831.py — nao regravar'
 for r in (1126, 1127, 1128):                                         # RONNING: 2.400 e premissa do proprio artigo
     RETIDOS[r] = 'por confirmar (F45): 2.400 kg/m3 e premissa do proprio artigo, nao medicao'
 MASSA = {'massa_volumica_kg_m3', 'massa_volumica_origem', 'massa_volumica_citacao'}
@@ -41,8 +42,8 @@ for f in (sorted(glob.glob('lotes_transporte/resultado_lote*.json')) + sorted(gl
                 cit = (p.get('citacao') or '')
                 if cit.startswith('SUSPEITO'):
                     RETIDOS.setdefault(int(p['sheet_row']), 'aguarda #1832 (soma do traco SUSPEITO, fase 2b F51)')
-                elif 'seca_endurecido' in cit:
-                    RETIDOS.setdefault(int(p['sheet_row']), 'aguarda #1831 (massa volumica seca do endurecido, fase 2b F51)')
+                elif 'seca_endurecido' in cit:   # F55 (2026-11-22): #1831 decidida; celulas preenchidas por aplicar_1831.py
+                    RETIDOS.setdefault(int(p['sheet_row']), 'decidida em #1831 (F55, 2026-11-22): celulas preenchidas por aplicar_1831.py — nao regravar')
                 elif 'premissa_do_artigo' in cit:
                     RETIDOS.setdefault(int(p['sheet_row']), 'por confirmar (F51): valor e premissa/tabela do proprio artigo, nao medicao (precedente RONNING, F45/F46)')
 gravar = '--gravar' in sys.argv
