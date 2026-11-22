@@ -1,0 +1,19 @@
+id,fase,tipo,n,caixa,filtro
+ident,Identificacao,fluxo,5093,Registos identificados nas bases,todas as linhas de articles_final.xlsx; por base: Web of Science 1917 | Scopus 1427 | Engineering Village 763 | MDPI 475 | Science Direct 411 | BDTD 72 | SciELO 28
+dup,Identificacao,saida,2630,Duplicados removidos antes da triagem,"status_triagem = 'Duplicado' (remocao pre-triagem, nao e criterio de exclusao)"
+e1,Triagem - Etapa 1,fluxo,2463,Registos triados por metadados,status_triagem <> 'Duplicado'
+e1x,Triagem - Etapa 1,saida,272,Excluidos na Etapa 1,"primeiro criterio E1 (ano, tipo_doc, moldavel, construcao) <> 'Aceito'; E1_ano 1 | E1_tipo_doc 9 | E1_moldavel 72 | E1_construcao 190; inclui 1 registo(s) SEM decisao (celula vazia), ver regularizacoes"
+ret,Elegibilidade - Etapa 2,fluxo,2191,Textos completos procurados,os quatro criterios E1 = 'Aceito'
+retx,Elegibilidade - Etapa 2,saida,6,Texto completo nao obtido,E1 completo e E2_resistencia vazia (sem PDF): status_triagem = 'Sem acesso' 6
+e2,Elegibilidade - Etapa 2,fluxo,2185,Textos completos avaliados,E1 completo e E2_resistencia preenchida (leitura integral do PDF)
+e2x,Elegibilidade - Etapa 2,saida,1643,Excluidos na Etapa 2 - falta de dado extraivel,"E2_resistencia <> 'Aceito' (1303: sem fck proprio pareavel a um CO2 proprio, ou fck < 20 MPa) ou, com fck, E2_co2 <> 'Aceito' (340: sem CO2 absoluto)"
+e3,Elegibilidade - Etapa 3,fluxo,542,Artigos aceites na Etapa 2,E2_resistencia = 'Aceito' e E2_co2 = 'Aceito'
+e3x,Elegibilidade - Etapa 3,saida,18,Excluidos na Etapa 3 - material geograficamente restrito,"E3_regional <> 'Aceito': 14 com E3_regional = 'Rejeitado' + 4 com E3_regional vazio e status 'Rejeitado' (rejeitados por restricao geografica na triagem antiga C6, linhas [2805, 4707, 4720, 4938]; a regularizar)"
+e4,Inclusao - Etapa 4,fluxo,524,Artigos que passam a Etapa 3,E3_regional = 'Aceito' (466 Elegível + 58 Revisao)
+rev,Inclusao - Etapa 4,saida,58,Revisoes sem ACV propria - ramo de citacao,"status_triagem = 'Revisao' (nao pontuam; as fontes primarias que citam entram pelo ramo 'outros metodos', aba estudos_secundarios)"
+fin,Inclusao - Etapa 4,fluxo,466,Artigos incluidos na revisao (corpus),"status_triagem = 'Elegível'; E4_estrato: principal 362, sensibilidade 104"
+tier,Inclusao - Etapa 4,saida,104,"Estrato de sensibilidade - fora do RESULTADO PRINCIPAL, dentro do corpus","E4_estrato = 'sensibilidade' (E4_qualidade_total < 4,0 de 7; notas: 0 (1), 1 (2), 1.5 (3), 2 (7), 2.5 (12), 3 (40), 3.5 (39)). Exclusao do resultado principal, nao do corpus: entra na analise de sensibilidade"
+main,Inclusao - Etapa 4,fluxo,362,Estudos no resultado principal,"E4_estrato = 'principal' (E4_qualidade_total >= 4,0 de 7)"
+sec,Outros metodos,fluxo,108,Registos identificados por busca de citacoes nas revisoes catalogadas,"aba estudos_secundarios (F36): SCOPE et al., 2021 73 | NASIR et al., 2024 22 | ONSONGO et al., 2025 13"
+sec_banco,Outros metodos,saida,17,Ja estavam no banco (contados no fluxo principal),estado_extracao = 'ja_no_banco'
+sec_pend,Outros metodos,fluxo,91,"Relatorios a procurar/avaliar (pendentes, tarefa #1811)",estado_extracao = 'pendente' (65) ou 'sem_doi' (26)
