@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="470" viewBox="0 0 860 470" font-family="Geist, Helvetica, Arial, sans-serif" font-size="14">
+<rect width="860" height="470" fill="#fbfaf7"/>
+<text x="230" y="30" font-size="17" font-weight="600" fill="#1f1f1f">Registos excluidos por criterio de saida (n = 1933)</text>
+<text x="218" y="84.0" text-anchor="end" fill="#333">E2 resistencia</text>
+<rect x="230" y="64" width="540.0" height="30" rx="3" fill="#c4714f"/>
+<text x="778.0" y="84.0" fill="#1f1f1f" font-weight="500">1.303</text>
+<text x="218" y="126.0" text-anchor="end" fill="#333">E2 CO2</text>
+<rect x="230" y="106" width="140.9" height="30" rx="3" fill="#c4714f"/>
+<text x="378.9" y="126.0" fill="#1f1f1f" font-weight="500">340</text>
+<text x="218" y="168.0" text-anchor="end" fill="#333">E1 construcao</text>
+<rect x="230" y="148" width="78.7" height="30" rx="3" fill="#8a9a5b"/>
+<text x="316.7" y="168.0" fill="#1f1f1f" font-weight="500">190</text>
+<text x="218" y="210.0" text-anchor="end" fill="#333">E4 sensibilidade*</text>
+<rect x="230" y="190" width="43.1" height="30" rx="3" fill="#9a8a5b"/>
+<text x="281.1" y="210.0" fill="#1f1f1f" font-weight="500">104</text>
+<text x="218" y="252.0" text-anchor="end" fill="#333">E1 moldavel</text>
+<rect x="230" y="232" width="29.8" height="30" rx="3" fill="#8a9a5b"/>
+<text x="267.8" y="252.0" fill="#1f1f1f" font-weight="500">72</text>
+<text x="218" y="294.0" text-anchor="end" fill="#333">E3 regional</text>
+<rect x="230" y="274" width="7.5" height="30" rx="3" fill="#5b7f8a"/>
+<text x="245.5" y="294.0" fill="#1f1f1f" font-weight="500">18</text>
+<text x="218" y="336.0" text-anchor="end" fill="#333">E1 tipo_doc</text>
+<rect x="230" y="316" width="3.7" height="30" rx="3" fill="#8a9a5b"/>
+<text x="241.7" y="336.0" fill="#1f1f1f" font-weight="500">9</text>
+<text x="218" y="378.0" text-anchor="end" fill="#333">E1 ano</text>
+<rect x="230" y="358" width="0.4" height="30" rx="3" fill="#8a9a5b"/>
+<text x="238.4" y="378.0" fill="#1f1f1f" font-weight="500">1</text>
+<text x="230" y="442" font-size="12" fill="#666">* sai do resultado principal, nao do corpus (analise de sensibilidade). Duplicados (2630) e textos nao obtidos (6) nao sao criterios e ficam fora.</text>
+<text x="230" y="460" font-size="12" fill="#666">Fonte: articles_final.xlsx, campos E1-E4 (contagem no primeiro criterio que exclui) - contar_funil_prisma.py</text>
+</svg>
