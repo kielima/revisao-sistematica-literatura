@@ -31,6 +31,11 @@ Regras aplicadas (ver metanalise/DECISOES_METANALISE.md):
        SKIBICKI 4512 in situ `declarado_1830` (coeficiente 0). Restantes `betao_fresco_betoneira` da fase 2
        (F45/F51): `declarado_F42` quando o artigo imprime a distancia central->obra (col 91) ou nomeia o veiculo
        do betao (col 92); senao `provavel_F42` (mesmo criterio da #1830, generalizado — POR CONFIRMAR pela Kie).
+  F55  (#1831, decisao da Kie em 2026-11-22: «C») massa volumica por TIPO de fabricacao: betao fresco -> massa fresca
+       (impressa fresca > soma do traco > 2.400; a seca em estufa NAO serve); elemento pre-fabricado -> massa do elemento
+       (endurecida ao ar/saturada/fabricante > soma do traco > seca marcada `seca_endurecido` > 2.400), carreta; coerencia:
+       quando o CO2 foi convertido com uma massa, o A4 usa a mesma (FORT 4623). Os 27 pares retidos pela #1831 foram
+       preenchidos por lotes_transporte/aplicar_1831.py (16 com massa, 10 `nao_disponivel`, 1 passou a #1832).
 Uso (da raiz do repositorio):  /usr/bin/python3 metanalise/motor_a4.py
 """
 import collections
@@ -173,7 +178,7 @@ def main():
             elif tipo_f2 is None:
                 origem = 'premissa_F43 (par fora das 14 listas da fase 2: massa nao lida)'
             else:
-                origem = 'premissa_F43 (massa retida: #1831/#1832/RONNING)'
+                origem = 'premissa_F43 (massa retida: #1832/RONNING)'
         t_m3 = massa / 1000.0
         coef = {m: SIDAC[m]['co2_kg_tkm'] * t_m3 for m in MODOS}          # kg CO2-eq/(m3.km)
         modo_padrao = MODO_PADRAO.get(tipo, 'betoneira')
