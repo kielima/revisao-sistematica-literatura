@@ -23,8 +23,10 @@ NOVAS = ['a4_transporte_tipo', 'massa_volumica_kg_m3', 'massa_volumica_origem', 
          'a4_leitura_frente', 'a4_leitura_nota']
 # sheet_row -> motivo (tarefa Supabase) da retencao da massa volumica
 RETIDOS = {}
-for r in (1691, 1083, 304, 316, 2091, *range(1937, 1949)):        # RABIE, BAYKARA, GRENGG, DU LT5S0, SAHMENKO GCP3, IRSHIDAT WCB
+for r in (316, 2091, *range(1937, 1949)):        # DU LT5S0, SAHMENKO GCP3, IRSHIDAT WCB
     RETIDOS[r] = 'aguarda #1832 (soma do traco SUSPEITO)'
+for r in (1691, 1083, 304):                                          # RABIE, BAYKARA, GRENGG (F58)
+    RETIDOS[r] = 'decidida em #1832 (F58, 2026-11-25): celulas preenchidas por aplicar_1832.py — nao regravar'
 RETIDOS[886] = 'aguarda #1832 (soma do traco SUSPEITO; era #1831 ate 2026-11-22)'          # IRSHIDAT ctrl (F55)
 for r in (139, 140, 765, 766, 767, 768, 769, 770, 1480, 1482, 1485, 1210, 1211, 1658, 1142):  # CHOI, LYRA, SKIBICKI, NASR, FORT, PAVLIK
     RETIDOS[r] = 'decidida em #1831 (F55, 2026-11-22): celulas preenchidas por aplicar_1831.py — nao regravar'
