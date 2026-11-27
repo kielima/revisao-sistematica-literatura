@@ -45,7 +45,7 @@ Folga: o corte de segunda deixa terça e quarta para refazer a rodada se a confe
 
 - ✅ **D1 — DECIDIDA (Kiê, 27/11: «Aceito»; registada na F59). #1809/F49:** A4 na opção principal só no grupo `sim`; os «prováveis» como opção à parte; sensibilidade de factor ×1,5 e ×2,5 sobre o SIDAC betoneira. **Recomendação: sim às três.**
 - ✅ **D2 — DECIDIDA (Kiê, 27/11: «Sim»; F60). #1811 âmbito:** os pares dos estudos secundários entram **só como sensibilidade** (não no principal, para não contar duas vezes estudos que já estão no corpus) e só os 9 prováveis (BIANCO + 8). **Recomendação: sim**; o resto → limitação.
-- **D3 — #1971 buscas actualizadas:** fora do prazo (7 bases + triagem E1–E4); passa a limitação/trabalho futuro. **Recomendação: adiar.**
+- ✅ **D3 — DECIDIDA (Kiê, 27/11: «Aceito, pode colocar como limitação»; F61). #1971 buscas actualizadas:** fora do prazo (7 bases + triagem E1–E4); passa a limitação/trabalho futuro. **Recomendação: adiar.**
 - **D4 — corte de dados antecipado para seg 30/11 23:59** (substitui o 03/12 da F57). **Recomendação: sim.**
 
 ## 4. Não bloqueia os números (vale a regra mais restritiva até haver decisão)

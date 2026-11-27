@@ -391,3 +391,9 @@ Script `metanalise/validar_a4.py` (só leitura) → `metanalise/transporte_a4_va
 - **Estado dos 9:** BIANCO lido (9 pares em `lotes_etapa2/SECUNDARIOS_E2_1811_2026-11-24.csv`); os outros 8 não estão no banco nem no Drive — 7 são Elsevier fechados e HEATH está atrás de anti-robô → **a Kiê descarrega os 8 pela CAPES** para `BAIXADOS MANUALMENTE`. O que estiver lido até ao corte de dados entra na sensibilidade; o resto fica como «em andamento».
 - **Implementação (por fazer):** pares dos secundários com `origem_dado = secundario` (col 42 de `dados_fck`), fora do estrato principal; uma linha «com estudos secundários» na tabela de sensibilidades.
 
+## F61 — D3 da linha crítica decidida: buscas não são actualizadas antes da entrega; passa a limitação (2026-11-27, decisão da Kiê: «Aceito, pode colocar como limitação»; registada pela sessão Metanálise; #1971)
+
+- **Decisão:** as buscas da RSL ficam com a data de **15/04/2025** (7 bases). A actualização até à data actual (#1971) **não** é feita antes do corte de dados nem da entrega de 18/12 — exigiria repetir as 7 bases, deduplicar contra os 5.093 registos, triar os novos em E1–E4 e extrair os pares, o que não cabe no prazo; uma actualização parcial deixaria a busca incoerente.
+- **Na dissertação:** declarar na secção de limitações (e no método, junto da data das buscas — #1928) que a cobertura temporal termina a 15/04/2025 e que a actualização fica como trabalho futuro, possível para a versão pós-defesa e a apresentação de fevereiro de 2027.
+- **Tarefa:** #1971 passa de «se der tempo antes da entrega» a trabalho futuro; nenhuma alteração de dados, painel ou modelo.
+
