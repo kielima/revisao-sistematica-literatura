@@ -77,7 +77,8 @@ Regra: antes de uma frente nova, **ler esta tabela, correr o §8.1, e acrescenta
 | #1969 — decisões da revisão da v20 (ci primário, D2/D5–D8 fechadas, A2 como sensibilidade em vez de QH, corte de dados 03/12) e sensibilidade A2 | F57 | #1969, #1971 | `claude/gifted-lovelace-4yssat` | `metanalise/DECISOES_METANALISE.md`, `metanalise/exportar_a2.py`, `metanalise/sensibilidade_a2.R`, `metanalise/resultados/sensibilidade_a2*.csv`, `a2_por_par.csv` | nenhum `.xlsx` tocado | feito em 2026-11-22 (ver F57) |
 | #1832 — massa volúmica dos 3 SUSPEITO (GRENGG, BAYKARA, RABIE) | F58 | #1832 | `claude/rsl-1832-massa-suspeito` | `lotes_transporte/` (`aplicar_1832.py`) | `meta_analysis_base.xlsx` `dados_fck` cols 88–90, 97 (3 linhas) | feito em 2026-11-25 (ver F58) |
 | Linha crítica até 02/12 (só planeamento, `metanalise/LINHA_CRITICA_2026-12-02.md`) | — | #1976 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` | nenhum `.xlsx` | proposta de 26/11, aguarda D1–D4 |
-| _próximo id livre_ | **F59** | | | | | |
+| #1808 parte R — sensibilidade do ci ao A4 (grupo `sim`, 50–300 km, SIDAC ×1/×1,5/×2,5) | F59 | #1808 | `claude/gifted-lovelace-51d124` | `metanalise/` (`sensibilidade_a4.R`, `resultados/sensibilidade_a4.csv`) | nenhum `.xlsx` | feito em 2026-11-27 (ver F59); painel por fazer |
+| _próximo id livre_ | **F60** | | | | | |
 
 Ids F-nn: reservar o seguinte na tabela **antes** de o usar em commit ou em `DECISOES_METANALISE.md` (evita duas frentes com o mesmo número).
 
