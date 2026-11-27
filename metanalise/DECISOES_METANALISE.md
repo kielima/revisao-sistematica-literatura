@@ -397,3 +397,9 @@ Script `metanalise/validar_a4.py` (só leitura) → `metanalise/transporte_a4_va
 - **Na dissertação:** declarar na secção de limitações (e no método, junto da data das buscas — #1928) que a cobertura temporal termina a 15/04/2025 e que a actualização fica como trabalho futuro, possível para a versão pós-defesa e a apresentação de fevereiro de 2027.
 - **Tarefa:** #1971 passa de «se der tempo antes da entrega» a trabalho futuro; nenhuma alteração de dados, painel ou modelo.
 
+## F62 — D4 da linha crítica decidida: corte de dados antecipado para seg 30/11/2026 às 23:59 (2026-11-27, decisão da Kiê: «Aceito»; registada pela sessão Metanálise; #1976)
+
+- **Decisão:** substitui as datas da F57 (corte 03/12, rodada final 04/12). Agora: **corte de dados seg 30/11 às 23:59** → **rodada final do modelo ter 01/12** (#1976: `preparar_dados.py` → v5 completo com leave-one-out → sensibilidades A2, corpo de prova, A4, secundários → `exportar_forest_site.R` + `inserir_modelo_site.py`) → **números congelados qua 02/12** para Resultados/Discussão/Conclusão/Resumo (#1937–#1940).
+- **O que entra:** só o que estiver integrado no `main` até 30/11 23:59. O resto (ex.: FERNANDO 2021 e SALAS 2018 dos secundários, se não chegarem; painel do A4 no site, se não estiver feito) aparece no texto como «em andamento», como a F57 já previa.
+- **Para os outros agentes:** depois do corte, nenhum PR novo altera `meta_analysis_base.xlsx` nem `articles_final.xlsx` até ao congelamento de 02/12, salvo correcção de erro encontrada na conferência da rodada final (COORDENACAO_AGENTES §5).
+
