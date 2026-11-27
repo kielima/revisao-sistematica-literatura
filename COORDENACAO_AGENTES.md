@@ -79,7 +79,8 @@ Regra: antes de uma frente nova, **ler esta tabela, correr o §8.1, e acrescenta
 | Linha crítica até 02/12 (só planeamento, `metanalise/LINHA_CRITICA_2026-12-02.md`) | — | #1976 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` | nenhum `.xlsx` | proposta de 26/11, aguarda D1–D4 |
 | #1808 parte R — sensibilidade do ci ao A4 (grupo `sim`, 50–300 km, SIDAC ×1/×1,5/×2,5) | F59 | #1808 | `claude/gifted-lovelace-51d124` | `metanalise/` (`sensibilidade_a4.R`, `resultados/sensibilidade_a4.csv`) | nenhum `.xlsx` | feito em 2026-11-27 (ver F59); painel por fazer |
 | D2 da linha crítica — secundários só como sensibilidade, só os 9 prováveis (#1811) | F60 | #1811 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` | nenhum `.xlsx` | decisão registada 27/11; leitura dos 8 por fazer (PDFs pela Kiê) |
-| _próximo id livre_ | **F61** | | | | | |
+| D3 da linha crítica — buscas não actualizadas, passa a limitação (#1971) | F61 | #1971 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` | nenhum `.xlsx` | decisão registada 27/11 |
+| _próximo id livre_ | **F62** | | | | | |
 
 Ids F-nn: reservar o seguinte na tabela **antes** de o usar em commit ou em `DECISOES_METANALISE.md` (evita duas frentes com o mesmo número).
 
