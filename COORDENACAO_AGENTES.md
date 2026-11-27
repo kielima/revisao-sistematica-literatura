@@ -81,7 +81,8 @@ Regra: antes de uma frente nova, **ler esta tabela, correr o §8.1, e acrescenta
 | D2 da linha crítica — secundários só como sensibilidade, só os 9 prováveis (#1811) | F60 | #1811 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` | nenhum `.xlsx` | decisão registada 27/11; leitura dos 8 por fazer (PDFs pela Kiê) |
 | D3 da linha crítica — buscas não actualizadas, passa a limitação (#1971) | F61 | #1971 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` | nenhum `.xlsx` | decisão registada 27/11 |
 | D4 da linha crítica — corte de dados seg 30/11 23:59, rodada final ter 01/12, congelamento qua 02/12 (#1976) | F62 | #1976 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` | nenhum `.xlsx` | decisão registada 27/11; **depois do corte, nenhum PR altera os `.xlsx` até 02/12** |
-| _próximo id livre_ | **F63** | | | | | |
+| A4 como tabela na dissertação + controlo interactivo no painel (#1808 parte painel) | F63 | #1808 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` + kielima-site `public/metanalise/`, `public/assets/metanalise.*` | nenhum `.xlsx` | decisão 27/11; correr `exportar_a4_site.R` + `inserir_a4_site.py` na rodada final |
+| _próximo id livre_ | **F64** | | | | | |
 
 Ids F-nn: reservar o seguinte na tabela **antes** de o usar em commit ou em `DECISOES_METANALISE.md` (evita duas frentes com o mesmo número).
 
