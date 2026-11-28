@@ -15,7 +15,8 @@
 #
 # Passos: (0) dependências → (1) [recalcular] → (2) PRISMA → (3) pares do modelo e do A4 →
 # (4) modelo v5 com leave-one-out → (5) sensibilidades → (6) forest e superfície do A4 →
-# (7) [site] → (8) conferência (metanalise/resultados/CONFERENCIA_RODADA.md).
+# (7) [site] → (8) conferência (metanalise/resultados/CONFERENCIA_RODADA.md) e tabela de todos os
+# números (metanalise/resultados/RESULTADOS_RODADA.md, gerar_resultados.py).
 # Pára no primeiro erro. Registo de cada passo em metanalise/resultados/rodada_logs/ (não versionado).
 # Tempo com sparse = TRUE (F64): ~3 min + 27 min da superfície do A4.
 # ================================================================
@@ -126,7 +127,9 @@ fi
 # (8) conferência
 echo
 if $PY metanalise/conferir_rodada.py $JS > "$LOGS/conferencia.log" 2>&1; then
+  $PY metanalise/gerar_resultados.py > /dev/null   # todos os números, para os capítulos e o congelamento
   sed -n '5,7p' metanalise/resultados/CONFERENCIA_RODADA.md
+  echo "Números: metanalise/resultados/RESULTADOS_RODADA.md"
   echo "✓ Rodada completa em $(( ($(date +%s) - T0) / 60 )) min — metanalise/resultados/CONFERENCIA_RODADA.md"
 else
   cat "$LOGS/conferencia.log"; echo "✗ A conferência falhou — NÃO congelar." >&2; exit 1
