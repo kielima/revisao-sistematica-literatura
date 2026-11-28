@@ -429,5 +429,5 @@ Script `metanalise/validar_a4.py` (só leitura) → `metanalise/transporte_a4_va
 - **Tarefa agendada de 01/12** (`trig_01TCMzFyqjHAFQ2y7KNWiZRR`) apagada.
 - **A partir de agora:** nenhum PR altera `meta_analysis_base.xlsx`, `articles_final.xlsx` nem `metanalise/resultados/` sem nova decisão da Kiê registada aqui (COORDENACAO_AGENTES). FERNANDO 2021 e SALAS 2018 (F60) ficam fora — limitação.
 - **Escrita:** a passagem para o Word é feita noutra sessão (pedido da Kiê); a lista de tudo o que vai para o texto está em `dissertacao/EDICOES_DISSERTACAO.md` (secção «Pendentes do congelamento de 28/11»).
-- **Por fazer, não bloqueia:** tag/release do repositório (#1970).
+- **Tag/release (28/11):** [`metanalise-congelada-2026-11-28`](https://github.com/kielima/revisao-sistematica-literatura/releases/tag/metanalise-congelada-2026-11-28), criada pelo workflow `.github/workflows/criar-release.yml` com as notas `metanalise/RELEASE_NOTES_2026-11-28.md`. O DOI Zenodo (#1970) depende de a Kiê ligar o repositório no Zenodo.
 
