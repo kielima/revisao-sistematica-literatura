@@ -2,11 +2,13 @@
 titulo: Linha crítica — metanálise completa com resultados até quarta-feira 02/12/2026
 descricao: Varredura do vault e das tarefas a 26/11 e caminho crítico para congelar os resultados da metanálise
 tags: [academico-e-pesquisa, meta-analise, planeamento]
-status: em-andamento
-ultima_atualizacao: 2026-11-26
+status: arquivado
+ultima_atualizacao: 2026-11-28
 ---
 
 # Linha crítica até quarta-feira, 02/12/2026
+
+> ✅ **CONCLUÍDA a 28/11/2026 (F65).** A Kiê antecipou a rodada final para 28/11: números congelados em `metanalise/RESULTADOS_CONGELADOS_2026-11-28.md`; a tarefa agendada de 01/12 foi apagada. O que resta é escrita (§5) — lista em `dissertacao/EDICOES_DISSERTACAO.md`.
 
 Pedido da Kiê (26/11): «varredura completa do vault e da metanálise e linha crítica de tarefas para entregar a metanálise completa com os resultados até quarta-feira». Fontes da varredura: `main` em `b4f8dc4` (F44–F58 integradas), `metanalise/DECISOES_METANALISE.md`, `COORDENACAO_AGENTES.md`, tarefas abertas do projecto «Concluir RSL com Meta-análise» (33) e do projecto «Dissertação» no app.
 
