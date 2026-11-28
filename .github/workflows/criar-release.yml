@@ -1,0 +1,55 @@
+name: Criar tag e release
+
+# Cria uma tag anotada e a release correspondente no GitHub, a partir de um
+# ficheiro de notas versionado no repositorio. Existe porque as sessoes do
+# Claude Code na nuvem nao conseguem enviar tags (o proxy recusa) e as
+# ferramentas MCP do GitHub nao criam releases; a Kie nao corre comandos.
+# Disparo manual (workflow_dispatch), por exemplo pela ferramenta
+# actions_run_trigger. Primeiro uso: congelamento da metanalise a 28/11/2026
+# (F65, tarefa #1970).
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Nome da tag (ex.: metanalise-congelada-2026-11-28)"
+        required: true
+      titulo:
+        description: "Titulo da release"
+        required: true
+      notas:
+        description: "Caminho, no repositorio, do ficheiro .md com as notas da release"
+        required: true
+      ref:
+        description: "Commit ou ramo a marcar (por omissao, main)"
+        required: false
+        default: main
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+          fetch-depth: 0
+      - name: Criar tag e release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ inputs.tag }}
+          TITULO: ${{ inputs.titulo }}
+          NOTAS: ${{ inputs.notas }}
+        run: |
+          test -f "$NOTAS" || { echo "notas nao encontradas: $NOTAS"; exit 1; }
+          if git rev-parse "refs/tags/$TAG" >/dev/null 2>&1; then
+            echo "a tag $TAG ja existe"; exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$TAG" -m "$TITULO"
+          git push origin "refs/tags/$TAG"
+          gh release create "$TAG" --title "$TITULO" --notes-file "$NOTAS" --verify-tag
+          echo "Release: $(gh release view "$TAG" --json url -q .url)"
