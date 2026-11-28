@@ -110,7 +110,7 @@ write.csv(data.frame(familia = sub("^familia", "", rownames(mf$b)), mu = as.nume
 # ----------------------------------------------------------------
 princ$vi <- monta_vi(princ)
 princ$sei <- sqrt(princ$vi)
-egger <- rma.mv(yi, vi, mods = ~ sei, random = ~ 1 | estudo / obs_id, data = princ, method = "REML")
+egger <- rma.mv(yi, vi, mods = ~ sei, random = ~ 1 | estudo / obs_id, data = princ, method = "REML", sparse = TRUE)
 write.csv(data.frame(termo = rownames(egger$b), estimativa = as.numeric(egger$b),
                      se = egger$se, p = egger$pval),
           file.path(out_dir, "egger_multinivel.csv"), row.names = FALSE)
@@ -131,7 +131,7 @@ if (Sys.getenv("LOO", "1") != "0") {
   loo <- parallel::mclapply(levels(droplevels(princ$estudo)), function(s) {
     dd <- droplevels(subset(princ, estudo != s))
     mm <- tryCatch(rma.mv(yi, vi, random = ~ 1 | estudo / obs_id, data = dd, method = "REML",
-                          control = list(sigma2.init = ini)), error = function(e) NULL)
+                          sparse = TRUE, control = list(sigma2.init = ini)), error = function(e) NULL)
     if (is.null(mm)) return(data.frame(estudo_omitido = s, mu = NA, ic95_inf = NA, ic95_sup = NA))
     data.frame(estudo_omitido = s, mu = as.numeric(mm$b), ic95_inf = mm$ci.lb, ic95_sup = mm$ci.ub)
   }, mc.cores = max(1, parallel::detectCores()))
