@@ -13,7 +13,7 @@
 # (coef_<modo> = factor SIDAC × massa volúmica, do motor_a4.py).
 #
 # Entrada: dados_metanalise.csv + transporte_a4_motor.csv (por obs_id).
-# Saída: resultados/a4_site.json  →  inserir_a4_site.py
+# Saída: resultados/a4_site.json (superfície km 0–300)  →  inserir_a4_site.py
 # Uso: Rscript metanalise/exportar_a4_site.R  (da raiz do repositório)
 # ================================================================
 suppressPackageStartupMessages({ library(metafor); library(dplyr); library(parallel) })
@@ -29,11 +29,20 @@ stopifnot(!any(is.na(d$a4_grupo)))
 d <- prepara_base(d)
 princ <- subset(d, estrato == "principal" & sem_bruto == 0)
 
-dist <- c(0, 10, 25, 50, 75, 100, 150, 200, 250, 300)
+dist <- 0:300
 fac <- c(1, 1.5, 2.5)
 grupos <- list(sim = "sim", sim_provavel = c("sim", "provavel"))
 
-grid <- expand.grid(modo = modos, km = dist[dist > 0], factor = fac, grupos = names(grupos),
+# Superfície de resposta exacta (F63, Kiê 2026-11-28: «superfície de resposta com
+# todos os km de 0 a 300»): um ajuste REML por km × veículo × factor × grupo, sem
+# interpolação. sparse = TRUE dá o mesmo resultado que o ajuste denso (testado:
+# μ e IC95 iguais até à 6.ª casa) em ~0,6 s em vez de ~39 s.
+ajusta_rapido <- function(dd) {
+  dd$vi <- monta_vi(dd, NULL)
+  rma.mv(yi, vi, random = ~ 1 | estudo / obs_id, data = dd, method = "REML", sparse = TRUE)
+}
+
+grid <- expand.grid(km = dist[dist > 0], modo = modos, factor = fac, grupos = names(grupos),
                     stringsAsFactors = FALSE)
 
 fit <- function(i) {
@@ -43,31 +52,38 @@ fit <- function(i) {
   coef[is.na(coef)] <- 0
   soma <- dd$a4_grupo %in% grupos[[g$grupos]]
   dd$yi <- ifelse(soma, (dd$co2_kg_m3 + g$factor * coef * g$km) / dd$fck, dd$ci)
-  m <- ajusta(dd)
+  m <- ajusta_rapido(dd)
   c(mu = as.numeric(m$b[1]), lb = m$ci.lb[1], ub = m$ci.ub[1])
 }
 
 dd0 <- princ; dd0$yi <- dd0$ci
-m0 <- ajusta(dd0)
+m0 <- ajusta_rapido(dd0)
+m0d <- ajusta(dd0)  # conferência com o ajuste denso do resto do projecto
+stopifnot(abs(m0$b[1] - m0d$b[1]) < 1e-6, abs(m0$ci.lb[1] - m0d$ci.lb[1]) < 1e-6)
 ref <- c(mu = as.numeric(m0$b[1]), lb = m0$ci.lb[1], ub = m0$ci.ub[1])
 
 r <- do.call(rbind, mclapply(seq_len(nrow(grid)), fit, mc.cores = max(1, detectCores())))
 grid <- cbind(grid, r)
 
-cen <- list()
-for (i in seq_len(nrow(grid))) {
-  g <- grid[i, ]
-  cen[[sprintf("%s|%g|%g|%s", g$modo, g$km, g$factor, g$grupos)]] <-
-    round(c(g$mu, g$lb, g$ub), 3)
+# superficie[grupo][modo|factor] = [mu[], lb[], ub[]] com 301 valores (km 0..300)
+sup <- list()
+for (gr in names(grupos)) {
+  sup[[gr]] <- list()
+  for (mo in modos) for (f in fac) {
+    s <- grid[grid$grupos == gr & grid$modo == mo & grid$factor == f, ]
+    s <- s[order(s$km), ]
+    sup[[gr]][[sprintf("%s|%g", mo, f)]] <- list(
+      round(c(ref[1], s$mu), 3), round(c(ref[2], s$lb), 3), round(c(ref[3], s$ub), 3))
+  }
 }
 out <- list(
   gerado = format(Sys.Date()),
-  base = "estrato principal, CO2 sem desconto (F9); A4 só no grupo sim (F38) ou sim+provavel (opção à parte)",
+  base = "estrato principal, CO2 sem desconto (F9); A4 só no grupo sim (F38) ou sim+provavel (opção à parte); um ajuste por km",
   k = m0$k, estudos = length(unique(princ$estudo)),
   n_sim = sum(princ$a4_grupo == "sim"), n_provavel = sum(princ$a4_grupo == "provavel"),
-  referencia = round(ref, 3), distancias = dist, factores = fac, modos = modos,
-  cenarios = cen)
+  referencia = round(ref, 3), km_max = max(dist), factores = fac, modos = modos,
+  superficie = sup)
 dir.create("metanalise/resultados", showWarnings = FALSE)
 writeLines(jsonlite::toJSON(out, auto_unbox = TRUE, digits = NA),
            "metanalise/resultados/a4_site.json")
-message("cenarios: ", length(cen))
+message("ajustes: ", nrow(grid))

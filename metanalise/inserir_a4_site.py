@@ -44,5 +44,5 @@ def put(s, var, val):
 js = put(js, 'A4', a4)
 js = put(js, 'A4MODELO', grid)
 open(js_path, 'w', encoding='utf-8').write(js)
-print('A4: %d pares (s=%d, p=%d); A4MODELO: %d cenarios' % (
-    len(a4), sum(r[0] == 's' for r in a4), sum(r[0] == 'p' for r in a4), len(grid['cenarios'])))
+print('A4: %d pares (s=%d, p=%d); A4MODELO: %d curvas km 0-300' % (
+    len(a4), sum(r[0] == 's' for r in a4), sum(r[0] == 'p' for r in a4), sum(len(v) for v in grid['superficie'].values())))
