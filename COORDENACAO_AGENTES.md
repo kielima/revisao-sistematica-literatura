@@ -83,7 +83,8 @@ Regra: antes de uma frente nova, **ler esta tabela, correr o §8.1, e acrescenta
 | D4 da linha crítica — corte de dados seg 30/11 23:59, rodada final ter 01/12, congelamento qua 02/12 (#1976) | F62 | #1976 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` | nenhum `.xlsx` | decisão registada 27/11; **depois do corte, nenhum PR altera os `.xlsx` até 02/12** |
 | A4 como tabela na dissertação + controlo interactivo no painel (#1808 parte painel) | F63 | #1808 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` + kielima-site `public/metanalise/`, `public/assets/metanalise.*` | nenhum `.xlsx` | decisão 27/11; correr `exportar_a4_site.R` + `inserir_a4_site.py` na rodada final |
 | Ajuste do modelo com `sparse = TRUE` (mesmos resultados, ~50× mais rápido) | F64 | #1976 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/funcoes_modelo.R`, `metanalise_rma_mv_REML_v5.R` | nenhum `.xlsx` | testado 28/11 contra todos os resultados integrados |
-| _próximo id livre_ | **F65** | | | | | |
+| Rodada final antecipada para 28/11 e números congelados (`RESULTADOS_CONGELADOS_2026-11-28.md`) | F65 | #1976 | `claude/retomada-confirmacao-pdf-6tsyhg-tnc4ro` | `metanalise/` | nenhum `.xlsx` | **CONGELADO a 28/11: nenhum PR altera os `.xlsx` nem `metanalise/resultados/` sem nova decisão da Kiê** |
+| _próximo id livre_ | **F66** | | | | | |
 
 Ids F-nn: reservar o seguinte na tabela **antes** de o usar em commit ou em `DECISOES_METANALISE.md` (evita duas frentes com o mesmo número).
 

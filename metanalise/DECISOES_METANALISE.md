@@ -421,3 +421,13 @@ Script `metanalise/validar_a4.py` (só leitura) → `metanalise/transporte_a4_va
 - **Na dissertação:** declarar no método «rma.mv (metafor), REML, com matrizes esparsas».
 - **Script único da rodada final (Kiê, 28/11: «Pode fazer o script único da rodada final»):** `metanalise/rodada_final.sh` (ordem dos passos, pára no primeiro erro), `metanalise/inserir_dados_site.py` (DATA, UNIT_STATS, UNIT_EXCLUDED, VIDA_FAM, funil e KPI do painel, antes copiados à mão) e `metanalise/conferir_rodada.py` (22 verificações: mesmos pares em todas as saídas, mesmo resultado principal em modelo/sensibilidades/forest/A4, painel = PRISMA). Ensaio a 28/11 com os dados de 21/11: tudo confere; site e resultados só diferem nas datas e no ruído numérico da 7.ª casa.
 - **Rodada agendada e números gerados (Kiê, 28/11: «Pode agendar para terça às 9h»):** tarefa agendada `trig_01TCMzFyqjHAFQ2y7KNWiZRR` (ter 01/12, 9h de Brasília, sessão nova) corre `rodada_final.sh`, abre os PRs e avisa a Kiê. A rodada passa a gerar também `metanalise/resultados/RESULTADOS_RODADA.md` (`metanalise/gerar_resultados.py`: todos os números com vírgula decimal, para os capítulos); no congelamento de 02/12 copia-se para `RESULTADOS_CONGELADOS_2026-12-02.md`.
+
+## F65 — Rodada final antecipada para 28/11 e números congelados (2026-11-28, Kiê: «Na verdade vamos deixar a rodada final a de hoje mesmo»; registada pela sessão Metanálise; #1976)
+
+- **Decisão:** supera as datas da F62 (corte 30/11, rodada 01/12, congelamento 02/12). A rodada completa feita hoje com `metanalise/rodada_final.sh` (dados do `main` a 28/11; último `.xlsx` integrado a 25/11, F58; nenhum PR aberto) é a **rodada final**, e os números ficam **congelados** em `metanalise/RESULTADOS_CONGELADOS_2026-11-28.md`.
+- **Números:** principal **10,54 [9,87–11,20]** kg CO₂-eq/(m³·MPa), k 1.113, 302 estudos; `ci_t` 0,195 [0,181–0,209]; 1.498 pares no painel, 398 estudos com par; corpus 466 (362 principal + 104 sensibilidade). Conferência de 22 pontos sem falhas. O painel publicado já mostrava estes números (a rodada só mudou as datas «gerado» e ruído na 7.ª casa decimal — os ficheiros integrados ficam como estão).
+- **Tarefa agendada de 01/12** (`trig_01TCMzFyqjHAFQ2y7KNWiZRR`) apagada.
+- **A partir de agora:** nenhum PR altera `meta_analysis_base.xlsx`, `articles_final.xlsx` nem `metanalise/resultados/` sem nova decisão da Kiê registada aqui (COORDENACAO_AGENTES). FERNANDO 2021 e SALAS 2018 (F60) ficam fora — limitação.
+- **Escrita:** a passagem para o Word é feita noutra sessão (pedido da Kiê); a lista de tudo o que vai para o texto está em `dissertacao/EDICOES_DISSERTACAO.md` (secção «Pendentes do congelamento de 28/11»).
+- **Por fazer, não bloqueia:** tag/release do repositório (#1970).
+
