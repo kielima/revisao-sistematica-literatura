@@ -55,6 +55,9 @@ if ! Rscript -e 'suppressMessages({library(metafor); library(dplyr); library(jso
   apt-get update -qq && apt-get install -y -qq r-base-core r-cran-metafor r-cran-dplyr r-cran-jsonlite >/dev/null
 fi
 $PY -c 'import openpyxl' || { echo "falta openpyxl em $PY" >&2; exit 1; }
+if [ -n "$SITE" ] && ! $PY -c 'import pycountry' 2>/dev/null; then   # metanalise-export-mapa.py
+  apt-get install -y -qq python3-pycountry >/dev/null 2>&1 || $PY -m pip install -q --break-system-packages pycountry
+fi
 
 # (1) colunas derivadas no xlsx (opcional)
 if [ $RECALC = 1 ]; then
@@ -113,9 +116,11 @@ if [ -n "$SITE" ]; then
   passo "site: DATA, funil e KPI" $PY metanalise/inserir_dados_site.py "$EXP" "$JS"
   passo "site: MODELO" $PY metanalise/inserir_modelo_site.py metanalise/resultados/forest_site.json "$JS"
   passo "site: A4" $PY metanalise/inserir_a4_site.py "$JS"
-  passo "site: mapa" bash -c "$PY metanalise-export-mapa.py > '$SITE/public/metanalise/dados/mapa.json'"
-  passo "site: banco" bash -c "$PY metanalise-export-banco.py > '$SITE/public/metanalise/dados/banco.json'"
-  rm -f "$EXP"
+  # escreve primeiro num temporário: um erro nunca deixa o ficheiro do site vazio
+  D="$SITE/public/metanalise/dados"
+  passo "site: mapa" bash -c "$PY metanalise-export-mapa.py > '$EXP.mapa' && mv '$EXP.mapa' '$D/mapa.json'"
+  passo "site: banco" bash -c "$PY metanalise-export-banco.py > '$EXP.banco' && mv '$EXP.banco' '$D/banco.json'"
+  rm -f "$EXP" "$EXP.mapa" "$EXP.banco"
 fi
 
 # (8) conferência

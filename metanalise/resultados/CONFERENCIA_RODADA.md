@@ -1,6 +1,6 @@
 # Conferência da rodada
 
-Gerado por `metanalise/conferir_rodada.py` em 2026-11-28 13:02.
+Gerado por `metanalise/conferir_rodada.py` em 2026-11-28 13:38.
 
 **Resultado principal:** μ 10.54 [9.87–11.20], k 1113, 302 estudos · 1498 pares no painel, 398 estudos com par · corpus 466 (362 principal + 104 sensibilidade).
 
