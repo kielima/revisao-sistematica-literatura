@@ -43,14 +43,18 @@ monta_vi <- function(dd, cv_assumido = NULL) {  # A4 (+ A5 quando cv_assumido)
   pmax(vi, VI_MIN)
 }
 
+# sparse = TRUE (2026-11-28, autorizado pela Kiê): mesmo ajuste REML com álgebra de
+# matrizes esparsas — resultados iguais ao ajuste denso (conferido em todos os
+# ficheiros de resultados), ~50x mais rápido.
 ajusta <- function(dd, yi = "yi", cv_assumido = NULL, mods = NULL) {
   dd$yi_ <- dd[[yi]]
   dd$yi <- dd$yi_
   dd$vi <- monta_vi(dd, cv_assumido)
   if (is.null(mods))
-    return(rma.mv(yi_, vi, random = ~ 1 | estudo / obs_id, data = dd, method = "REML"))
+    return(rma.mv(yi_, vi, random = ~ 1 | estudo / obs_id, data = dd, method = "REML",
+                  sparse = TRUE))
   rma.mv(yi_, vi, mods = as.formula(paste("~", mods)), random = ~ 1 | estudo / obs_id,
-         data = dd, method = "REML")
+         data = dd, method = "REML", sparse = TRUE)
 }
 
 # I2 multinivel (Nakagawa & Santos / metafor FAQ)
